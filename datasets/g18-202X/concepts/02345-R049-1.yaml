@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02345-R049-1'
+  localized_concepts:
+    eng: b7d87c8d-c24b-547e-aa11-64d9586dac09
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.1.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: e47c89d3-aaaf-4746-8206-271164f8a48f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of the meter that allows an adjustment of the meter such that the error curve of the meter is generally shifted parallel to itself to fit in the envelope of the maximum permissible error(s) (3.2.5)'
+  id: 02345-R049-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note:For the definition of the term “adjustment of a measuring system”, see ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM)3.11, [1].'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'adjustment device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: b7d87c8d-c24b-547e-aa11-64d9586dac09

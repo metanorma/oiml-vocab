@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02330-R085-1'
+  localized_concepts:
+    eng: 80d73d98-ed0d-5343-a6ce-b87666b29d1f
+  sources:
+  - origin:
+      ref:
+        source: OIML R085-1:2008
+    locality:
+      type: clause
+      reference_from: '3.32'
+    type: authoritative
+  domains:
+  - concept_id: section-R085-1
+    ref_type: section
+status: valid
+id: ce6537ab-12d5-434f-9c48-215b6742730b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference between the error of indication and the intrinsic error of an ALG'
+  id: 02330-R085-1-eng
+  language_code: eng
+  notes:
+  - content: 'principally a fault is the result of an undesired change of data contained in or flowing through an ALG.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 80d73d98-ed0d-5343-a6ce-b87666b29d1f

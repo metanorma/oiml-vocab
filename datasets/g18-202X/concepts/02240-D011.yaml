@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02240-D011'
+  localized_concepts:
+    eng: e593d968-de7c-5ccc-871b-1cc5a427f0d0
+  sources:
+  - origin:
+      ref:
+        source: OIML D011:2013
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  domains:
+  - concept_id: section-D011
+    ref_type: section
+status: valid
+id: 5d642c46-c069-4ef7-a6f6-236fa2d74202
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'facility incorporated in a measuring instrument that enables significant durability errors to be detected and acted upon'
+  id: 02240-D011-eng
+  language_code: eng
+  notes:
+  - content: 'Note:“Act upon” refers to any adequate response by the measuring instrument (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'durability protection facility'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e593d968-de7c-5ccc-871b-1cc5a427f0d0

@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02251-D011'
+  localized_concepts:
+    eng: dba02906-f990-5249-be30-5b28f03f50f3
+  sources:
+  - origin:
+      ref:
+        source: OIML D011:2013
+    locality:
+      type: clause
+      reference_from: '3.26'
+    type: authoritative
+  domains:
+  - concept_id: section-D011
+    ref_type: section
+status: valid
+id: f507b477-ceae-40fe-b7d5-aa912ca2c48f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'battery that is intended to maintain power supply for specific functions of an instrument in the absence of the primary power supply Example: To preserve stored data.'
+  id: 02251-D011-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'back-up battery'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: dba02906-f990-5249-be30-5b28f03f50f3

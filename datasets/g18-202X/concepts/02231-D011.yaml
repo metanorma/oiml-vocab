@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02231-D011'
+  localized_concepts:
+    eng: d7fbb1a3-bee8-5a69-adac-75fdfce4d0f4
+  sources:
+  - origin:
+      ref:
+        source: OIML D011:2013
+    locality:
+      type: clause
+      reference_from: '3.15.2'
+    type: authoritative
+  domains:
+  - concept_id: section-D011
+    ref_type: section
+status: valid
+id: 6bd68fe7-62d8-4d7e-8245-2d78bda7d60c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'influence quantity having a value within the limits specified in the applicable Recommendation but outside the specified rated operating conditions of the measuring instrument [VIML 5.19]'
+  id: 02231-D011-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:These limits to be specified in the applicable Recommendation shall be based on the probability of occurrence of the disturbing phenomenon within the environment of the measuring instrument. Note 2:A disturbance typically is of stochastic nature. Note 3:  In case the listed rated operating conditions of a measuring instrument do not include a range for the specific influence quantity, the influence quantity is qualified as being a disturbance.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'disturbance'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d7fbb1a3-bee8-5a69-adac-75fdfce4d0f4

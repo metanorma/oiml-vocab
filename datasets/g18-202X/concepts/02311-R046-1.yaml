@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02311-R046-1'
+  localized_concepts:
+    eng: 42c60e55-5075-5b29-a000-306f43635e12
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.12'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 61cf3b48-92c9-46ca-b16d-aee151e8019b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'integer number used to identify a harmonic'
+  id: 02311-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The harmonic number is the ratio of the frequency of a harmonic to the fundamental frequency of the signal.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'harmonic number'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 42c60e55-5075-5b29-a000-306f43635e12

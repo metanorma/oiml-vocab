@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02232-D011'
+  localized_concepts:
+    eng: 0ad2b761-c0fb-5f53-a80c-08f224f30389
+  sources:
+  - origin:
+      ref:
+        source: OIML D011:2013
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  domains:
+  - concept_id: section-D011
+    ref_type: section
+status: valid
+id: 64db0d92-76cb-40a8-b590-952d21c7d928
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'operating condition that must be fulfilled during measurement in order that a measuring instrument or measuring system perform as designed [VIM 4.9][VIML 0.08]'
+  id: 02232-D011-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Rated operating conditions generally specify intervals of values for a quantity being measured and for any influence quantity.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'rated operating condition'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 0ad2b761-c0fb-5f53-a80c-08f224f30389

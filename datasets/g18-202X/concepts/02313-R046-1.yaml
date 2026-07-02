@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02313-R046-1'
+  localized_concepts:
+    eng: e3293622-5b53-5cb2-94a2-925e27c2e6d1
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.14'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 330d5535-5eb1-4e6e-93f0-6e5440d884ee
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'ratio of the active power to the apparent power'
+  id: 02313-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note:At sinusoidal and either one-phase or symmetrical three-phase conditions, the power factor = cos  = the cosine of the phase difference   between voltage U and current I.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'power factor (PF)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e3293622-5b53-5cb2-94a2-925e27c2e6d1

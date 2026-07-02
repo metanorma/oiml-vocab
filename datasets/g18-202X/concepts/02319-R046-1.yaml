@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02319-R046-1'
+  localized_concepts:
+    eng: 61e0197d-5a95-5363-89f4-29d6e6b00ec7
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.19'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 6644cb90-618b-4506-b182-95ac7d78a9e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'extreme value of the change in error of indication of a meter, permitted by this Recommendation, when a single influence factor is taken from its value at reference conditions and varied within the rated operating conditions'
+  id: 02319-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: For each influence factor there is one corresponding maximum permissible error shift. Note 2: In this Recommendation, the maximum permissible error is a combination of the base maximum permissible error and the maximum permissible error shift as described in Annex B.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'maximum permissible error shift'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 61e0197d-5a95-5363-89f4-29d6e6b00ec7

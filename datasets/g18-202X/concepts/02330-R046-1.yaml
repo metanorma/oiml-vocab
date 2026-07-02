@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02330-R046-1'
+  localized_concepts:
+    eng: 8c0ffe44-1856-50c7-a5de-083ef9dab093
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.31'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 4c2f70d5-7349-4442-ba50-66f77f01dd75
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault exceeding the applicable fault limit value [OIML D11:2004, 3.10]'
+  id: 02330-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The following are also considered to be significant faults: a change larger than the critical change value (see 3.3.6.2) has occurred in the measurement registers due to disturbances; the functionality of the meter has become impaired.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 8c0ffe44-1856-50c7-a5de-083ef9dab093

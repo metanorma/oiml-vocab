@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02337-R046-1'
+  localized_concepts:
+    eng: 42b23fec-263b-5da4-ab6a-34dd8dd82ba0
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.38'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 3c8e03c2-30d1-4b70-97e5-85998b46b6e5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'direction of energy flow opposite to positive'
+  id: 02337-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For positive-direction only, the opposite direction is termed reverse energy flow (see 2.2.39).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'negative (energy) flow (for bi-directional and uni-directional meters)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 42b23fec-263b-5da4-ab6a-34dd8dd82ba0

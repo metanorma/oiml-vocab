@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02314-R046-1'
+  localized_concepts:
+    eng: fb59d4ad-4124-52be-90b4-ced8215e1d3a
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.15'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 6368ad26-0ef4-41c4-af53-85dcc69a393f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'rate at which energy is transported'
+  id: 02314-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note:In an electrical system active power is measured as the time mean of the instantaneous power, which is calculated at each instant as the product of voltage and current: where:u is the instantaneous voltage,i is the instantaneous current, p is the instantaneous power. At sinusoidal conditions active power is the product of the r.m.s. values of current and voltage and the cosine of the phase angle between them, calculated for each phase. It is usually expressed in kW:'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'active power'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: fb59d4ad-4124-52be-90b4-ced8215e1d3a
