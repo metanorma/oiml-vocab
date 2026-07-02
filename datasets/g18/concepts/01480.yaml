@@ -1,3 +1,4 @@
+---
 data:
   identifier: '01480'
   localized_concepts:
@@ -23,15 +24,15 @@ data:
     type: accepted
   definition:
   - content: 'a measure of variation in the detector signal; it can be divided Althoug
-      long-term noise can occur at any time into three components: dur  short-term
+      long-term noise can occur at any time into three components: dur * short-term
       noise includes all observable random lat variations of the detector signal having
       a frequency of usu the order of 10–2 Hz to 10–1 Hz (one or more cycles per lon
-      minute) and should be measured peak to peak  long-term noise includes all observable
+      minute) and should be measured peak to peak * long-term noise includes all observable
       random variations of the detector signal with frequencies between 0.1 Hz and
-      1.0 Hz  drift is the average slope of the baseline signal measured over a minimum
+      1.0 Hz * drift is the average slope of the baseline signal measured over a minimum
       period of one-half hour.'
   examples: []
-  id: 01480-eng
+  id: '01480-eng'
   notes:
   - content: ing an analysis, it can be mistaken for a e-eluting peak. Earlier eluting
       peaks are ally sharper and less easily confused wit g-term noise.
