@@ -193,14 +193,54 @@ both_ids.sort.each do |id|
   end
 end
 
-# Detect redundant bare IDs: 7 IDs in the source PDF are reused for two
-# different terms each. YAML represents each occurrence as `<id>a` /
-# `<id>b` AND keeps a `<id>` bare version that duplicates one side. The
-# bare versions are cruft and should be reviewed for removal.
-redundant_bare_ids = yaml_ids.select do |id|
-  next false unless id =~ /\A\d{5}\z/
-  yaml_ids.include?("#{id}a") && yaml_ids.include?("#{id}b")
-end.sort
+# Detect mis-numbered IDs in the source publication: the G 18:2010 PDF
+# reuses the same 5-digit identifier for two distinct concepts. YAML models
+# this as `<id>a.yaml` / `<id>b.yaml`. The extraction also produced a bare
+# `<id>.yaml` that, on inspection, is always either (a) an exact copy of
+# one of a/b, or (b) a corrupted extraction of one of a/b (clause missing,
+# clause text leaked into the definition, etc.). The bare adds no unique
+# information and is safe to remove in favor of the a/b split.
+#
+# Returns: hash of `id => { bare:, a:, b:, bare_matches: :a|:b|:unique,
+# bare_corrupted: bool }` for every mis-numbered ID.
+def detect_misnumbered_ids(yaml)
+  yaml_ids = yaml.keys
+  yaml_ids.each_with_object({}) do |id, h|
+    next unless id =~ /\A\d{5}\z/
+    a_key = "#{id}a"
+    b_key = "#{id}b"
+    next unless yaml_ids.include?(a_key) && yaml_ids.include?(b_key)
+    bare = yaml[id]
+    a = yaml[a_key]
+    b = yaml[b_key]
+    bare_def = (bare["definition"] || "").strip
+    a_def = (a["definition"] || "").strip
+    b_def = (b["definition"] || "").strip
+    matches_a = bare["designation"] == a["designation"] && bare_def == a_def
+    matches_b = bare["designation"] == b["designation"] && bare_def == b_def
+    # "Corrupted" = same designation + source publication but the definition
+    # differs (typically: clause text leaked in, words mangled).
+    corrupted_against =
+      if matches_a then nil
+      elsif matches_b then nil
+      elsif bare["designation"] == a["designation"] && bare["source"] == a["source"] then :a
+      elsif bare["designation"] == b["designation"] && bare["source"] == b["source"] then :b
+      else nil
+      end
+    h[id] = {
+      bare_designation: bare["designation"],
+      bare_source: bare["source"],
+      a_designation: a["designation"],
+      a_source: a["source"],
+      b_designation: b["designation"],
+      b_source: b["source"],
+      bare_matches: matches_a ? :a : (matches_b ? :b : :none),
+      bare_corrupted_against: corrupted_against,
+    }
+  end
+end
+
+misnumbered = detect_misnumbered_ids(yaml)
 
 report = {
   "summary" => {
@@ -213,11 +253,11 @@ report = {
     "designation_mismatches" => designation_mismatches.size,
     "definition_corruption"  => definition_corruption.size,
     "designation_corruption" => designation_corruption.size,
-    "redundant_bare_ids"     => redundant_bare_ids.size,
+    "misnumbered_ids"        => misnumbered.size,
   },
   "in_ocr_not_yaml"  => in_ocr_not_yaml.sort,
   "in_yaml_not_ocr"  => in_yaml_not_ocr.sort,
-  "redundant_bare_ids" => redundant_bare_ids,
+  "misnumbered_ids"  => misnumbered,
   "designation_mismatches" => designation_mismatches,
   "definition_corruption"  => definition_corruption,
   "designation_corruption" => designation_corruption,
@@ -241,7 +281,23 @@ puts "  Designation mismatches: #{designation_mismatches.size}"
 puts "  Definition corruption:  #{definition_corruption.size}"
 puts "  Designation corruption: #{designation_corruption.size}"
 puts
-puts "Structural issues:"
-puts "  Redundant bare IDs (duplicated by a/b split): #{redundant_bare_ids.size}"
+puts "Source publication issues:"
+puts "  Mis-numbered IDs (source reuses ID for two concepts): #{misnumbered.size}"
+if misnumbered.any?
+  puts "    Per-ID breakdown:"
+  misnumbered.each do |id, info|
+    status =
+      case info[:bare_matches]
+      when :a then "bare is exact copy of #{id}a"
+      when :b then "bare is exact copy of #{id}b"
+      else
+        c = info[:bare_corrupted_against]
+        c ? "bare is corrupted extraction of #{id}#{c}" : "bare has unique content (review)"
+      end
+    puts "      #{id}: a=#{info[:a_designation].inspect} (#{info[:a_source]})"
+    puts "           b=#{info[:b_designation].inspect} (#{info[:b_source]})"
+    puts "           #{status}"
+  end
+end
 puts
 puts "Full report: #{options[:out_path]}"
