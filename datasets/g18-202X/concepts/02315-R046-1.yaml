@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02315-R046-1'
+  localized_concepts:
+    eng: f6b65506-8d2a-5053-ae5a-baf37c36d014
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.16'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 9eaed763-34a4-486d-b256-279b4ae06f3e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'active power integrated over time'
+  id: 02315-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: where:E is the active energy. Other symbols are as defined in 0 Note 2:   Active energy is usually expressed in kWh or MWh. Refer to 3.1 for requirements on units of measurement.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'active energy'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: f6b65506-8d2a-5053-ae5a-baf37c36d014

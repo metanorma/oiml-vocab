@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02331-R046-1'
+  localized_concepts:
+    eng: 422c3a25-3058-5a2a-9e37-950b702cba06
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.32'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 988344ea-edd6-4883-9fb4-8b535443fbee
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'facility that is incorporated in a measuring instrument and which enables significant faults to be detected and acted upon'
+  id: 02331-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: “Acted upon” refers to any adequate response by the measuring instrument (luminous signal, acoustic signal, prevention of the measurement process, etc.). [OIML V 1:2013, 5.07] Note 2: For the application of this Recommendation, the term “measuring instrument” means: electricity meter and the action following the detection of a significant fault should be either to stop measuring and record the time and duration of the stop, or record the time and duration of the fault and the amount of energy measured during the fault. Note 3Faults that are detected and acted upon by means of a checking facility shall not be considered as significant faults.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'checking facility'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 422c3a25-3058-5a2a-9e37-950b702cba06

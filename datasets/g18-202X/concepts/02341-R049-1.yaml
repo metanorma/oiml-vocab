@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02341-R049-1'
+  localized_concepts:
+    eng: 024c350c-5e29-54ff-82b5-24979542a7bc
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.1.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: abe1c072-ba07-4c60-985a-8c73510259aa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of the meter that transforms the flow rate (3.3.1) or volume of water to be measured into signals which are passed to the calculator (3.1.40 and includes the sensor (3.1.3)'
+  id: 02341-R049-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note:The measurement transducer may function autonomously or use an external power source and may be based on a mechanical, electrical or electronic principle.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement transducer'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 024c350c-5e29-54ff-82b5-24979542a7bc

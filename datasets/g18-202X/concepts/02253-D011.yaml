@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02253-D011'
+  localized_concepts:
+    eng: ef505695-76ed-5d5e-a787-c2f4baa0e1ba
+  sources:
+  - origin:
+      ref:
+        source: OIML D011:2013
+    locality:
+      type: clause
+      reference_from: '3.28'
+    type: authoritative
+  domains:
+  - concept_id: section-D011
+    ref_type: section
+status: valid
+id: 9486a353-3839-4025-b638-57b52e474c97
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'non-negative parameter characterizing the dispersion of the quantity values being attributed to a measurand, based on the information used [VIM 2.26]'
+  id: 02253-D011-eng
+  language_code: eng
+  notes:
+  - content: 'Note:See VIM 2.26 for notes on this definition.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement uncertainty uncertainty of measurement uncertainty'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ef505695-76ed-5d5e-a787-c2f4baa0e1ba

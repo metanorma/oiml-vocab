@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02324-R046-1'
+  localized_concepts:
+    eng: bd96fa34-db23-5436-bfc1-effeab67dafe
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.25'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 8c026a2c-3e39-49be-aefc-c08099ca1e89
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'influence quantity having a value within the limits specified in this Recommendation, but outside the specified rated operating conditions of a measuring instrument [OIML V1:2013, 5.19]'
+  id: 02324-R046-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note:An influence quantity is a disturbance if the rated operating conditions for that influence quantity are not specified.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'disturbance'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: bd96fa34-db23-5436-bfc1-effeab67dafe

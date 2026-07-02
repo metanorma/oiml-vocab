@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02344-R049-1'
+  localized_concepts:
+    eng: 9eee4194-6d5e-5b02-88fc-422d6910a4ae
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.1.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: 773d4ca9-c694-4c1e-b864-809521df5d02
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of the meter that provides an indication corresponding to the volume of water passing through the meter'
+  id: 02344-R049-1-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:For the definition of the term “indication”, see ISO/IEC Guide 99:2007/OIML V2-200:2012 (VIM), 4.1 [1].. Note 2: In this Recommendation, the volume of water passing throught the meter refers to accumulated volume.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'indicating device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 9eee4194-6d5e-5b02-88fc-422d6910a4ae
