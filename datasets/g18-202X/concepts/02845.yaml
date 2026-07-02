@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02845'
+  localized_concepts:
+    eng: 39a0f323-ea22-5f75-ad92-ba00eab9f1b1
+  sources:
+  - origin:
+      ref:
+        source: OIML D010:2022
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  domains:
+  - concept_id: section-D010
+    ref_type: section
+status: valid
+id: 9e9905f1-2eb0-4baa-ab26-c502100b774d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity to be measured (VIM:2007, 3.11)'
+  id: 02845-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Types of adjustment of a measuring system include zero adjustment of a measuring system, offset adjustment, and span adjustment (sometimes called gain adjustment). Note 2: Adjustment of a measuring system should not be confused with calibration, which is a prerequisite for adjustment. Note 3: After an adjustment of a measuring system, the measuring system must usually be recalibrated.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'adjustment of a measuring system adjustment'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 39a0f323-ea22-5f75-ad92-ba00eab9f1b1

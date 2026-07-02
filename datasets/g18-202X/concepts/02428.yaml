@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02428'
+  localized_concepts:
+    eng: 8bd70e98-5baf-5ecb-8a15-09170253fb5b
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.4.8'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: f5977598-9543-413b-b566-b9df3bccceaa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'condition in which all parts of the equipment under test (3.1.17) have a temperature within 3 °C of each other, or as otherwise specified in the relevant specification of its final temperature'
+  id: 02428-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'temperature stability'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 8bd70e98-5baf-5ecb-8a15-09170253fb5b

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02811'
+  localized_concepts:
+    eng: 29b23d1d-2821-5bc0-8bee-00ac7a0d1ad8
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.2.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: 85a87da8-af5f-4dc6-8a62-8302bc74aebe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'concentration of protein in a grain sample, expressed as a percentage by mass, calculated at the basis moisture content (MB)'
+  id: 02811-eng
+  language_code: eng
+  notes:
+  - content: 'Note: When the specified MB is 0 %, the reported protein content is at ‘dry basis’ (i.e. P0 %).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'protein content (PMB)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 29b23d1d-2821-5bc0-8bee-00ac7a0d1ad8

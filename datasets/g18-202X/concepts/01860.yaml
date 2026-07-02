@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01860'
+  localized_concepts:
+    eng: bc3fed33-a992-5386-9dfc-a9bdf502d8d1
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.21'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: 12fe5e3e-60e5-4f16-ac53-37870286f30b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference between a higher and lower wavelength value at which the value of an optical quantity is reduced to half of its maximum value between the two wavelengths'
+  id: 01860-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The coherent SI unit is the metre (m), but often the nanometre (nm) is used. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'spectral width at half maximum value'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: bc3fed33-a992-5386-9dfc-a9bdf502d8d1

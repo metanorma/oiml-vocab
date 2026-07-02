@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02822'
+  localized_concepts:
+    eng: 56dc59e6-092b-5655-b4a5-43b745eba600
+  sources:
+  - origin:
+      ref:
+        source: OIML R147:2016
+    locality:
+      type: clause
+      reference_from: '2.2.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R147
+    ref_type: section
+status: valid
+id: 5cdd2fa1-9efe-44f7-adb3-7e10d455a545
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'expanded uncertainty at a specified confidence level (p = 0.95 or p = 0.99) declared in the technical documentation, at which the BBR is considered fit for its intended use. The standard uncertainty upBB = UpBB/k(p) is calculated from either k(p = 0.95) =   or k(p = 0.99) = 3'
+  id: 02822-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'permissible uncertainty UpBB'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 56dc59e6-092b-5655-b4a5-43b745eba600

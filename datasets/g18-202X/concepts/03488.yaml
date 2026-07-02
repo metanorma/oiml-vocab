@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03488'
+  localized_concepts:
+    eng: ccbd390e-772c-5c0a-98d2-9cf09297c4f5
+  sources:
+  - origin:
+      ref:
+        source: OIML R126-1:2021
+    locality:
+      type: clause
+      reference_from: '3.1.25'
+    type: authoritative
+  domains:
+  - concept_id: section-R126-1
+    ref_type: section
+status: valid
+id: 04d127cc-4656-4f16-9a1e-130a28f93665
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'quotient of change in an indication of measuring system and the corresponding change in a value of quantity being measured (OIML V 2-200, 4.12)'
+  id: 03488-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Sensitivity of measuring system can depend on the value of the quantity being measured. Note 2: The change considered in a value of a quantity being measured must be large compared with the resolution. Note 3: In the scope of this Recommendation, sensitivity relates to the added substance which is not identical with the measurand.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'sensitivity'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ccbd390e-772c-5c0a-98d2-9cf09297c4f5

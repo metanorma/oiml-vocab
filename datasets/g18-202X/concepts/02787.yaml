@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02787'
+  localized_concepts:
+    eng: da8a26c7-0013-5500-8a50-734421325e29
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.1 Tab. 1.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: 40c26bc6-f87e-4462-a4df-4c27ee256548
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: '{value representing a measurement result [VIM 2.10]}'
+  id: 02787-eng
+  language_code: eng
+  notes:
+  - content: '{NOTE 1 For a measurement involving replicate indications, each indication can be used to provide a corresponding measured quantity value. This set of individual measured quantity values can be used to calculate a resulting measured quantity value, such as an average or median, usually with a decreased associated measurement uncertainty. NOTE 2 When the range of the true quantity values believed to represent the measurand is small compared with the measurement uncertainty, a measured quantity value can be considered to be an estimate of an essentially unique true quantity value and is often an average or median of individual measured quantity values obtained through replicate measurements. NOTE 3 In the case where the range of the true quantity values believed to represent the measurand is not small compared with the measurement uncertainty, a measured quantity value is often an estimate of an average or median of the set of true quantity values. NOTE 4 In the GUM, the terms “result of measurement” and “estimate of the value of the measurand” or just “estimate of the measurand” are used for ‘measured quantity value’.} Unless specified otherwise, the measured quantity value is a single PMB indication on a sample.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measured quantity value measured value indication {value of a measured quantity}'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: da8a26c7-0013-5500-8a50-734421325e29

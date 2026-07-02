@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01392'
+  localized_concepts:
+    eng: 262159cc-92cd-5338-8201-09a06d9696ed
+  sources:
+  - origin:
+      ref:
+        source: OIML R107-1:2007
+    locality:
+      type: clause
+      reference_from: 'T.4.5.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R107-1
+    ref_type: section
+status: valid
+id: db9d14bb-96d2-45a3-aaf9-69c2eac3c2e0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault greater than 1 dt. The following are not considered to be significant faults: faults arising from simultaneous and mutually independent causes in the instrument or in its checking facilities (T.3.11); faults implying the impossibility to perform any weighing; transitory faults, momentary variations in the indications which cannot be interpreted, memorized or transmitted as a weighing result; and faults being so serious that they will inevitably be noticed by all those interested in the weighing result'
+  id: 01392-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 262159cc-92cd-5338-8201-09a06d9696ed

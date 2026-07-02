@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01016'
+  localized_concepts:
+    eng: 80852500-084c-5d8e-a283-0ff8a7c571ca
+  sources:
+  - origin:
+      ref:
+        source: OIML R081:1998
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R081
+    ref_type: section
+status: valid
+id: 5fec9386-e707-4761-9087-15e3b1c04fb8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a part of the meter that receives the output signal from the transducer(s), transforms it and, if appropriate, stores in memory the results until they are used. Additionally, the calculator may be capable of communicating both ways with the peripheral equipment'
+  id: 01016-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'calculator'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 80852500-084c-5d8e-a283-0ff8a7c571ca

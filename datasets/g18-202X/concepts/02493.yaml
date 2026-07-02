@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02493'
+  localized_concepts:
+    eng: 189f57fa-4bff-5c4b-8cc3-226b4c9217bc
+  sources:
+  - origin:
+      ref:
+        source: OIML R087:2016
+    locality:
+      type: clause
+      reference_from: '2.1.2.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R087
+    ref_type: section
+status: valid
+id: 13849338-ad57-4176-bfcf-65420e7e5b98
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference between the actual quantity of product in a prepackage and the nominal quantity of that prepackage'
+  id: 02493-eng
+  language_code: eng
+  notes:
+  - content: 'Note:The individual prepackage error for a prepackage “i” is designated by the symbol Ei or ei and can be calculated by Ei = Qi – Qnom or by ei = qi – Qnom where Qnom is the nominal quantity.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'individual prepackage error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 189f57fa-4bff-5c4b-8cc3-226b4c9217bc

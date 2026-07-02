@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01867'
+  localized_concepts:
+    eng: 7b299d4f-a936-5145-b147-73f1d6ea2d98
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.28'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: fb8348ff-3663-4314-bf73-9e34bbc637f6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'error of a measuring instrument, determined under reference conditions'
+  id: 01867-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: The initial intrinsic error is the intrinsic error of a measuring instrument as determined prior to performance tests and durability evaluations (see 2.32). [VIM:1993, 5.24]'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'intrinsic error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 7b299d4f-a936-5145-b147-73f1d6ea2d98

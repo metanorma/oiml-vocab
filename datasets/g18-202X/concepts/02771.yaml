@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02771'
+  localized_concepts:
+    eng: c1721cdf-855d-5e20-94f6-d0dc38ca4b7d
+  sources:
+  - origin:
+      ref:
+        source: OIML R144-1:2013
+    locality:
+      type: clause
+      reference_from: '2.16'
+    type: authoritative
+  domains:
+  - concept_id: section-R144-1
+    ref_type: section
+status: valid
+id: 8d7cb371-89ce-45a5-838a-26e5ec505396
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference between the error of indication and the intrinsic error of the measuring instrument [VIML 2012 (V 1), 5.11] [25]'
+  id: 02771-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Random errors presenting momentary variations in the indication but which cannot be interpreted, recorded or transmitted as measuring results are considered to be insignificant faults.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c1721cdf-855d-5e20-94f6-d0dc38ca4b7d

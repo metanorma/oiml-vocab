@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03525'
+  localized_concepts:
+    eng: b6baa57c-39d0-5474-b18c-49f8c6c14107
+  sources:
+  - origin:
+      ref:
+        source: OIML R150-1:2020
+    locality:
+      type: clause
+      reference_from: '2.2.9.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R150-1
+    ref_type: section
+status: valid
+id: 5f9a4c76-ae6c-4229-94fa-82412d1024e5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'separation of software in measuring instruments, which can be divided into a legally relevant part and a legally non-relevant part [VIML:2013, 6.02]'
+  id: 03525-eng
+  language_code: eng
+  notes:
+  - content: 'Note: These padt communicate via a software interface.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'software separation'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: b6baa57c-39d0-5474-b18c-49f8c6c14107

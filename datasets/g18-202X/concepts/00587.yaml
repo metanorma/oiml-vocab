@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00587'
+  localized_concepts:
+    eng: c53aa19e-2652-52ea-9a65-037731802566
+  sources:
+  - origin:
+      ref:
+        source: OIML R051-1:2006
+    locality:
+      type: clause
+      reference_from: 'T.2.7.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R051-1
+    ref_type: section
+status: valid
+id: 3bada850-fa91-444c-b0be-fa14224ef408
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'electronic device of an instrument that performs the analog-to-digital conversion of the output signal of the load cell, further processes the data, and supplies the weighing result in a digital format via a analog data processing digital interface without displaying it. It may optionally have one or more keys (or mouse, touch-screen, etc.) to operate the instrument'
+  id: 00587-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'analog data processing device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c53aa19e-2652-52ea-9a65-037731802566

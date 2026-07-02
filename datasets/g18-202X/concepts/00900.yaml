@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00900'
+  localized_concepts:
+    eng: 5f20ba93-8985-5547-8965-ac58fc60b814
+  sources:
+  - origin:
+      ref:
+        source: OIML R076-1:2006
+    locality:
+      type: clause
+      reference_from: 'T.2.2.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R076-1
+    ref_type: section
+status: valid
+id: 77601bf2-d8b8-4477-b408-b8b757fc3c6f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'electronic device of an instrument that further processes the data, and supplies the weighing result in a digital format via a digital interface without displaying it. It may optionally have one or more keys (or mouse, touch-screen, etc.) to operate the instrument'
+  id: 00900-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'digital data processing device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 5f20ba93-8985-5547-8965-ac58fc60b814

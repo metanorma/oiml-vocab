@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03000'
+  localized_concepts:
+    eng: 58fff466-a397-5710-aad7-044df4ac2401
+  sources:
+  - origin:
+      ref:
+        source: OIML R117-1:2007
+    locality:
+      type: clause
+      reference_from: 'T.d.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R117-1
+    ref_type: section
+status: valid
+id: b14fa4ec-3cd2-49e6-b8b1-9be3e0ab073c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'influence quantity having a value outside the specified rated operating conditions of the measuring system (for electronic measuring systems only).'
+  id: 03000-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: If the rated operating conditions are not specified for an influence quantity, it is a disturbance. Note 2: A systematic influence by design or by installation (e.g. systematic air inlet) cannot be considered as a disturbance.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'disturbance'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 58fff466-a397-5710-aad7-044df4ac2401

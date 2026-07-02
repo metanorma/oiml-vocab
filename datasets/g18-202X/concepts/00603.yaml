@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00603'
+  localized_concepts:
+    eng: 150ba01f-9350-539a-a8e7-f37619e083f4
+  sources:
+  - origin:
+      ref:
+        source: OIML R076-1:2006
+    locality:
+      type: clause
+      reference_from: 'T.2.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R076-1
+    ref_type: section
+status: valid
+id: f8e02611-4217-4ccb-9104-8d94cce82a89
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'device temporarily changing the actual scale interval, d, to a value less than the verification scale interval, e, following a manual command'
+  id: 00603-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'extended displaying device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 150ba01f-9350-539a-a8e7-f37619e083f4

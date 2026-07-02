@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03149'
+  localized_concepts:
+    eng: 6256c24e-6100-5760-9ecc-aa94646b02f1
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.25'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 06caf45d-3166-4b50-af98-adf774172b4b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'assurance that the software, measurement data, or parameters have not been subjected to any  unintentional, accidental or inadmissible changes while in use, transfer, storage, repair or maintenance'
+  id: 03149-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Software may include prameters and data, see 3.2.70.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'integrity (of software, measurement data, or parameters)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 6256c24e-6100-5760-9ecc-aa94646b02f1

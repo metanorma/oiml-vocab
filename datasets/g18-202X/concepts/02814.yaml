@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02814'
+  localized_concepts:
+    eng: e5a8193c-6e81-52d9-85d7-a8d285233516
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.2.16'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: 5dec2642-da60-4a7e-9293-df3e6a2f5d12
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault exhibited by the equipment under test that is greater than the values listed in 4.5, Table 4, column 10'
+  id: 02814-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The following faults are not considered to be significant, even when they exceed the maximum value: (a)faults arising from a simultaneous and mutually independent cause (e.g. EM fields and discharges) originating in a measuring instrument or in its checking facilities; (b)faults implying the impossibility to perform any measurement; and (c)transitory faults being momentary transitions in the indication, which cannot be interpreted, memorized or transmitted as a measurement result.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e5a8193c-6e81-52d9-85d7-a8d285233516

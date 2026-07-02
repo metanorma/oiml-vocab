@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01057'
+  localized_concepts:
+    eng: 8b0ee503-d5c2-578f-953f-590ccebe1023
+  sources:
+  - origin:
+      ref:
+        source: OIML R082:2006
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R082
+    ref_type: section
+status: valid
+id: e7cfc8e3-1cd6-45b8-b020-3f42965c4fe7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Output signal per unit mass of the sample component of interest in the carrier gas. It is expressed in either one of the two following ways: 3.13.1 With a concentration-dependent detector, the instrument sensitivity, S, is expressed as: A · mL · g-1, or V · mL · g-1, and by the equation: S = P · F/ M where: P = the peak area, F = the carrier gas flow rate, M = the mass of the sample in the carrier gas. With the units: A = amperes, mL = millilitres, g = grams, V = volts. 3.13.2 With a mass flow rate dependent detector, the instrument sensitivity, S, is expressed in: A · s · g-1, or V · s · g-1, and by the equation: S = P/ M where the symbols have the same definitions as in 3.13.1, with the additional unit of: s = seconds.'
+  id: 01057-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Peak area is independent of broadening effects caused by variables such as column temperature, eluent flow rate, and rate of sample injection. From this standpoint, therefore, the peak area is a more satisfactory analytical parameter than peak height. On the other hand, peak heights are more easily measured and, for narrow peaks, more accurately determined. Many modern chromatographic instruments are equipped with electronic integrators that provide precise measurements of relative peak areas.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'sensitivity'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 8b0ee503-d5c2-578f-953f-590ccebe1023

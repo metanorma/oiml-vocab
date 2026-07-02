@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03688'
+  localized_concepts:
+    eng: 72c6c763-53fc-5523-be02-a63bb989c668
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.6'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 702fb2a8-39a7-4a30-8e18-e82e725fdec8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'servers that are accessed over the internet or another network, and the software and databases that run on those servers'
+  id: 03688-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Cloud servers may not be physically accessible to all parties and may be located in a different country, Their physical location may not be konown and not fixed.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'cloud'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 72c6c763-53fc-5523-be02-a63bb989c668

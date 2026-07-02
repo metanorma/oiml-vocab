@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00442'
+  localized_concepts:
+    eng: d09ffcfb-63f8-50e1-90b9-16bdce9d9fe2
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.10'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: eb105ad4-6eb2-4eca-8d20-eb386ffbabc7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'lowest flowrate at which the water meter is required to operate within the maximum permissible error'
+  id: 00442-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'minimum flowrate of the measuring system Qmin'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d09ffcfb-63f8-50e1-90b9-16bdce9d9fe2

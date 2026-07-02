@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01858'
+  localized_concepts:
+    eng: 63314230-36af-50a0-ba86-83737fbfd26b
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.19'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: 64b3158b-1227-4b12-86a3-f7bfb49adee6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'characteristic partial internal absorbance divided by the amount of substance concentration of the analyte. The Beer’s factor is constant for specified experimental conditions'
+  id: 01858-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: The coherent SI unit is the cubic metre per mole (m3/mol) but often the litre per mole (l/mol, L/mol) is preferred. Note 2:For conditions of validity see 2.9.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'Beer’s factor (Kε = εb = Ac/c)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 63314230-36af-50a0-ba86-83737fbfd26b

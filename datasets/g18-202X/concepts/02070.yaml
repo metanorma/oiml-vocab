@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02070'
+  localized_concepts:
+    eng: 30a5ecb6-7815-534c-bf7a-91fc39985b70
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: b4361fe5-bd14-40cc-a87b-381ef4fba596
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'result of a measurement minus a true value of the measurand (VIM:2007, 2.16)'
+  id: 02070-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Since a true value cannot be determined, in practice a conventional true value is used.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'absolute error of measurement'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 30a5ecb6-7815-534c-bf7a-91fc39985b70

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03789'
+  localized_concepts:
+    eng: 227e90c1-f449-574f-b50b-0cb2df394d44
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.1.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: 2b095980-89fe-4b98-b09d-18bd1495eed7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'software or hardware interface from which measurement signals or data can be read or to which measurement signals can be inserted'
+  id: 03789-eng
+  language_code: eng
+  notes:
+  - content: 'Note: To record and analyse signals from field experiments or to insert recorded or artificial data, e.g. to support metrological control.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'test interface'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 227e90c1-f449-574f-b50b-0cb2df394d44

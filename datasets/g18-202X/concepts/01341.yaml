@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01341'
+  localized_concepts:
+    eng: 85b05362-47be-50d2-ac79-01a8ed9bb3a6
+  sources:
+  - origin:
+      ref:
+        source: OIML R107-1:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R107-1
+    ref_type: section
+status: valid
+id: 505e5f9c-7b87-4607-80c0-da745c53c7b5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'identifiable part of an instrument or device that performs a specific function or functions, and that can be separately evaluated according to the metrological and technical performance requirements in the relevant Recommendation. The modules of a weighing instrument are subject to specified partial error limits'
+  id: 01341-eng
+  language_code: eng
+  notes:
+  - content: 'Typical modules of an instrument are: load cell, indicator, analog or digital processors, weighing module, remote display, software.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'module'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 85b05362-47be-50d2-ac79-01a8ed9bb3a6

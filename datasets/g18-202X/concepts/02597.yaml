@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02597'
+  localized_concepts:
+    eng: 3b97e99a-6bc4-5aea-9443-44d30866b37b
+  sources:
+  - origin:
+      ref:
+        source: OIML R106-1:2011
+    locality:
+      type: clause
+      reference_from: '0.3.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R106-1
+    ref_type: section
+status: valid
+id: 456dd9ef-2b46-40f5-b1f5-3ed5d8a9899a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'condition of balance in which an instrument displays a constant value or no more than two adjacent values, one of which is the final weight value, for any given load applied'
+  id: 02597-eng
+  language_code: eng
+  notes:
+  - content: 'Note: This definition is only applicable to static weighing and not to weighing-in-motion.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'stable equilibrium'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 3b97e99a-6bc4-5aea-9443-44d30866b37b

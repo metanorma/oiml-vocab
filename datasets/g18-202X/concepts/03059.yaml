@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03059'
+  localized_concepts:
+    eng: edc94dc1-1703-582b-b0b4-10f727038ef4
+  sources:
+  - origin:
+      ref:
+        source: OIML R080-2:2017
+    locality:
+      type: clause
+      reference_from: '2'
+    type: authoritative
+  domains:
+  - concept_id: section-R080-2
+    ref_type: section
+status: valid
+id: 9c5fe226-44b3-4a32-a890-7e1808316b24
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference between the error of indication and the intrinsic error of a measuring instrument'
+  id: 03059-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:  Principally, a fault is the result of an undesired change of data contained in or flowing through an electronic measuring instrument. Note 2:  From the definition it follows that in this Recommendation, a "fault" is a numerical value which is expressed either in a unit of measurement or as a relative value, for instance in %.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: edc94dc1-1703-582b-b0b4-10f727038ef4

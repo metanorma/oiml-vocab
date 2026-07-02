@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02783'
+  localized_concepts:
+    eng: 25eb8886-e8ef-5816-be60-43b444a9dc67
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: f61fe5a6-1078-48d9-801b-a1a54ed2ec05
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: '{adjustment of a measuring system adjustment set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity to be measured [VIM, 3.11]}'
+  id: 02783-eng
+  language_code: eng
+  notes:
+  - content: '{NOTE 1 Types of adjustment of a measuring system include zero adjustment of a measuring system, offset adjustment, and span adjustment (sometimes called gain adjustment). NOTE 2 Adjustment of a measuring system should not be confused with calibration, which is a prerequisite for adjustment. NOTE 3 After an adjustment of a measuring system, the measuring system must usually be recalibrated.} For protein measuring instruments, alignment with the reference method is typically accomplished through a bias adjustment to the calibration equation. Other mechanisms that require a higher level of expertise (e.g. adjustment of the calibration equation slope, modification of hardware/ software components or settings) may be less accessible due to increased security requirements.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'adjustment'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 25eb8886-e8ef-5816-be60-43b444a9dc67

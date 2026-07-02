@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02933'
+  localized_concepts:
+    eng: ccae6d37-2a6e-59b9-bd86-be66b48b9c9e
+  sources:
+  - origin:
+      ref:
+        source: OIML D010:2022
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  domains:
+  - concept_id: section-D010
+    ref_type: section
+status: valid
+id: d79659d9-cfc8-4762-a716-fb8e23bb1a11
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'standard measurement uncertainty that ids obtained using the individual standard measurement uncertainties associated with the input quantities in measurement model (VIM3, 2.31)'
+  id: 02933-eng
+  language_code: eng
+  notes:
+  - content: 'Note:In the case of correlations of input quantities in measurement model, covariances must also be taken into account when calculating the combined standard measurement uncertainty; see also GUM:1995, 2.3.4.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'combined standard measurement uncertainty combined standard uncertainty'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ccae6d37-2a6e-59b9-bd86-be66b48b9c9e

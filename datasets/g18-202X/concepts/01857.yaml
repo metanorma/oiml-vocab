@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01857'
+  localized_concepts:
+    eng: 3fb41bfc-d18d-5a0b-a523-9e4f369e56b4
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.18'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: 63e6df2e-d2a8-43b4-8f11-40856a353126
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fraction of the absorbance of the solution on which the measurement is made due to a specified component'
+  id: 01857-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The characteristic partial internal absorbance has the dimension one and is expressed with the derived coherent SI unit one (1). The absorbance of the optical cell containing this solution is corrected for. Conditions for validity: see 2.9. Adapted from ISO 6286, Table 2, Nos. 19 and 20.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'characteristic partial internal absorbance Ac (Ac = lg(Φr / Φs) = εbc)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 3fb41bfc-d18d-5a0b-a523-9e4f369e56b4

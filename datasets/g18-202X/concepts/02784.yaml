@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02784'
+  localized_concepts:
+    eng: 7ec9d857-8f9e-5b86-8fab-5eb423f130e3
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.1.'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: 8e21929d-fc55-4fbf-9a5b-0b9ae46c1435
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: '{reference material, accompanied by documentation issued by an authoritative body and providing one or more specified property values with associated uncertainties and traceabilities, using valid procedures [VIM 5.14]}'
+  id: 02784-eng
+  language_code: eng
+  notes:
+  - content: '{ EXAMPLE Human serum with assigned quantity value for the concentration of cholesterol and associated measurement uncertainty stated in an accompanying certificate, used as a calibrator or measurement trueness control material. NOTE 1 ‘Documentation’ is given in the form of a ‘certificate’ (see ISO Guide 31:2000). NOTE 2 Procedures for the production and certification of certified reference materials are given, e.g. in ISO Guide 34 and ISO Guide 35. 5.14 (6.14) NOTE 3 In this definition, “uncertainty” covers both ‘measurement uncertainty’ and ‘uncertainty associated with the value of a nominal property’, such as for identity and sequence. “Traceability” covers both ‘metrological traceability of a quantity value’ and ‘traceability of a nominal property value’. NOTE 4 Specified quantity values of certified reference materials require metrological traceability with associated measurement uncertainty (Accred. Qual. Assur.:2006)[45]. NOTE 5 ISO/REMCO has an analogous definition (Accred. Qual. Assur.:2006)[45] but uses the modifiers “metrological” and “metrologically” to refer to both quantity and nominal property} Refer to Annex B for guidelines on producing whole-grain CRMs. Further general information is in OIML D 18:2008 }.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'certified reference material (CRM)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 7ec9d857-8f9e-5b86-8fab-5eb423f130e3

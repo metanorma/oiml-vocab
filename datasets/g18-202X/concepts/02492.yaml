@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02492'
+  localized_concepts:
+    eng: 0d5e4ac3-c260-5df4-b34a-0e809acf2a1e
+  sources:
+  - origin:
+      ref:
+        source: OIML R087:2016
+    locality:
+      type: clause
+      reference_from: '2.1.2.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R087
+    ref_type: section
+status: valid
+id: 7dd19df6-e1f5-40d4-bcaa-18db6994cd27
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'sum of individual prepackage errors considering their arithmetic signs divided by the number of prepackages in the inspection lot or sample'
+  id: 02492-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: The average error for all prepackages in a sample with sample size n is designated by the symbol eave. Note 2: The average error for all prepackages in an inspection lot with N prepackages is designated by the symbol Eave.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'average error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 0d5e4ac3-c260-5df4-b34a-0e809acf2a1e

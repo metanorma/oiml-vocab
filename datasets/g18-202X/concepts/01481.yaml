@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01481'
+  localized_concepts:
+    eng: 77ef6583-3d60-555d-ad30-ee0c5d60361d
+  sources:
+  - origin:
+      ref:
+        source: OIML R112:1994
+    locality:
+      type: clause
+      reference_from: '2.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R112
+    ref_type: section
+status: valid
+id: e09b3433-e5ca-4183-8c92-5ebcc96a885e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'the concentration of the sample component of interest that gives a detector output signal equal to three times the short-term noise'
+  id: 01481-eng
+  language_code: eng
+  notes:
+  - content: 'Note: This term is also referred to as «minimum detectability» in some references and manufacturer’s literature. It is sometimes defined as an output signal equal to some other multiple (for example, two or ten) of the noise.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'detection limit for the instrument'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 77ef6583-3d60-555d-ad30-ee0c5d60361d

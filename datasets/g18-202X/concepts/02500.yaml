@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02500'
+  localized_concepts:
+    eng: 34bcee58-60e6-5655-8c94-16bd5b42e93c
+  sources:
+  - origin:
+      ref:
+        source: OIML R087:2016
+    locality:
+      type: clause
+      reference_from: '2.1.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R087
+    ref_type: section
+status: valid
+id: e21bbe06-ebd6-401d-9657-344710c26f3a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'quantity of product in a prepackage declared on the label'
+  id: 02500-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:  The symbol “Qnom” is used to designate the nominal quantity. Note 2:  In some national legislation the nominal quantity of the product is referred to as “net quantity”, “net contents”, “net mass” or “net volume”. Note 3:  The nominal quantity should be declared in accordance with OIML R 79 [1].'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'nominal quantity'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 34bcee58-60e6-5655-8c94-16bd5b42e93c

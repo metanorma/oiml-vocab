@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02810'
+  localized_concepts:
+    eng: d36a32bb-7b9f-5e8b-b0b9-0e514ea5fada
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.2.12'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: 6911a8f2-c7b5-4772-ae50-a20c61560fb7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'network of arbitrary participants (electronic devices with arbitrary functions) [OIML D31:2008, 3.1.35]'
+  id: 02810-eng
+  language_code: eng
+  notes:
+  - content: 'Note:The number, identity and location of a participant can be dynamic and unknown to the other participants. This is in contrast to a closed network [OIML D 31:2008, 3.1.6] which is a network of a fixed number of participants with a known identity functionality and location.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'open network'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d36a32bb-7b9f-5e8b-b0b9-0e514ea5fada

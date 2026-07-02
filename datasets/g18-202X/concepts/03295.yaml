@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03295'
+  localized_concepts:
+    eng: f610e33c-d405-5143-a741-c2324a9db9aa
+  sources:
+  - origin:
+      ref:
+        source: OIML D005:2022
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  domains:
+  - concept_id: section-D005
+    ref_type: section
+status: valid
+id: 146e62bb-05d6-497a-b67b-0d0ed7c153a8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations, each contributing to the measurement uncertainty [VIM, 2.41]'
+  id: 03295-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: For this definition, a ‘reference’can be a definition of a measurement unit through its practical realization, or a measurement procedure including the measurement unity for a non-ordinal quantity, or a measurement standard. Note 2: Metrological traceability requires an established calibration hierarchy. For other nores see [VIM, 2.41]'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'metrological traceability'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: f610e33c-d405-5143-a741-c2324a9db9aa

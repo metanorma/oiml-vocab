@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03746'
+  localized_concepts:
+    eng: b39ed987-0652-563f-97ff-64f54a16b09c
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.4.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: 01d83a42-ee87-406b-87ba-5e5fd5f6dc63
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'measurement error due to a measurement angle which differs from the configured value, the nominal value or the value measured by the instrument'
+  id: 03746-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The name of this term comes from the fact that the component of the velocity vector parallel to the line connecting the speed meter and the vehicle is given by vm = v ∙ cos(α), where the measurement angle α has in general a horizontal and a vertical component.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'cosine error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: b39ed987-0652-563f-97ff-64f54a16b09c

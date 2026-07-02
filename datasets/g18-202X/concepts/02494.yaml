@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02494'
+  localized_concepts:
+    eng: 488e3c8e-38ca-5cf5-a672-c34162e857ee
+  sources:
+  - origin:
+      ref:
+        source: OIML R087:2016
+    locality:
+      type: clause
+      reference_from: '2.1.2.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R087
+    ref_type: section
+status: valid
+id: 05e4445a-d51f-447e-8856-dec7df7f34d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'deficiency that is greater than the applicable tolerable deficiency (T) (see 2.1.17) but not greater than twice the applicable tolerable deficiency (2T) for the given nominal quantity T1 error: (Qnom – 2T) ≤ Qi < (Qnom – T) where Qnom is the nominal quantity'
+  id: 02494-eng
+  language_code: eng
+  notes:
+  - content: 'Note : See Annex G for an example of the application of errors.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'T1 error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 488e3c8e-38ca-5cf5-a672-c34162e857ee

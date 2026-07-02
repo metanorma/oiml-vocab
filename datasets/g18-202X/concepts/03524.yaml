@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03524'
+  localized_concepts:
+    eng: 732a0b30-58ce-57f6-b93e-59ec91794ca9
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.63'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 9d2af101-1be8-462b-8a04-e1360e5ffed0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'separation of software in measuring instruments, which can be divided into a legally relevant module(s) and legally non-relevant module(s) adapted form [OIML V 1:2022, 6.02]'
+  id: 03524-eng
+  language_code: eng
+  notes:
+  - content: 'Note: These module(s) communicate via a software interface.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'software separation'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 732a0b30-58ce-57f6-b93e-59ec91794ca9

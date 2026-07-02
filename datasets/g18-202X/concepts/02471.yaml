@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02471'
+  localized_concepts:
+    eng: 8d042b68-4d0f-5b1d-877b-eddb26f684c2
+  sources:
+  - origin:
+      ref:
+        source: OIML R059-1:2016
+    locality:
+      type: clause
+      reference_from: '2.3.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R059-1
+    ref_type: section
+status: valid
+id: 008c2a51-54b9-4c9f-804c-599068c74138
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'facility incorporated in a measuring instrument and which enables significant faults to be detected and acted upon'
+  id: 02471-eng
+  language_code: eng
+  notes:
+  - content: 'Note: “Acted upon” refers to any adequate response by the measuring instrument (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'checking facility'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 8d042b68-4d0f-5b1d-877b-eddb26f684c2

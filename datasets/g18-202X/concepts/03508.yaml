@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03508'
+  localized_concepts:
+    eng: 08f65c6b-9c84-5365-bbd3-dbc4bd6dabc1
+  sources:
+  - origin:
+      ref:
+        source: OIML R150-1:2020
+    locality:
+      type: clause
+      reference_from: '2.4.5.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R150-1
+    ref_type: section
+status: valid
+id: 12b74da2-04a5-4726-a044-8f611baa2444
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault exceeding the applicable fault limit value [Adapted from VIML:2013, 5.14 – note modified]'
+  id: 03508-eng
+  language_code: eng
+  notes:
+  - content: 'Note: A significant fault does not include faults arising from simultaneous and mutually independent causes, faults implying the impossibility to perform any weighing, transitory faults, momentary variations in the indication which cannot be interpreted, memorized or transmitted as a weighing result, faults which are so serious they will inevitably be noticed by all those interested in the weighing result.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 08f65c6b-9c84-5365-bbd3-dbc4bd6dabc1

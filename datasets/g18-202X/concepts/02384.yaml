@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02384'
+  localized_concepts:
+    eng: 17b85b9e-5cf3-5df2-9974-c78a607ed753
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.1.16'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: 6368bd73-740d-40b2-8ef9-8dffa8db83e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'meter comprising one large meter, one small meter, and a changeover device that, depending on the magnitude of the flow rate (3.3.1) passing through the meter, automatically directs the flow through either the small or the large meter, or both'
+  id: 02384-eng
+  language_code: eng
+  notes:
+  - content: 'Note:The meter reading is obtained from two independent totalizers, or from one totalizer which adds up the values from both water meters'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'combination meter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 17b85b9e-5cf3-5df2-9974-c78a607ed753

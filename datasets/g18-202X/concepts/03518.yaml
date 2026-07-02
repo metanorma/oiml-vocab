@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03518'
+  localized_concepts:
+    eng: 3c089dd5-d4db-5197-8d76-3f27a7dba530
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.59'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: c747b054-7a5b-493b-b259-5db84f2f80d1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'sequence of readable characters (e.g. name, version number, checksum) that represents the software or software module under consideration.'
+  id: 03518-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Software identification can be checked on an instrument whilst in use, see 6.2.1.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'software identification'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 3c089dd5-d4db-5197-8d76-3f27a7dba530

@@ -118,8 +118,10 @@ Datasets are authoritative — hand-curated by editors. To fix data, edit the YA
 
 ### G18 (OIML G 18:2010 — term-usage registry)
 
-`datasets/g18/` is **preserved as canonical source data** (2132 entries, 1207 unique terms, 287 with multiple publication instances, 101 cross-refs to VIM/VIML). It is **disabled in the concept-browser** (not in `site-config.yml`; see PR #41) because G 18 is structurally a *term-usage registry*, not a vocabulary — VIM/VIML are *authoritative concept definitions*; G 18 is *observations of where terms are used across OIML publications*.
+`datasets/g18-2010/` is **preserved as canonical source data** (2132 entries, 1207 unique terms, 287 with multiple publication instances, 101 cross-refs to VIM/VIML). It is **disabled in the concept-browser** (not in `site-config.yml`; see PR #41) because G 18 is structurally a *term-usage registry*, not a vocabulary — VIM/VIML are *authoritative concept definitions*; G 18 is *observations of where terms are used across OIML publications*.
+
+`datasets/g18-202X/` is the **new draft edition** (Edition 202X, 2CD — TC1/P3/N008). 2689 entries extracted from `reference-docs/TC1_P3_N008-2CD_revision_of_G18-clean.docx`. Status: `draft`. Year placeholder "202X" to be updated upon publication.
 
 The dedicated UI for G 18 lives in a separate repo: [`oimlsmart/g18-registry`](https://github.com/oimlsmart/g18-registry) — deployed at https://oimlsmart.github.io/g18-registry/ and tracks implementation steps 2–6 (per-term model migration, TC/SC attribution, browsing UI, AI consistency checks). See issue [#42](https://github.com/oimlsmart/vocab/issues/42) for the full direction.
 
-**Do not delete `datasets/g18/`** from this repo. It is the source-of-truth consumed by the g18-registry migration.
+**Do not delete `datasets/g18-2010/` or `datasets/g18-202X/`** from this repo. They are the source-of-truth consumed by the g18-registry migration.

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03451'
+  localized_concepts:
+    eng: 040be232-dc6f-59f9-b582-b712637c5a13
+  sources:
+  - origin:
+      ref:
+        source: OIML R060-1:2021
+    locality:
+      type: clause
+      reference_from: '3.5.15'
+    type: authoritative
+  domains:
+  - concept_id: section-R060-1
+    ref_type: section
+status: valid
+id: f0728bad-a857-4533-ba38-c87d2f35fbf4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'ratio of the maximum measuring range, to the minimum load cell verification interval, vmin'
+  id: 03451-eng
+  language_code: eng
+  notes:
+  - content: 'Note: This ratio describes the resolution of the load cell independent from the load call capacity.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'relative minimum load cell varificaion interval (Y)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 040be232-dc6f-59f9-b582-b712637c5a13

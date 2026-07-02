@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03772'
+  localized_concepts:
+    eng: d0cff656-3882-57e9-bf37-e002a51fdcb5
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.4.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: c9161612-52db-4012-ae73-f98de87e77c9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'angle between the velocity vector and the line connecting the speed meter and the vehicle at the instance of the measurement'
+  id: 03772-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The measurement angle has a horizontal and a vertical component. Figure 3 shows an illustration of the horizontal component of the measurement angle 𝛼.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement angle'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d0cff656-3882-57e9-bf37-e002a51fdcb5

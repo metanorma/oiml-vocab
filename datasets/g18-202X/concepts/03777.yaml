@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03777'
+  localized_concepts:
+    eng: ecce528d-54fe-50e4-aad6-b8e3be93eeb5
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.2.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: ad823e30-1093-4b18-96ae-851ba8eccf0c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'speed meter installed in a vehicle which is intended to be in motion during measurements'
+  id: 03777-eng
+  language_code: eng
+  notes:
+  - content: 'Note: An ego speed meter is part of a moving speed meter.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'moving speed meter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ecce528d-54fe-50e4-aad6-b8e3be93eeb5

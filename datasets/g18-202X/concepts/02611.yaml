@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02611'
+  localized_concepts:
+    eng: 2eac6021-1829-51d0-a969-c17622db7753
+  sources:
+  - origin:
+      ref:
+        source: OIML R106-1:2011
+    locality:
+      type: clause
+      reference_from: '0.4.4.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R106-1
+    ref_type: section
+status: valid
+id: c6ffc65e-3527-4182-98e8-fe3b78b2bb6e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference between the error of indication and the intrinsic error of a weighing instrument'
+  id: 02611-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Principally, a fault is the result of an undesired change of data contained in or flowing through an electronic instrument. In this Recommendation, a "fault" is a numerical value.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 2eac6021-1829-51d0-a969-c17622db7753

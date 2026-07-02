@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01848'
+  localized_concepts:
+    eng: f0525a21-be64-5fda-b550-1705c6246fee
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: bda7d9a1-67ec-4329-be98-69db5673af23
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'absorbance A is proportional to the optical path length b and the amount of substance concentration c'
+  id: 01848-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1 :  Conditions for validity: A beam of parallel monochromatic radiation traverses, at normal incidence, an absorbing medium with planeparallel surfaces and which is homogeneous, isotropic, non-luminescent and non-scattering. Note 2:  Adapted from ISO 6286, clause 3.3.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'law of Bouguer-Lambert and Beer (A = lg(1/τ) = εbc)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: f0525a21-be64-5fda-b550-1705c6246fee

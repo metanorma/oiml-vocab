@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00897'
+  localized_concepts:
+    eng: 2b0ef922-1366-55fa-8d0d-d331801d8645
+  sources:
+  - origin:
+      ref:
+        source: OIML R076-1:2006
+    locality:
+      type: clause
+      reference_from: 'T.2.2.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R076-1
+    ref_type: section
+status: valid
+id: 5fe78c82-179f-44da-a29c-006db025bf3f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'force transducer which, after taking into account the effects of the acceleration of gravity and air buoyancy at the location of its use, measures mass by converting the measured quantity (mass) into another measured quantity (output) [OIML R 60: 2000, 2.1.2]'
+  id: 00897-eng
+  language_code: eng
+  notes:
+  - content: 'Note:  Load cells equipped with electronics including amplifier, analog-to-digital converter (ADC), and data processing device (optionally) are called digital load cells (see Figure 1).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'load cell'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 2b0ef922-1366-55fa-8d0d-d331801d8645

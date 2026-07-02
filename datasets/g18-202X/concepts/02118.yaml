@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02118'
+  localized_concepts:
+    eng: e49b6822-7680-5cca-adfd-6488b44224eb
+  sources:
+  - origin:
+      ref:
+        source: OIML R142-1:2025
+    locality:
+      type: clause
+      reference_from: '3.36'
+    type: authoritative
+  domains:
+  - concept_id: section-R142-1
+    ref_type: section
+status: valid
+id: fa979e0d-47aa-4622-96bf-cc06a9838319
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'with reference to a certified measurement standard: difference between the mean error of indication while on or more influence quantities ar varied within the rated operating condition and the mean intrinsic error of a measuring instrument'
+  id: 02118-eng
+  language_code: eng
+  notes:
+  - content: 'Note: If certified measurement standard is not used, the error shift is the difference between teo measured values: the indication under rated operating conditions and the mean indication at reference conditions prior to test.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'error shift'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e49b6822-7680-5cca-adfd-6488b44224eb

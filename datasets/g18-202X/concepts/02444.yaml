@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02444'
+  localized_concepts:
+    eng: 6011dc9b-f445-56f5-9769-5d68614253db
+  sources:
+  - origin:
+      ref:
+        source: OIML R059-1:2016
+    locality:
+      type: clause
+      reference_from: '3.1.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R059-1
+    ref_type: section
+status: valid
+id: d10d11ae-a4a5-48d7-ad35-41dd5151741e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'operation that, under specified conditions, in a first step, establishes a relation between the quantity values with measurement uncertainties provided by measurement standards and corresponding indications with associated measurement uncertainties and, in a second step, uses this information to establish a relation for obtaining a measurement result from an indication [VIM 2.39]'
+  id: 02444-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: A calibration may be expressed by a statement, calibration function, calibration diagram, calibration curve, or calibration table. In some cases, it may consist of an additive or multiplicative correction of the indication with associated measurement uncertainty. Note 2: Calibration should not be confused with adjustment of a measuring system, often mistakenly called “self-calibration”, nor with verification of calibration. Note 3: Often, the first step alone in the above definition is perceived as being calibration.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'calibration'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 6011dc9b-f445-56f5-9769-5d68614253db

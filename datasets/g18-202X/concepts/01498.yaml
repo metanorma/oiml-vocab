@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01498'
+  localized_concepts:
+    eng: 29b497cc-4601-5981-a27f-9dae97135c75
+  sources:
+  - origin:
+      ref:
+        source: OIML R113:1994
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R113
+    ref_type: section
+status: valid
+id: cb329051-61de-4f56-97ad-e62edcedee89
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'the range of mass flow rates or concentrations of the sample component of interest over which an incremental change produces a measurable change in the detector output signal. Its upper limit is the highest mass flow rate or concentration at which a further increase in either flow rate or concentration will not give an observable increase in detector output signal. It is expressed as the ratio of its upper limit to the detection limit'
+  id: 01498-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'dynamic range'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 29b497cc-4601-5981-a27f-9dae97135c75

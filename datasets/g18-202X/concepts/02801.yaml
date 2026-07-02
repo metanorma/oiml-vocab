@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02801'
+  localized_concepts:
+    eng: 9b55c29c-24f7-51ba-b1b9-c234c2e7d148
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.2.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: 9b21d138-a236-460d-a925-bd7ba03286d6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'set of calibration coefficients for one type of grain to convert raw instrument data into a protein content measurement'
+  id: 02801-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Both these terms are used in the same context as ‘calibration function’ in Note 1 of VIM 2.39.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'calibration equation calibration'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 9b55c29c-24f7-51ba-b1b9-c234c2e7d148

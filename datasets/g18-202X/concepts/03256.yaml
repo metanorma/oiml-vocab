@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03256'
+  localized_concepts:
+    eng: e6a6ab22-94b4-5935-8439-aff5e9f73163
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.38'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 7f5fee23-3acc-4b79-8e43-f7dc97a5a079
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'data used during the measurement process to construct the measurement result'
+  id: 03256-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Examples of measurement process data include values of measurement parameters, values of connection settings or values of session parameters. Note 2: See Annex C for clarification regarding measurement-related terms.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement proces data'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e6a6ab22-94b4-5935-8439-aff5e9f73163

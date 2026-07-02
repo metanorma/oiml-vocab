@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00875'
+  localized_concepts:
+    eng: e6a3266a-5c26-5a68-91f9-972929e1552b
+  sources:
+  - origin:
+      ref:
+        source: OIML R076-1:2006
+    locality:
+      type: clause
+      reference_from: 'T.1.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R076-1
+    ref_type: section
+status: valid
+id: f911563e-3475-47b9-bc89-8864afa46a53
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Instrument that requires the intervention of an operator during the weighing process to decide that the weighing result is acceptable A non-automatic weighing instrument may be: graduated or non-graduated; or self-indicating, semi-self-indicating or non-self-indicating'
+  id: 00875-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Deciding that the weighing result is acceptable includes any intelligent action by the operator that affects the result, such as taking an action when an indication is stable or adjusting the mass of the weighed load, and to make a decision regarding the acceptance of each weighing result on observing the indication or releasing a print out. A non- automatic weighing process allows the operator to take an action (i.e. adjust the load, adjust the unit price, determine that the load is acceptable, etc.) which influences the weighing result in the case where the weighing result is not acceptable. Note 2: In case of doubt as to whether an instrument is a non-automatic weighing instrument or an automatic weighing instrument, the definitions for automatic weighing instruments given in OIML Recommendations R 50, R 51, R 61, R 106, R 107 and R 134 have higher priority than the criteria of Note 1 above. Note 3: In this Recommendation a non-automatic weighing instrument is called an “instrument”.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'non-automatic weighing instrument'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e6a3266a-5c26-5a68-91f9-972929e1552b

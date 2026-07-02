@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02305'
+  localized_concepts:
+    eng: 9823c748-e45d-5b85-8d05-56a5ed2863cd
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 04d48947-8acf-46cb-9629-5d39553476fe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'value of the electrical voltage supplied to the meter'
+  id: 02305-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The term “voltage” in this Recommendation indicates r.m.s. (root mean square) values unless otherwise specified.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'voltage (U)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 9823c748-e45d-5b85-8d05-56a5ed2863cd

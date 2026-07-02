@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03296'
+  localized_concepts:
+    eng: 70df031e-b01e-5b6a-a0e5-1df82f18d881
+  sources:
+  - origin:
+      ref:
+        source: OIML D005:2022
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  domains:
+  - concept_id: section-D005
+    ref_type: section
+status: valid
+id: 1964326c-f858-42a5-a2e5-771b87d77d0f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'sequence of measurement standards and calibrations that is used to relate a measurement result to a reference [VIM, 2.42]'
+  id: 03296-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: A metrological traceability chain id defined through a calibration hierarchy. Note 2: A metrological traceability chain is used to establish metrological traceability of measurement result. Note 3: A comparison between two measurement standards may be vied as a calibration if the comparison is used to chek and , if necessary, correct the quantity value and measurement uncertainty attributes to one of the measurement standards.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'metrological traceability chain traceability chain'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 70df031e-b01e-5b6a-a0e5-1df82f18d881

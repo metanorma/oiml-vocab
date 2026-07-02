@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02085'
+  localized_concepts:
+    eng: 9ff2a49d-244e-5631-b72a-ac3574b1aa29
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.17.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: 376068e9-220d-43bd-9d1b-4d2e906c629b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault, the magnitude of which is greater than one fifth of the magnitude of the maximum permissible error for the calorific value. However a fault, the magnitude of which is smaller than 2 scale intervals of the CVDD is never considered as a significant fault'
+  id: 02085-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For CVDDs this concept applies to the whole device.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault (for CVDDs)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 9ff2a49d-244e-5631-b72a-ac3574b1aa29

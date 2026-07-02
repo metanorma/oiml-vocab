@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00350'
+  localized_concepts:
+    eng: 4b93aa73-7525-5c04-8b47-dc26dc0bf14f
+  sources:
+  - origin:
+      ref:
+        source: OIML R021:2007
+    locality:
+      type: clause
+      reference_from: '2.2.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R021
+    ref_type: section
+status: valid
+id: 86dfe76c-6991-4ec9-bae8-df5e2de5cbad
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'interface which only allows the introduction of data into the data processing device of the taximeter, which cannot: - display data that are not clearly defined and which could be taken as being a measurement result; - falsify displayed, processed or stored measurement results or primary indications; -adjust the instrument or change any adjustment factor'
+  id: 00350-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'protective interface'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 4b93aa73-7525-5c04-8b47-dc26dc0bf14f

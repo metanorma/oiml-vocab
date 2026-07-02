@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02051'
+  localized_concepts:
+    eng: 98d50807-4dd0-5503-81d0-78bed16b8839
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.1.11.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: f6038dd7-6b70-434a-b046-6083c0db8f68
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'device incorporated in the meter that only allows shifting of the relative error curve generally parallel to itself, with a view to bringing errors within the maximum permissible errors and to et the weighted mean error (see T.2.20) at minimum'
+  id: 02051-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'adjustment device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 98d50807-4dd0-5503-81d0-78bed16b8839

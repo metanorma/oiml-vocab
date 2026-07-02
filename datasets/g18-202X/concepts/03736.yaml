@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03736'
+  localized_concepts:
+    eng: a1a9bbfc-4fcb-58c2-be38-40c543417ae4
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.4.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: 4f79f5ec-9ae7-40db-add6-74bf58556784
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'speed meter with compensation for cosine error using a measured value of the measurement angle,a configured value of the expected measurement angle or combination of the two'
+  id: 03736-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:  A variation of measurement angle can lead to negative or positive residual cosine error for this calss of speed meters. Note 2:A speed meter that is installed above the road and compensates for cosine error is also referred to as across-the road speed meter, for simplicity. Note 3: Typical examples are most Doppler-radar based speed meters, 2D and 3D laser ecanners and image-nbased speed meters.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'across-the road speed meter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: a1a9bbfc-4fcb-58c2-be38-40c543417ae4

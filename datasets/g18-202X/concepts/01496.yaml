@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01496'
+  localized_concepts:
+    eng: 643e1991-badb-5712-a16a-b677eaf55e28
+  sources:
+  - origin:
+      ref:
+        source: OIML R113:1994
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R113
+    ref_type: section
+status: valid
+id: aad7642e-d78c-4c4a-a84a-64579b061d4e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'the smallest quantity of a sample component which yields a detector output signal that is three times greater than the short- term noise.'
+  id: 01496-eng
+  language_code: eng
+  notes:
+  - content: 'Note: This term is also referred to as «minimum detectability» or «minimum detectable limit (MDL)» in references and manufacturer’s literature. The detection limit is sometimes defined as the output signal equal to some other multiple (for example, two or ten) of the noise level and may depend somewhat on whether the gas chromatograph is being used for quantitative or qualitative analysis'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'detection limit'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 643e1991-badb-5712-a16a-b677eaf55e28

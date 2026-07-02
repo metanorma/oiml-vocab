@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03769'
+  localized_concepts:
+    eng: 4186f644-5f75-53e4-977d-f62dc9e289a6
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.5.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: bac2536b-cdcc-4af2-ad6e-2e8303b07946
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'observed error in a measurement where all influence quantities have been minimized.'
+  id: 03769-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Typically, the linearity error is determined using a simulator in the laboratory.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'linearity error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 4186f644-5f75-53e4-977d-f62dc9e289a6

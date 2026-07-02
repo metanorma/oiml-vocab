@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03094'
+  localized_concepts:
+    eng: 7a1733ef-7448-5646-9a7a-cb314dc6b79a
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.24'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 89772f74-c904-4c18-938b-372d19d1e4fb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: '(mathematical) function which maps data of arbitrary size into data of fixed size called a digest adapted from [ISO/IEC 9594-8:2017] [3]'
+  id: 03094-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: A “good” hash function is such that the results of applying the function to a (large) set of values in the domain will be evenly distributed (and apparently at random) over the range. Note 2: A cryptographic hash function has three additional properties: collision-resistance, preimage resistance, and second preimage resistance, where preimage resistance refers to the inability (computational infeasibility) to reconstruct a preimage or message digest.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'hash function'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 7a1733ef-7448-5646-9a7a-cb314dc6b79a

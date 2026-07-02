@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03728'
+  localized_concepts:
+    eng: 9036e210-8d92-5649-b8e7-0e00dc5ee699
+  sources:
+  - origin:
+      ref:
+        source: OIML R142-1:2025
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  domains:
+  - concept_id: section-R142-1
+    ref_type: section
+status: valid
+id: 046c480a-54e2-4583-b0cb-7649aa633ccd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'quantity value used as a basis for comparison with values of quantities of the same kind'
+  id: 03728-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: A reference quantity value can be a true quantity value of a measurand, in which case it is unknown, or a conventional quantity value, in which case it is known. Note 2: A reference quantity value with associated measurement uncertainty is usually provided with reference to a) a material, e.g. a certified reference material, b) a device, e.g. a stabilized laser, c) a reference measurement procedure, or d) a comparison of measurement standards.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'reference quantity value; reference value [VIM 5.18]'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 9036e210-8d92-5649-b8e7-0e00dc5ee699

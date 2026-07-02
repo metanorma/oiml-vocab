@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02421'
+  localized_concepts:
+    eng: d12f10af-36d3-512d-84d4-5b0b77dbf361
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.4.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: 61afa2ea-3d41-4339-b285-b7af09e99dcc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'quantity that, in a direct measurement, does not affect the quantity that is actually measured, but affects the relation between the indication and the measurement result [SOURCE: ISO/IEC Guide 99:2007/OIML V2-200:2012 (VIM) 2.52 [1],.modified – original exampes and notes removed; “EXAMPLE” added] EXAMPLE:The ambient temperature of the meter is an influence quantity, whereas the temperature of the water passing through the meter affects the measurand.'
+  id: 02421-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'influence quantity'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d12f10af-36d3-512d-84d4-5b0b77dbf361

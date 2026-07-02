@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02917'
+  localized_concepts:
+    eng: fe4fecf0-ebac-5995-b2ec-39d532a33cec
+  sources:
+  - origin:
+      ref:
+        source: OIML D005:2022
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  domains:
+  - concept_id: section-D005
+    ref_type: section
+status: valid
+id: f1f7d729-0b24-4005-b1ae-3351ef0bec3c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'operation that, under specified conditions, in a first step, establishes a relation between the quantity values with measurement uncertainties provided by measurement standards and corresponding indications with associated measurement uncertainties and, in a second step, uses this information to establish a relation for obtaining a measurement result from an indication'
+  id: 02917-eng
+  language_code: eng
+  notes:
+  - content: 'For notes see [VIM, 2.39]'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'calibration'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: fe4fecf0-ebac-5995-b2ec-39d532a33cec

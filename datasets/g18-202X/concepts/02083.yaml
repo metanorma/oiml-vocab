@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02083'
+  localized_concepts:
+    eng: 333a1a4b-658d-5133-a872-7515bc1a229e
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.17.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: 5702c1e5-c074-4d6a-b40b-1874e418c1e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault, the magnitude of which is greater than one tenth of the magnitude of the maximum permissible error for the relevant measurand However, whatever is the measured quantity: faults greater than one tenth of the magnitude of the maximum permissible error corresponding to a quantity equal to one minute at Qmax are always considered as significant, faults smaller than the relevant minimum specified quantity deviation are never considered as significant.'
+  id: 02083-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For the principal measurands this concept applies only to the electronic parts of the measuring system (in general the calculator) but not to the meter as such. Meters shall be tested and assessed according to the specific applicable OIML International Recommendation(s). The significant fault for a calculator is calculated on the basis of the maximum permissible error applicable to the principal measurand and not on the basis of the maximum permissible error applicable to the calculator. When a device is used for measuring two or more principal measurands (a calculator for example), it has a significant fault for each measurand.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault (for the principal measurands: volumes, mass or energy)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 333a1a4b-658d-5133-a872-7515bc1a229e

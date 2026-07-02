@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00694'
+  localized_concepts:
+    eng: 26750bab-5140-57e8-9a41-58495d9cda6a
+  sources:
+  - origin:
+      ref:
+        source: OIML R055:1981
+    locality:
+      type: clause
+      reference_from: '1.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R055
+    ref_type: section
+status: valid
+id: fc2ca283-b8a5-46ea-8bee-a1917aafbc45
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'characteristic quantity showing the type (revolutions of the driving shaft or impulses) and number of signals emitted by the device provided on the vehicle, for connection to the odometer or chronotachograph, when the vehicle covers a distance of 1 km. The coefficient w must be expressed in the same units as constant k. The coefficient w varies according to vehicle load, and the dimensions, pressure and degree of wear of the tyres. It must be determined under standard test conditions (point 4.2.4.).'
+  id: 00694-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'coefficient w of the vehicle'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 26750bab-5140-57e8-9a41-58495d9cda6a

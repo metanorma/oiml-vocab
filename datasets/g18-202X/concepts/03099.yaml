@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '03099'
+  localized_concepts:
+    eng: 6525e30b-b383-5ad3-8ead-4fac7e389b0b
+  sources:
+  - origin:
+      ref:
+        source: OIML R060-1:2021
+    locality:
+      type: clause
+      reference_from: '3.7.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R060-1
+    ref_type: section
+status: valid
+id: e1ee3211-8228-4638-af65-3b40c467b2d3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference in load cell output readings for the same applied force between reading obtained by increasing the load from minimum load (Dmin) and the other by decreasing the load from maximum load (Dmax)'
+  id: 03099-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'hysteresis error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 6525e30b-b383-5ad3-8ead-4fac7e389b0b

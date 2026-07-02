@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02983'
+  localized_concepts:
+    eng: ecd3f63a-b64a-50c5-8432-f9abeb4c8d3a
+  sources:
+  - origin:
+      ref:
+        source: OIML R150-1:2020
+    locality:
+      type: clause
+      reference_from: '2.2.9.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R150-1
+    ref_type: section
+status: valid
+id: 179a79cb-a85d-42f5-bdd2-ab6fe67d06a9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'legally relevant parameter with a value that depends on the individual instrument [VIML:2013, 4.12]'
+  id: 02983-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Device-specific parameters comprise adjustment parameters (e.g. span adjustment or other adjustments or corrections) and configuration parameters (e.g. maximum value, minimum value, units of measurement, etc.)'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'device-specific parameter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ecd3f63a-b64a-50c5-8432-f9abeb4c8d3a

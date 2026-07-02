@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02077'
+  localized_concepts:
+    eng: 96871a4c-86e8-5eae-bcc6-e6982773862c
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: d2a4ad34-0f72-4742-9ce5-e7945bce6b76
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'smallest quantity for which the measurement is metrologically acceptable for that system'
+  id: 02077-eng
+  language_code: eng
+  notes:
+  - content: 'Note: A measuring system has a minimum measured quantity for each principal measurand it processes (volumes, mass or energy).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'minimum measured quantity'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 96871a4c-86e8-5eae-bcc6-e6982773862c

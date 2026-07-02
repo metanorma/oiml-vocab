@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02119'
+  localized_concepts:
+    eng: 546bb684-25f4-58b5-87f4-6a5c0b98759f
+  sources:
+  - origin:
+      ref:
+        source: OIML R142-1:2025
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R142-1
+    ref_type: section
+status: valid
+id: d37c0daa-d227-4c6d-bd46-7297335fe205
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'extreme value of measurement error, with respect to a known reference quantity value, permitted by specifications or regulations for a given measurement, measuring instrument, or measuring system'
+  id: 02119-eng
+  language_code: eng
+  notes:
+  - content: '3.10 Note 1: Usually the term “maximum permissible errors” or “limits of error are used, where there are two extreme values. Note 2: The term “tolerance should not be used to designate “maximum permissible error”. Additional note: Maximum permissible errors for type approval and initial verification and verification after repair od refractometer are defined in 5.2.1. Maximum permissible errors forrefractometer in service are defined in 5.2.2.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'maximum permissible error (MPE) (maximum permissible error, limit of error) [VIM 4.26]'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 546bb684-25f4-58b5-87f4-6a5c0b98759f

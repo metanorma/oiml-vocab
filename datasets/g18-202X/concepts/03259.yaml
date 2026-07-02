@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03259'
+  localized_concepts:
+    eng: c05584f1-6938-5eb6-b768-d533ef47a274
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.41'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 6b4d92a6-1a0c-4c6b-b790-5b3e2b26ba52
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'set of quantity values being attributed to a measurand together with any other available relevant information adapted from [V 2-200:2012, 2.9]'
+  id: 03259-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: The relevant information may consist of e.g. measurement uncertainty, date and time of measurement, number of measurement, identification of sensor and in the case where price calculation is part of legally relevant software, unit price and price to pay. Note 2: The measurement result (including the measured quantity value according to V 2:200:2012) is used for the legally relevant purpousae, e.g. conclusion of transaction. Note 3: See Annex C for clarification regarding measurement-related terms.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement result'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c05584f1-6938-5eb6-b768-d533ef47a274

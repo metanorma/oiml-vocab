@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02437'
+  localized_concepts:
+    eng: 573636e6-c12e-5b35-9178-fddea9381a2a
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.5.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: 7519368b-e9cf-4c67-ad80-36b42d26262d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'facility that is incorporated in a meter and which enables significant fault(s) (3.2.8) to be detected and acted upon [SOURCE: OIML D11:2013, 3.19, [8], , modified — “meter” replaces “measuring instrument”; “Note 3” added]'
+  id: 02437-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:Typically, checking facilities detect and act upon: incorrect function of specific device of the meter, and/or disturbed communication between specific devices of the meter. Note 2:“Act upon” refers to any adequate response by measuring instrument (for example: a luminous signal, an acoustic signal, interruption or blocking of the measurement process, etc.). Note 3: The checking of a transmission device aims to verify whether all the information which is transmitted (and only that information) is fully received by the receiving equipment.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'checking facility'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 573636e6-c12e-5b35-9178-fddea9381a2a

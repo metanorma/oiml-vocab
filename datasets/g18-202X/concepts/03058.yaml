@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '03058'
+  localized_concepts:
+    eng: c8ad183e-bada-546e-a88b-54d252595d2f
+  sources:
+  - origin:
+      ref:
+        source: OIML R126-1:2021
+    locality:
+      type: clause
+      reference_from: '3.1.17'
+    type: authoritative
+  domains:
+  - concept_id: section-R126-1
+    ref_type: section
+status: valid
+id: cbcf1735-67a3-4971-b53b-2542d2146b9e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'for a series of n measurements of the same measurand, the quantity s(qk) characterising the dispersion of the results and given by the formula: with: qk being the result of the kth measurement and  beeing the arithmetic mean of the n results considered.'
+  id: 03058-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'experimental standard deviation'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c8ad183e-bada-546e-a88b-54d252595d2f

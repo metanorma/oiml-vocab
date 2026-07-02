@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00325'
+  localized_concepts:
+    eng: 400cf58f-d10c-50a8-96d8-8f5b0ac41270
+  sources:
+  - origin:
+      ref:
+        source: OIML R016-2:2002
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R016-2
+    ref_type: section
+status: valid
+id: e0870d73-ea39-4e04-ac3e-548797edfb04
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'value of the integral of one cycle of the blood pressure curve divided by the time of one heart beat period'
+  id: 00325-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Because of hydrostatic effects, this value should be measured with the cuff at the heart level.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'mean arterial blood pressure (value)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 400cf58f-d10c-50a8-96d8-8f5b0ac41270

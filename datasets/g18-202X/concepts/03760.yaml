@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03760'
+  localized_concepts:
+    eng: 185ffdac-bfea-53d2-9818-1711e07b3d67
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.3.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: dc34dd84-e0aa-43cd-834f-007b02fd76ad
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'speed meter emitting pulsed or modulated radiation and detecting the range (distance) from the radiation reflected by objects'
+  id: 03760-eng
+  language_code: eng
+  notes:
+  - content: 'Note: 2D and 3D laser scanners and hand-held LIDAR speed meters are examples belonging to this category. LIDAR (Light Detection and Ranging) is a remote sensing method that determines target range and speed based on the time-of-flight of laser light pulses reflected off a target.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'fixed-distance speed meter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 185ffdac-bfea-53d2-9818-1711e07b3d67

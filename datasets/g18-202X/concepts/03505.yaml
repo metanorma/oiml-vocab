@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03505'
+  localized_concepts:
+    eng: 2834135a-7f57-5296-b9a2-60093f0788c4
+  sources:
+  - origin:
+      ref:
+        source: OIML R126-1:2021
+    locality:
+      type: clause
+      reference_from: '3.1.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R126-1
+    ref_type: section
+status: valid
+id: 57c247cb-4651-463e-a33f-c6c1b739abc4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault exceeding the applicable fault limit [OIML V 1, 5.14]'
+  id: 03505-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Significant fault are only relevant to electronic measuring systems.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 2834135a-7f57-5296-b9a2-60093f0788c4

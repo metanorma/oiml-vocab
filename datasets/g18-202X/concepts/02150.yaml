@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02150'
+  localized_concepts:
+    eng: 28b4b42c-271c-5ce6-8e20-9219cd5842f8
+  sources:
+  - origin:
+      ref:
+        source: OIML R143:2009
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+  domains:
+  - concept_id: section-R143
+    ref_type: section
+status: valid
+id: d3a09483-205d-4446-a2ad-76fc66784475
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'continuous or incremental change over time in the indication, due to changes in the metrological properties of a measuring instrument.'
+  id: 02150-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: In this Recommendation, “drift” means a change in the indication which occurs during a stated period of time at a given concentration of SO2 in a sample to be analyzed. Note 2:. [VIM:2007, 4.21]'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'instrumental drift'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 28b4b42c-271c-5ce6-8e20-9219cd5842f8

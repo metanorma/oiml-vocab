@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02114'
+  localized_concepts:
+    eng: acc17dc3-4464-55af-846b-ea095528c70a
+  sources:
+  - origin:
+      ref:
+        source: OIML R141:2008
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+  domains:
+  - concept_id: section-R141
+    ref_type: section
+status: valid
+id: f677a164-e88e-4e4a-ba27-03bf8b1e1fb2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'temperature increment equal to the root-mean-square value of the noise in a thermogram, when observing a homogeneous background set with a specified temperature and a specified thermogram rate'
+  id: 02114-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'noise equivalent temperature difference (temperature resolution, ΔTNETD)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: acc17dc3-4464-55af-846b-ea095528c70a

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03459'
+  localized_concepts:
+    eng: 6f2a89ed-1f86-59b0-9604-c2de904b9503
+  sources:
+  - origin:
+      ref:
+        source: OIML R059-1:2016
+    locality:
+      type: clause
+      reference_from: '2.1.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R059-1
+    ref_type: section
+status: valid
+id: 0a0c2a88-55d2-41a9-b8f9-5d0cc3986213
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'condition of measurement, out of a set of conditions that includes different locations, operators, measuring systems, and replicate measurements on the same or similar objects [VIM 2.24]'
+  id: 03459-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Different measuring systems may use different measurement procedures. Note 2: A specification should give the conditions changed and unchanged, to the extent practical.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'reproducibility condition of measurement (reproducibility condition)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 6f2a89ed-1f86-59b0-9604-c2de904b9503

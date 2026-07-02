@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02517'
+  localized_concepts:
+    eng: 993ca1cc-717b-5d92-9e8d-5475d5f633e3
+  sources:
+  - origin:
+      ref:
+        source: OIML R100-1:2013
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R100-1
+    ref_type: section
+status: valid
+id: b691e6e5-362f-48fa-b574-b278339f41eb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'figure of merit which is calculated as three times the observed standard deviation of the baseline noise, established by measuring the output signal from a blank test solution free of interferents'
+  id: 02517-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'instrument detection limit (IDL)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 993ca1cc-717b-5d92-9e8d-5475d5f633e3

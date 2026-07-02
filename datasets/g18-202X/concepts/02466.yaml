@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02466'
+  localized_concepts:
+    eng: c78de488-a938-51c6-83c8-3fad88eed485
+  sources:
+  - origin:
+      ref:
+        source: OIML R059-1:2016
+    locality:
+      type: clause
+      reference_from: '2.3.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R059-1
+    ref_type: section
+status: valid
+id: 743a2aa8-ba0d-4ab8-9147-23d44d9f772a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'performance characteristic of a calibration assessed at reference conditions'
+  id: 02466-eng
+  language_code: eng
+  notes:
+  - content: 'Additional note: The assessment requires calculation of , the bias over a set of test samples or the ‘calibration bias’, and the standard deviation of the difference (SDD) between the meter and the reference method for each of the 2 % moisture intervals which is the standard deviation of measurement errors from the same sample set. Refer to R 59-2, A.1.2 for the calculation of  and SDD from measured values. The limiting values for  and SDD in column 2, Table 4.4.1 shall be observed in order to deem a calibration as sufficiently accurate.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'accuracy of a grain moisture calibration calibration accuracy'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c78de488-a938-51c6-83c8-3fad88eed485

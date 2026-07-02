@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01524'
+  localized_concepts:
+    eng: 74cd0249-8c44-54ca-b118-b6b63a023ef3
+  sources:
+  - origin:
+      ref:
+        source: OIML R116:2006
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R116
+    ref_type: section
+status: valid
+id: ac0e29aa-2405-42fb-ac56-ec529e866951
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'concentration of an element that provides an output signal equivalent to three times the standard deviation of the mean of the output signal of a blank solution and is the minimum quantity measured before it can be concluded that an element has been detected'
+  id: 01524-eng
+  language_code: eng
+  notes:
+  - content: 'Note: In this Recommendation, this term refers to the determination of an element in a reference solution free of interfering elements. The baseline noise is established by measuring the output signal of several aliquots of the blank test solution.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'detection limit'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 74cd0249-8c44-54ca-b118-b6b63a023ef3
