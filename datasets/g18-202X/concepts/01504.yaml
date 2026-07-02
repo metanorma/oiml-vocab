@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01504'
+  localized_concepts:
+    eng: ecb5b9fb-5a78-51b0-aa0a-bdb88d4a7167
+  sources:
+  - origin:
+      ref:
+        source: OIML R113:1994
+    locality:
+      type: clause
+      reference_from: '3.17'
+    type: authoritative
+  domains:
+  - concept_id: section-R113
+    ref_type: section
+status: valid
+id: f6775fb9-7cae-4026-8d94-b70fe461aee0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'the closeness of agreement between results of successive measurements of the same measurand carried out under the same conditions and within a relatively short period of time'
+  id: 01504-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The same conditions include the following: the method of measurement, the operator, the measuring instrument, the location, and the environmental conditions.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'repeatability'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ecb5b9fb-5a78-51b0-aa0a-bdb88d4a7167

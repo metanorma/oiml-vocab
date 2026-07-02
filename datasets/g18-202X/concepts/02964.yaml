@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02964'
+  localized_concepts:
+    eng: e2771b80-def4-55f0-8e33-da224a582cf6
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.9'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 907aa158-2f02-47b0-bdb6-73695411fbf3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'dataset containing the public key belonging to a measuring instrument or a person plus a unique identification of the subject, e.g. serial number of the measuring instrument or name or Personal Identification Number (PIN) of the person, plus a date of expiry, plus a trusted party signature'
+  id: 02964-eng
+  language_code: eng
+  notes:
+  - content: 'Note:The trusted party signature binds the public key to the unique identification of the subject.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'cryptographic certificate'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e2771b80-def4-55f0-8e33-da224a582cf6

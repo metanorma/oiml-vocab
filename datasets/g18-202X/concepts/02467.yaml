@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02467'
+  localized_concepts:
+    eng: 141efb11-ccac-554a-8d0d-e7ba9b435696
+  sources:
+  - origin:
+      ref:
+        source: OIML R059-1:2016
+    locality:
+      type: clause
+      reference_from: '2.3.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R059-1
+    ref_type: section
+status: valid
+id: 0006dea4-d41f-47b5-b16b-08ce4c10b3b0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'algebraic mean of error shift values calculated from samples of the same grain type with different moisture levels. The resulting ‘average’ value is indicative of the average variation over the encompassed measurement range, as opposed to the variation in measured values at one point of the range'
+  id: 02467-eng
+  language_code: eng
+  notes:
+  - content: 'Note: In this Recommendation, reference to a resulting ‘mean’ value is reserved for the mean of replicated measurements, i.e. the mean of measured values on the same test sample (usually taken under repeatability conditions).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'average error shift'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 141efb11-ccac-554a-8d0d-e7ba9b435696

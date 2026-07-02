@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03786'
+  localized_concepts:
+    eng: d2d51001-88e9-5ff0-8720-ff93d3bbc585
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.2.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: 5d8334f8-62c8-412d-b849-d0d43f7f916d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'speed meter which is designed for stationary measurements and does not correct for non-zero ego speed'
+  id: 03786-eng
+  language_code: eng
+  notes:
+  - content: 'Note: A stationary speed meter is either fixed or mobile.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'stationary speed meter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d2d51001-88e9-5ff0-8720-ff93d3bbc585

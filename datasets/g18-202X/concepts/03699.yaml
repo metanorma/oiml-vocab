@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03699'
+  localized_concepts:
+    eng: fb94c147-1084-533e-a956-ef26347db4a9
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.57'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 043c4604-0191-4118-a52d-469dc9dafafe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'process to establish and maintain the integrity of the lagally relevant software of a measuring instrument adapted form [ISO/IEC/IEEE 12207:2017, 6.3.5]'
+  id: 03699-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Configuration management as discpline covers all aspects of legally relevant parts of the measureing instrument, whether software or hardware. However, this document only covers the software related requirements. Configuration management regarding hardware prats are to give in the relevant Recommendation.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'software configuration management'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: fb94c147-1084-533e-a956-ef26347db4a9

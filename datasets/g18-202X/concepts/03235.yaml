@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03235'
+  localized_concepts:
+    eng: 64c689f9-48ff-525a-9d81-522473e8218c
+  sources:
+  - origin:
+      ref:
+        source: OIML R129-1:2020
+    locality:
+      type: clause
+      reference_from: '2.3.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R129-1
+    ref_type: section
+status: valid
+id: 5c8cfd85-4079-4798-aeb5-6f23c96da40e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'extreme value (positive and negative) of the error of indication permitted by specifications, Recommendations, regulations, etc. [adapted from VIM 4.26]'
+  id: 03235-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The absolute value of the mpe is the same value without sign.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'maximum permissible error (mpe)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 64c689f9-48ff-525a-9d81-522473e8218c

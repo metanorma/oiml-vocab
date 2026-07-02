@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03785'
+  localized_concepts:
+    eng: dc64b4cf-0f19-535e-94ce-0125993f33cb
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.2.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: 11d179dd-d23f-4d7a-b088-b389312d988d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'speed measurement at zero ego speed, i.e. the speed meter is not moving during the measurement'
+  id: 03785-eng
+  language_code: eng
+  notes:
+  - content: 'Note: In other documents, stationary measurements are sometimes called static measurements or measurements from a static point.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'stationary measurement'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: dc64b4cf-0f19-535e-94ce-0125993f33cb

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01866'
+  localized_concepts:
+    eng: feee7cf4-fcdb-5660-a2ca-9d5f3b4e6ce9
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.27'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: 62a29670-d0bd-459a-a7d0-2519200eb784
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'difference between the indication of a measuring instrument (here a spectrophotometer) and a true value of the corresponding input quantity'
+  id: 01866-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Since a true value is indeterminable by nature, a conventional true value, i.e. an assigned value or best estimate of the value is used in practice. For a material measure, the indication is the value assigned to it. [Adapted from VIM:1993, 5.20]'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'error (of a measuring instrument)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: feee7cf4-fcdb-5660-a2ca-9d5f3b4e6ce9

@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '03300'
+  localized_concepts:
+    eng: 134cee1b-81e0-5f4f-801c-0e81641cbd99
+  sources:
+  - origin:
+      ref:
+        source: OIML R134:2006
+    locality:
+      type: clause
+      reference_from: 'T.3.2.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R134
+    ref_type: section
+status: valid
+id: ac4a2218-71c2-46c4-8428-9bd76e89d560
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'value of the load below which the weighing-in-motion results before totalizing may be subject to an excessive relative error'
+  id: 03300-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'minimum capacity (Min)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 134cee1b-81e0-5f4f-801c-0e81641cbd99

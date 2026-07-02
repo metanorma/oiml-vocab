@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02309'
+  localized_concepts:
+    eng: d7537c2f-f011-5911-a0d4-34e0a92eb3a4
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.2.10'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 21ce0d65-d89b-4afb-ad18-973c4f3b6f7c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of a signal that has a frequency that is an integer multiple of the fundamental frequency of the signal'
+  id: 02309-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The fundamental frequency is generally the nominal frequency (fnom)'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'harmonic'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d7537c2f-f011-5911-a0d4-34e0a92eb3a4

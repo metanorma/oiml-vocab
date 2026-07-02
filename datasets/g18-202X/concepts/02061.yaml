@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02061'
+  localized_concepts:
+    eng: a0a35174-72fd-555f-9dd8-67565f975e61
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.1.18'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: 6975dcb8-1919-466a-aece-a192b7cb32ba
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'set of electronic and/or paper records that provide for a complete examination of measured variables, parameter settings and calculation results to check the accuracy of a measurement and any necessary corrections'
+  id: 02061-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The required records may include volumes at metering conditions, pressures, temperatures and calorific values, conversion equation specification and parameters, volumes and energy at base conditions, calibration datum, and alarm logs.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'audit trail'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: a0a35174-72fd-555f-9dd8-67565f975e61

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01484'
+  localized_concepts:
+    eng: e3243602-8112-52ab-a3ee-3653af383f46
+  sources:
+  - origin:
+      ref:
+        source: OIML R112:1994
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  domains:
+  - concept_id: section-R112
+    ref_type: section
+status: valid
+id: 22b68fc2-9296-4702-9dd3-46fd89d7d035
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'The output signal per unit concentration of the sample component in the mobile phase; it may be expressed as: where S = sensitivity A = the integrated area of the sample component F = the flow rate M = the mass of the sample component injected'
+  id: 01484-eng
+  language_code: eng
+  notes:
+  - content: 'Note: An electrochemical detector of the coulombic type does not follow this equation.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'sensitivity of a detector'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e3243602-8112-52ab-a3ee-3653af383f46

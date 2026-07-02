@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03676'
+  localized_concepts:
+    eng: 4d4f8475-35c2-5b67-8990-f0a462fe7b14
+  sources:
+  - origin:
+      ref:
+        source: OIML R061-1:2017
+    locality:
+      type: clause
+      reference_from: '3.3.5.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R061-1
+    ref_type: section
+status: valid
+id: 4a3bfef8-02aa-4b07-93b0-016725427d25
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'numerical value, representing a weight, that is introduced into the instrument and is intended to be applied to other weighings without determining individual tares'
+  id: 03676-eng
+  language_code: eng
+  notes:
+  - content: 'Note : “introduced” includes procedures such as keying in, recalling from a data storage device, or inserting via an interface.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'preset tare value, PT'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 4d4f8475-35c2-5b67-8990-f0a462fe7b14

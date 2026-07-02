@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02343'
+  localized_concepts:
+    eng: 427f96ef-c22d-5848-83fd-54f634564800
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.1.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: f85ba6c5-d3e1-4be0-89e9-25455d8db893
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of the meter that transforms the output signals from the measurement transducer(s) (3.1.2) and, possibly, from associated measuring instruments and stores the results in memory until they are used'
+  id: 02343-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:The gearing is considered to be the calculator in a mechanical meter. Note 2:The calculator may be capable of communicating both ways with ancillary devices.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'calculator'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 427f96ef-c22d-5848-83fd-54f634564800

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02205'
+  localized_concepts:
+    eng: 2fb21033-1a25-58df-89c7-5889be66d0d3
+  sources:
+  - origin:
+      ref:
+        source: OIML D001:2012
+    locality:
+      type: clause
+      reference_from: '3.1.5'
+    type: authoritative
+  domains:
+  - concept_id: section-D001
+    ref_type: section
+status: valid
+id: 8a6bc302-3032-408b-941b-7777d7bc3e2a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'realization of the definition of a given quantity, with stated quantity value and associated measurement uncertainty, used as a reference [VIM 5.1] Examples: 1 kg mass measurement standard with an associated standard measurement uncertainty of 3 μg. 100 Ω measurement standard resistor with an associated standard measurement uncertainty of 1 μΩ. Cesium frequency standard with a relative standard measurement uncertainty of 2 × 10−15. Standard buffer solution with a pH of 7.072 with an associated standard measurement uncertainty of 0.006. Set of reference solutions of cortisol in human serum having a certified quantity value with measurement uncertainty for each solution. Reference material providing quantity values with measurement uncertainties for the mass concentration of each of ten different proteins.'
+  id: 02205-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:A “realization of the definition of a given quantity” can be provided by a measuring system, a material measure, or a reference material. Note 2:A measurement standard is frequently used as a reference in establishing measured quantity values and associated measurement uncertainties for other quantities of the same kind, thereby establishing metrological traceability through calibration of other measurement standards, measuring instruments, or measuring systems. Note 3:The term “realization” is used here in the most general meaning. It denotes three procedures of “realization”. The first one consists in the physical realization of the measurement unit from its definition and its realization in the narrowest sense. The second, termed “reproduction”, consists not in realizing the measurement unit from its definition but in setting up a highly reproducible measurement standard based on a physical phenomenon, as it happens, e.g., in the case of use of frequency-stabilized lasers to establish a measurement standard for the metre, of the Josephson effect for the volt or of the quantum Hall effect for the ohm. The third procedure consists in adopting a material measure as a measurement standard. It occurs in the case of the measurement standard of 1 kg. Note 4:A standard measurement uncertainty associated with a measurement standard is always a component of the combined standard measurement uncertainty (see GUM, 2.3.4) in a measurement result obtained using the measurement standard. Frequently, this component is small compared with other components of the combined standard measurement uncertainty. Note 5:Quantity value and measurement uncertainty must be determined at the time when the measurement standard is used. Note 6:Several quantities of the same kind or of different kinds may be realized in one device which is commonly also called a measurement standard. Note 7:The word “embodiment” is sometimes used in the English language instead of “realization”. Note 8:In science and technology, the English word “standard” is used with at least two different meanings: as a specification, technical recommendation, or similar normative document (in French “norme”) and as a measurement standard (in French “étalon”). This Vocabulary is concerned solely with the second meaning. Note 9:The term “measurement standard” is sometimes used to denote other metrological tools, e.g. ‘software measurement standard’, see ISO 5436-2.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement standard {etalon}'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 2fb21033-1a25-58df-89c7-5889be66d0d3

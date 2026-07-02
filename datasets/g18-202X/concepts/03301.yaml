@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03301'
+  localized_concepts:
+    eng: 6db7acbd-0332-55e2-b499-59da2668d763
+  sources:
+  - origin:
+      ref:
+        source: OIML R061-1:2017
+    locality:
+      type: clause
+      reference_from: '3.4.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R061-1
+    ref_type: section
+status: valid
+id: 65f26b19-d0b7-452f-b73d-3bd2a2c25780
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'smallest discrete load that can be weighed automatically on t a load receptor of the AGFI'
+  id: 03301-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For AGFIs which accomplish the fill by one weighing cycle the minimum capacity, Min, is equal to the rated minimum fill, Minfill.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'minimum capacity, Min'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 6db7acbd-0332-55e2-b499-59da2668d763

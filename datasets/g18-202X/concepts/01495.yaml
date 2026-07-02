@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01495'
+  localized_concepts:
+    eng: 51d23bb8-cacc-55db-8b37-3f6754dc8998
+  sources:
+  - origin:
+      ref:
+        source: OIML R113:1994
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  domains:
+  - concept_id: section-R113
+    ref_type: section
+status: valid
+id: e9b6c3bf-d78a-4088-b4c0-c54f8bc4bfa0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a measure of the variation in the detector’s output signal when a sample component is not being detected. This can be classified into two types: Short-term noise includes all observable random variations of the signal from the detector or other components having a frequency of about one or more cycles per minute. Drift is the average slope of the baseline signal measured over an extended time period, for example, one-half hour'
+  id: 01495-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'noise'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 51d23bb8-cacc-55db-8b37-3f6754dc8998

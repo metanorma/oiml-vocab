@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01033'
+  localized_concepts:
+    eng: 7f5c6461-79d8-528a-b441-d8cf2cd9e370
+  sources:
+  - origin:
+      ref:
+        source: OIML R081:1998
+    locality:
+      type: clause
+      reference_from: '3.24'
+    type: authoritative
+  domains:
+  - concept_id: section-R081
+    ref_type: section
+status: valid
+id: 0ba726bf-987d-4321-bfcf-cd7b99302b7d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a fault the magnitude of which is greater than 20 % of the maximum permissible error (mpe) for the measured quantity. The following are not considered to be significant faults: faults arising from simultaneous and mutually independent causes in the measuring instrument itself or in its checking facility; transitory faults being momentary variations in the indication, that cannot be interpreted, memorized, or transmitted as a measurement result; faults implying the impossibility of performing any measurement.'
+  id: 01033-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 7f5c6461-79d8-528a-b441-d8cf2cd9e370

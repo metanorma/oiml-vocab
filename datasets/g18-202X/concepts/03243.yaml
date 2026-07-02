@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03243'
+  localized_concepts:
+    eng: e386927c-b6ba-5180-a2f0-1fe0dc72d7e5
+  sources:
+  - origin:
+      ref:
+        source: OIML R149-1:2020
+    locality:
+      type: clause
+      reference_from: '2.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R149-1
+    ref_type: section
+status: valid
+id: e88b8d1a-825c-4ea3-9eaf-cb0bccc3a67e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'value of the integral of one cycle of the blood pressure curve divided by the time of one heart beat period'
+  id: 03243-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Because of hydrostatic effects, this value should be measured with the cuff at the heart level. The calculation of the mean arterial blood pressure using on;ly the systolic and diastolic blood pressure values is not recommended.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'mean arterial blood pressure (value)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e386927c-b6ba-5180-a2f0-1fe0dc72d7e5

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02970'
+  localized_concepts:
+    eng: ec966bc8-1ee8-5b78-b7d1-d9ab4161dbcd
+  sources:
+  - origin:
+      ref:
+        source: OIML R080-2:2017
+    locality:
+      type: clause
+      reference_from: '2'
+    type: authoritative
+  domains:
+  - concept_id: section-R080-2
+    ref_type: section
+status: valid
+id: 274d13f2-08a3-411a-94f0-6861cc58dd75
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'level at which the level gauge sensor is able to measure the minimum filling height at the maximum inclination of the tank'
+  id: 02970-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Below this level a measurement of the filling height cannot be guaranteed.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'cut-off point'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ec966bc8-1ee8-5b78-b7d1-d9ab4161dbcd

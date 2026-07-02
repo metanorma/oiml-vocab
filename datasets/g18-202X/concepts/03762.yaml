@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03762'
+  localized_concepts:
+    eng: c2885611-ee20-56a5-aaca-a19c8a764075
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.3.12'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: a322cdb7-5e3f-4bce-9787-60fca99d88e4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'function that converts a data string into a numeric string output of fixed length'
+  id: 03762-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Hash algorithms are designed to be collision-resistant, meaning that there is a very low probability that the same string would be created for different data. Note 2: Hash algorithms are used for software identification, authentication of measurements, protection of settings etc. Note 3: Typical hash algorithms are SHA-2 (256-bit hash) or stronger.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'hash algorithm'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c2885611-ee20-56a5-aaca-a19c8a764075

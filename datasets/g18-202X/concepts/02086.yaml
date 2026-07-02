@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02086'
+  localized_concepts:
+    eng: a6de2b80-8ce1-5298-80fa-56781d4a5662
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.17.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: 77c2c704-a2d7-420f-a34f-5c6503fa2509
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'The following faults are not considered as significant: faults resulting from simultaneous causes independent from each other within the instrument itself or within its checking facility; temporary faults resulting from momentary indication variations, but which cannot be interpreted, stored or transmitted as measurement results.'
+  id: 02086-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: a6de2b80-8ce1-5298-80fa-56781d4a5662

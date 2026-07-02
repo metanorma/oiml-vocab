@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03502'
+  localized_concepts:
+    eng: 82519890-cd3c-598b-bb5f-97b9a5375d9e
+  sources:
+  - origin:
+      ref:
+        source: OIML R061-1:2017
+    locality:
+      type: clause
+      reference_from: '3.5.2.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R061-1
+    ref_type: section
+status: valid
+id: d8651b14-7e6c-4594-b69e-cb4f2eab592e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault exceeding the applicable fault limit value (VIML 5.14)'
+  id: 03502-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For particular types of measuring instruments some faults exceeding the fault limit may not be considered a significant fault; the applicable Recommendation shall state when such exception applies. For example, the occurrence of one or some of the following faults may be acceptable: faults arising from simultaneous and mutually independent causes originating in a measuring instrument or in its checking facilities; faults implying the impossibility to perform any measurement; transistory faults being momentary variations in the indication, which cannot be interpreted, memorized or transmitted as a measurement result; faults giving rise to variations in the measurement result that are serious enough to be noticed by all those interested in the measurement result; The Recommendation may specify the nature of these variations.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 82519890-cd3c-598b-bb5f-97b9a5375d9e

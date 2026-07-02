@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02280'
+  localized_concepts:
+    eng: f7a475ef-24c4-520c-be2b-8c316ed5364e
+  sources:
+  - origin:
+      ref:
+        source: OIML R046-1:2012
+    locality:
+      type: clause
+      reference_from: '2.1.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R046-1
+    ref_type: section
+status: valid
+id: 9bfdefc5-437f-4c0f-871d-7b3e85f697c8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'instrument intended to measure electrical energy continuously by integrating power with respect to time and to store the result'
+  id: 02280-eng
+  language_code: eng
+  notes:
+  - content: 'Note: It is recognized that “continuously” may also cover meters with a sampling rate sufficiently high to fulfil the requirements of this Recommendation.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'electricity meter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: f7a475ef-24c4-520c-be2b-8c316ed5364e

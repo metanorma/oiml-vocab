@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03040'
+  localized_concepts:
+    eng: ac5b1ce0-a1ca-52f3-857e-f81c3c808a88
+  sources:
+  - origin:
+      ref:
+        source: OIML R123:1997
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R123
+    ref_type: section
+status: valid
+id: 11e62c98-a8d3-4f88-9988-09e875108d43
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'A parameter used as a measure of the ability of a detector to distinguish between two adjacent energy peaks arising from elements in a sample.'
+  id: 03040-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For this Recommendation, it is expressed as the full width at half maximum height of the manganese K-alpha line (5.9 keV) in units of energy or in percent as related to the energy of the peak.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'energy resolution'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ac5b1ce0-a1ca-52f3-857e-f81c3c808a88

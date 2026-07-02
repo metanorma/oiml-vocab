@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03613'
+  localized_concepts:
+    eng: deb71f05-6581-545d-921a-2276eb29f091
+  sources:
+  - origin:
+      ref:
+        source: OIML R126-1:2021
+    locality:
+      type: clause
+      reference_from: '3.3.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R126-1
+    ref_type: section
+status: valid
+id: e95d23a6-10fe-414e-9ef2-e4066cb7225a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'interface that enables information to be interchanged between the operator and the measuring instrument or its hardware components or software modules (OIML D 31, 3.1.60)'
+  id: 03613-eng
+  language_code: eng
+  notes:
+  - content: 'Note:Examples are switches, keyboard, mouse, display, monitor, printer, touch-screen, software window on a screen including the software that generates it.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'user interface'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: deb71f05-6581-545d-921a-2276eb29f091

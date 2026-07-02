@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '03052'
+  localized_concepts:
+    eng: 5b593c51-3455-5dad-a6c7-fcb7723714c5
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.21'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: b090da4e-f7a0-4ab7-be74-9b47537bb5bb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'non-resettable counter that increments each time an event occurs'
+  id: 03052-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'event counter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 5b593c51-3455-5dad-a6c7-fcb7723714c5

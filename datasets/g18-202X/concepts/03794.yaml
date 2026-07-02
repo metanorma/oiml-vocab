@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03794'
+  localized_concepts:
+    eng: e094aaed-f12e-59f8-ace6-d0b4b0851c6b
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.4.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: 2decc9a0-15c5-429c-be1a-8682c3286b21
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'measurement error due to changing target area on the measured vehicle during the measurement'
+  id: 03794-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The change can be manifold, e.g. a single step, multiple steps, or a gradual sliding.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'vehicle shape-related error'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e094aaed-f12e-59f8-ace6-d0b4b0851c6b

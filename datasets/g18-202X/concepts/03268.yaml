@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03268'
+  localized_concepts:
+    eng: 4af02fbb-3560-5b00-a9e4-eb6ba9b91c18
+  sources:
+  - origin:
+      ref:
+        source: OIML D005:2022
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  domains:
+  - concept_id: section-D005
+    ref_type: section
+status: valid
+id: 4836d587-6933-4d44-89f5-7f8f430dcbd8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'non-negative parameter characterizing the dispersion of the quantity values being attributed to a measurand, based on the information used [VIM 2.26]'
+  id: 03268-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:Measurement uncertainty includes components arising from systematic effects, such as components associated with corrections and the assigneted quantity values of measurement standards, as well as the definitional uncertainty components are incorporated. Note 2: The parameter may be, for example, a standard deviation called standard measurement uncertainty (or a specified multiple of it), or the half-width of an interval, having a stated coverage probability. Note 3: Measurement uncertainty comproses, in general, many components. Some of these may be evaluated by Type A evaluation of measurement uncertainty from the statistical distribution of the quantity values form series of measurements and can be characterized by standard deviations. The other components, which may be evaluated by Type B evaluation of measurement uncertainty, can also be characterized by standard deviations, evaluated form probability density function based on experience or other information. Note 4: In general, for given set of information, it is understood that the measurement uncertainty is associated with a stated quantity value attributed to the measurand. A modification of this value results in a modification of the associated uncertatinty.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement uncertainty uncertainty of measurement uncertainty'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 4af02fbb-3560-5b00-a9e4-eb6ba9b91c18

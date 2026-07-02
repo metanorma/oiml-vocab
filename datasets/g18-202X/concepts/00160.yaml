@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00160'
+  localized_concepts:
+    eng: b14f0701-44f8-53b4-9979-e10bf4890316
+  sources:
+  - origin:
+      ref:
+        source: OIML D022:1991
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  domains:
+  - concept_id: section-D022
+    ref_type: section
+status: valid
+id: e7f5588c-9d26-4d3f-91b3-1d7d305d9225
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a measurement standard whose value is fixed by direct comparison with a primary standard'
+  id: 00160-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Most instrument calibrations are performed using secondary standards.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'secondary standard'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: b14f0701-44f8-53b4-9979-e10bf4890316

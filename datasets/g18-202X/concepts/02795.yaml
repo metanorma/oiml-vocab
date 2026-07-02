@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02795'
+  localized_concepts:
+    eng: 6caa740e-5a97-59f2-9856-f2fee4592974
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.1 Tab. 1.14'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: d7e2b80e-dc79-4f28-bda1-9d45aacfbb33
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: '{condition of measurement, out of a set of conditions that includes different locations, operators, measuring systems, and replicate measurements on the same or similar objects [VIM 2.24]}'
+  id: 02795-eng
+  language_code: eng
+  notes:
+  - content: '{ NOTE 1 The different measuring systems may use different measurement procedures. NOTE 2 A specification should give the conditions changed and unchanged, to the extent practical.} For the tests in this Recommendation, the conditions changed and unchanged are summarized in R 146-2, Annex A, A.3.4.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'reproducibility condition of measurement {reproducibility condition}'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 6caa740e-5a97-59f2-9856-f2fee4592974

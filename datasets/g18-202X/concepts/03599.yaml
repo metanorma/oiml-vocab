@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03599'
+  localized_concepts:
+    eng: 44feb3e9-b985-5904-8647-c29e9542b54d
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.70'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 55088e55-ec31-4a07-8eba-2b5024cca040
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'legally relevant parameter with a value that depends on the type of instrument, component and/or module subject ot legal control Adapted form [OIML V 1:2022, 2.04]'
+  id: 03599-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Type-specific parameters are part of the legally relevant software. Example: Considering a measuring system of liquids other than water, the range of kinematic viscosity of a turbine is a type-specific parameter fixed by the type approval of the turbine. All the manufactured turbines of the same type have the same range of viscosity.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'type-specific parameter'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 44feb3e9-b985-5904-8647-c29e9542b54d

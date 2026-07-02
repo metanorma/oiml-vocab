@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03055'
+  localized_concepts:
+    eng: 849b6a84-0673-5757-be35-ecda6b9be86b
+  sources:
+  - origin:
+      ref:
+        source: OIML D005:2022
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+  domains:
+  - concept_id: section-D005
+    ref_type: section
+status: valid
+id: 427a264b-c38e-4031-a06d-b535f42fc255
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'product of a combined standard measurement uncertainty and a factor larger than the number one [VIM, 2.35]'
+  id: 03055-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: The factor depends upon the type of probability distribution of the output quantity in ,easurement model and on the selected coverage probability. Note 2: The term “factor” in this definition refers to a coverage factor. Note 3: Expanded measurement uncertainty is termed “overall uncertainty” in paragraph 5 of Recommendation INC-1 (1980) (see the GUM) and simply “uncertainty” pn IEC documents.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'expanded measurement uncertainty expanded uncertainty'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 849b6a84-0673-5757-be35-ecda6b9be86b

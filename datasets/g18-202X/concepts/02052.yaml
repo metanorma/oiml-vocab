@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02052'
+  localized_concepts:
+    eng: 1e4dad33-63d0-5ed6-9fe0-4668d4289dea
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.1.11.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: 60dad119-903f-4507-827b-58f775eb1c55
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'device connected to or incorporated in the meter/and or a calculator for automatically correcting the volume at metering conditions, by taking into account the flowrate and/or the characteristics of the gas to be measured (temperature, pressure, gas composition, etc.) and by also taking into account pre-established calibration curves'
+  id: 02052-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The characteristics of the gas may either be measured using associated measuring instruments, or stored in a memory in the instrument.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'correction device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 1e4dad33-63d0-5ed6-9fe0-4668d4289dea

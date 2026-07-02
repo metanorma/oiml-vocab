@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03399'
+  localized_concepts:
+    eng: 1cb5812a-8e86-5fb7-a7e0-485f53eef33c
+  sources:
+  - origin:
+      ref:
+        source: OIML R150-1:2020
+    locality:
+      type: clause
+      reference_from: '2.3.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R150-1
+    ref_type: section
+status: valid
+id: ddb9f59c-c6be-48dc-a72a-f14d10aefa95
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'identifiable group of measuring instruments belonging to the same manufactures type within the same category that have the same design features and metrological principles for measurement (for example the same type of indicator, the same type of design of force receptor and force transmitting device) but which may differ in some metrological and technical performance characteristic (e.g. Max, Min, d, accuracy calss, etc.) [Adapted from VIML:2013, 4.02 – examples added]'
+  id: 03399-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The concept of family primarily aims to reduce the test effort during type examination. It does not preclude the possibility of listing more than one family in one certificate.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'family of measuring instruments'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 1cb5812a-8e86-5fb7-a7e0-485f53eef33c

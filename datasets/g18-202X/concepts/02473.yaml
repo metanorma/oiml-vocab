@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02473'
+  localized_concepts:
+    eng: eb1bc7a5-aae1-552d-96fc-a8778542b8ca
+  sources:
+  - origin:
+      ref:
+        source: OIML R059-1:2016
+    locality:
+      type: clause
+      reference_from: '2.3.8'
+    type: authoritative
+  domains:
+  - concept_id: section-R059-1
+    ref_type: section
+status: valid
+id: c181d571-2412-4498-83f6-91ec33895fa5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'with reference to a certified measurement standard: difference between the mean error of indication while one or more influence quantities are varied within the rated operating conditions and the mean intrinsic error of a measuring instrument. See 4.4.1 for the error shifts associated with grain moisture meter testing'
+  id: 02473-eng
+  language_code: eng
+  notes:
+  - content: 'Note: If a certified measurement standard is not used, the error shift is the difference between two measured values: the indication under rated operating conditions and the mean indication at reference conditions prior to test.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'error shift'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: eb1bc7a5-aae1-552d-96fc-a8778542b8ca

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01743'
+  localized_concepts:
+    eng: 8ab1787e-4362-50f6-bb60-45cfb0fdb31d
+  sources:
+  - origin:
+      ref:
+        source: OIML R131:2001
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R131
+    ref_type: section
+status: valid
+id: 00f63e76-3532-4dfe-8806-12d60348a3ed
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'optical absorbance, Aλ, at the analysis wavelength, λ, divided by the dosimeter thickness, t: kλ = Aλ /t'
+  id: 01743-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The thickness, t, is a measure of optical path length.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'specific absorbance, kλ'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 8ab1787e-4362-50f6-bb60-45cfb0fdb31d

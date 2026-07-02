@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '03020'
+  localized_concepts:
+    eng: d34a977b-622a-5761-94ec-d03f0026cca4
+  sources:
+  - origin:
+      ref:
+        source: OIML R050-1:2014
+    locality:
+      type: clause
+      reference_from: 'T.7.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R050-1
+    ref_type: section
+status: valid
+id: 2a7c0303-b589-4849-a736-b40fb83f8a80
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'test intended to verify whether the EUT is able to maintain its performance characteristics over a period of use [OIML D 11, 3.20.4]'
+  id: 03020-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'durability test'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d34a977b-622a-5761-94ec-d03f0026cca4

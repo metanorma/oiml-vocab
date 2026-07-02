@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02540'
+  localized_concepts:
+    eng: 746b1ba0-0d76-57f3-bdb1-af3570dd4db2
+  sources:
+  - origin:
+      ref:
+        source: OIML R106-1:2011
+    locality:
+      type: clause
+      reference_from: '0.2.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R106-1
+    ref_type: section
+status: valid
+id: 4655e390-b607-4714-ac04-d0fb817b8f74
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of the instrument that is intended to receive the load'
+  id: 02540-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: The load receptor may support all the wheels of an axle, a bogie, or a single wagon simultaneously. Note 2: Two or more load receptors may be placed in series and used as a single load receptor for full-draught weighing or partial weighing (see 0.3.1.2).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'load receptor'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 746b1ba0-0d76-57f3-bdb1-af3570dd4db2

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01055'
+  localized_concepts:
+    eng: da024b4b-c0af-5df6-93bb-e75a3c4fd264
+  sources:
+  - origin:
+      ref:
+        source: OIML R082:2006
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R082
+    ref_type: section
+status: valid
+id: daafc382-904a-4c8b-9d00-c5042641789c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'mass flow rate (for mass flow rate dependent detectors) or concentration (for concentration-dependent detectors) yielding a signal equal to three times the short-term noise level as determined on a statistical basis'
+  id: 01055-eng
+  language_code: eng
+  notes:
+  - content: 'Note: This term is also referred to as “minimum detectability”, or “minimum detectable limit (MDL)”, in some references and manufacturer''s literature. It is sometimes defined as an output signal equal to some other multiple (two or ten) of the noise level and depends somewhat on whether the gas chromatograph is used for quantitative or qualitative analysis.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'detection limit'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: da024b4b-c0af-5df6-93bb-e75a3c4fd264

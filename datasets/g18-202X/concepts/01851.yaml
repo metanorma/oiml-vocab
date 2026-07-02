@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01851'
+  localized_concepts:
+    eng: 20f7c68e-fb67-515c-804d-b6b688f7bdf3
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: d9e49eab-c243-460b-b4c8-b99a34ab97f9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of a fluid taken from a system and intended to provide information about the properties of the system'
+  id: 01851-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The sample solution contains as a component the analyte and is applied to the sensor of a measuring system and provides the output signal. In laboratory medicine the “system” usually is a subsystem of a patient such as blood or urine. [Adapted from [9], subclauses 4.114 and 4.4]'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'sample solution'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 20f7c68e-fb67-515c-804d-b6b688f7bdf3

@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01206'
+  localized_concepts:
+    eng: b50982de-b28f-5eab-859e-880881c22a0e
+  sources:
+  - origin:
+      ref:
+        source: OIML R101:1991
+    locality:
+      type: clause
+      reference_from: 'T.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R101
+    ref_type: section
+status: valid
+id: 29542e5b-428b-4f9d-9294-539bd3201344
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a pressure that does not vary, or that varies continuously at speeds not exceeding: 1 % of the upper limit of the measuring range per second, for pressure gauges and vacuum gauges, 1 % of the sum of the upper limits of the measuring ranges per second, for pressure-vacuum gauges, with the greatest pressure variation in one minute not exceeding 5 % of the above values'
+  id: 01206-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'steady pressure'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: b50982de-b28f-5eab-859e-880881c22a0e

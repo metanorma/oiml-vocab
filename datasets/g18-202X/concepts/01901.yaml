@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01901'
+  localized_concepts:
+    eng: 9e8ae072-2528-5430-a937-c36a28407b6a
+  sources:
+  - origin:
+      ref:
+        source: OIML R136-1:2004
+    locality:
+      type: clause
+      reference_from: 'T.3.3'
+    type: authoritative
+  domains:
+  - concept_id: section-R136-1
+    ref_type: section
+status: valid
+id: 58bdfd36-c7e3-4442-80a0-415538e045ca
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'highest value of the marked range on the indicator for an analogue display. Nominally the highest value that can be detected by the digital indicator plus one scale interval for electronic displays'
+  id: 01901-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'maximum area (Amax)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 9e8ae072-2528-5430-a937-c36a28407b6a

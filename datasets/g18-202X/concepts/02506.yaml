@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02506'
+  localized_concepts:
+    eng: b1bb1460-982a-5417-9f21-d2497b5b9afc
+  sources:
+  - origin:
+      ref:
+        source: OIML R087:2016
+    locality:
+      type: clause
+      reference_from: '2.1.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R087
+    ref_type: section
+status: valid
+id: 06ec694e-40e0-42ca-8227-b14d4185e4da
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'sampling procedure where prepackages to be included in a sample are chosen randomly from the inspection lot (i.e. each prepackage in the inspection lot has an equal probability of being selected to be included in the sample)'
+  id: 02506-eng
+  language_code: eng
+  notes:
+  - content: 'Note:This is also referred to as “sampling without replacement”.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'random sampling'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: b1bb1460-982a-5417-9f21-d2497b5b9afc

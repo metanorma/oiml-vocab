@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01843'
+  localized_concepts:
+    eng: ba616190-b038-51bd-b6c4-9e8deff56aef
+  sources:
+  - origin:
+      ref:
+        source: OIML R135:2004
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R135
+    ref_type: section
+status: valid
+id: 07cc8aee-61c1-49cb-a8a3-fe721f034b86
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'ratio of the transmitted radiant luminous flux to the incident flux'
+  id: 01843-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:   ISO 6286, Table 1, No. 4. Note 2:  Transmittance has the dimension one and is expressed with the derived coherent SI unit one (1).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'transmittance (τ = Φtr / Φ0)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ba616190-b038-51bd-b6c4-9e8deff56aef

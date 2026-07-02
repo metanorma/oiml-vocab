@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02600'
+  localized_concepts:
+    eng: b3376509-097b-5fd6-861d-cb2038a64172
+  sources:
+  - origin:
+      ref:
+        source: OIML R106-1:2011
+    locality:
+      type: clause
+      reference_from: '0.4.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R106-1
+    ref_type: section
+status: valid
+id: 3210dd62-f5c2-455c-b970-37f294d2db20
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'quantity value provided by a measuring instrument or a measuring system [VIM 4.1]'
+  id: 02600-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1:An indication may be presented in visual or acoustic form or may be transferred to another device. An indication is often given by the position of a pointer on the display for analog outputs, a displayed or printed number for digital outputs, a code pattern for code outputs, or an assigned quantity value for material measures. Note 2:An indication and a corresponding value of the quantity being measured are not necessarily values of quantities of the same kind.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'indication'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: b3376509-097b-5fd6-861d-cb2038a64172

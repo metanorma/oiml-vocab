@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02075'
+  localized_concepts:
+    eng: 4f01f669-229f-53a2-9f4b-8e103ee24274
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.2.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: 4722d6e4-3f70-4795-a0f5-966992fda190
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'flowrate equal to the sum of the flowrates of all the meters in parallel branches (where appropriate) forming the system when one of these meters reaches its maximum flowrate under the specified conditions of use, all meters being in use'
+  id: 02075-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'maximum flowrate of the measuring system Qmax'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 4f01f669-229f-53a2-9f4b-8e103ee24274

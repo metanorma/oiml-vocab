@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03242'
+  localized_concepts:
+    eng: 98825499-6eca-51ba-8248-7906c0252cda
+  sources:
+  - origin:
+      ref:
+        source: OIML R129-1:2020
+    locality:
+      type: clause
+      reference_from: '2.1.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R129-1
+    ref_type: section
+status: valid
+id: 2cf18eea-6d6c-403f-93dd-0a7d831301d1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'maximum speed at which the instrument will measure correctly'
+  id: 03242-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Only applicable to instruments where measurements are affected by means of relative movement between the object and the instrument.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'maximum measuring speed (Vmax)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 98825499-6eca-51ba-8248-7906c0252cda

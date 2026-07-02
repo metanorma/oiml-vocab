@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02766'
+  localized_concepts:
+    eng: ad6d91c3-8f76-59fc-9e2e-defeb594b230
+  sources:
+  - origin:
+      ref:
+        source: OIML R144-1:2013
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R144-1
+    ref_type: section
+status: valid
+id: b21cc5d4-81e8-40b7-9750-d8740c09f693
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'period of time that the gas analytical system requires from applying power to the instrument to attaining the operating mode at which the instrument will operate within the maximum permissible errors'
+  id: 02766-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For a gas analyzer this is the time between the instant at which power is applied to it and the instant at which the measurement result of the volume fraction, a CGM being supplied to the input, is within the permissible limits.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'warm-up time'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: ad6d91c3-8f76-59fc-9e2e-defeb594b230

@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01432'
+  localized_concepts:
+    eng: a050c182-cd5d-5552-ae8b-3b74bd89d363
+  sources:
+  - origin:
+      ref:
+        source: OIML R110:1994
+    locality:
+      type: clause
+      reference_from: '2.4.4'
+    type: authoritative
+  domains:
+  - concept_id: section-R110
+    ref_type: section
+status: valid
+id: 3ce4c487-69cc-4e78-ab7c-d38e12902ecf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'the result of a pressure measurement minus the (conventional) true value of the measured pressure'
+  id: 01432-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'error of the pressure measurement'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: a050c182-cd5d-5552-ae8b-3b74bd89d363

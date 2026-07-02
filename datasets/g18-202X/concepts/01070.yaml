@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01070'
+  localized_concepts:
+    eng: 691d0e69-e985-5052-a1e3-7571dabbb60b
+  sources:
+  - origin:
+      ref:
+        source: OIML R083:2006
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  domains:
+  - concept_id: section-R083
+    ref_type: section
+status: valid
+id: 8cb46185-407a-4c03-95fd-2016cf3cbadd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'The method of calculating instrument resolution is dependent on the instrument’s ion analyzer. Two common methods for determining the ratio of m to Δm (m/Δm) are: - m is the mass of a component comprising the first peak of a doublet, and Δm is the difference in the mass of the two peaks. The doublet shall be separated by a valley, the value of which shall not exceed 10 % of the value of the highest peak (m/Δm is constant (sector type)). - m is the mass of a sample component within a peak and Δm is the full width at half maximum (FWHM) of the peak (Δm is constant, (quadrupole type)). Thus m/Δm decreases as mass decreases. With this type of instrument unit resolution, one can separate each mass from the next integer mass, i.e. one can distinguish mass 50 from mass 51, and distinguish mass 1000 from mass 1001'
+  id: 01070-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'resolution of a mass spectrometer'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 691d0e69-e985-5052-a1e3-7571dabbb60b

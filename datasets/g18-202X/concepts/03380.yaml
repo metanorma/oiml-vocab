@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03380'
+  localized_concepts:
+    eng: e5b5ef2a-6953-5160-9f2b-81d629058ac9
+  sources:
+  - origin:
+      ref:
+        source: OIML R139-1:2022
+    locality:
+      type: clause
+      reference_from: '3.2.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R139-1
+    ref_type: section
+status: valid
+id: bebb170f-48b3-4468-aa6f-e934953454f0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'device which permits the selection of the quantity value to be measured and which automatically stops the flow of the gas at the end of the measurement of the selected quantity'
+  id: 03380-eng
+  language_code: eng
+  notes:
+  - content: 'Note:  The preset quantity value may be the mass or the related price to pay.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'presetting device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e5b5ef2a-6953-5160-9f2b-81d629058ac9

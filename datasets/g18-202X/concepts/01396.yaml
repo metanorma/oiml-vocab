@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01396'
+  localized_concepts:
+    eng: 892429d4-bf87-5883-adb8-9823dd884f8d
+  sources:
+  - origin:
+      ref:
+        source: OIML R107-1:2007
+    locality:
+      type: clause
+      reference_from: 'T.5.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R107-1
+    ref_type: section
+status: valid
+id: 6cadae0a-5aad-441d-93e0-e1049b4dbd48
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'quantity that is not the measurand but that affects the result of the measurement [VIM: 1993, 2.10]'
+  id: 01396-eng
+  language_code: eng
+  notes:
+  - content: 'Note: An influence quantity does not affect the actual mass of the load being weighed, but affects the value  (weighing result) indicated by the instrument.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'influence quantity'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 892429d4-bf87-5883-adb8-9823dd884f8d

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02401'
+  localized_concepts:
+    eng: 001c2dbf-fd2d-526e-8587-e74eaa2f5b76
+  sources:
+  - origin:
+      ref:
+        source: OIML R049-1:2024
+    locality:
+      type: clause
+      reference_from: '3.2.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R049-1
+    ref_type: section
+status: valid
+id: 7881df5e-0828-404e-a31e-eff6f9a2fff6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'fault ( 3.2.8) greater than the value specified in this part of ISO 4064/OIML R 49'
+  id: 02401-eng
+  language_code: eng
+  notes:
+  - content: 'Note: See 5.1.2, which specifies the value of a significant fault.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'significant fault'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 001c2dbf-fd2d-526e-8587-e74eaa2f5b76

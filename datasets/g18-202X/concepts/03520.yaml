@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03520'
+  localized_concepts:
+    eng: 4c715088-436a-53ce-bcdb-1d9d5a817c32
+  sources:
+  - origin:
+      ref:
+        source: OIML R126-1:2021
+    locality:
+      type: clause
+      reference_from: '3.3.11'
+    type: authoritative
+  domains:
+  - concept_id: section-R126-1
+    ref_type: section
+status: valid
+id: 36a5a7ad-974f-4f3d-8145-5cf3b06db901
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'sequence of readable characters (e.g. version number, checksum) that represents the software or software module under consideration. (OIML D 31, 3.1.48)'
+  id: 03520-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The identification can be checked on an instrument whilst it is in use.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'software identification'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 4c715088-436a-53ce-bcdb-1d9d5a817c32

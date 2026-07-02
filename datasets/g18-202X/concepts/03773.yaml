@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03773'
+  localized_concepts:
+    eng: a50f7207-b34d-520e-90a4-aad2e670fcd8
+  sources:
+  - origin:
+      ref:
+        source: OIML R091-1:2025
+    locality:
+      type: clause
+      reference_from: '3.1.13'
+    type: authoritative
+  domains:
+  - concept_id: section-R091-1
+    ref_type: section
+status: valid
+id: effa6630-4d8a-46ae-a11d-d1f16179fd4d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a straight or curved section of the road, where the measured vehicle was driving during the measurement'
+  id: 03773-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Its starting and end points are defined such that the measured speed value refers to the average speed on the measurement section. Note 2: In a manual measurement, the measured vehicle drives on the measurement section after the measurement is triggered. In an automatic measurement, the measured vehicle exits the measurement section at the trigger line.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement section'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: a50f7207-b34d-520e-90a4-aad2e670fcd8

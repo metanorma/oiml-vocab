@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02685'
+  localized_concepts:
+    eng: 7def40a2-591b-50b3-a9e9-6d05e355e790
+  sources:
+  - origin:
+      ref:
+        source: OIML R137:2012
+    locality:
+      type: clause
+      reference_from: '3.3.7'
+    type: authoritative
+  domains:
+  - concept_id: section-R137
+    ref_type: section
+status: valid
+id: 3e6af795-1b69-403f-98e9-678cf6c51eb4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'median temperature for gas meters with built-in conversion devices, used as a reference for the determination of the applicable operating temperature range'
+  id: 02685-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The difference between tsp and the gas temperature has an influence on the value of the MPE'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'specified temperature, tsp'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 7def40a2-591b-50b3-a9e9-6d05e355e790

@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00658'
+  localized_concepts:
+    eng: f8d4edf4-1073-5528-9646-756ffc4c895d
+  sources:
+  - origin:
+      ref:
+        source: OIML R051-1:2006
+    locality:
+      type: clause
+      reference_from: 'T.4.3.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R051-1
+    ref_type: section
+status: valid
+id: 7b82ccab-c1af-4dff-b7d1-275c0a7b2aa3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Mean value of the error (of indication) for a number of consecutive automatic weighings of a load, or similar loads, passed over the load receptor, expressed mathematically as: where: x = error of a load indication, = mean of the errors, and n = number of weighings'
+  id: 00658-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'mean (systematic) error, x'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: f8d4edf4-1073-5528-9646-756ffc4c895d

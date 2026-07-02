@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03700'
+  localized_concepts:
+    eng: c6bfe1a4-0ccb-58bf-867f-1efb4dbaf5c3
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.66'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: 194e88ec-4070-4950-8ea6-9eade5700c25
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'property or function of software module that may be subject to a test'
+  id: 03700-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1: Test items are typically examined and tested as part of remote verification procedures. Note 2: Examples of potential test items include correctness of algorithms, software identity and software integrity.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'test item'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c6bfe1a4-0ccb-58bf-867f-1efb4dbaf5c3

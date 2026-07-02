@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02860'
+  localized_concepts:
+    eng: d654d66d-8399-52aa-88c1-c631972ace37
+  sources:
+  - origin:
+      ref:
+        source: OIML R139-1:2018
+    locality:
+      type: clause
+      reference_from: '3.2.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R139-1
+    ref_type: section
+status: valid
+id: ebb5059a-4c82-4d1e-8998-cc0256e584cc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'device intended to perform a particular function, directly involved in elaborating, transmitting or displaying measurement results [OIML V1:2013, 5.06]'
+  id: 02860-eng
+  language_code: eng
+  notes:
+  - content: 'Note 1 An ancillary device may or may not be subject to legal metrology control according to its function in the measuring system or to national regulations. Note 2 Main ancillary devices are: zero-setting device; repeating indicating device; printing device; memory device; price indicating device; totalizing indicating device; presetting device; self-service device.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'ancillary device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d654d66d-8399-52aa-88c1-c631972ace37

@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03121'
+  localized_concepts:
+    eng: 71a89c74-d06d-5dfe-8d00-424254834c97
+  sources:
+  - origin:
+      ref:
+        source: OIML R150-1:2020
+    locality:
+      type: clause
+      reference_from: '2.5.1.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R150-1
+    ref_type: section
+status: valid
+id: 80391066-5292-42c3-b1cc-e27f07ef1a61
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'influence quantity having a value within the rated operating conditions of the measuring instrument'
+  id: 03121-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The variation of an indication as a consequence of an influence factor is considered an error and not a fault. [Adapted from VIML:2013, 5.18 – part fo mote omitted]'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'influence factor'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 71a89c74-d06d-5dfe-8d00-424254834c97

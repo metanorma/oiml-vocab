@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02872'
+  localized_concepts:
+    eng: 2742f739-849d-5e0f-a4b4-06c3f3a8f361
+  sources:
+  - origin:
+      ref:
+        source: OIML D031:2023
+    locality:
+      type: clause
+      reference_from: '3.2.1'
+    type: authoritative
+  domains:
+  - concept_id: section-D031
+    ref_type: section
+status: valid
+id: a1beba98-f22f-461a-99cc-172f27996525
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'continuous data file containing a time stamped information record of events, e.g. changes in the values of the parameters of a measuring instrument or software updates, or other activities that are legally relevant and which are critical forthe metrological characteristics adapted from [OIML V 1:2022, 6.05]'
+  id: 02872-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Regarding examples for events logged in an audit trial, see 3.2.20'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'audit trail'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 2742f739-849d-5e0f-a4b4-06c3f3a8f361

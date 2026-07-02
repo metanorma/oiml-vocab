@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01527'
+  localized_concepts:
+    eng: 77d442e6-b0ff-5a4b-bdab-707416169858
+  sources:
+  - origin:
+      ref:
+        source: OIML R116:2006
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  domains:
+  - concept_id: section-R116
+    ref_type: section
+status: valid
+id: ab5cb7a8-5f04-4457-8890-c1c97a5e980d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'measure of a spectrometer''s ability to separate two adjacent spectral lines'
+  id: 01527-eng
+  language_code: eng
+  notes:
+  - content: 'Note: It usually indicates the smallest distance between two adjacent spectral lines at which they can be distinguished one from the another.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'resolution'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 77d442e6-b0ff-5a4b-bdab-707416169858

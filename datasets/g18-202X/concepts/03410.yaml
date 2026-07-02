@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '03410'
+  localized_concepts:
+    eng: 42ae65fa-2499-58d4-992d-1640d703af0d
+  sources:
+  - origin:
+      ref:
+        source: OIML R060-1:2021
+    locality:
+      type: clause
+      reference_from: 'A.1.12'
+    type: authoritative
+  domains:
+  - concept_id: section-R060-1
+    ref_type: section
+status: valid
+id: 02f23398-a467-4f90-abd2-b6b5a6c6c73e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'test intended to verify whether the EUT is able to accomplish its intended functions (OIML D 11, 3.21.4)'
+  id: 03410-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'performance test'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 42ae65fa-2499-58d4-992d-1640d703af0d

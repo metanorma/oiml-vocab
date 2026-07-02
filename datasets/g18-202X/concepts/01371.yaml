@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01371'
+  localized_concepts:
+    eng: 584f1eee-0fed-5a80-8a9e-044016364eaa
+  sources:
+  - origin:
+      ref:
+        source: OIML R107-1:2007
+    locality:
+      type: clause
+      reference_from: 'T.3.9'
+    type: authoritative
+  domains:
+  - concept_id: section-R107-1
+    ref_type: section
+status: valid
+id: 3791bcd5-5b9c-457c-8e48-6e061cac021c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'closeness of the agreement between the results of successive measurements of the same measurand carried out under the same conditions of measurement [VIM: 1993, 3.6]'
+  id: 01371-eng
+  language_code: eng
+  notes:
+  - content: 'Note:  For an instrument, this is its ability to provide weighing results that agree one with the other under the same or constant operating conditions.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'repeatability'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 584f1eee-0fed-5a80-8a9e-044016364eaa

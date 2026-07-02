@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02363'
+  localized_concepts:
+    eng: 78de233c-7a3b-57b7-bacb-538609f3ebde
+  sources:
+  - origin:
+      ref:
+        source: OIML R099-1:2008
+    locality:
+      type: clause
+      reference_from: '3.29'
+    type: authoritative
+  domains:
+  - concept_id: section-R099-1
+    ref_type: section
+status: valid
+id: 8fd6747e-beb3-4352-a045-c00f7368ef47
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'facility that is incorporated in the instrument and that enables significant faults to be detected and acted upon'
+  id: 02363-eng
+  language_code: eng
+  notes:
+  - content: 'Note: “Acted upon” means any adequate response by the instrument (luminous or acoustic signal, blocking of process, etc.); Adapted from OIML D 11:2004, 3.18.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'checking facility'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 78de233c-7a3b-57b7-bacb-538609f3ebde

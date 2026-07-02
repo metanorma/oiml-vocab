@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00330'
+  localized_concepts:
+    eng: c26be2dd-deeb-56b3-8f5a-85d83cd4a46d
+  sources:
+  - origin:
+      ref:
+        source: OIML R016-2:2002
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+  domains:
+  - concept_id: section-R016-2
+    ref_type: section
+status: valid
+id: 1012cf46-043e-4a14-b692-49bfa6701694
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'maximum value of the arterial blood pressure as a result of the contraction of the systemic ventricle'
+  id: 00330-eng
+  language_code: eng
+  notes:
+  - content: 'Note: Because of hydrostatic effects, this value should be measured with the cuff at the heart level.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'systolic blood pressure (value)'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c26be2dd-deeb-56b3-8f5a-85d83cd4a46d

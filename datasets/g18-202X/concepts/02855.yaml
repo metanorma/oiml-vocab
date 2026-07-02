@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02855'
+  localized_concepts:
+    eng: f445961d-1476-58af-a24c-fce034bb14da
+  sources:
+  - origin:
+      ref:
+        source: OIML R060-1:2021
+    locality:
+      type: clause
+      reference_from: '3.1.3.1'
+    type: authoritative
+  domains:
+  - concept_id: section-R060-1
+    ref_type: section
+status: valid
+id: f4230a90-5d23-4452-9e5f-7ac08f877130
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'load cell from which the output provides either measurable data or direct information representing the measurand value'
+  id: 02855-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The ratio between output and input may be adjustable and this type of load cell may utilise passive electronics (e.g. strain gauges), and passive temperature compensation elements.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'analogue-passive load cell'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: f445961d-1476-58af-a24c-fce034bb14da

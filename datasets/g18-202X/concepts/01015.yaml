@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01015'
+  localized_concepts:
+    eng: d4f9253c-56c9-5a72-929b-8e6e045782b0
+  sources:
+  - origin:
+      ref:
+        source: OIML R081:1998
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  domains:
+  - concept_id: section-R081
+    ref_type: section
+status: valid
+id: 7ee1b38c-6ddb-4423-b67e-7a0eced11b55
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a part of the meter that transforms the flow of the liquid to be measured into a signal(s) which is (are) sent to the calculator. It may either be autonomous or use an external power source'
+  id: 01015-eng
+  language_code: eng
+  notes:
+  - content: 'Note: For the purpose of this Recommendation, the measurement transducer includes the flow or volume sensor.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'measurement transducer'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: d4f9253c-56c9-5a72-929b-8e6e045782b0

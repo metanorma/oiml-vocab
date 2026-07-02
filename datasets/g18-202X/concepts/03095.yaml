@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03095'
+  localized_concepts:
+    eng: e464e2bb-2c76-5ca5-89d2-b3336bb01819
+  sources:
+  - origin:
+      ref:
+        source: OIML R126-1:2021
+    locality:
+      type: clause
+      reference_from: '3.3.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R126-1
+    ref_type: section
+status: valid
+id: 3d2401cf-26ed-4e4a-a116-94841a85e22b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: '(mathematical) function which maps values from a large (possibly very large) domain into a smaller range (OIMLD 31, 3.1.20)'
+  id: 03095-eng
+  language_code: eng
+  notes:
+  - content: 'Note: A “good” hash function is such that the results of applying the function to a (large) set of values in the domain will be evenly distributed (and apparently at random) over the range.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'hash function'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: e464e2bb-2c76-5ca5-89d2-b3336bb01819

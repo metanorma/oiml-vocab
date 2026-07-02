@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '03104'
+  localized_concepts:
+    eng: fc35b0c0-ee24-58b1-a3b7-7917f9016592
+  sources:
+  - origin:
+      ref:
+        source: OIML R139-1:2022
+    locality:
+      type: clause
+      reference_from: '3.2.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R139-1
+    ref_type: section
+status: valid
+id: ec98b280-d46d-412d-ab5e-b912ddd44d48
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'part of the measuring instrument (meter) which displays the measurement results, either continuously or on demand [OIML V 1:2013, 5.04]'
+  id: 03104-eng
+  language_code: eng
+  notes:
+  - content: 'Note: A printing device is not an indicating device, although a printed measurement result is considered to be an indication.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'indicating device'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: fc35b0c0-ee24-58b1-a3b7-7917f9016592

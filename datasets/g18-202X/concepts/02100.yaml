@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02100'
+  localized_concepts:
+    eng: 52f4ac0e-9439-5394-b904-b97a77a21a45
+  sources:
+  - origin:
+      ref:
+        source: OIML R140:2007
+    locality:
+      type: clause
+      reference_from: 'T.4.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R140
+    ref_type: section
+status: valid
+id: 0b0b96db-4b7b-4b90-9584-cb577dad0d5c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'facility that is incorporated in a measuring system and which enables significant faults to be detected and acted upon'
+  id: 02100-eng
+  language_code: eng
+  notes:
+  - content: 'Note: The checking of a transmission device aims at verifying that all the information which is transmitted (and only that information) is fully received by the receiving equipment.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'checking facility'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 52f4ac0e-9439-5394-b904-b97a77a21a45

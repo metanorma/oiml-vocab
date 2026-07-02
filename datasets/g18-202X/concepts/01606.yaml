@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '01606'
+  localized_concepts:
+    eng: 98af147b-5256-5587-84e6-3d2acf4e35dd
+  sources:
+  - origin:
+      ref:
+        source: OIML R123:1997
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  domains:
+  - concept_id: section-R123
+    ref_type: section
+status: valid
+id: a7b57548-cac0-49cd-bb4f-78addf0effc7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'concentration of an element which provides an output signal equivalent to three times the standard deviation of the background. It is the minimum quantity of an element that can be detected. For this Recommendation, it may be derived from the statistical variation in the background using the following equation: D = 3 (B/t)1/2/S where: D = detection limit (unit of concentration); B = background (counts per second); t = measurement time (seconds); S = sensitivity (counts per second per unit of concentration).'
+  id: 01606-eng
+  language_code: eng
+  notes:
+  - content: 'Note: When applied in a measurement method or for an analysis, the limit of quantitation of the instrument is an important parameter. It is defined as being a value equal to 10 times the standard deviation of the background and also would include the variations associated with sampling and analysis'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'detection limit'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 98af147b-5256-5587-84e6-3d2acf4e35dd

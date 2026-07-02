@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '03519'
+  localized_concepts:
+    eng: c9da841d-1f2f-5fae-8a4b-ef401248188c
+  sources:
+  - origin:
+      ref:
+        source: OIML R150-1:2020
+    locality:
+      type: clause
+      reference_from: '2.2.9.5'
+    type: authoritative
+  domains:
+  - concept_id: section-R150-1
+    ref_type: section
+status: valid
+id: 39d71c68-120e-4d27-8a13-db94d0d9a9ab
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'sequence of readable characters (e.g. version number, checksum) that is inextricably linked to the software or software module under consideration. It can be checked on an instrument whilst in use [VIML:2013, 6.01]'
+  id: 03519-eng
+  language_code: eng
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'software identification'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c9da841d-1f2f-5fae-8a4b-ef401248188c

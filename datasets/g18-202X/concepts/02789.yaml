@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '02789'
+  localized_concepts:
+    eng: 922557da-388c-5c18-835b-f13ae0f2ca4e
+  sources:
+  - origin:
+      ref:
+        source: OIML R146-1:2016
+    locality:
+      type: clause
+      reference_from: '2.1 Tabl. 1.8'
+    type: authoritative
+  domains:
+  - concept_id: section-R146-1
+    ref_type: section
+status: valid
+id: f0d1e8fd-e9e4-4528-aa26-ab03e41fabd1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: '{operating condition prescribed for evaluating the performance of a measuring instrument or measuring system or for comparison of measurement results [VIM 4.11]}'
+  id: 02789-eng
+  language_code: eng
+  notes:
+  - content: '{ NOTE 1 Reference operating conditions specify intervals of values of the measurand and of the influence quantities. NOTE 2 In IEC 60050-300, item 311-06-02, the term “reference condition” refers to an operating condition under which the specified instrumental measurement uncertainty is the smallest possible.}'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'reference condition {reference operating condition}'
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: 922557da-388c-5c18-835b-f13ae0f2ca4e
