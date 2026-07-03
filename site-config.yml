@@ -41,6 +41,12 @@ datasets:
 - id: vim-1993
   localPath: datasets/vim-1993
   color: '#B0BEC5'
+- id: vim-1984-cor-1987
+  localPath: datasets/vim-1984-cor-1987
+  color: '#C5CFD5'
+- id: vim-1984
+  localPath: datasets/vim-1984
+  color: '#D8E0E5'
 routing: []
 branding:
   primaryColor: '#004996'
@@ -113,11 +119,18 @@ datasetTranslations:
   vim-1993:
     fra:
       description: Remplacée par l'édition 2007. 120 concepts répartis en 6 chapitres couvrant les grandeurs et unités, les mesurages, les résultats de mesure, les instruments de mesure, les caractéristiques des instruments de mesure et les étalons.
+  vim-1984-cor-1987:
+    fra:
+      description: Corrigendum (Cor.1:1987) de la première édition du VIM. Modifie 3 concepts (1.01, 4.10, 5.23) ; les 135 autres sont identiques textuellement à V 2:1984 et reliés par des liens « equivalent ». Forme canonique corrigée de V 2:1984. Remplacée par l'édition 1993.
+  vim-1984:
+    fra:
+      description: Première édition du VIM (publiée conjointement par le BIPM, la CEI, l'ISO et l'OIML). 138 concepts répartis en 6 chapitres. Remplacée par le corrigendum V 2:1984/Cor.1:1987 puis par l'édition 1993.
 copyright: OIML
 datasetGroups:
 - id: viml
   label: VIML — International Vocabulary of Legal Metrology
   kind: lineage
+  current: viml-2022
   datasets:
   - viml-2022
   - viml-2013
@@ -130,11 +143,14 @@ datasetGroups:
 - id: vim
   label: VIM — International Vocabulary of Metrology
   kind: lineage
+  current: vim-2012
   datasets:
   - vim-2012
   - vim-2010
   - vim-2007
   - vim-1993
+  - vim-1984-cor-1987
+  - vim-1984
   color: '#005A9C'
   translations:
     fra:
