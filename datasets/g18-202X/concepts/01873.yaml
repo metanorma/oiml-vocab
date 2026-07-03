@@ -17,13 +17,18 @@ data:
 status: valid
 id: de32a539-4cf7-4990-bf54-b5a1d6b2b42b
 schema_version: '3'
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.12'
 ---
 data:
   dates:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'durability error greater than the value specified in the appropriate  Recommendation [OIML D 11, 3.12]'
+  - content: 'durability error greater than the value specified in the appropriate  Recommendation'
   id: 01873-eng
   language_code: eng
   sources: []
