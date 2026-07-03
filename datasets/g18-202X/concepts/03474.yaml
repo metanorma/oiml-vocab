@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'means intended to protect the measuring instrument against any unauthorized modification, readjustment, removal of parts, software, etc. [VIML 2.20]'
+  - content: 'means intended to protect the measuring instrument against any unauthorized modification, readjustment, removal of parts, software, etc.'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '2.20'
   id: 03474-eng
   language_code: eng
   notes:
