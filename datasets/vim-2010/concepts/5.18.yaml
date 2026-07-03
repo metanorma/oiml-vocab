@@ -17,19 +17,23 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: quantity value used as a basis for comparison with values of quantities
-      of the same kind
+  - content: "*quantity value* used as a basis for comparison with values of *quantities*
+      of the same *kind*"
   examples: []
   id: 5.18-eng
   language_code: eng
   notes:
-  - content: A reference quantity value can be a true quantity value of a measurand,
-      in which case it is unknown, or a conventional quantity value, in which case
+  - content: A reference quantity value can be a *true quantity value* of a *measurand*,
+      in which case it is unknown, or a *conventional quantity value*, in which case
       it is known.
-  - content: A reference quantity value with associated measurement uncertainty is
-      usually provided with reference to a) a material, e.g. a certified reference
-      material, b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
-      d) a comparison of measurement standards.
+  - content: |
+      A reference quantity value with associated *measurement uncertainty*
+      is usually provided with reference to
+
+      . a material, e.g. a *certified reference material*,
+      . a device, e.g. a stabilized laser,
+      . a *reference measurement procedure*,
+      . a comparison of *measurement standards*
   terms:
   - type: expression
     normative_status: preferred
@@ -46,48 +50,21 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: valeur d'une grandeur servant de base de comparaison pour les valeurs
-      de grandeurs de même nature
-  examples:
-  - content: ", where a third concept might be ‘off-system measurement unit’. The
-      partitive relation (or part-whole relation) is also hierarchical and connects
-      a comprehensive concept to two or more partitive concepts which fitted together
-      constitute the parent concept. The diagrams show such relations as a rake or
-      bracket, and a continued backline without a tooth means one or more further
-      partitive concepts that are not discussed. A close-set double line indicates
-      that several partitive concepts of a given type are involved and a broken line
-      shows that such plurality is uncertain. For example, A parenthetic term indicates
-      a concept that is not defined in the Vocabulary, but is taken as a primitive
-      which is assumed to be generally understood. The associative relation (or pragmatic
-      relation) is non-hierarchical and connects two concepts which are in some sort
-      of thematic association. There are many subtypes of associative relation, but
-      all are indicated by a double-headed arrow. For example, To avoid too complicated
-      diagrams, they do not show all the possible associative relations. The diagrams
-      will demonstrate that fully systematic derived terms have not been created,
-      often because metrology is an old discipline with a vocabulary evolved by accretion
-      rather than as a comprehensive de novo structure. Figure A.1  Concept diagram
-      for part of Clause 1 around ‘quantity’ Figure A.2  Concept diagram for part
-      of Clause 1 around ‘measurement unit’ Figure A.3  Concept diagram for part
-      of Clause 2 around ‘measurement’ Figure A.4  Concept diagram for part of Clause
-      2 around ‘quantity value’ Figure A.5  Concept diagram for part of Clause 2
-      around ‘measurement precision’ Figure A.6  Concept diagram for part of Clause
-      2 around ‘measurement uncertainty’ Figure A.7  Concept diagram for part of
-      Clause 2 around ‘calibration’ Figure A.8  Concept diagram for part of Clause
-      2 around ‘measured quantity value’ Figure A.9  Concept diagram for part of
-      Clause 2 around ‘measuring system’ Figure A.10  Concept diagram for part of
-      Clause 4 around ‘metrological properties of a measuring instrument or measuring
-      system’ Figure A.11  Concept diagram for part of Clause 4 around ‘operating
-      condition’ Figure A.12  Concept diagram for part of Clause 5 around ‘measurement
-      standard’ (‘etalon’)"
+  - content: "*valeur d'une grandeur* servant de base de comparaison pour les valeurs
+      de *grandeurs* de même *nature*"
+  examples: []
   id: 5.18-fra
   language_code: fra
   notes:
-  - content: La valeur de référence peut être une valeur vraie d'un mesurande, et
-      est alors inconnue, ou une valeur conventionnelle, et est alors connue.
-  - content: 'Une valeur de référence associée à son incertitude de mesure se rapporte
-      généralement à : a) un matériau, par exemple un matériau de référence certifié,
-      b) un dispositif, par exemple un laser stabilisé, c) une procédure de mesure
-      de référence, d) une comparaison d''étalons.'
+  - content: La valeur de référence peut être une *valeur vraie* d'un *mesurande*,
+      et est alors inconnue, ou une *valeur conventionnelle*, et est alors connue.
+  - content: |
+      Une valeur de référence associée à son *incertitude de mesure* se rapporte généralement à :
+
+      . un matériau, par exemple un *matériau de référence certifié*,
+      . un dispositif, par exemple un laser stabilisé,
+      . une *procédure de mesure de référence*,
+      . une comparaison d'*étalons*
   terms:
   - type: expression
     normative_status: preferred
@@ -97,3 +74,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 965dfd20-9c6b-4a50-b7fd-e9d681fc55f1
+---
