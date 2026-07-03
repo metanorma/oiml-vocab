@@ -17,11 +17,7 @@ data:
 status: valid
 id: 5af542cd-677a-4b16-bc77-8012e6ae23af
 schema_version: '3'
-related:
-- ref:
-    id: '3.1.27'
-    source: OIML D031:2008
-  type: see
+related: []
 ---
 data:
   dates:
@@ -31,7 +27,13 @@ data:
   - content: 'all software modules of measuring instrument/component that are subject to legal control'
   id: 03720-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D031:2008'
+        id: '3.1.27'
   terms:
   - type: expression
     normative_status: preferred

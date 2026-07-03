@@ -1,21 +1,21 @@
 ---
 data:
-  identifier: '03734'
+  identifier: '03720'
   localized_concepts:
-    eng: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+    eng: 18bbfa28-403d-58a7-a56a-703208d9a76d
   sources:
   - origin:
       ref:
         source: OIML R142-1:2025
     locality:
       type: clause
-      reference_from: '3.31'
+      reference_from: '2.30'
     type: authoritative
   domains:
   - concept_id: section-R142-1
     ref_type: section
 status: valid
-id: 7941d2f9-2a01-4ec7-b8a1-c0855f94466e
+id: 5af542cd-677a-4b16-bc77-8012e6ae23af
 schema_version: '3'
 related: []
 ---
@@ -24,23 +24,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device that is not constructed for a specific purpose, but that can be adapted to a metrological task by software.'
-  id: 03734-eng
+  - content: 'all software modules of measuring instrument/component that are subject to legal control'
+  id: 03720-eng
   language_code: eng
-  notes:
-  - content: 'Note:This kind of device might have undeclared interfaces to operating system'
   sources:
   - type: authoritative
     status: identical
     origin:
       ref:
-        source: 'OIML D031:2008'
-        id: '3.1.59'
+        source: 'OIML D 031:2008'
+        id: '3.1.27'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'universal device'
+    designation: 'legally relevant software part'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
-id: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+id: 18bbfa28-403d-58a7-a56a-703208d9a76d

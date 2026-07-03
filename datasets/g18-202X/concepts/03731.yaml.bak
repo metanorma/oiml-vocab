@@ -1,21 +1,21 @@
 ---
 data:
-  identifier: '03734'
+  identifier: '03731'
   localized_concepts:
-    eng: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+    eng: 00bacf3b-20c0-5266-9bcf-aabbd8bddc0d
   sources:
   - origin:
       ref:
         source: OIML R142-1:2025
     locality:
       type: clause
-      reference_from: '3.31'
+      reference_from: '3.26'
     type: authoritative
   domains:
   - concept_id: section-R142-1
     ref_type: section
 status: valid
-id: 7941d2f9-2a01-4ec7-b8a1-c0855f94466e
+id: 93168fce-fde6-41a3-ac82-66a463442fec
 schema_version: '3'
 related: []
 ---
@@ -24,23 +24,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device that is not constructed for a specific purpose, but that can be adapted to a metrological task by software.'
-  id: 03734-eng
+  - content: 'technical operation that consists of determining one or more characteristics of the software according to the specific procedure (e.g. analysis of technical documentation or running the program under controlled conditions)'
+  id: 03731-eng
   language_code: eng
-  notes:
-  - content: 'Note:This kind of device might have undeclared interfaces to operating system'
   sources:
   - type: authoritative
     status: identical
     origin:
       ref:
-        source: 'OIML D031:2008'
-        id: '3.1.59'
+        source: 'OIML D 031:2008'
+        id: '3.1.47'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'universal device'
+    designation: 'software examination'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
-id: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+id: 00bacf3b-20c0-5266-9bcf-aabbd8bddc0d
