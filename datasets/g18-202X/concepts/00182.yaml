@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'document certifying that the verification of a measuring instrument was carried out with a satisfactory result [VIML 3.3]'
+  - content: 'document certifying that the verification of a measuring instrument was carried out with a satisfactory result'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '3.3'
   id: 00182-eng
   language_code: eng
   sources: []

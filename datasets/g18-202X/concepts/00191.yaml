@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'testing and evaluation of a measuring instrument to ascertain whether or not a single instrument, an instrument lot or a production series of instruments comply with all statutory requirements applicable to this instrument type [VIML 2.11]'
+  - content: 'testing and evaluation of a measuring instrument to ascertain whether or not a single instrument, an instrument lot or a production series of instruments comply with all statutory requirements applicable to this instrument type'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '2.11'
   id: 00191-eng
   language_code: eng
   notes:
