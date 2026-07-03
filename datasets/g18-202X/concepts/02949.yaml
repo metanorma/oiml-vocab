@@ -15,7 +15,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'weighing instrument used to determine the conventional value of the mass of the test load(s) [VIML, 5.08 [2]]'
+  - content: 'weighing instrument used to determine the conventional value of the mass of the test load(s)'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.08'
   id: 02949-eng
   language_code: eng
   sources: []

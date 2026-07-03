@@ -15,7 +15,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'influence quantity having a value which ranges within the rated operating conditions of a measuring instrument [VIML 5.17]'
+  - content: 'influence quantity having a value which ranges within the rated operating conditions of a measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.17'
   id: 03118-eng
   language_code: eng
   notes:
