@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'network of arbitrary participants (electronic devices with arbitrary functions). The number, identity and location of a participant can be dynamic and unknown to the other participants. This is in contrast to a closed network [D 31, 3.1.6] which is a network of a fixed number of participants with a known identity functionality and location [OIML D 31, 3.1.35]'
+  - content: 'network of arbitrary participants (electronic devices with arbitrary functions). The number, identity and location of a participant can be dynamic and unknown to the other participants. This is in contrast to a closed network [D 31, 3.1.6] which is a network of a fixed number of participants with a known identity functionality and location'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D031:2008'
+          id: '3.1.35'
   id: 02463-eng
   language_code: eng
   sources: []

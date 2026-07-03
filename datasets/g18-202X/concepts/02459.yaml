@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'encryption of data by the sender (storing or transmitting program) and description by the receiver (reading program) with the purpose of hiding information from unauthorized persons. Electronic signing of data with the purpose of enabling the receiver or user of the data to verify the origin of the data, i.e. to prove their authenticity [OIML D31, 3.1.11]'
+  - content: 'encryption of data by the sender (storing or transmitting program) and description by the receiver (reading program) with the purpose of hiding information from unauthorized persons. Electronic signing of data with the purpose of enabling the receiver or user of the data to verify the origin of the data, i.e. to prove their authenticity'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D031:2008'
+          id: '3.1.11'
   id: 02459-eng
   language_code: eng
   sources: []
