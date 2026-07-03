@@ -23,7 +23,13 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'instrument intended to measure an electrical or non-electrical quantity using electronic means and/or equipped with electronic devices [OIML D 11]'
+  - content: 'instrument intended to measure an electrical or non-electrical quantity using electronic means and/or equipped with electronic devices'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
   id: 03026-eng
   language_code: eng
   sources: []
