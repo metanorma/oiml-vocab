@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'set of one or more measuring instruments and often other devices, including any reagent and supply, assembled and adapter to give information used to generate measured quantity values withinspecified intervals for quantities of specified kinds [VIM, 3.2]'
+  - content: 'set of one or more measuring instruments and often other devices, including any reagent and supply, assembled and adapter to give information used to generate measured quantity values withinspecified intervals for quantities of specified kinds'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '3.2'
   id: 03282-eng
   language_code: eng
   notes:

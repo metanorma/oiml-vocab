@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measurement standard that is used routinely to calibrate or verified measuring instruments or measuring systems [VIM, 5.7]'
+  - content: 'measurement standard that is used routinely to calibrate or verified measuring instruments or measuring systems'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '5.7'
   id: 03647-eng
   language_code: eng
   notes:

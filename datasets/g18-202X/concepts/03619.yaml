@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'provision of objective evidence that a given item fulfils specified requirements [VIM, 2.44] Example 1: Confirmation that a given reference material as claimed is homogeneous for the quantity value and measurement procedure concerned, down to a measurement portion having a mass of 10 mg. Example 2: Confirmation that performence properties or legal requirements of measuring system are achived. Example 3:  Confirmation that a target measurement uncertainty can be met.'
+  - content: 'provision of objective evidence that a given item fulfils specified requirements'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.44'
+  examples:
+  - content: 'Confirmation that a given reference material as claimed is homogeneous
+      for the quantity value and measurement procedure concerned, down to a measurement
+      portion having a mass of 10 mg.'
+  - content: 'Confirmation that performence properties or legal requirements of measuring
+      system are achived.'
+  - content: 'Confirmation that a target measurement uncertainty can be met.'
   id: 03619-eng
   language_code: eng
   notes:
