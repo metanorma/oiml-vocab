@@ -17,6 +17,11 @@ data:
 status: valid
 id: 1498a9f3-c0c3-4e67-8846-c47e205e5368
 schema_version: '3'
+related:
+- ref:
+    id: '5.16'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'durability error (OIML V 1 [1], 5.16)'
+    designation: 'durability error'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

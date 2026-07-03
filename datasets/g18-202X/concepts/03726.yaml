@@ -17,6 +17,11 @@ data:
 status: valid
 id: e7985610-e057-48d8-991c-74b8e2ac6cfd
 schema_version: '3'
+related:
+- ref:
+    id: '4.9'
+    source: urn:oiml:pub:v:2:2012
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'rated operating conditio [VIM 4.9]'
+    designation: 'rated operating conditions'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

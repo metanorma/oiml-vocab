@@ -17,6 +17,11 @@ data:
 status: valid
 id: 3b6bde46-dd6c-4adb-9e2b-b216689f18b6
 schema_version: '3'
+related:
+- ref:
+    id: '2.16'
+    source: urn:oiml:pub:v:2:2012
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'measurement error (error of measurement, error) [VIM 2.16]'
+    designation: 'measurement error (error of measurement, error)'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

@@ -17,6 +17,11 @@ data:
 status: valid
 id: f54c1cfc-1c45-420a-b32d-a8b7a4524fb7
 schema_version: '3'
+related:
+- ref:
+    id: '0.05'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'maximum permissible error / MPE (OIML V 1 [1], 0.05)'
+    designation: 'maximum permissible error / MPE'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

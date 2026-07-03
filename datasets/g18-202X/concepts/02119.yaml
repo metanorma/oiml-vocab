@@ -28,11 +28,23 @@ data:
   language_code: eng
   notes:
   - content: '3.10 Note 1: Usually the term “maximum permissible errors” or “limits of error are used, where there are two extreme values. Note 2: The term “tolerance should not be used to designate “maximum permissible error”. Additional note: Maximum permissible errors for type approval and initial verification and verification after repair od refractometer are defined in 5.2.1. Maximum permissible errors forrefractometer in service are defined in 5.2.2.'
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2007'
+        id: '4.26'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'maximum permissible error (MPE) (maximum permissible error, limit of error) [VIM 4.26]'
+    designation: maximum permissible error
+  - type: abbreviation
+    normative_status: preferred
+    designation: MPE
+  - type: expression
+    normative_status: admitted
+    designation: maximum permissible error, limit of error
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

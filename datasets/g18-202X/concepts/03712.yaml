@@ -28,11 +28,17 @@ data:
   language_code: eng
   notes:
   - content: 'Note 1: A calibration may be expressed by a statement, calibration function, calibration diagram, calibration curve, or calibration table. In some cases, it may consist of an additive or multiplicative correction of the indication with associated measurement uncertainty. Note 2: Calibration should not be confused with adjustment of a measuring system, often mistakenly called “self-calibration”, nor with verification of calibration. Note 3: Often, the first step alone in the above definition is perceived as being calibration.'
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2007'
+        id: '2.39'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'calibration [VIM 2.39]'
+    designation: calibration
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

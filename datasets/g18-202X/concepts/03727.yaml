@@ -17,6 +17,11 @@ data:
 status: valid
 id: fccc2daf-1f6e-4767-b72b-c995b36e3ffa
 schema_version: '3'
+related:
+- ref:
+    id: '4.11'
+    source: urn:oiml:pub:v:2:2012
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reference condition [VIM 4.11]'
+    designation: 'reference condition'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

@@ -28,11 +28,20 @@ data:
   language_code: eng
   notes:
   - content: 'Note 1: The concept of ‘measurement accuracy’ is not a quantity and is not given a numerical quantity value. A measurement is said to be more accurate when it offers a smaller measurement error. Note 2:The term “measurement accuracy” should not be used for measurement trueness and the term “measurement precision” should not be used for “measurement accuracy”, which, however, is related to both concepts. Note 3:‘Measurement accuracy’ is sometimes understood as closeness of agreement between measured quantity values that are being attributed to the measurand.'
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2007'
+        id: '2.13'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'accuracy; measurement accuracy [VIM 2.13]'
+    designation: accuracy
+  - type: expression
+    normative_status: admitted
+    designation: measurement accuracy
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

@@ -17,6 +17,11 @@ data:
 status: valid
 id: e55f95fd-8fd8-4450-a7b5-6106c79bee96
 schema_version: '3'
+related:
+- ref:
+    id: '2.09'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'verification of a measuring instrument [VIML, 2.09]'
+    designation: 'verification of a measuring instrument'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

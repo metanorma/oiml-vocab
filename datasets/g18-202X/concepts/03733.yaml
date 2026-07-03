@@ -17,6 +17,11 @@ data:
 status: valid
 id: 802b1faa-3eff-459c-ad3a-456aed8bf9b7
 schema_version: '3'
+related:
+- ref:
+    id: '2.04'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'type (pattern) evaluation [VIML, 2.04]'
+    designation: 'type (pattern) evaluation'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

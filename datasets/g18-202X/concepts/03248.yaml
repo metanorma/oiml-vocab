@@ -23,7 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device that provides an output quantity having a specified relation to the input quantity [OIML V-2-200:2012, 3.7] [OIML V 1:2013, 0.11]'
+  - content: 'device that provides an output quantity having a specified relation to the input quantity'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '3.7'
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '0.11'
   id: 03248-eng
   language_code: eng
   notes:
@@ -32,7 +45,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'measurement transducer transducer'
+    designation: measurement transducer
+  - type: expression
+    normative_status: admitted
+    designation: transducer
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

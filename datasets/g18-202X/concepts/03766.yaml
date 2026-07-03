@@ -17,6 +17,11 @@ data:
 status: valid
 id: 1fc19e62-e24e-4c3f-80e0-d4d26cb8bbb0
 schema_version: '3'
+related:
+- ref:
+    id: '0.07'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'influence quantity (OIML V 1 [1], 0.07)'
+    designation: 'influence quantity'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

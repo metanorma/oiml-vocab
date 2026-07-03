@@ -26,11 +26,17 @@ data:
   - content: 'means such as encryption/decryption with the purpose of hiding information from unauthorized persons (see OIML D31, 3.1.13), or hashes and signatures to ensure integrity and authenticity'
   id: 03714-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D 031:2008'
+        id: '3.1.8'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'cryptographic means [OIML D 31, 3.1.8]'
+    designation: cryptographic means
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

@@ -17,6 +17,11 @@ data:
 status: valid
 id: 061139e4-1dc2-467c-b93f-2cab41ae5719
 schema_version: '3'
+related:
+- ref:
+    id: '5.18'
+    source: urn:oiml:pub:v:2:2012
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reference quantity value; reference value [VIM 5.18]'
+    designation: reference quantity value
+  - type: expression
+    normative_status: admitted
+    designation: reference value
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

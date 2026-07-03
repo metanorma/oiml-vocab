@@ -17,6 +17,11 @@ data:
 status: valid
 id: d4e33165-fe2d-4e66-999f-a6554c526336
 schema_version: '3'
+related:
+- ref:
+    id: '5.12'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'fault (OIML V 1 [1], 5.12)'
+    designation: 'fault'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

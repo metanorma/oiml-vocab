@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'sequence of measurement standards and calibrations that is used to relate a measurement result to a reference [VIM, 2.42]'
+  - content: 'sequence of measurement standards and calibrations that is used to relate a measurement result to a reference'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '2.42'
   id: 03296-eng
   language_code: eng
   notes:
@@ -32,7 +39,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'metrological traceability chain traceability chain'
+    designation: metrological traceability chain
+  - type: expression
+    normative_status: admitted
+    designation: traceability chain
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

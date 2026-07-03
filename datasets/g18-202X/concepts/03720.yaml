@@ -17,6 +17,11 @@ data:
 status: valid
 id: 5af542cd-677a-4b16-bc77-8012e6ae23af
 schema_version: '3'
+related:
+- ref:
+    id: '3.1.27'
+    source: OIML D031:2008
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'legally relevant software part [OIML D 31, 3.1.27]'
+    designation: 'legally relevant software part'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

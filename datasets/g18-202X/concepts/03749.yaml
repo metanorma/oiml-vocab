@@ -17,6 +17,11 @@ data:
 status: valid
 id: 09c13823-fdff-4259-ac36-62ac1db47124
 schema_version: '3'
+related:
+- ref:
+    id: '5.19'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'disturbance (OIML V 1 [1], 5.19)'
+    designation: 'disturbance'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
