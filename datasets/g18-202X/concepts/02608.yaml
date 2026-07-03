@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'error of an instrument determined under reference conditions [VIM 5.24]'
+  - content: 'error of an instrument determined under reference conditions'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '5.24'
   id: 02608-eng
   language_code: eng
   sources: []
