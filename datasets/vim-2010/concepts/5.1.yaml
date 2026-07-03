@@ -21,55 +21,58 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: realization of the definition of a given quantity, with stated quantity
-      value and associated measurement uncertainty, used as a reference
+  - content: realization of the definition of a given *quantity*, with stated *quantity
+      value* and associated *measurement uncertainty*, used as a reference
   examples:
-  - content: a) 1 kg mass measurement standard with an associated standard measurement
-      uncertainty of 3 μg. b) 100 Ω measurement standard resistor with an associated
-      standard measurement uncertainty of 1 μΏ. c) Caesium frequency standard with
-      a relative standard measurement uncertainty of 2 × 1015. d) Standard buffer
-      solution with a pH of 7.072 with an associated standard measurement uncertainty
-      of 0.006. e) Set of reference solutions of cortisol in human serum having a
-      certified quantity value with measurement uncertainty for each solution. f)
-      Reference material providing quantity values with measurement uncertainties
-      for the mass concentration of each of ten different proteins.
+  - content: stem:[1 "unitsml(kg)"] mass measurement standard with an associated *standard
+      measurement uncertainty* of stem:[3 "unitsml(ug)"]
+  - content: stem:[100 "unitsml(ohm)"] measurement standard resistor with an associated
+      *standard measurement uncertainty* of stem:[1 "unitsml(uOhm)"]
+  - content: Caesium frequency standard with a relative *standard measurement
+      uncertainty* of stem:[2 xx 10^{-15}]
+  - content: Standard buffer solution with a pH of 7.072 with an associated *standard
+      measurement uncertainty* of 0.006
+  - content: Set of reference solutions of cortisol in human serum having a
+      certified quantity value with measurement uncertainty for each solution
+  - content: '*Reference material* providing quantity values with measurement
+      uncertainties for the mass concentration of each of ten different proteins'
   id: 5.1-eng
   language_code: eng
   notes:
   - content: A "realization of the definition of a given quantity" can be provided
-      by a measuring system, a material measure, or a reference material.
+      by a *measuring system*, a *material measure*, or a *reference material*
   - content: A measurement standard is frequently used as a reference in establishing
-      measured quantity values and associated measurement uncertainties for other
-      quantities of the same kind, thereby establishing metrological traceability
-      through calibration of other measurement standards, measuring instruments, or
-      measuring systems.
+      *measured quantity values* and associated measurement uncertainties for other
+      quantities of the same *kind*, thereby establishing *metrological traceability*
+      through *calibration* of other measurement standards, *measuring instruments*,
+      or measuring systems
   - content: The term "realization" is used here in the most general meaning. It denotes
       three procedures of "realization". The first one consists in the physical realization
-      of the measurement unit from its definition and is realization sensu stricto.
+      of the *measurement unit* from its definition and is realization sensu stricto.
       The second, termed "reproduction", consists not in realizing the measurement
       unit from its definition but in setting up a highly reproducible measurement
       standard based on a physical phenomenon, as it happens, e.g., in case of use
       of frequency-stabilized lasers to establish a measurement standard for the metre,
       of the Josephson effect for the volt or of the quantum Hall effect for the ohm.
       The third procedure consists in adopting a material measure as a measurement
-      standard. It occurs in case of the measurement standard of 1 kg.
+      standard. It occurs in case of the measurement standard of stem:[1 "unitsml(kg)"].
   - content: A standard measurement uncertainty associated with a measurement standard
-      is always a component of the combined standard measurement uncertainty (see
-      GUM, 2.3.4) in a measurement result obtained using the measurement standard.
-      Frequently, this component is small compared with other components of the combined
-      standard measurement uncertainty.
+      is always a component of the *combined standard measurement uncertainty* (see
+      GUM, 2.3.4) in a *measurement result* obtained using the measurement standard.
+      Frequently, this component is small compared with other components of the *combined
+      standard measurement uncertainty*
   - content: Quantity value and measurement uncertainty must be determined at the
-      time when the measurement standard is used.
+      time when the measurement standard is used
   - content: Several quantities of the same kind or of different kinds may be realized
-      in one device which is commonly also called a measurement standard.
+      in one device which is commonly also called a measurement standard
   - content: The word "embodiment" is sometimes used in the English language instead
-      of "realization".
+      of "realization"
   - content: 'In science and technology, the English word "standard" is used with
       at least two different meanings: as a specification, technical recommendation,
       or similar normative document (in French "norme") and as a measurement standard
       (in French "étalon"). This Vocabulary is concerned solely with the second meaning.'
   - content: The term "measurement standard" is sometimes used to denote other metrological
-      tools, e.g. ‘software measurement standard’, see ISO 5436-2.
+      tools, e.g. 'software measurement standard', see ISO 5436-2
   terms:
   - type: expression
     normative_status: preferred
@@ -86,52 +89,57 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: réalisation de la définition d'une grandeur donnée, avec une valeur déterminée
-      et une incertitude de mesure associée, utilisée comme référence
+  - content: réalisation de la définition d'une *grandeur* donnée, avec une *valeur*
+      déterminée et une *incertitude de mesure* associée, utilisée comme référence
   examples:
-  - content: a) Étalon de masse de 1 kg avec une incertitude-type associée de 3 µg.
-      b) Résistance étalon de 100 Ω avec une incertitude-type associée de 1 µΩ c)
-      Étalon de fréquence à césium avec une incertitude-type associée de 2 × 1015.
-      d) Solution tampon de référence ayant un pH de 7,072 avec une incertitude-type
-      associée de 0,006. e) Série de solutions de référence de cortisol dans du sérum
-      humain, dont chaque solution a une valeur certifiée avec une incertitude de
-      mesure. f) Matériau de référence fournissant des valeurs avec les incertitudes
-      de mesure associées pour la concentration en masse de dix protéines différentes.
+  - content: Étalon de masse de stem:[1 "unitsml(kg)"] avec une *incertitude-type*
+      associée de stem:[3 "unitsml(ug)"]
+  - content: Résistance étalon de stem:[100 "unitsml(Ohm)"] avec une *incertitude-type*
+      associée de stem:[1 "unitsml(uOhm)"]
+  - content: Étalon de fréquence à césium avec une *incertitude-type* associée
+      de stem:[2 xx 10^{-15}]
+  - content: Solution tampon de référence ayant un pH de 7,072 avec une *incertitude-type*
+      associée de 0,006
+  - content: Série de solutions de référence de cortisol dans du sérum
+      humain, dont chaque solution a une valeur certifiée avec une *incertitude de
+      mesure*
+  - content: '*Matériau de référence* fournissant des valeurs avec les incertitudes
+      de mesure associées pour la concentration en masse de dix protéines différentes'
   id: 5.1-fra
   language_code: fra
   notes:
   - content: La « réalisation de la définition d'une grandeur donnée » peut être fournie
-      par un système de mesure, une mesure matérialisée ou un matériau de référence.
-  - content: Un étalon sert souvent de référence dans l'obtention de valeurs mesurées
-      et d'incertitudes de mesure associées pour d'autres grandeurs de même nature,
-      établissant ainsi une traçabilité métrologique par l'intermédiaire de l'étalonnage
-      d'autres étalons, instruments de mesure ou systèmes de mesure.
+      par un *système de mesure*, une *mesure matérialisée* ou un *matériau de référence*
+  - content: Un étalon sert souvent de référence dans l'obtention de *valeurs mesurées*
+      et d'incertitudes de mesure associées pour d'autres grandeurs de même *nature*,
+      établissant ainsi une *traçabilité métrologique* par l'intermédiaire de l'*étalonnage*
+      d'autres étalons, *instruments de mesure* ou systèmes de mesure
   - content: Le terme « réalisation » est employé ici dans son sens le plus général.
       Il désigne trois procédures de réalisation. La première, la réalisation stricto
-      sensu, est la réalisation physique de l'unité de mesure à partir de sa définition.
+      sensu, est la réalisation physique de l'*unité de mesure* à partir de sa définition.
       La deuxième, appelée « reproduction », consiste, non pas à réaliser l'unité
       à partie de sa définition, mais à construire un étalon hautement reproductible
       fondé sur un phénomène physique, par exemple l'emploi de lasers stabilisés en
       fréquence pour construire un étalon du mètre, l'emploi de l'effet Josephson
       pour le volt ou de l'effet Hall quantique pour l'ohm. La troisième procédure
       consiste à adopter une mesure matérialisée comme étalon. C'est le cas de l'étalon
-      de 1 kg.
-  - content: L'incertitude-type associée à un étalon est toujours une composante de
-      l'incertitude-type composée (voir GUM, 2.3.4) dans un résultat de mesure obtenu
-      en utilisant l'étalon. Cette composante est souvent petite par rapport à d'autres
-      composantes de l'incertitude-type composée.
+      de stem:[1 "unitsml(kg)"].
+  - content: L'*incertitude-type* associée à un étalon est toujours une composante
+      de l'*incertitude-type composée* (voir GUM, 2.3.4) dans un *résultat de mesure*
+      obtenu en utilisant l'étalon. Cette composante est souvent petite par rapport
+      à d'autres composantes de l'incertitude-type composée
   - content: La valeur de la grandeur et l'incertitude de mesure doivent être déterminées
-      au moment où l'étalon est utilisé.
+      au moment où l'étalon est utilisé
   - content: Plusieurs grandeurs de même nature ou de natures différentes peuvent
-      être réalisées à l'aide d'un seul dispositif, appelé aussi étalon.
+      être réalisées à l'aide d'un seul dispositif, appelé aussi étalon
   - content: Le mot « embodiment » est quelquefois utilisé en anglais à la place de
-      « realization ».
+      « realization »
   - content: 'Dans la science et la technologie, le mot anglais « standard » est utilisé
       avec au moins deux significations différentes : celle de spécification, recommandation
       technique ou autre document normatif, et celle d''étalon (en anglais « measurement
       standard »). Seule la deuxième signification relève du présent Vocabulaire.'
   - content: Le terme « étalon » est parfois utilisé pour désigner d'autres outils
-      métrologiques, par exemple un étalon logiciel (voir l'ISO 5436-2).
+      métrologiques, par exemple un étalon logiciel (voir l'ISO 5436-2)
   terms:
   - type: expression
     normative_status: preferred
@@ -141,3 +149,5 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 06b6e942-e909-4134-9fe3-3d7a467c6e38
+
+---
