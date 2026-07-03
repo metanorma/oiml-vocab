@@ -23,14 +23,23 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'temperature increment equal to the root-mean-square value of the noise in a thermogram, when observing a homogeneous background set with a specified temperature and a specified thermogram rate'
+  - content: 'temperature increment equal to the root-mean-square value of the noise
+      in a thermogram, when observing a homogeneous background set with a specified
+      temperature and a specified thermogram rate'
   id: 02114-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'noise equivalent temperature difference (temperature resolution, ΔTNETD)'
+    designation: noise equivalent temperature difference
+  - type: expression
+    normative_status: admitted
+    designation: temperature resolution
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[Delta T_{"NETD"}]
+    international: true
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

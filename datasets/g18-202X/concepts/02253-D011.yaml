@@ -23,7 +23,15 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'non-negative parameter characterizing the dispersion of the quantity values being attributed to a measurand, based on the information used [VIM 2.26]'
+  - content: 'non-negative parameter characterizing the dispersion of the quantity
+      values being attributed to a measurand, based on the information used'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.26'
   id: 02253-D011-eng
   language_code: eng
   notes:
@@ -32,7 +40,13 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'measurement uncertainty uncertainty of measurement uncertainty'
+    designation: measurement uncertainty
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty of measurement
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

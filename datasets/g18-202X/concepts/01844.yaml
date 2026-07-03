@@ -23,16 +23,22 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'logarithm to base ten of the reciprocal of the transmittance [ISO 6286, Table 1, No. 5]'
+  - content: 'logarithm to base ten of the reciprocal of the transmittance [ISO 6286,
+      Table 1, No. 5]'
   id: 01844-eng
   language_code: eng
   notes:
-  - content: 'Note: Absorbance has the dimension one and is expressed with the derived coherent SI unit one (1).'
+  - content: 'Note: Absorbance has the dimension one and is expressed with the derived
+      coherent SI unit one (1).'
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'absorbance (A = lg(1/τ))'
+    designation: absorbance
+  - type: symbol
+    normative_status: preferred
+    designation: 'stem:[A = lg(1/tau)]'
+    international: true
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

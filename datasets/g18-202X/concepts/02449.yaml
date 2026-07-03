@@ -23,16 +23,32 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measurement precision under reproducibility conditions of measurement [VIM 2.25]'
+  - content: 'measurement precision under reproducibility conditions of measurement'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '2.25'
   id: 02449-eng
   language_code: eng
   notes:
-  - content: 'Note: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994. Additional note:In this Recommendation, the reproducibility of measurements between units of the same type of instrument under reference conditions is assessed by the standard deviation of differences (SDDI). The reproducibility of measurements from one instrument when select influence factors are varied is assessed by the magnitude of the error shift or fault.'
+  - content: 'Note: Relevant statistical terms are given in ISO 5725-1:1994 and ISO
+      5725-2:1994.'
+  - content: 'Additional note: In this Recommendation, the reproducibility of measurements
+      between units of the same type of instrument under reference conditions is assessed
+      by the standard deviation of differences (SDDI). The reproducibility of measurements
+      from one instrument when select influence factors are varied is assessed by
+      the magnitude of the error shift or fault.'
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'measurement reproducibility reproducibility'
+    designation: measurement reproducibility
+  - type: expression
+    normative_status: admitted
+    designation: reproducibility
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
