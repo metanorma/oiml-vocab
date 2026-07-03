@@ -30,14 +30,26 @@ data:
   definition:
   - content: testing and evaluation of a measuring instrument to ascertain whether
       or not a single instrument, an instrument lot or a production series of instruments
-      comply with all statutory requirements applicable to this instrument type [VIML,
-      2.11]
+      comply with all statutory requirements applicable to this instrument type
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '2.11'
   examples: []
   id: 00191-eng
   notes:
-  - content: 'Conformity assessment does not only concern metrological requirements
-      but may also cover requirements relating to: - safety; - EMC; - software identification;
-      - ease of use; - marking; - etc.'
+  - content: |-
+      Conformity assessment does not only concern metrological requirements but may also cover requirements relating to:
+
+      * safety
+      * EMC
+      * software identification
+      * ease of use
+      * marking
+      * etc.
   sources:
   - origin:
       ref:

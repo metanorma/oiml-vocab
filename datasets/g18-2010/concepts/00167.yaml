@@ -28,8 +28,15 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: verification of a measuring instrument which has not been verified previously
-      [VIML, 2.15]
+  - content: verification of a measuring instrument which has not been verified
+      previously
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '2.15'
   examples: []
   id: 00167-eng
   notes: []

@@ -16,6 +16,11 @@ data:
 status: valid
 id: 3041ccf5-3809-5376-8b13-a8689194b51d
 schema_version: '3'
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.2'
 ---
 data:
   dates:
@@ -28,12 +33,11 @@ data:
   examples: []
   id: 02183-eng
   notes:
-  - content: 1. An electronic device may be a complete measuring instrument (e.g.
+  - content: An electronic device may be a complete measuring instrument (e.g.
       counter scale, electricity meter) or a part of a measuring instrument (e.g.
       printer, indicator).
-  - content: 2. An electronic device may be a module in the sense this term is used
+  - content: An electronic device may be a module in the sense this term is used
       in OIML B 3 OIML Certificate System for Measuring Instruments.
-  - content: 3. [OIML D 11:2004, 3.2]
   sources:
   - origin:
       ref:

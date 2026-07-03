@@ -17,6 +17,11 @@ data:
 status: valid
 id: 568a47ee-0e80-5225-8180-31aa08d08bbf
 schema_version: '3'
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.9'
 ---
 data:
   dates:
@@ -28,10 +33,9 @@ data:
   examples: []
   id: '01946-eng'
   notes:
-  - content: 1. In practice this is the difference between the error of the meter
+  - content: In practice this is the difference between the error of the meter
       observed during or after a test, and the error of the meter prior to this test,
       performed under reference conditions.
-  - content: 2. [OIML D 11, 3.9]
   sources:
   - origin:
       ref:

@@ -28,9 +28,18 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'any verification of a measuring instrument after a previous verification
-      and including: • mandatory periodic verification; • verification after repair.
-      [VIML, 2.16]'
+  - content: |-
+      any verification of a measuring instrument after a previous verification and including:
+
+      * mandatory periodic verification
+      * verification after repair
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '2.16'
   examples: []
   id: 00168-eng
   notes:
