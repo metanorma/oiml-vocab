@@ -7,64 +7,96 @@ data:
   - concept_id: section-1
     source: urn:oiml:pub:v:2:2010
     ref_type: section
-status: valid
-id: bd25fcc7-0aaf-4634-a9f2-c54f282b5d21
-schema_version: '3'
-related:
-- type: supersedes
-  ref:
-    source: urn:oiml:pub:v:2:1993
-    id: '1.16'
+  status: valid
+  id: bd25fcc7-0aaf-4634-a9f2-c54f282b5d21
+  schema_version: '3'
+  related:
+  - type: supersedes
+    ref:
+      source: urn:oiml:pub:v:2:1993
+      id: '1.16'
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: measurement unit obtained by multiplying a given measurement unit by
-      an integer greater than one
+  - content: '*measurement unit* obtained by multiplying a given measurement unit by
+      an integer greater than one'
   examples:
-  - content: a) The kilometre is a decimal multiple of the metre. b) The hour is a
-      non-decimal multiple of the second.
+  - content: The kilometre is a decimal multiple of the metre.
+  - content: The hour is a non-decimal multiple of the second.
   id: 1.17-eng
   language_code: eng
   notes:
-  - content: SI prefixes for decimal multiples of SI base units and SI derived units
-      are given in note 5 of 1.16.
-  - content: 'SI prefixes refer strictly to powers of 10, and should not be used for
+  - content: 'SI prefixes for decimal multiples of SI *base units* and SI *derived units*
+      are given in note 5 of 1.16.'
+  - content: |
+      SI prefixes refer strictly to powers of 10, and should not be used for
       powers of 2. For example, 1 kilobit should not be used to represent 1024 bits
-      (210 bits), which is a kibbibit. Prefixes for binary multiples are: Factor (210)8
-      (210)7 (210)6 (210)5 (210)4 (210)3 (210)2 (210)1 Prefix Name yobi zebi exbi
-      pebi tebi gibi mebi kibit Symbol Yi Zi Ei Pi Ti Gi Mi Ki Source: IEC 80000-13.'
+      (stem:[2^{10} "unitsml(bits)"]), which is a kibbibit.
+
+      Prefixes for binary multiples are:
+
+      [cols="3", options="header,unnumbered",headerrows=2]
+      |===
+      .2+| Factor 2+| Prefix | Name | Symbol
+      | stem:[(2^{10})^8] | yobi | stem:["unitsml(Yi-)"]
+      | stem:[(2^{10})^7] | zebi | stem:["unitsml(Zi-)"]
+      | stem:[(2^{10})^6] | exbi | stem:["unitsml(Ei-)"]
+      | stem:[(2^{10})^5] | pebi | stem:["unitsml(Pi-)"]
+      | stem:[(2^{10})^4] | tebi | stem:["unitsml(Ti-)"]
+      | stem:[(2^{10})^3] | gibi | stem:["unitsml(Gi-)"]
+      | stem:[(2^{10})^2] | mebi | stem:["unitsml(Mi-)"]
+      | stem:[(2^{10})^1] | kibi | stem:["unitsml(Ki-)"]
+      |===
+
+      _Source_: IEC 80000-13.
   terms:
   - type: expression
     normative_status: preferred
     designation: multiple of a unit
-date_accepted: '2010-01-01T00:00:00+00:00'
-entry_status: valid
-id: d1e24256-14a0-4ec7-81c6-e539c7bf2de8
+  date_accepted: '2010-01-01T00:00:00+00:00'
+  entry_status: valid
+  id: d1e24256-14a0-4ec7-81c6-e539c7bf2de8
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: unité de mesure obtenue en multipliant une unité de mesure donnée par
-      un entier supérieur à un
+  - content: "*unité de mesure* obtenue en multipliant une unité de mesure donnée par
+      un entier supérieur à un"
   examples:
-  - content: a) Le kilomètre est un multiple décimal du mètre. b) L'heure est un multiple
-      non décimal de la seconde.
+  - content: Le kilomètre est un multiple décimal du mètre.
+  - content: L'heure est un multiple non décimal de la seconde.
   id: 1.17-fra
   language_code: fra
   notes:
-  - content: Les préfixes SI pour les multiples décimaux des unités de base et des
-      unités dérivées du SI sont donnés à la note 5 de 1.16.
-  - content: 'Les préfixes SI représentent strictement des puissances de 10 et il
+  - content: Les préfixes *SI* pour les multiples décimaux des *unités de base* et des
+      *unités dérivées* du SI sont donnés à la note 5 de 1.16.
+  - content: |
+      Les préfixes SI représentent strictement des puissances de 10 et il
       convient de ne pas les utiliser pour des puissances de 2. Par exemple, il convient
-      de ne pas utiliser 1 kilobit pour représenter 1 024 bits (210 bits), qui est
-      1 kibibit. Les préfixes pour les multiples binaires sont : Facteur (210)8 (210)7
-      (210)6 (210)5 (210)4 (210)3 (210)2 (210)1 Préfixe Nom Symbole yobi Yi zébi Zi
-      exbi Ei pébi Pi tébi Ti gibi Gi mébi Mi kibi Ki Source: CEI 80000-13.'
+      de ne pas utiliser 1 kilobit pour représenter stem:[1024] bits (stem:[2^{10}] bits), qui est
+      1 kibibit.
+
+      Les préfixes pour les multiples binaires sont:
+
+      [cols="3", options="header,unnumbered",headerrows=2]
+      |===
+      .2+| Facteur 2+| Préfixe | Nom | Symbole
+      | stem:[(2^{10})^8] | yobi | stem:["unitsml(Yi-)"]
+      | stem:[(2^{10})^7] | zébi | stem:["unitsml(Zi-)"]
+      | stem:[(2^{10})^6] | exbi | stem:["unitsml(Ei-)"]
+      | stem:[(2^{10})^5] | pébi | stem:["unitsml(Pi-)"]
+      | stem:[(2^{10})^4] | tébi | stem:["unitsml(Ti-)"]
+      | stem:[(2^{10})^3] | gibi | stem:["unitsml(Gi-)"]
+      | stem:[(2^{10})^2] | mébi | stem:["unitsml(Mi-)"]
+      | stem:[(2^{10})^1] | kibi | stem:["unitsml(Ki-)"]
+      |===
+
+      _Source_: CEI 80000-13.
   terms:
   - type: expression
     normative_status: preferred
@@ -74,3 +106,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 3790af65-d18b-4b09-8709-891699135bf4
+---

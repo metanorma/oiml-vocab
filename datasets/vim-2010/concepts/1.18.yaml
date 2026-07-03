@@ -7,53 +7,53 @@ data:
   - concept_id: section-1
     source: urn:oiml:pub:v:2:2010
     ref_type: section
-status: valid
-id: c7e62498-9723-4954-bb8a-906be1162214
-schema_version: '3'
-related:
-- type: supersedes
-  ref:
-    source: urn:oiml:pub:v:2:1993
-    id: '1.17'
+  status: valid
+  id: c7e62498-9723-4954-bb8a-906be1162214
+  schema_version: '3'
+  related:
+  - type: supersedes
+    ref:
+      source: urn:oiml:pub:v:2:1993
+      id: '1.17'
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: measurement unit obtained by dividing a given measurement unit by an
-      integer greater than one
+  - content: '*measurement unit* obtained by dividing a given measurement unit by
+      an integer greater than one'
   examples:
-  - content: a) The millimetre is a decimal submultiple of the metre. b) For plane
-      angle, the second is a non-decimal submultiple of the minute
+  - content: The millimetre is a decimal submultiple of the metre.
+  - content: For plane angle, the second is a non-decimal submultiple of the minute
   id: 1.18-eng
   language_code: eng
   notes:
-  - content: Note SI prefixes for decimal submultiples of SI base units and SI derived
-      units are given in note 5 of 1.16.
+  - content: SI prefixes for decimal submultiples of SI *base units* and SI *derived
+      units* are given in note 5 of 1.16.
   terms:
   - type: expression
     normative_status: preferred
     designation: submultiple of a unit
-date_accepted: '2010-01-01T00:00:00+00:00'
-entry_status: valid
-id: a1ca6ae2-1336-4b4e-9ff6-df724b969454
+  date_accepted: '2010-01-01T00:00:00+00:00'
+  entry_status: valid
+  id: a1ca6ae2-1336-4b4e-9ff6-df724b969454
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: unité de mesure obtenue en divisant une unité de mesure donnée par un
-      entier supérieur à un
+  - content: "*unité de mesure* obtenue en divisant une unité de mesure donnée par
+      un entier supérieur à un"
   examples:
-  - content: a) Le millimètre est un sous-multiple décimal du mètre. b) Pour l’angle
-      plan, la seconde est un sous-multiple non décimal de la minute
+  - content: Le millimètre est un sous-multiple décimal du mètre.
+  - content: Pour l'angle plan, la seconde est un sous-multiple non décimal de la minute.
   id: 1.18-fra
   language_code: fra
   notes:
-  - content: Note Les préfixes SI pour les sous-multiples décimaux des unités de base
-      et des unités dérivées du SI sont donnés à la note 5 de 1.16.
+  - content: Les préfixes SI pour les sous-multiples décimaux des *unités de base*
+      et des *unités dérivées* du SI sont donnés à la note 5 de 1.16.
   terms:
   - type: expression
     normative_status: preferred
@@ -63,3 +63,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 2f77b8af-f855-4ef0-a953-7fcf3fd62021
+---

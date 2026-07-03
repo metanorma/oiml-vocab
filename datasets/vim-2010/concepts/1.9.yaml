@@ -21,30 +21,31 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: real scalar quantity, defined and adopted by convention, with which any
-      other quantity of the same kind can be compared to express the ratio of the
-      two quantities as a number
+  - content: real scalar *quantity*, defined and adopted by convention, with which
+      any other quantity of the same *kind* can be compared to express the ratio of
+      the two quantities as a number
   examples: []
   id: 1.9-eng
   language_code: eng
   notes:
   - content: Measurement units are designated by conventionally assigned names and
       symbols.
-  - content: Measurement units of quantities of the same quantity dimension may be
-      designated by the same name and symbol even when the quantities are not of the
-      same kind. For example joule per kelvin and J/K are respectively the name and
-      symbol of both a measurement unit of heat capacity and a measurement unit of
-      entropy, which are generally not considered to be quantities of the same kind.
-      However, in some cases special measurement unit names are restricted to be used
-      with quantities of specific kind only. For example, the measurement unit 'second
-      to the power minus one' (1/s) is called hertz (Hz) when used for frequencies
-      and becquerel (Bq) when used for activities of radionuclides.
-  - content: Measurement units of quantities of dimension one are numbers. In some
+  - content: Measurement units of quantities of the same *quantity dimension* may
+      be designated by the same name and symbol even when the quantities are not of
+      the same kind. For example joule per kelvin and stem:["unitsml(J/K)"] are respectively the name
+      and symbol of both a measurement unit of heat capacity and a measurement unit
+      of entropy, which are generally not considered to be quantities of the same
+      kind. However, in some cases special measurement unit names are restricted to
+      be used with quantities of specific kind only. For example, the measurement
+      unit 'second to the power minus one' (stem:["unitsml(1/s)"]) is called hertz (stem:["unitsml(Hz)"])
+      when used for frequencies and becquerel (stem:["unitsml(Bq)"]) when used for activities
+      of radionuclides.
+  - content: Measurement units of *quantities of dimension one* are numbers. In some
       cases these measurement units are given special names, e.g. radian, steradian,
       and decibel, or are expressed by quotients such as millimole per mole equal
-      to 10-3 and microgram per kilogram equal to 10-9.
-  - content: For a given quantity, the short term “unit” is often combined with the
-      quantity name, such as “mass unit” or “unit of mass”.
+      to stem:[10^-3] and microgram per kilogram equal to stem:[10^-9].
+  - content: For a given quantity, the short term "unit" is often combined with the
+      quantity name, such as "mass unit" or "unit of mass".
   terms:
   - type: expression
     normative_status: preferred
@@ -64,28 +65,28 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: grandeur scalaire réelle, définie et adoptée par convention, à laquelle
-      on peut comparer toute autre grandeur de même nature pour exprimer le rapport
-      des deux grandeurs sous la forme d'un nombre
+  - content: "*grandeur* scalaire réelle, définie et adoptée par convention, à laquelle
+      on peut comparer toute autre grandeur de même *nature* pour exprimer le rapport
+      des deux grandeurs sous la forme d'un nombre"
   examples: []
   id: 1.9-fra
   language_code: fra
   notes:
   - content: On désigne les unités de mesure par des noms et des symboles attribués
       par convention.
-  - content: Les unités des grandeurs de même dimension peuvent être désignées par
+  - content: Les unités des grandeurs de même *dimension* peuvent être désignées par
       le même nom et le même symbole même si ces grandeurs ne sont pas de même nature.
-      On emploie, par exemple, le nom « joule par kelvin » et le symbole J/K pour
+      On emploie, par exemple, le nom « joule par kelvin » et le symbole stem:["unitsml(J/K)"] pour
       désigner à la fois une unité de capacité thermique et une unité d'entropie,
       bien que ces grandeurs ne soient généralement pas considérées comme étant de
       même nature. Toutefois, dans certains cas, des noms spéciaux sont utilisés exclusivement
       pour des grandeurs d'une nature spécifiée. C'est ainsi que l'unité seconde à
-      la puissance moins un (1/s) est appelée hertz (Hz) pour les fréquences et becquerel
-      (Bq) pour les activités de radionucléides.
-  - content: Les unités des grandeurs sans dimension sont des nombres. Dans certains
+      la puissance moins un (stem:["unitsml(1/s)"]) est appelée hertz (stem:["unitsml(Hz)"])
+      pour les fréquences et becquerel (stem:["unitsml(Bq)"]) pour les activités de radionucléides.
+  - content: Les unités des *grandeurs sans dimension* sont des nombres. Dans certains
       cas, on leur donne des noms spéciaux, par exemple radian, stéradian et décibel,
-      ou on les exprime par des quotients comme la millimole par mole égale à 10-3,
-      et le microgramme par kilogramme, égal à 10-9.
+      ou on les exprime par des quotients comme la millimole par mole égale à stem:["10^-3"],
+      et le microgramme par kilogramme, égal à stem:["10^-9"].
   - content: Pour une grandeur donnée, le nom abrégé « unité » est souvent combiné
       avec le nom de la grandeur, par exemple « unité de masse ».
   terms:
@@ -102,3 +103,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 1cc5edce-886e-488c-b4f8-ffd03ac038a3
+---
