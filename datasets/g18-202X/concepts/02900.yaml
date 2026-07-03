@@ -23,7 +23,17 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'battery that is intended to maintain power supply for specific functions of an instrument in the absence of the primary power supply Example: To preserve stored data. (OIML D 11, 3.26)'
+  - content: 'battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.26'
+  examples:
+  - content: To preserve stored data.
   id: 02900-eng
   language_code: eng
   sources: []

@@ -39,8 +39,16 @@ data:
           id: '0.07'
   id: 02229-D011-eng
   language_code: eng
+  examples:
+  - content: The temperature of a measuring instrument is an influence quantity,
+      but the temperature of the measured object (used as a reference for determining
+      the fault or the error) is not. This influence of the environment on this measured
+      object may need to be taken into consideration as a contributor in the definition
+      of the measurand.
   notes:
-  - content: 'Note:An influence quantity is not related to the measurand but is a quantity that affects the result of the measurement as indicated by the equipment under test (EUT). Example: The temperature of a measuring instrument is an influence quantity, but the temperature of the measured object (used as a reference for determining the fault or the error) is not. This influence of the environment on this measured object may need to be taken into consideration as a contributor in the definition of the measurand.'
+  - content: An influence quantity is not related to the measurand but is a quantity
+      that affects the result of the measurement as indicated by the equipment under
+      test (EUT).
   sources: []
   terms:
   - type: expression
