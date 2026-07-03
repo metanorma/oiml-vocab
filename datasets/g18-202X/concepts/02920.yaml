@@ -24,10 +24,16 @@ data:
     type: accepted
   definition:
   - content: 'sequence of calibrations from a reference to the final measuring system, where the outcome of each calibration depends on the outcome of the previous calibration'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.40'
   id: 02920-eng
   language_code: eng
-  notes:
-  - content: 'Fore notes see [VIM, 2.40]'
+  notes: []
   sources: []
   terms:
   - type: expression

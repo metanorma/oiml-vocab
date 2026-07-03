@@ -23,9 +23,18 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measurement standard established using a primary reference measurement procedure, or crated as an artifact, chosen by convention For examples see [VIM, 5.4] [VIM, 5.4]'
+  - content: 'measurement standard established using a primary reference measurement procedure, or crated as an artifact, chosen by convention'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '5.4'
   id: 03385-eng
   language_code: eng
+  notes:
+  - content: For examples see [VIM, 5.4]
   sources: []
   terms:
   - type: expression

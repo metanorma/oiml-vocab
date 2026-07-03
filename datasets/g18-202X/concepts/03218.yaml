@@ -23,9 +23,19 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measuring instrument reproducing or supplying, in permanent manner during its use, quantities of one or more given kinds, each with an assignes quantity value [VIM, 3.6] Examples: Standard weight, volume measure (suppluing one or several quantiuty values, with or without a quantity-value sacle), standard electic resistor, line scale (ruler), gauge block, standard signal generator, certified reference material.'
+  - content: 'measuring instrument reproducing or supplying, in permanent manner during its use, quantities of one or more given kinds, each with an assignes quantity value'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '3.6'
   id: 03218-eng
   language_code: eng
+  examples:
+  - content: |-
+      Standard weight, volume measure (supplying one or several quantity values, with or without a quantity-value scale), standard electric resistor, line scale (ruler), gauge block, standard signal generator, certified reference material.
   notes:
   - content: 'Note 1: The indication of material measure is its assigned quantity value. Note 2: A material measure can be a measurement standard.'
   sources: []

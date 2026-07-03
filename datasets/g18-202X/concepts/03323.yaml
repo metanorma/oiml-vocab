@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measurement standard recognised by a national authority to serve in a state or economy as the basis for assignig quantity values to other measurement standards for the kind of quantity concerned [VIM, 5.3]'
+  - content: 'measurement standard recognised by a national authority to serve in a state or economy as the basis for assignig quantity values to other measurement standards for the kind of quantity concerned'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '5.3'
   id: 03323-eng
   language_code: eng
   sources: []
