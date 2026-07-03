@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'test intended to verify whether the EUT is able to maintain its performance characteristics over a period of use [OIML D 11, 3.20.4]'
+  - content: 'test intended to verify whether the EUT is able to maintain its performance characteristics over a period of use'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.20.4'
   id: 03020-eng
   language_code: eng
   sources: []

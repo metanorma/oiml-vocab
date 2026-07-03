@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'influence quantity having a value within the limits specified in this Recommendation but outside therated operating conditions of the measuring instrument [OIML D 11, 3.13.2]'
+  - content: 'influence quantity having a value within the limits specified in this Recommendation but outside therated operating conditions of the measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.13.2'
   id: 03004-eng
   language_code: eng
   sources: []
