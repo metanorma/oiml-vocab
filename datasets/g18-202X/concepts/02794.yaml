@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '{measurement precision under reproducibility conditions of measurement [VIM 2.25]}'
+  - content: 'measurement precision under reproducibility conditions of measurement'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.25'
   id: 02794-eng
   language_code: eng
   notes:
