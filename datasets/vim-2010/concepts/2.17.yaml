@@ -21,25 +21,30 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: systematic error of measurement systematic error component of measurement
-      error that in replicate measurements remains constant or varies in a predictable
-      manner
+  - content: component of *measurement error* that in replicate *measurements*
+      remains constant or varies in a predictable manner
   examples: []
   id: 2.17-eng
   language_code: eng
   notes:
-  - content: A reference quantity value for a systematic measurement error is a true
-      quantity value, or a measured quantity value of a measurement standard of negligible
-      measurement uncertainty, or a conventional quantity value.
+  - content: A *reference quantity value* for a systematic measurement error is a
+      *true quantity value*, or a *measured quantity value* of a *measurement standard*
+      of negligible *measurement uncertainty*, or a *conventional quantity value*.
   - content: Systematic measurement error, and its causes, can be known or unknown.
-      A correction can be applied to compensate for a known systematic measurement
+      A *correction* can be applied to compensate for a known systematic measurement
       error.
-  - content: Systematic measurement error equals measurement error minus random measurement
-      error.
+  - content: Systematic measurement error equals measurement error minus *random measurement
+      error*.
   terms:
   - type: expression
     normative_status: preferred
     designation: systematic measurement error
+  - type: expression
+    normative_status: admitted
+    designation: systematic error of measurement
+  - type: expression
+    normative_status: admitted
+    designation: systematic error
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: eb61b3c7-e6b0-485a-af90-3ab920ba22cd
@@ -49,19 +54,19 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: composante de l'erreur de mesure qui, dans des mesurages répétés, demeure
-      constante ou varie de façon prévisible
+  - content: composante de l'*erreur de mesure* qui, dans des *mesurages* répétés,
+      demeure constante ou varie de façon prévisible
   examples: []
   id: 2.17-fra
   language_code: fra
   notes:
-  - content: La valeur de référence pour une erreur systématique est une valeur vraie,
-      une valeur mesurée d’un étalon dont l'incertitude de mesure est négligeable,
-      ou une valeur conventionnelle.
+  - content: La *valeur de référence* pour une erreur systématique est une *valeur
+      vraie*, une *valeur mesurée* d'un *étalon* dont l'*incertitude de mesure* est
+      négligeable, ou une *valeur conventionnelle*.
   - content: L'erreur systématique et ses causes peuvent être connues ou inconnues.
-      On peut appliquer une correction pour compenser une erreur systématique connue.
+      On peut appliquer une *correction* pour compenser une erreur systématique connue.
   - content: L'erreur systématique est égale à la différence entre l'erreur de mesure
-      et l'erreur aléatoire.
+      et l'*erreur aléatoire*.
   terms:
   - type: expression
     normative_status: preferred
@@ -71,3 +76,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: d4afe12e-2e51-4bb8-ac47-5831145a6950
+---

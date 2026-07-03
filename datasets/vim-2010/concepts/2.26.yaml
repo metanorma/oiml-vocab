@@ -21,28 +21,27 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: uncertainty of measurement uncertainty non-negative parameter characterizing
-      the dispersion of the quantity values being attributed to a measurand, based
-      on the information used
+   - content: non-negative parameter characterizing the dispersion of the *quantity
+       values* being attributed to a *measurand*, based on the information used
   examples: []
   id: 2.26-eng
   language_code: eng
   notes:
   - content: Measurement uncertainty includes components arising from systematic effects,
-      such as components associated with corrections and the assigned quantity values
-      of measurement standards, as well as the definitional uncertainty. Sometimes
+      such as components associated with *corrections* and the assigned quantity values
+      of *measurement standards*, as well as the *definitional uncertainty*. Sometimes
       estimated systematic effects are not corrected for but, instead, associated
       measurement uncertainty components are incorporated.
-  - content: The parameter may be, for example, a standard deviation called standard
-      measurement uncertainty (or a specified multiple of it), or the half-width of
-      an interval, having a stated coverage probability.
+  - content: The parameter may be, for example, a standard deviation called *standard
+      measurement uncertainty* (or a specified multiple of it), or the half-width
+      of an interval, having a stated *coverage probability*.
   - content: Measurement uncertainty comprises, in general, many components. Some
-      of these may be evaluated by Type A evaluation of measurement uncertainty from
-      the statistical distribution of the quantity values from series of measurements
+      of these may be evaluated by *Type A evaluation of measurement uncertainty*
+      from the statistical distribution of the quantity values from series of *measurements*
       and can be characterized by standard deviations. The other components, which
-      may be evaluated by Type B evaluation of measurement uncertainty, can also be
-      characterized by standard deviations, evaluated from probability density functions
-      based on experience or other information.
+      may be evaluated by *Type B evaluation of measurement uncertainty*, can also
+      be characterized by standard deviations, evaluated from probability density
+      functions based on experience or other information.
   - content: In general, for a given set of information, it is understood that the
       measurement uncertainty is associated with a stated quantity value attributed
       to the measurand. A modification of this value results in a modification of
@@ -51,34 +50,40 @@ data:
   - type: expression
     normative_status: preferred
     designation: measurement uncertainty
-date_accepted: '2010-01-01T00:00:00+00:00'
-entry_status: valid
-id: d3b11bf0-662d-4c70-bd69-cf97e6187c59
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty of measurement
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty
+  date_accepted: '2010-01-01T00:00:00+00:00'
+  entry_status: valid
+  id: d3b11bf0-662d-4c70-bd69-cf97e6187c59
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: paramètre non négatif qui caractérise la dispersion des valeurs attribuées
-      à un mesurande, à partir des informations utilisées
+  - content: paramètre non négatif qui caractérise la dispersion des *valeurs* attribuées
+      à un *mesurande*, à partir des informations utilisées
   examples: []
   id: 2.26-fra
   language_code: fra
   notes:
-  - content: L'incertitude de mesure comprend des composantes provenant d'effets systématiques,
-      telles que les composantes associées aux corrections et aux valeurs assignées
-      des étalons, ainsi que l'incertitude définitionnelle. Parfois, on ne corrige
-      pas des effets systématiques estimés, mais on insère plutôt des composantes
-      associées de l'incertitude.
-  - content: Le paramètre peut être, par exemple, un écart-type appelé incertitude-type
-      (ou un de ses multiples) ou la demi-étendue d'un intervalle ayant une probabilité
-      de couverture déterminée.
+  - content: L'incertitude de mesure comprend des composantes provenant d'effets
+      systématiques, telles que les composantes associées aux *corrections* et aux
+      *valeurs assignées* des *étalons*, ainsi que l'*incertitude définitionnelle*.
+      Parfois, on ne corrige pas des effets systématiques estimés, mais on insère
+      plutôt des composantes associées de l'incertitude.
+  - content: Le paramètre peut être, par exemple, un écart-type appelé *incertitude-type*
+      (ou un de ses multiples) ou la demi-étendue d'un intervalle ayant une *probabilité
+      de couverture* déterminée.
   - content: L'incertitude de mesure comprend en général de nombreuses composantes.
-      Certaines peuvent être évaluées par une évaluation de type A de l'incertitude
-      à partir de la distribution statistique des valeurs provenant de séries de mesurages
+      Certaines peuvent être évaluées par une *évaluation de type A de l'incertitude*
+      à partir de la distribution statistique des valeurs provenant de séries de *mesurages*
       et peuvent être caractérisées par des écarts-types. Les autres composantes,
-      qui peuvent être évaluées par une évaluation de type B de l'incertitude, peuvent
+      qui peuvent être évaluées par une *évaluation de type B de l'incertitude*, peuvent
       aussi être caractérisées par des écarts-types, évalués à partir de fonctions
       de densité de probabilité fondées sur l'expérience ou d'autres informations.
   - content: En général, pour des informations données, on sous-entend que l'incertitude
@@ -98,3 +103,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: fe10a726-a496-470f-8b2a-1b3b21e1268c
+---
