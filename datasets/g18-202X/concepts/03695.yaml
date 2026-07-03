@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'type examination eertificate, issued by an OIML Issuing Authority, attesting the conformity of type of measuring instrument or module with the relevant requirements of an OIML Recommendation at the time of testing and evaluation [OIML B 18:2022, 3.26]'
+  - content: 'type examination eertificate, issued by an OIML Issuing Authority, attesting the conformity of type of measuring instrument or module with the relevant requirements of an OIML Recommendation at the time of testing and evaluation'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML B18:2022'
+          id: '3.26'
   id: 03695-eng
   language_code: eng
   sources: []
