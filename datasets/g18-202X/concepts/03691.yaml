@@ -27,7 +27,15 @@ data:
   id: 03691-eng
   language_code: eng
   notes:
-  - content: 'Note 1: For didital signin, a public key system is used in general, i.e., a part of keys where only one needs to be kept privet/secret; the other may be public. Note 2: The private key is used when software or data are secured. The public key is used when software or data are verified before use. Note 3: The verifying instance may require a cryptographic certificate of the securing instance (see 3.2.9) to be sure of the authenticity of the public kay. Note 4: A digital signature provides nonrepudiation: the signee cannot deny signing the software or data.'
+  - content: For didital signin, a public key system is used in general, i.e. a part
+      of keys where only one needs to be kept privet/secret; the other may be public.
+  - content: The private key is used when software or data are secured. The public
+      key is used when software or data are verified before use.
+  - content: The verifying instance may require a cryptographic certificate of the
+      securing instance (see 3.2.9) to be sure of the authenticity of the public
+      kay.
+  - content: 'A digital signature provides nonrepudiation: the signee cannot deny
+      signing the software or data.'
   sources: []
   terms:
   - type: expression
