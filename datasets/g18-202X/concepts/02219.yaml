@@ -23,7 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'quantity value provided by a measuring instrument or a measuring system [VIM 4.1][VIML 0.03]'
+  - content: 'quantity value provided by a measuring instrument or a measuring system'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '4.1'
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '0.03'
   id: 02219-eng
   language_code: eng
   sources: []
