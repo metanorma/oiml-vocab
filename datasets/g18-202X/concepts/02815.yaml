@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'computer that is not constructed for a specific purpose but that can be adapted to the metrological task by software [OIML D 31:2008, 3.1.54]'
+  - content: 'computer that is not constructed for a specific purpose but that can be adapted to the metrological task by software'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D031:2008'
+          id: '3.1.54'
   id: 02815-eng
   language_code: eng
   notes:
