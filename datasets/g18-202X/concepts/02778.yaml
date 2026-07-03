@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'continuous or incremental change over time in the indication, due to changes in the metrological properties of a measuring instrument [VIM, 4.21] [1]'
+  - content: 'continuous or incremental change over time in the indication, due to changes in the metrological properties of a measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '4.21'
   id: 02778-eng
   language_code: eng
   notes:
