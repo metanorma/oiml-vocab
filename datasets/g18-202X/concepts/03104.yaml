@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'part of the measuring instrument (meter) which displays the measurement results, either continuously or on demand [OIML V 1:2013, 5.04]'
+  - content: 'part of the measuring instrument (meter) which displays the measurement results, either continuously or on demand'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.04'
   id: 03104-eng
   language_code: eng
   notes:

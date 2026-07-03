@@ -23,7 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'operating condition prescribed for evaluating the performance of a measuring instrument or measuring system or for comparison of measurement results [OIML V 2-200:2012, 4.11] [OIML V 1:2013, 0.09]'
+  - content: 'operating condition prescribed for evaluating the performance of a measuring instrument or measuring system or for comparison of measurement results'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '4.11'
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '0.09'
   id: 03427-eng
   language_code: eng
   sources: []
