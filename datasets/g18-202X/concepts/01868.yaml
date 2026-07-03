@@ -17,11 +17,6 @@ data:
 status: valid
 id: 20eef504-6c72-499e-8686-9071e51d782f
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.9'
 ---
 data:
   dates:
@@ -29,6 +24,13 @@ data:
     type: accepted
   definition:
   - content: 'difference between the error and the intrinsic error of a measuring instrument (here a spectrophotometer)'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.9'
   id: 01868-eng
   language_code: eng
   sources: []
