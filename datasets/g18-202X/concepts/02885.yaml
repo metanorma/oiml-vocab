@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'checking facility operating without the intervention of an operator [OIML D11:2013, 3.19.1]'
+  - content: 'checking facility operating without the intervention of an operator'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.19.1'
   id: 02885-eng
   language_code: eng
   sources: []

@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'instrument for the measurement of a quantity, other than the measurand, the value of which is used to correct or convert a measurement result [OIML V1:2013, 5.09]'
+  - content: 'instrument for the measurement of a quantity, other than the measurand, the value of which is used to correct or convert a measurement result'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.09'
   id: 02866-eng
   language_code: eng
   notes:
