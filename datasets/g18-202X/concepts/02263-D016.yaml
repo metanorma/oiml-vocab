@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'procedure (other than type approval) which includes the examination and marking and/or issuing of a verification certificate, that ascertains and confirms that the measuring instrument complies with the statutory requirements [VIML 2.13]'
+  - content: 'procedure (other than type approval) which includes the examination and marking and/or issuing of a verification certificate, that ascertains and confirms that the measuring instrument complies with the statutory requirements'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '2.13'
   id: 02263-D016-eng
   language_code: eng
   sources: []
