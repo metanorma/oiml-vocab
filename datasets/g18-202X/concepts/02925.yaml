@@ -23,7 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'reference material, accompanied by documentation issued by an authoritative body and providing one or more specified property values with associated uncertainties and traceabilities, using valid procedures Example: Human serum with assigned quantity value for the concentration of cholesterol and associated measurement uncertainty stated in an accompanying certificate, used as a calibrator or measurement trueness control material. (VIM3, 5.14)'
+  - content: 'reference material, accompanied by documentation issued by an authoritative
+      body and providing one or more specified property values with associated uncertainties
+      and traceabilities, using valid procedures'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '5.14'
+  examples:
+  - content: Human serum with assigned quantity value for the concentration of cholesterol
+      and associated measurement uncertainty stated in an accompanying certificate,
+      used as a calibrator or measurement trueness control material.
   id: 02925-eng
   language_code: eng
   notes:

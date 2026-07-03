@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'identifiable part of a measuring instrument or of a family of measuring instruments that performs a specific function or functions and that can be separately evaluated according to prescribed metrological and technical performance requirements as specified in th relevant Recommendation (VIML, 4.04) Example: Typical modules of a weighing instrument are weighing module, load cell, indicator, analog or digital data processing device, terminal, primary display.'
+  - content: 'identifiable part of a measuring instrument or of a family of measuring
+      instruments that performs a specific function or functions and that can be
+      separately evaluated according to prescribed metrological and technical performance
+      requirements as specified in th relevant Recommendation'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '4.04'
+  examples:
+  - content: 'Typical modules of a weighing instrument are weighing module, load
+      cell, indicator, analog or digital data processing device, terminal, primary
+      display.'
   id: 03673-eng
   language_code: eng
   sources: []
