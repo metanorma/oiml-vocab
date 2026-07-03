@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measuring instrument which conforms to prescribed requirements, in particular legal metrological requirements [VIML 4.3]'
+  - content: 'measuring instrument which conforms to prescribed requirements, in particular legal metrological requirements'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '4.3'
   id: 02260-D016-eng
   language_code: eng
   notes:
