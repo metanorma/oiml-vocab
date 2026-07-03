@@ -16,11 +16,6 @@ data:
 status: valid
 id: 64fbe7b9-f967-5e48-ba43-1a6c009a2927
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.10'
 ---
 data:
   dates:
@@ -28,6 +23,13 @@ data:
     type: accepted
   definition:
   - content: fault greater than the value specified in the appropriate Recommendation
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.10'
   examples: []
   id: 01869-eng
   notes: []

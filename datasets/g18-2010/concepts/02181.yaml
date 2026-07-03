@@ -16,11 +16,6 @@ data:
 status: valid
 id: b9b6c3b9-6fe3-51d6-ba19-38cfa5625cd7
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.17'
 ---
 data:
   dates:
@@ -29,6 +24,13 @@ data:
   definition:
   - content: ability of the measuring instrument to maintain its performance characteristics
       over a period of use
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.17'
   examples: []
   id: 02181-eng
   notes: []

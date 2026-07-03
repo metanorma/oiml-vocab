@@ -16,11 +16,6 @@ data:
 status: valid
 id: 44fa7b04-b834-53bc-abbd-8987e2aa1e63
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.20'
 ---
 data:
   dates:
@@ -29,6 +24,13 @@ data:
   definition:
   - content: series of operations intended to verify the compliance of the equipment
       under test (EUT) with the specified requirements
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.20'
   examples: []
   id: 02217-eng
   notes: []

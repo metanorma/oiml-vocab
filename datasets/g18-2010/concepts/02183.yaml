@@ -16,11 +16,6 @@ data:
 status: valid
 id: 3041ccf5-3809-5376-8b13-a8689194b51d
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.2'
 ---
 data:
   dates:
@@ -30,6 +25,13 @@ data:
   - content: device employing sub-assemblies and performing a specific function. An
       electronic device is usually manufactured as a separate unit and is capable
       of being tested independently
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.2'
   examples: []
   id: 02183-eng
   notes:

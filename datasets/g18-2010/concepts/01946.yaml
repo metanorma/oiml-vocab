@@ -17,11 +17,6 @@ data:
 status: valid
 id: 568a47ee-0e80-5225-8180-31aa08d08bbf
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.9'
 ---
 data:
   dates:
@@ -30,6 +25,13 @@ data:
   definition:
   - content: difference between the error of indication and the intrinsic error ofa
       measuring system or of its constituent elements
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.9'
   examples: []
   id: '01946-eng'
   notes:
