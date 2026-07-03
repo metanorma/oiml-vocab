@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'quantity that, in a direct measurement, does not affect the quantity that is actually measured, but affects the relation between the indication and the measurement result [VIM 2.52]'
+  - content: 'quantity that, in a direct measurement, does not affect the quantity that is actually measured, but affects the relation between the indication and the measurement result'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.52'
   id: 03128-eng
   language_code: eng
   sources: []
