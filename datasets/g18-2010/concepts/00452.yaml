@@ -28,9 +28,16 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '[a conditions of use giving the range of values of the influence factors,
+  - content: conditions of use giving the range of values of the influence factors,
       for which the errors (of indication) of the water meter are required to be within
-      the maximum permissible errors dapted from VIM:1993, 5.5].'
+      the maximum permissible errors
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:1993'
+          id: '5.5'
   examples: []
   id: 00452-eng
   notes: []
@@ -45,7 +52,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: rated operating conditions (ROC)
+    designation: rated operating conditions
+  - type: abbreviation
+    normative_status: preferred
+    designation: ROC
   language_code: eng
   entry_status: valid
 date_accepted: '2024-01-01T00:00:00+00:00'
