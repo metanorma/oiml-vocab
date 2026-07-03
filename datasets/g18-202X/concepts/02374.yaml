@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'sub assembly converting the voltage from the mains power to a voltage suitable for other sub-assemblies [OIML D 11:2004, 3.22]'
+  - content: 'sub assembly converting the voltage from the mains power to a voltage suitable for other sub-assemblies'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.22'
   id: 02374-eng
   language_code: eng
   sources: []

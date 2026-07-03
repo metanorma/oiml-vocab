@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'continuous data file containing a time stamped information record of events, e.g. changes in the values of parameters of a device or software updates, or other activities that are legally relevant and which may influence the metrological characteristics [OIML D 31, 3.1.2]'
+  - content: 'continuous data file containing a time stamped information record of events, e.g. changes in the values of parameters of a device or software updates, or other activities that are legally relevant and which may influence the metrological characteristics'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D031:2008'
+          id: '3.1.2'
   id: 02458-eng
   language_code: eng
   sources: []
