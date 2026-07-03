@@ -7,76 +7,90 @@ data:
   - concept_id: section-1
     source: urn:oiml:pub:v:2:2010
     ref_type: section
-status: valid
-id: e8087187-6d35-4958-903a-67d569742ffb
-schema_version: '3'
-related:
-- type: supersedes
-  ref:
-    source: urn:oiml:pub:v:2:1993
-    id: '1.19'
+  status: valid
+  id: e8087187-6d35-4958-903a-67d569742ffb
+  schema_version: '3'
+  related:
+  - type: supersedes
+    ref:
+      source: urn:oiml:pub:v:2:1993
+      id: '1.19'
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: numerical value of a quantity numerical value number in the expression
-      of a quantity value, other than any number serving as the reference
-  examples:
-  - content: In an amount-of-substance fraction equal to 3 mmol/mol, the numerical
-      quantity value is 3 and the unit is mmol/mol. The unit mmol/mol is numerically
-      equal to 0.001, but this number 0.001 is not part of the numerical quantity
-      value, which remains 3.
-  - content: For a quantity value of 5.7 kg, the numerical quantity value is {m} =
-      (5.7 kg)/kg = 5.7. The same quantity value can be expressed as 5 700 g in which
-      case the numerical quantity value {m} = (5 700 g)/g = 5 700.
+  - content: number in the expression of a *quantity value*, other than any number serving as the référence
   id: 1.20-eng
   language_code: eng
   notes:
-  - content: For quantities of dimension one, the reference is a measurement unit
+  - content: For *quantities of dimension one*, the reference is a *measurement unit*
       which is a number and this is not considered as a part of the numerical quantity
       value.
-  - content: For quantities that have a measurement unit (i.e. those other than ordinal
-      quantities), the numerical value {Q} of a quantity Q is frequently denoted {Q}
-      = Q/[Q], where [Q] denotes the measurement unit.
+    examples:
+    - content: In an amount-of-substance fraction equal to stem:[3 "unitsml(mmol/mol)"], the numerical
+        quantity value is 3 and the unit is stem:["unitsml(mmol/mol)"]. The unit stem:["unitsml(mmol/mol)"]
+        is numerically equal to 0.001, but this number 0.001 is not part of the numerical quantity
+        value, which remains 3.
+  - content: For *quantities* that have a measurement unit (i.e. those other than *ordinal
+      quantities*), the numerical value stem:[{Q}] of a quantity stem:[Q] is frequently
+      denoted stem:[{Q} = Q//[Q\]], where stem:[[Q\]] denotes the measurement unit.
+    examples:
+    - content: For a quantity value of stem:[5.7 "unitsml(kg)"], the numerical quantity value is
+        stem:[{m} = (5.7 "unitsml(kg)"//"unitsml(kg)") = 5.7]. The same quantity value can be
+        expressed as stem:[5700 "unitsml(g)"] in which case the numerical quantity value
+        stem:[{m} = (5700 "unitsml(g)"//"unitsml(g)") = 5700].
   terms:
   - type: expression
     normative_status: preferred
     designation: numerical quantity value
-date_accepted: '2010-01-01T00:00:00+00:00'
-entry_status: valid
-id: b0187033-1937-41f0-805c-bd1825038671
+  - type: expression
+    normative_status: admitted
+    designation: numerical value of a quantity
+  - type: expression
+    normative_status: admitted
+    designation: numerical value
+  date_accepted: '2010-01-01T00:00:00+00:00'
+  entry_status: valid
+  id: b0187033-1937-41f0-805c-bd1825038671
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: valeur numérique d'une grandeur, f nombre dans l’expression de la valeur
-      d'une grandeur, autre qu’un nombre utilisé comme référence
-  examples:
-  - content: Pour une fraction molaire égale à 3 mmol/mol, la valeur numérique est
-      3 et l'unité est mmol/mol. L’unité mmol/mol est numériquement égale à 0,001,
-      mais ce nombre 0,001 ne fait pas partie de la valeur numérique qui reste 3.
-  - content: Pour une valeur de 5,7 kg, la valeur numérique est {m} = (5,7 kg)/kg
-      = 5,7. La même valeur peut être exprimée comme 5 700 g et la valeur numérique
-      est alors {m} = (5 700 g)/g = 5 700.
+  - content: nombre dans l'expression de la *valeur d'une grandeur*, autre qu'un nombre utilisé comme référence
   id: 1.20-fra
   language_code: fra
   notes:
-  - content: Pour les grandeurs sans dimension, la référence est une unité de mesure
-      qui est un nombre, et ce nombre n’est pas considéré comme faisant partie de
+  - content: Pour les *grandeurs sans dimension*, la référence est une *unité de mesure*
+      qui est un nombre, et ce nombre n'est pas considéré comme faisant partie de
       la valeur numérique.
-  - content: Pour les grandeurs qui ont une unité de mesure (c’est-à-dire autres que
-      les grandeurs ordinales), la valeur numérique {Q} d’une grandeur Q est fréquemment
-      notée {Q} = Q/[Q], où [Q] est le symbole de l'unité de mesure.
+    examples:
+    - content: Pour une fraction molaire égale à stem:[3 "unitsml(mmol/mol)"], la valeur numérique est
+        3 et l'unité est stem:["unitsml(mmol/mol)"]. L'unité stem:["unitsml(mmol/mol)"]
+        est numériquement égale à 0,001, mais ce nombre 0,001 ne fait pas partie de la valeur numérique qui reste 3.
+  - content: Pour les *grandeurs* qui ont une unité de mesure (c'est-à-dire autres que
+      les *grandeurs ordinales*), la valeur numérique {Q} d'une grandeur stem:[Q] est fréquemment
+      notée stem:[{Q} = Q//[Q\]], ou stem:[[Q\]] est le symbole de l'unité de mesure.
+    examples:
+    - content: Pour une valeur de stem:[5.7 "unitsml(kg)"], la valeur numérique est
+        stem:[{m} = (5.7 "unitsml(kg)"//"unitsml(kg)") = 5.7]. La même valeur peut être
+        exprimée comme stem:[5700 "unitsml(g)"] et la valeur numérique est alors
+        stem:[{m} = (5700 "unitsml(g)"//"unitsml(g)") = 5700].
   terms:
   - type: expression
     normative_status: preferred
     designation: valeur numérique
     grammar_info:
     - gender: f
+  - type: expression
+    normative_status: admitted
+    designation: valeur numérique d'une grandeur
+    grammar_info:
+    - gender: f
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: a0435146-1844-4803-9c11-dbccc54e8676
+---

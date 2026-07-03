@@ -21,30 +21,31 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: derived unit that, for a given system of quantities and for a chosen
-      set of base units, is a product of powers of base units with no other proportionality
-      factor than one
-  examples:
-  - content: If the metre, the second, and the mole are base units, the metre per
-      second is the coherent derived unit of velocity when velocity is defined by
-      the quantity equation v = dr/dt, and the mole per cubic metre is the coherent
-      derived unit of amount-of-substance concentration when amount-of-substance concentration
-      is defined by the quantity equation c = n/V. The kilometre per hour and the
-      knot, given as examples of derived units in 1.11, are not coherent derived units
-      in such a system of quantities.
-  - content: The centimetre per second is the coherent derived unit of speed in a
-      CGS system of units but is not a coherent derived unit in the SI.
+  - content: "*derived unit* that, for a given *system of quantities* and for a chosen
+      set of *base units*, is a product of powers of base units with no other proportionality
+      factor than one"
   id: 1.12-eng
   language_code: eng
   notes:
   - content: A power of a base unit is the base unit raised to an exponent.
   - content: Coherence can be determined only with respect to a particular system
       of quantities and a given set of base units.
+    examples:
+    - content: If the metre, the second, and the mole are base units, the metre per
+        second is the coherent derived unit of velocity when velocity is defined by
+        the *quantity equation* stem:[v = "d"r//"d"t], and the mole per cubic metre is the coherent
+        derived unit of amount-of-substance concentration when amount-of-substance concentration
+        is defined by the quantity equation stem:[c = n//V]. The kilometre per hour and the
+        knot, given as examples of derived units in 1.11, are not coherent derived units
+        in such a system of quantities.
   - content: A derived unit can be coherent with respect to one system of quantities
       but not to another.
-  - content: The coherent derived unit for every derived quantity of dimension one
-      in a given system of units is the number one, symbol 1. Name and symbol of the
-      measurement unit one are generally not indicated.
+    examples:
+    - content: The centimetre per second is the coherent derived unit of speed in a
+        CGS *system of units* but is not a coherent derived unit in the *SI*.
+  - content: The coherent derived unit for every derived *quantity of dimension one*
+      in a given *system of units* is the number one, symbol 1. Name and symbol of
+      the *measurement unit* one are generally not indicated.
   terms:
   - type: expression
     normative_status: preferred
@@ -58,30 +59,31 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: unité dérivée qui, pour un système de grandeurs donné et pour un ensemble
-      choisi d'unités de base, est un produit de puissances des unités de base sans
-      autre facteur de proportionnalité que le nombre un
-  examples:
-  - content: Si le mètre, la seconde et la mole sont des unités de base, le mètre
-      par seconde est l'unité dérivée cohérente de vitesse lorsque la vitesse est
-      définie par l'équation aux grandeurs v = dr/dt, et la mole par mètre cube est
-      l'unité dérivée cohérente de concentration en quantité de matière lorsque la
-      concentration en quantité de matière est définie par l'équation aux grandeurs
-      c = n/V. Le kilomètre par heure et le nœud, donnés comme exemples d'unités dérivées
-      en 1.11, ne sont pas des unités dérivées cohérentes dans un tel système.
-  - content: Le centimètre par seconde est l’unité dérivée cohérente de vitesse dans
-      le système d’unités CGS mais n’est pas une unité dérivée cohérente dans le SI.
+  - content: "*unité dérivée* qui, pour un *système de grandeurs* donné et pour un
+      ensemble choisi d'*unités de base*, est un produit de puissances des unités
+      de base sans autre facteur de proportionnalité que le nombre un"
   id: 1.12-fra
   language_code: fra
   notes:
-  - content: Une puissance d’une unité de base est l’unité munie d’un exposant.
+  - content: Une puissance d'une unité de base est l'unité munie d'un exposant.
   - content: La cohérence ne peut être déterminée que par rapport à un système de
       grandeurs particulier et un ensemble donné d'unités de base.
+    examples:
+    - content: Si le mètre, la seconde et la mole sont des unités de base, le mètre
+        par seconde est l'unité dérivée cohérente de vitesse lorsque la vitesse est
+        définie par l'*équation aux grandeurs* stem:[v = "d"r//"d"t], et la mole par mètre cube
+        est l'unité dérivée cohérente de concentration en quantité de matière lorsque
+        la concentration en quantité de matière est définie par l'*équation aux grandeurs*
+        stem:[c = n//V]. Le kilomètre par heure et le nœud, donnés comme exemples d'unités dérivées
+        en 1.11, ne sont pas des unités dérivées cohérentes dans un tel système.
   - content: Une unité dérivée peut être cohérente par rapport à un système de grandeurs,
       mais non par rapport à un autre.
-  - content: Dans tout système d’unités, l'unité dérivée cohérente de toute grandeur
-      dérivée sans dimension est le nombre un, de symbole 1. Le nom et le symbole
-      de l’unité de mesure un sont généralement omis.
+    examples:
+      - content: Le centimètre par seconde est l'unité dérivée cohérente de vitesse dans
+          le système d'unités CGS mais n'est pas une unité dérivée cohérente dans le *SI*.
+  - content: Dans tout système d'unités, l'unité dérivée cohérente de toute *grandeur
+      dérivée sans dimension* est le nombre un, de symbole 1. Le nom et le symbole
+      de l'*unité de mesure* un sont généralement omis.
   terms:
   - type: expression
     normative_status: preferred
@@ -91,3 +93,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 4e5fce63-9f78-4c17-b30d-67afcfbb2b52
+---

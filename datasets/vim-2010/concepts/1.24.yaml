@@ -17,15 +17,19 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: ratio of two measurement units for quantities of the same kind
+  - content: ratio of two *measurement units* for *quantities* of the same *kind*
   examples:
-  - content: km/m = 1 000 and thus 1 km = 1 000 m
-  - content: a) h/s = 3 600 and thus 1 h = 3 600 s. b) (km/h)/(m/s) = (1/3.6) and
-      thus 1 km/h = (1/3.6) m/s.
+  - content: stem:["unitsml(km/m)" = 1000] and thus stem:[1 "unitsml(km)" = 1000
+      "unitsml(m)"]
   id: 1.24-eng
   language_code: eng
   notes:
-  - content: The measurement units may belong to different systems of units.
+  - content: The measurement units may belong to different *systems of units*.
+    examples:
+    - content: stem:["unitsml(h/s)" = 3600] and thus stem:[1 "unitsml(h)" = 3600
+        "unitsml(s)"].
+    - content: stem:[("unitsml(km/h)")/("unitsml(m/s)") = (1/3.6)] and thus stem:[1
+        "unitsml(km/h)" = (1/3.6) "unitsml(m/s)"].
   terms:
   - type: expression
     normative_status: preferred
@@ -39,17 +43,24 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: rapport de deux unités de mesure correspondant à des grandeurs de même
-      nature
+  - content: rapport de deux *unités de mesure* correspondant à des *grandeurs* de
+      même *nature*
   examples:
-  - content: km/m = 1 000 et par conséquent 1 km = 1 000 m
-  - content: a) h/s = 3 600 et par conséquent 1 h = 3 600 s. b) (km/h)/(m/s) = (1/3,6)
-      et par conséquent 1 km/h = (1/3,6) m/s.
+  - content: stem:["unitsml(km/m)" = 1000] et par conséquent stem:[1 "unitsml(km)"
+      = 1000 "unitsml(m)"]
+  - content: stem:["unitsml(h/s)" = 3600] et par conséquent stem:[1 "unitsml(h)" =
+      3600 "unitsml(s)"]
+  - content: stem:[("unitsml(km/h)")/("unitsml(m/s)") = (1/3.6)] et par conséquent
+      stem:[1 "unitsml(km/h)" = (1/3.6) "unitsml(m/s)"]
   id: 1.24-fra
   language_code: fra
   notes:
-  - content: Les unités de mesure peuvent appartenir à des systèmes d’unités
-      différents.
+  - content: Les unités de mesure peuvent appartenir à des *systèmes d'unités* différents.
+    examples:
+    - content: stem:["unitsml(h/s)" = 3600] et par conséquent stem:[1 "unitsml(h)"
+        = 3600 "unitsml(s)"].
+    - content: stem:[("unitsml(km/h)")/("unitsml(m/s)") = (1/3.6)] et par conséquent
+        stem:[1 "unitsml(km/h)" = (1/3.6) "unitsml(m/s)"].
   terms:
   - type: expression
     normative_status: preferred
@@ -59,3 +70,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 37e20848-d1f1-4f2a-a689-7050a73ca29e
+---

@@ -27,47 +27,38 @@ data:
   id: 1.1-eng
   language_code: eng
   notes:
-  - content: The generic concept 'quantity' can be divided into several levels of
+  - content: |
+      The generic concept 'quantity' can be divided into several levels of
       specific concepts, as shown in the following table. The left hand side of the
       table shows specific concepts under 'quantity'. These are generic concepts for
       the individual quantities in the right hand column.
 
-      [cols=a,a,2a]
+      [cols="1,1,3", options="noheader,unnumbered"]
       |===
-      .2+| length stem:[l]
-      | radius, stem:[r] | radius of circle A, stem:[r_A] or stem:[r(A)]
-      | wavelength, stem:[lambda] | wavelength of the sodium D radiation, stem:[lambda_D] or stem:[lambda("D"; "Na")]
-
-      .2+| kinetic energy, stem:[T]
-      | kinetic energy of particle stem:[i] in a given system, stem:[T_i]
+      .2+| length, stem:[l] | radius, stem:[r] | radius of circle stem:[A], stem:[r_A] or stem:[r(A)]
+      | wavelength, stem:[lambda] | wavelength of the sodium stem:[D] radiation, stem:[lambda_D] or stem:[lambda(D; N_a)]
+      .2+| energy, stem:[E] | kinetic energy, stem:[T] | kinetic energy of particle stem:[i] in a given system, stem:[T_i]
       | heat, stem:[Q] | heat of vaporization of sample stem:[i] of water, stem:[Q_i]
-
       2+| electric charge, stem:[Q] | electric charge of the proton, stem:[e]
-
       2+| electric resistance, stem:[R] | electric resistance of resistor stem:[i] in a given circuit, stem:[R_i]
-
-      2+| amount-of-substance concentration of entity B, stem:[cB] | amount-of-substance concentration of ethanol in wine sample stem:[i], stem:[c_i ("C"_2 "H"_5 "OH")]
-
-      2+| number concentration of entity B, stem:[CB] | number concentration of erythrocytes in blood sample stem:[i], stem:[C("Erys"; "B"_i)]
-
-      2+| Rockwell C hardness, stem:[HRC] | Rockwell C hardness of steel sample stem:[i], stem:["HRC"_i]
-
+      2+| amount-of-substance concentration of entity stem:[B], stem:[c_B] | amount-of-substance concentration of ethanol in wine sample stem:[i], stem:[c_i(C_2H_5OH)]
+      2+| number concentration of entity stem:[B, C_B] | number concentration of erythrocytes in blood sample stem:[i], stem:[C("Erys"; B_i)]
+      2+| Rockwell C hardness, HRC | Rockwell C hardness of steel sample stem:[i], stem:["HRC"_i]
       |===
-
-  - content: A reference can be a *measurement unit*, a *measurement procedure*, a *reference
-      material*, or a combination of such.
+  - content: A reference can be a *measurement unit*, a *measurement procedure*, a
+      *reference material*, or a combination of such.
   - content: Symbols for quantities are given in the ISO 80000 and IEC 80000 series
       Quantities and units. The symbols for quantities are written in italics. A given
       symbol can indicate different quantities.
   - content: The preferred IUPAC-IFCC format for designations of quantities in laboratory
       medicine is "System—Component; quantity".
     examples:
-    - content: '"Plasma (Blood) -- Sodium ion; amount-of-substance concentration equal to 143 mmol/l in a given person at a given time".'
-
+    - content: '"Plasma (Blood)-Sodium ion; amount-of-substance concentration equal
+        to stem:[143 "unitsml(mmol/l)"] in a given person at a given time".'
   - content: A quantity as defined here is a scalar. However, a vector or a tensor
       the components of which are quantities is also considered to be a quantity.
-  - content: The concept ‘quantity’ may be generically divided into, e.g. ‘physical
-      quantity’, ‘chemical quantity’, and ‘biological quantity’, or *base quantity*
+  - content: The concept 'quantity' may be generically divided into, e.g. 'physical
+      quantity', 'chemical quantity', and 'biological quantity', or *base quantity*
       and *derived quantity*.
   terms:
   - type: expression
@@ -88,50 +79,41 @@ data:
   examples: []
   language_code: fra
   notes:
-  - content: Le concept générique de grandeur peut être subdivisé en plusieurs niveaux
-      de concepts spécifiques, comme indiqué dans le tableau suivant. La moitié gauche
-      du tableau présente des concepts spécifiques du concept de grandeur. Ce sont
-      des concepts génériques pour les grandeurs individuelles de la moitié droite.
+  - content: |
+        Le concept générique de grandeur peut être subdivisé en plusieurs niveaux
+        de concepts spécifiques, comme indiqué dans le tableau suivant. La moitié gauche
+        du tableau présente des concepts spécifiques du concept de grandeur. Ce sont
+        des concepts génériques pour les grandeurs individuelles de la moitié droite.
 
-      [cols=a,a,2a]
-      |===
-      .2+| longueur stem:[l]
-      | rayon, stem:[r] | rayon du cercle A, stem:[r_A] ou stem:[r(A)]
-      | longueur d'onde, stem:[lambda] | longueur d'onde de la radiation D du sodium, stem:[lambda_D] ou stem:[lambda("D"; "Na")]
-
-      .2+| énergie cinétique, stem:[T]
-      | énergie cinétique de la particule stem:[i] dans un système donné, stem:[T_i]
-      | chaleur, stem:[Q] | chaleur de vaporisation du spécimen stem:[i] d'eau, stem:[Q_i]
-
-      2+| charge électrique, stem:[Q] | charge électrique du proton, stem:[e]
-
-      2+| résistance électrique, stem:[R] | résistance électrique de la résistance stem:[i] dans un circuit donné, stem:[R_i]
-
-      2+| concentration en quantité de matière du constituant B, stem:[cB] | concentration en quantité de matière d'éthanol dans le spécimen stem:[i] de vin, stem:[c_i ("C"_2 "H"_5 "OH")]
-
-      2+| nombre volumique du constituant B, stem:[CB] | nombre volumique d'érythrocytes dans le spécimen stem:[i] de sang, stem:[C("Erys"; "B"_i)]
-
-      2+| dureté C de Rockwell, stem:[HRC] | dureté C de Rockwell du spécimen stem:[i] d'acier, stem:["HRC"_i]
-
-      |===
-
-  - content: La référence peut être une unité de mesure, une procédure de mesure,
-      un matériau de référence, ou une de leur combinaisons.
-  - content: Les séries ISO 80000 et CEI 80000 Grandeurs et unités donnent des symboles
+        [cols="1,1,3", options="noheader,unnumbered"]
+        |===
+        .2+| longueur, stem:[l] | rayon, stem:[r] | rayon du cercle stem:[A], stem:[r_A] ou stem:[r(A)]
+        | longueur d'onde, stem:[lambda] | longueur d'onde de la radiation stem:[D] du sodium, stem:[lambda_D] ou stem:[lambda(D; N_a)]
+        .2+| énergie, stem:[E] | énergie cinétique, stem:[T] | énergie cinétique de la particule stem:[i] dans un système donné, stem:[T_i]
+        | chaleur, stem:[Q] | chaleur de vaporisation du spécimen stem:[i] d'eau, stem:[Q_i]
+        2+| charge électrique, stem:[Q] | charge électrique du proton, stem:[e]
+        2+| résistance électrique, stem:[R] | résistance électrique de la résistance stem:[i] dans un circuit donné, stem:[R_i]
+        2+| concentration en quantité de matière du constituant stem:[B], stem:[c_B] | concentration en quantité de matière d'éthanol dans le spécimen stem:[i] de vin, stem:[c_i(C_2H_5OH)]
+        2+| nombre volumique du constituant stem:[B], stem:[C_B] | nombre volumique d'érythrocytes dans le spécimen stem:[i] de sang, stem:[C("Erc"; "Sg"_i)]
+        2+| dureté C de Rockwell, HRC | dureté C de Rockwell du spécimen stem:[i] d'acier, stem:["HRC"_i]
+        |===
+  - content: La référence peut être une *unité de mesure*, une *procédure de mesure*,
+      un *matériau de référence*, ou une de leur combinaisons.
+  - content: Les séries ISO 80000 et CEI 80000 _Grandeurs et unités_ donnent des symboles
       de grandeurs. Les symboles de grandeurs sont écrits en italique. Un symbole
       donné peut noter des grandeurs différentes.
   - content: Le format préféré par l'IUPAC-IFCC pour la désignation des grandeurs
-      dans les laboratoires de biologie médicale est « Système — Constituant ; grandeur
+      dans les laboratoires de biologie médicale est « Système -- Constituant ; grandeur
       ».
     examples:
-    - content: '"« Plasma(Sang)—Ion sodium; concentration en quantité de matière égale à 143 mmol/l chez une personne donnée à un instant donné »."'
-
+    - content: « Plasma(Sang)-Ion sodium; concentration en quantité de matière égale
+        à stem:[143 "unitsml(mmol/l)"] chez une personne donnée à un instant donné ».
   - content: Une grandeur telle que définie ici est une grandeur scalaire. Cependant,
       un vecteur ou un tenseur dont les composantes sont des grandeurs est aussi considéré
       comme une grandeur.
   - content: Le concept de grandeur peut être subdivisé génériquement, par exemple,
       « grandeur physique », « grandeur chimique » et « grandeur biologique », ou
-      grandeur de base et grandeur dérivée.
+      *grandeur de base* et *grandeur dérivée*.
   terms:
   - type: expression
     normative_status: preferred
@@ -141,3 +123,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 2bd7b255-e657-48df-b795-e89cc793302e
+---

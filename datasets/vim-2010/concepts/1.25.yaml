@@ -17,16 +17,17 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: numerical quantity value equation mathematical relation between numerical
-      quantity values, based on a given quantity equation and specified measurement
-      units
+  - content: mathematical relation between *numerical quantity values*, based on a given
+      *quantity equation* and specified *measurement units*
   examples:
-  - content: a) For the quantities in example a) in item 1.22, {Q1} = ζ {Q2} {Q3}
-      where {Q1}, {Q2}, and {Q3} denote the numerical values of Q1, Q2, and Q3, respectively,
-      provided that they are expressed in either base units or coherent derived units
-      or both. b) In the quantity equation for kinetic energy of a particle, T = (1/2)
-      mv2, if m = 2 kg and v = 3 m/s, then {T} = (1/2) × 2 × 32 is a numerical value
-      equation giving the numerical value 9 of T in joules.
+  - content: For the *quantities* in example a) in item 1.22, stem:[{Q_1} = zeta {Q_2}
+      {Q_3}] where stem:[{Q_1}], stem:[{Q_2}], and stem:[{Q_3}] denote the numerical values
+      of stem:[Q_1], stem:[Q_2], and stem:[Q_3], respectively, provided that they are
+      expressed in either *base units* or *coherent derived units* or both.
+  - content: In the quantity equation for kinetic energy of a particle, stem:[T =
+      (1//2) mv^2], if stem:["unitsml(m)" = 2 "unitsml(kg)"] and stem:[v = 3 "unitsml(m/s)"],
+      then stem:[{T} = (1//2) xx 2 xx 3^2] is a numerical value equation giving the
+      numerical value 9 of stem:[T] in joules.
   id: 1.25-eng
   language_code: eng
   notes: []
@@ -34,6 +35,9 @@ data:
   - type: expression
     normative_status: preferred
     designation: numerical value equation
+  - type: expression
+    normative_status: admitted
+    designation: numerical quantity value equation
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: e9be9edb-4a93-4dd0-9657-efb05c709910
@@ -44,14 +48,16 @@ data:
     type: accepted
   definition:
   - content: relation d'égalité entre des valeurs numériques, fondée sur une équation
-      aux grandeurs donnée et des unités de mesure spécifiées
+      aux *grandeurs* donnée et des *unités de mesure* spécifiées
   examples:
-  - content: a) Pour les grandeurs données dans l’exemple a) de 1.22, {Q1} = ζ {Q2}
-      {Q3}, où {Q1}, {Q2} et {Q3} représentent respectivement les valeurs numériques
-      de Q1, Q2 et Q3 lorsqu’elles sont exprimées en unités de base ou en unités dérivées
-      cohérentes ou les deux. b) Pour l'équation de l'énergie cinétique d'une particule,
-      T = (1/2) mv2, si m = 2 kg et v = 3 m/s, alors {T} = (1/2) ×2 × 32 est une équation
-      aux valeurs numériques donnant la valeur numérique 9 pour T en joules.
+  - content: Pour les grandeurs données dans l'exemple a) de 1.22, stem:[{Q_1} = zeta
+      {Q_2} {Q_3}], où stem:[{Q_1}], stem:[{Q_2}] et stem:[{Q_3}] représentent respectivement
+      les valeurs numériques de stem:[Q_1], stem:[Q_2] et stem:[Q_3] lorsqu'elles sont
+      exprimées en *unités de base* ou en *unités dérivées cohérentes* ou les deux.
+  - content: Pour l'équation de l'énergie cinétique d'une particule, stem:[T = (1//2)
+      mv^2], si stem:[m = 2 "unitsml(kg)"] et stem:[v = 3 "unitsml(m/s)"], alors stem:[{T}
+      = (1//2) xx 2 xx 3^2] est une équation aux valeurs numériques donnant la valeur
+      numérique 9 pour stem:[T] en joules.
   id: 1.25-fra
   language_code: fra
   notes: []
@@ -64,3 +70,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 88e0ed13-8cd0-486c-aa9e-770f69c4e831
+---
