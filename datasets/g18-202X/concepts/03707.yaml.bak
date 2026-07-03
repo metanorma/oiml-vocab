@@ -1,46 +1,43 @@
 ---
 data:
-  identifier: '03734'
+  identifier: '03707'
   localized_concepts:
-    eng: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+    eng: e87f5952-c2b1-5720-a6d1-460d234ee3f2
   sources:
   - origin:
       ref:
         source: OIML R142-1:2025
     locality:
       type: clause
-      reference_from: '3.31'
+      reference_from: '3.23'
     type: authoritative
   domains:
   - concept_id: section-R142-1
     ref_type: section
 status: valid
-id: 7941d2f9-2a01-4ec7-b8a1-c0855f94466e
+id: bcde1a00-bd12-4dd4-ae72-0629ff2336e3
 schema_version: '3'
-related: []
 ---
 data:
   dates:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device that is not constructed for a specific purpose, but that can be adapted to a metrological task by software.'
-  id: 03734-eng
+  - content: 'continuous data file containing a time stamped information record of events, e.g. changes in the values of the parameters of a measuring instrument or software updates, or other activities that are legally relevant and which may influence the mettrological'
+  id: 03707-eng
   language_code: eng
-  notes:
-  - content: 'Note:This kind of device might have undeclared interfaces to operating system'
   sources:
   - type: authoritative
     status: identical
     origin:
       ref:
-        source: 'OIML D031:2008'
-        id: '3.1.59'
+        source: 'OIML D 031:2008'
+        id: '3.1.1'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'universal device'
+    designation: audit trail
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
-id: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+id: e87f5952-c2b1-5720-a6d1-460d234ee3f2

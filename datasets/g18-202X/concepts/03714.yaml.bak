@@ -1,46 +1,43 @@
 ---
 data:
-  identifier: '03734'
+  identifier: '03714'
   localized_concepts:
-    eng: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+    eng: 389e66b6-8313-5ed3-9b64-79e5b58200be
   sources:
   - origin:
       ref:
         source: OIML R142-1:2025
     locality:
       type: clause
-      reference_from: '3.31'
+      reference_from: '3.24'
     type: authoritative
   domains:
   - concept_id: section-R142-1
     ref_type: section
 status: valid
-id: 7941d2f9-2a01-4ec7-b8a1-c0855f94466e
+id: 0dc6f3f7-146c-458f-9dad-1a0f57adef0e
 schema_version: '3'
-related: []
 ---
 data:
   dates:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device that is not constructed for a specific purpose, but that can be adapted to a metrological task by software.'
-  id: 03734-eng
+  - content: 'means such as encryption/decryption with the purpose of hiding information from unauthorized persons (see OIML D31, 3.1.13), or hashes and signatures to ensure integrity and authenticity'
+  id: 03714-eng
   language_code: eng
-  notes:
-  - content: 'Note:This kind of device might have undeclared interfaces to operating system'
   sources:
   - type: authoritative
     status: identical
     origin:
       ref:
-        source: 'OIML D031:2008'
-        id: '3.1.59'
+        source: 'OIML D 031:2008'
+        id: '3.1.8'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'universal device'
+    designation: cryptographic means
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
-id: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+id: 389e66b6-8313-5ed3-9b64-79e5b58200be

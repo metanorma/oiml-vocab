@@ -1,46 +1,45 @@
 ---
 data:
-  identifier: '03734'
+  identifier: '03719'
   localized_concepts:
-    eng: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+    eng: fa854927-766e-5ef9-bcdb-76a091894fd1
   sources:
   - origin:
       ref:
         source: OIML R142-1:2025
     locality:
       type: clause
-      reference_from: '3.31'
+      reference_from: '3.29'
     type: authoritative
   domains:
   - concept_id: section-R142-1
     ref_type: section
 status: valid
-id: 7941d2f9-2a01-4ec7-b8a1-c0855f94466e
+id: bc7705a6-eac6-45c1-8546-fbecdfb82d5e
 schema_version: '3'
-related: []
 ---
 data:
   dates:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device that is not constructed for a specific purpose, but that can be adapted to a metrological task by software.'
-  id: 03734-eng
+  - content: 'parameter of a measuring instrument/component, (electronic) device, software or a module subject to legal control'
+  id: 03719-eng
   language_code: eng
   notes:
-  - content: 'Note:This kind of device might have undeclared interfaces to operating system'
+  - content: 'Note: The following types of legally relevant parameters can be distinguished: type-specific parameters and device-specific parameters.'
   sources:
   - type: authoritative
     status: identical
     origin:
       ref:
-        source: 'OIML D031:2008'
-        id: '3.1.59'
+        source: 'OIML D 031:2008'
+        id: '3.1.26'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'universal device'
+    designation: legally relevant parameter
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
-id: 8b276bd4-104d-504f-9912-e3d45a5b1d74
+id: fa854927-766e-5ef9-bcdb-76a091894fd1

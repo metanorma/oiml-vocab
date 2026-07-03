@@ -17,11 +17,7 @@ data:
 status: valid
 id: 93168fce-fde6-41a3-ac82-66a463442fec
 schema_version: '3'
-related:
-- ref:
-    id: '3.1.47'
-    source: OIML D031:2008
-  type: see
+related: []
 ---
 data:
   dates:
@@ -31,7 +27,13 @@ data:
   - content: 'technical operation that consists of determining one or more characteristics of the software according to the specific procedure (e.g. analysis of technical documentation or running the program under controlled conditions)'
   id: 03731-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D031:2008'
+        id: '3.1.47'
   terms:
   - type: expression
     normative_status: preferred
