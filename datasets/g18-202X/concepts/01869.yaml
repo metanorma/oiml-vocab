@@ -17,13 +17,18 @@ data:
 status: valid
 id: e130faf9-25e5-4dc0-8933-8420bec67c47
 schema_version: '3'
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.10'
 ---
 data:
   dates:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'fault greater than the value specified in the appropriate Recommendation [OIML D 11, 3.10]'
+  - content: 'fault greater than the value specified in the appropriate Recommendation'
   id: 01869-eng
   language_code: eng
   sources: []

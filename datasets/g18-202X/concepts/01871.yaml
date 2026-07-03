@@ -17,13 +17,18 @@ data:
 status: valid
 id: e211914e-5e02-4ca4-bfa9-d436f18b78cd
 schema_version: '3'
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.17'
 ---
 data:
   dates:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'ability of a measuring instrument to maintain its performance characteristics over a stated period of use [OIML D 11, 3.17]'
+  - content: 'ability of a measuring instrument to maintain its performance characteristics over a stated period of use'
   id: 01871-eng
   language_code: eng
   sources: []
