@@ -28,11 +28,17 @@ data:
   language_code: eng
   notes:
   - content: 'Note 1:Principally, a fault is the result of an undesired change of data contained in or flowing through an electronic measuring instrument. Note 2:From the definition it follows a “fault” is a numerical value which is expressed either in a unit of measurement or as a relative value, for instance as a percentage.'
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D 011:2004'
+        id: '3.10'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'fault [OIML D 11, 3.10]'
+    designation: fault
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

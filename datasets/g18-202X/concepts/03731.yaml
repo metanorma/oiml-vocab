@@ -17,6 +17,11 @@ data:
 status: valid
 id: 93168fce-fde6-41a3-ac82-66a463442fec
 schema_version: '3'
+related:
+- ref:
+    id: '3.1.47'
+    source: OIML D031:2008
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'software examination [OIML D 31, 3.1.47]'
+    designation: 'software examination'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

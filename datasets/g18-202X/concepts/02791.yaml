@@ -23,16 +23,26 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '{quantity value used as a basis for comparison with values of quantities of the same kind [VIM 5.18]}'
+  - content: 'quantity value used as a basis for comparison with values of quantities of the same kind'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '5.18'
   id: 02791-eng
   language_code: eng
   notes:
-  - content: '{NOTE 1 A reference quantity value can be a true quantity value of a measurand, in which case it is unknown, or a conventional quantity value, in which case it is known. NOTE 2 A reference quantity value with associated measurement uncertainty is usually provided with reference to a) a material, e.g. a certified reference material, b) a device, e.g. a stabilized laser, c) a reference measurement procedure, d) a comparison of measurement standards} In this Recommendation, the PMB of the whole-grain CRM is the reference quantity value used to assess the measurement accuracy at verification and to assess the accuracy of calibrations at type evaluation. Where a CRM is not used, the reference quantity value is the mean PMB at reference conditions prior to a test.'
+  - content: 'NOTE 1 A reference quantity value can be a true quantity value of a measurand, in which case it is unknown, or a conventional quantity value, in which case it is known. NOTE 2 A reference quantity value with associated measurement uncertainty is usually provided with reference to a) a material, e.g. a certified reference material, b) a device, e.g. a stabilized laser, c) a reference measurement procedure, d) a comparison of measurement standards. In this Recommendation, the PMB of the whole-grain CRM is the reference quantity value used to assess the measurement accuracy at verification and to assess the accuracy of calibrations at type evaluation. Where a CRM is not used, the reference quantity value is the mean PMB at reference conditions prior to a test.'
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reference quantity value {reference value}'
+    designation: reference quantity value
+  - type: expression
+    normative_status: admitted
+    designation: reference value
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

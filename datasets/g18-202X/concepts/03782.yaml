@@ -17,6 +17,11 @@ data:
 status: valid
 id: 9ff71f12-0242-410f-b547-119d0c860bed
 schema_version: '3'
+related:
+- ref:
+    id: '5.14'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'significant fault (OIML V 1 [1], 5.14)'
+    designation: 'significant fault'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

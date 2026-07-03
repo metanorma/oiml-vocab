@@ -17,6 +17,11 @@ data:
 status: valid
 id: cae66b74-1f03-4fe6-94a9-12aa63c1be24
 schema_version: '3'
+related:
+- ref:
+    id: '5.07'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'checking facility (OIML V 1 [1], 5.07)'
+    designation: 'checking facility'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

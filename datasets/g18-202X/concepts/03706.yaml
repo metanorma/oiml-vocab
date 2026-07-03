@@ -26,11 +26,17 @@ data:
   - content: 'set of operations carried out on a measuring system so that it provides prescribed indications corresponding to given values of a quantity to be measured'
   id: 03706-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2007'
+        id: '3.11'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'adjustment [VIM 3.11]'
+    designation: adjustment
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

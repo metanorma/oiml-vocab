@@ -17,6 +17,11 @@ data:
 status: valid
 id: bbf4e405-cebb-455e-a55c-fd39950718d8
 schema_version: '3'
+related:
+- ref:
+    id: '2.25'
+    source: urn:oiml:pub:v:2:2012
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'measurement reproducibility (reproducibility) [VIM 2.25]'
+    designation: 'measurement reproducibility (reproducibility)'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

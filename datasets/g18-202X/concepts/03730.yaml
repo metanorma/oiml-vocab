@@ -17,6 +17,11 @@ data:
 status: valid
 id: adcc1707-8b96-4602-9175-c7e6b7eaa5e0
 schema_version: '3'
+related:
+- ref:
+    id: '2.24'
+    source: urn:oiml:pub:v:2:2012
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reproducibility condition of measurement (reproducibility condition) [VIM 2.24]'
+    designation: 'reproducibility condition of measurement'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

@@ -17,6 +17,11 @@ data:
 status: valid
 id: 81c4e2a9-b90a-411d-a209-b4fe91deb5bd
 schema_version: '3'
+related:
+- ref:
+    id: '0.06'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'intrinsic error (OIML V 1 [1], 0.06)'
+    designation: 'intrinsic error'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

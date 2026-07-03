@@ -17,6 +17,11 @@ data:
 status: valid
 id: 859fc691-ad01-4189-94ca-7587ed4dde0d
 schema_version: '3'
+related:
+- ref:
+    id: '5.18'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'influence factor (OIML V 1 [1], 5.18)'
+    designation: 'influence factor'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

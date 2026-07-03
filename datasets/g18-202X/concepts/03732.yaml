@@ -17,6 +17,11 @@ data:
 status: valid
 id: e414843c-4a93-4e8a-8e3a-c3c7f8d9c42a
 schema_version: '3'
+related:
+- ref:
+    id: '2.05'
+    source: urn:oiml:pub:v:1:2022
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'type approval [VIML 2.05]'
+    designation: 'type approval'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

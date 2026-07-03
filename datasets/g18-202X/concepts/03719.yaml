@@ -28,11 +28,17 @@ data:
   language_code: eng
   notes:
   - content: 'Note: The following types of legally relevant parameters can be distinguished: type-specific parameters and device-specific parameters.'
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D 031:2008'
+        id: '3.1.26'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'legally relevant parameter [OIML D 31, 3.1.26]'
+    designation: legally relevant parameter
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

@@ -26,11 +26,17 @@ data:
   - content: 'continuous data file containing a time stamped information record of events, e.g. changes in the values of the parameters of a measuring instrument or software updates, or other activities that are legally relevant and which may influence the mettrological'
   id: 03707-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D 031:2008'
+        id: '3.1.1'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'audit trail [OIML D 31, 3.1.1]'
+    designation: audit trail
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

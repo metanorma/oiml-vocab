@@ -26,11 +26,17 @@ data:
   - content: 'error of a measuring instrument determined under reference conditions'
   id: 03717-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D 011:2004'
+        id: '3.8'
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'intrinsic error [OIML D 11, 3.8]'
+    designation: intrinsic error
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

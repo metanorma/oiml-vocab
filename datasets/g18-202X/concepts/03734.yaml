@@ -17,6 +17,11 @@ data:
 status: valid
 id: 7941d2f9-2a01-4ec7-b8a1-c0855f94466e
 schema_version: '3'
+related:
+- ref:
+    id: '3.1.59'
+    source: OIML D031:2008
+  type: see
 ---
 data:
   dates:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'universal  device [OIML D 31, 3.1.59]'
+    designation: 'universal device'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'condition of measurement, out of a set of conditions that includes different locations, operators, measuring systems, and replicate measurements on the same or similar objects [VIM 2.24]'
+  - content: 'condition of measurement, out of a set of conditions that includes different locations, operators, measuring systems, and replicate measurements on the same or similar objects'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '2.24'
   id: 03459-eng
   language_code: eng
   notes:
@@ -32,7 +39,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reproducibility condition of measurement (reproducibility condition)'
+    designation: reproducibility condition of measurement
+  - type: expression
+    normative_status: admitted
+    designation: reproducibility condition
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

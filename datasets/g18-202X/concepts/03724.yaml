@@ -17,6 +17,11 @@ data:
 status: valid
 id: ee4bba7e-7796-47d9-969a-987718ef01ea
 schema_version: '3'
+related:
+- ref:
+    id: '2.21'
+    source: urn:oiml:pub:v:2:2012
+  type: see
 ---
 data:
   dates:
@@ -30,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'measurement repeatability (repeatability) [VIM, 2.21]'
+    designation: 'measurement repeatability (repeatability)'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
