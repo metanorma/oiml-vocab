@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'force transducer which, after taking into account the effects of the acceleration of gravity and air buoyancy at the location of its use, measures mass by converting the measured quantity (mass) into another measured quantity (output) [OIML R 60: 2000, 2.1.2]'
+  - content: 'force transducer which, after taking into account the effects of the acceleration of gravity and air buoyancy at the location of its use, measures mass by converting the measured quantity (mass) into another measured quantity (output)'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML R060:2000'
+          id: '2.1.2'
   id: 00897-eng
   language_code: eng
   notes:
