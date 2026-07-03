@@ -17,23 +17,23 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: primary reference procedure reference measurement procedure used to obtain
-      a measurement result without relation to a measurement standard for a quantity
-      of the same kind
+  - content: primary reference procedure *reference measurement procedure* used to
+      obtain a *measurement result* without relation to a *measurement standard* for
+      a *quantity* of the same *kind*
   examples:
-  - content: The volume of water delivered by a 50 ml pipette at 20 °C is measured
-      by weighing the water delivered by the pipette into a beaker, taking the mass
-      of beaker plus water minus the mass of the initially empty beaker, and correcting
-      the mass difference for the actual water temperature using the volumic mass
-      (mass density).
+  - content: The volume of water delivered by a stem:[50 "unitsml(ml)"] pipette at stem:[20 "unitsml(degC)"]
+        is measured by weighing the water delivered by the pipette into a beaker, taking the mass
+        of beaker plus water minus the mass of the initially empty beaker, and correcting
+        the mass difference for the actual water temperature using the volumic mass
+        (mass density).
   id: 2.8-eng
   language_code: eng
   notes:
   - content: The Consultative Committee for Amount of Substance – Metrology in Chemistry
-      (CCQM) uses the term “primary method of measurement” for this concept.
-  - content: Definitions of two subordinate concepts, which could be termed “direct
-      primary reference measurement procedure” and “ratio primary reference measurement
-      procedure”, are given by the CCQM (5th Meeting, 1999)[5] .
+      (CCQM) uses the term "primary method of measurement" for this concept.
+  - content: Definitions of two subordinate concepts, which could be termed "direct
+      primary reference measurement procedure" and "ratio primary reference measurement
+      procedure", are given by the CCQM (5th Meeting, 1999)^[5]^ .
   terms:
   - type: expression
     normative_status: preferred
@@ -47,11 +47,10 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: procédure opératoire primaire, m procédure de mesure de référence utilisée
-      pour obtenir un résultat de mesure sans relation avec un étalon d'une grandeur
-      de même nature
+  - content: "*procédure de mesure de référence* utilisée pour obtenir un
+        *résultat de mesure* sans relation avec un *étalon* d'une *grandeur* de même *nature*"
   examples:
-  - content: Le volume d'eau délivré par une pipette de 5 ml à 20 °C est mesuré en
+  - content: Le volume d'eau délivré par une pipette de stem:[50 "unitsml(ml)"] à stem:[20 "unitsml(degC)"] est mesuré en
       pesant l'eau délivrée par la pipette dans un bécher, en prenant la différence
       entre la masse du bécher contenant l'eau et la masse du bécher initialement
       vide, puis en corrigeant la différence de masse pour la température réelle de
@@ -59,9 +58,9 @@ data:
   id: 2.8-fra
   language_code: fra
   notes:
-  - content: Le Comité consultatif sur la quantité de matière – Métrologie en chimie
+  - content: Le Comité consultatif sur la quantité de matière - Métrologie en chimie
       (CCQM) utilise pour ce concept le terme « méthode de mesure primaire ».
-  - content: Le CCQM a donné (5e réunion, 1999)[5] les définitions de deux concepts
+  - content: Le CCQM a donné (5e réunion, 1999)^[5]^ les définitions de deux concepts
       subordonnés, que l'on pourrait dénommer « procédure de mesure primaire directe
       » et « procédure primaire de mesure de rapports ».
   terms:
@@ -70,6 +69,12 @@ data:
     designation: procédure de mesure primaire
     grammar_info:
     - gender: f
+  - type: expression
+    normative_status: preferred
+    designation: procédure opératoire primaire
+    grammar_info:
+    - gender: m
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: cb1e73da-87cc-4cf4-a76c-92ce0dd45715
+---

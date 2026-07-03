@@ -21,27 +21,27 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: quantity value consistent with the definition of a quantity
+  - content: '*quantity value* consistent with the definition of a *quantity*'
   examples: []
   id: 2.11-eng
   language_code: eng
   notes:
-  - content: In the Error Approach to describing measurement, a true quantity value
+  - content: In the Error Approach to describing *measurement*, a true quantity value
       is considered unique and, in practice, unknowable. The Uncertainty Approach
       is to recognize that, owing to the inherently incomplete amount of detail in
       the definition of a quantity, there is not a single true quantity value but
       rather a set of true quantity values consistent with the definition. However,
       this set of values is, in principle and in practice, unknowable. Other approaches
       dispense altogether with the concept of true quantity value and rely on the
-      concept of metrological compatibility of measurement results for assessing their
-      validity.
+      concept of *metrological compatibility of measurement results* for assessing
+      their validity.
   - content: In the special case of a fundamental constant, the quantity is considered
       to have a single true quantity value.
-  - content: When the definitional uncertainty associated with the measurand is considered
-      to be negligible compared to the other components of the measurement uncertainty,
-      the measurand may be considered to have an “essentially unique” true quantity
-      value. This is the approach taken by the GUM and associated documents, where
-      the word “true” is considered to be redundant.
+  - content: When the *definitional uncertainty* associated with the *measurand* is
+      considered to be negligible compared to the other components of the *measurement
+      uncertainty*, the measurand may be considered to have an "essentially unique"
+      true quantity value. This is the approach taken by the GUM and associated documents,
+      where the word "true" is considered to be redundant.
   terms:
   - type: expression
     normative_status: preferred
@@ -61,25 +61,24 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: valeur vraie d'une grandeur, f valeur d'une grandeur compatible avec
-      la définition de la grandeur
+  - content: "*valeur d'une grandeur* compatible avec la définition de la *grandeur*"
   examples: []
   id: 2.11-fra
   language_code: fra
   notes:
-  - content: Dans l'approche « erreur » de description des mesurages, la valeur vraie
-      est considérée comme unique et, en pratique, impossible à connaître. L'approche
+  - content: Dans l'approche « erreur » de description des *mesurages*, la valeur
+      vraie est considérée comme unique et, en pratique, impossible à connaître. L'approche
       « incertitude » consiste à reconnaître que, par suite de la quantité intrinsèquement
       incomplète de détails dans la définition d'une grandeur, il n'y a pas une seule
       valeur vraie mais plutôt un ensemble de valeurs vraies compatibles avec la définition.
       Toutefois, cet ensemble de valeurs est, en principe et en pratique, impossible
       à connaître. D'autres approches évitent complètement le concept de valeur vraie
-      et évaluent la validité des résultats de mesure à l'aide du concept de compatibilité
-      de mesure.
+      et évaluent la validité des *résultats de mesure* à l'aide du concept de *compatibilité
+      de mesure*.
   - content: Dans le cas particulier des constantes fondamentales, on considère la
       grandeur comme ayant une seule valeur vraie.
-  - content: Lorsque l'incertitude définitionnelle associée au mesurande est considérée
-      comme négligeable par rapport aux autres composantes de l'incertitude de mesure,
+  - content: Lorsque l'*incertitude définitionnelle* associée au *mesurande* est considérée
+      comme négligeable par rapport aux autres composantes de l'*incertitude de mesure*,
       on peut considérer que le mesurande a une valeur vraie par essence unique. C'est
       l'approche adoptée dans le GUM, où le mot « vraie » est considéré comme redondant.
   terms:
@@ -88,6 +87,12 @@ data:
     designation: valeur vraie
     grammar_info:
     - gender: f
+  - type: expression
+    normative_status: admitted
+    designation: valeur vraie d'une grandeur
+    grammar_info:
+    - gender: f
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 602351ca-56c6-477e-a0ed-204cf524c2b6
+---

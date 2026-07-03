@@ -21,15 +21,22 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'generic description of a logical organization of operations used in
-      a measurement Note Measurement methods may be qualified in various ways such
-      as:  substitution measurement method,  differential measurement method, and
-       null measurement method; or  direct measurement method, and  indirect measurement
-      method. See IEC 60050-300:2001.'
+  - content: generic description of a logical organization of operations used in
+      a *measurement*
   examples: []
   id: 2.5-eng
   language_code: eng
-  notes: []
+  notes:
+  - content: |
+      Measurement methods may be qualified in various ways such as:
+      
+      * substitution measurement method,
+      * differential measurement method, and
+      * null measurement method; or
+      * direct measurement method, and
+      * indirect measurement method.
+      
+      See IEC 60050-300:2001.
   terms:
   - type: expression
     normative_status: preferred
@@ -47,14 +54,21 @@ data:
     type: accepted
   definition:
   - content: 'description générique de l''organisation logique des opérations mises
-      en œuvre dans un mesurage Note Les méthodes de mesure peuvent être qualifiées
-      de diverses façons telles que:  méthode de mesure par substitution,  méthode
-      de mesure différentielle,  méthode de mesure par zéro ; ou  méthode de mesure
-      directe,  méthode de mesure indirecte. Voir la CEI 60050-300:2001.'
+      en œuvre dans un *mesurage*'
   examples: []
   id: 2.5-fra
   language_code: fra
-  notes: []
+  notes:
+  - content: |
+      Les méthodes de mesure peuvent être qualifiées de diverses façons telles que:
+      
+      * méthode de mesure par substitution,
+      * méthode de mesure différentielle,
+      * méthode de mesure par zéro ; ou
+      * méthode de mesure directe,
+      * méthode de mesure indirecte.
+      
+      Voir la CEI 60050-300:2001.
   terms:
   - type: expression
     normative_status: preferred
@@ -64,3 +78,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: b1879f0f-4062-46b0-acb5-abe62ba2fc60
+---

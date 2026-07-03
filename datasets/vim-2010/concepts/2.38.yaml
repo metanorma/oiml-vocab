@@ -17,13 +17,13 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: number larger than one by which a combined standard measurement uncertainty
-      is multiplied to obtain an expanded measurement uncertainty Note A coverage
-      factor is usually symbolized k (see also GUM, 2.3.6).
+  - content: number larger than one by which a *combined standard measurement uncertainty*
+      is multiplied to obtain an *expanded measurement uncertainty*
   examples: []
   id: 2.38-eng
   language_code: eng
-  notes: []
+  notes:
+  - content: A coverage factor is usually symbolized stem:[k] (see also GUM, 2.3.6).
   terms:
   - type: expression
     normative_status: preferred
@@ -37,13 +37,13 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: nombre supérieur à un par lequel on multiplie une incertitude-type composée
-      pour obtenir une incertitude élargie Note Un facteur d'élargissement est habituellement
-      noté par le symbole k (voir aussi le GUM, 2.3.6).
+  - content: nombre supérieur à un par lequel on multiplie une *incertitude-type composée*
+      pour obtenir une *incertitude élargie*
   examples: []
   id: 2.38-fra
   language_code: fra
-  notes: []
+  notes:
+  - content: Un facteur d'élargissement est habituellement noté par le symbole stem:[k] (voir aussi le GUM, 2.3.6).
   terms:
   - type: expression
     normative_status: preferred
@@ -53,3 +53,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 16b10ae3-82dc-4f34-8b56-7167d10eadfb
+---

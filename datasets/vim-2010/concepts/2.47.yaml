@@ -17,20 +17,21 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: metrological compatibility property of a set of measurement results for
-      a specified measurand, such that the absolute value of the difference of any
-      pair of measured quantity values from two different measurement results is smaller
-      than some chosen multiple of the standard measurement uncertainty of that difference
+  - content: property of a set of *measurement results*
+      for a specified *measurand*, such that the absolute value of the difference
+      of any pair of *measured quantity values* from two different measurement results
+      is smaller than some chosen multiple of the *standard measurement uncertainty*
+      of that difference
   examples: []
   id: 2.47-eng
   language_code: eng
   notes:
   - content: Metrological compatibility of measurement results replaces the traditional
-      concept of ‘staying within the error’, as it represents the criterion for deciding
+      concept of 'staying within the error', as it represents the criterion for deciding
       whether two measurement results refer to the same measurand or not. If in a
-      set of measurements of a measurand, thought to be constant, a measurement result
-      is not compatible with the others, either the measurement was not correct (e.g.
-      its measurement uncertainty was assessed as being too small) or the measured
+      set of *measurements* of a measurand, thought to be constant, a measurement
+      result is not compatible with the others, either the measurement was not correct
+      (e.g. its measurement uncertainty was assessed as being too small) or the measured
       quantity changed between measurements.
   - content: Correlation between the measurements influences metrological compatibility
       of measurement results. If the measurements are completely uncorrelated, the
@@ -41,6 +42,9 @@ data:
   - type: expression
     normative_status: preferred
     designation: metrological compatibility of measurement results
+  - type: expression
+    normative_status: admitted
+    designation: metrological compatibility
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 4fefb04a-af91-4dfb-9907-598990f1727a
@@ -50,25 +54,26 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: compatibilité métrologique, f propriété d'un ensemble de résultats de
-      mesure correspondant à un mesurande spécifié, telle que la valeur absolue de
-      la différence des valeurs mesurées pour toute paire de résultats de mesure est
-      plus petite qu'un certain multiple choisi de l'incertitude-type de cette différence
-  examples:
-  - content: ", l'incertitude de mesure évaluée est trop petite), soit la grandeur
-      mesurée a changé d'un mesurage à l'autre."
+  - content: propriété d'un ensemble de *résultats de
+      mesure* correspondant à un *mesurande* spécifié, telle que la valeur absolue
+      de la différence des *valeurs mesurées* pour toute paire de résultats de mesure
+      est plus petite qu'un certain multiple choisi de l'*incertitude-type* de cette
+      différence
+  examples: []
   id: 2.47-fra
   language_code: fra
   notes:
   - content: La compatibilité de mesure remplace le concept traditionnel « rester
       dans l'erreur », puisqu'elle exprime selon quel critère décider si deux résultats
-      de mesure se rapportent ou non au même mesurande. Si, dans un ensemble de mesurages
+      de mesure se rapportent ou non au même mesurande. Si, dans un ensemble de *mesurages*
       d'un mesurande que l'on pense rester constant, un résultat de mesure n'est pas
-      compatible avec les autres, soit le mesurage n'est pas correct (par
+      compatible avec les autres, soit le mesurage n'est pas correct (par exemple,
+      l'*incertitude de mesure* évaluée est trop petite), soit la *grandeur*
+      mesurée a changé d'un mesurage à l'autre.
   - content: La corrélation entre les mesurages influence la compatibilité de mesure.
-      Si les mesurages sont entièrement décorrélés, l’incertitude-type de leur différence
+      Si les mesurages sont entièrement décorrélés, l'incertitude-type de leur différence
       est égale à la moyenne quadratique de leurs incertitudes-types (racine carrée
-      de la somme des carrés), tandis qu’elle est plus petite pour une covariance
+      de la somme des carrés), tandis qu'elle est plus petite pour une covariance
       positive ou plus grande pour une covariance négative.
   terms:
   - type: expression
@@ -76,6 +81,12 @@ data:
     designation: compatibilité de mesure
     grammar_info:
     - gender: f
+  - type: expression
+    normative_status: admitted
+    designation: compatibilité métrologique
+    grammar_info:
+    - gender: f
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 261b7820-dffe-4d12-9e8a-8bdb7e303f42
+---

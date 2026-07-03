@@ -21,26 +21,31 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: conventional value of a quantity conventional value quantity value attributed
-      by agreement to a quantity for a given purpose
+  - content: "*quantity value* attributed by agreement to a *quantity* for a given purpose"
   examples:
-  - content: a) Standard acceleration of free fall (formerly called “standard acceleration
-      due to gravity”), gn = 9.806 65 m s2. b) Conventional quantity value of the
-      Josephson constant, KJ-90 = 483 597.9 GHz V −1 . c) Conventional quantity value
-      of a given mass standard, m = 100.003 47 g.
+  - content: Standard acceleration of free fall (formerly called "standard acceleration
+      due to gravity"), stem:[g_n = 9.80665 "unitsml(ms^-2)"].
+  - content: Conventional quantity value of the Josephson constant, stem:[K_{"J"-90} = 483597.9 "unitsml(GHz*V^-1)"].
+  - content: Conventional quantity value of a given mass standard, stem:[m = 100.00347 "unitsml(g)"].
   id: 2.12-eng
   language_code: eng
   notes:
-  - content: The term “conventional true quantity value” is sometimes used for this
+  - content: The term "conventional *true quantity value*" is sometimes used for this
       concept, but its use is discouraged.
-  - content: Sometimes a conventional quantity value is an estimate of a true quantity
-      value.
+  - content: Sometimes a conventional quantity value is an estimate of a *true quantity
+      value*.
   - content: A conventional quantity value is generally accepted as being associated
-      with a suitably small measurement uncertainty, which might be zero.
+      with a suitably small *measurement uncertainty*, which might be zero.
   terms:
   - type: expression
     normative_status: preferred
     designation: conventional quantity value
+  - type: expression
+    normative_status: admitted
+    designation: conventional value of a quantity
+  - type: expression
+    normative_status: admitted
+    designation: conventional value
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 7d154588-f86b-4ddd-939d-665c97797381
@@ -50,28 +55,33 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: valeur conventionnelle d'une grandeur, m valeur attribuée à une grandeur
-      par un accord pour un usage donné
+  - content: "*valeur* attribuée à une *grandeur* par un accord pour un usage donné"
   examples:
-  - content: a) Valeur conventionnelle de l'accélération due à la pesanteur ou accélération
-      normale de la pesanteur, gn = 9,806 65 m s2. b) Valeur conventionnelle de
-      la constante de Josephson, KJ-90 = 483 597,9 GHz V −1. c) Valeur conventionnelle
-      d’un étalon de masse donné, m = 100,003 47 g.
+  - content: Valeur conventionnelle de l'accélération due à la pesanteur ou accélération
+      normale de la pesanteur, stem:[g_n = 9.80665 "unitsml(m*s^-2)"].
+  - content: Valeur conventionnelle de la constante de Josephson, stem:[K_{"J"-90} = 483597.9 "unitsml(GHz*V^-1)"].
+  - content: Valeur conventionnelle d'un étalon de masse donné, stem:[m = 100.00347 "unitsml(g)"].
   id: 2.12-fra
   language_code: fra
   notes:
   - content: Le terme « valeur conventionnellement vraie » est quelquefois utilisé
       pour ce concept, mais son utilisation est déconseillée.
-  - content: Une valeur conventionnelle est quelquefois une estimation d'une valeur
-      vraie.
+  - content: Une valeur conventionnelle est quelquefois une estimation d'une *valeur
+      vraie*.
   - content: Une valeur conventionnelle est généralement considérée comme associée
-      à une incertitude de mesure convenablement petite, qui peut être nulle.
+      à une *incertitude de mesure* convenablement petite, qui peut être nulle.
   terms:
   - type: expression
     normative_status: preferred
     designation: valeur conventionnelle
     grammar_info:
     - gender: m
+  - type: expression
+    normative_status: admitted
+    designation: valeur conventionnelle d'une grandeur
+    grammar_info:
+    - gender: m
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: b85f4262-65ef-48eb-984a-d394d9e942b0
+---

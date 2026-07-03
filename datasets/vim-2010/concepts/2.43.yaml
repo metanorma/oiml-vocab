@@ -17,18 +17,20 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: metrological traceability to a unit metrological traceability where the
-      reference is the definition of a measurement unit through its practical realization
-      Note The expression “traceability to the SI” means metrological traceability
-      to a measurement unit of the International System of Units.
+  - content: '*metrological traceability* where the reference is the definition of a *measurement unit* through its practical realization'
   examples: []
   id: 2.43-eng
   language_code: eng
-  notes: []
+  notes:
+  - content: The expression "traceability to the *SI*" means metrological traceability
+      to a measurement unit of the *International System of Units*.
   terms:
   - type: expression
     normative_status: preferred
     designation: metrological traceability to a measurement unit
+  - type: expression
+    normative_status: admitted
+    designation: metrological traceability to a unit
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 9c56b311-c2e0-4096-8d2f-014c2cb598c3
@@ -38,20 +40,25 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: traçabilité métrologique à une unité, f traçabilité métrologique où la
-      référence est la définition d'une unité de mesure sous la forme de sa réalisation
-      pratique Note L'expression « traçabilité au SI » signifie la traçabilité métrologique
-      à une unité de mesure du Système international d'unités.
+  - content: '*traçabilité métrologique* où la référence est la définition d''une *unité de mesure*
+      sous la forme de sa réalisation pratique'
   examples: []
   id: 2.43-fra
   language_code: fra
-  notes: []
+  notes:
+  - content: L'expression « traçabilité au *SI* » signifie la traçabilité métrologique à une unité de mesure du *Système international d'unités*.
   terms:
   - type: expression
     normative_status: preferred
     designation: traçabilité métrologique à une unité de mesure
     grammar_info:
     - gender: f
+  - type: expression
+    normative_status: admitted
+    designation: traçabilité métrologique à une unité
+    grammar_info:
+    - gender: f
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 66c814d9-164b-4604-bc07-bb3171f59b41
+---
