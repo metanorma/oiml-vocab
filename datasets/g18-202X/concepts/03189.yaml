@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'part of all software modules of measuring instrument, electronic device, or sub-assembly that is legally relevant [OIML D 31, 3.1.31]'
+  - content: 'part of all software modules of measuring instrument, electronic device, or sub-assembly that is legally relevant'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D031:2008'
+          id: '3.1.31'
   id: 03189-eng
   language_code: eng
   notes:

@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'operation that, under specified conditions, in a first step, establishes a relation between the quantity values with measurement uncertainties provided by measurement standards and corresponding indications with associated measurement uncertainties and, in a second step, uses this information to establish a relation for obtaining a measurement result from an indication [OIML V2-200:2012, 2.39]'
+  - content: 'operation that, under specified conditions, in a first step, establishes a relation between the quantity values with measurement uncertainties provided by measurement standards and corresponding indications with associated measurement uncertainties and, in a second step, uses this information to establish a relation for obtaining a measurement result from an indication'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.39'
   id: 02818-eng
   language_code: eng
   sources: []
