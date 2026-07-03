@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'software/hardware/data or part of the software/hardware/data of a measuring instrument which interferes with properties regulated under legal metrology, e.g. the accuracy of the measurement or the correct functioning of the measuring instrument [OIML D31:2008, 3.1.29]'
+  - content: 'software/hardware/data or part of the software/hardware/data of a measuring instrument which interferes with properties regulated under legal metrology, e.g. the accuracy of the measurement or the correct functioning of the measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D031:2008'
+          id: '3.1.29'
   id: 02808-eng
   language_code: eng
   sources: []

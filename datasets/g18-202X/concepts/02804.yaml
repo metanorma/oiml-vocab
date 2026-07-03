@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'difference between the error of indication (during or after exposure to a disturbance) and the mean intrinsic error of a measuring instrument with reference to a certified measurement standard [OIML D 11:2013, 3.9]'
+  - content: 'difference between the error of indication (during or after exposure to a disturbance) and the mean intrinsic error of a measuring instrument with reference to a certified measurement standard'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.9'
   id: 02804-eng
   language_code: eng
   notes:
