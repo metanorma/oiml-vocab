@@ -23,7 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'operating condition that must be fulfilled during measurement in order that a measuring instrument or measuring system perform as designed [OIML V 2-200:2012, 4.9] [OIML V 1:2013, 0.08]'
+  - content: 'operating condition that must be fulfilled during measurement in order that a measuring instrument or measuring system perform as designed'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '4.9'
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '0.08'
   id: 03416-eng
   language_code: eng
   sources: []
