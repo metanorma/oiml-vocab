@@ -23,8 +23,8 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "= – …) T.3.1.6 ta maximum capacity of the additive tare device or the
-      subtractive re device"
+  - content: maximum capacity of the additive tare device or the subtractive tare
+      device
   examples: []
   id: '00945-eng'
   notes: []
@@ -34,11 +34,21 @@ data:
         source: OIML R076-1:2006
       locality:
         type: clause
-        reference_from: T
+        reference_from: T.3.1.6
     type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'maximum tare effect, T+, T–'
+    designation: maximum tare effect
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[T_{+}]
+    international: true
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[T_{-}]
+    international: true
+  language_code: eng
+  entry_status: valid
 date_accepted: '2024-01-01T00:00:00+00:00'
 id: e0f3f076-e41e-52f5-a489-0759aca5c149

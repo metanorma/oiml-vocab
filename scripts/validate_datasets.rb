@@ -66,7 +66,7 @@ class DatasetValidator
       schema_check(path, managed, localized)
       collect_identifiers(path, managed, identifiers)
       collect_uuids(path, managed, localized)
-      sources_per_file[path] = collect_sources(localized)
+      sources_per_file[path] = collect_sources(managed, localized)
       related_per_file[path] = collect_related(managed)
     end
 
@@ -190,15 +190,17 @@ class DatasetValidator
     end
   end
 
-  def collect_sources(localized)
+  def collect_sources(managed, localized)
     sources = Set.new
-    localized.each do |loc|
-      next unless loc.is_a?(Hash) && loc["data"].is_a?(Hash)
-      (loc["data"]["sources"] || []).each do |s|
+    collect_from = lambda do |data|
+      next unless data.is_a?(Hash)
+      (data["sources"] || []).each do |s|
         src = s.dig("origin", "ref", "source")
         sources << src if src
       end
     end
+    collect_from.call(managed.is_a?(Hash) ? managed["data"] : nil)
+    localized.each { |loc| collect_from.call(loc.is_a?(Hash) ? loc["data"] : nil) }
     sources
   end
 
