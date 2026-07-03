@@ -21,13 +21,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: quantity for which all the exponents of the factors corresponding to
-      the base quantities in its quantity dimension are zero
-  examples:
-  - content: Plane angle, solid angle, refractive index, relative permeability, mass
-      fraction, friction factor, Mach number.
-  - content: Number of turns in a coil, number of molecules in a given sample, degeneracy
-      of the energy levels of a quantum system.
+  - content: "*quantity* for which all the exponents of the factors corresponding
+      to the *base quantities* in its *quantity dimension* are zero"
   id: 1.8-eng
   language_code: eng
   notes:
@@ -37,11 +32,17 @@ data:
       of dimension one" reflects the convention in which the symbolic representation
       of the dimension for such quantities is the symbol 1 (see ISO 31-0:1992, subclause
       2.2.6).
-  - content: The measurement units and values of quantities of dimension one are numbers,
-      but such quantities convey more information than a number.
+  - content: The *measurement units* and *values* of quantities of dimension one are
+      numbers, but such quantities convey more information than a number.
   - content: Some quantities of dimension one are defined as the ratios of two quantities
-      of the same kind.
+      of the same *kind*.
+    examples:
+    - content: Plane angle, solid angle, refractive index, relative permeability, mass
+        fraction, friction factor, Mach number.
   - content: Numbers of entities are quantities of dimension one.
+    examples:
+    - content: Number of turns in a coil, number of molecules in a given sample, degeneracy
+        of the energy levels of a quantum system.
   terms:
   - type: expression
     normative_status: preferred
@@ -58,8 +59,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: grandeur de dimension un, f grandeur pour laquelle tous les exposants
-      des facteurs correspondant aux grandeur de base dans sa dimension sont nuls
+  - content: "*grandeur* pour laquelle tous les exposants des facteurs correspondant
+      aux *grandeur de base* dans sa *dimension* sont nuls"
   examples:
   - content: Angle plan, angle solide, indice de réfraction, perméabilité relative,
       fraction massique, facteur de frottement, nombre de Mach.
@@ -74,17 +75,29 @@ data:
       un » reflète la convention selon laquelle la représentation symbolique de la
       dimension de telles grandeurs est le symbole 1 (voir l'ISO 31-0:1992, paragraphe
       2.2.6).
-  - content: Les unités de mesure et les valeurs des grandeurs sans dimension sont
-      des nombres, mais ces grandeurs portent plus d'information qu'un nombre.
+  - content: Les *unités de mesure* et les *valeurs* des grandeurs sans dimension
+      sont des nombres, mais ces grandeurs portent plus d'information qu'un nombre.
   - content: Certaines grandeurs sans dimension sont définies comme des rapports de
-      deux grandeurs de même nature.
+      deux grandeurs de même *nature*.
+    examples:
+    - content: Angle plan, angle solide, indice de réfraction, perméabilité relative,
+        fraction massique, facteur de frottement, nombre de Mach.
   - content: Les nombres d'entités sont des grandeurs sans dimension.
+    examples:
+    - content: Nombre de tours dans une bobine, nombre de molécules dans un spécimen
+        donné, dégénérescence des niveaux d'énergie d'un système quantique.
   terms:
   - type: expression
     normative_status: preferred
     designation: grandeur sans dimension
     grammar_info:
     - gender: f
+  - type: expression
+    normative_status: admitted
+    designation: grandeur de dimension un
+    grammar_info:
+    - gender: f
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 7d0d3288-741e-40b8-9c56-80c33b7b5e7b
+---

@@ -21,21 +21,22 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: measurement unit that is adopted by convention for a base quantity
-  examples:
-  - content: In the SI, the metre is the base unit of length. In the CGS systems the
-      centimetre is the base unit of length.
-  - content: Rainfall, when defined as areic volume (volume per area), has the metre
-      as a coherent derived unit in the SI.
+  - content: "*measurement unit* that is adopted by convention for a *base quantity*"
   id: 1.10-eng
   language_code: eng
   notes:
-  - content: In each coherent system of units there is only one base unit for each
-      base quantity.
-  - content: A base unit may also serve for a derived quantity of the same quantity
-      dimension.
+  - content: In each *coherent system of units* there is only one base unit for
+      each base quantity.
+    examples:
+    - content: In the *SI*, the metre is the base unit of length. In the CGS systems
+        the centimetre is the base unit of length.
+  - content: A base unit may also serve for a *derived quantity* of the same *quantity
+      dimension*.
+    examples:
+    - content: Rainfall, when defined as areic volume (volume per area), has the metre
+        as a *coherent derived unit* in the SI.
   - content: For number of entities, the number one, symbol 1, can be regarded as
-      a base unit in any system of units.
+      a base unit in any *system of units*.
   terms:
   - type: expression
     normative_status: preferred
@@ -49,21 +50,22 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: unité de mesure adoptée par convention pour une grandeur de base
-  examples:
-  - content: Dans le SI, le mètre est l'unité de base de longueur. Dans les systèmes
-      CGS, le centimètre est l'unité de base de longueur.
-  - content: La hauteur de pluie, définie comme un volume surfacique (volume par aire)
-      a le mètre comme unité dérivée cohérente dans le SI.
+  - content: "*unité de mesure* adoptée par convention pour une *grandeur de base*"
   id: 1.10-fra
   language_code: fra
   notes:
-  - content: Dans chaque système cohérent d'unités, il y a une seule unité de base
+  - content: Dans chaque *système cohérent d'unités*, il y a une seule unité de base
       pour chaque grandeur de base.
-  - content: Une unité de base peut aussi servir pour une grandeur dérivée de même
-      dimension.
-  - content: Pour un nombre d’entités, on peut considérer le nombre un, de symbole
-      1, comme une unité de base dans tout système d’unités.
+    examples:
+    - content: Dans le *SI*, le mètre est l'unité de base de longueur. Dans les systèmes
+        CGS, le centimètre est l'unité de base de longueur.
+  - content: Une unité de base peut aussi servir pour une *grandeur dérivée* de même
+      *dimension*.
+    examples:
+    - content: La hauteur de pluie, définie comme un volume surfacique (volume par aire)
+        a le mètre comme *unité dérivée cohérente* dans le SI.
+  - content: Pour un nombre d'entités, on peut considérer le nombre un, de symbole
+      1, comme une unité de base dans tout *système d'unités*.
   terms:
   - type: expression
     normative_status: preferred
@@ -73,3 +75,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 9ee96d6b-a25e-4dd7-aa92-77a0958fc8c3
+---

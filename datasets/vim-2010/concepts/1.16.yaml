@@ -7,44 +7,80 @@ data:
   - concept_id: section-1
     source: urn:oiml:pub:v:2:2010
     ref_type: section
-status: valid
-id: b71b935e-4f9d-4805-ab31-db85d19dd2d3
-schema_version: '3'
-related:
-- type: supersedes
-  ref:
-    source: urn:oiml:pub:v:2:1993
-    id: '1.12'
+  status: valid
+  id: b71b935e-4f9d-4805-ab31-db85d19dd2d3
+  schema_version: '3'
+  related:
+  - type: supersedes
+    ref:
+      source: urn:oiml:pub:v:2:1993
+      id: '1.12'
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: system of units based on the International System of Quantities, their
+  - content: '*system of units* based on the *International System of Quantities*, their
       names and symbols, including a series of prefixes and their names and symbols,
       together with rules for their use, adopted by the General Conference on Weights
-      and Measures (CGPM)
+      and Measures (CGPM)'
   examples: []
   id: 1.16-eng
   language_code: eng
   notes:
-  - content: The SI is founded on the seven base quantities of the ISQ and the names
-      and symbols of the corresponding base units that are contained in the following
-      table. Base quantity Name length mass time electric current thermodynamic temperature
-      amount of substance luminous intensity Base unit Name Symbol metre m kilogram
-      kg second s ampere A kelvin K mole mol candela cd
-  - content: The base units and the coherent derived units of the SI form a coherent
+  - content: |
+        The SI is founded on the seven *base quantities* of the *ISQ* and the names
+        and symbols of the corresponding *base units* that are contained in the following
+        table.
+
+        [cols="3", options="header,unnumbered",headerrows=2]
+        |===
+        | Base quantity 2+| Base unit
+        | Name                      | Name     | Symbol
+        | length                    | metre    | stem:["unitsml(m)"]
+        | mass                      | kilogram | stem:["unitsml(kg)"]
+        | time                      | second   | stem:["unitsml(s)"]
+        | electric current          | ampere   | stem:["unitsml(A)"]
+        | thermodynamic temperature | kelvin   | stem:["unitsml(K)"]
+        | amount of substance       | mole     | stem:["unitsml(mol)"]
+        | luminous intensity        | candela  | stem:["unitsml(cd)"]
+        |===
+
+  - content: The base units and the *coherent derived units* of the SI form a coherent
       set, designated the "set of coherent SI units".
   - content: For a full description and explanation of the International System of
       Units, see the current edition of the SI brochure published by the Bureau International
       des Poids et Mesures (BIPM) and available on the BIPM web site.
-  - content: In quantity calculus, the quantity ‘number of entities’ is often considered
+  - content: In *quantity calculus*, the quantity 'number of entities' is often considered
       to be a base quantity, with the base unit one, symbol 1.
-  - content: 'The SI prefixes for multiples of units and submultiples of units are:
-      Factor Prefix Name yotta zetta exa peta tera giga mega kilo hecto deca Symbol
-      Y Z E P T G M k h da 10–1 10–2 10–3 10–6 10–9 10–12 10–15 10–18 10–21 10–24
-      deci centi milli micro nano pico femto atto zepto yocto d c m μ n p f a z y'
+  - content: |
+        The SI prefixes for *multiples of units* and *submultiples of units* are:
+
+        [cols="3", options="header,unnumbered",headerrows=2]
+        |===
+        .2+| Factor 2+| Prefix | Name | Symbol
+        | stem:[10^{24}]  | yotta | stem:["unitsml(Y-)"]
+        | stem:[10^{21}]  | zetta | stem:["unitsml(Z-)"]
+        | stem:[10^{18}]  | exa   | stem:["unitsml(E-)"]
+        | stem:[10^{15}]  | peta  | stem:["unitsml(P-)"]
+        | stem:[10^{12}]  | tera  | stem:["unitsml(T-)"]
+        | stem:[10^{9}]   | giga  | stem:["unitsml(G-)"]
+        | stem:[10^{6}]   | mega  | stem:["unitsml(M-)"]
+        | stem:[10^{3}]   | kilo  | stem:["unitsml(k-)"]
+        | stem:[10^{2}]   | hecto | stem:["unitsml(h-)"]
+        | stem:[10^{1}]   | deca  | stem:["unitsml(da-)"]
+        | stem:[10^{-1}]  | deci  | stem:["unitsml(d-)"]
+        | stem:[10^{-2}]  | centi | stem:["unitsml(c-)"]
+        | stem:[10^{-3}]  | milli | stem:["unitsml(m-)"]
+        | stem:[10^{-6}]  | micro | stem:["unitsml(u-)"]
+        | stem:[10^{-9}]  | nano  | stem:["unitsml(n-)"]
+        | stem:[10^{-12}] | pico  | stem:["unitsml(p-)"]
+        | stem:[10^{-15}] | femto | stem:["unitsml(f-)"]
+        | stem:[10^{-18}] | atto  | stem:["unitsml(a-)"]
+        | stem:[10^{-21}] | zepto | stem:["unitsml(z-)"]
+        | stem:[10^{-24}] | yocto | stem:["unitsml(y-)"]
+        |===
   terms:
   - type: expression
     normative_status: preferred
@@ -52,41 +88,74 @@ data:
   - type: expression
     normative_status: admitted
     designation: SI
-date_accepted: '2010-01-01T00:00:00+00:00'
-entry_status: valid
-id: 3a90a991-fafc-4fe8-83c0-e7a0af805fd8
+  date_accepted: '2010-01-01T00:00:00+00:00'
+  entry_status: valid
+  id: 3a90a991-fafc-4fe8-83c0-e7a0af805fd8
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: système d'unités fondé sur le Système international de grandeurs, comportant
+  - content: "*système d'unités* fondé sur le *Système international de grandeurs*, comportant
       les noms et symboles des unités, une série de préfixes avec leurs noms et symboles,
       ainsi que des règles pour leur emploi, adopté par la Conférence générale des
-      poids et mesures (CGPM)
+      poids et mesures (CGPM)"
   examples: []
   id: 1.16-fra
   language_code: fra
   notes:
-  - content: Le SI est fondé sur les sept grandeurs de base de l’ISQ. Les noms et
-      les symboles des unités de base sont donnés dans le tableau suivant. Grandeur
-      de base Nom longueur masse temps courant électrique température thermodynamique
-      quantité de matière intensité lumineuse Unité de base Nom Symbole mètre m kilogramme
-      kg seconde s ampère A kelvin K mole mol candela cd
-  - content: Les unités de base et les unités dérivées cohérentes du SI forment un
+  - content: Le SI est fondé sur les sept *grandeurs de base* de l'ISQ. Les noms et
+      les symboles des unités de base sont donnés dans le tableau suivant.
+
+      [cols="3", options="header,unnumbered",headerrows=2]
+      |===
+      | Grandeur de base 2+| Unité de base
+      | Nom                         | Nom        | Symbole
+      | longueur                    | mètre      | stem:["unitsml(m)"]
+      | masse                       | kilogramme | stem:["unitsml(kg)"]
+      | temps                       | seconde    | stem:["unitsml(s)"]
+      | courant électrique          | ampère     | stem:["unitsml(A)"]
+      | température thermodynamique | kelvin     | stem:["unitsml(K)"]
+      | quantité de matière         | mole       | stem:["unitsml(mol)"]
+      | intensité lumineuse         | candela    | stem:["unitsml(cd)"]
+      |===
+
+  - content: Les unités de base et les *unités dérivées cohérentes* du SI forment un
       ensemble cohérent, appelé « ensemble des unités SI cohérentes ».
   - content: Pour une description et une explication complètes du Système international
-      d’unités, voir la dernière édition de la brochure du SI publiée par le Bureau
+      d'unités, voir la dernière édition de la brochure du SI publiée par le Bureau
       international des poids et mesures (BIPM) et disponible sur le site internet
       du BIPM.
-  - content: En algèbre des grandeurs, la grandeur « nombre d’entités » est souvent
-      considérée comme une grandeur de base, avec l’unité de base un, symbole 1.
-  - content: 'Les préfixes SI pour les multiples et sous-multiples des unités sont
-      : Facteur Nom yotta zetta exa péta téra giga méga kilo hecto déca 10–1 10–2
-      10–3 10–6 10–9 10–12 10–15 10–18 10–21 10–24 déci centi milli micro nano pico
-      femto atto zepto yocto Préfixe Symbole Y Z E P T G M k h da d c m μ n p f a
-      z y'
+  - content: En *algèbre des grandeurs*, la grandeur « nombre d'entités » est souvent
+      considérée comme une grandeur de base, avec l'unité de base un, symbole 1.
+  - content: |
+        Les préfixes SI pour les multiples et sous-multiples des unités sont :
+
+        [cols="3", options="header,unnumbered",headerrows=2]
+        |===
+        | Facteur 2+| Préfixe | Nom | Symbole
+        | stem:[10^{24}]  | yotta | stem:["unitsml(Y-)"]
+        | stem:[10^{21}]  | zetta | stem:["unitsml(Z-)"]
+        | stem:[10^{18}]  | exa   | stem:["unitsml(E-)"]
+        | stem:[10^{15}]  | péta  | stem:["unitsml(P-)"]
+        | stem:[10^{12}]  | téra  | stem:["unitsml(T-)"]
+        | stem:[10^{9}]   | giga  | stem:["unitsml(G-)"]
+        | stem:[10^{6}]   | méga  | stem:["unitsml(M-)"]
+        | stem:[10^{3}]   | kilo  | stem:["unitsml(k-)"]
+        | stem:[10^{2}]   | hecto | stem:["unitsml(h-)"]
+        | stem:[10^{1}]   | déca  | stem:["unitsml(da-)"]
+        | stem:[10^{-1}]  | déci  | stem:["unitsml(d-)"]
+        | stem:[10^{-2}]  | centi | stem:["unitsml(c-)"]
+        | stem:[10^{-3}]  | milli | stem:["unitsml(m-)"]
+        | stem:[10^{-6}]  | micro | stem:["unitsml(u-)"]
+        | stem:[10^{-9}]  | nano  | stem:["unitsml(n-)"]
+        | stem:[10^{-12}] | pico  | stem:["unitsml(p-)"]
+        | stem:[10^{-15}] | femto | stem:["unitsml(f-)"]
+        | stem:[10^{-18}] | atto  | stem:["unitsml(a-)"]
+        | stem:[10^{-21}] | zepto | stem:["unitsml(z-)"]
+        | stem:[10^{-24}] | yocto | stem:["unitsml(y-)"]
+        |===
   terms:
   - type: expression
     normative_status: preferred
@@ -101,3 +170,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: d2911011-919a-4be0-8029-f997ae43a210
+---

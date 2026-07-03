@@ -21,16 +21,24 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: expression of the dependence of a quantity on the base quantities of
-      a system of quantities as a product of powers of factors corresponding to the
-      base quantities, omitting any numerical factor
+  - content: expression of the dependence of a *quantity* on the *base quantities*
+      of a *system of quantities* as a product of powers of factors corresponding
+      to the base quantities, omitting any numerical factor
   examples:
-  - content: a) In the ISQ, the quantity dimension of force is denoted by dim F =
-      LMT–2. b) c) In the same system of quantities, dim ϱB = ML–3 is the quantity
-      dimension of mass concentration of component B, and ML–3 is also the quantity
-      dimension of mass density, ϱ, (volumic mass). The period T of a pendulum of
-      length l at a place with the local acceleration of free fall g is T 2π l g
-      or T  C(g) l where C(g)  2π g Hence, dim C(g) = L–1/2T.
+  - content: In the *ISQ*, the quantity dimension of force is denoted by stem:[dim F = "LMT"^-2].
+  - content: In the same system of quantities, stem:[dim rho_B = "ML"^-3] is the quantity
+      dimension of mass concentration of component stem:[B], and stem:["ML"^-3] is also the
+      quantity dimension of mass density, stem:[rho], (volumic mass).
+  - content: |
+        The period stem:[T] of a pendulum of length stem:[l] at a place with the local
+        acceleration of free fall stem:[g] is
+
+        [stem%unnumbered]
+        ++++
+        T = 2pi sqrt(l/g) quad "or" quad T = C(g) sqrt(l) quad "where" quad C(g) = sqrt(2pi/g)
+        ++++
+
+        Hence, stem:[dim C(g) = "L"^(-1//2) "T"].
   id: 1.7-eng
   language_code: eng
   notes:
@@ -38,20 +46,33 @@ data:
       is the dimension of a base quantity.
   - content: The conventional symbolic representation of the dimension of a base quantity
       is a single upper case letter in roman (upright) sans-serif type. The conventional
-      symbolic representation of the dimension of a derived quantity is the product
+      symbolic representation of the dimension of a *derived quantity* is the product
       of powers of the dimensions of the base quantities according to the definition
-      of the derived quantity. The dimension of a quantity Q is denoted by dim Q.
+      of the derived quantity. The dimension of a quantity stem:[Q] is denoted by stem:[dim Q].
   - content: In deriving the dimension of a quantity, no account is taken of its scalar,
       vector, or tensor character.
-  - content: In a given system of quantities, – quantities of the same kind have the
-      same quantity dimension, – quantities of different quantity dimensions are always
-      of different kinds, and – quantities having the same quantity dimension are
-      not necessarily of the same kind.
-  - content: 'Symbols representing the dimensions of the base quantities in the ISQ:
-      Symbol for dimension Base quantity length mass time electric current thermodynamic
-      temperature amount of substance luminous intensity L M T I Θ N J Thus, the dimension
-      of a quantity Q is denoted by dim Q = LαMβTγIδΘεNζJη where the exponents, named
-      dimensional exponents, are positive, negative, or zero.'
+  - content: |
+        In a given system of quantities,
+        - quantities of the same *kind* have the same quantity dimension,
+        - quantities of different quantity dimensions are always of different kinds, and
+        - quantities having the same quantity dimension are not necessarily of the same kind.
+  - content: |
+        Symbols representing the dimensions of the base quantities in the ISQ:
+
+        [cols="1,1", options="header,unnumbered"]
+        |===
+        | Base quantity             | Symbol for dimension
+
+        | length                    | stem:[L]
+        | mass                      | stem:[M]
+        | time                      | stem:[T]
+        | electric current          | stem:[I]
+        | thermodynamic temperature | stem:[Theta]
+        | amount of substance       | stem:[N]
+        | luminous intensity        | stem:[J]
+        |===
+
+        Thus, the dimension of a quantity stem:[Q] is denoted by stem:[dim Q = "L"^{alpha} "M"^{beta} "T"^{gamma} "I"^{delta} "Theta"^{epsilon} "N"^{zeta} "J"^{eta}] where the exponents, named dimensional exponents, are positive, negative, or zero.
   terms:
   - type: expression
     normative_status: preferred
@@ -62,26 +83,33 @@ data:
   - type: expression
     normative_status: admitted
     designation: dimension
-date_accepted: '2010-01-01T00:00:00+00:00'
-entry_status: valid
-id: '080a3423-da75-4520-86ee-ffa087f07ccf'
+  date_accepted: '2010-01-01T00:00:00+00:00'
+  entry_status: valid
+  id: '080a3423-da75-4520-86ee-ffa087f07ccf'
 ---
 data:
   dates:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: dimension d'une grandeur, f expression de la dépendance d'une grandeur
-      par rapport aux grandeurs de base d'un système de grandeurs sous la forme d'un
-      produit de puissances de facteurs correspondant aux grandeurs de base, en omettant
-      tout facteur numérique
+  - content: expression de la dépendance d'une *grandeur* par rapport aux *grandeurs
+      de base* d'un *système de grandeurs* sous la forme d'un produit de puissances
+      de facteurs correspondant aux grandeurs de base, en omettant tout facteur numérique
   examples:
-  - content: a) Dans l'ISQ, la dimension de la force est notée dim F = LMT–2. b) Dans
-      le même système de grandeurs, dim ρB = ML–3 est la dimension de la concentration
-      en masse du constituant B et ML–3 est aussi la dimension de la masse volumique
-      ρ. c) La période T d'un pendule de longueur l en un endroit où l'accélération
-      locale de la pesanteur vaut g est T  2 l g ou T  C(g) l où C( g )  2 g
-      Par conséquent, dim C(g) = L–1/2T.
+  - content: Dans l'*ISQ*, la dimension de la force est notée stem:[dim F = "LMT"^-2].
+  - content: Dans le même système de grandeurs, stem:[dim rho_B = "ML"^-3] est la dimension
+        de la concentration en masse du constituant B et stem:["ML"^-3] est aussi la dimension
+        de la masse volumique stem:[rho].
+  - content: |
+        La période stem:[T] d'un pendule de longueur stem:[l] en un endroit où l'accélération
+        locale de la pesanteur vaut stem:[g] est
+
+        [stem%unnumbered]
+        ++++
+        T = 2pi sqrt(l/g) quad "ou" quad T = C(g) sqrt(l) quad "où" quad C(g) = {2pi}/sqrt(g)
+        ++++
+
+        Par conséquent, stem:[dim C(g) = L^{-1//2}T].
   id: 1.7-fra
   language_code: fra
   notes:
@@ -89,28 +117,49 @@ data:
       facteur exprime la dimension d'une grandeur de base.
   - content: Par convention, la représentation symbolique de la dimension d'une grandeur
       de base est une lettre majuscule unique en caractère romain (droit) sans empattement.
-      Par convention, la représentation symbolique de la dimension d'une grandeur
-      dérivée est le produit de puissances des dimensions des grandeurs de base conformément
-      à la définition de la grandeur dérivée. La dimension de la grandeur Q est notée
-      dim Q.
+      Par convention, la représentation symbolique de la dimension d'une *grandeur
+      dérivée* est le produit de puissances des dimensions des grandeurs de base conformément
+      à la définition de la grandeur dérivée. La dimension de la grandeur stem:[Q] est notée
+      stem:[dim Q].
   - content: Pour établir la dimension d'une grandeur, on ne tient pas compte du caractère
       scalaire, vectoriel ou tensoriel.
-  - content: Dans un système de grandeurs donné, – les grandeurs de même nature ont
-      la même dimension, – des grandeurs de dimensions différentes sont toujours de
-      nature différente, – des grandeurs ayant la même dimension ne sont pas nécessairement
-      de même nature.
-  - content: 'Dans l''ISQ, les symboles correspondant aux dimensions des grandeurs
-      de base sont: Grandeur de base longueur masse temps courant électrique température
-      thermodynamique quantité de matière intensité lumineuse Symbole de la dimension
-      L M T I Θ N J La dimension d''une grandeur Q est donc notée dim Q = LαMβTγIδΘεNεJζ
-      où les exposants, appelés exposants dimensionnels, sont positifs, négatifs ou
-      nuls.'
+  - content: |
+        Dans un système de grandeurs donné,
+
+        - les grandeurs de même *nature* ont la même dimension,
+        - des grandeurs de dimensions différentes sont toujours de nature différente,
+        - des grandeurs ayant la même dimension ne sont pas nécessairement de même nature.
+  - content: |
+        Dans l'ISQ, les symboles correspondant aux dimensions des grandeurs de base sont:
+
+        [cols="1,1", options="header,unnumbered"]
+        |===
+        | Grandeur de base            | Symbole de la dimension
+
+        | longueur                    | stem:[L]
+        | masse                       | stem:[M]
+        | temps                       | stem:[T]
+        | courant électrique          | stem:[I]
+        | température thermodynamique | stem:[Theta]
+        | quantité de matière         | stem:[N]
+        | intensité lumineuse         | stem:[J]
+        |===
+
+        La dimension d'une grandeur stem:[Q] est donc notée
+        stem:[dim Q = L^{alpha} M^{beta} T^{gamma} I^{delta} Theta^{epsilon} N^{epsilon} J^{zeta}]
+        où les exposants, appelés exposants dimensionnels, sont positifs, négatifs ou nuls.
   terms:
   - type: expression
     normative_status: preferred
     designation: dimension
     grammar_info:
     - gender: f
-date_accepted: '2010-01-01T00:00:00+00:00'
-entry_status: valid
-id: 2eb0c016-1c36-4bff-8611-fef013d2828b
+  - type: expression
+    normative_status: admitted
+    designation: dimension d'une grandeur
+    grammar_info:
+    - gender: f
+  date_accepted: '2010-01-01T00:00:00+00:00'
+  entry_status: valid
+  id: 2eb0c016-1c36-4bff-8611-fef013d2828b
+---
