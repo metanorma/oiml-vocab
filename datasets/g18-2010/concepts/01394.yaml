@@ -22,8 +22,15 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '[V extreme values of an error permitted by specifications, regulations,
-      etc. for a given instrument IM: 1993, 5.21]'
+  - content: extreme values of an error permitted by specifications, regulations, etc.
+      for a given instrument
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:1993'
+          id: '5.21'
   examples: []
   id: 01394-eng
   notes: []
@@ -38,7 +45,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: maximum permissible error, mpe
+    designation: maximum permissible error
+  - type: abbreviation
+    normative_status: preferred
+    designation: mpe
   language_code: eng
   entry_status: valid
 date_accepted: '2024-01-01T00:00:00+00:00'

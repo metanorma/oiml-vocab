@@ -28,10 +28,17 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '[b extreme value of an error permitted by specifications or regulations
+  - content: extreme value of an error permitted by specifications or regulations
       between the indication of a weighing instrument and the corresponding true value,
       as determined by reference standard masses, at zero or no load, in the reference
-      position ased on VIM:1993, 5.21]'
+      position
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:1993'
+          id: '5.21'
   examples: []
   id: 00801-eng
   notes: []
@@ -46,7 +53,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: maximum permissible error (MPE)
+    designation: maximum permissible error
+  - type: abbreviation
+    normative_status: preferred
+    designation: MPE
   language_code: eng
   entry_status: valid
 date_accepted: '2024-01-01T00:00:00+00:00'
