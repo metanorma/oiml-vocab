@@ -23,7 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'part of an electronic device employing electronic components and having a recognizable function of its own Examples: A/D converter, display. [OIML D 11: 2004, 3.3]'
+  - content: 'part of an electronic device employing electronic components and having a recognizable function of its own'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.3'
+  examples:
+  - content: A/D converter, display.
   id: 01329-eng
   language_code: eng
   sources: []

@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device employing electronic sub-assemblies and performing a specific function. Electronic devices are usually manufactured as separate units and are capable of being tested independently [OIML D 11: 2004, 3.2]'
+  - content: 'device employing electronic sub-assemblies and performing a specific function. Electronic devices are usually manufactured as separate units and are capable of being tested independently'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.2'
   id: 01328-eng
   language_code: eng
   notes:

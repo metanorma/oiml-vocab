@@ -23,7 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'smallest physical entity that uses electron or hole conduction in semi-conductors, gases or in a vacuum Examples: Electronic tubes, transistors, integrated circuits. [See 3.4 of OIML D 11] [OIML D 11: 2004, 3.4]'
+  - content: 'smallest physical entity that uses electron or hole conduction in semi-conductors, gases or in a vacuum'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.4'
+  examples:
+  - content: Electronic tubes, transistors, integrated circuits.
   id: 01330-eng
   language_code: eng
   sources: []

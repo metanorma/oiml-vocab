@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'ability of an instrument to maintain its performance characteristics over a period of use [OIML D 11: 2004, 3.17]'
+  - content: 'ability of an instrument to maintain its performance characteristics over a period of use'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.17'
   id: 01372-eng
   language_code: eng
   sources: []
