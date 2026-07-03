@@ -1,0 +1,51 @@
+---
+data:
+  identifier: '3.11'
+  localized_concepts:
+    eng: 772b7a1e-69ae-4c65-9d6e-e72f94b509c1
+    fra: 2db9de39-93ae-4ab8-bd9d-04aed07056ee
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 8f93b480-d737-44fd-b97b-468f5b8a7beb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The absolute error of measurement divided by the (conventional) true value
+      of the measurand.
+  id: 3.11-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative error
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 772b7a1e-69ae-4c65-9d6e-e72f94b509c1
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Rapport de l'erreur absolue de mesure à la valeur (conventionnellement) vraie
+      de la grandeur mesurée.
+  id: 3.11-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur relative
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 2db9de39-93ae-4ab8-bd9d-04aed07056ee

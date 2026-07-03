@@ -1,12 +1,55 @@
 ---
 data:
   identifier: '4.28'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.26
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.26
-id: a2de8f8a-b34b-43c1-aa2c-66f777541740
+  localized_concepts:
+    eng: a23ee548-aecb-4059-956f-86f7fd2476bc
+    fra: 6a93aeff-8921-41c6-81b2-597ac591902e
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: d791d74c-bff5-4b7a-a448-01e0b988c9e5
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A scale in which part of the scale range occupies a disproportionately large
+      part of the scale length.
+  id: 4.28-eng
+  language_code: eng
+  examples:
+  - content: scale of a clinical thermometer.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: expanded scale
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a23ee548-aecb-4059-956f-86f7fd2476bc
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Échelle pour laquelle une partie de l'étendue d'échelle occupe une partie
+      disproportionnée de la longueur d'échelle.
+  id: 4.28-fra
+  language_code: fra
+  examples:
+  - content: échelle d'un thermomètre médical.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échelle dilatée
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6a93aeff-8921-41c6-81b2-597ac591902e

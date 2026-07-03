@@ -1,0 +1,59 @@
+---
+data:
+  identifier: '5.15'
+  localized_concepts:
+    eng: 8e1fc1be-90aa-49f9-8079-972ff315a224
+    fra: 756c2aae-f902-46e8-8b48-eb7513227f46
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: b6389e5f-50c4-4d14-b0c0-edfb5ee0d6ec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The property of a measuring instrument whereby its response to a given stimulus
+      depends on the sequence of preceding stimuli.
+  id: 5.15-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Although hysteresis is normally considered in relation to the measurand,
+      it may also be considered in relation to influence quantities.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hysteresis
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8e1fc1be-90aa-49f9-8079-972ff315a224
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Propriété d'un instrument de mesure dont la réponse à un signal d'entrée
+      donné dépend de la séquence des signaux d'entrée précédents.
+  id: 5.15-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Bien que l'hystérésis soit normalement considérée comme étant en relation
+      avec la grandeur à mesurer, elle peut aussi l'être avec les grandeurs d'influence.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hystérésis
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 756c2aae-f902-46e8-8b48-eb7513227f46

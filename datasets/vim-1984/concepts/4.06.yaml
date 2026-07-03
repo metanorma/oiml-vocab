@@ -1,0 +1,59 @@
+---
+data:
+  identifier: '4.06'
+  localized_concepts:
+    eng: 6eb60f89-42b4-44d2-892c-c391bfd5cd69
+    fra: 0b0a0c2e-8684-4546-8fbd-4483400d2c3c
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: acf4402d-e49e-4bb0-8d6b-d6f893d2c5fa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A measuring instrument which displays the value of a measurand or a related
+      value.
+  id: 4.06-eng
+  language_code: eng
+  examples:
+  - content: a) analogue voltmeter;
+  - content: b) digital voltmeter;
+  - content: c) micrometer.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating (measuring) instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6eb60f89-42b4-44d2-892c-c391bfd5cd69
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Appareil de mesure qui affiche la valeur d'une grandeur mesurée ou une valeur
+      qui lui est reliée.
+  id: 4.06-fra
+  language_code: fra
+  examples:
+  - content: a) voltmètre analogique;
+  - content: b) voltmètre numérique;
+  - content: c) appareil à vis micrométrique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "appareil (de mesure) indicateur"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 0b0a0c2e-8684-4546-8fbd-4483400d2c3c

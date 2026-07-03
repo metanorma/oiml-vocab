@@ -1,0 +1,55 @@
+---
+data:
+  identifier: '5.10'
+  localized_concepts:
+    eng: a8b1866e-2642-4bf8-8554-c573d012a63f
+    fra: fa07ca61-0870-4e4e-8685-b165f66e07f9
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 29848ff2-ccae-46c2-85e0-db0021537900
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The change in the response of a measuring instrument divided by the corresponding
+      change in the stimulus.
+  id: 5.10-eng
+  language_code: eng
+  notes:
+  - content: Sensitivity may depend on the value of the stimulus.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensitivity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a8b1866e-2642-4bf8-8554-c573d012a63f
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Quotient de l'accroissement de la réponse d'un instrument de mesure par l'accroissement
+      correspondant du signal d'entrée.
+  id: 5.10-fra
+  language_code: fra
+  notes:
+  - content: La sensibilité peut dépendre de la valeur du signal d'entrée.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensibilité
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fa07ca61-0870-4e4e-8685-b165f66e07f9

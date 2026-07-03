@@ -1,0 +1,65 @@
+---
+data:
+  identifier: '5.09'
+  localized_concepts:
+    eng: 43e75444-5f5b-4b29-86e7-c7c7411ece81
+    fra: dcc61115-796f-4f8e-8323-1aa054f3c732
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: f5325f37-b184-4913-a319-33ac7ecef7c6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: For defined conditions, the relationship between a stimulus and the corresponding response.
+  id: 5.09-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The relationship may be based on theoretical or experimental considerations;
+      it may be expressed in the form of an algebraic equation, a numerical table
+      or a graph.
+  - content: >-
+      When the stimulus varies as a function of time, one form of the response
+      characteristic is the transfer function (the Laplace transform of the response
+      divided by that of the stimulus).
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: response characteristic
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 43e75444-5f5b-4b29-86e7-c7c7411ece81
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "Pour des conditions définies, relation entre un signal d'entrée et la réponse correspondante."
+  id: 5.09-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La relation peut être fondée sur des considérations théoriques ou expérimentales
+      ; elle peut s'exprimer sous forme d'équation algébrique, de tableau numérique
+      ou de graphe.
+  - content: >-
+      Lorsque le signal d'entrée varie en fonction du temps, la fonction de transfert
+      (quotient de la transformée de Laplace du signal de sortie par la transformée
+      de Laplace du signal d'entrée) est une forme de la caractéristique de transfert.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: caractéristique de transfert
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: dcc61115-796f-4f8e-8323-1aa054f3c732

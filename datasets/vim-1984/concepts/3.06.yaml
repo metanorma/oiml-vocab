@@ -1,0 +1,63 @@
+---
+data:
+  identifier: '3.06'
+  localized_concepts:
+    eng: 2589a925-1b6b-4c5f-9211-5d0425fa3f7c
+    fra: c8585517-076d-4d25-a2b0-884e96efbc25
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 7cca872d-6113-4e3a-810c-90656bc17a39
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The closeness of the agreement between the results of successive measurements
+      of the same measurand carried out subject to all of the following conditions:
+      the same method of measurement, the same observer, the same measuring instrument,
+      the same location, the same conditions of use, repetition over a short period
+      of time.
+  id: 3.06-eng
+  language_code: eng
+  notes:
+  - content: Repeatability may be expressed quantitatively in terms of the dispersion of the results.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability of measurements
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 2589a925-1b6b-4c5f-9211-5d0425fa3f7c
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étroitesse de l'accord entre les résultats des mesurages successifs du même
+      mesurande effectués avec l'application de la totalité des conditions suivantes
+      : même méthode de mesure, même observateur, même instrument de mesure, même
+      lieu, mêmes conditions d'utilisation, répétition sur une courte période de
+      temps.
+  id: 3.06-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La répétabilité peut s'exprimer quantitativement par une caractéristique de
+      dispersion des résultats.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: répétabilité des mesurages
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c8585517-076d-4d25-a2b0-884e96efbc25

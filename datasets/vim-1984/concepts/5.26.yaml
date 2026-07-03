@@ -1,12 +1,49 @@
 ---
 data:
   identifier: '5.26'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.23
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.23
-id: 566da133-ebf3-47b3-ada7-4c11e10a6916
+  localized_concepts:
+    eng: a8d2d42c-89b2-441c-89f1-bc56220ffede
+    fra: f1126fe0-939c-41aa-bb66-2667a083cb9f
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 828bf232-115b-4f20-8621-bd34674631cf
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The datum error for zero value of the measurand.
+  id: 5.26-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zero error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a8d2d42c-89b2-441c-89f1-bc56220ffede
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Erreur au point de contrôle, la valeur spécifiée pour la grandeur mesurée
+      étant zéro.
+  id: 5.26-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur à zéro (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f1126fe0-939c-41aa-bb66-2667a083cb9f

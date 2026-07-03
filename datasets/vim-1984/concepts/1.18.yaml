@@ -1,12 +1,61 @@
 ---
 data:
   identifier: '1.18'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.19
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.19
-id: 23fc2414-a92c-46e2-aa4a-281d13f53b29
+  localized_concepts:
+    eng: 02bc1131-a763-4cfd-8cbd-4009a178226e
+    fra: e81eea36-e07e-4fa4-87ad-25895cab227b
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 7d13181f-eb96-48fc-840f-851da0bf3000
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The value which characterizes a quantity perfectly defined, in the conditions
+      which exist when that quantity is considered.
+  id: 1.18-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The true value of a quantity is an ideal concept and, in general, cannot be
+      known exactly. Indeed, quantum effects may preclude the existence of a unique
+      true value.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: true value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 02bc1131-a763-4cfd-8cbd-4009a178226e
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Valeur qui caractérise une grandeur parfaitement définie, dans les conditions
+      qui existent lorsque cette grandeur est considérée.
+  id: 1.18-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La valeur vraie d'une grandeur est une notion idéale et, en général, ne peut
+      être connue exactement. L'existence même d'une unique valeur vraie peut être
+      exclue par effet quantique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur vraie (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e81eea36-e07e-4fa4-87ad-25895cab227b

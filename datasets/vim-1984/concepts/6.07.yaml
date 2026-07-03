@@ -1,12 +1,56 @@
 ---
 data:
   identifier: '6.07'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.3
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.3
-id: 8377e665-85a3-4ab8-bcf2-033eeda6902b
+  localized_concepts:
+    eng: 2b24f2ba-f0fb-45bb-a790-339cf334b889
+    fra: 95405ad2-8a30-4f07-9ba4-f79c0d230e9d
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 5f26e254-c0e0-49b6-9a2e-be3a89fe8199
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A standard recognized by an official national decision as the basis for fixing
+      the value, in a country, of all other standards of the quantity concerned.
+  id: 6.07-eng
+  language_code: eng
+  notes:
+  - content: The national standard in a country is often a primary standard.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: national standard
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 2b24f2ba-f0fb-45bb-a790-339cf334b889
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étalon reconnu par une décision officielle nationale pour servir de base dans
+      un pays à la fixation des valeurs de tous les autres étalons de la grandeur
+      concernée.
+  id: 6.07-fra
+  language_code: fra
+  notes:
+  - content: L'étalon national dans un pays est souvent un étalon primaire.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon national
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 95405ad2-8a30-4f07-9ba4-f79c0d230e9d

@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '4.33'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.30
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.30
-id: 666572f1-90bf-4584-91e5-e3e5bd3b8cea
+  localized_concepts:
+    eng: e238d56d-bf53-4718-b2e2-235578f9f933
+    fra: fe9def92-f97b-4130-806d-138850718da8
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 2ada8b9b-8dc0-4182-82c0-d063eba3a952
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The operation intended to bring a measuring instrument into a state of performance
+      and freedom from bias suitable for its use.
+  id: 4.33-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: adjustment
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e238d56d-bf53-4718-b2e2-235578f9f933
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Opération destinée à amener un appareil de mesure à un fonctionnement et
+      à une justesse convenables pour son utilisation.
+  id: 4.33-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ajustage
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fe9def92-f97b-4130-806d-138850718da8

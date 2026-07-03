@@ -1,12 +1,58 @@
 ---
 data:
   identifier: '6.16'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.14
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.14
-id: b6023643-ebe6-4ab8-b220-2aa329607470
+  localized_concepts:
+    eng: 8791876c-380b-4014-b5cb-6f62d54ef996
+    fra: b5bcf15b-7e5e-4282-b91d-5914bd72442d
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 99c1d960-916d-4a0c-9f84-ededf212bf17
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A reference material one or more of whose property values are certified by
+      a technically valid procedure, accompanied by or traceable to a certificate
+      or other documentation which is issued by a certifying body.
+  id: 6.16-eng
+  language_code: eng
+  notes:
+  - content: This definition is taken from ISO Guide 30-1981.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: certified reference material
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8791876c-380b-4014-b5cb-6f62d54ef996
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Matériau de référence dont une ou plusieurs valeurs des propriétés sont certifiées
+      par une procédure techniquement valide, ayant un certificat ou un autre document
+      à cet effet, qui l'accompagne ou qui peut lui être rapporté, qui est délivré
+      par un organisme de certification.
+  id: 6.16-fra
+  language_code: fra
+  notes:
+  - content: Cette définition provient du Guide ISO 30-1981.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: matériau de référence certifié
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b5bcf15b-7e5e-4282-b91d-5914bd72442d

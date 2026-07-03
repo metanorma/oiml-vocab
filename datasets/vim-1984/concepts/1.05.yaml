@@ -1,12 +1,59 @@
 ---
 data:
   identifier: '1.05'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.6
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.6
-id: 5e5d8fe9-a352-476f-82aa-9039e8e361ed
+  localized_concepts:
+    eng: ae7313b0-94dc-4742-9eaa-8bd4d8bdef79
+    fra: 0f0460b0-409d-4bbe-af2e-d387d899ea27
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: b2051586-c987-4291-beab-5f291b24bbca
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A quantity in the expression of which the exponents of the base quantities,
+      in a given system, are zero.
+  id: 1.05-eng
+  language_code: eng
+  examples:
+  - content: >-
+      linear strain, coefficient of friction, refractive index are dimensionless
+      quantities in the system of quantities l, m, t.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dimensionless quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ae7313b0-94dc-4742-9eaa-8bd4d8bdef79
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Grandeur dont l'expression en fonction des grandeurs de base d'un système
+      donné présente tous ses exposants nuls.
+  id: 1.05-fra
+  language_code: fra
+  examples:
+  - content: >-
+      la dilatation linéique relative, le facteur de frottement, l'indice de réfraction
+      sont des grandeurs sans dimension dans le système de grandeurs l, m, t.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur sans dimension
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 0f0460b0-409d-4bbe-af2e-d387d899ea27

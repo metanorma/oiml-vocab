@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '2.09'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/2.6
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 2.6
-id: 2795235a-9b0a-4138-9390-86cbd1ed5992
+  localized_concepts:
+    eng: ee0c4b29-e50c-471e-9db2-ae5eabd83440
+    fra: 29226a50-2c02-4969-b6dd-7f22ccb9eddb
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 9783b7ef-2326-4a19-840a-c50226501714
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A quantity subjected to measurement.
+  id: 2.09-eng
+  language_code: eng
+  notes:
+  - content: As appropriate, this may be the measured quantity or the quantity to be measured.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurand
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ee0c4b29-e50c-471e-9db2-ae5eabd83440
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur soumise à mesurage.
+  id: 2.09-fra
+  language_code: fra
+  notes:
+  - content: "Ce peut être, selon le cas, la grandeur mesurée ou la grandeur à mesurer."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesurande
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 29226a50-2c02-4969-b6dd-7f22ccb9eddb

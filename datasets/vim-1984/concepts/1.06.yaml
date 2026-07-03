@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '1.06'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.7
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.7
-id: b4585431-436c-451d-b453-5f8d0c7716a7
+  localized_concepts:
+    eng: 9a921d74-fd31-4aa0-857d-068e923b88e2
+    fra: 83ae4016-339c-418d-ad7e-3b1e5cf90bc2
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: f6021319-a7ab-4b15-a5e1-df25b1acdf0e
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A specific quantity, adopted by convention, used to express quantitatively
+      quantities which have the same dimension.
+  id: 1.06-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9a921d74-fd31-4aa0-857d-068e923b88e2
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Grandeur déterminée, adoptée par convention, utilisée pour exprimer quantitativement
+      des grandeurs de même dimension.
+  id: 1.06-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 83ae4016-339c-418d-ad7e-3b1e5cf90bc2

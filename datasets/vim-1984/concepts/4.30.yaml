@@ -1,12 +1,53 @@
 ---
 data:
   identifier: '4.30'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.28
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.28
-id: feb43309-f1ad-4751-bc9a-3101c0e0dcba
+  localized_concepts:
+    eng: eab9786a-7a87-45ec-bc5f-8c5fab4a67a4
+    fra: db184af7-9432-40cf-b434-3bf20f04112c
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 449411a6-c059-456e-997a-9ac47b2c2fa0
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The set of numbers, marked on a scale, which either correspond to the values
+      of the measurand defined by the scale marks or merely indicate the numerical
+      order of the scale marks.
+  id: 4.30-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale numbering
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: eab9786a-7a87-45ec-bc5f-8c5fab4a67a4
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble des nombres inscrits sur une échelle, qui correspondent aux valeurs
+      de la grandeur à mesurer déterminées par les repères ou bien qui indiquent
+      seulement les numéros d'ordre des repères.
+  id: 4.30-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "chiffraison d'une échelle"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: db184af7-9432-40cf-b434-3bf20f04112c

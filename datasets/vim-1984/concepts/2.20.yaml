@@ -1,0 +1,61 @@
+---
+data:
+  identifier: '2.20'
+  localized_concepts:
+    eng: 3f187e1e-fbd5-432b-8b12-d15e5680c8ac
+    fra: a3648d3c-a9d9-4617-969e-6954b499a524
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 194e38d0-462b-469e-b186-06fc48e720bc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A method of measurement in which the value of the measurand is determined
+      by balancing, adjusting one or more quantities, of known values, to which
+      the measurand has a known relationship at balance.
+  id: 2.20-eng
+  language_code: eng
+  notes:
+  - content: The measurand and the adjusted quantities may be of different kinds.
+  examples:
+  - content: measurement of an electrical impedance by means of a bridge circuit and a null detector.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: null method of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3f187e1e-fbd5-432b-8b12-d15e5680c8ac
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Méthode de mesure dans laquelle la valeur de la grandeur à mesurer est déterminée
+      par équilibrage en ajustant une ou plusieurs grandeurs, de valeurs connues,
+      reliées à la grandeur à mesurer par une relation connue à l'équilibre.
+  id: 2.20-fra
+  language_code: fra
+  notes:
+  - content: La grandeur à mesurer et les grandeurs ajustées peuvent être de nature différente.
+  examples:
+  - content: mesurage d'une impédance électrique avec un pont et un indicateur de zéro.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: méthode de (mesure par) zéro
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a3648d3c-a9d9-4617-969e-6954b499a524

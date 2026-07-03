@@ -1,0 +1,74 @@
+---
+data:
+  identifier: '4.31'
+  localized_concepts:
+    eng: 26d01801-2d6d-460c-9a0e-262764ec07c3
+    fra: ac6e2e32-a1fa-43f2-b50c-95d9f0300a07
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: f268b5b8-adf8-404b-b471-46fda438706f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The direct indication of a measuring instrument when the instrument is in
+      use with zero value of the measurand, any auxiliary power supply required
+      to operate the instrument being switched on.
+  id: 4.31-eng
+  language_code: eng
+  notes:
+  - content: >-
+      This term is commonly called electrical zero in the case of a measuring instrument
+      having an electrical auxiliary power supply.
+  - content: >-
+      The term mechanical zero is often used when the instrument is not in use
+      and any auxiliary power supply is switched off.
+  - content: >-
+      The mechanical zero may possibly not coincide with the electrical zero;
+      in some types of instrument the mechanical zero may be indeterminate.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zero of a measuring instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 26d01801-2d6d-460c-9a0e-262764ec07c3
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Indication directe d'un appareil de mesure lorsque cet appareil est en service
+      avec une valeur nulle de la grandeur mesurée, l'appareil étant alimenté par
+      toute source d'énergie auxiliaire nécessaire pour son fonctionnement.
+  id: 4.31-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Ce terme est habituellement appelé zéro électrique dans le cas d'un appareil
+      de mesure ayant une source d'énergie auxiliaire électrique.
+  - content: >-
+      Le terme zéro mécanique est souvent utilisé lorsque l'appareil n'est pas
+      en service et lorsque son alimentation par toute source d'énergie auxiliaire
+      est coupée.
+  - content: >-
+      Le zéro mécanique peut parfois ne pas coïncider avec le zéro électrique ;
+      pour certains types d'appareils, il peut être indéterminé.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "zéro d'un appareil de mesure"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ac6e2e32-a1fa-43f2-b50c-95d9f0300a07

@@ -1,12 +1,64 @@
 ---
 data:
   identifier: '1.10'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.12
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.12
-id: deb646df-abd3-4f0a-abe0-0abdb9453102
+  localized_concepts:
+    eng: 5247a576-227a-4c58-8b7b-2d893d9e4045
+    fra: 095ba10d-c23c-4a76-b905-ef9770e2d8e9
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 0dabccde-2873-4b11-87e4-2ab23e571119
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The coherent system of units adopted and recommended by the General Conference
+      on Weights and Measures (CGPM).
+  id: 1.10-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The SI is based at present on the following seven base units: the metre, unit
+      of length; the kilogram, unit of mass; the second, unit of time; the ampere,
+      unit of electric current; the kelvin, unit of thermodynamic temperature; the
+      mole, unit of amount of substance; the candela, unit of luminous intensity.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: International System of Units, SI
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 5247a576-227a-4c58-8b7b-2d893d9e4045
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Système cohérent d'unités adopté et recommandé par la Conférence générale
+      des poids et mesures (CGPM).
+  id: 1.10-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le SI est fondé actuellement sur les sept unités de base suivantes : le mètre,
+      unité de longueur ; le kilogramme, unité de masse ; la seconde, unité de temps
+      ; l'ampère, unité d'intensité de courant électrique ; le kelvin, unité de
+      température thermodynamique ; la mole, unité de quantité de matière ; la candela,
+      unité d'intensité lumineuse.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "Système international d'unités, SI"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 095ba10d-c23c-4a76-b905-ef9770e2d8e9

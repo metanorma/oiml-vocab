@@ -1,0 +1,82 @@
+---
+data:
+  identifier: '1.01'
+  localized_concepts:
+    eng: f4be0cf0-f362-4821-9169-23fca36b4391
+    fra: 3f67a1b7-397b-423e-9bd4-d753042574a4
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 3f9af4b2-c816-41e3-b85d-a575b96634fb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      An attribute of a phenomenon, body or substance, which may be distinguished
+      qualitatively and determined quantitatively.
+  id: 1.01-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The term "quantity" may refer to a quantity in a general sense [see examples
+      a)] or to a specific quantity [see examples b)].
+    examples:
+    - content: >-
+        quantities in a general sense: length, time, mass, temperature, electrical
+        resistance
+    - content: >-
+        specific quantities: length of a particular rod, electrical resistance of
+        a particular wire
+  - content: >-
+      Quantities which are mutually comparable may be grouped together into categories
+      of quantities, for example: work, heat, energy; thickness, circumference, wavelength.
+  - content: Symbols for quantities are given in ISO 31.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(measurable) quantity"
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f4be0cf0-f362-4821-9169-23fca36b4391
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Attribut d'un phénomène, d'un corps ou d'une substance, qui est susceptible
+      d'être distingué qualitativement et déterminé quantitativement.
+  id: 1.01-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le terme « grandeur » peut se rapporter à une grandeur dans un sens général
+      [voir exemples a)] ou à une grandeur déterminée [voir exemples b)].
+    examples:
+    - content: >-
+        grandeurs dans un sens général : longueur, temps, masse, température, résistance
+        électrique
+    - content: >-
+        grandeurs déterminées : longueur d'une tige particulière, résistance électrique
+        d'un fil particulier
+  - content: >-
+      Les grandeurs qui sont mutuellement comparables peuvent être classées en catégories
+      de grandeurs, par exemple : travail, chaleur, énergie ; épaisseur, circonférence,
+      longueur d'onde.
+  - content: Des symboles de grandeurs sont donnés dans la norme ISO 31.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "grandeur (mesurable)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3f67a1b7-397b-423e-9bd4-d753042574a4

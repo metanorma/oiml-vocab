@@ -1,12 +1,59 @@
 ---
 data:
   identifier: '1.04'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.5
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.5
-id: 4c4bab23-2570-4892-af42-0f6a52c1e219
+  localized_concepts:
+    eng: c3c9f797-9332-41a9-8281-f3b023156b61
+    fra: a22ead19-6a81-4839-bf51-e15ec18bdbcb
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 84ce2bba-1a5b-4c50-826f-31d763f6f5a7
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      An expression which represents a quantity of a system of quantities as the
+      product of powers of the base quantities of the system.
+  id: 1.04-eng
+  language_code: eng
+  examples:
+  - content: >-
+      LMT^{-2} is the dimension of force in the system of quantities length, mass
+      and time (l, m, t).
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dimension of a quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c3c9f797-9332-41a9-8281-f3b023156b61
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Expression qui représente une grandeur d'un système de grandeurs comme le
+      produit de puissances des grandeurs de base de ce système.
+  id: 1.04-fra
+  language_code: fra
+  examples:
+  - content: >-
+      LMT^{-2} est la dimension de la force dans le système des grandeurs longueur,
+      masse, temps (l, m, t).
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dimension d'une grandeur
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a22ead19-6a81-4839-bf51-e15ec18bdbcb

@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '2.07'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/2.5
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 2.5
-id: 314cd2b0-8fb8-4c26-a6af-83b7e5450947
+  localized_concepts:
+    eng: c2336a0f-a1f7-487d-b158-af30e8445a3a
+    fra: 01bbaf00-18c0-4830-b523-a9bc01198202
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: c720c207-2c1d-47f5-8ca2-1ce3a0a5ddbc
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The set of theoretical and practical operations, in detailed terms, involved
+      in the performance of measurements according to a given method.
+  id: 2.07-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement procedure
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c2336a0f-a1f7-487d-b158-af30e8445a3a
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble détaillé des opérations théoriques et pratiques mises en œuvre lors
+      de l'exécution de mesurages selon une méthode donnée.
+  id: 2.07-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "mode opératoire (de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 01bbaf00-18c0-4830-b523-a9bc01198202

@@ -1,0 +1,59 @@
+---
+data:
+  identifier: '4.03'
+  localized_concepts:
+    eng: ca5d7db0-044e-4965-9936-03c22aaddc21
+    fra: 19031b18-98c0-41c2-a6bd-733d31f796b7
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 0d01f92e-86a9-4786-a41d-c3bf86363a10
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A measuring device which provides an output quantity having a given relationship
+      to the input quantity.
+  id: 4.03-eng
+  language_code: eng
+  examples:
+  - content: a) thermocouple;
+  - content: b) current transformer;
+  - content: c) electropneumatic converter.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring transducer
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ca5d7db0-044e-4965-9936-03c22aaddc21
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Dispositif de mesure qui fait correspondre à une grandeur d'entrée une grandeur
+      de sortie selon une loi déterminée.
+  id: 4.03-fra
+  language_code: fra
+  examples:
+  - content: a) thermocouple;
+  - content: b) transformateur de courant;
+  - content: c) convertisseur électropneumatique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transducteur de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 19031b18-98c0-41c2-a6bd-733d31f796b7

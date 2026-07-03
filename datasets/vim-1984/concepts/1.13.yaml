@@ -1,12 +1,67 @@
 ---
 data:
   identifier: '1.13'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.10
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.10
-id: 4c31efe6-e570-4154-835c-2321956e852f
+  localized_concepts:
+    eng: e6e85743-211e-46eb-b5ac-03e1e63f6f72
+    fra: 679ae44f-7e8a-46c6-96ac-d3a3e112cd7b
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 2e85ffe5-da93-434c-bc8f-12486d9d353c
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A derived unit of measurement which is expressed in terms of base units by
+      a formula in which the proportionality factor is 1.
+  id: 1.13-eng
+  language_code: eng
+  notes:
+  - content: >-
+      This term is an abbreviation of the more exact denomination "derived unit
+      of measurement in a coherent system of units", for, with an isolated unit,
+      the concept of coherence is meaningless.
+  examples:
+  - content: >-
+      the newton is the coherent unit of force in the SI: 1 N = 1 kg·m·s^-2.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coherent unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e6e85743-211e-46eb-b5ac-03e1e63f6f72
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure dérivée qui s'exprime au moyen des unités de base par une
+      formule dont le facteur de proportionnalité est 1.
+  id: 1.13-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Ce terme est une abréviation de la dénomination plus exacte « unité de mesure
+      dérivée dans un système cohérent d'unités » car, pour une unité isolée, la
+      notion de cohérence n'a pas de sens.
+  examples:
+  - content: >-
+      le newton est l'unité cohérente de force dans le SI : 1 N = 1 kg·m·s^-2.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) cohérente"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 679ae44f-7e8a-46c6-96ac-d3a3e112cd7b

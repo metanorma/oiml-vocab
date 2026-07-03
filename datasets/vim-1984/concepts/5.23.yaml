@@ -1,12 +1,57 @@
 ---
 data:
   identifier: '5.23'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.21
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.21
-id: 3ddd466c-c94c-41ab-99fd-29e3e13aacd2
+  localized_concepts:
+    eng: 1e600df0-c240-48bf-b64c-507217e77d6b
+    fra: 3b1c85c2-cd1a-43c4-866f-d345f19ce9f3
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 7b571ea3-df82-4290-9d5b-962b0786a5a4
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The extreme values of an error permitted by specifications, regulations etc.
+      for a given measuring instrument.
+  id: 5.23-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limits of error (of a measuring instrument)
+  - type: expression
+    normative_status: admitted
+    designation: maximum permissible errors (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1e600df0-c240-48bf-b64c-507217e77d6b
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Valeurs extrêmes d'une erreur tolérées par les spécifications, règlements
+      etc., relatives à un instrument de mesure donné.
+  id: 5.23-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreurs maximales tolérées (d'un instrument de mesure)"
+  - type: expression
+    normative_status: admitted
+    designation: "limites d'erreur tolérées (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3b1c85c2-cd1a-43c4-866f-d345f19ce9f3

@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '1.20'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.21
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.21
-id: 8b4687d0-a1b1-427a-93c2-4a990c238098
+  localized_concepts:
+    eng: 26e0377f-b316-49fe-8571-a97f1eeee2ff
+    fra: cf9bd807-e17e-46ae-abbd-26a68035e755
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 3de1995b-c90f-4737-9102-16c9864bf089
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The number in the value of a quantity.
+  id: 1.20-eng
+  language_code: eng
+  examples:
+  - content: "in the examples in 1.17, the numbers: 5,3; 12; -40."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: numerical value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 26e0377f-b316-49fe-8571-a97f1eeee2ff
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le nombre dans la valeur d'une grandeur.
+  id: 1.20-fra
+  language_code: fra
+  examples:
+  - content: "dans les exemples de 1.17, les nombres : 5,3 ; 12 ; -40."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur numérique (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: cf9bd807-e17e-46ae-abbd-26a68035e755

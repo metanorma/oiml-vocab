@@ -1,12 +1,52 @@
 ---
 data:
   identifier: '6.06'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.2
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.2
-id: 78c58867-a882-49f0-aa46-12c3b066bf8c
+  localized_concepts:
+    eng: a54584e0-83bd-46fa-a538-1764df9ba93a
+    fra: 029ee6ab-e944-43a9-b6a6-6a2c07d95442
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 8cb39f8f-826c-48a6-a823-48ac1bfa036a
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A standard recognized by an international agreement to serve internationally
+      as the basis for fixing the value of all other standards of the quantity
+      concerned.
+  id: 6.06-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: international standard
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a54584e0-83bd-46fa-a538-1764df9ba93a
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étalon reconnu par un accord international pour servir de base internationale
+      à la fixation des valeurs de tous les autres étalons de la grandeur concernée.
+  id: 6.06-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon international
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 029ee6ab-e944-43a9-b6a6-6a2c07d95442

@@ -1,12 +1,63 @@
 ---
 data:
   identifier: '6.10'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.8
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.8
-id: 933d88e5-9399-406f-8e72-990bc40419d6
+  localized_concepts:
+    eng: 665684a1-a881-47e4-b623-483a004123eb
+    fra: 9ee7f557-8729-4453-9b0a-ea27f430cc9d
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: e1a19453-e649-4d34-b5c5-9d8cc1538fa2
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A standard used as an intermediary to compare standards, material measures
+      or measuring instruments.
+  id: 6.10-eng
+  language_code: eng
+  notes:
+  - content: >-
+      When the comparison device is not strictly a standard, the term transfer
+      device should be used.
+  examples:
+  - content: adjustable callipers used to intercompare end standards.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transfer standard
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 665684a1-a881-47e4-b623-483a004123eb
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étalon utilisé comme intermédiaire pour comparer entre eux des étalons, des
+      mesures matérialisées ou des appareils de mesure.
+  id: 6.10-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Lorsque le dispositif de comparaison n'est pas strictement un étalon, le
+      terme dispositif de transfert devrait être utilisé.
+  examples:
+  - content: calibre ajustable utilisé pour l'intercomparaison d'étalons à bouts.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon de transfert
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9ee7f557-8729-4453-9b0a-ea27f430cc9d

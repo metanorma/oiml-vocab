@@ -1,12 +1,69 @@
 ---
 data:
   identifier: '5.12'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.11
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.11
-id: 1a2ed942-04b8-4711-befd-8531ad6dcd36
+  localized_concepts:
+    eng: 3f240011-0fcb-4317-8d95-54d225761bf8
+    fra: 1c4937f5-645c-4228-a551-130876e649c2
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 29c742aa-5f2d-494d-94bc-bf5c0e5c78b1
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The smallest change in a stimulus which produces a perceptible change in
+      the response of a measuring instrument.
+  id: 5.12-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The discrimination threshold may depend on, for example, noise (internal
+      or external), friction, damping, inertia, quantization.
+  examples:
+  - content: >-
+      if the smallest change in load which produces a perceptible displacement
+      of the pointer of a balance is 90 mg, then the discrimination threshold of
+      the balance is 90 mg.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: discrimination threshold
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3f240011-0fcb-4317-8d95-54d225761bf8
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      La plus petite variation d'un signal d'entrée qui provoque une variation
+      perceptible de la réponse d'un instrument de mesure.
+  id: 5.12-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le seuil de mobilité peut dépendre, par exemple, du bruit (interne ou externe),
+      du frottement, de l'amortissement, de l'inertie, de la quantification.
+  examples:
+  - content: >-
+      si la plus petite variation de charge qui provoque un déplacement perceptible
+      de l'aiguille d'une balance est 90 mg, alors le seuil de mobilité de la balance
+      est 90 mg.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: seuil de mobilité
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1c4937f5-645c-4228-a551-130876e649c2

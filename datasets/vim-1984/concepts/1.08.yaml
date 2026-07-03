@@ -1,12 +1,61 @@
 ---
 data:
   identifier: '1.08'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.9
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.9
-id: fd8cf7b4-8d61-43fe-bdda-e22e5f461b66
+  localized_concepts:
+    eng: e1b03bbb-ba58-4286-978a-eaabd7ccf4f2
+    fra: 81d0231b-5f2e-4369-877f-74b21f42e14b
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 54cd0dc4-d0e5-48ca-bce5-c9fe339f2136
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A set of units established for a given system of quantities.
+  id: 1.08-eng
+  language_code: eng
+  notes:
+  - content: >-
+      A system of units comprises a set of chosen base units, together with derived
+      units determined by their defining equations and proportionality factors.
+  examples:
+  - content: a) International System of Units, SI;
+  - content: b) CGS system of units.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: system of units (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e1b03bbb-ba58-4286-978a-eaabd7ccf4f2
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble d'unités établi pour un système de grandeurs donné.
+  id: 1.08-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Un système d'unités comprend un ensemble d'unités de base choisies et d'unités
+      dérivées déterminées par leurs équations de définition et les facteurs de proportionnalité.
+  examples:
+  - content: a) Système international d'unités, SI;
+  - content: b) système d'unités CGS.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "système d'unités (de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 81d0231b-5f2e-4369-877f-74b21f42e14b

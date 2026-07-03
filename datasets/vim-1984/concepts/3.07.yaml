@@ -1,0 +1,67 @@
+---
+data:
+  identifier: '3.07'
+  localized_concepts:
+    eng: 791bfd6b-63a5-4ce4-b817-8e6a7580ceea
+    fra: 53ae7df4-af42-4d55-a017-27fa525afed3
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 645e2790-4b0a-4bf6-b7d2-1b6f9aad4c44
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The closeness of the agreement between the results of measurements of the
+      same measurand, where the individual measurements are carried out changing
+      conditions such as: method of measurement, observer, measuring instrument,
+      location, conditions of use, time.
+  id: 3.07-eng
+  language_code: eng
+  notes:
+  - content: A valid statement of reproducibility requires specification of the conditions changed.
+  - content: >-
+      Reproducibility may be expressed quantitatively in terms of the dispersion
+      of the results.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproducibility of measurements
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 791bfd6b-63a5-4ce4-b817-8e6a7580ceea
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étroitesse de l'accord entre les résultats des mesurages du même mesurande,
+      dans le cas où les mesurages individuels sont effectués en faisant varier
+      les conditions telles que : méthode de mesure, observateur, instrument de
+      mesure, lieu, conditions d'utilisation, temps.
+  id: 3.07-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Pour qu'une expression de la reproductibilité soit valable, il est nécessaire
+      de spécifier les conditions que l'on fait varier.
+  - content: >-
+      La reproductibilité peut s'exprimer quantitativement par une caractéristique
+      de dispersion des résultats.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproductibilité des mesurages
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 53ae7df4-af42-4d55-a017-27fa525afed3

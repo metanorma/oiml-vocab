@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '2.06'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/2.4
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 2.4
-id: 7e1d6497-fd2b-4f56-a4bc-02133e8d5104
+  localized_concepts:
+    eng: 304729fc-1508-4e47-9286-5efb0f69c19b
+    fra: 01d78cfa-d727-4762-a5f3-cab6b1cf0f63
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: d60a0f87-7bd3-4b5e-a39e-6ef8fc684b60
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The set of theoretical and practical operations, in general terms, involved
+      in the performance of measurements according to a given principle.
+  id: 2.06-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: method of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 304729fc-1508-4e47-9286-5efb0f69c19b
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble des opérations théoriques et pratiques, en termes généraux, mises
+      en œuvre lors de l'exécution de mesurages selon un principe donné.
+  id: 2.06-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: méthode de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 01d78cfa-d727-4762-a5f3-cab6b1cf0f63

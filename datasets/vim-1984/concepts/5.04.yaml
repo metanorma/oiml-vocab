@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '5.04'
+  localized_concepts:
+    eng: 1f85c777-4324-42fa-b96a-8b7169acbff0
+    fra: f613b5ab-4f0b-4698-8c7b-50c13e8f6c47
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 712fad4c-b6fa-4396-a750-71f1d4e62a11
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The set of values of a measurand for which the error of a measuring instrument
+      is intended to lie within specified limits.
+  id: 5.04-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The upper and lower limits of the specified measuring range are sometimes
+      called the maximum capacity and minimum capacity respectively.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: specified measuring range
+  - type: expression
+    normative_status: admitted
+    designation: specified working range
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1f85c777-4324-42fa-b96a-8b7169acbff0
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble des valeurs d'une grandeur à mesurer pour lesquelles l'erreur d'un
+      instrument de mesure est supposée maintenue entre des limites spécifiées.
+  id: 5.04-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Les limites supérieure et inférieure de l'étendue de mesure spécifiée sont
+      parfois appelées respectivement portée maximale et portée minimale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étendue de mesure spécifiée
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f613b5ab-4f0b-4698-8c7b-50c13e8f6c47

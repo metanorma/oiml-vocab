@@ -1,0 +1,49 @@
+---
+data:
+  identifier: '5.20'
+  localized_concepts:
+    eng: 5159d876-c888-4ca8-85ad-33a9dce54977
+    fra: 29631065-d13b-4881-bd99-6c6ca7fe0a7f
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: dba7d395-3757-404e-803f-44db7a2f97b5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The error arising from a lag in the response of a measuring instrument to a changing stimulus.
+  id: 5.20-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tracking error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 5159d876-c888-4ca8-85ad-33a9dce54977
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Erreur occasionnée par le retard de réponse d'un instrument de mesure à
+      un signal d'entrée variable.
+  id: 5.20-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur de poursuite (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 29631065-d13b-4881-bd99-6c6ca7fe0a7f

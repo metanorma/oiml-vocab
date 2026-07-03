@@ -1,12 +1,60 @@
 ---
 data:
   identifier: '5.14'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.13
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.13
-id: 06455478-b0c1-4a1f-830e-7eea581010c2
+  localized_concepts:
+    eng: bf216777-f980-4d39-ad9a-b701678a54c2
+    fra: e8c05cda-6854-46b0-af69-c66fcba58fcf
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: b5b998a0-9074-4672-b494-12debfb2135d
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The range through which a stimulus can be varied without producing a change
+      in the response of a measuring instrument.
+  id: 5.14-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The inherent dead band is sometimes deliberately increased to reduce unwanted
+      change in the response for small changes in the stimulus.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dead band
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: bf216777-f980-4d39-ad9a-b701678a54c2
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étendue à l'intérieur de laquelle un signal d'entrée peut être modifié sans
+      provoquer de variation de la réponse d'un instrument de mesure.
+  id: 5.14-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La zone morte intrinsèque est parfois délibérément augmentée pour réduire
+      les variations indésirables de la réponse aux petites variations du signal
+      d'entrée.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zone morte
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e8c05cda-6854-46b0-af69-c66fcba58fcf

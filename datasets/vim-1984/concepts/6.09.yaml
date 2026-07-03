@@ -1,12 +1,52 @@
 ---
 data:
   identifier: '6.09'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.7
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.7
-id: 00199d6d-71fd-4696-8126-e4cea13a6682
+  localized_concepts:
+    eng: 6f81bfdd-d5f9-4091-a920-87da831fd802
+    fra: 2d3ee68e-dd44-4b49-b380-b238b9807352
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 89ffab86-5e3d-4cca-aef2-e868cbcb3655
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A standard which, usually calibrated against a reference standard, is used
+      routinely to calibrate or check material measures or measuring instruments.
+  id: 6.09-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: working standard
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6f81bfdd-d5f9-4091-a920-87da831fd802
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étalon qui, habituellement étalonné par comparaison à un étalon de référence,
+      est utilisé couramment pour étalonner ou contrôler des mesures matérialisées
+      ou des appareils de mesure.
+  id: 6.09-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon de travail
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 2d3ee68e-dd44-4b49-b380-b238b9807352

@@ -1,12 +1,55 @@
 ---
 data:
   identifier: '5.24'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.20
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.20
-id: e2f7f1c2-29a3-4852-8ffe-d3711c72ed4d
+  localized_concepts:
+    eng: e24b24ac-3968-4687-8d11-b607544cc60c
+    fra: feff1271-5237-4e6f-b474-f2ff2f709fa1
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 2f19c9d1-0f0f-414f-ba13-b3ee2d81899c
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The indication of a measuring instrument minus the (conventional) true value
+      of the measurand.
+  id: 5.24-eng
+  language_code: eng
+  notes:
+  - content: For a material measure, the indication is its nominal or marked value.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error (of indication) of a measuring instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e24b24ac-3968-4687-8d11-b607544cc60c
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Indication d'un instrument de mesure moins valeur (conventionnellement) vraie
+      de la grandeur mesurée.
+  id: 5.24-fra
+  language_code: fra
+  notes:
+  - content: "Pour une mesure matérialisée, l'indication est sa valeur nominale ou sa valeur marquée."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur (d'indication) d'un instrument de mesure"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: feff1271-5237-4e6f-b474-f2ff2f709fa1

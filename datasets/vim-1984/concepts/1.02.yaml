@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '1.02'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.3
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.3
-id: ef358aa1-2e1e-4c68-a594-bce8e6f88046
+  localized_concepts:
+    eng: e58cbeec-d626-4d37-94d0-13c9f092dcf5
+    fra: efbdec96-95f4-41a9-84ce-4a8a9c8ce6cd
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: b59fbe23-c439-4eeb-99fe-f9d39780f1bc
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      One of the quantities which, in a system of quantities, are conventionally
+      accepted as independent of each other.
+  id: 1.02-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e58cbeec-d626-4d37-94d0-13c9f092dcf5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      L'une des grandeurs qui, dans un système de grandeurs, sont admises par convention
+      comme étant indépendantes les unes des autres.
+  id: 1.02-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur de base
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: efbdec96-95f4-41a9-84ce-4a8a9c8ce6cd

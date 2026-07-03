@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '4.19'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.17
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.17
-id: f62226db-7236-4d90-b8ee-0339e0dfb6d4
+  localized_concepts:
+    eng: a1e49587-7ed1-4343-a084-de8693f5d9a6
+    fra: 74c32813-8b92-4b2b-9063-05f7c9fc35f6
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: e0144799-c437-42da-b258-97590a5920d7
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      An ordered set of scale marks, together with any associated numbering, forming
+      a part of an indicating device.
+  id: 4.19-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a1e49587-7ed1-4343-a084-de8693f5d9a6
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble ordonné de repères, avec toute chiffraison associée, formant partie
+      d'un dispositif indicateur.
+  id: 4.19-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échelle
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 74c32813-8b92-4b2b-9063-05f7c9fc35f6

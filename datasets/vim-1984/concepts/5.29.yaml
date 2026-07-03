@@ -1,12 +1,49 @@
 ---
 data:
   identifier: '5.29'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.26
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.26
-id: df330ab6-c634-4abf-ad61-5dea6414241e
+  localized_concepts:
+    eng: 8dd0bb4f-fcd4-43f9-ae3e-19ed5bf1aad1
+    fra: 92953978-20bb-4bc6-bf66-2d2379ca5074
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: cab3c0c9-1a9a-4d0d-aeab-fecee2d56afc
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a measuring instrument to give indications free from bias error.
+  id: 5.29-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: freedom from bias (error) (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8dd0bb4f-fcd4-43f9-ae3e-19ed5bf1aad1
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à donner des indications exemptes d'erreur
+      de justesse.
+  id: 5.29-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "justesse (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 92953978-20bb-4bc6-bf66-2d2379ca5074

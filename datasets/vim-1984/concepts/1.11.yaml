@@ -1,12 +1,49 @@
 ---
 data:
   identifier: '1.11'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.13
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.13
-id: 16420e93-11a6-45ed-9ba2-321893f42892
+  localized_concepts:
+    eng: cec2aee7-3678-45c9-857d-164c5f040c18
+    fra: 41414b58-157e-4dff-8f37-f39b10247934
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 9cef308f-4250-4db4-b02b-99fc6e2b753a
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A unit of measurement of a base quantity in a given system of quantities.
+  id: 1.11-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: cec2aee7-3678-45c9-857d-164c5f040c18
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure d'une grandeur de base dans un système donné de grandeurs.
+  id: 1.11-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) de base"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 41414b58-157e-4dff-8f37-f39b10247934

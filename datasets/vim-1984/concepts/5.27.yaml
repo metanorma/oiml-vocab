@@ -1,12 +1,47 @@
 ---
 data:
   identifier: '5.27'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.24
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.24
-id: 79062f18-64b2-4696-b473-512ba573ffa6
+  localized_concepts:
+    eng: f22499d2-a964-4cda-bc0e-53edb8e81f3b
+    fra: 8648d190-dd38-4966-9e4b-afbb20b32880
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 3bc54b86-9675-4b2a-ae48-36bdb0e31fe4
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The error of a measuring instrument used under reference conditions.
+  id: 5.27-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f22499d2-a964-4cda-bc0e-53edb8e81f3b
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur d'un instrument de mesure utilisé dans les conditions de référence.
+  id: 5.27-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur intrinsèque (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8648d190-dd38-4966-9e4b-afbb20b32880

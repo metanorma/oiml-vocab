@@ -1,12 +1,59 @@
 ---
 data:
   identifier: '4.23'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.21
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.21
-id: 1041ea30-a3b3-44c1-82df-02880b003b72
+  localized_concepts:
+    eng: 9946c4cc-f8df-4c45-bba3-8f91dcacb426
+    fra: 9b71b9fb-57d5-470e-b06d-2766004483db
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 644de1d2-dade-47b5-91bf-fb3230581ed8
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The distance between any two successive scale marks measured along the same
+      line as the scale length.
+  id: 4.23-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Scale spacing is expressed in units of length, regardless of the units of
+      the measurand or the units marked on the scale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale spacing
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9946c4cc-f8df-4c45-bba3-8f91dcacb426
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Distance entre deux repères successifs quelconques mesurée le long de la
+      même ligne que pour la longueur d'échelle.
+  id: 4.23-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La longueur d'une division est exprimée en unité de longueur, quelle que
+      soit l'unité de la grandeur à mesurer ou l'unité marquée sur l'échelle.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: longueur d'une division
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9b71b9fb-57d5-470e-b06d-2766004483db
