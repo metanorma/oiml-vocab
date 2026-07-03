@@ -17,16 +17,15 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: set of quantity values, bounded by rounded or approximate extreme indications,
-      obtainable with a particular setting of the controls of a measuring instrument
-      or measuring system and used to designate that setting
-  examples:
-  - content: '", "100 V to 200 V"."'
+  - content: set of *quantity values*, bounded by rounded or approximate extreme *indications*,
+      obtainable with a particular setting of the controls of a *measuring instrument*
+      or *measuring system* and used to designate that setting
+  examples: []
   id: 4.4-eng
   language_code: eng
   notes:
   - content: A nominal indication interval is usually stated as its smallest and greatest
-      quantity values, for
+      quantity values, for example, "stem:[100 "unitsml(V)"] to stem:[200 "unitsml(V)"]".
   - content: In some fields the term is "nominal range".
   terms:
   - type: expression
@@ -44,16 +43,16 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: ensemble des valeurs comprises entre deux indications extrêmes arrondies
+  - content: ensemble des *valeurs* comprises entre deux *indications* extrêmes arrondies
       ou approximatives, que l'on obtient pour une position particulière des commandes
-      d'un instrument de mesure ou d'un système de mesure et qui sert à désigner cette
+      d'un *instrument de mesure* ou d'un *système de mesure* et qui sert à désigner cette
       position
   examples: []
   id: 4.4-fra
   language_code: fra
   notes:
   - content: Un intervalle nominal des indications est généralement exprimé en donnant
-      la plus petite et la plus grande valeur, par exemple « 100 V à 200 V ».
+      la plus petite et la plus grande valeur, par exemple « stem:[100 "unitsml(V)"] à stem:[200 "unitsml(V)"] ».
   - content: Dans certains domaines, le terme anglais est « nominal range ».
   terms:
   - type: expression
@@ -74,3 +73,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 68146942-1e74-42f6-b7ed-701d18afc2e0
+---
