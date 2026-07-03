@@ -23,7 +23,18 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'facility, incorporated in a measuring instrument (or system), which enables significant faults to be detected and acted upon, including •incorrect functioning of a specific device of the measuring instrument or system, and/or •disturbed communication between specific devices of the measuring instrument or system [OIML V1:2013, 5.07]'
+  - content: |-
+      facility, incorporated in a measuring instrument (or system), which enables significant faults to be detected and acted upon, including
+
+      * incorrect functioning of a specific device of the measuring instrument or system, and/or
+      * disturbed communication between specific devices of the measuring instrument or system
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.07'
   id: 02929-eng
   language_code: eng
   notes:
