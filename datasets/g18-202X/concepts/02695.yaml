@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'description of a series of tests for a certain type of equipment [OIML D11, 3.20.2]'
+  - content: 'description of a series of tests for a certain type of equipment'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.20.2'
   id: 02695-eng
   language_code: eng
   sources: []
