@@ -16,11 +16,6 @@ data:
 status: valid
 id: a9796352-7d09-5a2e-95cb-3ff079acef6f
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.1'
 ---
 data:
   dates:
@@ -30,6 +25,13 @@ data:
   - content: measuring instrument intended to measure an electrical or non- 1. For
       the purpose of this Document, ancillary electrical quantity using electronic
       means and/or equipped with electronic devices
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.1'
   examples: []
   id: 02182-eng
   notes:

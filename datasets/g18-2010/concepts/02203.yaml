@@ -16,11 +16,6 @@ data:
 status: valid
 id: 6db4b72c-2cae-5df2-a8f5-31a0707ae15f
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.16'
 ---
 data:
   dates:
@@ -28,6 +23,13 @@ data:
     type: accepted
   definition:
   - content: ability of a measuring instrument to accomplish its intended functions
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.16'
   examples: []
   id: 02203-eng
   notes: []

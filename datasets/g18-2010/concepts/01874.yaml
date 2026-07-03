@@ -16,11 +16,6 @@ data:
 status: valid
 id: 8aaea82c-9170-5c4d-9899-4524064cf5df
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.19'
 ---
 data:
   dates:
@@ -29,6 +24,13 @@ data:
   definition:
   - content: facility that is incorporated in a measuring instrument which enables
       the detection of and action upon significant durability errors
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2004'
+          id: '3.19'
   examples: []
   id: 01874-eng
   notes: []
