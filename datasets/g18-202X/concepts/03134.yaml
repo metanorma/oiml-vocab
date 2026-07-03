@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'intrinsic error of a measuring instrument as determined prior to performance tests and durability evaluations [OIML D 11, 3.8]'
+  - content: 'intrinsic error of a measuring instrument as determined prior to performance tests and durability evaluations'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.8'
   id: 03134-eng
   language_code: eng
   sources: []
