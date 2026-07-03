@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'difference between the error of indication and the intrinsic error of the measuring instrument [VIML 2012 (V 1), 5.11] [25]'
+  - content: 'difference between the error of indication and the intrinsic error of the measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.11'
   id: 02771-eng
   language_code: eng
   notes:
