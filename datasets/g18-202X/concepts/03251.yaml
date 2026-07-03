@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'process of experimentally obtaining one or more quantity values that can reasonably by attributed to a quantity adampted from[OIML V 2-200:2012, 2.1]'
+  - content: 'process of experimentally obtaining one or more quantity values that can reasonably by attributed to a quantity'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.1'
   id: 03251-eng
   language_code: eng
   notes:
