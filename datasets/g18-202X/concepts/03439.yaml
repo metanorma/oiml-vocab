@@ -23,7 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'material, sufficiently homogeneous and stable with reference to specified properties, which has been established to be fit for its intended used in measurement or in examination of nominal properties (VIM3, 5.13)'
+  - content: 'material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended used in measurement
+      or in examination of nominal properties'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '5.13'
   id: 03439-eng
   language_code: eng
   notes:
@@ -32,7 +41,10 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reference material RM'
+    designation: reference material
+  - type: abbreviation
+    normative_status: preferred
+    designation: RM
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
