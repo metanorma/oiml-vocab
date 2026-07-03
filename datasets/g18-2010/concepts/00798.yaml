@@ -28,8 +28,15 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "[b indication of a weighing instrument minus the (conventional) true
-      value of the mass ased on VIM:1993, 5.20]"
+  - content: indication of a weighing instrument minus the (conventional) true value
+      of the mass
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:1993'
+          id: '5.20'
   examples: []
   id: '00798-eng'
   notes: []
@@ -44,7 +51,11 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: error of indication(stem:[E])
+    designation: error of indication
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[E]
+    international: true
   language_code: eng
   entry_status: valid
 date_accepted: '2024-01-01T00:00:00+00:00'
