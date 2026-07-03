@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '5.24'
+  localized_concepts:
+    eng: a551adf2-8c03-4a6e-b97a-a6bcb82736e5
+    fra: 94f3d16f-a614-4e6d-8174-7ea6b819ffaf
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.24'
+status: valid
+id: dba8a519-b78b-423d-9b80-08d29bb4a20b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The indication of a measuring instrument minus the (conventional) true value
+      of the measurand.
+  id: 5.24-eng
+  language_code: eng
+  notes:
+  - content: For a material measure, the indication is its nominal or marked value.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error (of indication) of a measuring instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a551adf2-8c03-4a6e-b97a-a6bcb82736e5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Indication d'un instrument de mesure moins valeur (conventionnellement) vraie
+      de la grandeur mesurée.
+  id: 5.24-fra
+  language_code: fra
+  notes:
+  - content: "Pour une mesure matérialisée, l'indication est sa valeur nominale ou sa valeur marquée."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur (d'indication) d'un instrument de mesure"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 94f3d16f-a614-4e6d-8174-7ea6b819ffaf

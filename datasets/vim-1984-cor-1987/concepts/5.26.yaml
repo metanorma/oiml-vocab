@@ -1,0 +1,54 @@
+---
+data:
+  identifier: '5.26'
+  localized_concepts:
+    eng: 66dbd3df-58c7-4a7a-ac30-9c33773fd040
+    fra: 692ec2ed-b577-4647-b8d3-35d585ff91d4
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.26'
+status: valid
+id: d9ecc057-9803-411b-b95b-9f376574e8e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The datum error for zero value of the measurand.
+  id: 5.26-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zero error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 66dbd3df-58c7-4a7a-ac30-9c33773fd040
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Erreur au point de contrôle, la valeur spécifiée pour la grandeur mesurée
+      étant zéro.
+  id: 5.26-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur à zéro (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 692ec2ed-b577-4647-b8d3-35d585ff91d4

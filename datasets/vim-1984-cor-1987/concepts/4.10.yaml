@@ -1,0 +1,72 @@
+---
+data:
+  identifier: '4.10'
+  localized_concepts:
+    eng: 5d8b2d92-6704-427d-adef-cc3a53467f93
+    fra: cf5ba0fb-af62-40dc-ae32-f0eff1414fa3
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: supersedes
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.10'
+status: valid
+id: 50defc59-d74b-450c-b1a2-f332e7919165
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1987-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A measuring instrument in which the output and/or display is a continuous
+      function of the value of the measurand.
+  id: 4.10-eng
+  language_code: eng
+  notes:
+  - content: >-
+      This term relates to the form of presentation of the output or display,
+      not to the principle of operation of the instrument.
+  examples:
+  - content: a) moving coil voltmeter;
+  - content: b) mercury-in-glass thermometer;
+  - content: c) Bourdon pressure gauge.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: analogue measuring instrument
+date_accepted: '1987-01-01T00:00:00+00:00'
+entry_status: valid
+id: 5d8b2d92-6704-427d-adef-cc3a53467f93
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Appareil de mesure pour lequel le signal de sortie ou l'affichage est une
+      fonction continue de la valeur de la grandeur mesurée.
+  id: 4.10-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Ce terme s'applique à la forme de présentation des signaux de sortie ou
+      de l'affichage, non au principe de fonctionnement de l'instrument.
+  examples:
+  - content: a) voltmètre à cadre mobile;
+  - content: b) thermomètre à mercure en verre;
+  - content: c) manomètre à tube de Bourdon.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: appareil de mesure analogique
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: cf5ba0fb-af62-40dc-ae32-f0eff1414fa3

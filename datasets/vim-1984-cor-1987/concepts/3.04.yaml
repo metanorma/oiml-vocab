@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '3.04'
+  localized_concepts:
+    eng: a2c73019-1520-4e40-850a-6f2ff5ed25db
+    fra: ae3918d6-6b20-40f4-9ac3-96d7dae34e48
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.04'
+status: valid
+id: cb6ce1a2-a4b9-4649-9f2a-e39588357faa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The result of a measurement obtained after having made corrections to the
+      uncorrected result in order to take account of assumed systematic errors.
+  id: 3.04-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: corrected result
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a2c73019-1520-4e40-850a-6f2ff5ed25db
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Résultat d'un mesurage obtenu après avoir apporté au résultat brut les corrections
+      destinées à tenir compte des erreurs systématiques présumées.
+  id: 3.04-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: résultat corrigé
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ae3918d6-6b20-40f4-9ac3-96d7dae34e48

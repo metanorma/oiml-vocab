@@ -1,0 +1,68 @@
+---
+data:
+  identifier: '4.17'
+  localized_concepts:
+    eng: 7273c81c-249b-4586-8ffc-78503ef0b4e5
+    fra: 2669d7c4-b70c-44e3-b68b-cafc557316a8
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.17'
+status: valid
+id: a6a3615c-ace2-473a-ad5a-90e8461008e9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A line or other mark on an indicating device corresponding to one or more
+      defined values of a measurand.
+  id: 4.17-eng
+  language_code: eng
+  notes:
+  - content: >-
+      For digital and semi-digital indications, the numbers themselves are equivalent
+      to scale marks.
+  - content: >-
+      The term gauge mark is often used in cases where only one or a few marks
+      are involved.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale mark
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7273c81c-249b-4586-8ffc-78503ef0b4e5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Trait ou autre signe porté par un dispositif indicateur et correspondant
+      à une ou plusieurs valeurs déterminées d'une grandeur à mesurer.
+  id: 4.17-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Pour les affichages numériques et semi-numériques, les nombres eux-mêmes
+      sont équivalents à des repères.
+  - content: (applicable uniquement au texte anglais)
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repère
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 2669d7c4-b70c-44e3-b68b-cafc557316a8

@@ -1,0 +1,84 @@
+---
+data:
+  identifier: '4.12'
+  localized_concepts:
+    eng: 3263302d-9840-4005-90e8-ac593ce70bc3
+    fra: 58e64e2a-1286-4b22-b366-4065fca5b416
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.12'
+status: valid
+id: 883f4aa1-1ab3-4c1b-b094-35bfe15fe019
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      For a measuring instrument, the set of components which displays the value
+      of a measurand or a related value.
+  id: 4.12-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The term may include the indicating means or setting device of a material
+      measure, for example, of a signal generator.
+  - content: >-
+      An analogue indicating device provides an analogue indication; a digital
+      indicating device provides a digital indication.
+  - content: >-
+      A form of presentation of the indications either by means of a digital indication
+      in which the least significant digit moves continuously thus permitting interpolation,
+      or by means of a digital indication supplemented by a scale and index, is
+      called a semidigital indication.
+  - content: >-
+      The English term readout device is used as a general descriptor of the means
+      whereby the response of a measuring instrument is made available.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating device
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3263302d-9840-4005-90e8-ac593ce70bc3
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Pour un appareil de mesure, ensemble des composants qui affiche la valeur
+      d'une grandeur mesurée ou une valeur qui lui est reliée.
+  id: 4.12-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le terme peut inclure le dispositif d'affichage ou de réglage d'une mesure
+      matérialisée, par exemple, d'un générateur de signaux.
+  - content: >-
+      Un dispositif indicateur analogique fournit un affichage analogique ; un
+      dispositif indicateur numérique fournit un affichage numérique.
+  - content: >-
+      Une forme de présentation des indications, soit au moyen d'un affichage numérique
+      dans lequel le chiffre le moins significatif se déplace continuellement,
+      permettant ainsi l'interpolation, soit au moyen d'un affichage numérique
+      complété par une échelle et un index, est appelée affichage semi-numérique.
+  - content: (applicable uniquement au texte anglais)
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif indicateur
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 58e64e2a-1286-4b22-b366-4065fca5b416

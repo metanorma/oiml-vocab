@@ -1,0 +1,72 @@
+---
+data:
+  identifier: '1.13'
+  localized_concepts:
+    eng: f8eea0c7-26e0-4dfe-a2bb-3155ae880e02
+    fra: fba2d42f-ce14-4118-a390-e4613b17b5d9
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.13'
+status: valid
+id: 028f67aa-ae93-4ef6-ad74-8a087ebd9828
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A derived unit of measurement which is expressed in terms of base units by
+      a formula in which the proportionality factor is 1.
+  id: 1.13-eng
+  language_code: eng
+  notes:
+  - content: >-
+      This term is an abbreviation of the more exact denomination "derived unit
+      of measurement in a coherent system of units", for, with an isolated unit,
+      the concept of coherence is meaningless.
+  examples:
+  - content: >-
+      the newton is the coherent unit of force in the SI: 1 N = 1 kg·m·s^-2.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coherent unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f8eea0c7-26e0-4dfe-a2bb-3155ae880e02
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure dérivée qui s'exprime au moyen des unités de base par une
+      formule dont le facteur de proportionnalité est 1.
+  id: 1.13-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Ce terme est une abréviation de la dénomination plus exacte « unité de mesure
+      dérivée dans un système cohérent d'unités » car, pour une unité isolée,
+      la notion de cohérence n'a pas de sens.
+  examples:
+  - content: >-
+      le newton est l'unité cohérente de force dans le SI : 1 N = 1 kg·m·s^-2.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) cohérente"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fba2d42f-ce14-4118-a390-e4613b17b5d9

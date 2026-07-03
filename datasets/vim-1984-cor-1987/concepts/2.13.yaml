@@ -1,0 +1,74 @@
+---
+data:
+  identifier: '2.13'
+  localized_concepts:
+    eng: 6b09bdfb-505d-447d-a15c-3bdf7ef4fc74
+    fra: 899e996b-e00b-42a5-870d-c8f4c2779fc3
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.13'
+status: valid
+id: d6255977-54d0-4792-8cb8-83e70d3fa14a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A method of measurement in which the value of a measurand is obtained
+      directly, rather than by measurement of other quantities functionally
+      related to the measurand.
+  id: 2.13-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The method of measurement remains direct even if it is necessary to make
+      supplementary measurements to determine the values of influence quantities
+      in order to make corresponding corrections.
+  examples:
+  - content: a) measurement of a length using a graduated rule;
+  - content: b) measurement of a mass using an equal-arm balance.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: direct method of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6b09bdfb-505d-447d-a15c-3bdf7ef4fc74
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Méthode de mesure dans laquelle la valeur d'une grandeur à mesurer est
+      obtenue directement, plutôt que par mesurage d'autres grandeurs liées
+      fonctionnellement à la grandeur à mesurer.
+  id: 2.13-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La méthode de mesure reste directe même s'il est nécessaire d'exécuter
+      des mesurages supplémentaires pour déterminer les valeurs des grandeurs
+      d'influence en vue d'effectuer les corrections correspondantes.
+  examples:
+  - content: a) mesurage d'une longueur à l'aide d'une règle graduée;
+  - content: b) mesurage d'une masse à l'aide d'une balance à bras égaux.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: méthode de mesure directe
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 899e996b-e00b-42a5-870d-c8f4c2779fc3

@@ -1,0 +1,67 @@
+---
+data:
+  identifier: '4.20'
+  localized_concepts:
+    eng: 0f5859bc-d1cc-4b99-8d58-d5cc38a18efa
+    fra: 05ea0034-1719-4d0f-a793-d2b118d7a17b
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.20'
+status: valid
+id: b7046157-592a-471a-b509-94bdeeac1e07
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      For a given scale, the length of the line between the first and the last
+      scale marks and passing through the centres of all the shortest scale marks.
+  id: 4.20-eng
+  language_code: eng
+  notes:
+  - content: The line may be real or imaginary, curved or straight.
+  - content: >-
+      Scale length is expressed in units of length regardless of the units of the
+      measurand or the units marked on the scale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale length
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 0f5859bc-d1cc-4b99-8d58-d5cc38a18efa
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Pour une échelle donnée, longueur de la ligne comprise entre le premier et
+      le dernier repère et passant par les milieux de tous les traits les plus
+      petits.
+  id: 4.20-fra
+  language_code: fra
+  notes:
+  - content: La ligne peut être réelle ou imaginaire, courbe ou droite.
+  - content: >-
+      La longueur d'échelle est exprimée en unité de longueur quelle que soit l'unité
+      de la grandeur à mesurer ou l'unité marquée sur l'échelle.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: longueur d'échelle
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 05ea0034-1719-4d0f-a793-d2b118d7a17b

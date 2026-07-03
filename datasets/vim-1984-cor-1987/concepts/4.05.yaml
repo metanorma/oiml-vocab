@@ -1,0 +1,73 @@
+---
+data:
+  identifier: '4.05'
+  localized_concepts:
+    eng: 245ac502-cf66-4da6-85e7-97ce7b4735be
+    fra: a2fd6c38-b967-4537-a5c9-a5976b355cb8
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.05'
+status: valid
+id: 38235265-6b48-4ca9-a994-87d9ad7d1d08
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A complete set of measuring instruments and other equipment assembled to
+      carry out a specified measurement task.
+  id: 4.05-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The term measuring installation is reserved for measuring apparatus, usually
+      of the larger kind, which is permanently installed, for example: boiler-house
+      instrumentation, prover-loop for flow measurement.
+  examples:
+  - content: a) apparatus for measuring the resistivity of electrotechnical materials;
+  - content: b) apparatus for the calibration of clinical thermometers.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring system
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 245ac502-cf66-4da6-85e7-97ce7b4735be
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble complet d'instruments de mesure et autres dispositifs assemblés
+      pour exécuter une tâche de mesurage spécifiée.
+  id: 4.05-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le terme installation de mesure est réservé aux appareillages de mesurage
+      habituellement de grande dimension, qui sont installés à poste fixe, par
+      exemple : instrumentation d'une salle des chaudières, boucle étalon pour
+      mesure de débit.
+  examples:
+  - content: a) appareillage pour mesurer la résistivité des matériaux électrotechniques ;
+  - content: b) appareillage pour l'étalonnage des thermomètres médicaux.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a2fd6c38-b967-4537-a5c9-a5976b355cb8

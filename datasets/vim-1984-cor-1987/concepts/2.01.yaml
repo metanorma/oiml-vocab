@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '2.01'
+  localized_concepts:
+    eng: e8afedb7-fb5c-40c7-9c75-3af91e0c4794
+    fra: e6a64010-eb4b-4f90-ad4a-c9637d8ecf80
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.01'
+status: valid
+id: 081b3d78-5938-4fe1-a697-d58a5f64f325
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The set of operations having the object of determining the value of a quantity.
+  id: 2.01-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e8afedb7-fb5c-40c7-9c75-3af91e0c4794
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble d'opérations ayant pour but de déterminer la valeur d'une grandeur.
+  id: 2.01-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesurage
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e6a64010-eb4b-4f90-ad4a-c9637d8ecf80

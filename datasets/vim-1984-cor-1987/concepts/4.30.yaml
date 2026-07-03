@@ -1,0 +1,58 @@
+---
+data:
+  identifier: '4.30'
+  localized_concepts:
+    eng: 4e781406-797d-43cf-92a8-86ef12649a75
+    fra: e5276302-0b1c-4fa1-8e63-c39f40c5fb21
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.30'
+status: valid
+id: f42ce0eb-4828-40a0-beb1-3e37a4a10e5d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The set of numbers, marked on a scale, which either correspond to the values
+      of the measurand defined by the scale marks or merely indicate the numerical
+      order of the scale marks.
+  id: 4.30-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale numbering
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4e781406-797d-43cf-92a8-86ef12649a75
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble des nombres inscrits sur une échelle, qui correspondent aux valeurs
+      de la grandeur à mesurer déterminées par les repères ou bien qui indiquent
+      seulement les numéros d'ordre des repères.
+  id: 4.30-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "chiffraison d'une échelle"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e5276302-0b1c-4fa1-8e63-c39f40c5fb21

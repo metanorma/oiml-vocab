@@ -1,0 +1,64 @@
+---
+data:
+  identifier: '1.05'
+  localized_concepts:
+    eng: b98771f7-256b-47ec-9fb9-9cd4f42deb95
+    fra: fc70ec74-38ff-4b0a-885a-cacd58976c1e
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.05'
+status: valid
+id: 81e4eda4-2dbc-41e3-8295-f4ab30e213bc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A quantity in the expression of which the exponents of the base quantities,
+      in a given system, are zero.
+  id: 1.05-eng
+  language_code: eng
+  examples:
+  - content: >-
+      linear strain, coefficient of friction, refractive index are dimensionless
+      quantities in the system of quantities l, m, t.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dimensionless quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b98771f7-256b-47ec-9fb9-9cd4f42deb95
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Grandeur dont l'expression en fonction des grandeurs de base d'un système
+      donné présente tous ses exposants nuls.
+  id: 1.05-fra
+  language_code: fra
+  examples:
+  - content: >-
+      la dilatation linéique relative, le facteur de frottement, l'indice de réfraction
+      sont des grandeurs sans dimension dans le système de grandeurs l, m, t.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur sans dimension
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fc70ec74-38ff-4b0a-885a-cacd58976c1e

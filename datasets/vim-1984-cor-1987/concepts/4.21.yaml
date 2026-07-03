@@ -1,0 +1,64 @@
+---
+data:
+  identifier: '4.21'
+  localized_concepts:
+    eng: a23fa4c3-dbd3-4cdc-aef3-ad0e5d035746
+    fra: 164f682e-6186-4f42-8e2b-d6e81025bb50
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.21'
+status: valid
+id: 94affbb1-3f6a-4ca6-bf27-feafc12f5f83
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: For a given scale, the range of scale values between the extreme scale marks.
+  id: 4.21-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The scale range is expressed in the units marked on the scale, regardless
+      of the units of the measurand, and is normally stated in terms of its lower
+      and upper limits, for example 100 °C to 200 °C.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale range
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a23fa4c3-dbd3-4cdc-aef3-ad0e5d035746
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Pour une échelle donnée, étendue des valeurs d'échelle entre les repères
+      extrêmes de l'échelle.
+  id: 4.21-fra
+  language_code: fra
+  notes:
+  - content: >-
+      L'étendue d'échelle est exprimée en unité marquée sur l'échelle, quelle que
+      soit l'unité de la grandeur à mesurer, et est normalement spécifiée par ses
+      limites inférieure et supérieure, par exemple 100 °C à 200 °C.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étendue d'échelle
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 164f682e-6186-4f42-8e2b-d6e81025bb50

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '1.17'
+  localized_concepts:
+    eng: 4c25c398-0f9a-4368-8556-1e54d8e91273
+    fra: 68a3f77d-7bdd-47a1-87fe-38dbd25afd1d
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.17'
+status: valid
+id: 366d2414-91cd-4740-b59b-8258ae8b8377
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The expression of a quantity in terms of a number and an appropriate unit
+      of measurement.
+  id: 1.17-eng
+  language_code: eng
+  examples:
+  - content: 5,3 m; 12 kg; -40 °C.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4c25c398-0f9a-4368-8556-1e54d8e91273
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Expression d'une grandeur sous la forme d'un nombre et d'une unité de mesure
+      appropriée.
+  id: 1.17-fra
+  language_code: fra
+  examples:
+  - content: 5,3 m ; 12 kg ; -40 °C.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 68a3f77d-7bdd-47a1-87fe-38dbd25afd1d

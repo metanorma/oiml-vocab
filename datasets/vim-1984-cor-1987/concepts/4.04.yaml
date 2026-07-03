@@ -1,0 +1,64 @@
+---
+data:
+  identifier: '4.04'
+  localized_concepts:
+    eng: 466e550f-2a7b-460c-b2ce-7d972681c032
+    fra: d4f0d104-6462-4aac-a733-2557dcc6d8f8
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.04'
+status: valid
+id: 587ac357-9310-45d4-aefd-84f843174edf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A series of elements of a measuring instrument or system which constitutes
+      the path of the measurement signal from the input to the output.
+  id: 4.04-eng
+  language_code: eng
+  examples:
+  - content: >-
+      an electro-acoustic measuring chain comprising a microphone, attenuator,
+      filter, amplifier and voltmeter.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring chain
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 466e550f-2a7b-460c-b2ce-7d972681c032
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Suite d'éléments d'un appareil de mesure ou d'un système de mesure qui constitue
+      le chemin du signal de mesure depuis l'entrée jusqu'à la sortie.
+  id: 4.04-fra
+  language_code: fra
+  examples:
+  - content: >-
+      une chaîne de mesure électroacoustique comprenant un microphone, un atténuateur,
+      un filtre, un amplificateur et un voltmètre.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: chaîne de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: d4f0d104-6462-4aac-a733-2557dcc6d8f8

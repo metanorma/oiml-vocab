@@ -1,0 +1,73 @@
+---
+data:
+  identifier: '4.07'
+  localized_concepts:
+    eng: 57b10f67-ccd8-4dd6-a5e1-bc9025620221
+    fra: 30099499-60e8-4ebd-a874-96672065ab1c
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.07'
+status: valid
+id: b8fc95b5-8791-4463-a5bf-01b9ea2fe272
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A measuring instrument which provides a record (permanent or semi-permanent)
+      of the value of a measurand or a related value.
+  id: 4.07-eng
+  language_code: eng
+  notes:
+  - content: The record may be analogue (continuous or discontinuous line) or digital.
+  - content: Values of more than one quantity may be recorded simultaneously.
+  - content: A recording measuring instrument may also incorporate an indicating device.
+  examples:
+  - content: a) barograph;
+  - content: b) thermoluminescent dosimeter.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: recording (measuring) instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 57b10f67-ccd8-4dd6-a5e1-bc9025620221
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Appareil de mesure qui fournit un enregistrement (permanent ou semi-permanent)
+      de la valeur d'une grandeur mesurée ou d'une valeur qui lui est reliée.
+  id: 4.07-fra
+  language_code: fra
+  notes:
+  - content: >-
+      L'enregistrement peut être analogique (ligne continue ou discontinue) ou
+      numérique.
+  - content: Les valeurs de plusieurs grandeurs peuvent être enregistrées simultanément.
+  - content: >-
+      Un appareil de mesure enregistreur peut aussi comporter un dispositif indicateur.
+  examples:
+  - content: a) barographe;
+  - content: b) dosimètre thermoluminescent.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "appareil (de mesure) enregistreur"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 30099499-60e8-4ebd-a874-96672065ab1c

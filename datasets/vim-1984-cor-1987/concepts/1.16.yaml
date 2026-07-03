@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '1.16'
+  localized_concepts:
+    eng: a059d643-f34a-476f-91b4-89e67035cdd2
+    fra: 3a852f9e-f979-48d8-a080-e67b88ddf5b4
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.16'
+status: valid
+id: 7be94749-70ae-48ae-b15e-c9d47597087e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A smaller unit of measurement which is formed from a given unit according
+      to scaling conventions.
+  id: 1.16-eng
+  language_code: eng
+  examples:
+  - content: one of the decimal sub-multiples of the metre is the millimetre.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sub-multiple of a unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a059d643-f34a-476f-91b4-89e67035cdd2
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure plus petite formée à partir d'une unité donnée selon des conventions
+      d'échelonnement.
+  id: 1.16-fra
+  language_code: fra
+  examples:
+  - content: l'un des sous-multiples décimaux du mètre est le millimètre.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "sous-multiple d'une unité (de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3a852f9e-f979-48d8-a080-e67b88ddf5b4

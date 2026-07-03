@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '1.20'
+  localized_concepts:
+    eng: 129b29db-e88a-4114-9a71-e30c53393348
+    fra: e1f345c4-0ed5-475a-87df-970503bd5986
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.20'
+status: valid
+id: 8ec71fc3-c719-450a-aedb-337850e4443c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The number in the value of a quantity.
+  id: 1.20-eng
+  language_code: eng
+  examples:
+  - content: "in the examples in 1.17, the numbers: 5,3; 12; -40."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: numerical value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 129b29db-e88a-4114-9a71-e30c53393348
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le nombre dans la valeur d'une grandeur.
+  id: 1.20-fra
+  language_code: fra
+  examples:
+  - content: "dans les exemples de 1.17, les nombres : 5,3 ; 12 ; -40."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur numérique (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e1f345c4-0ed5-475a-87df-970503bd5986

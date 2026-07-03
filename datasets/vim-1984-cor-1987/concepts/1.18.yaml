@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '1.18'
+  localized_concepts:
+    eng: 025fd3eb-aee1-4440-9837-fc24abb1f3a4
+    fra: b46c5000-acc7-4c50-b903-5f7565b01a99
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.18'
+status: valid
+id: dca4480d-3dd6-4edf-b06a-3fcad3174da3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The value which characterizes a quantity perfectly defined, in the conditions
+      which exist when that quantity is considered.
+  id: 1.18-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The true value of a quantity is an ideal concept and, in general, cannot
+      be known exactly. Indeed, quantum effects may preclude the existence of
+      a unique true value.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: true value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 025fd3eb-aee1-4440-9837-fc24abb1f3a4
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Valeur qui caractérise une grandeur parfaitement définie, dans les conditions
+      qui existent lorsque cette grandeur est considérée.
+  id: 1.18-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La valeur vraie d'une grandeur est une notion idéale et, en général, ne
+      peut être connue exactement. L'existence même d'une unique valeur vraie
+      peut être exclue par effet quantique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur vraie (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b46c5000-acc7-4c50-b903-5f7565b01a99

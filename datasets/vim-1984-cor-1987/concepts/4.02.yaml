@@ -1,0 +1,68 @@
+---
+data:
+  identifier: '4.02'
+  localized_concepts:
+    eng: e92b0a68-2b21-4655-a54f-8dd3fa9c9088
+    fra: 7c757903-55f6-4d94-a392-11ed233bdffd
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.02'
+status: valid
+id: b81804fb-81bd-4722-91f8-50164fb5d1c1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A device intended to reproduce or supply, in a permanent manner during its
+      use, one or more known values of a given quantity.
+  id: 4.02-eng
+  language_code: eng
+  notes:
+  - content: The quantity concerned may be called the supplied quantity.
+  examples:
+  - content: >-
+      a weight; a measure of volume (of one or several values, with or without
+      a scale); an electrical resistor; a gauge block; a standard signal generator.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: material measure
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e92b0a68-2b21-4655-a54f-8dd3fa9c9088
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Dispositif destiné à reproduire ou à fournir, d'une façon permanente pendant
+      son emploi, une ou plusieurs valeurs connues d'une grandeur donnée.
+  id: 4.02-fra
+  language_code: fra
+  notes:
+  - content: Cette grandeur peut être appelée grandeur fournie.
+  examples:
+  - content: >-
+      masse marquée ; mesure de capacité (à une ou plusieurs valeurs, avec ou sans
+      échelle) ; résistance électrique ; cale étalon ; générateur de signaux étalons.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesure matérialisée
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7c757903-55f6-4d94-a392-11ed233bdffd

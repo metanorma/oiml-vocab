@@ -1,0 +1,72 @@
+---
+data:
+  identifier: '3.07'
+  localized_concepts:
+    eng: 88e72fb7-0f9b-45ba-8a8c-be7295122873
+    fra: d1db73b9-1488-4f61-b142-bade1a0b016b
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.07'
+status: valid
+id: 99a56fc3-6f83-493c-ab08-2ae7a6fb3493
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The closeness of the agreement between the results of measurements of the
+      same measurand, where the individual measurements are carried out changing
+      conditions such as: method of measurement, observer, measuring instrument,
+      location, conditions of use, time.
+  id: 3.07-eng
+  language_code: eng
+  notes:
+  - content: A valid statement of reproducibility requires specification of the conditions changed.
+  - content: >-
+      Reproducibility may be expressed quantitatively in terms of the dispersion
+      of the results.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproducibility of measurements
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 88e72fb7-0f9b-45ba-8a8c-be7295122873
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étroitesse de l'accord entre les résultats des mesurages du même mesurande,
+      dans le cas où les mesurages individuels sont effectués en faisant varier
+      les conditions telles que : méthode de mesure, observateur, instrument de
+      mesure, lieu, conditions d'utilisation, temps.
+  id: 3.07-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Pour qu'une expression de la reproductibilité soit valable, il est nécessaire
+      de spécifier les conditions que l'on fait varier.
+  - content: >-
+      La reproductibilité peut s'exprimer quantitativement par une caractéristique
+      de dispersion des résultats.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproductibilité des mesurages
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: d1db73b9-1488-4f61-b142-bade1a0b016b

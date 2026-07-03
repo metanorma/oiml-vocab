@@ -1,0 +1,68 @@
+---
+data:
+  identifier: '3.06'
+  localized_concepts:
+    eng: c94cb967-88d1-4706-b246-1dd3fec820d5
+    fra: e912755e-d477-43a1-8aff-8e24d7aff357
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.06'
+status: valid
+id: c448b6d6-026e-443a-803e-d9c3d761b715
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The closeness of the agreement between the results of successive measurements
+      of the same measurand carried out subject to all of the following conditions:
+      the same method of measurement, the same observer, the same measuring instrument,
+      the same location, the same conditions of use, repetition over a short period
+      of time.
+  id: 3.06-eng
+  language_code: eng
+  notes:
+  - content: Repeatability may be expressed quantitatively in terms of the dispersion of the results.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability of measurements
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c94cb967-88d1-4706-b246-1dd3fec820d5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étroitesse de l'accord entre les résultats des mesurages successifs du même
+      mesurande effectués avec l'application de la totalité des conditions suivantes
+      : même méthode de mesure, même observateur, même instrument de mesure, même
+      lieu, mêmes conditions d'utilisation, répétition sur une courte période de
+      temps.
+  id: 3.06-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La répétabilité peut s'exprimer quantitativement par une caractéristique de
+      dispersion des résultats.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: répétabilité des mesurages
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e912755e-d477-43a1-8aff-8e24d7aff357

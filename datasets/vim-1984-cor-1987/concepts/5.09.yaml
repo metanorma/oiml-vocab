@@ -1,0 +1,70 @@
+---
+data:
+  identifier: '5.09'
+  localized_concepts:
+    eng: e159626d-e493-48da-ae2e-bd9e116c8a3e
+    fra: 5cbc02a6-92b6-4275-8f0f-c7bb78900857
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.09'
+status: valid
+id: 7992f070-4cb4-4c37-beac-31c5bfd98960
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: For defined conditions, the relationship between a stimulus and the corresponding response.
+  id: 5.09-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The relationship may be based on theoretical or experimental considerations;
+      it may be expressed in the form of an algebraic equation, a numerical table
+      or a graph.
+  - content: >-
+      When the stimulus varies as a function of time, one form of the response
+      characteristic is the transfer function (the Laplace transform of the response
+      divided by that of the stimulus).
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: response characteristic
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e159626d-e493-48da-ae2e-bd9e116c8a3e
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "Pour des conditions définies, relation entre un signal d'entrée et la réponse correspondante."
+  id: 5.09-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La relation peut être fondée sur des considérations théoriques ou expérimentales
+      ; elle peut s'exprimer sous forme d'équation algébrique, de tableau numérique
+      ou de graphe.
+  - content: >-
+      Lorsque le signal d'entrée varie en fonction du temps, la fonction de transfert
+      (quotient de la transformée de Laplace du signal de sortie par la transformée
+      de Laplace du signal d'entrée) est une forme de la caractéristique de transfert.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: caractéristique de transfert
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 5cbc02a6-92b6-4275-8f0f-c7bb78900857

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '6.11'
+  localized_concepts:
+    eng: fc8dd206-4cbe-4a6c-a7e4-e83541f94f62
+    fra: 325d7d7c-88fe-4bd4-97f0-3d5dd275b067
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '6.11'
+status: valid
+id: 9bae30cd-8617-4300-9e79-eac2c368a2ac
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A standard, sometimes of special construction, intended for transport between
+      different locations.
+  id: 6.11-eng
+  language_code: eng
+  examples:
+  - content: a portable battery-operated caesium atomic frequency standard.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: travelling standard
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fc8dd206-4cbe-4a6c-a7e4-e83541f94f62
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étalon, parfois de construction spéciale, prévu pour son transport en des
+      lieux différents.
+  id: 6.11-fra
+  language_code: fra
+  examples:
+  - content: étalon atomique de fréquence à césium, portable, fonctionnant sur batterie.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon voyageur
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 325d7d7c-88fe-4bd4-97f0-3d5dd275b067

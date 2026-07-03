@@ -1,0 +1,70 @@
+---
+data:
+  identifier: '5.06'
+  localized_concepts:
+    eng: 00abf698-1a2d-4254-8e88-b7ad4ba490ca
+    fra: d6f8d0b6-201a-45ae-9748-832e6be1c4a2
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.06'
+status: valid
+id: d0611bc2-ed14-4f37-9026-a4086b683bec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The extreme conditions which a measuring instrument can withstand without
+      damage and without degradation of its metrological characteristics when
+      it is subsequently operated under its rated operating conditions.
+  id: 5.06-eng
+  language_code: eng
+  notes:
+  - content: The limiting conditions for storage, transport and operation may be different.
+  - content: >-
+      The limiting conditions generally specify limiting values of the measurand
+      and of the influence quantities.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limiting conditions
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 00abf698-1a2d-4254-8e88-b7ad4ba490ca
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Conditions extrêmes qu'un instrument de mesure peut supporter sans dommage
+      et sans dégradation de ses caractéristiques métrologiques lorsqu'il est
+      ensuite utilisé dans ses conditions assignées de fonctionnement.
+  id: 5.06-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Les conditions limites peuvent être différentes pour le stockage, le transport
+      et le fonctionnement.
+  - content: >-
+      Les conditions limites spécifient généralement des valeurs limites pour
+      la grandeur à mesurer et pour les grandeurs d'influence.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conditions limites
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: d6f8d0b6-201a-45ae-9748-832e6be1c4a2

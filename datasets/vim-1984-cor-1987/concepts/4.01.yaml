@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '4.01'
+  localized_concepts:
+    eng: c0b683ab-c18d-4b1a-bdf1-afdc2d70b949
+    fra: 8f83791d-c6b4-4e99-9db4-b103ec16e385
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.01'
+status: valid
+id: 4156aa41-0431-4ccd-8f89-032b91ce9f9d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A device intended to make a measurement, alone or in conjunction with other
+      equipment.
+  id: 4.01-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c0b683ab-c18d-4b1a-bdf1-afdc2d70b949
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Dispositif destiné à faire un mesurage, seul ou en conjonction avec d'autres
+      équipements.
+  id: 4.01-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le terme instrument de mesure recouvre en français les notions 4.01 et 4.02.
+      Il est d'emploi courant pour la notion 4.01.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "appareil de mesure, appareil mesureur"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8f83791d-c6b4-4e99-9db4-b103ec16e385

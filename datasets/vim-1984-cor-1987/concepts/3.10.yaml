@@ -1,0 +1,75 @@
+---
+data:
+  identifier: '3.10'
+  localized_concepts:
+    eng: 9b509d90-982b-4546-af00-77eff7c7e801
+    fra: 6fd7a2ac-4fbe-4e51-9ff3-ee525debf6a0
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.10'
+status: valid
+id: 6d581195-157e-4ea5-bbc4-50f902b7e78b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The result of a measurement minus the (conventional) true value of the measurand.
+  id: 3.10-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The term relates equally to: the indication, the uncorrected result, the
+      corrected result.
+  - content: >-
+      The known parts of the error of measurement may be compensated by applying
+      appropriate corrections. The error of the corrected result can only be characterized
+      by an uncertainty.
+  - content: >-
+      "Absolute error", which has a sign, should not be confused with absolute
+      value of an error which is the modulus of an error.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: (absolute) error of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9b509d90-982b-4546-af00-77eff7c7e801
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Résultat d'un mesurage moins valeur (conventionnellement) vraie de la grandeur
+      mesurée.
+  id: 3.10-fra
+  language_code: fra
+  notes:
+  - content: "Le terme s'applique également : à l'indication, au résultat brut, au résultat corrigé."
+  - content: >-
+      Les parties connues de l'erreur de mesure peuvent être compensées par l'application
+      de corrections appropriées. L'erreur du résultat corrigé ne peut être caractérisée
+      que par une incertitude.
+  - content: >-
+      Ne pas confondre « erreur absolue » qui est une grandeur algébrique et valeur
+      absolue d'une erreur qui est le module d'une erreur.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur (absolue) de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6fd7a2ac-4fbe-4e51-9ff3-ee525debf6a0

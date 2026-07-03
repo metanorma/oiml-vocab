@@ -1,0 +1,64 @@
+---
+data:
+  identifier: '3.15'
+  localized_concepts:
+    eng: 07f1465c-524b-4299-a27e-370e4063357e
+    fra: 3cb02a43-1ce6-41f3-8a69-e58f1cf637bc
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.15'
+status: valid
+id: c90affab-2cfb-45fb-8c45-4c7dbdc63411
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The numerical factor by which the uncorrected result of a measurement is
+      multiplied to compensate for an assumed systematic error.
+  id: 3.15-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Since the systematic error cannot be known exactly, the correction factor
+      is subject to uncertainty.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction factor
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 07f1465c-524b-4299-a27e-370e4063357e
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Facteur numérique par lequel on multiplie le résultat brut d'un mesurage pour
+      compenser une erreur systématique présumée.
+  id: 3.15-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Puisque l'erreur systématique ne peut être connue exactement, le facteur de
+      correction est entaché d'une incertitude.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur de correction
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3cb02a43-1ce6-41f3-8a69-e58f1cf637bc
