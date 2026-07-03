@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measurement results are displayed by a digital measuring instrument in a digitized form [VIM 4.11]'
+  - content: 'measurement results are displayed by a digital measuring instrument in a digitized form'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '4.11'
   id: 02603-eng
   language_code: eng
   sources: []

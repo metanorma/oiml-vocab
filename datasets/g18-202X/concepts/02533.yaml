@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'value attributed to a particular quantity and accepted, sometimes by convention, as having an uncertainty appropriate for a given purpose [VIM 1.20]'
+  - content: 'value attributed to a particular quantity and accepted, sometimes by convention, as having an uncertainty appropriate for a given purpose'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '1.20'
   id: 02533-eng
   language_code: eng
   sources: []
