@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'indicated value minus a reference quantity value [VIML, 0.04]'
+  - content: 'indicated value minus a reference quantity value'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '0.04'
   id: 03045-eng
   language_code: eng
   sources: []
