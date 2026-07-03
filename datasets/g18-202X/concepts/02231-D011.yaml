@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'influence quantity having a value within the limits specified in the applicable Recommendation but outside the specified rated operating conditions of the measuring instrument [VIML 5.19]'
+  - content: 'influence quantity having a value within the limits specified in the applicable Recommendation but outside the specified rated operating conditions of the measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.19'
   id: 02231-D011-eng
   language_code: eng
   notes:
