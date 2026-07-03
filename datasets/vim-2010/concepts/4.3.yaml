@@ -17,14 +17,13 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: set of quantity values bounded by extreme possible indications
-  examples:
-  - content: '", "99 V to 201 V"."'
+  - content: set of *quantity values* bounded by extreme possible *indications*
+  examples: []
   id: 4.3-eng
   language_code: eng
   notes:
   - content: An indication interval is usually stated in terms of its smallest and
-      greatest quantity values, for
+      greatest quantity values, for example, "stem:[99 "unitsml(V)"] to stem:[201 "unitsml(V)"]".
   - content: In some fields the term is "range of indications".
   terms:
   - type: expression
@@ -39,13 +38,13 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: ensemble des valeurs comprises entre les deux indications extrêmes
+  - content: ensemble des *valeurs* comprises entre les deux *indications* extrêmes
   examples: []
   id: 4.3-fra
   language_code: fra
   notes:
   - content: Un intervalle des indications est généralement exprimé en donnant la
-      plus petite et la plus grande valeur, par exemple « 99 V à 201 V ».
+      plus petite et la plus grande valeur, par exemple « stem:[99 "unitsml(V)"] à stem:[201 "unitsml(V)"] ».
   - content: Dans certains domaines, le terme anglais est « range of indications ».
       En français, le terme « étendue des indications » est parfois employé.
   terms:
@@ -57,3 +56,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 43d8a23a-9e20-4928-9d7f-a60670e861fd
+---

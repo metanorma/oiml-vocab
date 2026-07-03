@@ -21,7 +21,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: average of replicate indications minus a reference quantity value
+  - content: average of replicate *indications* minus a *reference quantity value*
   examples: []
   id: 4.20-eng
   language_code: eng
@@ -39,8 +39,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: erreur de justesse d'un instrument, f différence entre la moyenne d'indications
-      répétées et une valeur de référence
+  - content: différence entre la moyenne d'*indications* répétées et une *valeur de référence*
   examples: []
   id: 4.20-fra
   language_code: fra
@@ -51,6 +50,12 @@ data:
     designation: biais instrumental
     grammar_info:
     - gender: m
+  - type: expression
+    normative_status: admitted
+    designation: erreur de justesse d'un instrument
+    grammar_info:
+    - gender: f
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: fd2348f7-2a36-4ff9-9595-f1269e25722d
+---

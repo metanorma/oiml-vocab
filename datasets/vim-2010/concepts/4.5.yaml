@@ -17,16 +17,15 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: absolute value of the difference between the extreme quantity values
-      of a nominal indication interval
+  - content: absolute value of the difference between the extreme *quantity values*
+      of a *nominal indication interval*
   examples:
-  - content: For a nominal indication interval of −10 V to +10 V, the range of the
-      nominal indication interval is 20 V
+  - content: For a nominal indication interval of stem:[-10 "unitsml(V)"] to stem:[+10 "unitsml(V)"], the range of the
+      nominal indication interval is stem:[20 "unitsml(V)"]
   id: 4.5-eng
   language_code: eng
   notes:
-  - content: Range of a nominal indication interval is sometimes termed "span of a
-      nominal interval".
+  - content: Range of a nominal indication interval is sometimes termed "span of a nominal interval".
   terms:
   - type: expression
     normative_status: preferred
@@ -40,17 +39,17 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: valeur absolue de la différence entre les valeurs extrêmes d'un intervalle
-      nominal des indications
+  - content: valeur absolue de la différence entre les *valeurs* extrêmes d'un *intervalle
+      nominal des indications*
   examples:
-  - content: Pour un intervalle nominal des indications de –10 V à +10 V, l'étendue
-      de mesure est 20 V
+  - content: Pour un intervalle nominal des indications de stem:[-10 "unitsml(V)"] à stem:[+10 "unitsml(V)"], l'étendue
+      de mesure est stem:[20 "unitsml(V)"]
   id: 4.5-fra
   language_code: fra
   notes:
-  - content: En anglais, l'étendue de mesure est quelquefois dénommée « span of a
-      nominal interval ». En français, le terme « intervalle de mesure » est parfois
-      improprement employé.
+  - content: En anglais, l'étendue de mesure est quelquefois dénommée « span
+      of a nominal interval ». En français, le terme « intervalle de mesure » est
+      parfois improprement employé.
   terms:
   - type: expression
     normative_status: preferred
@@ -65,3 +64,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 2566acc1-8f18-4375-9251-fff74c1b70fd
+---
