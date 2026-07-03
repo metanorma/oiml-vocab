@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'conformity assessment procedure (other than type evaluation) which results in the affixing of a verification mark and/or issuing of a verification certificate [VIML 2.09]'
+  - content: 'conformity assessment procedure (other than type evaluation) which results in the affixing of a verification mark and/or issuing of a verification certificate'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '2.09'
   id: 02457-eng
   language_code: eng
   notes:

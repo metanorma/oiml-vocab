@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measured quantity value minus a reference quantity value [VIM 2.16]'
+  - content: 'measured quantity value minus a reference quantity value'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.16'
   id: 02447-eng
   language_code: eng
   notes:
