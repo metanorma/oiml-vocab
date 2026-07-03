@@ -1,0 +1,58 @@
+---
+data:
+  identifier: '5.19'
+  localized_concepts:
+    eng: fc534376-c56f-4310-9168-5aa3a224a85d
+    fra: 278f4d3c-5317-468b-b7a1-153096d5556d
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.19'
+status: valid
+id: fea2679c-daeb-4030-aa7d-f90d8ac2f259
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The time interval between the instant when a stimulus is subjected to a specified
+      abrupt change and the instant when the response reaches and remains within
+      specified limits of its final steady value.
+  id: 5.19-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: response time
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fc534376-c56f-4310-9168-5aa3a224a85d
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Intervalle de temps compris entre le moment où un signal d'entrée subit
+      un changement brusque spécifié et le moment où le signal de sortie atteint,
+      dans des limites spécifiées, sa valeur finale en régime établi et s'y maintient.
+  id: 5.19-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de réponse
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 278f4d3c-5317-468b-b7a1-153096d5556d

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '4.32'
+  localized_concepts:
+    eng: e30cbee8-73ad-42c0-b032-72c6368b82d9
+    fra: c90897b6-4578-4a2b-844b-f810cb586b14
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.32'
+status: valid
+id: 45055c46-1c01-4d84-ab73-21cc70931fa4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The operation of fixing the positions of the gauge marks or scale marks of
+      a measuring instrument (in some cases of certain principal marks only), in
+      relation to the corresponding values of the measurand.
+  id: 4.32-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gauging (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e30cbee8-73ad-42c0-b032-72c6368b82d9
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Positionnement matériel des repères (éventuellement de certains repères principaux
+      seulement) d'un appareil de mesure en fonction des valeurs correspondantes
+      de la grandeur mesurée.
+  id: 4.32-fra
+  language_code: fra
+  notes:
+  - content: "Ne pas confondre « calibrage » et « étalonnage »."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "calibrage (d'un appareil de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c90897b6-4578-4a2b-844b-f810cb586b14

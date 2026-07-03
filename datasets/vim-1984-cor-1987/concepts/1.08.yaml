@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '1.08'
+  localized_concepts:
+    eng: 7d1e9327-48f6-42cd-b295-27cc2d1d6fae
+    fra: edd59312-24b5-4ad1-a04c-0700857346de
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.08'
+status: valid
+id: 95b92005-aa74-4a6c-8a97-ab243779fad4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A set of units established for a given system of quantities.
+  id: 1.08-eng
+  language_code: eng
+  notes:
+  - content: >-
+      A system of units comprises a set of chosen base units, together with derived
+      units determined by their defining equations and proportionality factors.
+  examples:
+  - content: a) International System of Units, SI;
+  - content: b) CGS system of units.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: system of units (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7d1e9327-48f6-42cd-b295-27cc2d1d6fae
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble d'unités établi pour un système de grandeurs donné.
+  id: 1.08-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Un système d'unités comprend un ensemble d'unités de base choisies et d'unités
+      dérivées déterminées par leurs équations de définition et les facteurs de proportionnalité.
+  examples:
+  - content: a) Système international d'unités, SI;
+  - content: b) système d'unités CGS.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "système d'unités (de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: edd59312-24b5-4ad1-a04c-0700857346de

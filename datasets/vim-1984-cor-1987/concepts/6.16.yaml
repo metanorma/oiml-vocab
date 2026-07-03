@@ -1,0 +1,63 @@
+---
+data:
+  identifier: '6.16'
+  localized_concepts:
+    eng: dc31217f-4f96-40fd-8f8a-00a81fdf841c
+    fra: e7b1d455-7bb4-4a60-8755-633ca33c7558
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '6.16'
+status: valid
+id: c5625bcc-14c1-4d11-8b82-ed5c30ea0385
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A reference material one or more of whose property values are certified by
+      a technically valid procedure, accompanied by or traceable to a certificate
+      or other documentation which is issued by a certifying body.
+  id: 6.16-eng
+  language_code: eng
+  notes:
+  - content: This definition is taken from ISO Guide 30-1981.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: certified reference material
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: dc31217f-4f96-40fd-8f8a-00a81fdf841c
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Matériau de référence dont une ou plusieurs valeurs des propriétés sont certifiées
+      par une procédure techniquement valide, ayant un certificat ou un autre document
+      à cet effet, qui l'accompagne ou qui peut lui être rapporté, qui est délivré
+      par un organisme de certification.
+  id: 6.16-fra
+  language_code: fra
+  notes:
+  - content: Cette définition provient du Guide ISO 30-1981.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: matériau de référence certifié
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e7b1d455-7bb4-4a60-8755-633ca33c7558

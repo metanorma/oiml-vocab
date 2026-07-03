@@ -1,0 +1,54 @@
+---
+data:
+  identifier: '5.18'
+  localized_concepts:
+    eng: 1153fbd0-e68c-427c-b553-ab0f12ced023
+    fra: 63d73e3f-6fe8-4c3e-a770-a09d5dfae5c8
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.18'
+status: valid
+id: e8127315-0a86-4abc-9a9f-2700a94b845e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The slow variation with time of a metrological characteristic of a measuring instrument.
+  id: 5.18-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: drift
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1153fbd0-e68c-427c-b553-ab0f12ced023
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Lente variation au cours du temps d'une caractéristique métrologique d'un
+      instrument de mesure.
+  id: 5.18-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dérive
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 63d73e3f-6fe8-4c3e-a770-a09d5dfae5c8

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '5.10'
+  localized_concepts:
+    eng: 7ea22cfe-0661-48fd-a63b-60aebcf0199f
+    fra: 20e5b24e-4eb3-4435-99a4-0194a7ba6d6f
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.10'
+status: valid
+id: c57044bb-4cb6-46ff-86a2-3c4b9c11236e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The change in the response of a measuring instrument divided by the corresponding
+      change in the stimulus.
+  id: 5.10-eng
+  language_code: eng
+  notes:
+  - content: Sensitivity may depend on the value of the stimulus.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensitivity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7ea22cfe-0661-48fd-a63b-60aebcf0199f
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Quotient de l'accroissement de la réponse d'un instrument de mesure par l'accroissement
+      correspondant du signal d'entrée.
+  id: 5.10-fra
+  language_code: fra
+  notes:
+  - content: La sensibilité peut dépendre de la valeur du signal d'entrée.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensibilité
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 20e5b24e-4eb3-4435-99a4-0194a7ba6d6f

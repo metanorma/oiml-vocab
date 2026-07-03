@@ -1,0 +1,71 @@
+---
+data:
+  identifier: '5.31'
+  localized_concepts:
+    eng: 9773265b-9900-4ad3-ae79-69b928633cf7
+    fra: 9ce516c6-73da-499e-9ab6-e106dfafabe7
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.31'
+status: valid
+id: fe543177-483b-4e03-bfed-f925e1c2224f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The ability of a measuring instrument to give, under defined conditions of
+      use, closely similar responses for repeated applications of the same stimulus.
+  id: 5.31-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The defined conditions of use are usually as follows: repetition over a short
+      period of time, use at the same location under constant ambient conditions,
+      reduction to a minimum of the variations due to the observer.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability (of a measuring instrument)
+  - type: expression
+    normative_status: admitted
+    designation: fidelity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9773265b-9900-4ad3-ae79-69b928633cf7
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à donner, dans des conditions d'utilisation
+      définies, des réponses très voisines lors de l'application répétée d'un même
+      signal d'entrée.
+  id: 5.31-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Les conditions d'utilisation définies sont habituellement les suivantes :
+      répétition sur une courte période de temps, utilisation au même lieu dans
+      des conditions ambiantes constantes, réduction au minimum des variations
+      dues à l'observateur.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "fidélité (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9ce516c6-73da-499e-9ab6-e106dfafabe7

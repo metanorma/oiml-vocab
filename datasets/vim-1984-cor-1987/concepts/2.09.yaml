@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '2.09'
+  localized_concepts:
+    eng: e08a63e7-0370-4a2c-8b80-6611bb17f4d2
+    fra: 167b3c99-63cd-4592-a08f-a581fff86b84
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.09'
+status: valid
+id: 7b6f70e8-cec5-4816-982d-ce3692b34776
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A quantity subjected to measurement.
+  id: 2.09-eng
+  language_code: eng
+  notes:
+  - content: As appropriate, this may be the measured quantity or the quantity to be measured.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurand
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e08a63e7-0370-4a2c-8b80-6611bb17f4d2
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur soumise à mesurage.
+  id: 2.09-fra
+  language_code: fra
+  notes:
+  - content: "Ce peut être, selon le cas, la grandeur mesurée ou la grandeur à mesurer."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesurande
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 167b3c99-63cd-4592-a08f-a581fff86b84

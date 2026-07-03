@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '1.15'
+  localized_concepts:
+    eng: dea115f4-7a8a-443a-b15c-baf2e8c5a256
+    fra: 075e6ca2-2df2-4985-9f6f-69a927bb9786
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.15'
+status: valid
+id: 8d78ae9d-a89b-40d5-ab2c-da9386255b2f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A larger unit of measurement which is formed from a given unit according to
+      scaling conventions.
+  id: 1.15-eng
+  language_code: eng
+  examples:
+  - content: a) one of the decimal multiples of the metre is the kilometre;
+  - content: b) one of the non-decimal multiples of the second is the hour.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multiple of a unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: dea115f4-7a8a-443a-b15c-baf2e8c5a256
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure plus grande formée à partir d'une unité donnée selon des conventions
+      d'échelonnement.
+  id: 1.15-fra
+  language_code: fra
+  examples:
+  - content: a) l'un des multiples décimaux du mètre est le kilomètre;
+  - content: b) l'un des multiples non décimaux de la seconde est l'heure.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "multiple d'une unité (de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 075e6ca2-2df2-4985-9f6f-69a927bb9786

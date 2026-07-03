@@ -1,0 +1,58 @@
+---
+data:
+  identifier: '1.07'
+  localized_concepts:
+    eng: e21c8cae-d133-4b7c-9a6b-89fdfd9e0e2f
+    fra: 4d40c810-a3e4-4108-9dfb-4882622a08bf
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.07'
+status: valid
+id: 66c71d41-6621-4b98-9c1d-778d0dd4bb73
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A conventional sign designating a unit of measurement.
+  id: 1.07-eng
+  language_code: eng
+  examples:
+  - content: a) m is the symbol for metre;
+  - content: b) A is the symbol for ampere.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: symbol of a unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e21c8cae-d133-4b7c-9a6b-89fdfd9e0e2f
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Signe conventionnel désignant une unité de mesure.
+  id: 1.07-fra
+  language_code: fra
+  examples:
+  - content: a) m est le symbole du mètre;
+  - content: b) A est le symbole de l'ampère.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "symbole d'une unité (de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4d40c810-a3e4-4108-9dfb-4882622a08bf

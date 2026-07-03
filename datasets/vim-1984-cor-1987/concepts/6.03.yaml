@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '6.03'
+  localized_concepts:
+    eng: 14d94be3-d6f8-40ce-af8d-59774e1c743a
+    fra: 747ebbb4-6aef-42bd-a390-2948d6c905cd
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '6.03'
+status: valid
+id: b56b3c67-edec-4fab-8f23-d6dd038c7a9d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A set of standards of specially chosen values which individually or in suitable
+      combination reproduce a series of values of a quantity over a given range.
+  id: 6.03-eng
+  language_code: eng
+  examples:
+  - content: a) set of weights;
+  - content: b) set of hydrometers covering contiguous ranges of density.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: group standard
+  - type: expression
+    normative_status: admitted
+    designation: series of standards
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 14d94be3-d6f8-40ce-af8d-59774e1c743a
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble d'étalons ayant des valeurs choisies spécialement pour reproduire
+      individuellement ou par combinaison convenable une série de valeurs d'une
+      grandeur sur une étendue donnée.
+  id: 6.03-fra
+  language_code: fra
+  examples:
+  - content: a) boîte de masses marquées;
+  - content: b) jeu d'aréomètres couvrant des étendues contiguës de masses volumiques.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: série d'étalons
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 747ebbb4-6aef-42bd-a390-2948d6c905cd

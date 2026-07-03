@@ -1,0 +1,63 @@
+---
+data:
+  identifier: '3.03'
+  localized_concepts:
+    eng: 01c924eb-7fa4-44ec-b03e-7b4b6683f16e
+    fra: 0de912d8-b08f-48a4-a7da-2eb4533e6e7a
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.03'
+status: valid
+id: 6220b460-254d-4a4b-bedc-7d9eee45941b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The result of a measurement before correction for assumed systematic errors.
+  id: 3.03-eng
+  language_code: eng
+  notes:
+  - content: >-
+      If only a single indication is involved, the uncorrected result is identical
+      to the indication.
+  - content: >-
+      In English, uncorrected result was formerly referred to as indicated value.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: uncorrected result
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 01c924eb-7fa4-44ec-b03e-7b4b6683f16e
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Résultat d'un mesurage avant correction des erreurs systématiques présumées.
+  id: 3.03-fra
+  language_code: fra
+  notes:
+  - content: >-
+      S'il s'agit d'une seule indication, le résultat brut est identique à l'indication.
+  - content: (applicable uniquement au texte anglais)
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: résultat brut
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 0de912d8-b08f-48a4-a7da-2eb4533e6e7a

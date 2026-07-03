@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '5.21'
+  localized_concepts:
+    eng: 6da1ef21-6117-4539-a694-910ba8eed835
+    fra: 9596263f-6336-4276-9945-bb9aa2c58778
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.21'
+status: valid
+id: a8a48537-d221-42bb-9df1-012b24ca4c8e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The ability of a measuring instrument to give indications approaching the
+      true value of a measurand.
+  id: 5.21-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy of a measuring instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6da1ef21-6117-4539-a694-910ba8eed835
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à donner des indications proches de la
+      valeur vraie d'une grandeur mesurée.
+  id: 5.21-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: exactitude d'un instrument de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9596263f-6336-4276-9945-bb9aa2c58778

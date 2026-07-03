@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '5.32'
+  localized_concepts:
+    eng: d879b5d8-32df-413b-9911-bd7798bd44e6
+    fra: f175e63b-7150-4a28-aac0-f9cc4e075c84
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.32'
+status: valid
+id: 82fbb2fa-ff2b-4b11-93f6-45a535b2841d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The error of a measuring instrument divided by a value specified for the instrument.
+  id: 5.32-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The specified value is generally called the fiducial value, and may be, for
+      example, the span or the upper limit of the nominal range of the measuring
+      instrument.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fiducial error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: d879b5d8-32df-413b-9911-bd7798bd44e6
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rapport de l'erreur d'un instrument de mesure à une valeur spécifiée pour l'instrument.
+  id: 5.32-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La valeur spécifiée est généralement appelée valeur conventionnelle (de référence)
+      et peut être, par exemple, l'intervalle de mesure ou la limite supérieure
+      du calibre de l'instrument de mesure.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur réduite conventionnelle (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f175e63b-7150-4a28-aac0-f9cc4e075c84

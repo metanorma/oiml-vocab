@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '3.05'
+  localized_concepts:
+    eng: 12fc23ce-3bbb-431d-acdb-c6e8f4a0440b
+    fra: 27ade2b2-5b96-47b9-9f8a-f17171e64ae0
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.05'
+status: valid
+id: 834c08b1-9d61-4cae-a618-aa10e9ccad07
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The closeness of the agreement between the result of a measurement and the
+      (conventional) true value of the measurand.
+  id: 3.05-eng
+  language_code: eng
+  notes:
+  - content: The use of the term precision for accuracy should be avoided.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 12fc23ce-3bbb-431d-acdb-c6e8f4a0440b
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étroitesse de l'accord entre le résultat d'un mesurage et la valeur (conventionnellement)
+      vraie de la grandeur mesurée.
+  id: 3.05-fra
+  language_code: fra
+  notes:
+  - content: L'emploi du terme précision au lieu d'exactitude doit être évité.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: exactitude de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 27ade2b2-5b96-47b9-9f8a-f17171e64ae0

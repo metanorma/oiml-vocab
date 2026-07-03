@@ -1,0 +1,65 @@
+---
+data:
+  identifier: '1.14'
+  localized_concepts:
+    eng: fe8d2f55-ef3c-41f8-835b-ada4f3fbbed4
+    fra: ee410042-8bcd-4ce2-b37b-fa9f53126050
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.14'
+status: valid
+id: 60a27af1-5047-4dae-bc58-cb4a6046d18f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A unit of measurement which does not belong to a given system of units.
+  id: 1.14-eng
+  language_code: eng
+  examples:
+  - content: >-
+      a) the electronvolt (1,60219 × 10^-19 J) is an off-system unit of energy
+      with respect to the SI;
+  - content: b) day, hour, minute are off-system units of time with respect to the SI.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: off-system unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fe8d2f55-ef3c-41f8-835b-ada4f3fbbed4
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure qui n'appartient pas à un système d'unités donné.
+  id: 1.14-fra
+  language_code: fra
+  examples:
+  - content: >-
+      a) l'électronvolt (1,60219 × 10^-19 J) est une unité d'énergie hors système
+      pour le SI;
+  - content: >-
+      b) le jour, l'heure, la minute sont des unités de temps hors système pour
+      le SI.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) hors système"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ee410042-8bcd-4ce2-b37b-fa9f53126050

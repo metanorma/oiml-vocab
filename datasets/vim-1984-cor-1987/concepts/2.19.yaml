@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '2.19'
+  localized_concepts:
+    eng: a0cfc9df-0e37-4e59-85e5-31bca9ea5da6
+    fra: 579a72af-62d7-4730-ad52-6ddde8e6abb2
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.19'
+status: valid
+id: a2a6bd28-9843-4b8c-95b0-ac5b2f2a377b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A method of measurement in which the measurand is compared with a quantity
+      of the same kind, of known value only slightly different from the value of
+      the measurand, and in which the difference between the two values is measured.
+  id: 2.19-eng
+  language_code: eng
+  examples:
+  - content: measurement of the diameter of a piston by means of gauge blocks and a comparator.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: differential method of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a0cfc9df-0e37-4e59-85e5-31bca9ea5da6
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Méthode de mesure dans laquelle la grandeur à mesurer est comparée à une grandeur
+      de même nature de valeur connue peu différente de celle de la grandeur à mesurer,
+      et dans laquelle la différence entre les deux valeurs est mesurée.
+  id: 2.19-fra
+  language_code: fra
+  examples:
+  - content: mesurage du diamètre d'un piston au moyen de cales étalon et d'un comparateur.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: méthode de mesure différentielle
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 579a72af-62d7-4730-ad52-6ddde8e6abb2

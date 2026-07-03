@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '2.08'
+  localized_concepts:
+    eng: 25f8f481-c5cb-485d-82bc-046ad3c8e7d5
+    fra: 04156e7c-bd1a-4532-9d4b-d8d52284dff3
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.08'
+status: valid
+id: c4d8cf07-5deb-4488-a1f1-997aa33f27bd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: All the information, equipment and operations relevant to a given measurement.
+  id: 2.08-eng
+  language_code: eng
+  notes:
+  - content: >-
+      This concept embraces all aspects relating to the performance and quality
+      of the measurement; it includes for example the principle, method, procedure,
+      values of the influence quantities and the measurement standards.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement process
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 25f8f481-c5cb-485d-82bc-046ad3c8e7d5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Totalité des informations, équipements et opérations relatifs à un mesurage donné.
+  id: 2.08-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Ce concept recouvre tous les aspects relatifs à l'exécution et à la qualité
+      du mesurage ; il comprend par exemple le principe, la méthode, le mode opératoire,
+      les valeurs des grandeurs d'influence et les étalons.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: processus de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 04156e7c-bd1a-4532-9d4b-d8d52284dff3

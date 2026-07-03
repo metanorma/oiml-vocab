@@ -1,0 +1,54 @@
+---
+data:
+  identifier: '1.11'
+  localized_concepts:
+    eng: e5dbb0a8-56ce-438a-b832-49c61b671733
+    fra: 5dc15329-ae27-4643-b67d-daafd6f1668b
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.11'
+status: valid
+id: c71cbb2a-7260-4c01-a4a0-c31f742a3238
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A unit of measurement of a base quantity in a given system of quantities.
+  id: 1.11-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e5dbb0a8-56ce-438a-b832-49c61b671733
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure d'une grandeur de base dans un système donné de grandeurs.
+  id: 1.11-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) de base"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 5dc15329-ae27-4643-b67d-daafd6f1668b

@@ -1,0 +1,74 @@
+---
+data:
+  identifier: '5.03'
+  localized_concepts:
+    eng: 6ab910f1-1037-4426-b9ef-500fad29275c
+    fra: 215b0617-eed4-40a6-8f46-1e28d30bd3e8
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.03'
+status: valid
+id: b9db33f9-93cb-4313-9595-a7e4dd8106d9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A value used to designate a characteristic of a device or to give a guide
+      to its intended use.
+  id: 5.03-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The nominal value may be a rounded value of the characteristic concerned
+      and is often an approximate value of the quantity realized by a standard.
+  examples:
+  - content: a) the value marked on a standard resistor;
+  - content: >-
+      b) the value of 1 mol/l designating an acid solution of H+ ion amount-of-substance
+      concentration of 0,998 mol/l.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal value
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6ab910f1-1037-4426-b9ef-500fad29275c
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Valeur utilisée pour désigner une caractéristique d'un dispositif ou pour
+      guider dans son utilisation prévue.
+  id: 5.03-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La valeur nominale peut être une valeur arrondie de la caractéristique concernée
+      et est souvent une valeur approximative de la grandeur réalisée par un étalon.
+  examples:
+  - content: a) la valeur marquée sur une résistance étalon;
+  - content: >-
+      b) la valeur de 1 mol/l désignant une solution acide de concentration en
+      quantité de matière en ions H+ de 0,998 mol/l.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur nominale
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 215b0617-eed4-40a6-8f46-1e28d30bd3e8

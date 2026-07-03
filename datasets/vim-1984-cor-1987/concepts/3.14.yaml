@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '3.14'
+  localized_concepts:
+    eng: 022b806f-086a-4a04-be64-2885a7a1c57d
+    fra: c98d9561-eabc-4dd4-9f57-3ed26ae21835
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '3.14'
+status: valid
+id: d88c4415-bd6a-4992-afe7-2e1ade2a564f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The value which, added algebraically to the uncorrected result of a measurement,
+      compensates for an assumed systematic error.
+  id: 3.14-eng
+  language_code: eng
+  notes:
+  - content: The correction is equal to the assumed systematic error, but of opposite sign.
+  - content: >-
+      Since the systematic error cannot be known exactly, the correction is subject
+      to uncertainty.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 022b806f-086a-4a04-be64-2885a7a1c57d
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Valeur qui, ajoutée algébriquement au résultat brut d'un mesurage, compense
+      une erreur systématique présumée.
+  id: 3.14-fra
+  language_code: fra
+  notes:
+  - content: La correction est égale à l'erreur systématique présumée changée de signe.
+  - content: >-
+      Puisque l'erreur systématique ne peut être connue exactement, la correction
+      est entachée d'une incertitude.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c98d9561-eabc-4dd4-9f57-3ed26ae21835

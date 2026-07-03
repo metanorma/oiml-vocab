@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '2.04'
+  localized_concepts:
+    eng: e695b862-0a08-47ee-901a-e97b17e8ea00
+    fra: 08045078-efde-41b6-abf5-430a71a37b69
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.04'
+status: valid
+id: 39577193-1db9-463e-bd48-58dfbc0d3c92
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The determination of the instantaneous value of a quantity and, where appropriate,
+      its variation with time.
+  id: 2.04-eng
+  language_code: eng
+  notes:
+  - content: The qualifier "dynamic" applies to the measurand and not to the method of measurement.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dynamic measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e695b862-0a08-47ee-901a-e97b17e8ea00
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Détermination de la valeur instantanée d'une grandeur et, le cas échéant,
+      de sa variation dans le temps.
+  id: 2.04-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le qualificatif « dynamique » s'applique à la grandeur à mesurer et non
+      à la méthode de mesure.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesurage dynamique
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 08045078-efde-41b6-abf5-430a71a37b69

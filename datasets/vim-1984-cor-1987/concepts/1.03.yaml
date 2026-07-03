@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '1.03'
+  localized_concepts:
+    eng: c18c6433-d1c2-427d-8a19-2d2bc3bed509
+    fra: c053eab1-1108-46c8-96fb-8acb58ca7f8d
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.03'
+status: valid
+id: ec4c1520-dfb6-4d29-99de-5e8db6eb0b09
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A quantity defined, in a system of quantities, as a function of base quantities
+      of that system.
+  id: 1.03-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: derived quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c18c6433-d1c2-427d-8a19-2d2bc3bed509
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Grandeur définie, dans un système de grandeurs, comme fonction des grandeurs
+      de base de ce système.
+  id: 1.03-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur dérivée
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c053eab1-1108-46c8-96fb-8acb58ca7f8d

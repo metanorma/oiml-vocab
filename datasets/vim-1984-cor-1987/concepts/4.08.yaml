@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '4.08'
+  localized_concepts:
+    eng: 8e56f43d-9af2-478e-a268-faf744d72539
+    fra: 28ca3a4b-6320-4882-803b-a44fd01a6b2b
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.08'
+status: valid
+id: d843a8e5-bf1b-4c18-846e-b679e898f233
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A measuring instrument which determines the value of a measurand by summation
+      of partial values of the measurand obtained simultaneously or consecutively
+      from one or more sources.
+  id: 4.08-eng
+  language_code: eng
+  examples:
+  - content: electrical power summation-meter.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: totalizing (measuring) instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8e56f43d-9af2-478e-a268-faf744d72539
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Appareil de mesure qui détermine la valeur d'une grandeur à mesurer en faisant
+      la somme de valeurs partielles de cette grandeur obtenues simultanément ou
+      consécutivement d'une ou de plusieurs sources.
+  id: 4.08-fra
+  language_code: fra
+  examples:
+  - content: appareil de mesure totalisateur de puissance électrique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "appareil (de mesure) totalisateur"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 28ca3a4b-6320-4882-803b-a44fd01a6b2b

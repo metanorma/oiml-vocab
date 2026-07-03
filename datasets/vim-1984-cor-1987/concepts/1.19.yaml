@@ -1,0 +1,76 @@
+---
+data:
+  identifier: '1.19'
+  localized_concepts:
+    eng: cb52c9c8-8a77-4cce-9256-eff59dd7b9ae
+    fra: dc69ccf4-1f8c-4a93-b5dd-be73778d2224
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.19'
+status: valid
+id: 7047c9f0-e190-454a-b469-0ddf7a8368d3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A value of a quantity which, for a given purpose, may be substituted for
+      the true value.
+  id: 1.19-eng
+  language_code: eng
+  notes:
+  - content: >-
+      A conventional true value is, in general, regarded as sufficiently close
+      to the true value for the difference to be insignificant for the given
+      purpose.
+  examples:
+  - content: >-
+      within an organization, the value assigned to a reference standard may
+      be taken as the conventional true value of the quantity realized by the
+      standard.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conventional true value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: cb52c9c8-8a77-4cce-9256-eff59dd7b9ae
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Valeur d'une grandeur qui peut être substituée à la valeur vraie dans un
+      but déterminé.
+  id: 1.19-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Une valeur conventionnellement vraie est, en général, considérée comme
+      suffisamment proche de la valeur vraie pour que la différence puisse être
+      non significative pour le but donné.
+  examples:
+  - content: >-
+      au sein d'une organisation, la valeur attribuée à un étalon de référence
+      peut être prise comme étant la valeur conventionnellement vraie de la
+      grandeur réalisée par l'étalon.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur conventionnellement vraie (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: dc69ccf4-1f8c-4a93-b5dd-be73778d2224

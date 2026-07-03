@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '2.18'
+  localized_concepts:
+    eng: 7a3eebe2-f17d-4a86-9827-6e41138dd765
+    fra: 8758531a-ec5e-4b21-8c54-c89c3f010526
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.18'
+status: valid
+id: a41cc7ab-fbb3-48cd-b227-e879e5f9b4e2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A method of measurement in which the measurand is replaced by a quantity of
+      the same kind, of known value, and chosen so that the effects on the indicating
+      device are the same.
+  id: 2.18-eng
+  language_code: eng
+  examples:
+  - content: >-
+      determination of a mass by means of a balance and known masses using the
+      Borda substitution method.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: substitution method of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7a3eebe2-f17d-4a86-9827-6e41138dd765
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Méthode de mesure dans laquelle la grandeur à mesurer est remplacée par une
+      grandeur de même nature, de valeur connue, choisie de telle manière que les
+      effets sur le dispositif indicateur soient les mêmes.
+  id: 2.18-fra
+  language_code: fra
+  examples:
+  - content: >-
+      détermination d'une masse au moyen d'une balance et de masses marquées connues,
+      par la méthode de substitution de Borda.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: méthode de mesure par substitution
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8758531a-ec5e-4b21-8c54-c89c3f010526

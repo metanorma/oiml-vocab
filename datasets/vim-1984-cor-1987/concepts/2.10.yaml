@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '2.10'
+  localized_concepts:
+    eng: 1624e1cc-941e-4d8c-b7eb-f3e2446276cc
+    fra: 4a7b527a-498a-4d18-9da7-e3a2bf888a57
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.10'
+status: valid
+id: 8a59880a-540b-4dc3-9309-958eb40a5b4d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring instrument.
+  id: 2.10-eng
+  language_code: eng
+  examples:
+  - content: ambient temperature;
+  - content: frequency of an alternating measured voltage.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1624e1cc-941e-4d8c-b7eb-f3e2446276cc
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Grandeur qui ne fait pas l'objet du mesurage mais qui influe sur la valeur
+      du mesurande ou sur les indications de l'instrument de mesure.
+  id: 2.10-fra
+  language_code: fra
+  examples:
+  - content: température ambiante;
+  - content: fréquence d'une tension électrique alternative mesurée.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4a7b527a-498a-4d18-9da7-e3a2bf888a57

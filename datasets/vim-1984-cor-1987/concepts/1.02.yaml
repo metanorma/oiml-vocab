@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '1.02'
+  localized_concepts:
+    eng: bd9a60ea-3622-49d4-8fab-4d314fbf6bc3
+    fra: fbf6c02a-6d71-4aad-a21b-ec331ebee308
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.02'
+status: valid
+id: 5a681f6a-87af-49f5-a7f1-05d3b7dfbc03
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      One of the quantities which, in a system of quantities, are conventionally
+      accepted as independent of each other.
+  id: 1.02-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: bd9a60ea-3622-49d4-8fab-4d314fbf6bc3
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      L'une des grandeurs qui, dans un système de grandeurs, sont admises par convention
+      comme étant indépendantes les unes des autres.
+  id: 1.02-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur de base
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fbf6c02a-6d71-4aad-a21b-ec331ebee308

@@ -1,0 +1,70 @@
+---
+data:
+  identifier: '1.12'
+  localized_concepts:
+    eng: 721b69db-fca3-4fc3-bef9-092bddfe4786
+    fra: 4e873901-2ad5-4433-abe7-e16c3d4d40a8
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.12'
+status: valid
+id: e09579aa-3074-4c07-bc80-369578d7871c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A unit of measurement of a derived quantity in a given system of quantities.
+  id: 1.12-eng
+  language_code: eng
+  notes:
+  - content: >-
+      In a given system of units, a derived unit can be expressed in terms of base
+      units and proportionality factors.
+  - content: >-
+      Some derived units have special names and symbols; for example, in the SI:
+      newton (N), unit of force; joule (J), unit of energy; volt (V), unit of
+      electric potential.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: derived unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 721b69db-fca3-4fc3-bef9-092bddfe4786
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure d'une grandeur dérivée dans un système donné de grandeurs.
+  id: 1.12-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Dans un système donné d'unités, une unité dérivée peut être exprimée en fonction
+      d'unités de base et de facteurs de proportionnalité.
+  - content: >-
+      Pour certaines unités dérivées, il existe des noms et des symboles spéciaux
+      ; par exemple dans le SI : newton (N), unité de force ; joule (J), unité
+      d'énergie ; volt (V), unité de potentiel électrique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) dérivée"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4e873901-2ad5-4433-abe7-e16c3d4d40a8

@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '4.27'
+  localized_concepts:
+    eng: 63f35c78-7986-42da-97c2-16a59f80586f
+    fra: 181c0a05-da80-4001-87d3-6f98b1ded2d6
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.27'
+status: valid
+id: 4165d5c5-a6c2-41b8-a9eb-cf99240dfff3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A scale whose scale range does not include the scale value corresponding to
+      zero value of the measurand.
+  id: 4.27-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: suppressed-zero scale
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 63f35c78-7986-42da-97c2-16a59f80586f
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Échelle dont l'étendue d'échelle ne comporte pas la valeur d'échelle correspondant
+      à la valeur nulle de la grandeur à mesurer.
+  id: 4.27-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échelle à zéro décalé
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 181c0a05-da80-4001-87d3-6f98b1ded2d6

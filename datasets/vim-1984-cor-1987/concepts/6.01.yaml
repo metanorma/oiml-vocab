@@ -1,0 +1,76 @@
+---
+data:
+  identifier: '6.01'
+  localized_concepts:
+    eng: c144d8b7-54e3-44cc-bef6-5c4749bf4490
+    fra: 39729d00-e6d9-4447-a599-3d5eaf1fa673
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '6.01'
+status: valid
+id: ffa682ad-e84c-4b1e-89e5-f4b00e5a77bc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A material measure, measuring instrument or system intended to define, realize,
+      conserve or reproduce a unit or one or more known values of a quantity in
+      order to transmit them to other measuring instruments by comparison.
+  id: 6.01-eng
+  language_code: eng
+  examples:
+  - content: a) 1 kg mass standard;
+  - content: b) standard gauge block;
+  - content: c) 100 Ω standard resistor;
+  - content: d) saturated Weston standard cell;
+  - content: e) standard ammeter;
+  - content: f) caesium atomic frequency standard.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement standard
+  - type: expression
+    normative_status: admitted
+    designation: etalon
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c144d8b7-54e3-44cc-bef6-5c4749bf4490
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Mesure matérialisée, appareil de mesure ou système de mesure destiné à définir,
+      réaliser, conserver ou reproduire une unité ou une ou plusieurs valeurs connues
+      d'une grandeur pour les transmettre par comparaison à d'autres instruments
+      de mesure.
+  id: 6.01-fra
+  language_code: fra
+  examples:
+  - content: a) étalon de masse de 1 kg;
+  - content: b) cale étalon;
+  - content: c) résistance étalon de 100 Ω;
+  - content: d) pile étalon saturée de Weston;
+  - content: e) ampèremètre étalon;
+  - content: f) étalon atomique de fréquence à césium.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 39729d00-e6d9-4447-a599-3d5eaf1fa673

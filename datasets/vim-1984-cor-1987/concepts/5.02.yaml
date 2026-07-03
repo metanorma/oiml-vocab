@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '5.02'
+  localized_concepts:
+    eng: 44fc4eca-9646-4d88-abad-6a5bcf6efea5
+    fra: 92c6e2dc-5ab8-4687-9b5c-b42a3dc0cddb
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.02'
+status: valid
+id: 897b4871-67f6-4822-ab7d-18871e325788
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The modulus of the difference between the two limits of a nominal range of
+      a measuring instrument.
+  id: 5.02-eng
+  language_code: eng
+  examples:
+  - content: 'nominal range -10 V to +10 V: span 20 V.'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: span
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 44fc4eca-9646-4d88-abad-6a5bcf6efea5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Module de la différence entre les deux limites d'un calibre d'un instrument
+      de mesure.
+  id: 5.02-fra
+  language_code: fra
+  examples:
+  - content: 'calibre -10 V à +10 V : intervalle de mesure 20 V.'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intervalle de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 92c6e2dc-5ab8-4687-9b5c-b42a3dc0cddb

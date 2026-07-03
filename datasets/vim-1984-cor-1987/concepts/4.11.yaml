@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '4.11'
+  localized_concepts:
+    eng: cddb8fee-05be-429c-a7a5-c55ea7c87812
+    fra: 8ac8e4ea-8f14-43d9-b38b-dd50a04d3827
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.11'
+status: valid
+id: e227a4cc-83b5-43fa-aa23-17e5bef38068
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A measuring instrument which provides a digitized output and/or display.
+  id: 4.11-eng
+  language_code: eng
+  notes:
+  - content: >-
+      This term relates to the form of presentation of the output or display, not
+      to the principle of operation of the instrument.
+  examples:
+  - content: digital voltmeter.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: digital measuring instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: cddb8fee-05be-429c-a7a5-c55ea7c87812
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Appareil de mesure qui fournit un signal de sortie ou un affichage sous forme
+      numérique.
+  id: 4.11-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Ce terme s'applique à la forme de présentation des signaux de sortie ou de
+      l'affichage, non au principe de fonctionnement de l'instrument.
+  examples:
+  - content: voltmètre numérique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "appareil de mesure (à affichage) numérique"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8ac8e4ea-8f14-43d9-b38b-dd50a04d3827

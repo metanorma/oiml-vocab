@@ -1,0 +1,70 @@
+---
+data:
+  identifier: '4.16'
+  localized_concepts:
+    eng: c00963ac-638c-4e63-9c4d-a1f3e88f9fae
+    fra: 49f71330-6c64-4437-b48c-1d2d6be32485
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.16'
+status: valid
+id: 25c87b52-8c91-41bc-bbca-5993005a48cd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A device or substance which indicates the presence of a particular quantity
+      without necessarily providing its value.
+  id: 4.16-eng
+  language_code: eng
+  notes:
+  - content: >-
+      In some cases, an indication may be produced only when the value of the quantity
+      reaches a given threshold.
+  examples:
+  - content: a) halogen leak detector;
+  - content: b) temperature-sensitive paint.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detector
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c00963ac-638c-4e63-9c4d-a1f3e88f9fae
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Dispositif ou substance qui indique la présence d'une grandeur particulière
+      sans nécessairement donner sa valeur.
+  id: 4.16-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Dans certains cas, on peut n'avoir une indication que lorsque la valeur de
+      la grandeur atteint un seuil donné.
+  examples:
+  - content: a) détecteur de fuite à halogène;
+  - content: b) peinture sensible à la température.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: détecteur
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 49f71330-6c64-4437-b48c-1d2d6be32485

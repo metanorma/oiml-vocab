@@ -1,0 +1,65 @@
+---
+data:
+  identifier: '4.26'
+  localized_concepts:
+    eng: dd6bb0f7-a81e-4f3f-915f-5f340381de96
+    fra: f08e6ed2-0a61-492a-acdb-3429c7214084
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.26'
+status: valid
+id: b58be587-d07c-4c77-84ca-82c41bdf3047
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A scale in which each scale spacing is related to the corresponding scale
+      interval by a coefficient of proportionality which is not constant throughout
+      the scale.
+  id: 4.26-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Some non-linear scales are given special names such as logarithmic scale,
+      square-law scale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: non-linear scale
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: dd6bb0f7-a81e-4f3f-915f-5f340381de96
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Échelle dans laquelle la longueur et la valeur de chaque division sont reliées
+      par un coefficient de proportionnalité non constant le long de l'échelle.
+  id: 4.26-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Certaines échelles non-linéaires possèdent des noms spéciaux tels que échelle
+      logarithmique, échelle quadratique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échelle non-linéaire
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f08e6ed2-0a61-492a-acdb-3429c7214084

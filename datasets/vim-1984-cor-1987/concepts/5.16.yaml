@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '5.16'
+  localized_concepts:
+    eng: 6fb919c4-b6fe-4fb1-88cc-51ebb75bd0c9
+    fra: 437de352-9c00-43a9-9a48-65dfbd48d3e3
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.16'
+status: valid
+id: 7979429c-0a9e-4f8c-a5aa-ed54de855ea9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a measuring instrument to maintain constant its metrological characteristics.
+  id: 5.16-eng
+  language_code: eng
+  notes:
+  - content: >-
+      It is usual to consider stability with respect to time. Where stability with
+      respect to another quantity is considered, this should be stated explicitly.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: stability
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6fb919c4-b6fe-4fb1-88cc-51ebb75bd0c9
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à conserver ses caractéristiques métrologiques
+      constantes.
+  id: 5.16-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La constance est habituellement considérée comme rapportée au temps. Lorsqu'elle
+      est rapportée à une autre grandeur, il est nécessaire de le spécifier explicitement.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: constance
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 437de352-9c00-43a9-9a48-65dfbd48d3e3

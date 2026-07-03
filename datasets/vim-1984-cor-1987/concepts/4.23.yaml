@@ -1,0 +1,64 @@
+---
+data:
+  identifier: '4.23'
+  localized_concepts:
+    eng: 9183bb35-74ab-41ff-af0d-ac69c22ef1d0
+    fra: 64e32fed-f4ed-40ce-8857-2d37616781f8
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.23'
+status: valid
+id: ff59c6a6-e40e-4b0f-9cb7-1891c9a0f379
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The distance between any two successive scale marks measured along the same
+      line as the scale length.
+  id: 4.23-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Scale spacing is expressed in units of length, regardless of the units of
+      the measurand or the units marked on the scale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale spacing
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 9183bb35-74ab-41ff-af0d-ac69c22ef1d0
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Distance entre deux repères successifs quelconques mesurée le long de la
+      même ligne que pour la longueur d'échelle.
+  id: 4.23-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La longueur d'une division est exprimée en unité de longueur, quelle que
+      soit l'unité de la grandeur à mesurer ou l'unité marquée sur l'échelle.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: longueur d'une division
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 64e32fed-f4ed-40ce-8857-2d37616781f8

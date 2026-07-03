@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '2.12'
+  localized_concepts:
+    eng: 50886b58-d60e-442f-8e79-b21f88a79cc0
+    fra: 7823bf35-3c29-446c-92e6-f1ab0a1468b8
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.12'
+status: valid
+id: cfcfba97-1c4b-412e-9e40-022af3161e77
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A representation of a measurand within a measuring system.
+  id: 2.12-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The input signal to a measuring system may be called the stimulus; the
+      output signal may be called the response.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement signal
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 50886b58-d60e-442f-8e79-b21f88a79cc0
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Représentation d'une grandeur à mesurer dans un système de mesure.
+  id: 2.12-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le signal d'entrée d'un système de mesure peut être appelé, en anglais,
+      stimulus. Le signal de sortie peut être appelé réponse.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: signal de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7823bf35-3c29-446c-92e6-f1ab0a1468b8

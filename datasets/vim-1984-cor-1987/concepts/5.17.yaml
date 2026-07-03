@@ -1,0 +1,54 @@
+---
+data:
+  identifier: '5.17'
+  localized_concepts:
+    eng: b23c90b8-fb48-4478-9b98-d4b68aacf115
+    fra: eda727c5-564c-4aae-bd6d-110f41b2fab4
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.17'
+status: valid
+id: 4b11f65a-8e14-400d-86dc-de7c296b3897
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a measuring instrument not to affect the value of the measurand.
+  id: 5.17-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transparency
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b23c90b8-fb48-4478-9b98-d4b68aacf115
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à ne pas modifier la valeur de la grandeur
+      mesurée.
+  id: 5.17-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: discrétion
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: eda727c5-564c-4aae-bd6d-110f41b2fab4

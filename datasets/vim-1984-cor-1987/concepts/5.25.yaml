@@ -1,0 +1,57 @@
+---
+data:
+  identifier: '5.25'
+  localized_concepts:
+    eng: aab1d218-f3e0-4eaa-bc4a-3f7dbc22dc45
+    fra: 62c5a9c4-8e09-415d-bd49-c9f30f08fedd
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '5.25'
+status: valid
+id: c12f9ef4-45b0-4840-8ef3-7f997fff0eb9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The error of a measuring instrument at a specified scale value or a specified
+      value of the measurand, chosen for checking the instrument.
+  id: 5.25-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: datum error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: aab1d218-f3e0-4eaa-bc4a-3f7dbc22dc45
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Erreur d'un instrument de mesure pour une valeur d'échelle spécifiée ou pour
+      une valeur spécifiée de la grandeur mesurée, choisie pour le contrôle de
+      l'instrument.
+  id: 5.25-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur au point de contrôle (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 62c5a9c4-8e09-415d-bd49-c9f30f08fedd

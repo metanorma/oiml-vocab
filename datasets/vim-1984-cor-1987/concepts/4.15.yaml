@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '4.15'
+  localized_concepts:
+    eng: d3f64afb-af29-4789-838b-f3e4c9a97df6
+    fra: c3a31d00-cc77-491d-bba2-34998c235c29
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.15'
+status: valid
+id: 6fff9fa8-c132-4973-b26b-72fbba5ea4cf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The element of a measuring instrument or measuring chain to which a measurand
+      is directly applied.
+  id: 4.15-eng
+  language_code: eng
+  examples:
+  - content: a) thermocouple of a thermoelectric thermometer;
+  - content: b) rotor of a turbine flow meter;
+  - content: c) Bourdon tube of a pressure gauge;
+  - content: d) float of a level measuring instrument.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensor
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: d3f64afb-af29-4789-838b-f3e4c9a97df6
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Élément d'un appareil de mesure ou d'une chaîne de mesure auquel est directement
+      appliquée une grandeur à mesurer.
+  id: 4.15-fra
+  language_code: fra
+  examples:
+  - content: a) thermocouple d'un thermomètre thermoélectrique;
+  - content: b) rotor d'un débitmètre à turbine;
+  - content: c) tube Bourdon d'un manomètre;
+  - content: d) flotteur d'un appareil de mesure de niveau.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: capteur
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c3a31d00-cc77-491d-bba2-34998c235c29

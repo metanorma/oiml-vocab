@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '2.05'
+  localized_concepts:
+    eng: 05ea024b-d4da-426f-a110-7f59caa71f1c
+    fra: 7e20a249-3149-47e9-ba40-abe69321f052
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '2.05'
+status: valid
+id: 63260300-12a4-4623-80c4-6e59ed2bc482
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The scientific basis of a method of measurement.
+  id: 2.05-eng
+  language_code: eng
+  examples:
+  - content: a) the thermoelectric effect applied to the measurement of temperature;
+  - content: b) the Josephson effect applied to the measurement of voltage;
+  - content: c) the Doppler effect applied to the measurement of velocity.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: principle of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 05ea024b-d4da-426f-a110-7f59caa71f1c
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Base scientifique d'une méthode de mesure.
+  id: 2.05-fra
+  language_code: fra
+  examples:
+  - content: a) l'effet thermoélectrique utilisé pour le mesurage de la température;
+  - content: b) l'effet Josephson utilisé pour le mesurage de la tension électrique;
+  - content: c) l'effet Doppler utilisé pour le mesurage de la vitesse.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: principe de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7e20a249-3149-47e9-ba40-abe69321f052

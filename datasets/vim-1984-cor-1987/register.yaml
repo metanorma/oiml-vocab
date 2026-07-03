@@ -1,0 +1,64 @@
+---
+schema_type: glossarist
+schema_version: '3'
+
+id: vim-1984-cor-1987
+ref: "OIML V 2:1984/Cor.1:1987"
+refAliases:
+  - "ISO Guide 99:1984/Cor.1:1987"
+year: 1987
+urn: "urn:oiml:pub:v:2:1984:cor:1:1987"
+urnAliases:
+  - "urn:oiml:pub:v:2:1984:cor:1:1987*"
+status: superseded
+supersedes: vim-1984
+
+owner: OIML
+sourceRepo: https://github.com/oimlsmart/vocab
+tags:
+  - metrology
+  - oiml
+  - vocabulary
+
+languages:
+  - eng
+  - fra
+languageOrder:
+  - eng
+  - fra
+
+ordering: systematic
+
+description:
+  eng: "Corrigendum (Cor.1:1987) to the first edition of the International Vocabulary of Basic and General Terms in Metrology (VIM V 2:1984). The corrigendum modifies 3 concepts (1.01 quantity — Note 2 extended with 'also called quantities of the same kind'; 4.10 analogue measuring instrument — definition 'output or display' changed to 'output and/or display'; 5.23 limits of error — preferred designation extended to 'limits of (permissible) error'). The remaining 135 concepts are textually identical to V 2:1984 and are linked via 'equivalent' edges. Superseded by the 1993 second edition."
+  fra: "Corrigendum (Cor.1:1987) de la première édition du Vocabulaire international des termes fondamentaux et généraux de métrologie (VIM V 2:1984). Le corrigendum modifie 3 concepts (1.01 grandeur — Note 2 complétée par « aussi appelées grandeurs de même nature » ; 4.10 appareil de mesure analogique — définition « signal de sortie ou affichage » inchangée en français ; 5.23 limites d'erreur — la désignation préférentielle anglaise devient « limits of (permissible) error »). Les 135 autres concepts sont identiques textuellement à V 2:1984 et sont reliés par des liens « equivalent ». Remplacée par la deuxième édition de 1993."
+
+about:
+  eng: about-eng.md
+  fra: about-fra.md
+
+sections:
+  - id: "1"
+    names:
+      eng: "Quantities and units"
+      fra: "Grandeurs et unités"
+  - id: "2"
+    names:
+      eng: "Measurements"
+      fra: "Mesurages"
+  - id: "3"
+    names:
+      eng: "Measurement results"
+      fra: "Résultats de mesure"
+  - id: "4"
+    names:
+      eng: "Measuring instruments"
+      fra: "Instruments de mesure"
+  - id: "5"
+    names:
+      eng: "Characteristics of measuring instruments"
+      fra: "Caractéristiques des instruments de mesure"
+  - id: "6"
+    names:
+      eng: "Measurement standards (Etalons)"
+      fra: "Étalons"

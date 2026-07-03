@@ -1,0 +1,73 @@
+---
+data:
+  identifier: '1.21'
+  localized_concepts:
+    eng: ebfe258b-73a5-4db0-84c9-866e79ed54c6
+    fra: edc14a55-354d-47a7-aeb0-f353bb345973
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984:cor:1:1987
+    ref_type: section
+related:
+- type: equivalent
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '1.21'
+status: valid
+id: 829bec94-c171-484a-a142-581ea9e3c948
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      For a given quantity or property, a series of values determined in a defined
+      manner and adopted by convention.
+  id: 1.21-eng
+  language_code: eng
+  examples:
+  - content: >-
+      a) the International Practical Temperature Scale based on the freezing
+      and boiling points of a series of specified pure substances and on the
+      use of specified measuring instruments and interpolation formulae;
+  - content: b) the Mohs hardness scale based on the hardnesses of a series of specified minerals;
+  - content: c) the Richter earthquake scale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference-value scale (of a quantity or property)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ebfe258b-73a5-4db0-84c9-866e79ed54c6
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Série de valeurs d'une grandeur ou d'une propriété donnée, déterminées
+      d'une manière définie et adoptées par convention.
+  id: 1.21-fra
+  language_code: fra
+  examples:
+  - content: >-
+      a) l'Échelle internationale pratique de température fondée sur les
+      températures de fusion et d'ébullition d'une série de corps purs spécifiés
+      et sur l'utilisation d'instruments de mesure et de formules d'interpolation
+      spécifiés;
+  - content: >-
+      b) l'échelle de dureté de Mohs, fondée sur les duretés d'une série de
+      minéraux spécifiés;
+  - content: c) l'échelle de Richter pour les séismes.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "échelle de repérage (d'une grandeur ou d'une propriété)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: edc14a55-354d-47a7-aeb0-f353bb345973
