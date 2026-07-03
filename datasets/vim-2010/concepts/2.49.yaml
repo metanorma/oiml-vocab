@@ -17,20 +17,20 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: function of quantities, the value of which, when calculated using known
-      quantity values for the input quantities in a measurement model, is a measured
-      quantity value of the output quantity in the measurement model
+  - content: function of *quantities*, the value of which, when calculated using known
+      *quantity values* for the *input quantities in a measurement model*, is
+      a *measured quantity value* of the *output quantity in the measurement model*
   examples: []
   id: 2.49-eng
   language_code: eng
   notes:
-  - content: If a measurement model h(Y , X1 , … , Xn) = 0 can explicitly be written
-      as Y = f (X1, … , Xn), where Y is the output quantity in the measurement model,
-      the function f is the measurement function. More generally, f may symbolize
-      an algorithm, yielding for input quantity values x1, … , xn a corresponding
-      unique output quantity value y = f (x1, … , xn).
-  - content: A measurement function is also used to calculate the measurement uncertainty
-      associated with the measured quantity value of Y.
+  - content: If a *measurement model* stem:[h(Y, X_1, ..., X_n) = 0] can explicitly be written
+      as stem:[Y = f (X_1, ..., X_n)], where stem:[Y] is the output quantity in the measurement model,
+      the function stem:[f] is the measurement function. More generally, stem:[f] may symbolize
+      an algorithm, yielding for input quantity values stem:[x_1, ..., x_n] a corresponding
+      unique output quantity value stem:[y = f (x_1, ..., x_n)].
+  - content: A measurement function is also used to calculate the *measurement uncertainty*
+      associated with the measured quantity value of stem:[Y].
   terms:
   - type: expression
     normative_status: preferred
@@ -44,20 +44,21 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: fonction de grandeurs, dont la valeur, lorsqu’elle est calculée en utilisant
-      des valeurs connues pour les grandeurs d'entrée dans le modèle de mesure, est
-      une valeur mesurée de la grandeur de sortie dans le modèle de mesure
+  - content: fonction de *grandeurs*, dont la valeur, lorsqu'elle est calculée en
+      utilisant des *valeurs* connues pour les *grandeurs d'entrée dans le modèle
+      de mesure*, est une *valeur mesurée* de la *grandeur de sortie dans le modèle
+      de mesure*
   examples: []
   id: 2.49-fra
   language_code: fra
   notes:
-  - content: Si un modèle de mesure h(Y , X1 , … , Xn) = 0 peut être écrit explicitement
-      sous la forme Y = f (X1, … , Xn), où Y est la grandeur de sortie dans le modèle
-      de mesure, la fonction f est la fonction de mesure. Plus généralement, f peut
-      symboliser un algorithme qui fournit, pour les valeurs d’entrée x1, … , xn,
-      une valeur de sortie unique correspondante y = f (x1, … , xn).
-  - content: On utilise aussi une fonction de mesure pour calculer l’incertitude de
-      mesure associée à la valeur mesurée de Y.
+  - content: Si un *modèle de mesure* stem:[h(Y, X_1, ..., X_n) = 0] peut être écrit explicitement
+      sous la forme stem:[Y = f (X_1, ..., X_n)], où stem:[Y] est la grandeur de sortie dans le modèle
+      de mesure, la fonction stem:[f] est la fonction de mesure. Plus généralement, stem:[f] peut
+      symboliser un algorithme qui fournit, pour les valeurs d'entrée stem:[x_1, ..., x_n],
+      une valeur de sortie unique correspondante stem:[y = f (x_1, ..., x_n)].
+  - content: On utilise aussi une fonction de mesure pour calculer l'*incertitude de mesure*
+      associée à la valeur mesurée de stem:[Y].
   terms:
   - type: expression
     normative_status: preferred
@@ -67,3 +68,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: '08b36937-c986-4ed1-876f-493ab6158761'
+---

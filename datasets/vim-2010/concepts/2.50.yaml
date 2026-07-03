@@ -17,9 +17,9 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: quantity that must be measured, or a quantity, the value of which can
-      be otherwise obtained, in order to calculate a measured quantity value of a
-      measurand
+  - content: "*quantity* that must be measured, or a quantity, the *value* of which
+      can be otherwise obtained, in order to calculate a *measured quantity value*
+      of a *measurand*"
   examples:
   - content: When the length of a steel rod at a specified temperature is the measurand,
       actual temperature, the length at that actual temperature, and the linear thermal
@@ -28,9 +28,9 @@ data:
   language_code: eng
   notes:
   - content: An input quantity in a measurement model often is an output quantity
-      of a measuring system.
-  - content: Indications, corrections, and influence quantities can be input quantities
-      in a measurement model.
+      of a *measuring system*.
+  - content: "*Indications*, *corrections*, and *influence quantities* can be input
+      quantities in a measurement model."
   terms:
   - type: expression
     normative_status: preferred
@@ -47,20 +47,20 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: grandeur qui doit être mesurée, ou grandeur dont la valeur peut être
-      obtenue autrement, pour calculer une valeur mesurée d’un mesurande
+  - content: "*grandeur* qui doit être mesurée, ou grandeur dont la *valeur* peut
+      être obtenue autrement, pour calculer une *valeur mesurée* d'un *mesurande*"
   examples:
   - content: Lorsque le mesurande est la longueur d'une tige d'acier à une température
       spécifiée, la température réelle, la longueur à la température réelle et le
-      coefficient de dilatation thermique linéique de la tige sont des grandeurs d’entrée
+      coefficient de dilatation thermique linéique de la tige sont des grandeurs d'entrée
       dans un modèle de mesure.
   id: 2.50-fra
   language_code: fra
   notes:
   - content: Une grandeur d'entrée dans un modèle de mesure est souvent une grandeur
-      de sortie d’un système de mesure.
-  - content: Les indications, les corrections et les grandeurs d'influence sont des
-      grandeurs d'entrée dans un modèle de mesure.
+      de sortie d'un *système de mesure*.
+  - content: Les *indications*, les *corrections* et les *grandeurs d'influence* sont
+      des grandeurs d'entrée dans un modèle de mesure.
   terms:
   - type: expression
     normative_status: preferred
@@ -75,3 +75,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 361a19f2-8bab-4a40-976a-58c173ea9711
+---

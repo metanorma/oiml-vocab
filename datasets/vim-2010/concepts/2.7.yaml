@@ -17,10 +17,10 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: measurement procedure accepted as providing measurement results fit for
-      their intended use in assessing measurement trueness of measured quantity values
-      obtained from other measurement procedures for quantities of the same kind,
-      in calibration, or in characterizing reference materials.
+  - content: "*measurement procedure* accepted as providing *measurement results*
+      fit for their intended use in assessing *measurement trueness* of *measured
+      quantity values* obtained from other measurement procedures for *quantities*
+      of the same *kind*, in *calibration*, or in characterizing *reference materials*."
   examples: []
   id: 2.7-eng
   language_code: eng
@@ -38,11 +38,10 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: procédure opératoire de référence, f procédure de mesure considérée comme
-      fournissant des résultats de mesure adaptés à leur usage prévu pour l'évaluation
-      de la justesse de valeurs mesurées obtenues à partir d'autres procédures de
-      mesure pour des grandeurs de la même nature, pour un étalonnage ou pour la caractérisation
-      de matériaux de référence.
+  - content: "*procédure de mesure* considérée comme fournissant des *résultats de mesure*
+      adaptés à leur usage prévu pour l'évaluation de la *justesse* de *valeurs mesurées*
+      obtenues à partir d'autres procédures de mesure pour des *grandeurs* de la même
+      *nature*, pour un *étalonnage* ou pour la caractérisation de *matériaux de* référence."
   examples: []
   id: 2.7-fra
   language_code: fra
@@ -53,6 +52,12 @@ data:
     designation: procédure de mesure de référence
     grammar_info:
     - gender: f
+  - type: expression
+    normative_status: preferred
+    designation: procédure opératoire de référence
+    grammar_info:
+    - gender: f
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 5b4d21d1-1432-400a-99ff-c50f237472dc
+---

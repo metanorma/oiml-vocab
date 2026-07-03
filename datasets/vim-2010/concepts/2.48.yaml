@@ -17,16 +17,16 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: mathematical relation among all quantities known to be involved in a
-      measurement
+  - content: mathematical relation among all *quantities* known to be involved in
+      a *measurement*
   examples: []
   id: 2.48-eng
   language_code: eng
   notes:
-  - content: A general form of a measurement model is the equation h(Y , X1 , … ,
-      Xn) = 0 , where Y, the output quantity in the measurement model, is the measurand,
-      the quantity value of which is to be inferred from information about input quantities
-      in the measurement model X1, … , Xn.
+  - content: A general form of a measurement model is the equation stem:[h(Y, X_1, ..., X_n) = 0],
+      where stem:[Y], the *output quantity in the measurement model*, is the
+      *measurand*, the *quantity value* of which is to be inferred from information
+      about *input quantities in the measurement model* stem:[X_1, ..., X_n].
   - content: In more complex cases where there are two or more output quantities in
       a measurement model, the measurement model consists of more than one equation.
   terms:
@@ -48,18 +48,18 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: relation mathématique entre toutes les grandeurs qui interviennent dans
-      un mesurage
+  - content: relation mathématique entre toutes les *grandeurs* qui interviennent
+      dans un *mesurage*
   examples: []
   id: 2.48-fra
   language_code: fra
   notes:
-  - content: Une forme générale d’un modèle de mesure est l’équation h(Y , X1 , …
-      , Xn) = 0, où Y, la grandeur de sortie dans le modèle de mesure, est le mesurande,
-      dont la valeur doit être déduite de l’information sur les grandeurs d’entrée
-      dans le modèle de mesure X1, … , Xn.
+  - content: Une forme générale d'un modèle de mesure est l'équation stem:[h(Y, X_1, ..., X_n) = 0],
+      où stem:[Y], la *grandeur de sortie dans le modèle de mesure*, est le *mesurande*, dont la
+      *valeur* doit être déduite de l'information sur les *grandeurs d'entrée dans le modèle de mesure*
+      stem:[X_1, ..., X_n].
   - content: Dans les cas plus complexes où il y a deux grandeurs de sortie ou plus,
-      le modèle de mesure comprend plus d’une seule équation.
+      le modèle de mesure comprend plus d'une seule équation.
   terms:
   - type: expression
     normative_status: preferred
@@ -74,3 +74,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 7bf3b37d-48f1-4abe-a963-8ea2ad0bd52a
+---

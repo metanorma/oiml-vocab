@@ -17,22 +17,22 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: sequence of calibrations from a reference to the final measuring system,
+  - content: sequence of *calibrations* from a reference to the final *measuring system*,
       where the outcome of each calibration depends on the outcome of the previous
       calibration
   examples: []
   id: 2.40-eng
   language_code: eng
   notes:
-  - content: Measurement uncertainty necessarily increases along the sequence of calibrations.
-  - content: The elements of a calibration hierarchy are one or more measurement standards
-      and measuring systems operated according to measurement procedures.
-  - content: For this definition, the ‘reference’ can be a definition of a measurement
-      unit through its practical realization, or a measurement procedure, or a measurement
+  - content: '*Measurement uncertainty* necessarily increases along the sequence of calibrations.'
+  - content: The elements of a calibration hierarchy are one or more *measurement
+      standards* and measuring systems operated according to *measurement procedures*.
+  - content: For this definition, the 'reference' can be a definition of a *measurement
+      unit* through its practical realization, or a measurement procedure, or a measurement
       standard.
   - content: A comparison between two measurement standards may be viewed as a calibration
-      if the comparison is used to check and, if necessary, correct the quantity value
-      and measurement uncertainty attributed to one of the measurement standards.
+      if the comparison is used to check and, if necessary, correct the *quantity
+      value* and measurement uncertainty attributed to one of the measurement standards.
   terms:
   - type: expression
     normative_status: preferred
@@ -46,21 +46,22 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: suite d'étalonnages depuis une référence jusqu'au système de mesure final,
-      dans laquelle le résultat de chaque étalonnage dépend de celui de l'étalonnage
+  - content: suite d'*étalonnages* depuis une référence jusqu'au *système de mesure*
+      final, dans laquelle le résultat de chaque étalonnage dépend de celui de l'étalonnage
       précédent
   examples: []
   id: 2.40-fra
   language_code: fra
   notes:
-  - content: L'incertitude de mesure augmente nécessairement le long de la suite d'étalonnages.
-  - content: Les éléments d'une hiérarchie d'étalonnage sont des étalons, ainsi que
-      des systèmes de mesure utilisés conformément à des procédures de mesure.
+  - content: L'*incertitude de mesure* augmente nécessairement le long de la suite
+      d'étalonnages.
+  - content: Les éléments d'une hiérarchie d'étalonnage sont des *étalons*, ainsi
+      que des systèmes de mesure utilisés conformément à des *procédures de mesure*.
   - content: La référence mentionnée dans la définition peut être une définition d'une
-      unité de mesure sous la forme de sa réalisation pratique, une procédure de mesure
-      ou un étalon.
+      *unité de mesure* sous la forme de sa réalisation pratique, une procédure de
+      mesure ou un étalon.
   - content: Une comparaison entre deux étalons peut être considérée comme un étalonnage
-      si elle sert à vérifier et, si nécessaire, à corriger la valeur et l'incertitude
+      si elle sert à vérifier et, si nécessaire, à corriger la *valeur* et l'incertitude
       attribuées à l'un des étalons.
   terms:
   - type: expression
@@ -71,3 +72,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: dda66420-4f36-4885-9ce4-ca708dad2188
+---
