@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'action in which a modification of a measuring instrument parameter, adjustment factor or update of software module is made [OIML V 1:2022, 6.06]'
+  - content: 'action in which a modification of a measuring instrument parameter, adjustment factor or update of software module is made'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2022'
+          id: '6.06'
   id: 03051-eng
   language_code: eng
   notes:
