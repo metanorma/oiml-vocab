@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'provision of objective evidence that a given item fulfils a specified requirement [OIML V2-200:2012; 2.44] [2] confirmation that performance properties or legal requirements of a measuring system are achieved'
+  - content: 'provision of objective evidence that a given item fulfils a specified requirement; confirmation that performance properties or legal requirements of a measuring system are achieved'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '2.44'
   id: 02821-eng
   language_code: eng
   sources: []
