@@ -27,12 +27,17 @@ data:
   id: 01843-eng
   language_code: eng
   notes:
-  - content: 'Note 1:   ISO 6286, Table 1, No. 4. Note 2:  Transmittance has the dimension one and is expressed with the derived coherent SI unit one (1).'
+  - content: 'Note 1:   ISO 6286, Table 1, No. 4. Note 2:  Transmittance has the dimension
+      one and is expressed with the derived coherent SI unit one (1).'
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'transmittance (τ = Φtr / Φ0)'
+    designation: transmittance
+  - type: symbol
+    normative_status: preferred
+    designation: 'stem:[tau = Phi_{"tr"} / Phi_{0}]'
+    international: true
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

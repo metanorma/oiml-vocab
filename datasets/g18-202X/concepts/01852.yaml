@@ -23,14 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'solution similar to the sample solution but which does not contain the analyte Example: Solvent.'
+  - content: 'solution similar to the sample solution but which does not contain the
+      analyte'
+  examples:
+  - content: Solvent.
   id: 01852-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'blank solution reference solution'
+    designation: blank solution
+  - type: expression
+    normative_status: admitted
+    designation: reference solution
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

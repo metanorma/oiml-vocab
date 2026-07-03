@@ -23,16 +23,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'absorbance divided by the optical pathlength b and the amount of substance concentration c'
+  - content: 'absorbance divided by the optical pathlength b and the amount of substance
+      concentration c'
   id: 01847-eng
   language_code: eng
   notes:
-  - content: 'The derived SI unit is the square metre per mole (1 m2/mol), but the litre per mole per mm (L/(mol × mm)) or litre per mole per cm (L/(mol × cm)) is often used. The specific molar absorption coefficient ε slightly depends on the amount of substance concentration c.'
+  - content: 'The derived SI unit is the square metre per mole (1 m2/mol), but the
+      litre per mole per mm (L/(mol × mm)) or litre per mole per cm (L/(mol × cm))
+      is often used. The specific molar absorption coefficient ε slightly depends
+      on the amount of substance concentration c.'
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'specific molar absorption coefficient (ε = A/bc)'
+    designation: specific molar absorption coefficient
+  - type: symbol
+    normative_status: preferred
+    designation: 'stem:[epsilon = A/(b c)]'
+    international: true
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

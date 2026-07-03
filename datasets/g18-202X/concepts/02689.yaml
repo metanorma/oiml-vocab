@@ -23,14 +23,19 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'density of the gas flowing through the gas meter, corresponding to ρw and tw'
+  - content: 'density of the gas flowing through the gas meter, corresponding to stem:[rho_{"w"}]
+      and stem:[t_{"w"}]'
   id: 02689-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'working density, ρw'
+    designation: working density
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[rho_{"w"}]
+    international: true
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
