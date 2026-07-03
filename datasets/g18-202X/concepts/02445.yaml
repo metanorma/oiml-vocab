@@ -23,14 +23,26 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'reference material, accompanied by documentation issued by an authoritative body and providing one or more specified property values with associated uncertainties and traceabilities, using valid procedures [VIM 5.14]'
+  - content: 'reference material, accompanied by documentation issued by an authoritative
+      body and providing one or more specified property values with associated uncertainties
+      and traceabilities, using valid procedures'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '5.14'
   id: 02445-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'certified reference material CRM'
+    designation: certified reference material
+  - type: abbreviation
+    normative_status: preferred
+    designation: CRM
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

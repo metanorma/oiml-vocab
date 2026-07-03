@@ -23,16 +23,32 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'operating condition requiring fulfilment during measurement in order that a meter perform as designed [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM) 4.9, [1], modified — “requiring fulfillment” replaces “that must be fulfilled”; “meter” replaces “measuring instrument or measuring system”; “note replaced the original note]'
+  - content: 'operating condition requiring fulfilment during measurement in order
+      that a meter perform as designed'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '4.9'
+      modification: '"requiring fulfillment" replaces "that must be fulfilled"; "meter"
+        replaces "measuring instrument or measuring system"; note replaced the original
+        note'
   id: 02424-eng
   language_code: eng
   notes:
-  - content: 'Note:The rated operating conditions specify intervals for the flow rate and for the influence quantities for which the errors (of indication) are required to be within the maximum permissible errors.'
+  - content: 'Note:The rated operating conditions specify intervals for the flow rate
+      and for the influence quantities for which the errors (of indication) are required
+      to be within the maximum permissible errors.'
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'rated operating condition ROC'
+    designation: rated operating condition
+  - type: abbreviation
+    normative_status: preferred
+    designation: ROC
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
