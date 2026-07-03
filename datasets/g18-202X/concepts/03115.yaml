@@ -15,7 +15,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'influence quantity having a value within the specified rated operating conditions of the measuring instrument [OIML D 11, 3.13.1] [4]'
+  - content: 'influence quantity having a value within the specified rated operating conditions of the measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.13.1'
   id: 03115-eng
   language_code: eng
   notes:
