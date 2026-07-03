@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'indication of an instrument minus the (conventional) true value of the mass [VIM 5.20]'
+  - content: 'indication of an instrument minus the (conventional) true value of the mass'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.20'
   id: 03041-eng
   language_code: eng
   sources: []
