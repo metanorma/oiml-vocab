@@ -27,7 +27,13 @@ data:
   id: 03094-eng
   language_code: eng
   notes:
-  - content: 'Note 1: A “good” hash function is such that the results of applying the function to a (large) set of values in the domain will be evenly distributed (and apparently at random) over the range. Note 2: A cryptographic hash function has three additional properties: collision-resistance, preimage resistance, and second preimage resistance, where preimage resistance refers to the inability (computational infeasibility) to reconstruct a preimage or message digest.'
+  - content: 'A "good" hash function is such that the results of applying the function
+      to a (large) set of values in the domain will be evenly distributed (and apparently
+      at random) over the range.'
+  - content: 'A cryptographic hash function has three additional properties: collision-resistance,
+      preimage resistance, and second preimage resistance, where preimage resistance
+      refers to the inability (computational infeasibility) to reconstruct a preimage
+      or message digest.'
   sources: []
   terms:
   - type: expression
