@@ -29,7 +29,14 @@ data:
     type: accepted
   definition:
   - content: indication of a measuring instrument minus a true value of the corresponding
-      input quantity [VIM, 5.20]
+      input quantity
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.20'
   examples: []
   id: 00228-eng
   notes: []

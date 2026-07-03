@@ -29,12 +29,23 @@ data:
     type: accepted
   definition:
   - content: the whole of legal metrology activities which contribute to metrological
-      assurance [VIML, 2.1]
+      assurance
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2000'
+          id: '2.1'
   examples: []
   id: 00186-eng
   notes:
-  - content: 'Legal metrological control includes: - legal control of measuring instruments;
-      - metrological supervision; - metrological expertise.'
+  - content: |-
+      Legal metrological control includes:
+
+      * legal control of measuring instruments
+      * metrological supervision
+      * metrological expertise
   sources:
   - origin:
       ref:

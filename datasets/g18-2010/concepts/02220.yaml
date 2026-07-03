@@ -22,15 +22,14 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'legally relevant parameter with a value that depends on the type Example:
-      Considering a measuring system of of instrument only. Type-specific parameters
-      are part of the legally relevant software'
-  examples: []
-  id: 02220-eng
+  - content: legally relevant parameter with a value that depends on the type of instrument
+      only
+  examples:
+  - content: |-
+      Considering a measuring system of liquids other than water, the range of kinematic viscosity of a turbine is a type-specific parameter fixed by the type approval of the turbine. All the manufactured turbines of the same type have the same range of viscosity.
   notes:
-  - content: liquids other than water, the range of kinematic viscosity of a turbine
-      is a type- specific parameter fixed by the type approval of the turbine. All
-      the manufactured turbines of the same type have the same range of viscosity.
+  - content: Type-specific parameters are part of the legally relevant software.
+  id: 02220-eng
   sources:
   - origin:
       ref:

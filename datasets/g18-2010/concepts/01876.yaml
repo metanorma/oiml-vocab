@@ -26,16 +26,23 @@ data:
       between values of quantities indicated by a measuring instrument or measuring
       system, or values represented by a material measure or a reference material,
       and the corresponding values realized by standards
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '6.11'
   examples: []
   id: 01876-eng
   notes:
-  - content: 1. The result of a calibration permits either the assignment of values
+  - content: The result of a calibration permits either the assignment of values
       of measurands to the indications or the determination of corrections with respect
       to indications.
-  - content: 2. A calibration may also determine other metrological properties such
+  - content: A calibration may also determine other metrological properties such
       as the effect of influence quantities.
-  - content: 3. The result of a calibration may be recorded in a document, sometimes
-      called a calibration certificate or a calibration report. [VIM, 6.11]
+  - content: The result of a calibration may be recorded in a document, sometimes
+      called a calibration certificate or a calibration report.
   sources:
   - origin:
       ref:
