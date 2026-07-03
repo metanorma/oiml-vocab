@@ -21,14 +21,15 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: largest change in a value of a quantity being measured that causes no
-      detectable change in the corresponding indication Note Discrimination threshold
-      may depend on, e.g., noise (internal or external) or friction. It can also depend
-      on the value of the quantity being measured and how the change is applied.
+  - content: largest change in a *value* of a *quantity* being measured that causes
+      no detectable change in the corresponding *indication*
   examples: []
   id: 4.16-eng
   language_code: eng
-  notes: []
+  notes:
+  - content: Discrimination threshold may depend on, e.g., noise (internal or external)
+      or friction. It can also depend on the *value* of the *quantity* being measured
+      and how the change is applied.
   terms:
   - type: expression
     normative_status: preferred
@@ -42,15 +43,15 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: variation la plus grande de la valeur d'une grandeur mesurée qui ne produit
-      aucune variation détectable de l'indication correspondante Note Le seuil de
-      discrimination peut dépendre, par exemple, du bruit (interne ou externe) ou
-      du frottement. Il peut aussi dépendre de la valeur de la grandeur mesurée et
-      de la manière dont la variation est appliquée.
+  - content: variation la plus grande de la *valeur* d'une *grandeur* mesurée qui
+      ne produit aucune variation détectable de l'*indication* correspondante
   examples: []
   id: 4.16-fra
   language_code: fra
-  notes: []
+  notes:
+  - content: Le seuil de discrimination peut dépendre, par exemple, du bruit (interne
+      ou externe) ou du frottement. Il peut aussi dépendre de la *valeur* de la
+      *grandeur* mesurée et de la manière dont la variation est appliquée.
   terms:
   - type: expression
     normative_status: preferred
@@ -70,3 +71,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 2d2aa7cc-706c-46fc-a437-ec50d083da06
+---

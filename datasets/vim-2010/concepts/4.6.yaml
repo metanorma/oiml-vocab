@@ -21,19 +21,19 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: rounded or approximate value of a characterizing quantity of a measuring
-      instrument or measuring system that provides guidance for its appropriate use
+  - content: rounded or approximate *value* of a characterizing *quantity* of a *measuring
+      instrument* or *measuring system* that provides guidance for its appropriate
+      use
   examples:
-  - content: a) 100 Ω as the nominal quantity value marked on a standard resistor.
-      b) 1000 ml as the nominal quantity value marked on a single-mark volumetric
-      flask. c) mol/l as the nominal quantity value for amount-of-substance concentration
-      of a solution of hydrogen chloride, HCl. d) 20 °C as a maximum Celsius temperature
-      for storage
+  - content: stem:[100 "unitsml(Ohm)"] as the nominal quantity value marked on a standard resistor.
+  - content: stem:[1000 "unitsml(ml)"] as the nominal quantity value marked on a single-mark volumetric flask.
+  - content: stem:["unitsml(mol/l)"] as the nominal quantity value for amount-of-substance concentration of a solution of hydrogen chloride, HCl.
+  - content: stem:[-20 "unitsml(degC)"] as a maximum Celsius temperature for storage
   id: 4.6-eng
   language_code: eng
   notes:
-  - content: Note Nominal quantity value” and “nominal value” should not be used for
-      ‘nominal property value’, see 1.29, Note 2.
+  - content: '"Nominal quantity value" and "nominal value" should not be used for
+      ''nominal property value'', see 1.29, Note 2.'
   terms:
   - type: expression
     normative_status: preferred
@@ -50,19 +50,19 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: valeur arrondie ou approximative d'une grandeur caractéristique d'un
-      instrument de mesure ou d'un système de mesure, qui sert de guide pour son utilisation
-      appropriée
+  - content: "*valeur* arrondie ou approximative d'une *grandeur* caractéristique
+      d'un *instrument de mesure* ou d'un *système de mesure*, qui sert de guide pour
+      son utilisation appropriée"
   examples:
-  - content: a) La valeur 100 Ω marquée sur une résistance étalon. b) La valeur 1000
-      ml marquée sur une fiole jaugée à un trait. c) La valeur 0,1 mol/l de la concentration
-      en quantité de matière d'une solution d'acide chlorhydrique, HCl. d) La valeur
-      20 °C d'une température Celsius maximale de stockage
+  - content: La valeur stem:[100 "unitsml(Ohm)"] marquée sur une résistance étalon.
+  - content: La valeur stem:[1000 "unitsml(ml)"] marquée sur une fiole jaugée à un trait.
+  - content: La valeur stem:[0.1 "unitsml(mol/l)"] de la concentration en quantité de matière d'une solution d'acide chlorhydrique, HCl.
+  - content: La valeur stem:[-20 "unitsml(degC)"] d'une température Celsius maximale de stockage
   id: 4.6-fra
   language_code: fra
   notes:
-  - content: Note En anglais, il convient de ne pas utiliser « nominal quantity value
-      » et « nominal value » pour la valeur d’une propriété qualitative (en anglais
+  - content: En anglais, il convient de ne pas utiliser « nominal quantity value
+      » et « nominal value » pour la valeur d'une propriété qualitative (en anglais
       « nominal property value »).
   terms:
   - type: expression
@@ -73,3 +73,4 @@ data:
 date_accepted: '2010-01-01T00:00:00+00:00'
 entry_status: valid
 id: 4a5da497-2c2f-4480-9823-b60dce86e9b9
+---
