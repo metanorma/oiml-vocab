@@ -1,0 +1,58 @@
+---
+data:
+  identifier: '3.13'
+  localized_concepts:
+    eng: 91e7b9a5-3522-42e7-9450-d8764e3d7990
+    fra: f2b03d8c-a63f-4eb1-9418-8092e603cb9e
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 3b571d81-818c-494c-a59c-e42262404231
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A component of the error of measurement which, in the course of a number
+      of measurements of the same measurand, remains constant or varies in a predictable
+      way.
+  id: 3.13-eng
+  language_code: eng
+  notes:
+  - content: Systematic errors and their causes may be known or unknown.
+  - content: For a measuring instrument, see "bias error".
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: systematic error
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 91e7b9a5-3522-42e7-9450-d8764e3d7990
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Composante de l'erreur de mesure qui, lors de plusieurs mesurages du même
+      mesurande, reste constante ou varie d'une façon prévisible.
+  id: 3.13-fra
+  language_code: fra
+  notes:
+  - content: Les erreurs systématiques et leurs causes peuvent être connues ou inconnues.
+  - content: Pour un instrument de mesure, voir « erreur de justesse ».
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur systématique
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f2b03d8c-a63f-4eb1-9418-8092e603cb9e

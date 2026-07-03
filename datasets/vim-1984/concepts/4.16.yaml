@@ -1,12 +1,65 @@
 ---
 data:
   identifier: '4.16'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.15
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.15
-id: d1104f32-6a63-42b6-b5cc-a18073f9515e
+  localized_concepts:
+    eng: 2d706314-306e-4eba-a03c-9de714e4b2bc
+    fra: 84499394-ff2c-4284-8298-fcea3bd2048c
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 7dbd3491-a461-4ede-bbaa-3916939e2983
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A device or substance which indicates the presence of a particular quantity
+      without necessarily providing its value.
+  id: 4.16-eng
+  language_code: eng
+  notes:
+  - content: >-
+      In some cases, an indication may be produced only when the value of the quantity
+      reaches a given threshold.
+  examples:
+  - content: a) halogen leak detector;
+  - content: b) temperature-sensitive paint.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detector
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 2d706314-306e-4eba-a03c-9de714e4b2bc
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Dispositif ou substance qui indique la présence d'une grandeur particulière
+      sans nécessairement donner sa valeur.
+  id: 4.16-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Dans certains cas, on peut n'avoir une indication que lorsque la valeur de
+      la grandeur atteint un seuil donné.
+  examples:
+  - content: a) détecteur de fuite à halogène;
+  - content: b) peinture sensible à la température.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: détecteur
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 84499394-ff2c-4284-8298-fcea3bd2048c

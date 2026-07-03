@@ -1,0 +1,55 @@
+---
+data:
+  identifier: '4.24'
+  localized_concepts:
+    eng: bf038d64-ac6c-4c5c-a3b4-bad1a234f45d
+    fra: 97c18984-5498-4935-9a41-741f4ace8b76
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 38925891-3bbc-422f-9351-bb1e6ee4f5bc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The difference between the scale values corresponding to two successive scale marks.
+  id: 4.24-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Scale interval is expressed in the units marked on the scale, regardless
+      of the units of the measurand.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale interval
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: bf038d64-ac6c-4c5c-a3b4-bad1a234f45d
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre les valeurs d'échelle correspondant à deux repères successifs.
+  id: 4.24-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La valeur d'une division est exprimée en unité marquée sur l'échelle, quelle
+      que soit l'unité de la grandeur à mesurer.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "valeur d'une division (échelon)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 97c18984-5498-4935-9a41-741f4ace8b76

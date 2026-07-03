@@ -1,12 +1,59 @@
 ---
 data:
   identifier: '3.15'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/3.16
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 3.16
-id: 1e316a38-e531-43d6-a819-964e7f355745
+  localized_concepts:
+    eng: c564cda0-162b-4118-aa26-0a060250d963
+    fra: fd59353a-78fc-4ee0-9e0c-987c99992361
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 228f42b9-d711-43a4-a145-16844446e56d
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The numerical factor by which the uncorrected result of a measurement is
+      multiplied to compensate for an assumed systematic error.
+  id: 3.15-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Since the systematic error cannot be known exactly, the correction factor
+      is subject to uncertainty.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction factor
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c564cda0-162b-4118-aa26-0a060250d963
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Facteur numérique par lequel on multiplie le résultat brut d'un mesurage pour
+      compenser une erreur systématique présumée.
+  id: 3.15-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Puisque l'erreur systématique ne peut être connue exactement, le facteur de
+      correction est entaché d'une incertitude.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur de correction
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fd59353a-78fc-4ee0-9e0c-987c99992361

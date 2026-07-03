@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '6.08'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.6
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.6
-id: 13903acd-ed00-4306-b0da-d1ba19a707f8
+  localized_concepts:
+    eng: f336281b-68e2-4209-b2ef-ba1d5b82511e
+    fra: f9520329-3477-4faa-9b75-8ff46a1d64c4
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 7b1dac0a-464f-4a47-894c-b921918e2479
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A standard, generally of the highest metrological quality available at a
+      given location, from which measurements made at that location are derived.
+  id: 6.08-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference standard
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f336281b-68e2-4209-b2ef-ba1d5b82511e
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Étalon, en général de la plus haute qualité métrologique disponible en un
+      lieu donné, duquel dérivent les mesurages effectués en ce lieu.
+  id: 6.08-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon de référence
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f9520329-3477-4faa-9b75-8ff46a1d64c4

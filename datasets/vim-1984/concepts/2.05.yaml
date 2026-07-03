@@ -1,12 +1,55 @@
 ---
 data:
   identifier: '2.05'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/2.3
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 2.3
-id: 282ed437-8adc-47aa-871e-fe9e4c0e550a
+  localized_concepts:
+    eng: 8f481bff-315d-4b73-bd01-bcf0663a53c2
+    fra: fa50269a-d640-4b15-91ba-aceecfb7f98c
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 05696821-d7d3-463b-b773-fa0bd60e165c
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The scientific basis of a method of measurement.
+  id: 2.05-eng
+  language_code: eng
+  examples:
+  - content: a) the thermoelectric effect applied to the measurement of temperature;
+  - content: b) the Josephson effect applied to the measurement of voltage;
+  - content: c) the Doppler effect applied to the measurement of velocity.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: principle of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8f481bff-315d-4b73-bd01-bcf0663a53c2
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Base scientifique d'une méthode de mesure.
+  id: 2.05-fra
+  language_code: fra
+  examples:
+  - content: a) l'effet thermoélectrique utilisé pour le mesurage de la température;
+  - content: b) l'effet Josephson utilisé pour le mesurage de la tension électrique;
+  - content: c) l'effet Doppler utilisé pour le mesurage de la vitesse.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: principe de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: fa50269a-d640-4b15-91ba-aceecfb7f98c

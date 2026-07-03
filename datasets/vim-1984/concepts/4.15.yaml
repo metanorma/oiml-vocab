@@ -1,12 +1,61 @@
 ---
 data:
   identifier: '4.15'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.14
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.14
-id: 5d1af6ce-3724-4eb7-a38c-4d041cd4f61e
+  localized_concepts:
+    eng: ae8fabe3-1984-44da-b762-b24c1b1ff8c2
+    fra: b4f3cf10-6d30-4e8f-9d5b-22af05ea0dfb
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: a3f67611-eb85-4585-a1ed-3f59a087deb2
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The element of a measuring instrument or measuring chain to which a measurand
+      is directly applied.
+  id: 4.15-eng
+  language_code: eng
+  examples:
+  - content: a) thermocouple of a thermoelectric thermometer;
+  - content: b) rotor of a turbine flow meter;
+  - content: c) Bourdon tube of a pressure gauge;
+  - content: d) float of a level measuring instrument.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensor
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ae8fabe3-1984-44da-b762-b24c1b1ff8c2
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Élément d'un appareil de mesure ou d'une chaîne de mesure auquel est directement
+      appliquée une grandeur à mesurer.
+  id: 4.15-fra
+  language_code: fra
+  examples:
+  - content: a) thermocouple d'un thermomètre thermoélectrique;
+  - content: b) rotor d'un débitmètre à turbine;
+  - content: c) tube Bourdon d'un manomètre;
+  - content: d) flotteur d'un appareil de mesure de niveau.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: capteur
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b4f3cf10-6d30-4e8f-9d5b-22af05ea0dfb

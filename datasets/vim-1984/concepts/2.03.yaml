@@ -1,0 +1,57 @@
+---
+data:
+  identifier: '2.03'
+  localized_concepts:
+    eng: 1a4e3d9b-8c3a-424c-b1a7-2b1bf2821654
+    fra: 50df86c0-54e9-4226-9ae2-06a926f3acec
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 5bfa6fbe-4038-48f4-ac86-3ffaaecb14b3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The measurement of a quantity whose value can be considered constant for
+      the duration of the measurement.
+  id: 2.03-eng
+  language_code: eng
+  notes:
+  - content: The qualifier "static" applies to the measurand and not to the method of measurement.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: static measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1a4e3d9b-8c3a-424c-b1a7-2b1bf2821654
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Mesurage d'une grandeur dont on peut considérer que la valeur reste constante
+      pour la durée du mesurage.
+  id: 2.03-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le qualificatif « statique » s'applique à la grandeur à mesurer et non à
+      la méthode de mesure.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesurage statique
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 50df86c0-54e9-4226-9ae2-06a926f3acec

@@ -1,0 +1,70 @@
+---
+data:
+  identifier: '3.10'
+  localized_concepts:
+    eng: 03976f72-0e5c-42af-ac02-81b45c206a1c
+    fra: e38855eb-1a8b-4238-91c4-cf88abb582c2
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 79952487-3782-493d-a1cc-9ad0268a61d5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The result of a measurement minus the (conventional) true value of the measurand.
+  id: 3.10-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The term relates equally to: the indication, the uncorrected result, the
+      corrected result.
+  - content: >-
+      The known parts of the error of measurement may be compensated by applying
+      appropriate corrections. The error of the corrected result can only be characterized
+      by an uncertainty.
+  - content: >-
+      "Absolute error", which has a sign, should not be confused with absolute
+      value of an error which is the modulus of an error.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: (absolute) error of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 03976f72-0e5c-42af-ac02-81b45c206a1c
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Résultat d'un mesurage moins valeur (conventionnellement) vraie de la grandeur
+      mesurée.
+  id: 3.10-fra
+  language_code: fra
+  notes:
+  - content: "Le terme s'applique également : à l'indication, au résultat brut, au résultat corrigé."
+  - content: >-
+      Les parties connues de l'erreur de mesure peuvent être compensées par l'application
+      de corrections appropriées. L'erreur du résultat corrigé ne peut être caractérisée
+      que par une incertitude.
+  - content: >-
+      Ne pas confondre « erreur absolue » qui est une grandeur algébrique et valeur
+      absolue d'une erreur qui est le module d'une erreur.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur (absolue) de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e38855eb-1a8b-4238-91c4-cf88abb582c2

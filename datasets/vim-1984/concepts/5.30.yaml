@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '5.30'
+  localized_concepts:
+    eng: cf8685c1-646a-476d-8fc1-a762186f7aff
+    fra: a66c3247-f898-4a36-8da8-6077af586ea1
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: eedb44f2-8fc9-4ba3-a8eb-370b9f70f00a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The random component of the error of a measuring instrument.
+  id: 5.30-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: cf8685c1-646a-476d-8fc1-a762186f7aff
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Composante aléatoire de l'erreur d'un instrument de mesure.
+  id: 5.30-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur de fidélité (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a66c3247-f898-4a36-8da8-6077af586ea1

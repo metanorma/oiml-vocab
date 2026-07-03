@@ -1,12 +1,61 @@
 ---
 data:
   identifier: '4.18'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.16
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.16
-id: 249b6136-7e28-4ef7-80b9-8532e9a4827d
+  localized_concepts:
+    eng: 41403ffc-539d-4a81-8015-95cae68e6e12
+    fra: 7bc9b6eb-aba8-4850-a00a-b16814e10a46
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 5aacf9c8-17ae-4b9a-8b54-fbd039baf69e
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The fixed or movable part of an indicating device whose position with reference
+      to the scale marks enables an indicated value to be determined.
+  id: 4.18-eng
+  language_code: eng
+  examples:
+  - content: a) pointer;
+  - content: b) luminous spot;
+  - content: c) liquid surface;
+  - content: d) recording pen.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: index
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 41403ffc-539d-4a81-8015-95cae68e6e12
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Partie fixe ou mobile d'un dispositif indicateur dont la position par rapport
+      aux repères permet de déterminer une valeur indiquée.
+  id: 4.18-fra
+  language_code: fra
+  examples:
+  - content: a) aiguille;
+  - content: b) spot lumineux;
+  - content: c) surface d'un liquide;
+  - content: d) plume d'enregistrement.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: index
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7bc9b6eb-aba8-4850-a00a-b16814e10a46

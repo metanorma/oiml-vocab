@@ -1,12 +1,57 @@
 ---
 data:
   identifier: '4.29'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.27
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.27
-id: 98fa06da-7f4d-4058-87b7-65ed20c8b6c3
+  localized_concepts:
+    eng: b07564b5-8326-4df2-bff3-85355ee462f5
+    fra: 09692c91-3a16-41e0-a5c2-cfb7ca65e969
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: df8f5d11-0adb-4b96-8d32-20654d5c7746
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      That part of an indicating device, fixed or moving, which carries the scale
+      or scales.
+  id: 4.29-eng
+  language_code: eng
+  notes:
+  - content: >-
+      In some indicating devices, the dial takes the form of drums or discs bearing
+      numbers and moving relative to a fixed index or window.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dial
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b07564b5-8326-4df2-bff3-85355ee462f5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "Partie d'un dispositif indicateur, fixe ou mobile, portant la ou les échelles."
+  id: 4.29-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Dans certains dispositifs indicateurs, le cadran prend la forme de rouleaux
+      ou de disques chiffrés se déplaçant par rapport à un index fixe ou une fenêtre.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cadran
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 09692c91-3a16-41e0-a5c2-cfb7ca65e969

@@ -1,12 +1,47 @@
 ---
 data:
   identifier: '5.28'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.25
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.25
-id: 43537ef9-f655-43e2-b440-6dae99563e3d
+  localized_concepts:
+    eng: 1f31ad85-06a4-44a9-abfd-ae8a1371695f
+    fra: ee383d0e-485f-4044-813f-88bb80b28931
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 672ddf78-236b-4a91-83e2-cef29ce2d5cb
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The systematic component of the error of a measuring instrument.
+  id: 5.28-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: bias error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1f31ad85-06a4-44a9-abfd-ae8a1371695f
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Composante systématique de l'erreur d'un instrument de mesure.
+  id: 5.28-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur de justesse (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ee383d0e-485f-4044-813f-88bb80b28931

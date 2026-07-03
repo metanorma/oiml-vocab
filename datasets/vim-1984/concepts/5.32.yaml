@@ -1,12 +1,57 @@
 ---
 data:
   identifier: '5.32'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.28
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.28
-id: dc90b18e-5c63-416b-a74e-e2a69c4ae4fb
+  localized_concepts:
+    eng: 7584a6c6-2085-4015-9e7f-215097c6dd90
+    fra: e298126c-5a3e-4a1b-9047-57952cedef28
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: c60df746-c4a7-4638-8d66-694c29b396f1
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The error of a measuring instrument divided by a value specified for the instrument.
+  id: 5.32-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The specified value is generally called the fiducial value, and may be, for
+      example, the span or the upper limit of the nominal range of the measuring
+      instrument.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fiducial error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7584a6c6-2085-4015-9e7f-215097c6dd90
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rapport de l'erreur d'un instrument de mesure à une valeur spécifiée pour l'instrument.
+  id: 5.32-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La valeur spécifiée est généralement appelée valeur conventionnelle (de référence)
+      et peut être, par exemple, l'intervalle de mesure ou la limite supérieure
+      du calibre de l'instrument de mesure.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur réduite conventionnelle (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e298126c-5a3e-4a1b-9047-57952cedef28

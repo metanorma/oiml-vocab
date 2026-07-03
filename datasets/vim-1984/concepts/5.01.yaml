@@ -1,0 +1,68 @@
+---
+data:
+  identifier: '5.01'
+  localized_concepts:
+    eng: 757a6370-7978-43d8-9169-aa3ea3d261d0
+    fra: 0b0d277f-60e9-48e4-9c6d-7e387758fafe
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 72aad9bc-bd95-4c7d-9e0c-839327d1cc6f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      For each scale range, the set of values of the measurand for which a measuring
+      instrument gives values within that scale range at a particular setting of
+      its controls.
+  id: 5.01-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The nominal range is expressed in units of the measurand, regardless of the
+      units marked on the scale, and is normally stated in terms of its lower and
+      upper limits, for example 100 °C to 200 °C. Where the lower limit is zero,
+      the nominal range is commonly stated solely in terms of its upper limit,
+      for example a nominal range of 0 V to 100 V is expressed as "100 V".
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal range
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 757a6370-7978-43d8-9169-aa3ea3d261d0
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Pour chaque étendue d'échelle, ensemble des valeurs de la grandeur mesurée
+      pour lesquelles un instrument de mesure présente des valeurs à l'intérieur
+      de cette étendue d'échelle, pour une position particulière de ses commandes.
+  id: 5.01-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le calibre est exprimé en unités de la grandeur à mesurer, quelle que soit
+      l'unité marquée sur l'échelle, et est normalement spécifié par ses limites
+      inférieure et supérieure, par exemple 100 °C à 200 °C. Lorsque la limite
+      inférieure est zéro, le calibre est habituellement spécifié par la seule
+      limite supérieure, par exemple un calibre de 0 V à 100 V est appelé calibre
+      de 100 V.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibre
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 0b0d277f-60e9-48e4-9c6d-7e387758fafe

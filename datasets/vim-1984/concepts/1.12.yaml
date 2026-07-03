@@ -1,12 +1,65 @@
 ---
 data:
   identifier: '1.12'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.14
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.14
-id: 3cb448dc-da69-45a5-a533-3512a658405d
+  localized_concepts:
+    eng: 5f205829-dccc-4e68-8219-7a558bd8b7ea
+    fra: 3fe07277-081f-42d8-a237-5103d4c75945
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 5c20e83f-dcea-4c78-8b89-34102f179214
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A unit of measurement of a derived quantity in a given system of quantities.
+  id: 1.12-eng
+  language_code: eng
+  notes:
+  - content: >-
+      In a given system of units, a derived unit can be expressed in terms of base
+      units and proportionality factors.
+  - content: >-
+      Some derived units have special names and symbols; for example, in the SI:
+      newton (N), unit of force; joule (J), unit of energy; volt (V), unit of electric
+      potential.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: derived unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 5f205829-dccc-4e68-8219-7a558bd8b7ea
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure d'une grandeur dérivée dans un système donné de grandeurs.
+  id: 1.12-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Dans un système donné d'unités, une unité dérivée peut être exprimée en fonction
+      d'unités de base et de facteurs de proportionnalité.
+  - content: >-
+      Pour certaines unités dérivées, il existe des noms et des symboles spéciaux
+      ; par exemple dans le SI : newton (N), unité de force ; joule (J), unité d'énergie
+      ; volt (V), unité de potentiel électrique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) dérivée"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3fe07277-081f-42d8-a237-5103d4c75945

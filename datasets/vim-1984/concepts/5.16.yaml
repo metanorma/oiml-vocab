@@ -1,12 +1,57 @@
 ---
 data:
   identifier: '5.16'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.14
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.14
-id: 3ae1f2b4-5266-438d-a74a-377841120c99
+  localized_concepts:
+    eng: 573e5489-c881-4b7e-81fa-9169e7dbaaeb
+    fra: 129d3857-fe64-4217-a55a-61916fae5dd1
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 282822a6-bd70-4781-a9ba-059ea04f9bb9
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a measuring instrument to maintain constant its metrological characteristics.
+  id: 5.16-eng
+  language_code: eng
+  notes:
+  - content: >-
+      It is usual to consider stability with respect to time. Where stability with
+      respect to another quantity is considered, this should be stated explicitly.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: stability
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 573e5489-c881-4b7e-81fa-9169e7dbaaeb
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à conserver ses caractéristiques métrologiques
+      constantes.
+  id: 5.16-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La constance est habituellement considérée comme rapportée au temps. Lorsqu'elle
+      est rapportée à une autre grandeur, il est nécessaire de le spécifier explicitement.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: constance
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 129d3857-fe64-4217-a55a-61916fae5dd1

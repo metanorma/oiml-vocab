@@ -11,7 +11,7 @@ year: 1984
 urn: "urn:oiml:pub:v:2:1984"
 urnAliases:
   - "urn:oiml:pub:v:2:1984*"
-status: stub
+status: superseded
 
 owner: OIML
 sourceRepo: https://github.com/oimlsmart/vocab
@@ -30,8 +30,35 @@ languageOrder:
 ordering: systematic
 
 description:
-  eng: "Stub dataset for VIM 1st edition (1984). 70 minimal concept files exist as resolution targets for VIM 1993 supersession edges (each carries an inferred designation from its VIM 1993 successor). Full concept data — definitions, notes, examples, FR localizations — awaits OCR of the 1984 source PDF. Not currently exposed in the concept-browser; add to site-config.yml once populated."
-  fra: "Registre factice pour la 1ère édition du VIM (1984). 70 fichiers conceptuels minimaux existent comme cibles de résolution pour les liens de supersession du VIM 1993 (chacun contient une désignation inférée à partir de son successeur VIM 1993). Les données conceptuelles complètes — définitions, notes, exemples, localisations FR — attendent l'OCR du PDF source 1984. Non exposé actuellement dans le concept-browser ; à ajouter à site-config.yml une fois rempli."
+  eng: "First edition of the International Vocabulary of Basic and General Terms in Metrology (VIM), jointly prepared by BIPM, IEC, ISO and OIML. Superseded by the 1993 second edition (which split several concepts and renumbered). 138 concepts across 6 chapters covering quantities and units, measurements, measurement results, measuring instruments, characteristics of measuring instruments, and measurement standards. Identical text published by ISO as ISO Guide 99:1984. A corrigendum was issued in 1987 (see OIML V 2:1984/Cor.1:1987)."
+  fra: "Première édition du Vocabulaire international des termes fondamentaux et généraux de métrologie (VIM), élaborée conjointement par le BIPM, la CEI, l'ISO et l'OIML. Remplacée par la deuxième édition de 1993 (qui a scindé plusieurs concepts et renuméroté). 138 concepts en 6 chapitres couvrant les grandeurs et unités, les mesurages, les résultats de mesure, les instruments de mesure, les caractéristiques des instruments de mesure et les étalons. Texte identique publié par l'ISO sous la référence ISO Guide 99:1984. Un corrigendum a été publié en 1987 (voir OIML V 2:1984/Cor.1:1987)."
 
-# No sections, no concepts/ directory yet.
-# Concepts will be added when the 1984 source PDF is OCR'd and encoded.
+about:
+  eng: about-eng.md
+  fra: about-fra.md
+
+sections:
+  - id: "1"
+    names:
+      eng: "Quantities and units"
+      fra: "Grandeurs et unités"
+  - id: "2"
+    names:
+      eng: "Measurements"
+      fra: "Mesurages"
+  - id: "3"
+    names:
+      eng: "Measurement results"
+      fra: "Résultats de mesure"
+  - id: "4"
+    names:
+      eng: "Measuring instruments"
+      fra: "Instruments de mesure"
+  - id: "5"
+    names:
+      eng: "Characteristics of measuring instruments"
+      fra: "Caractéristiques des instruments de mesure"
+  - id: "6"
+    names:
+      eng: "Measurement standards (Etalons)"
+      fra: "Étalons"

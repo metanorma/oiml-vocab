@@ -1,0 +1,63 @@
+---
+data:
+  identifier: '4.02'
+  localized_concepts:
+    eng: 6b7b9981-5a25-4bd6-8663-9b25acef126b
+    fra: 6ee6800f-12b2-42f9-8e15-ad50efa36be5
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 0ffbf178-4036-45a1-9b77-dbb688e2e11c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A device intended to reproduce or supply, in a permanent manner during its
+      use, one or more known values of a given quantity.
+  id: 4.02-eng
+  language_code: eng
+  notes:
+  - content: The quantity concerned may be called the supplied quantity.
+  examples:
+  - content: >-
+      a weight; a measure of volume (of one or several values, with or without
+      a scale); an electrical resistor; a gauge block; a standard signal generator.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: material measure
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6b7b9981-5a25-4bd6-8663-9b25acef126b
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Dispositif destiné à reproduire ou à fournir, d'une façon permanente pendant
+      son emploi, une ou plusieurs valeurs connues d'une grandeur donnée.
+  id: 4.02-fra
+  language_code: fra
+  notes:
+  - content: Cette grandeur peut être appelée grandeur fournie.
+  examples:
+  - content: >-
+      masse marquée ; mesure de capacité (à une ou plusieurs valeurs, avec ou sans
+      échelle) ; résistance électrique ; cale étalon ; générateur de signaux étalons.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesure matérialisée
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6ee6800f-12b2-42f9-8e15-ad50efa36be5

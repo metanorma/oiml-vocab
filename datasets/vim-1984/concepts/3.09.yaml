@@ -1,0 +1,65 @@
+---
+data:
+  identifier: '3.09'
+  localized_concepts:
+    eng: c8768681-e063-4d9c-98fd-f5e947c7b516
+    fra: 6ba55f70-ca3d-4426-b1d3-540b557897f6
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 88f734f9-ad54-47eb-9892-663b412385fe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      An estimate characterizing the range of values within which the true value
+      of a measurand lies.
+  id: 3.09-eng
+  language_code: eng
+  notes:
+  - content: >-
+      Uncertainty of measurement comprises, in general, many components. Some of
+      these components may be estimated on the basis of the statistical distribution
+      of the results of series of measurements and can be characterized by experimental
+      standard deviations. Estimates of other components can only be based on experience
+      or other information.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: uncertainty of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: c8768681-e063-4d9c-98fd-f5e947c7b516
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Estimation caractérisant l'étendue des valeurs dans laquelle se situe la
+      valeur vraie d'une grandeur mesurée.
+  id: 3.09-fra
+  language_code: fra
+  notes:
+  - content: >-
+      L'incertitude de mesure comprend, en général, plusieurs composantes. Certaines
+      peuvent être estimées en se fondant sur la distribution statistique des résultats
+      de séries de mesurages et peuvent être caractérisées par un écart-type expérimental.
+      L'estimation des autres composantes ne peut être fondée que sur l'expérience
+      ou sur d'autres informations.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitude de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6ba55f70-ca3d-4426-b1d3-540b557897f6

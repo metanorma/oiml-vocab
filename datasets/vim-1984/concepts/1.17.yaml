@@ -1,12 +1,55 @@
 ---
 data:
   identifier: '1.17'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.18
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.18
-id: 19879700-78a2-4433-9feb-85c4729bd825
+  localized_concepts:
+    eng: 3dd37a23-d556-4317-b88e-fe6821c3277e
+    fra: 49fc3e20-5f41-4609-857f-a385fcdf4a75
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 5f30f50d-bb24-48bd-9c16-f49ccf718680
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The expression of a quantity in terms of a number and an appropriate unit
+      of measurement.
+  id: 1.17-eng
+  language_code: eng
+  examples:
+  - content: 5,3 m; 12 kg; -40 °C.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 3dd37a23-d556-4317-b88e-fe6821c3277e
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Expression d'une grandeur sous la forme d'un nombre et d'une unité de mesure
+      appropriée.
+  id: 1.17-fra
+  language_code: fra
+  examples:
+  - content: 5,3 m ; 12 kg ; -40 °C.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 49fc3e20-5f41-4609-857f-a385fcdf4a75

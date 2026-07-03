@@ -1,12 +1,59 @@
 ---
 data:
   identifier: '5.22'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.19
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.19
-id: a56bdea1-9916-476c-a0a7-1467b8e7338f
+  localized_concepts:
+    eng: 43d33ffb-d7c5-451d-a973-1b975bf11d67
+    fra: 20d8fb24-0ec8-4fc9-ae6a-cfe457433411
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: cafe62df-e253-4a60-b94d-b17040cce9a7
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A class of measuring instruments which meet certain metrological requirements
+      that are intended to keep errors within specified limits.
+  id: 5.22-eng
+  language_code: eng
+  notes:
+  - content: >-
+      An accuracy class is usually denoted by a number or symbol adopted by convention
+      and called the class index.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy class
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 43d33ffb-d7c5-451d-a973-1b975bf11d67
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Classe d'instruments de mesure qui satisfont à certaines exigences métrologiques
+      destinées à conserver les erreurs dans des limites spécifiées.
+  id: 5.22-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Une classe d'exactitude est habituellement indiquée par un nombre ou symbole
+      adopté par convention et dénommé indice de classe.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "classe d'exactitude, classe de précision"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 20d8fb24-0ec8-4fc9-ae6a-cfe457433411

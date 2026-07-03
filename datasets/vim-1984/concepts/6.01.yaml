@@ -1,0 +1,71 @@
+---
+data:
+  identifier: '6.01'
+  localized_concepts:
+    eng: 55031364-8944-44c1-a8ab-8bb678b3a974
+    fra: 7ab3fadc-0a25-451e-a48c-3b9cd5e47466
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 38f797b3-9a59-4c5f-89b7-e332cbc14000
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A material measure, measuring instrument or system intended to define, realize,
+      conserve or reproduce a unit or one or more known values of a quantity in
+      order to transmit them to other measuring instruments by comparison.
+  id: 6.01-eng
+  language_code: eng
+  examples:
+  - content: a) 1 kg mass standard;
+  - content: b) standard gauge block;
+  - content: c) 100 Ω standard resistor;
+  - content: d) saturated Weston standard cell;
+  - content: e) standard ammeter;
+  - content: f) caesium atomic frequency standard.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement standard
+  - type: expression
+    normative_status: admitted
+    designation: etalon
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 55031364-8944-44c1-a8ab-8bb678b3a974
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Mesure matérialisée, appareil de mesure ou système de mesure destiné à définir,
+      réaliser, conserver ou reproduire une unité ou une ou plusieurs valeurs connues
+      d'une grandeur pour les transmettre par comparaison à d'autres instruments
+      de mesure.
+  id: 6.01-fra
+  language_code: fra
+  examples:
+  - content: a) étalon de masse de 1 kg;
+  - content: b) cale étalon;
+  - content: c) résistance étalon de 100 Ω;
+  - content: d) pile étalon saturée de Weston;
+  - content: e) ampèremètre étalon;
+  - content: f) étalon atomique de fréquence à césium.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalon
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7ab3fadc-0a25-451e-a48c-3b9cd5e47466

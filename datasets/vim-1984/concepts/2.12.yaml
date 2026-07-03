@@ -1,12 +1,55 @@
 ---
 data:
   identifier: '2.12'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/2.8
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 2.8
-id: e36b6465-0822-4f20-9de3-46461eb99180
+  localized_concepts:
+    eng: 6c9cbc94-9ef3-44b2-9b2b-d5cc3e432353
+    fra: 57312ae6-bf14-49a7-82c8-fff56545608e
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 3f460cb2-81b8-41af-86db-196c711b93c8
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A representation of a measurand within a measuring system.
+  id: 2.12-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The input signal to a measuring system may be called the stimulus; the output
+      signal may be called the response.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement signal
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 6c9cbc94-9ef3-44b2-9b2b-d5cc3e432353
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Représentation d'une grandeur à mesurer dans un système de mesure.
+  id: 2.12-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le signal d'entrée d'un système de mesure peut être appelé, en anglais, stimulus.
+      Le signal de sortie peut être appelé réponse.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: signal de mesure
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 57312ae6-bf14-49a7-82c8-fff56545608e

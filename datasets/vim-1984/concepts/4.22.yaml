@@ -1,12 +1,47 @@
 ---
 data:
   identifier: '4.22'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.20
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.20
-id: 6ce1905b-877b-4bc4-852d-b4b7f7521f06
+  localized_concepts:
+    eng: e9212fa3-54df-44d7-8238-786786efe0cd
+    fra: 1647d7e8-41d8-4146-bd86-8cd772e85cf3
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: a9ad4e84-ca9e-46dd-b1c5-56f13034dd68
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The part of a scale between any two successive scale marks.
+  id: 4.22-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale division
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e9212fa3-54df-44d7-8238-786786efe0cd
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie d'une échelle comprise entre deux repères successifs quelconques.
+  id: 4.22-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: division
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1647d7e8-41d8-4146-bd86-8cd772e85cf3

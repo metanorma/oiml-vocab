@@ -1,0 +1,68 @@
+---
+data:
+  identifier: '3.02'
+  localized_concepts:
+    eng: 728e3e52-8be9-4eb1-9681-d0555062697f
+    fra: 21378c7b-62c4-4d7c-a4dc-58d882bd709d
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 7222f4d9-d9cc-49ab-95d5-8cf88e43418d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The value of a measurand provided by a measuring instrument.
+  id: 3.02-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The indication is expressed in units of the measurand, regardless of the
+      units marked on the scale. What appears on the scale (sometimes called direct
+      indication, direct reading or scale value) has to be multiplied by the instrument
+      constant to provide the indication.
+  - content: For a material measure, the indication is its nominal or marked value.
+  - content: >-
+      The meaning of the term "indication" is sometimes extended to cover what is
+      recorded by a recording instrument, or the measurement signal within a measuring
+      system.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 728e3e52-8be9-4eb1-9681-d0555062697f
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur d'une grandeur mesurée fournie par un instrument de mesure.
+  id: 3.02-fra
+  language_code: fra
+  notes:
+  - content: >-
+      L'indication est exprimée en unité de la grandeur mesurée, quelle que soit
+      l'unité marquée sur l'échelle. Ce qui apparaît sur l'échelle (parfois appelé
+      indication directe ou valeur d'échelle) doit être multiplié par la constante
+      de l'instrument pour obtenir l'indication.
+  - content: "Pour une mesure matérialisée, l'indication est sa valeur nominale ou sa valeur marquée."
+  - content: >-
+      La signification du terme « indication » s'étend parfois à ce qui est enregistré
+      par un enregistreur ou au signal de mesure dans un système de mesure.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication (d'un instrument de mesure)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 21378c7b-62c4-4d7c-a4dc-58d882bd709d

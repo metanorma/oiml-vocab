@@ -1,12 +1,55 @@
 ---
 data:
   identifier: '4.32'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.29
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.29
-id: 2218f369-c2ea-4268-9b95-886bd796d16d
+  localized_concepts:
+    eng: 8d8a6336-bf1a-47de-9bb8-df633208a7f5
+    fra: 46382a71-abb2-4161-a23d-c4e414ea93f1
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 641cb017-cbe7-4e9d-8980-0309e2385093
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The operation of fixing the positions of the gauge marks or scale marks of
+      a measuring instrument (in some cases of certain principal marks only), in
+      relation to the corresponding values of the measurand.
+  id: 4.32-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gauging (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8d8a6336-bf1a-47de-9bb8-df633208a7f5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Positionnement matériel des repères (éventuellement de certains repères principaux
+      seulement) d'un appareil de mesure en fonction des valeurs correspondantes
+      de la grandeur mesurée.
+  id: 4.32-fra
+  language_code: fra
+  notes:
+  - content: "Ne pas confondre « calibrage » et « étalonnage »."
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "calibrage (d'un appareil de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 46382a71-abb2-4161-a23d-c4e414ea93f1

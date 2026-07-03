@@ -1,12 +1,69 @@
 ---
 data:
   identifier: '1.19'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.20
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.20
-id: e1c0e1b2-92f1-46b8-9224-db9c0747e21e
+  localized_concepts:
+    eng: a587769b-a30e-4938-b61f-2680797a20ea
+    fra: 93950b44-65b7-4f3f-825d-e341fb471cd8
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 992c1a1b-f327-4150-84bc-55a615d7f6fd
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A value of a quantity which, for a given purpose, may be substituted for the
+      true value.
+  id: 1.19-eng
+  language_code: eng
+  notes:
+  - content: >-
+      A conventional true value is, in general, regarded as sufficiently close to
+      the true value for the difference to be insignificant for the given purpose.
+  examples:
+  - content: >-
+      within an organization, the value assigned to a reference standard may be
+      taken as the conventional true value of the quantity realized by the standard.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conventional true value (of a quantity)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a587769b-a30e-4938-b61f-2680797a20ea
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Valeur d'une grandeur qui peut être substituée à la valeur vraie dans un but
+      déterminé.
+  id: 1.19-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Une valeur conventionnellement vraie est, en général, considérée comme suffisamment
+      proche de la valeur vraie pour que la différence puisse être non significative
+      pour le but donné.
+  examples:
+  - content: >-
+      au sein d'une organisation, la valeur attribuée à un étalon de référence peut
+      être prise comme étant la valeur conventionnellement vraie de la grandeur
+      réalisée par l'étalon.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur conventionnellement vraie (d'une grandeur)
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 93950b44-65b7-4f3f-825d-e341fb471cd8

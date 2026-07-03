@@ -1,0 +1,55 @@
+---
+data:
+  identifier: '2.17'
+  localized_concepts:
+    eng: 42b43bf0-66c4-46a5-aae2-565b8fd7571b
+    fra: e3e07944-6d9e-43a5-bfc0-e7d74efc71e0
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: a39bf500-dbe3-4003-9bd6-338e0e6b6644
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A method of measurement in which the measurand is compared directly with a
+      quantity of the same kind having a known value.
+  id: 2.17-eng
+  language_code: eng
+  examples:
+  - content: measurement of a length using a graduated rule.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: direct-comparison method of measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 42b43bf0-66c4-46a5-aae2-565b8fd7571b
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Méthode de mesure dans laquelle la grandeur à mesurer est comparée directement
+      à une grandeur de même nature ayant une valeur connue.
+  id: 2.17-fra
+  language_code: fra
+  examples:
+  - content: mesurage d'une longueur à l'aide d'une règle graduée.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: méthode de mesure par comparaison directe
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: e3e07944-6d9e-43a5-bfc0-e7d74efc71e0

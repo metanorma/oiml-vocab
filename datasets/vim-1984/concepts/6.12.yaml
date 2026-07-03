@@ -1,12 +1,57 @@
 ---
 data:
   identifier: '6.12'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.10
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.10
-id: 5e674473-3bc6-4101-9515-b956683358a9
+  localized_concepts:
+    eng: 80938577-03fc-4ad9-b021-eab3d7e055a8
+    fra: b5b80071-5fbb-46b4-a456-96c557fd53ac
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 01964d39-2986-45e4-b78f-27863f206387
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The property of a result of a measurement whereby it can be related to appropriate
+      standards, generally international or national standards, through an unbroken
+      chain of comparisons.
+  id: 6.12-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: traceability
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 80938577-03fc-4ad9-b021-eab3d7e055a8
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Propriété d'un résultat de mesure consistant à pouvoir le relier à des étalons
+      appropriés, généralement internationaux ou nationaux, par l'intermédiaire
+      d'une chaîne ininterrompue de comparaisons.
+  id: 6.12-fra
+  language_code: fra
+  notes:
+  - content: >-
+      La manière dont s'effectue la liaison aux étalons est appelée « raccordement
+      aux étalons ».
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: traçabilité
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b5b80071-5fbb-46b4-a456-96c557fd53ac

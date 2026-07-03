@@ -1,12 +1,53 @@
 ---
 data:
   identifier: '4.34'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.31
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.31
-id: ec7742d6-7cfa-4745-9e52-f60b5f62c67c
+  localized_concepts:
+    eng: 96254d94-a3b7-4ea4-805b-d641f2402912
+    fra: 07a6e1c8-ae04-4414-94dc-e8381c0171f0
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 90008be1-d5a5-46ac-a341-64199be04997
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The operation intended to bring a measuring instrument into a state of performance
+      and freedom from bias suitable for its use, employing only the means at the
+      disposal of the user.
+  id: 4.34-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: user adjustment
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 96254d94-a3b7-4ea4-805b-d641f2402912
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Opération destinée à amener un appareil de mesure à un fonctionnement et
+      à une justesse convenables pour son utilisation en agissant seulement sur
+      les moyens mis à la disposition de l'utilisateur.
+  id: 4.34-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: réglage
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 07a6e1c8-ae04-4414-94dc-e8381c0171f0

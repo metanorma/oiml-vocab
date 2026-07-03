@@ -1,12 +1,62 @@
 ---
 data:
   identifier: '4.20'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.18
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.18
-id: 5a384318-3cd6-41fa-a7d1-885040235ba4
+  localized_concepts:
+    eng: be1a687f-6c9c-4d88-93a6-a5ccb18a4459
+    fra: 90790755-c788-4fdf-a016-af94bfa13f2a
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 8228bafe-f5bc-4584-bce9-8b6554e12ae0
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      For a given scale, the length of the line between the first and the last
+      scale marks and passing through the centres of all the shortest scale marks.
+  id: 4.20-eng
+  language_code: eng
+  notes:
+  - content: The line may be real or imaginary, curved or straight.
+  - content: >-
+      Scale length is expressed in units of length regardless of the units of the
+      measurand or the units marked on the scale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale length
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: be1a687f-6c9c-4d88-93a6-a5ccb18a4459
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Pour une échelle donnée, longueur de la ligne comprise entre le premier et
+      le dernier repère et passant par les milieux de tous les traits les plus
+      petits.
+  id: 4.20-fra
+  language_code: fra
+  notes:
+  - content: La ligne peut être réelle ou imaginaire, courbe ou droite.
+  - content: >-
+      La longueur d'échelle est exprimée en unité de longueur quelle que soit l'unité
+      de la grandeur à mesurer ou l'unité marquée sur l'échelle.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: longueur d'échelle
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 90790755-c788-4fdf-a016-af94bfa13f2a

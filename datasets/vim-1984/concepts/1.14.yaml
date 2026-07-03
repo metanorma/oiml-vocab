@@ -1,12 +1,60 @@
 ---
 data:
   identifier: '1.14'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.15
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.15
-id: 1f78c539-57a9-4659-be50-caa11d95a17f
+  localized_concepts:
+    eng: 99b71c60-abe9-4230-9198-c3250a2e11e7
+    fra: 4f7f8ddc-cb67-4422-ae97-e5b4615d186e
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: e62b345d-2f13-4490-9a15-7deba48565e2
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A unit of measurement which does not belong to a given system of units.
+  id: 1.14-eng
+  language_code: eng
+  examples:
+  - content: >-
+      a) the electronvolt (1,60219 × 10^-19 J) is an off-system unit of energy with
+      respect to the SI;
+  - content: b) day, hour, minute are off-system units of time with respect to the SI.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: off-system unit (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 99b71c60-abe9-4230-9198-c3250a2e11e7
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Unité de mesure qui n'appartient pas à un système d'unités donné.
+  id: 1.14-fra
+  language_code: fra
+  examples:
+  - content: >-
+      a) l'électronvolt (1,60219 × 10^-19 J) est une unité d'énergie hors système
+      pour le SI;
+  - content: >-
+      b) le jour, l'heure, la minute sont des unités de temps hors système pour
+      le SI.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "unité (de mesure) hors système"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4f7f8ddc-cb67-4422-ae97-e5b4615d186e

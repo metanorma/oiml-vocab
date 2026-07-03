@@ -1,12 +1,52 @@
 ---
 data:
   identifier: '5.13'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.12
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.12
-id: c74168ef-57b3-4a92-8a52-4d14c4fd5a01
+  localized_concepts:
+    eng: 749543c0-3b4a-4c1e-aaa4-fd6ea0c5b9d8
+    fra: 8681e9ae-0d01-46fd-be98-e98bbcc773d1
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 58b526ff-face-423d-a37f-15a109adfdd4
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A quantitative expression of the ability of an indicating device to distinguish
+      meaningfully between closely adjacent values of the quantity indicated.
+  id: 5.13-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolution (of an indicating device)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 749543c0-3b4a-4c1e-aaa4-fd6ea0c5b9d8
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Expression quantitative de l'aptitude d'un dispositif indicateur à faire
+      apparaître significativement la distinction entre des valeurs très voisines
+      de la grandeur indiquée.
+  id: 5.13-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "résolution (d'un dispositif indicateur)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 8681e9ae-0d01-46fd-be98-e98bbcc773d1

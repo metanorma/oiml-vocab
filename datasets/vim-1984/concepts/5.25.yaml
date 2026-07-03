@@ -1,12 +1,52 @@
 ---
 data:
   identifier: '5.25'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.22
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.22
-id: 23cbecaf-260e-4a5d-ba9b-acb38dff15ae
+  localized_concepts:
+    eng: 7c2f776f-81e1-4885-a3f5-a262164a6099
+    fra: 14438652-1dc8-443a-8c2d-6c081c4a40c0
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: c0b9ce60-2321-40cc-b238-741b4d4e620e
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The error of a measuring instrument at a specified scale value or a specified
+      value of the measurand, chosen for checking the instrument.
+  id: 5.25-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: datum error (of a measuring instrument)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 7c2f776f-81e1-4885-a3f5-a262164a6099
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Erreur d'un instrument de mesure pour une valeur d'échelle spécifiée ou pour
+      une valeur spécifiée de la grandeur mesurée, choisie pour le contrôle de
+      l'instrument.
+  id: 5.25-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "erreur au point de contrôle (d'un instrument de mesure)"
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 14438652-1dc8-443a-8c2d-6c081c4a40c0

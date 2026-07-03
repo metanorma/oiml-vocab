@@ -1,12 +1,80 @@
 ---
 data:
   identifier: '6.13'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.11
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.11
-id: 206bea86-c1f5-487e-b972-46d1c0ea6fb2
+  localized_concepts:
+    eng: a77a0490-8459-4ab1-b823-ed67124f3eec
+    fra: aad459c2-e254-4e92-bb25-66069d79d15a
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: f1fcc8ba-124d-4c0b-854f-ad4467327e61
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The set of operations which establish, under specified conditions, the relationship
+      between values indicated by a measuring instrument or measuring system, or
+      values represented by a material measure, and the corresponding known values
+      of a measurand.
+  id: 6.13-eng
+  language_code: eng
+  notes:
+  - content: >-
+      The result of a calibration permits the estimation of errors of indication
+      of the measuring instrument, measuring system or material measure, or the
+      assignment of values to marks on arbitrary scales.
+  - content: A calibration may also determine other metrological properties.
+  - content: >-
+      The result of a calibration may be recorded in a document, sometimes called
+      a calibration certificate or a calibration report.
+  - content: >-
+      The result of a calibration is sometimes expressed as a calibration factor,
+      or as a series of calibration factors in the form of a calibration curve.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: a77a0490-8459-4ab1-b823-ed67124f3eec
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Ensemble des opérations établissant, dans des conditions spécifiées, la relation
+      entre les valeurs indiquées par un appareil de mesure ou un système de mesure,
+      ou les valeurs représentées par une mesure matérialisée, et les valeurs connues
+      correspondantes d'une grandeur mesurée.
+  id: 6.13-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Le résultat d'un étalonnage permet d'estimer les erreurs d'indication de
+      l'appareil de mesure, du système de mesure ou de la mesure matérialisée,
+      ou d'affecter des valeurs à des repères sur des échelles arbitraires.
+  - content: Un étalonnage peut aussi déterminer d'autres propriétés métrologiques.
+  - content: >-
+      Le résultat d'un étalonnage peut être consigné dans un document, parfois
+      appelé certificat d'étalonnage ou rapport d'étalonnage.
+  - content: >-
+      Le résultat d'un étalonnage est parfois exprimé sous la forme d'un facteur
+      d'étalonnage ou d'une série de facteurs d'étalonnage sous la forme d'une
+      courbe d'étalonnage.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étalonnage
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: aad459c2-e254-4e92-bb25-66069d79d15a

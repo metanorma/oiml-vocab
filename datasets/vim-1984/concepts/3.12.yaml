@@ -1,0 +1,55 @@
+---
+data:
+  identifier: '3.12'
+  localized_concepts:
+    eng: 1a0ad8b4-e68f-4012-bf8c-9e530f4437d4
+    fra: f1495420-a73f-471b-a6c8-749dabf2af51
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 290982d8-52b7-4c7f-b4fb-71820ff66dcb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A component of the error of measurement which, in the course of a number
+      of measurements of the same measurand, varies in an unpredictable way.
+  id: 3.12-eng
+  language_code: eng
+  notes:
+  - content: It is not possible to correct for random error.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: random error
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 1a0ad8b4-e68f-4012-bf8c-9e530f4437d4
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Composante de l'erreur de mesure qui, lors de plusieurs mesurages du même
+      mesurande, varie d'une façon imprévisible.
+  id: 3.12-fra
+  language_code: fra
+  notes:
+  - content: On ne peut pas tenir compte de l'erreur aléatoire par application d'une correction.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur aléatoire
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f1495420-a73f-471b-a6c8-749dabf2af51

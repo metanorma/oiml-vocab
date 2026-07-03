@@ -1,0 +1,65 @@
+---
+data:
+  identifier: '3.01'
+  localized_concepts:
+    eng: dfc0e2b6-cd96-4a06-8b48-992e31b662c8
+    fra: 49ef3798-20e1-41bd-a06c-f6b8c98354ee
+  domains:
+  - concept_id: section-3
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 8ce98f26-48a0-4846-8ebd-88a57dbf87bc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The value of a measurand obtained by measurement.
+  id: 3.01-eng
+  language_code: eng
+  notes:
+  - content: >-
+      When the term "result of a measurement" is used, it should be made clear whether
+      it refers to: the indication, the uncorrected result, the corrected result,
+      and whether averaging over several observations is involved.
+  - content: >-
+      A complete statement of the result of a measurement includes information about
+      the uncertainty of measurement and about the values of appropriate influence
+      quantities.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: result of a measurement
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: dfc0e2b6-cd96-4a06-8b48-992e31b662c8
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur d'une grandeur mesurée, obtenue par mesurage.
+  id: 3.01-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Lorsqu'on utilise le terme « résultat d'un mesurage », on indiquera clairement
+      si l'on se réfère : à l'indication, au résultat brut, au résultat corrigé,
+      et si cela comporte une moyenne effectuée à partir de plusieurs observations.
+  - content: >-
+      Une expression complète du résultat d'un mesurage comprend des informations
+      sur l'incertitude de mesure et sur les valeurs des grandeurs d'influence
+      appropriées.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: résultat d'un mesurage
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 49ef3798-20e1-41bd-a06c-f6b8c98354ee

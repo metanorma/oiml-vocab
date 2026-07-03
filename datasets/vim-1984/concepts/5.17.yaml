@@ -1,12 +1,49 @@
 ---
 data:
   identifier: '5.17'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.15
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.15
-id: e1513448-eb1e-4e0c-84b3-f5f0d7abc1bc
+  localized_concepts:
+    eng: 5e55851a-3a2f-4fc5-8744-ec32550494a5
+    fra: 4e70edc2-89fa-4b6d-8ac1-715401736116
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: bf1de18f-e233-4684-86ab-a074a47395be
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a measuring instrument not to affect the value of the measurand.
+  id: 5.17-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transparency
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 5e55851a-3a2f-4fc5-8744-ec32550494a5
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à ne pas modifier la valeur de la grandeur
+      mesurée.
+  id: 5.17-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: discrétion
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4e70edc2-89fa-4b6d-8ac1-715401736116

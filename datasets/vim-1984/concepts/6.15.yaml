@@ -1,12 +1,57 @@
 ---
 data:
   identifier: '6.15'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/6.13
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 6.13
-id: 74145457-7441-46d4-8fe8-09d4bdba5172
+  localized_concepts:
+    eng: def5a07b-2474-4a1a-941c-eb9bb85d9923
+    fra: eaa71a1d-eca2-49e2-a71c-f3cbfef2ac58
+  domains:
+  - concept_id: section-6
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 54fa8bba-67bb-4635-9a6a-a3207b3a4549
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A material or substance one or more properties of which are sufficiently
+      well established to be used for the calibration of an apparatus, the assessment
+      of a measurement method, or for assigning values to materials.
+  id: 6.15-eng
+  language_code: eng
+  notes:
+  - content: This definition is taken from ISO Guide 30-1981.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference material
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: def5a07b-2474-4a1a-941c-eb9bb85d9923
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Matériau ou substance dont une ou plusieurs propriétés sont suffisamment
+      bien définies pour permettre de l'utiliser pour l'étalonnage d'un appareil,
+      l'évaluation d'une méthode de mesurage ou l'attribution de valeurs aux matériaux.
+  id: 6.15-fra
+  language_code: fra
+  notes:
+  - content: Cette définition provient du Guide ISO 30-1981.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: matériau de référence
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: eaa71a1d-eca2-49e2-a71c-f3cbfef2ac58

@@ -1,12 +1,62 @@
 ---
 data:
   identifier: '1.09'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/1.11
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 1.11
-id: 3e0abff9-ef35-45fb-b2ef-4811893549c5
+  localized_concepts:
+    eng: 13d94a80-a6f6-408a-a0b2-a5208b486384
+    fra: f0a62015-3c5c-4c86-9ee9-93502668ed68
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: a6fca417-25a3-485b-875c-aa6486edb560
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A system of units composed of a set of base units and coherent derived units.
+  id: 1.09-eng
+  language_code: eng
+  examples:
+  - content: >-
+      the following units (expressed by their symbols) form part of the coherent
+      system of units in mechanics within the International System of Units, SI:
+      m; kg; s; m^2; m^3; Hz = s^-1; m·s^-1; m·s^-2; kg·m^-3; N = kg·m·s^-2;
+      Pa = kg·m^-1·s^-2; J = kg·m^2·s^-2; W = kg·m^2·s^-3.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coherent system of units (of measurement)
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 13d94a80-a6f6-408a-a0b2-a5208b486384
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Système d'unités composé d'un ensemble d'unités de base et d'unités dérivées
+      cohérentes.
+  id: 1.09-fra
+  language_code: fra
+  examples:
+  - content: >-
+      les unités suivantes (exprimées par leurs symboles) font partie du système
+      cohérent d'unités de la mécanique dans le Système international d'unités, SI
+      : m; kg; s; m^2; m^3; Hz = s^-1; m·s^-1; m·s^-2; kg·m^-3; N = kg·m·s^-2;
+      Pa = kg·m^-1·s^-2; J = kg·m^2·s^-2; W = kg·m^2·s^-3.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "système cohérent d'unités (de mesure)"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: f0a62015-3c5c-4c86-9ee9-93502668ed68

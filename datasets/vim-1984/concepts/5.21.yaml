@@ -1,12 +1,51 @@
 ---
 data:
   identifier: '5.21'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/5.18
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 5.18
-id: f5629716-daaf-4833-927d-671e2b156fd4
+  localized_concepts:
+    eng: 34563aaa-74ff-4338-9d3d-3dbdcb6805a9
+    fra: ce825cbc-b7a9-4342-8ecb-a8449ff2b625
+  domains:
+  - concept_id: section-5
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: fc5a762f-cb68-4cd5-b71b-d5bec9865837
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      The ability of a measuring instrument to give indications approaching the
+      true value of a measurand.
+  id: 5.21-eng
+  language_code: eng
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy of a measuring instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 34563aaa-74ff-4338-9d3d-3dbdcb6805a9
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Aptitude d'un instrument de mesure à donner des indications proches de la
+      valeur vraie d'une grandeur mesurée.
+  id: 5.21-fra
+  language_code: fra
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: exactitude d'un instrument de mesure
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: ce825cbc-b7a9-4342-8ecb-a8449ff2b625

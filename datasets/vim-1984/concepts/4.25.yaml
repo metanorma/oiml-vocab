@@ -1,12 +1,58 @@
 ---
 data:
   identifier: '4.25'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/4.23
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 4.23
-id: 467c9fb9-9936-41db-9f22-0072f7dad830
+  localized_concepts:
+    eng: 4698cbbc-382b-43bb-9c5e-d772bff6a109
+    fra: 12497af3-27f5-4dcf-9a33-3ce39357feac
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 30a67c02-1b3a-478a-8082-7174164c4bbf
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A scale in which each scale spacing is related to the corresponding scale
+      interval by a coefficient of proportionality which is constant throughout
+      the scale.
+  id: 4.25-eng
+  language_code: eng
+  notes:
+  - content: A linear scale having constant scale intervals is called a regular scale.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: linear scale
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 4698cbbc-382b-43bb-9c5e-d772bff6a109
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Échelle dans laquelle la longueur et la valeur de chaque division sont reliées
+      par un coefficient de proportionnalité constant le long de l'échelle.
+  id: 4.25-fra
+  language_code: fra
+  notes:
+  - content: >-
+      Une échelle linéaire dont les valeurs de division sont constantes est appelée
+      échelle régulière.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échelle linéaire
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 12497af3-27f5-4dcf-9a33-3ce39357feac

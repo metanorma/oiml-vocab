@@ -1,0 +1,55 @@
+---
+data:
+  identifier: '4.09'
+  localized_concepts:
+    eng: b4db8566-3550-4bcd-bd85-de8b6183cda3
+    fra: dba9d669-db1b-4b24-81f5-6dbf7b076a6b
+  domains:
+  - concept_id: section-4
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 58b6cc03-13dd-4fdd-988b-7c5c888a5e37
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A measuring instrument which determines the value of a measurand by integrating
+      a quantity with respect to another quantity.
+  id: 4.09-eng
+  language_code: eng
+  examples:
+  - content: electrical energy meter.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: integrating (measuring) instrument
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: b4db8566-3550-4bcd-bd85-de8b6183cda3
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Appareil de mesure qui détermine la valeur d'une grandeur à mesurer en intégrant
+      une grandeur en fonction d'une autre grandeur.
+  id: 4.09-fra
+  language_code: fra
+  examples:
+  - content: compteur d'énergie électrique.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(appareil de mesure) intégrateur"
+    grammar_info:
+    - gender: m
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: dba9d669-db1b-4b24-81f5-6dbf7b076a6b

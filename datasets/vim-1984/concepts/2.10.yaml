@@ -1,12 +1,57 @@
 ---
 data:
   identifier: '2.10'
-  status: stub
-  superseded_by:
-    - urn:oiml:pub:v:2:1993/2.7
-  note: |
-    Stub entry - referenced by VIM 1993 as the predecessor concept.
-    Actual designation and definition await OCR of the 1984 source PDF.
-    VIM 1993 successors: 2.7
-id: 612ed2a2-3291-41ab-911c-52f0d45d6185
+  localized_concepts:
+    eng: 14f129a6-4f41-4471-86fe-65a3fc010220
+    fra: d5294ed2-03db-48e2-9146-7e2b27363510
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:1984
+    ref_type: section
+status: valid
+id: 554e22b2-5a0b-4a2e-89e3-59c934eddaf1
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      A quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring instrument.
+  id: 2.10-eng
+  language_code: eng
+  examples:
+  - content: ambient temperature;
+  - content: frequency of an alternating measured voltage.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: 14f129a6-4f41-4471-86fe-65a3fc010220
+---
+data:
+  dates:
+  - date: '1984-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: >-
+      Grandeur qui ne fait pas l'objet du mesurage mais qui influe sur la valeur
+      du mesurande ou sur les indications de l'instrument de mesure.
+  id: 2.10-fra
+  language_code: fra
+  examples:
+  - content: température ambiante;
+  - content: fréquence d'une tension électrique alternative mesurée.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+    grammar_info:
+    - gender: f
+date_accepted: '1984-01-01T00:00:00+00:00'
+entry_status: valid
+id: d5294ed2-03db-48e2-9146-7e2b27363510
