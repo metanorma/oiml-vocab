@@ -22,12 +22,19 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'error of measurement divided by a true value of the measurand. The error
-      is expressed as a percentage, and is calculated by:'
+  - content: error of measurement divided by a true value of the measurand. The error
+      is expressed as a percentage, and is calculated by stem:[e = (Y_{i} - Y_{"ref"})
+      / Y_{"ref"} xx 100%]
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:1993'
+          id: '3.12'
   examples: []
   id: 01943-eng
-  notes:
-  - content: '[VIM:1993, 3.12 + note]'
+  notes: []
   sources:
   - origin:
       ref:
@@ -39,7 +46,15 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: relative error or error (of indication)
+    designation: relative error
+  - type: expression
+    normative_status: admitted
+    designation: error
+    usage_info: of indication
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[e]
+    international: true
   language_code: eng
   entry_status: valid
 date_accepted: '2024-01-01T00:00:00+00:00'
