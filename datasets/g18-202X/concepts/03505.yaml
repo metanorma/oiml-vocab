@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'fault exceeding the applicable fault limit [OIML V 1, 5.14]'
+  - content: 'fault exceeding the applicable fault limit'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.14'
   id: 03505-eng
   language_code: eng
   notes:

@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'value specified in this Recommendation delimiting non-significant faults [OIML V1, 5.12]'
+  - content: 'value specified in this Recommendation delimiting non-significant faults'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.12'
   id: 03072-eng
   language_code: eng
   sources: []
