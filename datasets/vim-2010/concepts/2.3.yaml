@@ -21,20 +21,20 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*quantity* intended to be measured"
+  - content: "{{1.1,quantity}} intended to be measured"
   examples: []
   id: 2.3-eng
   language_code: eng
   notes:
-  - content: The specification of a measurand requires knowledge of the *kind of quantity*,
+  - content: The specification of a measurand requires knowledge of the {{1.2,kind of quantity}},
       description of the state of the phenomenon, body, or substance carrying the
       quantity, including any relevant component, and the chemical entities involved.
   - content: In the 2nd edition of the VIM and in IEC 60050-300:2001, the measurand
-      is defined as the 'particular quantity subject to *measurement*'.
-  - content: The measurement, including the *measuring system* and the conditions
+      is defined as the 'particular quantity subject to {{2.1,measurement}}'.
+  - content: The measurement, including the {{3.2,measuring system}} and the conditions
       under which the measurement is carried out, might change the phenomenon, body,
       or substance such that the quantity being measured may differ from the measurand
-      as defined. In this case adequate *correction* is necessary.
+      as defined. In this case adequate {{2.53,correction}} is necessary.
     examples:
     - content: The potential difference between the terminals of a battery may decrease
         when using a voltmeter with a significant internal conductance to perform the measurement.
@@ -59,7 +59,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*grandeur* que l'on veut mesurer"
+  - content: "{{1.1,grandeur}} que l'on veut mesurer"
   examples: []
   id: 2.3-fra
   language_code: fra
@@ -69,11 +69,11 @@ data:
       dont la grandeur est une propriété, incluant tout constituant pertinent et les
       entités chimiques en jeu.
   - content: Dans la 2^ème^ édition du VIM et dans la CEI 60050-300:2001, le mesurande
-      est défini comme la « grandeur particulière soumise à *mesurage* ».
-  - content: Il se peut que le mesurage, incluant le *système de mesure* et les conditions
+      est défini comme la « grandeur particulière soumise à {{2.1,mesurage}} ».
+  - content: Il se peut que le mesurage, incluant le {{3.2,système de mesure}} et les conditions
       sous lesquelles le mesurage est effectué, modifie le phénomène, le corps ou
       la substance de sorte que la grandeur mesurée peut différer du mesurande. Dans
-      ce cas, une *correction* appropriée est nécessaire.
+      ce cas, une {{2.53,correction}} appropriée est nécessaire.
     examples:
     - content: La différence de potentiel entre les bornes d'une batterie peut diminuer
         lorsqu'on la mesure en employant un voltmètre ayant une conductance interne

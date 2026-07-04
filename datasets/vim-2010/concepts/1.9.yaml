@@ -21,8 +21,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: real scalar *quantity*, defined and adopted by convention, with which
-      any other quantity of the same *kind* can be compared to express the ratio of
+  - content: real scalar {{1.1,quantity}}, defined and adopted by convention, with which
+      any other quantity of the same {{1.2,kind}} can be compared to express the ratio of
       the two quantities as a number
   examples: []
   id: 1.9-eng
@@ -30,7 +30,7 @@ data:
   notes:
   - content: Measurement units are designated by conventionally assigned names and
       symbols.
-  - content: Measurement units of quantities of the same *quantity dimension* may
+  - content: Measurement units of quantities of the same {{1.7,quantity dimension}} may
       be designated by the same name and symbol even when the quantities are not of
       the same kind. For example joule per kelvin and stem:["unitsml(J/K)"] are respectively the name
       and symbol of both a measurement unit of heat capacity and a measurement unit
@@ -65,8 +65,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*grandeur* scalaire réelle, définie et adoptée par convention, à laquelle
-      on peut comparer toute autre grandeur de même *nature* pour exprimer le rapport
+  - content: "{{1.1,grandeur}} scalaire réelle, définie et adoptée par convention, à laquelle
+      on peut comparer toute autre grandeur de même {{1.2,nature}} pour exprimer le rapport
       des deux grandeurs sous la forme d'un nombre"
   examples: []
   id: 1.9-fra
@@ -74,7 +74,7 @@ data:
   notes:
   - content: On désigne les unités de mesure par des noms et des symboles attribués
       par convention.
-  - content: Les unités des grandeurs de même *dimension* peuvent être désignées par
+  - content: Les unités des grandeurs de même {{1.7,dimension}} peuvent être désignées par
       le même nom et le même symbole même si ces grandeurs ne sont pas de même nature.
       On emploie, par exemple, le nom « joule par kelvin » et le symbole stem:["unitsml(J/K)"] pour
       désigner à la fois une unité de capacité thermique et une unité d'entropie,

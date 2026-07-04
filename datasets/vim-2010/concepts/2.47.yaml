@@ -18,9 +18,9 @@ data:
     type: accepted
   definition:
   - content: property of a set of *measurement results*
-      for a specified *measurand*, such that the absolute value of the difference
+      for a specified {{2.3,measurand}}, such that the absolute value of the difference
       of any pair of *measured quantity values* from two different measurement results
-      is smaller than some chosen multiple of the *standard measurement uncertainty*
+      is smaller than some chosen multiple of the {{2.30,standard measurement uncertainty}}
       of that difference
   examples: []
   id: 2.47-eng
@@ -57,7 +57,7 @@ data:
   - content: propriété d'un ensemble de *résultats de
       mesure* correspondant à un *mesurande* spécifié, telle que la valeur absolue
       de la différence des *valeurs mesurées* pour toute paire de résultats de mesure
-      est plus petite qu'un certain multiple choisi de l'*incertitude-type* de cette
+      est plus petite qu'un certain multiple choisi de l'{{2.30,incertitude-type}} de cette
       différence
   examples: []
   id: 2.47-fra
@@ -68,7 +68,7 @@ data:
       de mesure se rapportent ou non au même mesurande. Si, dans un ensemble de *mesurages*
       d'un mesurande que l'on pense rester constant, un résultat de mesure n'est pas
       compatible avec les autres, soit le mesurage n'est pas correct (par exemple,
-      l'*incertitude de mesure* évaluée est trop petite), soit la *grandeur*
+      l'{{2.26,incertitude de mesure}} évaluée est trop petite), soit la {{1.1,grandeur}}
       mesurée a changé d'un mesurage à l'autre.
   - content: La corrélation entre les mesurages influence la compatibilité de mesure.
       Si les mesurages sont entièrement décorrélés, l'incertitude-type de leur différence

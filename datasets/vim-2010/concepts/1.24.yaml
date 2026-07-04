@@ -17,7 +17,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: ratio of two *measurement units* for *quantities* of the same *kind*
+  - content: ratio of two *measurement units* for *quantities* of the same {{1.2,kind}}
   examples:
   - content: stem:["unitsml(km/m)" = 1000] and thus stem:[1 "unitsml(km)" = 1000
       "unitsml(m)"]
@@ -44,7 +44,7 @@ data:
     type: accepted
   definition:
   - content: rapport de deux *unités de mesure* correspondant à des *grandeurs* de
-      même *nature*
+      même {{1.2,nature}}
   examples:
   - content: stem:["unitsml(km/m)" = 1000] et par conséquent stem:[1 "unitsml(km)"
       = 1000 "unitsml(m)"]

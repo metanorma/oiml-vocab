@@ -17,9 +17,9 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*quantity*, defined by a conventional *measurement procedure*, for which
+  - content: "{{1.1,quantity}}, defined by a conventional {{2.6,measurement procedure}}, for which
       a total ordering relation can be established, according to magnitude, with other
-      quantities of the same *kind*, but for which no algebraic operations among those
+      quantities of the same {{1.2,kind}}, but for which no algebraic operations among those
       quantities exist"
   examples:
   - content: Rockwell C hardness.
@@ -47,8 +47,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*grandeur* définie par une *procédure de mesure* adoptée par convention,
-      qui peut être classée avec d'autres grandeurs de même *nature* selon l'ordre
+  - content: "{{1.1,grandeur}} définie par une {{2.6,procédure de mesure}} adoptée par convention,
+      qui peut être classée avec d'autres grandeurs de même {{1.2,nature}} selon l'ordre
       croissant ou décroissant de leurs expressions quantitatives, mais pour laquelle
       aucune relation algébrique entre ces grandeurs n'existe"
   examples:
