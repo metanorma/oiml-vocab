@@ -23,36 +23,52 @@ data:
   definition:
   - content: property of a phenomenon, body, or substance, where the property has
       a magnitude that can be expressed as a number and a reference
-  examples:
-  - content: '""Plasma (Blood)Sodium ion; amount-of-substance concentration equal to 143 mmol/l in a given person at a given time"."'
+  examples: []
   id: 1.1-eng
   language_code: eng
   notes:
-  - content: The generic concept ‘quantity’ can be divided into several levels of
+  - content: The generic concept 'quantity' can be divided into several levels of
       specific concepts, as shown in the following table. The left hand side of the
-      table shows specific concepts under ‘quantity’. These are generic concepts for
-      the individual quantities in the right hand column. length, l energy, E radius,
-      r radius of circle A, rA or r(A) wavelength,  wavelength of the sodium D radiation,
-      D or (D; Na) kinetic energy, T kinetic energy of particle i in a given system,
-      Ti heat, Q heat of vaporization of sample i of water, Qi electric charge, Q
-      electric charge of the proton, e electric resistance, R electric resistance
-      of resistor i in a given circuit, Ri amount-of-substance concentration of entity
-      B, cB amount-of-substance concentration of ethanol in wine sample i, ci(C2H5OH)
-      number concentration of entity B, CB number concentration of erythrocytes in
-      blood sample i, C(Erys; Bi) Rockwell C hardness, HRC Rockwell C hardness of
-      steel sample i, HRCi
-  - content: A reference can be a measurement unit, a measurement procedure, a reference
-      material, or a combination of such.
+      table shows specific concepts under 'quantity'. These are generic concepts for
+      the individual quantities in the right hand column.
+
+      [cols=a,a,2a]
+      |===
+      .2+| length stem:[l]
+      | radius, stem:[r] | radius of circle A, stem:[r_A] or stem:[r(A)]
+      | wavelength, stem:[lambda] | wavelength of the sodium D radiation, stem:[lambda_D] or stem:[lambda("D"; "Na")]
+
+      .2+| kinetic energy, stem:[T]
+      | kinetic energy of particle stem:[i] in a given system, stem:[T_i]
+      | heat, stem:[Q] | heat of vaporization of sample stem:[i] of water, stem:[Q_i]
+
+      2+| electric charge, stem:[Q] | electric charge of the proton, stem:[e]
+
+      2+| electric resistance, stem:[R] | electric resistance of resistor stem:[i] in a given circuit, stem:[R_i]
+
+      2+| amount-of-substance concentration of entity B, stem:[cB] | amount-of-substance concentration of ethanol in wine sample stem:[i], stem:[c_i ("C"_2 "H"_5 "OH")]
+
+      2+| number concentration of entity B, stem:[CB] | number concentration of erythrocytes in blood sample stem:[i], stem:[C("Erys"; "B"_i)]
+
+      2+| Rockwell C hardness, stem:[HRC] | Rockwell C hardness of steel sample stem:[i], stem:["HRC"_i]
+
+      |===
+
+  - content: A reference can be a *measurement unit*, a *measurement procedure*, a *reference
+      material*, or a combination of such.
   - content: Symbols for quantities are given in the ISO 80000 and IEC 80000 series
       Quantities and units. The symbols for quantities are written in italics. A given
       symbol can indicate different quantities.
   - content: The preferred IUPAC-IFCC format for designations of quantities in laboratory
       medicine is "System—Component; quantity".
+    examples:
+    - content: '"Plasma (Blood) -- Sodium ion; amount-of-substance concentration equal to 143 mmol/l in a given person at a given time".'
+
   - content: A quantity as defined here is a scalar. However, a vector or a tensor
       the components of which are quantities is also considered to be a quantity.
   - content: The concept ‘quantity’ may be generically divided into, e.g. ‘physical
-      quantity’, ‘chemical quantity’, and ‘biological quantity’, or base quantity
-      and derived quantity.
+      quantity’, ‘chemical quantity’, and ‘biological quantity’, or *base quantity*
+      and *derived quantity*.
   terms:
   - type: expression
     normative_status: preferred
@@ -68,33 +84,48 @@ data:
   definition:
   - content: propriété d'un phénomène, d'un corps ou d'une substance, que l'on peut
       exprimer quantitativement sous forme d'un nombre et d'une référence
-  examples:
-  - content: '"« Plasma(Sang)—Ion sodium; concentration en quantité de matière égale à 143 mmol/l chez une personne donnée à un instant donné »."'
   id: 1.1-fra
+  examples: []
   language_code: fra
   notes:
   - content: Le concept générique de grandeur peut être subdivisé en plusieurs niveaux
       de concepts spécifiques, comme indiqué dans le tableau suivant. La moitié gauche
       du tableau présente des concepts spécifiques du concept de grandeur. Ce sont
       des concepts génériques pour les grandeurs individuelles de la moitié droite.
-      longueur, l rayon, r rayon du cercle A, rA ou r(A) longueur d'onde,  longueur
-      d'onde de la radiation D du sodium, D ou (D; Na) énergie, E énergie cinétique,
-      T énergie cinétique de la particule i dans un système donné, Ti chaleur, Q chaleur
-      de vaporisation du spécimen i d'eau, Qi charge électrique, Q charge électrique
-      du proton, e résistance électrique, R résistance électrique de la résistance
-      i dans un circuit donné, Ri concentration en quantité de matière du constituant
-      B, cB concentration en quantité de matière d'éthanol dans le spécimen i de vin,
-      ci(C2H5OH) nombre volumique du constituant B, CB nombre volumique d'érythrocytes
-      dans le spécimen i de sang, C(Erc; Sgi) dureté C de Rockwell, HRC dureté C de
-      Rockwell du spécimen i d'acier, HRCi
+
+      [cols=a,a,2a]
+      |===
+      .2+| longueur stem:[l]
+      | rayon, stem:[r] | rayon du cercle A, stem:[r_A] ou stem:[r(A)]
+      | longueur d'onde, stem:[lambda] | longueur d'onde de la radiation D du sodium, stem:[lambda_D] ou stem:[lambda("D"; "Na")]
+
+      .2+| énergie cinétique, stem:[T]
+      | énergie cinétique de la particule stem:[i] dans un système donné, stem:[T_i]
+      | chaleur, stem:[Q] | chaleur de vaporisation du spécimen stem:[i] d'eau, stem:[Q_i]
+
+      2+| charge électrique, stem:[Q] | charge électrique du proton, stem:[e]
+
+      2+| résistance électrique, stem:[R] | résistance électrique de la résistance stem:[i] dans un circuit donné, stem:[R_i]
+
+      2+| concentration en quantité de matière du constituant B, stem:[cB] | concentration en quantité de matière d'éthanol dans le spécimen stem:[i] de vin, stem:[c_i ("C"_2 "H"_5 "OH")]
+
+      2+| nombre volumique du constituant B, stem:[CB] | nombre volumique d'érythrocytes dans le spécimen stem:[i] de sang, stem:[C("Erys"; "B"_i)]
+
+      2+| dureté C de Rockwell, stem:[HRC] | dureté C de Rockwell du spécimen stem:[i] d'acier, stem:["HRC"_i]
+
+      |===
+
   - content: La référence peut être une unité de mesure, une procédure de mesure,
       un matériau de référence, ou une de leur combinaisons.
   - content: Les séries ISO 80000 et CEI 80000 Grandeurs et unités donnent des symboles
       de grandeurs. Les symboles de grandeurs sont écrits en italique. Un symbole
       donné peut noter des grandeurs différentes.
-  - content: Le format préféré par l’IUPAC-IFCC pour la désignation des grandeurs
+  - content: Le format préféré par l'IUPAC-IFCC pour la désignation des grandeurs
       dans les laboratoires de biologie médicale est « Système — Constituant ; grandeur
       ».
+    examples:
+    - content: '"« Plasma(Sang)—Ion sodium; concentration en quantité de matière égale à 143 mmol/l chez une personne donnée à un instant donné »."'
+
   - content: Une grandeur telle que définie ici est une grandeur scalaire. Cependant,
       un vecteur ou un tenseur dont les composantes sont des grandeurs est aussi considéré
       comme une grandeur.
