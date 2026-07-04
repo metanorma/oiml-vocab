@@ -23,11 +23,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'element of a meter that is directly affected by a phenomenon, body or substance carrying a quantity to be measured [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM) 3.8, [1], modified — “meter” replaces “measuring system”;original note removed; original examples removed, “Note” added]'
+  - content: 'element of a meter that is directly affected by a phenomenon, body
+      or substance carrying a quantity to be measured'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '3.8'
+      modification: '"meter" replaces "measuring system"; original note removed; original
+        examples removed, "Note" added'
   id: 02342-R049-1-eng
   language_code: eng
   notes:
-  - content: 'Note: For a water meter, the sensor may be a disc, piston, wheel or turbine element, the electrodes on an electromagnetic meter, or another element. The element senses the flow rate or volume of water passing through the meter and is referred to as a “flow sensor” or “volume sensor”.'
+  - content: 'For a water meter, the sensor may be a disc, piston, wheel or turbine
+      element, the electrodes on an electromagnetic meter, or another element. The
+      element senses the flow rate or volume of water passing through the meter and
+      is referred to as a "flow sensor" or "volume sensor".'
   sources: []
   terms:
   - type: expression

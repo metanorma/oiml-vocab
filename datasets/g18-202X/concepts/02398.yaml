@@ -23,7 +23,15 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'error (3.2.4) of a meter determined under reference condition(s) (3.4.5) [SOURCE: OIML D 11:2013 3.8, [8], , modified — “meter” replaces “measuring instrument”]'
+  - content: 'error (3.2.4) of a meter determined under reference condition(s) (3.4.5)'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.8'
+      modification: '"meter" replaces "measuring instrument"'
   id: 02398-eng
   language_code: eng
   sources: []

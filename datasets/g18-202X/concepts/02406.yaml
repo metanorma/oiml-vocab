@@ -23,11 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'smallest difference between displayed indications that can be meaningfully distinguished [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM) 4.15, [1],modified – “Note 1 “added]'
+  - content: 'smallest difference between displayed indications that can be meaningfully
+      distinguished'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '4.15'
+      modification: '"Note 1" added'
   id: 02406-eng
   language_code: eng
   notes:
-  - content: 'Note: For a digital indicating device, this is the change in the indication when the least significant digit changes by one step.'
+  - content: For a digital indicating device, this is the change in the indication
+      when the least significant digit changes by one step.
   sources: []
   terms:
   - type: expression
