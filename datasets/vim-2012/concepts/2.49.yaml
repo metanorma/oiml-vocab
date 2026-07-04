@@ -24,13 +24,13 @@ data:
   id: 2.49-eng
   language_code: eng
   notes:
-  - content: If a {{2.48,measurement model}}h(Y, X1, …, Xn) = 0 can explicitly be
-      written as Y = f (X1, …, Xn), where Y is the output quantity in the measurement
-      model, the function f is the measurement function. More generally, f may symbolize
-      an algorithm, yielding for input quantity values x1, …, xn a corresponding unique
-      output quantity value y = f (x1, …, xn).
+  - content: If a {{2.48,measurement model}} stem:[h(Y, X_1, ..., X_n) = 0] can explicitly be
+      written as stem:[Y = f(X_1, ..., X_n)], where stem:[Y] is the output quantity in the measurement
+      model, the function stem:[f] is the measurement function. More generally, stem:[f] may symbolize
+      an algorithm, yielding for input quantity values stem:[x_1, ..., x_n] a corresponding unique
+      output quantity value stem:[y = f(x_1, ..., x_n)].
   - content: A measurement function is also used to calculate the {{2.26,measurement uncertainty}}
-      associated with the measured quantity value of Y.
+      associated with the measured quantity value of stem:[Y].
   terms:
   - type: expression
     normative_status: preferred
@@ -55,12 +55,12 @@ data:
   id: 2.49-fra
   language_code: fra
   notes:
-  - content: Si un {{2.48,modèle de mesure}}h(Y, X1, …, Xn) = 0 peut être écrit explicitement
-      sous la forme Y = f (X1, …, Xn), où Y est la grandeur de sortie dans le modèle
-      de mesure, la fonction f est la fonction de mesure. Plus généralement, f peut
-      symboliser un algorithme qui fournit, pour les valeurs d'entrée x1, …, xn, une
-      valeur de sortie unique correspondante y = f (x1, …, xn).
-  - content: On utilise aussi une fonction de mesure pour calculer l'{{2.26,incertitude de mesure}} associée à la valeur mesurée de Y.
+  - content: Si un {{2.48,modèle de mesure}} stem:[h(Y, X1, ..., Xn) = 0] peut être écrit explicitement
+      sous la forme stem:[Y = f(X1, ..., Xn)], où stem:[Y] est la grandeur de sortie dans le modèle
+      de mesure, la fonction stem:[f] est la fonction de mesure. Plus généralement, stem:[f] peut
+      symboliser un algorithme qui fournit, pour les valeurs d'entrée stem:[x_1, ..., x_n], une
+      valeur de sortie unique correspondante stem:[y = f(x_1, ..., x_n)].
+  - content: On utilise aussi une fonction de mesure pour calculer l'{{2.26,incertitude de mesure}} associée à la valeur mesurée de stem:[Y].
   terms:
   - type: expression
     normative_status: preferred

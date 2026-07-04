@@ -23,11 +23,13 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'software means which is added to software or data with the purpose to verify the origin of software or data, i.e to prove their authenticity, or to chek that the software or data are unchanged, i.e.to prove their integrity'
+  - content: 'software means which is added to software or data with the purpose to verify the origin of software or data, i.e. to prove their authenticity, or to check that the software or data are unchanged, i.e. to prove their integrity'
   id: 03032-eng
   language_code: eng
   notes:
-  - content: 'Note 1: For electronic signing, a public key system uded in general, i.e. a pair of keys where only one needs to be kept secret; the other may be public. Note 2: The secret key is used when software or data are secured. The public key ise used when software or data are verified before use. Note 3: The veryfing instance may require a cryptographic certufucate of the securing instance (see 3.1.7) to be sure of the authenticity of the public key.'
+  - content: For electronic signing, a public key system used in general, i.e. a pair of keys where only one needs to be kept secret; the other may be public.
+  - content: The secret key is used when software or data are secured. The public key is used when software or data are verified before use.
+  - content: The verifying instance may require a cryptographic certificate of the securing instance (see 3.1.7) to be sure of the authenticity of the public key.
   sources: []
   terms:
   - type: expression

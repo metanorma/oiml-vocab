@@ -23,7 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'facility that is incorporated in a meter and which enables significant fault(s) (3.2.8) to be detected and acted upon [SOURCE: OIML D11:2013, 3.19, [8], , modified — "meter" replaces "measuring instrument"; "Note 3" added]'
+  - content: 'facility that is incorporated in a meter and which enables significant
+      fault(s) (3.2.8) to be detected and acted upon'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.19'
+      modification: '"meter" replaces "measuring instrument"; "Note 3" added'
   id: 02437-eng
   language_code: eng
   notes:

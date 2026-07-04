@@ -16,18 +16,19 @@ data:
   - date: '1968-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'Un des indices de dispersion des indications d''un instrument de mesurage
-      : erreur moyenne quadratique, erreur probable, erreur moyenne, etc... On adopte
-      souvent l''écart moyen quadratique (8.2.4), qui est appelé alors « erreur moyenne
-      quadratique de fidélité », pour une série d''indications consécutives dans des
-      conditions déterminées d''emploi de l''instrument.'
+  - content: |
+      Un des indices de dispersion des indications d'un instrument de mesurage
+      : erreur moyenne quadratique, erreur probable, erreur moyenne, etc...
+      On adopte souvent l'écart moyen quadratique (8.2.4), qui est appelé alors
+      « erreur moyenne quadratique de fidélité », pour une série d'indications
+      consécutives dans des conditions déterminées d'emploi de l'instrument.
   examples:
-  - content: 'Dans l''exemple du point 9.5.1, les différences entre les résultats
-      $v_{i}$ obtenus et leurs valeurs moyennes $v_{i}$ sont : $-0,07; +0,04; +0,28;
-      -0,16; -0,03; +0,09; +0,02; -0,034; +0,01; +0,16 \mu A$ l''errent moyenne quadratique
-      de fidélité d''un des résultats du mesurage est : $$ s = \sqrt {\frac {0 . 0
-      7 ^ {2} + 0 . 0 4 ^ {2} + \dots + 0 . 1 6 ^ {2}}{1 0 - 1}} = 0. 1 7 \mu \mathrm
-      {A} $$'
+  - content: |
+      Dans l'exemple du point 9.5.1, les différences entre les résultats
+      stem:[v_{i}] obtenus et leurs valeurs moyennes stem:[v_{i}] sont :
+      stem:[-0.07; +0.04; +0.28; -0.16; -0.03; +0.09; +0.02; -0.034; +0.01; +0.16 mu "A"]
+      l'errent moyenne quadratique de fidélité d'un des résultats du mesurage est :
+      stem:[s = sqrt (0.07^{2} + 0.04^{2} + dots + 0.16^{2})/(10 - 1) = 0.17 mu "A"]
   id: 9.6.3-fra
   notes: []
   sources: []
