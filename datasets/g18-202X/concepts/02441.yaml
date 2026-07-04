@@ -23,7 +23,15 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'checking facility (3.5.4) that requires the intervention of an operator [SOURCE: OIML D 11:2013 3.19.2, [8], modified — Synonym presentation]'
+  - content: 'checking facility (3.5.4) that requires the intervention of an operator'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.19.2'
+      modification: Synonym presentation
   id: 02441-eng
   language_code: eng
   sources: []

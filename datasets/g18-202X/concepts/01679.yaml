@@ -23,7 +23,13 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'change in measured optical absorbance at the analysis wavelength(s) determined as the absolute difference between the pre-irradiation absorbance, A0, and the post-irradiation absorbance, A, as follows:'
+  - content: |
+      change in measured optical absorbance at the analysis wavelength(s)
+      determined as the absolute difference between the pre-irradiation
+      absorbance, stem:[A_0], and the post-irradiation absorbance, stem:[A], as
+      follows:
+
+      stem:[Delta A = |A - A_0|]
   id: 01679-eng
   language_code: eng
   sources: []
