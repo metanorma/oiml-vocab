@@ -23,7 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'ability of a meter to maintain its performance characteristics over a period of use [SOURCE: OIML D 11:2013, 3.18, [8] modified — “meter” replaces “measuring instrument”]'
+  - content: 'ability of a meter to maintain its performance characteristics over
+      a period of use'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.18'
+      modification: '"meter" replaces "measuring instrument"'
   id: 02402-eng
   language_code: eng
   sources: []

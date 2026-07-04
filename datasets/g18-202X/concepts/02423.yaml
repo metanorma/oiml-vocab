@@ -23,11 +23,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'influence quantity (3.4.1) having a value within the limits specified in “this part of ISO 4064/OIML R 49”, but outside the specified rated operating conditions (3.4.4) of the meter [SOURCE: OIML D 11:2013, 3.15.2, [8] modified — “this part of ISO 4064/OIML R49” replaces “the applicable International Recommendation”; “meter” replaces “measuring instrument”; original notes removed; “Note 1” added]'
+  - content: 'influence quantity (3.4.1) having a value within the limits specified""""""
+      in "this part of ISO 4064/OIML R 49", but outside the specified rated operating
+      conditions (3.4.4) of the meter'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.15.2'
+      modification: '"this part of ISO 4064/OIML R49" replaces "the applicable International
+        Recommendation"; "meter" replaces "measuring instrument"; original notes removed;
+        "Note 1" added'
   id: 02423-eng
   language_code: eng
   notes:
-  - content: 'Note:An influence quantity is a disturbance if the rated operating conditions for that influence quantity are not specified.'
+  - content: An influence quantity is a disturbance if the rated operating conditions
+      for that influence quantity are not specified.
   sources: []
   terms:
   - type: expression

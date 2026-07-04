@@ -23,7 +23,15 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'test intended to verify whether the equipment under test (3.1.17) is able to accomplish its intended functions [SOURCE: OIML D 11:2013, 3.21.4] [8].]'
+  - content: 'test intended to verify whether the equipment under test (3.1.17) is
+      able to accomplish its intended functions'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.21.4'
   id: 02426-eng
   language_code: eng
   sources: []

@@ -23,7 +23,17 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'difference between the error (3.2.4) (of indication) and the intrinsic error (3.2.6) of a meter [SOURCE: OIML D 11:2013, 3.10 [8], , modified — “of indication” placed in parentheses; “meter” replaces “measuring instrument”; original notes removed]'
+  - content: 'difference between the error (3.2.4) (of indication) and the intrinsic
+      error (3.2.6) of a meter'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.10'
+      modification: '"of indication" placed in parentheses; "meter" replaces "measuring
+        instrument"; original notes removed'
   id: 02400-eng
   language_code: eng
   sources: []

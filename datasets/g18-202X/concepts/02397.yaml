@@ -23,7 +23,18 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'extreme value of measurement error (3.2.4), with respect to a known reference quantity value, permitted by specifications or regulations for a given meter [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM), 4.26, [1], modified — “meter” replaces “measurement, measuring instrument, or measuring system”; original notes removed.]'
+  - content: 'extreme value of measurement error (3.2.4), with respect to a known
+      reference quantity value, permitted by specifications or regulations for a given
+      meter'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
+          id: '4.26'
+      modification: '"meter" replaces "measurement, measuring instrument, or measuring
+        system"; original notes removed'
   id: 02397-eng
   language_code: eng
   sources: []

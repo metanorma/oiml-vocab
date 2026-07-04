@@ -23,7 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'intrinsic error (3.2.6) of a meter as determined prior to performance test(s) (3.4.6) and durability (3.2.10) evaluations [SOURCE: OIML D 11:2013, 3.9, [8], modified — “meter” replaces “measuring instrument”]'
+  - content: 'intrinsic error (3.2.6) of a meter as determined prior to performance
+      test(s) (3.4.6) and durability (3.2.10) evaluations'
+    sources:
+    - type: authoritative
+      status: modified
+      origin:
+        ref:
+          source: 'OIML D011:2013'
+          id: '3.9'
+      modification: '"meter" replaces "measuring instrument"'
   id: 02399-eng
   language_code: eng
   sources: []
