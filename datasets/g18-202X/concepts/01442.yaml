@@ -23,7 +23,18 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'instrument indicating apparent mass that is sensitive to the following forces: gravity air buoyancy equal to the weight of the displaced air vertical component of the magnetic interaction between the weight and the balance and/or the                                           environment H and M are vectors; z is the vertical Cartesian coordinate. If magnetic effects are negligible, i.e. the permanent magnetization (M) of the weight and the magnetic susceptibility (χ) are sufficiently small, and the balance is calibrated with reference weights of well known mass, the balance can be used to indicate the conventional mass, mc, of a body under conventionally chosen conditions'
+  - content: |
+      instrument indicating apparent mass that is sensitive to the following forces:
+
+      stem:[F_g = m xx g] gravity
+
+      stem:[F_b = V xx rho_a xx g = m/rho rho_a xx g] air buoyancy equal to the weight of the displaced air
+
+      stem:[F_z = mu_0 int int_V int (bb(M) xx Chi bb(H)) (d bb(H))/(d z) "d" V]
+      vertical component of the magnetic interaction between the weight and the
+      balance and/or the environment
+
+      stem:[H] and stem:[M] are vectors; stem:[z] is the vertical Cartesian coordinate. If magnetic effects are negligible, i.e. the permanent magnetization (stem:[M]) of the weight and the magnetic susceptibility (stem:[Chi]) are sufficiently small, and the balance is calibrated with reference weights of well known mass, the balance can be used to indicate the conventional mass, stem:[m_c], of a body under conventionally chosen conditions'
   id: 01442-eng
   language_code: eng
   sources: []
