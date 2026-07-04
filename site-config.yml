@@ -19,34 +19,54 @@ uiLanguages:
 datasets:
 - id: viml-2022
   localPath: datasets/viml-2022
-  color: '#004996'
+  color:
+    light: '#004996'
+    dark: '#3B82F6'
 - id: viml-2013
   localPath: datasets/viml-2013
-  color: '#6B7280'
+  color:
+    light: '#6B7280'
+    dark: '#9CA3AF'
 - id: viml-2000
   localPath: datasets/viml-2000
-  color: '#9CA3AF'
+  color:
+    light: '#9CA3AF'
+    dark: '#B0BEC5'
 - id: viml-1968
   localPath: datasets/viml-1968
-  color: '#D1D5DB'
+  color:
+    light: '#D1D5DB'
+    dark: '#E5E7EB'
 - id: vim-2012
   localPath: datasets/vim-2012
-  color: '#005A9C'
+  color:
+    light: '#005A9C'
+    dark: '#2196F3'
 - id: vim-2010
   localPath: datasets/vim-2010
-  color: '#7C93A8'
+  color:
+    light: '#7C93A8'
+    dark: '#94A8B8'
 - id: vim-2007
   localPath: datasets/vim-2007
-  color: '#94A8B8'
+  color:
+    light: '#94A8B8'
+    dark: '#B0BEC5'
 - id: vim-1993
   localPath: datasets/vim-1993
-  color: '#B0BEC5'
+  color:
+    light: '#B0BEC5'
+    dark: '#CFD8DC'
 - id: vim-1984-cor-1987
   localPath: datasets/vim-1984-cor-1987
-  color: '#C5CFD5'
+  color:
+    light: '#C5CFD5'
+    dark: '#D7E0E5'
 - id: vim-1984
   localPath: datasets/vim-1984
-  color: '#D8E0E5'
+  color:
+    light: '#D8E0E5'
+    dark: '#E8EEF1'
 routing: []
 branding:
   primaryColor: '#004996'
@@ -136,7 +156,9 @@ datasetGroups:
   - viml-2013
   - viml-2000
   - viml-1968
-  color: '#004996'
+  color:
+    light: '#004996'
+    dark: '#3B82F6'
   translations:
     fra:
       label: VIML — Vocabulaire international de métrologie légale
@@ -151,7 +173,9 @@ datasetGroups:
   - vim-1993
   - vim-1984-cor-1987
   - vim-1984
-  color: '#005A9C'
+  color:
+    light: '#005A9C'
+    dark: '#2196F3'
   translations:
     fra:
       label: VIM — Vocabulaire international de métrologie
