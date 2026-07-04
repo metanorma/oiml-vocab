@@ -27,8 +27,14 @@ data:
   id: 03028-eng
   language_code: eng
   notes:
-  - content: 'For the purpose of this Document, auxiliary equipment, provided that it is subject to legal metrological control, is considered to be part of the measuring instrument. [OIML D 11:2013, 3.1]'
-  sources: []
+  - content: 'For the purpose of this Document, auxiliary equipment, provided that it is subject to legal metrological control, is considered to be part of the measuring instrument.'
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML D 11:2013'
+        id: '3.1'
   terms:
   - type: expression
     normative_status: preferred

@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.9'
+    type: authoritative
 status: valid
 id: c6ee747d-881f-5697-82c4-cd7ce25a134f
 schema_version: '3'
@@ -24,9 +32,14 @@ data:
   id: 0.08-eng
   notes:
   - content: Rated operating conditions generally specify intervals of values for
-      a quantity being measured and for any influence quantity. [OIML V2-200:2012,
-      4.9]
-  sources: []
+      a quantity being measured and for any influence quantity.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.9'
   terms:
   - type: expression
     normative_status: preferred
@@ -49,8 +62,13 @@ data:
   notes:
   - content: Les conditions assignées de fonctionnement spécifient généralement des
       intervalles de valeurs pour la grandeur mesurée et pour les grandeurs d'influence.
-      [OIML V2-200:2012, 4.9]
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML  2-200:2012'
+        id: '4.9'
   terms:
   - type: expression
     normative_status: preferred

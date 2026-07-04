@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
 status: valid
 id: a5c68a88-c966-50c8-8d22-4a66303c257b
 schema_version: '3'
@@ -25,8 +33,14 @@ data:
   notes:
   - content: A measuring instrument that can be used alone is a measuring system.
   - content: A measuring instrument may be an indicating measuring instrument or a
-      material measure. [OIML V2-200:2012, 3.1]
-  sources: []
+      material measure.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '3.1'
   terms:
   - type: expression
     normative_status: preferred
@@ -46,11 +60,17 @@ data:
   examples: []
   id: 0.10-fra
   notes:
-  - content: 1 Un instrument de mesure qui peut être utilisé seul est un système de
+  - content: Un instrument de mesure qui peut être utilisé seul est un système de
       mesure.
-  - content: 2 Un instrument de mesure peut être un appareil de mesure indicateur
-      ou une mesure matérialisée. [OIML V2-200:2012, 3.1]
-  sources: []
+  - content: Un instrument de mesure peut être un appareil de mesure indicateur
+      ou une mesure matérialisée.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '3.1'
   terms:
   - type: expression
     normative_status: preferred

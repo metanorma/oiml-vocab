@@ -23,10 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'ability of the measuring instrument to maintain its performance characteristics over a period of use [OIML V 1:2022, 5.15]'
+  - content: 'ability of the measuring instrument to maintain its performance characteristics over a period of use'
   id: 03010-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 1:2022'
+        id: '5.15'
   terms:
   - type: expression
     normative_status: preferred

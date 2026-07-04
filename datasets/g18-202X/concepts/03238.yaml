@@ -37,10 +37,16 @@ data:
   - content: 'Usually the term "maximum permissible errors" or "limits of error"
       are used, where there are two extreme values.'
   - content: 'the term "tolerance" should not be used to designate ''maximum permissible
-      error''. [OIML V2-200:2012, 4.26]'
+      error''.'
   - content: 'Usually the term "maximum permissible errors" is abbreviated to "MPE",
       or "mpe".'
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.26'
   terms:
   - type: expression
     normative_status: preferred

@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.39'
+    type: authoritative
 status: valid
 id: 0c87bb3b-d740-5b7d-8468-2a8381e81114
 schema_version: '3'
@@ -30,11 +38,17 @@ data:
       calibration diagram , calibration curve , or calibration table. In some cases,
       it may consist of an additive or multiplicative correction of the indication
       with associated measurement uncertainty.
-  - content: 2 Calibration should not be confused with adjustment of a measuring system
+  - content: Calibration should not be confused with adjustment of a measuring system
       , often mistakenly called "self-calibration", nor with verification of calibration.
   - content: Often, the first step alone in the above definition is perceived as being
-      calibration. [OIML V2-200:2012, 2.39]
-  sources: []
+      calibration.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '2.39'
   terms:
   - type: expression
     normative_status: preferred
@@ -58,16 +72,22 @@ data:
   examples: []
   id: 0.14-fra
   notes:
-  - content: 1 Un étalonnage peut être exprimé sous la forme d'un énoncé, d'une fonction
+  - content: Un étalonnage peut être exprimé sous la forme d'un énoncé, d'une fonction
       d'étalonnage, d'un diagramme d'étalonnage, d'une courbe d'étalonnage ou d'une
       table d'étalonnage. Dans certains cas, il peut consister en une correction additive
       ou multiplicative de l'indication avec une incertitude de mesure associée.
-  - content: 2 Il convient de ne pas confondre l'étalonnage avec l'ajustage d'un système
+  - content: Il convient de ne pas confondre l'étalonnage avec l'ajustage d'un système
       de mesure, souvent appelé improprement « auto-étalonnage », ni avec la vérification
       de l'étalonnage.
-  - content: 3 La seule première étape dans la définition est souvent perçue comme
-      étant l'étalonnage. [OIML V2-200:2012, 2.39]
-  sources: []
+  - content: La seule première étape dans la définition est souvent perçue comme
+      étant l'étalonnage.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '2.39'
   terms:
   - type: expression
     normative_status: preferred

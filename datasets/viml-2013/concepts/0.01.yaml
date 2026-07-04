@@ -13,6 +13,14 @@ data:
     ref:
       source: urn:oiml:pub:v:1:2000
       id: '1.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
 status: valid
 id: c792e7e4-fc3e-5ce5-a632-e82b8d570ded
 schema_version: '3'
@@ -32,9 +40,14 @@ data:
   id: 0.01-eng
   notes:
   - content: Metrology includes all theoretical and practical aspects of measurement,
-      whatever the measurement uncertainty and field of application. [OIML V2-200:2012,
-      2.2]
-  sources: []
+      whatever the measurement uncertainty and field of application.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '2.2'
   terms:
   - type: expression
     normative_status: preferred
@@ -54,9 +67,14 @@ data:
   id: 0.01-fra
   notes:
   - content: La métrologie comprend tous les aspects théoriques et pratiques des mesurages,
-      quels que soient l'incertitude de mesure et le domaine d'application. [OIML
-      V2-200:2012, 2.2]
-  sources: []
+      quels que soient l'incertitude de mesure et le domaine d'application.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '2.2'
   terms:
   - type: expression
     normative_status: preferred
