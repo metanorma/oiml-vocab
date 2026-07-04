@@ -6,7 +6,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R146-1:2016
+        source: OIML R 146-1:2016
     locality:
       type: clause
       reference_from: '2.2.6'
@@ -29,12 +29,15 @@ data:
       status: identical
       origin:
         ref:
-          source: 'OIML D011:2013'
+          source: 'OIML D 11:2013'
           id: '3.9'
   id: 02804-eng
   language_code: eng
   notes:
-  - content: 'OIML D 11:2013 Notes 1 Principally, a fault is the result of an undesired change of data contained in or flowing through an electronic measuring instrument. 2 From the definition it follows that a ‘fault’ is a numerical value which is expressed either in a unit of measurement or as a relative value. Note:  Refer to Table 3 for the relevant measured values in the calculation of errors. Note:If a certified measurement standard is not used, a fault is the difference between a single indication during or after a disturbance and the mean indication at reference conditions prior to test.'
+  - content: 'OIML D 11:2013 Note 1 Principally, a fault is the result of an undesired change of data contained in or flowing through an electronic measuring instrument.'
+  - content: 'OIML D 11:2013 Note 2 From the definition it follows that a ‘fault’ is a numerical value which is expressed either in a unit of measurement or as a relative value.'
+  - content: 'Refer to Table 3 for the relevant measured values in the calculation of errors.'
+  - content: 'If a certified measurement standard is not used, a fault is the difference between a single indication during or after a disturbance and the mean indication at reference conditions prior to test.'
   sources: []
   terms:
   - type: expression
