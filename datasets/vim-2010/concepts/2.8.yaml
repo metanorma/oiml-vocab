@@ -17,9 +17,9 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: primary reference procedure *reference measurement procedure* used to
-      obtain a *measurement result* without relation to a *measurement standard* for
-      a *quantity* of the same *kind*
+  - content: primary reference procedure {{2.7,reference measurement procedure}} used to
+      obtain a {{2.9,measurement result}} without relation to a {{5.1,measurement standard}} for
+      a {{1.1,quantity}} of the same {{1.2,kind}}
   examples:
   - content: The volume of water delivered by a stem:[50 "unitsml(ml)"] pipette at stem:[20 "unitsml(degC)"]
         is measured by weighing the water delivered by the pipette into a beaker, taking the mass
@@ -47,8 +47,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*procédure de mesure de référence* utilisée pour obtenir un
-        *résultat de mesure* sans relation avec un *étalon* d'une *grandeur* de même *nature*"
+  - content: "{{2.7,procédure de mesure de référence}} utilisée pour obtenir un
+        {{2.9,résultat de mesure}} sans relation avec un {{5.1,étalon}} d'une {{1.1,grandeur}} de même {{1.2,nature}}"
   examples:
   - content: Le volume d'eau délivré par une pipette de stem:[50 "unitsml(ml)"] à stem:[20 "unitsml(degC)"] est mesuré en
       pesant l'eau délivrée par la pipette dans un bécher, en prenant la différence

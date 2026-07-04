@@ -21,13 +21,13 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: realization of the definition of a given *quantity*, with stated *quantity
+  - content: realization of the definition of a given {{1.1,quantity}}, with stated *quantity
       value* and associated *measurement uncertainty*, used as a reference
   examples:
   - content: stem:[1 "unitsml(kg)"] mass measurement standard with an associated *standard
       measurement uncertainty* of stem:[3 "unitsml(ug)"]
   - content: stem:[100 "unitsml(ohm)"] measurement standard resistor with an associated
-      *standard measurement uncertainty* of stem:[1 "unitsml(uOhm)"]
+      {{2.30,standard measurement uncertainty}} of stem:[1 "unitsml(uOhm)"]
   - content: Caesium frequency standard with a relative *standard measurement
       uncertainty* of stem:[2 xx 10^{-15}]
   - content: Standard buffer solution with a pH of 7.072 with an associated *standard
@@ -40,15 +40,15 @@ data:
   language_code: eng
   notes:
   - content: A "realization of the definition of a given quantity" can be provided
-      by a *measuring system*, a *material measure*, or a *reference material*
+      by a {{3.2,measuring system}}, a {{3.6,material measure}}, or a {{5.13,reference material}}
   - content: A measurement standard is frequently used as a reference in establishing
       *measured quantity values* and associated measurement uncertainties for other
-      quantities of the same *kind*, thereby establishing *metrological traceability*
-      through *calibration* of other measurement standards, *measuring instruments*,
+      quantities of the same {{1.2,kind}}, thereby establishing {{2.41,metrological traceability}}
+      through {{2.39,calibration}} of other measurement standards, *measuring instruments*,
       or measuring systems
   - content: The term "realization" is used here in the most general meaning. It denotes
       three procedures of "realization". The first one consists in the physical realization
-      of the *measurement unit* from its definition and is realization sensu stricto.
+      of the {{1.9,measurement unit}} from its definition and is realization sensu stricto.
       The second, termed "reproduction", consists not in realizing the measurement
       unit from its definition but in setting up a highly reproducible measurement
       standard based on a physical phenomenon, as it happens, e.g., in case of use
@@ -57,8 +57,8 @@ data:
       The third procedure consists in adopting a material measure as a measurement
       standard. It occurs in case of the measurement standard of stem:[1 "unitsml(kg)"].
   - content: A standard measurement uncertainty associated with a measurement standard
-      is always a component of the *combined standard measurement uncertainty* (see
-      GUM, 2.3.4) in a *measurement result* obtained using the measurement standard.
+      is always a component of the {{2.31,combined standard measurement uncertainty}} (see
+      GUM, 2.3.4) in a {{2.9,measurement result}} obtained using the measurement standard.
       Frequently, this component is small compared with other components of the *combined
       standard measurement uncertainty*
   - content: Quantity value and measurement uncertainty must be determined at the
@@ -89,16 +89,16 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: réalisation de la définition d'une *grandeur* donnée, avec une *valeur*
-      déterminée et une *incertitude de mesure* associée, utilisée comme référence
+  - content: réalisation de la définition d'une {{1.1,grandeur}} donnée, avec une {{1.19,valeur}}
+      déterminée et une {{2.26,incertitude de mesure}} associée, utilisée comme référence
   examples:
-  - content: Étalon de masse de stem:[1 "unitsml(kg)"] avec une *incertitude-type*
+  - content: Étalon de masse de stem:[1 "unitsml(kg)"] avec une {{2.30,incertitude-type}}
       associée de stem:[3 "unitsml(ug)"]
-  - content: Résistance étalon de stem:[100 "unitsml(Ohm)"] avec une *incertitude-type*
+  - content: Résistance étalon de stem:[100 "unitsml(Ohm)"] avec une {{2.30,incertitude-type}}
       associée de stem:[1 "unitsml(uOhm)"]
-  - content: Étalon de fréquence à césium avec une *incertitude-type* associée
+  - content: Étalon de fréquence à césium avec une {{2.30,incertitude-type}} associée
       de stem:[2 xx 10^{-15}]
-  - content: Solution tampon de référence ayant un pH de 7,072 avec une *incertitude-type*
+  - content: Solution tampon de référence ayant un pH de 7,072 avec une {{2.30,incertitude-type}}
       associée de 0,006
   - content: Série de solutions de référence de cortisol dans du sérum
       humain, dont chaque solution a une valeur certifiée avec une *incertitude de
@@ -109,14 +109,14 @@ data:
   language_code: fra
   notes:
   - content: La « réalisation de la définition d'une grandeur donnée » peut être fournie
-      par un *système de mesure*, une *mesure matérialisée* ou un *matériau de référence*
+      par un {{3.2,système de mesure}}, une {{3.6,mesure matérialisée}} ou un {{5.13,matériau de référence}}
   - content: Un étalon sert souvent de référence dans l'obtention de *valeurs mesurées*
-      et d'incertitudes de mesure associées pour d'autres grandeurs de même *nature*,
-      établissant ainsi une *traçabilité métrologique* par l'intermédiaire de l'*étalonnage*
+      et d'incertitudes de mesure associées pour d'autres grandeurs de même {{1.2,nature}},
+      établissant ainsi une {{2.41,traçabilité métrologique}} par l'intermédiaire de l'{{2.39,étalonnage}}
       d'autres étalons, *instruments de mesure* ou systèmes de mesure
   - content: Le terme « réalisation » est employé ici dans son sens le plus général.
       Il désigne trois procédures de réalisation. La première, la réalisation stricto
-      sensu, est la réalisation physique de l'*unité de mesure* à partir de sa définition.
+      sensu, est la réalisation physique de l'{{1.9,unité de mesure}} à partir de sa définition.
       La deuxième, appelée « reproduction », consiste, non pas à réaliser l'unité
       à partie de sa définition, mais à construire un étalon hautement reproductible
       fondé sur un phénomène physique, par exemple l'emploi de lasers stabilisés en
@@ -124,8 +124,8 @@ data:
       pour le volt ou de l'effet Hall quantique pour l'ohm. La troisième procédure
       consiste à adopter une mesure matérialisée comme étalon. C'est le cas de l'étalon
       de stem:[1 "unitsml(kg)"].
-  - content: L'*incertitude-type* associée à un étalon est toujours une composante
-      de l'*incertitude-type composée* (voir GUM, 2.3.4) dans un *résultat de mesure*
+  - content: L'{{2.30,incertitude-type}} associée à un étalon est toujours une composante
+      de l'{{2.31,incertitude-type composée}} (voir GUM, 2.3.4) dans un {{2.9,résultat de mesure}}
       obtenu en utilisant l'étalon. Cette composante est souvent petite par rapport
       à d'autres composantes de l'incertitude-type composée
   - content: La valeur de la grandeur et l'incertitude de mesure doivent être déterminées

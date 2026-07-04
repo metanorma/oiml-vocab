@@ -21,23 +21,23 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '*quantity value* consistent with the definition of a *quantity*'
+  - content: '{{1.19,quantity value}} consistent with the definition of a {{1.1,quantity}}'
   examples: []
   id: 2.11-eng
   language_code: eng
   notes:
-  - content: In the Error Approach to describing *measurement*, a true quantity value
+  - content: In the Error Approach to describing {{2.1,measurement}}, a true quantity value
       is considered unique and, in practice, unknowable. The Uncertainty Approach
       is to recognize that, owing to the inherently incomplete amount of detail in
       the definition of a quantity, there is not a single true quantity value but
       rather a set of true quantity values consistent with the definition. However,
       this set of values is, in principle and in practice, unknowable. Other approaches
       dispense altogether with the concept of true quantity value and rely on the
-      concept of *metrological compatibility of measurement results* for assessing
+      concept of {{2.47,metrological compatibility of measurement results}} for assessing
       their validity.
   - content: In the special case of a fundamental constant, the quantity is considered
       to have a single true quantity value.
-  - content: When the *definitional uncertainty* associated with the *measurand* is
+  - content: When the {{2.27,definitional uncertainty}} associated with the {{2.3,measurand}} is
       considered to be negligible compared to the other components of the *measurement
       uncertainty*, the measurand may be considered to have an "essentially unique"
       true quantity value. This is the approach taken by the GUM and associated documents,
@@ -61,7 +61,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*valeur d'une grandeur* compatible avec la définition de la *grandeur*"
+  - content: "{{1.19,valeur d'une grandeur}} compatible avec la définition de la {{1.1,grandeur}}"
   examples: []
   id: 2.11-fra
   language_code: fra
@@ -77,8 +77,8 @@ data:
       de mesure*.
   - content: Dans le cas particulier des constantes fondamentales, on considère la
       grandeur comme ayant une seule valeur vraie.
-  - content: Lorsque l'*incertitude définitionnelle* associée au *mesurande* est considérée
-      comme négligeable par rapport aux autres composantes de l'*incertitude de mesure*,
+  - content: Lorsque l'{{2.27,incertitude définitionnelle}} associée au {{2.3,mesurande}} est considérée
+      comme négligeable par rapport aux autres composantes de l'{{2.26,incertitude de mesure}},
       on peut considérer que le mesurande a une valeur vraie par essence unique. C'est
       l'approche adoptée dans le GUM, où le mot « vraie » est considéré comme redondant.
   terms:

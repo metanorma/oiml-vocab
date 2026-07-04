@@ -21,8 +21,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*quantity* for which all the exponents of the factors corresponding
-      to the *base quantities* in its *quantity dimension* are zero"
+  - content: "{{1.1,quantity}} for which all the exponents of the factors corresponding
+      to the *base quantities* in its {{1.7,quantity dimension}} are zero"
   id: 1.8-eng
   language_code: eng
   notes:
@@ -35,7 +35,7 @@ data:
   - content: The *measurement units* and *values* of quantities of dimension one are
       numbers, but such quantities convey more information than a number.
   - content: Some quantities of dimension one are defined as the ratios of two quantities
-      of the same *kind*.
+      of the same {{1.2,kind}}.
     examples:
     - content: Plane angle, solid angle, refractive index, relative permeability, mass
         fraction, friction factor, Mach number.
@@ -59,8 +59,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*grandeur* pour laquelle tous les exposants des facteurs correspondant
-      aux *grandeur de base* dans sa *dimension* sont nuls"
+  - content: "{{1.1,grandeur}} pour laquelle tous les exposants des facteurs correspondant
+      aux {{1.4,grandeur de base}} dans sa {{1.7,dimension}} sont nuls"
   examples:
   - content: Angle plan, angle solide, indice de réfraction, perméabilité relative,
       fraction massique, facteur de frottement, nombre de Mach.
@@ -78,7 +78,7 @@ data:
   - content: Les *unités de mesure* et les *valeurs* des grandeurs sans dimension
       sont des nombres, mais ces grandeurs portent plus d'information qu'un nombre.
   - content: Certaines grandeurs sans dimension sont définies comme des rapports de
-      deux grandeurs de même *nature*.
+      deux grandeurs de même {{1.2,nature}}.
     examples:
     - content: Angle plan, angle solide, indice de réfraction, perméabilité relative,
         fraction massique, facteur de frottement, nombre de Mach.

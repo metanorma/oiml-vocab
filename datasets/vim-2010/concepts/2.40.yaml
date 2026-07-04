@@ -17,7 +17,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: sequence of *calibrations* from a reference to the final *measuring system*,
+  - content: sequence of *calibrations* from a reference to the final {{3.2,measuring system}},
       where the outcome of each calibration depends on the outcome of the previous
       calibration
   examples: []
@@ -46,22 +46,22 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: suite d'*étalonnages* depuis une référence jusqu'au *système de mesure*
+  - content: suite d'*étalonnages* depuis une référence jusqu'au {{3.2,système de mesure}}
       final, dans laquelle le résultat de chaque étalonnage dépend de celui de l'étalonnage
       précédent
   examples: []
   id: 2.40-fra
   language_code: fra
   notes:
-  - content: L'*incertitude de mesure* augmente nécessairement le long de la suite
+  - content: L'{{2.26,incertitude de mesure}} augmente nécessairement le long de la suite
       d'étalonnages.
   - content: Les éléments d'une hiérarchie d'étalonnage sont des *étalons*, ainsi
       que des systèmes de mesure utilisés conformément à des *procédures de mesure*.
   - content: La référence mentionnée dans la définition peut être une définition d'une
-      *unité de mesure* sous la forme de sa réalisation pratique, une procédure de
+      {{1.9,unité de mesure}} sous la forme de sa réalisation pratique, une procédure de
       mesure ou un étalon.
   - content: Une comparaison entre deux étalons peut être considérée comme un étalonnage
-      si elle sert à vérifier et, si nécessaire, à corriger la *valeur* et l'incertitude
+      si elle sert à vérifier et, si nécessaire, à corriger la {{1.19,valeur}} et l'incertitude
       attribuées à l'un des étalons.
   terms:
   - type: expression

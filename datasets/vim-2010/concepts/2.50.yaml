@@ -17,9 +17,9 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*quantity* that must be measured, or a quantity, the *value* of which
-      can be otherwise obtained, in order to calculate a *measured quantity value*
-      of a *measurand*"
+  - content: "{{1.1,quantity}} that must be measured, or a quantity, the {{1.19,value}} of which
+      can be otherwise obtained, in order to calculate a {{2.10,measured quantity value}}
+      of a {{2.3,measurand}}"
   examples:
   - content: When the length of a steel rod at a specified temperature is the measurand,
       actual temperature, the length at that actual temperature, and the linear thermal
@@ -28,7 +28,7 @@ data:
   language_code: eng
   notes:
   - content: An input quantity in a measurement model often is an output quantity
-      of a *measuring system*.
+      of a {{3.2,measuring system}}.
   - content: "*Indications*, *corrections*, and *influence quantities* can be input
       quantities in a measurement model."
   terms:
@@ -47,8 +47,8 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*grandeur* qui doit être mesurée, ou grandeur dont la *valeur* peut
-      être obtenue autrement, pour calculer une *valeur mesurée* d'un *mesurande*"
+  - content: "{{1.1,grandeur}} qui doit être mesurée, ou grandeur dont la {{1.19,valeur}} peut
+      être obtenue autrement, pour calculer une {{2.10,valeur mesurée}} d'un {{2.3,mesurande}}"
   examples:
   - content: Lorsque le mesurande est la longueur d'une tige d'acier à une température
       spécifiée, la température réelle, la longueur à la température réelle et le
@@ -58,7 +58,7 @@ data:
   language_code: fra
   notes:
   - content: Une grandeur d'entrée dans un modèle de mesure est souvent une grandeur
-      de sortie d'un *système de mesure*.
+      de sortie d'un {{3.2,système de mesure}}.
   - content: Les *indications*, les *corrections* et les *grandeurs d'influence* sont
       des grandeurs d'entrée dans un modèle de mesure.
   terms:

@@ -21,15 +21,15 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: set of *values* of *quantities* of the same *kind* that can be measured
-      by a given *measuring instrument* or *measuring system* with specified *instrumental
+  - content: set of *values* of *quantities* of the same {{1.2,kind}} that can be measured
+      by a given {{3.1,measuring instrument}} or {{3.2,measuring system}} with specified *instrumental
       measurement uncertainty*, under defined conditions
   examples: []
   id: 4.7-eng
   language_code: eng
   notes:
   - content: In some fields the term is "measuring range" or "measurement range".
-  - content: The lower limit of a measuring interval should not be confused with *detection limit*.
+  - content: The lower limit of a measuring interval should not be confused with {{4.18,detection limit}}.
   terms:
   - type: expression
     normative_status: preferred
@@ -46,7 +46,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: ensemble des *valeurs* de *grandeurs* d'une même *nature*, qu'un *instrument
+  - content: ensemble des *valeurs* de *grandeurs* d'une même {{1.2,nature}}, qu'un *instrument
       de mesure* ou un *système de mesure* donné peut mesurer avec une *incertitude
       instrumentale* spécifiée, dans des conditions déterminées
   examples: []
@@ -54,10 +54,10 @@ data:
   language_code: fra
   notes:
   - content: Dans certains domaines, le terme anglais est « measuring range » ou «
-      measurement range ». En français, le terme « *étendue de mesure* » est parfois
+      measurement range ». En français, le terme « {{4.5,étendue de mesure}} » est parfois
       improprement employé.
   - content: Il convient de ne pas confondre la limite inférieure d'un intervalle
-      de mesure avec la *limite de détection*.
+      de mesure avec la {{4.18,limite de détection}}.
   terms:
   - type: expression
     normative_status: preferred

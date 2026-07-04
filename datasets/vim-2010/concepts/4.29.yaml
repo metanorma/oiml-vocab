@@ -17,18 +17,18 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '*measurement uncertainty* where the specified *measured quantity value*
+  - content: '{{2.26,measurement uncertainty}} where the specified {{2.10,measured quantity value}}
       is zero'
   examples: []
   id: 4.29-eng
   language_code: eng
   notes:
-  - content: Null measurement uncertainty is associated with a null or near zero *indication*
-      and covers an interval where one does not know whether the *measurand* is too
-      small to be detected or the *indication* of the *measuring instrument* is due
+  - content: Null measurement uncertainty is associated with a null or near zero {{4.1,indication}}
+      and covers an interval where one does not know whether the {{2.3,measurand}} is too
+      small to be detected or the {{4.1,indication}} of the {{3.1,measuring instrument}} is due
       only to noise.
   - content: The concept of 'null measurement uncertainty' also applies when a difference
-      is obtained between *measurement* of a sample and a blank.
+      is obtained between {{2.1,measurement}} of a sample and a blank.
   terms:
   - type: expression
     normative_status: preferred
@@ -42,17 +42,17 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '*incertitude de mesure* lorsque la *valeur mesurée* spécifiée est nulle'
+  - content: '{{2.26,incertitude de mesure}} lorsque la {{2.10,valeur mesurée}} spécifiée est nulle'
   examples: []
   id: 4.29-fra
   language_code: fra
   notes:
-  - content: L'incertitude de mesure à zéro est associée à une *indication* nulle
+  - content: L'incertitude de mesure à zéro est associée à une {{4.1,indication}} nulle
       ou presque nulle et correspond à l'intervalle dans lequel on ne sait pas si
-      le *mesurande* est trop petit pour être détecté ou si l'*indication* de l'*instrument
+      le {{2.3,mesurande}} est trop petit pour être détecté ou si l'{{4.1,indication}} de l'*instrument
       de mesure* est due seulement au bruit.
   - content: Le concept d'incertitude de mesure à zéro s'applique aussi lorsqu'une
-      différence est obtenue entre le *mesurage* d'un spécimen et un blanc.
+      différence est obtenue entre le {{2.1,mesurage}} d'un spécimen et un blanc.
   terms:
   - type: expression
     normative_status: preferred

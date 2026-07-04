@@ -21,11 +21,11 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: expression of the dependence of a *quantity* on the *base quantities*
-      of a *system of quantities* as a product of powers of factors corresponding
+  - content: expression of the dependence of a {{1.1,quantity}} on the *base quantities*
+      of a {{1.3,system of quantities}} as a product of powers of factors corresponding
       to the base quantities, omitting any numerical factor
   examples:
-  - content: In the *ISQ*, the quantity dimension of force is denoted by stem:[dim F = "LMT"^-2].
+  - content: In the {{1.6,ISQ}}, the quantity dimension of force is denoted by stem:[dim F = "LMT"^-2].
   - content: In the same system of quantities, stem:[dim rho_B = "ML"^-3] is the quantity
       dimension of mass concentration of component stem:[B], and stem:["ML"^-3] is also the
       quantity dimension of mass density, stem:[rho], (volumic mass).
@@ -46,14 +46,14 @@ data:
       is the dimension of a base quantity.
   - content: The conventional symbolic representation of the dimension of a base quantity
       is a single upper case letter in roman (upright) sans-serif type. The conventional
-      symbolic representation of the dimension of a *derived quantity* is the product
+      symbolic representation of the dimension of a {{1.5,derived quantity}} is the product
       of powers of the dimensions of the base quantities according to the definition
       of the derived quantity. The dimension of a quantity stem:[Q] is denoted by stem:[dim Q].
   - content: In deriving the dimension of a quantity, no account is taken of its scalar,
       vector, or tensor character.
   - content: |
         In a given system of quantities,
-        - quantities of the same *kind* have the same quantity dimension,
+        - quantities of the same {{1.2,kind}} have the same quantity dimension,
         - quantities of different quantity dimensions are always of different kinds, and
         - quantities having the same quantity dimension are not necessarily of the same kind.
   - content: |
@@ -92,11 +92,11 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: expression de la dépendance d'une *grandeur* par rapport aux *grandeurs
+  - content: expression de la dépendance d'une {{1.1,grandeur}} par rapport aux *grandeurs
       de base* d'un *système de grandeurs* sous la forme d'un produit de puissances
       de facteurs correspondant aux grandeurs de base, en omettant tout facteur numérique
   examples:
-  - content: Dans l'*ISQ*, la dimension de la force est notée stem:[dim F = "LMT"^-2].
+  - content: Dans l'{{1.6,ISQ}}, la dimension de la force est notée stem:[dim F = "LMT"^-2].
   - content: Dans le même système de grandeurs, stem:[dim rho_B = "ML"^-3] est la dimension
         de la concentration en masse du constituant B et stem:["ML"^-3] est aussi la dimension
         de la masse volumique stem:[rho].
@@ -126,7 +126,7 @@ data:
   - content: |
         Dans un système de grandeurs donné,
 
-        - les grandeurs de même *nature* ont la même dimension,
+        - les grandeurs de même {{1.2,nature}} ont la même dimension,
         - des grandeurs de dimensions différentes sont toujours de nature différente,
         - des grandeurs ayant la même dimension ne sont pas nécessairement de même nature.
   - content: |

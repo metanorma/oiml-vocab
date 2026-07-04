@@ -21,9 +21,9 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*quantity* that, in a direct *measurement*, does not affect the quantity
-      that is actually measured, but affects the relation between the *indication*
-      and the *measurement result*"
+  - content: "{{1.1,quantity}} that, in a direct {{2.1,measurement}}, does not affect the quantity
+      that is actually measured, but affects the relation between the {{4.1,indication}}
+      and the {{2.9,measurement result}}"
   examples:
   - content: Frequency in the direct measurement with an ammeter of the constant
       amplitude of an alternating current.
@@ -31,7 +31,7 @@ data:
         of haemoglobin amount-of-substance concentration in human blood plasma.
   - content: Temperature of a micrometer used for measurement of
       length of a rod, but not the temperature of the rod itself, which can enter
-      into the definition of the *measurand*.
+      into the definition of the {{2.3,measurand}}.
   - content: Background pressure in the ion source
       of a mass spectrometer during a measurement of amount-of-substance fraction.
   id: 2.52-eng
@@ -57,9 +57,9 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*grandeur* qui, lors d'un *mesurage* direct, n'a pas d'effet sur la
-      grandeur effectivement mesurée, mais a un effet sur la relation entre l'*indication*
-      et le *résultat de mesure*"
+  - content: "{{1.1,grandeur}} qui, lors d'un {{2.1,mesurage}} direct, n'a pas d'effet sur la
+      grandeur effectivement mesurée, mais a un effet sur la relation entre l'{{4.1,indication}}
+      et le {{2.9,résultat de mesure}}"
   examples:
   - content: Fréquence lors du mesurage direct de l'amplitude constante d'un courant
       alternatif au moyen d'un ampèremètre.
@@ -67,7 +67,7 @@ data:
         de la concentration en quantité de matière d'hémoglobine dans le plasma sanguin humain.
   - content: Température d'un micromètre lors du mesurage de la longueur d'une tige,
         mais pas la température de la tige elle-même qui peut entrer dans la définition
-        du *mesurande*.
+        du {{2.3,mesurande}}.
   - content: Pression ambiante dans la source d'ions d'un spectromètre de masse lors du
         mesurage d'une fraction molaire.
   id: 2.52-fra
@@ -77,7 +77,7 @@ data:
       chacun desquels des grandeurs d'influence peuvent avoir un effet.
   - content: Dans le GUM, le concept « grandeur d'influence » est défini comme dans
       la deuxième édition du VIM, de façon à comprendre non seulement les grandeurs
-      qui ont un effet sur le *système de mesure*, comme dans la définition ci-dessus,
+      qui ont un effet sur le {{3.2,système de mesure}}, comme dans la définition ci-dessus,
       mais aussi celles qui ont un effet sur les grandeurs effectivement mesurées.
       En outre, le concept n'y est pas limité aux mesurages directs.
   terms:

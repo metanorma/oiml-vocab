@@ -17,7 +17,7 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*valeur d'une grandeur* représentant un *résultat de mesure*"
+  - content: "{{1.19,valeur d'une grandeur}} représentant un {{2.9,résultat de mesure}}"
   examples: []
   id: 2.10-eng
   language_code: eng
@@ -26,9 +26,9 @@ data:
       can be used to provide a corresponding measured quantity value. This set of
       individual measured quantity values can be used to calculate a resulting measured
       quantity value, such as an average or median, usually with a decreased associated
-      *measurement uncertainty*.
+      {{2.26,measurement uncertainty}}.
   - content: When the range of the *true quantity values* believed to represent the
-      *measurand* is small compared with the measurement uncertainty, a measured quantity
+      {{2.3,measurand}} is small compared with the measurement uncertainty, a measured quantity
       value can be considered to be an estimate of an essentially unique true quantity
       value and is often an average or median of individual measured quantity values
       obtained through replicate measurements.
@@ -58,18 +58,18 @@ data:
   - date: '2010-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "*valeur d'une grandeur* représentant un *résultat de mesure*"
+  - content: "{{1.19,valeur d'une grandeur}} représentant un {{2.9,résultat de mesure}}"
   examples: []
   id: 2.10-fra
   language_code: fra
   notes:
-  - content: Pour un *mesurage* impliquant des *indications* répétées, chacune peut
+  - content: Pour un {{2.1,mesurage}} impliquant des *indications* répétées, chacune peut
       être utilisée pour fournir une valeur mesurée correspondante. Cet ensemble de
       valeurs mesurées individuelles peut ensuite être utilisé pour calculer une valeur
       mesurée résultante, telle qu'une moyenne ou une médiane, en général avec une
-      *incertitude de mesure* associée qui décroît.
+      {{2.26,incertitude de mesure}} associée qui décroît.
   - content: Lorsque l'étendue des *valeurs vraies* considérées comme représentant
-      le *mesurande* est petite par rapport à l'incertitude de mesure, on peut considérer
+      le {{2.3,mesurande}} est petite par rapport à l'incertitude de mesure, on peut considérer
       une valeur mesurée comme une estimation d'une valeur vraie par essence unique,
       souvent sous la forme d'une moyenne ou d'une médiane de valeurs mesurées individuelles
       obtenues par des mesurages répétés.
