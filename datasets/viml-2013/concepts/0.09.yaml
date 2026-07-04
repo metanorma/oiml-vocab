@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.11'
+    type: authoritative
 status: valid
 id: eed1a908-bc32-5295-8017-749bf74470d6
 schema_version: '3'
@@ -24,12 +32,18 @@ data:
   examples: []
   id: 0.09-eng
   notes:
-  - content: 1 Reference operating conditions specify intervals of values of the measurand
+  - content: Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.
   - content: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
       to an operating condition under which the specified instrumental measurement
-      uncertainty is the smallest possible. [OIML V2-200:2012, 4.11]
-  sources: []
+      uncertainty is the smallest possible.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.11'
   terms:
   - type: expression
     normative_status: preferred
@@ -50,12 +64,18 @@ data:
   examples: []
   id: 0.09-fra
   notes:
-  - content: 1 Les conditions de fonctionnement de référence spécifient des intervalles
+  - content: Les conditions de fonctionnement de référence spécifient des intervalles
       de valeurs du mesurande et des grandeurs d'influence.
-  - content: 2 Dans la CEI 60050-300, no 311-06-02, le terme « condition de référence
+  - content: Dans la CEI 60050-300, no 311-06-02, le terme « condition de référence
       » désigne une condition de fonctionnement dans laquelle l'incertitude instrumentale
-      spécifiée est la plus petite possible. [OIML V2-200:2012, 4.11]
-  sources: []
+      spécifiée est la plus petite possible.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.11'
   terms:
   - type: expression
     normative_status: preferred

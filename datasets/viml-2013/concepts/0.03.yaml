@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.1'
+    type: authoritative
 status: valid
 id: ebda688b-d1ff-527e-890b-30a80b09051e
 schema_version: '3'
@@ -28,9 +36,14 @@ data:
       outputs, a code pattern for code outputs, or an assigned quantity value for
       material measures.
   - content: An indication and a corresponding value of the quantity being measured
-      are not necessarily values of quantities of the same kind. [OIML V2-200:2012,
-      4.1]
-  sources: []
+      are not necessarily values of quantities of the same kind.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.1'
   terms:
   - type: expression
     normative_status: preferred
@@ -55,9 +68,14 @@ data:
       nombre affiché ou imprimé pour les sorties numériques, par une configuration
       codée pour les sorties codées, ou par la valeur assignée pour les mesures matérialisées.
   - content: Une indication et la valeur de la grandeur mesurée correspondante ne
-      sont pas nécessairement des valeurs de grandeurs de même nature. [OIML V2-200:2012
-      , 4.1]
-  sources: []
+      sont pas nécessairement des valeurs de grandeurs de même nature.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.1'
   terms:
   - type: expression
     normative_status: preferred

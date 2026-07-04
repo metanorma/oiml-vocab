@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.52'
+    type: authoritative
 status: valid
 id: 1c0a50d3-d1c7-5051-b115-d3fcd516a1d0
 schema_version: '3'
@@ -37,8 +45,14 @@ data:
       2nd edition of the VIM, covering not only the quantities affecting the measuring
       system, as in the definition above, but also those quantities that affect the
       quantities actually measured. Also, in the GUM this concept is not restricted
-      to direct measurements. [OIML V2-200:2012, 2.52]
-  sources: []
+      to direct measurements.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '2.52'
   terms:
   - type: expression
     normative_status: preferred
@@ -72,9 +86,14 @@ data:
       dans la deuxième édition du VIM, de façon à comprendre non seulement les grandeurs
       qui ont un effet sur le système de mesure, comme dans la définition ci-dessus,
       mais aussi celles qui ont un effet sur les grandeurs effectivement mesurées.
-      En outre, le concept n'y est pas limité aux mesurages directs. [OIML V2-200:2012,
-      2.52]
-  sources: []
+      En outre, le concept n'y est pas limité aux mesurages directs.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '2.52'
   terms:
   - type: expression
     normative_status: preferred

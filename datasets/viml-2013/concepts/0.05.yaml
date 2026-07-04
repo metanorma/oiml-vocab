@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+    type: authoritative
 status: valid
 id: e619da8d-1c5b-5461-b4f9-ed0b6d890164
 schema_version: '3'
@@ -27,10 +35,16 @@ data:
   - content: Usually the term "maximum permissible errors" or "limits of error" are
       used, where there are two extreme values.
   - content: The term "tolerance" should not be used to designate ‘maximum permissible
-      error’. [OIML V2-200:2012, 4.26]
+      error’.
   - content: Usually the term "maximum permissible error" is abbreviated to "MPE",
       or "mpe".
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.26'
   terms:
   - type: expression
     normative_status: preferred
@@ -54,10 +68,16 @@ data:
   - content: Les termes «erreurs maximales tolérées» ou «limites d'erreur» sont généralement
       utilisés lorsqu'il y a deux valeurs extrêmes.
   - content: Il convient de ne pas utiliser le terme « tolérance » pour désigner l'erreur
-      maximale tolérée. [OIML V2-200:2012, 4.26]
+      maximale tolérée.
   - content: L’expression « erreur maximale tolérée » est couramment représentée sous
       une forme abrégée « MPE » ou « mpe ».
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.26'
   terms:
   - type: expression
     normative_status: preferred

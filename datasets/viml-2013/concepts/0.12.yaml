@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
 status: valid
 id: 2e147544-b163-54ad-a892-22907e142cc7
 schema_version: '3'
@@ -25,9 +33,14 @@ data:
   examples: []
   id: 0.12-eng
   notes:
-  - content: A measuring system may consist of only one measuring instrument. [OIML
-      V2-200:2012, 3.2]
-  sources: []
+  - content: A measuring system may consist of only one measuring instrument.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '3.2'
   terms:
   - type: expression
     normative_status: preferred
@@ -50,8 +63,13 @@ data:
   id: 0.12-fra
   notes:
   - content: Un système de mesure peut consister en un seul instrument de mesure.
-      [OIML V2-200:2012, 3.2]
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '3.2'
   terms:
   - type: expression
     normative_status: preferred

@@ -8,6 +8,14 @@ data:
   - concept_id: section-0
     source: urn:oiml:pub:v:1:2013
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
 status: valid
 id: dfbd2cf0-4d07-5c3b-92c6-406c1cb3d605
 schema_version: '3'
@@ -25,13 +33,19 @@ data:
   id: 0.15-eng
   notes:
   - content: Types of adjustment of a measuring system include zero adjustment of
-      a measuring system , offset adjustment, and span adjustment (sometimes called
+      a measuring system, offset adjustment, and span adjustment (sometimes called
       gain adjustment).
   - content: Adjustment of a measuring system should not be confused with calibration
       , which is a prerequisite for adjustment.
   - content: After an adjustment of a measuring system, the measuring system must
-      usually be recalibrated. [OIML V2-200:2012, 3.11]
-  sources: []
+      usually be recalibrated.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '3.11'
   terms:
   - type: expression
     normative_status: preferred
@@ -57,9 +71,14 @@ data:
   - content: Il convient de ne pas confondre l'ajustage d'un système de mesure avec
       son étalonnage, qui est un pré­alable à l'ajustage.
   - content: Après un ajustage d'un système de mesure, le système demande généralement
-      à être réétalonné. [OIML V2-200:2012, 3.11] 1. Metrology and its legal aspects
-      1. Aspects légaux de la métrologie
-  sources: []
+      à être réétalonné.
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '3.11'
   terms:
   - type: expression
     normative_status: preferred
