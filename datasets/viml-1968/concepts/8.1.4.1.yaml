@@ -19,13 +19,12 @@ data:
   - content: Partie de l'erreur du mesurage indirect d'une grandeur qui résultat de
       l'erreur commise sur une grandeur composante.
   examples:
-  - content: 'Dans les exemples du 8.1.4 les expressions : $$ \frac {\partial F}{\partial
-      X _ {1}} \Delta X _ {1}, \frac {\partial F}{\partial X _ {2}} \Delta X _ {2},
-      \dots \frac {\partial F}{\partial X _ {m}} \Delta X _ {m} $$ on $$ \frac {\partial
-      F}{\partial X _ {1}} s _ {1}, \frac {\partial F}{\partial X _ {2}} s _ {2},
-      \dots \frac {\partial F}{\partial X _ {m}} s _ {m} $$ représentent les erreurs
-      systématiques partielles ou les écarts moyens quadratiques partiels du mesurage
-      direct des grandcurs $ X_{1}, X_{2} \dots X_{m}. $'
+  - content: 'Dans les exemples du 8.1.4 les expressions : stem:[(partial F)/(partial
+      X_1) Delta X_1, (partial F)/(partial X_2) Delta X_2, ..., (partial F)/(partial
+      X_m) Delta X_m] ou stem:[(partial F)/(partial X_1) s_1, (partial F)/(partial
+      X_2) s_2, ..., (partial F)/(partial X_m) s_m] représentent les erreurs systématiques
+      partielles ou les écarts moyens quadratiques partiels du mesurage direct des
+      grandeurs stem:[X_1, X_2, ..., X_m].'
   id: 8.1.4.1-fra
   notes: []
   sources: []

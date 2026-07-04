@@ -24,16 +24,17 @@ data:
   notes:
   - content: 'On calcule en général les erreurs limites d''un seul mesurage comme
       le produit de l''écart moyen quadratique d''un seul mesurage d''une série par
-      un nombre $t$ (entier ou fractionnaire); on a alors : $e_1 = + ts$ et $e_2 =
-      - ts$ où $s$ est défini selon 8.1.7.1 et le nombre $t$ est fixé en fonction
-      de la probabilité $P$ de ne pas dépasser les valeurs $e_1$ ou $e_2$. Dans le
-      cas de la lol de la distribution normale des erreurs et pour un suffisamment
-      grand nombre de mesurages, on pose souvent $l = 3$, ce qui correspond à la probabilité
-      $P = 99,73 \%$ do ne pas dépasser dans la série de mesurages les valeurs $e_1
-      = 3s$ et $e_2 = -3s$; pour $ P = 95\% $ , on a $ t = 1,96 $ et pour $ P = 99\%
-      $ , on a $ t = 2,58 $ ...'
+      un nombre stem:[t] (entier ou fractionnaire); on a alors : stem:[e_1 = +ts]
+      et stem:[e_2 = -ts] où stem:[s] est défini selon 8.1.7.1 et le nombre stem:[t]
+      est fixé en fonction de la probabilité stem:[P] de ne pas dépasser les valeurs
+      stem:[e_1] ou stem:[e_2]. Dans le cas de la loi de la distribution normale des
+      erreurs et pour un suffisamment grand nombre de mesurages, on pose souvent stem:[t
+      = 3], ce qui correspond à la probabilité stem:[P = 99.73%] de ne pas dépasser
+      dans la série de mesurages les valeurs stem:[e_1 = 3s] et stem:[e_2 = -3s];
+      pour stem:[P = 95%], on a stem:[t = 1.96] et pour stem:[P = 99%], on a stem:[t
+      = 2.58] ...'
   - content: La définition ci-dessus des erreurs limites suppose que l'on a corrigé
-      le résultat des erreurs systématiques ; ces erreurs limites contlendront cependant
+      le résultat des erreurs systématiques ; ces erreurs limites contiendront cependant
       encore les « résidus » de ces erreurs systématiques.
   - content: La probabilité P correspond au terme statistique « niveau de confiance
       », et les erreurs limites au terme limites de confiance ».
