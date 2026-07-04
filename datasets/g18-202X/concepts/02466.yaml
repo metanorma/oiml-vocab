@@ -27,7 +27,16 @@ data:
   id: 02466-eng
   language_code: eng
   notes:
-  - content: 'Additional note: The assessment requires calculation of , the bias over a set of test samples or the ‘calibration bias’, and the standard deviation of the difference (SDD) between the meter and the reference method for each of the 2 % moisture intervals which is the standard deviation of measurement errors from the same sample set. Refer to R 59-2, A.1.2 for the calculation of  and SDD from measured values. The limiting values for  and SDD in column 2, Table 4.4.1 shall be observed in order to deem a calibration as sufficiently accurate.'
+  - content: |
+      Additional note: The assessment requires calculation of stem:[bar(y)], the
+      bias over a set of test samples or the 'calibration bias', and the
+      standard deviation of the difference (SDD) between the meter and the
+      reference method for each of the 2 % moisture intervals which is the
+      standard deviation of measurement errors from the same sample set. Refer
+      to R 59-2, A.1.2 for the calculation of stem:[bar(y)] and SDD from
+      measured values. The limiting values for stem:[bar(y)] and SDD in column
+      2, Table 4.4.1 shall be observed in order to deem a calibration as
+      sufficiently accurate.
   sources: []
   terms:
   - type: expression
