@@ -20,27 +20,26 @@ data:
       d'un instrument de mesurage dans des conditions déterminées d'emploi.
   examples:
   - content: 'Si un courant électrique est mesuré avec un microampèremètre et si les
-      10 valeurs suivantes en microampères ont été trouvées : 6,27 ; 6,38 ; 6,62 ;
-      6,18 ; 6,31 ; 6,43 ; 6,36 ; 6,00 ; 6,35 ; 6,50 ; la moyenne arithmétique de
-      ces valeurs est : $$ \bar {v} _ {i} = \frac {6 , 2 7 + 6 , 3 8 + 6 , 6 2 + \dots
-      + 6 , 5 0}{1 0} = 6, 3 4 \mu \mathrm {A} (\text {v a l e u r i n d l i q u e
-      s}) $$ et al en mesurant le même courant par une méthode beaucoup plus précise,
-      on a obtenu : $v_{a} = 6.42 \mu \mathrm{A}$ (valeur conventionnellement vraie)
-      l''erreur de justesse du microampèremètre est égale à : $$ e y = v _ {i} - v
-      _ {a} = 6, 3 4 - 6, 4 2 = - 0, 0 8 \mu \mathrm {A}. $$'
+      10 valeurs suivantes en microampères ont été trouvées : 6.27 ; 6.38 ; 6.62 ;
+      6.18 ; 6.31 ; 6.43 ; 6.36 ; 6.00 ; 6.35 ; 6.50 ; la moyenne arithmétique de
+      ces valeurs est : stem:[bar(v)_i = (6.27 + 6.38 + 6.62 + ... + 6.50)/(10) =
+      6.34 mu"A" ("valeurs indiquées")] et en mesurant le même courant par une méthode
+      beaucoup plus précise, on a obtenu : stem:[v_a = 6.42 mu"A"] (valeur conventionnellement
+      vraie) l''erreur de justesse du microampèremètre est égale à : stem:[e_j = v_i
+      - v_a = 6.34 - 6.42 = -0.08 mu"A"].'
   id: 9.5.1-fra
   notes:
-  - content: 'Pratiquement, on détermine l''erreur de justesse $e_j$ d''une mesure
-      matérialisée comme étant la différence entre sa valeur nominale $v_n$ et la
-      moyenne arithmétique $\overline{v_0}$ des valeurs vraies conventionnelles de
-      la mesure matérialisée trouvées comme résultats d''une série de mesurages consécutifs,
-      effectués dans les conditions usuelles d''emploi : $$ e y = v _ {n} - \overline
-      {{v _ {0}}} $$ De la même façon, on détermine l''erreur de justesse d''un instrument
-      mesureur comme étant la différence entre la moyenne arithmétique $\bar{v}_i$
+  - content: 'Pratiquement, on détermine l''erreur de justesse stem:[e_j] d''une
+      mesure matérialisée comme étant la différence entre sa valeur nominale stem:[v_n]
+      et la moyenne arithmétique stem:[bar(v_0)] des valeurs vraies conventionnelles
+      de la mesure matérialisée trouvées comme résultats d''une série de mesurages
+      consécutifs, effectués dans les conditions usuelles d''emploi : stem:[e_j =
+      v_n - bar(v_0)] De la même façon, on détermine l''erreur de justesse d''un instrument
+      mesureur comme étant la différence entre la moyenne arithmétique stem:[bar(v)_i]
       des indications données par l''instrument dans une série de mesurages consécutifs
       d''une même grandeur, effectués dans les conditions usuelles d''emploi, et la
-      valeur conventionnellement vraie $v_0$ de la grandeur mesuree : $$ e _ {1} =
-      \overline {{v _ {i}}} - v _ {e} $$'
+      valeur conventionnellement vraie stem:[v_a] de la grandeur mesurée : stem:[e_j
+      = bar(v)_i - v_a]'
   sources: []
   terms:
   - type: expression

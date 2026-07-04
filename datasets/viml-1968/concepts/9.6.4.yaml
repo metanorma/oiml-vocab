@@ -22,29 +22,29 @@ data:
   examples: []
   id: 9.6.4-fra
   notes:
-  - content: 'On calculo en général les erreurs limites de fidélité comme le produit
-      de l''erreur moyenne quadratique de fidélité par un nombre $t$ (entier ou fractionnaires),
-      on a alors : $e_1 = + t s$ et $e_2 = - t s$ ou $s$ est calculé selon 8.1.7.1
-      et le nombre $t$ est fixé en fonction de la probabilité $P$ de ne pas dépasser
-      les valeurs $e_1$ et $e_2$. Dans le cas de la distribution normale des erreurs,
-      et pour un suffisamment grand nombre de mesurages, on pose en général $l = 3$,
-      ce qui correspondant à la probabilité $P = 99,73\%$ de ne pas dépasser des erreurs
-      limites de fidélité $e_1 = 3s$ et $e_2 = -3s$; Pour $ P = 95\% $ , on a $ t
-      = 1,96 $ et pour $ P = 99\% $ , on a $ t = 2,58 $ ... Dans l''exemple du point
-      9.6.3, les erreurs limites de fidélité qui ne seront pas dépassées avec une
-      probabilité de 99,73 % sont $ e_{1}=+0,17\times 3\mu A=+0,51\mu A $ et $ e_{2}=-0,17\times
-      3\mu A=-0,51\mu A $ , c''est-à-dire que l''étendue limite d''infidélité est
-      égale à 1,02 $ \mu A. $'
+  - content: 'On calcule en général les erreurs limites de fidélité comme le produit
+      de l''erreur moyenne quadratique de fidélité par un nombre stem:[t] (entier
+      ou fractionnaire), on a alors : stem:[e_1 = +ts] et stem:[e_2 = -ts] où stem:[s]
+      est calculé selon 8.1.7.1 et le nombre stem:[t] est fixé en fonction de la probabilité
+      stem:[P] de ne pas dépasser les valeurs stem:[e_1] et stem:[e_2]. Dans le cas
+      de la distribution normale des erreurs, et pour un suffisamment grand nombre
+      de mesurages, on pose en général stem:[t = 3], ce qui correspond à la probabilité
+      stem:[P = 99.73%] de ne pas dépasser des erreurs limites de fidélité stem:[e_1
+      = 3s] et stem:[e_2 = -3s]; Pour stem:[P = 95%], on a stem:[t = 1.96] et pour
+      stem:[P = 99%], on a stem:[t = 2.58] ... Dans l''exemple du point 9.6.3, les
+      erreurs limites de fidélité qui ne seront pas dépassées avec une probabilité
+      de 99.73 % sont stem:[e_1 = +0.17 times 3 mu"A" = +0.51 mu"A"] et stem:[e_2
+      = -0.17 times 3 mu"A" = -0.51 mu"A"], c''est-à-dire que l''étendue limite d''infidélité
+      est égale à stem:[1.02 mu"A"].'
   - content: 'Pour les besoins de la métrologie légale, on définit les erreurs limites
-      de fidélité d''un instrument de mesurage, pour une valeur donuée de la grandeur
+      de fidélité d''un instrument de mesurage, pour une valeur donnée de la grandeur
       à mesurer, comme étant les différences algébriques entre les valeurs limites
-      supérieure $v_{i_{\max}}$ et inférieure $v_{i_{\min}}$ des indications que peut
-      donner l''instrument sans tenir compte des erreurs de lecture, et la valeur
-      moyenne $v_{i}$ des indications. L''étendue limite d''infidélité est égale dans
-      co cas à $ v_{i}_{\max }-v_{i}_{\min } $ Pour simplifier les calculs, on prend
-      généralement : $v_{i} = 1/2 \left(v_{i_{\max}} + v_{i_{\min}}\right)$ et les
-      erreurs limites de fidélité sont alors égales à $\pm 1/2 \left(v_{i_{\max}}
-      - v_{i_{\min}}\right)$.'
+      supérieure stem:[v_(i_max)] et inférieure stem:[v_(i_min)] des indications que
+      peut donner l''instrument sans tenir compte des erreurs de lecture, et la valeur
+      moyenne stem:[v_i] des indications. L''étendue limite d''infidélité est égale
+      dans ce cas à stem:[v_(i_max) - v_(i_min)]. Pour simplifier les calculs, on
+      prend généralement : stem:[v_i = (1)/(2)(v_(i_max) + v_(i_min))] et les erreurs
+      limites de fidélité sont alors égales à stem:[pm (1)/(2)(v_(i_max) - v_(i_min))].'
   sources: []
   terms:
   - type: expression

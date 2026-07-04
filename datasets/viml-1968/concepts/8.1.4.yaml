@@ -19,23 +19,20 @@ data:
   - content: Loi reliant l'erreur commise sur le résultat d'un mesurage indirect d'une
       grandeur aux erreurs commises lors des mesurages directs des grandeurs composantes.
   examples:
-  - content: 'Si la grandeur $Y$ mesurée indirectement est ille avec les grandeurs
-      composantes indépendantes $X_{1}, X_{2}, \dots X_{m}$ (mesurées directement)
-      par l''équation : $$ Y = F \left(X _ {1}, X _ {2} \dots X _ {m}\right)) $$ a)
-      l''erreur systématique $\Delta Y$ de mesurage indirect de la grandeur $Y$ s''exprime
-      (en général approximativement seulement) par la loi suivante de composition
-      des erreurs : $$ \Delta Y = \frac {\partial F}{\partial X _ {1}} \Delta X _
-      {1} + \frac {\partial F}{\partial X _ {2}} \Delta X _ {2} + \dots + \frac {\partial
-      F}{\partial X _ {m}} \Delta X _ {m} $$ ou $\Delta X_{1}, \Delta X_{2} \dots
-      \Delta X_{m}$ représentent les erreurs systématiques de mesurage direct des
-      grandeurs $X_{1}, X_{2} \dots X_{m}$ b) L''écart moyen quadratique de mesurage
-      indirect de la grandeur $Y$ s''exprime (en général approximativement seulement)
-      par la lol suivante de composition des écarts moyens quadratiques : $$ s _ {\mathrm
-      {Y}} = \sqrt {\left(\frac {\partial F}{\partial X _ {1}}\right) ^ {2} s _ {1}
-      ^ {2} + \left(\frac {\partial F}{\partial X _ {2}}\right) ^ {2} s _ {2} ^ {2}
-      + \dots + \left(\frac {\partial F}{\partial X _ {m}}\right) ^ {2} s _ {m} ^
-      {2}} $$ ou $s_1, s_2 \dots s_m$ représentent les écarts moyens quadratiques
-      de mesurage direct des grandeurs $X_1, X_2 \dots X_m$. Les données partelles
+  - content: 'Si la grandeur stem:[Y] mesurée indirectement est liée avec les grandeurs
+      composantes indépendantes stem:[X_1, X_2, ..., X_m] (mesurées directement) par
+      l''équation : stem:[Y = F(X_1, X_2, ..., X_m)] a) l''erreur systématique stem:[Delta
+      Y] de mesurage indirect de la grandeur stem:[Y] s''exprime (en général approximativement
+      seulement) par la loi suivante de composition des erreurs : stem:[Delta Y = (partial
+      F)/(partial X_1) Delta X_1 + (partial F)/(partial X_2) Delta X_2 + ... + (partial
+      F)/(partial X_m) Delta X_m] où stem:[Delta X_1, Delta X_2, ..., Delta X_m] représentent
+      les erreurs systématiques de mesurage direct des grandeurs stem:[X_1, X_2, ...,
+      X_m]. b) L''écart moyen quadratique de mesurage indirect de la grandeur stem:[Y]
+      s''exprime (en général approximativement seulement) par la loi suivante de composition
+      des écarts moyens quadratiques : stem:[s_Y = sqrt(((partial F)/(partial X_1))^2
+      s_1^2 + ((partial F)/(partial X_2))^2 s_2^2 + ... + ((partial F)/(partial X_m))^2
+      s_m^2)] où stem:[s_1, s_2, ..., s_m] représentent les écarts moyens quadratiques
+      de mesurage direct des grandeurs stem:[X_1, X_2, ..., X_m]. Les données partielles
       dans les formules ci-dessus doivent être calculées pour un point déterminé.'
   id: 8.1.4-fra
   notes: []

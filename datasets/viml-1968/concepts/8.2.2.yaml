@@ -16,13 +16,12 @@ data:
   - date: '1968-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Différence $v_{1} - v_{0}$ entre la valeur indiquée par l'appareil mesureur
-      $v_{i}$ et la valeur conventionnellement vraie de la grandeur mesuree $v_{c}$.
+  - content: Différence stem:[v_i - v_c] entre la valeur indiquée par l'appareil mesureur
+      stem:[v_i] et la valeur conventionnellement vraie de la grandeur mesurée stem:[v_c].
   examples:
-  - content: L'indication d'un ampèremètre est $v_{i} = 40 \mathrm{~A}$ ; si la valeur
-      conventionnellement vrale de l'intensité du courant mesuré est $v_{c} = 41 \mathrm{~A}$
-      ; l'erreur d'indication de l'ampèremètre est $e_{i} = 40 \mathrm{~A} - 41 \mathrm{~A}
-      = -1 \mathrm{~A}$.
+  - content: L'indication d'un ampèremètre est stem:[v_i = 40 "A"]; si la valeur conventionnellement
+      vraie de l'intensité du courant mesuré est stem:[v_c = 41 "A"]; l'erreur d'indication
+      de l'ampèremètre est stem:[e_i = 40 "A" - 41 "A" = -1 "A"].
   id: 8.2.2-fra
   notes:
   - content: Si aucune confusion n'est à craindre, on peut utiliser l'expression simplifiée

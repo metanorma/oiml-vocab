@@ -21,17 +21,17 @@ data:
       de mesurage. Ce résultat est généralement accompagné de l'indication de l'incertitude
       de mesurage.
   examples:
-  - content: 'On a mesuré une seule fois, à l''aide d''un pied à coulisse, le diamètre
-      d''un cylindre et on a obtenu l''indication 14,7 mm (résultat brut), au moyen
-      d''un étalon, on a constaté préalablement que la correction à apporter aux résultats
-      donnés par le pied à coulisse pour cette indication est égale à $ - 0,2 \mathrm{~mm}
-      $ ; de plus on a trouvé que l''incertitude d''un seul mesurage (8.1.8.3) est
-      égale à $ \pm 0,35 \mathrm{~mm} $ (avec une probabilité de 99,7 %), le résultat
-      corrigé d''un seul mesurage est done : $$ d = (1 4, 7 - 0, 2 \pm 0, 3 5) \mathrm
-      {m m} = (1 4, 5 \pm 0, 3 5) \mathrm {m m} $$ Pour la série des 10 mesurages
-      de l''exemple 2, point 5.4.1, le résultat corrigé de la série des mesurages
-      sera donc : $ d = ( 1 4, 7 7 - 0, 2 \pm \frac { 0 , 3 5 } {\sqrt { 1 0 } } )
-      \mathrm { m m } \approx ( 1 4, 5 7 \pm 0, 1 2 ) \mathrm { m m } $'
+  - content: |
+      On a mesuré une seule fois, à l'aide d'un pied à coulisse, le diamètre
+      d'un cylindre et on a obtenu l'indication 14,7 mm (résultat brut), au moyen
+      d'un étalon, on a constaté préalablement que la correction à apporter aux résultats
+      donnés par le pied à coulisse pour cette indication est égale à stem:[-0.2 "mm"];
+      de plus on a trouvé que l'incertitude d'un seul mesurage (8.1.8.3) est
+      égale à stem:[pm 0.35 "mm"] (avec une probabilité de stem:[99.7%]), le résultat
+      corrigé d'un seul mesurage est done : stem:[d = (14.7 - 0.2 pm 0.35) "mm" = (14.5 pm 0.35) "mm"] Pour la série des 10 mesurages
+      de l'exemple 2, point 5.4.1, le résultat corrigé de la série des mesurages
+      sera donc : stem:[d = (14.77 - 0.2 pm (0.35/(sqrt(10))) "mm")] approx
+      stem:[(14.57 pm 0.12) "mm"]
   id: 5.4.2-fra
   notes:
   - content: Lors d'une série de mesurages, le résultat corrigé du mesurage est la
