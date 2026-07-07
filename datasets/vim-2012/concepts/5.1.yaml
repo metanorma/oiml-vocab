@@ -1,3 +1,4 @@
+---
 data:
   identifier: '5.1'
   localized_concepts:
@@ -25,17 +26,16 @@ data:
       {{1.19,quantity value}} and associated {{2.26,measurement uncertainty}}, used
       as a reference
   examples:
-  - content: 1 kg mass measurement standard with an associated {{2.30,standard measurement uncertainty}} of 3 µg.
-  - content: 100 Ω measurement standard resistor with an associated standard measurement
-      uncertainty of 1 µΩ.
-  - content: Caesium frequency standard with a relative standard measurement uncertainty
-      of stem:[2 cdot 10^{-15}].
+  - content: stem:[1 "unitsml(kg)"] mass measurement standard with an associated
+        {{2.30,standard measurement uncertainty}} of stem:[3 "unitsml(ug)"].
+  - content: stem:[100 "unitsml(Ohm)"] measurement standard resistor with an
+        associated standard measurement uncertainty of stem:[1 "unitsml(uOhm)"].
+  - content: Caesium frequency standard with a relative standard measurement
+        uncertainty of stem:[2 xx 10^{-15}].
   - content: Standard buffer solution with a pH of 7.072 with an associated standard
-      measurement uncertainty of 0.006.
-  - content: Set of reference solutions of cortisol in human serum having a certified
-      quantity value with measurement uncertainty for each solution.
-  - content: "{{5.13,Reference material}} providing quantity values with measurement
-      uncertainties for the mass concentration of each of ten different proteins."
+        measurement uncertainty of 0.006.
+  - content: Set of reference solutions of cortisol in human serum having a certified quantity value with measurement uncertainty for each solution.
+  - content: "{{5.13,Reference material}} providing quantity values with measurement uncertainties for the mass concentration of each of ten different proteins."
   id: 5.1-eng
   language_code: eng
   notes:
@@ -43,7 +43,8 @@ data:
       by a {{3.2,measuring system}}, a {{3.6,material measure}}, or a reference material.
   - content: A measurement standard is frequently used as a reference in establishing
       {{2.10,measured quantity values}} and associated measurement uncertainties for
-      other quantities of the same {{1.2,kind}}, thereby establishing {{2.41,metrological traceability}} through {{2.39,calibration}} of other measurement standards,
+      other quantities of the same {{1.2,kind}}, thereby establishing
+      {{2.41,metrological traceability}} through {{2.39,calibration}} of other measurement standards,
       {{3.1,measuring instruments}}, or measuring systems.
   - content: The term "realization" is used here in the most general meaning. It denotes
       three procedures of "realization". The first one consists in the physical realization
@@ -96,11 +97,18 @@ data:
       {{1.19,valeur}} déterminée et une {{2.26,incertitude de mesure}} associée, utilisée
       comme référence
   examples:
+<<<<<<< HEAD
   - content: Étalon de masse de 1 kg avec une {{2.30,incertitude-type}} associée de
       3 µg.
   - content: Résistance étalon de 100 Ω avec une incertitude-type associée de 1 µΩ.
   - content: Étalon de fréquence à césium avec une incertitude-type associée de
       stem:[2 cdot 10^{-15}].
+=======
+  - content: Étalon de masse de stem:[1 "unitsml(kg)"] avec une {{2.30,incertitude-type}} associée de
+      stem:[3 "unitsml(ug)"].
+  - content: Résistance étalon de stem:[100 "unitsml(Ohm)"] avec une incertitude-type associée de stem:[1 "unitsml(uOhm)"].
+  - content: Étalon de fréquence à césium avec une incertitude-type associée de stem:[2 xx 10^{-15}].
+>>>>>>> f420afbc (Validate VIM 2012: 5.*.yaml)
   - content: |-
       Solution tampon de référence ayant un pH de 7,072 avec une incertitude-type associée de 0,006.
   - content: Série de solutions de référence de cortisol dans du sérum humain, dont
