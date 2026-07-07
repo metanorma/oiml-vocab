@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2.50'
   localized_concepts:
@@ -18,7 +19,8 @@ data:
     type: accepted
   definition:
   - content: "{{1.1,quantity}} that must be measured, or a quantity, the {{1.19,value}}
-      of which can be otherwise obtained, in order to calculate a {{2.10,measured quantity value}} of a {{2.3,measurand}}"
+      of which can be otherwise obtained, in order to calculate a {{2.10,measured quantity value}}
+      of a {{2.3,measurand}}"
   examples:
   - content: When the length of a steel rod at a specified temperature is the measurand,
       the actual temperature, the length at that actual temperature, and the linear
@@ -62,9 +64,10 @@ data:
   id: 2.50-fra
   language_code: fra
   notes:
-  - content: Une grandeur d'entrée dans un modèle de mesure est souvent une grandeur
+  - content: Une grandeur d'entrée dans un modèle *de mesure* est souvent une grandeur
       de sortie d'un {{3.2,système de mesure}}.
-  - content: Les {{4.1,indications}}, les {{2.53,corrections}} et les {{2.52,grandeurs d'influence}} sont des grandeurs d'entrée dans un modèle de mesure.
+  - content: Les {{4.1,indications}}, les {{2.53,corrections}} et les {{2.52,grandeurs d'influence}}
+      sont des grandeurs d'entrée dans un modèle *de mesure*.
   terms:
   - type: expression
     normative_status: preferred

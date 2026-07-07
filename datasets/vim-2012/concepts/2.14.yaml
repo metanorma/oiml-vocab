@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2.14'
   localized_concepts:
@@ -25,8 +26,10 @@ data:
   notes:
   - content: Measurement trueness is not a {{1.1,quantity}} and thus cannot be expressed
       numerically, but measures for closeness of agreement are given in ISO 5725.
-  - content: Measurement trueness is inversely related to {{2.17,systematic measurement error}}, but is not related to {{2.19,random measurement error}}.
-  - content: '""Measurement accuracy" should not be used for ''measurement trueness''."'
+  - content: Measurement trueness is inversely related to {{2.17,systematic measurement error}},
+      but is not related to {{2.19,random measurement error}}.
+  - content: |
+      "Measurement accuracy" should not be used for 'measurement trueness'.
   terms:
   - type: expression
     normative_status: preferred
@@ -50,7 +53,8 @@ data:
   - date: '2012-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: étroitesse de l'accord entre la moyenne d'un nombre infini de {{2.10,valeurs mesurées}} répétées et une {{5.18,valeur de référence}}
+  - content: étroitesse de l'accord entre la moyenne d'un nombre infini de {{2.10,valeurs mesurées}}
+      répétées et une {{5.18,valeur de référence}}
   examples: []
   id: 2.14-fra
   language_code: fra

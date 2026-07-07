@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2.9'
   localized_concepts:
@@ -28,13 +29,13 @@ data:
   language_code: eng
   notes:
   - content: A measurement result generally contains "relevant information" about
-      the set of quantity values, such that some may be more representative of the
+      the set of *quantity values*, such that some may be more representative of the
       measurand than others. This may be expressed in the form of a probability density
       function (PDF).
-  - content: A measurement result is generally expressed as a single {{2.10,measured quantity value}} and a {{2.26,measurement uncertainty}}. If the measurement uncertainty
-      is considered to be negligible for some purpose, the measurement result may
-      be expressed as a single measured quantity value. In many fields, this is the
-      common way of expressing a measurement result.
+  - content: A measurement result is generally expressed as a single {{2.10,measured quantity value}} 
+      and a {{2.26,measurement uncertainty}}. If the measurement uncertainty is considered to be
+      negligible for some purpose, the measurement result may be expressed as a single measured
+      quantity value. In many fields, this is the common way of expressing a measurement result.
   - content: In the traditional literature and in the previous edition of the VIM,
       measurement result was defined as a value attributed to a measurand and explained
       to mean an {{4.1,indication}}, or an uncorrected result, or a corrected result,
