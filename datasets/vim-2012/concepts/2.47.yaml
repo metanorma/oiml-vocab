@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2.47'
   localized_concepts:
@@ -18,21 +19,22 @@ data:
     type: accepted
   definition:
   - content: property of a set of {{2.9,measurement results}} for a specified {{2.3,measurand}},
-      such that the absolute value of the difference of any pair of {{2.10,measured quantity values}} from two different measurement results is smaller than some chosen
-      multiple of the {{2.30,standard measurement uncertainty}} of that difference
+      such that the absolute value of the difference of any pair of {{2.10,measured quantity values}}
+      from two different measurement results is smaller than some chosen multiple of the
+      {{2.30,standard measurement uncertainty}} of that difference
   examples: []
   id: 2.47-eng
   language_code: eng
   notes:
-  - content: Metrological compatibility of measurement results replaces the traditional
+  - content: Metrological compatibility of *measurement results* replaces the traditional
       concept of 'staying within the error', as it represents the criterion for deciding
-      whether two measurement results refer to the same measurand or not. If in a
+      whether two *measurement results* refer to the same measurand or not. If in a
       set of {{2.1,measurements}} of a measurand, thought to be constant, a measurement
       result is not compatible with the others, either the measurement was not correct
       (e.g. its {{2.26,measurement uncertainty}} was assessed as being too small)
-      or the measured {{1.1,quantity}} changed between measurements.
-  - content: Correlation between the measurements influences metrological compatibility
-      of measurement results. If the measurements are completely uncorrelated, the
+      or the measured {{1.1,quantity}} changed between *measurements*.
+  - content: Correlation between the *measurements* influences metrological compatibility
+      of *measurement results*. If the *measurements* are completely uncorrelated, the
       standard measurement uncertainty of their difference is equal to the root mean
       square sum of their standard measurement uncertainties, while it is lower for
       positive covariance or higher for negative covariance.
@@ -75,8 +77,8 @@ data:
       compatible avec les autres, soit le mesurage n'est pas correct (par exemple
       l'{{2.26,incertitude de mesure}} évaluée est trop petite), soit la {{1.1,grandeur}}
       mesurée a changé d'un mesurage à l'autre.
-  - content: La corrélation entre les mesurages influence la compatibilité de mesure.
-      Si les mesurages sont entièrement décorrélés, l'incertitude-type de leur différence
+  - content: La corrélation entre les *mesurages* influence la compatibilité de mesure.
+      Si les *mesurages* sont entièrement décorrélés, l'incertitude-type de leur différence
       est égale à la moyenne quadratique de leurs incertitudes-types (racine carrée
       de la somme des carrés), tandis qu'elle est plus petite pour une covariance
       positive ou plus grande pour une covariance négative.

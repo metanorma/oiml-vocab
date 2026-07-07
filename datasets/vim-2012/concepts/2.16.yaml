@@ -1,3 +1,4 @@
+---
 data:
   identifier: '2.16'
   localized_concepts:
@@ -26,11 +27,16 @@ data:
   id: 2.16-eng
   language_code: eng
   notes:
-  - content: The concept of 'measurement error' can be used both a) when there is
-      a single reference quantity value to refer to, which occurs if a {{2.39,calibration}}
-      is made by means of a {{5.1,measurement standard}} with a {{2.10,measured quantity value}} having a negligible {{2.26,measurement uncertainty}} or if a {{2.12,conventional quantity value}} is given, in which case the measurement error is known,
-      and b) if a {{2.3,measurand}} is supposed to be represented by a unique {{2.11,true quantity value}} or a set of true quantity values of negligible range,
-      in which case the measurement error is not known.
+  - content: |
+      The concept of 'measurement error' can be used both
+      
+      . when there is a single reference quantity value to refer to, which occurs if a {{2.39,calibration}}
+      is made by means of a {{5.1,measurement standard}} with a {{2.10,measured quantity value}}
+      having a negligible {{2.26,measurement uncertainty}} or if a {{2.12,conventional quantity value}}
+      is given, in which case the measurement error is known, and
+      
+      . if a {{2.3,measurand}} is supposed to be represented by a unique {{2.11,true quantity value}}
+      or a set of true quantity values of negligible range, in which case the measurement error is not known.
   - content: Measurement error should not be confused with production error or mistake.
   terms:
   - type: expression
@@ -62,12 +68,13 @@ data:
   id: 2.16-fra
   language_code: fra
   notes:
-  - content: Le concept d'erreur peut être utilisé a) lorsqu'il existe une valeur
-      de référence unique à laquelle se rapporter, ce qui a lieu si on effectue un
-      {{2.39,étalonnage}} au moyen d'un {{5.1,étalon}} dont la {{2.10,valeur mesurée}}
-      a une {{2.26,incertitude de mesure}} négligeable ou si on prend une {{2.12,valeur conventionnelle}}, l'erreur étant alors connue, b) si on suppose le {{2.3,mesurande}}
-      représenté par une {{2.11,valeur vraie}} unique ou un ensemble de valeurs vraies
-      d'étendue négligeable, l'erreur étant alors inconnue.
+  - content: |
+      Le concept d'erreur peut être utilisé
+      
+      . lorsqu'il existe une valeur de référence unique à laquelle se rapporter, ce qui a lieu si on effectue un {{2.39,étalonnage}} au moyen d'un {{5.1,étalon}} dont la {{2.10,valeur mesurée}} a une {{2.26,incertitude de mesure}} négligeable ou si on prend une {{2.12,valeur conventionnelle}}, l'erreur étant alors connue, et
+      
+      . si on suppose le {{2.3,mesurande}} représenté par une {{2.11,valeur vraie}} unique ou un ensemble de valeurs
+      vraies d'étendue négligeable, l'erreur étant alors inconnue.
   - content: Il convient de ne pas confondre l'erreur de mesure avec une erreur de
       production ou une erreur humaine.
   terms:
