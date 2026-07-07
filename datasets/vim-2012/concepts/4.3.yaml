@@ -1,3 +1,4 @@
+---
 data:
   identifier: '4.3'
   localized_concepts:
@@ -23,7 +24,7 @@ data:
   language_code: eng
   notes:
   - content: An indication interval is usually stated in terms of its smallest and
-      greatest quantity values, for example "99 V to 201 V".
+      greatest *quantity values*, for example "stem:[99 "unitsml(V)"] to stem:[201 "unitsml(V)"]".
   - content: In some fields, the term is "range of indications".
   terms:
   - type: expression
@@ -48,7 +49,8 @@ data:
   language_code: fra
   notes:
   - content: Un intervalle des indications est généralement exprimé en donnant la
-      plus petite et la plus grande valeur, par exemple «99 V à 201 V».
+      plus petite et la plus grande valeur, par exemple «stem:[99 "unitsml(V)"] à
+      stem:[201 "unitsml(V)"]».
   - content: Dans certains domaines, le terme anglais est «range of indications».
       En français, le terme «étendue des indications» est parfois employé.
   terms:

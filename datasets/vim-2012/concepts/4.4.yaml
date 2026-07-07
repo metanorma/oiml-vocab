@@ -1,3 +1,4 @@
+---
 data:
   identifier: '4.4'
   localized_concepts:
@@ -26,7 +27,11 @@ data:
   language_code: eng
   notes:
   - content: A nominal indication interval is usually stated as its smallest and greatest
+<<<<<<< HEAD
       quantity values, for example "100 V to 200 V".
+=======
+      *quantity values*, for example "stem:[100 "unitsml(V)"] to stem:[200 "unitsml(V)"]".
+>>>>>>> 19c91535 (Validate VIM 2012: 4.*.yaml)
   - content: In some fields, the term is "nominal range".
   terms:
   - type: expression
@@ -53,7 +58,8 @@ data:
   language_code: fra
   notes:
   - content: Un intervalle nominal des indications est généralement exprimé en donnant
-      la plus petite et la plus grande valeur, par exemple «100 V à 200 V».
+      la plus petite et la plus grande valeur, par exemple «stem:[100 "unitsml(V)"] à
+      stem:[200 "unitsml(V)"]».
   - content: Dans certains domaines, le terme anglais est «nominal range».
   terms:
   - type: expression

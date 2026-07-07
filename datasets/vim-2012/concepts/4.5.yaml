@@ -1,3 +1,4 @@
+---
 data:
   identifier: '4.5'
   localized_concepts:
@@ -20,12 +21,16 @@ data:
   - content: absolute value of the difference between the extreme {{1.19,quantity values}}
       of a {{4.4,nominal indication interval}}
   examples:
-  - content: For a nominal indication interval of −10 V to +10 V, the range of the
-      nominal indication interval is 20 V.
+  - content: For a nominal indication interval of stem:[-10 "unitsml(V)"] to
+      stem:[+10 "unitsml(V)"], the range of the nominal indication interval is stem:[20 "unitsml(V)"].
   id: 4.5-eng
   language_code: eng
   notes:
+<<<<<<< HEAD
   - content: Range of a nominal indication interval is sometimes termed "span of a
+=======
+  - content: Range of a *nominal indication* interval is sometimes termed "span of a
+>>>>>>> 19c91535 (Validate VIM 2012: 4.*.yaml)
       nominal interval".
   terms:
   - type: expression
@@ -47,8 +52,8 @@ data:
   - content: valeur absolue de la différence entre les {{1.19,valeurs}} extrêmes d'un
       {{4.4,intervalle nominal des indications}}
   examples:
-  - content: Pour un intervalle nominal des indications de –10 V à +10 V, l'étendue
-      de mesure est 20 V.
+  - content: Pour un intervalle nominal des indications de stem:[-10 "unitsml(V)"] à stem:[+10 "unitsml(V)"],
+      l'étendue de mesure est stem:[20 "unitsml(V)"].
   id: 4.5-fra
   language_code: fra
   notes:
