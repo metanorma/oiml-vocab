@@ -21,13 +21,14 @@ data:
   - content: ratio of two {{1.9,measurement units}} for {{1.1,quantities}} of the
       same {{1.2,kind}}
   examples:
-  - content: km/m = 1 000 and thus 1 km = 1 000 m.
-  - content: h/s = 3 600 and thus 1 h = 3 600 s.
-  - content: "(km/h)/(m/s) = (1/3.6) and thus 1 km/h = (1/3.6) m/s."
+  - content: stem:["unitsml(km/m)" = 1000] and thus stem:[1 "unitsml(km)" = 1000 "unitsml(m)"].
   id: 1.24-eng
   language_code: eng
   notes:
-  - content: The measurement units may belong to different {{1.13,systems of units}}.
+  - content: The *measurement units* may belong to different {{1.13,systems of units}}.
+    examples:
+      - content: stem:["unitsml(h/s)" = 3600] and thus stem:[1 "unitsml(h)" = 3600 "unitsml(s)"].
+      - content: stem:["unitsml(km/h)"//"unitsml(m/s)" = (1//3.6)] and thus stem:[1 "unitsml(km/h)" = (1//3.6) "unitsml(m/s)"].
   terms:
   - type: expression
     normative_status: preferred
@@ -44,14 +45,16 @@ data:
   - content: rapport de deux {{1.9,unités de mesure}} correspondant à des {{1.1,grandeurs}}
       de même {{1.2,nature}}
   examples:
-  - content: h/s = 3 600 et par conséquent 1 h = 3 600 s.
-  - content: "(km/h)/(m/s) = (1/3,6) et par conséquent 1 km/h = (1/3,6) m/s."
-  - content: km/m = 1 000 et par conséquent 1 km = 1 000 m.
+  - content: stem:["unitsml(km/m)" = 1000] et par conséquent stem:[1 "unitsml(km)" = 1000 "unitsml(m)"].
   id: 1.24-fra
   language_code: fra
   notes:
-  - content: Les unités de mesure peuvent appartenir à des {{1.13,systèmes d'unités}}
+  - content: Les *unités de mesure* peuvent appartenir à des {{1.13,systèmes d'unités}}
       différents.
+    examples:
+      - content: stem:["unitsml(h/s)" = 3600] et par conséquent stem:[1 "unitsml(h)" = 3600 "unitsml(s)"].
+      - content: stem:[("unitsml(km/h)")//("unitsml(m/s)") = (1//3.6)] et par conséquent
+          stem:[1 "unitsml(km/h)" = (1//3.6) "unitsml(m/s)"].
   terms:
   - type: expression
     normative_status: preferred

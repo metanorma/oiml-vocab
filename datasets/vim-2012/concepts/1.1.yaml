@@ -24,12 +24,65 @@ data:
   definition:
   - content: property of a phenomenon, body, or substance, where the property has
       a magnitude that can be expressed as a number and a reference
-  examples:
-  - content: '""Plasma (Blood)-Sodium ion; amount-of-substance concentration equal to 143 mmol/l in a given person at a given time"."'
   id: 1.1-eng
   language_code: eng
   notes:
-  - content: '"The generic concept ''quantity'' can be divided into several levels of specific concepts, as shown in the following table. The left hand side of the table shows specific concepts under ''quantity''. These are generic concepts for the individual quantities in the right hand.\n\n|===\n| length, l longueur, l | radius, r rayon, r | radius of circle A, rA or r(A) rayon du cercle A, rA ou r(A)\n| wavelength, λ longueur d''onde, λ | wavelength of the sodium D radiation, λD or λ(D; Na) longueur d''onde de la radiation D du sodium, λD ou λ(D; Na) | \n| energy, E énergie, E | kinetic energy, T énergie cinétique, T | kinetic energy of particle i in a given system, Ti énergie cinétique de la particule i dans un système donné, Ti\n| heat, Q chaleur, Q | heat of vaporization of sample i of water, Qichaleur de vaporisation du spécimen i d''eau, Qi | \n| electric charge, Qcharge électrique, Q | electric charge of the proton, e charge électrique du proton, e | \n| electric resistance, R résistance électrique, R | electric resistance of resistor i in a given circuit, Ri résistance électrique de la résistance i dans un circuit donné, Ri | \n| amount-of-substance concentration of entity B, cBconcentration en quantité de matière du constituant B, cB | amount-of-substance concentration of ethanol in wine sample i, ci(C2H5OH) concentration en quantité de matière d''éthanol dans le spécimen i de vin, ci(C2H5OH) | \n| number concentration of entity B, CB nombre volumique du constituant B, CB | number concentration of erythrocytes in blood sample i, C(Erys; Bi) nombre volumique d''érythrocytes dans le spécimen i de sang, C(Erc; Sgi) | \n| Rockwell C hardness, HRC dureté C de Rockwell, HRC | Rockwell C hardness of steel sample i, HRCi dureté C de Rockwell du spécimen i d''acier, HRCi | \n|==="'
+  - content: |
+        The generic concept 'quantity' can be divided into several levels of
+        specific concepts, as shown in the following table. The left hand side of the
+        table shows specific concepts under 'quantity'. These are generic concepts for
+        the individual quantities in the right hand.
+
+        [cols="3", options="noheader,unnumbered"]
+        |===
+        .2+| length, stem:[l] +
+        longueur, stem:[l]
+        | radius, stem:[r] +
+        rayon, stem:[r]
+        | radius of circle stem:[A], stem:[r_A] or stem:[r(A)] +
+        rayon du cercle stem:[A], stem:[r_A] ou stem:[r(A)]
+        | wavelength, stem:[lambda] +
+        longueur d'onde, stem:[lambda]
+        | wavelength of the sodium stem:[D] radiation, stem:[Lambda_D] or stem:[Lambda(D; N_a)] +
+        longueur d'onde de la radiation stem:[D] du sodium, stem:[lambda_D] ou stem:[lambda(D; N_a)]
+
+        .2+| energy, stem:[E] +
+        énergie, stem:[E]
+        | kinetic energy, stem:[T] +
+        énergie cinétique, stem:[T]
+        | kinetic energy of particle stem:[i] in a given system, stem:[T_i] +
+        énergie cinétique de la particule stem:[i] dans un système donné, stem:[T_i]
+        | heat, stem:[Q] +
+        chaleur, stem:[Q]
+        | heat of vaporization of sample stem:[i] of water, stem:[Q_i] +
+        chaleur de vaporisation du spécimen stem:[i] d'eau, stem:[Q_i]
+
+        2+| electric charge, stem:[Q] +
+        charge électrique, stem:[Q]
+        | electric charge of the proton, stem:[e] +
+        charge électrique du proton, stem:[e]
+
+        2+| electric resistance, stem:[R] +
+        résistance électrique, stem:[R]
+        | electric resistance of resistor stem:[i] in a given circuit, stem:[R_i] +
+        résistance électrique de la résistance stem:[i] dans un circuit donné, stem:[R_i]
+
+        2+| amount-of-substance concentration of entity stem:[B], stem:[c_B] +
+        concentration en quantité de matière du constituant stem:[B], stem:[c_B]
+        | amount-of-substance concentration of ethanol in wine sample stem:[i], stem:[c_i](C~2~H~5~OH) +
+        concentration en quantité de matière d'éthanol dans le spécimen stem:[i] de vin, stem:[c_i](C~2~H~5~OH)
+
+        2+| number concentration of entity stem:[B], stem:[C_B] +
+        nombre volumique du constituant stem:[B], stem:[C_B]
+        | number concentration of erythrocytes in blood sample stem:[i], stem:[C("Erys"; _i)] +
+        nombre volumique d'érythrocytes dans le spécimen stem:[i] de sang, stem:[C("Erc"; "Sg"_i)]
+
+        2+| Rockwell C hardness, HRC +
+        dureté C de Rockwell, HRC
+        | Rockwell C hardness of steel sample stem:[i], stem:["HRC"_i] +
+        dureté C de Rockwell du spécimen stem:[i] d'acier, stem:["HRC"_i]
+        |===
+
   - content: A reference can be a {{1.9,measurement unit}}, a {{2.6,measurement procedure}},
       a {{5.13,reference material}}, or a combination of such.
   - content: Symbols for quantities are given in the ISO 80000 and IEC 80000 series
@@ -37,6 +90,11 @@ data:
       symbol can indicate different quantities.
   - content: The preferred IUPAC-IFCC format for designations of quantities in laboratory
       medicine is "System—Component; kind-of-quantity".
+<<<<<<< HEAD
+=======
+    examples:
+      - content: '"Plasma (Blood)-Sodium ion; amount-of-substance concentration equal to stem:[143 "unitsml(mmol/l)"] in a given person at a given time".'
+>>>>>>> b643d8d6 (Validate VIM 2012: 1.*.yaml)
   - content: A quantity as defined here is a scalar. However, a vector or a tensor,
       the components of which are quantities, is also considered to be a quantity.
   - content: The concept 'quantity' may be generically divided into, e.g. 'physical
@@ -57,18 +115,72 @@ data:
   definition:
   - content: propriété d'un phénomène, d'un corps ou d'une substance, que l'on peut
       exprimer quantitativement sous forme d'un nombre et d'une référence
-  examples:
-  - content: '"«Plasma (Sang)-Ion sodium; concentration en quantité de matière égale à 143 mmol/l chez une personne donnée à un instant donné»."'
   id: 1.1-fra
   language_code: fra
   notes:
-  - content: '"Le concept générique de grandeur peut être subdivisé en plusieurs niveaux de concepts spécifiques, comme indiqué dans le tableau suivant. La moitié gauche du tableau présente des concepts spécifiques du concept de grandeur. Ce sont des concepts génériques pour les grandeurs individuelles de la moitié droite.\n\n|===\n| length, l longueur, l | radius, r rayon, r | radius of circle A, rA or r(A) rayon du cercle A, rA ou r(A)\n| wavelength, λ longueur d''onde, λ | wavelength of the sodium D radiation, λD or λ(D; Na) longueur d''onde de la radiation D du sodium, λD ou λ(D; Na) | \n| energy, E énergie, E | kinetic energy, T énergie cinétique, T | kinetic energy of particle i in a given system, Ti énergie cinétique de la particule i dans un système donné, Ti\n| heat, Q chaleur, Q | heat of vaporization of sample i of water, Qichaleur de vaporisation du spécimen i d''eau, Qi | \n| electric charge, Qcharge électrique, Q | electric charge of the proton, e charge électrique du proton, e | \n| electric resistance, R résistance électrique, R | electric resistance of resistor i in a given circuit, Ri résistance électrique de la résistance i dans un circuit donné, Ri | \n| amount-of-substance concentration of entity B, cBconcentration en quantité de matière du constituant B, cB | amount-of-substance concentration of ethanol in wine sample i, ci(C2H5OH) concentration en quantité de matière d''éthanol dans le spécimen i de vin, ci(C2H5OH) | \n| number concentration of entity B, CB nombre volumique du constituant B, CB | number concentration of erythrocytes in blood sample i, C(Erys; Bi) nombre volumique d''érythrocytes dans le spécimen i de sang, C(Erc; Sgi) | \n| Rockwell C hardness, HRC dureté C de Rockwell, HRC | Rockwell C hardness of steel sample i, HRCi dureté C de Rockwell du spécimen i d''acier, HRCi | \n|==="'
+  - content: |
+        Le concept générique de grandeur peut être subdivisé en plusieurs niveaux
+        de concepts spécifiques, comme indiqué dans le tableau suivant. La moitié gauche
+        du tableau présente des concepts spécifiques du concept de grandeur. Ce sont
+        des concepts génériques pour les grandeurs individuelles de la moitié droite.
+
+        [cols="3", options="noheader,unnumbered"]
+        |===
+        .2+| length, stem:[l] +
+        longueur, stem:[l]
+        | radius, stem:[r] +
+        rayon, stem:[r]
+        | radius of circle stem:[A], stem:[r_A] or stem:[r(A)] +
+        rayon du cercle stem:[A], stem:[r_A] ou stem:[r(A)]
+        | wavelength, stem:[lambda] +
+        longueur d'onde, stem:[lambda]
+        | wavelength of the sodium stem:[D] radiation, stem:[Lambda_D] or stem:[Lambda(D; N_a)] +
+        longueur d'onde de la radiation stem:[D] du sodium, stem:[lambda_D] ou stem:[lambda(D; N_a)]
+
+        .2+| energy, stem:[E] +
+        énergie, stem:[E]
+        | kinetic energy, stem:[T] +
+        énergie cinétique, stem:[T]
+        | kinetic energy of particle stem:[i] in a given system, stem:[T_i] +
+        énergie cinétique de la particule stem:[i] dans un système donné, stem:[T_i]
+        | heat, stem:[Q] +
+        chaleur, stem:[Q]
+        | heat of vaporization of sample stem:[i] of water, stem:[Q_i] +
+        chaleur de vaporisation du spécimen stem:[i] d'eau, stem:[Q_i]
+
+        2+| electric charge, stem:[Q] +
+        charge électrique, stem:[Q]
+        | electric charge of the proton, stem:[e] +
+        charge électrique du proton, stem:[e]
+
+        2+| electric resistance, stem:[R] +
+        résistance électrique, stem:[R]
+        | electric resistance of resistor stem:[i] in a given circuit, stem:[R_i] +
+        résistance électrique de la résistance stem:[i] dans un circuit donné, stem:[R_i]
+
+        2+| amount-of-substance concentration of entity stem:[B], stem:[c_B] +
+        concentration en quantité de matière du constituant stem:[B], stem:[c_B]
+        | amount-of-substance concentration of ethanol in wine sample stem:[i], stem:[c_i](C~2~H~5~OH) +
+        concentration en quantité de matière d'éthanol dans le spécimen stem:[i] de vin, stem:[c_i](C~2~H~5~OH)
+
+        2+| number concentration of entity stem:[B], stem:[C_B] +
+        nombre volumique du constituant stem:[B], stem:[C_B]
+        | number concentration of erythrocytes in blood sample stem:[i], stem:[C("Erys"; _i)] +
+        nombre volumique d'érythrocytes dans le spécimen stem:[i] de sang, stem:[C("Erc"; "Sg"_i)]
+
+        2+| Rockwell C hardness, HRC +
+        dureté C de Rockwell, HRC
+        | Rockwell C hardness of steel sample stem:[i], stem:["HRC"_i] +
+        dureté C de Rockwell du spécimen stem:[i] d'acier, stem:["HRC"_i]
+        |===
   - content: La référence peut être une {{1.9,unité de mesure}}, une {{2.6,procédure de mesure}}, un {{5.13,matériau de référence}}, ou une de leurs combinaisons.
   - content: Les séries ISO 80000 et CEI 80000 Grandeurs et unités donnent des symboles
       de grandeurs. Les symboles de grandeurs sont écrits en italique. Un symbole
       donné peut noter des grandeurs différentes.
   - content: Le format préféré par l'UICPA-IFCC pour la désignation des grandeurs
       dans les laboratoires de biologie médicale est «Système—Constituant; nature-de-grandeur»
+    examples:
+      - content: «Plasma (Sang)-Ion sodium; concentration en quantité de matière égale à stem:[143 "unitsml(mmol/l)"] chez une personne donnée à un instant donné».
   - content: Une grandeur telle que définie ici est une grandeur scalaire. Cependant,
       un vecteur ou un tenseur dont les composantes sont des grandeurs est aussi considéré
       comme une grandeur.

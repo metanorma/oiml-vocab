@@ -1,3 +1,4 @@
+---
 data:
   identifier: '1.20'
   localized_concepts:
@@ -23,22 +24,26 @@ data:
   definition:
   - content: number in the expression of a {{1.19,quantity value}}, other than any
       number serving as the reference
-  examples:
-  - content: In an amount-of-substance fraction equal to 3 mmol/mol, the numerical
-      quantity value is 3 and the unit is mmol/mol. The unit mmol/mol is numerically
-      equal to 0.001, but this number 0.001 is not part of the numerical quantity
-      value, which remains 3.
-  - content: For a quantity value of 5.7 kg, the numerical quantity value is {m} =
-      (5.7 kg)/kg = 5.7. The same quantity value can be expressed as 5 700 g in which
-      case the numerical quantity value {m} = (5 700 g)/g = 5 700.
   id: 1.20-eng
   language_code: eng
   notes:
-  - content: For {{1.8,quantities of dimension one}}, the reference is a {{1.9,measurement unit}} which is a number and this is not considered as a part of the numerical
-      quantity value.
+  - content: For {{1.8,quantities of dimension one}}, the reference is a {{1.9,measurement unit}}
+      which is a number and this is not considered as a part of the numerical quantity value.
+    examples:
+      - content: |
+          In an amount-of-substance fraction equal to stem:[3 "unitsml(mmol/mol)"],
+          the numerical quantity value is 3 and the unit is stem:["unitsml(mmol/mol)"].
+          The unit stem:["unitsml(mmol/mol)"] is numerically equal to 0.001, but this number 0.001 is not
+          part of the numerical quantity value, which remains 3.
   - content: For {{1.1,quantities}} that have a measurement unit (i.e. those other
-      than {{1.26,ordinal quantities}}), the numerical value {Q} of a quantity Qis
-      frequently denoted {Q} = Q/[Q], where [Q] denotes the measurement unit.
+      than {{1.26,ordinal quantities}}), the numerical value stem:[{Q}] of a quantity stem:[Q] is
+      frequently denoted stem:[{Q} = Q//[Q\]], where stem:[[Q\]] denotes the measurement unit.
+    examples:
+      - content: |
+          For a quantity value of stem:[5.7 "unitsml(kg)"], the numerical quantity value is
+          stem:[{m} = (5.7 "unitsml(kg)")//"unitsml(kg)" = 5.7]. The same quantity value can
+          be expressed as stem:[5700 "unitsml(g)"] in which case the numerical quantity value
+          stem:[{m} = (5700 "unitsml(g)")//"unitsml(g)" = 5700].
   terms:
   - type: expression
     normative_status: preferred
@@ -60,22 +65,28 @@ data:
   definition:
   - content: nombre dans l'expression de la {{1.19,valeur d'une grandeur}}, autre
       qu'un nombre utilisé comme référence
-  examples:
-  - content: Pour une fraction molaire égale à 3 mmol/mol, la valeur numérique est
-      3 et l'unité est mmol/mol. L'unité mmol/mol est numériquement égale à 0,001,
-      mais ce nombre 0,001 ne fait pas partie de la valeur numérique qui reste 3.
-  - content: Pour une valeur de 5,7 kg, la valeur numérique est {m} = (5,7 kg)/kg
-      = 5,7. La même valeur peut être exprimée comme 5 700 g et la valeur numérique
-      est alors {m} = (5 700 g)/g = 5 700.
   id: 1.20-fra
   language_code: fra
   notes:
-  - content: Pour les {{1.8,grandeurs sans dimension}}, la référence est une {{1.9,unité de mesure}} qui est un nombre, et ce nombre n'est pas considéré comme faisant
-      partie de la valeur numérique
+  - content: Pour les {{1.8,grandeurs sans dimension}}, la référence est une
+      {{1.9,unité de mesure}} qui est un nombre, et ce nombre n'est pas considéré
+      comme faisant partie de la valeur numérique
+    examples:
+      - content: |
+          Pour une fraction molaire égale à stem:[3 "unitsml(mmol/mol)"], la valeur
+          numérique est 3 et l'unité est stem:["unitsml(mmol/mol)"]. L'unité
+          stem:["unitsml(mmol/mol)"] est numériquement égale à 0,001, mais ce
+          nombre 0,001 ne fait pas partie de la valeur numérique qui reste 3."
   - content: Pour les {{1.1,grandeurs}} qui ont une unité de mesure (c'est-à-dire
-      autres que les {{1.26,grandeurs ordinales}}), la valeur numérique {Q} d'une
-      grandeur Qest fréquemment notée {Q} = Q/[Q], où [Q] est le symbole de l'unité
+      autres que les {{1.26,grandeurs ordinales}}), la valeur numérique stem:[{Q}] d'une
+      grandeur stem:[Q] est fréquemment notée stem:[{Q} = Q//[Q\]], où stem:[[Q\]] est le symbole de l'unité
       de mesure
+    examples:
+      - content: |
+          Pour une valeur de stem:[5.7 "unitsml(kg)"], la valeur numérique est
+          stem:[{m} = (5.7 "unitsml(kg)")//"unitsml(kg)" = 5.7]. La même valeur
+          peut être exprimée comme stem:[5700 "unitsml(g)"] et la valeur numérique
+          est alors stem:[{m} = (5700 "unitsml(g)")//"unitsml(g)" = 5700].
   terms:
   - type: expression
     normative_status: preferred

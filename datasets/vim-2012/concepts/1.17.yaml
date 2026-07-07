@@ -25,26 +25,71 @@ data:
   - content: "{{1.9,measurement unit}} obtained by multiplying a given measurement
       unit by an integer greater than one"
   examples:
-  - content: The kilometre is a decimal multiple of the metre.
-  - content: The hour is a non-decimal multiple of the second.
+  - content: "The kilometre is a decimal multiple of the metre."
+  - content: "The hour is a non-decimal multiple of the second."
   id: 1.17-eng
   language_code: eng
   notes:
   - content: SI prefixes for decimal multiples of SI {{1.10,base units}} and SI {{1.11,derived units}} are given in Note 5 of 1.16.
   - content: |-
-      SI prefixes refer strictly to powers of 10, and should not be used for powers of 2. For example, 1 kilobit should not be used to represent 1 024 bits (210 bits), which is 1 kibibit.
+      SI prefixes refer strictly to powers of 10, and should not be used for powers of 2.
+      For example, 1 kilobit should not be used to represent stem:[1024] bits (stem:[2^{10}] bits),
+      which is 1 kibibit.
+
       Prefixes for binary multiples are:
 
+      [cols="3",options=]
       |===
-      | (210)8 | yobi yobi
-      | (210)7 | zebi zébi
-      | (210)6 | exbi exbi
-      | (210)5 | pebi pébi
-      | (210)4 | tebi tébi
-      | (210)3 | gibi gibi
-      | (210)2 | mebi mébi
-      | (210)1 | kibi kibi
+      .2+| Factor +
+      Facteur
+      2+| Prefix +
+      Préfixe
+      | Name +
+      Nom
+      | Symbol +
+      Symbole
+
+      | stem:[(2^{10})^8]
+      | yobi +
+      yobi
+      | stem:[Yi]
+
+      | stem:[(2^{10})^7]
+      | zebi +
+      zebi
+      | stem:[Zi]
+
+      | stem:[(2^{10})^6]
+      | exbi +
+      exbi
+      | stem:[Ei]
+
+      | stem:[(2^{10})^5]
+      | pebi +
+      pebi
+      | stem:[Pi]
+
+      | stem:[(2^{10})^4]
+      | tebi +
+      tebi
+      | stem:[Ti]
+
+      | stem:[(2^{10})^3]
+      | gibi +
+      gibi
+      | stem:[Gi]
+
+      | stem:[(2^{10})^2]
+      | mebi +
+      mebi
+      | stem:[Mi]
+
+      | stem:[(2^{10})^1]
+      | kibi +
+      kibi
+      | stem:[Ki]
       |===
+      
       Source: IEC 80000-13.
   terms:
   - type: expression
@@ -62,27 +107,73 @@ data:
   - content: "{{1.9,unité de mesure}} obtenue en multipliant une unité de mesure donnée
       par un entier supérieur à un"
   examples:
-  - content: Le kilomètre est un multiple décimal du mètre.
-  - content: L'heure est un multiple non décimal de la seconde.
+  - content: "Le kilomètre est un multiple décimal du mètre."
+  - content: "L'heure est un multiple non décimal de la seconde."
   id: 1.17-fra
   language_code: fra
   notes:
   - content: Les préfixes SI pour les multiples décimaux des {{1.10,unités de base}}
       et des {{1.11,unités dérivées}} du {{1.16,SI}} sont donnés à la Note 5 de 1.16.
   - content: |-
-      Les préfixes SI représentent strictement des puissances de 10 et il convient de ne pas les utiliser pour des puissances de 2. Par exemple, il convient de ne pas utiliser 1 kilobit pour représenter 1 024 bits (210 bits), qui est 1 kibibit.
+      Les préfixes SI représentent strictement des puissances de 10 et il convient
+      de ne pas les utiliser pour des puissances de 2. Par exemple, il convient de
+      ne pas utiliser 1 kilobit pour représenter stem:[1024] bits (stem:[2^{10}] bits),
+      qui est 1 kibibit.
+
       Les préfixes pour les multiples binaires sont:
 
+      [cols="3",options=]
       |===
-      | (210)8 | yobi yobi
-      | (210)7 | zebi zébi
-      | (210)6 | exbi exbi
-      | (210)5 | pebi pébi
-      | (210)4 | tebi tébi
-      | (210)3 | gibi gibi
-      | (210)2 | mebi mébi
-      | (210)1 | kibi kibi
+      .2+| Factor +
+      Facteur
+      2+| Prefix +
+      Préfixe
+      | Name +
+      Nom
+      | Symbol +
+      Symbole
+
+      | stem:[(2^{10})^8]
+      | yobi +
+      yobi
+      | stem:[Yi]
+
+      | stem:[(2^{10})^7]
+      | zebi +
+      zebi
+      | stem:[Zi]
+
+      | stem:[(2^{10})^6]
+      | exbi +
+      exbi
+      | stem:[Ei]
+
+      | stem:[(2^{10})^5]
+      | pebi +
+      pebi
+      | stem:[Pi]
+
+      | stem:[(2^{10})^4]
+      | tebi +
+      tebi
+      | stem:[Ti]
+
+      | stem:[(2^{10})^3]
+      | gibi +
+      gibi
+      | stem:[Gi]
+
+      | stem:[(2^{10})^2]
+      | mebi +
+      mebi
+      | stem:[Mi]
+
+      | stem:[(2^{10})^1]
+      | kibi +
+      kibi
+      | stem:[Ki]
       |===
+
       Source: CEI 80000-13.
   terms:
   - type: expression

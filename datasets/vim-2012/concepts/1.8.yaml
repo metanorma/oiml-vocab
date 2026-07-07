@@ -1,3 +1,4 @@
+---
 data:
   identifier: '1.8'
   localized_concepts:
@@ -23,11 +24,6 @@ data:
   definition:
   - content: "{{1.1,quantity}} for which all the exponents of the factors corresponding
       to the {{1.4,base quantities}} in its {{1.7,quantity dimension}} are zero"
-  examples:
-  - content: Plane angle, solid angle, refractive index, relative permeability, mass
-      fraction, friction factor, Mach number.
-  - content: Number of turns in a coil, number of molecules in a given sample, degeneracy
-      of the energy levels of a quantum system.
   id: 1.8-eng
   language_code: eng
   notes:
@@ -40,7 +36,13 @@ data:
       one are numbers, but such quantities convey more information than a number.
   - content: Some quantities of dimension one are defined as the ratios of two quantities
       of the same {{1.2,kind}}.
+    examples:
+      - content: "Plane angle, solid angle, refractive index, relative permeability,
+          mass fraction, friction factor, Mach number."
   - content: Numbers of entities are quantities of dimension one.
+    examples:
+      - content: "Number of turns in a coil, number of molecules in a given sample,
+          degeneracy of the energy levels of a quantum system."
   terms:
   - type: expression
     normative_status: preferred
@@ -59,11 +61,6 @@ data:
   definition:
   - content: "{{1.1,grandeur}} pour laquelle tous les exposants des facteurs correspondant
       aux {{1.4,grandeurs de base}} dans sa {{1.7,dimension}} sont nuls"
-  examples:
-  - content: Angle plan, angle solide, indice de réfraction, perméabilité relative,
-      fraction massique, facteur de frottement, nombre de Mach.
-  - content: Nombre de tours dans une bobine, nombre de molécules dans un spécimen
-      donné, dégénérescence des niveaux d'énergie d'un système quantique.
   id: 1.8-fra
   language_code: fra
   notes:
@@ -77,7 +74,13 @@ data:
       nombre.
   - content: Certaines grandeurs sans dimension sont définies comme des rapports de
       deux grandeurs de même {{1.2,nature}}
+    examples:
+      - content: "Angle plan, angle solide, indice de réfraction,
+          perméabilité relative, fraction massique, facteur de frottement, nombre de Mach."
   - content: Les nombres d'entités sont des grandeurs sans dimension
+    examples:
+      - content: "Nombre de tours dans une bobine, nombre de molécules dans un
+          spécimen donné, dégénérescence des niveaux d'énergie d'un système quantique."
   terms:
   - type: expression
     normative_status: preferred

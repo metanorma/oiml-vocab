@@ -26,7 +26,9 @@ data:
   - date: '2012-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "{{1.13,system of units}}, based on the {{1.6,International System of Quantities}}, their names and symbols, including a series of prefixes and their names and symbols, together with rules for their use, adopted by the General Conference on Weights and Measures (CGPM)"
+  - content: "{{1.13,system of units}}, based on the {{1.6,International System of Quantities}},
+      their names and symbols, including a series of prefixes and their names and symbols,
+      together with rules for their use, adopted by the General Conference on Weights and Measures (CGPM)"
   examples: []
   id: 1.16-eng
   language_code: eng
@@ -34,42 +36,182 @@ data:
   - content: |-
       The SI is founded on the seven {{1.4,base quantities}} of the {{1.6,ISQ}} and the names and symbols of the corresponding {{1.10,base units}} that are contained in the following table.
 
+      [cols="3", options="header,unnumbered",headerrows=2]
       |===
-      | lengthlongueur | metremètre
-      | massmasse | kilogramkilogramme
-      | timetemps | secondseconde
-      | electric currentcourant électrique | ampereampère
-      | thermodynamic temperaturetempérature thermodynamique | kelvinkelvin
-      | amount of substancequantité de matière | molemole
-      | luminous intensityintensité lumineuse | candelacandela
+      | Base quantity +
+      Grandeur de base
+      2+| Base unit +
+      Unité de base
+
+      | Name +
+      Nom
+      | Name +
+      Nom
+      | Symbol +
+      Symbole
+
+
+      | length +
+      longueur
+      | metre +
+      mètre
+      | stem:["unitsml(m)"]
+
+      | mass +
+      masse
+      | kilogram +
+      kilogramme
+      | stem:["unitsml(kg)"]
+
+      | time +
+      temps
+      | second +
+      seconde
+      | stem:["unitsml(s)"]
+
+      | electric current +
+      courant électrique
+      | ampere +
+      ampère
+      | stem:["unitsml(A)"]
+
+      | thermodynamic temperature +
+      température thermodynamique
+      | kelvin +
+      kelvin
+      | stem:["unitsml(K)"]
+
+      | amount of substance +
+      quantité de matière
+      | mole +
+      mole
+      | stem:["unitsml(mol)"]
+
+      | luminous intensity +
+      intensité lumineuse
+      | candela +
+      candela
+      | stem:["unitsml(cd)"]
       |===
-  - content: The base units and the {{1.12,coherent derived units}} of the SI form a coherent set, designated the "set of coherent SI units".
-  - content: For a full description and explanation of the International System of Units, see the current edition of the SI brochure published by the Bureau International des Poids et Mesures (BIPM) and available on the BIPM website.
-  - content: In {{1.21,quantity calculus}}, the quantity 'number of entities' is often considered to be a base quantity, with the base unit one, symbol 1.
+  - content: The *base units* and the {{1.12,coherent derived units}} of the SI
+      form a coherent set, designated the "set of coherent SI units".
+  - content: For a full description and explanation of the International System of Units,
+      see the current edition of the SI brochure published by the Bureau International des
+      Poids et Mesures (BIPM) and available on the BIPM website.
+  - content: In {{1.21,quantity calculus}}, the quantity 'number of entities' is
+      often considered to be a base quantity, with the base unit one, symbol 1.
   - content: |-
       The SI prefixes for {{1.17,multiples of units}} and {{1.18,submultiples of units}} are:
 
+      [cols="3", options="header,unnumbered",headerrows=2]
       |===
-      | 1024 | yottayotta
-      | 1021 | zettazetta
-      | 1018 | exaexa
-      | 1015 | petapéta
-      | 1012 | teratéra
-      | 109 | gigagiga
-      | 106 | megaméga
-      | 103 | kilokilo
-      | 102 | hectohecto
-      | 101 | decadéca
-      | 10-1 | decidéci
-      | 10-2 | centicenti
-      | 10-3 | millimilli
-      | 10-6 | micromicro
-      | 10-9 | nanonano
-      | 10-12 | picopico
-      | 10-15 | femtofemto
-      | 10-18 | attoatto
-      | 10-21 | zeptozepto
-      | 10-24 | yoctoyocto
+      .2+| Factor +
+      Facteur
+      2+| Prefix +
+      Préfixe
+      | Name +
+      Nom
+      | Symbol +
+      Symbole
+
+      | stem:[10^{24}]
+      | yotta +
+      yotta
+      | stem:["unitsml(Y-)"]
+
+      | stem:[10^{21}]
+      | zetta +
+      zetta
+      | stem:["unitsml(Z-)"]
+
+      | stem:[10^{18}]
+      | exa +
+      exa
+      | stem:["unitsml(E-)"]
+
+      | stem:[10^{15}]
+      | peta +
+      peta
+      | stem:["unitsml(P-)"]
+
+      | stem:[10^{12}]
+      | tera +
+      tera
+      | stem:["unitsml(T-)"]
+
+      | stem:[10^9]
+      | giga +
+      giga
+      | stem:["unitsml(G-)"]
+
+      | stem:[10^6]
+      | mega +
+      mega
+      | stem:["unitsml(M-)"]
+
+      | stem:[10^3]
+      | kilo +
+      kilo
+      | stem:["unitsml(k-)"]
+
+      | stem:[10^2]
+      | hecto +
+      hecto
+      | stem:["unitsml(h-)"]
+
+      | stem:[10^1]
+      | deca +
+      deca
+      | stem:["unitsml(da-)"]
+
+      | stem:[10^{-1}]
+      | deci +
+      deci
+      | stem:["unitsml(d-)"]
+
+      | stem:[10^{-2}]
+      | centi +
+      centi
+      | stem:["unitsml(c-)"]
+
+      | stem:[10^{-3}]
+      | milli +
+      milli
+      | stem:["unitsml(m-)"]
+
+      | stem:[10^{-6}]
+      | micro +
+      micro
+      | stem:["unitsml(u-)"]
+
+      | stem:[10^{-9}]
+      | nano +
+      nano
+      | stem:["unitsml(n-)"]
+      | stem:[10^{-12}]
+      | pico +
+      pico
+      | stem:["unitsml(p-)"]
+
+      | stem:[10^{-15}]
+      | femto +
+      femto
+      | stem:["unitsml(f-)"]
+
+      | stem:[10^{-18}]
+      | atto +
+      atto
+      | stem:["unitsml(a-)"]
+
+      | stem:[10^{-21}]
+      | zepto +
+      zepto
+      | stem:["unitsml(z-)"]
+
+      | stem:[10^{-24}]
+      | yocto +
+      yocto
+      | stem:["unitsml(y-)"]
       |===
   terms:
   - type: expression
@@ -90,7 +232,10 @@ data:
   - date: '2012-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: "{{1.13,système d'unités}}, fondé sur le {{1.6,Système international de grandeurs}}, comportant les noms et symboles des unités, une série de préfixes avec leurs noms et symboles, ainsi que des règles pour leur emploi, adopté par la Conférence générale des poids et mesures (CGPM)"
+  - content: "{{1.13,système d'unités}}, fondé sur le {{1.6,Système international de grandeurs}},
+      comportant les noms et symboles des unités, une série de préfixes avec leurs noms et
+      symboles, ainsi que des règles pour leur emploi, adopté par la Conférence générale
+      des poids et mesures (CGPM)"
   examples: []
   id: 1.16-fra
   language_code: fra
@@ -98,42 +243,181 @@ data:
   - content: |-
       Le SI est fondé sur les sept {{1.4,grandeurs de base}} de l'{{1.6,ISQ}}. Les noms et les symboles des {{1.10,unités de base}} sont donnés dans le tableau suivant.
 
+      [cols="3", options="header,unnumbered",headerrows=2]
       |===
-      | lengthlongueur | metremètre
-      | massmasse | kilogramkilogramme
-      | timetemps | secondseconde
-      | electric currentcourant électrique | ampereampère
-      | thermodynamic temperaturetempérature thermodynamique | kelvinkelvin
-      | amount of substancequantité de matière | molemole
-      | luminous intensityintensité lumineuse | candelacandela
+      | Base quantity +
+      Grandeur de base
+      2+| Base unit +
+      Unité de base
+
+      | Name +
+      Nom
+      | Name +
+      Nom
+      | Symbol +
+      Symbole
+
+      | length +
+      longueur
+      | metre +
+      mètre
+      | stem:["unitsml(m)"]
+
+      | mass +
+      masse
+      | kilogram +
+      kilogramme
+      | stem:["unitsml(kg)"]
+
+      | time +
+      temps
+      | second +
+      seconde
+      | stem:["unitsml(s)"]
+
+      | electric current +
+      courant électrique
+      | ampere +
+      ampère
+      | stem:["unitsml(A)"]
+
+      | thermodynamic temperature +
+      température thermodynamique
+      | kelvin +
+      kelvin
+      | stem:["unitsml(K)"]
+
+      | amount of substance +
+      quantité de matière
+      | mole +
+      mole
+      | stem:["unitsml(mol)"]
+
+      | luminous intensity +
+      intensité lumineuse
+      | candela +
+      candela
+      | stem:["unitsml(cd)"]
       |===
-  - content: Les unités de base et les {{1.12,unités dérivées cohérentes}} du SI forment un ensemble cohérent, appelé «ensemble des unités SI cohérentes».
-  - content: Pour une description et une explication complètes du Système international d'unités, voir la dernière édition de la brochure du SI publiée par le Bureau international des poids et mesures (BIPM) et disponible sur le site internet du BIPM.
-  - content: En {{1.21,algèbre des grandeurs}}, la grandeur «nombre d'entités» est souvent considérée comme une grandeur de base, avec l'unité de base un, symbole 1.
+  - content: Les *unités de base* et les {{1.12,unités dérivées cohérentes}} du SI forment
+      un ensemble cohérent, appelé «ensemble des unités SI cohérentes».
+  - content: Pour une description et une explication complètes du Système international
+      d'unités, voir la dernière édition de la brochure du SI publiée par le Bureau
+      international des poids et mesures (BIPM) et disponible sur le site internet du BIPM.
+  - content: En {{1.21,algèbre des grandeurs}}, la grandeur «nombre d'entités» est
+      souvent considérée comme une grandeur de base, avec l'unité de base un, symbole 1.
   - content: |-
       Les préfixes SI pour les {{1.17,multiples des unités}} et {{1.18,sous-multiples des unités}} sont:
 
+      [cols="3", options="header,unnumbered",headerrows=2]
       |===
-      | 1024 | yottayotta
-      | 1021 | zettazetta
-      | 1018 | exaexa
-      | 1015 | petapéta
-      | 1012 | teratéra
-      | 109 | gigagiga
-      | 106 | megaméga
-      | 103 | kilokilo
-      | 102 | hectohecto
-      | 101 | decadéca
-      | 10-1 | decidéci
-      | 10-2 | centicenti
-      | 10-3 | millimilli
-      | 10-6 | micromicro
-      | 10-9 | nanonano
-      | 10-12 | picopico
-      | 10-15 | femtofemto
-      | 10-18 | attoatto
-      | 10-21 | zeptozepto
-      | 10-24 | yoctoyocto
+      .2+| Factor +
+      Facteur
+      2+| Prefix +
+      Préfixe
+      | Name +
+      Nom
+      | Symbol +
+      Symbole
+
+      | stem:[10^{24}]
+      | yotta +
+      yotta
+      | stem:["unitsml(Y-)"]
+
+      | stem:[10^{21}]
+      | zetta +
+      zetta
+      | stem:["unitsml(Z-)"]
+
+      | stem:[10^{18}]
+      | exa +
+      exa
+      | stem:["unitsml(E-)"]
+
+      | stem:[10^{15}]
+      | peta +
+      peta
+      | stem:["unitsml(P-)"]
+
+      | stem:[10^{12}]
+      | tera +
+      tera
+      | stem:["unitsml(T-)"]
+
+      | stem:[10^9]
+      | giga +
+      giga
+      | stem:["unitsml(G-)"]
+
+      | stem:[10^6]
+      | mega +
+      mega
+      | stem:["unitsml(M-)"]
+
+      | stem:[10^3]
+      | kilo +
+      kilo
+      | stem:["unitsml(k-)"]
+
+      | stem:[10^2]
+      | hecto +
+      hecto
+      | stem:["unitsml(h-)"]
+
+      | stem:[10^1]
+      | deca +
+      deca
+      | stem:["unitsml(da-)"]
+
+      | stem:[10^{-1}]
+      | deci +
+      deci
+      | stem:["unitsml(d-)"]
+
+      | stem:[10^{-2}]
+      | centi +
+      centi
+      | stem:["unitsml(c-)"]
+
+      | stem:[10^{-3}]
+      | milli +
+      milli
+      | stem:["unitsml(m-)"]
+
+      | stem:[10^{-6}]
+      | micro +
+      micro
+      | stem:["unitsml(u-)"]
+
+      | stem:[10^{-9}]
+      | nano +
+      nano
+      | stem:["unitsml(n-)"]
+      | stem:[10^{-12}]
+      | pico +
+      pico
+      | stem:["unitsml(p-)"]
+
+      | stem:[10^{-15}]
+      | femto +
+      femto
+      | stem:["unitsml(f-)"]
+
+      | stem:[10^{-18}]
+      | atto +
+      atto
+      | stem:["unitsml(a-)"]
+
+      | stem:[10^{-21}]
+      | zepto +
+      zepto
+      | stem:["unitsml(z-)"]
+
+      | stem:[10^{-24}]
+      | yocto +
+      yocto
+      | stem:["unitsml(y-)"]
       |===
   terms:
   - type: expression
