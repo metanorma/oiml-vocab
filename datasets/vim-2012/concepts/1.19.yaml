@@ -1,3 +1,4 @@
+---
 data:
   identifier: '1.19'
   localized_concepts:
@@ -25,36 +26,32 @@ data:
   examples:
   - content: |-
       Length of a given rod:
-      5.34 m or 534 cm
+      stem:[5.34 "unitsml(m)"] or stem:[534 "unitsml(cm)"]
   - content: |-
       Mass of a given body:
-      0.152 kg or 152 g
+      stem:[0.152 "unitsml(kg)"] or stem:[152 "unitsml(g)"]
   - content: |-
       Curvature of a given arc:
-      112 m−1
+      stem:[112 "unitsml(m^{-1})"]
   - content: |-
       Celsius temperature of a given sample:
-      −5 °C
+      stem:[-5 "unitsml(degC)"]
   - content: |-
       Electric impedance of a given circuit element at a given frequency, where j is the imaginary unit:
-      (7 + 3j) Ω
+      stem:[(7 + 3j) "unitsml(Ohm)"]
   - content: |-
-      Refractive index of a given sample of glass:
-      1.32
+      Refractive index of a given sample of glass: 1.32
   - content: |-
-      Rockwell C hardness of a given sample:
-      43.5 HRC
+      Rockwell C hardness of a given sample: stem:[43.5] HRC
   - content: |-
-      Mass fraction of cadmium in a given sample of copper:
-      3 µg/kg or 3 ·10−9
+      Mass fraction of cadmium in a given sample of copper: stem:[3 "unitsml(ug/kg)"] or stem:[3 xx 10^{-9}]
   - content: |-
-      Molality of Pb2+ in a given sample of water:
-      1.76 µmol/kg
+      Molality of Pb^2+^ in a given sample of water: stem:[1.76 "unitsml(umol/kg)"]
   - content: |-
       Arbitrary amount-of-substance concentration of lutropin in a given sample of human blood plasma (WHO International Standard 80/552 used as a calibrator):
+
       5.0 IU/l, where "IU" stands for "WHO International Unit"
-  - content: Force acting on a given particle, e.g. in Cartesian components (Fx; Fy;
-      Fz) = (−31.5; 43.2; 17.0) N.
+  - content: Force acting on a given particle, e.g. in Cartesian components stem:[(F_x; F_y; F_z) = (-31.5; 43.2; 17.0) "unitsml(N)"].
   id: 1.19-eng
   language_code: eng
   notes:
@@ -68,6 +65,10 @@ data:
       1, 2 and 8).
   - content: In the case of vector or tensor quantities, each component has a quantity
       value.
+    examples:
+      - content: |
+            Force acting on a given particle, e.g. in Cartesian components
+            stem:[(F_x; F_y; F_z) = (-31.5; 43.2; 17.0) "unitsml(N)"].
   terms:
   - type: expression
     normative_status: preferred
@@ -99,36 +100,37 @@ data:
   examples:
   - content: |-
       Longueur d'une tige donnée:
-      5,34 m ou 534 cm
+      stem:[5,34 "unitsml(m)"] ou stem:[534 "unitsml(cm)"]
   - content: |-
       Masse d'un corps donné:
-      0,152 kg ou 152 g
+      stem:[0,152 "unitsml(kg)"] ou stem:[152 "unitsml(g)"]
   - content: |-
       Courbure d'un arc donné:
-      112 m−1
+      stem:[112 "unitsml(1/m)"]
   - content: |-
       Température Celsius d'un spécimen donné:
-      −5 °C
+      stem:[-5 "unitsml(degC)"]
   - content: |-
       Impédance électrique d'un élément de circuit donné à une fréquence donnée, où j est l'unité imaginaire:
-      (7 + 3j) Ω
+      stem:[(7 + 3j) "unitsml(Ohm)"]
   - content: |-
       Indice de réfraction d'un spécimen donné de verre:
       1,32
   - content: |-
       Dureté C de Rockwell d'un spécimen donné:
-      43,5 HRC
+      stem:[43.5] HRC
   - content: |-
       Fraction massique de cadmium dans un spécimen donné de cuivre:
-      3 µg/kg ou 3 ·10−9
+      stem:[3 "unitsml(ug/kg)"] ou stem:[3 xx 10^{-9}]
   - content: |-
-      Molalité de Pb2+ dans un spécimen donné d'eau:
-      1,76 µmol/kg
+      Molalité de Pb^2+^ dans un spécimen donné d'eau:
+      stem:[1.76 "unitsml(umol/kg)"]
   - content: |-
       Concentration arbitraire en quantité de matière de lutropine dans un spécimen donné de plasma sanguin humain en utilisant l'étalon international 80/552 de l'OMS:
-      5,0 UI/l, où «UI» signifie «unité internationale de l'OMS»
+
+      stem:[5.0] IU/l, où «UI» signifie «unité internationale de l'OMS»
   - content: Force agissant sur une particule donnée, par exemple en coordonnées cartésiennes
-      (Fx; Fy; Fz) = (−31,5; 43,2; 17,0) N.
+      stem:[(F_x; F_y; F_z) = (-31,5; 43,2; 17,0) "unitsml(N)"].
   id: 1.19-fra
   language_code: fra
   notes:
@@ -138,10 +140,13 @@ data:
       - soit un nombre et la référence à une {{2.6,procédure de mesure}} (voir Exemple 7);
       - soit un nombre et un {{5.13,matériau de référence}} (voir Exemple 10).
   - content: Le nombre peut être complexe (voir Exemple 5).
-  - content: La valeur d'une grandeur peut être représentée de plus d'une façon (voir
-      Exemples 1, 2 et 8).
+  - content: La valeur d'une grandeur peut être représentée de plus d'une façon (voir Exemples 1, 2 et 8).
   - content: Dans le cas de grandeurs vectorielles ou tensorielles, chaque composante
       a une valeur
+    examples:
+      - content: |
+            Force agissant sur une particule donnée, par exemple en coordonnées cartésiennes
+            stem:[(F_x; F_y; F_z) = (-31,5; 43,2; 17,0) "unitsml(N)"].
   terms:
   - type: expression
     normative_status: preferred
