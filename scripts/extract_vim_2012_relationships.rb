@@ -513,27 +513,37 @@ def emit_v2(io, merged, image_path, page, model, n_runs)
   io.puts "relationships:"
   by_type = merged[:by_type]
 
-  io.puts "  # (a) Associative — arrowed line, bidirectional."
-  io.puts "  #     Compact form: [a, b]."
-  io.puts "  associative:"
-  sort_edges(by_type["associative"] || [], "associative").each { |e| io.puts emit_associative(e, always_runs: always_runs) }
+  emit_type_section(io, "associative",
+    "(a) Associative — arrowed line, bidirectional.\n    Compact form: [a, b].",
+    by_type["associative"] || []) { |e| emit_associative(e, always_runs: always_runs) }
   io.puts ""
 
-  io.puts "  # (b) Hierarchical — straight line: broader → narrower."
-  io.puts "  #     Trailing `...` in narrower = unlisted others on diagram."
-  io.puts "  hierarchical:"
-  sort_edges(by_type["hierarchical"] || [], "hierarchical").each { |e| io.puts emit_hierarchical(e, always_runs: always_runs) }
+  emit_type_section(io, "hierarchical",
+    "(b) Hierarchical — straight line: broader → narrower.\n    Trailing `...` in narrower = unlisted others on diagram.",
+    by_type["hierarchical"] || []) { |e| emit_hierarchical(e, always_runs: always_runs) }
   io.puts ""
 
-  io.puts "  # (c) Partitive — bracket rake: comprehensive → parts."
-  io.puts "  partitive:"
-  sort_edges(by_type["partitive"] || [], "partitive").each { |e| io.puts emit_partitive(e, always_runs: always_runs) }
+  emit_type_section(io, "partitive",
+    "(c) Partitive — bracket rake: comprehensive → parts.",
+    by_type["partitive"] || []) { |e| emit_partitive(e, always_runs: always_runs) }
   io.puts ""
 
-  io.puts "  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers."
-  io.puts "  #     INDEPENDENT HYPEREDGE — see schema."
-  io.puts "  partitive_plural:"
-  sort_edges(by_type["partitive_plural"] || [], "partitive_plural").each { |e| io.puts emit_partitive_plural(e, always_runs: always_runs) }
+  emit_type_section(io, "partitive_plural",
+    "(d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.\n    INDEPENDENT HYPEREDGE — see schema.",
+    by_type["partitive_plural"] || []) { |e| emit_partitive_plural(e, always_runs: always_runs) }
+end
+
+# Emits a relationship-type section. Empty sections get an explicit `[]`
+# so YAML parses them as an empty array rather than nil.
+def emit_type_section(io, type, comment, edges)
+  comment.lines.each { |line| io.puts "  # #{line.chomp}" }
+  if edges.empty?
+    io.puts "  #{type}: []"
+  else
+    io.puts "  #{type}:"
+    sorted = sort_edges(edges, type)
+    sorted.each { |e| io.puts yield(e) }
+  end
 end
 
 # Deterministic sort within each type so output is reproducible regardless
