@@ -1,0 +1,141 @@
+---
+# Concept-relationship diagram — VIM 2007 (OIML V 2:2007 — International Vocabulary of Metrology)
+# Source: reference-docs/v002-200-e07-relationships-images/image00012.png
+# Extracted by glm-5v-turbo (2/2 runs succeeded)
+# Review: set `status` per edge (draft → confirmed | corrected | rejected).
+# Schema: reference-docs/v002-200-e12-relationships/schema.yaml
+
+schema_version:  '2'
+diagram_type:    concept_relationship_diagram
+dataset_urn:     urn:oiml:pub:v:2:2007
+source_image:    reference-docs/v002-200-e07-relationships-images/image00012.png
+source_page:     12
+source_pdf:      reference-docs/v002-200-e07.pdf
+
+extracted_by:    glm-5v-turbo
+extracted_at:    "2026-07-08T13:10:57Z"
+extraction_runs: 2   # 2 succeeded
+editor_status:   draft   # draft | in_review | reviewed | confirmed
+reviewers:       []
+
+# Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
+nodes:
+  ext_control_material: control material
+  ext_precision_control_material: precision control material
+  ext_reference_material_certificate: reference material certificate
+  ext_trueness_control_material: trueness control material
+  '1.1': quantity (see Fig. A.1
+  '1.19': quantity value (see Fig. A.1
+  '2.27': measurement uncertainty
+  '2.39': calibration (see Fig. A.7
+  '2.41': metrological traceability
+  '2.8': primary reference measurement procedure (see Fig. A.3
+  '3.1': measuring instrument
+  '3.2': measuring system
+  '3.6': material measure
+  '5.1': measurement standard
+  '5.10': intrinsic measurement standard
+  '5.11': conservation of a measurement standard
+  '5.12': calibrator
+  '5.13': reference material
+  '5.14': certified reference material
+  '5.15': commutability of a reference material
+  '5.16': reference data
+  '5.17': standard reference data
+  '5.18': reference quantity value
+  '5.2': international measurement standard
+  '5.3': national measurement standard
+  '5.4': primary measurement standard
+  '5.5': secondary measurement standard
+  '5.6': reference measurement standard
+  '5.7': working measurement standard
+  '5.8': travelling measurement standard
+  '5.9': transfer measurement device
+
+relationships:
+  # (a) Associative — arrowed line, bidirectional.
+  #     Compact form: [a, b].
+  associative:
+  - members: ['5.18', '2.27']
+    runs: [1, 2]
+  - members: ['2.39', '5.12']
+    runs: [1, 2]
+  - members: ['2.8', '5.4']
+    runs: [1, 2]
+  - members: ['5.14', ext_reference_material_certificate]
+    runs: [1, 2]
+  - members: ['1.19', '1.1']
+    runs: [2]
+  - members: ['1.19', '2.27']
+    runs: [1]
+  - members: ['3.1', '2.27']
+    runs: [1]
+  - members: ['3.2', '2.27']
+    runs: [1]
+  - members: ['3.6', '2.27']
+    runs: [1]
+  - members: ['5.13', '2.27']
+    runs: [1]
+  - members: ['5.17', '2.27']
+    runs: [1]
+  - members: ['2.39', ext_trueness_control_material]
+    runs: [1]
+  - members: ['2.41', '5.1']
+    runs: [1]
+  - members: ['5.12', '2.41']
+    runs: [1]
+  - members: ['5.15', '5.13']
+    runs: [2]
+  - members: ['5.4', '5.5']
+    runs: [2]
+  - members: [ext_control_material, ext_precision_control_material]
+    runs: [1]
+  - members: [ext_control_material, ext_trueness_control_material]
+    runs: [1]
+
+  # (b) Hierarchical — straight line: broader → narrower.
+  #     Trailing `...` in narrower = unlisted others on diagram.
+  hierarchical:
+  - broader: '5.16'
+    narrower: ['5.18', '5.17', ...]
+    runs: [1, 2]
+  - broader: '1.1'
+    narrower: ['1.19']
+    runs: [1]
+  - broader: '1.1'
+    narrower: ['5.1']
+    runs: [1]
+  - broader: '2.39'
+    narrower: [ext_trueness_control_material, ext_control_material]
+    runs: [2]
+  - broader: '5.1'
+    narrower: ['5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', '5.11', '5.12', '2.41', '1.1']
+    runs: [2]
+  - broader: '5.13'
+    narrower: ['3.1', '3.2', '3.6', '2.27']
+    runs: [2]
+  - broader: '5.18'
+    narrower: ['1.19']
+    runs: [2]
+  - broader: '5.4'
+    narrower: ['5.5']
+    runs: [1]
+
+  # (c) Partitive — bracket rake: comprehensive → parts.
+  partitive:
+  - comprehensive: '5.1'
+    parts: ['5.2', '5.3', '5.4', '5.6', '5.7', '5.8', '5.9', '5.10']
+    runs: [1]
+  - comprehensive: '5.13'
+    parts: ['5.15', '5.14', ...]
+    runs: [1]
+  - comprehensive: '5.13'
+    parts: ['5.14', ext_trueness_control_material, ext_precision_control_material, ext_control_material, ...]
+    runs: [2]
+  - comprehensive: '5.13'
+    parts: [ext_trueness_control_material, ext_precision_control_material, ext_control_material]
+    runs: [1]
+
+  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
+  #     INDEPENDENT HYPEREDGE — see schema.
+  partitive_plural: []

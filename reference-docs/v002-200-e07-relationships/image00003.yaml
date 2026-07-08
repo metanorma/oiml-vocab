@@ -1,0 +1,122 @@
+---
+# Concept-relationship diagram — VIM 2007 (OIML V 2:2007 — International Vocabulary of Metrology)
+# Source: reference-docs/v002-200-e07-relationships-images/image00003.png
+# Extracted by glm-5v-turbo (2/2 runs succeeded)
+# Review: set `status` per edge (draft → confirmed | corrected | rejected).
+# Schema: reference-docs/v002-200-e12-relationships/schema.yaml
+
+schema_version:  '2'
+diagram_type:    concept_relationship_diagram
+dataset_urn:     urn:oiml:pub:v:2:2007
+source_image:    reference-docs/v002-200-e07-relationships-images/image00003.png
+source_page:     3
+source_pdf:      reference-docs/v002-200-e07.pdf
+
+extracted_by:    glm-5v-turbo
+extracted_at:    "2026-07-08T12:56:39Z"
+extraction_runs: 2   # 2 succeeded
+editor_status:   draft   # draft | in_review | reviewed | confirmed
+reviewers:       []
+
+# Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
+nodes:
+  ext_other_information: other information
+  ext_quantity_being_measured: quantity being measured
+  ext_reference: reference
+  '1.1': quantity
+  '1.19': quantity value
+  '2.1': measurement
+  '2.10': measured quantity value
+  '2.2': metrology
+  '2.26': measurement uncertainty
+  '2.3': measurand
+  '2.4': measurement principle
+  '2.46': metrological comparability of measurement results
+  '2.47': metrological compatibility of measurement results
+  '2.48': measurement model
+  '2.5': measurement method
+  '2.6': measurement procedure
+  '2.7': reference measurement procedure
+  '2.8': primary reference measurement procedure
+  '2.9': measurement result
+
+relationships:
+  # (a) Associative — arrowed line, bidirectional.
+  #     Compact form: [a, b].
+  associative:
+  - members: ['1.1', '2.1']
+    runs: [1, 2]
+  - members: ['2.48', '1.1']
+    runs: [1, 2]
+  - members: ['1.19', '2.1']
+    runs: [1, 2]
+  - members: ['2.2', '2.1']
+    runs: [1, 2]
+  - members: ['2.4', '2.1']
+    runs: [1, 2]
+  - members: ['2.5', '2.1']
+    runs: [1, 2]
+  - members: ['2.6', '2.1']
+    runs: [1, 2]
+  - members: ['2.10', '2.26']
+    runs: [1, 2]
+  - members: ['2.3', '2.26']
+    runs: [1, 2]
+  - members: ['2.47', '2.26']
+    runs: [1, 2]
+  - members: ['2.9', '2.46']
+    runs: [1, 2]
+  - members: ['2.46', ext_reference]
+    runs: [1, 2]
+  - members: ['2.9', '2.47']
+    runs: [1, 2]
+  - members: ['2.48', '2.1']
+    runs: [1]
+  - members: ['2.9', '2.1']
+    runs: [1]
+  - members: ['2.9', '2.10']
+    runs: [2]
+  - members: ['2.47', '2.3']
+    runs: [2]
+  - members: ['2.3', ext_quantity_being_measured]
+    runs: [2]
+  - members: ['2.4', '2.5']
+    runs: [2]
+  - members: ['2.48', '2.6']
+    runs: [2]
+  - members: ['2.9', '2.48']
+    runs: [2]
+  - members: ['2.5', '2.6']
+    runs: [2]
+  - members: ['2.6', '2.9']
+    runs: [2]
+
+  # (b) Hierarchical — straight line: broader → narrower.
+  #     Trailing `...` in narrower = unlisted others on diagram.
+  hierarchical: []
+
+  # (c) Partitive — bracket rake: comprehensive → parts.
+  partitive:
+  - comprehensive: '2.3'
+    parts: ['1.1', ...]
+    runs: [2]
+  - comprehensive: '2.3'
+    parts: ['1.1', ext_quantity_being_measured, ...]
+    runs: [1]
+  - comprehensive: '2.6'
+    parts: ['2.7', ...]
+    runs: [2]
+  - comprehensive: '2.6'
+    parts: ['2.7', '2.8', ...]
+    runs: [1]
+  - comprehensive: '2.7'
+    parts: ['2.8', ...]
+    runs: [2]
+
+  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
+  #     INDEPENDENT HYPEREDGE — see schema.
+  partitive_plural:
+  - comprehensive: '2.9'
+    parts: ['1.19', ext_other_information, '2.10']
+    markers: [dashed]
+    runs: [1, 2]
