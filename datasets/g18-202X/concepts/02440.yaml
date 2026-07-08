@@ -25,21 +25,23 @@ data:
   definition:
   - content: 'automatic checking facility (3.5.5) that operates at certain time intervals
       or per fixed number of measurement cycles'
-    sources:
-    - type: authoritative
-      status: modified
-      origin:
-        ref:
-          source: 'OIML D 11:2013'
-          id: '3.19.1.2'
-      modification: Synonym presentation
+  sources:
+  - type: authoritative
+    status: modified
+    origin:
+      ref:
+        source: 'OIML D 11:2013'
+        id: '3.19.1.2'
+    modification: Synonym presentation
   id: 02440-eng
   language_code: eng
-  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'intermittent automatic checking facility type I automatic checking facility'
+    designation: intermittent automatic checking facility
+  - type: expression
+    normative_status: admitted
+    designation: type I automatic checking facility
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

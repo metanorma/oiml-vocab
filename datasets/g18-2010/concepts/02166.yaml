@@ -8,7 +8,7 @@ data:
         source: OIML D 30:2008
     locality:
       type: clause
-      reference_from: '3'
+      reference_from: '3.G.3-1.8'
     type: authoritative
   domains:
   - concept_id: section-D030
@@ -22,25 +22,16 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '- G.3-1 report issued by a Testing Laboratory that includes the results
+  - content: 'report issued by a Testing Laboratory that includes the results
       of 1. Additional Test Reports are issued under additional tests and examinations,
       additional to those in the OIML Recommendation, accepted in the scope of a Declaration
       of Mutual Confidence (DoMC).'
   examples: []
   id: 02166-eng
   notes:
-  - content: the Mutual Acceptance Arrangement (MAA).
-  - content: 2. In the event that several Testing Laboratories are involved in the
-      additional tests and examinations, each Testing Laboratory issues an Additional
-      Test Report corresponding to those tests and examinations it performs.
-  sources:
-  - origin:
-      ref:
-        source: OIML D 30:2008
-      locality:
-        type: clause
-        reference_from: '3'
-    type: authoritative
+  - content: Additional Test Reports are issued under the Mutual Acceptance Arrangement (MAA).
+  - content: In the event that several Testing Laboratories are involved in the additional tests and examinations, each Testing Laboratory issues an Additional Test Report corresponding to those tests and examinations it performs.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

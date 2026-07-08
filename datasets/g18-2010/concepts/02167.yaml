@@ -8,7 +8,7 @@ data:
         source: OIML D 30:2008
     locality:
       type: clause
-      reference_from: '3'
+      reference_from: '3.G.3-1.9'
     type: authoritative
   domains:
   - concept_id: section-D030
@@ -22,21 +22,14 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '- G.3-1 report, issued by the OIML Issuing Authority, composed of the
+  - content: 'report, issued by the OIML Issuing Authority, composed of the
       OIML Evaluation Report and of the Additional Test Reports'
   examples: []
   id: 02167-eng
   notes:
   - content: Complete Evaluation Reports are issued under the Mutual Acceptance Arrangement
       (MAA).
-  sources:
-  - origin:
-      ref:
-        source: OIML D 30:2008
-      locality:
-        type: clause
-        reference_from: '3'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

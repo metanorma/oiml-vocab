@@ -23,7 +23,12 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'expanded uncertainty at a specified confidence level (p = 0.95 or p = 0.99) declared in the technical documentation, at which the BBR is considered fit for its intended use. The standard uncertainty upBB = UpBB/k(p) is calculated from either k(p = 0.95) =   or k(p = 0.99) = 3'
+  - content: |
+      expanded uncertainty at a specified confidence level (stem:[p = 0.95] or
+      stem:[p = 0.99]) declared in the technical documentation, at which the BBR
+      is considered fit for its intended use. The standard uncertainty
+      stem:[u_{pBB} = U_{pBB}/k(p)] is calculated from either stem:[k(p = 0.95)
+      = 2] or stem:[k(p = 0.99) = 3]
   id: 02822-eng
   language_code: eng
   sources: []
