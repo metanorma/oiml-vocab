@@ -1,0 +1,106 @@
+---
+# Concept-relationship diagram — VIM 2012 (OIML V 2:2012)
+# Source: reference-docs/v002-200-e12-relationships-images/image-11.png
+# Extracted by glm-5v-turbo (2/2 runs succeeded)
+# Review: set `status` per edge (draft → confirmed | corrected | rejected).
+# Schema: reference-docs/v002-200-e12-relationships/schema.yaml
+
+schema_version:  '2'
+diagram_type:    concept_relationship_diagram
+dataset_urn:     urn:oiml:pub:v:2:2012
+source_image:    reference-docs/v002-200-e12-relationships-images/image-11.png
+source_page:     11
+source_pdf:      reference-docs/v002-200-e12-relationships.pdf
+
+extracted_by:    glm-5v-turbo
+extracted_at:    "2026-07-07T12:16:39Z"
+extraction_runs: 2   # 2 succeeded
+editor_status:   draft   # draft | in_review | reviewed | confirmed
+reviewers:       []
+
+# Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
+nodes:
+  ext_metrological_property_of_a_measuring_instrument_or_measuring_system: metrological property of a measuring instrument or measuring system
+  ext_operating_condition: operating condition
+  ext_operating_condition_see_fig_a11: operating condition, see Fig. A.11
+  '1.19': quantity value
+  '2.16': measurement error
+  '2.26': measurement uncertainty
+  '3.1': measuring instrument
+  '3.2': measuring system
+  '4.1': indication
+  '4.12': sensitivity of a measuring system
+  '4.13': selectivity of a measuring system
+  '4.14': resolution
+  '4.15': resolution of a displaying device
+  '4.16': discrimination threshold
+  '4.17': dead band
+  '4.18': detection limit
+  '4.19': stability of a measuring instrument
+  '4.2': blank indication
+  '4.20': instrumental bias
+  '4.21': instrumental drift
+  '4.22': variation due to an influence quantity
+  '4.23': step response time
+  '4.24': instrumental measurement uncertainty
+  '4.25': accuracy class
+  '4.26': maximum permissible measurement error
+  '4.27': datum measurement error
+  '4.28': zero error
+  '4.29': null measurement uncertainty
+  '4.3': indication interval
+  '4.4': nominal indication interval
+  '4.5': range of a nominal indication interval
+  '4.6': nominal quantity value
+  '4.7': measuring interval
+
+relationships:
+  # (a) Associative — arrowed line, bidirectional.
+  #     Compact form: [a, b].
+  associative:
+  - members: ['4.25', '3.1']
+    runs: [1, 2]
+  - members: ['3.1', ext_metrological_property_of_a_measuring_instrument_or_measuring_system]
+    runs: [1, 2]
+  - members: ['4.25', '3.2']
+    runs: [1, 2]
+  - members: ['3.2', ext_metrological_property_of_a_measuring_instrument_or_measuring_system]
+    runs: [1, 2]
+  - members: ['4.4', '4.5']
+    runs: [1, 2]
+
+  # (b) Hierarchical — straight line: broader → narrower.
+  #     Trailing `...` in narrower = unlisted others on diagram.
+  hierarchical:
+  - broader: '2.16'
+    narrower: ['4.27', '4.28', ...]
+    runs: [1, 2]
+  - broader: '2.26'
+    narrower: ['4.29', ...]
+    runs: [1, 2]
+  - broader: '4.1'
+    narrower: ['4.2', '4.3', ...]
+    runs: [1, 2]
+  - broader: '4.3'
+    narrower: ['1.19', '4.6', ...]
+    runs: [1]
+  - broader: ext_metrological_property_of_a_measuring_instrument_or_measuring_system
+    narrower: ['4.1', '4.18', '4.19', '4.20', '4.21', '4.22', '4.23', '4.24', '4.26', '4.27', '4.12', '4.13', '4.14', '4.15', '4.16', '4.17', '4.7', ext_operating_condition]
+    runs: [2]
+  - broader: ext_metrological_property_of_a_measuring_instrument_or_measuring_system
+    narrower: ['4.1', '4.18', '4.19', '4.20', '4.21', '4.22', '4.23', '4.24', '4.26', '4.7', '4.12', '4.13', '4.14', '4.15', '4.16', '4.17']
+    runs: [1]
+
+  # (c) Partitive — bracket rake: comprehensive → parts.
+  partitive:
+  - comprehensive: '2.26'
+    parts: ['4.24', '4.26']
+    runs: [1, 2]
+
+  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
+  #     INDEPENDENT HYPEREDGE — see schema.
+  partitive_plural:
+  - comprehensive: '4.3'
+    parts: ['1.19', '4.4', '4.6', ...]
+    markers: [double]
+    runs: [2]
