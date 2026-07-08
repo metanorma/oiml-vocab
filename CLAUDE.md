@@ -98,7 +98,7 @@ Five VIM editions are tracked (four are exposed in the concept-browser; VIM 1984
 
 | Edition | Path | Concepts | Notes |
 |---------|------|----------|-------|
-| 2012 (current) | `datasets/vim-2012/` | 144 | Bilingual EN/FR, scraped from jcgm.bipm.org/vim |
+| 2012 (current) | `datasets/vim-2012/` | 144 | Bilingual EN/FR, authoritative (editor-validated, PR #62) |
 | 2010 | `datasets/vim-2010/` | 144 | Bilingual EN/FR, authoritative (editor-validated) |
 | 2007 | `datasets/vim-2007/` | 144 | Bilingual EN/FR, authoritative (issue #27) + 2.53 added |
 | 1993 | `datasets/vim-1993/` | 120 | Bilingual EN/FR, OCR HTML (6 chapters, 5.29-5.33 do not exist) |
@@ -106,7 +106,7 @@ Five VIM editions are tracked (four are exposed in the concept-browser; VIM 1984
 
 VIM 2007/2010 share the same concept numbering (5 chapters, 144 concepts each). VIM 1993 has 6 chapters with 120 concepts (1.1-1.22, 2.1-2.9, 3.1-3.16, 4.1-4.31, 5.1-5.28, 6.1-6.14). VIM 1984 uses zero-padded numbering (1.02, 2.05, 6.14) matching its source.
 
-**VIM 2007, VIM 2010, and VIM 1993 are the fully editor-validated authoritative editions** (issue #27). Editors have manually checked every concept against GLM OCR output for the source PDFs (`reference-docs/{vim-1993,vim-2007}-ocr/glm-ocr.md` — and likewise for VIM 2010/2012). Cross-edition supersession:
+**VIM 2012, VIM 2010, VIM 2007, and VIM 1993 are the fully editor-validated authoritative editions** (issue #27; VIM 2012 validated in PR #62). Editors have manually checked every concept against GLM OCR output for the source PDFs (`reference-docs/{vim-1993,vim-2007}-ocr/glm-ocr.md` — and likewise for VIM 2010/2012). Cross-edition supersession:
 
 - `supersedes` source `urn:oiml:pub:v:2:1984` → VIM 1984 (1st edition; stub only — 70 minimal concept files referenced by VIM 1993)
 - `supersedes` source `urn:oiml:pub:v:2:1993` → VIM 1993 (VIM 2007 and VIM 2010 both link here, since VIM 2010 is the corrected print of the same edition as VIM 2007)
