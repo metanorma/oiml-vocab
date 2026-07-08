@@ -9,7 +9,7 @@ data:
         source: OIML D 30:2008
     locality:
       type: clause
-      reference_from: '3'
+      reference_from: '3.1'
     type: authoritative
   domains:
   - concept_id: section-D030
@@ -28,8 +28,8 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '- G.3-1 systematic examination and testing of the performance of one
-      or (VIML 2.5) more specimens of an identified type of measuring instrument against
+  - content: 'systematic examination and testing of the performance of one
+      or more specimens of an identified type of measuring instrument against
       documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved'
   examples: []
@@ -38,10 +38,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 30:2008
-      locality:
-        type: clause
-        reference_from: '3'
+        source: OIML V 1:2000
     type: authoritative
   terms:
   - type: expression

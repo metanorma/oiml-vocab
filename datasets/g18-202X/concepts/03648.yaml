@@ -23,10 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'procedure that corrects a deviation of the pressure reading to 0.0 kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg)) (VIM 3.11)'
+  - content: 'procedure that corrects a deviation of the pressure reading to 0.0 kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg))'
   id: 03648-eng
   language_code: eng
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '3.11'
   terms:
   - type: expression
     normative_status: preferred

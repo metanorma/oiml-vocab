@@ -23,12 +23,18 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'operating condition prescribed for evaluating the performance of a measuring instrument or measuring system or for comparison of measurement results (VIM 4.11)'
+  - content: 'operating condition prescribed for evaluating the performance of a measuring instrument or measuring system or for comparison of measurement results'
   id: 03433-eng
   language_code: eng
   notes:
   - content: 'Reference operating conditions specify intervals of values of the measurand and of the influence quantities.'
-  sources: []
+  sources:
+  - type: authoritative
+    status: identical
+    origin:
+      ref:
+        source: 'OIML V 2-200:2012'
+        id: '4.11'
   terms:
   - type: expression
     normative_status: preferred
