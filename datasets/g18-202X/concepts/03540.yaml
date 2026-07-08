@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'property of measuring instrument, whereby its metrological properties remain constant in time (OIML V 2-100, 4.19)'
+  - content: 'property of measuring instrument, whereby its metrological properties remain constant in time'
+    sources:
+      - type: authoritative
+        status: identical
+        origin:
+          ref:
+            source: 'OIML V 2-100'
+            id: '4.19'
   id: 03540-eng
   language_code: eng
   sources: []
