@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'quotient of change in an indication of measuring system and the corresponding change in a value of quantity being measured (OIML V 2-200, 4.12)'
+  - content: 'quotient of change in an indication of measuring system and the corresponding change in a value of quantity being measured'
+    sources:
+      - type: authoritative
+        status: identical
+        origin:
+          ref:
+            source: 'OIML V 2-200'
+            id: '4.12'
   id: 03488-eng
   language_code: eng
   notes:

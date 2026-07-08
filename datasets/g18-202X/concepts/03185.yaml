@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'attribute of a part of a measuring instrument, device or software subject to legal control (OIML V 1, 4.08)'
+  - content: 'attribute of a part of a measuring instrument, device or software subject to legal control'
+    sources:
+      - type: authoritative
+        status: identical
+        origin:
+          ref:
+            source: 'OIML V 1'
+            id: '4.08'
   id: 03185-eng
   language_code: eng
   sources: []
