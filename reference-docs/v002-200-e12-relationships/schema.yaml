@@ -1,0 +1,212 @@
+# =============================================================================
+# Concept-relationship diagram schema — VIM 2012 (OIML V 2:2012) — version 2
+# =============================================================================
+# Each file under reference-docs/v002-200-e12-relationships/image-NN.yaml
+# describes the nodes and edges depicted in ONE diagram image
+# (reference-docs/v002-200-e12-relationships-images/image-NN.png).
+#
+# This file is BOTH documentation AND a valid example. To seed a new diagram
+# file, copy this file and edit the values; the format will parse correctly.
+#
+# This schema is INDEPENDENT from the glossarist per-concept YAML files.
+# We do NOT modify the per-concept `related` array. All diagram-derived
+# relationships live in these files so that:
+#   - provenance (image source, page, model, time) is preserved per file
+#   - the new `partitive_plural` hyperedge (type d) can be stored without
+#     contaminating individual concept files — see rationale below
+#   - cross-edition / cross-diagram comparison is straightforward
+#
+# -----------------------------------------------------------------------------
+# Editor workflow
+# -----------------------------------------------------------------------------
+#   1. Open this file alongside the source PNG (split-screen view).
+#   2. For each relationship, compare it to the diagram. Set `status`:
+#        draft       — not yet reviewed (default on extraction)
+#        confirmed   — you verified it matches the diagram
+#        corrected   — you fixed it (record what you changed in `note:`)
+#        rejected    — wrong; should be ignored (leave a `note:`)
+#   3. Add missing edges that the extractor didn't catch. Manually-added
+#      edges default to `status: confirmed` since a human verified them.
+#   4. When the whole file is done, flip `editor_status`:
+#        draft → in_review → reviewed → confirmed
+#      Add your initials to `reviewers:` when you start.
+#
+# -----------------------------------------------------------------------------
+# Conventions
+# -----------------------------------------------------------------------------
+# Node ids:
+#   'N.M'      (e.g. '1.1', '2.11') — in-dataset concept. Quote in YAML so
+#                                       the parser treats it as a string,
+#                                       not a float. Resolves against
+#                                       `dataset_urn`.
+#   ext_<slug>                       — external concept shown in "(...)" on
+#                                       the diagram. Slug = designation
+#                                       lowercased, non-alphanumerics → '_'.
+#                                       Deterministic so the same external
+#                                       concept gets the same id across files.
+#
+# List ellipsis:
+#   Trailing `...` in a narrower/parts list = "{...}" or continued line on
+#   the diagram (one or more unlisted children/parts). Example:
+#     narrower: ['2.11', '2.10', '2.12', ...]
+#   Means "2.11, 2.10, 2.12, plus others not enumerated on the diagram."
+#
+# `runs:` annotation (from multi-run extraction):
+#   List of run numbers (1-indexed) that produced this edge.
+#     runs: [1, 2]   — both runs caught this edge (high confidence)
+#     runs: [1]      — only run 1 caught it (lower confidence; verify)
+#   Omitted when only a single run was performed.
+#
+# `markers:` (partitive_plural only):
+#   [double]            — close-set double line at receiver (plurality)
+#   [dashed]            — broken/dashed line (plurality is uncertain)
+#   [double, dashed]    — both
+#
+# `type_conflict:` (multi-run merge only):
+#   Emitted when runs disagreed on the relationship TYPE for the same edge
+#   (e.g. one said hierarchical, the other said partitive_plural). The
+#   primary type is the most common; alternatives listed under
+#   `alternatives:`. Editor must resolve: keep one, reject the others.
+#
+# =============================================================================
+# Schema fields (top level)
+# =============================================================================
+schema_version:  '2'                  # required. Currently '2'.
+diagram_type:    concept_relationship_diagram   # required, constant.
+dataset_urn:     urn:oiml:pub:v:2:2012  # required. URN of the dataset.
+
+source_image:    reference-docs/v002-200-e12-relationships-images/image-01.png
+source_page:     1                     # 1-based page in source_pdf.
+source_pdf:      reference-docs/v002-200-e12-relationships.pdf
+
+# --- Extraction provenance --------------------------------------------
+extracted_by:    glm-5v-turbo          # model name.
+extracted_at:    2026-07-07T17:09:00+00:00  # ISO 8601 UTC timestamp.
+extraction_runs: 2                     # number of GLM runs merged.
+
+# --- Editor state -----------------------------------------------------
+editor_status:   draft                 # draft | in_review | reviewed | confirmed
+reviewers:       []                    # reviewer initials, e.g. ['RT'].
+
+# --- Nodes (flat map: id → designation) -------------------------------
+# `ext_<slug>` = external (shown in parens). All other ids = in-dataset
+# concepts (resolve against dataset_urn). Designations stored WITHOUT
+# surrounding parens; the id prefix already signals external.
+nodes:
+  ext_kind_of_property: kind of property
+  ext_property: property
+  ext_reference: reference
+  '1.1':  quantity
+  '1.2':  kind of quantity
+  '1.19': quantity value
+  '1.20': numerical quantity value
+  '1.27': quantity-value scale
+  '1.30': nominal property
+  '2.10': measured quantity value
+  '2.11': true quantity value
+  '2.12': conventional quantity value
+
+# =============================================================================
+# Relationships (grouped by type)
+# =============================================================================
+# Each group is a list of edges. Every edge accepts these optional fields:
+#   status: draft | confirmed | corrected | rejected   (default: draft)
+#   note:   free-form text
+#   runs:   list of run numbers that produced this edge (omitted if 1 run)
+#   reviewer: initials
+#   reviewed_at: ISO date
+#
+# Edges from multi-run extraction include `runs: [1, 2]` etc. so editors
+# can see at a glance which edges have multi-run agreement.
+relationships:
+
+  # ---------------------------------------------------------------------------
+  # (a) Associative — arrowed line, bidirectional "related to".
+  #     Compact form: just the two endpoints.
+  # ---------------------------------------------------------------------------
+  associative:
+    - [ext_kind_of_property, ext_property]
+    - [ext_property, '1.2']
+    - ['1.2', '1.1']
+    - ['1.19', '1.1']
+    - ['1.27', '1.1']
+    # Add per-edge extras by switching to map form:
+    # - members: ['1.3', '1.7']
+    #   status: confirmed
+    #   note: "Diagram clearly shows arrowed line"
+
+  # ---------------------------------------------------------------------------
+  # (b) Hierierarchical — straight line. broader (parent) → narrower (children).
+  #     The end where multiple lines converge into a single point is the
+  #     broader concept.
+  #     Trailing `...` in narrower = "{...}" / continued line on diagram.
+  # ---------------------------------------------------------------------------
+  hierarchical:
+    - broader: ext_property
+      narrower: ['1.30', '1.1']
+    - broader: '1.19'
+      narrower: ['2.11', '2.10', '2.12', ...]
+      status: confirmed
+      note: "Ellipsis shown on diagram after 2.12"
+      runs: [1, 2]
+
+  # ---------------------------------------------------------------------------
+  # (c) Partitive — bracket rake: comprehensive (whole) → parts.
+  #     Lines turn 90 degrees forming a rake. The HEAD (backline) is the
+  #     comprehensive; the teeth are the parts.
+  #     Trailing `...` in parts = continued backline without a tooth.
+  # ---------------------------------------------------------------------------
+  partitive:
+    - comprehensive: '1.27'
+      parts: ['1.19']
+      status: confirmed
+      note: "User-verified: 1.27 quantity-value scale is partitive parent of 1.19"
+    - comprehensive: '1.9'
+      parts: ['1.20']
+
+  # ---------------------------------------------------------------------------
+  # (d) Partitive-plural — bracket rake WITH close-set double line at the
+  #     receiver and/or dashed line. INDEPENDENT HYPEREDGE.
+  #
+  #     Why independent (cannot live inside a single concept's `related`):
+  #       A close-set double line means several partitive concepts of a
+  #       given type are involved. A dashed line means that plurality is
+  #       uncertain. The relationship is only meaningful as a COMPLETE
+  #       GROUP: comprehensive concept + ALL partitive children (named +
+  #       unnamed). Missing any child breaks the relationship, so it
+  #       cannot be stored as a binary edge inside either the parent's or
+  #       any single child's `related` array. It must be an independent
+  #       object that names the comprehensive concept, the listed parts,
+  #       and explicitly acknowledges unlisted others.
+  #
+  #     markers: [double]         — close-set double line at receiver
+  #     markers: [dashed]         — broken/dashed line
+  #     markers: [double, dashed] — both
+  # ---------------------------------------------------------------------------
+  partitive_plural:
+    - comprehensive: '1.19'
+      parts: [ext_reference, '1.20', ...]
+      markers: [double]
+      status: draft
+      note: "Verify marker: diagram may show dashed rather than solid double-line"
+    - comprehensive: '1.3'
+      parts: ['1.7', '1.22']
+      markers: [double, dashed]
+
+  # ---------------------------------------------------------------------------
+  # Type conflict (only emitted when multi-run merge disagrees on type)
+  # ---------------------------------------------------------------------------
+  # Example: run 1 said hierarchical, run 2 said partitive_plural for the
+  # same edge. Primary type is the most common; rest listed as alternatives.
+  #
+  # - broader: '1.19'
+  #   narrower: ['2.11', '2.10', '2.12']
+  #   runs: [1, 2]
+  #   status: draft
+  #   type_conflict: true
+  #   alternatives:
+  #     - type: partitive_plural
+  #       comprehensive: '1.19'
+  #       parts: ['2.11', '2.10', '2.12', ...]
+  #       markers: [double]
+  # ============================================================================

@@ -1,0 +1,159 @@
+---
+# Concept-relationship diagram — VIM 2012 (OIML V 2:2012)
+# Source: reference-docs/v002-200-e12-relationships-images/image-01.png
+# Extracted by glm-5v-turbo (2/2 runs succeeded)
+# Review: set `status` per edge (draft → confirmed | corrected | rejected).
+# Schema: reference-docs/v002-200-e12-relationships/schema.yaml
+
+schema_version:  '2'
+diagram_type:    concept_relationship_diagram
+dataset_urn:     urn:oiml:pub:v:2:2012
+source_image:    reference-docs/v002-200-e12-relationships-images/image-01.png
+source_page:     1
+source_pdf:      reference-docs/v002-200-e12-relationships.pdf
+
+extracted_by:    glm-5v-turbo
+extracted_at:    "2026-07-07T11:59:36Z"
+extraction_runs: 2   # 2 succeeded
+editor_status:   draft   # draft | in_review | reviewed | confirmed
+reviewers:       []
+
+# Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
+nodes:
+  ext_kind_of_property: kind of property
+  ext_property: property
+  ext_quantity_expressed_by_a_measurement_unit: quantity expressed by a measurement unit
+  ext_reference: reference
+  '1.1': quantity
+  '1.19': quantity value
+  '1.2': kind of quantity
+  '1.20': numerical quantity value
+  '1.21': quantity calculus
+  '1.22': quantity equation
+  '1.23': unit equation
+  '1.25': numerical value equation
+  '1.26': ordinal quantity
+  '1.27': quantity-value scale
+  '1.28': ordinal quantity-value scale
+  '1.29': conventional reference scale
+  '1.3': system of quantities
+  '1.30': nominal property
+  '1.4': base quantity
+  '1.5': derived quantity
+  '1.6': International System of Quantities
+  '1.7': quantity dimension
+  '1.8': quantity of dimension one
+  '1.9': measurement unit
+  '2.10': measured quantity value
+  '2.11': true quantity value
+  '2.12': conventional quantity value
+  '2.6': measurement procedure
+  '5.1': measurement standard
+
+relationships:
+  # (a) Associative — arrowed line, bidirectional.
+  #     Compact form: [a, b].
+  associative:
+  - members: ['1.1', '1.19']
+    runs: [1, 2]
+  - members: ['1.2', '1.1']
+    runs: [1, 2]
+  - members: ['1.25', '1.20']
+    runs: [1, 2]
+  - members: [ext_quantity_expressed_by_a_measurement_unit, '1.21']
+    runs: [1, 2]
+  - members: ['1.25', '1.22']
+    runs: [1, 2]
+  - members: ['1.26', '2.6']
+    runs: [1, 2]
+  - members: ['2.6', '1.28']
+    runs: [1, 2]
+  - members: ['1.4', '1.5']
+    runs: [1, 2]
+  - members: [ext_kind_of_property, ext_property]
+    runs: [1, 2]
+  - members: ['1.1', '1.27']
+    runs: [1]
+  - members: [ext_property, '1.2']
+    runs: [2]
+  - members: ['1.20', '1.23']
+    runs: [2]
+  - members: ['2.6', '1.29']
+    runs: [1]
+  - members: ['1.3', '1.7']
+    runs: [1]
+  - members: ['1.6', '1.7']
+    runs: [2]
+
+  # (b) Hierarchical — straight line: broader → narrower.
+  #     Trailing `...` in narrower = unlisted others on diagram.
+  hierarchical:
+  - broader: '1.1'
+    narrower: ['1.26']
+    runs: [1]
+  - broader: '1.1'
+    narrower: ['1.27', '1.26', ext_quantity_expressed_by_a_measurement_unit]
+    runs: [2]
+  - broader: '1.1'
+    narrower: [ext_quantity_expressed_by_a_measurement_unit]
+    runs: [1]
+  - broader: '1.19'
+    narrower: ['2.11', '2.10', '2.12', ...]
+    runs: [2]
+  - broader: '1.27'
+    narrower: ['1.28', '1.29']
+    runs: [2]
+  - broader: '1.9'
+    narrower: ['5.1', ext_reference, '1.23']
+    runs: [2]
+  - broader: ext_property
+    narrower: ['1.30', '1.1']
+    runs: [2]
+  - broader: ext_property
+    narrower: ['1.2']
+    runs: [1]
+  - broader: ext_property
+    narrower: ['1.30']
+    runs: [1]
+  - broader: ext_reference
+    narrower: ['1.20']
+    runs: [1]
+  - broader: ext_reference
+    narrower: ['5.1']
+    runs: [1]
+
+  # (c) Partitive — bracket rake: comprehensive → parts.
+  partitive:
+  - comprehensive: '1.6'
+    parts: [...]
+    runs: [1, 2]
+  - comprehensive: '1.19'
+    parts: ['2.11', '2.10', '2.12', ...]
+    runs: [1]
+  - comprehensive: '1.21'
+    parts: ['1.8', ...]
+    runs: [1]
+  - comprehensive: '1.27'
+    parts: ['1.28', '1.29', ...]
+    runs: [1]
+  - comprehensive: '1.8'
+    parts: [...]
+    runs: [2]
+  - comprehensive: '1.9'
+    parts: ['1.7', '1.22', '1.23', '1.20']
+    runs: [1]
+  - comprehensive: ext_quantity_expressed_by_a_measurement_unit
+    parts: ['1.8', '1.9', ...]
+    runs: [2]
+
+  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
+  #     INDEPENDENT HYPEREDGE — see schema.
+  partitive_plural:
+  - comprehensive: '1.22'
+    parts: ['1.3', '1.6', '1.7']
+    markers: [double]
+    runs: [1]
+  - comprehensive: '1.3'
+    parts: ['1.7', '1.4', '1.5', '1.6']
+    markers: [double]
+    runs: [2]

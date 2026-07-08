@@ -1,0 +1,143 @@
+---
+# Concept-relationship diagram — VIM 2012 (OIML V 2:2012)
+# Source: reference-docs/v002-200-e12-relationships-images/image-07.png
+# Extracted by glm-5v-turbo (2/2 runs succeeded)
+# Review: set `status` per edge (draft → confirmed | corrected | rejected).
+# Schema: reference-docs/v002-200-e12-relationships/schema.yaml
+
+schema_version:  '2'
+diagram_type:    concept_relationship_diagram
+dataset_urn:     urn:oiml:pub:v:2:2012
+source_image:    reference-docs/v002-200-e12-relationships-images/image-07.png
+source_page:     7
+source_pdf:      reference-docs/v002-200-e12-relationships.pdf
+
+extracted_by:    glm-5v-turbo
+extracted_at:    "2026-07-07T12:11:02Z"
+extraction_runs: 2   # 2 succeeded
+editor_status:   draft   # draft | in_review | reviewed | confirmed
+reviewers:       []
+
+# Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
+nodes:
+  ext_evaluation_d_une_composante_de_l_incertitude_de_mesure: évaluation d'une composante de l'incertitude de mesure
+  '1.19': valeur d'une grandeur
+  '2.10': valeur mesurée (voir Fig.A.4
+  '2.11': valeur vraie
+  '2.12': valeur conventionnelle
+  '2.26': incertitude de mesure
+  '2.27': incertitude définitionnelle
+  '2.28': évaluation de type A de l'incertitude
+  '2.29': évaluation de type B de l'incertitude
+  '2.3': mesurande
+  '2.30': incertitude-type
+  '2.31': incertitude-type composée
+  '2.32': incertitude-type relative
+  '2.33': bilan d'incertitude
+  '2.34': incertitude clé
+  '2.35': incertitude élargie
+  '2.36': intervalle élargi
+  '2.37': probabilité de couverture
+  '2.38': facteur d'élargissement
+  '2.48': modèle de mesure
+  '2.49': fonction de mesure
+  '2.9': résultat de mesure
+  '4.24': incertitude instrumentale
+  '5.18': valeur de référence
+
+relationships:
+  # (a) Associative — arrowed line, bidirectional.
+  #     Compact form: [a, b].
+  associative:
+  - members: ['1.19', '2.12']
+    runs: [1, 2]
+  - members: ['2.9', '1.19']
+    runs: [1, 2]
+  - members: ['1.19', '5.18']
+    runs: [1, 2]
+  - members: ['2.28', '2.10']
+    runs: [1, 2]
+  - members: ['2.32', '2.10']
+    runs: [1, 2]
+  - members: ['2.11', '2.36']
+    runs: [1, 2]
+  - members: ['2.26', '2.33']
+    runs: [1, 2]
+  - members: ['2.9', '2.26']
+    runs: [1, 2]
+  - members: [ext_evaluation_d_une_composante_de_l_incertitude_de_mesure, '2.26']
+    runs: [1, 2]
+  - members: ['2.3', '2.27']
+    runs: [1, 2]
+  - members: ['2.3', '2.48']
+    runs: [1, 2]
+  - members: ['2.31', '2.35']
+    runs: [1, 2]
+  - members: ['2.48', '2.31']
+    runs: [1, 2]
+  - members: ['2.38', '2.36']
+    runs: [1, 2]
+  - members: ['2.49', '2.48']
+    runs: [1, 2]
+  - members: ['1.19', '2.11']
+    runs: [1]
+  - members: ['2.10', '2.29']
+    runs: [2]
+  - members: ['2.34', '2.10']
+    runs: [2]
+  - members: ['2.11', '2.3']
+    runs: [2]
+  - members: ['2.11', '2.37']
+    runs: [1]
+  - members: ['2.26', '2.30']
+    runs: [1]
+  - members: ['2.26', '2.32']
+    runs: [1]
+  - members: ['2.26', '2.34']
+    runs: [1]
+  - members: ['2.26', '2.35']
+    runs: [1]
+  - members: ['2.29', '2.28']
+    runs: [1]
+  - members: ['2.29', ext_evaluation_d_une_composante_de_l_incertitude_de_mesure]
+    runs: [1]
+  - members: ['2.31', '2.30']
+    runs: [2]
+  - members: ['2.35', '2.30']
+    runs: [2]
+  - members: ['2.31', '2.32']
+    runs: [2]
+  - members: ['2.31', '2.34']
+    runs: [2]
+  - members: ['2.38', '2.31']
+    runs: [1]
+  - members: ['2.36', '2.37']
+    runs: [2]
+
+  # (b) Hierarchical — straight line: broader → narrower.
+  #     Trailing `...` in narrower = unlisted others on diagram.
+  hierarchical:
+  - broader: '2.26'
+    narrower: ['2.32', '2.34', '2.35', '2.30', ...]
+    runs: [2]
+  - broader: '2.30'
+    narrower: ['2.31', ...]
+    runs: [2]
+
+  # (c) Partitive — bracket rake: comprehensive → parts.
+  partitive:
+  - comprehensive: '2.30'
+    parts: ['2.31', ...]
+    runs: [1]
+
+  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
+  #     INDEPENDENT HYPEREDGE — see schema.
+  partitive_plural:
+  - comprehensive: '2.26'
+    parts: ['2.27', '4.24', ...]
+    markers: [dashed]
+    runs: [1, 2]
+  - comprehensive: '2.36'
+    parts: ['2.11']
+    markers: [double]
+    runs: [2]
