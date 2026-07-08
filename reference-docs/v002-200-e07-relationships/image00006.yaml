@@ -1,0 +1,121 @@
+---
+# Concept-relationship diagram — VIM 2007 (OIML V 2:2007 — International Vocabulary of Metrology)
+# Source: reference-docs/v002-200-e07-relationships-images/image00006.png
+# Extracted by glm-5v-turbo (2/2 runs succeeded)
+# Review: set `status` per edge (draft → confirmed | corrected | rejected).
+# Schema: reference-docs/v002-200-e12-relationships/schema.yaml
+
+schema_version:  '2'
+diagram_type:    concept_relationship_diagram
+dataset_urn:     urn:oiml:pub:v:2:2007
+source_image:    reference-docs/v002-200-e07-relationships-images/image00006.png
+source_page:     6
+source_pdf:      reference-docs/v002-200-e07.pdf
+
+extracted_by:    glm-5v-turbo
+extracted_at:    "2026-07-08T13:02:38Z"
+extraction_runs: 2   # 2 succeeded
+editor_status:   draft   # draft | in_review | reviewed | confirmed
+reviewers:       []
+
+# Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
+nodes:
+  ext_evaluation_of_measurement_uncertainty_component: evaluation of measurement uncertainty component
+  '1.19': quantity value
+  '2.10': measured quantity value (see Fig. A.4
+  '2.11': true quantity value
+  '2.12': conventional quantity value
+  '2.26': measurement uncertainty
+  '2.27': definitional uncertainty
+  '2.28': type A evaluation of measurement uncertainty
+  '2.29': type B evaluation of measurement uncertainty
+  '2.3': measurand
+  '2.30': standard measurement uncertainty
+  '2.31': combined standard measurement uncertainty
+  '2.32': relative standard measurement uncertainty
+  '2.33': uncertainty budget
+  '2.34': target measurement uncertainty
+  '2.35': expanded measurement uncertainty
+  '2.36': coverage interval
+  '2.37': coverage probability
+  '2.38': coverage factor
+  '2.48': measurement model
+  '2.49': measurement function
+  '2.9': measurement result
+  '5.18': reference quantity value
+
+relationships:
+  # (a) Associative — arrowed line, bidirectional.
+  #     Compact form: [a, b].
+  associative:
+  - members: ['2.10', '2.28']
+    runs: [1, 2]
+  - members: ['2.3', '2.11']
+    runs: [1, 2]
+  - members: ['2.26', '2.33']
+    runs: [1, 2]
+  - members: ['2.26', '5.18']
+    runs: [1, 2]
+  - members: ['2.26', ext_evaluation_of_measurement_uncertainty_component]
+    runs: [1, 2]
+  - members: ['2.3', '2.27']
+    runs: [1, 2]
+  - members: ['2.35', '2.31']
+    runs: [1, 2]
+  - members: ['2.31', '2.48']
+    runs: [1, 2]
+  - members: ['2.35', '2.38']
+    runs: [1, 2]
+  - members: ['2.36', '2.37']
+    runs: [1, 2]
+  - members: ['2.38', '2.36']
+    runs: [1, 2]
+  - members: ['2.48', '2.49']
+    runs: [1, 2]
+  - members: ['2.10', '2.29']
+    runs: [1]
+  - members: ['2.9', '2.10']
+    runs: [2]
+  - members: ['2.9', '2.26']
+    runs: [2]
+  - members: ['2.28', ext_evaluation_of_measurement_uncertainty_component]
+    runs: [2]
+  - members: ['2.29', ext_evaluation_of_measurement_uncertainty_component]
+    runs: [2]
+
+  # (b) Hierarchical — straight line: broader → narrower.
+  #     Trailing `...` in narrower = unlisted others on diagram.
+  hierarchical:
+  - broader: '2.26'
+    narrower: ['2.32', '2.34', '2.35', '2.30', '2.27']
+    runs: [1, 2]
+  - broader: '2.30'
+    narrower: ['2.31', ...]
+    runs: [1, 2]
+  - broader: '1.19'
+    narrower: ['5.18', '2.12', '2.10', '2.9']
+    runs: [2]
+  - broader: '1.19'
+    narrower: ['2.10', '5.18', '2.12']
+    runs: [1]
+
+  # (c) Partitive — bracket rake: comprehensive → parts.
+  partitive:
+  - comprehensive: '2.9'
+    parts: ['2.10']
+    runs: [1]
+  - comprehensive: ext_evaluation_of_measurement_uncertainty_component
+    parts: ['2.29', '2.28']
+    runs: [1]
+
+  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
+  #     INDEPENDENT HYPEREDGE — see schema.
+  partitive_plural:
+  - comprehensive: '2.36'
+    parts: ['2.11']
+    markers: [double]
+    runs: [1]
+  - comprehensive: '2.36'
+    parts: ['2.37', '2.11']
+    markers: [double]
+    runs: [2]

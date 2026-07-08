@@ -40,10 +40,11 @@ require "time"
 require "yaml"
 
 REPO_ROOT      = Pathname.new(File.expand_path("..", __dir__))
-IMAGES_DIR     = REPO_ROOT + "reference-docs/v002-200-e12-relationships-images"
-OUT_DIR        = REPO_ROOT + "reference-docs/v002-200-e12-relationships"
-SOURCE_PDF     = "reference-docs/v002-200-e12-relationships.pdf"
-SOURCE_DOC_URN = "urn:oiml:pub:v:2:2012"
+DEFAULT_IMAGES_DIR     = REPO_ROOT + "reference-docs/v002-200-e12-relationships-images"
+DEFAULT_OUT_DIR        = REPO_ROOT + "reference-docs/v002-200-e12-relationships"
+DEFAULT_SOURCE_PDF     = "reference-docs/v002-200-e12-relationships.pdf"
+DEFAULT_SOURCE_DOC_URN = "urn:oiml:pub:v:2:2012"
+DEFAULT_DATASET_LABEL  = "VIM 2012 (OIML V 2:2012 — International Vocabulary of Metrology)"
 API_ENDPOINT   = URI("https://api.z.ai/api/paas/v4/chat/completions")
 DEFAULT_MODEL  = ENV.fetch("GLM_VISION_MODEL", "glm-5v-turbo")
 VALID_TYPES    = %w[associative hierarchical partitive partitive_plural].freeze
@@ -152,18 +153,21 @@ def read_api_key
 end
 
 def page_number_for(image_path)
-  m = image_path.basename.to_s.match(/\Aimage-(\d+)\.png\z/i)
+  basename = image_path.basename.to_s
+  # Match both image-01.png (hyphen-separated) and image00001.png (zero-padded).
+  m = basename.match(/\Aimage[-_]?0*(\d+)\.png\z/i)
   m ? m[1].to_i : nil
 end
 
-def build_request_body(image_path, model)
+def build_request_body(image_path, model, dataset_label = DEFAULT_DATASET_LABEL)
   b64 = Base64.strict_encode64(image_path.binread)
+  prompt = PROMPT.gsub(DEFAULT_DATASET_LABEL, dataset_label)
   {
     "model" => model,
     "messages" => [{
       "role" => "user",
       "content" => [
-        { "type" => "text",      "text" => PROMPT },
+        { "type" => "text",      "text" => prompt },
         { "type" => "image_url",
           "image_url" => { "url" => "data:image/png;base64,#{b64}" } }
       ]
@@ -182,7 +186,7 @@ rescue JSON::ParserError => e
   raise "GLM returned non-JSON content (#{e.message}): #{content[0, 500]}"
 end
 
-def call_glm_vision(api_key, image_path, model)
+def call_glm_vision(api_key, image_path, model, dataset_label = DEFAULT_DATASET_LABEL)
   http = Net::HTTP.new(API_ENDPOINT.host, API_ENDPOINT.port).tap do |h|
     h.use_ssl     = true
     h.read_timeout = 600
@@ -191,7 +195,7 @@ def call_glm_vision(api_key, image_path, model)
   req = Net::HTTP::Post.new(API_ENDPOINT.request_uri,
     "Authorization" => "Bearer #{api_key}",
     "Content-Type"  => "application/json")
-  req.body = JSON.generate(build_request_body(image_path, model))
+  req.body = JSON.generate(build_request_body(image_path, model, dataset_label))
   res = http.request(req)
   unless res.is_a?(Net::HTTPSuccess)
     raise "HTTP #{res.code}: #{res.body[0, 500]}"
@@ -265,14 +269,14 @@ end
 # Multi-run execution (N parallel threads)
 # ============================================================================
 
-def extract_runs_parallel(api_key, image_path, model, n_runs, raw_basename_dir)
+def extract_runs_parallel(api_key, image_path, model, n_runs, raw_basename_dir, dataset_label)
   runs = Array.new(n_runs)
   threads = n_runs.times.map do |i|
     run_num = i + 1
     Thread.new do
       Thread.current.abort_on_exception = false
       begin
-        data = call_glm_vision(api_key, image_path, model)
+        data = call_glm_vision(api_key, image_path, model, dataset_label)
         validate!(data)
         runs[i] = data
         if raw_basename_dir
@@ -476,26 +480,29 @@ def emit_partitive_plural(edge, always_runs: false)
   emit_partitive(edge, always_runs: always_runs)
 end
 
-def emit_v2(io, merged, image_path, page, model, n_runs)
+def emit_v2(io, merged, image_path, page, options)
   basename = image_path.basename
-  rel_path = "reference-docs/v002-200-e12-relationships-images/#{basename}"
+  # Resolve images_dir to a path relative to repo root for the embedded path.
+  abs_images = options[:images_dir].absolute? ? options[:images_dir] : (REPO_ROOT + options[:images_dir].to_s)
+  rel_to_root = abs_images.expand_path.relative_path_from(REPO_ROOT)
+  rel_path = "#{rel_to_root}/#{basename}"
   always_runs = merged[:n_runs] > 1
 
   io.puts "---"
-  io.puts "# Concept-relationship diagram — VIM 2012 (OIML V 2:2012)"
+  io.puts "# Concept-relationship diagram — #{options[:dataset_label]}"
   io.puts "# Source: #{rel_path}"
-  io.puts "# Extracted by #{model} (#{merged[:n_valid]}/#{merged[:n_runs]} runs succeeded)"
+  io.puts "# Extracted by #{options[:model]} (#{merged[:n_valid]}/#{merged[:n_runs]} runs succeeded)"
   io.puts "# Review: set `status` per edge (draft → confirmed | corrected | rejected)."
   io.puts "# Schema: reference-docs/v002-200-e12-relationships/schema.yaml"
   io.puts ""
   io.puts "schema_version:  '2'"
   io.puts "diagram_type:    concept_relationship_diagram"
-  io.puts "dataset_urn:     #{SOURCE_DOC_URN}"
+  io.puts "dataset_urn:     #{options[:dataset_urn]}"
   io.puts "source_image:    #{rel_path}"
   io.puts "source_page:     #{page}"
-  io.puts "source_pdf:      #{SOURCE_PDF}"
+  io.puts "source_pdf:      #{options[:source_pdf]}"
   io.puts ""
-  io.puts "extracted_by:    #{model}"
+  io.puts "extracted_by:    #{options[:model]}"
   io.puts "extracted_at:    \"#{Time.now.utc.iso8601}\""
   io.puts "extraction_runs: #{merged[:n_runs]}   # #{merged[:n_valid]} succeeded"
   io.puts "editor_status:   draft   # draft | in_review | reviewed | confirmed"
@@ -568,29 +575,47 @@ end
 
 options = {
   model:         DEFAULT_MODEL,
+  images_dir:    DEFAULT_IMAGES_DIR,
+  out_dir:       DEFAULT_OUT_DIR,
+  source_pdf:    DEFAULT_SOURCE_PDF,
+  dataset_urn:   DEFAULT_SOURCE_DOC_URN,
+  dataset_label: DEFAULT_DATASET_LABEL,
   dry_run:       false,
   only:          nil,
   skip_existing: false,
   save_raw:      false,
-  out_dir:       OUT_DIR,
   runs:          1
 }
 OptionParser.new do |opts|
   opts.banner = "Usage: extract_vim_2012_relationships.rb [options]"
-  opts.on("--image=N",        "Process only image N (e.g. --image=01)")   { |v| options[:only] = v }
-  opts.on("--model=NAME",     "GLM vision model name")                    { |v| options[:model] = v }
-  opts.on("--runs=N",         "Run N times per image (parallel) and merge") { |v| options[:runs] = v.to_i }
-  opts.on("--dry-run",        "Don't write output files")                 { options[:dry_run] = true }
-  opts.on("--skip-existing",  "Skip images that already have output")     { options[:skip_existing] = true }
-  opts.on("--save-raw",       "Save per-run raw GLM JSON")                { options[:save_raw] = true }
-  opts.on("--out-dir=PATH",   "Output directory")                         { |v| options[:out_dir] = Pathname.new(v) }
+  opts.on("--image=N",        "Process only image N (e.g. --image=01 or --image=00001)") { |v| options[:only] = v }
+  opts.on("--model=NAME",     "GLM vision model name")                                  { |v| options[:model] = v }
+  opts.on("--runs=N",         "Run N times per image (parallel) and merge")             { |v| options[:runs] = v.to_i }
+  opts.on("--dry-run",        "Don't write output files")                               { options[:dry_run] = true }
+  opts.on("--skip-existing",  "Skip images that already have output")                   { options[:skip_existing] = true }
+  opts.on("--save-raw",       "Save per-run raw GLM JSON")                              { options[:save_raw] = true }
+  opts.on("--images-dir=PATH",   "Directory of input PNG images (default: e12)")         { |v| options[:images_dir] = Pathname.new(v) }
+  opts.on("--out-dir=PATH",     "Output directory for YAML files (default: e12)")        { |v| options[:out_dir] = Pathname.new(v) }
+  opts.on("--source-pdf=PATH",  "Path to source PDF for provenance (default: e12)")      { |v| options[:source_pdf] = v }
+  opts.on("--dataset-urn=URN",  "URN of the dataset (default: urn:oiml:pub:v:2:2012)") { |v| options[:dataset_urn] = v }
+  opts.on("--dataset-label=LBL","Label for the dataset shown in the prompt and header") { |v| options[:dataset_label] = v }
 end.parse!
 
 options[:runs] = 1 if options[:runs] < 1
 
-images = Pathname.glob((IMAGES_DIR + "image-*.png").to_s).sort
-images.select! { |p| p.basename.to_s == "image-#{options[:only]}.png" } if options[:only]
-abort "No matching images found in #{IMAGES_DIR}" if images.empty?
+# Glob any image*.png; filter to concept-diagram naming convention (handles
+# both image-01.png and image00001.png).
+images = Pathname.glob((options[:images_dir] + "image*.png").to_s).sort
+images.select! { |p| p.basename.to_s.match?(/\Aimage[-_]?0*\d+\.png\z/i) }
+if options[:only]
+  only_digits = options[:only].to_i.to_s
+  images.select! do |p|
+    stem = p.basename.to_s.sub(/\.png\z/i, "")
+    digits = stem.sub(/\Aimage[-_]?0*/, "")
+    digits.to_i == only_digits.to_i
+  end
+end
+abort "No matching images found in #{options[:images_dir]}" if images.empty?
 
 api_key = read_api_key
 FileUtils.mkdir_p(options[:out_dir]) unless options[:dry_run]
@@ -608,7 +633,7 @@ images.each do |image_path|
   warn "Processing #{image_path.basename} (page #{page}) model=#{options[:model]} runs=#{options[:runs]}"
   begin
     raw_dir = options[:save_raw] && !options[:dry_run] ? options[:out_dir] : nil
-    runs = extract_runs_parallel(api_key, image_path, options[:model], options[:runs], raw_dir)
+    runs = extract_runs_parallel(api_key, image_path, options[:model], options[:runs], raw_dir, options[:dataset_label])
     merged = merge_runs(runs)
 
     if options[:dry_run]
@@ -619,7 +644,7 @@ images.each do |image_path|
            "pp=#{merged[:by_type]['partitive_plural'].size}"
     else
       io = StringIO.new
-      emit_v2(io, merged, image_path, page, options[:model], options[:runs])
+      emit_v2(io, merged, image_path, page, options)
       out_yaml.write(io.string)
       warn "  Wrote #{out_yaml} (nodes=#{merged[:nodes].size}, " \
            "total rels=#{merged[:by_type].values.sum(&:size)})"

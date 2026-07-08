@@ -1,0 +1,113 @@
+---
+# Concept-relationship diagram — VIM 2007 (OIML V 2:2007 — International Vocabulary of Metrology)
+# Source: reference-docs/v002-200-e07-relationships-images/image00009.png
+# Extracted by glm-5v-turbo (2/2 runs succeeded)
+# Review: set `status` per edge (draft → confirmed | corrected | rejected).
+# Schema: reference-docs/v002-200-e12-relationships/schema.yaml
+
+schema_version:  '2'
+diagram_type:    concept_relationship_diagram
+dataset_urn:     urn:oiml:pub:v:2:2007
+source_image:    reference-docs/v002-200-e07-relationships-images/image00009.png
+source_page:     9
+source_pdf:      reference-docs/v002-200-e07.pdf
+
+extracted_by:    glm-5v-turbo
+extracted_at:    "2026-07-08T13:06:55Z"
+extraction_runs: 2   # 2 succeeded
+editor_status:   draft   # draft | in_review | reviewed | confirmed
+reviewers:       []
+
+# Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
+nodes:
+  ext_element_of_a_measuring_system: element of a measuring system
+  ext_measuring_device: measuring device
+  ext_output_element_of_a_measuring_system: output element of a measuring system
+  ext_signal: signal
+  '2.1': measurement
+  '2.10': measured quantity value
+  '3.1': measuring instrument
+  '3.10': measuring chain
+  '3.11': adjustment of a measuring system
+  '3.12': zero adjustment of a measuring system
+  '3.2': measuring system
+  '3.3': indicating measuring instrument
+  '3.4': displaying measuring instrument
+  '3.5': scale of a displaying measuring instrument
+  '3.6': material measure
+  '3.7': measuring transducer
+  '3.8': sensor
+  '3.9': detector
+  '4.1': indication
+  '5.9': transfer device
+
+relationships:
+  # (a) Associative — arrowed line, bidirectional.
+  #     Compact form: [a, b].
+  associative:
+  - members: ['3.1', '2.1']
+    runs: [1, 2]
+  - members: ['3.2', '2.10']
+    runs: [1, 2]
+  - members: ['3.1', '4.1']
+    runs: [1, 2]
+  - members: ['3.8', '3.10']
+    runs: [1, 2]
+  - members: ['3.10', ext_signal]
+    runs: [1, 2]
+  - members: ['3.2', '3.11']
+    runs: [1]
+  - members: ['4.1', '3.11']
+    runs: [2]
+  - members: ['3.2', '4.1']
+    runs: [1]
+  - members: [ext_output_element_of_a_measuring_system, '3.2']
+    runs: [2]
+
+  # (b) Hierarchical — straight line: broader → narrower.
+  #     Trailing `...` in narrower = unlisted others on diagram.
+  hierarchical:
+  - broader: '3.1'
+    narrower: ['3.3', '3.6', ...]
+    runs: [1, 2]
+  - broader: '3.11'
+    narrower: ['3.12', ...]
+    runs: [1, 2]
+  - broader: '3.3'
+    narrower: ['3.4', ...]
+    runs: [1, 2]
+  - broader: ext_element_of_a_measuring_system
+    narrower: ['3.8', ...]
+    runs: [2]
+  - broader: ext_measuring_device
+    narrower: ['3.7', '3.9', '5.9', '3.1', ...]
+    runs: [1]
+  - broader: ext_measuring_device
+    narrower: ['3.7', '3.9', '5.9', ...]
+    runs: [2]
+
+  # (c) Partitive — bracket rake: comprehensive → parts.
+  partitive:
+  - comprehensive: '3.4'
+    parts: ['3.5']
+    runs: [1, 2]
+
+  # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
+  #     INDEPENDENT HYPEREDGE — see schema.
+  partitive_plural:
+  - comprehensive: '3.10'
+    parts: [ext_output_element_of_a_measuring_system]
+    markers: [double, dashed]
+    runs: [2]
+  - comprehensive: '3.2'
+    parts: [ext_element_of_a_measuring_system, '3.8', '3.10', ext_output_element_of_a_measuring_system]
+    markers: [double, dashed]
+    runs: [1]
+  - comprehensive: '3.2'
+    parts: [ext_element_of_a_measuring_system]
+    markers: [double, dashed]
+    runs: [2]
+  - comprehensive: ext_measuring_device
+    parts: ['3.1']
+    markers: [double, dashed]
+    runs: [2]
