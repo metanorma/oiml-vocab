@@ -1,7 +1,7 @@
 id: viml
 domain: oimlsmart.github.io/vocab
-uriBase: https://oimlsmart.github.io/vocab
-basePath: /vocab/
+uri_base: https://oimlsmart.github.io/vocab
+base_path: /vocab/
 title: OIML Vocabularies
 subtitle: International Vocabularies of Metrology
 description: Terminology from the International Vocabularies of Metrology published
@@ -11,66 +11,66 @@ translations:
     subtitle: Vocabulaires internationaux de métrologie
     description: Terminologie des Vocabulaires internationaux de métrologie publiés
       par l'OIML
-uiLanguages:
+ui_languages:
 - code: eng
   label: English
 - code: fra
   label: Français
 datasets:
 - id: viml-2022
-  localPath: datasets/viml-2022
+  local_path: datasets/viml-2022
   color:
     light: '#004996'
     dark: '#3B82F6'
 - id: viml-2013
-  localPath: datasets/viml-2013
+  local_path: datasets/viml-2013
   color:
     light: '#6B7280'
     dark: '#9CA3AF'
 - id: viml-2000
-  localPath: datasets/viml-2000
+  local_path: datasets/viml-2000
   color:
     light: '#9CA3AF'
     dark: '#B0BEC5'
 - id: viml-1968
-  localPath: datasets/viml-1968
+  local_path: datasets/viml-1968
   color:
     light: '#D1D5DB'
     dark: '#E5E7EB'
 - id: vim-2012
-  localPath: datasets/vim-2012
+  local_path: datasets/vim-2012
   color:
     light: '#005A9C'
     dark: '#2196F3'
 - id: vim-2010
-  localPath: datasets/vim-2010
+  local_path: datasets/vim-2010
   color:
     light: '#7C93A8'
     dark: '#94A8B8'
 - id: vim-2007
-  localPath: datasets/vim-2007
+  local_path: datasets/vim-2007
   color:
     light: '#94A8B8'
     dark: '#B0BEC5'
 - id: vim-1993
-  localPath: datasets/vim-1993
+  local_path: datasets/vim-1993
   color:
     light: '#B0BEC5'
     dark: '#CFD8DC'
 - id: vim-1984-cor-1987
-  localPath: datasets/vim-1984-cor-1987
+  local_path: datasets/vim-1984-cor-1987
   color:
     light: '#C5CFD5'
     dark: '#D7E0E5'
 - id: vim-1984
-  localPath: datasets/vim-1984
+  local_path: datasets/vim-1984
   color:
     light: '#D8E0E5'
     dark: '#E8EEF1'
 routing: []
 branding:
-  primaryColor: '#004996'
-  darkColor: '#003366'
+  primary_color: '#004996'
+  dark_color: '#003366'
   fonts:
     header:
       family: Source Serif 4
@@ -88,18 +88,18 @@ branding:
   logo:
     path: /logos/oiml-logo.svg
     alt: OIML
-    localPath: logos/oiml-logo.svg
-    localLight: logos/oiml-logo-icon-light.svg
-    localDark: logos/oiml-logo-icon-dark.svg
-  ownerName: OIML
-  ownerUrl: https://www.oiml.org
+    local_path: logos/oiml-logo.svg
+    local_light: logos/oiml-logo-icon-light.svg
+    local_dark: logos/oiml-logo-icon-dark.svg
+  owner_name: OIML
+  owner_url: https://www.oiml.org
 features:
   news: false
   stats: true
   graph: true
   about: true
   search: true
-  poweredBy:
+  powered_by:
     title: Glossarist
     url: https://glossarist.org
 pages:
@@ -114,7 +114,7 @@ pages:
       source: about-fra.md
 defaults:
   language: eng
-datasetTranslations:
+dataset_translations:
   viml-2022:
     fra:
       description: Édition actuelle comprenant 135 termes répartis en 8 sections couvrant la métrologie de base, les aspects juridiques, les activités, les documents et marques, la classification des instruments, la construction et le fonctionnement, les logiciels et l'évaluation de conformité.
@@ -146,7 +146,7 @@ datasetTranslations:
     fra:
       description: Première édition du VIM (publiée conjointement par le BIPM, la CEI, l'ISO et l'OIML). 138 concepts répartis en 6 chapitres. Remplacée par le corrigendum V 2:1984/Cor.1:1987 puis par l'édition 1993.
 copyright: OIML
-datasetGroups:
+dataset_groups:
 - id: viml
   label: VIML — International Vocabulary of Legal Metrology
   kind: lineage
