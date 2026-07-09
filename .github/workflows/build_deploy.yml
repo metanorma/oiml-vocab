@@ -38,12 +38,11 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install concept-browser
         run: |
-          # Replace file: dependencies with npm registry versions
-          npm install --ignore-scripts @glossarist/concept-browser@^0.7.51 --save --omit=dev
+          npm install --ignore-scripts @glossarist/concept-browser --save --omit=dev
           npm install --prefix node_modules/@glossarist/concept-browser sharp 2>/dev/null || true
 
       - name: Build site
