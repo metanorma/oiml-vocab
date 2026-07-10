@@ -15,8 +15,8 @@ source_pdf:      reference-docs/v002-200-e07.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-08T13:06:55Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
@@ -63,7 +63,7 @@ relationships:
     runs: [1]
   - members: [ext_output_element_of_a_measuring_system, '3.2']
     runs: [2]
-
+  - members: [ext_output_element_of_a_measuring_system, '3.10']
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
   hierarchical:
@@ -80,11 +80,8 @@ relationships:
     narrower: ['3.8', ...]
     runs: [2]
   - broader: ext_measuring_device
-    narrower: ['3.7', '3.9', '5.9', '3.1', ...]
+    narrower: ['3.7', '3.9', '5.9', '3.1']
     runs: [1]
-  - broader: ext_measuring_device
-    narrower: ['3.7', '3.9', '5.9', ...]
-    runs: [2]
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive:
@@ -100,14 +97,10 @@ relationships:
     markers: [double, dashed]
     runs: [2]
   - comprehensive: '3.2'
-    parts: [ext_element_of_a_measuring_system, '3.8', '3.10', ext_output_element_of_a_measuring_system]
+    parts: [ext_element_of_a_measuring_system]
     markers: [double, dashed]
     runs: [1]
   - comprehensive: '3.2'
-    parts: [ext_element_of_a_measuring_system]
-    markers: [double, dashed]
-    runs: [2]
-  - comprehensive: ext_measuring_device
-    parts: ['3.1']
+    parts: ['3.1', ext_measuring_device]
     markers: [double, dashed]
     runs: [2]

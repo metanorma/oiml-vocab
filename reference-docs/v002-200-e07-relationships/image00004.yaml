@@ -15,8 +15,8 @@ source_pdf:      reference-docs/v002-200-e07.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-08T12:58:59Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
@@ -49,19 +49,9 @@ relationships:
   associative:
   - members: ['1.1', '1.19']
     runs: [1, 2]
-  - members: ['2.3', '1.1']
-    runs: [1, 2]
-  - members: ['1.19', '2.10']
-    runs: [1, 2]
-  - members: ['1.19', '2.12']
-    runs: [1, 2]
-  - members: ['1.19', '2.14']
-    runs: [1, 2]
   - members: ['1.19', '2.26']
     runs: [1, 2]
   - members: ['1.19', '4.1']
-    runs: [1, 2]
-  - members: ['1.19', '5.18']
     runs: [1, 2]
   - members: ['3.1', '2.1']
     runs: [1, 2]
@@ -81,10 +71,15 @@ relationships:
     runs: [1, 2]
   - members: ['3.2', '4.1']
     runs: [1, 2]
-  - members: ['1.19', '2.15']
-    runs: [2]
   - members: ['2.11', '2.13']
     runs: [2]
+  - members: ['2.18', '2.17']
+  - members: ['2.3', '2.26']
+  - members: ['2.1', '2.15']
+  - members: ['2.15', '2.10']
+  - members: ['2.10', '2.14']
+  - members: ['2.14', '5.18']
+
 
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
@@ -92,12 +87,11 @@ relationships:
   - broader: '1.1'
     narrower: ['2.3', ...]
     runs: [2]
-  - broader: '2.16'
-    narrower: ['2.14']
-    runs: [2]
   - broader: '2.17'
     narrower: ['2.18']
     runs: [2]
+  - broader: '1.19'
+    narrower: ['2.12', '5.18', '2.10', '2.11']
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive:
@@ -107,11 +101,8 @@ relationships:
   - comprehensive: '2.9'
     parts: [ext_other_information, '2.26', '2.10']
     runs: [1, 2]
-
+  - comprehensive: '2.10'
+    parts: ['5.18', '2.16']
   # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
   #     INDEPENDENT HYPEREDGE — see schema.
-  partitive_plural:
-  - comprehensive: '1.19'
-    parts: ['2.15']
-    markers: [double]
-    runs: [1]
+  partitive_plural: []
