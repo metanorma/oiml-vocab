@@ -3,6 +3,14 @@ data:
   identifier: '01434'
   localized_concepts:
     eng: 393eb113-7966-5106-95e7-47169dc7cd8e
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+    locality:
+      type: clause
+      reference_from: 2.4.6
+    type: authoritative
   domains:
   - concept_id: section-misc
     ref_type: section
@@ -18,7 +26,14 @@ data:
   - content: 'class of pressure balances that meet certain metrological requirements intended to keep errors within specified limits'
   id: 01434-eng
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+      locality:
+        type: clause
+        reference_from: 2.4.6
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
