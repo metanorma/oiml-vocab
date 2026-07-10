@@ -75,6 +75,16 @@ relationships:
     narrower: ['1.9', ...]
   - broader: '1.5'
     narrower: ['1.10', '1.11']
+  - broader: '1.3'
+    narrower: ['1.6', ...]
+  - broader: '1.13'
+    narrower: ['1.16', ext_cgs_system_of_units]
+  - broader: '1.13'
+    narrower: ['1.14', ...]
+  - broader: '1.9'
+    narrower: ['1.15', ext_in_system_measurement_unit]
+  - broader: '1.9'
+    narrower: ['1.17', '1.18']
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive: []
@@ -83,14 +93,10 @@ relationships:
   #     INDEPENDENT HYPEREDGE — see schema.
   partitive_plural:
   - comprehensive: '1.13'
-    parts: ['1.16', '1.14', ext_cgs_system_of_units, ...]
+    parts: ['1.17', '1.18', '1.10', '1.11', ext_rule_for_use_of_measurement_units]
     markers: [double]
     runs: [1]
   - comprehensive: '1.3'
-    parts: ['1.4', '1.5', '1.22', '1.6', ...]
+    parts: ['1.4', '1.5', '1.22']
     markers: [double, dashed]
-    runs: [1]
-  - comprehensive: '1.9'
-    parts: ['1.15', ext_in_system_measurement_unit, '1.17', '1.18']
-    markers: [dashed]
     runs: [1]
