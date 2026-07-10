@@ -15,8 +15,8 @@ source_pdf:      reference-docs/v002-200-e07.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-08T12:56:39Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
@@ -60,8 +60,6 @@ relationships:
     runs: [1, 2]
   - members: ['2.10', '2.26']
     runs: [1, 2]
-  - members: ['2.3', '2.26']
-    runs: [1, 2]
   - members: ['2.47', '2.26']
     runs: [1, 2]
   - members: ['2.9', '2.46']
@@ -74,49 +72,35 @@ relationships:
     runs: [1]
   - members: ['2.9', '2.1']
     runs: [1]
-  - members: ['2.9', '2.10']
-    runs: [2]
   - members: ['2.47', '2.3']
-    runs: [2]
-  - members: ['2.3', ext_quantity_being_measured]
-    runs: [2]
-  - members: ['2.4', '2.5']
     runs: [2]
   - members: ['2.48', '2.6']
     runs: [2]
-  - members: ['2.9', '2.48']
-    runs: [2]
-  - members: ['2.5', '2.6']
-    runs: [2]
   - members: ['2.6', '2.9']
     runs: [2]
+  - members: ['2.4', '2.6']
+  - members: ['2.5', '2.6']
 
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
-  hierarchical: []
+  hierarchical:
+  - broader: '1.1'
+    narrower: ['2.3', ext_quantity_being_measured, ...]
+  - broader: '2.6'
+    narrower: ['2.7', ...]
+  - broader: '2.7'
+    narrower: ['2.8', ...]
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive:
-  - comprehensive: '2.3'
-    parts: ['1.1', ...]
-    runs: [2]
-  - comprehensive: '2.3'
-    parts: ['1.1', ext_quantity_being_measured, ...]
-    runs: [1]
-  - comprehensive: '2.6'
-    parts: ['2.7', ...]
-    runs: [2]
-  - comprehensive: '2.6'
-    parts: ['2.7', '2.8', ...]
-    runs: [1]
-  - comprehensive: '2.7'
-    parts: ['2.8', ...]
+  - comprehensive: '2.9'
+    parts: [ext_other_information, '2.10', '2.26']
     runs: [2]
 
   # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
   #     INDEPENDENT HYPEREDGE — see schema.
   partitive_plural:
   - comprehensive: '2.9'
-    parts: ['1.19', ext_other_information, '2.10']
+    parts: ['1.19']
     markers: [dashed]
     runs: [1, 2]
