@@ -23,7 +23,46 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'Output signal per unit mass of the sample component of interest in the carrier gas. It is expressed in either one of the two following ways: 3.13.1 With a concentration-dependent detector, the instrument sensitivity, S, is expressed as: A · mL · g-1, or V · mL · g-1, and by the equation: S = P · F/ M where: P = the peak area, F = the carrier gas flow rate, M = the mass of the sample in the carrier gas. With the units: A = amperes, mL = millilitres, g = grams, V = volts. 3.13.2 With a mass flow rate dependent detector, the instrument sensitivity, S, is expressed in: A · s · g-1, or V · s · g-1, and by the equation: S = P/ M where the symbols have the same definitions as in 3.13.1, with the additional unit of: s = seconds.'
+  - content: |-
+      Output signal per unit mass of the sample component of interest in the carrier gas. It is expressed in either one of the two following ways:
+
+      3.13.1 With a concentration-dependent detector, the instrument sensitivity, S, is expressed as:
+
+      stem:[A cdot "mL" cdot g^{-1}], or
+
+      stem:[V cdot "mL" cdot g^{-1}], and by the equation:
+
+      stem:[S = P cdot F / M]
+
+      where:
+
+      stem:[P] = the peak area,
+
+      stem:[F] = the carrier gas flow rate,
+
+      stem:[M] = the mass of the sample in the carrier gas.
+
+      With the units:
+
+      stem:["A"] = amperes,
+
+      stem:["mL"] = millilitres,
+
+      stem:["g"] = grams,
+
+      stem:["V"] = volts.
+
+      3.13.2 With a mass flow rate dependent detector, the instrument sensitivity, S, is expressed in:
+
+      stem:[A cdot s cdot g^{-1}], or
+
+      stem:[V cdot s cdot g^{-1}], and by the equation:
+
+      stem:[S = P / M]
+
+      where the symbols have the same definitions as in 3.13.1, with the additional unit of:
+
+      stem:[s] = seconds.
   id: 01057-eng
   language_code: eng
   notes:

@@ -23,9 +23,12 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'an inadequate prepackage found to contain an actual quantity less than
-      the nominal quantity minus twice the tolerable deficiency for a nominal quantity
-      allowed in 4.2.3 is called a T2 error. T2 error: actual contents < (Qn - T2)'
+  - content: |
+      an inadequate prepackage found to contain an actual quantity less than the
+      nominal quantity minus twice the tolerable deficiency for a nominal
+      quantity allowed in 4.2.3 is called a stem:[T_{2}] error.
+
+      stem:[T_{2}] error: stem:[actual contents < (Q_{n} - T_{2})]
   examples: []
   id: 01113-eng
   notes: []
@@ -40,11 +43,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: T2 error
-  - type: symbol
-    normative_status: preferred
-    designation: stem:[T_{2}]
-    international: true
+    designation: stem:[T_{2}] error
   language_code: eng
   entry_status: valid
 date_accepted: '2024-01-01T00:00:00+00:00'

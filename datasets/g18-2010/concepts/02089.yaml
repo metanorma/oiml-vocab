@@ -22,21 +22,33 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'weighted combination of errors of a meter or a metering module. When
-      the specified measuring range of a The WME is used to adjust the error curve
-      as close as possible meter to zero known The WME is calculated as follows: small
-      measu recom adjus range accor where: - n greater than or equal to 6 being the
-      number of measurements i performed at different flowrates Qi; - ki being the
-      weighting factors; - Ei being the error at the flowrate Qi. For each flowrate,
-      ki = Qi/Qmax, except for Qi = Qmax for which the weighting factor is equal to
-      0.4.'
+  - content: |
+      weighted combination of errors of a meter or a metering module.
+      The WME is used to adjust the error curve as close as possible
+      to zero
+
+      The WME is calculated as follows:
+
+      stem:[WME = (sum_{i=1}^{n} k_{i} xx E_{i}}) / (sum_{i=1}^{n} k_{i})]
+
+      where:
+
+      * n greater than or equal to 6 being the number of measurements stem:[i] performed at different flowrates stem:[Q_{i}];
+      * stem:[k_{i}] being the weighting factors;
+      * stem:[E_{i}] being the error at the flowrate stem:[Q_{i}].
+
+      For each flowrate, stem:[k_{i} = Q_{i}/Q_{max}], except for stem:[Q_{i} = Q_{max}] for which the weighting factor is equal to 0.4.
+
   examples: []
   id: 02089-eng
   notes:
-  - content: ing module including only one meter is beforehand and when this range
-      is er than the maximum specified ring range of the meter, it is mended to determine
-      the WME and t the meter over the actual operating only and update the markings
-      dingly.
+  - content: |
+      When the specified measuring range of a metering module including only one
+      meter is known beforehand and when this range is smaller than the maximum
+      specified measuring range of the meter, it is recommended to determine the
+      WME and adjust the meter over the actual operating range only and update
+      the markings accordingly.
+
   sources:
   - origin:
       ref:

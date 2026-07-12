@@ -22,9 +22,15 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'the weighted mean error (WME) is calculated as follows: where: • Qi/Qmax
-      is a weighting factor; • ei is the error at the flowrate Qi; • at Qi > 0.9·Qmax
-      a weighting factor of 0.4 shall be used instead of 1.'
+  - content: |
+      the weighted mean error (WME) is calculated as follows: where:
+
+      * stem:[Q_{i}]/stem:[Q_{max}] is a weighting factor;
+
+      * stem:[e_{i}] is the error at the flowrate stem:[Q_{i}];
+
+      * at stem:[Q_{i}] > 0.9 stem:[Q_{max}] a weighting factor of 0.4 shall be
+      used instead of 1.'
   examples: []
   id: 01944-eng
   notes: []
