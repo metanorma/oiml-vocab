@@ -23,7 +23,10 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'range between the maximum load of the measuring range Dmax and minimum load of the measuring range Dmin load cell measuring range = (Dmax - Dmin)'
+  - content: |-
+      range between the maximum load of the measuring range stem:[D_{max}] and minimum load of the measuring range stem:[D_{min}]
+
+      load cell measuring range = (stem:[D_{max}] - stem:[D_{min}])
   id: 03202-eng
   language_code: eng
   sources: []

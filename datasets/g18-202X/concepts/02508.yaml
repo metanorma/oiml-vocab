@@ -23,7 +23,12 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'The factor calculated using the Student’s t inverse cumulative distribution function (tp, n-1) with p as the probability equivalent to 0.005 and (n–1) as the degrees of freedom, and a finite population correction factor (N–n)/(N–1) with n as the sample size and N as the inspection lot size'
+  - content: |-
+      The factor calculated using
+
+      the Student’s t inverse cumulative distribution function (stem:[t_{p, }]stem:[_{n}]stem:[_{-1}]) with p as the probability equivalent to 0.005 and (n–1) as the degrees of freedom, and
+
+      a finite population correction factor (N–n)/(N–1) with n as the sample size and N as the inspection lot size
   id: 02508-eng
   language_code: eng
   notes:

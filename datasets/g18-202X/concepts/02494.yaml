@@ -23,7 +23,12 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'deficiency that is greater than the applicable tolerable deficiency (T) (see 2.1.17) but not greater than twice the applicable tolerable deficiency (2T) for the given nominal quantity T1 error: (Qnom – 2T) ≤ Qi < (Qnom – T) where Qnom is the nominal quantity'
+  - content: |-
+      deficiency that is greater than the applicable tolerable deficiency (T) (see 2.1.17) but not greater than twice the applicable tolerable deficiency (2T) for the given nominal quantity
+
+      stem:[T_{1}] error: (stem:[Q_{nom}] – 2T) ≤ stem:[Q_{i}] < (stem:[Q_{nom}] – T)
+
+      where stem:[Q_{nom}] is the nominal quantity
   id: 02494-eng
   language_code: eng
   notes:
@@ -32,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'T1 error'
+    designation: 'stem:[T_{1}] error'
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

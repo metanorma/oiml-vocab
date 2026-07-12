@@ -23,7 +23,12 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'for a series of n measurements of the same measurand, the quantity s(qk) characterising the dispersion of the results and given by the formula: with: qk being the result of the kth measurement and  beeing the arithmetic mean of the n results considered.'
+  - content: |-
+      for a series of n measurements of the same measurand, the quantity s(stem:[q_{k}]) characterising the dispersion of the results and given by the formula:
+
+      stem:[s  (q_{k}) = sqrt(frac(sum_{j=1}^{n} (q_{j} - bar(q))^{2})(n-1))]
+
+      with: stem:[q_{k}] being the result of the stem:[k^{th}] measurement and stem:[bar(q)] beeing the arithmetic mean of the n results considered.
   id: 03058-eng
   language_code: eng
   sources: []

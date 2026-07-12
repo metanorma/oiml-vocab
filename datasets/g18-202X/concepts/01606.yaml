@@ -23,7 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'concentration of an element which provides an output signal equivalent to three times the standard deviation of the background. It is the minimum quantity of an element that can be detected. For this Recommendation, it may be derived from the statistical variation in the background using the following equation: D = 3 (B/t)1/2/S where: D = detection limit (unit of concentration); B = background (counts per second); t = measurement time (seconds); S = sensitivity (counts per second per unit of concentration).'
+  - content: |-
+      concentration of an element which provides an output signal equivalent to three times the standard deviation of the background. It is the minimum quantity of an element that can be detected. For this Recommendation, it may be derived from the statistical variation in the background using the following equation:
+
+      D = 3 (B/stem:[t)^{1/2}]/S
+
+      where:
+
+      D = detection limit (unit of concentration);
+
+      B = background (counts per second);
+
+      t = measurement time (seconds);
+
+      S = sensitivity (counts per second per unit of concentration).
   id: 01606-eng
   language_code: eng
   notes:

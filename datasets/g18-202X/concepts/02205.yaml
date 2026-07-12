@@ -23,21 +23,31 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'realization of the definition of a given quantity, with stated quantity value and associated measurement uncertainty, used as a reference'
-    sources:
-    - type: authoritative
-      status: identical
-      origin:
-        ref:
-          source: 'OIML V 2-200:2012'
-          id: '5.1'
+  - content: |-
+      realization of the definition of a given quantity, with stated quantity value and associated measurement uncertainty, used as a reference
+
+      [VIM 5.1]
+
+      Examples:
+
+      1 kg mass measurement standard with an associated standard measurement uncertainty of 3 μg.
+
+      100 Ω measurement standard resistor with an associated standard measurement uncertainty of 1 μΩ.
+
+      Cesium frequency standard with a relative standard measurement uncertainty of 2 xx stem:[10^{−}]stem:[^{15}].
+
+      Standard buffer solution with a pH of 7.072 with an associated standard measurement uncertainty of 0.006.
+
+      Set of reference solutions of cortisol in human serum having a certified quantity value with measurement uncertainty for each solution.
+
+      Reference material providing quantity values with measurement uncertainties for the mass concentration of each of ten different proteins.
   id: 02205-eng
   language_code: eng
   examples:
   - content: |-
       1 kg mass measurement standard with an associated standard measurement uncertainty of 3 μg.
       100 Ω measurement standard resistor with an associated standard measurement uncertainty of 1 μΩ.
-      Cesium frequency standard with a relative standard measurement uncertainty of 2 × 10⁻¹⁵.
+      Cesium frequency standard with a relative standard measurement uncertainty of 2 xx 10⁻¹⁵.
       Standard buffer solution with a pH of 7.072 with an associated standard measurement uncertainty of 0.006.
       Set of reference solutions of cortisol in human serum having a certified quantity value with measurement uncertainty for each solution.
       Reference material providing quantity values with measurement uncertainties for the mass concentration of each of ten different proteins.

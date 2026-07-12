@@ -23,7 +23,22 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'weighted combination of errors of a meter or a metering module. The WME is used to adjust the error curve as close as possible to zero The WME is calculated as follows: where: n greater than or equal to 6 being the number of measurements i performed at different flowrates Qi; ki being the weighting factors; Ei being the error at the flowrate Qi. For each flowrate, ki = Qi/Qmax, except for Qi = Qmax for which the weighting factor is equal to 0.4.'
+  - content: |-
+      weighted combination of errors of a meter or a metering module. The WME is used to adjust the error curve as close as possible to zero
+
+      The WME is calculated as follows:
+
+      where:
+
+      n greater than or equal to 6 being the number of measurements
+
+      i performed at different flowrates stem:[Q_{i}];
+
+      stem:[k_{i}] being the weighting factors;
+
+      stem:[E_{i}] being the error at the flowrate stem:[Q_{i}].
+
+      For each flowrate, stem:[k_{i }]= stem:[Q_{i}]/stem:[Q_{max}], except for stem:[Q_{i}] = stem:[Q_{max}] for which the weighting factor is equal to 0.4.
   id: 02089-eng
   language_code: eng
   notes:

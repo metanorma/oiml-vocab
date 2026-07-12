@@ -23,7 +23,20 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'where: Vtrue  is the conventional true value of the leather area, and is the mean of the measurements, i.e. where: I is the leather measurement indication; and n is the number of measurements.'
+  - content: |-
+      where:
+
+      stem:[V_{true }] is the conventional true value of the leather area, and
+
+      stem:[bar(chi)] is the mean of the measurements, i.e.
+
+      stem:[bar(frac(sum_{i rm(=1})^{n} I_{i})(n))]
+
+      where:
+
+      I is the leather measurement indication; and
+
+      n is the number of measurements.
   id: 01911-eng
   language_code: eng
   sources: []
