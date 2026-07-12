@@ -8,7 +8,7 @@ data:
         source: OIML R 137-1:2006
     locality:
       type: clause
-      reference_from: 2.1.10 T
+      reference_from: '2.1.10'
     type: authoritative
   domains:
   - concept_id: section-R137-1
@@ -22,10 +22,16 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'd c b a device intended to perform a particular function, directly involved
-      in elaborating, transmitting or displaying measurement results. he main ancillary
-      devices are: ) repeating indicating device; ) printing device; ) memory device;
-      and ) communication device'
+  - content: |-
+      device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying measurement results.
+
+      The main ancillary devices are:
+
+      . repeating indicating device
+      . printing device
+      . memory device
+      . communication device
   examples: []
   id: 01933-eng
   notes:
@@ -37,7 +43,7 @@ data:
         source: OIML R 137-1:2006
       locality:
         type: clause
-        reference_from: 2.1.10 T
+        reference_from: '2.1.10'
     type: authoritative
   terms:
   - type: expression

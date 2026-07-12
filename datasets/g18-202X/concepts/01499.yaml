@@ -23,7 +23,28 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'the output signal of a detector per unit mass of eluted sample components of interest and is either one of the following categories: 3.12.1 Concentration-dependent detector Expressed in A · mL · g–1 or V · mL · g–1, and by the equation: where S = sensitivity P = the integrated peak area (A · s or V · s) F = the carrier gas flow rate (mL · s–1) M = mass of the sample in the carrier gas (g) 3.12.2 Mass-flow-rate-dependent detector Expressed in A · s · g–1 or V · s · g–1, and by the equation: where the symbols are the same as those defined in 3.12.1.'
+  - content: |-
+      the output signal of a detector per unit mass of eluted sample components of interest and is either one of the following categories:
+
+      3.12.1 Concentration-dependent detector
+
+      Expressed in stem:[A cdot mL cdot g^{-1}] or stem:[V cdot mL cdot g^{-1}], and by the equation:
+
+      where
+
+      stem:[S] = sensitivity
+
+      stem:[P] = the integrated peak area (stem:[A cdot s] or stem:[V cdot s])
+
+      stem:[F] = the carrier gas flow rate (stem:["mL" cdot s^{-1}])
+
+      stem:[M] = mass of the sample in the carrier gas (g)
+
+      3.12.2 Mass-flow-rate-dependent detector
+
+      Expressed in stem:[A cdot s cdot g^{-1}] or stem:[V cdot s cdot g^{-1}], and by the equation:
+
+      where the symbols are the same as those defined in 3.12.1.
   id: 01499-eng
   language_code: eng
   sources: []

@@ -22,15 +22,23 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'a fault greater than the absolute value of the maximum permissible error
-      for the minimum quantity. The following faults are not considered to be significant,
-      even when they exceed the value defined above: (a) faults arising from simultaneous
-      and mutually independent causes in the measuring instrument itself or in its
-      checking facilities; (b) faults implying the impossibility to perform any measurement;
-      (c) transitory faults being momentary variations in the indication, which cannot
-      be interpreted, memorized or transmitted as a measurement result; and (d) faults
-      giving rise to variations in the measurement result which are so serious that
-      they are bound to be noticed by all those interested in the measurement result.'
+  - content: |
+      a fault greater than the absolute value of the maximum permissible error
+      for the minimum quantity. The following faults are not considered to be
+      significant, even when they exceed the value defined above:
+
+      (a) faults arising from simultaneous and mutually independent causes in
+      the measuring instrument itself or in its checking facilities;
+
+      (b) faults implying the impossibility to perform any measurement;
+
+      (c) transitory faults being momentary variations in the indication, which
+      cannot be interpreted, memorized or transmitted as a measurement result;
+      and
+
+      (d) faults giving rise to variations in the measurement result which are
+      so serious that they are bound to be noticed by all those interested in
+      the measurement result.
   examples: []
   id: 01645-eng
   notes: []

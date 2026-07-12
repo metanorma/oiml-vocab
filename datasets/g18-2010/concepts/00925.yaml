@@ -22,13 +22,19 @@ data:
   - date: '2024-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: '- - - - - device for setting the indication to zero when a load is on
-      the load receptor: without altering the weighing range for net loads (additive
-      tare device); or reducing the weighing range for net loads (subtractive tare
-      device). Itmay function as: a non-automatic device (load balanced by an operator);
-      a semi-automatic device (load balanced automatically following a single manual
-      command); or an automatic device (load balanced automatically without the intervention
-      of an operator).'
+  - content: |-
+      device for setting the indication to zero when a load is on the load
+      receptor: without altering the weighing range for net loads (additive
+      tare device); or reducing the weighing range for net loads (subtractive
+      tare device).
+
+      It may function as:
+
+      * a non-automatic device (load balanced by an operator)
+      * a semi-automatic device (load balanced automatically following a single
+      manual command)
+      * an automatic device (load balanced automatically without the intervention
+      of an operator)
   examples: []
   id: 00925-eng
   notes: []

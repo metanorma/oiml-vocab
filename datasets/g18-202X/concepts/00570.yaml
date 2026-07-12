@@ -6,6 +6,14 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:2006
+    locality:
+      type: clause
+      reference_from: 'T.1.7'
+    type: authoritative
 status: valid
 id: a7ff7b6a-b07b-47a3-978a-27dae5c92cbb
 schema_version: '3'
@@ -15,8 +23,15 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'weighing instrument used to determine the conventional true value of the mass of the test load(s). Control instruments used for testing may be: - separate from the instrument being tested; or - integral, when a static weighing mode is provided by the instrument being tested'
-  id: 00570-eng
+  - content: |-
+      weighing instrument used to determine the conventional true value of the
+      mass of the test load(s). Control instruments used for testing may be:
+
+      * separate from the instrument being tested; or
+
+      * integral, when a static weighing mode is provided by the instrument
+      being tested
+    id: 00570-eng
   language_code: eng
   sources: []
   terms:
