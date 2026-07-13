@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d24-1996-f-3.1.8
+  localized_concepts:
+    fra: 347a8f70-3161-5f6f-a5b1-5a8f5ce73f7e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+status: valid
+id: debb60df-9719-5258-82de-d2f009124389
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La température normale de fonctionnement est la température du boîtier
+      du pyromètre à laquelle l'erreur intrinsèque du pyromètre est déterminée. A
+      toute autre température, l'erreur totale du pyromètre est égale à la somme de
+      l'erreur intrinsèque et de l'erreur complémentaire due à la variation de température
+      ambiante.
+  examples: []
+  id: d24-1996-f-3.1.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: température normale de fonctionnement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 347a8f70-3161-5f6f-a5b1-5a8f5ce73f7e
+

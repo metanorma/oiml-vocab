@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r134-2006-e-T.3.7
+  localized_concepts:
+    eng: c909241a-c5cf-5b9f-8ae7-96423616075e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+status: valid
+id: 1dc072e4-7422-5f5d-be11-f6f103f8a472
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Weighing value that is achieved when an automatic operation is ended
+      and the instrument is completely at rest.
+  examples: []
+  id: r134-2006-e-T.3.7-eng
+  notes:
+  - content: This definition is only applicable to static weighing and not to weighing-in-motion.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: final weight value
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c909241a-c5cf-5b9f-8ae7-96423616075e
+

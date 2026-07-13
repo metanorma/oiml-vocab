@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r49-2013-f-3.3.1
+  localized_concepts:
+    eng: eb3f557d-4010-5004-89cd-4a66b18241cc
+    fra: 0d5f502c-1337-5de7-af12-3024f2c218b5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+status: valid
+id: 308c9848-76b5-5173-90d9-b2fb62591746
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Q = dV/dt where V is actual volume and t is time taken for this volume
+      to pass through the meter
+  examples: []
+  id: r49-2013-f-3.3.1-eng
+  notes:
+  - content: ISO 4006:1991 [4] 4.1.2 prefers the use of the symbol qV for this quantity,
+      but Q is used in this Recommendation as it is well established in the industry.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: flow rate
+  - type: symbol
+    normative_status: preferred
+    designation: Q
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eb3f557d-4010-5004-89cd-4a66b18241cc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Q = dV/dt où V est le volume réel et t le temps pris par ce volume pour
+      passer dans le compteur
+  examples: []
+  id: r49-2013-f-3.3.1-fra
+  notes:
+  - content: Dans ISO 4006:1991 [4] 4.1.2 l'usage du symbole qV est préféré pour cette
+      quantité, mais Q est utilisé dans cette recommandation comme il est d'usage
+      dans l'industrie.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit
+  - type: symbol
+    normative_status: preferred
+    designation: Q
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0d5f502c-1337-5de7-af12-3024f2c218b5
+

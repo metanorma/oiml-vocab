@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d5-3.6
+  localized_concepts:
+    eng: b09446fe-0527-51a8-a0d4-3542401c1613
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:5:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+status: valid
+id: 47d85db8-cd07-5954-bd41-f20bebbec91f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sequence of calibrations from a reference to the final measuring system,
+      where the outcome of each calibration depends on the outcome of the previous
+      calibration
+  examples: []
+  id: d5-3.6-eng
+  notes:
+  - content: 'Source citation: VIM 2.40'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration hierarchy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b09446fe-0527-51a8-a0d4-3542401c1613
+

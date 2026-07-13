@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d31-2019-e-3.1.6
+  localized_concepts:
+    eng: fe7420e2-7230-554c-8280-dd60f73eceb9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    type: authoritative
+status: valid
+id: b1c123f2-8cc8-500e-bd13-cdcc2d6d1741
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of an instrument that enables information to be passed between measuring
+      instruments, components of measuring instruments or other external systems
+  examples: []
+  id: d31-2019-e-3.1.6-eng
+  notes:
+  - content: Communication interfaces can be wired, optical, radio, etc. and they
+      are usually designed to use a specific protocol.
+  - content: This definition does not include communication between software parts.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: communication interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fe7420e2-7230-554c-8280-dd60f73eceb9
+

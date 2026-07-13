@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r46-2012-f-2.2.14
+  localized_concepts:
+    eng: 208961b2-9d4b-58bd-a188-e0d42655a26b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.14
+    type: authoritative
+status: valid
+id: aacaee6f-a637-5bf1-9168-167cc9fe458f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ratio of the active power to the apparent power
+  examples: []
+  id: r46-2012-f-2.2.14-eng
+  notes:
+  - content: At sinusoidal and either one-phase or symmetrical three-phase conditions,
+      the power factor = cos Phi = the cosine of the phase difference Phi between
+      voltage U and current I.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: power factor (PF)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 208961b2-9d4b-58bd-a188-e0d42655a26b
+

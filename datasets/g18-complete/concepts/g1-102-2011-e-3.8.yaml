@@ -1,0 +1,65 @@
+---
+data:
+  identifier: g1-102-2011-e-3.8
+  localized_concepts:
+    eng: cb0001c9-fef0-53c2-9ff3-66b14b6f4c12
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+status: valid
+id: 18ea9b09-6af4-562b-9a18-061529140145
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement model in which there is any number of output quantities
+  examples: []
+  id: g1-102-2011-e-3.8-eng
+  notes:
+  - content: The general form of the multivariate measurement model is the equations
+      $ h _ {1} \left(Y _ {1}, \dots , Y _ {m}, X _ {1}, \dots , X _ {N}\right) =
+      0, \quad \dots , \quad h _ {m} \left(Y _ {1}, \dots , Y _ {m}, X _ {1}, \dots
+      , X _ {N}\right) = 0,$ where $ Y_{1},\dots,Y_{m} $ , the output quantities,
+      m in number, in the multivariate measurement model, constitute the measurand,
+      the quantity values of which are to be inferred from information about input
+      quantities $ X_{1},\dots,X_{N} $ in the multivariate measurement model.
+  - content: A vector representation of the general form of multivariate measurement
+      model is $ h (Y, X) = 0,$ where $ \boldsymbol{Y} = (Y_{1},\dots,Y_{m})^{\top}
+      $ and $ \boldsymbol{h} = (h_{1},\dots,h_{m})^{\top} $ are matrices of dimension
+      $ m\times1. $
+  - content: If, in note 1, m, the number of output quantities, is unity, the model
+      is known as a univariate measurement model.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multivariate measurement model
+  - type: expression
+    normative_status: admitted
+    designation: multivariate model
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cb0001c9-fef0-53c2-9ff3-66b14b6f4c12
+

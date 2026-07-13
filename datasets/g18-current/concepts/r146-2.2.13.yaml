@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r146-2.2.13
+  localized_concepts:
+    eng: 1a035b62-d5c3-5d86-88cc-0428ca7d5147
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.13
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.13
+    type: authoritative
+status: valid
+id: f0af3213-a5e1-5609-bb48-d02b7b2947cc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: concentration of protein in a grain sample, expressed as a percentage
+      by mass, calculated at the basis moisture content $ \left(\mathrm{M}_{\mathrm{B}}\right)
+      $
+  examples: []
+  id: r146-2.2.13-eng
+  notes:
+  - content: When the specified $ \mathrm{M_{B}} $ is 0 %, the reported protein content
+      is at 'dry basis' (i.e. $ P_{0\%} $ ).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protein content
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1a035b62-d5c3-5d86-88cc-0428ca7d5147
+

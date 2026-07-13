@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r60-2017-e-3.7.10
+  localized_concepts:
+    eng: 57f02e8a-a904-5162-88a6-dc315a6e5cb2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.10
+    type: authoritative
+status: valid
+id: 25f91110-48bd-5e5c-9527-29eb6ad8b961
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r60-2017-e-3.7.10-eng
+  notes:
+  - content: 'Source citation: VIM 4.26'
+  - content: "(For notes, refer to the VIM [2])."
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error (MPE)
+  - type: abbreviation
+    normative_status: preferred
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 57f02e8a-a904-5162-88a6-dc315a6e5cb2
+

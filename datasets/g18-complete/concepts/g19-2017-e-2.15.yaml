@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g19-2017-e-2.15
+  localized_concepts:
+    eng: 51ae1183-1eb6-5b5a-ba8c-89e4a53fd83f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.15'
+status: valid
+id: 3bd70397-955c-5e9b-94c6-e54820967bc6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: largest value that the measurement uncertainty of the error of indication
+      for a test result can have for which the shared risk approach can be used
+  examples: []
+  id: g19-2017-e-2.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.15'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible uncertainty
+  - type: expression
+    normative_status: admitted
+    designation: MPU $ _{E_{I}} $
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 51ae1183-1eb6-5b5a-ba8c-89e4a53fd83f
+

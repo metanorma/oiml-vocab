@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r134-1-2003-eng-T.3.4.2
+  localized_concepts:
+    eng: f9a77fc6-16e5-5684-bdf5-fcbfce1097cc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+status: valid
+id: 62f7ecc7-d64f-5193-9e8a-f0452799bf32
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Lowest velocity of a vehicle that the instrument is designed to weigh
+      in motion and below which the weighing results may be subject to an excessive
+      relative error.
+  examples: []
+  id: r134-1-2003-eng-T.3.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum operating speed (v_min)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f9a77fc6-16e5-5684-bdf5-fcbfce1097cc
+

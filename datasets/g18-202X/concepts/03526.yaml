@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
 status: valid
 id: 8e9ca122-6421-478f-8244-0eada81ec42d
 schema_version: '3'
@@ -15,17 +24,27 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'computer program written in a form (programming language) that is legible and editable.'
+  - content: computer program written in a form (programming language) that is legible
+      and editable.
   id: 03526-eng
   language_code: eng
   notes:
-  - content: 'Source code is compiled or interpreted into executable code.'
-  sources: []
+  - content: Source code is compiled or interpreted into executable code.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'source code'
+    designation: source code
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 74475047-d74e-5fc3-a796-fd107c032e03
+

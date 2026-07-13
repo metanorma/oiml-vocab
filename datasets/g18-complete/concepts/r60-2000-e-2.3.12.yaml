@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-2000-e-2.3.12
+  localized_concepts:
+    eng: b6e29e98-bba7-5ab5-9e8c-7d27c518030c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.12
+    type: authoritative
+status: valid
+id: 37af1e18-c8c1-5289-84b9-3e3cccb61572
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Number of load cell verification intervals into which the load cell measuring
+      range is divided (n).
+  examples: []
+  id: r60-2000-e-2.3.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Number of load cell verification intervals (n)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b6e29e98-bba7-5ab5-9e8c-7d27c518030c
+

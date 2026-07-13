@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r142-3.3
+  localized_concepts:
+    eng: a6469a03-dd25-591d-90dd-c84a1755eab6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:142:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+status: valid
+id: 64e8656a-d818-5598-a097-2a16edd21f7d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument in which the test sample is supplied to the device manually,
+      the indication being displayed or printed
+  examples: []
+  id: r142-3.3-eng
+  notes:
+  - content: Type II refractometers shall be equipped with an automatic temperature
+      correction device; a primary indicating device; zero-setting and zero-checking
+      devices.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: manual refractometers with automated indication
+  - type: expression
+    normative_status: admitted
+    designation: type II refractometers
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a6469a03-dd25-591d-90dd-c84a1755eab6
+

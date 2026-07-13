@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r82-1989-e-3.12
+  localized_concepts:
+    eng: efc4d6a4-c3a9-59d8-8906-026ead4cc231
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:82:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: 11f0aee5-8ab6-5d75-a83c-6a85ba343712
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of mass flow rate or concentration of the test sample in the
+      carrier gas over which its sensitivity remains constant to within 5 %. It is
+      expressed as the ratio of the upper limit of linearity and the detection limit
+      (see Figure 1).
+  examples: []
+  id: r82-1989-e-3.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linear range of a detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: efc4d6a4-c3a9-59d8-8906-026ead4cc231
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: d25-2010-f-2.2
+  localized_concepts:
+    fra: 237e65ae-de4c-5b35-bf33-7072061c6b33
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:25:2010
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:2010
+        version: '2010'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+status: valid
+id: d24b150d-832f-5944-9084-1460f12867fa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le facteur K, en impulsions par unité de volume, est le rapport du nombre
+      d'impulsions émises par le compteur au volume total correspondant de fluide
+      ayant traversé le compteur pendant la période de mesure.
+  examples: []
+  id: d25-2010-f-2.2-fra
+  notes:
+  - content: Le facteur K est fonction du nombre de Reynolds. Dans le présent Document,
+      toutes les caractéristiques sont données par rapport au nombre de Reynolds.
+      Cependant, en métrologie légale, les caractéristiques sont normalement données
+      en fonction du débit, lequel peut être obtenu à partir du nombre de Reynolds.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:2010
+        version: '2010'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Facteur K
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 237e65ae-de4c-5b35-bf33-7072061c6b33
+

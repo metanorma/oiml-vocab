@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r107-T.4.5.3
+  localized_concepts:
+    eng: 1e80a7e1-602c-52ce-9c8b-0fc6c86b039c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.5.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.5.3
+    type: authoritative
+status: valid
+id: bdb53f3e-78bd-525d-a28b-b578ba66297c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of an instrument, determined under reference conditions.
+  examples: []
+  id: r107-T.4.5.3-eng
+  notes:
+  - content: 'Source citation: VIM: 1993, 5.24'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1e80a7e1-602c-52ce-9c8b-0fc6c86b039c
+

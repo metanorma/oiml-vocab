@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r89-5.3.8
+  localized_concepts:
+    fra: 7e0a9f07-9711-58e9-a26c-f643b7808173
+    eng: 20449003-55c6-5746-9c34-40a603ef3346
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+status: valid
+id: 30384f76-8354-5671-8486-fed646dbddce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La constante de temps de l'électroencéphalographe est définie comme le
+      temps nécessaire pour que l'amplitude d'un signal rectangulaire enregistré diminue
+      jusqu'à 1/e (37 %) de sa valeur initiale.
+  examples: []
+  id: r89-5.3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: constante de temps
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7e0a9f07-9711-58e9-a26c-f643b7808173
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The electroencephalograph time constant is defined as the time interval
+      required for a recorded square-wave signal amplitude to decay to 1/e (37 %)
+      of an initial value.
+  examples: []
+  id: r89-5.3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: time constant
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 20449003-55c6-5746-9c34-40a603ef3346
+

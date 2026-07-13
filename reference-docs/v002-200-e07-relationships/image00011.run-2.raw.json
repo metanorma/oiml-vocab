@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "3.2",
+      "designation": "measuring system",
+      "external": false
+    },
+    {
+      "id": "ext_metrological_property_of_a_measuring_instrument_or_measuring_system__see_Fig__A_10",
+      "designation": "metrological property of a measuring instrument or measuring system, see Fig. A.10",
+      "external": true
+    },
+    {
+      "id": "ext_device",
+      "designation": "device",
+      "external": true
+    },
+    {
+      "id": "3.1",
+      "designation": "measuring instrument",
+      "external": false
+    },
+    {
+      "id": "ext_operating_condition",
+      "designation": "operating condition",
+      "external": true
+    },
+    {
+      "id": "2.39",
+      "designation": "calibration (see Fig. A.7)",
+      "external": false
+    },
+    {
+      "id": "4.8",
+      "designation": "steady state operating condition",
+      "external": false
+    },
+    {
+      "id": "4.9",
+      "designation": "rated operating condition",
+      "external": false
+    },
+    {
+      "id": "4.11",
+      "designation": "reference operating condition",
+      "external": false
+    },
+    {
+      "id": "4.10",
+      "designation": "limiting operating condition",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "3.2",
+        "ext_metrological_property_of_a_measuring_instrument_or_measuring_system__see_Fig__A_10"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "ext_metrological_property_of_a_measuring_instrument_or_measuring_system__see_Fig__A_10"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "partitive_plural",
+      "comprehensive": "3.2",
+      "parts": {
+        "listed": [
+          "ext_device",
+          "3.1"
+        ],
+        "has_unlisted_others": false
+      },
+      "markers": {
+        "double_line": false,
+        "dashed": true
+      }
+    },
+    {
+      "id": "rel-004",
+      "type": "hierarchical",
+      "broader": "ext_metrological_property_of_a_measuring_instrument_or_measuring_system__see_Fig__A_10",
+      "narrower": {
+        "listed": [
+          "ext_operating_condition"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-005",
+      "type": "hierarchical",
+      "broader": "ext_operating_condition",
+      "narrower": {
+        "listed": [
+          "4.8",
+          "4.9",
+          "4.11",
+          "4.10"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "4.8"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "4.9",
+        "4.10"
+      ]
+    }
+  ]
+}

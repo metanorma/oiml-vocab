@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g22-2.3.28
+  localized_concepts:
+    eng: 85ef0470-2b84-5b5f-9c9b-59adef465af8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.28
+    type: authoritative
+status: valid
+id: d4121e53-b144-5f2d-9da9-7475697e7298
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: class of EVSE that meets the stated metrological requirements intended
+      to keep measurement errors or instrumental uncertainties within specified limits
+      under specified operating conditions
+  examples: []
+  id: g22-2.3.28-eng
+  notes:
+  - content: In this Guide, the stated metrological requirements for accuracy class
+      include permissible responses to disturbances.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.28
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy class
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 85ef0470-2b84-5b5f-9c9b-59adef465af8
+

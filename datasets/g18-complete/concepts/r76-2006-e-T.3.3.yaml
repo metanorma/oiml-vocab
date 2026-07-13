@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r76-2006-e-T.3.3
+  localized_concepts:
+    eng: 35be5974-881d-5fe6-9137-9dcbec8a2941
+    fra: 8a488b3e-4096-5135-b930-5c117d35bd63
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+status: valid
+id: 8319dc97-c040-5faa-a74a-d29f1937e336
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The reduction ratio of a load transmitting device is $ R = F_{\mathrm{M}}
+      / F_{\mathrm{L}} $ where $F_{\mathrm{M}}$ is the force acting on the load measuring
+      device, and $F_{\mathrm{L}}$ is the force acting on the load receptor.
+  examples: []
+  id: r76-2006-e-T.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reduction ratio, R
+  - type: symbol
+    normative_status: preferred
+    designation: R
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 35be5974-881d-5fe6-9137-9dcbec8a2941
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le rapport de réduction d'un dispositif transmetteur de charge est égal
+      à $ R = F_{\mathrm{M}} / F_{\mathrm{L}} $ où $F_{\mathrm{M}}$ est la force agissant
+      sur le dispositif mesureur de charge, et $F_{\mathrm{L}}$ est la force agissant
+      sur le récepteur de charge.
+  examples: []
+  id: r76-2006-e-T.3.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rapport de réduction, R
+  - type: symbol
+    normative_status: preferred
+    designation: R
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8a488b3e-4096-5135-b930-5c117d35bd63
+

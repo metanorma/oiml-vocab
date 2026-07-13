@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r132-3.1
+  localized_concepts:
+    fra: ed040771-3dfe-5321-a6b1-0cf6a6bea8e3
+    eng: 2e1cbc9f-b747-5b25-a693-34a14ec2638c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:132:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+status: valid
+id: c1b42519-8626-5568-a4af-c699a271333b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Système utilisé pour la détermination de la dose absorbée comprenant
+      des dosimètres à l'alanine et un spectromètre RPE.
+  examples: []
+  id: r132-3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Système dosimétrique RPE à l'alanine
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ed040771-3dfe-5321-a6b1-0cf6a6bea8e3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: System used for determining absorbed dose consisting of alanine dosimeters
+      and an EPR spectrometer.
+  examples: []
+  id: r132-3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: alanine EPR dosimetry system
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2e1cbc9f-b747-5b25-a693-34a14ec2638c
+

@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r134-T.2.6.2
+  localized_concepts:
+    eng: 2c77a094-bd94-59f1-91cd-6146a7625466
+    fra: 83369468-819e-5af3-9cb2-595c04441092
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.2
+    type: authoritative
+status: valid
+id: 2b2cc145-d529-5491-b3e9-1308e5ce0cb2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Parameter of a measuring instrument or a module subject to legal control.
+      The following types of legally relevant parameters can be distinguished: type-specific
+      parameters and device-specific parameters.'
+  examples: []
+  id: r134-T.2.6.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2c77a094-bd94-59f1-91cd-6146a7625466
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Paramètre d''un instrument de mesure ou d''un module soumis au contrôle
+      légal. Les genres suivants de paramètres d''application légale peuvent être
+      distingués: paramètres spécifiques au type et paramètres spécifiques au dispositif.'
+  examples: []
+  id: r134-T.2.6.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paramètre d'application légale
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 83369468-819e-5af3-9cb2-595c04441092
+

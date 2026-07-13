@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r60-1-2017-fra-3.7.4
+  localized_concepts:
+    fra: 675e37c1-3119-53ee-9c80-97acf9ba51af
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.4
+    type: authoritative
+status: valid
+id: 5fbdc511-546e-591b-8107-c6ba5ff27510
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur définissant un intervalle, autour du résultat d'un mesurage,
+      dont on puisse s'attendre à ce qu'il comprenne une fraction élevée de la distribution
+      des valeurs qui pourraient être attribuées raisonnablement au mesurande (OIML
+      G 1-100 Guide pour l'expression de l'incertitude de mesure)
+  examples: []
+  id: r60-1-2017-fra-3.7.4-fra
+  notes:
+  - content: 'Source citation: OIML G 1-100 [7]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitude élargie
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 675e37c1-3119-53ee-9c80-97acf9ba51af
+

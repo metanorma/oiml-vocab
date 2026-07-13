@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r41-2.3
+  localized_concepts:
+    fra: fcb17026-2420-54c6-b49e-55f56d631061
+    eng: 35d56ffd-36c6-523b-b8f6-4aec34af0714
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:41:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '2.3'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '2.3'
+    type: authoritative
+status: valid
+id: c508f380-51c4-5fc4-a4aa-a28a41d4ef8e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: C'est le temps nécessaire à une descente libre du ménisque d'eau, depuis
+      le trait zéro jusqu'au trait repère chiffré le plus bas, le robinet étant complètement
+      ouvert sans restriction à l'écoulement.
+  examples: []
+  id: r41-2.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temps d'écoulement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fcb17026-2420-54c6-b49e-55f56d631061
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Is the time required for the free descent of the water meniscus, from
+      the zero mark to the lowest numbered scale mark, with the stopcock fully open
+      and with no restriction of flow.
+  examples: []
+  id: r41-2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Delivery time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 35d56ffd-36c6-523b-b8f6-4aec34af0714
+

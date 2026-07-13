@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r49-1-2013-fra-3.1.8
+  localized_concepts:
+    fra: 52f50cc4-1203-5f01-8e86-0645083c5aea
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+status: valid
+id: b73bf13c-c01b-5561-9619-1383abd562e3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif destine a realiser une fonction specifique, directement impliquee
+      dans l'elaboration, la transmission ou l'affichage des valeurs mesurees
+  examples: []
+  id: r49-1-2013-fra-3.1.8-fra
+  notes:
+  - content: Pour la definition de "valeurs mesurees", voir OIML V 2-200:2012 (VIM)
+      [1], 2.10.
+  - content: 'Les principaux dispositifs auxiliaires sont : a) dispositif de reglage
+      du zero b) dispositif indicateur de prix c) dispositif repetiteur de l''indication
+      d) dispositif d''impression e) dispositif de memorisation f) dispositif de controle
+      de la tarification g) dispositif de predetermination h) dispositif de libre-service
+      i) capteur de detction de mouvement de debit (pour detecter le mouvement du
+      capteur de debit avant qu''il ne soit clairement visible sur le dispositif indicateur)
+      j) dispositif de lecture a distance (pouvant etre incorpore de maniere permanente
+      ou ajoute temporairement)'
+  - content: En fonction des reglementations nationales, les dispositifs auxiliaires
+      peuvent etre soumis au controle metrologique legal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif auxiliaire
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 52f50cc4-1203-5f01-8e86-0645083c5aea
+

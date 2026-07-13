@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r49-3.3.11
+  localized_concepts:
+    eng: 8b18f72f-bc4a-5ff2-92a3-f5b79f923de4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.11
+    type: authoritative
+status: valid
+id: a08c847a-2dc6-5bfc-a508-f6aeb52661cd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: average water pressure (gauge) in the pipe measured upstream and downstream
+      of the meter
+  examples: []
+  id: r49-3.3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: working pressure
+  - type: symbol
+    normative_status: preferred
+    designation: "$p_{\\mathrm{w}}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8b18f72f-bc4a-5ff2-92a3-f5b79f923de4
+

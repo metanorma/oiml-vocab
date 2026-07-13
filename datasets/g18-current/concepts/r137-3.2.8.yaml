@@ -1,0 +1,113 @@
+---
+data:
+  identifier: r137-3.2.8
+  localized_concepts:
+    eng: 65654ef7-24b4-58a0-8f56-d3232d750e42
+    fra: 031471ea-2410-5ac3-b0ea-afbf330a0318
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+status: valid
+id: fa91f737-43cd-501b-8b99-1d080559f103
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system.
+  examples: []
+  id: r137-3.2.8-eng
+  notes:
+  - content: 'Source citation: VIM 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 65654ef7-24b4-58a0-8f56-d3232d750e42
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur extrême de l'erreur de mesure, par rapport à une valeur de référence
+      connue, qui est tolérée par les spécifications ou règlements pour un mesurage,
+      un instrument de mesure ou un système de mesure donné.
+  examples: []
+  id: r137-3.2.8-fra
+  notes:
+  - content: 'Source citation: VIM 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée
+  - type: expression
+    normative_status: admitted
+    designation: EMT
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 031471ea-2410-5ac3-b0ea-afbf330a0318
+

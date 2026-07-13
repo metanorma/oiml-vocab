@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r89-5.3.5
+  localized_concepts:
+    fra: 60615568-3ab3-5571-8651-8002230676e3
+    eng: c4385eea-579f-5d69-ac45-56b46ea3d3fe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.5
+    type: authoritative
+status: valid
+id: 82223523-f12b-5516-a0eb-f0dc6cf695fb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'hystérésis d'enregistrement est la distance entre les lignes de base
+      du tracé obtenu après retour à zéro d'un signal d'entrée positif et négatif
+      respectivement.
+  examples: []
+  id: r89-5.3.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hystérésis d'enregistrement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 60615568-3ab3-5571-8651-8002230676e3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The recording hysteresis is the distance between the base lines of a
+      trace obtained, respectively, after a positive and a negative input signal is
+      returned to zero.
+  examples: []
+  id: r89-5.3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: recording hysteresis
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c4385eea-579f-5d69-ac45-56b46ea3d3fe
+

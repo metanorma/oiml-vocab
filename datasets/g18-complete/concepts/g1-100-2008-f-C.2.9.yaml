@@ -1,0 +1,63 @@
+---
+data:
+  identifier: g1-100-2008-f-C.2.9
+  localized_concepts:
+    fra: f74f4a96-1764-5f94-87a5-d13b3b91f9a3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.9
+    type: authoritative
+status: valid
+id: b6f30413-08b7-5335-ae6c-6ab0ad49f9b8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pour une variable aléatoire discrète X prenant des valeurs x_i avec des
+      probabilités p_i, l'espérance mathématique, si elle existe, est mu = E(X) =
+      sum p_i x_i, la somme étant étendue à toutes les valeurs de x_i susceptibles
+      d'être prises par X. Pour une variable aléatoire continue X ayant pour fonction
+      de densité de probabilité f(x), l'espérance mathématique, si elle existe, est
+      mu = E(X) = integral x f(x) dx, l'intégrale étant étendue au domaine de variation
+      de X.
+  examples: []
+  id: g1-100-2008-f-C.2.9-fra
+  notes:
+  - content: 'Source citation: ISO 3534-1:1993, definition 1.18'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: espérance mathématique (d'une variable aléatoire ou d'une loi de
+      probabilité)
+  - type: expression
+    normative_status: admitted
+    designation: valeur espérée
+  - type: expression
+    normative_status: admitted
+    designation: moyenne
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f74f4a96-1764-5f94-87a5-d13b3b91f9a3
+

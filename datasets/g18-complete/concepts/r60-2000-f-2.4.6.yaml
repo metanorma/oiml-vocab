@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-2000-f-2.4.6
+  localized_concepts:
+    fra: 24db6e9e-8aba-53a9-818e-bc66c14315f8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.6
+    type: authoritative
+status: valid
+id: a1374c17-8057-554b-8c85-d108e2717286
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre les indications du signal de sortie d'une cellule de
+      pesée pour une même charge appliquée, les indications étant obtenues pour l'une
+      en augmentant la charge à partir de la charge minimale, D_min, et pour l'autre
+      en diminuant la charge à partir de la charge maximale, D_max.
+  examples: []
+  id: r60-2000-f-2.4.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur d'hystérésis
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 24db6e9e-8aba-53a9-818e-bc66c14315f8
+

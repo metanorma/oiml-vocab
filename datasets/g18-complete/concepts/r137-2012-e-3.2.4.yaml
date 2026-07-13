@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r137-2012-e-3.2.4
+  localized_concepts:
+    eng: 248b56d8-70a9-53f4-b3d5-62b0acf12097
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+status: valid
+id: 628c849d-9dfa-542f-8971-4085b66cdb6b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Measured quantity value minus a reference quantity value.
+  examples: []
+  id: r137-2012-e-3.2.4-eng
+  notes:
+  - content: The presented VIM definition of (measurement) error is often interpreted
+      as the definition for an absolute error. However, when expressing a parameter
+      as a percentage or in dB this definition could also be applied to a relative
+      error. Since in all cases in this document the errors are expressed in relative
+      values it was decided that a separate definition for a relative error is not
+      needed.
+  - content: 'Source citation: VIM 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 248b56d8-70a9-53f4-b3d5-62b0acf12097
+

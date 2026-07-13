@@ -1,0 +1,54 @@
+---
+data:
+  identifier: g1-102-2011-e-3.19
+  localized_concepts:
+    eng: d7f84dc1-19a3-5679-af2e-11e796a571f1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.19'
+status: valid
+id: 3646fc98-458a-5da2-abe0-6b9e6df05903
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: property of a pair of random variables $ X_{i} $ and $ X_{j} $ , components
+      of $ \boldsymbol{X} $ having probability density function $ g_{\boldsymbol{X}}(\boldsymbol{\xi})
+      $ given by $\operatorname {C o r r} \left(X _ {i}, X _ {j}\right) = \operatorname
+      {C o r r} \left(X _ {j}, X _ {i}\right) = \frac {\operatorname {C o v} \left(X
+      _ {i} , X _ {j}\right)}{\sqrt {V \left(X _ {i}\right) V \left(X _ {j}\right)}}$
+  examples: []
+  id: g1-102-2011-e-3.19-eng
+  notes:
+  - content: Corr $ ( X_{i}, X_{j} ) $ is a quantity of dimension one.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.19'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correlation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d7f84dc1-19a3-5679-af2e-11e796a571f1
+

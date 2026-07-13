@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g22-2.3.22
+  localized_concepts:
+    eng: 341f544e-be84-5367-b33d-9ad81eafe190
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.22
+    type: authoritative
+status: valid
+id: d331d0f8-a496-5556-9bd7-4ba58fc45698
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: minimum quantity of energy delivered in a transaction for which the manufacturer
+      specifies that the EVSE will meet the BMPE of the EVSE's accuracy class
+  examples: []
+  id: g22-2.3.22-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.22
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum measured quantity, MMQ
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 341f544e-be84-5367-b33d-9ad81eafe190
+

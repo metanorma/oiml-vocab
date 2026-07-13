@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r62-1985-e-15
+  localized_concepts:
+    eng: 6eae0bfb-e36a-5f7d-8da0-6b63c67deaf2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '15'
+status: valid
+id: '099a5b27-ecd7-58b5-a284-f7eaef88f930'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ratio of the unit variation of gauge factor to the temperature variation.
+  examples: []
+  id: r62-1985-e-15-eng
+  notes:
+  - content: Expressed as (K_T1 - K_T0) / K_T0 * 1 / (T1 - T0), where T1 is the test
+      temperature, T0 is the reference temperature, K_T1 is the gauge factor at test
+      temperature, K_T0 is the gauge factor at reference temperature.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '15'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temperature coefficient of gauge factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6eae0bfb-e36a-5f7d-8da0-6b63c67deaf2
+

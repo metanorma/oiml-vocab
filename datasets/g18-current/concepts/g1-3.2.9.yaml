@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-3.2.9
+  localized_concepts:
+    eng: 347d0185-ef44-51e6-b810-21b63f1e373c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.9
+    type: authoritative
+status: valid
+id: 662d74cb-55f3-5b87-a60a-98977f55161c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity provided by a measuring instrument or measuring system
+  examples: []
+  id: g1-3.2.9-eng
+  notes:
+  - content: An indication is often given as the position of a pointer for an analogue
+      output or the displayed or printed number for a digital output.
+  - content: An indication is also known as a reading.
+  - content: 'Source citation: Adapted from JCGM 200:2012 4.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 347d0185-ef44-51e6-b810-21b63f1e373c
+

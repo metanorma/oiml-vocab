@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-101-2008-e-3.6
+  localized_concepts:
+    eng: 1f35bae8-bda1-5ce8-9cc5-7c83162ea739
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+status: valid
+id: dc822816-55b5-5e59-8c19-1c964d3eb518
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: property of a random variable, which, for a continuous random variable
+      $ X $ characterized by a PDF $ g_{X}(\xi) $ , is given by $E (X) = \int_ {-
+      \infty} ^ {\infty} \xi g _ {X} (\xi) \mathrm {d} \xi$
+  examples: []
+  id: g1-101-2008-e-3.6-eng
+  notes:
+  - content: Not all random variables have an expectation.
+  - content: The expectation of the random variable $ Z=F(X) $ , for a given function
+      F(X), is $E (Z) = E \left(F (X)\right) = \int_ {- \infty} ^ {\infty} F (\xi)
+      g _ {X} (\xi) \mathrm {d} \xi .$
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: expectation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1f35bae8-bda1-5ce8-9cc5-7c83162ea739
+

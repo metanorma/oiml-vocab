@@ -1,0 +1,91 @@
+---
+data:
+  identifier: d24-3.1.7
+  localized_concepts:
+    eng: 54a60ebb-3873-53a3-88ae-561eca136014
+    fra: 296bb21a-428a-55b5-8bed-98906db638ac
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: 56b2ea18-40ea-54ad-a0f0-19cfbd8b407e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The response time is the time taken by the total radiation pyrometer,
+      following an abrupt change $ \Delta T $ of the source temperature to give a
+      change $ \eta \Delta T $ in the indication of the pyrometer, where $ \eta $
+      is the value given in the pyrometer specification.
+  examples: []
+  id: d24-3.1.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: response time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54a60ebb-3873-53a3-88ae-561eca136014
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le temps de réponse est le temps nécessaire à un pyromètre à radiation
+      totale, suite à une variation soudaine delta T de la température de la source,
+      pour produire un changement eta x delta T de l'indication du pyromètre, où eta
+      est la valeur indiquée dans la spécification du pyromètre.
+  examples: []
+  id: d24-3.1.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de réponse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 296bb21a-428a-55b5-8bed-98906db638ac
+

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r49-3.1.9
+  localized_concepts:
+    eng: cdf5ea69-d7a0-5c28-ba88-ac25d0112806
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+status: valid
+id: 63daa235-0947-5a77-a1c0-addae29ad56b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that allocates measured values into different registers depending
+      on tariff or other criteria, each register having the possibility to be read
+      individually
+  examples: []
+  id: r49-3.1.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tariff control device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cdf5ea69-d7a0-5c28-ba88-ac25d0112806
+

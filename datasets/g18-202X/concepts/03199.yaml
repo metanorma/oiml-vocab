@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
 status: valid
 id: 1245d181-b5d4-463d-b52a-982f061be68f
 schema_version: '3'
@@ -15,17 +24,36 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'group of load cells which for the purposes of type evaluation are considered as one family and that are of: the same material or combination of materials (for example mild steel, stainless steel or aluminum); the same design of the measurement technique (for example strain gauges bonded to metal); when used, the same principle used to attach the strain gauge to the load cell; the same method of construction (for example shape, sealing of strain gauges, mounting method, manufacturing method); the same set of specifications (for example output rating, input impedance, supply voltage, cable details); and one or more load cell groups where all load cells within the group possess identical metrological characteristics (as listed in 5.1.5 – including: class; nLC; temperature rating, etc.).'
-  id: 03199-eng
+  - content: 'group of load cells which for the purposes of type evaluation are considered
+      as one family and that are of: the same material or combination of materials
+      (for example mild steel, stainless steel or aluminum); the same design of the
+      measurement technique (for example strain gauges bonded to metal); when used,
+      the same principle used to attach the strain gauge to the load cell; the same
+      method of construction (for example shape, sealing of strain gauges, mounting
+      method, manufacturing method); the same set of specifications (for example output
+      rating, input impedance, supply voltage, cable details); and one or more load
+      cell groups where all load cells within the group possess identical metrological
+      characteristics (as listed in 5.1.5 – including: class; nLC; temperature rating,
+      etc.).'
+  id: '03199-eng'
   language_code: eng
   notes:
-  - content: 'The examples provided are not intended to be limiting.'
-  sources: []
+  - content: The examples provided are not intended to be limiting.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'load cell family'
+    designation: load cell family
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 23685d3d-4a41-50f2-a971-8786abafdffa
+

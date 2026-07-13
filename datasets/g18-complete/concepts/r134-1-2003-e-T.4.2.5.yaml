@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r134-1-2003-e-T.4.2.5
+  localized_concepts:
+    eng: a8af8b53-23eb-5794-8561-107cce2586ff
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.4.2.5
+status: valid
+id: 3ae498e7-c55d-5c2f-b39a-a784a1f13442
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: |-
+      Fault greater than 1 d.
+
+      The following are not considered to be significant faults:
+      - faults that result from simultaneous and mutually independent causes in the instrument or in its checking facility;
+      - faults that make it impossible to perform any measurement;
+      - transitory faults that are momentary variations in the indications which cannot be interpreted, memorized or transmitted as a measurement result; and
+      - faults that are so serious that they will inevitably be noticed by those interested in the measurement.
+  examples: []
+  id: r134-1-2003-e-T.4.2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.4.2.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a8af8b53-23eb-5794-8561-107cce2586ff
+

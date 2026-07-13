@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r117-T.f.1
+  localized_concepts:
+    eng: abe27557-b13e-504d-add2-f2148f957d05
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: T.f.1
+    type: authoritative
+status: valid
+id: 7f632adf-7f06-54d2-9f4c-08e5d19c20cc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error (of indication) and the intrinsic error
+      greater than the value specified in this Recommendation
+  examples: []
+  id: r117-T.f.1-eng
+  notes:
+  - content: 'The following are not considered to be significant faults: transitory
+      malfunctions resulting in momentary variations in the indication, which cannot
+      be interpreted, memorised, or transmitted as a measurement result; and for interruptible
+      measuring systems only, malfunctions implying the impossibility of performing
+      further measurements'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: T.f.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: abe27557-b13e-504d-add2-f2148f957d05
+

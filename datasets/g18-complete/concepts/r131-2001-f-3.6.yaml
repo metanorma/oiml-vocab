@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r131-2001-f-3.6
+  localized_concepts:
+    fra: fc946733-b210-59fa-9333-b94d6235f470
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:131:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+status: valid
+id: a7f75db4-15a2-5de0-a8be-98f8897cb317
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient de dE par dm, où dE est l'énergie moyenne cumulative transmise
+      par les rayonnements ionisants à une quantité de matière de masse dm. L'unité
+      pour la dose absorbée est le gray (Gy), où 1 Gy = 1 J/kg.
+  examples: []
+  id: r131-2001-f-3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dose absorbée
+  - type: symbol
+    normative_status: preferred
+    designation: D
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fc946733-b210-59fa-9333-b94d6235f470
+

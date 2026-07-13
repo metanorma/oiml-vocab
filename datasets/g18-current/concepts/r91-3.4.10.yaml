@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r91-3.4.10
+  localized_concepts:
+    eng: b9d03b3b-12e7-58fa-afbf-651e954fa491
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.10
+    type: authoritative
+status: valid
+id: e7a380f1-69dc-5572-bd1d-9498b132c5c4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: speed meter without compensation for cosine error
+  examples: []
+  id: r91-3.4.10-eng
+  notes:
+  - content: A variation of measurement angle will always lead to negative cosine
+      errors (i.e. in favour of the accused driver) for this class of speed meters.
+  - content: Typical examples are hand-held LIDAR speed meters and fixed-distance
+      speed meters.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: along-the-road speed meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b9d03b3b-12e7-58fa-afbf-651e954fa491
+

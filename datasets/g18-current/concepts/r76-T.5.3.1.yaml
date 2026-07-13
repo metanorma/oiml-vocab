@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r76-T.5.3.1
+  localized_concepts:
+    eng: 1d4c5cb5-0fa5-5aab-b849-f7e21e8a73ed
+    fra: d3d31901-edaf-5863-a64d-249435bfae91
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+status: valid
+id: 846431bd-1b17-5935-9a56-98a31ea3eb37
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Numerical value, representing a weight, that is introduced into the instrument
+      and is intended to be applied to other weighings without determining individual
+      tares.
+  examples: []
+  id: r76-T.5.3.1-eng
+  notes:
+  - content: '"Introduced" includes procedures such as: keying in, recalling from
+      a data storage device, or inserting via an interface.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: preset tare value, PT
+  - type: symbol
+    normative_status: admitted
+    designation: PT
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1d4c5cb5-0fa5-5aab-b849-f7e21e8a73ed
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur numérique, représentant un poids, qui est introduite dans l'instrument
+      et qui est destinée à être appliquée à d'autres pesées sans déterminer des tares
+      individuelles.
+  examples: []
+  id: r76-T.5.3.1-fra
+  notes:
+  - content: 'Le mot «introduite» couvre toute procédure comme, par exemple : la tabulation,
+      le rappel depuis un stockage de données, ou l''introduction via une interface.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur de tare prédéterminée, PT
+  - type: symbol
+    normative_status: admitted
+    designation: PT
+  language_code: fra
+  entry_status: valid
+date_accepted: 2026-07-13T00:00+00:00
+id: d3d31901-edaf-5863-a64d-249435bfae91
+

@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r134-T.6.2
+  localized_concepts:
+    eng: 96f31b8a-ed91-55d9-8bab-501669accf11
+    fra: 355862a5-af03-5554-ab02-dd66eefbefc7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.2
+    type: authoritative
+status: valid
+id: 3a76f711-b260-5e50-8e7d-d3363f621db7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test with reference vehicles that are in motion on the load receptor
+      to determine an error or deviation.
+  examples: []
+  id: r134-T.6.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: in-motion test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 96f31b8a-ed91-55d9-8bab-501669accf11
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai avec des véhicules de référence qui sont en mouvement sur le récepteur
+      de charge pour déterminer une erreur ou un écart.
+  examples: []
+  id: r134-T.6.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai en mouvement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 355862a5-af03-5554-ab02-dd66eefbefc7
+

@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-2000-e-2.3.16
+  localized_concepts:
+    eng: d7d3e7c0-c8fa-5385-be87-2c4a05ea8b09
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.16
+    type: authoritative
+status: valid
+id: 5d47d12a-7a3e-5a1b-905a-7efc359fb837
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Time between the moment power is applied to a load cell and the moment
+      at which the load cell is capable of complying with the requirements.
+  examples: []
+  id: r60-2000-e-2.3.16-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Warm-up time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d7d3e7c0-c8fa-5385-be87-2c4a05ea8b09
+

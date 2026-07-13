@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r110-2.3.1
+  localized_concepts:
+    eng: ed4db8f2-2222-540b-98b7-d2d075f11c4a
+    fra: b25227e9-efb9-5614-95fd-ea14256b3704
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+status: valid
+id: 24448d1a-399a-5caf-aba4-735c20e3c8e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The indication obtained by adding the pressure values stated on the loaded
+      weights.
+  examples: []
+  id: r110-2.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indication by adding pressure values
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ed4db8f2-2222-540b-98b7-d2d075f11c4a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication obtenue en additionnant les valeurs de pression indiquees
+      sur les poids charges.
+  examples: []
+  id: r110-2.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indication par addition des valeurs de pression
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b25227e9-efb9-5614-95fd-ea14256b3704
+

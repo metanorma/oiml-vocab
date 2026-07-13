@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r91-3.5.10
+  localized_concepts:
+    eng: 9d7e627b-a8c0-5210-a34d-e569b6000410
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.5.10
+    type: authoritative
+status: valid
+id: dd28970a-f6f2-55fe-b61f-8a6279d1d89b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value defined in clause 6.18.1
+  examples: []
+  id: r91-3.5.10-eng
+  notes:
+  - content: See supplements in clause 6.18.2.
+  - content: 'Source citation: OIML V 1 [1], 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.5.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d7e627b-a8c0-5210-a34d-e569b6000410
+

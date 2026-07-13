@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.3
+    type: authoritative
 status: valid
 id: b5927974-48ed-46c1-8e48-647d76f2b2d8
 schema_version: '3'
@@ -15,17 +24,28 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'deficiency that is greater than twice the applicable tolerable deficiency (2T) for the given nominal quantity T2 error: Qi < (Qnom – 2T) where Qnom is the nominal quantity'
-  id: 02495-eng
+  - content: 'deficiency that is greater than twice the applicable tolerable deficiency
+      (2T) for the given nominal quantity T2 error: Qi < (Qnom – 2T) where Qnom is
+      the nominal quantity'
+  id: '02495-eng'
   language_code: eng
   notes:
   - content: See Annex G for an example of the application of errors.
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.3
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'T2 error'
+    designation: T2 error
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 1d24d0cd-6bd2-584c-8c93-d1a093b5f0d2
+

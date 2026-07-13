@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-102-2011-e-3.14
+  localized_concepts:
+    eng: 16cbee3e-9350-536d-8959-747ec9f48112
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+status: valid
+id: d6d6b4fc-1c6c-52c0-8105-071ad3998b73
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: non-negative function $ g_{X}(\boldsymbol{\xi}) $ satisfying $ G _ {\boldsymbol
+      {X}} (\boldsymbol {\xi}) = \int_ {- \infty} ^ {\xi_ {1}} \dots \int_ {- \infty}
+      ^ {\xi_ {N}} g _ {\boldsymbol {X}} (\boldsymbol {z}) \mathrm {d} z _ {N} \dots
+      \mathrm {d} z _ {1}$
+  examples: []
+  id: g1-102-2011-e-3.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: joint probability density function
+  - type: expression
+    normative_status: admitted
+    designation: probability density function
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 16cbee3e-9350-536d-8959-747ec9f48112
+

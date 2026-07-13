@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r61-3.3.1.1
+  localized_concepts:
+    eng: d725476f-084d-5959-bc35-c177a32278cb
+    deu: 640857f9-2712-5a64-8fb5-0de9b501243c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.1
+    type: authoritative
+status: valid
+id: 2740e568-4a0f-57e8-8eb5-41a49e738367
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the instrument intended to receive the load
+  examples: []
+  id: r61-3.3.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load receptor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d725476f-084d-5959-bc35-c177a32278cb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Teil der Waage, der für die Aufnahme der Last bestimmt ist
+  examples: []
+  id: r61-3.3.1.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lastträger
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 640857f9-2712-5a64-8fb5-0de9b501243c
+

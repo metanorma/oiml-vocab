@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-2000-e-2.3.8
+  localized_concepts:
+    eng: 5897c023-a36e-5ec3-bcff-dacab246a0ac
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+status: valid
+id: 804fa5c4-c58f-5c83-b47a-710f33693ae5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Smallest value of a quantity (mass) which may be applied to a load cell
+      without exceeding the mpe (see 2.4.9) (E_min).
+  examples: []
+  id: r60-2000-e-2.3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Minimum dead load (E_min)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5897c023-a36e-5ec3-bcff-dacab246a0ac
+

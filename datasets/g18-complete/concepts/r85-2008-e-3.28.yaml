@@ -1,0 +1,77 @@
+---
+data:
+  identifier: r85-2008-e-3.28
+  localized_concepts:
+    eng: cb9604e8-7e19-5312-915a-67a3d3b78e4d
+    fra: d1122614-2ee0-525f-8a0a-5fde1dc3f1eb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.28'
+    type: authoritative
+status: valid
+id: 3a68d6be-0995-5a55-83ff-659f7f5b879f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication of an ALG minus a true value of the corresponding input quantity.
+  examples: []
+  id: r85-2008-e-3.28-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.28'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error (of indication)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cb9604e8-7e19-5312-915a-67a3d3b78e4d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication d'un JA moins la valeur vraie de la grandeur d'entrée correspondante.
+  examples: []
+  id: r85-2008-e-3.28-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.28'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur (d'indication)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d1122614-2ee0-525f-8a0a-5fde1dc3f1eb
+

@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r82-1989-f-3.14
+  localized_concepts:
+    fra: fe17a931-942b-5ae0-8301-f12925ce5038
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:82:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+status: valid
+id: b0517c88-2550-5c01-bebc-9d39847d6415
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Signal de sortie pour une masse des composants intéressants de l'échantillon
+      dans le gaz porteur égale à l'unité ; elle s'exprime selon l'une des deux manières
+      suivantes. Pour un détecteur sensible à la concentration, elle s'exprime en
+      A * mL/g ou en V * mL/g par l'équation S = (P*F)/M où P est la surface du pic,
+      F est le débit du gaz porteur, M est la masse de l'échantillon dans le gaz porteur.
+      Pour un détecteur sensible au débit massique, elle s'exprime en A * s/g ou V
+      * s/g par l'équation S = P/M.
+  examples: []
+  id: r82-1989-f-3.14-fra
+  notes:
+  - content: La Figure 1 illustre graphiquement le concept de limite de détction et
+      d'étendue linéaire pour une certaine étendue de la sensibilité.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilité d'un chromatographe
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fe17a931-942b-5ae0-8301-f12925ce5038
+

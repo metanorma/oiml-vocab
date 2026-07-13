@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r137-1-2-2012-fra-3.4.2
+  localized_concepts:
+    fra: c0f12f07-3876-5093-a03b-eaeec1cf5f9d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+status: valid
+id: 89a043d7-6376-50ef-9a1f-fdcafc7e217b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      par cette Recommandation, mais en dehors des conditions assignées de fonctionnement
+      spécifiées du compteur de gaz.
+  examples: []
+  id: r137-1-2-2012-fra-3.4.2-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si les conditions assignées
+      de fonctionnement ne sont pas fixées pour cette grandeur d'influence.
+  - content: 'Source citation: OIML D 11, 3.13.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0f12f07-3876-5093-a03b-eaeec1cf5f9d
+

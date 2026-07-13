@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 143:2009
+        version: '2009'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
 status: valid
 id: 2343584e-7516-48cc-9126-1949184a4751
 schema_version: '3'
@@ -15,15 +24,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device for maintaining the zero indication within certain limits automatically'
-  id: 00924-eng
+  - content: device for maintaining the zero indication within certain limits automatically
+  id: '00924-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 143:2009
+        version: '2009'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'zero-tracking device'
+    designation: zero-tracking device
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: db6969b2-d39f-5782-9cde-9790e0470faa
+

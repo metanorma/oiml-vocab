@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r117-1-2007-fra-T.d.3
+  localized_concepts:
+    fra: 66a2576d-72f2-5645-828b-60470813c8f9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.d.3
+    type: authoritative
+status: valid
+id: 690b0a47-9d1d-5298-8a0b-0dd8b185a3bb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence dont la valeur se situe en dehors des conditions
+      assignées de fonctionnement spécifiées pour l'ensemble de mesurage.
+  examples: []
+  id: r117-1-2007-fra-T.d.3-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si les conditions assignées
+      de fonctionnement ne sont pas fixées pour cette grandeur d'influence.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.d.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation (pour les ensembles de mesurage électroniques seulement)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 66a2576d-72f2-5645-828b-60470813c8f9
+

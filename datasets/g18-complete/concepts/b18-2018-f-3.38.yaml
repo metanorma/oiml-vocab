@@ -1,0 +1,59 @@
+---
+data:
+  identifier: b18-2018-f-3.38
+  localized_concepts:
+    fra: 64e95770-1a03-5005-b1be-fcc44f7c18d2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:18:2018
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: '3.38'
+    type: authoritative
+status: valid
+id: 2cb4b4c2-81eb-5c88-8f6f-aa1301ab2bfb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: laboratoire réalisant certains ou tous les essais sur un type d'instrument
+      de mesure. Un Laboratoire d'Essai est désigné par une Autorité de Délivrance
+      OIML et accepté par le CM
+  examples: []
+  id: b18-2018-f-3.38-fra
+  notes:
+  - content: Un Laboratoire d'Essai peut être un Laboratoire d'Essai interne d'une
+      Autorité de Délivrance OIML, un Laboratoire d'Essai d'une tierce partie ou un
+      Laboratoire d'Essai d'un Fabricant (LEF).
+  - content: C'est l'Autorité de Délivrance OIML, et non le Laboratoire d'Essai, qui
+      est responsable de la délivrance du rapport d'évaluation de type OIML.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: '3.38'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Laboratoire d'Essai
+  - type: abbreviation
+    normative_status: preferred
+    designation: LE
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 64e95770-1a03-5005-b1be-fcc44f7c18d2
+

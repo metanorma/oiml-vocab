@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-2000-f-2.4.5
+  localized_concepts:
+    fra: f7741edc-0010-52f9-aceb-28d3fca885b4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.5
+    type: authoritative
+status: valid
+id: 3b5d2de7-94f6-59c1-93c7-ecb4ec3c7922
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Représentation électrique fournie par la cellule de pesée, signalant
+      un état de défaut.
+  examples: []
+  id: r60-2000-f-2.4.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Signal de sortie de détection de défaut
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7741edc-0010-52f9-aceb-28d3fca885b4
+

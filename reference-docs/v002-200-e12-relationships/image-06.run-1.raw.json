@@ -1,0 +1,343 @@
+{
+  "nodes": [
+    {
+      "id": "2.32",
+      "designation": "relative standard measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.10",
+      "designation": "measured quantity value (see Fig.A4)",
+      "external": false
+    },
+    {
+      "id": "2.34",
+      "designation": "target measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.35",
+      "designation": "expanded measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.30",
+      "designation": "standard measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.33",
+      "designation": "uncertainty budget",
+      "external": false
+    },
+    {
+      "id": "2.26",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "ext_evaluation_of_measurement_uncertainty_component",
+      "designation": "(evaluation of measurement uncertainty component)",
+      "external": true
+    },
+    {
+      "id": "2.29",
+      "designation": "type B evaluation of measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.28",
+      "designation": "type A evaluation of measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.9",
+      "designation": "measurement result",
+      "external": false
+    },
+    {
+      "id": "2.31",
+      "designation": "combined standard measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.48",
+      "designation": "measurement model",
+      "external": false
+    },
+    {
+      "id": "2.27",
+      "designation": "definitional uncertainty",
+      "external": false
+    },
+    {
+      "id": "4.24",
+      "designation": "instrumental measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "5.18",
+      "designation": "reference quantity value",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "quantity value",
+      "external": false
+    },
+    {
+      "id": "2.38",
+      "designation": "coverage factor",
+      "external": false
+    },
+    {
+      "id": "2.49",
+      "designation": "measurement function",
+      "external": false
+    },
+    {
+      "id": "2.3",
+      "designation": "measurand",
+      "external": false
+    },
+    {
+      "id": "2.12",
+      "designation": "conventional quantity value",
+      "external": false
+    },
+    {
+      "id": "2.36",
+      "designation": "coverage interval",
+      "external": false
+    },
+    {
+      "id": "2.11",
+      "designation": "true quantity value",
+      "external": false
+    },
+    {
+      "id": "2.37",
+      "designation": "coverage probability",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "hierarchical",
+      "broader": "2.26",
+      "narrower": {
+        "listed": [
+          "2.32",
+          "2.34",
+          "2.35",
+          "2.30"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-002",
+      "type": "hierarchical",
+      "broader": "2.30",
+      "narrower": {
+        "listed": [
+          "2.31"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-003",
+      "type": "partitive_plural",
+      "comprehensive": "2.26",
+      "parts": {
+        "listed": [
+          "2.27",
+          "4.24"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": false,
+        "dashed": true
+      }
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "2.32",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.33"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "ext_evaluation_of_measurement_uncertainty_component"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "ext_evaluation_of_measurement_uncertainty_component",
+        "2.29"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "ext_evaluation_of_measurement_uncertainty_component",
+        "2.28"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "2.28",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "2.26"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "5.18"
+      ]
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.12"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.11"
+      ]
+    },
+    {
+      "id": "rel-016",
+      "type": "associative",
+      "members": [
+        "2.36",
+        "2.38"
+      ]
+    },
+    {
+      "id": "rel-017",
+      "type": "associative",
+      "members": [
+        "2.36",
+        "2.37"
+      ]
+    },
+    {
+      "id": "rel-018",
+      "type": "associative",
+      "members": [
+        "2.36",
+        "2.11"
+      ]
+    },
+    {
+      "id": "rel-019",
+      "type": "associative",
+      "members": [
+        "2.35",
+        "2.38"
+      ]
+    },
+    {
+      "id": "rel-020",
+      "type": "associative",
+      "members": [
+        "2.35",
+        "2.31"
+      ]
+    },
+    {
+      "id": "rel-021",
+      "type": "associative",
+      "members": [
+        "2.30",
+        "2.35"
+      ]
+    },
+    {
+      "id": "rel-022",
+      "type": "associative",
+      "members": [
+        "2.31",
+        "2.48"
+      ]
+    },
+    {
+      "id": "rel-023",
+      "type": "associative",
+      "members": [
+        "2.48",
+        "2.49"
+      ]
+    },
+    {
+      "id": "rel-024",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-025",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "2.11"
+      ]
+    }
+  ]
+}

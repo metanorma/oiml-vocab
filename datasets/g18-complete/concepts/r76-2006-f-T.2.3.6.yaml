@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r76-2006-f-T.2.3.6
+  localized_concepts:
+    eng: 43d40a3f-57f7-5c20-a1d8-b930bc79850f
+    fra: fda448ad-0328-5797-a466-da9220f55f16
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.6
+    type: authoritative
+status: valid
+id: fc54ce18-c6a7-56fb-9d8b-f83e1f15280a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Interface (hardware and/or software) which only allows the introduction
+      of such data into the data processing device of an instrument, module or electronic
+      component, which cannot display data which are not clearly defined and which
+      could be taken for a weighing result, falsify displayed, processed or stored
+      weighing results or primary indications, or adjust the instrument or change
+      any adjustment factor, except releasing an adjustment procedure with incorporated
+      devices or, in the case of class I instruments with external adjustment weights
+      as well.
+  examples: []
+  id: r76-2006-f-T.2.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Protective interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 43d40a3f-57f7-5c20-a1d8-b930bc79850f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Interface (materiel et/ou logiciel) qui autorise seulement l'introduction
+      de donnees dans le dispositif de traitement de donnees d'un instrument, module
+      ou composant electronique, telles qu'il ne soit pas possible d'afficher des
+      donnees qui ne sont pas clairement definies et qui pourraient etre prises pour
+      un resultat de pesage, de falsifier des resultats de pesage ou des indications
+      primaires affichees, traitees ou stockees, ou d'ajuster l'instrument ou changer
+      tout facteur d'ajustage, a l'exception du declenchement d'une procedure d'ajustage
+      avec des dispositifs incorpores ou, dans le cas d'un instrument de classe I,
+      avec des poids d'ajustage externes.
+  examples: []
+  id: r76-2006-f-T.2.3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Interface de protection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fda448ad-0328-5797-a466-da9220f55f16
+

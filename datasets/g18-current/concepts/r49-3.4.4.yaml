@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r49-3.4.4
+  localized_concepts:
+    eng: 8ab6b16f-e77f-52c1-9fd4-d0b7e5e8ed5d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+status: valid
+id: 2d79bf96-9780-58fe-810d-fd614e860d9d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition requiring fulfilment during measurement in order
+      that a meter perform as designed
+  examples: []
+  id: r49-3.4.4-eng
+  notes:
+  - content: The rated operating conditions specify intervals for the flow rate and
+      for the influence quantities for which the errors (of indication) are required
+      to be within the maximum permissible errors.
+  - content: 'Source citation: ISO/IEC Guide 99:2007|OIML V 2-200:2012 (VIM), 4.9,
+      modified - "requiring fulfilment" replaces "that must be fulfilled"; "meter"
+      replaces "measuring instrument or measuring system"; "Note" replaces the original
+      note.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated operating condition
+  - type: abbreviation
+    normative_status: admitted
+    designation: ROC
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8ab6b16f-e77f-52c1-9fd4-d0b7e5e8ed5d
+

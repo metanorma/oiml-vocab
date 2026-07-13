@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g22-2.3.12
+  localized_concepts:
+    eng: 27b4ee3c-538b-5f0d-a502-4e6bb91878f6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.12
+    type: authoritative
+status: valid
+id: 5383c365-e7f8-5d08-9373-c8e867d8bbaf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: cosine, cos $ \varphi $ , of the phase difference, $ \varphi $ , between
+      voltage, U, and current, I, under sinusoidal and either single-phase or symmetrical
+      three-phase conditions
+  examples: []
+  id: g22-2.3.12-eng
+  notes:
+  - content: An EVSE is only required to measure active energy. Performance is verified
+      using a reference that can measure apparent energy and power factor.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.12
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: power factor, PF
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 27b4ee3c-538b-5f0d-a502-4e6bb91878f6
+

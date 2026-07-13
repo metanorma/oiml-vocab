@@ -1,0 +1,104 @@
+---
+data:
+  identifier: r144-2.2
+  localized_concepts:
+    fra: 82f22f7a-ec03-541d-ad5d-822adadb56ee
+    eng: 4f54811d-a55e-5c43-b32b-8bc8a42e907d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+status: valid
+id: 199c92e8-bbf6-5d93-be1d-19c5627b58e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif inséré dans le gaz, conçu pour prélèvement de gaz représentatif,
+      auquel un récipient de prélèvement est connecté (ISO 7504:2001 [16])
+  examples: []
+  id: r144-2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sonde de prélèvement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 82f22f7a-ec03-541d-ad5d-822adadb56ee
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device inserted into the gas, designed to take a representative sample
+      thereof, to which a sample line or a sample container is connected
+  examples: []
+  id: r144-2.2-eng
+  notes:
+  - content: 'Source citation: ISO 7504:2001 [16]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sampling probe
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4f54811d-a55e-5c43-b32b-8bc8a42e907d
+

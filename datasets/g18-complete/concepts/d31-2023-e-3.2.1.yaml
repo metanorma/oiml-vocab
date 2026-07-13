@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d31-2023-e-3.2.1
+  localized_concepts:
+    eng: 6c0e45e3-4d10-5e63-8a91-da0e9f7ee383
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.1
+    type: authoritative
+status: valid
+id: da44da29-4077-5144-b624-c89c28741b84
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: continuous data containing a time stamped information record of events,
+      e.g. changes in the values of the parameters of a measuring instrument or software
+      updates, or other activities that are legally relevant and which are critical
+      for the metrological characteristics
+  examples: []
+  id: d31-2023-e-3.2.1-eng
+  notes:
+  - content: Regarding examples for events logged in an audit trail, see 3.2.20.
+  - content: 'Source citation: adapted from [OIML V 1:2022, 6.05]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: audit trail
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6c0e45e3-4d10-5e63-8a91-da0e9f7ee383
+

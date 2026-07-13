@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r76-2006-f-T.5.4.2
+  localized_concepts:
+    eng: ba5ede05-c263-5374-a222-d6e7b8e5c1f9
+    fra: fbcfa302-85af-5c39-82d8-661ed05cb9e8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.2
+    type: authoritative
+status: valid
+id: 8503d06e-722e-57bb-9469-377b93a744b2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: On an instrument with analog indication, this is equal to the standard
+      deviation of the same indication, the reading of which is carried out under
+      normal conditions of use by several observers. It is customary to make at least
+      ten readings of the result.
+  examples: []
+  id: r76-2006-f-T.5.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Overall inaccuracy of reading
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ba5ede05-c263-5374-a222-d6e7b8e5c1f9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'inexactitude globale de lecture des instruments à indication analogique
+      est égale à l'écart-type de la même indication dont la lecture est effectuée,
+      dans les conditions normales d'emploi, par différents observateurs. Il est habituel
+      de faire au moins dix lectures du résultat.
+  examples: []
+  id: r76-2006-f-T.5.4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Inexactitude globale de lecture
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fbcfa302-85af-5c39-82d8-661ed05cb9e8
+

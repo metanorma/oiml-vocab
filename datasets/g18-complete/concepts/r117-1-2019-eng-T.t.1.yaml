@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r117-1-2019-eng-T.t.1
+  localized_concepts:
+    eng: 877907fb-bbe4-5e0b-877e-af897a1ddc8a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117-1:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: T.t.1
+    type: authoritative
+status: valid
+id: 11f1af05-374d-5cfe-a332-f32c9bf883b2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the measuring device that provides an output signal, representing
+      volume or mass, having a determined relationship to the input signal
+  examples: []
+  id: r117-1-2019-eng-T.t.1-eng
+  notes:
+  - content: The transducer can either be incorporated with the meter sensor or be
+      external to the meter sensor. In the latter case, it can be approved either
+      with the sensor or with the calculator.
+  - content: A pulser is a specific type of measuring transducer.
+  - content: see also T.a.8
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: T.t.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transducer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 877907fb-bbe4-5e0b-877e-af897a1ddc8a
+

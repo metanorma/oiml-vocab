@@ -1,0 +1,91 @@
+---
+data:
+  identifier: d11-3.28
+  localized_concepts:
+    fra: 386e3008-f9ac-51eb-ad1c-decae4b978f2
+    eng: 27bbd1dc-8e7f-59cf-9645-6f838fb80938
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: '3.28'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.28'
+    type: authoritative
+status: valid
+id: 75ff4b00-f5fe-572a-af70-f6930ccacec8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: paramètre non négatif caractérisant la dispersion des valeurs étant attribuée
+      à un mesurande, à partir des informations utilisées
+  examples: []
+  id: d11-3.28-fra
+  notes:
+  - content: Voir VIM 2.26 pour les notes sur cette définition.
+  - content: 'Source citation: VIM 2.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.28'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitudes de mesurage (mesure)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 386e3008-f9ac-51eb-ad1c-decae4b978f2
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: non-negative parameter characterising the dispersion of the quantity
+      values being attributed to a measurand, based on the information used
+  examples: []
+  id: d11-3.28-eng
+  notes:
+  - content: See VIM 2.26 for notes on this definition.
+  - content: 'Source citation: VIM 2.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.28
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement uncertainty
+  language_code: eng
+  entry_status: valid
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: 27bbd1dc-8e7f-59cf-9645-6f838fb80938
+

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r51-T.5.1
+  localized_concepts:
+    eng: de267038-e361-545f-b093-1daaf6e458b2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.1
+    type: authoritative
+status: valid
+id: d1a84632-bf61-51fc-be55-26204cf0da0d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity that is not the measurand but that affects the result of the
+      measurement.
+  examples: []
+  id: r51-T.5.1-eng
+  notes:
+  - content: 'Source citation: VIM:1993, 2.7 [1].'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: de267038-e361-545f-b093-1daaf6e458b2
+

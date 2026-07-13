@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r81-1998-e-3.10
+  localized_concepts:
+    eng: a6ac496c-f56c-57ac-b770-5462554895a5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: 06454620-f81d-5427-bb3b-b84659944a8e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A device connected to or incorporated in the meter for automatically
+      correcting the volume in metering conditions, by taking account of the flowrate
+      and/or the characteristics of the liquid to be measured (viscosity, temperature,
+      pressure, etc.) and pre-established calibration curves.
+  examples: []
+  id: r81-1998-e-3.10-eng
+  notes:
+  - content: The characteristics of the liquid may either be measured using associated
+      measuring instruments, or stored in a memory within the instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Correction device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a6ac496c-f56c-57ac-b770-5462554895a5
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.3.4
+  localized_concepts:
+    eng: 9311bc1e-5453-5791-afb0-a35e5b433557
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+status: valid
+id: '08867aa2-5988-5bdf-8f78-e8b38497d8dd'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: flow rate (3.3.1) between the permanent flow rate (3.3.2) and the minimum
+      flow rate (3.3.5) that divides the flow rate range into two zones, the upper
+      flow rate zone and the lower flow rate zone, each characterized by its own maximum
+      permissible error(s) (3.2.5)
+  examples: []
+  id: r49-1-2024-eng-3.3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transitional flow rate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{2}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9311bc1e-5453-5791-afb0-a35e5b433557
+

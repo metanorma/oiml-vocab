@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g22-2022-e-2.3.3
+  localized_concepts:
+    eng: 7a8d9920-124d-5562-bf99-313fb5e3dc02
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.3
+status: valid
+id: f868aba0-4209-5e09-9aaa-f5ad89152f33
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: lowest value of current at which the EVSE is specified to meet the accuracy
+      requirements of this Guide
+  examples: []
+  id: g22-2022-e-2.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum current, $ I_{\mathrm{min}} $
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a8d9920-124d-5562-bf99-313fb5e3dc02
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r123-3.9
+  localized_concepts:
+    fra: ec02aed8-bcf1-5d4c-83b0-d0387695863c
+    eng: 34b62de6-ef22-5f54-947f-e85d61ca1078
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+status: valid
+id: 5425f61a-9672-5cec-bb63-8c0f3740b44e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Signal produit dans le detecteur resultant de la detection de rayons
+      X autres que ceux emis depuis l'element analyse et de tout parasite produit
+      ailleurs dans le spectrometre XRF.
+  examples: []
+  id: r123-3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fond de rayonnement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec02aed8-bcf1-5d4c-83b0-d0387695863c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Signal produced in the detector resulting from the detection of X-rays
+      other than X-rays from the analyzed element and from any noise produced elsewhere
+      in the XRF spectrometer.
+  examples: []
+  id: r123-3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Background
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 34b62de6-ef22-5f54-947f-e85d61ca1078
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r49-1-2013-fra-3.1.4
+  localized_concepts:
+    fra: 20184aef-dac0-5b20-adee-2a29891e91aa
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+status: valid
+id: 6b52ca26-b47a-5004-9176-5005e4e10582
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie du compteur qui transforme les signaux de sortie provenant du
+      ou des transducteur(s) de mesure et, eventuellement, des instruments de mesure
+      associes et, le cas echeant, memorise les resultats dans la memoire jusqu'a
+      ce qu'ils soient utilises
+  examples: []
+  id: r49-1-2013-fra-3.1.4-fra
+  notes:
+  - content: La pignonnerie est consideree comme le calculateur d'un compteur mecanique
+  - content: Le calculateur peut etre capable de communiquer dans les deux sens avec
+      les dispositifs auxiliaires.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 20184aef-dac0-5b20-adee-2a29891e91aa
+

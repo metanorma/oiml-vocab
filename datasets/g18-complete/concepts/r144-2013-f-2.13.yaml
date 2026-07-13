@@ -1,0 +1,79 @@
+---
+data:
+  identifier: r144-2013-f-2.13
+  localized_concepts:
+    eng: 23f069ba-ee39-5dd8-a6e0-80e275893134
+    fra: 56b676d4-7ff5-5795-8528-ac162f6fd45d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+status: valid
+id: 707d3e1d-f89e-5840-957e-2d65fd1b70f9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r144-2013-f-2.13-eng
+  notes:
+  - content: 'Source citation: VIM, 2.16 [1]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 23f069ba-ee39-5dd8-a6e0-80e275893134
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre la valeur mesurée d'une grande valeur de référence
+  examples: []
+  id: r144-2013-f-2.13-fra
+  notes:
+  - content: 'Source citation: VIM, 2.16 [1]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 56b676d4-7ff5-5795-8528-ac162f6fd45d
+

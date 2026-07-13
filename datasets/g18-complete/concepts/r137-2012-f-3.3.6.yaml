@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r137-2012-f-3.3.6
+  localized_concepts:
+    fra: 1d580882-1a9a-53e6-affa-6ab1d9548821
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.6
+    type: authoritative
+status: valid
+id: f98ca500-8aff-5bf1-9dc3-37a80fe4bf23
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Température minimale et maximale d'un gaz auxquelles un compteur de gaz
+      peut résister, dans ses conditions assignées de fonctionnement, sans détérioration
+      inacceptable de ses performances métrologiques.
+  examples: []
+  id: r137-2012-f-3.3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: températures minimales et maximales de travail
+  - type: symbol
+    normative_status: admitted
+    designation: t_min et t_max
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1d580882-1a9a-53e6-affa-6ab1d9548821
+

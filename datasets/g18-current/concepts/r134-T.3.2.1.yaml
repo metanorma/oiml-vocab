@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r134-T.3.2.1
+  localized_concepts:
+    eng: e80c1d86-c384-5702-8505-f65854b7cf91
+    fra: 294ca639-a4c5-5f75-a6ba-33351ddc71ea
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.1
+    type: authoritative
+status: valid
+id: 0e24f032-af21-5dac-891a-196440cdec31
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Maximum weighing-in-motion capacity of the load receptor without totalizing.
+  examples: []
+  id: r134-T.3.2.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum capacity
+  - type: symbol
+    normative_status: admitted
+    designation: Max
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e80c1d86-c384-5702-8505-f65854b7cf91
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Charge maximale de pesage en mouvement du récepteur de charge sans totalisation.
+  examples: []
+  id: r134-T.3.2.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: portée maximale
+  - type: symbol
+    normative_status: admitted
+    designation: Max
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 294ca639-a4c5-5f75-a6ba-33351ddc71ea
+

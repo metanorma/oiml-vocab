@@ -1,0 +1,51 @@
+---
+data:
+  identifier: g22-2.3.9
+  localized_concepts:
+    eng: 90b2bdbd-82a8-5d05-98ca-0efcea5540cc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.9
+    type: authoritative
+status: valid
+id: 07d435aa-2e87-5b97-b8ec-a0f471ea85e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of a signal that has a frequency that is an integer multiple of
+      the fundamental frequency of the power input to the EVSE. The fundamental frequency
+      is generally the nominal frequency, $ f_{nom} $ , for AC EVSE
+  examples: []
+  id: g22-2.3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonic
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 90b2bdbd-82a8-5d05-98ca-0efcea5540cc
+

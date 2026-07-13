@@ -1,0 +1,58 @@
+---
+data:
+  identifier: d10-2022-spa-3.7
+  localized_concepts:
+    spa: 9d492995-3ebc-5ca0-a343-539fcd17d92e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: 8c1959ea-828f-50a3-93b8-eabd0d152bdc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: incertidumbre típica obtenida a partir de las incertidumbres típicas
+      individuales asociadas a las magnitudes de entrada de un modelo de medición
+  examples: []
+  id: d10-2022-spa-3.7-spa
+  notes:
+  - content: Cuando existan correlaciones entre las magnitudes de entrada en un modelo
+      de medición, en el cálculo de la incertidumbre típica combinada es necesario
+      también considerar las covarianzas; véase también la Guía ISO/IEC 98-3:2008,
+      2.3.4.
+  - content: 'Source citation: VIM3, 2.31'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertidumbre típica combinada de medición
+  - type: expression
+    normative_status: admitted
+    designation: incertidumbre típica combinada
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d492995-3ebc-5ca0-a343-539fcd17d92e
+

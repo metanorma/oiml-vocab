@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r137-3.2.15
+  localized_concepts:
+    eng: e4ae9516-d0a8-559f-be63-357f114bcfa6
+    fra: f3f3e26a-b5ba-59b0-9e00-2e119fba477e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.15
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.15
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.15
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.15
+    type: authoritative
+status: valid
+id: b566ec2f-c74b-51bd-abfc-664dd37141a3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Reproducibility under reference conditions and changing the flow rate
+      between the measurements.
+  examples: []
+  id: r137-3.2.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproducibility of error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4ae9516-d0a8-559f-be63-357f114bcfa6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Reproductibilité sous les conditions de référence et modifiant le débit
+      entre les mesurages.
+  examples: []
+  id: r137-3.2.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de reproductibilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f3f3e26a-b5ba-59b0-9e00-2e119fba477e
+

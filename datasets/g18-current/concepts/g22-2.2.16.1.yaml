@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g22-2.2.16.1
+  localized_concepts:
+    eng: c6767bbe-7012-50a9-9216-d2404d418f08
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.2.16.1
+    type: authoritative
+status: valid
+id: 88e5b011-9607-5249-9e88-3d68b9c21f6a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: transaction for which a recharging service is available to an end user
+      without the need for that end user to register, conclude a written agreement,
+      or enter into a longer-lasting commercial relationship with the operator of
+      that recharging point or with a charging network service provider, beyond the
+      mere purchase of the service
+  examples: []
+  id: g22-2.2.16.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.16.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ad hoc public transaction
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c6767bbe-7012-50a9-9216-d2404d418f08
+

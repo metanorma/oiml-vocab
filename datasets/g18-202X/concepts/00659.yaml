@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.24'
+    type: authoritative
 status: valid
 id: 18a896ba-8391-4cbd-87cd-177e2d020e0f
 schema_version: '3'
@@ -15,15 +24,26 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'standard deviation of the error (of indication) for a number of consecutive automatic weighings of a load, or similar loads, passed over the load receptor, expressed mathematically as:'
-  id: 00659-eng
+  - content: 'standard deviation of the error (of indication) for a number of consecutive
+      automatic weighings of a load, or similar loads, passed over the load receptor,
+      expressed mathematically as:'
+  id: '00659-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.24'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'standard deviation of the error, s'
+    designation: standard deviation of the error, s
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 52cfd672-9aa8-5d9d-ad5a-e477f7b1574b
+

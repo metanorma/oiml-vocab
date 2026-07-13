@@ -1,0 +1,57 @@
+---
+data:
+  identifier: b3-2011-e-3.14
+  localized_concepts:
+    eng: 5016650f-973b-5444-880a-2ff3c6dccdb1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:3:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+status: valid
+id: d88ebb82-a3d2-53fe-a2bd-65851d725c8a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: report issued by a Testing Laboratory, that includes results of tests
+      and examinations it carried out on the basis of the relevant OIML Recommendation
+      during OIML Type Evaluation on identified sample(s) of a given type of measuring
+      instrument or module
+  examples: []
+  id: b3-2011-e-3.14-eng
+  notes:
+  - content: See Annex C.
+  - content: Unless the OIML Recommendation states otherwise, several test reports
+      may be issued in case several Testing Laboratories are involved in covering
+      all of the tests and examinations specified in the relevant OIML Recommendation
+      (see 5.4.1)
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test report
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5016650f-973b-5444-880a-2ff3c6dccdb1
+

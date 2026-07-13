@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r139-1-2022-eng-3.2.3.1
+  localized_concepts:
+    eng: d02ad809-a0b6-5af2-99a4-8bf79ac54d9d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139-1:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.3.1
+    type: authoritative
+status: valid
+id: 3cc78511-5c85-5a32-a4fb-de2e37b31116
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the measuring device, directly affected by a measurand quantity
+      parameter producing an input signal for the transducer
+  examples: []
+  id: r139-1-2022-eng-3.2.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurand quantity sensor
+  - type: expression
+    normative_status: admitted
+    designation: sensor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d02ad809-a0b6-5af2-99a4-8bf79ac54d9d
+

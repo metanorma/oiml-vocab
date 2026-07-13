@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r85-3.5
+  localized_concepts:
+    eng: 41ee2104-3067-5ef0-8ef5-94469d667211
+    fra: 678e61e0-392a-5f77-9382-92f22241a9cf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: 318f3bfa-5fc6-5ab2-9010-d6bb18420a4d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device that provides an output quantity, having a determined relationship
+      to the input quantity.
+  examples: []
+  id: r85-3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transducer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 41ee2104-3067-5ef0-8ef5-94469d667211
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif qui fait correspondre à une grandeur d'entrée une grandeur
+      de sortie, selon une loi déterminée.
+  examples: []
+  id: r85-3.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transducteur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 678e61e0-392a-5f77-9382-92f22241a9cf
+

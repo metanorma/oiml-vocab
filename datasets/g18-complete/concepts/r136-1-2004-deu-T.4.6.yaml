@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r136-1-2004-deu-T.4.6
+  localized_concepts:
+    deu: 9174d84c-6d64-5aaf-9e4b-26532cee7ee3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.6
+    type: authoritative
+status: valid
+id: 89ac7995-8bc6-5e7d-858f-42a0d42aa1f7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Fehler größer als 1 d. Die folgenden Fehler werden als unbedeutend angesehen:
+      Fehler, die durch gleichzeitig und voneinander unabhängig auftretende Ursachen
+      im Gerät oder seinem Kontrollmessgerät entstehen; Fehler, die jegliche Messung
+      unmöglich machen; auf kurzzeitige Abweichungen der Anzeigwerte zurückzuführende
+      vorübergehende Fehler, die nicht als Messergebnis gedeutet, gespeichert oder
+      übermittelt werden können; Fehler, die so schwerwiegend sind, dass sie von den
+      an der Messung interessierten Personen unweigerlich bemerkt werden.'
+  examples: []
+  id: r136-1-2004-deu-T.4.6-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bedeutender Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9174d84c-6d64-5aaf-9e4b-26532cee7ee3
+

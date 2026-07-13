@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d5-3.11
+  localized_concepts:
+    eng: 82a46533-f463-5a5d-8a02-37cab33a3479
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:5:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+status: valid
+id: 30891845-14de-54ce-8c7c-b3d49d7cdf8b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device used for making measurements, alone or in conjunction with one
+      or more supplementary devices
+  examples: []
+  id: d5-3.11-eng
+  notes:
+  - content: A measuring instrument that can be used alone is a measuring system.
+  - content: A measuring instrument may be an indicating measuring instrument or a
+      material measure.
+  - content: 'Source citation: VIM 3.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 82a46533-f463-5a5d-8a02-37cab33a3479
+

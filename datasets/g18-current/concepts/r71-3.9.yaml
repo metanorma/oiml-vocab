@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r71-3.9
+  localized_concepts:
+    eng: 7a3d0b78-3cae-56d7-af66-525179245b33
+    deu: 3b733d35-0e9f-598b-8773-fde8491dd2de
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:71:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+status: valid
+id: 073e8704-3dcc-55f7-af70-1bfda699c4d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Distance between the free surface of the liquid and the upper reference
+      point, measured along the vertical measurement axis.
+  examples: []
+  id: r71-3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ullage
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a3d0b78-3cae-56d7-af66-525179245b33
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Abstand zwischen der freien Oberfläche der Flüssigkeit und dem oberen
+      Bezugspunkt, entlang der vertikalen Messachse gemessen.
+  examples: []
+  id: r71-3.9-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Freiraum
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3b733d35-0e9f-598b-8773-fde8491dd2de
+

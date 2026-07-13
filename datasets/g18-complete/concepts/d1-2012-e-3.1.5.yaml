@@ -1,0 +1,97 @@
+---
+data:
+  identifier: d1-2012-e-3.1.5
+  localized_concepts:
+    eng: c7511997-afeb-5eae-8479-46f713dd2ca9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+status: valid
+id: f10ee9ab-4536-50c7-908e-fb0bebb0e400
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: realization of the definition of a given quantity, with stated quantity
+      value and associated measurement uncertainty, used as a reference
+  examples:
+  - content: 1 kg mass measurement standard with an associated standard measurement
+      uncertainty of 3 $ \mu\mathrm{g} $
+  - content: 100 $ \Omega $ measurement standard resistor with an associated standard
+      measurement uncertainty of $ 1\ \mu\Omega $
+  - content: Cesium frequency standard with a relative standard measurement uncertainty
+      of $ 2 \times 1 0^{-1 5} $
+  - content: Standard buffer solution with a pH of 7.072 with an associated standard
+      measurement uncertainty of 0.006
+  - content: Set of reference solutions of cortisol in human serum having a certified
+      quantity value with measurement uncertainty for each solution
+  - content: Reference material providing quantity values with measurement uncertainties
+      for the mass concentration of each of ten different proteins
+  id: d1-2012-e-3.1.5-eng
+  notes:
+  - content: A "realization of the definition of a given quantity" can be provided
+      by a measuring system, a material measure, or a reference material.
+  - content: A measurement standard is frequently used as a reference in establishing
+      measured quantity values and associated measurement uncertainties for other
+      quantities of the same kind, thereby establishing metrological traceability
+      through calibration of other measurement standards, measuring instruments, or
+      measuring systems.
+  - content: The term "realization" is used here in the most general meaning. It denotes
+      three procedures of "realization". The first one consists in the physical realization
+      of the measurement unit from its definition and its realization in the narrowest
+      sense. The second, termed "reproduction", consists not in realizing the measurement
+      unit from its definition but in setting up a highly reproducible measurement
+      standard based on a physical phenomenon, as it happens, e.g., in the case of
+      use of frequency-stabilized lasers to establish a measurement standard for the
+      metre, of the Josephson effect for the volt or of the quantum Hall effect for
+      the ohm. The third procedure consists in adopting a material measure as a measurement
+      standard. It occurs in the case of the measurement standard of 1 kg.
+  - content: A standard measurement uncertainty associated with a measurement standard
+      is always a component of the combined standard measurement uncertainty (see
+      GUM, 2.3.4) in a measurement result obtained using the measurement standard.
+      Frequently, this component is small compared with other components of the combined
+      standard measurement uncertainty.
+  - content: Quantity value and measurement uncertainty must be determined at the
+      time when the measurement standard is used.
+  - content: Several quantities of the same kind or of different kinds may be realized
+      in one device which is commonly also called a measurement standard.
+  - content: The word "embodiment" is sometimes used in the English language instead
+      of "realization".
+  - content: 'In science and technology, the English word "standard" is used with
+      at least two different meanings: as a specification, technical recommendation,
+      or similar normative document (in French "norme") and as a measurement standard
+      (in French "etalon"). This Vocabulary is concerned solely with the second meaning.'
+  - content: The term "measurement standard" is sometimes used to denote other metrological
+      tools, e.g. 'software measurement standard', see ISO 5436-2.
+  - content: 'Source citation: VIM 5.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Measurement standard
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c7511997-afeb-5eae-8479-46f713dd2ca9
+

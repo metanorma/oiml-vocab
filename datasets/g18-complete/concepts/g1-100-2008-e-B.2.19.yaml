@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-100-2008-e-B.2.19
+  localized_concepts:
+    eng: d1afe58d-d82f-584f-a507-583ed44f6889
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.19
+    type: authoritative
+status: valid
+id: c7eafe36-a572-5313-ae68-43623c0dabb1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: result of a measurement minus a true value of the measurand
+  examples: []
+  id: g1-100-2008-e-B.2.19-eng
+  notes:
+  - content: Since a true value cannot be determined, in practice a conventional true
+      value is used [see VIM:1993 definitions 1.19 (B.2.3) and 1.20 (B.2.4)].
+  - content: When it is necessary to distinguish "error" from "relative error", the
+      former is sometimes called absolute error of measurement. This should not be
+      confused with absolute value of error, which is the modulus of the error.
+  - content: 'Source citation: VIM:1993, definition 3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.19
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error (of measurement)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d1afe58d-d82f-584f-a507-583ed44f6889
+

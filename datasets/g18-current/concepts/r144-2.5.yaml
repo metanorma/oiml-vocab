@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r144-2.5
+  localized_concepts:
+    fra: 4fa4a38c-c277-5a02-90b6-fd69bae2f492
+    eng: 4d1a2746-6eaf-5b5e-88f9-9b8d52d0b113
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+status: valid
+id: 0e90e893-b781-5d83-81ff-bdf70bfea1d0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: signal de mesure fonctionnellement lié au mesurande (fraction volumique
+      du composant à mesurer), qui entre dans l'entrée d'un instrument de mesure,
+      d'une voie de mesure ou d'un composant de conversion séparé
+  examples: []
+  id: r144-2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: signal de mesure d'entrée
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4fa4a38c-c277-5a02-90b6-fd69bae2f492
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement signal functionally related to the measurand - the volume
+      fraction of a component to be measured, which enters the input of a measuring
+      instrument, a measuring channel or a separate converter component
+  examples: []
+  id: r144-2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: input measurement signal
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4d1a2746-6eaf-5b5e-88f9-9b8d52d0b113
+

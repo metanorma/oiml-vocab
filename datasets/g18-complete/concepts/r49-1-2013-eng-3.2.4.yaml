@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2013-eng-3.2.4
+  localized_concepts:
+    eng: 1970018a-90cf-5896-8006-7a7eddb16db7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.4
+status: valid
+id: c08f01ed-15e9-5b09-9bf9-152a45f3da82
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r49-1-2013-eng-3.2.4-eng
+  notes:
+  - content: For the application of this part of OIML R 49, the indicated volume is
+      considered as the measured quantity value and the actual volume as the reference
+      quantity value. The difference between indicated volume and actual volume is
+      referred to as error (of indication).
+  - content: In this Recommendation, the error (of indication) is expressed as a percentage
+      of the actual volume.
+  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.16.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1970018a-90cf-5896-8006-7a7eddb16db7
+

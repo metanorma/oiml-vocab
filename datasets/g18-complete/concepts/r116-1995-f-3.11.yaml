@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r116-1995-f-3.11
+  localized_concepts:
+    fra: f4f53422-202a-52e5-9ba2-b32385b3d2bc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:116:1995
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 116:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+status: valid
+id: '024893ce-4a68-58c4-aaa7-98fc59e12e02'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Concentration d'un element qui permet d'obtenir un signal de sortie equivalent
+      a trois fois l'ecart-type de la moyenne du signal de sortie pour une solution
+      blanche. C'est la quantite minimale mesuree avant de pouvoir conclure qu'un
+      element a ete detecte.
+  examples: []
+  id: r116-1995-f-3.11-fra
+  notes:
+  - content: Ce terme, dans la presente Recommandation, se rapporte a la determination
+      d'un element dans une solution de reference sans elements interferents. On etablit
+      le bruit de fond en mesurant le signal de sortie de plusieurs parties aliquotes
+      de la solution blanche.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 116:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de detection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f4f53422-202a-52e5-9ba2-b32385b3d2bc
+

@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-3.2.5
+  localized_concepts:
+    eng: 27743fc2-c981-5959-a9f8-9ab568038312
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+status: valid
+id: b91e201d-5196-5b3a-a3d0-c257a1f948b8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error (3.2.4), with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given meter
+  examples: []
+  id: r49-3.2.5-eng
+  notes:
+  - content: 'Source citation: ISO/IEC Guide 99:2007|OIML V 2-200:2012 (VIM), 4.26,
+      modified - "meter" replaces "measurement, measuring instrument, or measuring
+      system"; original notes removed.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: abbreviation
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 27743fc2-c981-5959-a9f8-9ab568038312
+

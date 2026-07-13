@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r76-1-2006-fra-T.5.5.8
+  localized_concepts:
+    fra: fd3e2ee5-f184-54bf-a35e-4fa66640955b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.5.8
+    type: authoritative
+status: valid
+id: d5335d6a-ba92-5fa6-8be9-c0dbdbd47f1a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur de durabilité supérieure à $e$.
+  examples: []
+  id: r76-1-2006-fra-T.5.5.8-fra
+  notes:
+  - content: Une erreur de durabilité peut être due à l'usure ou aux avaries mécaniques,
+      ou à la dérive et au vieillissement des parties électroniques. Le concept d'erreur
+      de durabilité significative ne s'applique qu'aux parties électroniques.
+  - content: Pour les instruments à échelons multiples, la valeur de e est celle qui
+      correspond à l'étendue de pesage partielle.
+  - content: Les erreurs suivantes, qui se produisent après une certaine période d'utilisation,
+      ne sont pas considérées comme des erreurs de durabilité significatives, même
+      si elles dépassent $e$, si elles sont à l'évidence le résultat d'une panne d'un
+      dispositif ou composant, ou d'une perturbation et pour lesquelles l'indication
+      ne peut être interprétée, mémorisée, ou transmise comme résultat de mesure,
+      ou est telle qu'il est impossible d'accomplir une mesure, ou est si évidemment
+      erronée que cela ne peut manquer d'être remarqué par tous ceux qui sont intéressés
+      au résultat du mesurage.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.5.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de durabilité significative
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fd3e2ee5-f184-54bf-a35e-4fa66640955b
+

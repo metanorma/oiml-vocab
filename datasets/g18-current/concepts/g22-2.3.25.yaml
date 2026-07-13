@@ -1,0 +1,54 @@
+---
+data:
+  identifier: g22-2.3.25
+  localized_concepts:
+    eng: f7fb8698-81bc-53c7-b7c8-4a43a64fa142
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.25
+    type: authoritative
+status: valid
+id: 78f727a2-1793-5212-9817-481f9f106dd0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in this
+      Guide, but outside the specified rated operating conditions of the measuring
+      instrument
+  examples: []
+  id: g22-2.3.25-eng
+  notes:
+  - content: An influence quantity is a disturbance if the rated operating conditions
+      for that influence quantity are not specified.
+  - content: 'Source citation: OIML D 11:2013, 3.15.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.25
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7fb8698-81bc-53c7-b7c8-4a43a64fa142
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r114-2.4
+  localized_concepts:
+    eng: d469c553-3e96-5ab5-9e17-43f391b55964
+    fra: 3daa92bf-7c5c-59a3-b294-645109a1abd1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:114:1995
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+status: valid
+id: 2c12e580-3a1d-566c-916f-13b5da531cc4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The component of a thermometer that processes the output signal of the
+      temperature sensor and displays the measured temperature.
+  examples: []
+  id: r114-2.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating unit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d469c553-3e96-5ab5-9e17-43f391b55964
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Composant d'un thermometre qui traite le signal de sortie du capteur
+      de temperature et affiche la temperature mesuree.
+  examples: []
+  id: r114-2.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unite indicatrice
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3daa92bf-7c5c-59a3-b294-645109a1abd1
+

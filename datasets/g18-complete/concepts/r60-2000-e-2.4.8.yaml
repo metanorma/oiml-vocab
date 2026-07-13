@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-2000-e-2.4.8
+  localized_concepts:
+    eng: a71a1812-205b-5573-87a1-c4b3309b58cf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    type: authoritative
+status: valid
+id: 307c42bd-62f3-5977-be65-aedd9d2299d2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of a load cell, determined under reference conditions (see 2.5.3).
+  examples: []
+  id: r60-2000-e-2.4.8-eng
+  notes:
+  - content: 'Source citation: Adapted from VIM 5.24'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Load cell intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a71a1812-205b-5573-87a1-c4b3309b58cf
+

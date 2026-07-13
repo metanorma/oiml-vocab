@@ -1,0 +1,98 @@
+---
+data:
+  identifier: d10-3.20
+  localized_concepts:
+    eng: fdf3ded6-d87f-5b61-bd84-011c388e52aa
+    spa: 20bbfd12-d6fe-54f6-96bd-4dba37f1963f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+status: valid
+id: 8251ed65-b0d5-595d-83b6-a3c0d561e641
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended use in measurement
+      or in examination of nominal properties
+  examples: []
+  id: d10-3.20-eng
+  notes:
+  - content: 'Source citation: VIM3 5.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.20'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference material
+  - type: expression
+    normative_status: admitted
+    designation: RM
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fdf3ded6-d87f-5b61-bd84-011c388e52aa
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: material suficientemente homogéneo y estable con respecto a propiedades
+      especificadas, establecido como apto para su uso previsto en una medición o
+      en un examen de propiedades cualitativas
+  examples: []
+  id: d10-3.20-spa
+  notes:
+  - content: Para notas, ver VIM3, 5.13
+  - content: 'Source citation: VIM3, 5.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: material de referencia
+  - type: abbreviation
+    normative_status: admitted
+    designation: MR
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 20bbfd12-d6fe-54f6-96bd-4dba37f1963f
+

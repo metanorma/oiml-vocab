@@ -1,0 +1,51 @@
+---
+data:
+  identifier: g1-100-2008-e-C.2.4
+  localized_concepts:
+    eng: 5144fabf-759c-5bd4-ae7f-4c0a5e817269
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.4
+    type: authoritative
+status: valid
+id: 25a85f99-75e6-5d64-9b9d-59da498bbb21
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'a function giving, for every value x, the probability that the random
+      variable X be less than or equal to x: F(x) = Pr(X <= x)'
+  examples: []
+  id: g1-100-2008-e-C.2.4-eng
+  notes:
+  - content: 'Source citation: ISO 3534-1:1993, definition 1.4'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distribution function
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5144fabf-759c-5bd4-ae7f-4c0a5e817269
+

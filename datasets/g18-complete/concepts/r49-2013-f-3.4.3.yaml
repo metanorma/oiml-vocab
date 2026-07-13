@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r49-2013-f-3.4.3
+  localized_concepts:
+    eng: a9dee1d7-ae02-59fe-a4ae-6b0c36d159bd
+    fra: 5df47ab9-affb-5e5a-8f90-3ad870c1ceda
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+status: valid
+id: 74bf0494-ee1e-5c87-bf4e-4e4b768c0f5b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in this
+      part of OIML R 49, but outside the specified rated operating conditions of the
+      meter
+  examples: []
+  id: r49-2013-f-3.4.3-eng
+  notes:
+  - content: An influence quantity is a disturbance if the rated operating conditions
+      for that influence quantity are not specified.
+  - content: 'Source citation: OIML D 11:2013 [3], 3.15.2, modified — "this part of
+      OIML R 49" replaces "the relevant Recommendation"; "meter" replaces "measuring
+      instrument".'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a9dee1d7-ae02-59fe-a4ae-6b0c36d159bd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont une valeur se situe dans les limites spécifiées
+      dans cette partie de l'OIML R 49 mais en dehors des conditions assignées de
+      fonctionnement spécifiées du compteur
+  examples: []
+  id: r49-2013-f-3.4.3-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si pour cette grandeur
+      d'influence, les conditions assignées de fonctionnement ne sont pas spécifiées.
+  - content: 'Source citation: OIML D 11:2013 [3], 3.15.2, modifié — « cette partie
+      de OIML R 49 » remplace « la Recommandation Applicable » ; « compteur » remplace
+      « instrument de mesure ».'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5df47ab9-affb-5e5a-8f90-3ad870c1ceda
+

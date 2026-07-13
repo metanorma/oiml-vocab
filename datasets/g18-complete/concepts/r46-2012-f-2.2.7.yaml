@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r46-2012-f-2.2.7
+  localized_concepts:
+    eng: b8805900-7fc2-5902-ba7b-61a88fb8c7d3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+status: valid
+id: 0fc95189-fca5-531e-922b-ef44c745b7b8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: voltage specified by the manufacturer for normal operation of the meter
+  examples: []
+  id: r46-2012-f-2.2.7-eng
+  notes:
+  - content: Meters designed for operation across a range of voltages may have several
+      nominal voltage values.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal voltage (U_nom)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b8805900-7fc2-5902-ba7b-61a88fb8c7d3
+

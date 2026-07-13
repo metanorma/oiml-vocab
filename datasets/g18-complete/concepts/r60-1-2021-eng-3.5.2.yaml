@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-1-2021-eng-3.5.2
+  localized_concepts:
+    eng: 2ca9c847-1697-5c04-a640-d34d8eec3840
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.5.2
+    type: authoritative
+status: valid
+id: f122ecbf-1efc-50f1-a15d-5cbc600a0391
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: range between the maximum load of the measuring range D_max and minimum
+      load of the measuring range D_min; load cell measuring range = (D_max - D_min)
+  examples: []
+  id: r60-1-2021-eng-3.5.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load cell measuring range (for verification)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2ca9c847-1697-5c04-a640-d34d8eec3840
+

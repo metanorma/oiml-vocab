@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r46-1-spa-2.2.30
+  localized_concepts:
+    spa: 7d2bb948-f874-55c2-b837-d59513311af6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.30
+    type: authoritative
+status: valid
+id: 701d3ab9-28c7-54c2-b5d7-83bad40b24b6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Diferencia entre el error en la indicación y el error intrínseco de un
+      instrumento de medición.
+  examples: []
+  id: r46-1-spa-2.2.30-spa
+  notes:
+  - content: Principalmente, un fallo es el resultado de un cambio no deseado en los
+      datos contenidos en o que fluyen por un instrumento de medición.
+  - content: De la definición se desprende que un "fallo" es un valor numérico que
+      se expresa ya sea en una unidad de medición o como un valor relativo, por ejemplo,
+      un porcentaje.
+  - content: 'Source citation: OIML D11:2004, 3.9'
+  - content: En esta Recomendación, la definición anterior no aplica al término 'fallo
+      en tierra', en el que la palabra 'fallo' tiene su significado usual según el
+      diccionario.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.30
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fallo
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7d2bb948-f874-55c2-b837-d59513311af6
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r50-2.5.1.1
+  localized_concepts:
+    eng: dbb5ee71-44f6-502c-aff9-60092c4376d7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.5.1.1
+    type: authoritative
+status: valid
+id: 14f209be-2b20-5add-ac42-995e0c324452
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the specified rated operating
+      conditions of the measuring instrument
+  examples: []
+  id: r50-2.5.1.1-eng
+  notes:
+  - content: 'Source citation: OIML D 11, 3.13.1 [4]'
+  - content: The variation of an indication as a consequence of an influence factor
+      is considered an error and not a fault.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.5.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dbb5ee71-44f6-502c-aff9-60092c4376d7
+

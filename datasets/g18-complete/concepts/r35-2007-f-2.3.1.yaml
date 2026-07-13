@@ -1,0 +1,79 @@
+---
+data:
+  identifier: r35-2007-f-2.3.1
+  localized_concepts:
+    eng: 37084502-de04-512e-a8e7-3b190c87cebb
+    fra: 366854ab-c130-5047-933c-0df814d6b79d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:35:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35:2007
+        version: '2007'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.1
+status: valid
+id: bda8b39f-e4cb-5a33-a55d-442511d7e887
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity that is not the subject of the measurement but which influences
+      the values of the measurand or the indication of the instrument.
+  examples: []
+  id: r35-2007-f-2.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35:2007
+        version: '2007'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 37084502-de04-512e-a8e7-3b190c87cebb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur qui ne fait pas l'objet du mesurage mais qui influe sur la valeur
+      du mesurande ou sur les indications de l'instrument.
+  examples: []
+  id: r35-2007-f-2.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35:2007
+        version: '2007'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Grandeur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 366854ab-c130-5047-933c-0df814d6b79d
+

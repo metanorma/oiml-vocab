@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g22-2.3.35
+  localized_concepts:
+    eng: 605f2ddb-1a69-5242-92c7-6c6f4fb46faf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.35
+    type: authoritative
+status: valid
+id: 872b09d1-f406-516e-a1cb-f60e5eb1312a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: direction of energy flow from the EV through the EVSE to the nominal
+      supply
+  examples: []
+  id: g22-2.3.35-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.35
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: negative (energy) flow
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 605f2ddb-1a69-5242-92c7-6c6f4fb46faf
+

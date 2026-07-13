@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r128-3.7
+  localized_concepts:
+    fra: b1f2f35c-26f3-5cb7-80b3-18265bb27cb1
+    eng: 6855fcf1-3ed7-5226-8ada-52cbc954af83
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:128:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: 4d1a9233-48f3-563f-adda-dbcd5aff78c3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'angle alpha est l'angle entre la direction de réglage de la hauteur
+      de selle (tube de siège) et la verticale (voir Fig.1).
+  examples: []
+  id: r128-3.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: angle alpha
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b1f2f35c-26f3-5cb7-80b3-18265bb27cb1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The angle alpha is the angle between the saddle-height adjustment direction
+      (seat tube) and the vertical.
+  examples: []
+  id: r128-3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Angle alpha
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6855fcf1-3ed7-5226-8ada-52cbc954af83
+

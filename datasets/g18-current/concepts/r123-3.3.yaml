@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r123-3.3
+  localized_concepts:
+    fra: 39ec4ab0-cbb0-5cf5-b454-13c88fcdbaf6
+    eng: 59139213-42e3-5835-ad3a-ecffc031b6ec
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+status: valid
+id: 9fb477a5-3e52-5875-8db9-d12bf1132362
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif de conversion de l'energie absorbee a partir des rayons X
+      emis par un echantillon en signaux electriques.
+  examples: []
+  id: r123-3.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detecteur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 39ec4ab0-cbb0-5cf5-b454-13c88fcdbaf6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device that converts the energy absorbed from the X-rays emitted by a
+      sample into electric signals.
+  examples: []
+  id: r123-3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 59139213-42e3-5835-ad3a-ecffc031b6ec
+

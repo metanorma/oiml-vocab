@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r129-2.3.13
+  localized_concepts:
+    deu: 77f4f4aa-691b-50cf-a922-d6a01f4c9f2b
+    eng: 00e05b4d-7839-56df-b4a5-8837e814db6e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.13
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.13
+    type: authoritative
+status: valid
+id: 051a7cd4-4a2f-57b4-9855-aa7f77c96258
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fähigkeit des Messgeräts, die vorgesehenen Funktionen auszuführen
+  examples: []
+  id: r129-2.3.13-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Leistungsfähigkeit
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77f4f4aa-691b-50cf-a922-d6a01f4c9f2b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ability of the measuring instrument to accomplish its intended functions
+  examples: []
+  id: r129-2.3.13-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: performance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 00e05b4d-7839-56df-b4a5-8837e814db6e
+

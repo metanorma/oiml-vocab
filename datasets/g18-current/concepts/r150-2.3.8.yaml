@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r150-2.3.8
+  localized_concepts:
+    eng: a67b61ff-e7e5-5fd8-b8f5-a97317d6fe20
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+status: valid
+id: 2fd7c8b7-3ff3-5d95-9a15-f47d4a2e8e81
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: time between the moment that power is applied to an instrument and the
+      moment that the instrument is capable of complying with the requirements
+  examples: []
+  id: r150-2.3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: warm-up time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a67b61ff-e7e5-5fd8-b8f5-a97317d6fe20
+

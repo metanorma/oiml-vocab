@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r132-3.10
+  localized_concepts:
+    fra: 0bd9e917-e4e5-5c27-85c6-e8b2f985adb8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:132:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: b715466b-cd2b-5290-8e02-c3dd1c4de165
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Représentation mathématique de la relation entre la réponse du dosimètre
+      et la dose absorbée pour un système dosimétrique donné.
+  examples: []
+  id: r132-3.10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fonction de réponse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0bd9e917-e4e5-5c27-85c6-e8b2f985adb8
+

@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r35-2-2011-deu-2.16
+  localized_concepts:
+    deu: 99aa736c-9b01-5707-b922-340defdd3f42
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:35-2:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+status: valid
+id: 798287ad-e420-5da7-b70d-eb9cbc4cb82d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fehler, dessen Größenordnung höher ist als ein Fünftel der Größenordnung
+      der Fehlergrenze für die gemessene Länge.
+  examples: []
+  id: r35-2-2011-deu-2.16-deu
+  notes:
+  - content: 'Die folgenden Fehler werden als nicht significant betrachtet, auch wenn
+      sie den oben festgelegten Wert überschreiten: a) Fehler, die durch gleichzeitig
+      und voneinander unabhängig auftretende Ursachen im elektronischen Gerät entstehen;
+      b) Fehler, die jede Messung unmöglich machen; c) auf momentane Abweichungen
+      zurückzuführende vorübergehende Fehler, die nicht als Messergebnis gedeutet,
+      gespeichert oder übermittelt werden können; d) Fehler, bei denen beim Messergebnis
+      Schwankungen auftreten, die so gravierend sind, dass sie von allen am Messergebnis
+      Interessierten wahrgenommen werden.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Signifikanter Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99aa736c-9b01-5707-b922-340defdd3f42
+

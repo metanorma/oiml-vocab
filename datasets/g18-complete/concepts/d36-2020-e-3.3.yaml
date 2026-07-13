@@ -1,0 +1,55 @@
+---
+data:
+  identifier: d36-2020-e-3.3
+  localized_concepts:
+    eng: f7fc51f9-e1d1-5ae9-b669-e59660a5ed85
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:36:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 36:2020
+        version: '2020'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+status: valid
+id: 7c065353-acad-54bc-ac6c-90fc9aafebbf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: contact sensor or a non-contact (optical or mechanical) sensor that is
+      used to detect the position of the displacer
+  examples: []
+  id: d36-2020-e-3.3-eng
+  notes:
+  - content: A mechanical detector using a cantilever is often employed in certain
+      pipe provers. The lever is pushed by the displacer and actuates an electrical
+      switch installed outside the pipe wall. A linear encoder is used for a piston
+      prover to transmit a pulse signal that is proportional to the displacement of
+      the displacer.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 36:2020
+        version: '2020'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7fc51f9-e1d1-5ae9-b669-e59660a5ed85
+

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-2023-e-3.2.4
+  localized_concepts:
+    eng: 3ce65b2d-2ecc-534e-a71a-af04edfca97a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+status: valid
+id: 0e330ced-0c74-52cd-afb9-d3eb45fc60a3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device constructed for the specific purpose of a metrological task
+  examples: []
+  id: d31-2023-e-3.2.4-eng
+  notes:
+  - content: Built-for-purpose devices include devices that may not incorporate an
+      operating system.
+  - content: If an operating system is present, it is not directly accessible.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: built-for-purpose device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3ce65b2d-2ecc-534e-a71a-af04edfca97a
+

@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r50-1-1997-fra-T.5.5
+  localized_concepts:
+    fra: b22f1141-9680-50c3-9b21-22f01db49ffb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50-1:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.5.5
+    type: authoritative
+status: valid
+id: e944a1cd-b2f7-5c75-8bdc-26ea3a71a673
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Defaut supérieur à la valeur absolue de l'erreur maximale tolérée appropriée
+      pour les essais de facteur d'influence avec une charge égale à la charge minimale
+      totalisée $(\Sigma_{\mathrm{min}})$ pour la classe désignée de la peseuse sur
+      bande.
+  examples: []
+  id: r50-1-1997-fra-T.5.5-fra
+  notes:
+  - content: 'Ne sont pas considérés comme défauts significatifs: les défauts provenant
+      de causes simultanées et mutuellement indépendantes dans la peseuse sur bande
+      ou son équipement de contrôle; les défauts rendant impossible l''exécution de
+      tout mesurage; les défauts transitoires consistant en des variations momentanées
+      des indications et qui ne peuvent être interprétées, mémorisées ou transmises
+      en tant que résultat de mesure; les défauts si importants qu''ils ne peuvent
+      manquer d''être remarqués par les personnes intéressées au mesurage.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.5.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b22f1141-9680-50c3-9b21-22f01db49ffb
+

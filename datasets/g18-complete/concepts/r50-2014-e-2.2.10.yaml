@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r50-2014-e-2.2.10
+  localized_concepts:
+    eng: b411a7c4-760c-5808-8680-1b39a909a699
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+status: valid
+id: 5ee3b55b-8402-553d-8c10-d5bc2d244b1b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: identifiable part of an instrument or device that performs a specific
+      function or functions, and that can be separately evaluated according to the
+      metrological and technical performance requirements in this Recommendation
+  examples: []
+  id: r50-2014-e-2.2.10-eng
+  notes:
+  - content: The modules of a weighing instrument may be subject to specified partial
+      error limits.
+  - content: Modules may be examined separately (subject to agreement with the metrological
+      authority (see 6.1.6).
+  - content: 'Typical modules of an automatic weighing instrument are: load cell,
+      indicator, analogue or digital processors, weighing module, remote display,
+      software.'
+  - content: 'Source citation: OIML B3, 3.4 [3]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b411a7c4-760c-5808-8680-1b39a909a699
+

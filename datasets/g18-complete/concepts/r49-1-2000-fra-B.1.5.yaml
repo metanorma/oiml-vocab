@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2000-fra-B.1.5
+  localized_concepts:
+    fra: 0cc29bd0-fc17-50eb-bc85-96a719812f06
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.5
+    type: authoritative
+status: valid
+id: 5a588eb3-fc85-5a63-983d-9d1ea82ea777
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: débit le plus élevé dans les conditions assignées de fonctionnement,
+      pour lequel le compteur d'eau doit fonctionner de façon satisfaisante dans les
+      limites de l'erreur maximale tolérée
+  examples: []
+  id: r49-1-2000-fra-B.1.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit permanent
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{3}$"
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0cc29bd0-fc17-50eb-bc85-96a719812f06
+

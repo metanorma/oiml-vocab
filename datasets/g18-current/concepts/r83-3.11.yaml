@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r83-3.11
+  localized_concepts:
+    eng: e2390b11-3472-5dcc-afdc-1eb474b533f3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:83:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+status: valid
+id: d0d8fab2-d76f-5a65-9cb5-335b80f70d2e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Closeness of agreement between results of successive measurements of
+      the same measurand carried out under the same conditions and within a relative
+      short period of time.
+  examples: []
+  id: r83-3.11-eng
+  notes:
+  - content: Such conditions include the following - method of measurement, operator,
+      measuring instrument, location, and environmental conditions.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:2006
+        version: '2006'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e2390b11-3472-5dcc-afdc-1eb474b533f3
+

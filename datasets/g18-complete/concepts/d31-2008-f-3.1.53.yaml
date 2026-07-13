@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d31-2008-f-3.1.53
+  localized_concepts:
+    fra: 99f8e42b-9629-53ed-84a6-f0eaaeb9e1af
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.53
+    type: authoritative
+status: valid
+id: 55f613b4-239c-52e9-80a5-3e6cb8f28fc9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Paramètre réglementairement pertinent ayant une valeur qui dépend uniquement
+      du type de l'instrument. Les paramètres spécifiques au type font partie du logiciel
+      réglementairement pertinent.
+  examples:
+  - content: Considérant un ensemble de mesurage de liquides autres que l'eau, la
+      plage de viscosité cinématique d'une turbine est un paramètre spécifique au
+      type qui est fixé par l'approbation de type de la turbine.
+  id: d31-2008-f-3.1.53-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.53
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Paramètre spécifique au type
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99f8e42b-9629-53ed-84a6-f0eaaeb9e1af
+

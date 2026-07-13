@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r45-2.3.1
+  localized_concepts:
+    fra: 6398c2bd-634d-53c9-8d1b-6e3de618c402
+    eng: 55280cae-13d8-5028-9ab1-05da683e6bfb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:45:1980
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+status: valid
+id: b7ca566e-2763-5d49-bf37-7102abe0a8ff
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: On entend par "tare humide", la masse d'un tonneau vide, y compris les
+      bouchons, tampons, etc..., servant à fermer les orifices, déterminée après mouillage
+      préalable de l'intérieur et égouttage pendant 30 secondes.
+  examples: []
+  id: r45-2.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tare humide
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6398c2bd-634d-53c9-8d1b-6e3de618c402
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The expression "wet tare" defines the weight of an empty cask, including
+      the plugs, bungs, etc., used to close the orifices, measured after prior wetting
+      of the interior, and draining for 30 seconds.
+  examples: []
+  id: r45-2.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wet tare
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 55280cae-13d8-5028-9ab1-05da683e6bfb
+

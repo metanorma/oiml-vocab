@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-100-2008-e-B.2.11
+  localized_concepts:
+    eng: b02ae6ae-52b8-565c-9acf-fa93deff8e9e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.11
+    type: authoritative
+status: valid
+id: 9d3a9801-5372-5b75-bcf5-b00022504e30
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value attributed to a measurand, obtained by measurement
+  examples: []
+  id: g1-100-2008-e-B.2.11-eng
+  notes:
+  - content: 'When a result is given, it should be made clear whether it refers to:
+      the indication; the uncorrected result; the corrected result; and whether several
+      values are averaged.'
+  - content: A complete statement of the result of a measurement includes information
+      about the uncertainty of measurement.
+  - content: 'Source citation: VIM:1993, definition 3.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: result of a measurement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b02ae6ae-52b8-565c-9acf-fa93deff8e9e
+

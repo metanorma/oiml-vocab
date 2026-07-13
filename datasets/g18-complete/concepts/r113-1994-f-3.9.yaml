@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r113-1994-f-3.9
+  localized_concepts:
+    fra: dabbd64c-0e4b-5da9-b3ca-c97b463c0807
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:113:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+status: valid
+id: 818e9985-bcc9-5756-9da8-8e4febec8cac
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus petite quantite d'un composant de l'echantillon qui produit un signal
+      de sortie du detecteur trois fois superieur au bruit a court terme.
+  examples: []
+  id: r113-1994-f-3.9-fra
+  notes:
+  - content: Ce terme est aussi appele "detectabilite minimale" ou "limite minimale
+      detectable (MDL)" dans les references et la litterature des constructeurs. La
+      limite de detection est parfois definie comme un signal de sortie egal a un
+      autre multiple (par exemple deux ou dix) du niveau de bruit et peut dependre
+      si le chromatographe en phase gazeuse est utilise pour l'analyse quantitative
+      ou qualitative [1].
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de detection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dabbd64c-0e4b-5da9-b3ca-c97b463c0807
+

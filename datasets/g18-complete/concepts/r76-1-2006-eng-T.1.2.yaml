@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r76-1-2006-eng-T.1.2
+  localized_concepts:
+    eng: c2c4e304-671b-5114-afe7-c21625ca32ac
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+status: valid
+id: 37381572-d154-5b8f-9267-3b5a17f63671
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument that requires the intervention of an operator during the weighing
+      process to decide that the weighing result is acceptable.
+  examples: []
+  id: r76-1-2006-eng-T.1.2-eng
+  notes:
+  - content: Deciding that the weighing result is acceptable includes any intelligent
+      action by the operator that affects the result, such as taking an action when
+      an indication is stable or adjusting the mass of the weighed load, and to make
+      a decision regarding the acceptance of each weighing result on observing the
+      indication or releasing a print out.
+  - content: In this Recommendation a non-automatic weighing instrument is called
+      an "instrument".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: non-automatic weighing instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c2c4e304-671b-5114-afe7-c21625ca32ac
+

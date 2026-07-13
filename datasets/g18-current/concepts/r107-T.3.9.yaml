@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r107-T.3.9
+  localized_concepts:
+    eng: 8085d677-7670-5847-b2bd-6250f870f180
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+status: valid
+id: ae44b823-e02d-50ad-9dfa-ca99619cda35
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Closeness of the agreement between the results of successive measurements
+      of the same measurand carried out under the same conditions of measurement.
+  examples: []
+  id: r107-T.3.9-eng
+  notes:
+  - content: For an instrument, this is its ability to provide weighing results that
+      agree one with the other under the same or constant operating conditions.
+  - content: 'Source citation: VIM: 1993, 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8085d677-7670-5847-b2bd-6250f870f180
+

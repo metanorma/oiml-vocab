@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r129-2.1.1.2
+  localized_concepts:
+    deu: 85b4f6b1-94cb-5004-be99-f96d33699755
+    eng: 8ce99978-8d65-52d5-a292-21f61301f6d4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.1.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.1.2
+    type: authoritative
+status: valid
+id: d0744694-450e-53f1-b0b4-01e0b082d883
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: gemessene Längenabmessung, die bezogen auf Länge und Höhe in einem Winkel
+      von 90 Grad ausgerichtet ist
+  examples: []
+  id: r129-2.1.1.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Breite (B)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 85b4f6b1-94cb-5004-be99-f96d33699755
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: linear measured dimension that is oriented 90 degrees relative to the
+      length and height
+  examples: []
+  id: r129-2.1.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: width (W)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8ce99978-8d65-52d5-a292-21f61301f6d4
+

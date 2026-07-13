@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r126-3.1.24
+  localized_concepts:
+    eng: 4eeb125d-dba2-5b61-9b6d-64f379de2d23
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.24
+    type: authoritative
+status: valid
+id: b606c386-647e-50bf-a2ae-bf09a6d9f21c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: non-negative parameter characterising the dispersion of the quantity
+      values being attributed to a measurand, based on the information used
+  examples: []
+  id: r126-3.1.24-eng
+  notes:
+  - content: For more information, see OIML G 1-100 Evaluation of measurement data
+      - Guide to the expression of uncertainty in measurement.
+  - content: 'Source citation: OIML V 2-200, 2.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.24
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: uncertainty of a measurement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4eeb125d-dba2-5b61-9b6d-64f379de2d23
+

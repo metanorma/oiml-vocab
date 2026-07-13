@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r144-2013-e-2.21
+  localized_concepts:
+    eng: 4eeec007-cba0-58b7-8c0f-a90a16c323f0
+    fra: 204facb9-8591-54e9-9f2d-b993fb04a589
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.21'
+    type: authoritative
+status: valid
+id: 02bf45c1-46bf-5866-a253-5d192b2ca1c2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility that is incorporated in a measuring instrument and which enables
+      significant faults to be detected and acted upon
+  examples: []
+  id: r144-2013-e-2.21-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.)'
+  - content: 'Source citation: VIML 2012 (V1), 5.06 [25]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.21'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4eeec007-cba0-58b7-8c0f-a90a16c323f0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: système incorporé dans un instrument de mesure qui met de détecter et
+      de mettre en évidence les défauts significatifs
+  examples: []
+  id: r144-2013-e-2.21-fra
+  notes:
+  - content: La « mise en évidence » fait référence à toute appropriée de l'instrument
+      de mesure (signal lumineux, signal acoustique, blocage du processus surage,
+      etc.)
+  - content: 'Source citation: VIML 2012 (V1), 5.06 [25]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.21'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de contrôle
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 204facb9-8591-54e9-9f2d-b993fb04a589
+

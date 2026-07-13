@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d31-2023-e-3.2.22
+  localized_concepts:
+    eng: 583b98a3-f757-532d-a8ed-43cc7d60006c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.22
+    type: authoritative
+status: valid
+id: 1f629759-f9b7-5aad-aa3c-7d82b00e84b1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: digital information installed in the measuring instrument or component
+      (EPROM, hard disk, etc.)
+  examples: []
+  id: d31-2023-e-3.2.22-eng
+  notes:
+  - content: This code is interpreted by the central processing unit (CPU) of the
+      measuring instrument and converted into certain logical, arithmetical, decoding
+      or data transporting operations.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.22
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: executable code
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 583b98a3-f757-532d-a8ed-43cc7d60006c
+

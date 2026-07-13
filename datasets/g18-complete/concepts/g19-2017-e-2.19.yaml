@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g19-2017-e-2.19
+  localized_concepts:
+    eng: c5a11d10-aa68-5aaa-aa46-1fd168c47aa0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.19'
+status: valid
+id: 245ef7e0-31b3-5bab-8de7-9b5776a85753
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: probability that a particular rejected item is conforming
+  examples: []
+  id: g19-2017-e-2.19-eng
+  notes:
+  - content: 'Source citation: JCGM 106 3.3.16 called specific producer''s risk'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.19'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: risk of false rejection
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c5a11d10-aa68-5aaa-aa46-1fd168c47aa0
+

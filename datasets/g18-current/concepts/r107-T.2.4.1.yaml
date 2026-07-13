@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r107-T.2.4.1
+  localized_concepts:
+    eng: d21092b8-a899-565a-9da6-5f98dcc22a79
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+status: valid
+id: c780cf95-dc74-5263-9442-acbc7bab1d2b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device for setting the indication to zero by an operator.
+  examples: []
+  id: r107-T.2.4.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: non-automatic zero-setting device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d21092b8-a899-565a-9da6-5f98dcc22a79
+

@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r75-3.4.2
+  localized_concepts:
+    eng: 0e1f1962-65d6-57b4-82ef-1e0e01b3ffcf
+    fra: a3d0c9be-ead4-599d-9756-a94a0f84863e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+status: valid
+id: 695763e8-d6ea-5a40-b8f3-c2f186047e85
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A sub-assembly (for mounting with or without pockets), which senses the
+      temperatures of the heatconveying liquid at the flow and return of a heatexchange
+      circuit.
+  examples: []
+  id: r75-3.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temperature sensor pair
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0e1f1962-65d6-57b4-82ef-1e0e01b3ffcf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Sous-ensemble (à monter avec ou sans doigts de gant) qui détecte les
+      températures du liquide caloporteur à l'entrée et à la sortie du circuit d'échange
+      thermique.
+  examples: []
+  id: r75-3.4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Paire de sondes de température
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a3d0c9be-ead4-599d-9756-a94a0f84863e
+

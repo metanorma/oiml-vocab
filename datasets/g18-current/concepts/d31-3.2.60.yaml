@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d31-3.2.60
+  localized_concepts:
+    eng: d12273d1-7fc8-5645-b9ce-e81c4e1a80e0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.60
+    type: authoritative
+status: valid
+id: 45f16199-0ad4-50dc-b162-892f8696922f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: program code and dedicated data domain; receiving, filtering, or transmitting
+      data between software modules
+  examples: []
+  id: d31-3.2.60-eng
+  notes:
+  - content: A software interface is not necessarily legally relevant.
+  - content: A software interface is an interface between two or more software modules
+      used to exchange data and transmit commands.
+  - content: 'Source citation: [OIML V 1:2022, 6.03]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.60
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d12273d1-7fc8-5645-b9ce-e81c4e1a80e0
+

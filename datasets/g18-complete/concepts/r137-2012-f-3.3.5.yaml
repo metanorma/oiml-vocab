@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r137-2012-f-3.3.5
+  localized_concepts:
+    fra: 25a0dff4-c327-51d4-b581-3a94f0ab7f81
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.5
+    type: authoritative
+status: valid
+id: afdd0965-f5c7-54ae-a5db-e0e4d3a31e50
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Température du gaz qui doit être mesurée au niveau du compteur de gaz.
+  examples: []
+  id: r137-2012-f-3.3.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: température de travail
+  - type: symbol
+    normative_status: admitted
+    designation: t_w
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 25a0dff4-c327-51d4-b581-3a94f0ab7f81
+

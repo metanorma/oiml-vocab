@@ -1,0 +1,59 @@
+---
+data:
+  identifier: d31-3.2.14
+  localized_concepts:
+    eng: a8687a46-5f50-516e-8594-a48f515ad761
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+status: valid
+id: b0e8d621-f2ba-512e-9091-4318a6027bf4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: software means which is added to software or data with the purpose to
+      verify the origin of software or data, i.e., to prove their authenticity, or
+      to check that the software or data are unchanged, i.e., to prove their integrity
+  examples: []
+  id: d31-3.2.14-eng
+  notes:
+  - content: For digital signing, a public key system is used in general, i.e. a pair
+      of keys where only one needs to be kept private/secret; the other may be public.
+  - content: The private key is used when software or data are secured. The public
+      key is used when software or data are verified before use.
+  - content: The verifying instance may require a cryptographic certificate of the
+      securing instance (see 3.2.9) to be sure of the authenticity of the public key.
+  - content: 'A digital signature provides nonrepudiation: the signee cannot deny
+      signing the software or data.'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: digital signature
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a8687a46-5f50-516e-8594-a48f515ad761
+

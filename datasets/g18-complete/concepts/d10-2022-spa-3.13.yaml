@@ -1,0 +1,62 @@
+---
+data:
+  identifier: d10-2022-spa-3.13
+  localized_concepts:
+    spa: efd405db-f808-5365-bd28-8757b2414d85
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+status: valid
+id: a8641481-1b78-5f6b-8b82-385beb4e7258
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valor extremo del error de medición, con respecto a un valor de referencia
+      conocido, permitido por especificaciones o reglamentaciones, para una medición,
+      instrumento de medición, o sistema de medición dado
+  examples: []
+  id: d10-2022-spa-3.13-spa
+  notes:
+  - content: En general, los términos "errores máximos permitidos" o "límites de error"
+      se utilizan cuando existen dos valores extremos.
+  - content: No es conveniente utilizar el término «tolerancia» para designar el "error
+      máximo permitido".
+  - content: 'Source citation: VIM3, 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error máximo permitido
+  - type: expression
+    normative_status: admitted
+    designation: error máximo tolerado
+  - type: expression
+    normative_status: admitted
+    designation: límite de error
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: efd405db-f808-5365-bd28-8757b2414d85
+

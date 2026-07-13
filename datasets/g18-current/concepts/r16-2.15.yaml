@@ -1,0 +1,113 @@
+---
+data:
+  identifier: r16-2.15
+  localized_concepts:
+    eng: 72230643-e7df-55a1-ba25-41d98b1d3367
+    fra: d4c34613-3f47-50a6-be1c-4c20f4fe405e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:16:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+status: valid
+id: 1f7ea365-dd5e-5047-ae2c-570670e7c231
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Means of preventing the user from gaining easy access to the measuring
+      mechanism of the device.
+  examples: []
+  id: r16-2.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tamper proofing
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 72230643-e7df-55a1-ba25-41d98b1d3367
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif qui simule les pulsations oscillométriques du brassard et/ou
+      les sons auscultatoires pendant le gonflage et le dégonflage.
+  examples: []
+  id: r16-2.15-fra
+  notes:
+  - content: Ce dispositif n'est pas utilisé pour vérifier l'exactitude mais il est
+      nécessaire pour évaluer la stabilité des performances.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Simulateur de patient
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d4c34613-3f47-50a6-be1c-4c20f4fe405e
+

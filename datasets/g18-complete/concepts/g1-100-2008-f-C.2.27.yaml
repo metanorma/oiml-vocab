@@ -1,0 +1,60 @@
+---
+data:
+  identifier: g1-100-2008-f-C.2.27
+  localized_concepts:
+    fra: a9735013-60c1-51e8-b55a-ac3a820d237b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.27
+    type: authoritative
+status: valid
+id: 9f93e4f7-e004-5691-94ec-cdfafbe2c9f2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quand T_1 et T_2 sont deux fonctions des valeurs observées telles que,
+      theta étant un paramètre de population à estimer, la probabilité Pr(T_1 <= theta
+      <= T_2) soit au moins égale à (1 - alpha) [où (1 - alpha) est un nombre fixé,
+      positif et inférieur à 1], l'intervalle entre T_1 et T_2 est un intervalle de
+      confiance bilatéral à (1 - alpha) pour theta
+  examples: []
+  id: g1-100-2008-f-C.2.27-fra
+  notes:
+  - content: Les limites T_1 et T_2 de l'intervalle de confiance sont des statistiques
+      qui, comme telles, auront en général des valeurs différentes d'échantillon en
+      échantillon.
+  - content: Dans une longue série d'échantillons, la fréquence des cas où la valeur
+      vraie du paramètre de la population theta est contenue par l'intervalle de confiance,
+      est égale ou supérieure à (1 - alpha).
+  - content: 'Source citation: ISO 3534-1:1993, definition 2.57'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.27
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intervalle de confiance bilatéral
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a9735013-60c1-51e8-b55a-ac3a820d237b
+

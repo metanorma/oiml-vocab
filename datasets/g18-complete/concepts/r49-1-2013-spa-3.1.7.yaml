@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2013-spa-3.1.7
+  localized_concepts:
+    spa: 8c42a44e-eb5f-5156-8dae-7a911553b4f7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: 2f84fdf2-f6d2-596e-8cb6-52996cd1b7d6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Es un dispositivo conectado o incorporado al medidor para corregir automáticamente
+      el volumen de agua bajo las condiciones de medición, tomando en cuenta el caudal
+      y/o las características del agua a ser medida y las curvas de calibración preestablecidas.
+  examples: []
+  id: r49-1-2013-spa-3.1.7-spa
+  notes:
+  - content: Las características del agua (por ejemplo, la temperatura y presión)
+      pueden también ser medidas utilizando instrumentos de medición asociados, o
+      almacenadas en la memoria del medidor.
+  - content: Para la definición del término "corrección", ver OIML V 2-200:2012 (VIM)
+      [1], 2.53.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositivo de corrección
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8c42a44e-eb5f-5156-8dae-7a911553b4f7
+

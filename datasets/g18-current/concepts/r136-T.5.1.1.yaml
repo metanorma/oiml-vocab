@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r136-T.5.1.1
+  localized_concepts:
+    eng: 054c4555-6c78-5d0d-a9db-10aefa3bf8bf
+    deu: 1ba4ab9e-5a06-5b44-8eed-a340e707cc38
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.5.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.5.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 136:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.5.1.1
+    type: authoritative
+status: valid
+id: f55eeea7-931e-52c4-a14a-45cf87a74dc6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Influence quantity having a value within the specified rated operating
+      conditions of the instrument.
+  examples: []
+  id: r136-T.5.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.5.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 054c4555-6c78-5d0d-a9db-10aefa3bf8bf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einflussgröße, deren Wert innerhalb der angegebenen Nennbetriebsbedingungen
+      des Geräts liegt.
+  examples: []
+  id: r136-T.5.1.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.5.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Einflussfaktor
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ba4ab9e-5a06-5b44-8eed-a340e707cc38
+

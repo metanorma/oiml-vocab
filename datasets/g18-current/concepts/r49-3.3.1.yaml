@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r49-3.3.1
+  localized_concepts:
+    eng: d5a61a6b-dc73-574c-b8f0-b121121a9802
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+status: valid
+id: 06f5ddc7-a009-5641-89e7-c77522eb2e46
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Q = dV/dt where V is actual volume (3.2.1) and t is the time taken for
+      this volume to pass through the meter
+  examples: []
+  id: r49-3.3.1-eng
+  notes:
+  - content: ISO 4006:1991, 4.1.2 prefers the use of the symbol $q_{V}$ for this quantity,
+      but Q is used in this Recommendation as it is well established in the industry.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: flow rate
+  - type: symbol
+    normative_status: preferred
+    designation: Q
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d5a61a6b-dc73-574c-b8f0-b121121a9802
+

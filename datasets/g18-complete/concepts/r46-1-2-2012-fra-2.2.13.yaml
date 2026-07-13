@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r46-1-2-2012-fra-2.2.13
+  localized_concepts:
+    fra: 513f1bae-401c-54fd-baf3-54205891e057
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.13
+status: valid
+id: 03accee3-6030-5262-a7d3-0c780268df03
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rapport de la valeur efficace du contenu harmonique sur la valeur efficace
+      du terme fondamental
+  examples: []
+  id: r46-1-2-2012-fra-2.2.13-fra
+  notes:
+  - content: Le contenu harmonique est obtenu par exemple en soustrayant d'une grandeur
+      alternative non sinusoïdale son terme fondamental.
+  - content: Le facteur de distorsion est généralement exprimé en pourcentage. Il
+      est équivalent à la DHT, distorsion harmonique totale.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.13
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur de distorsion (d)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 513f1bae-401c-54fd-baf3-54205891e057
+

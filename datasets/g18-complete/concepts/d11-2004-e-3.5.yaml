@@ -1,0 +1,51 @@
+---
+data:
+  identifier: d11-2004-e-3.5
+  localized_concepts:
+    eng: 1ffe5c7a-5568-59c6-b724-2810d7ae0656
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+status: valid
+id: b588becc-65f7-539f-9194-89f955194993
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication of a measuring instrument minus a true value of the corresponding
+      input quantity.
+  examples: []
+  id: d11-2004-e-3.5-eng
+  notes:
+  - content: 'Source citation: VIM 5.20'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error (of indication)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ffe5c7a-5568-59c6-b724-2810d7ae0656
+

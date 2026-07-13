@@ -1,0 +1,57 @@
+---
+data:
+  identifier: d10-2022-spa-3.12
+  localized_concepts:
+    spa: ea1610af-f2ae-5dbb-8f0f-79c99a68b4bc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+status: valid
+id: 8e51307b-b850-5b53-aeb8-18c043bb9864
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrumento de medición que reproduce o proporciona de manera permanente
+      durante su utilización, magnitudes de uno o más tipos dados, cada una de ellas
+      con un valor asignado
+  examples:
+  - content: Pesa patrón, medida de volumen (que ofrece uno o más valores, con o sin
+      escala de valores), resistencia eléctrica patrón, regla graduada, bloque patrón,
+      generador de señales
+  id: d10-2022-spa-3.12-spa
+  notes:
+  - content: La indicación de una medida materializada es su valor asignado.
+  - content: Una medida materializada puede ser un patrón.
+  - content: 'Source citation: VIM3, 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: medida materializada
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ea1610af-f2ae-5dbb-8f0f-79c99a68b4bc
+

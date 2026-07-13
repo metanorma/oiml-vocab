@@ -1,0 +1,140 @@
+---
+data:
+  identifier: r46-2.2.39
+  localized_concepts:
+    eng: f1184242-c6a9-50ae-9c23-aff245d1c46a
+    spa: 9108ecbf-64a9-56c4-9299-eca4010282f7
+    fra: 7b241ae4-1937-5bc2-99ce-4c90259d3dd5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.39
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.39
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.39
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.39
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.39
+    type: authoritative
+status: valid
+id: e7b10945-9c51-574b-96f7-f9c65195dd3c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "(for positive-direction only meters) direction of flow in the opposite
+      direction to positive"
+  examples: []
+  id: r46-2.2.39-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.39
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reverse (energy) flow
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f1184242-c6a9-50ae-9c23-aff245d1c46a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "(Para medidores unicamente en direccion positiva) Dirección del flujo
+      en la direccion opuesta a positiva."
+  examples: []
+  id: r46-2.2.39-spa
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.39
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Flujo (de energía) inverso
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9108ecbf-64a9-56c4-9299-eca4010282f7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sens de l'écoulement dans le sens opposé au positif
+  examples: []
+  id: r46-2.2.39-fra
+  notes:
+  - content: pour les compteurs en sens positif uniquement
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.39
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écoulement inverse (de l'énergie)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7b241ae4-1937-5bc2-99ce-4c90259d3dd5
+

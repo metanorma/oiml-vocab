@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r139-3.2.12
+  localized_concepts:
+    eng: 2c9f0cbe-9374-5785-b655-aa9719e51629
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.12
+    type: authoritative
+status: valid
+id: 55afc38e-5481-5890-bccc-94fbf6616b65
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device connected to or incorporated in the meter for automatically correcting
+      the mass, by taking into account the flow rate and/or the characteristics of
+      the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
+      calibration curves
+  examples: []
+  id: r139-3.2.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2c9f0cbe-9374-5785-b655-aa9719e51629
+

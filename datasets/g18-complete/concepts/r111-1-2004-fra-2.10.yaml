@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r111-1-2004-fra-2.10
+  localized_concepts:
+    fra: e7a82f6b-952b-50f9-be04-8bafd9119aaf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:111-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+status: valid
+id: ca64d6bd-42d5-53ef-b8db-6a759a9e9ce6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur absolue maximale de la différence autorisée par la réglementation
+      nationale, entre la masse conventionnelle mesurée et la valeur nominale d'un
+      poids, déterminée au moyen des poids de référence correspondants.
+  examples: []
+  id: r111-1-2004-fra-2.10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée
+  - type: symbol
+    normative_status: admitted
+    designation: delta m ou EMT
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e7a82f6b-952b-50f9-be04-8bafd9119aaf
+

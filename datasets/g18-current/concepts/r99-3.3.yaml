@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r99-3.3
+  localized_concepts:
+    eng: 22c5eb0f-afdf-55d7-9dfe-327d0bd6b98e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:99:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 99:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+status: valid
+id: 745d86a3-558e-5cc9-ac17-62a9afd4d330
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that removes particles from the exhaust gas sample
+  examples: []
+  id: r99-3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: filter unit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 22c5eb0f-afdf-55d7-9dfe-327d0bd6b98e
+

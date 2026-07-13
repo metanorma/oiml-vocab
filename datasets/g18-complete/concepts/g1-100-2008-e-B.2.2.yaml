@@ -1,0 +1,61 @@
+---
+data:
+  identifier: g1-100-2008-e-B.2.2
+  localized_concepts:
+    eng: fb72da5e-a954-5890-b563-f7df9ef40445
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.2
+    type: authoritative
+status: valid
+id: 3de54d9c-4ca6-5ead-81c5-a4a12523943c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: magnitude of a particular quantity generally expressed as a unit of measurement
+      multiplied by a number
+  examples:
+  - content: 'Length of a rod: 5,34 m or 534 cm.'
+  - content: 'Mass of a body: 0,152 kg or 152 g.'
+  - content: 'Amount of substance of a sample of water (H2O): 0,012 mol or 12 mmol.'
+  id: g1-100-2008-e-B.2.2-eng
+  notes:
+  - content: The value of a quantity may be positive, negative or zero.
+  - content: The value of a quantity may be expressed in more than one way.
+  - content: The values of quantities of dimension one are generally expressed as
+      pure numbers.
+  - content: A quantity that cannot be expressed as a unit of measurement multiplied
+      by a number may be expressed by reference to a conventional reference scale
+      or to a measurement procedure or to both.
+  - content: 'Source citation: VIM:1993, definition 1.18'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: value (of a quantity)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fb72da5e-a954-5890-b563-f7df9ef40445
+

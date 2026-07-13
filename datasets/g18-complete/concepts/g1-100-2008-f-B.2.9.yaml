@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-100-2008-f-B.2.9
+  localized_concepts:
+    fra: 59f593ba-efc7-56b4-adf5-fd6b14c57ccf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.9
+    type: authoritative
+status: valid
+id: 9b3b7b64-5708-5d97-bc56-5c79401c62f6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur particulière soumise à mesurage
+  examples:
+  - content: Pression de vapeur d'un échantillon donné d'eau à 20 deg C.
+  id: g1-100-2008-f-B.2.9-fra
+  notes:
+  - content: La définition du mesurande peut nécessiter des indications relatives
+      à des grandeurs telles que le temps, la température et la pression.
+  - content: 'Source citation: VIM:1993, definition 2.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesurande
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 59f593ba-efc7-56b4-adf5-fd6b14c57ccf
+

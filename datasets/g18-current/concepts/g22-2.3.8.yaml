@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g22-2.3.8
+  localized_concepts:
+    eng: 35dc5e5e-1a47-5496-a4e4-71c65d5e3330
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+status: valid
+id: f134e63c-f86b-5bb3-bbd1-f0fafaf07c71
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: frequency of the voltage (and current) specified by the manufacturer
+      for the outpower of the EVSE
+  examples: []
+  id: g22-2.3.8-eng
+  notes:
+  - content: For AC EVSE, the frequency of the power supplied to the EVSE and the
+      power the EVSE supplies to the vehicle are the same.
+  - content: For DC EVSE, $ f_{\mathrm{nom}} $ is 0 Hz.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.8
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal output frequency, $ \mathbf{f}_{\mathrm{nom}} $
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 35dc5e5e-1a47-5496-a4e4-71c65d5e3330
+

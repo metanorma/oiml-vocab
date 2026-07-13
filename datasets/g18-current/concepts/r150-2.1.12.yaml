@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r150-2.1.12
+  localized_concepts:
+    eng: e67577d4-ebb1-5a17-a5a9-0c5df1fed731
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+status: valid
+id: 5de7c1fa-66ff-5b7c-9acf-89ea1ef4d4a7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: continuous data file containing a time stamped information record of
+      events, e.g. changes in the values of the parameters of a device or software
+      updates, or other activities that are legally relevant and which may influence
+      the metrological characteristics
+  examples: []
+  id: r150-2.1.12-eng
+  notes:
+  - content: 'Source citation: VIML 6.05'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: audit trail
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e67577d4-ebb1-5a17-a5a9-0c5df1fed731
+

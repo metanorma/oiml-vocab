@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r134-1-2006-eng-T.3.4.2
+  localized_concepts:
+    eng: 54bd4706-ed9c-5a81-9a11-e8aad243258a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+status: valid
+id: 832850c4-9180-5778-a538-b992683aa5a9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Greatest velocity of a vehicle that the instrument is designed to weigh-in-motion
+      and above which the weighing results may be subject to an excessive relative
+      error.
+  examples: []
+  id: r134-1-2006-eng-T.3.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum operating speed
+  - type: symbol
+    normative_status: admitted
+    designation: v_max
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54bd4706-ed9c-5a81-9a11-e8aad243258a
+

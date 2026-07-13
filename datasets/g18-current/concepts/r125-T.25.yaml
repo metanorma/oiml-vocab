@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r125-T.25
+  localized_concepts:
+    eng: 0b13b6ce-7fa0-5544-a6b8-220e5ed2d231
+    fra: bd8595e9-415a-5021-8a81-69544aaabbdc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.25
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.25
+    type: authoritative
+status: valid
+id: 399c3b85-b8b3-5a13-9285-6002b8401ac7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The extreme values of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument
+  examples: []
+  id: r125-T.25-eng
+  notes:
+  - content: 'Source citation: VIM 5.21'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.25
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error (of a measuring instrument)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0b13b6ce-7fa0-5544-a6b8-220e5ed2d231
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeurs extremes d'une erreur admise par des specifications, reglements,
+      etc. pour un instrument de mesure donne (VIM 5.21).
+  examples: []
+  id: r125-T.25-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.25
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur maximale toleree
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bd8595e9-415a-5021-8a81-69544aaabbdc
+

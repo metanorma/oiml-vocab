@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d22-3.1
+  localized_concepts:
+    eng: c9bdaaf5-3370-52c0-8005-f39e581cc27b
+    fra: 6d38294a-31e1-55a6-9f71-5382ce6dca4f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:22:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+status: valid
+id: 4c2746f8-540f-53f9-a790-e86dac2279d5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The closeness of the agreement between the result of a measurement and
+      the conventional true value of the measurand.
+  examples: []
+  id: d22-3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Accuracy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c9bdaaf5-3370-52c0-8005-f39e581cc27b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etroitesse de l'accord entre le résultat d'un mesurage et la valeur conventionnellement
+      vraie de la grandeur à mesurer.
+  examples: []
+  id: d22-3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Exactitude
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6d38294a-31e1-55a6-9f71-5382ce6dca4f
+

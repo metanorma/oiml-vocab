@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r107-T.3.11
+  localized_concepts:
+    eng: 49205028-2b2b-5190-abbf-8a62219bc602
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.11
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.11
+    type: authoritative
+status: valid
+id: 8fc294da-3cb0-5206-9c24-2e2409ff00c2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Facility, operating without the intervention of an operator, which is
+      incorporated in an instrument and which enables significant faults to be detected
+      and acted upon.
+  examples: []
+  id: r107-T.3.11-eng
+  notes:
+  - content: An automatic checking facility performs securing and monitoring activities.
+  - content: 'Source citation: OIML D 11:2004, 3.18 and 3.18.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: automatic checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 49205028-2b2b-5190-abbf-8a62219bc602
+

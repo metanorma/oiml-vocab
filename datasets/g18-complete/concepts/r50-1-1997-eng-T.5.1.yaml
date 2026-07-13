@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r50-1-1997-eng-T.5.1
+  localized_concepts:
+    eng: ef2a2bcb-41de-5e68-aafc-7951e45291be
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50-1:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.5.1
+    type: authoritative
+status: valid
+id: 012c6edb-16f7-5d35-ba05-badde2d61080
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The value, in units of mass, of the difference between two readings from
+      a totalization indicating device on a belt weigher, minus the (conventional)
+      true value of the mass relating to those readings.
+  examples: []
+  id: r50-1-1997-eng-T.5.1-eng
+  notes:
+  - content: 'Source citation: Adapted from VIM 5.20'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.5.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error (of indication)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ef2a2bcb-41de-5e68-aafc-7951e45291be
+

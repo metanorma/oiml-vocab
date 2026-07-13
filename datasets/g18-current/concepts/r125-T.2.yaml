@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r125-T.2
+  localized_concepts:
+    eng: dff46747-ad2c-55df-9887-adee1cb17c11
+    fra: dcd3adbe-b202-5ca9-9a49-3033a9cdc4c9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.2
+    type: authoritative
+status: valid
+id: 1d75745b-9629-5626-becf-a54011a4ab9b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A system which comprises the measuring instrument, the calibrated tank
+      and any ancillary and/or additional devices.
+  examples: []
+  id: r125-T.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mass measuring system
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dff46747-ad2c-55df-9887-adee1cb17c11
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble comprenant l'instrument de mesure, le reservoir de mesurage
+      et tous dispositifs auxiliaires et/ou additionnels.
+  examples: []
+  id: r125-T.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Systeme de mesure de la masse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dcd3adbe-b202-5ca9-9a49-3033a9cdc4c9
+

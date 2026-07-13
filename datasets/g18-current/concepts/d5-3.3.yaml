@@ -1,0 +1,76 @@
+---
+data:
+  identifier: d5-3.3
+  localized_concepts:
+    eng: cee4a57e-f35d-5276-9d18-6319eea88b1b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:5:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+status: valid
+id: 9995eb7e-1c70-579b-9c88-e118ba7104b7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: non-negative parameter characterising the dispersion of the quantity
+      values being attributed to a measurand, based on the information used
+  examples: []
+  id: d5-3.3-eng
+  notes:
+  - content: Measurement uncertainty includes components arising from systematic effects,
+      such as components associated with corrections and the assigned quantity values
+      of measurement standards, as well as the definitional uncertainty. Sometimes
+      estimated systematic effects are not corrected for but, instead, associated
+      measurement uncertainty components are incorporated.
+  - content: The parameter may be, for example, a standard deviation called standard
+      measurement uncertainty (or a specified multiple of it), or the half-width of
+      an interval, having a stated coverage probability.
+  - content: Measurement uncertainty comprises, in general, many components. Some
+      of these may be evaluated by Type A evaluation of measurement uncertainty from
+      the statistical distribution of the quantity values from series of measurements
+      and can be characterised by standard deviations. The other components, which
+      may be evaluated by Type B evaluation of measurement uncertainty, can also be
+      characterized by standard deviations, evaluated from probability density functions
+      based on experience or other information.
+  - content: In general, for a given set of information, it is understood that the
+      measurement uncertainty is associated with a stated quantity value attributed
+      to the measurand. A modification of this value results in a modification of
+      the associated uncertainty.
+  - content: 'Source citation: VIM 2.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement uncertainty
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty of measurement
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cee4a57e-f35d-5276-9d18-6319eea88b1b
+

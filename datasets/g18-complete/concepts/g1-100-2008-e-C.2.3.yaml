@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-100-2008-e-C.2.3
+  localized_concepts:
+    eng: 27aaab81-e843-5a19-be2a-e2918b425160
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.3
+    type: authoritative
+status: valid
+id: b4018316-c41d-5247-a940-6bb542b656de
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: a function giving the probability that a random variable takes any given
+      value or belongs to a given set of values
+  examples: []
+  id: g1-100-2008-e-C.2.3-eng
+  notes:
+  - content: The probability on the whole set of values of the random variable equals
+      1.
+  - content: 'Source citation: ISO 3534-1:1993, definition 1.3'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: probability distribution (of a random variable)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 27aaab81-e843-5a19-be2a-e2918b425160
+

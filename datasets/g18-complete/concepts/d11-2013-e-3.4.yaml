@@ -1,0 +1,50 @@
+---
+data:
+  identifier: d11-2013-e-3.4
+  localized_concepts:
+    eng: 215ba864-1f4e-537b-a8c9-a3f9f7ea3ae3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.4'
+status: valid
+id: fb3613b0-c97f-59a8-91de-0cce89a8086a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: d11-2013-e-3.4-eng
+  notes:
+  - content: 'Source citation: VIM 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(measurement) error"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 215ba864-1f4e-537b-a8c9-a3f9f7ea3ae3
+

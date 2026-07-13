@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d11-3.23
+  localized_concepts:
+    fra: db02a484-c932-5e0b-a2d6-287575934483
+    eng: e7833e6a-d9b8-5d7a-bc28-0030a64432da
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+status: valid
+id: 3c50b476-8009-5861-b5a1-38b7b9944317
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sous-ensemble convertissant la tension à partir de l'alimentation électrique
+      secteur (primaire) en une tension appropriée pour d'autres sous-ensembles
+  examples: []
+  id: d11-3.23-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: convertisseur de puissance (dispositif d'alimentation)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: db02a484-c932-5e0b-a2d6-287575934483
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: part of an instrument that converts the voltage from the mains power
+      to a voltage suitable for use by other parts of the instrument
+  examples: []
+  id: d11-3.23-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.23
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: power converter
+  language_code: eng
+  entry_status: valid
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: e7833e6a-d9b8-5d7a-bc28-0030a64432da
+

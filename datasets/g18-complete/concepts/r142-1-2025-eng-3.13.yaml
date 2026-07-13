@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r142-1-2025-eng-3.13
+  localized_concepts:
+    eng: 33944c89-e7c6-5b34-adac-d2e20d80c6cf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:142-1:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+status: valid
+id: a57a3500-2de0-522f-9dd0-11725f6a2fb7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement precision under reproducibility conditions of measurement
+  examples: []
+  id: r142-1-2025-eng-3.13-eng
+  notes:
+  - content: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.
+  - content: In this Recommendation, the reproducibility of measurements between units
+      of the same type of instrument under reference conditions is assessed by the
+      standard deviation of differences (SDD). The reproducibility of measurements
+      from one instrument when select influence factors are varied is assessed by
+      the magnitude of the error shift or fault.
+  - content: 'Source citation: VIM 2.25'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement reproducibility
+  - type: expression
+    normative_status: admitted
+    designation: reproducibility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 33944c89-e7c6-5b34-adac-d2e20d80c6cf
+

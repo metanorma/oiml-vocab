@@ -1,0 +1,50 @@
+---
+data:
+  identifier: d31-2019-e-3.1.9
+  localized_concepts:
+    eng: 9f54ce2d-6b74-5245-8985-df016c010d9b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+status: valid
+id: 67a50d03-a3c8-5c89-a438-2bcb042fea18
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: location in memory that each program needs for processing data
+  examples: []
+  id: d31-2019-e-3.1.9-eng
+  notes:
+  - content: Data domains may belong to one software module only, or to several.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data domain
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9f54ce2d-6b74-5245-8985-df016c010d9b
+

@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r107-T.2.3
+  localized_concepts:
+    eng: 05351be2-c728-512d-ad6e-97ef7f1882ee
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.3
+    type: authoritative
+status: valid
+id: 62cc2a93-9bf6-5889-8c64-7117e3b01847
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device that calculates the sum of consecutive loads weighed and discharged
+      to bulk.
+  examples: []
+  id: r107-T.2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: totalization device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 05351be2-c728-512d-ad6e-97ef7f1882ee
+

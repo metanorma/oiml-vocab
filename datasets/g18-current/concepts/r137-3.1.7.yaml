@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r137-3.1.7
+  localized_concepts:
+    eng: 0eb53d13-1448-5b53-8245-42d7cc41d1fe
+    fra: 4a01b76d-02a3-5916-a7ba-f64a04ca8574
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: 8aeae48c-623d-55f7-9b8e-dfb5108fc069
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device intended for correction of known errors as a function of e.g.
+      flow rate, Reynolds number (curve linearization), or density, pressure and/or
+      temperature.
+  examples: []
+  id: r137-3.1.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0eb53d13-1448-5b53-8245-42d7cc41d1fe
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif destiné à corriger les erreurs connues comme étant fonction
+      du débit, du nombre de Reynolds (courbe de linéarisation), de la densité, de
+      la pression et/ou de la température par exemple.
+  examples: []
+  id: r137-3.1.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de correction
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4a01b76d-02a3-5916-a7ba-f64a04ca8574
+

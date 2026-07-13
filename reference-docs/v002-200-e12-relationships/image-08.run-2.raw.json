@@ -1,0 +1,464 @@
+{
+  "nodes": [
+    {
+      "id": "2.43",
+      "designation": "metrological traceability to a measurement unit",
+      "external": false
+    },
+    {
+      "id": "2.41",
+      "designation": "metrological traceability",
+      "external": false
+    },
+    {
+      "id": "2.47",
+      "designation": "metrological comparability of measurement results",
+      "external": false
+    },
+    {
+      "id": "2.44",
+      "designation": "verification",
+      "external": false
+    },
+    {
+      "id": "ext_requirement",
+      "designation": "requirement",
+      "external": true
+    },
+    {
+      "id": "2.9",
+      "designation": "measurement result (see Fig. A3)",
+      "external": false
+    },
+    {
+      "id": "2.26",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.45",
+      "designation": "validation",
+      "external": false
+    },
+    {
+      "id": "ext_requirement_for_intended_use",
+      "designation": "requirement for intended use",
+      "external": true
+    },
+    {
+      "id": "2.46",
+      "designation": "metrological comparability of measurement results",
+      "external": false
+    },
+    {
+      "id": "2.10",
+      "designation": "measured quantity value (see Fig. A4)",
+      "external": false
+    },
+    {
+      "id": "4.30",
+      "designation": "calibration diagram",
+      "external": false
+    },
+    {
+      "id": "2.42",
+      "designation": "metrological traceability chain",
+      "external": false
+    },
+    {
+      "id": "5.1",
+      "designation": "measurement standard or 5.12 calibrator (see Fig. A12)",
+      "external": false
+    },
+    {
+      "id": "4.1",
+      "designation": "indication (see Fig. A10)",
+      "external": false
+    },
+    {
+      "id": "ext_reference",
+      "designation": "reference",
+      "external": true
+    },
+    {
+      "id": "4.31",
+      "designation": "calibration curve",
+      "external": false
+    },
+    {
+      "id": "1.9",
+      "designation": "measurement unit",
+      "external": false
+    },
+    {
+      "id": "2.6",
+      "designation": "measurement procedure",
+      "external": false
+    },
+    {
+      "id": "2.39",
+      "designation": "calibration",
+      "external": false
+    },
+    {
+      "id": "3.1",
+      "designation": "measuring instrument or 3.2 measuring system (see Fig. A9)",
+      "external": false
+    },
+    {
+      "id": "2.40",
+      "designation": "calibration hierarchy",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "2.41",
+        "2.9"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "2.41",
+        "2.47"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.47"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.44"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "2.44",
+        "ext_requirement"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "2.45",
+        "ext_requirement_for_intended_use"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "2.45",
+        "2.44"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "2.46"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "2.42"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "2.42",
+        "ext_reference"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "2.42",
+        "5.1"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "5.1"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "4.30",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-016",
+      "type": "associative",
+      "members": [
+        "4.1",
+        "2.9"
+      ]
+    },
+    {
+      "id": "rel-017",
+      "type": "associative",
+      "members": [
+        "4.1",
+        "4.31"
+      ]
+    },
+    {
+      "id": "rel-018",
+      "type": "associative",
+      "members": [
+        "2.10",
+        "4.31"
+      ]
+    },
+    {
+      "id": "rel-019",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-020",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "2.26"
+      ]
+    },
+    {
+      "id": "rel-021",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "5.1"
+      ]
+    },
+    {
+      "id": "rel-022",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "2.42"
+      ]
+    },
+    {
+      "id": "rel-023",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "ext_reference"
+      ]
+    },
+    {
+      "id": "rel-024",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "3.1"
+      ]
+    },
+    {
+      "id": "rel-025",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "2.40"
+      ]
+    },
+    {
+      "id": "rel-026",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-027",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "2.40"
+      ]
+    },
+    {
+      "id": "rel-028",
+      "type": "associative",
+      "members": [
+        "2.40",
+        "2.6"
+      ]
+    },
+    {
+      "id": "rel-029",
+      "type": "associative",
+      "members": [
+        "2.40",
+        "1.9"
+      ]
+    },
+    {
+      "id": "rel-030",
+      "type": "associative",
+      "members": [
+        "2.40",
+        "5.1"
+      ]
+    },
+    {
+      "id": "rel-031",
+      "type": "associative",
+      "members": [
+        "2.40",
+        "ext_reference"
+      ]
+    },
+    {
+      "id": "rel-032",
+      "type": "associative",
+      "members": [
+        "2.46",
+        "ext_reference"
+      ]
+    },
+    {
+      "id": "rel-033",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "ext_reference"
+      ]
+    },
+    {
+      "id": "rel-034",
+      "type": "partitive",
+      "comprehensive": "2.41",
+      "parts": {
+        "listed": [
+          "2.43"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-035",
+      "type": "partitive",
+      "comprehensive": "2.44",
+      "parts": {
+        "listed": [
+          "2.45"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-036",
+      "type": "partitive",
+      "comprehensive": "ext_requirement",
+      "parts": {
+        "listed": [],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-037",
+      "type": "partitive",
+      "comprehensive": "ext_requirement_for_intended_use",
+      "parts": {
+        "listed": [],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-038",
+      "type": "partitive_plural",
+      "comprehensive": "2.9",
+      "parts": {
+        "listed": [
+          "2.10"
+        ],
+        "has_unlisted_others": false
+      },
+      "markers": {
+        "double_line": false,
+        "dashed": true
+      }
+    },
+    {
+      "id": "rel-039",
+      "type": "partitive_plural",
+      "comprehensive": "2.40",
+      "parts": {
+        "listed": [
+          "2.39",
+          "3.1"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "rel-040",
+      "type": "hierarchical",
+      "broader": "ext_reference",
+      "narrower": {
+        "listed": [
+          "1.9",
+          "5.1",
+          "2.6"
+        ],
+        "has_unlisted_others": false
+      }
+    }
+  ]
+}

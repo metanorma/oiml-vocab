@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2006-eng-2.2.10
+  localized_concepts:
+    eng: fbd0f91a-7ebb-5f03-b8cb-5f691550b054
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+status: valid
+id: '09683597-3683-5fe8-93e5-ec1c87fd5a83'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault, the magnitude of which is greater than one half of the maximum
+      permissible error in the upper flowrate zone
+  examples: []
+  id: r49-1-2006-eng-2.2.10-eng
+  notes:
+  - content: The following are not considered to be significant faults - faults arising
+      from simultaneous and mutually independent causes in the water meter itself
+      or in its checking facilities; and transitory faults being momentary variations
+      in the indication which cannot be interpreted, memorized or transmitted as a
+      measurement result.
+  - content: 'Source citation: adapted from OIML D 11'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fbd0f91a-7ebb-5f03-b8cb-5f691550b054
+

@@ -40,13 +40,11 @@ jobs:
         with:
           node-version: 24
 
-      - name: Install concept-browser
-        run: |
-          npm install --ignore-scripts @glossarist/concept-browser --save --omit=dev
-          npm install --prefix node_modules/@glossarist/concept-browser sharp 2>/dev/null || true
+      - name: Install dependencies
+        run: npm install --omit=dev
 
       - name: Build site
-        run: npx concept-browser build
+        run: npm run build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

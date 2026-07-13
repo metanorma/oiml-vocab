@@ -1,0 +1,81 @@
+---
+data:
+  identifier: r46-2012-e-2.2.12
+  localized_concepts:
+    eng: a835c586-66e3-56d4-b1a0-d7a19f9d3a79
+    fra: 22a68d2b-d505-5106-a3bf-fe65c894954a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+status: valid
+id: 3adf6555-995a-5df8-b668-5fe8f51f1120
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: integer number used to identify a harmonic
+  examples: []
+  id: r46-2012-e-2.2.12-eng
+  notes:
+  - content: The harmonic number is the ratio of the frequency of a harmonic to the
+      fundamental frequency of the signal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonic number
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a835c586-66e3-56d4-b1a0-d7a19f9d3a79
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: nombre entier utilisé pour identifier un harmonique
+  examples: []
+  id: r46-2012-e-2.2.12-fra
+  notes:
+  - content: Le rang d'un harmonique est le rapport de la fréquence d'un harmonique
+      sur la fréquence fondamentale du signal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rang d'un harmonique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 22a68d2b-d505-5106-a3bf-fe65c894954a
+

@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r125-T.29.2
+  localized_concepts:
+    eng: 1772d5a4-67bb-5ff5-a0cc-2d373e46ee71
+    fra: fbeadb12-9eda-5a8e-bbdf-052b1a51775f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.29.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.29.2
+    type: authoritative
+status: valid
+id: d0a1c273-1ae7-5dc3-9e76-2e6e26a93d32
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      measuring instrument.
+  examples: []
+  id: r125-T.29.2-eng
+  notes:
+  - content: An influence quantity is a disturbance if for that influence quantity
+      the rated operating conditions are not specified.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.29.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1772d5a4-67bb-5ff5-a0cc-2d373e46ee71
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence de valeur comprise dans les limites specifiees dans
+      la presente Recommandation, mais en dehors des conditions assignees de fonctionnement
+      specifiees pour l'instrument de mesure.
+  examples: []
+  id: r125-T.29.2-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si pour cette grandeur
+      d'influence, les conditions assignees de fonctionnement ne sont pas specifiees.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.29.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fbeadb12-9eda-5a8e-bbdf-052b1a51775f
+

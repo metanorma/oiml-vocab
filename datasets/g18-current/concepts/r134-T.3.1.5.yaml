@@ -1,0 +1,108 @@
+---
+data:
+  identifier: r134-T.3.1.5
+  localized_concepts:
+    eng: cd626264-cb9f-5d7d-8107-8a92b5f814bf
+    fra: 9a98c151-be74-5dbf-9cc9-e10c541c60c9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+status: valid
+id: c10c5535-3342-59eb-83de-f13e70e05b56
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Total mass of the vehicle combination including all connected components.
+  examples: []
+  id: r134-T.3.1.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vehicle mass
+  - type: symbol
+    normative_status: admitted
+    designation: VM
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cd626264-cb9f-5d7d-8107-8a92b5f814bf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Masse totale de la combinaison du véhicule incluant tous les composants
+      connectés.
+  examples: []
+  id: r134-T.3.1.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: masse du véhicule
+  - type: symbol
+    normative_status: admitted
+    designation: MV
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9a98c151-be74-5dbf-9cc9-e10c541c60c9
+

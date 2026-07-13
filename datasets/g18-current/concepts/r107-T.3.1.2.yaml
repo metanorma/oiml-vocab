@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r107-T.3.1.2
+  localized_concepts:
+    eng: b13b74ee-b1ed-5a81-8039-a1af9bd2690c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.1.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.1.2
+    type: authoritative
+status: valid
+id: 13284c25-cd98-514c-aa58-e06d5214ef2b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Scale interval of a control indicating device.
+  examples: []
+  id: r107-T.3.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: control scale interval
+  - type: symbol
+    normative_status: admitted
+    designation: d
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b13b74ee-b1ed-5a81-8039-a1af9bd2690c
+

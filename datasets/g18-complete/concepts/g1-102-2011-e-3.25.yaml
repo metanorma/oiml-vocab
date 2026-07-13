@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-102-2011-e-3.25
+  localized_concepts:
+    eng: 9d68dc46-2886-5715-bb59-9193315ae5b6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.25'
+status: valid
+id: e4a31c22-a5c2-5ea0-b350-edca71277f29
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: probability that the true quantity value is contained within a specified
+      coverage interval or coverage region
+  examples: []
+  id: g1-102-2011-e-3.25-eng
+  notes:
+  - content: Adapted from JCGM 101:2008 definition 3.13.
+  - content: The coverage probability is sometimes termed "level of confidence" [JCGM
+      100:2008 6.2.2].
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.25'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coverage probability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d68dc46-2886-5715-bb59-9193315ae5b6
+

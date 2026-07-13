@@ -1,0 +1,66 @@
+---
+data:
+  identifier: g19-2017-e-2.34
+  localized_concepts:
+    eng: b3877923-aaba-5b5a-b6fe-e40579cb9a67
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.34'
+status: valid
+id: 4f9e2c87-eef1-50f0-98f0-1db9d298ad6d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: closeness of agreement between a measured quantity value and a true quantity
+      value of a measurand
+  examples: []
+  id: g19-2017-e-2.34-eng
+  notes:
+  - content: The concept 'measurement accuracy' is not a quantity and is not given
+      a numerical quantity value. A measurement is said to be more accurate when it
+      offers a smaller measurement error.
+  - content: The term "measurement accuracy" should not be used for measurement trueness
+      and the term "measurement precision" should not be used for 'measurement accuracy',
+      which, however, is related to both these concepts.
+  - content: The term "measurement accuracy" is sometimes understood as meaning closeness
+      of agreement between measured quantity values that are being attributed to the
+      measurand.
+  - content: 'Source citation: VIM3 2.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.34'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement accuracy
+  - type: expression
+    normative_status: admitted
+    designation: accuracy of measurement
+  - type: expression
+    normative_status: admitted
+    designation: accuracy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b3877923-aaba-5b5a-b6fe-e40579cb9a67
+

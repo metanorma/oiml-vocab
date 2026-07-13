@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r46-1-2-2012-fra-2.2.2
+  localized_concepts:
+    fra: b41f8582-556e-5d15-a749-59847e79bc08
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.2
+status: valid
+id: 31f330fe-b271-5f69-81df-a0021b747ee7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur la plus basse du courant spécifiée par le fabricant pour laquelle
+      le compteur doit enregistrer l'énergie électrique à un facteur de puissance
+      d'unité et, pour les compteurs polyphasés, avec charges équilibrées
+  examples: []
+  id: r46-1-2-2012-fra-2.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant de démarrage ($I_{st}$)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b41f8582-556e-5d15-a749-59847e79bc08
+

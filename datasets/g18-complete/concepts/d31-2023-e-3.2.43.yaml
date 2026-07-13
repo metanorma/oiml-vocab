@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-2023-e-3.2.43
+  localized_concepts:
+    eng: 58de72a9-14aa-55f3-a99f-13afec409a2a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.43
+    type: authoritative
+status: valid
+id: d2fe4574-ad8e-5ca2-9e7a-813d41ec9cc3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: data used during the process of constructing the measurement result
+  examples: []
+  id: d31-2023-e-3.2.43-eng
+  notes:
+  - content: Examples of measurement result relevant data include digital number or
+      analogue value originating from a sensor or measuring instrument ID, in cases
+      where it is part of the measurement result, see Annex C.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.43
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result relevant data
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 58de72a9-14aa-55f3-a99f-13afec409a2a
+

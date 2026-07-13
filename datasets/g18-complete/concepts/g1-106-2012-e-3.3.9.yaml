@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-106-2012-e-3.3.9
+  localized_concepts:
+    eng: 7a6c092d-94cb-5974-9040-9442952bb83f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-106:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.9
+status: valid
+id: 8f9ee09f-7a1a-5a98-b595-b1fbc509657f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: interval of permissible measured quantity values
+  examples: []
+  id: g1-106-2012-e-3.3.9-eng
+  notes:
+  - content: Unless otherwise stated in the specification, the acceptance limits belong
+      to the acceptance interval.
+  - content: An acceptance interval is called an 'acceptance zone' in ASME B89.7.3.1
+      [2].
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: acceptance interval
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a6c092d-94cb-5974-9040-9442952bb83f
+

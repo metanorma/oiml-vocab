@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r107-T.2.7.5
+  localized_concepts:
+    eng: bb12c413-673b-5ff8-88d8-eb472e22d714
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.7.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.7.5
+    type: authoritative
+status: valid
+id: c201b109-d14b-5044-bbe5-f33a2ea23a59
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Part of the weighing instrument that comprises all mechanical and electronic
+      devices (i.e. load receptor, load transmitting device, load cell, and analog
+      data processing device or digital data processing device) but not having the
+      means to display the weighing result. It may optionally have devices for further
+      processing (digital) data and operating the instrument.
+  examples: []
+  id: r107-T.2.7.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.7.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: weighing module
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bb12c413-673b-5ff8-88d8-eb472e22d714
+

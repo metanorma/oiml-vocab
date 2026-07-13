@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r129-2.1.4
+  localized_concepts:
+    deu: 5a3d7b20-2f72-5c83-9630-9dafbca3e1a8
+    eng: ea57e9f9-0a24-5008-a8ce-de0487bf5c5d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+status: valid
+id: b308f5dd-7630-5f3c-829f-b285a006ed6b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung, die gemessene Abmessungen und zugehörige Größen anzeigt
+  examples: []
+  id: r129-2.1.4-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anzeige
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5a3d7b20-2f72-5c83-9630-9dafbca3e1a8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that displays the measured dimensions and any associated quantities
+  examples: []
+  id: r129-2.1.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicator
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ea57e9f9-0a24-5008-a8ce-de0487bf5c5d
+

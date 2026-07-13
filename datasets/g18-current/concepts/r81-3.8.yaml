@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r81-3.8
+  localized_concepts:
+    eng: 4152feb5-9350-5969-91b2-cb3816bd24d5
+    fra: 814df7b1-1eb7-589f-a8ad-6cdf9e20391f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+status: valid
+id: 1b7a46a6-afaa-559f-a19d-2be3371e717d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A part of the meter that is capable of displaying continuously the measurement
+      results.
+  examples: []
+  id: r81-3.8-eng
+  notes:
+  - content: A printing device that provides an indication at the end of the measurement
+      is not an indicating device.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indicating device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4152feb5-9350-5969-91b2-cb3816bd24d5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du compteur capable d'afficher en continu les resultats de mesure.
+  examples: []
+  id: r81-3.8-fra
+  notes:
+  - content: Un dispositif imprimeur fournissant une indication en fin de mesurage
+      n'est pas un dispositif indicateur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif indicateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 814df7b1-1eb7-589f-a8ad-6cdf9e20391f
+

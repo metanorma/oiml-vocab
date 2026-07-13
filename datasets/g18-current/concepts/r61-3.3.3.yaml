@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r61-3.3.3
+  localized_concepts:
+    eng: c09053cf-bcc1-51ed-85af-2c41b48ee4c0
+    deu: 5c60c22a-dc75-55e9-8453-8091418ee813
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+status: valid
+id: d2bbd207-77dd-59c8-aa44-cf20aa33e1ef
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the load measuring device that displays the value of a weighing
+      result in units of mass and may additionally, for example, display the - differences
+      between the mass of a load and some reference value, - value of the mass of
+      the fill(s) and/or related quantities, - parameters of a number of consecutive
+      weighings
+  examples: []
+  id: r61-3.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating device (of a weighing instrument)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c09053cf-bcc1-51ed-85af-2c41b48ee4c0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Teil einer Auswägeeinrichtung, der den Wert eines Messergebnisses in
+      Einheiten der Masse anzeigt
+  examples: []
+  id: r61-3.3.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anzeigeeinrichtung (einer Waage)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5c60c22a-dc75-55e9-8453-8091418ee813
+

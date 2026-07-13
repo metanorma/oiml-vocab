@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r107-T.3.3.2
+  localized_concepts:
+    eng: 7d6d60c7-bece-50ca-954d-dad1dede17cc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.3.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.3.2
+    type: authoritative
+status: valid
+id: 0cf28196-16b9-5e94-845b-2da4f14895ad
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Smallest discrete load that can be weighed automatically.
+  examples: []
+  id: r107-T.3.3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum capacity
+  - type: symbol
+    normative_status: admitted
+    designation: Min
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7d6d60c7-bece-50ca-954d-dad1dede17cc
+

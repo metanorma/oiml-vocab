@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r129-2.2.6
+  localized_concepts:
+    deu: 55359f39-489c-5144-ac5f-5f9b053d7e15
+    eng: 699ec89c-f03a-5dbd-ad6c-5400ec950648
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+status: valid
+id: 072a43e6-9739-5594-b2a8-c52b56f733ef
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Wert der kleinsten gemessenen Abmessung für jede Achse
+  examples: []
+  id: r129-2.2.6-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kleinste Abmessung (Min)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 55359f39-489c-5144-ac5f-5f9b053d7e15
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of the smallest measured dimension for each axis
+  examples: []
+  id: r129-2.2.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum dimension
+  - type: abbreviation
+    normative_status: admitted
+    designation: Min
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 699ec89c-f03a-5dbd-ad6c-5400ec950648
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r126-3.2.9
+  localized_concepts:
+    eng: 259701dd-cec1-5406-9ebb-e02010574503
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.2.9
+    type: authoritative
+status: valid
+id: a412ed6e-4a7a-50fc-afc7-9cf7d2689872
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: mode in which the EBA is subject to metrological control such as verification
+      or adjustment
+  examples: []
+  id: r126-3.2.9-eng
+  notes:
+  - content: In this mode, more information will be available compared to the measuring
+      mode (e.g. higher resolution, intermediate results, etc.), and access to maintenance
+      and adjustment means is possible.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.2.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metrological test mode
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 259701dd-cec1-5406-9ebb-e02010574503
+

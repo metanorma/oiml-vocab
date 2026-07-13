@@ -1,0 +1,49 @@
+---
+data:
+  identifier: '02289-1'
+  localized_concepts:
+    eng: c3b0b654-6f2a-5e50-9008-eb01cbc89a38
+  domains:
+  - concept_id: section-misc
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+status: valid
+id: 8e5e1c5c-7294-47b8-80a6-2a852c4fe45f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-01-01T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: internal connections of the meter and part of the measuring element through
+      which flows the current of the circuit to which the meter is connected [IEC
+      62052-11:2003, 3.2.6]
+  id: '02289-1-eng'
+  language_code: eng
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: current circuit
+language_code: eng
+entry_status: valid
+date_accepted: '2026-01-01T00:00:00+00:00'
+id: c3b0b654-6f2a-5e50-9008-eb01cbc89a38
+

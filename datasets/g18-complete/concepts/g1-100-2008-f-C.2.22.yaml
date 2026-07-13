@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-100-2008-f-C.2.22
+  localized_concepts:
+    fra: a085136c-6773-5cbd-b03a-42510fce66d8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.22
+    type: authoritative
+status: valid
+id: db3d4174-4e56-51f5-a2e7-a9af1d1e75c0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'dans la distribution d''un caractère unique, moyenne arithmétique de
+      la qième puissance de la différence entre les valeurs observées et leur moyenne
+      x_bar: (1/n) sum_i (x_i - x_bar)^q, où n est le nombre d''observations'
+  examples: []
+  id: g1-100-2008-f-C.2.22-fra
+  notes:
+  - content: Le moment centré d'ordre 1 est égal à zéro.
+  - content: 'Source citation: ISO 3534-1:1993, definition 2.37'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.22
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: moment centré d'ordre q
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a085136c-6773-5cbd-b03a-42510fce66d8
+

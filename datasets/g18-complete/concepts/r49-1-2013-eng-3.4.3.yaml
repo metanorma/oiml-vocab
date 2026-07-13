@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2013-eng-3.4.3
+  localized_concepts:
+    eng: 4d64c460-6589-5e50-a278-4813981ae18d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.4.3
+status: valid
+id: b873bfcd-814e-5112-ba3a-b189d6d29308
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in this
+      part of OIML R 49, but outside the specified rated operating conditions of the
+      meter
+  examples: []
+  id: r49-1-2013-eng-3.4.3-eng
+  notes:
+  - content: An influence quantity is a disturbance if the rated operating conditions
+      for that influence quantity are not specified.
+  - content: 'Source citation: OIML D 11:2013 [3], 3.15.2, modified — "this part of
+      OIML R 49" replaces "the relevant Recommendation"; "meter" replaces "measuring
+      instrument".'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.4.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4d64c460-6589-5e50-a278-4813981ae18d
+

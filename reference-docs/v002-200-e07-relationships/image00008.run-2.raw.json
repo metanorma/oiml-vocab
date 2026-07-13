@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "1.1",
+      "designation": "quantity",
+      "external": false
+    },
+    {
+      "id": "2.50",
+      "designation": "input quantity in a measurement model",
+      "external": false
+    },
+    {
+      "id": "2.48",
+      "designation": "measurement model",
+      "external": false
+    },
+    {
+      "id": "2.51",
+      "designation": "output quantity in a measurement model",
+      "external": false
+    },
+    {
+      "id": "2.49",
+      "designation": "measurement function",
+      "external": false
+    },
+    {
+      "id": "2.53",
+      "designation": "correction",
+      "external": false
+    },
+    {
+      "id": "2.10",
+      "designation": "measured quantity value",
+      "external": false
+    },
+    {
+      "id": "2.26",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.52",
+      "designation": "influence quantity",
+      "external": false
+    },
+    {
+      "id": "2.3",
+      "designation": "measurand",
+      "external": false
+    },
+    {
+      "id": "4.1",
+      "designation": "indication",
+      "external": false
+    },
+    {
+      "id": "2.9",
+      "designation": "measurement result",
+      "external": false
+    },
+    {
+      "id": "4.2",
+      "designation": "blank indication",
+      "external": false
+    },
+    {
+      "id": "3.1",
+      "designation": "measuring instrument",
+      "external": false
+    },
+    {
+      "id": "3.2",
+      "designation": "measuring system",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "hierarchical",
+      "broader": "1.1",
+      "narrower": {
+        "listed": [
+          "2.50",
+          "2.51",
+          "2.53",
+          "2.52"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "2.50",
+        "2.48"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "2.48",
+        "2.51"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "2.50",
+        "2.49"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "2.49",
+        "2.51"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "2.53",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "2.10",
+        "2.3"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.49"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "2.52",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "partitive",
+      "comprehensive": "2.3",
+      "parts": {
+        "listed": [
+          "2.9"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "4.1",
+        "2.9"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "hierarchical",
+      "broader": "4.1",
+      "narrower": {
+        "listed": [
+          "4.2"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "3.1"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "3.2"
+      ]
+    }
+  ]
+}

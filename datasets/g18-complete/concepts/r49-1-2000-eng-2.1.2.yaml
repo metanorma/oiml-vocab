@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r49-1-2000-eng-2.1.2
+  localized_concepts:
+    eng: 3a76e007-6ada-5bbd-aecb-24a2be530385
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+status: valid
+id: 5047fcba-b71e-50d0-8d74-8eb26afde1e8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the meter which transforms the flow or the volume of the water
+      to be measured into signals which are passed to the calculator
+  examples: []
+  id: r49-1-2000-eng-2.1.2-eng
+  notes:
+  - content: For the purposes of this Recommendation, the measurement transducer includes
+      the flow sensor or volume sensor.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement transducer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3a76e007-6ada-5bbd-aecb-24a2be530385
+

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.3.2
+  localized_concepts:
+    eng: 5b2bd6bf-2337-54f4-b386-f9b59c8184b8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.2
+    type: authoritative
+status: valid
+id: 8a37f277-d704-58ff-9543-57e92b7d1322
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: highest flow rate (3.3.1) within the rated operating condition(s) (3.4.4)
+      at which the meter is to operate within the maximum permissible error(s) (3.2.5)
+  examples: []
+  id: r49-1-2024-eng-3.3.2-eng
+  notes:
+  - content: In this Recommendation, flow rate is expressed in $m^{3}/h$. See 4.1.3.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: permanent flow rate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{3}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5b2bd6bf-2337-54f4-b386-f9b59c8184b8
+

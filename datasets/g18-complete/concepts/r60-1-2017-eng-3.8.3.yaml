@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r60-1-2017-eng-3.8.3
+  localized_concepts:
+    eng: 229b8ad2-78ef-5f25-afa2-e9486eb8d8db
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.8.3
+    type: authoritative
+status: valid
+id: a0a747c9-5f7b-5fbe-a85c-f72fcdbca349
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but that affects the relation between the indication
+      and the measurement result
+  examples: []
+  id: r60-1-2017-eng-3.8.3-eng
+  notes:
+  - content: 'Source citation: VIM 2.52'
+  - content: For examples and notes, refer to the VIM.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 229b8ad2-78ef-5f25-afa2-e9486eb8d8db
+

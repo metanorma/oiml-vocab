@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r61-1-2017-eng-3.4.9
+  localized_concepts:
+    eng: 1e6a25c2-a1ec-5436-aee5-4002a8392f2e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.9
+    type: authoritative
+status: valid
+id: a8e576be-c0a8-56d4-af17-b2c8e3bf6bc4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rated value of the mass of the fill below which the weighing results
+      may be subject to errors exceeding the required limitations specified in this
+      Recommendation
+  examples: []
+  id: r61-1-2017-eng-3.4.9-eng
+  notes:
+  - content: For AGFIs which accomplish the fill by more than one weighing cycle Minfill
+      is larger than the minimum capacity, Min.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated minimum fill, Minfill
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1e6a25c2-a1ec-5436-aee5-4002a8392f2e
+

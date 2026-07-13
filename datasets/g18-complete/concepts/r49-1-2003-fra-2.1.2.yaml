@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2003-fra-2.1.2
+  localized_concepts:
+    fra: 56f75c2b-24d9-56a9-a8f3-538fdde69287
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+status: valid
+id: d1bbef0c-c40a-54c2-8772-392033bab0d7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du compteur transformant le débit ou le volume d'eau à mesurer
+      en signaux qui sont transmis au calculateur. Il peut être conçu à partir d'un
+      principe mécanique ou électrique ou électronique. Il peut être autonome ou utiliser
+      une source d'alimentation électrique externe.
+  examples: []
+  id: r49-1-2003-fra-2.1.2-fra
+  notes:
+  - content: Pour les besoins de la présente Recommandation, le transducteur de mesure
+      inclut le capteur de débit ou le capteur de volume.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transducteur de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 56f75c2b-24d9-56a9-a8f3-538fdde69287
+

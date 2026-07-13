@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r59-2016-e-2.3.5
+  localized_concepts:
+    eng: 29a30295-a486-5c21-80a2-feb5969b0324
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+status: valid
+id: 07bc64c4-563e-5600-871a-fb1f507a5efe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of calibration coefficients for one type of grain to convert raw
+      instrument data into a moisture content measurement
+  examples: []
+  id: r59-2016-e-2.3.5-eng
+  notes:
+  - content: Both these terms are used in the same context as 'calibration function'
+      in Note 1 of VIM 2.39.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration equation
+  - type: expression
+    normative_status: admitted
+    designation: calibration
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 29a30295-a486-5c21-80a2-feb5969b0324
+

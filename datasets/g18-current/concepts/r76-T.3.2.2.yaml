@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r76-T.3.2.2
+  localized_concepts:
+    eng: e3536ade-2ad6-51e1-9e6b-00468ff2403f
+    fra: 5ebc50ce-9d77-557a-b623-0152badc87db
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+status: valid
+id: d20e970e-ba4a-5450-96ed-0a0bd17afe94
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value, expressed in units of mass of the difference between the values
+      corresponding to two consecutive scale marks, for analog indication, or of the
+      difference between two consecutive indicated values, for digital indication.
+  examples: []
+  id: r76-T.3.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: actual scale interval, d
+  - type: symbol
+    normative_status: preferred
+    designation: d
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e3536ade-2ad6-51e1-9e6b-00468ff2403f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur exprimée en unité de masse de la différence entre les valeurs
+      correspondant à deux repères consécutifs, pour une indication analogique, ou
+      de la différence entre deux indications consécutives, pour une indication numérique.
+  examples: []
+  id: r76-T.3.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échelon réel, d
+  - type: symbol
+    normative_status: preferred
+    designation: d
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5ebc50ce-9d77-557a-b623-0152badc87db
+

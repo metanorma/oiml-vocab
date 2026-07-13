@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r126-2012-spa-2.13
+  localized_concepts:
+    spa: 95db8fbd-9f56-5595-b9c3-02375b9c504b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+status: valid
+id: b9902c1e-100b-5341-ba54-bcf07cb2bd77
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Cantidad de influencia que tiene un valor dentro de los límites específicados
+      en esta Recomendación, pero por fuera de las condiciones nominales de operación
+      específicadas para el instrumento de medición.
+  examples: []
+  id: r126-2012-spa-2.13-spa
+  notes:
+  - content: Una cantidad de influencia es una perturbación si no se especifican las
+      condiciones nominales de operación para dicha cantidad de influencia.
+  - content: 'Source citation: OIML D 11, 3.13.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Perturbación
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 95db8fbd-9f56-5595-b9c3-02375b9c504b
+

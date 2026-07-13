@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r127-4.4
+  localized_concepts:
+    fra: aba9779b-c37d-5ec5-8201-db346ad3acc4
+    eng: f5eb40ac-bcbb-57c3-a87c-245ecab1d6b8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.4'
+    type: authoritative
+status: valid
+id: 1a855926-af6c-5b16-9c22-724b7d9e1b45
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Longueur d'onde utilisée dans un instrument indicateur pour mesurer l'absorbance
+      optique d'un dosimètre à film radiochromique.
+  examples: []
+  id: r127-4.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Longueur d'onde d'analyse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aba9779b-c37d-5ec5-8201-db346ad3acc4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Wavelength used in a read-out instrument for measuring the optical absorbance
+      of a radiochromic film dosimeter.
+  examples: []
+  id: r127-4.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: analysis wavelength
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f5eb40ac-bcbb-57c3-a87c-245ecab1d6b8
+

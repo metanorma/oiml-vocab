@@ -1,0 +1,61 @@
+---
+data:
+  identifier: d31-3.2.62
+  localized_concepts:
+    eng: 8b470a4c-6f11-5974-8fc4-9d9f46ece9d4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.62
+    type: authoritative
+status: valid
+id: 12b950b4-1425-5f45-84aa-1dfff70be5e4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: protection of measuring instrument or component software or data domain
+      by a hardware or software implemented seal with the intention of making an intervention
+      impossible or evident
+  examples:
+  - content: A hardware seal on a measuring instrument's housing needs to be removed,
+      damaged or broken to obtain access to change software.
+  - content: A software seal in a measuring instrument records events, i.e. either
+      a non-resettable counter is incremented each time an event occurs, see 3.2.21,
+      or a data file, containing timestamped information, records the event, see 3.2.1.
+  - content: The interface of a measuring instrument is physically sealed, so that
+      accessing that interface can only be achieved by breaking, removing or damaging
+      the seal.
+  id: d31-3.2.62-eng
+  notes:
+  - content: See 6.2.3.5.
+  - content: 'Source citation: adapted from [OIML V 1:2022, 6.04]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.62
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software protection
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8b470a4c-6f11-5974-8fc4-9d9f46ece9d4
+

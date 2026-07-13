@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r53-1982-f-3
+  localized_concepts:
+    fra: '00971ce3-2327-5490-be25-7692d8a559df'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:53:1982
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '3'
+    type: authoritative
+status: valid
+id: 3a428bb8-2688-5e6e-a004-299777816110
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pression supérieure à la pression nominale, mais à laquelle la limite
+      de déformation élastique de l'élément récepteur élastique n'est pas dépassée.
+  examples: []
+  id: r53-1982-f-3-fra
+  notes:
+  - content: 'OCR note: The term header ''Point de référence'' was interleaved between
+      the term name and definition in the source OCR (spec §8.24 — OCR reordering).
+      The definition was matched to ''Pression de surcharge'' by content correspondence
+      with the English edition (Overload pressure).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pression de surcharge
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '00971ce3-2327-5490-be25-7692d8a559df'
+

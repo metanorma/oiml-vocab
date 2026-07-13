@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r125-T.3
+  localized_concepts:
+    eng: 0700a5f7-c720-552b-a5ce-c73225ecf2f3
+    fra: 283b9671-86d9-5bcc-91d8-53a16f7089d7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.3
+    type: authoritative
+status: valid
+id: c4681595-97df-58c8-9333-e6bf9a6b1171
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A container which is calibrated and for which the results are given in
+      a tank calibration table. This table is used in conjunction with the mass measurement
+      transducer to determine the mass contained in the tank.
+  examples: []
+  id: r125-T.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibrated tank
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0700a5f7-c720-552b-a5ce-c73225ecf2f3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Reservoir etalonne, les resultats d'etalonnage etant notes dans le bareme
+      de jaugeage du reservoir. Ce bareme est utilise conjointement au transducteur
+      de mesure de la masse afin de determiner la masse contenue dans le reservoir.
+  examples: []
+  id: r125-T.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reservoir de mesurage
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 283b9671-86d9-5bcc-91d8-53a16f7089d7
+

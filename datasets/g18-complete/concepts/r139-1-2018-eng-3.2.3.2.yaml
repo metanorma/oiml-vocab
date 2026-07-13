@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r139-1-2018-eng-3.2.3.2
+  localized_concepts:
+    eng: 7a1a2779-5ea4-5580-b229-76e585a4320d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139-1:2018
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: 3.2.3.2
+    type: authoritative
+status: valid
+id: aeb17133-27a4-52c2-8438-e7a797430a75
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that provides an output quantity having a specified relation to
+      the input quantity
+  examples: []
+  id: r139-1-2018-eng-3.2.3.2-eng
+  notes:
+  - content: For the purpose of this Recommendation this transducer is part of the
+      measuring device and its output signal represents the output quantity which
+      is based on the input from the sensor(s), being the input quantity.
+  - content: 'Source citation: OIML V 2-200:2012, 3.7; OIML V 1:2013, 0.11'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: 3.2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement transducer
+  - type: expression
+    normative_status: admitted
+    designation: transducer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a1a2779-5ea4-5580-b229-76e585a4320d
+

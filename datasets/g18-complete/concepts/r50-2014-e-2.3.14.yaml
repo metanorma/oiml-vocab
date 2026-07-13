@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r50-2014-e-2.3.14
+  localized_concepts:
+    eng: ac20f14b-170c-5b71-bb25-4a30d6e28ddf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+status: valid
+id: e1faaaf4-e3d2-5213-9e5a-319760dad4aa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: identifiable group of measuring instruments belonging to the same manufactured
+      type within the same category that have the same design features and metrological
+      principles for measurement (for example the same type of indicator, the same
+      type of design of load cell and load transmitting device) but which may differ
+      in some metrological and technical performance characteristics (e.g. Max, Min,
+      d accuracy class, etc.)
+  examples: []
+  id: r50-2014-e-2.3.14-eng
+  notes:
+  - content: 'Source citation: OIML B3, 3.3 [3]'
+  - content: The concept of family primarily aims at reducing the test effort at type
+      examination. It does not preclude the possibility of listing more than one family
+      in one certificate.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: family of measuring instruments
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ac20f14b-170c-5b71-bb25-4a30d6e28ddf
+

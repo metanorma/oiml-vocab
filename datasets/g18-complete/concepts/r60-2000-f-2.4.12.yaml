@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-2000-f-2.4.12
+  localized_concepts:
+    fra: 4eab3a21-2858-5f36-85eb-d431a9e0d94a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.12
+    type: authoritative
+status: valid
+id: 75b85f78-2e42-5e48-ab5b-25e824ab674c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre les indications du signal de sortie de la cellule de
+      pesée obtenues au cours d'essais consécutifs dans les mêmes conditions de mesurage
+      ambiantes et de charge.
+  examples: []
+  id: r60-2000-f-2.4.12-fra
+  notes:
+  - content: 'Source citation: Adapté de VIM 5.27'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur de répétabilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4eab3a21-2858-5f36-85eb-d431a9e0d94a
+

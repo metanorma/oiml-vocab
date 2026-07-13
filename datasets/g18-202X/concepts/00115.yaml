@@ -6,7 +6,8 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 10-1:2004
+        source: OIML B 10-1:2004
+        version: '2004'
     locality:
       type: clause
       reference_from: '3.24'
@@ -23,15 +24,19 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'manufacturer and/or an authorized representative who submits an application for type evaluation of a measuring instrument to an Issuing Authority participating in a DoMC in order to receive a Test Report and OIML Certificate for that instrument type'
+  - content: manufacturer and/or an authorized representative who submits an application
+      for type evaluation of a measuring instrument to an Issuing Authority participating
+      in a DoMC in order to receive a Test Report and OIML Certificate for that instrument
+      type
   id: 00115-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'customer'
+    designation: customer
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 55158dd5-e404-5862-9d30-7bd66bafb440
+

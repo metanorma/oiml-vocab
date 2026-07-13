@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r51-1-1996-e-T.4.4
+  localized_concepts:
+    eng: 9fc91045-eaee-5403-ae8b-78fcd39486d4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51-1:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.4
+    type: authoritative
+status: valid
+id: 5cbbcdea-939b-587c-b6d0-f39644bbea3b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The mean value of the error (of indication) for a number of consecutive
+      automatic weighings of a load, or similar loads, passed over the load receptor,
+      expressed mathematically as x_bar = sum(x)/n where x represents the error of
+      a load indication, x_bar is the mean of the errors, and n is the number of weighings.
+  examples: []
+  id: r51-1-1996-e-T.4.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mean (systematic) error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9fc91045-eaee-5403-ae8b-78fcd39486d4
+

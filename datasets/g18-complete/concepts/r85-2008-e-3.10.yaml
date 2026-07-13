@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r85-2008-e-3.10
+  localized_concepts:
+    eng: 4ea9a376-b967-5bc7-b834-9275477e3c47
+    fra: ee4ed07d-d7a3-5ea4-93d0-3ad00910d32a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: f739d886-dd14-515b-8aac-840ef52a8e3c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Facility incorporated in an electronic automatic level gauge that enables
+      significant faults and/or incorrect functioning of a specific device of the
+      ALG and/or disturbed communication between specific devices of the ALG to be
+      detected and acted upon.
+  examples: []
+  id: r85-2008-e-3.10-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the ALG (luminous signal,
+      acoustic signal, prevention of the measurement process, etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4ea9a376-b967-5bc7-b834-9275477e3c47
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Système intégré à un JA électronique permettant de détecter et de mettre
+      en évidence les défauts significatifs, ou le fonctionnement incorrect d'un dispositif
+      spécifique du JA, ou la communication perturbée entre deux dispositifs spécifiques
+      du JA.
+  examples: []
+  id: r85-2008-e-3.10-fra
+  notes:
+  - content: '"Mettre en évidence" fait référence à toute réponse appropriée du JA
+      (signal lumineux, signal sonore, protection du processus de mesurage, etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Système de contrôle
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ee4ed07d-d7a3-5ea4-93d0-3ad00910d32a
+

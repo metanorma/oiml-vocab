@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r137-1-2-2012-eng-3.3.7
+  localized_concepts:
+    eng: cbe59954-89b5-56cf-b58f-195aca20168b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+status: valid
+id: 322debe4-8c67-5965-ad18-e7fb56c3ffee
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Median temperature for gas meters with built-in conversion devices, used
+      as a reference for the determination of the applicable operating temperature
+      range.
+  examples: []
+  id: r137-1-2-2012-eng-3.3.7-eng
+  notes:
+  - content: The difference between t_sp and the gas temperature has an influence
+      on the value of the MPE.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: specified temperature
+  - type: symbol
+    normative_status: admitted
+    designation: t_sp
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cbe59954-89b5-56cf-b58f-195aca20168b
+

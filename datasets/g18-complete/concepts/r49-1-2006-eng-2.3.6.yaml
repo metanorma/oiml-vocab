@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2006-eng-2.3.6
+  localized_concepts:
+    eng: 3d52969e-e806-591d-9ce9-0c0788272d62
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.6
+    type: authoritative
+status: valid
+id: 8a94d3f5-c12d-5e5d-850e-318a39dfc3cb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: change-over flowrate for a combination meter where Qx1 is when flow stops
+      in the larger meter with decreasing flowrate, and Qx2 is when flow starts in
+      the larger meter with increasing flowrate
+  examples: []
+  id: r49-1-2006-eng-2.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: combination meter changeover flowrate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{\\mathrm{x}}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3d52969e-e806-591d-9ce9-0c0788272d62
+

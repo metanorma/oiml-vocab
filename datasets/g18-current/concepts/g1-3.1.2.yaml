@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g1-3.1.2
+  localized_concepts:
+    eng: 537a7d13-601e-5860-9591-9db6309ab7e1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.2
+    type: authoritative
+status: valid
+id: 58417787-1341-5e05-98d2-bcf809a54632
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'function giving, for every value $ \xi $ , the probability that the
+      random variable $ X $ be less than or equal to $ \xi $ : $G _ {X} (\xi) = \Pr
+      (X \leq \xi)$'
+  examples: []
+  id: g1-3.1.2-eng
+  notes:
+  - content: 'Source citation: JCGM 101:2008 3.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distribution function
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 537a7d13-601e-5860-9591-9db6309ab7e1
+

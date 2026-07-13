@@ -1,0 +1,292 @@
+{
+  "nodes": [
+    {
+      "id": "2.3",
+      "designation": "measurand",
+      "external": false
+    },
+    {
+      "id": "1.1",
+      "designation": "quantity",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "quantity value",
+      "external": false
+    },
+    {
+      "id": "4.1",
+      "designation": "indication",
+      "external": false
+    },
+    {
+      "id": "3.1",
+      "designation": "measuring instrument",
+      "external": false
+    },
+    {
+      "id": "3.2",
+      "designation": "measuring system",
+      "external": false
+    },
+    {
+      "id": "2.1",
+      "designation": "measurement",
+      "external": false
+    },
+    {
+      "id": "2.26",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.12",
+      "designation": "conventional quantity value",
+      "external": false
+    },
+    {
+      "id": "2.14",
+      "designation": "measurement trueness",
+      "external": false
+    },
+    {
+      "id": "2.15",
+      "designation": "measurement precision",
+      "external": false
+    },
+    {
+      "id": "2.18",
+      "designation": "measurement bias",
+      "external": false
+    },
+    {
+      "id": "5.18",
+      "designation": "reference quantity value",
+      "external": false
+    },
+    {
+      "id": "2.10",
+      "designation": "measured quantity value",
+      "external": false
+    },
+    {
+      "id": "2.11",
+      "designation": "true quantity value",
+      "external": false
+    },
+    {
+      "id": "ext_definition_of_a_quantity",
+      "designation": "(definition of a quantity)",
+      "external": true
+    },
+    {
+      "id": "2.17",
+      "designation": "systematic measurement error",
+      "external": false
+    },
+    {
+      "id": "2.16",
+      "designation": "measurement error",
+      "external": false
+    },
+    {
+      "id": "2.13",
+      "designation": "measurement accuracy",
+      "external": false
+    },
+    {
+      "id": "2.19",
+      "designation": "random measurement error",
+      "external": false
+    },
+    {
+      "id": "ext_other_information",
+      "designation": "(other information)",
+      "external": true
+    },
+    {
+      "id": "2.9",
+      "designation": "measurement result",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "1.1"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "1.1",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "3.2",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "3.2",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.26"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.12"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "5.18"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.14"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "partitive_plural",
+      "comprehensive": "1.19",
+      "parts": {
+        "listed": [
+          "2.15"
+        ],
+        "has_unlisted_others": false
+      },
+      "markers": {
+        "double_line": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "2.18",
+        "5.18"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "2.10",
+        "2.11"
+      ]
+    },
+    {
+      "id": "rel-016",
+      "type": "associative",
+      "members": [
+        "2.10",
+        "2.13"
+      ]
+    },
+    {
+      "id": "rel-017",
+      "type": "associative",
+      "members": [
+        "2.11",
+        "ext_definition_of_a_quantity"
+      ]
+    },
+    {
+      "id": "rel-018",
+      "type": "associative",
+      "members": [
+        "2.13",
+        "2.3"
+      ]
+    },
+    {
+      "id": "rel-019",
+      "type": "partitive",
+      "comprehensive": "2.16",
+      "parts": {
+        "listed": [
+          "2.17",
+          "2.19"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-020",
+      "type": "partitive",
+      "comprehensive": "2.9",
+      "parts": {
+        "listed": [
+          "ext_other_information",
+          "2.26",
+          "2.10"
+        ],
+        "has_unlisted_others": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r49-3.3.10
+  localized_concepts:
+    eng: ac4b9883-5e45-5c49-8dbf-81d87c7e8b51
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+status: valid
+id: 007cac19-cff7-5394-99c8-6e0e085b2e41
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: water temperature in the pipe measured upstream of the meter
+  examples: []
+  id: r49-3.3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: working temperature
+  - type: symbol
+    normative_status: preferred
+    designation: "$T_{\\mathrm{w}}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ac4b9883-5e45-5c49-8dbf-81d87c7e8b51
+

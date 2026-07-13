@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r51-T.4.3.9
+  localized_concepts:
+    eng: 9537050f-191b-569f-8cee-56cd70e2d9c1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.3.9
+    type: authoritative
+status: valid
+id: cd38731f-ddd3-5105-9a57-8c3b76adea78
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Fault greater than the verification scale interval, e. A significant
+      fault does not include: faults arising from simultaneous and mutually independent
+      causes in the instrument or in its checking facility; faults that imply it is
+      impossible to perform a measurement; faults that are so serious they will inevitably
+      be noticed by all those interested in the measurement; or transitory faults
+      that are momentary variations in the indications that cannot be interpreted,
+      memorized or transmitted as a measurement result.'
+  examples: []
+  id: r51-T.4.3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9537050f-191b-569f-8cee-56cd70e2d9c1
+

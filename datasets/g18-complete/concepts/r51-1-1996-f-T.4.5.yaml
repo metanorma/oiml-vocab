@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r51-1-1996-f-T.4.5
+  localized_concepts:
+    fra: 6daf93d7-68aa-59f3-854a-0dea4f6c942c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51-1:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+status: valid
+id: dc8d18b8-300d-5797-956f-25072ec8092f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Écart-type de l'erreur (d'indication) pour une série de pesées automatiques
+      consécutives d'une charge, ou de charges identiques, passant sur le récepteur
+      de charges, exprimé par la formule mathématique s = sqrt(Σ(x - x̅)² / (n - 1)).
+  examples: []
+  id: r51-1-1996-f-T.4.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écart-type de l'erreur (s)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6daf93d7-68aa-59f3-854a-0dea4f6c942c
+

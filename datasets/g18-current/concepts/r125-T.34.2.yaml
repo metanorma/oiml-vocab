@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r125-T.34.2
+  localized_concepts:
+    eng: 304f1def-a5f9-54cf-8cb7-7f8ed733b851
+    fra: 2e26aff3-897d-540c-b3c7-99e83ca2e1cf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.34.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.34.2
+    type: authoritative
+status: valid
+id: efeacb2d-7ea4-51c3-ad65-3baa1f73cdc0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A checking facility which requires the intervention of an operator.
+  examples: []
+  id: r125-T.34.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.34.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nonautomatic checking facility (Type N)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 304f1def-a5f9-54cf-8cb7-7f8ed733b851
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Systeme de controle necessitant l'intervention d'un operateur.
+  examples: []
+  id: r125-T.34.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.34.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Systeme de controle non automatique (Type N)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2e26aff3-897d-540c-b3c7-99e83ca2e1cf
+

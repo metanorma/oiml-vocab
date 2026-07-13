@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r110-2.3.2
+  localized_concepts:
+    eng: 5f73ce46-2216-5e8d-9bc8-29b532d9848c
+    fra: 81bb8a62-e877-5d44-8526-935666eabcad
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+status: valid
+id: 97f23abc-0d7d-54a7-be9a-57e820d452e9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The indication obtained by adding the mass values of the loaded weights
+      and making the relevant calculation of the value of the measured pressure.
+  examples: []
+  id: r110-2.3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indication by adding mass values and calculating pressure
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5f73ce46-2216-5e8d-9bc8-29b532d9848c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication obtenue en additionnant les valeurs de masse des poids charges
+      et en effectuant le calcul pertinent de la valeur de la pression mesuree.
+  examples: []
+  id: r110-2.3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indication par addition des valeurs de masse et calcul de la pression
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 81bb8a62-e877-5d44-8526-935666eabcad
+

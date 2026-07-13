@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r136-1-2004-eng-T.4.9
+  localized_concepts:
+    eng: c6408b9d-8910-5e85-b67e-c8111538cfaf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.9
+    type: authoritative
+status: valid
+id: ef2dbf4b-8dfb-55a7-b02b-bb796f11ee51
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Closeness of the agreement between the results of the difference between
+      the maximum (A_max) and minimum (A_min) successive area measurements carried
+      out under the same conditions of measurement.
+  examples: []
+  id: r136-1-2004-eng-T.4.9-eng
+  notes:
+  - content: 'Source citation: VIM 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability error
+  - type: symbol
+    normative_status: admitted
+    designation: R
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c6408b9d-8910-5e85-b67e-c8111538cfaf
+

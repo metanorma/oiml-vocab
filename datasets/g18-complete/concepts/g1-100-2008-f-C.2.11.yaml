@@ -1,0 +1,51 @@
+---
+data:
+  identifier: g1-100-2008-f-C.2.11
+  localized_concepts:
+    fra: 5a0162c9-c05e-5164-9994-c33937e5a5f8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.11
+    type: authoritative
+status: valid
+id: bb47a023-a4d1-59ef-b498-e1e622a8e139
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'espérance mathématique du carré de la variable aléatoire centrée: sigma^2
+      = V(X) = E{[X - E(X)]^2}'
+  examples: []
+  id: g1-100-2008-f-C.2.11-fra
+  notes:
+  - content: 'Source citation: ISO 3534-1:1993, definition 1.22'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: variance (d'une variable aléatoire ou d'une loi de probabilité)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5a0162c9-c05e-5164-9994-c33937e5a5f8
+

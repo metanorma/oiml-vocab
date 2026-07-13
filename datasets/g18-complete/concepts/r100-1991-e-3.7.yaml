@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r100-1991-e-3.7
+  localized_concepts:
+    eng: eb9a09eb-bc07-532a-ad06-450923c66516
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+status: valid
+id: 3156d8c6-8481-5b5d-87f2-3875ea13cdbe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of concentrations of an element of interest in solution that
+      can be measured with repeatability within specified limits.
+  examples: []
+  id: r100-1991-e-3.7-eng
+  notes:
+  - content: Dilution, or concentration, of a sample solution may be necessary to
+      bring the element of interest within the working range. The zero absorbance
+      of the spectrometer is adjusted using a blank reference solution.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Working range
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eb9a09eb-bc07-532a-ad06-450923c66516
+

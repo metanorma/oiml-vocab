@@ -1,0 +1,110 @@
+---
+data:
+  identifier: r144-2.24
+  localized_concepts:
+    fra: 40b7f945-2369-5508-9ecc-dbbb9b768049
+    eng: 2982626c-acd4-52b0-a963-d1c944ae3574
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+status: valid
+id: f3eb64a2-2ac2-5e7e-8991-0543047c1a68
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: mélange de gaz stable d'une concentration connue (fraction volumique)
+      d'un composant en cours de détermination et utilisé pour étalonnage périodique
+      et ajustage de l'analyseur de gaz, aussi bien que des essais de ses caractéristiques
+      métrologiques en vérifiant la conformité aux exigences des normatives
+  examples: []
+  id: r144-2.24-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mélange de gaz pour étalonnage
+  - type: abbreviation
+    normative_status: preferred
+    designation: CGM
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 40b7f945-2369-5508-9ecc-dbbb9b768049
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: stable gas mixture of known concentration (volume fraction) of a component
+      being determined and used for periodic calibration and adjustment of the gas
+      analyzer, as well as for tests of its metrological characteristics for compliance
+      with the requirements of normative documents
+  examples: []
+  id: r144-2.24-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration gas mixture (CGM)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2982626c-acd4-52b0-a963-d1c944ae3574
+

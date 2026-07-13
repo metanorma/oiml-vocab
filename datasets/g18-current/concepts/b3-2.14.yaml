@@ -1,0 +1,57 @@
+---
+data:
+  identifier: b3-2.14
+  localized_concepts:
+    fra: 2cc7315b-8252-536a-9007-374fee01ec2c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:3:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+status: valid
+id: 6d2b1a5d-881a-54fa-8228-90dce9ee3752
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rapport délivré par un Laboratoire d'essai, qui contient les résultats
+      des essais et examens qu'il a effectués sur la base de la Recommandation OIML
+      applicable pendant l'évaluation de type OIML menée sur un ou plusieurs échantillons
+      identifiés d'un type donné d'instrument de mesure ou de module
+  examples: []
+  id: b3-2.14-fra
+  notes:
+  - content: Voir Annexe C.
+  - content: Sauf disposition contraire de la Recommandation OIML, plusieurs rapports
+      d'essai peuvent être délivrés dans le cas où plusieurs Laboratoires d'essai
+      sont impliqués dans la réalisation de tous les essais et examens spécifiés dans
+      la Recommandation applicable (voir 5.4.1)
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rapport d'essai
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2cc7315b-8252-536a-9007-374fee01ec2c
+

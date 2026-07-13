@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-1-2017-fra-3.5.2
+  localized_concepts:
+    fra: b421e2bf-de64-5707-95a4-3c1dd2b4b4ab
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2
+    type: authoritative
+status: valid
+id: 1d94760c-da10-5fe5-b976-0f0522a66fce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: étendue entre la charge maximale de l'étendue de mesure D_max et la charge
+      minimale de l'étendue de mesure D_min; étendue de mesure de la cellule de pesée
+      = (D_max - D_min)
+  examples: []
+  id: r60-1-2017-fra-3.5.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étendue de mesure de la cellule de pesée (pour la vérification)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b421e2bf-de64-5707-95a4-3c1dd2b4b4ab
+

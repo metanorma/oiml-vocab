@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r116-2006-e-3.11
+  localized_concepts:
+    eng: 9ae92abd-936e-5b62-b995-fd08745e2ac3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:116:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 116:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+status: valid
+id: bb73cbc3-862e-5df8-aa36-38db277933fb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Concentration of an element that provides an output signal equivalent
+      to three times the standard deviation of the mean of the output signal of a
+      blank solution and is the minimum quantity measured before it can be concluded
+      that an element has been detected.
+  examples: []
+  id: r116-2006-e-3.11-eng
+  notes:
+  - content: In this Recommendation, this term refers to the determination of an element
+      in a reference solution free of interfering elements. The baseline noise is
+      established by measuring the output signal of several aliquots of the blank
+      test solution.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 116:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9ae92abd-936e-5b62-b995-fd08745e2ac3
+

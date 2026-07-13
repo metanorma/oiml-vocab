@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "1.1",
+      "designation": "quantity",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "quantity value",
+      "external": false
+    },
+    {
+      "id": "2.1",
+      "designation": "measurement",
+      "external": false
+    },
+    {
+      "id": "2.3",
+      "designation": "measurand",
+      "external": false
+    },
+    {
+      "id": "2.6",
+      "designation": "measurement procedure",
+      "external": false
+    },
+    {
+      "id": "2.10",
+      "designation": "measured quantity value",
+      "external": false
+    },
+    {
+      "id": "2.15",
+      "designation": "measurement precision",
+      "external": false
+    },
+    {
+      "id": "2.20",
+      "designation": "repeatability condition of measurement",
+      "external": false
+    },
+    {
+      "id": "2.21",
+      "designation": "measurement repeatability",
+      "external": false
+    },
+    {
+      "id": "2.22",
+      "designation": "intermediate precision condition of measurement",
+      "external": false
+    },
+    {
+      "id": "2.23",
+      "designation": "intermediate measurement precision",
+      "external": false
+    },
+    {
+      "id": "2.24",
+      "designation": "reproducibility condition of measurement",
+      "external": false
+    },
+    {
+      "id": "2.25",
+      "designation": "measurement reproducibility",
+      "external": false
+    },
+    {
+      "id": "2.27",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.39",
+      "designation": "calibration",
+      "external": false
+    },
+    {
+      "id": "3.1",
+      "designation": "measuring instrument",
+      "external": false
+    },
+    {
+      "id": "3.2",
+      "designation": "measuring system",
+      "external": false
+    },
+    {
+      "id": "4.1",
+      "designation": "indication",
+      "external": false
+    },
+    {
+      "id": "5.12",
+      "designation": "calibrator",
+      "external": false
+    },
+    {
+      "id": "ext_precision_condition_of_measurement",
+      "designation": "precision condition of measurement",
+      "external": true
+    },
+    {
+      "id": "ext_operator",
+      "designation": "operator",
+      "external": true
+    },
+    {
+      "id": "ext_operating_condition_see_fig_a_11",
+      "designation": "operating condition, see Fig. A.11",
+      "external": true
+    },
+    {
+      "id": "ext_location",
+      "designation": "location",
+      "external": true
+    },
+    {
+      "id": "ext_replicate_measurement",
+      "designation": "replicate measurement",
+      "external": true
+    },
+    {
+      "id": "ext_duration",
+      "designation": "duration",
+      "external": true
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "2.1",
+        "1.1"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "2.1",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "1.1",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "2.27",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "2.27",
+        "2.3"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "4.1"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "4.1",
+        "2.15"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "2.10",
+        "2.15"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "3.2"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "2.20",
+        "2.21"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "2.22",
+        "2.23"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "2.24",
+        "2.25"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "hierarchical",
+      "broader": "1.19",
+      "narrower": {
+        "listed": [
+          "2.3"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-014",
+      "type": "partitive",
+      "comprehensive": "ext_precision_condition_of_measurement",
+      "parts": {
+        "listed": [
+          "2.6",
+          "ext_operator",
+          "3.1",
+          "3.2",
+          "5.12",
+          "2.39",
+          "ext_operating_condition_see_fig_a_11",
+          "ext_location",
+          "ext_replicate_measurement",
+          "ext_duration"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-015",
+      "type": "partitive",
+      "comprehensive": "2.15",
+      "parts": {
+        "listed": [
+          "2.21",
+          "2.23",
+          "2.25"
+        ],
+        "has_unlisted_others": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r55-1.6
+  localized_concepts:
+    eng: 77970c08-6d2a-5d21-9765-416804f92a44
+    fra: 5db92253-148c-5d31-97e9-0f100d301e42
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:55:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '1.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '1.6'
+    type: authoritative
+status: valid
+id: 4287b986-f131-5c68-8639-f80113e20384
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Characteristic quantity showing the type (revolutions of the driving
+      shaft or impulses) and the frequency of signals at which the speedometer must
+      indicate a speed of 60 km/h.
+  examples: []
+  id: r55-1.6-eng
+  notes:
+  - content: The speedometer constant may be expressed in revolutions per minute,
+      rev/min, or in impulses per minute, imp/min.
+  - content: The speedometer constant is numerically equal to odometer constant k
+      when the same driving system is used for both instruments.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Speedometer constant
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77970c08-6d2a-5d21-9765-416804f92a44
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur caractéristique indiquant l'espèce (tours de l'arbre d'entraînement
+      ou impulsions) et la fréquence des signaux à laquelle le compteur de vitesse
+      doit indiquer la vitesse de 60 km/h.
+  examples: []
+  id: r55-1.6-fra
+  notes:
+  - content: La constante du compteur de vitesse est exprimée en tours par minute,
+      tr/min, ou en impulsions par minute, imp/min.
+  - content: La constante du compteur de vitesse est numériquement egale à la constante
+      k du compteur de distance lorsque l'entraînement est commun aux deux instruments.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Constante du compteur de vitesse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5db92253-148c-5d31-97e9-0f100d301e42
+

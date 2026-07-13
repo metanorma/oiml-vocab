@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r112-2.13
+  localized_concepts:
+    eng: 54181847-8990-51a1-98b2-bda78afacddc
+    fra: 7a735eb0-3b56-5cc3-be4a-4f1e1367e90e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+status: valid
+id: 381f48e2-c6d4-5e10-a50e-89da7b8d6ad2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A record of the detector output signal versus time that has specific
+      peaks associated with measured components of a sample.
+  examples: []
+  id: r112-2.13-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chromatogram
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54181847-8990-51a1-98b2-bda78afacddc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Enregistrement du signal de sortie du detecteur en fonction du temps,
+      avec des pics specifiques associes aux composant mesures de l'echantillon.
+  examples: []
+  id: r112-2.13-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chromatogramme
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a735eb0-3b56-5cc3-be4a-4f1e1367e90e
+

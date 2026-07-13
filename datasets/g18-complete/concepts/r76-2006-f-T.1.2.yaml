@@ -1,0 +1,109 @@
+---
+data:
+  identifier: r76-2006-f-T.1.2
+  localized_concepts:
+    eng: b97d74c2-0858-5033-a108-4688904e31fe
+    fra: 9b43ac44-5e44-5292-a26b-a3db90e8bdce
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+status: valid
+id: b3a1883e-4d9b-5cf5-8bf7-034872637071
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument that requires the intervention of an operator during the weighing
+      process to decide that the weighing result is acceptable.
+  examples: []
+  id: r76-2006-f-T.1.2-eng
+  notes:
+  - content: Deciding that the weighing result is acceptable includes any intelligent
+      action by the operator that affects the result, such as taking an action when
+      an indication is stable or adjusting the mass of the weighed load, and to make
+      a decision regarding the acceptance of each weighing result on observing the
+      indication or releasing a print out. A non-automatic weighing process allows
+      the operator to take an action (i.e. adjust the load, adjust the unit price,
+      determine that the load is acceptable, etc.) which influences the weighing result
+      in the case where the weighing result is not acceptable.
+  - content: In case of doubt as to whether an instrument is a non-automatic weighing
+      instrument or an automatic weighing instrument, the definitions for automatic
+      weighing instruments given in OIML Recommendations R 50, R 51, R 61, R 106,
+      R 107 and R 134 have higher priority than the criteria of Note 1 above.
+  - content: In this Recommendation a non-automatic weighing instrument is called
+      an "instrument".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Non-automatic weighing instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b97d74c2-0858-5033-a108-4688904e31fe
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument necessitant l'intervention d'un operateur au cours du processus
+      de pese pour decider que le resultat de la pese est acceptable.
+  examples: []
+  id: r76-2006-f-T.1.2-fra
+  notes:
+  - content: Decider que le resultat de la pese est acceptable comprend toute action
+      intelligente de l'operateur qui modifie le resultat, tel que prendre une action
+      quand l'indication est stable ou ajuster la masse de la charge pese, et prendre
+      une decision concernant l'acceptation de chaque resultat de pese en observant
+      l'indication ou declencher une impression. Le fonctionnement d'un instrument
+      de pesage non automatique permet a l'operateur de prendre une action (c'est
+      a dire ajuster la charge, ajuster le prix unitaire, decider que la charge est
+      acceptable, etc.) qui modifie le resultat de la pese dans le cas ou le resultat
+      de la pese n'est pas acceptable.
+  - content: Dans le cas ou il existe un doute pour determiner si un instrument est
+      un instrument de pesage non automatique ou un instrument de pesage automatique,
+      les definitions pour les instruments de pesage automatique, donnees dans les
+      Recommandations OIML R50, R 51, R 61, R 106, R 107 et R 134, prevalent sur les
+      criteres de la Note 1 ci-dessus.
+  - content: Dans cette Recommandation un instrument de pesage non automatique est
+      appele un « instrument ».
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrument de pesage a fonctionnement non automatique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9b43ac44-5e44-5292-a26b-a3db90e8bdce
+

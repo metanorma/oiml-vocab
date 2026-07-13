@@ -1,0 +1,150 @@
+---
+data:
+  identifier: r46-2.2.31
+  localized_concepts:
+    eng: 3ec214fc-ae36-5986-9305-6f75c4baa0b1
+    spa: aac99206-0f47-5360-a3c0-8e90c804a015
+    fra: 04c36db4-9455-5238-8d66-f30e3c5e3815
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+status: valid
+id: 39b45242-4bc2-561a-996a-ebadd141f5d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value
+  examples: []
+  id: r46-2.2.31-eng
+  notes:
+  - content: 'The following are also considered to be significant faults: a change
+      larger than the critical change value (see 3.3.6.2) has occurred in the measurement
+      registers due to disturbances; the functionality of the meter has become impaired.'
+  - content: 'Source citation: OIML D11:2004, 3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3ec214fc-ae36-5986-9305-6f75c4baa0b1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Un fallo que excede el valor del fallo limite aplicable.
+  examples: []
+  id: r46-2.2.31-spa
+  notes:
+  - content: 'Los siguientes también son considerados como fallos significativos:
+      un cambio mayo que el valor crítico de cambio (ver 3.3.6.2) ha ocurrido en los
+      registros de medición debido a perturbaciones; la funcionalidad del medidor
+      se ha visto afectada.'
+  - content: 'Source citation: OIML D11:2004, 3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fallo significativo
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aac99206-0f47-5360-a3c0-8e90c804a015
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: défaut excédant la valeur limite de défaut applicable
+  examples: []
+  id: r46-2.2.31-fra
+  notes:
+  - content: Sont également considérés comme des défauts significatifs un changement
+      plus grand que la valeur de variation critique s'est produit dans les registres
+      de mesure dus à des perturbations ; le fonctionnement du compteur est perturbé.
+  - content: 'Source citation: OIML D11:2004,3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.31
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 04c36db4-9455-5238-8d66-f30e3c5e3815
+

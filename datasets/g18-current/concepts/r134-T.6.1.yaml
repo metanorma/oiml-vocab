@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r134-T.6.1
+  localized_concepts:
+    eng: 1a3b704e-b8fa-5f1d-8a77-45052dc67ee1
+    fra: 1a81f459-65d8-53c4-9e79-3f1419fdfb6d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
+status: valid
+id: 90a373f3-3cad-5191-b6c9-5f6fd76eec2c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test with standard weights or a load that remains stationary on the load
+      receptor to determine an error.
+  examples: []
+  id: r134-T.6.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: static test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1a3b704e-b8fa-5f1d-8a77-45052dc67ee1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai avec des poids-étalons ou avec une charge qui reste immobile sur
+      le récepteur de charge pour déterminer une erreur.
+  examples: []
+  id: r134-T.6.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai statique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1a81f459-65d8-53c4-9e79-3f1419fdfb6d
+

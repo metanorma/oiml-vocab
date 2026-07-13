@@ -1,0 +1,68 @@
+---
+data:
+  identifier: r76-1-2006-fra-T.1.2
+  localized_concepts:
+    fra: ec1d5b2c-a21a-57c9-8b28-ac014dcbce43
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+status: valid
+id: fc84f0c0-e0ab-506c-8ef7-bc901a4f7067
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument nécessitant l'intervention d'un opérateur au cours du processus
+      de pesée pour décider que le résultat de la pesée est acceptable.
+  examples: []
+  id: r76-1-2006-fra-T.1.2-fra
+  notes:
+  - content: Décider que le résultat de la pesée est acceptable comprend toute action
+      intelligente de l'opérateur qui modifie le résultat, tel que prendre une action
+      quand l'indication est stable ou ajuster la masse de la charge pesée, et prendre
+      une décision concernant l'acceptation de chaque résultat de pesée en observant
+      l'indication ou déclencher une impression. Le fonctionnement d'un instrument
+      de pesage non automatique permet à l'opérateur de prendre une action (c'est
+      à dire ajuster la charge, ajuster le prix unitaire, décider que la charge est
+      acceptable, etc.) qui modifie le résultat de la pesée dans le cas ou le résultat
+      de la pesée n'est pas acceptable.
+  - content: Dans le cas où il existe un doute pour déterminer si un instrument est
+      un instrument de pesage non automatique ou un instrument de pesage automatique,
+      les définitions pour les instruments de pesage automatique, données dans les
+      Recommandations OIML R50, R 51, R 61, R 106, R 107 et R 134, prévalent sur les
+      critères de la Note 1 ci-dessus.
+  - content: Un instrument de pesage non automatique peut être gradué ou non gradué,
+      ou à équilibre automatique, semi-automatique ou non automatique.
+  - content: Dans cette Recommandation un instrument de pesage non automatique est
+      appelé un «instrument».
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrument de pesage à fonctionnement non automatique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec1d5b2c-a21a-57c9-8b28-ac014dcbce43
+

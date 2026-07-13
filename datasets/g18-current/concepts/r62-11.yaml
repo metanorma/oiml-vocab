@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r62-11
+  localized_concepts:
+    eng: '07904b90-1543-5564-a291-78ce851e736d'
+    fra: 666b31b9-2e13-5d98-b872-5c78bc84769d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '11'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '11'
+    type: authoritative
+status: valid
+id: fcece2af-08b8-5896-8e92-f4a48672477c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The strain gauge axis at 90 degrees to the measurement axis.
+  examples: []
+  id: r62-11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transverse axis
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '07904b90-1543-5564-a291-78ce851e736d'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Axe de l'extensomètre perpendiculaire à l'axe de mesure.
+  examples: []
+  id: r62-11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: axe transversal
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 666b31b9-2e13-5d98-b872-5c78bc84769d
+

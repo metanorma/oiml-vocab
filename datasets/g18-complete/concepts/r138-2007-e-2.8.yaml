@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r138-2007-e-2.8
+  localized_concepts:
+    eng: 4814b7d1-3ee6-55c1-8b5b-63669b490bca
+    fra: fe28f040-10a9-5e55-988e-deb5a87a1f19
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:138:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 138:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+status: valid
+id: 93ac53a9-6f64-5dc3-b880-6a913d97b81c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Empty volume remaining in a container after it is filled.
+  examples: []
+  id: r138-2007-e-2.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 138:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ullage
+  - type: expression
+    normative_status: admitted
+    designation: headspace
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4814b7d1-3ee6-55c1-8b5b-63669b490bca
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Volume vide restant dans le récipient après son remplissage.
+  examples: []
+  id: r138-2007-e-2.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 138:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hauteur de creux
+  - type: expression
+    normative_status: admitted
+    designation: volume d'expansion
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fe28f040-10a9-5e55-988e-deb5a87a1f19
+

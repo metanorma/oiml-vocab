@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d31-3.2.6
+  localized_concepts:
+    eng: a0261441-90bf-5edb-96ce-da244f2ee3b9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.6
+    type: authoritative
+status: valid
+id: 0aa922f7-305d-5f9a-8fcd-134945628a49
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: servers that are accessed over the internet or another network, and the
+      software and databases that run on those servers
+  examples: []
+  id: d31-3.2.6-eng
+  notes:
+  - content: Cloud servers may not be physically accessible to all parties and may
+      be located in a different country. Their physical location may not be known
+      and not fixed.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cloud
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a0261441-90bf-5edb-96ce-da244f2ee3b9
+

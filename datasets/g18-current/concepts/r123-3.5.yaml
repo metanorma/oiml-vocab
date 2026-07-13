@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r123-3.5
+  localized_concepts:
+    fra: 27fcd0b6-6932-54d1-9e9e-155be7094cc3
+    eng: bc414dbf-d8d4-534e-81e2-e1d11f546273
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: 2994cffe-538b-52c3-b780-c0361d207d1e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etroitesse de l'accord entre les resultats des mesurages successifs du
+      meme echantillon par le meme instrument, dans des conditions d'utilisation definies
+      identiques et dans un intervalle de temps relativement court.
+  examples: []
+  id: r123-3.5-fra
+  notes:
+  - content: 'Les conditions definies identiques devraient inclure: la methode de
+      mesurage, l''instrument de mesure, l''operateur, le lieu et les conditions environnementales
+      ambiantes.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fidelite
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 27fcd0b6-6932-54d1-9e9e-155be7094cc3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Closeness of agreement between the results of successive measurements
+      of the same sample using the same instrument, under the same defined conditions
+      of use, and within a relatively short period of time.
+  examples: []
+  id: r123-3.5-eng
+  notes:
+  - content: 'The same defined conditions would include the following: method of measurement,
+      the measuring instrument, the operator, the location and the ambient environmental
+      conditions.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bc414dbf-d8d4-534e-81e2-e1d11f546273
+

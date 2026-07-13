@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r91-3.1.11
+  localized_concepts:
+    eng: 3ef505ce-c9b3-508b-a3a9-2c440c9b52a8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.1.11
+    type: authoritative
+status: valid
+id: 8e478ba3-e8a3-55a1-aee5-a884983454ac
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: physical or virtual line segment on one or several lanes of the road
+      at which automatic speed measurements are carried out
+  examples: []
+  id: r91-3.1.11-eng
+  notes:
+  - content: The trigger line is typically perpendicular to the direction of the road.
+  - content: The trigger line is not necessarily in the same position for every measurement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: trigger line
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3ef505ce-c9b3-508b-a3a9-2c440c9b52a8
+

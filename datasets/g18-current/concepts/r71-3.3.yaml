@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r71-3.3
+  localized_concepts:
+    eng: ef553610-32f4-52ee-becd-95e9025d3dbb
+    deu: 40435047-a372-5144-86b2-b69f6bf6f272
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:71:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+status: valid
+id: 6eaf6bb4-d37f-5057-9ae3-657ba1a5e3d6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Opening in the top of a tank through which dipping and sampling operations
+      are carried out.
+  examples: []
+  id: r71-3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gauge hatch (dip-hatch)
+  - type: expression
+    normative_status: admitted
+    designation: dip-hatch
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ef553610-32f4-52ee-becd-95e9025d3dbb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Öffnung am oberen Teil des Behälters, durch die Peilvorgänge durchgeführt
+      und Stichproben entnommen werden.
+  examples: []
+  id: r71-3.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Peilöffnung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 40435047-a372-5144-86b2-b69f6bf6f272
+

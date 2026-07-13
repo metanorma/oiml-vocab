@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r76-1-2006-fra-T.3.5
+  localized_concepts:
+    fra: 25ad4b6f-a1f3-5c5a-9552-75e858cb7146
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.5
+    type: authoritative
+status: valid
+id: b74ee283-e9ea-5441-9108-ecf91289be72
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Groupe identifiable d'instruments de pesage ou de modules appartenant
+      au même modèle fabriqué qui a les mêmes éléments de conception et les principes
+      métrologiques de mesure (par exemple le même modèle d'indicateur, le même modèle
+      de conception de cellule de pesée et de dispositif de transmetteur de charge)
+      mais qui peut différer dans quelques caractéristiques de performances métrologiques
+      et techniques (par exemple, Max, Min, e, d, classe de précision, etc.).
+  examples: []
+  id: r76-1-2006-fra-T.3.5-fra
+  notes:
+  - content: Le concept de «famille» vise d'abord à réduire les essais exigés pour
+      l'approbation de modele. Ceci n'empêche pas la possibilité de lister plus qu'une
+      famille dans un Certificat.
+  - content: 'Source citation: adapted from OIML B 3:2003, 2.3'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: famille
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 25ad4b6f-a1f3-5c5a-9552-75e858cb7146
+

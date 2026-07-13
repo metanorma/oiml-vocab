@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r146-2016-e-2.2.6
+  localized_concepts:
+    eng: 63b8cbaa-ac9b-589d-b16a-9c7af075e561
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+status: valid
+id: a7eed152-94d6-5656-beff-15c09007cca2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication (during or after exposure
+      to a disturbance) and the mean intrinsic error of a measuring instrument with
+      reference to a certified measurement standard
+  examples: []
+  id: r146-2016-e-2.2.6-eng
+  notes:
+  - content: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic measuring instrument. From the definition
+      it follows that a 'fault' is a numerical value which is expressed either in
+      a unit of measurement or as a relative value. If a certified measurement standard
+      is not used, a fault is the difference between a single indication during or
+      after a disturbance and the mean indication at reference conditions prior to
+      test.
+  - content: 'Source citation: OIML D 11:2013, 3.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 63b8cbaa-ac9b-589d-b16a-9c7af075e561
+

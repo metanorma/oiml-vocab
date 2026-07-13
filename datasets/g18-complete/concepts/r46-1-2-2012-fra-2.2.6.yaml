@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r46-1-2-2012-fra-2.2.6
+  localized_concepts:
+    fra: d60f64d1-9cff-517d-a336-768fd89c612c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.6
+status: valid
+id: 84b20c5f-c8af-558a-a66c-b6a44c7ae97d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur de la tension électrique fournie au compteur
+  examples: []
+  id: r46-1-2-2012-fra-2.2.6-fra
+  notes:
+  - content: Le terme "tension" dans la présente Recommandation correspond aux valeurs
+      r.m.s. (racine carrée de la moyenne des carrés) sauf indication contraire.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tension (U)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d60f64d1-9cff-517d-a336-768fd89c612c
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r137-1-2-2012-fra-3.2.5
+  localized_concepts:
+    fra: 81e80611-8bd6-5241-9762-5a4d2e0f4828
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+status: valid
+id: 4cd87e8a-a998-5ce6-88de-9ae5ede244f8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'L''erreur moyenne pondérée (EMP), dans le cadre du champ d''application
+      de cette Recommandation, est définie ainsi: EMP = sum(k_i × E_i) / sum(k_i),
+      avec k_i = Q_i/Q_max pour Q_i <= 0,7 Q_max, et k_i = 1,4 - Q_i/Q_max pour 0,7
+      Q_max < Q_i <= Q_max.'
+  examples: []
+  id: r137-1-2-2012-fra-3.2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur moyenne pondérée
+  - type: expression
+    normative_status: admitted
+    designation: EMP
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 81e80611-8bd6-5241-9762-5a4d2e0f4828
+

@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r134-1-2006-fra-T.4.4.4
+  localized_concepts:
+    fra: c6484321-9e03-5d26-a995-518fbee133e0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.4.4
+    type: authoritative
+status: valid
+id: 40374c5d-1c89-5e5f-844b-b52266097738
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeurs extrêmes d'une erreur tolérée par des spécifications ou règlements
+      entre l'indication d'un instrument de pesage et la valeur vraie correspondante,
+      déterminée par référence à des masses ou poids étalons, à zéro ou à charge nulle,
+      en position de référence.
+  examples: []
+  id: r134-1-2006-fra-T.4.4.4-fra
+  notes:
+  - content: 'Source citation: VIM 5.21'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée
+  - type: expression
+    normative_status: admitted
+    designation: EMT
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c6484321-9e03-5d26-a995-518fbee133e0
+

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r59-2016-f-2.3.13
+  localized_concepts:
+    eng: 66f16617-17a7-5dfa-8701-be6bf92290a6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.13
+    type: authoritative
+status: valid
+id: 5b9575cf-d21a-5d08-82a3-01c9ad051a4e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement variation (relative to the moisture values obtained at reference
+      conditions) resulting from the range of grain sample temperatures permitted
+      in commercial measurements
+  examples: []
+  id: r59-2016-f-2.3.13-eng
+  notes:
+  - content: STS is controlled in approved moisture calibrations. During assessment,
+      a limit is placed on the value of the average error shift caused by allowable
+      temperature variations.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sample temperature sensitivity (STS)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 66f16617-17a7-5dfa-8701-be6bf92290a6
+

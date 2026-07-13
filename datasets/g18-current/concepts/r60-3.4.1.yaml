@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-3.4.1
+  localized_concepts:
+    eng: 35a7679d-3b51-5865-82de-3395225e2601
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+status: valid
+id: 6116a11d-ae63-592f-8a38-3973ac00a8b3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: symbol assigned to a load cell that indicates the conditions of humidity
+      under which the load cell has been tested
+  examples: []
+  id: r60-3.4.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: humidity symbol
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 35a7679d-3b51-5865-82de-3395225e2601
+

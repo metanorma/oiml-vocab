@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r53-9
+  localized_concepts:
+    fra: ceab3d3e-9d58-557c-8988-140df0916fe4
+    eng: e5466711-cbf5-5d75-bfb5-aee002a08b1d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:53:1982
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '9'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '9'
+    type: authoritative
+status: valid
+id: cc2616e4-2dac-56e4-b7f0-9c488524b513
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Caractéristique qui reflète la proportionnalité directe entre le déplacement
+      et la pression et dont les points initial et final coïncident avec les points
+      correspondants de la caractéristique élastique en marche avant.
+  examples: []
+  id: r53-9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Caractéristique conventionnelle linéaire
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ceab3d3e-9d58-557c-8988-140df0916fe4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Characteristic reflecting the direct proportionality between displacement
+      and pressure, the initial and final points of which coincide with the corresponding
+      points of the forward elastic characteristic.
+  examples: []
+  id: r53-9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conventional linear characteristic
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e5466711-cbf5-5d75-bfb5-aee002a08b1d
+

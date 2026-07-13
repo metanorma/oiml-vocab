@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r51-T.3.2.4.1
+  localized_concepts:
+    eng: 7791e82d-8139-5c86-bd9f-3eb3c113d6e5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.4.1
+    type: authoritative
+status: valid
+id: edfcba9d-f8ef-5e68-b708-77ce30fbd6e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Numerical value, representing a weight value, that is introduced into
+      the instrument. It is a predetermined tare value that is used for one or several
+      weighings.
+  examples: []
+  id: r51-T.3.2.4.1-eng
+  notes:
+  - content: '"Introduced" includes procedures such as: keying in, recalling from
+      a data storage, or inserting via an interface.'
+  - content: '"Predetermined" means that a tare value is determined once and is applied
+      to other weighings without determining the individual tare values.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Preset tare value
+  - type: expression
+    normative_status: admitted
+    designation: PT
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7791e82d-8139-5c86-bd9f-3eb3c113d6e5
+

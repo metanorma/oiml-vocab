@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r61-2004-e-T.4.2.6
+  localized_concepts:
+    eng: 42820657-708d-5ce1-b446-88f95f11cbed
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.4.2.6
+status: valid
+id: 827d8676-82dd-59db-8247-af0516323416
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fault greater than 0.25 of the maximum permissible deviation of each
+      fill for in-service inspection as specified in 2.2.2, for a fill equal to the
+      minimum capacity or rated minimum fill respectively of the filling instrument.
+  - content: 'The following are not considered to be significant faults, even when
+      they exceed the value defined above: faults arising from simultaneous and mutually
+      independent causes in the instrument; faults that imply it is impossible to
+      perform a measurement; faults that are so serious that they will inevitably
+      be noticed by those interested in the measurement; and transitory faults that
+      are momentary variations in the indications or operation that can not be interpreted,
+      memorized or transmitted as a measurement result.'
+  examples: []
+  id: r61-2004-e-T.4.2.6-eng
+  notes:
+  - content: For filling instruments where the fill may be greater than one load,
+      the value of the significant fault applicable for a test on one static load
+      shall be calculated in accordance with the test procedures in A.6.1.3.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.4.2.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 42820657-708d-5ce1-b446-88f95f11cbed
+

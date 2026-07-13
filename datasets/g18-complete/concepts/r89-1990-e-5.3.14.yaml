@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r89-1990-e-5.3.14
+  localized_concepts:
+    eng: 0b2cbd69-edda-5d1e-9723-d9c4435250af
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.14
+    type: authoritative
+status: valid
+id: a60c43a5-9db0-5b1b-b488-df2692c5d8d7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The intrinsic noise level referred to the input is the maximum peak-to-peak
+      amplitude of the signal recorded when the electroencephalograph's input is connected
+      to the skin-electrode impedance Z1; it is evaluated for a given time interval
+      and referred to the electroencephalograph's input.
+  examples: []
+  id: r89-1990-e-5.3.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic noise level referred to the input
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0b2cbd69-edda-5d1e-9723-d9c4435250af
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r60-2000-e-2.5.3
+  localized_concepts:
+    eng: 710b6736-cafe-5ba9-baa3-a7bd44ae99ab
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.5.3
+    type: authoritative
+status: valid
+id: e1dca096-9278-585a-ae96-7d519c7e7ab2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions of use prescribed for testing the performance of a load cell
+      or for the intercomparison of results of measurements.
+  examples: []
+  id: r60-2000-e-2.5.3-eng
+  notes:
+  - content: The reference conditions generally include reference values or reference
+      ranges for the influence quantities affecting the load cell.
+  - content: 'Source citation: Adapted from VIM 5.7'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reference conditions
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 710b6736-cafe-5ba9-baa3-a7bd44ae99ab
+

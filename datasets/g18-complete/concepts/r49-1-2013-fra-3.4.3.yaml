@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2013-fra-3.4.3
+  localized_concepts:
+    fra: 22fe1924-960d-5c4f-961a-4a101948104f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+status: valid
+id: fa855c71-9669-5d9e-8851-2fd3c6c207bc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont une valeur se situe dans les limites specifiees
+      dans cette partie de l'OIML R 49 mais en dehors des conditions assignees de
+      fonctionnement specifiees du compteur
+  examples: []
+  id: r49-1-2013-fra-3.4.3-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si pour cette grandeur
+      d'influence, les conditions assignees de fonctionnement ne sont pas specifiees.
+  - content: 'Source citation: OIML D 11:2013 [3], 3.15.2, modifie - "cette partie
+      de OIML R 49" remplace "la Recommandation Applicable"; "compteur" remplace "instrument
+      de mesure".'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 22fe1924-960d-5c4f-961a-4a101948104f
+

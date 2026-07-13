@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2013-fra-3.1.7
+  localized_concepts:
+    fra: d1a1bb94-91c8-51e1-b6dc-dbde531f3d8d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: '09a9e834-85b4-5737-ab06-a86363705f20'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif connecte a ou incorpore au compteur pour la correction automatique
+      du volume de l'eau aux conditions de mesure, en tenant compte du debit et /
+      ou des caracteristiques de l'eau a mesurer et des courbes d'etalonnage pre-etablies
+  examples: []
+  id: r49-1-2013-fra-3.1.7-fra
+  notes:
+  - content: Les caracteristiques de l'eau, par exemple la temperature et la pression,
+      peuvent etre mesurees soit en utilisant des instruments de mesure associes,
+      soit stockees dans la memoire du compteur.
+  - content: Pour la definition du terme "correction", voir OIML V 2-200:2012 (VIM)
+      [1], 2.53.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de correction
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d1a1bb94-91c8-51e1-b6dc-dbde531f3d8d
+

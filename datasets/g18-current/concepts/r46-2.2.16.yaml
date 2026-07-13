@@ -1,0 +1,144 @@
+---
+data:
+  identifier: r46-2.2.16
+  localized_concepts:
+    eng: 4d22df8f-871b-588c-a5c9-43d6d3cce3d3
+    spa: 71e9d0e8-ae6c-54e8-81c5-4eb888ce304c
+    fra: d8601872-bb4d-56b1-bab2-ca721fad2b59
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.16
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.16
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.16
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.16
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.16
+    type: authoritative
+status: valid
+id: 7391706a-5be8-5ceb-8455-3a49dafe2cf0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: active power integrated over time
+  examples: []
+  id: r46-2.2.16-eng
+  notes:
+  - content: E(T) is the active energy. Other symbols are as defined in 2.2.15
+  - content: Active energy is usually expressed in kWh or MWh. Refer to 3.1 for requirements
+      on units of measurement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: active energy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4d22df8f-871b-588c-a5c9-43d6d3cce3d3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Potencia activa integrada en el tiempo
+  examples: []
+  id: r46-2.2.16-spa
+  notes:
+  - content: E(T) es la energía activa. Los otros símbolos según se definen en 2.2.15.
+  - content: Por lo general, la energía activa se expresa en kWh o MWh. Refiérase
+      a 3.1 para los requisitos sobre unidades de medición.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Energía activa
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 71e9d0e8-ae6c-54e8-81c5-4eb888ce304c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: puissance active intégrée dans le temps
+  examples: []
+  id: r46-2.2.16-fra
+  notes:
+  - content: L'énergie active est généralement exprimée en kWh ou MWh.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.16
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: énergie active
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d8601872-bb4d-56b1-bab2-ca721fad2b59
+

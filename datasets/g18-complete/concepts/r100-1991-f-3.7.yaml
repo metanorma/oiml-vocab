@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r100-1991-f-3.7
+  localized_concepts:
+    fra: 86c63743-60fb-5118-b168-6ea30349edb8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+status: valid
+id: abca897d-117d-5008-84d8-3dd26fe778dd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etendue des concentrations d'un element interessant en solution, que
+      l'on peut mesurer avec une repetabilite respectant des limites specifiees.
+  examples: []
+  id: r100-1991-f-3.7-fra
+  notes:
+  - content: Une dilution ou une concentration d'une solution de dosage peut etre
+      necessaire pour amener l'element interessant dans l'etendue de mesure. L'absorbance
+      du spectrometre est ajustee a zero en utilisant une solution de reference a
+      blanc.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue (domaine) de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 86c63743-60fb-5118-b168-6ea30349edb8
+

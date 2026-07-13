@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-2000-e-2.4.7
+  localized_concepts:
+    eng: 5a29d762-9075-59d9-89e8-0d003ba046da
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.7
+    type: authoritative
+status: valid
+id: be802382-5402-5a2f-947b-3f36b1fedda1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference between the load cell measurement result and the true value
+      of the measurand (the applied force expressed in mass).
+  examples: []
+  id: r60-2000-e-2.4.7-eng
+  notes:
+  - content: 'Source citation: Adapted from VIM 5.20'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Load cell error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5a29d762-9075-59d9-89e8-0d003ba046da
+

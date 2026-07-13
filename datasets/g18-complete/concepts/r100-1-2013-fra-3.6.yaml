@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r100-1-2013-fra-3.6
+  localized_concepts:
+    fra: 1189f9f0-66b8-560d-8d5d-8c9f29a5a373
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+status: valid
+id: '09bff2db-4ff3-5bb7-97b9-678ecbbc0078'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facteur de merite qui est egal a trois fois l'ecart type du bruit de
+      fond observe, etabli en mesurant le signal de sortie d'une solution d'essai
+      a blanc exempte de substance interferente
+  examples: []
+  id: r100-1-2013-fra-3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limite de detection de l'instrument (LDI)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1189f9f0-66b8-560d-8d5d-8c9f29a5a373
+

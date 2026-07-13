@@ -1,0 +1,108 @@
+---
+data:
+  identifier: r59-2.3.7
+  localized_concepts:
+    fra: 4f6e9723-bfb8-575e-bc8d-40cb9738b29e
+    eng: cabf4026-5308-5dc6-b6db-15676fd8dd7e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+status: valid
+id: 88a19ac6-03f5-5bb7-aba2-7e39a3c2d944
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif pouvant être scellé physiquement, tel qu'un interrupteur à
+      deux positions, situé sur un appareil configurable à distance, qui active et
+      désactive la capacité à recevoir des valeurs d'ajustage ou des modifications
+      des paramètres de configuration protégés par scellement depuis un appareil à
+      distance
+  examples: []
+  id: r59-2.3.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif d'activation/désactivation verrouillable
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4f6e9723-bfb8-575e-bc8d-40cb9738b29e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: physically sealable hardware, such as a two-position switch, located
+      on a remotely configurable device, that enables and inhibits the capability
+      to receive adjustment values or changes to sealable configuration parameters
+      from a remote device
+  examples: []
+  id: r59-2.3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: enabling/inhibiting sealable hardware
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cabf4026-5308-5dc6-b6db-15676fd8dd7e
+

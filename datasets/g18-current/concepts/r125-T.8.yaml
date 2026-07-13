@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r125-T.8
+  localized_concepts:
+    eng: 1d8f5485-0271-5dea-8dff-7ff047b97a32
+    fra: 8f59eb2b-44a3-5100-8947-1e77840035c7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.8
+    type: authoritative
+status: valid
+id: f9af9eac-6997-55ee-8f67-da5d60cadef7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A device which displays the mass calculated by the processor and other
+      quantities. It may or may not be part of the processor.
+  examples: []
+  id: r125-T.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.8
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicator
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1d8f5485-0271-5dea-8dff-7ff047b97a32
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif affichant la masse calculee par le calculateur et d'autres
+      grandeurs. Il peut faire partie ou non du calculateur.
+  examples: []
+  id: r125-T.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indicateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8f59eb2b-44a3-5100-8947-1e77840035c7
+

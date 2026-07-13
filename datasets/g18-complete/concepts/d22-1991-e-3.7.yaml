@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d22-1991-e-3.7
+  localized_concepts:
+    eng: 1ccc7f06-53e8-590b-a285-67a35fc20fd7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:22:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: 739d0cea-f1b1-520a-8420-552d9a5f5e51
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of concentrations over which a detectable change in output
+      signal is produced by an incremental change in concentration of a substance.
+      The lower limit is given by the detection limit, and the upper limit occurs
+      at the point of detector saturation. The value of the dynamic range is expressed
+      by the ratio of the upper to the lower limit and is larger than or equal to
+      the linear range.
+  examples: []
+  id: d22-1991-e-3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dynamic range of a detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ccc7f06-53e8-590b-a285-67a35fc20fd7
+

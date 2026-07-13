@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-2000-f-2.3.9
+  localized_concepts:
+    fra: fc281246-d61c-5e51-ac74-a1b2a7671a9c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.9
+    type: authoritative
+status: valid
+id: 6ae5d645-83bf-5e0f-8466-dae3a3239eb6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre les valeurs du signal de sortie de la cellule de pesée
+      pour la charge morte minimale, mesuré avant et après l'application d'une charge
+      (DR).
+  examples: []
+  id: r60-2000-f-2.3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Retour du signal de sortie à la charge morte minimale (DR)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fc281246-d61c-5e51-ac74-a1b2a7671a9c
+

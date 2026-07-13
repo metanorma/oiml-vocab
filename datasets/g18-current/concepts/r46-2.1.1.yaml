@@ -1,0 +1,149 @@
+---
+data:
+  identifier: r46-2.1.1
+  localized_concepts:
+    eng: 63cb39a8-3b55-52c2-9584-d3a76c1298b1
+    spa: 6801fe10-c517-5f50-ac29-67e0b107c220
+    fra: 75eeafbc-7d49-59c3-9647-2375ae93f409
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+status: valid
+id: d52feada-8174-543a-a5eb-dd7c6c8dad50
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument intended to measure electrical energy continuously by integrating
+      power with respect to time and to store the result
+  examples: []
+  id: r46-2.1.1-eng
+  notes:
+  - content: It is recognized that "continuously" may also cover meters with a sampling
+      rate sufficiently high to fulfil the requirements of this Recommendation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: electricity meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 63cb39a8-3b55-52c2-9584-d3a76c1298b1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrumento diseñado para medir energía eléctrica continuamente, mediante
+      la integración de la energía con el respectivo tiempo y con el almacenamiento
+      del resultado.
+  examples: []
+  id: r46-2.1.1-spa
+  notes:
+  - content: Se reconoce que "continuamente" también puede cubrir medidores con una
+      tasa de muestreo lo suficientemente alta como para cumplir con los requisitos
+      de esta Recomendación.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Medidor de electricidad
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6801fe10-c517-5f50-ac29-67e0b107c220
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument destiné à mesurer l'énergie électrique en continu par intégration
+      de la puissance en fonction du temps et à stocker le résultat
+  examples: []
+  id: r46-2.1.1-fra
+  notes:
+  - content: Il est admis que "en continu" peut également couvrir les compteurs avec
+      un taux d'échantillonnage suffisamment élevé pour satisfaire aux exigences de
+      la présente Recommandation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur électrique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 75eeafbc-7d49-59c3-9647-2375ae93f409
+

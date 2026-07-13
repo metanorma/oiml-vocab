@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r81-3.19
+  localized_concepts:
+    eng: 1371f30e-55b9-5ade-a2e5-e1948b55a2eb
+    fra: 77f27f2d-5170-56f0-a94a-78fd80ad7831
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+status: valid
+id: e96eaaa6-dbca-5748-bd5b-883eec23334a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a measuring instrument to provide closely similar indications
+      for repeated applications of the same measurand under the same conditions of
+      measurement.
+  examples: []
+  id: r81-3.19-eng
+  notes:
+  - content: 'Source citation: VIM 5.27'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1371f30e-55b9-5ade-a2e5-e1948b55a2eb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aptitude d'un instrument de mesure a donner des indications tres voisines
+      lors de l'application repetee du meme mesurande dans les memes conditions de
+      mesure.
+  examples: []
+  id: r81-3.19-fra
+  notes:
+  - content: 'Source citation: VIM 5.27'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de repetabilite
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77f27f2d-5170-56f0-a94a-78fd80ad7831
+

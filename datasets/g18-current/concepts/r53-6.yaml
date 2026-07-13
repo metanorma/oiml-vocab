@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r53-6
+  localized_concepts:
+    fra: cde3fae7-f7b3-5a07-98c0-ede5937dbfc8
+    eng: 3b23ddae-53fb-50a6-9d11-668e9d7df8f2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:53:1982
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+status: valid
+id: 50e8ab9c-4bd9-5943-8cfc-1f3cd03e3c40
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dépendance entre le déplacement du point de référence et la pression.
+  examples: []
+  id: r53-6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Caractéristique élastique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cde3fae7-f7b3-5a07-98c0-ede5937dbfc8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Relation between the displacement of the reference point and pressure.
+  examples: []
+  id: r53-6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Elastic characteristic
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3b23ddae-53fb-50a6-9d11-668e9d7df8f2
+

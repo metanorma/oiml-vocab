@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r129-2.2.4
+  localized_concepts:
+    deu: 34aa57a7-fe55-5422-8811-e4bec1d420cf
+    eng: f05c4276-4490-5641-a858-6058589ad867
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+status: valid
+id: ad67c37f-0b3a-55dd-a317-d93ed6eb98da
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Volumen des kleinsten Quaders, der das Objekt vollständig umhüllt, angegeben
+      als Produkt der Anzeigewerte von Länge (L), Breite (B) und Höhe (H)
+  examples: []
+  id: r129-2.2.4-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maßvolumen (Dim Vol oder DV)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 34aa57a7-fe55-5422-8811-e4bec1d420cf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: volume of the smallest rectangular box which fully encloses the object,
+      and is the product of the indicated values of length (L), width (W) and height
+      (H) (DV = L x W x H)
+  examples: []
+  id: r129-2.2.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dimensional volume
+  - type: abbreviation
+    normative_status: admitted
+    designation: Dim Vol
+  - type: abbreviation
+    normative_status: admitted
+    designation: DV
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f05c4276-4490-5641-a858-6058589ad867
+

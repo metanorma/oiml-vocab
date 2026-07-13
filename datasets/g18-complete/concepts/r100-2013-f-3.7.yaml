@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r100-2013-f-3.7
+  localized_concepts:
+    eng: fac4b0f1-82c0-597a-8894-e8ded3b0e783
+    fra: ecd6b6ac-4521-503c-88ae-2adfedbd2ba8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: c221a7b4-7955-5b11-be4d-3d64d043f84a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: range of concentrations of an element of interest in solution that can
+      be measured within specified limits
+  examples: []
+  id: r100-2013-f-3.7-eng
+  notes:
+  - content: Dilution, or concentration, of a sample solution may be necessary to
+      bring the element of interest within the working range. The zero absorbance
+      of the spectrometer is adjusted using a blank reference solution.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: working range
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fac4b0f1-82c0-597a-8894-e8ded3b0e783
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: étendue des concentrations d'un élément concerné en solution que l'on
+      peut mesurer à l'intérieur des limites spécifiées
+  examples: []
+  id: r100-2013-f-3.7-fra
+  notes:
+  - content: Une dilution ou une concentration d'une solution de dosage peut être
+      nécessaire pour amener l'élément concerné dans l'étendue de mesure. L'absorbance
+      du spectromètre à zéro est ajustée en utilisant une solution de référence à
+      blanc.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étendue de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ecd6b6ac-4521-503c-88ae-2adfedbd2ba8
+

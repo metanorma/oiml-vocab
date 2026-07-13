@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r129-2.2.2
+  localized_concepts:
+    deu: 06ffe499-b616-5dea-859e-87b012ed57c2
+    eng: ee757410-fac0-5943-9347-51599a1bd797
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+status: valid
+id: 992684ca-d576-5478-ada6-6b325d8009e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Objekte, die kein Quader sind
+  examples: []
+  id: r129-2.2.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unregelmäßig geformtes Objekt
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 06ffe499-b616-5dea-859e-87b012ed57c2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: object other than a rectangular box
+  examples: []
+  id: r129-2.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: irregular shaped object
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ee757410-fac0-5943-9347-51599a1bd797
+

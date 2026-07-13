@@ -1,0 +1,53 @@
+---
+data:
+  identifier: b18-2025-e-3.14
+  localized_concepts:
+    eng: 5b7cf230-4e94-5a47-8eba-92a3aae1adcc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:18:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+status: valid
+id: 4e40498a-3e2a-52db-8ff3-a8e9f7f55cbf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: test performed on a measuring instrument at a site or facility outside
+      of the permanent control of a Test Laboratory
+  examples: []
+  id: b18-2025-e-3.14-eng
+  notes:
+  - content: Field site tests are generally the only practical way to test very large
+      scale or large capacity measuring instruments, where it is not possible to perform
+      the testing in a controlled laboratory environment.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: field site test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5b7cf230-4e94-5a47-8eba-92a3aae1adcc
+

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-3.2.16
+  localized_concepts:
+    eng: cf0ab20d-3ecb-5b19-bfe4-5d01d6905936
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.16
+    type: authoritative
+status: valid
+id: 453bc269-ccbf-5a61-a43a-4cdbc55c369d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: software module whose functional behaviour depends on predefined device-specific
+      parameters that may change over time during use
+  examples: []
+  id: d31-3.2.16-eng
+  notes:
+  - content: Such dynamic modules may incorporate or utilise machine learning or artificial
+      intelligence characteristics and processes.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dynamic module of legally relevant software
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cf0ab20d-3ecb-5b19-bfe4-5d01d6905936
+

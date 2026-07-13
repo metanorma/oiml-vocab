@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r49-1-2013-fra-3.3.10
+  localized_concepts:
+    fra: c566212a-5d9e-5bb4-b99d-2665439a48a6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+status: valid
+id: c924533e-33e0-55a8-9644-f0752609c1de
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: temperature de l'eau dans la canalisation, mesuree en amont du compteur
+  examples: []
+  id: r49-1-2013-fra-3.3.10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temperature de service
+  - type: symbol
+    normative_status: preferred
+    designation: "$T_{s}$"
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c566212a-5d9e-5bb4-b99d-2665439a48a6
+

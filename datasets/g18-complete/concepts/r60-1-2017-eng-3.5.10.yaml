@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r60-1-2017-eng-3.5.10
+  localized_concepts:
+    eng: e9b0fb9b-c6ef-597b-b64c-1fcc0b1e9572
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.10
+    type: authoritative
+status: valid
+id: 20c36d37-2893-53e9-a360-064fc2fa3842
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference of load cell output, expressed in units of mass at the minimum
+      dead load (D_min), measured before and after application of a load of D_max
+  examples: []
+  id: r60-1-2017-eng-3.5.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum dead load output return
+  - type: abbreviation
+    normative_status: admitted
+    designation: DR
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e9b0fb9b-c6ef-597b-b64c-1fcc0b1e9572
+

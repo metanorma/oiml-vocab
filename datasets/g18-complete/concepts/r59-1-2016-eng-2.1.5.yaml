@@ -1,0 +1,68 @@
+---
+data:
+  identifier: r59-1-2016-eng-2.1.5
+  localized_concepts:
+    eng: 2ee42c89-bbaf-5a08-97a8-e071991da4a8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.5
+    type: authoritative
+status: valid
+id: 63b74c8c-8865-5fe1-a745-c1dd90320865
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r59-1-2016-eng-2.1.5-eng
+  notes:
+  - content: Usually the term maximum permissible errors or limits of error are used,
+      where there are two extreme values.
+  - content: The term tolerance should not be used to designate maximum permissible
+      error.
+  - content: The MPEs in 4.4.2 of this Recommendation are errors associated with a
+      meter in use in the market place. The errors for the OIML test procedures are
+      based on 4.4.1.
+  - content: 'Source citation: VIM 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible measurement error
+  - type: expression
+    normative_status: admitted
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: limit of error
+  - type: abbreviation
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2ee42c89-bbaf-5a08-97a8-e071991da4a8
+

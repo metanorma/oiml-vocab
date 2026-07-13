@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r49-2013-f-3.1.4
+  localized_concepts:
+    eng: 2d5d8c3a-8dcd-57cc-a1f1-69d0ae4b4151
+    fra: e76ea071-0979-52a3-9d6b-09a0092be8ed
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+status: valid
+id: 055d7be2-56aa-5cbc-bf1c-bc0947ec7df2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the meter that transforms the output signals from the measurement
+      transducer(s) and possibly, from associated measuring instruments and, if appropriate,
+      stores the results in memory until they are used
+  examples: []
+  id: r49-2013-f-3.1.4-eng
+  notes:
+  - content: The gearing is considered to be the calculator in a mechanical meter.
+  - content: The calculator may be capable of communicating both ways with ancillary
+      devices.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculator
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2d5d8c3a-8dcd-57cc-a1f1-69d0ae4b4151
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie du compteur qui transforme les signaux de sortie provenant du
+      ou des transducteur(s) de mesure et, éventuellement, des instruments de mesure
+      associés et, le cas échéant, mémorise les résultats dans la mémoire jusqu'à
+      ce qu'ils soient utilisés
+  examples: []
+  id: r49-2013-f-3.1.4-fra
+  notes:
+  - content: La pignonnerie est considérée comme le calculateur d'un compteur mécanique.
+  - content: Le calculateur peut être capable de communiquer dans les deux sens avec
+      les dispositifs auxiliaires.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e76ea071-0979-52a3-9d6b-09a0092be8ed
+

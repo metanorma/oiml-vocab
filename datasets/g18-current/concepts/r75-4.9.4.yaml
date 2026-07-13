@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r75-4.9.4
+  localized_concepts:
+    eng: 37dd8dd4-ac85-514b-bc1f-37fb527fddb4
+    fra: c9771cf4-e0db-50be-9c93-905e2efa39f1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.4
+    type: authoritative
+status: valid
+id: d66ccaea-30dd-54d4-811f-74a7d7df6831
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference between the intrinsic error after a period of use and the
+      initial intrinsic error.
+  examples: []
+  id: r75-4.9.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Durability error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 37dd8dd4-ac85-514b-bc1f-37fb527fddb4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre l'erreur intrinsèque après un certain temps d'utilisation
+      et l'erreur intrinsèque initiale.
+  examples: []
+  id: r75-4.9.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur d'endurance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c9771cf4-e0db-50be-9c93-905e2efa39f1
+

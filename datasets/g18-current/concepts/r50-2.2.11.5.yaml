@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r50-2.2.11.5
+  localized_concepts:
+    eng: 609828eb-ec51-54bc-aa2f-acaf65738183
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.11.5
+    type: authoritative
+status: valid
+id: bdf627f0-b160-5b22-a145-2c1b5d3b71cb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sequence of readable characters (e.g. version number, checksum) that
+      is inextricably linked to the software or software module under consideration.
+      It can be checked on an instrument whilst in use
+  examples: []
+  id: r50-2.2.11.5-eng
+  notes:
+  - content: 'Source citation: OIML D31, 3.1.42 [23]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.11.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software identification
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 609828eb-ec51-54bc-aa2f-acaf65738183
+

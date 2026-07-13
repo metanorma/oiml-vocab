@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r90-5.3.2
+  localized_concepts:
+    eng: aa8c19ff-6a83-5a44-9223-cddd77999bba
+    fra: 9979895a-d316-554a-a5d6-02486df03c06
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:90:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.2
+    type: authoritative
+status: valid
+id: 56a331c5-30e1-5d93-a2e8-c8abc38ebec7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The relative sensitivity setting error is the difference between the
+      measured and nominal values of the sensitivity, divided by the nominal value.
+  examples: []
+  id: r90-5.3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative sensitivity-setting error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aa8c19ff-6a83-5a44-9223-cddd77999bba
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'erreur relative de réglage de la sensibilité est la différence entre
+      les valeurs mesurée et nominale de la sensibilité, divisée par la valeur nominale.
+  examples: []
+  id: r90-5.3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur relative de réglage de la sensibilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9979895a-d316-554a-a5d6-02486df03c06
+

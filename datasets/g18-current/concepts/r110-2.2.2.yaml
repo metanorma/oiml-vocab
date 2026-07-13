@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r110-2.2.2
+  localized_concepts:
+    eng: 07ab651e-ba9c-5af2-8d5c-122b416f3d10
+    fra: edcc7a82-7714-5afc-b134-0745b579896f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+status: valid
+id: b4e0b85f-e116-588e-a227-b84a246e7286
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a pressure balance to give uniform indications of the
+      measured pressure for multiple applications of the same load under constant
+      conditions of measurement.
+  examples: []
+  id: r110-2.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 07ab651e-ba9c-5af2-8d5c-122b416f3d10
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aptitude d'un manometre a piston a donner des indications uniformes de
+      la pression mesuree pour des applications multiples de la meme charge dans des
+      conditions constantes de mesurage.
+  examples: []
+  id: r110-2.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repetabilite
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: edcc7a82-7714-5afc-b134-0745b579896f
+

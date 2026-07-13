@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-2017-e-3.5.14
+  localized_concepts:
+    eng: f494a8f7-7a51-53b0-9503-e64c85ab08b0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.14
+    type: authoritative
+status: valid
+id: 6d002a9a-7bae-5254-bf83-40b51ea2f7e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ratio of the maximum measuring range, to two times the minimum dead load
+      output return, DR (Z)
+  examples: []
+  id: r60-2017-e-3.5.14-eng
+  notes:
+  - content: This ratio is used to describe multi-interval instruments.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative minimum dead load output return (Z)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f494a8f7-7a51-53b0-9503-e64c85ab08b0
+

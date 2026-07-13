@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r85-3.10
+  localized_concepts:
+    eng: a0d3c78b-fcbc-558c-8712-40c1a96880f8
+    fra: 7b593c81-7eab-5c69-8859-1a6e1cfb29b4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: a843ade3-0f7b-570c-85c7-2effdc529242
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Facility incorporated in an electronic automatic level gauge that enables
+      significant faults and/or incorrect functioning of a specific device of the
+      ALG and/or disturbed communication between specific devices of the ALG to be
+      detected and acted upon.
+  examples: []
+  id: r85-3.10-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the ALG (luminous signal,
+      acoustic signal, prevention of the measurement process, etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a0d3c78b-fcbc-558c-8712-40c1a96880f8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Système intégré à un JA électronique permettant de détecter et de mettre
+      en évidence les défauts significatifs, ou le fonctionnement incorrect d'un dispositif
+      spécifique du JA, ou la communication perturbée entre deux dispositifs spécifiques
+      du JA.
+  examples: []
+  id: r85-3.10-fra
+  notes:
+  - content: '"Mettre en évidence" fait référence à toute réponse appropriée du JA
+      (signal lumineux, signal sonore, protection du processus de mesurage, etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Système de contrôle
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7b593c81-7eab-5c69-8859-1a6e1cfb29b4
+

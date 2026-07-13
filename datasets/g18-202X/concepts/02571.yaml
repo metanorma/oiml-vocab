@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.9
+    type: authoritative
 status: valid
 id: 8b06bb6d-0a82-40f9-a4d4-0ae83dc1ddda
 schema_version: '3'
@@ -15,15 +24,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'determining the individual wagon mass of a train of coupled wagons'
+  - content: determining the individual wagon mass of a train of coupled wagons
   id: 02571-eng
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.9
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'coupled wagon weighing'
+    designation: coupled wagon weighing
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: a06533f8-f4bb-56fa-8e4b-1a8eebedadda
+

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-2000-f-2.3.11
+  localized_concepts:
+    fra: b87e96e1-3584-5cb9-ace5-a3fd8db76d80
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.11
+    type: authoritative
+status: valid
+id: eef72502-5c7d-5693-b83b-50e932ef8d3c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus petite valeur d'une grandeur (masse) appliquée à une cellule de
+      pesée en cours d'essai ou d'utilisation. Cette valeur ne doit pas être inférieure
+      à E_min (voir 2.3.8). Pour les limites de D_min lors des essais, voir A.3.2.4
+      (D_min).
+  examples: []
+  id: r60-2000-f-2.3.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Charge minimale de l'étendue de mesure (D_min)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b87e96e1-3584-5cb9-ace5-a3fd8db76d80
+

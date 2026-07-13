@@ -1,0 +1,59 @@
+---
+data:
+  identifier: d31-3.2.34
+  localized_concepts:
+    eng: 8b1445ad-be74-59a2-aeb1-814d2f6598eb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.34
+    type: authoritative
+status: valid
+id: 7ba33c09-a69f-550f-b225-41b85d6f4ac9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: process of experimentally obtaining one or more quantity values that
+      can reasonably be attributed to a quantity
+  examples: []
+  id: d31-3.2.34-eng
+  notes:
+  - content: Measurement does not apply to nominal properties.
+  - content: Measurement implies comparison of quantities or counting of entities.
+  - content: Measurement presupposes a description of the quantity commensurate with
+      the intended use of a measurement result, a measurement procedure, and a calibrated
+      measuring system operating according to the specified measurement procedure,
+      including the measurement conditions.
+  - content: Annex C illustrates the terms and definitions related to the measurement
+      process and their usage in this OIML Document.
+  - content: 'Source citation: adapted from [OIML V 2-200:2012, 2.1]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.34
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8b1445ad-be74-59a2-aeb1-814d2f6598eb
+

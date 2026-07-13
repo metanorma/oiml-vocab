@@ -1,0 +1,56 @@
+---
+data:
+  identifier: b18-2025-e-3.10
+  localized_concepts:
+    eng: b88670e5-d8dc-5174-9780-8a3d197c9388
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:18:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: 866ebf71-d97a-50d7-938a-a4cb984c9dd0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: document that is signed by an individual OIML Issuing Authority, Utilizer
+      or Associate, whereby it accepts to abide by the rules of the OIML-CS
+  examples: []
+  id: b18-2025-e-3.10-eng
+  notes:
+  - content: The scope of certification is detailed in the individual Declaration
+      for each OIML Issuing Authority, and the scope of acceptance of OIML type evaluation
+      reports issued with an OIML certificate under Scheme A or B is detailed in the
+      individual Declaration for each Utilizer and Associate.
+  - content: Each OIML Issuing Authority, Utilizer and Associate signs an individual
+      Declaration under the OIML-CS.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Declaration
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b88670e5-d8dc-5174-9780-8a3d197c9388
+

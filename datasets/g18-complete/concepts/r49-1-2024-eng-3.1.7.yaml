@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.1.7
+  localized_concepts:
+    eng: 00ca7151-94c7-5843-afae-7f101d95e8cc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: 1c1ed431-277c-5e08-8438-c2096ffd798c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device connected to or incorporated in the meter for automatic correction
+      of the volume of water at metering conditions (3.2.11), by taking into account
+      the flow rate (3.3.1) and/or the characteristics of the water to be measured
+      and the pre-established calibration curves
+  examples: []
+  id: r49-1-2024-eng-3.1.7-eng
+  notes:
+  - content: For the definition of the term "correction", see ISO/IEC Guide 99:2007|OIML
+      V 2-200:2012 (VIM), 2.53.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 00ca7151-94c7-5843-afae-7f101d95e8cc
+

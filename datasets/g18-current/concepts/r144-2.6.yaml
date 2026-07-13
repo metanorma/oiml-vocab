@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r144-2.6
+  localized_concepts:
+    fra: 005bfa4f-d3c6-5853-9a98-0daec1c2760e
+    eng: 1b41f003-db10-554d-b29a-e89c8e76329e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+status: valid
+id: cf5c7035-898d-53bf-ac36-ef08b0aa3fb3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: tous les composants du système d'analyse des gaz de la sonde de prélèvement
+      au tube de sortie de l'échantillon de gaz au travers duquel les échantillons
+      de gaz, incluant le mélange de gaz pour étalonnage (appelé ci-après CGM) et
+      le gaz de mise à zéro, sont transportés par la pompe
+  examples: []
+  id: r144-2.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système d'amenée du gaz
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 005bfa4f-d3c6-5853-9a98-0daec1c2760e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: all components of the gas analytical system, from the sampling probe
+      to the tube of the gas sample outlet, through which the gas samples, including
+      the Calibration Gas Mixture (hereafter termed "CGM") and the zero gas, are conveyed
+      by the pump
+  examples: []
+  id: r144-2.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gas handling system
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1b41f003-db10-554d-b29a-e89c8e76329e
+

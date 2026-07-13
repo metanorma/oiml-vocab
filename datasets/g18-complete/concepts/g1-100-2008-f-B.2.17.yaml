@@ -1,0 +1,60 @@
+---
+data:
+  identifier: g1-100-2008-f-B.2.17
+  localized_concepts:
+    fra: a209a1ce-44e8-5ae7-9e90-0f7849e4f57d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.17
+    type: authoritative
+status: valid
+id: 70f9b079-7975-5760-ab75-bb2f4c81f936
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'pour une série de n mesurages du même mesurande, grandeur s(q_k) caractérisant
+      la dispersion des résultats, donnée par la formule: s(q_k) = sqrt[ sum_{j=1}^{n}
+      (q_j - q_bar)^2 / (n - 1) ], q_k étant le résultat du kième mesurage et q_bar
+      la moyenne arithmétique des n résultats considérés'
+  examples: []
+  id: g1-100-2008-f-B.2.17-fra
+  notes:
+  - content: En considérant la série de n valeurs comme échantillon d'une loi de probabilité,
+      q_bar est un estimateur sans biais de la moyenne mu_q et s^2(q_k) est un estimateur
+      sans biais de la variance sigma^2 de cette loi.
+  - content: L'expression s(q_k)/sqrt(n) est une estimation de l'écart-type de la
+      loi de q_bar et est appelée écart-type expérimental de la moyenne.
+  - content: L'écart-type expérimental de la moyenne est parfois appelé à tort erreur
+      de la moyenne.
+  - content: 'Source citation: Adapté du VIM:1993, définition 3.8'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.17
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écart-type expérimental
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a209a1ce-44e8-5ae7-9e90-0f7849e4f57d
+

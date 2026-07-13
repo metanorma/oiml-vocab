@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r139-2007-f-T.1.2
+  localized_concepts:
+    fra: 1af46db4-aa17-53fd-af24-474dfbf76b32
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+status: valid
+id: 417871b1-5405-5151-afc0-cc20ca98b69b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du compteur qui traduit le debit du gaz a mesurer en signaux destines
+      au calculateur. Il peut soit etre autonome, soit utiliser une source d energie
+      exterieure.
+  examples: []
+  id: r139-2007-f-T.1.2-fra
+  notes:
+  - content: Pour les besoins de la presente Recommandation, le transducteur de mesure
+      inclut le capteur de debit ou de quantite.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transducteur de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1af46db4-aa17-53fd-af24-474dfbf76b32
+

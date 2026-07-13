@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r100-1-2013-eng-3.7
+  localized_concepts:
+    eng: cf6a5540-64ab-5c9b-97be-172231a4a4ad
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+status: valid
+id: 9c305867-7b6c-5a57-b99b-877851d4643e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: range of concentrations of an element of interest in solution that can
+      be measured within specified limits
+  examples: []
+  id: r100-1-2013-eng-3.7-eng
+  notes:
+  - content: Dilution, or concentration, of a sample solution may be necessary to
+      bring the element of interest within the working range. The zero absorbance
+      of the spectrometer is adjusted using a blank reference solution.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: working range
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cf6a5540-64ab-5c9b-97be-172231a4a4ad
+

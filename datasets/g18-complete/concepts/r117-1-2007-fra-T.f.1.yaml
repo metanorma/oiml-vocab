@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r117-1-2007-fra-T.f.1
+  localized_concepts:
+    fra: edcf3d8b-cb25-5239-878d-9750093df968
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.f.1
+    type: authoritative
+status: valid
+id: d631b12d-8a63-51c0-9010-9d0abbf9215b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre l'erreur (d'indication) et l'erreur intrinsèque initiale
+      supérieure à la valeur spécifiée dans la présente Recommandation. Les défauts
+      significatifs ne sont applicables qu'aux ensembles de mesurage électroniques.
+  examples: []
+  id: r117-1-2007-fra-T.f.1-fra
+  notes:
+  - content: 'Les défauts suivants ne sont pas considérés comme significatifs: défauts
+      transitoires provenant de variations momentanées de l''indication, qui ne peuvent
+      pas être interprétées, mises en mémoire ou transmises comme des résultats de
+      mesure; pour les ensembles de mesurage interruptibles uniquement, défauts rendant
+      impossible l''accomplissement de toute mesure.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.f.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: edcf3d8b-cb25-5239-878d-9750093df968
+

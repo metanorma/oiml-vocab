@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r46-2012-e-2.1.3
+  localized_concepts:
+    eng: 1ffa8828-b3fa-599f-9f0e-3d076809a2fb
+    fra: aa36bdc3-de75-5af7-a19e-55d6f27b200d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.3
+    type: authoritative
+status: valid
+id: e6f8b0de-1b38-5b1a-a8ba-b29c09c1f5f4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: electricity meter intended to allow electrical energy to be delivered
+      up to a predetermined amount
+  examples: []
+  id: r46-2012-e-2.1.3-eng
+  notes:
+  - content: Such a meter measures energy continuously and stores and displays the
+      measured energy.
+  - content: National authorities may specify requirements in relation to prepayment
+      meters.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: prepayment meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ffa8828-b3fa-599f-9f0e-3d076809a2fb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: compteur électrique destiné à permettre la fourniture d'énergie électrique
+      selon une quantité prédéterminée
+  examples: []
+  id: r46-2012-e-2.1.3-fra
+  notes:
+  - content: Un tel compteur mesure l'énergie en continu, stocke et affiche l'énergie
+      mesurée.
+  - content: Les autorités nationales peuvent spécifier des exigences relatives aux
+      compteurs à prépaient.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur à prépaient
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aa36bdc3-de75-5af7-a19e-55d6f27b200d
+

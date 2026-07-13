@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r134-2006-f-T.2.5
+  localized_concepts:
+    eng: 47a4751b-3c5b-59df-ae96-6cbe899d28b0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+status: valid
+id: 758e3243-12b8-5e04-a8e7-407f7aaae096
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Identifiable part of an instrument that performs a specific function
+      or functions, and that can be separately evaluated according to the metrological
+      and technical performance requirements in the relevant Recommendation. The modules
+      of a weighing instrument are subject to specified partial error limits.
+  examples: []
+  id: r134-2006-f-T.2.5-eng
+  notes:
+  - content: 'Typical modules of a weighing instrument are: load cell, indicator,
+      data processing device, etc.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 47a4751b-3c5b-59df-ae96-6cbe899d28b0
+

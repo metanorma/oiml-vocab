@@ -1,0 +1,62 @@
+---
+data:
+  identifier: d10-2022-e-3.13
+  localized_concepts:
+    eng: f5336c06-e43e-53b1-becf-8a8fc8ce6c84
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+status: valid
+id: 27720fa0-c738-528d-87e6-bb071ca0748b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: d10-2022-e-3.13-eng
+  notes:
+  - content: Usually, the terms "maximum permissible errors" or "limits of error"
+      are used where there are two extreme values.
+  - content: The term "tolerance" should not be used to designate 'maximum permissible
+      error'.
+  - content: 'Source citation: VIM3 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible measurement error
+  - type: expression
+    normative_status: admitted
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: limit of error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f5336c06-e43e-53b1-becf-8a8fc8ce6c84
+

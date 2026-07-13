@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r134-T.4.4.6
+  localized_concepts:
+    fra: f7cc4470-7e0f-538e-95f0-e02d729c4718
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.4.6
+    type: authoritative
+status: valid
+id: 7c419951-3eed-5d77-a8d0-b81ed0c360c8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument
+      de pesage.
+  examples: []
+  id: r134-T.4.4.6-fra
+  notes:
+  - content: Un défaut est principalement le résultat d'un changement non désiré des
+      données contenues dans, ou transitant à travers, un instrument électronique.
+      Dans cette Recommandation, un "défaut" est une valeur numérique.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7cc4470-7e0f-538e-95f0-e02d729c4718
+

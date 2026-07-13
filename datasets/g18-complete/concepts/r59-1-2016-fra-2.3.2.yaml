@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r59-1-2016-fra-2.3.2
+  localized_concepts:
+    fra: 8458c9dd-4130-5ee8-b64a-b583e5df6627
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+status: valid
+id: 8646b392-8977-54ca-9a92-ae4e8b1ac0f0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: moyenne algébrique des valeurs issues d'erreurs calculées à partir d'échantillons
+      du même type de grain comportant des niveaux d'humidité différents. La « moyenne
+      » ainsi calculée est une valeur indicative de la variation moyenne sur une étendue
+      de mesure définie, par opposition à la variation des valeurs mesurées à un endroit
+      précis de l'étendue.
+  examples: []
+  id: r59-1-2016-fra-2.3.2-fra
+  notes:
+  - content: Dans la présente Recommandation, il n'est fait référence à une valeur
+      « moyenne » que dans le cas de moyennes de mesures répétées, c'est à dire la
+      moyenne des valeurs mesurées sur le même échantillon test (généralement recueillies
+      dans des conditions de répétabilité).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dérive de l'erreur moyenne
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8458c9dd-4130-5ee8-b64a-b583e5df6627
+

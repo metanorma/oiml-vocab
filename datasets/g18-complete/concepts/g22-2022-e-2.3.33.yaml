@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g22-2022-e-2.3.33
+  localized_concepts:
+    eng: 7a678016-4c92-5f9e-81c9-530d66fd20e1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.33
+status: valid
+id: baba1fa2-f64b-5611-909e-8007985cffb5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: capability of an EVSE to measure energy flow in only one direction (from
+      the EVSE to the EV)
+  examples: []
+  id: g22-2022-e-2.3.33-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.33
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: positive direction only (energy) flow
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a678016-4c92-5f9e-81c9-530d66fd20e1
+

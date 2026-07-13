@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r129-1-2020-deu-2.3.10
+  localized_concepts:
+    deu: 64fe59c8-88ca-5904-a8c6-03832a30f056
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.10
+    type: authoritative
+status: valid
+id: 1a8a3a7d-020a-5bdf-803e-2b33988dd7b2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einflussgröße, deren Wert innerhalb der in dieser Empfehlung angegebenen
+      Grenzen, jedoch außerhalb der angegebenen Bemessungsbetriebsbedingungen des
+      Messgeräts liegt
+  examples: []
+  id: r129-1-2020-deu-2.3.10-deu
+  notes:
+  - content: Eine Einflussgröße ist ein Störeinfluss, wenn für diese Einflussgröße
+      keine Bemessungsbetriebsbedingungen festgelegt sind.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Störeinfluss
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 64fe59c8-88ca-5904-a8c6-03832a30f056
+

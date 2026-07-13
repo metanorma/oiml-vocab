@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r60-2000-f-2.4.14
+  localized_concepts:
+    fra: 8e45c796-6ee9-5b5d-802d-dacdd01723c1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.14
+    type: authoritative
+status: valid
+id: 2013e9db-4a22-5ba0-90d1-05236f6bf5ce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Défaut supérieur à l'échelon de vérification, v, de la cellule de pesée.
+  examples: []
+  id: r60-2000-f-2.4.14-fra
+  notes:
+  - content: Les défauts suivants ne sont pas considérés comme défauts significatifs
+      même s'ils sont supérieurs à l'échelon de vérification, v, de la cellule de
+      pesée - défauts provenant de causes simultanées et mutuellement indépendantes;
+      défauts rendant impossible l'accomplissement de tout mesurage; défauts si importants
+      qu'ils ne peuvent manquer d'être remarqués par toutes les parties intéressées
+      au résultat du mesurage; et défauts transitoires consistant en des variations
+      momentanées du signal de sortie de la cellule de pesée ne pouvant être interprétés,
+      mémorisés ou transmis en tant que résultat de mesure.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8e45c796-6ee9-5b5d-802d-dacdd01723c1
+

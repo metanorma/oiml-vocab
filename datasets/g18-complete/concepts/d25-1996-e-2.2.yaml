@@ -1,0 +1,55 @@
+---
+data:
+  identifier: d25-1996-e-2.2
+  localized_concepts:
+    eng: a4266a94-da95-5294-b9e9-ecdca9467560
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:25:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+status: valid
+id: ec3edf2f-ff84-54ae-820e-9a30ed836939
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The K-factor, in pulses per unit volume, is the ratio of the meter output
+      (in number of pulses) to the corresponding total volume of fluid passing through
+      the meter during the measuring period.
+  examples: []
+  id: d25-1996-e-2.2-eng
+  notes:
+  - content: The K-factor is the function of the Reynolds number. In this Document
+      all the characteristics are given in relation to the Reynolds number. However,
+      in legal metrology the characteristics are normally given in relation to the
+      flowrate, which can be obtained from the Reynolds number.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: K-factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a4266a94-da95-5294-b9e9-ecdca9467560
+

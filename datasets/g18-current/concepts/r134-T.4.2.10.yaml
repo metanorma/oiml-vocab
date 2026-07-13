@@ -1,0 +1,67 @@
+---
+data:
+  identifier: r134-T.4.2.10
+  localized_concepts:
+    eng: bb1eb82d-9ef0-50dd-ac73-f565aa16fda1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.10
+    type: authoritative
+status: valid
+id: ca4256f4-82e5-5d0c-9706-11eb61019421
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference between the highest and lowest results of successive measurements
+      of the same load carried out under the same conditions of measurement.
+  examples: []
+  id: r134-T.4.2.10-eng
+  notes:
+  - content: 'Source citation: VIM 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bb1eb82d-9ef0-50dd-ac73-f565aa16fda1
+

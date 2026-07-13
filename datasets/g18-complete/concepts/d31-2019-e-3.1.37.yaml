@@ -1,0 +1,58 @@
+---
+data:
+  identifier: d31-2019-e-3.1.37
+  localized_concepts:
+    eng: fcca778f-a53c-51a7-b36a-1848809d3671
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.37
+    type: authoritative
+status: valid
+id: 51fa4771-eae8-5240-b978-cf9e01060635
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of quantity values being attributed to a measurand together with
+      any other available relevant information
+  examples: []
+  id: d31-2019-e-3.1.37-eng
+  notes:
+  - content: The relevant information may consist of e.g. measurement uncertainty,
+      date and time of measurement, number of measurement, identification of sensor
+      and in the case where price calculation is part of the legally relevant software,
+      unit price and price to pay.
+  - content: The measurement result (including the measured quantity value according
+      to V 2:200:2012) is used for the legally relevant purpose, e.g. conclusion of
+      a transaction.
+  - content: 'Source citation: adapted from [V 2-200:2012, 2.9]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.37
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fcca778f-a53c-51a7-b36a-1848809d3671
+

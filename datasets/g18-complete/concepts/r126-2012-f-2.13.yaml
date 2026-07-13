@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r126-2012-f-2.13
+  localized_concepts:
+    eng: 7899ecda-e207-5de6-9980-5583eab1a8cf
+    fra: 2c4522f9-88b5-53f2-87fc-587b79bbacdf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+status: valid
+id: 392285f6-9c55-5f28-9791-1b49d8f4560f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      measuring instrument
+  examples: []
+  id: r126-2012-f-2.13-eng
+  notes:
+  - content: An influence quantity is a disturbance if the rated operating conditions
+      for that influence quantity are not specified.
+  - content: 'Source citation: OIML D 11, 3.13.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7899ecda-e207-5de6-9980-5583eab1a8cf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      dans la présente Recommandation, mais qui est en-dehors des conditions spéciales
+      assignées de l'instrument de mesure
+  examples: []
+  id: r126-2012-f-2.13-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si les conditions assignées
+      de fonctionnement de cette grandeur d'influence ne sont pas spécifiées.
+  - content: 'Source citation: OIML D 11, 3.13.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2c4522f9-88b5-53f2-87fc-587b79bbacdf
+

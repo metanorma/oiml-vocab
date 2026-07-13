@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r137-1-2-2012-fra-3.2.4
+  localized_concepts:
+    fra: 97be86e5-f3b6-5dc1-8e05-000bdf56fb0d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+status: valid
+id: a75424b5-fbd6-59f5-843a-8385e3401088
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre la valeur mesurée d'une grandeur et une valeur de référence.
+  examples: []
+  id: r137-1-2-2012-fra-3.2.4-fra
+  notes:
+  - content: La présente définition du VIM d'erreur (de mesure) est souvent interprétée
+      comme étant la définition d'une erreur absolue. Cependant, cette définition
+      pourrait également être appliquée à une erreur relative lors de l'expression
+      d'un paramètre en pourcentage ou en dB. Puisque dans tous les cas, dans ce document,
+      les erreurs sont exprimées en valeurs relatives, il a été décidé qu'une définition
+      séparée d'erreur n'était pas nécessaire.
+  - content: 'Source citation: VIM 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 97be86e5-f3b6-5dc1-8e05-000bdf56fb0d
+

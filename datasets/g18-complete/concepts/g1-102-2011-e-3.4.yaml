@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-102-2011-e-3.4
+  localized_concepts:
+    eng: 59e6a7ac-750a-5a28-88b7-95a6177bdce2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.4'
+status: valid
+id: 3d51e257-7202-552a-b233-ef9c1301628e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: vector quantity with real components
+  examples:
+  - content: 'A real vector quantity $ \boldsymbol{X} $ containing N real quantities
+      $ X_{1},\dots,X_{N} $ expressed as a matrix of dimension $ N\times 1 $: $\boldsymbol
+      {X} = \left[ \begin{array}{c} X _ {1} \\ \vdots \\ X _ {N} \end{array} \right]
+      = \left(X _ {1}, \dots , X _ {N}\right) ^ {\top}.$'
+  id: g1-102-2011-e-3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: real vector quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 59e6a7ac-750a-5a28-88b7-95a6177bdce2
+

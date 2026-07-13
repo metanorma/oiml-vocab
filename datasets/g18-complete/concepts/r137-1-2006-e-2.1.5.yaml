@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r137-1-2006-e-2.1.5
+  localized_concepts:
+    eng: 05ea56cf-303b-5457-95a6-3b9dec818d4f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.5
+    type: authoritative
+status: valid
+id: ccbc2d35-7ee2-575f-98b3-d5fb91d9a45d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value of the quantity corresponding to one complete revolution of the
+      shaft of the mechanical output. This value is determined by multiplying the
+      value of the quantity corresponding to one complete revolution of the test element
+      by the transmission ratio of the indicating device to this shaft.
+  examples: []
+  id: r137-1-2006-e-2.1.5-eng
+  notes:
+  - content: The mechanical output is an element to drive an ancillary device.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mechanical output constant (mechanical gas meters only)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 05ea56cf-303b-5457-95a6-3b9dec818d4f
+

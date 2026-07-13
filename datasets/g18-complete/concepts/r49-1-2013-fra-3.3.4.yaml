@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r49-1-2013-fra-3.3.4
+  localized_concepts:
+    fra: 114b6b51-37e4-56fc-849b-a8b19856ff77
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+status: valid
+id: 82c6afc1-4d31-52ab-8e49-5eaa6d39a25d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: debit entre le debit permanent $Q_{3}$, et le debit minimal $Q_{1}$,
+      divisant l'etendue de debit en deux zones, la zone superieure de debit et la
+      zone inferieure de debit, chacune etant caracterisee par ses propres erreurs
+      maximales tolerees
+  examples: []
+  id: r49-1-2013-fra-3.3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: debit de transition
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{2}$"
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 114b6b51-37e4-56fc-849b-a8b19856ff77
+

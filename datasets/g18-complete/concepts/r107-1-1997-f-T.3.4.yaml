@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r107-1-1997-f-T.3.4
+  localized_concepts:
+    fra: e47f374e-0d50-5e4c-9bf9-2a3f5c0e8e82
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107-1:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.4
+    type: authoritative
+status: valid
+id: b5f60ca1-eee7-52a2-b6d2-c5524cdda02d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur de la plus petite charge en vrac qui puisse être totalisée sans
+      dépassement de l'erreur maximale tolérée lorsque l'opération automatique est
+      constituée de charges discrètes, chacune à l'intérieur de l'étendue de pesage
+      en fonctionnement automatique.
+  examples: []
+  id: r107-1-1997-f-T.3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: charge totalisée minimale
+  - type: symbol
+    normative_status: admitted
+    designation: Sigma_min
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e47f374e-0d50-5e4c-9bf9-2a3f5c0e8e82
+

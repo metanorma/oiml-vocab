@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r139-1-2018-eng-3.1.16
+  localized_concepts:
+    eng: 529530f0-881f-54a1-965c-e0fc0ab45e61
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139-1:2018
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+status: valid
+id: 49f665dd-aa03-5cd4-9cd7-2cb44ca4c56a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: minimum totalized mass in one batch of gas required to fulfill the metrological
+      criteria of the specific measuring system
+  examples: []
+  id: r139-1-2018-eng-3.1.16-eng
+  notes:
+  - content: Measuring systems should not be used for measuring quantities less than
+      the MMQ.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum measured quantity of a measuring system
+  - type: expression
+    normative_status: admitted
+    designation: minimum delivery
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 529530f0-881f-54a1-965c-e0fc0ab45e61
+

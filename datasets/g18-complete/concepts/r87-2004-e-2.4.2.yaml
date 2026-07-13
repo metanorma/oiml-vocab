@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r87-2004-e-2.4.2
+  localized_concepts:
+    eng: f465a7dd-0470-57fb-b32a-260e3fc958c8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.4.2
+status: valid
+id: d6448b04-7216-5c87-8235-9ea6e99ad1ae
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An inadequate prepackage found to contain an actual quantity less than
+      the nominal quantity minus twice the tolerable deficiency for a nominal quantity
+      allowed in 4.2.3 is called a T2 error. T2 error - Actual contents < (Qn - 2T).
+  examples: []
+  id: r87-2004-e-2.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.4.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: T2 error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f465a7dd-0470-57fb-b32a-260e3fc958c8
+

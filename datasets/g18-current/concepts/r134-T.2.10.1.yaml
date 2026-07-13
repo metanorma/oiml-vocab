@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r134-T.2.10.1
+  localized_concepts:
+    eng: c12d7aac-fa46-585a-a2b4-6ceac2c3f38f
+    fra: 8537810e-f537-5252-82e7-11c636921276
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.1
+    type: authoritative
+status: valid
+id: 8767a4ab-2faf-5601-9482-4d423668efa2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device for setting the indication to zero when there is no load on the
+      load receptor.
+  examples: []
+  id: r134-T.2.10.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zero-setting device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c12d7aac-fa46-585a-a2b4-6ceac2c3f38f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif permettant d'amener l'indication à zéro lorsqu'il n'y a pas
+      de charge sur le dispositif récepteur de charge.
+  examples: []
+  id: r134-T.2.10.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de mise à zéro
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8537810e-f537-5252-82e7-11c636921276
+

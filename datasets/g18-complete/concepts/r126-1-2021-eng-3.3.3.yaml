@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r126-1-2021-eng-3.3.3
+  localized_concepts:
+    eng: a6c67dcf-62e6-51c8-b5df-5e2d86ee135c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126-1:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+status: valid
+id: c47f3b72-9cb5-503b-9d09-99eda2744d07
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: means such as encryption/decryption with the purpose of hiding information
+      from unauthorised persons, or hashes and signatures to ensure integrity and
+      authenticity
+  examples: []
+  id: r126-1-2021-eng-3.3.3-eng
+  notes:
+  - content: 'Source citation: OIML D 31, 3.1.8'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cryptographic means
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a6c67dcf-62e6-51c8-b5df-5e2d86ee135c
+

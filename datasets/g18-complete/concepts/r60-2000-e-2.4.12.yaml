@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-2000-e-2.4.12
+  localized_concepts:
+    eng: 0b192380-0e83-56e4-b716-9d16257a26fd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.12
+    type: authoritative
+status: valid
+id: 73962ad3-bca0-5c22-8d84-ce5960f1241b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference between load cell output readings taken from consecutive tests
+      under the same loading and environmental conditions of measurement.
+  examples: []
+  id: r60-2000-e-2.4.12-eng
+  notes:
+  - content: 'Source citation: Adapted from VIM 5.27'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0b192380-0e83-56e4-b716-9d16257a26fd
+

@@ -1,0 +1,58 @@
+---
+data:
+  identifier: g1-102-2011-e-3.13
+  localized_concepts:
+    eng: 16a47243-836e-5f07-a230-6e76a443cc6d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+status: valid
+id: 48807785-bc99-5231-a4bd-0c6a00fb73d3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: function giving, for every value $ \boldsymbol{\xi}=(\xi_{1},\dots,\xi_{N})^{\top}
+      $ , the probability that each element $ X_{i} $ of the random variable $ \boldsymbol{X}
+      $ be less than or equal to $ \xi_{i} $
+  examples: []
+  id: g1-102-2011-e-3.13-eng
+  notes:
+  - content: The joint distribution for the random variable $ \boldsymbol{X} $ is
+      denoted by $ G_{\boldsymbol{X}}(\boldsymbol{\xi}) $ , where $ G _ {\boldsymbol
+      {X}} (\boldsymbol {\xi}) = \Pr \left(X _ {1} \leq \xi_ {1}, \dots , X _ {N}
+      \leq \xi_ {N}\right).$
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: joint distribution function
+  - type: expression
+    normative_status: admitted
+    designation: distribution function
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 16a47243-836e-5f07-a230-6e76a443cc6d
+

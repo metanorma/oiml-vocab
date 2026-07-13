@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r126-3.3.2
+  localized_concepts:
+    eng: 4e641cca-f398-5ccf-9ef6-4d05d6c43fa8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.3.2
+    type: authoritative
+status: valid
+id: cedf7723-379f-5b0c-b767-e6bc10003102
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: checking of the declared or alleged identity of a user, process, or measuring
+      instrument
+  examples: []
+  id: r126-3.3.2-eng
+  notes:
+  - content: This may be necessary when checking that downloaded software originates
+      from the owner of the certificate.
+  - content: 'Source citation: OIML D 31, 3.1.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: authentication
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4e641cca-f398-5ccf-9ef6-4d05d6c43fa8
+

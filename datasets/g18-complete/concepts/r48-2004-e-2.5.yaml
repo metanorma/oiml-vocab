@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r48-2004-e-2.5
+  localized_concepts:
+    eng: 65457ef2-b949-5f27-909e-78e0af2c4c54
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:48:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 48:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+status: valid
+id: 791b5f84-3b8e-5e4b-85a3-5844b8f1ec38
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference between the radiance temperature values obtained across the
+      surface of the tungsten ribbon in the field of view.
+  examples: []
+  id: r48-2004-e-2.5-eng
+  notes:
+  - content: The temperature inhomogeneity is characterized by a maximum variation
+      in temperature values obtained as a result of measurements when observing along
+      and across the ribbon within the marked area relative to the position determined
+      by the index and the center of the ribbon after the field of view has been displaced
+      within the specified limits.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 48:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temperature inhomogeneity of the target area
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 65457ef2-b949-5f27-909e-78e0af2c4c54
+

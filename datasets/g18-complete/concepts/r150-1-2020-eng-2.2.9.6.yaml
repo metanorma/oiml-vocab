@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r150-1-2020-eng-2.2.9.6
+  localized_concepts:
+    eng: 2e1b988f-7af6-5a20-9b53-a6065f9be8dd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.9.6
+    type: authoritative
+status: valid
+id: c711f62e-ee6e-5c94-8fbd-9eb52f2083be
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: separation of the software in measuring instruments which can be divided
+      into a legally relevant part and a legally non-relevant part
+  examples: []
+  id: r150-1-2020-eng-2.2.9.6-eng
+  notes:
+  - content: These parts communicate via a software interface.
+  - content: 'Source citation: VIML 6.02'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.9.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software separation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2e1b988f-7af6-5a20-9b53-a6065f9be8dd
+

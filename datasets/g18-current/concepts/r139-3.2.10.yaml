@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r139-3.2.10
+  localized_concepts:
+    eng: c0a0b383-e5fe-5746-896d-79d876d6f846
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.10
+    type: authoritative
+status: valid
+id: 962940bb-145e-5071-b8e2-a3a5c6c297ab
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device incorporated in the meter, that only allows shifting of the error
+      curve generally parallel to itself, with a view to bringing errors within the
+      maximum permissible errors
+  examples: []
+  id: r139-3.2.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: adjustment device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0a0b383-e5fe-5746-896d-79d876d6f846
+

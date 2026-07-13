@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-1-2021-eng-3.5.15
+  localized_concepts:
+    eng: 1bec0294-152d-53f3-9bdd-b44af34dcd27
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.5.15
+    type: authoritative
+status: valid
+id: e1718e25-e5b8-5620-9271-dc102456e6b4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ratio of the maximum measuring range, to the minimum load cell verification
+      interval, v_min
+  examples: []
+  id: r60-1-2021-eng-3.5.15-eng
+  notes:
+  - content: This ratio describes the resolution of the load cell independent from
+      the load cell capacity.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.5.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative minimum load cell verification interval (Y)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1bec0294-152d-53f3-9bdd-b44af34dcd27
+

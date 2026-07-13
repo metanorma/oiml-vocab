@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r49-2013-e-3.2.1
+  localized_concepts:
+    eng: 8aa108e3-f693-58e7-a271-aa225281ab2f
+    fra: 7da482ca-0640-5128-8166-6415b92085f0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.1
+    type: authoritative
+status: valid
+id: 0a1edbce-26fc-5261-b227-371822c31455
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: total volume of water passing through the meter, disregarding the time
+      taken
+  examples: []
+  id: r49-2013-e-3.2.1-eng
+  notes:
+  - content: This is the measurand.
+  - content: The actual volume is calculated from a reference volume as determined
+      by a suitable measurement standard, taking into account differences in metering
+      conditions, as appropriate.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: actual volume
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8aa108e3-f693-58e7-a271-aa225281ab2f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: volume d'eau total passant par le compteur d'eau, independamment du temps
+      necessaire
+  examples: []
+  id: r49-2013-e-3.2.1-fra
+  notes:
+  - content: il s'agit du mesurande.
+  - content: le volume reel est calcule a partir d'un volume de reference determine
+      par un etalon de mesure adapte, prenant en compte, le cas echeant, les differences
+      de conditions de mesure.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: volume reel
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7da482ca-0640-5128-8166-6415b92085f0
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r49-1-2006-eng-2.3.1
+  localized_concepts:
+    eng: 550ddfdd-70dc-50bd-a99c-b02973d73f4d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+status: valid
+id: 0bd30518-dea5-5660-b520-6b42bc7e5811
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quotient of the actual volume of water passing through the water meter
+      and the time taken for this volume to pass through the water meter
+  examples: []
+  id: r49-1-2006-eng-2.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: flowrate
+  - type: symbol
+    normative_status: preferred
+    designation: Q
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 550ddfdd-70dc-50bd-a99c-b02973d73f4d
+

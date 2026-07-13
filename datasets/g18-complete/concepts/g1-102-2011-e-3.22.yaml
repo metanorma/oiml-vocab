@@ -1,0 +1,54 @@
+---
+data:
+  identifier: g1-102-2011-e-3.22
+  localized_concepts:
+    eng: 2a7198f4-d137-53e4-9ff8-38e7ed1bd2fc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.22'
+status: valid
+id: 26d26436-894a-5255-8a1e-0dc6f028f41d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: matrix of partial derivatives of first order for a real measurement model
+      with respect to either the input quantities or the output quantities evaluated
+      at estimates of those quantities
+  examples: []
+  id: g1-102-2011-e-3.22-eng
+  notes:
+  - content: For N input quantities and m output quantities, the sensitivity matrix
+      with respect to X has dimension $ m\times N $ and that with respect to Y has
+      dimension $ m\times m. $
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.22'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensitivity matrix
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2a7198f4-d137-53e4-9ff8-38e7ed1bd2fc
+

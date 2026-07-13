@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r59-1-2016-eng-2.1.12
+  localized_concepts:
+    eng: 4a506dae-e2c9-589c-aaac-54770f9a455d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+status: valid
+id: f944e40c-7293-5cbb-a0d0-2d2b00d8e6b4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: condition of measurement, out of a set of conditions that includes the
+      same measurement procedure, same operators, same measuring system, same operating
+      conditions and same location, and replicate measurements on the same or similar
+      objects over a short period of time
+  examples: []
+  id: r59-1-2016-eng-2.1.12-eng
+  notes:
+  - content: A condition of measurement is a repeatability condition only with respect
+      to a specified set of repeatability conditions.
+  - content: In chemistry, the term intra-serial precision condition of measurement
+      is sometimes used to designate this concept.
+  - content: 'Source citation: VIM 2.20'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability condition of measurement
+  - type: expression
+    normative_status: admitted
+    designation: repeatability condition
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4a506dae-e2c9-589c-aaac-54770f9a455d
+

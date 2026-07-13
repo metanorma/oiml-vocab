@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r61-3.4.12
+  localized_concepts:
+    eng: a94986bc-87bd-5094-bc93-cef4be18a638
+    deu: 3fa43bd2-fee2-5000-a17d-23f18b1675d7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.12
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.12
+    type: authoritative
+status: valid
+id: 9d124792-b67e-5304-aea2-26d76820e48c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: load that is used in static tests only
+  examples: []
+  id: r61-3.4.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load for static test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a94986bc-87bd-5094-bc93-cef4be18a638
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: nur bei statischen Prüfungen verwendete Last
+  examples: []
+  id: r61-3.4.12-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Last für die statische Prüfung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3fa43bd2-fee2-5000-a17d-23f18b1675d7
+

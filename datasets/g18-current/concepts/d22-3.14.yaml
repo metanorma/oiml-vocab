@@ -1,0 +1,91 @@
+---
+data:
+  identifier: d22-3.14
+  localized_concepts:
+    eng: cfa1f1dc-8a03-53f0-8084-4c4a0277eb1a
+    fra: 502eeff3-5885-54ba-a519-52cd93278f70
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:22:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+status: valid
+id: a7ec2067-6061-5c2e-8fa9-c51547af2c6f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The closeness of the agreement between the results of successive measurements
+      of the same quantity of a pollutant carried out by the same instrument and under
+      the same conditions of use within a relatively short period of time. Repeatability
+      is synonymous with the term "precision" for an instrument.
+  examples: []
+  id: d22-3.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cfa1f1dc-8a03-53f0-8084-4c4a0277eb1a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etroitesse de l'accord entre les résultats de mesurages successifs de
+      la même quantité d'un polluant effectués par le même instrument et sous les
+      mêmes conditions d'utilisation dans un délai assez court. (En lanque anglaise,
+      "repeatability" est synonyme de "precision" dans le cas d'un instrument).
+  examples: []
+  id: d22-3.14-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Répétabilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 502eeff3-5885-54ba-a519-52cd93278f70
+

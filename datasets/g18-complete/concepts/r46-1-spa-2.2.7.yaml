@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r46-1-spa-2.2.7
+  localized_concepts:
+    spa: 16d3ef1f-e3fb-5c32-bf31-d66b4a0b969f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+status: valid
+id: f268a17e-525b-5239-99e1-2a3bd9b16a29
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Voltaje especificado por el fabricante para la operación normal del medidor.
+  examples: []
+  id: r46-1-spa-2.2.7-spa
+  notes:
+  - content: Los medidores diseñados para su operación con un rango de voltajes pueden
+      tener varios valores de voltaje nominal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Voltaje nominal (U_nom)
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 16d3ef1f-e3fb-5c32-bf31-d66b4a0b969f
+

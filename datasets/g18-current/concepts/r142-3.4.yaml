@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r142-3.4
+  localized_concepts:
+    eng: 50935299-f63b-5d73-9c2b-ca04e2f56ca5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:142:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+status: valid
+id: 8e9d5ae5-0baf-52b6-b13e-58da32492948
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument in which the test sample is supplied to the device manually,
+      the indications are visible through an eye-piece and cannot be seen by all interested
+      parties simultaneously. The result is obtained by seeking the graduation line
+      that coincides with the line which separates the clear zone from the dark zone.
+  examples: []
+  id: r142-3.4-eng
+  notes:
+  - content: Type III refractometers shall meet the following main provisions they
+      shall use the phenomenon of light refraction, which is the only method that
+      guarantees sufficient readability on this type of instrument; they shall be
+      equipped with a built-in thermometer, so as to allow temperature corrections.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: manual refractometers
+  - type: expression
+    normative_status: admitted
+    designation: type III refractometers
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 50935299-f63b-5d73-9c2b-ca04e2f56ca5
+

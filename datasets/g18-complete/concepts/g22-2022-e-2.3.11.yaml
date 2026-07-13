@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g22-2022-e-2.3.11
+  localized_concepts:
+    eng: 5fd920ca-0cba-50c2-bd35-d704e6f2e8d8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.11
+status: valid
+id: 9827709a-6abf-52bc-b03d-a1bb50ece484
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ratio of the RMS value of the harmonic content (obtained e.g. by subtracting
+      its fundamental term from a non-sinusoidal alternating quantity) to the RMS
+      value of the fundamental term. The distortion factor is usually expressed as
+      a percentage. It is equal to the total harmonic distortion using the fundamental
+      as the reference (denominator)
+  examples: []
+  id: g22-2022-e-2.3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.11
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distortion factor, d
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5fd920ca-0cba-50c2-bd35-d704e6f2e8d8
+

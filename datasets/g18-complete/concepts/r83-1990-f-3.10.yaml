@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r83-1990-f-3.10
+  localized_concepts:
+    fra: c9f5a168-6c8d-55c1-8aa2-05e22736d11b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:83:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+status: valid
+id: b5cb2223-d95c-57df-8d1d-40e4f461c26f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantité minimale d'un composé donné qui, injecté dans le chromatographe,
+      permet d'obtenir un rapport signal/bruit d'au moins 10 pour un ion moléculaire
+      caractéristique de ce composé dans les conditions suivantes; en mode de balayage
+      complet, un temps de balayage de l'étendue appropriée des masses doit être spécifié
+      (par exemple une seconde); en mode de contrôle d'un ion spécifique, il faut
+      mesurer l'ion principal du composé. Il faut également tenir compte du mode d'ionisation
+      (impact d'électrons ou ionisation chimique).
+  examples: []
+  id: r83-1990-f-3.10-fra
+  notes:
+  - content: Le methyl stéarate est souvent utilisé comme composé d'essai.
+  - content: Les constructeurs et utilisateurs de spectromètres de masse emploient
+      souvent le terme "sensibilité" dans le même sens que "limite de détction".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de détction d'un ensemble chromatographe en phase gazeuse/spectromètre
+      de masse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c9f5a168-6c8d-55c1-8aa2-05e22736d11b
+

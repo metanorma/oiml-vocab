@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g22-2022-e-2.2.16.3
+  localized_concepts:
+    eng: aaab9c35-0cd5-549c-ba70-18a52b1eb7a7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.16.3
+status: valid
+id: 6ae9f824-6401-5b72-9f5b-a1c6872439e3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: transaction for which the use of the EVSE is limited to a single user
+      who has concluded in advance a written agreement, or entered into a longer-lasting
+      commercial relationship with the operator of that recharging point or with a
+      charging network service provider. In this type of transaction, charges may
+      be made based on the total energy consumed over an extended billing period
+  examples: []
+  id: g22-2022-e-2.2.16.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.16.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: contractual private (single user) transactions
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aaab9c35-0cd5-549c-ba70-18a52b1eb7a7
+

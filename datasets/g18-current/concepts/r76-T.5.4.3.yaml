@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r76-T.5.4.3
+  localized_concepts:
+    eng: de92e58b-6cc5-5351-9461-03711beed8fe
+    fra: 3db690d6-0e99-5793-9469-66fa1dd592b5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.3
+    type: authoritative
+status: valid
+id: 235d86f4-cac7-5c14-b7c4-98a4c66c8830
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference between the indication and the result the instrument would
+      give with analog indication.
+  examples: []
+  id: r76-T.5.4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rounding error of digital indication
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: de92e58b-6cc5-5351-9461-03711beed8fe
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre l'indication et le résultat que donnerait l'instrument
+      si l'indication était analogique.
+  examples: []
+  id: r76-T.5.4.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur d'arrondissage d'une indication numérique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3db690d6-0e99-5793-9469-66fa1dd592b5
+

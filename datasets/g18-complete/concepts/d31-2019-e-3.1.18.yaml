@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d31-2019-e-3.1.18
+  localized_concepts:
+    eng: 554c0ea6-c903-5fd8-8d92-842edab7e266
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.18
+    type: authoritative
+status: valid
+id: f44d11d2-eea4-5977-817b-0f11465ee992
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: digital information available in the software or firmware installed on
+      the computing system of the measuring instrument/component (EPROM, hard disk,
+      etc.)
+  examples: []
+  id: d31-2019-e-3.1.18-eng
+  notes:
+  - content: This code is interpreted by the central processing unit (CPU) of the
+      measuring instrument and converted into certain logical, arithmetical, decoding
+      or data transporting operations.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.18
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: executable code
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 554c0ea6-c903-5fd8-8d92-842edab7e266
+

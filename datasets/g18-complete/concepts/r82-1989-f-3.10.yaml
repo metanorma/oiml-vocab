@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r82-1989-f-3.10
+  localized_concepts:
+    fra: 652e3c90-9432-5d5d-91db-cf5f75b27583
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:82:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+status: valid
+id: bdf01906-883b-5b59-8346-e54a3bc50929
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Débit massique (pour les détecteurs sensibles au débit massique) ou concentration
+      (pour les détecteurs sensibles à la concentration) qui fournit un signal égal
+      à trois fois le niveau de bruit à court terme déterminé sur une base statistique.
+  examples: []
+  id: r82-1989-f-3.10-fra
+  notes:
+  - content: Ce terme est parfois désigné comme "détectabilité minimale" ou "limite
+      minimale de détectabilité" dans les références ou dans la documentation des
+      constructeurs. Il est parfois défini comme un signal de sortie égal à un autre
+      multiple (2 ou 10) du niveau de bruit et peut varier selon que le chromatographe
+      est utilisé pour une analyse quantitative ou pour une analyse qualitative.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de detection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 652e3c90-9432-5d5d-91db-cf5f75b27583
+

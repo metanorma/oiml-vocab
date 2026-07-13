@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
 status: valid
 id: c3d3fc2c-b084-41c3-a313-5977639d8998
 schema_version: '3'
@@ -15,22 +24,32 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'test intended to verify whether the equipment under test (EUT) is capable of accomplishing its intended functions'
+  - content: test intended to verify whether the equipment under test (EUT) is capable
+      of accomplishing its intended functions
     sources:
     - type: authoritative
       status: identical
       origin:
         ref:
-          source: 'OIML D 11:2013'
-          id: '3.20.3'
-  id: 02696-eng
+          source: OIML D 11:2013
+          id: 3.20.3
+  id: '02696-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'performance test'
+    designation: performance test
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: e835b3b5-f624-574c-9123-856e55628319
+

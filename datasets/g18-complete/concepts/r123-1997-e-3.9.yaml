@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r123-1997-e-3.9
+  localized_concepts:
+    eng: 43a398b3-5b2b-5bff-9198-495ce5029df4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+status: valid
+id: 832e1576-cadd-5c8d-b131-a84d02aaa678
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Signal produced in the detector resulting from the detection of X-rays
+      other than X-rays from the analyzed element and from any noise produced elsewhere
+      in the XRF spectrometer.
+  examples: []
+  id: r123-1997-e-3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Background
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 43a398b3-5b2b-5bff-9198-495ce5029df4
+

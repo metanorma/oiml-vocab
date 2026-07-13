@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r60-2000-e-2.3.3
+  localized_concepts:
+    eng: 49260d6c-3ca2-5dde-9300-83ac527f7cc1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.3
+    type: authoritative
+status: valid
+id: c80372a4-002e-5b39-9f34-29949259fe9d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Measurable quantity into which a load cell converts the measured quantity
+      (mass).
+  examples: []
+  id: r60-2000-e-2.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Load cell output
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 49260d6c-3ca2-5dde-9300-83ac527f7cc1
+

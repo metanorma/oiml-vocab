@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r129-2.3.7
+  localized_concepts:
+    deu: 6b132260-8753-5041-8ea6-77774e0c567c
+    eng: 519d35d9-5adf-5052-a9d4-08c3820903af
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+status: valid
+id: e4052745-066d-50d0-b249-89b0545a6ee7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fehler, der den anwendbaren Fehlergrenzwert übersteigt
+  examples: []
+  id: r129-2.3.7-deu
+  notes:
+  - content: 'Die folgenden Fehler werden als nicht signifikant betrachtet, auch dann
+      nicht, wenn sie den oben definierten Wert überschreiten: (a) Fehler, die durch
+      gleichzeitig und voneinander unabhängig auftretende Ursachen im Messgerät entstehen;
+      (b) Fehler, die jede Messung unmöglich machen; (c) auf momentane Abweichungen
+      zurückzuführende vorübergehende Fehler, die nicht als Messergebnis gedeutet,
+      gespeichert oder übermittelt werden können; (d) Fehler, durch die beim Messergebnis
+      Schwankungen auftreten, die so gravierend sind, dass sie von allen am Messergebnis
+      Interessierten wahrgenommen werden.'
+  - content: 'Source citation: VIML 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Signifikanter Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6b132260-8753-5041-8ea6-77774e0c567c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value
+  examples: []
+  id: r129-2.3.7-eng
+  notes:
+  - content: 'The following faults are not considered to be significant, even when
+      they exceed the value defined above: (a) faults arising from simultaneous and
+      mutually independent causes in the measuring instrument itself; (b) faults implying
+      the impossibility to perform any measurement; (c) transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorised or transmitted
+      as a measurement result; and (d) faults giving rise to variations in the measurement
+      result so serious that they are bound to be noticed by all those interested
+      in the result of the measurement.'
+  - content: 'Source citation: VIML 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 519d35d9-5adf-5052-a9d4-08c3820903af
+

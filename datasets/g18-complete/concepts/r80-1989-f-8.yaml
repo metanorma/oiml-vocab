@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r80-1989-f-8
+  localized_concepts:
+    fra: 2f6d2b75-9f38-502e-8ddd-0db995b1cc5b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:80:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '8'
+status: valid
+id: df2a47c3-c253-5974-bc11-8e3796bfed46
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient de l'accroissement de niveau, delta(h), par l'accroissement
+      relatif de volume correspondant, delta(V)/V, pour le volume contenu V correspondant
+      au niveau h.
+  examples: []
+  id: r80-1989-f-8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilité d'une citerne au voisinage d'un niveau de remplissage
+      h
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2f6d2b75-9f38-502e-8ddd-0db995b1cc5b
+

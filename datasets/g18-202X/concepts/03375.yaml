@@ -6,10 +6,11 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 39-1:2022
+        source: OIML R 139-1:2022
+        version: '2022'
     locality:
       type: clause
-      reference_from: '3.3.5'
+      reference_from: 3.3.5
     type: authoritative
   domains:
   - concept_id: section-R039-1
@@ -23,15 +24,17 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'type of payment in attended or unattended service mode requiring payment for a quantity of gas before the delivery commences'
+  - content: type of payment in attended or unattended service mode requiring payment
+      for a quantity of gas before the delivery commences
   id: 03375-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'pre-payment'
+    designation: pre-payment
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: bcbcd3f2-de3c-5bb4-8db0-bb584adf3b78
+

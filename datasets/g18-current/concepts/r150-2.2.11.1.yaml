@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r150-2.2.11.1
+  localized_concepts:
+    eng: 54aaa953-2905-5feb-8bad-d5b747a33965
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.11.1
+    type: authoritative
+status: valid
+id: 244da141-bfdf-5340-8424-3f3d6b4b40d8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: interface that enables information to be interchanged between the operator
+      and the measuring instrument or its hardware or software components, e.g. switches,
+      keyboard, mouse, display, monitor printer, touch-screen, software window on
+      a screen including the software that generates it
+  examples: []
+  id: r150-2.2.11.1-eng
+  notes:
+  - content: 'Source citation: VIML 6.08'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.11.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: user interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54aaa953-2905-5feb-8bad-d5b747a33965
+

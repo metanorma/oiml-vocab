@@ -1,0 +1,89 @@
+---
+data:
+  identifier: d11-3.11
+  localized_concepts:
+    fra: ceecba41-76ca-5ddf-97c7-86d9d8685c90
+    eng: a55f2e1b-90de-5533-bb26-0d83469f2d06
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+status: valid
+id: f848f666-1e27-5a83-b5ab-10b8e94b0051
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur spécifiée dans la Recommandation applicable délimitant les défauts
+      non significatifs
+  examples: []
+  id: d11-3.11-fra
+  notes:
+  - content: 'Source citation: VIML 5.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limite de défaut
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ceecba41-76ca-5ddf-97c7-86d9d8685c90
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value specified in the applicable OIML Recommendation delimiting non-significant
+      faults
+  examples: []
+  id: d11-3.11-eng
+  notes:
+  - content: 'Source citation: VIML 5.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a55f2e1b-90de-5533-bb26-0d83469f2d06
+

@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g22-2.3.14
+  localized_concepts:
+    eng: ede028cf-6eda-5ab0-9f43-e9a94d45f225
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+status: valid
+id: dc1ae30f-8793-5c34-a6fc-86795611eeb5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: peak-to-peak deviation from the nominal DC signal expressed as a percentage
+      of the nominal DC value
+  examples: []
+  id: g22-2.3.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.14
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: DC ripple
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ede028cf-6eda-5ab0-9f43-e9a94d45f225
+

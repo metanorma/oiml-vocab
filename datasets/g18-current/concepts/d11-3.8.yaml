@@ -1,0 +1,86 @@
+---
+data:
+  identifier: d11-3.8
+  localized_concepts:
+    fra: 9f282317-4f9f-570f-a35f-9e36f8fec71d
+    eng: cf5e5f72-1e01-5d0f-9ff8-5cfc84c1053c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+status: valid
+id: 2a111f82-88e5-531d-9cfa-781c9506a0cd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: erreur d'indication déterminée dans les conditions de référence
+  examples: []
+  id: d11-3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9f282317-4f9f-570f-a35f-9e36f8fec71d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: error of indication determined under reference conditions
+  examples: []
+  id: d11-3.8-eng
+  notes:
+  - content: 'Source citation: VIML 0.06'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cf5e5f72-1e01-5d0f-9ff8-5cfc84c1053c
+

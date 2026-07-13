@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r129-2000-f-2.4
+  localized_concepts:
+    fra: b4025ff3-bb2d-5845-8bff-214632834750
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+status: valid
+id: c1fd655a-7939-5795-b027-8c709f2654a1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif qui contient toutes les informations nécessaires et reçoit
+      tous les signaux nécessaires du dispositif de mesure lui permettant de calculer
+      le volume ou d'autres grandeurs associées. Il peut aussi conserver les informations,
+      fournir des systèmes de contrôle des informations et communiquer avec des dispositifs
+      auxiliaires.
+  examples: []
+  id: r129-2000-f-2.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: processeur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b4025ff3-bb2d-5845-8bff-214632834750
+

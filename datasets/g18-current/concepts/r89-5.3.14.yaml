@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r89-5.3.14
+  localized_concepts:
+    fra: ba7113e9-3187-5b44-ab45-5d1d292d1c2e
+    eng: 060a892d-3d0d-528b-8a6a-730622fe49c3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.14
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.14
+    type: authoritative
+status: valid
+id: 2bbe3671-5a25-5ec8-89cd-d57d6751e895
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le niveau de bruit intrinsèque rapporté à l'entrée est l'amplitude crête
+      à crête maximale du signal enregistré quand l'entrée de l'électroencéphalographe
+      est reliée au simulateur d'impédance électrode-peau Z1; elle est évaluée sur
+      un intervalle de temps donné et rapportée à l'entrée.
+  examples: []
+  id: r89-5.3.14-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: niveau de bruit intrinsèque rapporté à l'entrée
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ba7113e9-3187-5b44-ab45-5d1d292d1c2e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The intrinsic noise level referred to the input is the maximum peak-to-peak
+      amplitude of the signal recorded when the electroencephalograph's input is connected
+      to the skin-electrode impedance Z1; it is evaluated for a given time interval
+      and referred to the electroencephalograph's input.
+  examples: []
+  id: r89-5.3.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic noise level referred to the input
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 060a892d-3d0d-528b-8a6a-730622fe49c3
+

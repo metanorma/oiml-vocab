@@ -1,0 +1,369 @@
+{
+  "nodes": [
+    {
+      "id": "5.11",
+      "designation": "conservation of a measurement standard",
+      "external": false
+    },
+    {
+      "id": "5.16",
+      "designation": "reference data",
+      "external": false
+    },
+    {
+      "id": "5.18",
+      "designation": "reference quantity value",
+      "external": false
+    },
+    {
+      "id": "5.17",
+      "designation": "standard reference data",
+      "external": false
+    },
+    {
+      "id": "5.15",
+      "designation": "commutability of a reference material",
+      "external": false
+    },
+    {
+      "id": "5.2",
+      "designation": "international measurement standard",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "quantity value (see Fig. A.1)",
+      "external": false
+    },
+    {
+      "id": "2.27",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "5.13",
+      "designation": "reference material",
+      "external": false
+    },
+    {
+      "id": "5.3",
+      "designation": "national measurement standard",
+      "external": false
+    },
+    {
+      "id": "3.1",
+      "designation": "measuring instrument",
+      "external": false
+    },
+    {
+      "id": "5.14",
+      "designation": "certified reference material",
+      "external": false
+    },
+    {
+      "id": "2.8",
+      "designation": "primary reference measurement procedure (see Fig. A.3)",
+      "external": false
+    },
+    {
+      "id": "5.4",
+      "designation": "primary measurement standard",
+      "external": false
+    },
+    {
+      "id": "3.2",
+      "designation": "measuring system",
+      "external": false
+    },
+    {
+      "id": "ext_reference_material_certificate",
+      "designation": "(reference material certificate)",
+      "external": true
+    },
+    {
+      "id": "1.1",
+      "designation": "quantity (see Fig. A.1)",
+      "external": false
+    },
+    {
+      "id": "3.6",
+      "designation": "material measure",
+      "external": false
+    },
+    {
+      "id": "5.5",
+      "designation": "secondary measurement standard",
+      "external": false
+    },
+    {
+      "id": "ext_trueness_control_material",
+      "designation": "(trueness control material)",
+      "external": true
+    },
+    {
+      "id": "5.1",
+      "designation": "measurement standard",
+      "external": false
+    },
+    {
+      "id": "ext_precision_control_material",
+      "designation": "(precision control material)",
+      "external": true
+    },
+    {
+      "id": "5.12",
+      "designation": "calibrator",
+      "external": false
+    },
+    {
+      "id": "5.6",
+      "designation": "reference measurement standard",
+      "external": false
+    },
+    {
+      "id": "ext_control_material",
+      "designation": "(control material)",
+      "external": true
+    },
+    {
+      "id": "5.7",
+      "designation": "working measurement standard",
+      "external": false
+    },
+    {
+      "id": "2.41",
+      "designation": "metrological traceability",
+      "external": false
+    },
+    {
+      "id": "2.39",
+      "designation": "calibration (see Fig. A.7)",
+      "external": false
+    },
+    {
+      "id": "5.8",
+      "designation": "travelling measurement standard",
+      "external": false
+    },
+    {
+      "id": "5.9",
+      "designation": "transfer measurement device",
+      "external": false
+    },
+    {
+      "id": "5.10",
+      "designation": "intrinsic measurement standard",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "5.18",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "5.17",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "5.13",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "3.2",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "3.6",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "5.12",
+        "2.41"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "2.41",
+        "5.1"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "5.12"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "2.39",
+        "ext_trueness_control_material"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "ext_control_material",
+        "ext_trueness_control_material"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "associative",
+      "members": [
+        "ext_control_material",
+        "ext_precision_control_material"
+      ]
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "5.14",
+        "ext_reference_material_certificate"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "2.8",
+        "5.4"
+      ]
+    },
+    {
+      "id": "rel-016",
+      "type": "hierarchical",
+      "broader": "1.1",
+      "narrower": {
+        "listed": [
+          "1.19"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-017",
+      "type": "hierarchical",
+      "broader": "1.1",
+      "narrower": {
+        "listed": [
+          "5.1"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-018",
+      "type": "hierarchical",
+      "broader": "5.16",
+      "narrower": {
+        "listed": [
+          "5.18",
+          "5.17"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-019",
+      "type": "hierarchical",
+      "broader": "5.4",
+      "narrower": {
+        "listed": [
+          "5.5"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-020",
+      "type": "partitive",
+      "comprehensive": "5.1",
+      "parts": {
+        "listed": [
+          "5.2",
+          "5.3",
+          "5.4",
+          "5.6",
+          "5.7",
+          "5.8",
+          "5.9",
+          "5.10"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-021",
+      "type": "partitive",
+      "comprehensive": "5.13",
+      "parts": {
+        "listed": [
+          "5.15",
+          "5.14"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-022",
+      "type": "partitive",
+      "comprehensive": "5.13",
+      "parts": {
+        "listed": [
+          "ext_trueness_control_material",
+          "ext_precision_control_material",
+          "ext_control_material"
+        ],
+        "has_unlisted_others": false
+      }
+    }
+  ]
+}

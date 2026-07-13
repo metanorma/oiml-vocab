@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r150-2.2.9.1
+  localized_concepts:
+    eng: 62e3e9e8-369a-5fc4-87e8-ac05cf056361
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.9.1
+    type: authoritative
+status: valid
+id: d7b0dd42-9742-551d-9970-0cf61ba5faa1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of all software modules of a measuring instrument, electronic device,
+      or sub-assembly that is legally relevant
+  examples: []
+  id: r150-2.2.9.1-eng
+  notes:
+  - content: Examples of legally relevant software are software involved in determining
+      the final results of the measurement including the decimal sign and the unit,
+      identifying the weighing range, software identification, and force receptor
+      identification and configuration information.
+  - content: 'Source citation: OIML D 31, 3.1.31'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.9.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant software part
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 62e3e9e8-369a-5fc4-87e8-ac05cf056361
+

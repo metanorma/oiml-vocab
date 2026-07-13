@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r85-3.34
+  localized_concepts:
+    eng: 91da0185-6ca7-59ca-9b18-9b4f5da77ee2
+    fra: cfd48199-bf76-543b-a4db-2373e3082775
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.34'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.34'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.34'
+    type: authoritative
+status: valid
+id: b2afee66-1a08-5aa2-8971-2f0862297ff5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Largest change in a stimulus that produces no detectable change in the
+      response of a measuring instrument, the change in the stimulus taking place
+      slowly and monotonically.
+  examples: []
+  id: r85-3.34-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.34'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Discrimination
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 91da0185-6ca7-59ca-9b18-9b4f5da77ee2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus grande variation d'un stimulus ne produisant pas de modification
+      détectable dans la réponse de l'instrument de mesure, la variation du stimulus
+      étant lente et régulière.
+  examples: []
+  id: r85-3.34-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.34'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilite
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cfd48199-bf76-543b-a4db-2373e3082775
+

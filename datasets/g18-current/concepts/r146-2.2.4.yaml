@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r146-2.2.4
+  localized_concepts:
+    eng: d53427db-766f-5f74-b687-dad5a9ef8b08
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+status: valid
+id: 62de7155-e175-5f53-a996-39736f3710a9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: encryption of data by the sender (storing or transmitting program) and
+      decryption by the receiver (reading program) with the purpose of hiding information
+      from unauthorized persons; electronic signing of data with the purpose of enabling
+      the receiver or user of the data to verify the origin of the data, i.e. to prove
+      their authenticity
+  examples: []
+  id: r146-2.2.4-eng
+  notes:
+  - content: 'Source citation: further information in OIML D 31:2008, 3.1.11'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cryptographic means
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d53427db-766f-5f74-b687-dad5a9ef8b08
+

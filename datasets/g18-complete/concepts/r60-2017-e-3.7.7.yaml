@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-2017-e-3.7.7
+  localized_concepts:
+    eng: 93ddd265-81fa-5d62-bba7-eebccb375189
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.7
+    type: authoritative
+status: valid
+id: c1f132e5-893c-5a34-b523-1f7181ce52a0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference in load cell output readings for the same applied force between
+      the reading obtained by increasing the load from minimum load (D_min), and the
+      reading obtained by decreasing the load from maximum load (D_max)
+  examples: []
+  id: r60-2017-e-3.7.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hysteresis error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 93ddd265-81fa-5d62-bba7-eebccb375189
+

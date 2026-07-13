@@ -1,0 +1,95 @@
+---
+data:
+  identifier: d1-3.1.1
+  localized_concepts:
+    fra: bbe1ff6a-0a20-5b78-8ad9-e1743b083e85
+    eng: cb6ba147-c5cb-595f-939f-903f31d14ddc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+status: valid
+id: 7929fa30-7c60-5177-9639-fb581e5c0e88
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Tout texte de loi adopté par ou en vertu d'un État et/ou d'une décision
+      parlementaire
+  examples: []
+  id: d1-3.1.1-fra
+  notes:
+  - content: Les documents légaux peuvent être une législation primaire (par exemple,
+      un traité ou une loi donnés) ou une législation secondaire (par exemple un décret,
+      une décision ou une réglementation donnés).
+  - content: Un « document légal » est parfois appelé « instrument légal ».
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Document legal
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bbe1ff6a-0a20-5b78-8ad9-e1743b083e85
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: any legislative text adopted by, or by virtue of, government and/or parliament
+      decision
+  examples: []
+  id: d1-3.1.1-eng
+  notes:
+  - content: Legal documents may be primary legislation (for example named treaty,
+      law or act) or secondary legislation (for example named decree, decision or
+      regulation).
+  - content: '"Legal document" is sometimes referred to as "Legal instrument".'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Legal document
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cb6ba147-c5cb-595f-939f-903f31d14ddc
+

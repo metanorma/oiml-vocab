@@ -1,0 +1,57 @@
+---
+data:
+  identifier: d5-2022-e-3.14
+  localized_concepts:
+    eng: dcf85250-c715-57ae-b633-77e34c521a2e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:5:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+status: valid
+id: ee95603e-9cc4-5fd3-9b9e-2d7f38f336ab
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measuring instrument reproducing or supplying, in a permanent manner
+      during its use, quantities of one or more given kinds, each with an assigned
+      quantity value
+  examples:
+  - content: Standard weight, volume measure (supplying one or several quantity values,
+      with or without a quantity-value scale), standard electric resistor, line scale
+      (ruler), gauge block, standard signal generator, certified reference material.
+  id: d5-2022-e-3.14-eng
+  notes:
+  - content: The indication of a material measure is its assigned quantity value.
+  - content: A material measure can be a measurement standard.
+  - content: 'Source citation: VIM 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 5:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: material measure
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dcf85250-c715-57ae-b633-77e34c521a2e
+

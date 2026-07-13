@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r49-1-2013-fra-3.4.1
+  localized_concepts:
+    fra: 60e60b7e-ebe6-59b3-9eb2-593b67df1aeb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+status: valid
+id: 469cd1df-f469-5015-b263-986910248dd2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur qui, lors d'un mesurage direct, n'affecte pas la grandeur reellement
+      mesuree, mais affecte la relation entre l'indication et le resultat du mesurage
+  examples:
+  - content: La temperature ambiante du compteur est une grandeur d'influence, alors
+      que la temperature de l'eau traversant le compteur affecte le mesurande.
+  id: r49-1-2013-fra-3.4.1-fra
+  notes:
+  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.52.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 60e60b7e-ebe6-59b3-9eb2-593b67df1aeb
+

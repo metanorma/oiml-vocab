@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
 status: valid
 id: 8a01877c-f2f6-47d8-b601-8c8551a5b7f7
 schema_version: '3'
@@ -15,15 +24,32 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device, which automatically converts: the volume measured at metering conditions into a volume at base conditions, or the volume measured at metering conditions into a mass, or the measured mass into a volume at metering conditions, or the measured mass into a volume at base conditions, or the volume at metering conditions or the measured mass of a mixture of pure ethanol (ethyl alcohol) and water into a volume or the mass of pure ethanol contained in that mixture, by taking account of the characteristics of the liquid (temperature, pressure, density, relative density, etc.) measured using associated measuring devices, or stored in a memory'
-  id: 02955-eng
+  - content: 'device, which automatically converts: the volume measured at metering
+      conditions into a volume at base conditions, or the volume measured at metering
+      conditions into a mass, or the measured mass into a volume at metering conditions,
+      or the measured mass into a volume at base conditions, or the volume at metering
+      conditions or the measured mass of a mixture of pure ethanol (ethyl alcohol)
+      and water into a volume or the mass of pure ethanol contained in that mixture,
+      by taking account of the characteristics of the liquid (temperature, pressure,
+      density, relative density, etc.) measured using associated measuring devices,
+      or stored in a memory'
+  id: '02955-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'conversion device'
+    designation: conversion device
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 38746fbc-a2a9-57e8-87ad-c1be760981db
+

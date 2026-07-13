@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-2000-f-2.3.14
+  localized_concepts:
+    fra: 5c24f5b8-0d41-5f6b-8331-088b644e2cce
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+status: valid
+id: 8d7844c3-111b-50c0-92ec-00dff1be92f3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient de la portée maximale, E_max par l'échelon de vérification minimal,
+      v_min de la cellule de pesée. Ce quotient caractérise la résolution de la cellule
+      de pesée indépendamment de la portée de la cellule de pesée (Y).
+  examples: []
+  id: r60-2000-f-2.3.14-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: v_min relatif ou Y
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5c24f5b8-0d41-5f6b-8331-088b644e2cce
+

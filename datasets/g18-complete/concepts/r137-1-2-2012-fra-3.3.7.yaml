@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r137-1-2-2012-fra-3.3.7
+  localized_concepts:
+    fra: 2b8a9b39-9d07-5e8a-9d40-745078db5a24
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+status: valid
+id: 3635a4fc-caac-51ab-b827-a093e288cb2d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Température médiane pour les compteurs de gaz avec dispositifs de conversion
+      intégrés, utilisée comme référence pour la détermination de l'étendue de température
+      de fonctionnement applicable.
+  examples: []
+  id: r137-1-2-2012-fra-3.3.7-fra
+  notes:
+  - content: La différence entre t_sp et la température du gaz a une influence sur
+      la valeur de l'EMT.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: température spécifiée
+  - type: symbol
+    normative_status: admitted
+    designation: t_sp
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2b8a9b39-9d07-5e8a-9d40-745078db5a24
+

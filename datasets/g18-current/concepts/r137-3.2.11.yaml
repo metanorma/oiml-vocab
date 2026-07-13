@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r137-3.2.11
+  localized_concepts:
+    eng: dee3922a-05ee-5a68-9c1c-3b64699e85c9
+    fra: e08cd19f-7011-5a7a-a155-b195394c8621
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.11
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.11
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.11
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.11
+    type: authoritative
+status: valid
+id: 1dab2a94-6035-50de-89cc-bb08d73da283
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Closeness of agreement between indications or measured quantity values
+      obtained by replicate measurements on the same or similar objects under specified
+      conditions.
+  examples: []
+  id: r137-3.2.11-eng
+  notes:
+  - content: 'Source citation: VIM 2.15'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement precision
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dee3922a-05ee-5a68-9c1c-3b64699e85c9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Étroitesse de l'accord entre les indications ou les valeurs mesurées
+      obtenues par des mesurages répétés du même objet ou d'objets similaires dans
+      des conditions spécifiées.
+  examples: []
+  id: r137-3.2.11-fra
+  notes:
+  - content: 'Source citation: VIM 2.15'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fidélité de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e08cd19f-7011-5a7a-a155-b195394c8621
+

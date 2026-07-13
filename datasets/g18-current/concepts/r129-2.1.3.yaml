@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r129-2.1.3
+  localized_concepts:
+    deu: 6c2f600c-d709-530e-b4c4-0611043aac4e
+    eng: 496b0d7a-3b23-5726-b60b-5c70dcfc47df
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.3
+    type: authoritative
+status: valid
+id: f1413799-01bf-5d54-8f60-6175298c50c2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Gerät, das allein oder in Verbindung mit zusätzlichen Einrichtungen für
+      die Durchführung von Messungen verwendet wird
+  examples: []
+  id: r129-2.1.3-deu
+  notes:
+  - content: Ein Messgerät, das alleine benutzt werden kann, ist ein Messsystem.
+  - content: 'Source citation: VIM 3.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messgerät
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6c2f600c-d709-530e-b4c4-0611043aac4e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device used for making measurements, alone or in conjunction with one
+      or more supplementary devices
+  examples: []
+  id: r129-2.1.3-eng
+  notes:
+  - content: A measuring instrument that can be used alone is a measuring system.
+  - content: 'Source citation: VIM 3.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 496b0d7a-3b23-5726-b60b-5c70dcfc47df
+

@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r125-T.22.2
+  localized_concepts:
+    eng: 9eb0fea3-6f95-5ed8-a9c1-a767aec86c67
+    fra: 8324edd0-bde6-572e-988c-30520c837a7c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.22.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.22.2
+    type: authoritative
+status: valid
+id: dc7dd281-63ca-58fa-9d1c-d2621ae76312
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The absolute error of measurement divided by the conventional true value
+      of the measurand
+  examples: []
+  id: r125-T.22.2-eng
+  notes:
+  - content: 'Source citation: VIM 3.12'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.22.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9eb0fea3-6f95-5ed8-a9c1-a767aec86c67
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur absolue de mesurage divisee par la valeur (conventionnellement)
+      vraie du mesurande (VIM 3.12).
+  examples: []
+  id: r125-T.22.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.22.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur relative
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8324edd0-bde6-572e-988c-30520c837a7c
+

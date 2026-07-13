@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r146-2.2.8
+  localized_concepts:
+    eng: 8ba50549-425f-5aed-b15e-e60daf58fd0b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.8
+    type: authoritative
+status: valid
+id: 43171c49-1b2d-57f2-9dcf-12cbfe14ca31
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: assurance that the programs, data or parameters have not been subjected
+      to any unauthorized or unintended changes while in use, transfer, storage, repair
+      or maintenance
+  examples: []
+  id: r146-2.2.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: integrity of programs, data or parameters
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8ba50549-425f-5aed-b15e-e60daf58fd0b
+

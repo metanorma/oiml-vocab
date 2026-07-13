@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r107-T.2.4.2
+  localized_concepts:
+    eng: 8482da44-4c82-5357-ad69-ee8c07e20b4e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.4.2
+    type: authoritative
+status: valid
+id: 8aa17338-1a73-552d-aa7d-32e60a50c16b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device for setting the indication to zero automatically following a manual
+      command.
+  examples: []
+  id: r107-T.2.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: semi-automatic zero-setting device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8482da44-4c82-5357-ad69-ee8c07e20b4e
+

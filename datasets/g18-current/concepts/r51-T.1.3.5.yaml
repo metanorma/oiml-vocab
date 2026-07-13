@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r51-T.1.3.5
+  localized_concepts:
+    eng: c800f13c-462a-5f62-b364-4bd67c8ce858
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.3.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.3.5
+    type: authoritative
+status: valid
+id: 23304a89-9c70-5060-bb43-4f7d313f9680
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument where components of the vehicle which are also components
+      of the weighing instrument, i.e. parts of the vehicle (levers, joints and/or
+      force transmission) are used for the instrument.
+  examples: []
+  id: r51-T.1.3.5-eng
+  notes:
+  - content: For example, a front-end loader (front-end loading vehicle) that determines
+      the quantity of loose material held in the bucket (load receptor).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vehicle incorporated instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c800f13c-462a-5f62-b364-4bd67c8ce858
+

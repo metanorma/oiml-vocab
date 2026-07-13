@@ -1,0 +1,95 @@
+---
+data:
+  identifier: d1-2012-f-3.1.5
+  localized_concepts:
+    fra: 8cd9da37-d625-5dc7-a12d-f6e44feb2848
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+status: valid
+id: 87a71a50-1119-5db7-8028-cc06790ddc50
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: réalisation de la définition d'une grandeur donnée, avec une valeur déterminée
+      et une incertitude de mesure associée, utilisée comme référence
+  examples:
+  - content: Étalon de masse de 1 kg avec une incertitude-type associée de 3 $ \mu\mathrm{g}
+      $
+  - content: Résistance étalon de 100 $ \Omega $ avec une incertitude-type associée
+      de 1 $ \mu\Omega $
+  - content: Étalon de fréquence à césium avec une incertitude-type associée de 2
+      $ \times $ 10-15.
+  - content: Solution tampon de référence ayant un pH de 7,072 avec une incertitude-type
+      associée de 0,006.
+  - content: Série de solutions de référence de cortisol dans du sérum humain, dont
+      chaque solution a une valeur certifiée avec une incertitude de mesure.
+  - content: Matériau de référence fournissant des valeurs avec les incertitudes de
+      mesure associées pour la concentration en masse de dix protéines différentes.
+  id: d1-2012-f-3.1.5-fra
+  notes:
+  - content: La «réalisation de la définition d'une grandeur donnée» peut être fournie
+      par un système de mesure, une mesure matérialisée ou un matériau de référence.
+  - content: Un étalon sert souvent de référence dans l'obtention de valeurs mesurées
+      et d'incertitudes de mesure associées pour d'autres grandeurs de même nature,
+      établissant ainsi une traçabilité métrologique par l'intermédiaire de l'étalonnage
+      d'autres étalons, instruments de mesure ou systèmes de mesure.
+  - content: Le terme «réalisation» est employé ici dans son sens le plus général.
+      Il désigne trois procédures de réalisation. La première, la réalisation stricto
+      sensu, est la réalisation physique de l'unité de mesure à partir de sa définition.
+      La deuxième, appelée «reproduction», consiste, non pas à réaliser l'unité à
+      partir de sa définition, mais à construire un étalon hautement reproducible
+      fondé sur un phénomène physique, par exemple l'emploi de lasers stabilisés en
+      fréquence pour construire un étalon du mètre, l'emploi de l'effet Josephson
+      pour le volt ou de l'effet Hall quantique pour l'ohm. La troisième procédure
+      consiste à adopter une mesure matérialisée comme étalon. C'est le cas de l'étalon
+      de 1 kg.
+  - content: L'incertitude-type associée à un étalon est toujours une composante de
+      l'incertitude-type composée (voir le GUM:1995, 2.3.4) dans un résultat de mesure
+      obtenu en utilisant l'étalon. Cette composante est souvent petite par rapport
+      à d'autres composantes de l'incertitude-type composée.
+  - content: La valeur de la grandeur et l'incertitude de mesure doivent être déterminées
+      au moment où l'etalon est utilisé.
+  - content: Plusieurs grandeurs de même nature ou de natures différentes peuvent
+      être réalisées à l'aide d'un seul dispositif, appelé aussi étalon.
+  - content: Le mot « embodiment » est quelquefois utilisé en anglais à la place de
+      « realization ».
+  - content: 'Dans la science et la technologie, le mot anglais «standard» est utilisé
+      avec au moins deux significations différentes: celle de spécification, recommandation
+      technique ou autre document normatif, et celle d''étalon (en anglais « measurement
+      standard »). Seule la deuxième signification relève du présent Vocabulaire.'
+  - content: Le terme « étalon » est parfois utilisé pour désigner d'autres outils
+      métrologiques, par exemple un étalon logiciel (voir l'ISO 5436-2).
+  - content: 'Source citation: VIM 5.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Étalon
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8cd9da37-d625-5dc7-a12d-f6e44feb2848
+

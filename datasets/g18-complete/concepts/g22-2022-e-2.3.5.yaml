@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g22-2022-e-2.3.5
+  localized_concepts:
+    eng: b07e9b82-19f8-5c54-88d5-9b71117f9081
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.5
+status: valid
+id: e9f2e642-dbe2-5b7c-a93e-5ee80d439e0c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: highest value of current at which the EVSE is specified by the manufacturer
+      to meet the accuracy requirements of this Guide
+  examples: []
+  id: g22-2022-e-2.3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum current, $ I_{\mathrm{max}} $
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b07e9b82-19f8-5c54-88d5-9b71117f9081
+

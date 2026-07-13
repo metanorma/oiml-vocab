@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r60-3.4.2
+  localized_concepts:
+    eng: 38f7ac64-b0da-5ca6-a006-8c5f1ef5f9e7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+status: valid
+id: 0a1b5113-b907-55a5-af21-11e7c23e4145
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'group of load cells which for the purposes of type evaluation are considered
+      as one family and that are of: a) the same material or combination of materials
+      (for example mild steel, stainless steel or aluminium); b) the same design of
+      the measurement technique (for example strain gauges bonded to metal); c) when
+      used, the same principle used to attach the strain gauge to the load cell; d)
+      the same method of construction (for example shape, sealing of strain gauges,
+      mounting method, manufacturing method); e) the same set of specifications (for
+      example output rating, input impedance, supply voltage, cable details); and
+      f) one or more load cell groups where all load cells within the group possess
+      identical metrological characteristics (as listed in 5.1.5-including: class;
+      n_LC ; temperature rating, etc.).'
+  examples: []
+  id: r60-3.4.2-eng
+  notes:
+  - content: The examples provided are not intended to be limiting.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load cell family
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 38f7ac64-b0da-5ca6-a006-8c5f1ef5f9e7
+

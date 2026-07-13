@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r132-3.3
+  localized_concepts:
+    fra: e4bb65c1-2b3d-5894-9424-52cc76afbc67
+    eng: a0bd21fa-f4be-5dd3-be51-31700560babc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:132:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+status: valid
+id: 8c996fb6-5386-566f-8e90-33e570b6d644
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mesurage de l'absorption résonnante d'énergie électromagnétique, résultant
+      de la transition d'électrons non couplés entre différents niveaux d'énergie,
+      sur application habituellement d'énergie en hyperfréquence à une substance paramagnétique
+      en présence d'un champ magnétique.
+  examples: []
+  id: r132-3.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Spectroscopie de RPE
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4bb65c1-2b3d-5894-9424-52cc76afbc67
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Measurement of resonant absorption of electromagnetic energy, resulting
+      from the transition of unpaired electrons between different energy levels upon
+      application of usually microwave frequency energy to a paramagnetic substance
+      in the presence of a magnetic field.
+  examples: []
+  id: r132-3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: EPR spectroscopy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a0bd21fa-f4be-5dd3-be51-31700560babc
+

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-2023-e-3.2.59
+  localized_concepts:
+    eng: c839c96c-8d28-56d3-ba77-c8768f9f7cfe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.59
+    type: authoritative
+status: valid
+id: 5b1e8302-f6d0-5211-9a17-9bc5d838e5bd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sequence of readable characters (e.g., name, version number, checksum)
+      that represents the software or software module under consideration
+  examples: []
+  id: d31-2023-e-3.2.59-eng
+  notes:
+  - content: Software identification can be checked on an instrument whilst in use,
+      see 6.2.1.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.59
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software identification
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c839c96c-8d28-56d3-ba77-c8768f9f7cfe
+

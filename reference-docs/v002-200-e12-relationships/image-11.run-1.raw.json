@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "3.1",
+      "designation": "measuring instrument",
+      "external": false
+    },
+    {
+      "id": "3.2",
+      "designation": "measuring system",
+      "external": false
+    },
+    {
+      "id": "4.25",
+      "designation": "accuracy class",
+      "external": false
+    },
+    {
+      "id": "ext_metrological_property_of_a_measuring_instrument_or_measuring_system",
+      "designation": "(metrological property of a measuring instrument or measuring system)",
+      "external": true
+    },
+    {
+      "id": "4.1",
+      "designation": "indication",
+      "external": false
+    },
+    {
+      "id": "4.2",
+      "designation": "blank indication",
+      "external": false
+    },
+    {
+      "id": "4.3",
+      "designation": "indication interval",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "quantity value",
+      "external": false
+    },
+    {
+      "id": "4.6",
+      "designation": "nominal quantity value",
+      "external": false
+    },
+    {
+      "id": "4.4",
+      "designation": "nominal indication interval",
+      "external": false
+    },
+    {
+      "id": "4.5",
+      "designation": "range of a nominal indication interval",
+      "external": false
+    },
+    {
+      "id": "4.7",
+      "designation": "measuring interval",
+      "external": false
+    },
+    {
+      "id": "ext_operating_condition_see_fig_a11",
+      "designation": "(operating condition, see Fig. A.11)",
+      "external": true
+    },
+    {
+      "id": "4.12",
+      "designation": "sensitivity of a measuring system",
+      "external": false
+    },
+    {
+      "id": "4.13",
+      "designation": "selectivity of a measuring system",
+      "external": false
+    },
+    {
+      "id": "4.14",
+      "designation": "resolution",
+      "external": false
+    },
+    {
+      "id": "4.15",
+      "designation": "resolution of a displaying device",
+      "external": false
+    },
+    {
+      "id": "4.16",
+      "designation": "discrimination threshold",
+      "external": false
+    },
+    {
+      "id": "4.17",
+      "designation": "dead band",
+      "external": false
+    },
+    {
+      "id": "4.18",
+      "designation": "detection limit",
+      "external": false
+    },
+    {
+      "id": "4.19",
+      "designation": "stability of a measuring instrument",
+      "external": false
+    },
+    {
+      "id": "4.20",
+      "designation": "instrumental bias",
+      "external": false
+    },
+    {
+      "id": "4.21",
+      "designation": "instrumental drift",
+      "external": false
+    },
+    {
+      "id": "4.22",
+      "designation": "variation due to an influence quantity",
+      "external": false
+    },
+    {
+      "id": "4.23",
+      "designation": "step response time",
+      "external": false
+    },
+    {
+      "id": "4.24",
+      "designation": "instrumental measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "4.26",
+      "designation": "maximum permissible measurement error",
+      "external": false
+    },
+    {
+      "id": "2.26",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "4.27",
+      "designation": "datum measurement error",
+      "external": false
+    },
+    {
+      "id": "4.28",
+      "designation": "zero error",
+      "external": false
+    },
+    {
+      "id": "2.16",
+      "designation": "measurement error",
+      "external": false
+    },
+    {
+      "id": "4.29",
+      "designation": "null measurement uncertainty",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "3.1",
+        "ext_metrological_property_of_a_measuring_instrument_or_measuring_system"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "3.2",
+        "ext_metrological_property_of_a_measuring_instrument_or_measuring_system"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "4.25",
+        "3.1"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "4.25",
+        "3.2"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "4.4",
+        "4.5"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "hierarchical",
+      "broader": "ext_metrological_property_of_a_measuring_instrument_or_measuring_system",
+      "narrower": {
+        "listed": [
+          "4.1",
+          "4.18",
+          "4.19",
+          "4.20",
+          "4.21",
+          "4.22",
+          "4.23",
+          "4.24",
+          "4.26",
+          "4.7",
+          "4.12",
+          "4.13",
+          "4.14",
+          "4.15",
+          "4.16",
+          "4.17"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-007",
+      "type": "hierarchical",
+      "broader": "4.1",
+      "narrower": {
+        "listed": [
+          "4.2",
+          "4.3"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-008",
+      "type": "hierarchical",
+      "broader": "4.3",
+      "narrower": {
+        "listed": [
+          "1.19",
+          "4.6"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-009",
+      "type": "hierarchical",
+      "broader": "2.16",
+      "narrower": {
+        "listed": [
+          "4.27",
+          "4.28"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-010",
+      "type": "hierarchical",
+      "broader": "2.26",
+      "narrower": {
+        "listed": [
+          "4.29"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-011",
+      "type": "partitive",
+      "comprehensive": "2.26",
+      "parts": {
+        "listed": [
+          "4.24",
+          "4.26"
+        ],
+        "has_unlisted_others": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r82-1989-e-3.13
+  localized_concepts:
+    eng: 48f2b751-38fb-5d0b-9968-af4e19aecf0a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:82:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+status: valid
+id: 889f00df-0310-51ef-850c-1c2b36d0ef41
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'A manifestation of variation in the gas chromatograph output signal;
+      it can be divided into two components: 3.13.1. Short-term noise includes all
+      observable random variations of the signal from the detector or other components
+      having a frequency of the order of one or more cycles per minute. 3.13.2. Drift
+      is the average slope of the baseline signal measured over a minimum of one-half
+      hour.'
+  examples: []
+  id: r82-1989-e-3.13-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Noise
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 48f2b751-38fb-5d0b-9968-af4e19aecf0a
+

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d31-2019-e-3.1.10
+  localized_concepts:
+    eng: 8f09cd3f-b5e1-5269-a7a2-fa7be45b1b61
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+status: valid
+id: bb4dd374-3310-5bc0-9b53-37d1da6b0703
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: legally relevant parameter with a value that depends on the individual
+      instrument
+  examples: []
+  id: d31-2019-e-3.1.10-eng
+  notes:
+  - content: Device-specific parameters comprise adjustment parameters (e.g. span
+      adjustment or other adjustments or corrections) and configuration parameters
+      (e.g. maximum value, minimum value, units of measurement, etc.).
+  - content: 'Source citation: [OIML V 1:2013, 4.12]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: device-specific parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8f09cd3f-b5e1-5269-a7a2-fa7be45b1b61
+

@@ -150,7 +150,14 @@ class DatasetValidator
     unless missing.empty?
       # Some datasets are intentionally single-language (e.g. viml-1968 French only).
       # Only error if register declares a language the concept doesn't have.
-      if langs.any?
+      #
+      # Derived / cross-source aggregate datasets (V 0) get a permissive
+      # mode: each concept comes from a specific source publication and
+      # may be monolingual in any of the dataset's languages. The register
+      # still lists every language that appears SOMEWHERE in the dataset,
+      # but no single concept is required to be bilingual.
+      derived = @register["derived"] == true || @register["i18n_mode"] == "permissive"
+      if langs.any? && !derived
         error("#{basename}: missing localized_concepts for #{missing.inspect}")
       end
     end

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r83-3.10
+  localized_concepts:
+    eng: 59faa5ae-a77f-540e-9c02-3f63cf604573
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:83:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: ac9731aa-3c1f-5f4f-9121-99169b64e062
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The method of calculating instrument resolution is dependent on the instrument's
+      ion analyzer. Two common methods for determining the ratio of m to dm (m/dm)
+      are sector type (m/dm is constant) and quadrupole type (dm is constant).
+  examples: []
+  id: r83-3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:2006
+        version: '2006'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolution of a mass spectrometer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 59faa5ae-a77f-540e-9c02-3f63cf604573
+

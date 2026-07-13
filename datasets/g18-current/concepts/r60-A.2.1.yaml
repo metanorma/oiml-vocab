@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r60-A.2.1
+  localized_concepts:
+    eng: dd8b9a87-5925-5e3a-ac21-8c1ba38c9f1c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-4:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: A.2.1
+    type: authoritative
+status: valid
+id: ac393a29-b0e6-5e3e-a4d5-c3b92d338605
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the weighing instrument that comprises all mechanical and electronic
+      devices (i.e. load receptor, load transmitting device, load cell, and analogue
+      data processing device or digital data processing device) but not having the
+      means to display the weighing result. It may optionally have devices for further
+      processing (digital) data and operating the instrument
+  examples: []
+  id: r60-A.2.1-eng
+  notes:
+  - content: 'Source citation: OIML R 76-1, T.2.2.7'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-4:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: A.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: weighing module
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dd8b9a87-5925-5e3a-ac21-8c1ba38c9f1c
+

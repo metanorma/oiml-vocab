@@ -1,0 +1,104 @@
+---
+data:
+  identifier: r134-T.3.4.4
+  localized_concepts:
+    eng: 8c25781d-7a27-59fc-8f74-57c33b4cf9da
+    fra: 7c7d556a-3d9c-5b47-bfa8-eda090030f5e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.4
+    type: authoritative
+status: valid
+id: 9ace2374-68f4-51f3-b483-94f871ce4df7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Set of values specified by the manufacturer between the minimum and maximum
+      operating speeds at which a vehicle may be weighed-in-motion.
+  examples: []
+  id: r134-T.3.4.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: operating speed range
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8c25781d-7a27-59fc-8f74-57c33b4cf9da
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble de valeurs spécifiées par le fabricant entre les vitesses de
+      fonctionnement minimale et maximale auxquelles un véhicule peut être pesé en
+      mouvement.
+  examples: []
+  id: r134-T.3.4.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: étendue des vitesses de fonctionnement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7c7d556a-3d9c-5b47-bfa8-eda090030f5e
+

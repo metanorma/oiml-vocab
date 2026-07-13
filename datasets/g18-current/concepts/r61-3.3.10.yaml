@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r61-3.3.10
+  localized_concepts:
+    eng: 18cf2943-d2c1-540c-b370-277f1a15df74
+    deu: 3fe4fb5c-3a9d-5190-8c3f-efdebcca876b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+status: valid
+id: d66a502b-1a78-544f-870f-6cbff41c23d2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: interface (hardware and/or software) which will only allow the introduction
+      into the instrument of data or instructions that cannot influence the metrological
+      properties of the instrument
+  examples: []
+  id: r61-3.3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protective interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 18cf2943-d2c1-540c-b370-277f1a15df74
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Schnittstelle (Hardware und/oder Software), die das Einbringen von nur
+      solchen Daten oder Befehlen in die Waage zulässt, die die messtechnischen Eigenschaften
+      der Waage nicht beeinflussen können
+  examples: []
+  id: r61-3.3.10-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rückwirkungsfreie Schnittstelle
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3fe4fb5c-3a9d-5190-8c3f-efdebcca876b
+

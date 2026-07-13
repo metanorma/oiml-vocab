@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r60-2000-f-2.5.2
+  localized_concepts:
+    fra: 6f26ce16-ec92-52f4-9ddf-4de30b15c4e9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.5.2
+    type: authoritative
+status: valid
+id: 8e0d517c-d243-5b6d-8c57-6eb10c05ed5c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions d'utilisation, pour lesquelles les caractéristiques métrologiques
+      de la cellule de pesée sont censées ne pas dépasser les EMT spécifiées (voir
+      2.4.9).
+  examples: []
+  id: r60-2000-f-2.5.2-fra
+  notes:
+  - content: Les conditions assignées de fonctionnement spécifient généralement des
+      étendues ou des valeurs fixes du mesurande et des grandeurs d'influence.
+  - content: 'Source citation: Adapté de VIM 5.5'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conditions assignées de fonctionnement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6f26ce16-ec92-52f4-9ddf-4de30b15c4e9
+

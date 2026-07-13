@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r91-1-2025-eng-3.5.11
+  localized_concepts:
+    eng: d249f478-32df-52ee-855c-ebf6fb50490c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91-1:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.5.11
+    type: authoritative
+status: valid
+id: 37f84674-fa2b-5fc3-a9ba-d71ca5ea3452
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: observed error in a measurement where all influence quantities have been
+      minimized.
+  examples: []
+  id: r91-1-2025-eng-3.5.11-eng
+  notes:
+  - content: Typically, the linearity error is determined using a simulator in the
+      laboratory.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.5.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: linearity error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d249f478-32df-52ee-855c-ebf6fb50490c
+

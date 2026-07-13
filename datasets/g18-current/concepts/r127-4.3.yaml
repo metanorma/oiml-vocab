@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r127-4.3
+  localized_concepts:
+    fra: c62c6ccf-9d45-5454-8d6c-5c8e72808218
+    eng: d9e6bc35-76a8-5fd4-abbc-3a3b1c51faf9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.3'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.3'
+    type: authoritative
+status: valid
+id: 289f7373-f84c-55d6-a1a3-cf8184321f2c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantité de dosimètres fabriqués à partir d'une masse spécifique de matériau
+      ayant une composition uniforme, issus d'une série de production dans des conditions
+      contrôlées et constantes, et caractérisés par un code d'identification unique.
+  examples: []
+  id: r127-4.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lot de dosimètres
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c62c6ccf-9d45-5454-8d6c-5c8e72808218
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity of dosimeters made from a specific mass of material having a
+      uniform composition, fabricated in a single production run under controlled
+      and consistent conditions, and assigned a unique identification code.
+  examples: []
+  id: r127-4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dosimeter batch
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d9e6bc35-76a8-5fd4-abbc-3a3b1c51faf9
+

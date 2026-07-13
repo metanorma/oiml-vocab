@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r107-T.1.6
+  localized_concepts:
+    eng: c0a437f3-a965-5a7c-89ff-29bfac54390a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.6
+    type: authoritative
+status: valid
+id: 55f8c321-9517-5196-bc6e-0d840f3b4d0a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value attributed to a particular quantity and accepted, by convention,
+      as having an uncertainty appropriate for a given purpose.
+  examples: []
+  id: r107-T.1.6-eng
+  notes:
+  - content: 'Source citation: VIM: 1993, 1.20'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conventional true value (of a quantity)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0a437f3-a965-5a7c-89ff-29bfac54390a
+
