@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.11.8
+    type: authoritative
 status: valid
 id: 1ab95d63-9071-407b-91c5-eaf6b0913644
 schema_version: '3'
@@ -15,22 +24,32 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'weighing instrument used to determine the conventional value of the mass of the test load(s)'
+  - content: weighing instrument used to determine the conventional value of the mass
+      of the test load(s)
     sources:
     - type: authoritative
       status: identical
       origin:
         ref:
-          source: 'OIML V 1:2013'
+          source: OIML V 1:2013
           id: '5.08'
-  id: 02949-eng
+  id: '02949-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.11.8
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'control instrument'
+    designation: control instrument
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: defa6bab-45f7-5901-8ae7-d62f3825ec1e
+

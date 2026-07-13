@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r113-3.15
+  localized_concepts:
+    fra: 1da01507-5125-5945-baa0-536920822508
+    eng: a37c5345-597e-5127-8ee9-e9ba31fc1d19
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:113:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+status: valid
+id: 66433043-e2f2-50c4-a426-7feb440c8897
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Temps ecoule entre l'injection d'un echantillon et l'apparition du pic
+      maximal du signal de sortie du composant examine.
+  examples: []
+  id: r113-3.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temps de retention
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1da01507-5125-5945-baa0-536920822508
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The elapsed time between injection of a sample and the appearance of
+      the maximum output peak of the component of interest.
+  examples: []
+  id: r113-3.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Retention time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a37c5345-597e-5127-8ee9-e9ba31fc1d19
+

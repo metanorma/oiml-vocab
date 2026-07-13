@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r150-1-2020-eng-2.2.9.2
+  localized_concepts:
+    eng: 445cb625-79df-5c0e-a58f-810c61d52b31
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.9.2
+    type: authoritative
+status: valid
+id: ffa4e7bd-9b5a-553d-9b20-c12d1bdeca23
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: parameter of a measuring instrument (electronic) device, sub-assembly,
+      software or a module subject to legal control
+  examples: []
+  id: r150-1-2020-eng-2.2.9.2-eng
+  notes:
+  - content: 'The following types of legally relevant parameters can be distinguished:
+      type-specific parameters and device-specific parameters.'
+  - content: 'Source citation: VIML 4.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.9.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 445cb625-79df-5c0e-a58f-810c61d52b31
+

@@ -1,0 +1,84 @@
+---
+data:
+  identifier: r49-2013-f-3.4.2
+  localized_concepts:
+    eng: 127d52bf-44db-55fd-a2a0-25d710d23faf
+    fra: bd0e87f3-0ec6-56c5-bd42-4a0d58d808b0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+status: valid
+id: b519edeb-f094-5fa8-afe2-2e2a9090c799
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the rated operating conditions
+      of a meter specified in this part of OIML R 49
+  examples: []
+  id: r49-2013-f-3.4.2-eng
+  notes:
+  - content: 'Source citation: OIML D 11:2013 [3], 3.15.1, modified — "meter" replaces
+      "measuring instrument"; "this part of OIML R 49" replaces "the relevant Recommendation".'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 127d52bf-44db-55fd-a2a0-25d710d23faf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont une valeur se situe dans les conditions assignées
+      de fonctionnement du compteur, spécifiées dans cette partie de l'OIML R 49
+  examples: []
+  id: r49-2013-f-3.4.2-fra
+  notes:
+  - content: 'Source citation: OIML D 11:2013 [3], 3.15.1, modifié — « compteur »
+      remplace « instrument de mesure » ; « cette partie de l''OIML R 49 » remplace
+      « la Recommandation applicable ».'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bd0e87f3-0ec6-56c5-bd42-4a0d58d808b0
+

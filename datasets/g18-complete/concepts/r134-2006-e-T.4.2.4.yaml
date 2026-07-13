@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r134-2006-e-T.4.2.4
+  localized_concepts:
+    eng: 7279698f-7707-58a8-9fb1-a604b72bb024
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.4
+    type: authoritative
+status: valid
+id: cad7dc7c-b5e8-5e6c-9eba-65487e2c86b3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme values of an error permitted by specifications or regulations
+      between the indication of a weighing instrument and the corresponding true value,
+      as determined by reference standard mass, at zero or no load, in the reference
+      position.
+  examples: []
+  id: r134-2006-e-T.4.2.4-eng
+  notes:
+  - content: 'Source citation: VIM 5.21'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7279698f-7707-58a8-9fb1-a604b72bb024
+

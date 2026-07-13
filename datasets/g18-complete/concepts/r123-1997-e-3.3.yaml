@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r123-1997-e-3.3
+  localized_concepts:
+    eng: e5a4ef46-45f6-5edb-bc17-c47dd433ea8c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+status: valid
+id: 0037b55d-a644-5771-8dbe-b8c49e43e2ec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device that converts the energy absorbed from the X-rays emitted by a
+      sample into electric signals.
+  examples: []
+  id: r123-1997-e-3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e5a4ef46-45f6-5edb-bc17-c47dd433ea8c
+

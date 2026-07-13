@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r129-1-2020-eng-2.3.7
+  localized_concepts:
+    eng: 557a117e-c8ec-58bc-96dc-11bbaa5dfdda
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+status: valid
+id: ad513878-0096-5021-9245-395e8c44bd29
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value
+  examples: []
+  id: r129-1-2020-eng-2.3.7-eng
+  notes:
+  - content: 'The following faults are not considered to be significant, even when
+      they exceed the value defined above: (a) faults arising from simultaneous and
+      mutually independent causes in the measuring instrument itself; (b) faults implying
+      the impossibility to perform any measurement; (c) transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorised or transmitted
+      as a measurement result; and (d) faults giving rise to variations in the measurement
+      result so serious that they are bound to be noticed by all those interested
+      in the result of the measurement.'
+  - content: 'Source citation: VIML 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 557a117e-c8ec-58bc-96dc-11bbaa5dfdda
+

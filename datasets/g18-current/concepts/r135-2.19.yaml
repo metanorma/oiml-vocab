@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r135-2.19
+  localized_concepts:
+    eng: 38cc25d0-d4ad-5003-93d2-14208b5e3d28
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:135:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 135:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.19'
+    type: authoritative
+status: valid
+id: 6c5acdd0-30d0-588f-96f9-eeaf7b4eda9a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Product of specific molar absorption coefficient and optical pathlength,
+      equal to characteristic partial internal absorbance divided by amount of substance
+      concentration.
+  examples: []
+  id: r135-2.19-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 135:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.19'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Beer's factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 38cc25d0-d4ad-5003-93d2-14208b5e3d28
+

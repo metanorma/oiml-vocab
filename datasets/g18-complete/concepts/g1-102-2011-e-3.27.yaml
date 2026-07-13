@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-102-2011-e-3.27
+  localized_concepts:
+    eng: 322265e8-7cd9-5f9a-927d-f761f315d301
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.27'
+status: valid
+id: c3a327a9-10ec-5c26-b23e-6586c5614517
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: probability distribution of a random variable $ X $ of dimension $ N\times1
+      $ having the joint probability density function $ g _ {\boldsymbol {X}} (\boldsymbol
+      {\xi}) = \frac {1}{(2 \pi) ^ {N / 2} \left[ \det (\boldsymbol {V}) \right] ^
+      {1 / 2}} \exp \left(- \frac {1}{2} \left(\boldsymbol {\xi} - \boldsymbol {\mu}\right)
+      ^ {\top} \boldsymbol {V} ^ {- 1} \left(\boldsymbol {\xi} - \boldsymbol {\mu}\right)\right)$
+  examples: []
+  id: g1-102-2011-e-3.27-eng
+  notes:
+  - content: "$ \\boldsymbol{\\mu} $ is the expectation and $ \\boldsymbol{V} $ is
+      the covariance matrix of $ \\boldsymbol{X} $ , which must be positive definite."
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.27'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multivariate Gaussian distribution
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 322265e8-7cd9-5f9a-927d-f761f315d301
+

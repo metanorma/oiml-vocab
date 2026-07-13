@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r99-3.19
+  localized_concepts:
+    eng: 108386b6-5557-5b0b-a9fe-f59dfefa3a6d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:99:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+status: valid
+id: d8dfe021-8a3d-5a6d-b580-27047bb8fb94
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: error of measurement divided by the conventional true quantity value
+      of the measurand
+  examples: []
+  id: r99-3.19-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 108386b6-5557-5b0b-a9fe-f59dfefa3a6d
+

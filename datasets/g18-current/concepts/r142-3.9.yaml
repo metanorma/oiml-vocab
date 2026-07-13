@@ -1,0 +1,69 @@
+---
+data:
+  identifier: r142-3.9
+  localized_concepts:
+    eng: 6a57930d-14fa-5ea7-8078-c374f31df04b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:142:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+status: valid
+id: a326ec8b-1488-50aa-b16f-758aa08d2439
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r142-3.9-eng
+  notes:
+  - content: Usually the term "maximum permissible errors" or "limits of error" are
+      used, where there are two extreme values.
+  - content: The term "tolerance" should not be used to designate "maximum permissible
+      error".
+  - content: 'Additional note: Maximum permissible errors for type approval and initial
+      verification and verification after repair of refractometer are defined in 5.2.1.'
+  - content: Maximum permissible errors for refractometer in service are defined in
+      5.2.2.
+  - content: 'Source citation: VIM 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible measurement error
+  - type: expression
+    normative_status: admitted
+    designation: MPE
+  - type: expression
+    normative_status: admitted
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: limit of error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6a57930d-14fa-5ea7-8078-c374f31df04b
+

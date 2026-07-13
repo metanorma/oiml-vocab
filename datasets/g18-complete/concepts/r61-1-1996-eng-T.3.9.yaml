@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r61-1-1996-eng-T.3.9
+  localized_concepts:
+    eng: cd45cfb7-8d95-5c94-8c88-673a8cd917ee
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61-1:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+status: valid
+id: fc4e0d77-e82a-5c94-9694-97bc2e92de64
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The time between the moment power is applied to an instrument and the
+      moment at which the instrument is capable of complying with the requirements.
+  examples: []
+  id: r61-1-1996-eng-T.3.9-eng
+  notes:
+  - content: OCR source has this definition displaced under T.3.10; content pairing
+      corrected from source document structure.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: warm-up time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cd45cfb7-8d95-5c94-8c88-673a8cd917ee
+

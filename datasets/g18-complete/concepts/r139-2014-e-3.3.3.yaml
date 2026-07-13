@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r139-2014-e-3.3.3
+  localized_concepts:
+    eng: 4abfb195-bfea-5ec4-a1ec-cc2a6361b067
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+status: valid
+id: db7fd385-258b-594d-b446-b1258a7b8f36
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating mode of a self-service arrangement in which the supplier is
+      present and controls the authorization for the delivery
+  examples: []
+  id: r139-2014-e-3.3.3-eng
+  notes:
+  - content: In attended service mode, the settlement of the transaction takes place
+      before the customer leaves the site of the delivery.
+  - content: A transaction is settled when the parties interested in the transaction
+      have made their agreement known as regards the amount of the transaction.
+  - content: In attended service mode the measurement operation ends at the moment
+      settlement of the transaction takes place.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attended service mode
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4abfb195-bfea-5ec4-a1ec-cc2a6361b067
+

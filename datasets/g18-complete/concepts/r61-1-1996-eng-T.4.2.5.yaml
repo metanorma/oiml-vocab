@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r61-1-1996-eng-T.4.2.5
+  localized_concepts:
+    eng: 90c31af5-6649-588e-9b26-b3bc53e9eb30
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61-1:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.2.5
+    type: authoritative
+status: valid
+id: 94c0378f-426a-5c11-acb4-d42047d8ce83
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A fault greater than 0.25 of the maximum permissible deviation of each
+      fill (as specified in 2.2), for in-service verification, for a fill equal to
+      the rated minimum fill.
+  examples: []
+  id: r61-1-1996-eng-T.4.2.5-eng
+  notes:
+  - content: 'The following are not considered to be significant faults, even when
+      they exceed the value defined above: faults arising from simultaneous and mutually
+      independent causes in the instrument, faults implying the impossibility to perform
+      any stage of operation, faults being so serious that they are bound to be noticed
+      by an operator, transitory faults being momentary variations in the indication
+      or operation which cannot affect the final result of the automatic cycle.'
+  - content: For instruments where the fill may be greater than one load, the value
+      of the significant fault applicable for a test on one static load shall be calculated
+      in accordance with the test procedures.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 90c31af5-6649-588e-9b26-b3bc53e9eb30
+

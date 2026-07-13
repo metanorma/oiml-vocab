@@ -1,0 +1,111 @@
+---
+data:
+  identifier: r134-T.2.5
+  localized_concepts:
+    eng: 5711e699-ada5-5637-8bed-758c3fe69443
+    fra: e79950bf-b0a0-52c7-a559-11cd53a41016
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+status: valid
+id: 3894e83e-6b3a-50f7-9680-057d70d43fb3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Identifiable part of an instrument that performs a specific function
+      or functions, and that can be separately evaluated according to the metrological
+      and technical performance requirements in the relevant Recommendation. The modules
+      of a weighing instrument are subject to specified partial error limits.
+  examples: []
+  id: r134-T.2.5-eng
+  notes:
+  - content: 'Typical modules of a weighing instrument are: load cell, indicator,
+      data processing device, etc.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5711e699-ada5-5637-8bed-758c3fe69443
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie identifiable d'un instrument qui remplit une ou plusieurs fonctions
+      spécifiques, et qui peut être examinée séparément suivant des exigences métrologiques
+      et techniques spécifiques de la Recommandation applicable. Les modules d'un
+      instrument de pesage font l'objet de limites d'erreurs partielles spécifiées.
+  examples: []
+  id: r134-T.2.5-fra
+  notes:
+  - content: 'Les modules typiques d''un instrument de pesage sont: cellule de pesée,
+      indicateur, dispositif de traitement de données, etc.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e79950bf-b0a0-52c7-a559-11cd53a41016
+

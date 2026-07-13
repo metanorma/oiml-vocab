@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r127-4.5
+  localized_concepts:
+    fra: 05623a5b-54e9-51dd-85b0-57513b0119c9
+    eng: 4f70e3ed-7446-5d22-a151-6ac92a1185b4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.5'
+    type: authoritative
+status: valid
+id: 85f1456d-7fcf-5fe2-97f4-9c73a51b53b0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Variation de l''absorbance optique mesurée pour la (les) longueur(s)
+      d''onde d''analyse déterminées comme la différence absolue entre l''absorbance
+      de pré-irradiation, A0, et l''absorbance de post-irradiation, A, comme suit:'
+  examples:
+  - content: dA = |A - A0|
+  id: r127-4.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Absorbance nette, dA
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 05623a5b-54e9-51dd-85b0-57513b0119c9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Change in measured optical absorbance at the analysis wavelength(s) determined
+      as the absolute difference between the pre-irradiation absorbance and the post-irradiation
+      absorbance.
+  examples: []
+  id: r127-4.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: net absorbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4f70e3ed-7446-5d22-a151-6ac92a1185b4
+

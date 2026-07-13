@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r125-T.35
+  localized_concepts:
+    eng: 275c182a-c9dd-5c6a-94f2-f4a1831beadd
+    fra: d553848f-190e-5355-b3b7-37586ccb7ae7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.35
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.35
+    type: authoritative
+status: valid
+id: bfb9c5da-4c0a-59ab-a20a-1f44e4779135
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A series of operations intended to verify the compliance of the equipment
+      under test with certain requirements.
+  examples: []
+  id: r125-T.35-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.35
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 275c182a-c9dd-5c6a-94f2-f4a1831beadd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Serie d'operations destinees a verifier la conformite de l'equipement
+      soumis a l'essai selon certaines exigences.
+  examples: []
+  id: r125-T.35-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.35
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Essai
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d553848f-190e-5355-b3b7-37586ccb7ae7
+

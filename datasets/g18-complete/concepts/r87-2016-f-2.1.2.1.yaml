@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r87-2016-f-2.1.2.1
+  localized_concepts:
+    fra: d2915cba-eccc-5d3e-9f6f-2eed5c56f300
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.1
+    type: authoritative
+status: valid
+id: 596a2e4c-2368-5a48-9e7a-d99dd47ac9e1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: somme des erreurs de préemballage individuel en tenant compte de leur
+      signe arithmétique, divisée par le nombre de préemballages dans le lot d'inspection
+      ou l'échantillon
+  examples: []
+  id: r87-2016-f-2.1.2.1-fra
+  notes:
+  - content: L'erreur moyenne pour tous les préemballages dans un échantillon avec
+      n comme taille d'échantillon est désignée par le symbole e_ave.‟L'erreur moyenne
+      pour tous les préemballages dans un lot d'inspection avec N préemballages est
+      désignée par le symbole E_ave
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur moyenne
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d2915cba-eccc-5d3e-9f6f-2eed5c56f300
+

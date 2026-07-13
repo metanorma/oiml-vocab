@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r134-T.6.4
+  localized_concepts:
+    eng: a8003f58-ee0c-52c6-96d4-40009e0df587
+    fra: deb1039f-70e6-55d2-8e54-03d19c1ca21c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.4
+    type: authoritative
+status: valid
+id: d41707be-8189-5b48-914e-0b849555550a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test to verify that the equipment under test (EUT) is capable of accomplishing
+      its specified functions.
+  examples: []
+  id: r134-T.6.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: performance test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a8003f58-ee0c-52c6-96d4-40009e0df587
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai destiné à vérifier que l'équipement sous test (EST) est capable
+      d'accomplir ses fonctions spécifiées.
+  examples: []
+  id: r134-T.6.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai de performance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: deb1039f-70e6-55d2-8e54-03d19c1ca21c
+

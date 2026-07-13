@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r134-T.3.9
+  localized_concepts:
+    eng: 151d3884-11c4-561d-87e4-26e2175a3f9a
+    fra: cb14750f-4214-5946-a02f-4cb81865ac09
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+status: valid
+id: 98b57ea9-40cc-59b5-8cb5-18e1f19f65fa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ability of an instrument to react to small variations of load. The discrimination
+      threshold, for a given load, is the value of the smallest additional load that,
+      when gently deposited on or removed from the load receptor, causes a perceptible
+      change in the indication.
+  examples: []
+  id: r134-T.3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: discrimination
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 151d3884-11c4-561d-87e4-26e2175a3f9a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aptitude d'un instrument à réagir à de petites variations de charge.
+      Le seuil de mobilité, à une charge donnée, est la valeur de la plus petite surcharge
+      qui, doucement déposée sur, ou retirée du récepteur de charge, provoque une
+      variation perceptible de l'indication.
+  examples: []
+  id: r134-T.3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mobilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cb14750f-4214-5946-a02f-4cb81865ac09
+

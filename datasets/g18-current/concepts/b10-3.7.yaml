@@ -1,0 +1,55 @@
+---
+data:
+  identifier: b10-3.7
+  localized_concepts:
+    eng: f1580176-485c-548e-8810-5534c23c8893
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:10:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 10:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: 10bcf9d7-ca15-5b02-a2d8-56f793c6b9a5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test Report as defined in OIML B 3 (3.14) but issued by a Testing Laboratory
+      registered in a DoMC
+  examples: []
+  id: b10-3.7-eng
+  notes:
+  - content: See Annex A.
+  - content: An MAA Test Report may contain results of tests and examinations which
+      correspond to the additional national requirements included in the relevant
+      DoMC.
+  - content: 'Source citation: OIML B 3 3.14 [4]'
+  sources:
+  - origin:
+      ref:
+        source: OIML B 10:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: MAA Test Report
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f1580176-485c-548e-8810-5534c23c8893
+

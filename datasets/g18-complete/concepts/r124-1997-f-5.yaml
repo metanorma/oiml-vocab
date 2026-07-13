@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r124-1997-f-5
+  localized_concepts:
+    fra: c503e5b3-4545-5b3b-87f6-95a1b9b05c72
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:124:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '5'
+status: valid
+id: 8954db91-24e5-564b-b722-89eb2ebe338c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      dans la Recommandation Internationale appropriée, mais en dehors des conditions
+      assignées de fonctionnement spécifiées pour l'instrument de mesure
+  examples: []
+  id: r124-1997-f-5-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si aucune condition assignée
+      de fonctionnement n'est spécifiée pour cette grandeur d'influence
+  - content: 'Source citation: D 11 article T.12.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c503e5b3-4545-5b3b-87f6-95a1b9b05c72
+

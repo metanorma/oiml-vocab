@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r59-1-2016-eng-2.3.14
+  localized_concepts:
+    eng: 1ba19d9f-8e0a-5d2e-bf6a-e919123cb03d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+status: valid
+id: 38290309-497b-59d4-96a8-17abfd22fcb1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault greater than the value specified in this Recommendation
+  examples: []
+  id: r59-1-2016-eng-2.3.14-eng
+  notes:
+  - content: See 4.4.1.
+  - content: The relevant Recommendation may specify that the following faults are
+      not significant, even when they exceed the value defined in 4.4.1 - (a) faults
+      arising from simultaneous and mutually independent causes originating in a measuring
+      instrument or in its checking facilities; (b) faults implying the impossibility
+      to perform any measurement; (c) transitory faults being momentary variations
+      in the indication, which cannot be interpreted, memorized or transmitted as
+      a measurement result; (d) faults giving rise to variations in the measurement
+      result that are serious enough to be noticed by all those interested in the
+      measurement result.
+  - content: 'Source citation: VIML 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ba19d9f-8e0a-5d2e-bf6a-e919123cb03d
+

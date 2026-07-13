@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r117-2007-f-T.c.5
+  localized_concepts:
+    fra: 98096f3e-b86e-5f30-af6e-e46047736924
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.5
+    type: authoritative
+status: valid
+id: 28ffdd8a-aee4-5b41-91ca-61f9d16a8d55
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif connecté ou incorporé au compteur et permettant de corriger
+      automatiquement la quantité mesurée au moment du mesurage en tenant compte du
+      débit et/ou des caractéristiques du liquide à mesurer (viscosité, température,
+      pression, etc.), ainsi que de courbes d'étalonnage préétablies.
+  examples: []
+  id: r117-2007-f-T.c.5-fra
+  notes:
+  - content: Les caractéristiques du liquide peuvent être soit mesurées au moyen de
+      dispositifs de mesure associés, soit mémorisées dans l'instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de correction
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 98096f3e-b86e-5f30-af6e-e46047736924
+

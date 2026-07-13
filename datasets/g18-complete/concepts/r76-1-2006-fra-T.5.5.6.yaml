@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r76-1-2006-fra-T.5.5.6
+  localized_concepts:
+    fra: c794d3f3-c14a-5a3a-a67f-18c06ec6b7f1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.5.6
+    type: authoritative
+status: valid
+id: 11d21f1b-7af4-5055-92c5-0e0abdd40960
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Defaut supérieur à e.
+  examples: []
+  id: r76-1-2006-fra-T.5.5.6-fra
+  notes:
+  - content: Pour les instruments à échelons multiples, la valeur de e est celle qui
+      correspond à l'étendue de pesage partielle.
+  - content: 'Les défauts suivants ne sont pas considérés comme significatifs, même
+      s''ils dépassent e : défauts provenant de causes simultanées et mutuellement
+      indépendantes dans l''instrument; défauts rendant impossible l''accomplissement
+      de toute mesure; défauts si importants qu''ils ne peuvent manquer d''être remarqués
+      par tous ceux qui sont intéressés au résultat du mesurage; ou défauts transitoires
+      constitués de variations momentanées de l''indication mais qui ne peuvent être
+      interprétées, mises en mémoire ou transmises comme des résultats de mesure.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.5.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c794d3f3-c14a-5a3a-a67f-18c06ec6b7f1
+

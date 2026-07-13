@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r126-1-2021-eng-3.1.17
+  localized_concepts:
+    eng: f34a0240-109f-5dd8-9721-c67ca46c0d57
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126-1:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.17
+    type: authoritative
+status: valid
+id: f96d2bd3-f91b-5577-ae28-1ac3c153c16e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: for a series of n measurements of the same measurand, the quantity s(q_k)
+      characterising the dispersion of the results and given by the formula s(q_k)
+      = sqrt( sum_{j=1}^{n} (q_j - q_bar)^2 / (n - 1) ), with q_k being the result
+      of the k-th measurement and q_bar being the arithmetic mean of the n results
+      considered
+  examples: []
+  id: r126-1-2021-eng-3.1.17-eng
+  notes:
+  - content: 'Source citation: OIML G 1-100, 4.22'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.17
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: experimental standard deviation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f34a0240-109f-5dd8-9721-c67ca46c0d57
+

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-3.7.11
+  localized_concepts:
+    eng: 6a39a861-c72c-5e43-8bf5-7d79ecf3819a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.7.11
+    type: authoritative
+status: valid
+id: '09d0ad01-304f-5841-b462-06d125393ca5'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity minus a reference quantity value.
+  examples: []
+  id: r60-3.7.11-eng
+  notes:
+  - content: The term "measurement error" in this Recommendation refers to load cell
+      measurement errors.
+  - content: 'Source citation: VIM 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.7.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6a39a861-c72c-5e43-8bf5-7d79ecf3819a
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r144-2013-e-2.23
+  localized_concepts:
+    eng: 9935ec86-afca-56df-a5bf-2fa9f4b95286
+    fra: 3a5531f3-f9d4-550d-a7c7-8014796f4bfb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.23'
+    type: authoritative
+status: valid
+id: 35ea5ff0-8638-52c4-a0f8-5f0a72559ec2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: continuous or incremental change over time in the indication, due to
+      changes in the metrological properties of a measuring instrument
+  examples: []
+  id: r144-2013-e-2.23-eng
+  notes:
+  - content: In this Recommendation, "drift" means a change in the indication which
+      occurs during a stated period of time at a given concentration of CO, NO and
+      $ \mathrm{N O_{2}} $ in a sample to be analyzed.
+  - content: 'Source citation: VIM, 4.21 [1]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrumental drift
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9935ec86-afca-56df-a5bf-2fa9f4b95286
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: variation continue ou incrémentale dans le temp d'indication, due à des
+      variations des propriétés métrologiques d'un instrument de mesure
+  examples: []
+  id: r144-2013-e-2.23-fra
+  notes:
+  - content: Dans cette Recommandation, « dérive » signifie bangement de l'indication
+      qui apparaît pendant une période de temps définie et à une ntation donnée de
+      CO, NO et NOans un échantillon à analyser.
+  - content: 'Source citation: VIM, 4.11 [1]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dérive instrumentale
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3a5531f3-f9d4-550d-a7c7-8014796f4bfb
+

@@ -1,0 +1,154 @@
+---
+data:
+  identifier: r46-2.2.15
+  localized_concepts:
+    eng: bf1eeec7-bb7a-5930-b330-04c6abc111ec
+    spa: 3fad03cd-22b3-5c47-9643-a7aeb400e51b
+    fra: d8d9a35f-8817-5476-a8ba-92a91c393167
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+status: valid
+id: e86d9e32-0020-5220-afbb-218339b0cb5d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rate at which energy is transported
+  examples: []
+  id: r46-2.2.15-eng
+  notes:
+  - content: 'In an electrical system active power is measured as the time mean of
+      the instantaneous power, which is calculated at each instant as the product
+      of voltage and current: p(t) = u(t) . i(t), where u is the instantaneous voltage,
+      i is the instantaneous current, p is the instantaneous power. At sinusoidal
+      conditions active power is the product of the r.m.s. values of current and voltage
+      and the cosine of the phase angle between them, calculated for each phase. It
+      is usually expressed in kW.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: active power
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bf1eeec7-bb7a-5930-b330-04c6abc111ec
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Velocidad a la que se transporte la energía.
+  examples: []
+  id: r46-2.2.15-spa
+  notes:
+  - content: 'En un sistema eléctrico, la potencia activa se mide como la media de
+      tiempo de la potencia instantánea, que se calcula en cada instante como el producto
+      del voltaje y la corriente: p(t) = u(t) . i(t) Donde: u es el voltaje instantáneo,
+      i es la corriente instantánea; y p es la energía instantánea. En condiciones
+      sinusoidales, la energía activa es el producto de los valores de r.m.s. de la
+      corriente y el voltaje, y el coseno del ángulo de fase entre ellos, calculado
+      para cada fase. Por lo general se expresa en kW.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Potencia activa
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3fad03cd-22b3-5c47-9643-a7aeb400e51b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: taux auquel l'énergie est transporté
+  examples: []
+  id: r46-2.2.15-fra
+  notes:
+  - content: Dans un système électrique, la puissance active est mesurée comme étant
+      la moyenne temporelle de la puissance instantanée, qui est calculée à chaque
+      instant comme étant le produit de la tension et du courant.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.15
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: puissance active
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d8d9a35f-8817-5476-a8ba-92a91c393167
+

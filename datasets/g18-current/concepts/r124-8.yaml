@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r124-8
+  localized_concepts:
+    fra: 88761e44-4027-5115-91c6-6dd1a2ad1fab
+    eng: 45f60a2a-627f-5df6-a469-11844f741fa6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:124:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '8'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '8'
+    type: authoritative
+status: valid
+id: 219e8c15-02fc-533d-a201-d47ea5a5cc1c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur d'un instrument utilisé dans les conditions de référence
+  examples: []
+  id: r124-8-fra
+  notes:
+  - content: 'Source citation: VIM article 5.24 ou D 11 article T.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 88761e44-4027-5115-91c6-6dd1a2ad1fab
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The error of an instrument used under reference conditions
+  examples: []
+  id: r124-8-eng
+  notes:
+  - content: 'Source citation: VIM clause 5.24 or D 11 clause T.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 45f60a2a-627f-5df6-a469-11844f741fa6
+

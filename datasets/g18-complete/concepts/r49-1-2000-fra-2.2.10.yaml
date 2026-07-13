@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2000-fra-2.2.10
+  localized_concepts:
+    fra: 33b59833-4dca-5583-9939-cba5af033745
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+status: valid
+id: 27a229b6-f5ba-599e-8f62-c9f7b51c7e32
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: défaut dont la valeur est supérieure à la moitié de l'erreur maximale
+      tolérée dans la "zone supérieure"
+  examples: []
+  id: r49-1-2000-fra-2.2.10-fra
+  notes:
+  - content: 'Source citation: adapté de D 11, T.9'
+  - content: Ne sont pas considérés comme défauts significatifs - les défauts résultant
+      de causes simultanées et mutuellement indépendantes dans le compteur d'eau lui-même
+      ou dans son système de contrôle; et les défauts transitoires consistant en des
+      variations momentanées de l'indication qui ne peut être interprétée, mémorisée
+      ou transmise en tant que résultat de mesure.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 33b59833-4dca-5583-9939-cba5af033745
+

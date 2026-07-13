@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r49-2013-e-3.1.7
+  localized_concepts:
+    eng: cc668a25-2938-563e-9496-9aef100d37af
+    fra: 99c9dbd4-5861-54a1-8137-3ab9954caf5c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: 3227c27a-33d7-5a8b-84d7-15f569c053a3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device connected to or incorporated in the meter for automatic correction
+      of the volume of water at metering conditions, by taking into account the flow
+      rate and/or the characteristics of the water to be measured and the pre-established
+      calibration curves
+  examples: []
+  id: r49-2013-e-3.1.7-eng
+  notes:
+  - content: The characteristics of the water, e.g. temperature and pressure, may
+      be either measured using associated measuring instruments or stored in a memory
+      in the meter.
+  - content: For the definition of the term "correction", see OIML V 2-200:2012 (VIM)
+      [1], 2.53.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cc668a25-2938-563e-9496-9aef100d37af
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif connecte a ou incorpore au compteur pour la correction automatique
+      du volume de l'eau aux conditions de mesure, en tenant compte du debit et /
+      ou des caracteristiques de l'eau a mesurer et des courbes d'etalonnage pre-etablies
+  examples: []
+  id: r49-2013-e-3.1.7-fra
+  notes:
+  - content: les caracteristiques de l'eau, par exemple la temperature et la pression,
+      peuvent etre mesurees soit en utilisant des instruments de mesure associes,
+      soit stockees dans la memoire du compteur.
+  - content: pour la definition du terme << correction >>, voir OIML V 2-200:2012
+      (VIM) [1], 2.53.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de correction
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99c9dbd4-5861-54a1-8137-3ab9954caf5c
+

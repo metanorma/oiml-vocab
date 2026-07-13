@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r62-6
+  localized_concepts:
+    eng: f90d090f-b724-51a6-9c61-3429819a56b0
+    fra: 75e72c7d-e0bc-5f6d-bd11-e1fe4b3bf8d7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+status: valid
+id: 59b3c0bc-2a86-5e43-8911-df228fee9e88
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A group of strain gauges with grid elements from a common melt, subjected
+      to the same mechanical and thermal processes during manufacturing.
+  examples: []
+  id: r62-6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lot
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f90d090f-b724-51a6-9c61-3429819a56b0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble d'extensomètres dont les grilles proviennent d'une même fabrication
+      et ont été soumises aux mêmes traitements mécaniques et thermiques lors de cette
+      fabrication.
+  examples: []
+  id: r62-6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: famille
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 75e72c7d-e0bc-5f6d-bd11-e1fe4b3bf8d7
+

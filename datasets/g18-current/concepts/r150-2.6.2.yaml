@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r150-2.6.2
+  localized_concepts:
+    eng: 97e47d41-e6c8-5124-a2ea-af579226ecf2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.6.2
+    type: authoritative
+status: valid
+id: f09071e8-5750-5446-b530-65771fa8bbc1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: test intended to verify whether the equipment under test (EUT) is able
+      to accomplish its intended functions
+  examples: []
+  id: r150-2.6.2-eng
+  notes:
+  - content: 'Source citation: VIML 5.21'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.6.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: performance test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 97e47d41-e6c8-5124-a2ea-af579226ecf2
+

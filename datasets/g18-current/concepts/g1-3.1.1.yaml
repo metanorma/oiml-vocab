@@ -1,0 +1,56 @@
+---
+data:
+  identifier: g1-3.1.1
+  localized_concepts:
+    eng: 85ac3321-2db9-593b-abdb-412bd13a55f4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+status: valid
+id: 34852513-e803-5890-9dca-89fd54313479
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: probability measure induced by a random variable
+  examples: []
+  id: g1-3.1.1-eng
+  notes:
+  - content: There are numerous, equivalent mathematical representations of a distribution,
+      including distribution function (see clause 3.1.2), probability density function,
+      if it exists (see clause 3.1.3), and characteristic function.
+  - content: 'Source citation: Adapted from ISO 3534-1:2006 2.11'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: probability distribution
+  - type: expression
+    normative_status: admitted
+    designation: distribution
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 85ac3321-2db9-593b-abdb-412bd13a55f4
+

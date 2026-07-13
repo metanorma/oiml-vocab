@@ -1,0 +1,54 @@
+---
+data:
+  identifier: g1-102-2011-e-3.5
+  localized_concepts:
+    eng: 256eb4a2-8733-5afa-b66f-850b6346e20b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+status: valid
+id: 34ba1898-c779-5266-ab5e-2a58bbedd77b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: vector quantity with complex components
+  examples:
+  - content: 'A complex vector quantity $ Z $ containing N complex quantities $ Z_{1},\dots,Z_{N}
+      $ expressed as a matrix of dimension $ N\times1 $: $\boldsymbol {Z} = \left[
+      \begin{array}{c} \boldsymbol {Z} _ {1} \\ \vdots \\ \boldsymbol {Z} _ {N} \end{array}
+      \right] = \left(\boldsymbol {Z} _ {1}, \dots , \boldsymbol {Z} _ {N}\right)
+      ^ {\top}.$'
+  id: g1-102-2011-e-3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: complex vector quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 256eb4a2-8733-5afa-b66f-850b6346e20b
+

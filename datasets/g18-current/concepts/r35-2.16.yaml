@@ -1,0 +1,149 @@
+---
+data:
+  identifier: r35-2.16
+  localized_concepts:
+    deu: 25dc40ef-4763-524c-8c16-f35f506ea9aa
+    fra: f2a10748-2c3d-50f9-91eb-c8d59ce7ce4a
+    eng: dad2e7c8-786d-51e9-a79a-012fd09ed497
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:35:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '2.16'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '2.16'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '2.16'
+    type: authoritative
+status: valid
+id: 6b446a26-5d87-5a71-91e9-74ea2a023a18
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fehler, dessen Größenordnung höher ist als ein Fünftel der Größenordnung
+      der Fehlergrenze für die gemessene Länge.
+  examples: []
+  id: r35-2.16-deu
+  notes:
+  - content: 'Die folgenden Fehler werden als nicht significant betrachtet, auch wenn
+      sie den oben festgelegten Wert überschreiten: a) Fehler, die durch gleichzeitig
+      und voneinander unabhängig auftretende Ursachen im elektronischen Gerät entstehen;
+      b) Fehler, die jede Messung unmöglich machen; c) auf momentane Abweichungen
+      zurückzuführende vorübergehende Fehler, die nicht als Messergebnis gedeutet,
+      gespeichert oder übermittelt werden können; d) Fehler, bei denen beim Messergebnis
+      Schwankungen auftreten, die so gravierend sind, dass sie von allen am Messergebnis
+      Interessierten wahrgenommen werden.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Signifikanter Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 25dc40ef-4763-524c-8c16-f35f506ea9aa
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Defaut dont l'amplitude est supérieure au cinquième de l'amplitude de
+      l'erreur maximale tolérée pour la longueur mesurée.
+  examples: []
+  id: r35-2.16-fra
+  notes:
+  - content: 'Les défauts suivants ne sont pas considérés comme significatifs, même
+      en cas de dépassement de la valeur définie ci-dessus : a) défauts provenant
+      de causes simultanées et mutuellement indépendantes dans le dispositif électronique
+      ; b) défauts rendant impossible la réalisation de toute mesure ; c) défauts
+      transitoires consistant en des variations momentanées des indications qui ne
+      peuvent être interprétées, mises en mémoire ou transmises en tant que résultats
+      de mesure ; d) défauts provoquant des variations des résultats de mesure si
+      importantes qu''elles ne peuvent qu''être remarquées par toutes les parties
+      intéressées par le résultat du mesurage.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f2a10748-2c3d-50f9-91eb-c8d59ce7ce4a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault, the magnitude of which is greater than one-fifth of the magnitude
+      of the maximum permitted error for the length measured
+  examples: []
+  id: r35-2.16-eng
+  notes:
+  - content: The following faults are considered not to be significant, even when
+      they exceed the value defined above - a) faults arising from simultaneous and
+      mutually independent causes in the electronic device; b) faults implying the
+      impossibility to perform any measurement; c) transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorized or transmitted
+      as a measurement result; d) faults giving rise to variations in the measurement
+      results so serious that they are bound to be noticed by all those interested
+      in the result of the measurement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dad2e7c8-786d-51e9-a79a-012fd09ed497
+

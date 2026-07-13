@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r50-2.2.13.2
+  localized_concepts:
+    eng: 4fa6cce3-6a09-538a-b3b7-8e01d33ca481
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.13.2
+    type: authoritative
+status: valid
+id: 0b16da8a-aec5-5db4-abc6-7597d508752d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: interface (hardware and/or software) which will only allow the introduction
+      into the instrument of data or instructions that cannot influence the metrological
+      properties of the instrument
+  examples: []
+  id: r50-2.2.13.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.13.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protective interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4fa6cce3-6a09-538a-b3b7-8e01d33ca481
+

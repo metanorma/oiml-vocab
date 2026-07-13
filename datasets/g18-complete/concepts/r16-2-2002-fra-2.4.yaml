@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r16-2-2002-fra-2.4
+  localized_concepts:
+    fra: ce206ae2-2301-5cce-a250-3685d97733f4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:16-2:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+status: valid
+id: 78b67d74-f827-50d4-ab8f-579e484ee863
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur minimale de la pression artérielle, résultant de la relaxation
+      du ventricule gauche.
+  examples: []
+  id: r16-2-2002-fra-2.4-fra
+  notes:
+  - content: En raison d'effets hydrostatiques, il convient de mesurer cette valeur
+      avec le brassard au niveau du cœur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pression sanguine diastolique (valeur)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ce206ae2-2301-5cce-a250-3685d97733f4
+

@@ -1,0 +1,57 @@
+---
+data:
+  identifier: g1-101-2008-e-3.10
+  localized_concepts:
+    eng: 7f0f4549-3d6e-5b9a-b4e6-134504feadba
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+status: valid
+id: 3d32d526-d872-51cd-9d65-25fea14ace73
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: property of a pair of random variables, which, for two continuous random
+      variables $ X_{1} $ and $ X_{2} $ characterized by a joint (multivariate) PDF
+      $ g_{X}(\boldsymbol{\xi}) $ , where $ \boldsymbol{X}=(X_{1},X_{2})^{\top} $
+      and $ \boldsymbol{\xi}=(\xi_{1},\xi_{2})^{\top} $ , is given by $\operatorname
+      {C o v} \left(X _ {1}, X _ {2}\right) = \int_ {- \infty} ^ {\infty} \int_ {-
+      \infty} ^ {\infty} \left[ \xi_ {1} - E \left(X _ {1}\right) \right] \left[ \xi_
+      {2} - E \left(X _ {2}\right) \right] g _ {\boldsymbol {X}} \left(\boldsymbol
+      {\xi}\right) \mathrm{d} \xi_ {1} \mathrm{d} \xi_ {2}$
+  examples: []
+  id: g1-101-2008-e-3.10-eng
+  notes:
+  - content: Not all pairs of random variables have a covariance.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: covariance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7f0f4549-3d6e-5b9a-b4e6-134504feadba
+

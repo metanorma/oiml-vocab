@@ -1,0 +1,109 @@
+---
+data:
+  identifier: r137-3.1.10
+  localized_concepts:
+    eng: 4c517a4c-f27f-5dd0-9236-e89f444b97f5
+    fra: '02936d49-add2-5237-95c7-662ccef257c5'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+status: valid
+id: 3115380e-f334-5fb7-96fc-f7909e98d138
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "(Part of the) gas meter and/or associated devices which is exposed to
+      one of the tests."
+  examples: []
+  id: r137-3.1.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: equipment under test
+  - type: expression
+    normative_status: admitted
+    designation: EUT
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4c517a4c-f27f-5dd0-9236-e89f444b97f5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "(Partie du) compteur de gaz et/ou dispositifs associés qui est (sont)
+      soumis à l'un des essais."
+  examples: []
+  id: r137-3.1.10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: équipement soumis à l'essai
+  - type: expression
+    normative_status: admitted
+    designation: ESE
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '02936d49-add2-5237-95c7-662ccef257c5'
+

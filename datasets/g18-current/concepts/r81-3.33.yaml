@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r81-3.33
+  localized_concepts:
+    eng: 2e39989d-d37d-5e8c-98dd-5462f8ea59b8
+    fra: 438c22a4-02cc-519f-82fa-d5f9ea73ac3a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.33'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.33'
+    type: authoritative
+status: valid
+id: e0925230-7954-5293-b15f-4e77f318a223
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A test to verify that the measuring system under test (EUT) is capable
+      of accomplishing its intended functions.
+  examples: []
+  id: r81-3.33-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.33'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Performance test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2e39989d-d37d-5e8c-98dd-5462f8ea59b8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai pour verifier l'aptitude du systeme de mesure soumis a l'essai
+      (EST) a accomplir les fonctions pour lesquelles il est prevu.
+  examples: []
+  id: r81-3.33-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.33'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai de performance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 438c22a4-02cc-519f-82fa-d5f9ea73ac3a
+

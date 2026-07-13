@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r51-T.1.11
+  localized_concepts:
+    eng: b20e0605-275d-516e-b330-e17c1ccf682d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.11
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.11
+    type: authoritative
+status: valid
+id: 014b13f0-1e3a-5bb5-847d-73b7181ff3fe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Any device, module, part, component, function or software of a weighing
+      instrument that influences the weighing result or any other primary indication
+      is considered as metrologically relevant.
+  examples: []
+  id: r51-T.1.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Metrologically relevant
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b20e0605-275d-516e-b330-e17c1ccf682d
+

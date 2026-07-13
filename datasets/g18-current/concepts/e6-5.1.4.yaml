@@ -1,0 +1,56 @@
+---
+data:
+  identifier: e6-5.1.4
+  localized_concepts:
+    eng: 83d83572-cad9-5e21-ba22-72850a263f8d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:e:6:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML E 6:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 5.1.4
+    type: authoritative
+status: valid
+id: 42710427-21da-56e2-b267-da1b832d7aa2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Contrary to traditional stand-alone measurement equipment for utility
+      metering, the configuration of a smart meter as a result of its definition includes
+      certain interconnecting means and transmission related software. The smart meter
+      configuration can be considered as a network system and may contain a number
+      of wired or wireless interconnected measuring instruments, which are used to
+      measure different measurands; are possibly installed quite close to each other;
+      and contain functions/modules that convert the measured values into binary numeric
+      electromagnetic quantities which become available as so-called digital signals.
+  examples: []
+  id: e6-5.1.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML E 6:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 5.1.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: smart meter configuration
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 83d83572-cad9-5e21-ba22-72850a263f8d
+

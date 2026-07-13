@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.3.14
+  localized_concepts:
+    eng: 3dd33424-536a-5f72-97eb-cd481a4ca0dd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.14
+    type: authoritative
+status: valid
+id: bf3c842e-728d-5350-839b-dc51849ab014
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: alphanumeric designation of size for components of a pipework system,
+      which is used for reference purposes
+  examples: []
+  id: r49-1-2024-eng-3.3.14-eng
+  notes:
+  - content: The nominal diameter is expressed by the letters DN followed by a dimensionless
+      whole number which is indirectly related to the physical size, in millimetres,
+      of the bore or outside diameter of the end connections.
+  - content: The number following the letters DN does not represent a measurable value
+      and should not be used for calculation purposes except where specified in the
+      relevant standard.
+  - content: In those standards which use the DN designation system, any relationship
+      between DN and component dimensions should be given, e.g. DN/OD or DN/ID.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal diameter
+  - type: abbreviation
+    normative_status: admitted
+    designation: DN
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3dd33424-536a-5f72-97eb-cd481a4ca0dd
+

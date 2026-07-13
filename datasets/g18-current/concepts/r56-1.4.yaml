@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r56-1.4
+  localized_concepts:
+    fra: 021d3024-05e9-57c3-bb02-1fd2b8722f28
+    eng: 2d951758-3ab8-5f72-a895-02760c4150bb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:56:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 56:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '1.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 56:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '1.4'
+    type: authoritative
+status: valid
+id: 7f048739-f01c-5055-8c46-e2bc9a1485d2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Détermination de la constante de la cellule, par la méthode absolue ou
+      de comparaison.
+  examples: []
+  id: r56-1.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 56:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etalonnage de la cellule
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 021d3024-05e9-57c3-bb02-1fd2b8722f28
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Determination of the cell-constant by means of the absolute or comparison
+      methods.
+  examples: []
+  id: r56-1.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 56:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Calibration of the cell
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2d951758-3ab8-5f72-a895-02760c4150bb
+

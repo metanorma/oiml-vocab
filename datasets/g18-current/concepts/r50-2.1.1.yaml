@@ -1,0 +1,65 @@
+---
+data:
+  identifier: r50-2.1.1
+  localized_concepts:
+    eng: 598fe35d-0d1f-5401-bd9e-271c6b77ea28
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+status: valid
+id: 8fc9b878-60fe-50ee-b6b6-00af3206e173
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measuring instrument used to determine the mass of a body by using the
+      action of gravity on this body
+  examples: []
+  id: r50-2.1.1-eng
+  notes:
+  - content: In this Recommendation "mass" (or "weight value") is preferably used
+      in the sense of "conventional mass" or "conventional value of the result of
+      weighing in air" according to OIML R111 [5] and OIML D28 [6], whereas "weight"
+      is preferably used for an embodiment (or material measure) of mass that is regulated
+      in regard to its physical and metrological characteristics.
+  - content: The instrument may also be used to determine other quantities, magnitudes,
+      parameters or characteristics related to the determined mass.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: weighing instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 598fe35d-0d1f-5401-bd9e-271c6b77ea28
+

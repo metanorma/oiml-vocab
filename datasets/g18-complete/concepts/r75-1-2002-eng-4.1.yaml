@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r75-1-2002-eng-4.1
+  localized_concepts:
+    eng: 23f8c827-9e3e-567d-8eaf-f91c9bad1745
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75-1:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.1'
+status: valid
+id: b5989925-47dd-56e2-b4cf-bc781d59cf6a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Time interval between the instant when the flow, the temperature or the
+      temperature difference is subjected to a specified abrupt change, and the instant
+      when the response reaches 50 % of its final steady value.
+  examples: []
+  id: r75-1-2002-eng-4.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: response time
+  - type: symbol
+    normative_status: preferred
+    designation: tau_0.5
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 23f8c827-9e3e-567d-8eaf-f91c9bad1745
+

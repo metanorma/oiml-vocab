@@ -1,0 +1,61 @@
+---
+data:
+  identifier: d11-2026-e-3.12
+  localized_concepts:
+    eng: c7a5a371-6e03-5b93-ad3d-d08a40362dca
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.12
+    type: authoritative
+status: valid
+id: 2686cf04-7c45-5cd8-8c40-17edfe0a6303
+schema_version: 3
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value
+  examples: []
+  id: d11-2026-e-3.12-eng
+  notes:
+  - content: 'For particular types of measuring instruments some faults exceeding
+      the fault limit may not be considered a significant fault. The applicable OIML
+      Recommendation shall state when such an exception applies. For example, the
+      occurrence of one or some of the following faults may be acceptable: a) faults
+      arising from simultaneous and mutually independent causes originating in a measuring
+      instrument or in its checking facilities; b) faults implying the impossibility
+      to perform any measurement; c) transitory faults being momentary variations
+      in the indication, which cannot be interpreted, memorised or transmitted as
+      a measurement result; d) faults giving rise to variations in the measurement
+      result that are serious enough to be noticed by all those interested in the
+      measurement result; the applicable OIML Recommendation may specify the nature
+      of these variations.'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: c7a5a371-6e03-5b93-ad3d-d08a40362dca
+

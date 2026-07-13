@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-1-2017-eng-3.5.11
+  localized_concepts:
+    eng: 1f6fff37-f6dd-58b1-a48f-0ac4278193f5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.11
+    type: authoritative
+status: valid
+id: c767b35a-c0d9-577f-bbea-99d84c2254a5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: smallest load cell verification interval in units of mass into which
+      the maximum measuring range (E_max - E_min) can be divided
+  examples: []
+  id: r60-1-2017-eng-3.5.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum load cell verification interval
+  - type: symbol
+    designation: "$\\nu_{\\mathrm{min}}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1f6fff37-f6dd-58b1-a48f-0ac4278193f5
+

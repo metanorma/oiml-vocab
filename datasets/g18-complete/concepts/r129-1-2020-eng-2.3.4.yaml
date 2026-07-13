@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r129-1-2020-eng-2.3.4
+  localized_concepts:
+    eng: 9c1f4a38-87d9-51d6-90a1-322187bf03ba
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+status: valid
+id: 693cc360-8dce-5215-a4f4-38bdd4a9db6c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value (positive and negative) of the error of indication permitted
+      by specifications, Recommendations, regulations, etc.
+  examples: []
+  id: r129-1-2020-eng-2.3.4-eng
+  notes:
+  - content: The absolute value of the mpe is the same value without sign.
+  - content: 'Source citation: adapted from VIM 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: abbreviation
+    normative_status: admitted
+    designation: mpe
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9c1f4a38-87d9-51d6-90a1-322187bf03ba
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d31-2023-e-3.2.5
+  localized_concepts:
+    eng: b3a62f06-b800-5f79-8dc3-9b2fddc182ba
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+status: valid
+id: 1c2cbb52-5f12-5cb1-87b5-78e7563fade0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility that is incorporated in a measuring instrument and which enables
+      a significant defect to be detected and acted upon
+  examples: []
+  id: d31-2023-e-3.2.5-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+  - content: 'Source citation: adapted from [OIML V 1:2022, 5.07]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b3a62f06-b800-5f79-8dc3-9b2fddc182ba
+

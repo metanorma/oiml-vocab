@@ -1,0 +1,56 @@
+---
+data:
+  identifier: d11-2013-e-3.19
+  localized_concepts:
+    eng: cedf7ed5-dea0-5103-8408-927aae41c8be
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.19'
+status: valid
+id: fbd481f1-2a81-596f-9617-d44de0ed7cfc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility incorporated in a measuring instrument which enables significant
+      faults to be detected and acted upon
+  examples: []
+  id: d11-2013-e-3.19-eng
+  notes:
+  - content: Typically, checking facilities detect and act upon incorrect functioning
+      of a specific device of the measuring instrument, and/or disturbed communication
+      between specific devices of the measuring instrument.
+  - content: '"Act upon" refers to any adequate response by the measuring instrument
+      (for example a luminous signal, an acoustic signal, interruption or blocking
+      of the measurement process, etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.19'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cedf7ed5-dea0-5103-8408-927aae41c8be
+

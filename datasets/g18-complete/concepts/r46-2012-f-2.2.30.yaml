@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r46-2012-f-2.2.30
+  localized_concepts:
+    eng: 17886f69-7aa1-567a-8773-83d6a307db62
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.30
+    type: authoritative
+status: valid
+id: 8838add1-cdb2-59c4-a1b1-63b0f0cc6585
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: r46-2012-f-2.2.30-eng
+  notes:
+  - content: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through a measuring instrument.
+  - content: From the definition it follows that a "fault" is a numerical value which
+      is expressed either in a unit of measurement or as a relative value, for instance
+      as a percentage.
+  - content: 'Source citation: OIML D11:2004, 3.9'
+  - content: In this recommendation, the above definition does not apply to the term
+      'earth fault', in which the word 'fault' has its usual dictionary meaning.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.30
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 17886f69-7aa1-567a-8773-83d6a307db62
+

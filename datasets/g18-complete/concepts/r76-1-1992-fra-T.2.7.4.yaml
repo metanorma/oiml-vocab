@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r76-1-1992-fra-T.2.7.4
+  localized_concepts:
+    fra: d53b2837-f157-57b7-a207-5088144a8991
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:1992
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.2.7.4
+    type: authoritative
+status: valid
+id: d3738f25-1be2-5666-af72-4e6ef7509a57
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif maintenant automatiquement l'indication zéro dans certaines
+      limites. Dispositif permettant d'amener l'indication de l'instrument à zéro
+      lorsqu'une charge est placée sur le récepteur de charge sans empiéter sur l'étendue
+      de pesage des charges nettes (dispositif additif de tare), ou en réduisant l'étendue
+      de pesage des charges nettes (dispositif soustractif de tare).
+  examples: []
+  id: r76-1-1992-fra-T.2.7.4-fra
+  notes:
+  - content: Il peut fonctionner comme dispositif non automatique (charge équilibrée
+      par l'opérateur), dispositif semi-automatique (charge équilibrée automatiquement
+      sur une seule commande manuelle), dispositif automatique (charge équilibrée
+      automatiquement sans intervention d'un opérateur).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.2.7.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif de tare
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d53b2837-f157-57b7-a207-5088144a8991
+

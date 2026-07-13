@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d31-2008-spa-3.1.53
+  localized_concepts:
+    spa: 2196c13d-b655-5720-9af7-4dcdeb07805d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.53
+    type: authoritative
+status: valid
+id: c57fa950-86bb-532a-9890-ba5a518cd9c2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "«Parámetro legalmente relevante» cuyo valor depende únicamente del modelo
+      de instrumento. Los parámetros específicos del modelo forman parte del software
+      legalmente relevante."
+  examples:
+  - content: En un sistema de medida de líquidos distintos del agua, el rango de viscosidad
+      cinemática de una turbina es un parámetro específico de modelo fijado en la
+      aprobación de modelo de la turbina.
+  id: d31-2008-spa-3.1.53-spa
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.53
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Parámetro específico del modelo
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2196c13d-b655-5720-9af7-4dcdeb07805d
+

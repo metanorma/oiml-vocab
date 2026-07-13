@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r76-1-1988-eng-T.2.3.1
+  localized_concepts:
+    eng: b51087a7-b68b-5ca8-8617-3684f07c5e5c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:1988
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: T.2.3.1
+    type: authoritative
+status: valid
+id: 302d4fab-2772-572f-8d4e-c54b2e9a5739
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Component indicating the equilibrium and/or the result.
+  - content: On an instrument with one position of equilibrium it indicates only the
+      equilibrium (so called zero).
+  - content: On an instrument with several positions of equilibrium it indicates both
+      the equilibrium and the result. On an electronic instrument, this is the display.
+  examples: []
+  id: r76-1-1988-eng-T.2.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: T.2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating component
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b51087a7-b68b-5ca8-8617-3684f07c5e5c
+

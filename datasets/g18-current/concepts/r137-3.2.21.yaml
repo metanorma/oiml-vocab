@@ -1,0 +1,112 @@
+---
+data:
+  identifier: r137-3.2.21
+  localized_concepts:
+    eng: dfcf44d4-9431-518a-a040-67875ff7219e
+    fra: 79eca4c9-0218-58de-8184-3428179d5aac
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+status: valid
+id: 488e09dd-9e8f-5c3a-80ed-35b5f3d2eb07
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Smallest difference between displayed indications that can be meaningfully
+      distinguished.
+  examples: []
+  id: r137-3.2.21-eng
+  notes:
+  - content: For a digital device, this is the change in the indication when the least
+      significant digit changes by one step. For an analogue device, this is half
+      the difference between subsequent scale marks.
+  - content: 'Source citation: VIM 4.15'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolution (of a displaying device)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dfcf44d4-9431-518a-a040-67875ff7219e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus petite différence entre indications affichées qui peut être perçue
+      de manière significative.
+  examples: []
+  id: r137-3.2.21-fra
+  notes:
+  - content: Pour un dispositif numérique, elle constitue le changement de l'indication
+      lorsque le moindre chiffre significatif change d'un échelon. Pour un dispositif
+      analogique, elle constitue la moitié de la différence entre deux repères chiffrés
+      consécutifs.
+  - content: 'Source citation: VIM 4.15'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: résolution (d'un dispositif afficheur)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 79eca4c9-0218-58de-8184-3428179d5aac
+

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.1.8
+  localized_concepts:
+    eng: 3d251675-a3c8-56c7-a918-d2fd664e5d00
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+status: valid
+id: 8ecad664-a18a-5de3-badd-9730f8fbc994
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device intended to perform a specific function, directly involved in
+      elaborating, transmitting or displaying measured values
+  examples: []
+  id: r49-1-2024-eng-3.1.8-eng
+  notes:
+  - content: For the definition of "measured value", see ISO/IEC Guide 99:2007|OIML
+      V 2-200:2012 (VIM), 2.10.
+  - content: 'The main ancillary devices are: a) zero-setting device; b) price-indicating
+      device; c) repeating indicating device; d) printing device; e) memory device;
+      f) tariff control device; g) pre-setting device; h) self-service device; i)
+      flow sensor movement detector (for detecting movement of the flow sensor before
+      this is clearly visible on the indicating device); j) remote or automatic reading
+      device (which may be incorporated permanently or added temporarily).'
+  - content: Depending on national regulations, ancillary devices may be subject to
+      legal metrological control.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3d251675-a3c8-56c7-a918-d2fd664e5d00
+

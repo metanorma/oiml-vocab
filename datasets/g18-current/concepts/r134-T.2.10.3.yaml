@@ -1,0 +1,102 @@
+---
+data:
+  identifier: r134-T.2.10.3
+  localized_concepts:
+    eng: e4b96cf5-301c-57c4-a9ac-b8416d51603a
+    fra: a60195a4-fd64-5679-b499-c228801d821e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.3
+    type: authoritative
+status: valid
+id: 4dacafc5-1173-5104-8aa9-e524bbb0c3b7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Zero-setting device that operates automatically following a manual command.
+  examples: []
+  id: r134-T.2.10.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: semi-automatic zero-setting device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4b96cf5-301c-57c4-a9ac-b8416d51603a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif de mise à zéro qui fonctionne automatiquement après une commande
+      manuelle.
+  examples: []
+  id: r134-T.2.10.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif semi-automatique de mise à zéro
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a60195a4-fd64-5679-b499-c228801d821e
+

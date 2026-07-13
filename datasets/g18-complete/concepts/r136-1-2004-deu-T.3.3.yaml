@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r136-1-2004-deu-T.3.3
+  localized_concepts:
+    deu: 99d12147-c004-5b1c-a149-5eb8187f33d8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+status: valid
+id: 7a154935-cd7e-5581-9e76-5e9b23689dd5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Höchstwert des auf dem Auswertegerät markierten Bereichs für eine Analoganzeige.
+      Höchster nominaler Wert, der vom digitalen Auswertegerät plus einem Skalenteilungswert
+      für elektronische Anzeigen nachgewiesen werden kann.
+  examples: []
+  id: r136-1-2004-deu-T.3.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maximale Fläche
+  - type: symbol
+    normative_status: admitted
+    designation: A_max
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99d12147-c004-5b1c-a149-5eb8187f33d8
+

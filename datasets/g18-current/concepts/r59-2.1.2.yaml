@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r59-2.1.2
+  localized_concepts:
+    eng: 6ed3014d-ec17-570f-9713-db999b9d7bd1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+status: valid
+id: eafcf816-9617-5f7b-b0b3-df96b622f9d9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: closeness of agreement between a measured quantity value and a true quantity
+      value of the measurand
+  examples: []
+  id: r59-2.1.2-eng
+  notes:
+  - content: The concept of measurement accuracy is not a quantity and is not given
+      a numerical quantity value. A measurement is said to be more accurate when it
+      offers a smaller measurement error.
+  - content: The term measurement accuracy should not be used for measurement trueness
+      and the term measurement precision should not be used for measurement accuracy,
+      which, however, is related to both concepts.
+  - content: Measurement accuracy is sometimes understood as closeness of agreement
+      between measured quantity values that are being attributed to the measurand.
+  - content: 'Source citation: VIM 2.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy
+  - type: expression
+    normative_status: admitted
+    designation: measurement accuracy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6ed3014d-ec17-570f-9713-db999b9d7bd1
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-106-2012-e-3.1.6
+  localized_concepts:
+    eng: 62c15212-5855-59c0-a420-4aaf9ceb668e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-106:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.6
+status: valid
+id: 26bee011-7b6a-542d-8f49-ae8af2fe3aa0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: for a continuous random variable $ X $ characterized by a PDF $ g_{X}(\xi)
+      $ , $V (X) = \int_ {- \infty} ^ {\infty} \left[ \xi - E (X) \right] ^ {2} g
+      _ {X} (\xi) \mathrm {d} \xi$
+  examples: []
+  id: g1-106-2012-e-3.1.6-eng
+  notes:
+  - content: Not all random variables have a variance.
+  - content: 'Source citation: JCGM 101:2008 3.7'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: variance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 62c15212-5855-59c0-a420-4aaf9ceb668e
+

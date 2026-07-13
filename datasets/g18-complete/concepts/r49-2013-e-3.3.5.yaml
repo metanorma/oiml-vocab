@@ -1,0 +1,79 @@
+---
+data:
+  identifier: r49-2013-e-3.3.5
+  localized_concepts:
+    eng: dadc9452-f3ea-5490-903a-c6169bc55e7e
+    fra: a599b938-8710-5ead-81cd-ed5ec4746100
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.5
+    type: authoritative
+status: valid
+id: ee648b48-4551-5e6d-b0ca-8c657e9a7dae
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: lowest flow rate at which the meter is to operate within the maximum
+      permissible errors
+  examples: []
+  id: r49-2013-e-3.3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum flow rate
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dadc9452-f3ea-5490-903a-c6169bc55e7e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: debit le plus faible pour lequel le compteur d'eau doit fonctionner dans
+      les limites des erreurs maximales tolerees
+  examples: []
+  id: r49-2013-e-3.3.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: debit minimal
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a599b938-8710-5ead-81cd-ed5ec4746100
+

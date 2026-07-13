@@ -1,0 +1,66 @@
+---
+data:
+  identifier: g1-102-2011-e-3.12
+  localized_concepts:
+    eng: 86534c21-d5ce-5ce1-a612-732821c41389
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: 9e88acc9-86e0-5c43-9ba0-57dab2bcbab7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement model, generally multivariate, consisting of a sequence of
+      sub-models, in which output quantities from one sub-model become input quantities
+      to a subsequent sub-model
+  examples:
+  - content: A common instance in metrology is the following pair of measurement sub-models
+      in the context of calibration. The first sub-model has input quantities whose
+      measured values are provided by measurement standards and corresponding indication
+      values, and as output quantities the parameters in a calibration function. This
+      sub-model specifies the manner in which the output quantities are obtained from
+      the input quantities, for example by solving a least-squares problem. The second
+      sub-model has as input quantities the parameters in the calibration function
+      and a quantity realized by a further indication value and as output quantity
+      the quantity corresponding to that input quantity.
+  id: g1-102-2011-e-3.12-eng
+  notes:
+  - content: Only at the final stage of a multistage measurement model might it be
+      necessary to consider a coverage region for the output quantities based on the
+      joint probability density function for those quantities.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multistage measurement model
+  - type: expression
+    normative_status: admitted
+    designation: multistage model
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 86534c21-d5ce-5ce1-a612-732821c41389
+

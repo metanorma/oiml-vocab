@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r146-1-2016-eng-2.2.11
+  localized_concepts:
+    eng: 9570b7aa-9f8c-516b-be77-f953d74c4968
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.11
+    type: authoritative
+status: valid
+id: 1340dd8e-3328-5dab-83cf-32fedf58eb09
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: basis moisture concentration, expressed as a percentage by mass, specified
+      by the national responsible body for reporting protein content of the particular
+      grain type
+  examples: []
+  id: r146-1-2016-eng-2.2.11-eng
+  notes:
+  - content: When the specified M_B is 0 %, the reported protein content is at 'dry
+      basis'.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: basis moisture content
+  - type: expression
+    normative_status: admitted
+    designation: moisture basis
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9570b7aa-9f8c-516b-be77-f953d74c4968
+

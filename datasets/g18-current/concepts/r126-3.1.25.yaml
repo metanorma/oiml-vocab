@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r126-3.1.25
+  localized_concepts:
+    eng: 07cd18e8-c9c2-5aa6-820c-82be81d4d4be
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.25
+    type: authoritative
+status: valid
+id: 98d93d7d-e84b-5e30-a110-1b547d11ffba
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quotient of the change in an indication of a measuring system and the
+      corresponding change in a value of a quantity being measured
+  examples: []
+  id: r126-3.1.25-eng
+  notes:
+  - content: Sensitivity of a measuring system can depend on the value of the quantity
+      being measured.
+  - content: The change considered in a value of a quantity being measured must be
+      large compared with the resolution.
+  - content: In the scope of this Recommendation, sensitivity relates to the added
+      substance which is not identical with the measurand.
+  - content: 'Source citation: OIML V 2-200, 4.12'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.25
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensitivity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 07cd18e8-c9c2-5aa6-820c-82be81d4d4be
+

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r72-1985-f-6
+  localized_concepts:
+    fra: 3f269511-312a-5008-aadf-a1dd8aaa9898
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:72:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+status: valid
+id: ec3a417c-6be4-5255-9a5c-65315017087e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rapport q d'un débit quelconque Q au débit maximal Q_max. Les deux rapports
+      particuliers utilisés dans la présente Recommandation sont q_t (Q_t/Q_max) et
+      q_min (Q_min/Q_max).
+  examples: []
+  id: r72-1985-f-6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit relatif (q = Q/Q_max)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3f269511-312a-5008-aadf-a1dd8aaa9898
+

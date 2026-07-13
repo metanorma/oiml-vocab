@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r93-1999-f-3.7.2
+  localized_concepts:
+    fra: 7ae36b59-6f90-5aa2-9b17-b88aa211d0c8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:93:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.7.2
+status: valid
+id: 7991352a-98a2-5491-b722-59b63da22b12
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Inverse de la valeur paraxiale de la distance frontale avant mesurée
+      en mètres.
+  examples: []
+  id: r93-1999-f-3.7.2-fra
+  notes:
+  - content: L'unité pour exprimer la puissance frontale est le mètre réciproque (m^-1).
+      Le nom de cette unité est la "dioptrie" dont le symbole est D.
+  - content: Par convention, la puissance frontale arrière, en dioptries, est spécifiée
+      comme la "puissance" d'un verre de lunettes, bien que la puissance frontale
+      avant soit requise dans certains cas (par exemple pour la mesure de certains
+      verres multifocaux).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.7.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Puissance frontale avant
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7ae36b59-6f90-5aa2-9b17-b88aa211d0c8
+

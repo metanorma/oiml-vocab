@@ -1,0 +1,57 @@
+---
+data:
+  identifier: g1-100-2008-f-C.2.20
+  localized_concepts:
+    fra: 7537aa0d-4426-5953-863a-04daf5fabd7d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.20
+    type: authoritative
+status: valid
+id: d48dbfbf-3b6a-514f-9edd-ad113c7d1883
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: mesure de dispersion qui est la somme des carrés des écarts des observations
+      par rapport à leur moyenne divisée par un nombre égal au nombre d'observations
+      moins un
+  examples:
+  - content: Pour n observations x_1, x_2, ..., x_n de moyenne x_bar = (1/n) sum x_i,
+      la variance est s^2 = (1/(n-1)) sum (x_i - x_bar)^2.
+  id: g1-100-2008-f-C.2.20-fra
+  notes:
+  - content: La variance de l'échantillon est un estimateur sans biais de la variance
+      de la population.
+  - content: La variance est n/(n-1) fois le moment centré d'ordre 2.
+  - content: 'Source citation: ISO 3534-1:1993, definition 2.33'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.20
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: variance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7537aa0d-4426-5953-863a-04daf5fabd7d
+

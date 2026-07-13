@@ -1,0 +1,58 @@
+---
+data:
+  identifier: g1-3.2.5
+  localized_concepts:
+    eng: 76ce0df0-b365-51c1-94fc-87cfb0447a1f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+status: valid
+id: 6c11394a-951d-579c-8610-1975a070d5a1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of quantity values being attributed to a measurand together with
+      any other available relevant information
+  examples: []
+  id: g1-3.2.5-eng
+  notes:
+  - content: A measurement result may be expressed in a number of ways, by giving,
+      for example, (a) a measured quantity value with an associated measurement uncertainty;
+      (b) a coverage interval for the measurand with an associated coverage probability;
+      (c) a PDF; or (d) a numerical approximation to a PDF.
+  - content: 'Source citation: JCGM 200:2012 2.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result
+  - type: expression
+    normative_status: admitted
+    designation: result of measurement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 76ce0df0-b365-51c1-94fc-87cfb0447a1f
+

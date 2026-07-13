@@ -1,0 +1,56 @@
+---
+data:
+  identifier: b18-2016-e-3.11
+  localized_concepts:
+    eng: 5746af60-69f4-5c1b-a2fd-7c9e88479434
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:18:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2016
+        version: '2016'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+status: valid
+id: e019dcc1-d2d7-594a-a7f1-36fe70ea3430
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Certification Body from an OIML Member State issuing OIML Certificates
+      and associated OIML type evaluation/test reports in accordance with Scheme A
+      or Scheme B.
+  examples: []
+  id: b18-2016-e-3.11-eng
+  notes:
+  - content: An Issuing Authority is also a Utilizer (see 3.30) for that category
+      of measuring instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2016
+        version: '2016'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Issuing Authority
+  - type: abbreviation
+    normative_status: admitted
+    designation: IA
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5746af60-69f4-5c1b-a2fd-7c9e88479434
+

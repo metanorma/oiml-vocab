@@ -1,0 +1,55 @@
+---
+data:
+  identifier: d3-1979-f-5.1.2
+  localized_concepts:
+    fra: c3f1267f-f3b8-5e9e-99d3-c3c7c77ed28a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:3:1979
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 3:1979
+        version: '1979'
+    locality:
+      type: clause
+      reference_from: 5.1.2
+    type: authoritative
+status: valid
+id: c4c3c7ac-19b0-51ec-adc2-2c17ddc008f9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Vérification d'un instrument de mesurage neuf qui n'a pas été vérifié
+      auparavant.
+  examples: []
+  id: d3-1979-f-5.1.2-fra
+  notes:
+  - content: De par cette définition, la vérification primitive ne s'applique qu'aux
+      instruments neufs, mais les réglementations nationales peuvent prescrire que
+      les instruments réparés ou rajustés doivent aussi subir une vérification conforme
+      à la vérification primitive.
+  - content: 'Source citation: Vocabulaire de métrologie légale'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 3:1979
+        version: '1979'
+    locality:
+      type: clause
+      reference_from: 5.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vérification primitive
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c3f1267f-f3b8-5e9e-99d3-c3c7c77ed28a
+

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r107-T.3.1.1
+  localized_concepts:
+    eng: bcb30cfd-bacd-5ea7-9061-0c2387e77b63
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.1.1
+    type: authoritative
+status: valid
+id: c5bf1627-7497-5c37-94b3-5c4aa5236019
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Scale interval of a principal totalization indicating device.
+  examples: []
+  id: r107-T.3.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: totalization scale interval
+  - type: symbol
+    normative_status: admitted
+    designation: d_t
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bcb30cfd-bacd-5ea7-9061-0c2387e77b63
+

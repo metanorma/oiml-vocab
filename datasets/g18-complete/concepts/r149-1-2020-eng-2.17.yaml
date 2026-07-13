@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r149-1-2020-eng-2.17
+  localized_concepts:
+    eng: 55e794e5-2495-5de5-8762-eb752577d989
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:149-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 149-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: '2.17'
+    type: authoritative
+status: valid
+id: cc13af7a-4645-5a79-8bc8-c0eed8bd81dd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'procedure that corrects a deviation of the pressure reading to 0.0 kPa
+      (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg))'
+  examples: []
+  id: r149-1-2020-eng-2.17-eng
+  notes:
+  - content: 'Source citation: VIM 3.11'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 149-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: '2.17'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zero adjustment of a measuring system
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 55e794e5-2495-5de5-8762-eb752577d989
+

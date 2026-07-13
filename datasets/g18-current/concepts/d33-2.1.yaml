@@ -1,0 +1,56 @@
+---
+data:
+  identifier: d33-2.1
+  localized_concepts:
+    eng: 14de9cfe-0805-54c3-863c-f56eef094408
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:33:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 33:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+status: valid
+id: 11966106-a600-5f55-a401-06578ab9e78b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: liquid in which the shear rate is proportional to the shear stress during
+      a viscous flow
+  examples: []
+  id: d33-2.1-eng
+  notes:
+  - content: The ratio of the shear stress to the shear rate is the dynamic viscosity
+      of the liquid, according to Newton's Law of Viscosity. The kinematic viscosity
+      is the ratio of the dynamic viscosity to the density of the liquid.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 33:2019
+        version: '2019'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Newtonian reference liquids
+  - type: expression
+    normative_status: admitted
+    designation: RL
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 14de9cfe-0805-54c3-863c-f56eef094408
+

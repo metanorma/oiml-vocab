@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r76-1-2006-fra-T.5.3.1
+  localized_concepts:
+    fra: f5a8005a-871c-586e-adf0-a470dfdefdf9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+status: valid
+id: 37ddfc36-06bd-52b4-b38f-5800625f4c12
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur numérique, représentant un poids, qui est introduite dans l'instrument
+      et qui est destinée à être appliquée à d'autres pesées sans déterminer des tares
+      individuelles.
+  examples: []
+  id: r76-1-2006-fra-T.5.3.1-fra
+  notes:
+  - content: 'Le mot «introduite» couvre toute procédure comme, par exemple : la tabulation,
+      le rappel depuis un stockage de données, ou l''introduction via une interface.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur de tare prédéterminée, PT
+  - type: symbol
+    normative_status: admitted
+    designation: PT
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f5a8005a-871c-586e-adf0-a470dfdefdf9
+

@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r76-2006-e-T.3.2.5
+  localized_concepts:
+    eng: 4e5dae09-6a68-5814-ba6c-a31f060e0c1d
+    fra: c955d53e-61c0-550d-8811-87c56daa3785
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.5
+    type: authoritative
+status: valid
+id: bb3fe1be-c17f-5fae-91ef-2edab330bfdb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Quotient of the maximum capacity and the verification scale interval:
+      $ n = \operatorname{Max} / e $'
+  examples: []
+  id: r76-2006-e-T.3.2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: number of verification scale intervals, n
+  - type: symbol
+    normative_status: preferred
+    designation: "n"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4e5dae09-6a68-5814-ba6c-a31f060e0c1d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Quotient de la portée maximale par l''échelon de vérification : $ n=\operatorname{Max}/e
+      $'
+  examples: []
+  id: r76-2006-e-T.3.2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nombre d'échelons de vérification, n
+  - type: symbol
+    normative_status: preferred
+    designation: "n"
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c955d53e-61c0-550d-8811-87c56daa3785
+

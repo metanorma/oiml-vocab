@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r76-1-2006-fra-T.2.2.6
+  localized_concepts:
+    fra: c7dad2ef-422d-5418-98c4-82dee0febf65
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.2.6
+    type: authoritative
+status: valid
+id: 305c00ec-b190-5763-af68-1b3f0e2f0e07
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Un afficheur numérique peut être compris comme un afficheur primaire
+      ou comme un afficheur secondaire.
+  examples: []
+  id: r76-1-2006-fra-T.2.2.6-fra
+  notes:
+  - content: 'Afficheur primaire : Soit incorporé dans le boîtier de l''indicateur,
+      ou dans le boîtier du terminal, ou conçu comme un afficheur dans un boîtier
+      séparé (c''est à dire un terminal sans touche), par exemple pour une utilisation
+      combinée avec un module de pesage. Afficheur secondaire : Dispositif périphérique
+      additionnel (en option) qui répète le résultat de pesage et toute autre indication
+      primaire, ou fournit aussi, des informations non métrologiques.'
+  - content: Les termes «afficheur primaire» et «afficheur secondaire» ne doivent
+      pas être confondus avec les termes «indication primaire» et «indication secondaire»
+      (T.1.3.1 et T.1.3.2).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: afficheur numérique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c7dad2ef-422d-5418-98c4-82dee0febf65
+

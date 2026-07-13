@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g22-2.3.16
+  localized_concepts:
+    eng: 12a3905b-6b2c-58ba-8ba7-1d59e6960f8f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.16
+    type: authoritative
+status: valid
+id: 99b76867-5493-51d6-8479-0ba32cbfac0a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus reference quantity value, divided by the
+      reference quantity value. The relative error is usually expressed as a percentage
+  examples: []
+  id: g22-2.3.16-eng
+  notes:
+  - content: Since this Guide deals only with relative error, the short form "error"
+      is used for relative error.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.16
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative error (of indication)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 12a3905b-6b2c-58ba-8ba7-1d59e6960f8f
+

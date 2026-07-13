@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r137-3.4.7
+  localized_concepts:
+    eng: b542b991-8fc2-5bff-a9d7-8e768247f690
+    fra: c84315c2-f6c4-5dbe-a086-04b09069fa55
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+status: valid
+id: b00c6b5b-9e66-5228-a363-c30c8fd69e47
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test intended to verify whether the equipment under test (EUT) is capable
+      of accomplishing its intended functions.
+  examples: []
+  id: r137-3.4.7-eng
+  notes:
+  - content: 'Source citation: OIML D 11, 3.20.3'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: performance test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b542b991-8fc2-5bff-a9d7-8e768247f690
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai dont le but est de vérifier si l'équipement soumis à l'essai (ESE)
+      est capable de réaliser ses fonctions attendues.
+  examples: []
+  id: r137-3.4.7-fra
+  notes:
+  - content: 'Source citation: OIML D 11, 3.20.3'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai de performance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c84315c2-f6c4-5dbe-a086-04b09069fa55
+

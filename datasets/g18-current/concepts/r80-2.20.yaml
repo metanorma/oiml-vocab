@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r80-2.20
+  localized_concepts:
+    eng: 6bfe5631-88f0-5c72-944f-0553c9b17b79
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:80:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '2.20'
+    type: authoritative
+status: valid
+id: e5804a47-f77f-5e63-9ef8-78e8c3df4f2d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Change in the level of liquid (delta h) divided by the corresponding
+      relative change in volume (delta V / V) for the contained volume V at the level
+      h.
+  examples: []
+  id: r80-2.20-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '2.20'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensitivity of a tank
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6bfe5631-88f0-5c72-944f-0553c9b17b79
+

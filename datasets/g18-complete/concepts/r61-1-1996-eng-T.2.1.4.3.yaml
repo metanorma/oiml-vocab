@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r61-1-1996-eng-T.2.1.4.3
+  localized_concepts:
+    eng: bbc7f4c9-3674-5208-b35f-0501db1c9043
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61-1:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.2.1.4.3
+    type: authoritative
+status: valid
+id: 7b3c14a9-ff39-5f8f-a629-39fe08a9a188
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device which controls the cut-off of the final feed so that the average
+      mass of the fills corresponds to the preset value.
+  examples: []
+  id: r61-1-1996-eng-T.2.1.4.3-eng
+  notes:
+  - content: This device may include an adjustable compensation for the material in
+      flight.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.2.1.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: final feed cut-off device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bbc7f4c9-3674-5208-b35f-0501db1c9043
+

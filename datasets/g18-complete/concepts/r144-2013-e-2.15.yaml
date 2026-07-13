@@ -1,0 +1,77 @@
+---
+data:
+  identifier: r144-2013-e-2.15
+  localized_concepts:
+    eng: 77c86ead-d0ef-5ee3-8fa0-1e3ef4e55f75
+    fra: bef35ae1-8ce8-503a-887c-fea0a8d38cc9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+status: valid
+id: 8b02d172-eb8e-5736-81c7-c8531a97eb27
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: absolute error of measurement divided by the reference value of the measurand
+  examples: []
+  id: r144-2013-e-2.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77c86ead-d0ef-5ee3-8fa0-1e3ef4e55f75
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: erreur absolue de mesure divisée par la valeur de la mesure
+  examples: []
+  id: r144-2013-e-2.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur relative
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bef35ae1-8ce8-503a-887c-fea0a8d38cc9
+

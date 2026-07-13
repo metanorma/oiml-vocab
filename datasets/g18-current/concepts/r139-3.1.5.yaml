@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r139-3.1.5
+  localized_concepts:
+    eng: 8019aa8e-b0ec-5e50-a911-ba11c4398c64
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+status: valid
+id: 6b34820d-4b50-5307-9195-b04b9fc7d4c0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r139-3.1.5-eng
+  notes:
+  - content: 'Source citation: OIML V 2-200:2012, 4.26; OIML V 1:2013, 0.05'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8019aa8e-b0ec-5e50-a911-ba11c4398c64
+

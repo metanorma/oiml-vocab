@@ -1,0 +1,92 @@
+---
+data:
+  identifier: d10-3.1
+  localized_concepts:
+    eng: 02eddeb8-1751-5527-aa3c-79218b4c847c
+    spa: b68f7ed0-5b65-50e0-bd77-5876ad28c115
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+status: valid
+id: 8c519640-2e18-57f1-af04-8967b5131ba5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: authoritative body that performs accreditation
+  examples: []
+  id: d10-3.1-eng
+  notes:
+  - content: The authority of an accreditation body can be derived from government,
+      public authorities, contracts, market acceptance, or scheme owners.
+  - content: 'Source citation: ISO/IEC 17000 4.7'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accreditation body
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 02eddeb8-1751-5527-aa3c-79218b4c847c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Organismo autorizado a realizar acreditación.
+  examples: []
+  id: d10-3.1-spa
+  notes:
+  - content: La autoridad de un órgano de acreditación puede derivarse del gobierno,
+      del sector público autoridades, contratos, aceptación del mercado o propietarios
+      de esquemas.
+  - content: 'Source citation: ISO/IEC 17000, 4.7'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: organismo acreditador
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b68f7ed0-5b65-50e0-bd77-5876ad28c115
+

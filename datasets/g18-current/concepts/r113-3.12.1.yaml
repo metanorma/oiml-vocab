@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r113-3.12.1
+  localized_concepts:
+    fra: 5eb39528-a1e3-52b8-95a5-0afe53f0faf2
+    eng: 5fbda661-700d-5643-a6a2-61d82e3ddcb6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:113:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 3.12.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 3.12.1
+    type: authoritative
+status: valid
+id: d326e620-238e-54aa-a014-7b4565715fa9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Exprime en A . mL . g^-1 ou V . mL . g^-1, et par l''equation: S = (P
+      x F) / M ou S = sensibilite, P = l''aire integree du pic (A . s ou V . s), F
+      = le debit de gaz vecteur (mL . s^-1), M = masse de l''echantillon dans le gaz
+      vecteur (g).'
+  examples: []
+  id: r113-3.12.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 3.12.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detecteur dependant de la concentration
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5eb39528-a1e3-52b8-95a5-0afe53f0faf2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Expressed in A . mL . g^-1 or V . mL . g^-1, and by the equation S =
+      (P x F) / M where S = sensitivity, P = the integrated peak area (A . s or V
+      . s), F = the carrier gas flow rate (mL . s^-1), M = mass of the sample in the
+      carrier gas (g).
+  examples: []
+  id: r113-3.12.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 3.12.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Concentration-dependent detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5fbda661-700d-5643-a6a2-61d82e3ddcb6
+

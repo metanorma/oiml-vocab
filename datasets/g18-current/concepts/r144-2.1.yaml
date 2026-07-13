@@ -1,0 +1,121 @@
+---
+data:
+  identifier: r144-2.1
+  localized_concepts:
+    fra: abc8301d-4fdd-5629-b529-ba4d1f22f347
+    eng: 020ae518-f15b-5b96-8f93-e0ad3b377203
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+status: valid
+id: 7488ac31-23f4-59ea-bb0a-f145c4cefeab
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Assemblage d'éléments destiné à réaliser des mesurages ou analyse des
+      gaz spécifiés (ISO 7504:2001) [16]
+  examples: []
+  id: r144-2.1-fra
+  notes:
+  - content: Dans cette Recommandation, un système d'analyse signifie un système qui
+      mesure en continu la fraction volumique de CO (monoxyde de carbone), NO (monoxyde
+      d'azote), NO2 (dioxyde d'azote), ou d'oxydes d'azote (NOx) ou qui mesure seulement
+      CO ou seulement NO et NO2, ou NOx, par analyse d'échantillons de gaz extraits
+      de fumée ou de tuyau de gaz dans l'industrie.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système d'analyse des gaz
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: abc8301d-4fdd-5629-b529-ba4d1f22f347
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: assembly to carry out specified gas analytical measurements
+  examples: []
+  id: r144-2.1-eng
+  notes:
+  - content: In this Recommendation, a gas analytical system means a system that continuously
+      measures the volume fraction of CO (carbon monoxide), NO (nitrogen monoxide
+      ), $ \mathrm{N O_{2}} $ (nitrogen dioxide), or sum of nitrogen oxides $ \mathrm{N
+      O_{x}} $ ), or measures only CO or only NO and $ \mathrm{N O_{2}} $ , or $ \mathrm{N
+      O_{x}} $ by analyzing the gas samples taken directly from the smokestack or
+      gas pipe in industry. This system includes - a means for sampling and sample
+      preparation (in the case of extractive sampling), - a gas analyzer, - a means
+      for adjusting zero (gas analyzer), - a means for adjusting the gas analyzer
+      using a calibration gas mixture, - a means for the accumulation, processing
+      and storage of measurement results, - a means for the control and adjustment
+      of the main components of the system, - an interface to connect devices measuring
+      the gas flow parameters of exhaust emissions, and - gas and electric lines of
+      communication.
+  - content: 'Source citation: ISO 7504:2001 [16]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gas analytical system
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 020ae518-f15b-5b96-8f93-e0ad3b377203
+

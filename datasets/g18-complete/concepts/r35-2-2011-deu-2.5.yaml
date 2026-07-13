@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r35-2-2011-deu-2.5
+  localized_concepts:
+    deu: e057574d-8342-5593-a51c-8cb168081680
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:35-2:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+status: valid
+id: 50e62fe1-4947-5db7-ba44-d78121f156a4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Messwert minus einem Referenzwert
+  examples: []
+  id: r35-2-2011-deu-2.5-deu
+  notes:
+  - content: 'Source citation: 1 VIM 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(Mess)abweichung"
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e057574d-8342-5593-a51c-8cb168081680
+

@@ -1,0 +1,359 @@
+{
+  "nodes": [
+    {
+      "id": "2.4",
+      "designation": "measurement principle",
+      "external": false
+    },
+    {
+      "id": "2.5",
+      "designation": "measurement method",
+      "external": false
+    },
+    {
+      "id": "2.6",
+      "designation": "measurement procedure",
+      "external": false
+    },
+    {
+      "id": "2.7",
+      "designation": "reference measurement procedure",
+      "external": false
+    },
+    {
+      "id": "2.8",
+      "designation": "primary reference measurement procedure",
+      "external": false
+    },
+    {
+      "id": "2.48",
+      "designation": "measurement model",
+      "external": false
+    },
+    {
+      "id": "2.2",
+      "designation": "metrology",
+      "external": false
+    },
+    {
+      "id": "2.1",
+      "designation": "measurement",
+      "external": false
+    },
+    {
+      "id": "1.1",
+      "designation": "quantity",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "quantity value",
+      "external": false
+    },
+    {
+      "id": "ext_other_information",
+      "designation": "(other information)",
+      "external": true
+    },
+    {
+      "id": "2.10",
+      "designation": "measured quantity value",
+      "external": false
+    },
+    {
+      "id": "2.26",
+      "designation": "measurement uncertainty",
+      "external": false
+    },
+    {
+      "id": "2.9",
+      "designation": "measurement result",
+      "external": false
+    },
+    {
+      "id": "2.47",
+      "designation": "metrological compatibility of measurement results",
+      "external": false
+    },
+    {
+      "id": "2.46",
+      "designation": "metrological comparability of measurement results",
+      "external": false
+    },
+    {
+      "id": "2.3",
+      "designation": "measurand",
+      "external": false
+    },
+    {
+      "id": "ext_reference",
+      "designation": "(reference)",
+      "external": true
+    },
+    {
+      "id": "ext_quantity_being_measured",
+      "designation": "(quantity being measured)",
+      "external": true
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "2.4",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "2.5",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "2.5",
+        "2.4"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "2.6",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "2.6",
+        "2.5"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "2.6",
+        "2.4"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "2.7",
+        "2.6"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "2.8",
+        "2.7"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "2.48",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "2.48",
+        "2.6"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "2.2",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "1.1",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "associative",
+      "members": [
+        "2.1",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "2.1"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-016",
+      "type": "associative",
+      "members": [
+        "2.10",
+        "2.9"
+      ]
+    },
+    {
+      "id": "rel-017",
+      "type": "associative",
+      "members": [
+        "2.10",
+        "2.26"
+      ]
+    },
+    {
+      "id": "rel-018",
+      "type": "associative",
+      "members": [
+        "2.47",
+        "2.9"
+      ]
+    },
+    {
+      "id": "rel-019",
+      "type": "associative",
+      "members": [
+        "2.47",
+        "2.26"
+      ]
+    },
+    {
+      "id": "rel-020",
+      "type": "associative",
+      "members": [
+        "2.47",
+        "2.3"
+      ]
+    },
+    {
+      "id": "rel-021",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "2.9"
+      ]
+    },
+    {
+      "id": "rel-022",
+      "type": "associative",
+      "members": [
+        "2.46",
+        "2.9"
+      ]
+    },
+    {
+      "id": "rel-023",
+      "type": "associative",
+      "members": [
+        "2.46",
+        "ext_reference"
+      ]
+    },
+    {
+      "id": "rel-024",
+      "type": "associative",
+      "members": [
+        "2.48",
+        "1.1"
+      ]
+    },
+    {
+      "id": "rel-025",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "1.1"
+      ]
+    },
+    {
+      "id": "rel-026",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "ext_quantity_being_measured"
+      ]
+    },
+    {
+      "id": "rel-027",
+      "type": "hierarchical",
+      "broader": "2.6",
+      "narrower": {
+        "listed": [
+          "2.7"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-028",
+      "type": "hierarchical",
+      "broader": "2.7",
+      "narrower": {
+        "listed": [
+          "2.8"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-029",
+      "type": "hierarchical",
+      "broader": "1.1",
+      "narrower": {
+        "listed": [
+          "2.3"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-030",
+      "type": "partitive_plural",
+      "comprehensive": "2.9",
+      "parts": {
+        "listed": [
+          "1.19",
+          "ext_other_information",
+          "2.10"
+        ],
+        "has_unlisted_others": false
+      },
+      "markers": {
+        "double_line": true,
+        "dashed": true
+      }
+    }
+  ]
+}

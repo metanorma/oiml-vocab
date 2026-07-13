@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2006-eng-B.1.4
+  localized_concepts:
+    eng: 2af270e6-0fd3-5606-ac6a-96b35b4e3e45
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: B.1.4
+    type: authoritative
+status: valid
+id: 38353be2-d417-503a-9c71-f01633c00935
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: highest flowrate in the lower flowrate zone at which the water meter
+      error (of indication) goes from above to below the maximum permissible error
+      of the upper flowrate zone
+  examples: []
+  id: r49-1-2006-eng-B.1.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: B.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intermediate flowrate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{i}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2af270e6-0fd3-5606-ac6a-96b35b4e3e45
+

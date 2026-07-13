@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
 status: valid
 id: 72b491be-9655-4156-a731-0068b81e9988
 schema_version: '3'
@@ -15,15 +24,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'position of the reference point at a pressure equal to the nominal pressure'
-  id: 00687-eng
+  - content: position of the reference point at a pressure equal to the nominal pressure
+  id: '00687-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'final position'
+    designation: final position
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 72998c87-1617-5552-8e5b-7b9fb439d5f0
+

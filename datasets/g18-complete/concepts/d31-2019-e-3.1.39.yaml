@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d31-2019-e-3.1.39
+  localized_concepts:
+    eng: b38ce6ec-bb56-5e50-ba52-8705778d3ca1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.39
+    type: authoritative
+status: valid
+id: 944463db-9afb-5342-8528-ba096ef27565
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: metadata related to the construction of the measurement result
+  examples: []
+  id: d31-2019-e-3.1.39-eng
+  notes:
+  - content: Examples of measurement result relevant metadata include format of the
+      digital number or analogue value originating from a sensor, format of the measured
+      quantity value according to V 2:200:2012 or format of the measuring instrument
+      ID, in cases where it is part of the measurement result.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.39
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result relevant metadata
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b38ce6ec-bb56-5e50-ba52-8705778d3ca1
+

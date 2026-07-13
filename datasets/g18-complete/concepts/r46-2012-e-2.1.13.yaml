@@ -1,0 +1,81 @@
+---
+data:
+  identifier: r46-2012-e-2.1.13
+  localized_concepts:
+    eng: fda104bc-b1e6-5f17-ad0a-4976fe852242
+    fra: 72a20357-a167-5076-9da9-2f7cba2e5b75
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.13
+    type: authoritative
+status: valid
+id: cd07d82d-e04b-5cf2-aa09-65a08ce6cb47
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the meter that stores the measured values.
+  examples: []
+  id: r46-2012-e-2.1.13-eng
+  notes:
+  - content: The register may be an electromechanical device or an electronic device
+      and may be integral to the indicating device.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: register
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fda104bc-b1e6-5f17-ad0a-4976fe852242
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie du compteur qui stocke les valeur de mesure
+  examples: []
+  id: r46-2012-e-2.1.13-fra
+  notes:
+  - content: Le registre peut être un dispositif électromécanique et peut être intégré
+      au dispositif indicateur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: registre
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 72a20357-a167-5076-9da9-2f7cba2e5b75
+

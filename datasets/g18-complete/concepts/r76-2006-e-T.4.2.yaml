@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r76-2006-e-T.4.2
+  localized_concepts:
+    eng: a572c1e2-0230-5a33-83be-032edff91481
+    fra: f7ef637e-5d23-586f-9604-992a2101ef74
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2
+    type: authoritative
+status: valid
+id: 93176f04-7b77-507e-81a8-6cc32a752c4b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ability of an instrument to react to small variations of load.
+  examples: []
+  id: r76-2006-e-T.4.2-eng
+  notes:
+  - content: The discrimination threshold, for a given load, is the value of the smallest
+      additional load that, when gently deposited on or removed from the load receptor,
+      causes a perceptible change in the indication.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: discrimination
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a572c1e2-0230-5a33-83be-032edff91481
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aptitude d'un instrument à réagir à de petites variations de charge.
+  examples: []
+  id: r76-2006-e-T.4.2-fra
+  notes:
+  - content: Le seuil de mobilité, à une charge donnée, est la valeur de la plus petite
+      surcharge qui, déposée ou retirée sans choc sur le récepteur de charge, provoque
+      une variation perceptible de l'indication.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mobilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7ef637e-5d23-586f-9604-992a2101ef74
+

@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r129-2.3.5
+  localized_concepts:
+    deu: 89e20dba-42e2-5e7e-8314-7595a6ecc134
+    eng: 711a10e1-aab1-57bc-a9ff-f2d2b6f8ff1f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+status: valid
+id: 8cf96a27-732f-5061-9257-ee324ec49d5e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Differenz zwischen der Abweichung der Anzeige und der Eigenabweichung
+      eines Messgeräts
+  examples: []
+  id: r129-2.3.5-deu
+  notes:
+  - content: Ein Fehler ist hauptsächlich das Ergebnis einer unerwünschten Änderung
+      von Daten, die in einem elektronischen Messgerät enthalten sind oder durch ein
+      solches Messgerät geleitet werden.
+  - content: Aus der Definition folgt, dass ein "Fehler" ein numerischer Wert ist,
+      der entweder in einer Maßeinheit oder als Relativwert, z. B. als Prozentsatz,
+      ausgedrückt wird.
+  - content: 'Source citation: VIML 5.12'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 89e20dba-42e2-5e7e-8314-7595a6ecc134
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: r129-2.3.5-eng
+  notes:
+  - content: Principally a fault is the result of an undesired change of data contained
+      in, or flowing through, an electronic measuring instrument.
+  - content: From the definition, it follows that a "fault" is a numerical value which
+      is expressed either in a unit of measurement or as a relative value, for instance
+      as a percentage.
+  - content: 'Source citation: VIML 5.12'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 711a10e1-aab1-57bc-a9ff-f2d2b6f8ff1f
+

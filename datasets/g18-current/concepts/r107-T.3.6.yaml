@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r107-T.3.6
+  localized_concepts:
+    eng: 0d3d3948-f679-5592-a1e0-4b1c0ebcfcf0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.6
+    type: authoritative
+status: valid
+id: c8b5409d-6095-5504-8f83-247525a212f7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value of the smallest bulk load that can be totalized without exceeding
+      the maximum permissible error when the automatic operation is comprised of discrete
+      loads, each within the automatic weighing range.
+  examples: []
+  id: r107-T.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum totalized load
+  - type: symbol
+    normative_status: admitted
+    designation: Sigma_min
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0d3d3948-f679-5592-a1e0-4b1c0ebcfcf0
+

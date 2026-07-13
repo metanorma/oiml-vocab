@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r124-7
+  localized_concepts:
+    fra: 3bb01d3d-71aa-5a8c-b39f-f990ff038a62
+    eng: bc87aaba-129e-5c8d-9874-7d8a7dff7f35
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:124:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '7'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '7'
+    type: authoritative
+status: valid
+id: '085b8b21-1560-55be-a44d-b7280a833156'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble des valeurs spécifiées des facteurs d'influence, fixées pour
+      permettre des comparaisons valables entre résultats de mesure
+  examples: []
+  id: r124-7-fra
+  notes:
+  - content: 'Source citation: adapte de VIM article 5.7 dans D 11 article T.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conditions de référence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3bb01d3d-71aa-5a8c-b39f-f990ff038a62
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A set of specified values of influence factors fixed to ensure valid
+      inter-comparison of results
+  examples: []
+  id: r124-7-eng
+  notes:
+  - content: 'Source citation: adapted from VIM clause 5.7 in D 11 clause T.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference conditions
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bc87aaba-129e-5c8d-9874-7d8a7dff7f35
+

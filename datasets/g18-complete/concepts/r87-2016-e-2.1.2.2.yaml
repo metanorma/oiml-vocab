@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r87-2016-e-2.1.2.2
+  localized_concepts:
+    eng: 21bd2284-7112-5f4d-a1a5-fe6ff187ee3a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.2
+    type: authoritative
+status: valid
+id: 6ee3aef9-1029-5c9e-a155-7f2dd9860f25
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the actual quantity of product in a prepackage and
+      the nominal quantity of that prepackage
+  examples: []
+  id: r87-2016-e-2.1.2.2-eng
+  notes:
+  - content: The individual prepackage error for a prepackage "i" is designated by
+      the symbol $E_{\mathrm{i}}$ or $e_{\mathrm{i}}$ and can be calculated by $E_{\mathrm{i}}=Q_{\mathrm{i}}-Q_{\mathrm{nom}}$
+      or by $e_{\mathrm{i}}=q_{\mathrm{i}}-Q_{\mathrm{nom}}$ where $Q_{\mathrm{nom}}$
+      is the nominal quantity.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: individual prepackage error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 21bd2284-7112-5f4d-a1a5-fe6ff187ee3a
+

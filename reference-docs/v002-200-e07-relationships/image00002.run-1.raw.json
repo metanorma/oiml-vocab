@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "1.1",
+      "designation": "quantity",
+      "external": false
+    },
+    {
+      "id": "ext_quantity_expressed_by_a_measurement_unit",
+      "designation": "quantity expressed by a measurement unit",
+      "external": true
+    },
+    {
+      "id": "1.26",
+      "designation": "ordinal quantity",
+      "external": false
+    },
+    {
+      "id": "1.9",
+      "designation": "measurement unit",
+      "external": false
+    },
+    {
+      "id": "1.23",
+      "designation": "unit equation",
+      "external": false
+    },
+    {
+      "id": "1.24",
+      "designation": "conversion factor between units",
+      "external": false
+    },
+    {
+      "id": "1.17",
+      "designation": "multiple of a unit",
+      "external": false
+    },
+    {
+      "id": "1.18",
+      "designation": "submultiple of a unit",
+      "external": false
+    },
+    {
+      "id": "ext_in_system_measurement_unit",
+      "designation": "in-system measurement unit",
+      "external": true
+    },
+    {
+      "id": "1.15",
+      "designation": "off-system measurement unit",
+      "external": false
+    },
+    {
+      "id": "1.10",
+      "designation": "base unit",
+      "external": false
+    },
+    {
+      "id": "1.4",
+      "designation": "base quantity",
+      "external": false
+    },
+    {
+      "id": "1.3",
+      "designation": "system of quantities",
+      "external": false
+    },
+    {
+      "id": "1.5",
+      "designation": "derived quantity",
+      "external": false
+    },
+    {
+      "id": "1.11",
+      "designation": "derived unit",
+      "external": false
+    },
+    {
+      "id": "1.12",
+      "designation": "coherent derived unit",
+      "external": false
+    },
+    {
+      "id": "ext_non_coherent_derived_unit",
+      "designation": "non-coherent derived unit",
+      "external": true
+    },
+    {
+      "id": "1.22",
+      "designation": "quantity equation",
+      "external": false
+    },
+    {
+      "id": "ext_rule_for_use_of_measurement_units",
+      "designation": "rule for use of measurement units",
+      "external": true
+    },
+    {
+      "id": "1.13",
+      "designation": "system of units",
+      "external": false
+    },
+    {
+      "id": "1.14",
+      "designation": "coherent system of units",
+      "external": false
+    },
+    {
+      "id": "ext_cgs_system_of_units",
+      "designation": "CGS system of units",
+      "external": true
+    },
+    {
+      "id": "1.6",
+      "designation": "International System of Quantities",
+      "external": false
+    },
+    {
+      "id": "1.16",
+      "designation": "International System of Units",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "hierarchical",
+      "broader": "1.1",
+      "narrower": {
+        "listed": [
+          "ext_quantity_expressed_by_a_measurement_unit",
+          "1.26"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "ext_quantity_expressed_by_a_measurement_unit",
+        "1.9"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "1.9",
+        "1.23"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "1.9",
+        "1.24"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "partitive_plural",
+      "comprehensive": "1.9",
+      "parts": {
+        "listed": [
+          "1.15",
+          "ext_in_system_measurement_unit",
+          "1.17",
+          "1.18"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": false,
+        "dashed": true
+      }
+    },
+    {
+      "id": "rel-006",
+      "type": "hierarchical",
+      "broader": "1.10",
+      "narrower": {
+        "listed": [
+          "1.4",
+          "ext_in_system_measurement_unit"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-007",
+      "type": "hierarchical",
+      "broader": "1.11",
+      "narrower": {
+        "listed": [
+          "1.5",
+          "ext_in_system_measurement_unit"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-008",
+      "type": "hierarchical",
+      "broader": "1.11",
+      "narrower": {
+        "listed": [
+          "1.12",
+          "ext_non_coherent_derived_unit"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-009",
+      "type": "partitive_plural",
+      "comprehensive": "1.3",
+      "parts": {
+        "listed": [
+          "1.4",
+          "1.5",
+          "1.22"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "rel-010",
+      "type": "hierarchical",
+      "broader": "1.4",
+      "narrower": {
+        "listed": [],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-011",
+      "type": "partitive_plural",
+      "comprehensive": "1.13",
+      "parts": {
+        "listed": [
+          "1.16",
+          "1.14",
+          "ext_cgs_system_of_units"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": true,
+        "dashed": false
+      }
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "1.6",
+        "1.16"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "hierarchical",
+      "broader": "1.13",
+      "narrower": {
+        "listed": [
+          "1.10",
+          "1.11",
+          "ext_rule_for_use_of_measurement_units"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-014",
+      "type": "hierarchical",
+      "broader": "1.14",
+      "narrower": {
+        "listed": [
+          "1.12",
+          "1.13"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-015",
+      "type": "hierarchical",
+      "broader": "1.23",
+      "narrower": {
+        "listed": [
+          "1.22"
+        ],
+        "has_unlisted_others": false
+      }
+    }
+  ]
+}

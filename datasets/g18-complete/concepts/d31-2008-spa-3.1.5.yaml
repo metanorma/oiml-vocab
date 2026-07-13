@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d31-2008-spa-3.1.5
+  localized_concepts:
+    spa: 51c0e7f3-89a6-5986-83d4-d0e761741db3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+status: valid
+id: 4c885116-8f1b-5a7d-936b-db1ab8c405a6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Herramienta incorporada a un instrumento de medida que permite detectar
+      fallos importantes y manifestarlos.
+  examples: []
+  id: d31-2008-spa-3.1.5-spa
+  notes:
+  - content: El término «manifestar» hace referencia a toda respuesta adecuada del
+      instrumento de medida (señal luminosa, señal acústica, detener el proceso de
+      medida, etc.).
+  - content: 'Source citation: OIML D 11:2004, 3.18'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositivo de control
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 51c0e7f3-89a6-5986-83d4-d0e761741db3
+

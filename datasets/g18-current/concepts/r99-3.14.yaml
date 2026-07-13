@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r99-3.14
+  localized_concepts:
+    eng: 973c1fa9-ba31-5652-8f86-c884ce2fd500
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:99:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+status: valid
+id: 55c0765a-9111-56db-8ef2-80dee9b4db4e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: duration between the instant when an input quantity value of a measuring
+      instrument or measuring system is subjected to an abrupt change between two
+      specified constant quantity values and the instant when a corresponding indication
+      settles within specified limits around its final steady value
+  examples:
+  - content: 'Source citation: VIM:2007 4.23'
+  id: r99-3.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: step response time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 973c1fa9-ba31-5652-8f86-c884ce2fd500
+

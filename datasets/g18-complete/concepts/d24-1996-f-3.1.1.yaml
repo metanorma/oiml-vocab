@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d24-1996-f-3.1.1
+  localized_concepts:
+    fra: 168d6e4b-8e0b-56cf-90ab-6bcddf63d11f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+status: valid
+id: eb4f6848-7de7-5b8f-9923-017a78d3403f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'erreur intrinsèque caractérise l'exactitude de l'instrument. Cette
+      erreur est égale à la différence entre la valeur moyenne d'un nombre suffisant
+      d'indications données par le pyromètre, dans les conditions de référence (voir
+      3.2) lors de la mesure de la température d'un corps noir à température constante,
+      et une valeur conventionnellement vraie de la température de ce corps noir.
+  examples: []
+  id: d24-1996-f-3.1.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 168d6e4b-8e0b-56cf-90ab-6bcddf63d11f
+

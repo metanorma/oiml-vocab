@@ -1,0 +1,73 @@
+---
+data:
+  identifier: d10-2022-spa-3.6
+  localized_concepts:
+    spa: 9cc199cf-0208-578b-96d4-22f4633a1634
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+status: valid
+id: 823eb797-5a25-5d33-93ab-7ddf1981672e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: material de referencia acompañado por la documentación emitida por un
+      organismo autorizado, que proporciona uno o varios valores de propiedades específicadas,
+      con incertidumbres y trazabilidades asociadas, empleando procedimientos válidos
+  examples:
+  - content: Suero humano, con valores asignados a la concentración de colesterol
+      y a la incertidumbre de medición indicados en un certificado, empleado como
+      calibrador o como material para el control de la veracidad de la medición
+  id: d10-2022-spa-3.6-spa
+  notes:
+  - content: La "documentación" mencionada se proporciona en forma de "certificado"
+      (véase la Guía ISO 31:2000).
+  - content: Procedimientos para la producción y certificación de materiales de referencia
+      certificados pueden encontrarse, por ejemplo, en las Guías ISO 34 e ISO 35.
+  - content: En esta definición, el término "incertidumbre" se refiere tanto a la
+      "incertidumbre de la medición" como a la "incertidumbre del valor de la propiedad
+      cualitativa", tal como su identidad y secuencia. El término "trazabilidad" incluye
+      tanto la "trazabilidad metrológica" del valor de la magnitud como la "trazabilidad
+      del valor de la propiedad cualitativa".
+  - content: Los valores de las magnitudes especificadas de los materiales de referencia
+      certificados requieren una trazabilidad metrológica con una incertidumbre de
+      medición asociada (Accred. Qual. Assur.:2006).
+  - content: La definición de ISO/REMCO es análogo (Accred. Qual. Assur.:2006) pero
+      utiliza el calificativo "metrológica" tanto para una magnitud como para una
+      propiedad cualitativa.
+  - content: 'Source citation: VIM3, 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: material de referencia certificado
+  - type: abbreviation
+    normative_status: admitted
+    designation: MRC
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9cc199cf-0208-578b-96d4-22f4633a1634
+

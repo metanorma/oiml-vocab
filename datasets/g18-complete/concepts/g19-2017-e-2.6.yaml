@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g19-2017-e-2.6
+  localized_concepts:
+    eng: ba8712a2-cc48-570b-a6e4-92abcc961bf6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.6'
+status: valid
+id: 3f6ee5ee-5bd8-5d72-b0cf-53b1765aa233
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: function of quantities, the value of which, when calculated using known
+      quantity values for the input quantities in a measurement model, is a measured
+      quantity value of the output quantity in the measurement model
+  examples: []
+  id: g19-2017-e-2.6-eng
+  notes:
+  - content: 'Source citation: VIM3 2.49'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement function
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ba8712a2-cc48-570b-a6e4-92abcc961bf6
+

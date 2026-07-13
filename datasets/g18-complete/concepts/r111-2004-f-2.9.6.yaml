@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r111-2004-f-2.9.6
+  localized_concepts:
+    fra: 3680ffe6-0204-5fd0-8fb6-fb53d512cdaa
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:111:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: 2.9.6
+    type: authoritative
+status: valid
+id: fc70c7ed-cbdf-5e0e-b6d3-c2dcae6b7089
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mesure de la capacité d'un milieu à modifier un champ magnétique. Elle
+      est liée à la perméabilité magnétique par la relation μ/μ_0 = 1 + χ. La quantité
+      μ/μ_0 est parfois appelée perméabilité relative μ_r.
+  examples: []
+  id: r111-2004-f-2.9.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: 2.9.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: susceptibilité magnétique (volumique)
+  - type: symbol
+    normative_status: admitted
+    designation: chi
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3680ffe6-0204-5fd0-8fb6-fb53d512cdaa
+

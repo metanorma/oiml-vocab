@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r87-2016-spa-2.1.7
+  localized_concepts:
+    spa: b20320e8-5552-52e5-960f-b6de78c0f118
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.7
+    type: authoritative
+status: valid
+id: fe1b07a0-7ce6-5a2a-811c-a44cfd7ec3b8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Cantidad de producto en un preempacado, declarada en la etiqueta.
+  examples: []
+  id: r87-2016-spa-2.1.7-spa
+  notes:
+  - content: El símbolo "Q_nom" se usa para designar la cantidad nominal.
+  - content: En algunas legislaciones nacionales, la cantidad nominal de producto
+      se denomina "cantidad neta", "contenido neto", "masa neta" o "volumen neto".
+  - content: La cantidad nominal se debería declarar de acuerdo con la Recomendación
+      OIML R 79.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cantidad nominal
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b20320e8-5552-52e5-960f-b6de78c0f118
+

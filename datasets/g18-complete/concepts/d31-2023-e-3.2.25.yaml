@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-2023-e-3.2.25
+  localized_concepts:
+    eng: 9d38ea71-86eb-56a4-979a-56406dd0ea1e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.25
+    type: authoritative
+status: valid
+id: 5f59e9a2-18a5-5003-999f-31b4b79c97b6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: assurance that the software, measurement data or parameters have not
+      been subjected to any unintentional, accidental or inadmissible changes while
+      in use, transfer, storage, repair or maintenance
+  examples: []
+  id: d31-2023-e-3.2.25-eng
+  notes:
+  - content: Software may include parameters and data, see 3.2.70.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.25
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: integrity (of software, measurement data or parameters)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d38ea71-86eb-56a4-979a-56406dd0ea1e
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r50-2.4.5.3
+  localized_concepts:
+    eng: 7453baf2-373b-54d7-94b4-ee123060dd78
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.4.5.3
+    type: authoritative
+status: valid
+id: c0a8e28d-22bf-5ad6-b3a3-4c2ab976f3e2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: r50-2.4.5.3-eng
+  notes:
+  - content: 'Source citation: OIML D11, 3.7 [4]'
+  - content: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.4.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7453baf2-373b-54d7-94b4-ee123060dd78
+

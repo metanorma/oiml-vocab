@@ -1,0 +1,102 @@
+---
+data:
+  identifier: r134-T.2.10.5
+  localized_concepts:
+    eng: 7baf31d0-88c1-561b-ba16-8beea5cfadf5
+    fra: c05064ce-6be4-5687-a4ac-a28c2cd13fcd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.5
+    type: authoritative
+status: valid
+id: d5d39f7f-42a5-5a02-8e32-de58f53fa103
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device for maintaining the zero indication within certain limits automatically.
+  examples: []
+  id: r134-T.2.10.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zero-tracking device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7baf31d0-88c1-561b-ba16-8beea5cfadf5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif maintenant automatiquement l'indication zéro à l'intérieur
+      de certaines limites.
+  examples: []
+  id: r134-T.2.10.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.10.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de maintien de zéro
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c05064ce-6be4-5687-a4ac-a28c2cd13fcd
+

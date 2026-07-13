@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g22-2022-e-2.2.9
+  localized_concepts:
+    eng: a889944c-35aa-5f17-b6f3-1d196984cdc7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.9
+status: valid
+id: 66160fa0-26a2-5fd1-9cb1-7df6021e168d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the system that stores the total energy delivered to EV over
+      all transactions
+  examples: []
+  id: g22-2022-e-2.2.9-eng
+  notes:
+  - content: This energy register is the same as the energy delivered accumulation
+      register in a R 46 compliant meter.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: register, energy accumulation delivered
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a889944c-35aa-5f17-b6f3-1d196984cdc7
+

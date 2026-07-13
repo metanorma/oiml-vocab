@@ -1,0 +1,64 @@
+---
+data:
+  identifier: g1-101-2008-e-3.11
+  localized_concepts:
+    eng: 34573b6e-d71c-57f5-84ea-c0651d8c4808
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+status: valid
+id: d811706d-679d-5709-a60a-da92c8a84ac7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: matrix of dimension $ N\times N $ , containing on its diagonal the squares
+      of the standard uncertainties associated with estimates of the components of
+      an N-dimensional vector quantity, and in its off-diagonal positions the covariances
+      associated with pairs of estimates
+  examples: []
+  id: g1-101-2008-e-3.11-eng
+  notes:
+  - content: An uncertainty matrix $ U_{x} $ of dimension $ N\times N $ associated
+      with the vector estimate x of a vector quantity X has the representation $\boldsymbol
+      {U} _ {\boldsymbol {x}} = \left[ \begin{array}{c c c} u \left(x _ {1}, x _ {1}\right)
+      & \dots & u \left(x _ {1}, x _ {N}\right) \\ \vdots & \ddots & \vdots \\ u \left(x
+      _ {N}, x _ {1}\right) & \dots & u \left(x _ {N}, x _ {N}\right) \end{array}
+      \right],$ where $ u ( x_{i}, x_{i} )=u^{2} ( x_{i} ) $ is the variance (squared
+      standard uncertainty) associated with $ x_{i} $ and $ u ( x_{i}, x_{j} ) $ is
+      the covariance associated with $ x_{i} $ and $ x_{j} $ . $ u ( x_{i}, x_{j}
+      )=0 $ if elements $ X_{i} $ and $ X_{j} $ of X are uncorrelated.
+  - content: Covariances are also known as mutual uncertainties.
+  - content: An uncertainty matrix is also known as a covariance matrix or variance-covariance
+      matrix.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: uncertainty matrix
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 34573b6e-d71c-57f5-84ea-c0651d8c4808
+

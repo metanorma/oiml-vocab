@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r146-2016-e-2.2.14
+  localized_concepts:
+    eng: d688f23e-e6b4-5680-89ce-0cba9152dc37
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.14
+    type: authoritative
+status: valid
+id: 8414ec8a-b0f6-59e7-bb9d-cdc5883722f6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument that infers the protein content in grain samples that are
+      within the scope of its calibration
+  examples: []
+  id: r146-2016-e-2.2.14-eng
+  notes:
+  - content: An instrument may be approved with multiple calibrations in order to
+      analyze more than one type of grain.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protein measuring instrument
+  - type: expression
+    normative_status: admitted
+    designation: instrument
+  - type: expression
+    normative_status: admitted
+    designation: unit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d688f23e-e6b4-5680-89ce-0cba9152dc37
+

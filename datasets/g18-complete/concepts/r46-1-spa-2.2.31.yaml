@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r46-1-spa-2.2.31
+  localized_concepts:
+    spa: 977f24f9-0ad1-5442-8151-0d46f5154aa8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+status: valid
+id: acb5199c-721e-59fc-8571-14ce2ae2f617
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Un fallo que excede el valor del fallo limite aplicable.
+  examples: []
+  id: r46-1-spa-2.2.31-spa
+  notes:
+  - content: 'Los siguientes también son considerados como fallos significativos:
+      un cambio mayo que el valor crítico de cambio (ver 3.3.6.2) ha ocurrido en los
+      registros de medición debido a perturbaciones; la funcionalidad del medidor
+      se ha visto afectada.'
+  - content: 'Source citation: OIML D11:2004, 3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fallo significativo
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 977f24f9-0ad1-5442-8151-0d46f5154aa8
+

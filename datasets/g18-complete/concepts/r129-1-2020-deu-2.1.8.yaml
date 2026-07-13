@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r129-1-2020-deu-2.1.8
+  localized_concepts:
+    deu: abb142b7-595f-5b52-80cc-1b0b4000fbbd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.8
+    type: authoritative
+status: valid
+id: 50c7dfd0-5ffe-5103-ba49-bd618afc6577
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Gerät, das über nur einen Messbereich pro Achse verfügt, welcher in mehrere
+      Teilbereiche unterteilt ist. Jeder dieser Teilbereiche kann unterschiedliche
+      Skalenteilungswerte haben. Der Messbereich wird in Abhängigkeit von der zu messenden
+      Abmessung automatisch bestimmt.
+  examples: []
+  id: r129-1-2020-deu-2.1.8-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mehrbereichsmessgerät (Messgerät mit mehreren Auflösungen)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: abb142b7-595f-5b52-80cc-1b0b4000fbbd
+

@@ -1,0 +1,101 @@
+---
+data:
+  identifier: d3-5.1.1
+  localized_concepts:
+    fra: 7ede86b8-583e-5ef3-86c9-ea6ef1ede7ec
+    eng: 89d28888-8d02-50c2-a7b6-bce90c47b882
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:3:1979
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 3:1979
+        version: '1979'
+    locality:
+      type: clause
+      reference_from: 5.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 3:1979
+        version: '1979'
+    locality:
+      type: clause
+      reference_from: 5.1.1
+    type: authoritative
+status: valid
+id: ba87a850-4365-52c5-840c-2ab294f4c60f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble d'opérations effectuées par le Service national de métrologie
+      légale (ou bien par un autre Organisme légalement autorisé) ayant pour but de
+      constater et d'affirmer que l'instrument de mesurage satisfait entièrement aux
+      exigences des règlements sur la vérification. La vérification comprend l'examen
+      et le poinçonnage.
+  examples: []
+  id: d3-5.1.1-fra
+  notes:
+  - content: 'La vérification se traduit donc par une sélection des instruments: ceux
+      qui ont subi l''examen avec succès reçoivent l''empreinte d''un poinçon d''acceptation,
+      les autres peuvent recevoir l''empreinte d''un poinçon de refus.'
+  - content: 'Source citation: Vocabulaire de métrologie légale'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 3:1979
+        version: '1979'
+    locality:
+      type: clause
+      reference_from: 5.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vérification
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7ede86b8-583e-5ef3-86c9-ea6ef1ede7ec
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: All the operations carried out by an organ of the National Service of
+      Legal Metrology (or other legally authorized organisation) having the object
+      of ascertaining and confirming that the measuring instrument entirely satisfies
+      the requirements of regulations covering verification. Verification includes
+      both examination and stamping.
+  examples: []
+  id: d3-5.1.1-eng
+  notes:
+  - content: 'Verification results in selection of the instruments concerned: those
+      which have successfully passed examination receive an acceptance stamp, others
+      can receive a rejection stamp.'
+  - content: 'Source citation: Vocabulary of Legal Metrology'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 3:1979
+        version: '1979'
+    locality:
+      type: clause
+      reference_from: 5.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Verification
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 89d28888-8d02-50c2-a7b6-bce90c47b882
+

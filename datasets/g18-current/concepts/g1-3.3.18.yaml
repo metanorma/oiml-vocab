@@ -1,0 +1,61 @@
+---
+data:
+  identifier: g1-3.3.18
+  localized_concepts:
+    eng: 1764c6b5-d473-5b13-ae26-8cc567aafb5a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.18
+    type: authoritative
+status: valid
+id: 3b2e6ba4-991d-57e4-9c06-907d4992bbfe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: for a measuring instrument, maximum difference, permitted by specifications
+      or regulations, between the instrument indication and the quantity being measured
+  examples: []
+  id: g1-3.3.18-eng
+  notes:
+  - content: When more than one maximum difference is specified, the term "maximum
+      permissible errors" is used; for example, a specified maximum negative difference
+      and a specified maximum positive difference.
+  - content: The error of indication can be written as $ E=R-R_{0} $ , where R is
+      the indication and $ R_{0} $ denotes the indication of an ideal measuring instrument
+      measuring the same measurand Y. In the testing and verification of a measuring
+      instrument, the error of indication is typically evaluated by measuring a calibrated
+      reference standard.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.18
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error (of indication)
+  - type: expression
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1764c6b5-d473-5b13-ae26-8cc567aafb5a
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: d25-1996-f-2.6
+  localized_concepts:
+    fra: 65bfd19e-b0b4-5249-9a70-d39bc5ffe780
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:25:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+status: valid
+id: d06b922b-7d19-57c4-9fc1-5fff62823b0c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le nombre de Reynolds de la canalisation est un nombre sans dimension,
+      rapport d'une force d'inertie à une force de viscosité, utilisé comme paramètre
+      de corrélation combinant les effets de la viscosité, de la masse volumique,
+      et de la vitesse dans la canalisation. Il est défini par Re = D x (U / nu) =
+      D x U x (rho / mu), où D est le diamètre d'entrée du compteur, U est la vitesse
+      moyenne du fluide dans le compteur, nu est la viscosité cinématique, rho est
+      la masse volumique du fluide, et mu est la viscosité absolue (dynamique).
+  examples: []
+  id: d25-1996-f-2.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nombre de Reynolds
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 65bfd19e-b0b4-5249-9a70-d39bc5ffe780
+

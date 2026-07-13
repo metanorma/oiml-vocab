@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r129-2.1.6
+  localized_concepts:
+    deu: 36123e4f-68df-52bf-958c-34022ba7f10c
+    eng: 9b61e01d-dccc-5e78-a212-1c2172ecdb28
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.6
+    type: authoritative
+status: valid
+id: 3052c396-b2b8-5e4c-a8b8-49bb3685b0dc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Messgerät, das zur Durchführung der Messungen zwar den Eingriff eines
+      Bedieners erfordert, die Ergebnisse jedoch automatisch ermittelt
+  examples: []
+  id: r129-2.1.6-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: halbautomatisches Messgerät
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 36123e4f-68df-52bf-958c-34022ba7f10c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument requiring the intervention of an operator to carry out the
+      measurements but that automatically determines the results
+  examples: []
+  id: r129-2.1.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: semi-automatic instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9b61e01d-dccc-5e78-a212-1c2172ecdb28
+

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r15-1.1
+  localized_concepts:
+    fra: 2084c9b5-c3bd-5d7a-b7e2-a258b0b5ad73
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:15:1974
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 15:1974
+        version: '1974'
+    locality:
+      type: clause
+      reference_from: '1.1'
+    type: authoritative
+status: valid
+id: bf519c40-dc5f-5d70-a782-aacab6ebbe17
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: la masse volumique de « remplissage » par ce grain d'un certain récipient
+      ; cette caractéristique dépend non seulement de la qualité intrinsèque du grain
+      considéré mais aussi de son état hygrométrique, de la capacité, de la forme
+      et des dimensions du récipient servant à mesurer son volume, ainsi que de la
+      façon dont s'effectue le remplissage.
+  examples: []
+  id: r15-1.1-fra
+  notes:
+  - content: Déterminée par convention à partir de la masse de grain qui, étant dans
+      un état hygrométrique défini, remplit un récipient d'une capacité de 20 litres
+      de forme et dimensions spécifiées, le remplissage du récipient par le grain
+      s'effectuant dans des conditions déterminées, la masse à l'hectolitre est alors
+      obtenue en divisant la masse du grain exprimée en kilogrammes par le volume
+      du récipient exprimé en hectolitres; elle est ainsi exprimée en kilogrammes
+      par hectolitre.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 15:1974
+        version: '1974'
+    locality:
+      type: clause
+      reference_from: '1.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: masse à l'hectolitre d'un grain de céréale
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2084c9b5-c3bd-5d7a-b7e2-a258b0b5ad73
+

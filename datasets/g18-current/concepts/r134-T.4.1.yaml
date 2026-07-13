@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r134-T.4.1
+  localized_concepts:
+    eng: 5edcd43b-fde7-576e-9255-fb0ce63b6e6b
+    fra: 24c30030-3588-5f73-a2c2-5ac3db5104b6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+status: valid
+id: 14789562-6434-5d78-a5c8-f5d9a017e759
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value of a quantity provided by a measuring instrument.
+  examples: []
+  id: r134-T.4.1-eng
+  notes:
+  - content: '"Indication", "indicate" or "indicating" include both displaying and/or
+      printing.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indications of an instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5edcd43b-fde7-576e-9255-fb0ce63b6e6b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur d'une grandeur fournie par un instrument de mesure.
+  examples: []
+  id: r134-T.4.1-fra
+  notes:
+  - content: '"Indication", "indique" ou "indiquant" couvrent à la fois l''action
+      d''afficher et/ou d''imprimer.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indications d'un instrument
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 24c30030-3588-5f73-a2c2-5ac3db5104b6
+

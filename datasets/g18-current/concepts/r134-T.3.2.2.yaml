@@ -1,0 +1,109 @@
+---
+data:
+  identifier: r134-T.3.2.2
+  localized_concepts:
+    eng: fbafefcb-7cba-5110-b0c1-674ee33f609b
+    fra: ae4566e9-35b5-5d64-ae46-c253ecec7884
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+status: valid
+id: 9764ae34-7b5a-5917-b714-44ddceff44f9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value of the load below which the weighing-in-motion results before totalizing
+      may be subject to an excessive relative error.
+  examples: []
+  id: r134-T.3.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum capacity
+  - type: symbol
+    normative_status: admitted
+    designation: Min
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fbafefcb-7cba-5110-b0c1-674ee33f609b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur de la charge au-dessous de laquelle les résultats de pesage en
+      mouvement avant totalisation peuvent être sujets d'une erreur relative excessive.
+  examples: []
+  id: r134-T.3.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: portée minimale
+  - type: symbol
+    normative_status: admitted
+    designation: Min
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ae4566e9-35b5-5d64-ae46-c253ecec7884
+

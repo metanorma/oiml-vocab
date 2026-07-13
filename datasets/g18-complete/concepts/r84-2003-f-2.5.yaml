@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r84-2003-f-2.5
+  localized_concepts:
+    fra: c0dd471d-1045-53b8-b1b6-ed5a08b22ac4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:84:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 84:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+status: valid
+id: 1a3fb639-722a-5775-9f02-12f9a3dc56fa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Écart maximal toléré de la température t (degrees Celsius), calculé à
+      partir de la résistance du thermomètre en utilisant les tables de résistance
+      relative (Annexe A), à la vraie température (température mesurée).
+  examples: []
+  id: r84-2003-f-2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 84:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tolérance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0dd471d-1045-53b8-b1b6-ed5a08b22ac4
+

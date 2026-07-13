@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r107-T.4.3.2
+  localized_concepts:
+    eng: 2863955a-df95-5bbc-ba28-0342f0fbd951
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.3.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.3.2
+    type: authoritative
+status: valid
+id: 6d8e5980-ffff-5298-ac38-ae0b937e5c64
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Totalization indicating device that indicates the sum of the weight values
+      of a limited number of consecutive loads delivered to bulk. This device is resettable
+      to zero by the user.
+  examples: []
+  id: r107-T.4.3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: partial totalization indicating device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2863955a-df95-5bbc-ba28-0342f0fbd951
+

@@ -1,0 +1,57 @@
+---
+data:
+  identifier: d11-2004-e-3.12
+  localized_concepts:
+    eng: 6deaf8be-2748-536d-bf22-02516c2bf947
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: 3f566dde-61f8-5f6c-a648-b91fbfef8df2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Durability error greater than the value specified in the relevant Recommendation.
+  examples: []
+  id: d11-2004-e-3.12-eng
+  notes:
+  - content: The relevant Recommendation may specify that durability errors are not
+      significant, even when they exceed the value defined in 3.12, in the following
+      cases - (a) The indication cannot be interpreted, memorized or transmitted as
+      a measurement result; (b) The indication implies the impossibility to perform
+      any measurement; (c) The indication is so obviously wrong that it is bound to
+      be noticed by all those interested in the result of the measurement; or (d)
+      A durability error cannot be detected and acted upon due to a breakdown of the
+      appropriate durability protection facility.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant durability error
+  language_code: eng
+  entry_status: valid
+date_accepted: 2026-07-13T00:00+00:00
+id: 6deaf8be-2748-536d-bf22-02516c2bf947
+

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r59-2.2.6
+  localized_concepts:
+    eng: e80637d8-90ad-50ef-9c69-c21821557ccc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+status: valid
+id: 580dbb4d-4b94-5578-b2cd-2b8a048c435f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: network of arbitrary participants (electronic devices with arbitrary
+      functions) where the number, identity and location of a participant can be dynamic
+      and unknown to the other participants
+  examples: []
+  id: r59-2.2.6-eng
+  notes:
+  - content: This is in contrast to a closed network which is a network of a fixed
+      number of participants with a known identity functionality and location.
+  - content: 'Source citation: OIML D 31, 3.1.35'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: open network
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e80637d8-90ad-50ef-9c69-c21821557ccc
+

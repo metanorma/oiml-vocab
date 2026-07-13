@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r61-1-2017-deu-3.5.2.1
+  localized_concepts:
+    deu: b2acafc7-f9b5-5f9c-bb87-4758ccecb029
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.1
+    type: authoritative
+status: valid
+id: 7cbb8bd8-99f7-57e2-bab4-ca2d8477b451
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Messwert minus eines Referenzwerts
+  examples:
+  - content: 'Source citation: VIM 2.16'
+  id: r61-1-2017-deu-3.5.2.1-deu
+  notes:
+  - content: Messabweichung sollte nicht mit Fehler verwechselt werden.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messabweichung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b2acafc7-f9b5-5f9c-bb87-4758ccecb029
+

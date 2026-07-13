@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r76-1-2006-fra-T.3.3
+  localized_concepts:
+    fra: 691c1bb0-b9f5-5ac0-807b-f23bf2cc31be
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+status: valid
+id: 3ff4748c-9551-551d-9bce-446de47cc641
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le rapport de réduction d'un dispositif transmetteur de charge est égal
+      à $ R = F_{\mathrm{M}} / F_{\mathrm{L}} $ où $F_{\mathrm{M}}$ est la force agissant
+      sur le dispositif mesureur de charge, et $F_{\mathrm{L}}$ est la force agissant
+      sur le récepteur de charge.
+  examples: []
+  id: r76-1-2006-fra-T.3.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rapport de réduction, R
+  - type: symbol
+    normative_status: preferred
+    designation: R
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 691c1bb0-b9f5-5ac0-807b-f23bf2cc31be
+

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r144-1-2013-fra-2.12
+  localized_concepts:
+    fra: 3d51e50b-ee17-5c34-9940-c23db71cf9ab
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+status: valid
+id: 42a05ecd-fccc-58b3-bcdc-99624f503c11
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: intervalle de temps entre le moment d'un changement de concentration
+      par paliers du composant en cours de mesure (CO, NO, NO2 ou NOx) et le moment
+      où le signal atteint 90 % de sa valeur stabilisée
+  examples: []
+  id: r144-1-2013-fra-2.12-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de réponse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3d51e50b-ee17-5c34-9940-c23db71cf9ab
+

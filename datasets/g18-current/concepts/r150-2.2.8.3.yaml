@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r150-2.2.8.3
+  localized_concepts:
+    eng: 5762b7db-25b4-568e-bfc1-ce6b1cd55f8a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.8.3
+    type: authoritative
+status: valid
+id: 6b72290d-74a3-5586-a2ab-8bc4c133ef8f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: electronic device that performs the analogue-to-digital conversion of
+      the output signal of the force receptor, and further processes the data, and
+      supplies the weighing result in a digital format via a digital interface without
+      displaying it
+  examples: []
+  id: r150-2.2.8.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: analogue data processing device
+  - type: abbreviation
+    normative_status: admitted
+    designation: ADC
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5762b7db-25b4-568e-bfc1-ce6b1cd55f8a
+

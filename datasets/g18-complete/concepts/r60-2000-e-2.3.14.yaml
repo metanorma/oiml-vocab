@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-2000-e-2.3.14
+  localized_concepts:
+    eng: e5624d54-7d02-5cd3-8555-11a906057bb1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+status: valid
+id: b1918b7b-d565-5686-b140-6c9b131793d0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ratio of the maximum capacity, E_max to the minimum load cell verification
+      interval, v_min. This ratio describes the resolution of the load cell independent
+      from the load cell capacity (Y).
+  examples: []
+  id: r60-2000-e-2.3.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Relative v_min or Y
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e5624d54-7d02-5cd3-8555-11a906057bb1
+

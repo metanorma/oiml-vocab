@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r111-1-2004-fra-2.9.7
+  localized_concepts:
+    fra: 8f78dc94-a5fa-5ac7-8b30-582f6b034314
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:111-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: 2.9.7
+    type: authoritative
+status: valid
+id: 4ef2d8f9-455b-5717-b091-72f5623671bd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Paramètre spécifiant l'état magnétique de corps tels que des poids, en
+      l'absence de champ magnétique externe (dans la plupart des cas, la magnétisation
+      est un vecteur dont la direction et la norme ne sont pas, nécessairement constantes
+      au sein du matériau).
+  examples: []
+  id: r111-1-2004-fra-2.9.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: 2.9.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: magnétisation (permanente)
+  - type: symbol
+    normative_status: admitted
+    designation: M
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8f78dc94-a5fa-5ac7-8b30-582f6b034314
+

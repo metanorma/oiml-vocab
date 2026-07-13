@@ -11,15 +11,14 @@ This is NOT a software project. It is a deployment configuration: site config, d
 ## Build commands
 
 ```sh
-# Install concept-browser
-npm install --ignore-scripts @glossarist/concept-browser
-npm install --prefix node_modules/@glossarist/concept-browser sharp 2>/dev/null || true
+# Install dependencies (concept-browser + plugins hoisted to top-level node_modules)
+npm install
 
 # Build the static site
-npx concept-browser build
+npm run build
 
 # Preview locally
-npx vite preview
+npm run preview
 ```
 
 Output goes to `dist/`. All configuration is read from `site-config.yml` — no environment variables needed.

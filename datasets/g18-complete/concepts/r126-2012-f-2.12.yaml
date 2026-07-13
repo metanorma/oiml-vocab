@@ -1,0 +1,80 @@
+---
+data:
+  identifier: r126-2012-f-2.12
+  localized_concepts:
+    eng: b1c3d43e-7878-5db5-8f2c-1a70d92dc114
+    fra: 62ef48ff-6e28-5b28-bb78-89b9712297d7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+status: valid
+id: 014aab55-45fa-5894-9cf9-5425bdd9219b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r126-2012-f-2.12-eng
+  notes:
+  - content: 'Source citation: VIM 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b1c3d43e-7878-5db5-8f2c-1a70d92dc114
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre la valeur d'une quantité mesurée et de la valeur de
+      référence
+  examples: []
+  id: r126-2012-f-2.12-fra
+  notes:
+  - content: 'Source citation: VIM 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 62ef48ff-6e28-5b28-bb78-89b9712297d7
+

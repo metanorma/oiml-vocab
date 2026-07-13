@@ -1,0 +1,80 @@
+---
+data:
+  identifier: g1-102-2011-e-3.20
+  localized_concepts:
+    eng: 5a636b08-0d9e-564b-afa9-87bcb34b574e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.20'
+status: valid
+id: 25c651e6-6fad-5ef0-8a43-84ba5ed01930
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: symmetric positive semi-definite matrix of dimension $ N\times N $ associated
+      with an estimate of a real vector quantity of dimension $ N\times 1 $ , containing
+      on its diagonal the squares of the standard uncertainties associated with the
+      respective components of the estimate of the quantity, and, in its off-diagonal
+      positions, the covariances associated with pairs of components of that estimate
+  examples: []
+  id: g1-102-2011-e-3.20-eng
+  notes:
+  - content: Adapted from JCGM 101:2008 definition 3.11.
+  - content: A covariance matrix $ U_{x} $ of dimension $ N\times N $ associated with
+      the estimate x of a quantity X has the representation $\boldsymbol {U} _ {\boldsymbol
+      {x}} = \left[ \begin{array}{c c c} u \left(x _ {1}, x _ {1}\right) & \dots &
+      u \left(x _ {1}, x _ {N}\right) \\ \vdots & \ddots & \vdots \\ u \left(x _ {N},
+      x _ {1}\right) & \dots & u \left(x _ {N}, x _ {N}\right) \end{array} \right],$
+      where $ u ( x_{i}, x_{i} )=u^{2} ( x_{i} ) $ is the variance (squared standard
+      uncertainty) associated with $ x_{i} $ and $ u ( x_{i}, x_{j} ) $ is the covariance
+      associated with $ x_{i} $ and $ x_{j} $ . When elements $ X_{i} $ and $ X_{j}
+      $ of X are uncorrelated, $ u ( x_{i}, x_{j} )=0. $
+  - content: In GUM Supplement 1 [JCGM 101:2008], the measurement covariance matrix
+      is termed uncertainty matrix.
+  - content: Some numerical difficulties can occasionally arise when working with
+      covariance matrices. For instance, a covariance matrix $ U_{x} $ associated
+      with a vector estimate $ x $ may not be positive definite. That possibility
+      can be a result of the way $ U_{x} $ has been calculated. As a consequence,
+      the Cholesky factor of $ U_{x} $ may not exist. The Cholesky factor is used
+      in working numerically with $ U_{x} $ [7]; also see annex B. Moreover, the variance
+      associated with a linear combination of the elements of $ x $ could be negative,
+      when otherwise it would be expected to be small and positive. In such a situation
+      procedures exist for "repairing" $ U_{x} $ such that the repaired covariance
+      matrix is positive definite. As a result, the Cholesky factor would exist, and
+      variances of such linear combinations would be positive as expected.
+  - content: Certain operations involving $ U_{x} $ require positive definiteness.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.20'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement covariance matrix
+  - type: expression
+    normative_status: admitted
+    designation: covariance matrix
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5a636b08-0d9e-564b-afa9-87bcb34b574e
+

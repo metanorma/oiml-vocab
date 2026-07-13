@@ -1,0 +1,55 @@
+---
+data:
+  identifier: b18-2017-e-3.11
+  localized_concepts:
+    eng: 0b9dc7b2-e721-50f6-ab95-7f305ccb11f7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:18:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+status: valid
+id: ebcfda56-6cc3-5ff5-847b-affe1a61c6bf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: identifiable group of measuring instruments belonging to the same manufactured
+      type that have the same design features and metrological principles for measurement
+      but which may differ in some metrological and technical performance characteristics,
+      as defined in the relevant Recommendation
+  examples: []
+  id: b18-2017-e-3.11-eng
+  notes:
+  - content: The concept of a "family" primarily aims to reduce the testing required
+      for OIML type evaluation. It does not preclude the possibility of listing more
+      than one family in one OIML Certificate.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: family of measuring instruments
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0b9dc7b2-e721-50f6-ab95-7f305ccb11f7
+

@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r129-1-2020-deu-2.3.5
+  localized_concepts:
+    deu: c2ca3743-1764-5548-9f35-058cd66023aa
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+status: valid
+id: 47010ff7-a3da-5816-a7eb-06331483b3d1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Differenz zwischen der Abweichung der Anzeige und der Eigenabweichung
+      eines Messgeräts
+  examples: []
+  id: r129-1-2020-deu-2.3.5-deu
+  notes:
+  - content: Ein Fehler ist hauptsächlich das Ergebnis einer unerwünschten Änderung
+      von Daten, die in einem elektronischen Messgerät enthalten sind oder durch ein
+      solches Messgerät geleitet werden.
+  - content: Aus der Definition folgt, dass ein "Fehler" ein numerischer Wert ist,
+      der entweder in einer Maßeinheit oder als Relativwert, z. B. als Prozentsatz,
+      ausgedrückt wird.
+  - content: 'Source citation: VIML 5.12'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c2ca3743-1764-5548-9f35-058cd66023aa
+

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r107-1-2007-eng-T.2.7.7.1
+  localized_concepts:
+    eng: 36df33d9-4d21-5937-ba12-dd543121c98c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.7.7.1
+    type: authoritative
+status: valid
+id: 593ecb74-40c1-564d-bc79-c10cfceb2389
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Programs, data, type specific and device specific parameters that belong
+      to the measuring instrument or module, and that define or fulfill functions
+      which are subject to legal control.
+  examples: []
+  id: r107-1-2007-eng-T.2.7.7.1-eng
+  notes:
+  - content: 'Examples of legally relevant software are: final results of the weighing
+      including the decimal sign and the unit, identification of the weighing range
+      and the load receptor (if several load receptors have been used).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.2.7.7.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant software
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 36df33d9-4d21-5937-ba12-dd543121c98c
+

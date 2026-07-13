@@ -1,0 +1,70 @@
+---
+data:
+  identifier: g1-102-2011-e-3.28
+  localized_concepts:
+    eng: bfd39b37-18a9-5fbb-b3aa-b4d4dc591bc3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.28'
+status: valid
+id: 18576abe-cb28-59be-9925-dac14291741e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: probability distribution of a random variable $ X $ of dimension $ N\times1
+      $ having the joint probability density function $ g _ {\boldsymbol {X}} (\boldsymbol
+      {\xi}) = \frac {\Gamma \left(\frac {\nu + N}{2}\right)}{\Gamma \left(\frac {\nu}{2}\right)
+      \left(\pi \nu\right) ^ {N / 2}} \times \frac {1}{\left[ \det (\boldsymbol {V})
+      \right] ^ {1 / 2}} \left[ 1 + \frac {1}{\nu} \left(\boldsymbol {\xi} - \boldsymbol
+      {\mu}\right) ^ {\top} \boldsymbol {V} ^ {- 1} \left(\boldsymbol {\xi} - \boldsymbol
+      {\mu}\right) \right] ^ {- (\nu + N) / 2},$ with parameters $ \mu, V $ and $
+      \nu $ , where $ V $ is symmetric positive definite and $ \Gamma (z) = \int_
+      {0} ^ {\infty} t ^ {z - 1} \mathrm {e} ^ {- t} \mathrm {d} t, \quad z > 0,$
+      is the gamma function
+  examples:
+  - content: When N=2, $ \nu=5 $ , and $ \boldsymbol{V} $ is the identity matrix of
+      dimension $ 2\times 2 $ , the probability that $ X_{1}>1 $ is 18 % , while the
+      conditional probability that $ X_{1}>1 $ given that $ X_{2}>2 $ is 26 %.
+  id: g1-102-2011-e-3.28-eng
+  notes:
+  - content: The multivariate t-distribution is based on the observation that if a
+      vector random variable Q of dimension $ N\times1 $ and a scalar random variable
+      W are independent and have respectively a Gaussian distribution with zero expectation
+      and positive definite covariance matrix V of dimension $ N\times N $ , and a
+      chi-squared distribution with $ \nu $ degrees of freedom, and $ (\nu /W)^{1
+      / 2} Q=X-\mu $ , then X has the given probability distribution.
+  - content: "$ g_{X}(\\boldsymbol{\\xi}) $ does not factorize into the product of
+      N probability density functions even when V is a diagonal matrix. Generally,
+      the components of X are statistically dependent random variables."
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.28'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multivariate t-distribution
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bfd39b37-18a9-5fbb-b3aa-b4d4dc591bc3
+

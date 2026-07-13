@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-1-2017-eng-3.5.5
+  localized_concepts:
+    eng: 69be1b27-0e77-593c-b4d9-06ceca11aa2e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.5
+    type: authoritative
+status: valid
+id: b68bfd83-00d7-59b0-8edc-a34d1b86df38
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: largest value of a quantity expressed in units of mass, which may be
+      applied to a load cell
+  examples: []
+  id: r60-1-2017-eng-3.5.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum capacity
+  - type: symbol
+    designation: "$E_{\\mathrm{max}}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 69be1b27-0e77-593c-b4d9-06ceca11aa2e
+

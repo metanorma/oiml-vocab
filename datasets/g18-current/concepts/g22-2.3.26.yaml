@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g22-2.3.26
+  localized_concepts:
+    eng: 97d445bd-84dd-5962-833f-03560a7271fe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.26
+    type: authoritative
+status: valid
+id: c6a0db01-f6f5-5099-a6d1-317cdc07d80a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition that must be fulfilled during measurement in order
+      that a measuring instrument or measuring system perform as designed
+  examples: []
+  id: g22-2.3.26-eng
+  notes:
+  - content: Rated operating conditions generally specify intervals of values for
+      a quantity being measured and for any influence quantity.
+  - content: 'Source citation: OIML D 11:2013, 3.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.26
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated operating condition
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 97d445bd-84dd-5962-833f-03560a7271fe
+

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r150-2.1.6
+  localized_concepts:
+    eng: 37765495-0aa3-575e-81dc-6944e1dbc691
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.6
+    type: authoritative
+status: valid
+id: c9212fff-beea-542a-b71c-5659b910901a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: method used to determine the mass of the product used as the test load
+      during product tests
+  examples: []
+  id: r150-2.1.6-eng
+  notes:
+  - content: This will generally involve the use of a weighing instrument, referred
+      to as the control instrument (see 2.1.10).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: control method
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 37765495-0aa3-575e-81dc-6944e1dbc691
+

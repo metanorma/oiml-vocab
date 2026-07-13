@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.3
+    type: authoritative
 status: valid
 id: c169b591-0027-4d43-a45a-26b92f986c5a
 schema_version: '3'
@@ -15,15 +24,25 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'reading of the weighing result by simple juxtaposition of consecutive figures giving the weighing result, without the need of calculation'
-  id: 00973-eng
+  - content: reading of the weighing result by simple juxtaposition of consecutive
+      figures giving the weighing result, without the need of calculation
+  id: '00973-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.3
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reading by simple juxtaposition'
+    designation: reading by simple juxtaposition
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 9eaa47d9-5e87-5556-9334-7ff6c5722598
+

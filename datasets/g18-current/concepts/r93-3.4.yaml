@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r93-3.4
+  localized_concepts:
+    eng: '018252c2-fa54-5e1c-b636-4a5127a88e7e'
+    fra: 802c61b3-a24e-53e5-825d-fd92ee52bf61
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:93:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+status: valid
+id: dfa63fb0-efd2-566c-a4ea-de4660450c2e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aperture on the instrument against which the lens or contact lens is
+      placed for measurement.
+  examples: []
+  id: r93-3.4-eng
+  notes:
+  - content: The focimeter measures the vertex power relative to the surface placed
+      against the lens support.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lens support
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '018252c2-fa54-5e1c-b636-4a5127a88e7e'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ouverture de l'instrument sur laquelle on place le verre ou la lentille
+      de contact à mesurer.
+  examples: []
+  id: r93-3.4-fra
+  notes:
+  - content: Le frontofocomètre mesure la puissance frontale par rapport à la surface
+      placée sur le support de verre.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Support de verre
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 802c61b3-a24e-53e5-825d-fd92ee52bf61
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r137-1-2-2012-eng-3.3.4
+  localized_concepts:
+    eng: 6f41d73f-c033-5180-ac08-f9520cd083b4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+status: valid
+id: 98fddb21-af33-552f-9def-4f88eabf5020
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Flow rate which occurs between the maximum flow rate Q_max and the minimum
+      flow rate Q_min that divides the flow rate range into two zones, the "upper
+      zone" and the "lower zone", each characterized by its own maximum permissible
+      error.
+  examples: []
+  id: r137-1-2-2012-eng-3.3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transitional flow rate
+  - type: symbol
+    normative_status: admitted
+    designation: Q_t
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6f41d73f-c033-5180-ac08-f9520cd083b4
+

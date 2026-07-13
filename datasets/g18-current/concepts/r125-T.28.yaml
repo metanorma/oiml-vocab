@@ -1,0 +1,104 @@
+---
+data:
+  identifier: r125-T.28
+  localized_concepts:
+    eng: 4f11a771-ca50-54c8-8657-86c170cdecb8
+    fra: b4705a47-2d05-5d68-82c2-e6ad5e2e1508
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.28
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.28
+    type: authoritative
+status: valid
+id: f0c96882-b32d-520e-bdb0-95806358f604
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A fault greater than the absolute value of the maximum permissible error
+      for the minimum quantity.
+  examples: []
+  id: r125-T.28-eng
+  notes:
+  - content: 'The following faults are not considered to be significant, even when
+      they exceed the value defined above: (a) faults arising from simultaneous and
+      mutually independent causes in the measuring instrument itself or in its checking
+      facilities; (b) faults implying the impossibility to perform any measurement;
+      (c) transitory faults being momentary variations in the indication, which cannot
+      be interpreted, memorized or transmitted as a measurement result; and (d) faults
+      giving rise to variations in the measurement result which are so serious that
+      they are bound to be noticed by all those interested in the measurement result.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.28
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4f11a771-ca50-54c8-8657-86c170cdecb8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Defaut superieur a la valeur absolue de l'erreur maximale toleree pour
+      la quantite minimale.
+  examples: []
+  id: r125-T.28-fra
+  notes:
+  - content: 'Les defauts suivants ne sont pas consideres comme significatifs, meme
+      s''ils depassent la valeur definie ci-dessus: (a) defauts provenant de causes
+      simultanees et mutuellement independantes, dans l''instrument de mesure lui-meme
+      ou dans son dispositif de controle; (b) defauts rendant impossible l''accomplissement
+      de toute mesure; (c) defauts transitoires consistant en des variations momentanees
+      de l''indication ne pouvant etre interpretees, mises en memoire ou transmises
+      comme des resultats de mesure; et (d) defauts provoquant des variations des
+      resultats de mesure si importantes que leur manifestation apparait evidente
+      aux personnes interessees au resultat de mesure.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.28
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Defaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b4705a47-2d05-5d68-82c2-e6ad5e2e1508
+

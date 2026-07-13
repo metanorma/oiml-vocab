@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r146-1-2016-eng-2.2.15
+  localized_concepts:
+    eng: 0af743d1-8e6a-56a9-a317-c913ed8bd008
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+status: valid
+id: 0f618e2c-e0cd-55c7-aca0-ca4bf9d8a935
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement variation (relative to the P_MB values obtained at reference
+      conditions) resulting from the range of grain sample temperatures permitted
+      in commercial measurements
+  examples: []
+  id: r146-1-2016-eng-2.2.15-eng
+  notes:
+  - content: STS is controlled in approved P_MB calibrations. During assessment, a
+      limit is placed on the value of the average error shift caused by allowable
+      temperature variations.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sample temperature sensitivity
+  - type: abbreviation
+    designation: STS
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0af743d1-8e6a-56a9-a317-c913ed8bd008
+

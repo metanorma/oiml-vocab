@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r89-1990-e-5.3.8
+  localized_concepts:
+    eng: 1b6cc13a-e36c-51fe-8f54-dfd3e9635d84
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+status: valid
+id: dfbfd5fb-8d90-546d-ac89-3da93672ceb6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The electroencephalograph time constant is defined as the time interval
+      required for a recorded square-wave signal amplitude to decay to 1/e (37 %)
+      of an initial value.
+  examples: []
+  id: r89-1990-e-5.3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: time constant
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1b6cc13a-e36c-51fe-8f54-dfd3e9635d84
+

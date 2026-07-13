@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r85-3.8
+  localized_concepts:
+    eng: f7fcb581-cbe3-582b-bf51-c8d10d0b47fd
+    fra: f287a3f0-c1c6-52cf-9f6f-f6dfc44f2b59
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+status: valid
+id: e95d820b-23e2-501d-8e00-73f6160f811a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Part of the ALG that displays or prints the measuring result.
+  examples: []
+  id: r85-3.8-eng
+  notes:
+  - content: For the application of this Recommendation the meaning of "indicating
+      device" is broader than the general meaning in other OIML Recommendations (a
+      printing device is considered as such).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indicating device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7fcb581-cbe3-582b-bf51-c8d10d0b47fd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du JA qui affiche ou imprime les résultats de mesure.
+  examples: []
+  id: r85-3.8-fra
+  notes:
+  - content: Pour les besoins de cette Recommandation, la signification de "dispositif
+      indicateur" est plus large qu'au sens couramment adopté par l'OIML (un dispositif
+      imprimeur est considéré comme tel).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif indicateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f287a3f0-c1c6-52cf-9f6f-f6dfc44f2b59
+

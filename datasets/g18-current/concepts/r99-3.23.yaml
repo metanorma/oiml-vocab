@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r99-3.23
+  localized_concepts:
+    eng: 3239ed90-1cb5-512c-8bc4-1030022fc8ba
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:99:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+status: valid
+id: c9c278b2-718c-5615-8782-431ae7060eec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: number larger than one by which a combined standard measurement uncertainty
+      is multiplied to obtain an expanded measurement uncertainty
+  examples:
+  - content: 'Source citation: VIM:2007 2.38'
+  id: r99-3.23-eng
+  notes:
+  - content: A coverage factor is usually symbolized by the letter k.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coverage factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3239ed90-1cb5-512c-8bc4-1030022fc8ba
+

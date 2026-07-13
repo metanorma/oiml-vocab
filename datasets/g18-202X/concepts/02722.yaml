@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
 status: valid
 id: c23ad2c0-59f3-412b-8800-02798b190481
 schema_version: '3'
@@ -15,17 +24,29 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'association of metering calculator and operational calculator'
+  - content: association of metering calculator and operational calculator
   id: 02722-eng
   language_code: eng
   notes:
-  - content: 'The metering calculator and the operational calculator may be two separate elements or they may form a single unit. Only where there is a particular need to dissociate the two kinds of calculators is the association of both functions called the calculator in this Recommendation.'
-  sources: []
+  - content: The metering calculator and the operational calculator may be two separate
+      elements or they may form a single unit. Only where there is a particular need
+      to dissociate the two kinds of calculators is the association of both functions
+      called the calculator in this Recommendation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'calculator'
+    designation: calculator
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 9189b7ba-62ec-5753-b8e1-fe0e2a2db2b7
+

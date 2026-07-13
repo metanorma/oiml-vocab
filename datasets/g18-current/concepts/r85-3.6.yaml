@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r85-3.6
+  localized_concepts:
+    eng: 9dedfaf2-beb8-50f8-a8ca-eec5e4783f89
+    fra: e544842a-1a78-595a-afaa-f85550333af8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+status: valid
+id: 1a725c3c-1893-54fb-aaae-fccfc336a8b0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Sensor that measures a relevant property of the liquid and/or the medium
+      above the liquid level for the purpose of applying a correction to the liquid
+      level measurement.
+  examples: []
+  id: r85-3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Correction sensor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9dedfaf2-beb8-50f8-a8ca-eec5e4783f89
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Un détecteur mesurant une propriété caractéristique du liquide et/ou
+      du milieu au-dessus du niveau du liquide afin d'appliquer une correction au
+      mesurage du niveau de liquide.
+  examples: []
+  id: r85-3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detecteur pour correction
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e544842a-1a78-595a-afaa-f85550333af8
+

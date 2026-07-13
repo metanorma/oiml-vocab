@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r129-2.4.4
+  localized_concepts:
+    deu: 3281a1c4-b5e9-59e9-ae37-999d567e8190
+    eng: b026f8cf-7b43-5524-ba54-e2e776182cf4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.4
+    type: authoritative
+status: valid
+id: 0655ddb8-c9f8-5371-93f2-28af4f8d2293
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Prüfung zur Feststellung, ob das Prüfobjekt in der Lage ist, seine vorgesehenen
+      Funktionen auszuführen
+  examples: []
+  id: r129-2.4.4-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Funktionsprüfung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3281a1c4-b5e9-59e9-ae37-999d567e8190
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: test intended to verify whether the EUT is able to accomplish its intended
+      functions
+  examples: []
+  id: r129-2.4.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: performance test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b026f8cf-7b43-5524-ba54-e2e776182cf4
+

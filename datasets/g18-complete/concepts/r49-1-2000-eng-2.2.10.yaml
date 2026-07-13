@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r49-1-2000-eng-2.2.10
+  localized_concepts:
+    eng: 9c62b3ff-b8c8-5e6b-82e0-e5c0d56b566c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+status: valid
+id: d40bf804-9a41-5ab1-a157-1619f5bb9e68
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault the magnitude of which is greater than one half of the maximum
+      permissible error in the "upper zone"
+  examples: []
+  id: r49-1-2000-eng-2.2.10-eng
+  notes:
+  - content: 'Source citation: adapted from D 11 T.9'
+  - content: The following are not considered to be significant faults - faults arising
+      from simultaneous and mutually independent causes in the water meter itself
+      or in its checking facilities; and transitory faults being momentary variations
+      in the indication which cannot be interpreted, memorized or transmitted as a
+      measurement result.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9c62b3ff-b8c8-5e6b-82e0-e5c0d56b566c
+

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r89-1990-f-5.3.8
+  localized_concepts:
+    fra: 81e5edb4-a9ad-50be-86e2-fa3b59077c17
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+status: valid
+id: ae5cf98c-56ee-5463-bbaf-ec4b41db8883
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La constante de temps de l'électroencéphalographe est définie comme le
+      temps nécessaire pour que l'amplitude d'un signal rectangulaire enregistré diminue
+      jusqu'à 1/e (37 %) de sa valeur initiale.
+  examples: []
+  id: r89-1990-f-5.3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: constante de temps
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 81e5edb4-a9ad-50be-86e2-fa3b59077c17
+

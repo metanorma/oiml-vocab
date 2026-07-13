@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r72-1985-e-4
+  localized_concepts:
+    eng: ebf49f2e-387b-51d7-8172-c3d10f975bba
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:72:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4'
+status: valid
+id: dd4eeacb-75d2-53ba-808a-243b490dbaa8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The flowrate value corresponding to the upper limit of the flowrate range,
+      being the highest flowrate at which the hot water meter is required to give,
+      during a restricted or predetermined period of time, indications which are not
+      affected by an error exceeding the maximum permissible errors.
+  examples: []
+  id: r72-1985-e-4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum flowrate (Q_max)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ebf49f2e-387b-51d7-8172-c3d10f975bba
+

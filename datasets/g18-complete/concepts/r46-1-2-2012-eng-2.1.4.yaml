@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r46-1-2-2012-eng-2.1.4
+  localized_concepts:
+    eng: 9d459987-76f5-5a73-825a-5b61b780e85c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.4
+status: valid
+id: d36b3643-9e5a-5ad1-b46f-001f467c1399
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: electricity meter intended to measure and display electrical energy where
+      energy will have more than one tariff rate
+  examples: []
+  id: r46-1-2-2012-eng-2.1.4-eng
+  notes:
+  - content: The tariff rate may be determined by time, load or some other quantity.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multi-tariff meter
+  - type: expression
+    normative_status: admitted
+    designation: multi-rate meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d459987-76f5-5a73-825a-5b61b780e85c
+

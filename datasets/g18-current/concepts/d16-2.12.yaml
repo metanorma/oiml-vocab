@@ -1,0 +1,55 @@
+---
+data:
+  identifier: d16-2.12
+  localized_concepts:
+    eng: 9779b269-1dfd-5131-baa9-a9d7b592946a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:16:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 16:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+status: valid
+id: a9ce39d9-18a8-5746-a88e-6ef156ad2df8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: any verification of a measuring instrument after a previous verification
+      and including mandatory periodic verification and verification after repair
+  examples: []
+  id: d16-2.12-eng
+  notes:
+  - content: Subsequent verification of a measuring instrument may be carried out
+      before expiry of the period of validity of a previous verification either at
+      the request of the user (owner) or when its verification is declared to be no
+      longer valid.
+  - content: 'Source citation: VIML 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 16:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: subsequent verification
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9779b269-1dfd-5131-baa9-a9d7b592946a
+

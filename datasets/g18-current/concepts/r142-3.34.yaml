@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r142-3.34
+  localized_concepts:
+    eng: 812ceb2c-a90a-5987-b1a2-eaf2a93002d3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:142:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.34'
+    type: authoritative
+status: valid
+id: a0566686-b474-59c3-878f-beebf293c219
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: battery intended to power specific functions of an instrument in the
+      absence of the primary power supply.
+  examples:
+  - content: to preserve stored data
+  id: r142-3.34-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.34'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: back-up battery
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 812ceb2c-a90a-5987-b1a2-eaf2a93002d3
+

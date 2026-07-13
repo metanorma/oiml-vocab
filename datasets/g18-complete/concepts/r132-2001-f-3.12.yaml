@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r132-2001-f-3.12
+  localized_concepts:
+    fra: 5b5de5a2-6f86-5dc9-a9b1-3c3ed05c69a9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:132:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: 6ed04d3e-58c3-57d3-95b6-f6fc9d138d13
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Étroitesse de l'accord entre les résultats des mesures successives du
+      même échantillon effectuées dans les mêmes conditions et dans un laps de temps
+      relativement court.
+  examples: []
+  id: r132-2001-f-3.12-fra
+  notes:
+  - content: Par "mêmes conditions", il convient d'entendre même méthode de mesure,
+      même instrument de mesure, même opérateur, même lieu, et mêmes conditions ambiantes
+      environnementales.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Répétabilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5b5de5a2-6f86-5dc9-a9b1-3c3ed05c69a9
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r105-T.6
+  localized_concepts:
+    eng: bc1031d5-b21d-59f2-aa03-432376420ff5
+    fra: 640765d9-b725-50d7-90e8-4756cda82dd1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:105:1993
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    locality:
+      type: clause
+      reference_from: T.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    locality:
+      type: clause
+      reference_from: T.6
+    type: authoritative
+status: valid
+id: '068dc73b-3dbe-55ab-ac57-a413ebd9b13b'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The smallest quantity for which the measurement is metrologically acceptable
+      for the system.
+  examples: []
+  id: r105-T.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Minimum measured quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bc1031d5-b21d-59f2-aa03-432376420ff5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus petite quantite pour laquelle le mesurage est metrologiquement acceptable
+      pour l'ensemble considere.
+  examples: []
+  id: r105-T.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Quantite minimale mesuree
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 640765d9-b725-50d7-90e8-4756cda82dd1
+

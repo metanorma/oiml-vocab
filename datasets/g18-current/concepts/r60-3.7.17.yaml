@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-3.7.17
+  localized_concepts:
+    eng: 5b902f34-9bc5-5334-868b-01d82a292c75
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.7.17
+    type: authoritative
+status: valid
+id: '08b8d729-ba18-5047-b2bd-a1869b4be9f1'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value (For notes, refer to
+      the VIML [3]).
+  examples: []
+  id: r60-3.7.17-eng
+  notes:
+  - content: 'Source citation: VIML 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.7.17
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5b902f34-9bc5-5334-868b-01d82a292c75
+

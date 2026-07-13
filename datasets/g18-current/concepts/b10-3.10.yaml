@@ -1,0 +1,51 @@
+---
+data:
+  identifier: b10-3.10
+  localized_concepts:
+    eng: cdf63f1a-3d9b-59fc-85a6-f987b6651703
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:10:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 10:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: f6a45344-3ef3-5515-9315-a14867ff33b8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: participant (as defined in 3.8) from an OIML Member State that does not
+      issue any OIML MAA Type Evaluation Reports or MAA Certificates, but that utilizes
+      those issued by Issuing Participants
+  examples: []
+  id: b10-3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML B 10:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Utilizing Participant
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cdf63f1a-3d9b-59fc-85a6-f987b6651703
+

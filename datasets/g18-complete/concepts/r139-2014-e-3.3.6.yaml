@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r139-2014-e-3.3.6
+  localized_concepts:
+    eng: e6b021d8-198f-5753-841b-8c54715b184f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 3.3.6
+    type: authoritative
+status: valid
+id: aba8b368-38fa-5e9a-9287-e2ce5919a57d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: type of payment in attended service mode requiring payment for the delivered
+      quantity after the delivery but before the customer leaves the site of the delivery
+  examples: []
+  id: r139-2014-e-3.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 3.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: attended post-payment
+  - type: expression
+    normative_status: admitted
+    designation: post-payment
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e6b021d8-198f-5753-841b-8c54715b184f
+

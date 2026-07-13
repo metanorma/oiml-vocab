@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-101-2008-e-3.3
+  localized_concepts:
+    eng: cd3956df-6259-5ef4-8e96-6cb0604321f0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+status: valid
+id: 153727bf-bb9f-5d35-9999-4a725a40bf72
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: derivative, when it exists, of the distribution function $g _ {X} (\xi)
+      = \mathrm {d} G _ {X} (\xi) / \mathrm {d} \xi$
+  examples: []
+  id: g1-101-2008-e-3.3-eng
+  notes:
+  - content: $ g_{X}(\xi)\mathrm{d}\xi $ is the "probability element" $g _ {X} (\xi)
+      \mathrm{d} \xi = \Pr (\xi < X < \xi + \mathrm{d} \xi).$
+  - content: 'Source citation: Adapted from ISO 3534-1:1993 1.5; GUM:1995 C.2.5'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: probability density function
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cd3956df-6259-5ef4-8e96-6cb0604321f0
+

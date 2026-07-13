@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r124-9
+  localized_concepts:
+    fra: 28e1e8cf-be51-5797-abaf-1706abc24d27
+    eng: bcaf34f0-c22e-557c-9b8b-8a35dfa5312d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:124:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '9'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '9'
+    type: authoritative
+status: valid
+id: abbbeb27-77e5-5c6b-baf0-a508f3231450
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre l'erreur d'indication et l'erreur intrinsèque dont la
+      valeur absolue est supérieure à un échelon
+  examples: []
+  id: r124-9-fra
+  notes:
+  - content: 'Source citation: adapte de D 11 articles T.8 et T.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 28e1e8cf-be51-5797-abaf-1706abc24d27
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The difference between the error of indication and the intrinsic error,
+      whose absolute value is greater than one scale interval
+  examples: []
+  id: r124-9-eng
+  notes:
+  - content: 'Source citation: adapted from D 11 clauses T.8 and T.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bcaf34f0-c22e-557c-9b8b-8a35dfa5312d
+

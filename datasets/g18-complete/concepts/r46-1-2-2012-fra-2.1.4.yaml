@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r46-1-2-2012-fra-2.1.4
+  localized_concepts:
+    fra: d8db8b0f-2518-5919-b1f3-8949c9faf0e5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.4
+status: valid
+id: 2bea3533-61ad-5bec-b7fc-b621001aa05f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: compteur électrique destiné à mesurer et afficher l'énergie électrique
+      lorsque l'énergie aura plus d'un taux tarifaire
+  examples: []
+  id: r46-1-2-2012-fra-2.1.4-fra
+  notes:
+  - content: Le taux tarifaire peut être déterminé selon le temps, la charge ou autre
+      grandeur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur à tarifs multiples
+  - type: expression
+    normative_status: admitted
+    designation: compteur à taux multiples
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d8db8b0f-2518-5919-b1f3-8949c9faf0e5
+

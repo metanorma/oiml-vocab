@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r112-2.10
+  localized_concepts:
+    eng: f5213374-b181-59a6-a7df-ff3adbb2fdd3
+    fra: 3c55f520-09c2-5a1e-97e1-a7f224abd1f3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+status: valid
+id: 174f6f6b-e78c-5b08-9961-c2b3ba13468d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of concentrations or mass flow rates of a sample component
+      of interest over which the sensitivity of the detector is constant to within
+      5 %. Its value is the ratio of the upper limit of linearity to the detection
+      limit.
+  examples: []
+  id: r112-2.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linear range of a detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f5213374-b181-59a6-a7df-ff3adbb2fdd3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etendue des concentrations ou des debits massiques d'un composant de
+      l'echantillon examine pour laquelle la sensibilite du detecteur est constante
+      a 5 % pres. Sa valeur correspond au rapport de la limite superieure de linearite
+      a la limite de detection.
+  examples: []
+  id: r112-2.10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue lineaire d'un detecteur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3c55f520-09c2-5a1e-97e1-a7f224abd1f3
+

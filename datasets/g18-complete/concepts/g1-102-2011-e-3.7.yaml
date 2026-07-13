@@ -1,0 +1,63 @@
+---
+data:
+  identifier: g1-102-2011-e-3.7
+  localized_concepts:
+    eng: e0b76ca9-39fd-5b7f-a423-a1c864ae8556
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+status: valid
+id: 9895153c-49bd-5720-96d0-8a6248fc6fc7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: mathematical relation among all quantities known to be involved in a
+      measurement
+  examples: []
+  id: g1-102-2011-e-3.7-eng
+  notes:
+  - content: Adapted from JCGM 200:2008 definition 2.48.
+  - content: A general form of a measurement model is the equation $ h ( Y, X_{1},
+      \dots, X_{N} )=0 $ , where Y, the output quantity in the measurement model,
+      is the measurand, the quantity value of which is to be inferred from information
+      about input quantities $ X_{1},\dots,X_{N} $ in the measurement model.
+  - content: In cases where there are two or more output quantities in a measurement
+      model, the measurement model consists of more than one equation.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement model
+  - type: expression
+    normative_status: admitted
+    designation: model of measurement
+  - type: expression
+    normative_status: admitted
+    designation: model
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e0b76ca9-39fd-5b7f-a423-a1c864ae8556
+

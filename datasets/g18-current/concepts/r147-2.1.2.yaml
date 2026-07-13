@@ -1,0 +1,96 @@
+---
+data:
+  identifier: r147-2.1.2
+  localized_concepts:
+    eng: 1cea03a9-d6bd-54ac-99fb-243fb19522cf
+    fra: a46a61f3-d33c-58fd-b828-0f3bde66b404
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:147:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+status: valid
+id: 26fab27e-abf1-55db-adbc-367caf75abe4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication
+  examples: []
+  id: r147-2.1.2-eng
+  notes:
+  - content: 'Source citation: OIML V2-200:2012, 2.39'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1cea03a9-d6bd-54ac-99fb-243fb19522cf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: opération qui, dans des conditions spécifiées, établit en une première
+      étape une relation entre les valeurs et les incertitudes de mesure associées
+      qui sont fournies par des étalons et les indications correspondantes avec les
+      incertitudes associées, puis utilise en une seconde étape cette information
+      pour établir une relation permettant d'obtenir un résultat de mesure à partir
+      d'une indication
+  examples: []
+  id: r147-2.1.2-fra
+  notes:
+  - content: 'Source citation: OIML V2-200:2012, 2.39 [2]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: etalonnage
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a46a61f3-d33c-58fd-b828-0f3bde66b404
+

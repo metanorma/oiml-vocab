@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r49-1-2013-eng-3.2.14
+  localized_concepts:
+    eng: 71a51e25-1e91-5148-bf57-4601c06a9041
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.14
+status: valid
+id: 63404a94-0319-5100-b510-ba5d8fe8a27c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: smallest difference between displayed indications that can be meaningfully
+      distinguished
+  examples: []
+  id: r49-1-2013-eng-3.2.14-eng
+  notes:
+  - content: For a digital indicating device, this is the change in the indication
+      when the least significant digit changes by one step.
+  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.15.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.14
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolution of a displaying device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 71a51e25-1e91-5148-bf57-4601c06a9041
+

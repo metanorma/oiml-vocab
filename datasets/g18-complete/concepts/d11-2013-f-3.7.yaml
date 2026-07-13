@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d11-2013-f-3.7
+  localized_concepts:
+    fra: 76434525-eb14-5373-81ff-3cf70628c289
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: eb5db3bd-5e30-5729-aee7-ac87f8c2a7d2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur extrême de l'erreur de mesure, par rapport à une valeur de référence
+      connue, qui est tolérée par les spécifications ou règlements pour un mesurage,
+      un instrument de mesure, ou un système de mesure donné
+  examples: []
+  id: d11-2013-f-3.7-fra
+  notes:
+  - content: 'Source citation: VIM 4.26; VIML 0.04'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée (d'un instrument de mesure)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 76434525-eb14-5373-81ff-3cf70628c289
+

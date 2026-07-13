@@ -1,0 +1,57 @@
+---
+data:
+  identifier: g1-102-2011-e-3.16
+  localized_concepts:
+    eng: 95bbbb02-3e3b-5a4a-ab38-d435a845c783
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-102:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.16'
+status: valid
+id: 228d5691-2a00-5c19-a855-bfe4e279070d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: property of a random variable $ X_{i} $ , a component of $ \boldsymbol{X}
+      $ having probability density function $ g_{\boldsymbol{X}}(\boldsymbol{\xi})
+      $ , given by $ E \left(X _ {i}\right) = \int_ {- \infty} ^ {\infty} \dots \int_
+      {- \infty} ^ {\infty} \xi_ {i} g _ {\boldsymbol {X}} (\boldsymbol {\xi}) \mathrm
+      {d} \xi_ {N} \dots \mathrm {d} \xi_ {1} = \int_ {- \infty} ^ {\infty} \xi_ {i}
+      g _ {X _ {i}} \left(\xi_ {i}\right) \mathrm {d} \xi_ {i}$
+  examples: []
+  id: g1-102-2011-e-3.16-eng
+  notes:
+  - content: Generalized from JCGM 101:2008 definition 3.6.
+  - content: The expectation of the random variable $ \boldsymbol{X} $ is $ \boldsymbol{E}(\boldsymbol{X})=(E(X_{1}),\dots,E(X_{N}))^{\top}
+      $ , a matrix of dimension $ N\times1. $
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-102:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: expectation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 95bbbb02-3e3b-5a4a-ab38-d435a845c783
+

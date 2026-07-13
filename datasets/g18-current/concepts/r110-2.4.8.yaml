@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r110-2.4.8
+  localized_concepts:
+    eng: e4035496-7858-5299-87fe-d39330783202
+    fra: 58696358-cfb4-5065-9aae-bb5d67b9c4b4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    type: authoritative
+status: valid
+id: ff9f488c-0733-5b3c-9655-dc717c6d8437
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: For a pressure balance tested by comparison against a standard pressure
+      balance, the minimum change in load that results in a detectable change in the
+      equilibrium of both the tested and the standard pressure balances.
+  examples: []
+  id: r110-2.4.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cross float sensitivity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4035496-7858-5299-87fe-d39330783202
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pour un manometre a piston essaye par comparaison a un manometre a piston
+      etalon, la plus petite variation de charge qui entraine une variation detectable
+      de l'equilibre des deux manometres a piston, l'essai et l'etalon.
+  examples: []
+  id: r110-2.4.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilite du flotteur croise
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 58696358-cfb4-5065-9aae-bb5d67b9c4b4
+

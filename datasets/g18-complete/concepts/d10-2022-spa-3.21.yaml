@@ -1,0 +1,60 @@
+---
+data:
+  identifier: d10-2022-spa-3.21
+  localized_concepts:
+    spa: 2ee4cfe0-106e-59d5-b309-a068150f8ee2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.21'
+    type: authoritative
+status: valid
+id: a69eb25d-33b0-5618-801c-45374ea883ae
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valor de una magnitud que sirve como base de comparación con valores
+      de magnitudes del mismo tipo
+  examples: []
+  id: d10-2022-spa-3.21-spa
+  notes:
+  - content: El valor de referencia puede ser un valor verdadero de un mensurando,
+      en cuyo caso es desconocido, o un valor convencional, en cuyo caso es conocido.
+  - content: Un valor de referencia con su incertidumbre de medición asociada habitualmente
+      se refiere a un material, por ejemplo, un material de referencia certificado;
+      un dispositivo, por ejemplo, un láser estabilizado; un procedimiento de medición
+      de referencia; o una comparación de patrones de medición.
+  - content: 'Source citation: VIM3, 5.18'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.21'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valor de referencia de una magnitud
+  - type: expression
+    normative_status: admitted
+    designation: valor de referencia
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2ee4cfe0-106e-59d5-b309-a068150f8ee2
+

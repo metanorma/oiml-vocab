@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-101-2008-e-3.5
+  localized_concepts:
+    eng: 107ad330-7b3c-5f19-9718-6406bb961c4e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+status: valid
+id: de42f19a-8802-5df4-8449-42b8ed344c37
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: probability distribution of a continuous random variable X having the
+      probability density function $g _ {X} (\xi) = \frac {\Gamma ((\nu + 1) / 2)}{\sqrt
+      {\pi \nu} \Gamma (\nu / 2)} \left(1 + \frac {\xi^ {2}}{\nu}\right) ^ {- (\nu
+      + 1) / 2},$ for $ - \infty < \xi < + \infty $ , with parameter $ \nu $ , a positive
+      integer, the degrees of freedom of the distribution, where $ \Gamma (z) = \int_
+      {0} ^ {\infty} t ^ {z - 1} \mathrm {e} ^ {- t} \mathrm{d} t, \quad z > 0,$ is
+      the gamma function
+  examples: []
+  id: g1-101-2008-e-3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: t-distribution
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 107ad330-7b3c-5f19-9718-6406bb961c4e
+

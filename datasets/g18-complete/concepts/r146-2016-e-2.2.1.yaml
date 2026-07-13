@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r146-2016-e-2.2.1
+  localized_concepts:
+    eng: 8e204c7f-037a-5fca-8ba4-c66a7383aafb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+status: valid
+id: 96ca4df3-ab92-5fd0-a6b2-38aecce245b0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: performance characteristic of a calibration assessed at reference conditions
+  examples: []
+  id: r146-2016-e-2.2.1-eng
+  notes:
+  - content: The assessment requires calculation of $ \overline{y} $ , the bias over
+      a set of test samples or the 'calibration bias', and the standard error of prediction
+      (SEP) which is the standard deviation of measurement errors from the same sample
+      set. Refer to R 146-2, Annex A, A.7.1 for the calculation of $ \overline{y}
+      $ and SEP from measured values. The limiting values for $ \overline{y} $ and
+      SEP in 4.5, Table 4 shall be observed in order to deem a calibration as sufficiently
+      accurate.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy of a grain protein calibration
+  - type: expression
+    normative_status: admitted
+    designation: calibration accuracy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8e204c7f-037a-5fca-8ba4-c66a7383aafb
+

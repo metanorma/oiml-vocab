@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r87-2016-spa-2.1.2.2
+  localized_concepts:
+    spa: df3eae06-211b-50d3-b2a5-1883fb57ba1a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.2
+    type: authoritative
+status: valid
+id: b521222c-fee9-5f9f-83b3-6323eda7363e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Diferencia entre la cantidad real de producto en un preempacado y su
+      cantidad nominal.
+  examples: []
+  id: r87-2016-spa-2.1.2.2-spa
+  notes:
+  - content: El error individual del preempacado para un preempacado "i" se designa
+      mediante el símbolo E_i o e_i y se puede calcular mediante E_i=Q_i-Q_nom o mediante
+      e_i=q_i-Q_nom en donde Q_nom es la cantidad nominal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error individual del preempacado
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: df3eae06-211b-50d3-b2a5-1883fb57ba1a
+

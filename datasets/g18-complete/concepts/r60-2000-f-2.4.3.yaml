@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r60-2000-f-2.4.3
+  localized_concepts:
+    fra: f16ab5b7-1221-5627-b7e7-735f9dd0dd41
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.3
+    type: authoritative
+status: valid
+id: 6da62c73-b007-59cc-b758-97da8c6dcfe4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur définissant un intervalle, autour du résultat d'un mesurage,
+      dont on puisse s'attendre à ce qu'il comprenne une fraction élevée de la distribution
+      des valeurs qui pourraient être attribuées raisonnablement au mesurande.
+  examples: []
+  id: r60-2000-f-2.4.3-fra
+  notes:
+  - content: 'Source citation: Guide pour l''Expression de l''Incertitude de Mesure,
+      BIPM, CEI, IFCC, ISO, IUPAC, IUPAP, OIML, 1993'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Incertitude élargie
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f16ab5b7-1221-5627-b7e7-735f9dd0dd41
+

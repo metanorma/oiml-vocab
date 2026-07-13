@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r85-1-2-2008-eng-3.33
+  localized_concepts:
+    eng: eea08a65-cba5-5eff-8901-f5480201ac5a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85-1-2:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.33'
+status: valid
+id: 9c77bab0-76c6-5261-929e-8c3468088ebc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fault greater than the maximum permissible error specified in Table 2.
+  examples: []
+  id: r85-1-2-2008-eng-3.33-eng
+  notes:
+  - content: The following faults are considered not to be significant, even when
+      they exceed the value defined above - faults arising from simultaneous and mutually
+      independent causes in the ALG itself or in its checking facilities; faults implying
+      the impossibility to perform any measurement; transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorized or transmitted
+      as a measurement result; faults giving rise to variations in the measurement
+      results so serious that they are bound to be noticed by all those interested
+      in the result of the measurement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.33'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eea08a65-cba5-5eff-8901-f5480201ac5a
+

@@ -1,0 +1,84 @@
+---
+data:
+  identifier: r46-2012-e-2.1.1
+  localized_concepts:
+    eng: ec32c7da-1f5e-5c1b-9789-157a7f8611a7
+    fra: 29ebb027-54a8-544a-bf9f-09eafa2095b5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+status: valid
+id: df1e080f-1460-50d0-94fd-ae8dfbe6cba3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument intended to measure electrical energy continuously by integrating
+      power with respect to time and to store the result
+  examples: []
+  id: r46-2012-e-2.1.1-eng
+  notes:
+  - content: It is recognized that "continuously" may also cover meters with a sampling
+      rate sufficiently high to fulfil the requirements of this Recommendation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: electricity meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec32c7da-1f5e-5c1b-9789-157a7f8611a7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument destiné à mesurer l'énergie électrique en continu par intégration
+      de la puissance en fonction du temps et à stocker le résultat
+  examples: []
+  id: r46-2012-e-2.1.1-fra
+  notes:
+  - content: Il est admis que "en continu" peut également couvrir les compteurs avec
+      un taux d'échantillonnage suffisamment élevé pour satisfaire aux exigences de
+      la présente Recommandation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur électrique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 29ebb027-54a8-544a-bf9f-09eafa2095b5
+

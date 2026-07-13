@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r87-2016-spa-2.1.2.3
+  localized_concepts:
+    spa: f2d9b2e0-3742-5943-9ecd-3d29e2e7599c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.3
+    type: authoritative
+status: valid
+id: 96c1d989-28fd-551c-8036-e685ce73f704
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Deficiencia que es superior a la deficiencia tolerable aplicable (T)
+      (ver 2.1.17) pero que no es superior al doble de la deficiencia tolerable aplicable
+      (2T) para la cantidad nominal dada.
+  examples: []
+  id: r87-2016-spa-2.1.2.3-spa
+  notes:
+  - content: Ver el Anexo G, en donde se presenta un ejemplo de la aplicación de los
+      errores.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error T1
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f2d9b2e0-3742-5943-9ecd-3d29e2e7599c
+

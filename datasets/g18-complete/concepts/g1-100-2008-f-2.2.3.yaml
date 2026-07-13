@@ -1,0 +1,63 @@
+---
+data:
+  identifier: g1-100-2008-f-2.2.3
+  localized_concepts:
+    fra: 65b90ebf-40ee-5dd1-afe2-0ff14cbfee34
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 2.2.3
+    type: authoritative
+status: valid
+id: fdf60e28-e875-582d-b9e1-67d8d86d1c58
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: paramètre, associé au résultat d'un mesurage, qui caractérise la dispersion
+      des valeurs qui pourraient raisonnablement être attribuées au mesurande
+  examples: []
+  id: g1-100-2008-f-2.2.3-fra
+  notes:
+  - content: Le paramètre peut être, par exemple, un écart-type (ou un multiple de
+      celui-ci) ou la demi-largeur d'un intervalle de niveau de confiance déterminé.
+  - content: L'incertitude de mesure comprend, en général, plusieurs composantes.
+      Certaines peuvent être évaluées à partir de la distribution statistique des
+      résultats de séries de mesurages et peuvent être caractérisées par des écarts-types
+      expérimentaux. Les autres composantes, qui peuvent aussi être caractérisées
+      par des écarts-types, sont évaluées en admettant des lois de probabilité, d'après
+      l'expérience acquise ou d'après d'autres informations.
+  - content: Il est entendu que le résultat du mesurage est la meilleure estimation
+      de la valeur du mesurande, et que toutes les composantes de l'incertitude, y
+      compris celles qui proviennent d'effets systématiques, telles que les composantes
+      associées aux corrections et aux étalons de référence, contribuent à la dispersion.
+  - content: 'Source citation: VIM:1993, definition 3.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 2.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitude (de mesure)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 65b90ebf-40ee-5dd1-afe2-0ff14cbfee34
+

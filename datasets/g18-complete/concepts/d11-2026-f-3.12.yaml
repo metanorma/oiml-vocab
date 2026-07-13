@@ -1,0 +1,62 @@
+---
+data:
+  identifier: d11-2026-f-3.12
+  localized_concepts:
+    fra: b05dc500-0a50-5611-b96a-be222f3744cf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+status: valid
+id: f865aa68-0e16-5b71-8755-eab35e9f8214
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: défaut excédant la valeur limite du défaut applicable
+  examples: []
+  id: d11-2026-f-3.12-fra
+  notes:
+  - content: 'Pour des types d''instrument de mesure donnés, certains défauts excédant
+      la valeur limite du défaut peuvent ne pas être considérés comme des défauts
+      significatifs. La Recommandation applicable doit indiquer quand de telles exceptions
+      s''appliquent. Par exemple, l''apparition d''un ou plusieurs des défauts suivants
+      peut être acceptable: (a) défauts provenant de causes simultanées et mutuellement
+      indépendantes dans l''instrument de mesure ou dans ses systèmes de contrôle;
+      (b) défauts rendant impossible l''accomplissement de toute mesure; (c) défauts
+      transitoires provenant de variations momentanées de l''indication, qui ne peuvent
+      être interprétés, mises en mémoire ou transmises comme un résultat de mesure;
+      (d) défauts provoquant des variations du résultat de mesurage suffisamment importantes
+      pour être identifiées par tous ceux intéressés par le résultat de mesurage;
+      la Recommandation applicable peut spécifier la nature de ces variations.'
+  - content: 'Source citation: VIML 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b05dc500-0a50-5611-b96a-be222f3744cf
+

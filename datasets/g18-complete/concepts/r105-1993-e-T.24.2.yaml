@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r105-1993-e-T.24.2
+  localized_concepts:
+    eng: bde8f0f9-162d-5b5f-bcce-b5c00bcd57e1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:105:1993
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.24.2
+status: valid
+id: '09adbdd7-ce36-5bb7-a1e0-b376f293759b'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An influence quantity having a value within the limits specified hereafter
+      in this Recommendation, but outside the specified rated operating conditions
+      of the measuring system.
+  examples: []
+  id: r105-1993-e-T.24.2-eng
+  notes:
+  - content: An influence quantity is a disturbance if, for that influence quantity,
+      the rated operating conditions are not specified.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.24.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bde8f0f9-162d-5b5f-bcce-b5c00bcd57e1
+

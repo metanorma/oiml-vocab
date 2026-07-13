@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-101-2008-e-3.20
+  localized_concepts:
+    eng: 957f3062-2238-5b05-8530-a66fa0eff9f7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.20'
+status: valid
+id: 590f00d4-961a-5733-b4c8-1df9ee2c8a25
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: semi-width of the shortest interval containing all numbers that can correctly
+      be expressed to a specified number of significant decimal digits
+  examples:
+  - content: All numbers greater than 1.75 and less than 1.85 can be expressed to
+      two significant decimal digits as 1.8. The numerical tolerance is $ ( 1.85-1.75
+      ) / 2=0.05.$
+  id: g1-101-2008-e-3.20-eng
+  notes:
+  - content: For the calculation of numerical tolerance associated with a numerical
+      value, see 7.9.2.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.20'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: numerical tolerance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 957f3062-2238-5b05-8530-a66fa0eff9f7
+

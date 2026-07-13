@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r123-1997-f-3.2
+  localized_concepts:
+    fra: e0da7511-057d-5901-b790-782e247beaa2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+status: valid
+id: dbfdf891-e0e3-5dfb-b7f6-2c01c8c9aa09
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Concentration d''un element fournissant un signal de sortie equivalent
+      a trois fois l''ecart type du fond de rayonnement. Il s''agit de la quantite
+      minimale detectable d''un element. Dans le cadre de cette Recommandation, elle
+      peut etre derivee de la variation statistique du fond de rayonnement en utilisant
+      l''equation suivante: D = 3(B/t)^(1/2) / S ou: D = limite de detection (unite
+      de concentration); B = fond de rayonnement (impulsions de comptage par seconde);
+      t = duree de mesurage (secondes); S = sensibilite (impulsions de comptage par
+      seconde par unite de concentration).'
+  examples: []
+  id: r123-1997-f-3.2-fra
+  notes:
+  - content: Lorsqu'appliquee dans une methode de mesurage ou pour une analyse, la
+      limite de quantification de l'instrument constitue un parametre important. Elle
+      est definie comme etant une valeur egale a 10 fois l'ecart type du fond de rayonnement
+      et devrait aussi inclure les variations associees a l'echantillonnage et a l'analyse.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de detection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e0da7511-057d-5901-b790-782e247beaa2
+

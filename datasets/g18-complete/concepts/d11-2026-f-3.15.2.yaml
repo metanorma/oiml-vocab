@@ -1,0 +1,59 @@
+---
+data:
+  identifier: d11-2026-f-3.15.2
+  localized_concepts:
+    fra: f1ffa4bb-2a59-5759-a945-fc7ab4d89104
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: 3.15.2
+    type: authoritative
+status: valid
+id: efb22668-fdab-5518-af46-2475204b1e09
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      dans la Recommandation applicable, mais en dehors des conditions assignées de
+      fonctionnement spécifiées de l'instrument de mesure.
+  examples: []
+  id: d11-2026-f-3.15.2-fra
+  notes:
+  - content: Ces limites spécifiées dans la Recommandation applicable, doivent être
+      basées sur la probabilité d'occurrence du phénomène perturbant dans l'environnement
+      de l'instrument de mesure.
+  - content: Une perturbation est typiquement de nature stochastique.
+  - content: Dans le cas où les conditions assignées de fonctionnement listées d'un
+      instrument de mesure n'incluent pas une plage pour la grandeur d'influence spécifique,
+      la grandeur spécifique est qualifiée comme étant une perturbation.
+  - content: 'Source citation: VIML 5.19'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: 3.15.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f1ffa4bb-2a59-5759-a945-fc7ab4d89104
+

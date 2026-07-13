@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g22-2.3.20
+  localized_concepts:
+    eng: 4d53618e-d804-555a-9efe-e26e95da4c8e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.20
+    type: authoritative
+status: valid
+id: 85d560c9-bd62-5e9d-8b20-ac05f36a07b3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: error of a measuring instrument, determined under reference conditions
+  examples: []
+  id: g22-2.3.20-eng
+  notes:
+  - content: 'Source citation: OIML D 11:2013, 3.8'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.20
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4d53618e-d804-555a-9efe-e26e95da4c8e
+

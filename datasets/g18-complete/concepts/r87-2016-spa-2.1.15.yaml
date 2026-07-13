@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r87-2016-spa-2.1.15
+  localized_concepts:
+    spa: 5758641b-1b8d-52a3-9e38-a939e941b524
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.15
+    type: authoritative
+status: valid
+id: 342e25c3-123a-5b2f-92d1-9e41013ee257
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Factor calculado usando la función de distribución acumulativa t Student
+      inversa (t_p,n-1) y un factor de corrección de población finita (N-n)/(N-1).
+  examples: []
+  id: r87-2016-spa-2.1.15-spa
+  notes:
+  - content: SCF tiene siempre un signo positivo porque t_p,n-1 tiene un signo negativo
+      para p = 0,005.
+  - content: Ver el Anexo F, literal F.3, que presenta información estadística básica
+      con relación al SCF.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: factor de corrección de la muestra (SCF)
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5758641b-1b8d-52a3-9e38-a939e941b524
+

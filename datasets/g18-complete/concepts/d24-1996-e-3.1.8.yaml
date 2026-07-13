@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d24-1996-e-3.1.8
+  localized_concepts:
+    eng: fd3960bd-6b1f-5c1b-88d6-5c5e5a023a0b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+status: valid
+id: 8942e781-f7af-563a-99f1-b5bea54d2af4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The reference operating temperature is the temperature of the pyrometer
+      housing at which the intrinsic error of the pyrometer is determined. At all
+      other temperatures the total error of the pyrometer is the sum of the intrinsic
+      error and the complementary error due to the influence of change in ambient
+      temperature.
+  examples: []
+  id: d24-1996-e-3.1.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference operating temperature
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fd3960bd-6b1f-5c1b-88d6-5c5e5a023a0b
+

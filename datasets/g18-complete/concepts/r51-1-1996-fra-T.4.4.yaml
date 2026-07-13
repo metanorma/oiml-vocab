@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r51-1-1996-fra-T.4.4
+  localized_concepts:
+    fra: 03f4babc-7725-5986-8d02-82d7a351dba7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51-1:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.4
+    type: authoritative
+status: valid
+id: 75643467-83f5-5f14-a666-1351a0c135a2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur moyenne de l'erreur (d'indication) pour une série de pesées automatiques
+      consécutives d'une charge, ou de charges identiques, passant sur le récepteur
+      de charges, exprimée par la formule mathématique x̄ = Σx / n où x représente
+      l'erreur d'une indication de charge, x̄ est la moyenne des erreurs, et n est
+      le nombre de pesées.
+  examples: []
+  id: r51-1-1996-fra-T.4.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur moyenne (systématique) (x̄)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 03f4babc-7725-5986-8d02-82d7a351dba7
+

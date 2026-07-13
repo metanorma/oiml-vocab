@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r49-1-2000-fra-B.1.1
+  localized_concepts:
+    fra: 24c54061-9db4-51a8-a4eb-926a93aa745b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.1
+    type: authoritative
+status: valid
+id: 61ae3eaf-2ce6-582b-bebb-fd2fa85b51a3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: débit le plus élevé auquel un compteur d'eau peut réellement fonctionner
+      de manière satisfaisante, en respectant l'erreur maximale tolérée, dans des
+      conditions normales d'utilisation, c'est-à-dire dans des conditions de flux
+      continu ou intermittent
+  examples: []
+  id: r49-1-2000-fra-B.1.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit continu
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{c}$"
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 24c54061-9db4-51a8-a4eb-926a93aa745b
+

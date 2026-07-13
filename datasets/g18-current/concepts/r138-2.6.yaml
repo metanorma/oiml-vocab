@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r138-2.6
+  localized_concepts:
+    eng: 452be04d-b656-5805-afba-54a6e0b10b9c
+    fra: cd8bb8c6-3cf2-5850-bdd0-e202afff30f7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:138:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 138:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 138:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+status: valid
+id: 9b52d673-fbb9-55cb-b943-307b8c6a6b7d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'For measuring container bottles and casks: contained volume of water
+      at a reference temperature with an uncertainty appropriate for the given purpose.
+      For capacity serving measures: delivered volume of water at a reference temperature
+      with an uncertainty appropriate for the given purpose. This volume is measured
+      after prior wetting of the interior of the vessel and draining for 30 seconds.'
+  examples: []
+  id: r138-2.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 138:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conventional true capacity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 452be04d-b656-5805-afba-54a6e0b10b9c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Pour les bouteilles récipients-mesures et les tonneaux: volume contenu
+      d''eau à la température de référence ayant une incertitude appropriée pour l''application
+      considérée. Pour les mesures de capacité de service: volume délivré d''eau à
+      la température de référence ayant une incertitude appropriée pour l''application
+      considérée. Ce volume est mesuré après un mouillage préalable de l''intérieur
+      du récipient ainsi qu''un égouttage de 30 secondes.'
+  examples: []
+  id: r138-2.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 138:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: capacité conventionnellement vraie
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cd8bb8c6-3cf2-5850-bdd0-e202afff30f7
+

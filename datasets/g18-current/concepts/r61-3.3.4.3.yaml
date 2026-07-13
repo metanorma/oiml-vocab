@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r61-3.3.4.3
+  localized_concepts:
+    eng: 8f651280-1972-58e2-8ac1-a373dfeeb803
+    deu: 50fbb7d6-8b30-53ee-b32b-29841b7052e4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.4.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.4.3
+    type: authoritative
+status: valid
+id: bf26466e-fb35-56df-99fc-ed1153e1d252
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device for setting the indication to zero automatically without the intervention
+      of an operator
+  examples: []
+  id: r61-3.3.4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: automatic zero-setting device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8f651280-1972-58e2-8ac1-a373dfeeb803
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung, mit der die Anzeige automatisch ohne das Eingreifen eines
+      Bedieners auf null gestellt wird
+  examples: []
+  id: r61-3.3.4.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: selbsttätige Nullstelleinrichtung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 50fbb7d6-8b30-53ee-b32b-29841b7052e4
+

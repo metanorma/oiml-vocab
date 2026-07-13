@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r147-2.1.4
+  localized_concepts:
+    eng: 2c4b7ed3-ded8-5b50-bdf5-cd93ea253538
+    fra: fb9fee4b-1458-5ac6-81bd-21175621f6ff
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:147:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+status: valid
+id: 56e0e7fc-a786-525b-a9bc-886541c742b9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of a measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r147-2.1.4-eng
+  notes:
+  - content: 'Source citation: OIML V2-200:2012; 0.05'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible measurement error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2c4b7ed3-ded8-5b50-bdf5-cd93ea253538
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur extrême de l'erreur de mesure, par rapport à une valeur de référence
+      connue, qui est tolérée par les spécifications ou règlements pour un mesurage,
+      un instrument de mesure ou un système de mesure donné
+  examples: []
+  id: r147-2.1.4-fra
+  notes:
+  - content: 'Source citation: OIML V2-200:2012; 0.05 [2]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fb9fee4b-1458-5ac6-81bd-21175621f6ff
+

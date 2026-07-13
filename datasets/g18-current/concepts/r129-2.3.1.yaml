@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r129-2.3.1
+  localized_concepts:
+    deu: 94e12429-8ef8-5678-8ce1-cf40bea1abd3
+    eng: 4325a3a3-29e5-5020-98ad-323fb1a6fd9e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+status: valid
+id: 22cba628-4589-53b9-88bc-f6436fcb595b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: angezeigter Wert abzüglich eines Referenzwerts
+  examples: []
+  id: r129-2.3.1-deu
+  notes:
+  - content: 'Source citation: VIML 0.04'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Abweichung der Anzeige
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 94e12429-8ef8-5678-8ce1-cf40bea1abd3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indicated value minus a reference quantity value
+  examples: []
+  id: r129-2.3.1-eng
+  notes:
+  - content: 'Source citation: VIML 0.04'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error of indication
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4325a3a3-29e5-5020-98ad-323fb1a6fd9e
+

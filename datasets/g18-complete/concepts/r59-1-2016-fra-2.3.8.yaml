@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r59-1-2016-fra-2.3.8
+  localized_concepts:
+    fra: 0be6ed57-bc7d-5080-8a4e-05f6f1e59bbe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+status: valid
+id: 2d4d961c-be63-5a54-9ef4-25c286cd8394
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'par rapport à un étalon de mesure certifié : différence entre l''erreur
+      moyenne d''indication lorsqu''une ou plusieurs grandeurs d''influence varient
+      dans les conditions assignées de fonctionnement, et l''erreur intrinsèque moyenne
+      de l''instrument de mesure. Voir 4.4.1 pour les dérives d''erreur lors des tests
+      des humidimètres pour grain'
+  examples: []
+  id: r59-1-2016-fra-2.3.8-fra
+  notes:
+  - content: En dehors des conditions assignées de fonctionnement, la marge d'erreur
+      est la différence entre deux valeurs mesurées - l'indication dans les conditions
+      assignées de fonctionnement et l'indication moyenne dans les conditions de références
+      antérieures au test.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dérive de l'erreur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0be6ed57-bc7d-5080-8a4e-05f6f1e59bbe
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g19-2017-e-2.17
+  localized_concepts:
+    eng: 9f7bc7bb-d674-5c6d-8810-d6e48f42742c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.17'
+status: valid
+id: 2f5d807f-8a8e-5a3f-9b5a-69a2f630f1e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: tolerance divided by a multiple of the standard measurement uncertainty
+      associated with the measured value of a property of an item
+  examples: []
+  id: g19-2017-e-2.17-eng
+  notes:
+  - content: "$ C_{\\mathrm{m}}=\\mathrm{MPE}/\\mathrm{U}_{E_{1}} $"
+  - content: 'Source citation: JCGM 106 3.3.17'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.17'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement capability index
+  - type: expression
+    normative_status: admitted
+    designation: "$ \\left( \\mathrm{C_{m}} \\right) $"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9f7bc7bb-d674-5c6d-8810-d6e48f42742c
+

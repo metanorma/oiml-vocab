@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r76-T.2.8.2
+  localized_concepts:
+    eng: c8374dd5-244a-5dcb-9f61-2ea6087bf228
+    fra: f77184f1-1848-5923-a9d7-939cab7c83b0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.2
+    type: authoritative
+status: valid
+id: b5ca416e-24ae-59aa-b09d-2608a82bc51a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Parameter of a measuring instrument or a module subject to legal control.
+      The following types of legally relevant parameters can be distinguished: type-specific
+      parameters and device-specific parameters.'
+  examples: []
+  id: r76-T.2.8.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c8374dd5-244a-5dcb-9f61-2ea6087bf228
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Paramètre d''un instrument de mesure ou d''un module soumis au contrôle
+      légal. Les types suivants de paramètres d''application légale peuvent être distingués
+      : paramètres spécifiques au modèle et paramètres spécifiques au dispositif.'
+  examples: []
+  id: r76-T.2.8.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paramètre d'application légale
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f77184f1-1848-5923-a9d7-939cab7c83b0
+

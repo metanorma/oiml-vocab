@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r51-T.3.3.1
+  localized_concepts:
+    eng: d1ea7617-239d-5723-93f8-cba32846384d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3.1
+    type: authoritative
+status: valid
+id: 3dd73859-750f-58e6-9b85-8e771e0c253d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Value expressed in units of mass of: the difference between the values
+      corresponding to two consecutive scale marks, for analog indication; or the
+      difference between two consecutive indicated values, for digital indication.'
+  examples: []
+  id: r51-T.3.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Actual scale interval
+  - type: expression
+    normative_status: admitted
+    designation: d
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d1ea7617-239d-5723-93f8-cba32846384d
+

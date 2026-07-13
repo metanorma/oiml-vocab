@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r110-2.4.2
+  localized_concepts:
+    eng: 4f4b9218-a96b-5358-bacf-1a6a783e9943
+    fra: 33200958-b9e2-53dd-a55d-3dde2d924f08
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
+status: valid
+id: f584073b-43a9-537d-8478-a7471c40c62d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A pressure value that is considered sufficiently close to the corresponding
+      true value to be substituted for that value for purpose of the evaluation of
+      errors.
+  examples: []
+  id: r110-2.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conventional true value of pressure
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4f4b9218-a96b-5358-bacf-1a6a783e9943
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur de pression qui est consideree suffisamment proche de la valeur
+      vraie correspondante pour etre substituee a cette valeur aux fins de l'evaluation
+      des erreurs.
+  examples: []
+  id: r110-2.4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Valeur conventionnellement vraie de pression
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 33200958-b9e2-53dd-a55d-3dde2d924f08
+

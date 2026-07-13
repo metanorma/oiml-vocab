@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r136-1-2004-deu-T.4.5
+  localized_concepts:
+    deu: 200c99d1-f258-5209-9dda-2ba528dea8b1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+status: valid
+id: 2e7bd9d5-934f-551f-b1e7-19d48ea426e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Differenz zwischen dem Fehler der Anzeige und der Eigenabweichung eines
+      Messgeräts.
+  examples: []
+  id: r136-1-2004-deu-T.4.5-deu
+  notes:
+  - content: Im Prinzip ist ein Fehler das Ergebnis einer unerwünschten Änderung von
+      Daten, die in einem elektronischen Gerät enthalten sind oder durch dieses hindurchfließen.
+      In der vorliegenden Empfehlung ist ein "Fehler" ein Zahlenwert.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 200c99d1-f258-5209-9dda-2ba528dea8b1
+

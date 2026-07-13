@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r142-3.12
+  localized_concepts:
+    eng: 2a57666b-4580-5649-b4da-3e3295070562
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:142:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+status: valid
+id: 6a6fb8e1-1822-5fef-8320-4cd298dda7af
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement precision under a set of repeatability conditions of measurement
+  examples: []
+  id: r142-3.12-eng
+  notes:
+  - content: 'Source citation: VIM 2.21'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 142-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement repeatability
+  - type: expression
+    normative_status: admitted
+    designation: repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2a57666b-4580-5649-b4da-3e3295070562
+

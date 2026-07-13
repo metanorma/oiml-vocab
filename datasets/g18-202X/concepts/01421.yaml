@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
 status: valid
 id: af50ea9e-65b4-4be5-ad7b-bc93028dc669
 schema_version: '3'
@@ -15,15 +24,25 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'the area determined for a given piston-cylinder assembly which is used in the conversion equation for the calculation of the measured pressure'
+  - content: the area determined for a given piston-cylinder assembly which is used
+      in the conversion equation for the calculation of the measured pressure
   id: 01421-eng
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'effective area'
+    designation: effective area
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 2b59e1ce-2a8a-568a-90e5-4ca5b6104535
+

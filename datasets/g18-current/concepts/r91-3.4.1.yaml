@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r91-3.4.1
+  localized_concepts:
+    eng: 768fe364-c0ca-552f-aefd-4f7364b17c96
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+status: valid
+id: 8ef25b9b-b195-521e-93dc-5a6c8f8af72c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: line starting from the speed meter lying in the centre of the region
+      monitored by the speed meter (see Figure 2)
+  examples: []
+  id: r91-3.4.1-eng
+  notes:
+  - content: For a speed meter with a fixed beam, the centre line is in the centre
+      of the beam.
+  - content: For a speed meter with a scanning beam, the centre line is in the centre
+      of the scanning region.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: centre line
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 768fe364-c0ca-552f-aefd-4f7364b17c96
+

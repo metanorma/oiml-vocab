@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r75-1-2002-fra-4.10.3
+  localized_concepts:
+    fra: 416b5629-e352-5cb1-95e9-85029ed260d0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75-1:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.10.3
+    type: authoritative
+status: valid
+id: 46e25f31-ceb5-5f8d-af18-8b3e482b0570
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Defaut supérieur à la valeur absolue de l'EMT et qui n'est pas temporaire.
+  examples:
+  - content: Si l'EMT est de +/- 2 %, le défaut significatif est alors un défaut supérieur
+      à 2 %.
+  id: r75-1-2002-fra-4.10.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.10.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 416b5629-e352-5cb1-95e9-85029ed260d0
+

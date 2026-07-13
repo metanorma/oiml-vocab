@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r150-2.4.5.4
+  localized_concepts:
+    eng: 26ada2d7-58d8-5362-9d57-f71bfef99f3b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.5.4
+    type: authoritative
+status: valid
+id: 5397f6e4-db17-5de5-b5b9-125279b6b4af
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value specified (in this Recommendation) delimiting non-significant faults
+  examples: []
+  id: r150-2.4.5.4-eng
+  notes:
+  - content: 'Source citation: VIML 5.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.5.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 26ada2d7-58d8-5362-9d57-f71bfef99f3b
+

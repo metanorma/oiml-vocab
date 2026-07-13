@@ -1,0 +1,89 @@
+---
+data:
+  identifier: d11-3.18
+  localized_concepts:
+    fra: '09ca8633-d46f-5f8f-8951-81cc2cc94165'
+    eng: ad4b8ee9-66c9-50b5-b46d-7518ac534c62
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: '3.18'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.18'
+    type: authoritative
+status: valid
+id: 76c6f7b1-3b5e-5474-a502-f34912dc25bd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: aptitude d'un instrument de mesure à conserver ses caractéristiques de
+      performance après une période d'utilisation
+  examples: []
+  id: d11-3.18-fra
+  notes:
+  - content: 'Source citation: VIML 5.15'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.18'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durabilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '09ca8633-d46f-5f8f-8951-81cc2cc94165'
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: ability of the measuring instrument to maintain its performance characteristics
+      over a period of use
+  examples: []
+  id: d11-3.18-eng
+  notes:
+  - content: 'Source citation: VIML 5.15'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.18
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durability
+  language_code: eng
+  entry_status: valid
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: ad4b8ee9-66c9-50b5-b46d-7518ac534c62
+

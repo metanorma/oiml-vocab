@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r136-1-2004-deu-T.3.2
+  localized_concepts:
+    deu: 41548ab8-757b-5462-b8c8-ca9cb75e8e80
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.2
+    type: authoritative
+status: valid
+id: 52010be0-e6c9-558d-a5c1-8979274c947b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Kleinster messbarer Wert, unterhalb dessen das angezeigte Ergebnis einen
+      übermäßig großen relativen Fehler aufweisen kann.
+  examples: []
+  id: r136-1-2004-deu-T.3.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mindestfläche
+  - type: symbol
+    normative_status: admitted
+    designation: A_min
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 41548ab8-757b-5462-b8c8-ca9cb75e8e80
+

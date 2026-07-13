@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r91-3.1.7
+  localized_concepts:
+    eng: 41515dfc-a8b0-5214-a659-328db893b16a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: 04a7d26a-b288-56e7-9c3f-53d293da3819
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: software or hardware interface from which measurement signals or data
+      can be read or to which measurement signals can be inserted
+  examples: []
+  id: r91-3.1.7-eng
+  notes:
+  - content: To record and analyse signals from field experiments or to insert recorded
+      or artificial data, e.g. to support metrological control.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 41515dfc-a8b0-5214-a659-328db893b16a
+

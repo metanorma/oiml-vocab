@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r112-2.14
+  localized_concepts:
+    eng: acf368d0-2fdd-593d-b6c1-a024679e8d57
+    fra: 450e38c4-8e45-57a6-89d4-a8701f7b0624
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+status: valid
+id: fa9554d6-67b3-5511-a9cd-223206d5caad
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The elapsed time between injection of a sample and the appearance of
+      the maximum output peak of the component of interest.
+  examples: []
+  id: r112-2.14-eng
+  notes:
+  - content: A related term is capacity factor k', which is defined as k' = (t_r -
+      t_m) / t_m, where t_m is the time for the mobile phase to proceed from the point
+      of injection to the point of detection.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Retention time (t_r) for a measurement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: acf368d0-2fdd-593d-b6c1-a024679e8d57
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Temps passe depuis l'injection de l'echantillon et l'apparition du pic
+      maximal du signal d'emission pour le composant examine.
+  examples: []
+  id: r112-2.14-fra
+  notes:
+  - content: 'Le facteur de capacite k'' est apparente a ce terme et est defini comme
+      suit: k'' = (tr - tm) / tm, ou tm = temps necessaire pour que la phase mobile
+      passe du point d''injection a celui de detection.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temps de retention
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 450e38c4-8e45-57a6-89d4-a8701f7b0624
+

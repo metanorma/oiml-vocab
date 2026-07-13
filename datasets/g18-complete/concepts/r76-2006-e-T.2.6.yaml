@@ -1,0 +1,79 @@
+---
+data:
+  identifier: r76-2006-e-T.2.6
+  localized_concepts:
+    eng: b97d10c8-1b96-55a3-b2c4-10f6b69df2e1
+    fra: ad7d3699-3bfe-51cb-8144-c8922d71f85b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6
+    type: authoritative
+status: valid
+id: 8bbd056d-bee1-5b8e-9591-f9a6342dde0c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device temporarily changing the actual scale interval, d, to a value
+      less than the verification scale interval, e, following a manual command.
+  examples: []
+  id: r76-2006-e-T.2.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: extended displaying device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b97d10c8-1b96-55a3-b2c4-10f6b69df2e1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif qui change temporairement l'échelon réel, d, en une valeur
+      inférieure à l'échelon de vérification, e, sur une commande manuelle.
+  examples: []
+  id: r76-2006-e-T.2.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif d'extension de l'indication
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ad7d3699-3bfe-51cb-8144-c8922d71f85b
+

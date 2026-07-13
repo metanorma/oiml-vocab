@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r49-2013-f-3.1.16
+  localized_concepts:
+    eng: 1f4513d2-5289-50aa-993c-a99105406d54
+    fra: 808d406f-7ead-5273-b301-619894c6adcb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+status: valid
+id: 9cf3ffe9-2179-5cd1-98da-56e23a1fbf71
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: meter comprising one large meter, one small meter, and a changeover device
+      that, depending on the magnitude of the flow rate passing through the meter,
+      automatically directs the flow through either the small or the large meter,
+      or both
+  examples: []
+  id: r49-2013-f-3.1.16-eng
+  notes:
+  - content: The meter reading is obtained from two independent totalizers, or from
+      one totalizer which adds up the values from both water meters.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: combination meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1f4513d2-5289-50aa-993c-a99105406d54
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: compteur comprenant un gros compteur, un petit compteur et un dispositif
+      de sélection qui, en fonction de la valeur du débit passant au travers du compteur,
+      dirige automatiquement le flux dans le petit compteur, dans le grand, ou bien
+      dans les deux
+  examples: []
+  id: r49-2013-f-3.1.16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur combiné
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 808d406f-7ead-5273-b301-619894c6adcb
+

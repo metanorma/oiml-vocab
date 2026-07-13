@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-3.3.1
+  localized_concepts:
+    eng: d6ffd91c-5381-56ec-9be0-00abe07ece7a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+status: valid
+id: 4264f455-a819-5aad-9947-429ba58f3c0d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: analogue resistive element that is attached to a load cell structure
+      and that changes resistance depending on the deformation of the load cell structure
+      when compression or tension forces are applied to the load cell
+  examples: []
+  id: r60-3.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: strain gauge
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d6ffd91c-5381-56ec-9be0-00abe07ece7a
+

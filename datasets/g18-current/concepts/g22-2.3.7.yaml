@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g22-2.3.7
+  localized_concepts:
+    eng: c9632f28-72cb-5ddc-9aca-88f6b5afc806
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.7
+    type: authoritative
+status: valid
+id: 697ca559-5717-5881-939a-b9fd377bfd66
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: voltage specified by the manufacturer for normal operation of an AC EVSE.
+      An EVSE may have multiple $ U_{nom} $
+  examples: []
+  id: g22-2.3.7-eng
+  notes:
+  - content: A DC EVSE has no single nominal voltage, but rather a range of voltages
+      from $ U_{\mathrm{min}} $ to $ U_{\mathrm{max}}. $
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal voltage, $ U_{\mathrm{nom}} $
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c9632f28-72cb-5ddc-9aca-88f6b5afc806
+

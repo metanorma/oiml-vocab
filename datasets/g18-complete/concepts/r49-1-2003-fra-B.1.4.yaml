@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r49-1-2003-fra-B.1.4
+  localized_concepts:
+    fra: dcee4cd0-2c84-5f9b-aa10-c9db03587666
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: B.1.4
+    type: authoritative
+status: valid
+id: 59eb6405-0d24-59c8-8f98-0f16b8f68555
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Débit le plus élevé dans la zone inférieure de débit, auquel l'erreur
+      (d'indication) du compteur d'eau passe de dessus l'erreur maximale tolérée de
+      la zone supérieure de débit (emt _{u} ) à en dessous.
+  examples: []
+  id: r49-1-2003-fra-B.1.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: B.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Débit intermédiaire, $ Q_{i} $
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dcee4cd0-2c84-5f9b-aa10-c9db03587666
+

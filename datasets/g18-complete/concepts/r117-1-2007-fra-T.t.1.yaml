@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r117-1-2007-fra-T.t.1
+  localized_concepts:
+    fra: c32f1b40-3abf-50bf-a2be-a9ab03d37885
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.t.1
+    type: authoritative
+status: valid
+id: d0c3cc16-bcf5-5513-abdb-211e4141d549
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du dispositif de mesure qui délivre un signal de sortie, représentatif
+      du volume ou de la masse, ayant une relation déterminée avec le signal d'entrée.
+  examples: []
+  id: r117-1-2007-fra-T.t.1-fra
+  notes:
+  - content: Le transducteur de mesure peut être soit combiné avec le capteur du compteur
+      ou être extérieur au capteur du compteur. Dans le second cas, il peut être approuvé
+      avec le capteur ou avec le calculateur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.t.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transducteur de mesure (transducteur de mesurage)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c32f1b40-3abf-50bf-a2be-a9ab03d37885
+

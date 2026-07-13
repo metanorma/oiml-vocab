@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r91-3.3.10
+  localized_concepts:
+    eng: e44f0b72-607b-5275-bb54-31431ff7db5b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+status: valid
+id: e61e2d0b-7959-5cb3-9fdf-fd4ca19dc417
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: section on the road containing all possible locations of a detection
+      point (considering the possible variation of the location of the detection point)
+  examples: []
+  id: r91-3.3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detection field
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e44f0b72-607b-5275-bb54-31431ff7db5b
+

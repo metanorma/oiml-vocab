@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r79-2015-spa-2.5
+  localized_concepts:
+    spa: 60545569-4953-5300-b717-396d24a3e534
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:79:2015
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+status: valid
+id: 50cf69da-d500-5121-a4cd-903cb61be066
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Cantidad de producto en un preempacado y declarada en la etiqueta.
+  examples: []
+  id: r79-2015-spa-2.5-spa
+  notes:
+  - content: En algunas legislaciones nacionales, la cantidad nominal del producto
+      se denomina "cantidad neta", "contenido neto", "masa neta" o "volumen neto".
+  - content: Este término se relaciona con las especificaciones que van colocadas
+      sobre el preempacado y no representa la cantidad real en un preempacado individual.
+      En el caso de preempacados con cantidad nominal constante, los procedimientos
+      para determinar si una inspección cumple los requisitos reglamentarios se encuentran
+      en la OIML R 87 [1].
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cantidad nominal
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 60545569-4953-5300-b717-396d24a3e534
+

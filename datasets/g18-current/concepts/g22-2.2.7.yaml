@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g22-2.2.7
+  localized_concepts:
+    eng: 6cd721d6-62ba-5477-a8fd-83c0ea5b4b10
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+status: valid
+id: 49b9830f-57ab-51a1-8415-3406d25172f3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the EVSE that implements the client interface either continuously
+      or on demand
+  examples: []
+  id: g22-2.2.7-eng
+  notes:
+  - content: An indicating device may also be used to display other relevant information.
+  - content: An indicating device is local to the EVSE.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating device or display
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6cd721d6-62ba-5477-a8fd-83c0ea5b4b10
+

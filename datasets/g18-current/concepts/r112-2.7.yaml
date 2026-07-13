@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r112-2.7
+  localized_concepts:
+    eng: 9fc67f99-7231-540d-a1da-7945b24bc22d
+    fra: a1dbf535-6731-5796-bc70-2da1e9a9c515
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.7'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.7'
+    type: authoritative
+status: valid
+id: 25029754-825b-52d3-aee2-8ea5d6d78f2a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The device that responds to the presence of sample components eluting
+      from the column.
+  examples: []
+  id: r112-2.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9fc67f99-7231-540d-a1da-7945b24bc22d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif detectant la presence de composants de l'echantillon elue
+      hors de la colonne.
+  examples: []
+  id: r112-2.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detecteur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a1dbf535-6731-5796-bc70-2da1e9a9c515
+

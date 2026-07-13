@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r87-2016-e-2.1.2.1
+  localized_concepts:
+    eng: b64f80a9-b512-5068-9a37-6aa3e851a28f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.1
+    type: authoritative
+status: valid
+id: 733882b0-6340-5e27-8bb9-56104a9d240b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sum of individual prepackage errors considering their arithmetic signs
+      divided by the number of prepackages in the inspection lot or sample
+  examples: []
+  id: r87-2016-e-2.1.2.1-eng
+  notes:
+  - content: The average error for all prepackages in a sample with sample size n
+      is designated by the symbol $e_{\mathrm{ave}}$.
+  - content: The average error for all prepackages in an inspection lot with N prepackages
+      is designated by the symbol $E_{\mathrm{ave}}$.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: average error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b64f80a9-b512-5068-9a37-6aa3e851a28f
+

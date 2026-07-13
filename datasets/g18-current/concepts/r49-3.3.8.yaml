@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r49-3.3.8
+  localized_concepts:
+    eng: e14c9ee8-48e3-5194-9572-1ad4033c258c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.8
+    type: authoritative
+status: valid
+id: 34c7c42c-6ac2-53f8-8283-719a0e474337
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: maximum water temperature that a meter can withstand permanently, within
+      its rated operating condition(s) (3.4.4), without deterioration of its metrological
+      performance
+  examples: []
+  id: r49-3.3.8-eng
+  notes:
+  - content: MAT is the upper of the rated operating conditions for temperature.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum admissible temperature
+  - type: abbreviation
+    normative_status: admitted
+    designation: MAT
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e14c9ee8-48e3-5194-9572-1ad4033c258c
+

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r49-3.2.6
+  localized_concepts:
+    eng: '08653417-d2a4-53ef-87e4-968a2a1cab44'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.2.6
+    type: authoritative
+status: valid
+id: 7d0ac09d-5a5f-59d5-9c44-541f7607ecfa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: error (3.2.4) of a meter determined under reference condition(s) (3.4.5)
+  examples: []
+  id: r49-3.2.6-eng
+  notes:
+  - content: 'Source citation: OIML D 11:2013, 3.8, modified - "a meter" replaces
+      "indication".'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '08653417-d2a4-53ef-87e4-968a2a1cab44'
+

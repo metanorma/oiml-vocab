@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r147-2016-f-2.2.1
+  localized_concepts:
+    fra: ca4adf3f-34f4-52a6-a3aa-3504db65c815
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:147:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+status: valid
+id: ed8148af-2825-5ddc-baf2-b1ddf4266fb5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: incertitude élargie à un niveau de confiance spécifié ( $ p=0,95 $ ou
+      $ p=0,99 $ ) déclaré dans la documentation technique, avec laquelle le corps
+      noir est considéré être approprié à l'application prévue. Le calcul de l'incertitude
+      type $ u_{\mathrm{pBB}}=U_{\mathrm{pBB}}/k(p) $ se base soit sur $ k(p=0,95)=2
+      $ soit sur $ k(p=0,99)=3 $
+  examples: []
+  id: r147-2016-f-2.2.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitude tolérée $ U_{pBB} $
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ca4adf3f-34f4-52a6-a3aa-3504db65c815
+

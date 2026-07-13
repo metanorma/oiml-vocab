@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r61-3.5.1.4
+  localized_concepts:
+    eng: 874a1d81-5b05-5277-816c-5f080941645a
+    deu: b2781600-77e7-5ba3-97de-3df1ecd0416f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.4
+    type: authoritative
+status: valid
+id: 51a36595-27f6-5acc-a474-0e53b5c754e1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indication in which the scale marks comprise a sequence of aligned figures
+      that do not permit interpolation to fractions of a scale interval
+  examples: []
+  id: r61-3.5.1.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: digital indication
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 874a1d81-5b05-5277-816c-5f080941645a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Anzeige, die durch aufeinanderfolgende Ziffern gebildet wird und die
+      keine Interpolation auf Bruchteile des Teilungswerts erlaubt
+  examples: []
+  id: r61-3.5.1.4-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ziffernanzeige
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b2781600-77e7-5ba3-97de-3df1ecd0416f
+

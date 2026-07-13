@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r91-3.4.7
+  localized_concepts:
+    eng: 0e50f477-f196-5cb9-bb3d-698ee160bc36
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+status: valid
+id: 5115da96-3bb0-540d-acda-3f5294fedff6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: angle between the velocity vector and the line connecting the speed meter
+      and the vehicle at the instance of the measurement
+  examples: []
+  id: r91-3.4.7-eng
+  notes:
+  - content: The measurement angle has a horizontal and a vertical component. Figure
+      3 shows an illustration of the horizontal component of the measurement angle
+      $ \alpha $.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement angle
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0e50f477-f196-5cb9-bb3d-698ee160bc36
+

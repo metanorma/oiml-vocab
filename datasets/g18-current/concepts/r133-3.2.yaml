@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r133-3.2
+  localized_concepts:
+    fra: fd17746f-aa90-5fc6-9147-2f27890cf6fb
+    eng: 8fdd77ef-a6a0-5659-aab9-f063dd24402e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:133:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+status: valid
+id: 47ed64a1-6161-54b5-851a-4d0145e7218b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Tube contenant le capillaire à travers lequel le liquide thermométrique
+      se meut sous l'effet des changements de température.
+  examples: []
+  id: r133-3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reservoir
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fd17746f-aa90-5fc6-9147-2f27890cf6fb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Reservoir for the thermometer liquid.
+  examples: []
+  id: r133-3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: bulb
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8fdd77ef-a6a0-5659-aab9-f063dd24402e
+

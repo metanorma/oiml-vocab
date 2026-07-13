@@ -1,0 +1,54 @@
+---
+data:
+  identifier: g19-2017-e-2.8
+  localized_concepts:
+    eng: ea098ab4-21e6-5990-ad82-df7cb8b8df68
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.8'
+status: valid
+id: 6d2f27ad-4c78-52de-b455-2ced98faedec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: non-negative parameter characterizing the dispersion of the quantity
+      values being attributed to a measurand, based on the information used
+  examples: []
+  id: g19-2017-e-2.8-eng
+  notes:
+  - content: In GUM Supplement JCGM 104 [4], measurement uncertainty is described
+      as a measure of how well the essentially unique true value of a measurand is
+      believed to be known. (not in VIM3)
+  - content: 'Source citation: VIM3 2.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement uncertainty
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ea098ab4-21e6-5990-ad82-df7cb8b8df68
+

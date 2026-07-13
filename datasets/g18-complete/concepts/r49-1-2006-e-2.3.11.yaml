@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2006-e-2.3.11
+  localized_concepts:
+    eng: cefe9204-4bf0-53a7-83cc-f4b16a7917d3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.11
+    type: authoritative
+status: valid
+id: 6f3bed15-b955-5bcb-a318-ed51cd08a4a1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: pressure loss, at a given flowrate, caused by the presence of the water
+      meter in the pipeline
+  examples: []
+  id: r49-1-2006-e-2.3.11-eng
+  notes:
+  - content: The maximum pressure loss can differ from the pressure loss at the permanent
+      flowrate Q3 and at the overload flowrate Q4.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pressure loss
+  - type: symbol
+    designation: "$\\Delta p$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cefe9204-4bf0-53a7-83cc-f4b16a7917d3
+

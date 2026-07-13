@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r75-1-2002-fra-4.9.1
+  localized_concepts:
+    fra: 8b1cc09b-b2e8-5a8a-9eac-d93502092038
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75-1:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.1
+    type: authoritative
+status: valid
+id: 7b04bedb-2837-57fa-89d1-8556414d6d98
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication de l'instrument de mesure moins la valeur conventionnellement
+      vraie de la grandeur d'entrée correspondante [adapté de VIM 5.20].
+  examples: []
+  id: r75-1-2002-fra-4.9.1-fra
+  notes:
+  - content: 'Source citation: adapte de VIM 5.20'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur (d'indication) d'un instrument de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8b1cc09b-b2e8-5a8a-9eac-d93502092038
+

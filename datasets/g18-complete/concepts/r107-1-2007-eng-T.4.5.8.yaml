@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r107-1-2007-eng-T.4.5.8
+  localized_concepts:
+    eng: cb4ee752-4890-53cf-ab65-beb893dab647
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.5.8
+    type: authoritative
+status: valid
+id: 1e00749d-990a-5551-bc3c-4d699f7d986e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme values of an error permitted by specifications, regulations,
+      etc. for a given instrument.
+  examples: []
+  id: r107-1-2007-eng-T.4.5.8-eng
+  notes:
+  - content: 'Source citation: VIM:1993, 5.21'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.4.5.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: symbol
+    normative_status: admitted
+    designation: mpe
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cb4ee752-4890-53cf-ab65-beb893dab647
+

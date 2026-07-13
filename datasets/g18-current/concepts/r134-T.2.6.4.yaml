@@ -1,0 +1,110 @@
+---
+data:
+  identifier: r134-T.2.6.4
+  localized_concepts:
+    eng: 153aedbe-000d-5fa6-bf0f-707df7b5bfdc
+    fra: 34f2264b-056d-557d-b04d-0bd340c9cbcb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+status: valid
+id: 0a199851-1d8a-5651-af02-1ca65d1fb240
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the individual
+      instrument. Such parameters comprise calibration parameters (e.g. span adjustments
+      or corrections) and configuration parameters (e.g. maximum capacity, minimum
+      capacity, units of measurement, etc.). They are adjustable or selectable only
+      in a special operational mode of the instrument.
+  examples: []
+  id: r134-T.2.6.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: device-specific parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 153aedbe-000d-5fa6-bf0f-707df7b5bfdc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Paramètre d'application légale avec une valeur qui dépend de l'instrument
+      particulier. De tels paramètres comprennent des paramètres d'étalonnage (par
+      exemple, réglages de la pente ou corrections) et des paramètres de configuration
+      (par exemple, portée maximale, portée minimale, unités de mesure, etc.). Ils
+      sont réglables ou sélectionnables seulement dans un mode de fonctionnement spécial
+      de l'instrument.
+  examples: []
+  id: r134-T.2.6.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paramètre spécifique au dispositif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 34f2264b-056d-557d-b04d-0bd340c9cbcb
+

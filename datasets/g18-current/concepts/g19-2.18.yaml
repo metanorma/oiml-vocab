@@ -1,0 +1,50 @@
+---
+data:
+  identifier: g19-2.18
+  localized_concepts:
+    eng: be4e1590-753a-5b51-acc0-eac2fb4bb060
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '2.18'
+    type: authoritative
+status: valid
+id: f0181fa0-5dde-5443-bb19-367d9fae308c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: probability that a particular accepted item is non-conforming
+  examples: []
+  id: g19-2.18-eng
+  notes:
+  - content: 'Source citation: JCGM 106 3.3.13 called specific consumer''s risk'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.18'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: risk of false acceptance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: be4e1590-753a-5b51-acc0-eac2fb4bb060
+

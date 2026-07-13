@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g22-2022-e-2.2.8
+  localized_concepts:
+    eng: 7170f6cd-f3f4-5593-9d58-71ef4b37da1f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.8
+status: valid
+id: 2d15944f-3189-566f-a98e-580f7edbd891
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the system that stores the total energy received from EV over
+      all transactions
+  examples: []
+  id: g22-2022-e-2.2.8-eng
+  notes:
+  - content: This energy register is the same as the energy received accumulation
+      register in a R 46 compliant meter.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.8
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: register, energy accumulation received
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7170f6cd-f3f4-5593-9d58-71ef4b37da1f
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: g1-100-2008-e-C.2.22
+  localized_concepts:
+    eng: 974e3ad1-7c37-5275-aca1-7cb140aae284
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.22
+    type: authoritative
+status: valid
+id: 2b31e69a-c769-5d3e-80d3-7e9728554c78
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'in a distribution of a single characteristic, the arithmetic mean of
+      the qth power of the difference between the observed values and their average
+      x_bar: (1/n) sum_i (x_i - x_bar)^q, where n is the number of observations'
+  examples: []
+  id: g1-100-2008-e-C.2.22-eng
+  notes:
+  - content: The central moment of order 1 is equal to zero.
+  - content: 'Source citation: ISO 3534-1:1993, definition 2.37'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.22
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: central moment of order q
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 974e3ad1-7c37-5275-aca1-7cb140aae284
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r46-1-spa-2.2.19
+  localized_concepts:
+    spa: fceb286e-df33-51b1-8749-889b583b9b29
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.19
+    type: authoritative
+status: valid
+id: 16321e51-c6be-5d9f-ba34-445220c54114
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: El valor extremo del error en la indicación de un medidor, permitido
+      por esta Recomendación, cuando la corriente y el factor de potencia varian dentro
+      de los intervalos dados por las condiciones nominales de operación y cuando,
+      de otro modo, el medidor opera bajo condiciones de referencia.
+  examples: []
+  id: r46-1-spa-2.2.19-spa
+  notes:
+  - content: En esta recomendación, el error máximo permitido es una combinación del
+      error máximo permitido base y el cambio en el error máximo permitido, según
+      se describe en el Anexo B.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.19
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error máximo permitido base
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fceb286e-df33-51b1-8749-889b583b9b29
+

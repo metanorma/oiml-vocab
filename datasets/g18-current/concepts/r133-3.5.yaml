@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r133-3.5
+  localized_concepts:
+    fra: a272f0a1-af01-5a55-95e9-daaeed594f47
+    eng: 31b49c51-6cfc-5f78-a120-a21b5ab912e8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:133:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: 109fa5a2-cc76-5d84-856e-46a0ccbaf150
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Échelle graduée en unités appropriées, couvrant l'étendue de température
+      de travail du thermomètre.
+  examples: []
+  id: r133-3.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Échelle principale
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a272f0a1-af01-5a55-95e9-daaeed594f47
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Scale graduated in appropriate units, covering the working temperature
+      range of the thermometer.
+  examples: []
+  id: r133-3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: main scale
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 31b49c51-6cfc-5f78-a120-a21b5ab912e8
+

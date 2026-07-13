@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r91-3.4.6
+  localized_concepts:
+    eng: 1bd06836-e708-58aa-ada0-bf98b2b5f7dc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+status: valid
+id: ea47cdff-7525-5e9b-9c8f-ebaa558db76a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: vertical distance from the reference point of the speed meter to the
+      road surface
+  examples: []
+  id: r91-3.4.6-eng
+  notes:
+  - content: Figure 2 shows an illustration of several alignment parameters of speed
+      meters.
+  - content: The reference point on the example speed meter is marked as a circle.
+      The centre line does not necessarily start from the reference point.
+  - content: The position of the reference point is determined by the manufacturer.
+      The reference point of this illustration is an example.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: height of speed meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1bd06836-e708-58aa-ada0-bf98b2b5f7dc
+

@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r125-T.1
+  localized_concepts:
+    eng: 491341e1-f2ad-5078-96c5-6e68603ae437
+    fra: f3428399-ad8d-5f37-b1db-1820db66b4a4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.1
+    type: authoritative
+status: valid
+id: c8e6ddd1-95de-56f4-ad4f-9e0edb4bfbd0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A measuring instrument which determines and indicates the mass of liquid
+      contained in a calibrated tank. The instrument includes devices such as a measurement
+      transducer (or transducers) which measures a quantity related to the mass of
+      the liquid, a processor and an indicator.
+  examples: []
+  id: r125-T.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mass measuring instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 491341e1-f2ad-5078-96c5-6e68603ae437
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument de mesure determinant et indiquant la masse du liquide contenu
+      dans un reservoir de mesurage. L'instrument comprend des dispositifs tels qu'un
+      transducteur de mesure (ou des transducteurs) pour la mesure d'une quantite
+      liee a la masse du liquide, un calculateur et un indicateur.
+  examples: []
+  id: r125-T.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrument de mesure de la masse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f3428399-ad8d-5f37-b1db-1820db66b4a4
+

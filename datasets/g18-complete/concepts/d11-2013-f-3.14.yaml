@@ -1,0 +1,61 @@
+---
+data:
+  identifier: d11-2013-f-3.14
+  localized_concepts:
+    fra: 05bf6d2d-fe5e-5524-b02e-c992bb3f104a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+status: valid
+id: 11a3f9e6-27c1-56f1-b1db-3c109f5e9612
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: erreur de durabilité excédant la valeur spécifiée dans la Recommandation
+      applicable
+  examples: []
+  id: d11-2013-f-3.14-fra
+  notes:
+  - content: 'Certaines erreurs de durabilité excédant la valeur spécifiée, peuvent
+      ne pas être considérées comme significatives. La Recommandation applicable doit
+      indiquer quand de telles exceptions s''appliquent. Par exemple, l''apparition
+      d''un ou plusieurs des erreurs suivantes peut être acceptable: (a) l''indication
+      ne peut pas être interprétée, mise en mémoire ou transmise comme un résultat
+      de mesure; (b) l''indication rend impossible l''accomplissement de toute mesure;
+      (c) l''indication est de toute évidence si erronée qu''elle sera inévitablement
+      identifiée par tous ceux intéressés par le résultat du mesurage; ou (d) une
+      erreur de durabilité ne peut pas être détectée et mise en évidence à cause d''une
+      panne du système de protection de durabilité concernée.'
+  - content: 'Source citation: VIML 5.17'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de durabilité significative
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 05bf6d2d-fe5e-5524-b02e-c992bb3f104a
+

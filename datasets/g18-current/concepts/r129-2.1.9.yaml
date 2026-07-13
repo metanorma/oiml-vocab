@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r129-2.1.9
+  localized_concepts:
+    deu: c0b40bc8-c335-5256-933f-d9a8a8c3400f
+    eng: 7090532c-ce07-527c-98df-49376f2f1d88
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.9
+    type: authoritative
+status: valid
+id: edace7a1-4119-5ad5-8e52-4c2955521acb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: maximale Geschwindigkeit, bei der das Gerät korrekte Messungen durchführt
+  examples: []
+  id: r129-2.1.9-deu
+  notes:
+  - content: Gilt nur für Geräte, bei denen Messungen durch eine Relativbewegung zwischen
+      Objekt und Gerät beeinträchtigt werden.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximale Messgeschwindigkeit (V_max)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0b40bc8-c335-5256-933f-d9a8a8c3400f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: maximum speed at which the instrument will measure correctly
+  examples: []
+  id: r129-2.1.9-eng
+  notes:
+  - content: Only applicable to instruments where measurements are affected by means
+      of relative movement between the object and the instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum measuring speed
+  - type: symbol
+    normative_status: admitted
+    designation: V_max
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7090532c-ce07-527c-98df-49376f2f1d88
+

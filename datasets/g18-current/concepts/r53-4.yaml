@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r53-4
+  localized_concepts:
+    fra: beab3423-f9c6-5085-b4e1-e8b3fa4be820
+    eng: 00f4b8ea-61ec-52c4-89f4-25521824f140
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:53:1982
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '4'
+    type: authoritative
+status: valid
+id: cbbad6f2-0a3a-5cc3-b8fa-1604e290825b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Point de l'élément récepteur élastique dont le déplacement se transforme
+      en indication de l'instrument.
+  examples: []
+  id: r53-4-fra
+  notes:
+  - content: 'OCR note: The term header ''Point de référence'' was printed out of
+      order in the source OCR, appearing between ''Pression de surcharge'' and its
+      definition (spec §8.24). This entry was matched to definition starting ''Point
+      de l''élément... '' by content correspondence with the English edition (Reference
+      point).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Point de référence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: beab3423-f9c6-5085-b4e1-e8b3fa4be820
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: That part of the elastic sensing element, whose displacement is converted
+      into an indication of the instrument.
+  examples: []
+  id: r53-4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reference point
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 00f4b8ea-61ec-52c4-89f4-25521824f140
+

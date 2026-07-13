@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r126-2012-f-2.18
+  localized_concepts:
+    eng: 98442512-632a-550d-a66e-d3f0bc2663cd
+    fra: 38b4828f-5c42-55b4-9c64-80ca10e36017
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.18'
+    type: authoritative
+status: valid
+id: 25ab8beb-baf1-51de-8fe6-f2b1ce9756d8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error (of indication) and the intrinsic error
+      greater than the value specified in this Recommendation. Significant faults
+      are only relevant to electronic measuring systems
+  examples: []
+  id: r126-2012-f-2.18-eng
+  notes:
+  - content: 'Source citation: OIML D 11, 3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.18'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 98442512-632a-550d-a66e-d3f0bc2663cd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre l'erreur (d'indication) et l'erreur intrinsèque supérieure
+      à la valeur spécifiée dans la présente Recommandation. Les défauts significatifs
+      ne sont pertinents que pour les instruments électroniques
+  examples: []
+  id: r126-2012-f-2.18-fra
+  notes:
+  - content: 'Source citation: OIML D 11, 3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.18'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 38b4828f-5c42-55b4-9c64-80ca10e36017
+

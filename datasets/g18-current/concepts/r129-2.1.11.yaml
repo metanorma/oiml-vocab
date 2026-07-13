@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r129-2.1.11
+  localized_concepts:
+    deu: 4bf3b040-9b76-5082-9689-2a51d813002c
+    eng: e1e6eb3a-8cae-5acd-b3f9-236b3032d97d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+status: valid
+id: 7d7fecd2-e70e-5a0d-a229-66573dda0539
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: von einem Messgerät oder Messsystem gelieferter Größenwert
+  examples: []
+  id: r129-2.1.11-deu
+  notes:
+  - content: 'Source citation: VIM 4.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anzeige
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4bf3b040-9b76-5082-9689-2a51d813002c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity value provided by a measuring instrument or measuring system
+  examples: []
+  id: r129-2.1.11-eng
+  notes:
+  - content: 'Source citation: VIM 4.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e1e6eb3a-8cae-5acd-b3f9-236b3032d97d
+

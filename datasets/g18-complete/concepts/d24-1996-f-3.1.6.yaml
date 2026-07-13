@@ -1,0 +1,54 @@
+---
+data:
+  identifier: d24-1996-f-3.1.6
+  localized_concepts:
+    fra: dc55e7af-3e6a-578e-a6e7-362bf028c0ea
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    type: authoritative
+status: valid
+id: 33f584fc-f339-5d03-8489-c492a062cfaa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'ouverture nominale de visée, n, est une ouverture de visée pour une
+      distance de visée donnée, L, telle que la température d'une source de rayonnement
+      de diamètre D=n x L peut être mesurée correctement. Habituellement, l'ouverture
+      nominale de visée est fixée pour une distance de 1 m. Cependant, l'instrument
+      peut être réglé pour d'autres distances de visée à condition que ces distances
+      soient indiquées dans les documents d'accompagnement.
+  examples: []
+  id: d24-1996-f-3.1.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ouverture nominale de visée
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dc55e7af-3e6a-578e-a6e7-362bf028c0ea
+

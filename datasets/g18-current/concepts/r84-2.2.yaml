@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r84-2.2
+  localized_concepts:
+    eng: 4df4104c-d694-580f-a62a-2dbee836ba33
+    fra: 93d469f9-100d-5401-8a97-f07ae88d56cf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:84:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 84:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 84:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+status: valid
+id: 7fab2687-d41a-59d8-b165-4a24e37c0dc4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Resistance of the resistance thermometer at the temperature 0 degrees
+      Celsius.
+  examples: []
+  id: r84-2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 84:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Resistance R0 of the resistance thermometer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4df4104c-d694-580f-a62a-2dbee836ba33
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Résistance du thermomètre à la température de 0 degrees Celsius.
+  examples: []
+  id: r84-2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 84:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Résistance R0 du thermomètre à résistance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 93d469f9-100d-5401-8a97-f07ae88d56cf
+

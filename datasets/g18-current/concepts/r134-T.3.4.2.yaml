@@ -1,0 +1,111 @@
+---
+data:
+  identifier: r134-T.3.4.2
+  localized_concepts:
+    eng: 255ca0aa-777e-54df-a2e4-2161c8d176d4
+    fra: d76a67d3-a617-5bd6-9bc7-a9f97c078d83
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+status: valid
+id: de55422d-4946-596c-8191-4e6257a0b4b0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Greatest velocity of a vehicle that the instrument is designed to weigh-in-motion
+      and above which the weighing results may be subject to an excessive relative
+      error.
+  examples: []
+  id: r134-T.3.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum operating speed
+  - type: symbol
+    normative_status: admitted
+    designation: v_max
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 255ca0aa-777e-54df-a2e4-2161c8d176d4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus grande vitesse d'un véhicule pour laquelle l'instrument de pesage
+      en mouvement est conçu et au-dessus de laquelle les résultats de pesée peuvent
+      être sujets à une erreur relative excessive.
+  examples: []
+  id: r134-T.3.4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vitesse de fonctionnement maximale
+  - type: symbol
+    normative_status: admitted
+    designation: v_max
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d76a67d3-a617-5bd6-9bc7-a9f97c078d83
+

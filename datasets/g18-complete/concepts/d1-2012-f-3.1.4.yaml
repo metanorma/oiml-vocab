@@ -1,0 +1,66 @@
+---
+data:
+  identifier: d1-2012-f-3.1.4
+  localized_concepts:
+    fra: ab3bd662-43fe-5e50-b94f-b5588d4cfa16
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+status: valid
+id: 212af0ba-3add-5e96-9526-eb93dd10b4e2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dans ce Document, le terme « instrument de mesure » couvre les instruments
+      de mesure au sens du VIM (voir VIM 3.1), aussi bien que les systèmes de mesure
+      (VIM, 3.2), les mesures matérialisées (VIM, 3.6) et toute partie d'un instrument
+      de mesure ou système de mesure pouvant faire l'objet d'exigences spécifiques
+      et d'une évaluation spécifique de la conformité.
+  examples: []
+  id: d1-2012-f-3.1.4-fra
+  notes:
+  - content: 'VIM 3.1 - instrument de mesure: dispositif utilisé pour faire des mesurages,
+      seul ou associé à un ou plusieurs dispositifs annexes. Note 1: Un instrument
+      de mesure qui peut être utilisé seul est un système de mesure. Note 2: Un instrument
+      de mesure peut être un appareil de mesure indicateur ou une mesure matérialisée.'
+  - content: 'VIM 3.2 - système de mesure: ensemble d''un ou plusieurs instruments
+      de mesure et souvent d''autres dispositifs, comprenant si nécessaire réactifs
+      et alimentations, assemblés et adaptés pour fournir des informations destinées
+      à obtenir des valeurs mesurées dans des intervalles spécifiés pour des grandeurs
+      de natures spécifiées. Note: Un système de mesure peut consister en un seul
+      instrument de mesure.'
+  - content: 'VIM 3.6 - mesure matérialisée: instrument de mesure qui reproduit ou
+      fournit, d''une manière permanente pendant son emploi, des grandeurs d''une
+      ou plusieurs natures, chacune avec une valeur assignée.'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrument de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ab3bd662-43fe-5e50-b94f-b5588d4cfa16
+

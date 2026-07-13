@@ -1,0 +1,55 @@
+---
+data:
+  identifier: g1-101-2008-e-3.9
+  localized_concepts:
+    eng: 5776a6ec-d50a-58d8-9f58-0797a8f8267a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+status: valid
+id: 86cbe5c2-10e4-5850-bb55-2ed727b379bf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: expectation of the rth power of a random variable, namely $E \left(X
+      ^ {r}\right) = \int_ {- \infty} ^ {\infty} \xi^ {r} g _ {X} (\xi) \mathrm {d}
+      \xi$
+  examples: []
+  id: g1-101-2008-e-3.9-eng
+  notes:
+  - content: The central moment of order r is the expectation of the random variable
+      $ Z=[X-E(X)]^{r}.$
+  - content: The expectation $ E ( X ) $ is the first moment. The variance $ V ( X
+      ) $ is the central moment of order 2.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: moment of order r
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5776a6ec-d50a-58d8-9f58-0797a8f8267a
+

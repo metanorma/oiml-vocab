@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r60-3.1.3
+  localized_concepts:
+    eng: 990cf823-d054-530a-8022-0b91c4c338bc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+status: valid
+id: 7d106212-27d6-58a8-9fd2-ba64fc56fc69
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measuring transducer that will produce an output in response to an applied
+      load. This output may be converted by another device into measurement units
+      such as mass
+  examples: []
+  id: r60-3.1.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load cell
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 990cf823-d054-530a-8022-0b91c4c338bc
+

@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r72-1985-e-7
+  localized_concepts:
+    eng: e2dd2fc6-edf1-5673-a6f0-d8d44182e3fc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:72:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+status: valid
+id: a1b595a2-c954-5173-9c3c-6dddc2c9351b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The flowrate value corresponding to the lower limit of the flowrate range,
+      being the lowest flowrate value at which the hot water meter is required to
+      give indications which are not affected by an error exceeding the maximum permissible
+      errors.
+  examples: []
+  id: r72-1985-e-7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum flowrate (Q_min)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e2dd2fc6-edf1-5673-a6f0-d8d44182e3fc
+

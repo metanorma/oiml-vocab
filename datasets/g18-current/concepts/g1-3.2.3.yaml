@@ -1,0 +1,56 @@
+---
+data:
+  identifier: g1-3.2.3
+  localized_concepts:
+    eng: db6c7d55-cdf1-57dc-b526-fb32555de693
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.3
+    type: authoritative
+status: valid
+id: 5d1f0643-6787-50fe-bb29-dd478b238348
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity value consistent with the definition of a quantity
+  examples: []
+  id: g1-3.2.3-eng
+  notes:
+  - content: 'Source citation: JCGM 200:2012 2.11'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: true quantity value
+  - type: expression
+    normative_status: admitted
+    designation: true value of a quantity
+  - type: expression
+    normative_status: admitted
+    designation: true value
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: db6c7d55-cdf1-57dc-b526-fb32555de693
+

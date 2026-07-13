@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r46-2012-f-2.2.15
+  localized_concepts:
+    eng: 0fb43332-063e-5c04-b279-854e8cb82c75
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+status: valid
+id: ef8507ac-eafc-5af4-acb1-7db56d398629
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rate at which energy is transported
+  examples: []
+  id: r46-2012-f-2.2.15-eng
+  notes:
+  - content: 'In an electrical system active power is measured as the time mean of
+      the instantaneous power, which is calculated at each instant as the product
+      of voltage and current: p(t) = u(t) . i(t), where u is the instantaneous voltage,
+      i is the instantaneous current, p is the instantaneous power. At sinusoidal
+      conditions active power is the product of the r.m.s. values of current and voltage
+      and the cosine of the phase angle between them, calculated for each phase. It
+      is usually expressed in kW.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: active power
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0fb43332-063e-5c04-b279-854e8cb82c75
+

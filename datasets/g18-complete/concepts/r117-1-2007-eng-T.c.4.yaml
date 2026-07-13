@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r117-1-2007-eng-T.c.4
+  localized_concepts:
+    eng: 5e7e50bf-7adc-5753-8ad4-756f8b447e58
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.4
+    type: authoritative
+status: valid
+id: 85a71f59-dd36-5df9-9c67-e921543acc9f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Device, which automatically converts: the volume measured at metering
+      conditions into a volume at base conditions, or the volume measured at metering
+      conditions into a mass, or the measured mass into a volume at metering conditions,
+      or the measured mass into a volume at base conditions, or the volume at metering
+      conditions or the measured mass of a mixture of pure ethanol (ethyl alcohol)
+      and water into a volume or the mass of pure ethanol contained in that mixture,
+      by taking account of the characteristics of the liquid (temperature, pressure,
+      density, relative density, etc.) measured using associated measuring devices,
+      or stored in a memory.'
+  examples: []
+  id: r117-1-2007-eng-T.c.4-eng
+  notes:
+  - content: The ratio of the converted quantity to the quantity at metering conditions
+      is referred to as the "conversion factor."
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conversion device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5e7e50bf-7adc-5753-8ad4-756f8b447e58
+

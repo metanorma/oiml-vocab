@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r112-1994-f-2.14
+  localized_concepts:
+    fra: e0d2af19-dfd0-55e4-b649-b0ea6dde8841
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+status: valid
+id: 4c6790b4-a04c-52b7-9a21-ec3061cbaeba
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Temps passe depuis l'injection de l'echantillon et l'apparition du pic
+      maximal du signal d'emission pour le composant examine.
+  examples: []
+  id: r112-1994-f-2.14-fra
+  notes:
+  - content: 'Le facteur de capacite k'' est apparente a ce terme et est defini comme
+      suit: k'' = (tr - tm) / tm, ou tm = temps necessaire pour que la phase mobile
+      passe du point d''injection a celui de detection.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temps de retention
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e0d2af19-dfd0-55e4-b649-b0ea6dde8841
+

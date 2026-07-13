@@ -1,0 +1,98 @@
+---
+data:
+  identifier: r93-3.7.2
+  localized_concepts:
+    eng: b56b0aee-f11c-54dc-8f35-1f92e4fefafb
+    fra: f032452c-ca1b-5455-94ee-1987e9474c5b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:93:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: 3.7.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: 3.7.2
+    type: authoritative
+status: valid
+id: a8972c7f-5653-51c8-941c-27c5aa11ff75
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Reciprocal of the paraxial value of the front vertex focal length measured
+      in metres.
+  examples: []
+  id: r93-3.7.2-eng
+  notes:
+  - content: The unit for expressing vertex power is the reciprocal metre m^-1. The
+      name for this unit is the "dioptre", for which the symbol is D.
+  - content: Conventionally the back vertex power, in dioptres, is specified as the
+      "power" of a spectacle lens, although the front vertex power is required for
+      certain purposes (for example in the measurement of some multifocal lenses).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.7.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Front vertex power
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b56b0aee-f11c-54dc-8f35-1f92e4fefafb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Inverse de la valeur paraxiale de la distance frontale avant mesurée
+      en mètres.
+  examples: []
+  id: r93-3.7.2-fra
+  notes:
+  - content: L'unité pour exprimer la puissance frontale est le mètre réciproque (m^-1).
+      Le nom de cette unité est la "dioptrie" dont le symbole est D.
+  - content: Par convention, la puissance frontale arrière, en dioptries, est spécifiée
+      comme la "puissance" d'un verre de lunettes, bien que la puissance frontale
+      avant soit requise dans certains cas (par exemple pour la mesure de certains
+      verres multifocaux).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.7.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Puissance frontale avant
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f032452c-ca1b-5455-94ee-1987e9474c5b
+

@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r107-T.5.2
+  localized_concepts:
+    eng: aea86f9a-beb3-5dc5-96be-9c35f3e9f958
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.5.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.5.2
+    type: authoritative
+status: valid
+id: bf3f9eba-941f-5682-9784-1e42ce227799
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions of use for which specified metrological characteristics of
+      an instrument are intended to lie within given limits.
+  examples: []
+  id: r107-T.5.2-eng
+  notes:
+  - content: These conditions of use are the range of weight values and the range
+      of influence quantity values for which the indication of an instrument is intended
+      to lie within maximum permissible errors.
+  - content: 'Source citation: VIM:1993, 5.5'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated operating conditions
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aea86f9a-beb3-5dc5-96be-9c35f3e9f958
+

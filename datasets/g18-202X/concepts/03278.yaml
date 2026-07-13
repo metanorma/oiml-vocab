@@ -6,7 +6,8 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 10:2022
+        source: OIML D 10:2022
+        version: '2022'
     locality:
       type: clause
       reference_from: '3.18'
@@ -23,8 +24,9 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device used for making measurements, alone or in conjunction with one or more supplementary devices (VIM3, 3.1)'
-  id: 03278-eng
+  - content: device used for making measurements, alone or in conjunction with one
+      or more supplementary devices (VIM3, 3.1)
+  id: '03278-eng'
   language_code: eng
   notes:
   - content: A measuring instrument that can be used alone is a measuring system.
@@ -34,8 +36,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'measuring instrument'
+    designation: measuring instrument
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 1f74489c-47c0-5f7d-a180-475da3ec21bb
+

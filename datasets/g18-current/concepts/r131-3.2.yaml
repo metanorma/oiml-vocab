@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r131-3.2
+  localized_concepts:
+    fra: e38cb6dd-6573-51b2-8345-5f937c04d3f6
+    eng: 40c03ccb-583b-510f-a306-79034c1d2e38
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:131:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+status: valid
+id: cff8707c-3b97-54a5-a370-e5803a073d8e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Élément de matériau PMMA spécialement choisi ou spécialement élaboré
+      montrant des variations caractérisables d'absorbance optique spécifique induites
+      par les rayonnements ionisants, selon la dose absorbée, enfermé individuellement
+      par le fabricant dans un étui fermé hermétiquement. La variation d'absorbance
+      spécifique peut être liée à la dose absorbée dans le matériau environnant.
+  examples: []
+  id: r131-3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dosimètre au PMMA
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e38cb6dd-6573-51b2-8345-5f937c04d3f6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Piece of specially selected or specially developed PMMA material that
+      exhibits characterizable ionizing radiation-induced changes in specific optical
+      absorbance as a function of absorbed dose, individually encapsulated by the
+      manufacturer in a hermetically sealed pouch. The change in specific absorbance
+      may be related to absorbed dose in the surrounding material.
+  examples: []
+  id: r131-3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: PMMA dosimeter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 40c03ccb-583b-510f-a306-79034c1d2e38
+

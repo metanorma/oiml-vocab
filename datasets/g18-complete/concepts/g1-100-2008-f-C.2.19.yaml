@@ -1,0 +1,60 @@
+---
+data:
+  identifier: g1-100-2008-f-C.2.19
+  localized_concepts:
+    fra: 8cb80d91-2a1e-5b4d-9d65-dd477b59d407
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.19
+    type: authoritative
+status: valid
+id: b3145c21-d469-5d47-8814-833b05f828d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: somme des valeurs divisée par le nombre de valeurs
+  examples: []
+  id: g1-100-2008-f-C.2.19-fra
+  notes:
+  - content: Le terme anglais «mean» est utilisé généralement en référence au paramètre
+      d'une population et le terme «average» en référence à un calcul sur des données
+      d'un échantillon.
+  - content: La moyenne d'un échantillon aléatoire simple pris dans une population
+      est un estimateur sans biais de la moyenne de cette population. Cependant, d'autres
+      estimateurs, tels que la moyenne géométrique ou harmonique, ou la médiane ou
+      le mode sont parfois utilisés.
+  - content: 'Source citation: ISO 3534-1:1993, definition 2.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.19
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: moyenne arithmétique
+  - type: expression
+    normative_status: admitted
+    designation: moyenne
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8cb80d91-2a1e-5b4d-9d65-dd477b59d407
+

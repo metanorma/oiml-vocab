@@ -1,0 +1,58 @@
+---
+data:
+  identifier: g1-101-2008-e-3.12
+  localized_concepts:
+    eng: 9964b155-b526-518f-98c5-0b0646fa3afb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1-101:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: ff502081-748b-5b4c-8f60-dedb99046692
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: interval containing the value of a quantity with a stated probability,
+      based on the information available
+  examples: []
+  id: g1-101-2008-e-3.12-eng
+  notes:
+  - content: A coverage interval is sometimes known as a credible interval or a Bayesian
+      interval.
+  - content: Generally there is more than one coverage interval for a stated probability.
+  - content: A coverage interval should not be termed 'confidence interval' to avoid
+      confusion with the statistical concept [GUM:1995 6.2.2].
+  - content: This definition differs from that in the VIM, 3rd Edition (2008), since
+      the term 'true value' has not been used in this Supplement, for reasons given
+      in the GUM [GUM:1995 E.5].
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-101:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coverage interval
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9964b155-b526-518f-98c5-0b0646fa3afb
+

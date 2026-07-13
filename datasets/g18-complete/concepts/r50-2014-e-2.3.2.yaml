@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r50-2014-e-2.3.2
+  localized_concepts:
+    eng: cb6d3f1e-54ac-5358-a55b-241d166b5fdb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+status: valid
+id: d6179e67-e1ec-5c18-9e68-fbad49622098
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: distance between the two imaginary lines at the half distance between
+      the axes of the end weighing rollers and the axes of the nearest carrying roller.
+      When there is only one weighing roller, the weigh length is equal to half the
+      distance between the axes of the nearest carrying rollers on either side of
+      the weighing roller
+  examples: []
+  id: r50-2014-e-2.3.2-eng
+  notes:
+  - content: The weigh length is not applicable to belt weighers inclusive of conveyor.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: weigh length
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cb6d3f1e-54ac-5358-a55b-241d166b5fdb
+

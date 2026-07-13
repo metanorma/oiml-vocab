@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r139-3.3.4
+  localized_concepts:
+    eng: 2f92220f-f6a5-52cf-b68b-a8270e02abb6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+status: valid
+id: fbe6cbb8-c1f1-5719-9d6c-54b9e7f60916
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating mode of a self-service arrangement in which the self-service
+      arrangement controls the authorization for the delivery, based on an action
+      of the customer
+  examples: []
+  id: r139-3.3.4-eng
+  notes:
+  - content: In unattended service mode, the end of the measurement operation is the
+      end of the registration (printing and/or memorizing) of information concerning
+      the measurement operation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unattended service mode
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2f92220f-f6a5-52cf-b68b-a8270e02abb6
+

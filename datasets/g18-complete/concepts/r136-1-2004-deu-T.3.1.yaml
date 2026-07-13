@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r136-1-2004-deu-T.3.1
+  localized_concepts:
+    deu: 0a7d60fe-3c5d-525d-a7a5-5ab41bd471e2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.1
+    type: authoritative
+status: valid
+id: 96c25182-852f-579c-b8de-70f0b86a796c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'In Flächeneinheiten ausgedrückter Wert der Differenz bei analoger Anzeige:
+      zwischen Werten, die zwei aufeinanderfolgenden Skalenmarken entsprechen, oder
+      bei digitaler Anzeige: zwischen zwei aufeinanderfolgenden angezeigten Werten.'
+  examples: []
+  id: r136-1-2004-deu-T.3.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Skalenteilungswert
+  - type: symbol
+    normative_status: admitted
+    designation: d
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0a7d60fe-3c5d-525d-a7a5-5ab41bd471e2
+

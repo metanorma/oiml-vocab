@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r106-2011-f-0.4.4.9
+  localized_concepts:
+    eng: 5fb9ffc9-5d5b-5b7c-89a1-a8ac3b60822a
+    fra: ca79e73c-94dd-50fc-8be3-1cb063048e81
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.4.9
+    type: authoritative
+status: valid
+id: 4ef56047-77dd-50b8-8c1d-8a4989b3d4fe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the highest and lowest results of successive measurements
+      of the same load carried out under the same (or reasonably constant) conditions
+      of measurement
+  examples: []
+  id: r106-2011-f-0.4.4.9-eng
+  notes:
+  - content: 'Source citation: VIM 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.4.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5fb9ffc9-5d5b-5b7c-89a1-a8ac3b60822a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference entre le plus eleve et le plus bas des resultats de mesures
+      successives de la meme charge effectuees dans les memes (ou raisonnablement
+      constantes) conditions de mesure
+  examples: []
+  id: r106-2011-f-0.4.4.9-fra
+  notes:
+  - content: 'Source citation: VIM 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.4.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de repetabilite
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ca79e73c-94dd-50fc-8be3-1cb063048e81
+

@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r126-3.1.1
+  localized_concepts:
+    eng: 1e6e029c-39e0-5809-8406-3b8a8eb6232b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:126:2021
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+status: valid
+id: 6ae2e86e-e663-5913-8ffb-d88b855259a4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r126-3.1.1-eng
+  notes:
+  - content: 'Source citation: OIML V 2-200, 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126-1:2021
+        version: '2021'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1e6e029c-39e0-5809-8406-3b8a8eb6232b
+

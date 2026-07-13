@@ -1,0 +1,345 @@
+{
+  "nodes": [
+    {
+      "id": "2.10",
+      "designation": "valeur mesurée (voir Fig.A.4)",
+      "external": false
+    },
+    {
+      "id": "2.32",
+      "designation": "incertitude-type relative",
+      "external": false
+    },
+    {
+      "id": "2.34",
+      "designation": "incertitude clé",
+      "external": false
+    },
+    {
+      "id": "2.35",
+      "designation": "incertitude élargie",
+      "external": false
+    },
+    {
+      "id": "2.30",
+      "designation": "incertitude-type",
+      "external": false
+    },
+    {
+      "id": "2.33",
+      "designation": "bilan d'incertitude",
+      "external": false
+    },
+    {
+      "id": "2.26",
+      "designation": "incertitude de mesure",
+      "external": false
+    },
+    {
+      "id": "ext_evaluation_d_une_composante_de_l_incertitude_de_mesure",
+      "designation": "(évaluation d'une composante de l'incertitude de mesure)",
+      "external": true
+    },
+    {
+      "id": "2.29",
+      "designation": "évaluation de type B de l'incertitude",
+      "external": false
+    },
+    {
+      "id": "2.28",
+      "designation": "évaluation de type A de l'incertitude",
+      "external": false
+    },
+    {
+      "id": "2.9",
+      "designation": "résultat de mesure",
+      "external": false
+    },
+    {
+      "id": "2.31",
+      "designation": "incertitude-type composée",
+      "external": false
+    },
+    {
+      "id": "2.27",
+      "designation": "incertitude définitionnelle",
+      "external": false
+    },
+    {
+      "id": "4.24",
+      "designation": "incertitude instrumentale",
+      "external": false
+    },
+    {
+      "id": "5.18",
+      "designation": "valeur de référence",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "valeur d'une grandeur",
+      "external": false
+    },
+    {
+      "id": "2.38",
+      "designation": "facteur d'élargissement",
+      "external": false
+    },
+    {
+      "id": "2.48",
+      "designation": "modèle de mesure",
+      "external": false
+    },
+    {
+      "id": "2.3",
+      "designation": "mesurande",
+      "external": false
+    },
+    {
+      "id": "2.49",
+      "designation": "fonction de mesure",
+      "external": false
+    },
+    {
+      "id": "2.36",
+      "designation": "intervalle élargi",
+      "external": false
+    },
+    {
+      "id": "2.11",
+      "designation": "valeur vraie",
+      "external": false
+    },
+    {
+      "id": "2.12",
+      "designation": "valeur conventionnelle",
+      "external": false
+    },
+    {
+      "id": "2.37",
+      "designation": "probabilité de couverture",
+      "external": false
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "2.32",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.32"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.34"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.35"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.30"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "ext_evaluation_d_une_composante_de_l_incertitude_de_mesure",
+        "2.26"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "2.29",
+        "ext_evaluation_d_une_composante_de_l_incertitude_de_mesure"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "2.28",
+        "2.10"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "2.29",
+        "2.28"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "2.26"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "2.9",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.12"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "5.18"
+      ]
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "1.19",
+        "2.11"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "2.11",
+        "2.36"
+      ]
+    },
+    {
+      "id": "rel-016",
+      "type": "associative",
+      "members": [
+        "2.11",
+        "2.37"
+      ]
+    },
+    {
+      "id": "rel-017",
+      "type": "associative",
+      "members": [
+        "2.38",
+        "2.36"
+      ]
+    },
+    {
+      "id": "rel-018",
+      "type": "associative",
+      "members": [
+        "2.38",
+        "2.31"
+      ]
+    },
+    {
+      "id": "rel-019",
+      "type": "associative",
+      "members": [
+        "2.31",
+        "2.35"
+      ]
+    },
+    {
+      "id": "rel-020",
+      "type": "associative",
+      "members": [
+        "2.49",
+        "2.48"
+      ]
+    },
+    {
+      "id": "rel-021",
+      "type": "associative",
+      "members": [
+        "2.48",
+        "2.31"
+      ]
+    },
+    {
+      "id": "rel-022",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "2.48"
+      ]
+    },
+    {
+      "id": "rel-023",
+      "type": "associative",
+      "members": [
+        "2.3",
+        "2.27"
+      ]
+    },
+    {
+      "id": "rel-024",
+      "type": "associative",
+      "members": [
+        "2.26",
+        "2.33"
+      ]
+    },
+    {
+      "id": "rel-025",
+      "type": "partitive",
+      "comprehensive": "2.30",
+      "parts": {
+        "listed": [
+          "2.31"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-026",
+      "type": "partitive_plural",
+      "comprehensive": "2.26",
+      "parts": {
+        "listed": [
+          "2.27",
+          "4.24"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": false,
+        "dashed": true
+      }
+    }
+  ]
+}

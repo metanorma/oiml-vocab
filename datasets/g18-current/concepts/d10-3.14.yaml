@@ -1,0 +1,114 @@
+---
+data:
+  identifier: d10-3.14
+  localized_concepts:
+    eng: d96c15c3-c18c-599d-bb5a-6f3132a884b6
+    spa: f9a043d7-18f8-5946-8959-2dbcec1ccee5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+status: valid
+id: f7ad16d3-fd51-5716-bcaf-e6c9bd889546
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of quantity values being attributed to a measurand together with
+      any other available relevant information
+  examples: []
+  id: d10-3.14-eng
+  notes:
+  - content: A measurement result generally contains "relevant information" about
+      the set of quantity values, such that some may be more representative of the
+      measurand than others. This may be expressed in the form of a probability density
+      function (PDF).
+  - content: A measurement result is generally expressed as a single measured quantity
+      value and a measurement uncertainty.
+  - content: 'Source citation: VIM3 2.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result
+  - type: expression
+    normative_status: admitted
+    designation: result of measurement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d96c15c3-c18c-599d-bb5a-6f3132a884b6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conjunto de valores de una magnitud atribuidos a un mensurando, acompañados
+      de cualquier otra información relevante disponible
+  examples: []
+  id: d10-3.14-spa
+  notes:
+  - content: Un resultado de medición contiene generalmente información relevante
+      sobre el conjunto de valores de una magnitud. Algunos de ellos representan el
+      mensurando mejor que otros. Esto puede representarse como una función de densidad
+      de probabilidad (FDP).
+  - content: El resultado de una medición se expresa generalmente como un valor medio
+      único y una incertidumbre de medición. Si la incertidumbre de medición se considera
+      despreciable para un determinado fin, el resultado de medición puede expresarse
+      como un único valor medido de la magnitud. En muchos campos ésta es la forma
+      habitual de expresar el resultado de medición.
+  - content: En la bibliografía tradicional y en la edición precedente del VIM, el
+      término resultado de medición estaba definido como un valor atribuido al mensurando
+      y podía entenderse como indicación, resultado no corregido o resultado corregido,
+      según el contexto.
+  - content: 'Source citation: VIM3, 2.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resultado de medición
+  - type: expression
+    normative_status: admitted
+    designation: resultado de una medición
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f9a043d7-18f8-5946-8959-2dbcec1ccee5
+

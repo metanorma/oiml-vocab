@@ -1,0 +1,106 @@
+---
+data:
+  identifier: r134-T.3.7
+  localized_concepts:
+    eng: ee6588b1-9706-5587-89cf-1fe58a59ba49
+    fra: d77f305a-5b4b-5fd7-ae53-80a4409ea8c9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+status: valid
+id: bdb67e67-22a6-52a5-98cc-3bd9075dfe98
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Weighing value that is achieved when an automatic operation is ended
+      and the instrument is completely at rest.
+  examples: []
+  id: r134-T.3.7-eng
+  notes:
+  - content: This definition is only applicable to static weighing and not to weighing-in-motion.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: final weight value
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ee6588b1-9706-5587-89cf-1fe58a59ba49
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur pesée obtenue lorsqu'une opération de pesage automatique est terminée
+      et que l'instrument est entièrement au repos.
+  examples: []
+  id: r134-T.3.7-fra
+  notes:
+  - content: Cette définition n'est applicable qu'au pesage statique et pas au pesage
+      en mouvement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur finale de poids
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d77f305a-5b4b-5fd7-ae53-80a4409ea8c9
+

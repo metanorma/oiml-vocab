@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r51-T.4.3.1
+  localized_concepts:
+    eng: 276c17bc-7766-5605-878b-a19145eb3c16
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.3.1
+    type: authoritative
+status: valid
+id: 1ce32209-2ea4-5d13-8ae6-ce0d94d35c46
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication of an instrument minus the (conventional) true value of the
+      mass.
+  examples: []
+  id: r51-T.4.3.1-eng
+  notes:
+  - content: 'Source citation: VIM:1993, 5.20 [1].'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error (of indication)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 276c17bc-7766-5605-878b-a19145eb3c16
+

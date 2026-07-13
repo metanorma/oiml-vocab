@@ -1,0 +1,64 @@
+---
+data:
+  identifier: r146-2.2.2
+  localized_concepts:
+    eng: 9c37efcf-f60b-5971-86f2-20521ef98d22
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:146:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+status: valid
+id: 7e17a712-2747-5b47-ac66-4e262a15209d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: algebraic mean of error shift values calculated from samples of the same
+      grain type with different protein $ \left(P_{\mathrm{MB}}\right) $ levels
+  examples: []
+  id: r146-2.2.2-eng
+  notes:
+  - content: The resulting 'average' value is indicative of the average variation
+      over the encompassed measurement range, as opposed to the variation in measured
+      values at one point of the range. In this Recommendation, reference to a resulting
+      'mean' value is reserved for the mean of replicated measurements, i.e. the mean
+      of measured values on the same test sample (usually taken under repeatability
+      conditions).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 146:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: average error shift
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9c37efcf-f60b-5971-86f2-20521ef98d22
+

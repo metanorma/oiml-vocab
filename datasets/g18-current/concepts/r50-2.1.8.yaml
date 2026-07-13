@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r50-2.1.8
+  localized_concepts:
+    eng: b19a65d1-9da3-5adc-9642-ad8b6747c8f6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.8
+    type: authoritative
+status: valid
+id: 5df6b329-1fb4-5599-a958-c407137ba1c4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of a measuring instrument, device or software subject to legal control
+  examples: []
+  id: r50-2.1.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant part
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b19a65d1-9da3-5adc-9642-ad8b6747c8f6
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: d10-3.11
+  localized_concepts:
+    eng: eb199c13-e0cf-5bcd-82a6-57e93fb64773
+    spa: 5e812d3d-4ea8-5c2b-90ee-38648048ef67
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+status: valid
+id: d194e34a-e844-54fa-970b-d3ff1b9865db
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: body that performs one or more of testing, calibration, or sampling associated
+      with subsequent testing or calibration
+  examples: []
+  id: d10-3.11-eng
+  notes:
+  - content: 'Source citation: ISO/IEC 17025 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: laboratory
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eb199c13-e0cf-5bcd-82a6-57e93fb64773
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'organismo que realiza una o más de las siguientes actividades: ensayos,
+      calibración, muestreo, asociado con el subsiguiente ensayo o calibración'
+  examples: []
+  id: d10-3.11-spa
+  notes:
+  - content: 'Source citation: ISO/IEC 17025, 3.6'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: laboratorio
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5e812d3d-4ea8-5c2b-90ee-38648048ef67
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r49-1-2000-fra-2.3.1
+  localized_concepts:
+    fra: 60eda738-e0a6-5611-bf42-7792b665e2c9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+status: valid
+id: 8d524a80-aac8-59e7-a01d-4d0683704fff
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quotient du volume réel d'eau passant par le compteur d'eau, et du temps
+      écoulé pour le passage de ce volume à travers le compteur d'eau
+  examples: []
+  id: r49-1-2000-fra-2.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit
+  - type: symbol
+    normative_status: preferred
+    designation: Q
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 60eda738-e0a6-5611-bf42-7792b665e2c9
+

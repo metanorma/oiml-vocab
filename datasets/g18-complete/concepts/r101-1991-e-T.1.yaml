@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r101-1991-e-T.1
+  localized_concepts:
+    eng: 0d9c07d6-aafd-5ed8-9c98-245c1749d8c6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:101:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 101:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.1
+status: valid
+id: f2dedea2-96ec-5de9-a47e-077bf89a21af
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A pressure greater than ambient pressure, the latter being considered
+      as the datum point.
+  examples: []
+  id: r101-1991-e-T.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 101:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Gauge pressure
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0d9c07d6-aafd-5ed8-9c98-245c1749d8c6
+

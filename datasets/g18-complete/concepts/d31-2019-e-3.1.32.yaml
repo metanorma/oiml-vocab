@@ -1,0 +1,59 @@
+---
+data:
+  identifier: d31-2019-e-3.1.32
+  localized_concepts:
+    eng: f37d2726-37a5-5f84-98d6-ac15443f2fcb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.32
+    type: authoritative
+status: valid
+id: ff8fd98a-6c21-57e0-8197-2e89683cba29
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: d31-2019-e-3.1.32-eng
+  notes:
+  - content: The concept of 'measurement error' can be used both a) when there is
+      a single reference quantity value to refer to, which occurs if a calibration
+      is made by means of a measurement standard with a measured quantity value having
+      a negligible measurement uncertainty or if a conventional quantity value is
+      given, in which case the measurement error is known, and b) if a measurand is
+      supposed to be represented by a unique true quantity value or a set of true
+      quantity values of negligible range, in which case the measurement error is
+      not known.
+  - content: Measurement implies comparison of quantities or counting of entities.
+  - content: 'Source citation: [OIML V 2-200:2012, 2.16]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: 3.1.32
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f37d2726-37a5-5f84-98d6-ac15443f2fcb
+

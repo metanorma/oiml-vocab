@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r91-3.2.7
+  localized_concepts:
+    eng: f96f2395-e834-5fd4-9c66-657d1a81019b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:91:2025
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.2.7
+    type: authoritative
+status: valid
+id: 18aee57d-2972-535a-b416-8c149e7e92df
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: stationary speed meter which can be moved to different locations between
+      measurements
+  examples: []
+  id: r91-3.2.7-eng
+  notes:
+  - content: Stationary speed meters installed in a parked vehicle or on a parked
+      trailer are also considered as mobile speed meters.
+  - content: Portable speed meters which are used hand-held or which are (temporarily)
+      installed on a tripod or similar temporary stand to guide the hand of the operator
+      for a limited series of measurements are also considered as mobile speed meters.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mobile speed meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f96f2395-e834-5fd4-9c66-657d1a81019b
+

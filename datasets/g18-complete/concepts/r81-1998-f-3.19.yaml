@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r81-1998-f-3.19
+  localized_concepts:
+    eng: 13aa1607-c80d-5167-841f-fcc2ee76e60d
+    fra: 8b03b87a-2620-53c7-80b2-8e031aa53e28
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+status: valid
+id: 1160e0d1-47af-5104-8aae-99d90491928f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ability of a measuring instrument to provide closely similar indications
+      for repeated applications of the same measurand under the same conditions of
+      measurement.
+  examples: []
+  id: r81-1998-f-3.19-eng
+  notes:
+  - content: 'Source citation: VIM 5.27'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 13aa1607-c80d-5167-841f-fcc2ee76e60d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aptitude d'un instrument de mesure a donner des indications tres voisines
+      lors de l'application repetee du meme mesurande dans les memes conditions de
+      mesure.
+  examples: []
+  id: r81-1998-f-3.19-fra
+  notes:
+  - content: 'Source citation: VIM 5.27'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.19'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de repetabilite
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8b03b87a-2620-53c7-80b2-8e031aa53e28
+

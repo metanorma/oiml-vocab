@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r62-14
+  localized_concepts:
+    eng: 9a9cdd84-5756-5da5-a480-e548c3068931
+    fra: cebf3103-ab6d-58d6-9ae8-6a84232ac690
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '14'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '14'
+    type: authoritative
+status: valid
+id: bd2016a9-3ad0-5b0f-a91e-113392fe6352
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The reversible part of the temperature induced indicated strain of a
+      strain gauge installed on an unrestrained test specimen when exposed to a change
+      in temperature.
+  examples: []
+  id: r62-14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: thermal output
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9a9cdd84-5756-5da5-a480-e548c3068931
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Déformation réversible due à la température, indiquée par un extensomètre
+      placé sur une structure d'essai ne faisant l'objet d'aucune contrainte, mais
+      soumise à une variation de température.
+  examples: []
+  id: r62-14-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: effet thermique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cebf3103-ab6d-58d6-9ae8-6a84232ac690
+

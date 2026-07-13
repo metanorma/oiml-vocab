@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r114-2.2
+  localized_concepts:
+    eng: 20d2cdb1-3a4d-522f-b168-7f7041d19bdc
+    fra: e9d1bda4-a391-51e1-8c25-f8f4da931c92
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:114:1995
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+status: valid
+id: 6ee7c90f-2166-5653-8b15-79a0199fc922
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The component of a thermometer of which part is applied to a body cavity
+      or tissue with which it establishes thermal equilibrium. It comprises a temperature
+      sensor with associated parts including coverings, seals, inner leads, and connecting
+      plug, where appropriate.
+  examples: []
+  id: r114-2.2-eng
+  notes:
+  - content: A body cavity may be the rectum, esophagus, or a surgically created cavity.
+  - content: The part of the probe in contact with a body cavity is called the applied
+      part.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temperature probe
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 20d2cdb1-3a4d-522f-b168-7f7041d19bdc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Composant d'un thermometre dont une partie est appliquee a une cavite
+      du corps ou un tissu avec lesquels elle etablit un equilibre thermique. Elle
+      comprend un capteur de temperature avec les pieces associees y compris les enveloppes,
+      joints, fils interieurs et fiche de connexion, le cas echeant.
+  examples: []
+  id: r114-2.2-fra
+  notes:
+  - content: Une cavite du corps peut etre le rectum, l'oesophage ou une cavite chirurgicale.
+  - content: La partie de la sonde en contact avec une cavite du corps est appelee
+      partie appliquee.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 114:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sonde de temperature
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e9d1bda4-a391-51e1-8c25-f8f4da931c92
+

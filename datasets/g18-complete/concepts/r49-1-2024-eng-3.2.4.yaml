@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.2.4
+  localized_concepts:
+    eng: 0aedf80e-ec92-560b-a751-d5c7e87132a8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+status: valid
+id: d349f864-3c81-57c2-a42b-6b90995c87f9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r49-1-2024-eng-3.2.4-eng
+  notes:
+  - content: For the application of this part of ISO 4064|OIML R 49, the indicated
+      volume is considered as the measured quantity value and the actual volume as
+      the reference quantity value. The difference between indicated volume and actual
+      volume is referred to as error (of indication).
+  - content: In this Recommendation, the error (of indication) is expressed as a percentage
+      of the actual volume and is equal to $\frac{\left(V_{\mathrm{i}}-V_{\mathrm{a}}\right)}{V_{\mathrm{a}}}\times100\%$.
+  - content: 'Source citation: ISO/IEC Guide 99:2007|OIML V 2-200:2012 (VIM), 2.16,
+      modified - "error" replaces "measurement error"; original notes removed; "Note
+      1" added, "Note 2" added.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0aedf80e-ec92-560b-a751-d5c7e87132a8
+

@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r61-3.3.9
+  localized_concepts:
+    eng: 869f620c-a7d4-5e85-a5cc-8ed237df44b3
+    deu: 55858590-d429-59b9-8f58-0666ccd85e6b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+status: valid
+id: 192572a4-1d05-5c80-8e38-842b6150beee
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: interface that enables information to be interchanged between the operator
+      and the measuring instrument or its hardware or software components, e.g. switches,
+      keyboard, mouse, display, monitor, printer, touch-screen, software window on
+      a screen including the software that generates it
+  examples: []
+  id: r61-3.3.9-eng
+  notes:
+  - content: Often referred to as "HMI" (human machine interface).
+  - content: 'Source citation: VIML 6.08'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: user interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 869f620c-a7d4-5e85-a5cc-8ed237df44b3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Schnittstelle, die es ermöglich, Informationen zwischen dem Bediener
+      und dem Messgerät oder seinen Hardware- oder Softwarekomponenten auszutauschen
+  examples:
+  - content: 'Source citation: VIML 6.08'
+  id: r61-3.3.9-deu
+  notes:
+  - content: 'Wird oftmals als '
+  - content: HMI“ (human machine interface) bezeichnet.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Benutzerschnittstelle
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 55858590-d429-59b9-8f58-0666ccd85e6b
+

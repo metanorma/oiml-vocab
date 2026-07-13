@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r50-2014-e-2.2.11.3
+  localized_concepts:
+    eng: 666e8165-ed91-55e9-a0af-552f5679097e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.11.3
+    type: authoritative
+status: valid
+id: 78246a9d-3310-5a39-a889-5a8cda6eae19
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: legally relevant parameter with a value that depends on the type of instrument
+      only
+  examples: []
+  id: r50-2014-e-2.2.11.3-eng
+  notes:
+  - content: 'Source citation: VIML, 4.11 [2]'
+  - content: Type-specific parameters are part of the legally relevant software.
+  - content: 'Examples of type-specific parameters are: parameters used for weight
+      value calculation, stability analysis or price calculation and rounding, software
+      identification.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.2.11.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: type-specific parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 666e8165-ed91-55e9-a0af-552f5679097e
+

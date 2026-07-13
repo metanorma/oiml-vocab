@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r35-2-2011-eng-2.16
+  localized_concepts:
+    eng: 06db0625-fb03-5ff1-8f44-e961e81deb5a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:35-2:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+status: valid
+id: 36f86ffd-777f-589f-9e6d-45b11f328750
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault, the magnitude of which is greater than one-fifth of the magnitude
+      of the maximum permitted error for the length measured
+  examples: []
+  id: r35-2-2011-eng-2.16-eng
+  notes:
+  - content: The following faults are considered not to be significant, even when
+      they exceed the value defined above - a) faults arising from simultaneous and
+      mutually independent causes in the electronic device; b) faults implying the
+      impossibility to perform any measurement; c) transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorized or transmitted
+      as a measurement result; d) faults giving rise to variations in the measurement
+      results so serious that they are bound to be noticed by all those interested
+      in the result of the measurement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 06db0625-fb03-5ff1-8f44-e961e81deb5a
+

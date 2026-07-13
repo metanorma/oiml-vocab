@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r59-1-2016-fra-2.3.14
+  localized_concepts:
+    fra: fd20cbee-13c6-511e-a8a2-0b8ef3d8025c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+status: valid
+id: 81368506-587b-5e5e-8fae-ec5dd8e02a41
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: défaut plus grand que la valeur spécifiée dans la présente Recommandation
+      (voir 4.4.1)
+  examples: []
+  id: r59-1-2016-fra-2.3.14-fra
+  notes:
+  - content: 'La présente Recommandation peut indiquer que les défauts suivants ne
+      sont pas significatifs même quand ils excèdent la valeur définie au point 4.4.1
+      : (a) défauts provenant de causes simultanées et mutuellement indépendantes
+      (par exemple champs électromagnétiques et décharges) dans un instrument ou dans
+      ses systèmes de contrôle; (b) défauts rendant impossible l''accomplissement
+      de tout mesurage ; (c) défauts transitoires provenant de variations momentanées
+      de l''indication, qui ne peuvent être interprétées, mises en mémoire ou transmises
+      comme un résultat de mesurage; (d) défauts provoquant des variations du résultat
+      de mesurage suffisamment importantes pour être identifiées par tous ceux intéressés
+      par le résultat du mesurage ; la Recommandation applicable peut spécifier la
+      nature de ces variations.'
+  - content: 'Source citation: VIML 5.14'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fd20cbee-13c6-511e-a8a2-0b8ef3d8025c
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: d25-2.4
+  localized_concepts:
+    fra: 38cdd7e0-a447-5248-adc8-4bbedfe1836c
+    eng: 8bf754df-514a-5f43-b36e-e13bedec88b1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:25:2010
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:2010
+        version: '2010'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 25:2010
+        version: '2010'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+status: valid
+id: '02973810-b2de-53d3-a809-e3809fc7242c'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur du compteur, calculée comme E_compt = (I - V) / V * 100 pour cent,
+      où I est l'indication du compteur exprimée en volume et V est la lecture de
+      la mesure volumétrique (volume ayant traversé le transducteur).
+  examples: []
+  id: d25-2.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:2010
+        version: '2010'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Exactitude du compteur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 38cdd7e0-a447-5248-adc8-4bbedfe1836c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of the meter, calculated as E_meter = (I - V) / V * 100 percent,
+      where I is the meter reading in terms of volume and V is the reading of volumetric
+      measure (volume swept through the transducer).
+  examples: []
+  id: d25-2.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 25:2010
+        version: '2010'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Meter accuracy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8bf754df-514a-5f43-b36e-e13bedec88b1
+

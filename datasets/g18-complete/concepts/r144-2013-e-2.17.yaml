@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r144-2013-e-2.17
+  localized_concepts:
+    eng: ff68e47e-2c54-5e76-803e-cd06f9926823
+    fra: 97273ece-7674-5a20-93f7-fa7977e18643
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.17'
+    type: authoritative
+status: valid
+id: c2e43fbf-8dc3-5bc0-b9ce-fbc5d6a3915c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but that affects the relation between the indication
+      and the measurement result
+  examples: []
+  id: r144-2013-e-2.17-eng
+  notes:
+  - content: 'Source citation: VIM, 2.52 [1]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.17'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ff68e47e-2c54-5e76-803e-cd06f9926823
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur qui, lors d'un mesurage direct, n'a pas effet sur la grandeur
+      effectivement mesurée, mais a effet sur la relation entre l'indication et le
+      ralte mesure
+  examples: []
+  id: r144-2013-e-2.17-fra
+  notes:
+  - content: 'Source citation: VIM, 2.52 [1]'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.17'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 97273ece-7674-5a20-93f7-fa7977e18643
+

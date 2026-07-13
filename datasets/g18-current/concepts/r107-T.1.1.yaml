@@ -1,0 +1,67 @@
+---
+data:
+  identifier: r107-T.1.1
+  localized_concepts:
+    eng: e244f3c2-d2fb-5a48-a145-208a2e67bf4e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:107:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 107:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.1
+    type: authoritative
+status: valid
+id: 2c321002-5598-5c2e-8006-1f81aa44382c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Measuring instrument used to determine the mass of a body by using the
+      action of gravity on this body.
+  examples: []
+  id: r107-T.1.1-eng
+  notes:
+  - content: In this Recommendation "mass" (or "weight value") is preferably used
+      in the sense of "conventional mass" or "conventional value of the result of
+      weighing in air" according to OIML R 111 [5] and OIML D 28 [27], whereas "weight"
+      is preferably used for an embodiment (or material measure) of mass that is regulated
+      in regard to its physical and metrological characteristics.
+  - content: The instrument may also be used to determine other quantities, magnitudes,
+      parameters or characteristics related to the determined mass.
+  - content: According to its method of operation, a weighing instrument is classified
+      as an automatic weighing instrument or a non-automatic weighing instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: weighing instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e244f3c2-d2fb-5a48-a145-208a2e67bf4e
+

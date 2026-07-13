@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r60-1-2017-eng-3.5.6
+  localized_concepts:
+    eng: b976ec61-0fb4-54f9-a96b-ffe65a99deef
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.6
+    type: authoritative
+status: valid
+id: 581de385-78db-520e-aadf-448c99fbce61
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: largest value of a quantity expressed in units of mass which can be introduced
+      to a load cell under test
+  examples: []
+  id: r60-1-2017-eng-3.5.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum load of the measuring range
+  - type: symbol
+    designation: "$D_{\\mathrm{max}}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b976ec61-0fb4-54f9-a96b-ffe65a99deef
+

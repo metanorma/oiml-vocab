@@ -1,0 +1,49 @@
+---
+data:
+  identifier: d31-2023-e-3.2.21
+  localized_concepts:
+    eng: 498e4b74-e617-5fb6-83ca-8b26421cd851
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+status: valid
+id: ac1c5a21-d23f-5c50-8c28-c6813e775a62
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: non-resettable counter that increments each time an event occurs
+  examples: []
+  id: d31-2023-e-3.2.21-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: event counter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 498e4b74-e617-5fb6-83ca-8b26421cd851
+

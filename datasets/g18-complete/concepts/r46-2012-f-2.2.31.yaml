@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r46-2012-f-2.2.31
+  localized_concepts:
+    eng: e1f49689-d874-5d44-ac6e-a2e763bb928b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+status: valid
+id: 9228de10-bee0-5a8d-90c6-f60dd8b520ef
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value
+  examples: []
+  id: r46-2012-f-2.2.31-eng
+  notes:
+  - content: 'The following are also considered to be significant faults: a change
+      larger than the critical change value (see 3.3.6.2) has occurred in the measurement
+      registers due to disturbances; the functionality of the meter has become impaired.'
+  - content: 'Source citation: OIML D11:2004, 3.10'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e1f49689-d874-5d44-ac6e-a2e763bb928b
+

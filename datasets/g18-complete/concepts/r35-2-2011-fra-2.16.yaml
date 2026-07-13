@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r35-2-2011-fra-2.16
+  localized_concepts:
+    fra: fb98035f-a175-5af4-9ba6-274890a45000
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:35-2:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+status: valid
+id: 79ed978a-04ab-52cf-afca-474510ecfb1a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Defaut dont l'amplitude est supérieure au cinquième de l'amplitude de
+      l'erreur maximale tolérée pour la longueur mesurée.
+  examples: []
+  id: r35-2-2011-fra-2.16-fra
+  notes:
+  - content: 'Les défauts suivants ne sont pas considérés comme significatifs, même
+      en cas de dépassement de la valeur définie ci-dessus : a) défauts provenant
+      de causes simultanées et mutuellement indépendantes dans le dispositif électronique
+      ; b) défauts rendant impossible la réalisation de toute mesure ; c) défauts
+      transitoires consistant en des variations momentanées des indications qui ne
+      peuvent être interprétées, mises en mémoire ou transmises en tant que résultats
+      de mesure ; d) défauts provoquant des variations des résultats de mesure si
+      importantes qu''elles ne peuvent qu''être remarquées par toutes les parties
+      intéressées par le résultat du mesurage.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 35-2:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fb98035f-a175-5af4-9ba6-274890a45000
+

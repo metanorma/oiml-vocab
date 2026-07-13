@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r76-1-1994-fra-T.2.4.1
+  localized_concepts:
+    fra: 5c43114c-8ff3-516f-9b79-ee0a5441e0b5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+status: valid
+id: 37904a68-6159-53a3-9f46-96bbf784ccaa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Organe indiquant l'équilibre et/ou le résultat.
+  - content: Sur les instruments à une seule position d'équilibre, il indique uniquement
+      l'équilibre (également appelé "zéro").
+  - content: Sur les instruments à plusieurs positions d'équilibre, il indique à la
+      fois l'équilibre et le résultat. Sur un instrument électronique, il s'agit de
+      l'affichage.
+  examples: []
+  id: r76-1-1994-fra-T.2.4.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: organe indicateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5c43114c-8ff3-516f-9b79-ee0a5441e0b5
+

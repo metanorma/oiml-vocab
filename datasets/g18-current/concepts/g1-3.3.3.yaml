@@ -1,0 +1,61 @@
+---
+data:
+  identifier: g1-3.3.3
+  localized_concepts:
+    eng: 6bc8d4b0-b649-5b44-a135-06f230bedcf8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.3
+    type: authoritative
+status: valid
+id: c076b795-964e-5661-851d-873d691d190b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: need or expectation that is stated
+  examples:
+  - content: A sample of industrial waste water (the item) is required to have a mass
+      concentration of dissolved mercury (the property) of no greater than 10 ng/L.
+  - content: A grocery scale (the item) is required to have an indication R (the property)
+      in the interval [999.5 g $ \leq $ R $ \leq $ 1000.5 g] when measuring a standard
+      1 kg weight.
+  id: g1-3.3.3-eng
+  notes:
+  - content: Specified requirements may be stated in normative documents such as regulations,
+      standards and technical specifications.
+  - content: The term 'expectation' in the context of a specified requirement is not
+      related to the expectation of a random variable; see definition 3.1.5.
+  - content: In this document, a typical specified requirement takes the form of a
+      stated interval of permissible values of a measurable property of an item.
+  - content: 'Source citation: ISO/IEC 17000:2004 3.1'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: specified requirement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6bc8d4b0-b649-5b44-a135-06f230bedcf8
+

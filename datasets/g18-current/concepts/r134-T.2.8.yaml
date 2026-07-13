@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r134-T.2.8
+  localized_concepts:
+    eng: e7a366b2-9377-5844-8c2e-92423ee45961
+    fra: 1628ba88-04c3-5b32-9dec-0bcf0ad7dd7a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8
+    type: authoritative
+status: valid
+id: 9d8011a8-34ad-57d1-9071-249a3486a349
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Interface that enables information to be passed between a human user
+      and the instrument or its hardware or software components, e.g. switch, keyboard,
+      mouse, display, monitor, printer, touch screen, etc.
+  examples: []
+  id: r134-T.2.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: user interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e7a366b2-9377-5844-8c2e-92423ee45961
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Interface permettant à l'information d'être transmise entre un utilisateur
+      humain et l'instrument ou ses composants matériels ou logiciels, par exemple
+      bouton, clavier, souris, écran, imprimante, écran tactile, etc.
+  examples: []
+  id: r134-T.2.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interface utilisateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1628ba88-04c3-5b32-9dec-0bcf0ad7dd7a
+

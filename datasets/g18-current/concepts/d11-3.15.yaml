@@ -1,0 +1,107 @@
+---
+data:
+  identifier: d11-3.15
+  localized_concepts:
+    fra: 4ab546e3-cfe3-5026-882a-c841c0d9ad8d
+    eng: 628c6ec1-4079-5f75-8031-1b80f0114262
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+status: valid
+id: 98ac2dd0-655e-5fec-bc96-0d2f5a9d0c5b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur qui, dans un mesurage direct, n'affecte pas la grandeur qui
+      est réellement mesurée, mais affecte la relation entre l'indication et le résultat
+      de mesure
+  examples: []
+  id: d11-3.15-fra
+  notes:
+  - content: Une grandeur d'influence n'est pas reliée au mesurande mais, c'est une
+      grandeur qui affecte le résultat de mesurage comme indiqué par l'équipement
+      sous test (ESE).
+  - content: 'Exemple: La température d''un instrument de mesure est une grandeur
+      d''influence, mais la température de l''objet mesuré (utilisée comme une référence
+      pour déterminer le défaut ou l''erreur) ne l''est pas. Il peut être nécessaire
+      de prendre en considération cette influence de l''environnement sur cet objet
+      mesuré comme un facteur dans la définition du mesurande.'
+  - content: 'Source citation: VIM 2.52; VIML 0.07'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4ab546e3-cfe3-5026-882a-c841c0d9ad8d
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+  examples: []
+  id: d11-3.15-eng
+  notes:
+  - content: An influence quantity is not related to the measurand but is a quantity
+      that affects the result of the measurement as indicated by the equipment under
+      test (EUT).
+  - content: 'Example: The temperature of a measuring instrument is an influence quantity,
+      but the temperature of the measured object (used as a reference for determining
+      the fault or the error) is not. This influence of the environment on this measured
+      object may need to be taken into consideration as a contributor in the definition
+      of the measurand.'
+  - content: 'Source citation: VIM 2.52, VIML 0.07'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: 628c6ec1-4079-5f75-8031-1b80f0114262
+

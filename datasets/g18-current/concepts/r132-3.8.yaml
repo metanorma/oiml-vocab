@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r132-3.8
+  localized_concepts:
+    fra: 285a7166-a1b1-51c9-a8cb-ffd871d4c2cc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:132:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+status: valid
+id: 6511c114-d828-5fee-9d14-7a010455e206
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Combinaison d'une source de photons ou d'électrons et des appareils associés,
+      fournissant une valeur de dose absorbée ou de taux de dose absorbée, uniforme
+      et reproductible, en des points précis d'un matériau spécifique. La dose absorbée
+      doit être raccordable aux étalons nationaux ou internationaux.
+  examples: []
+  id: r132-3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Installation d'étalonnage
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 285a7166-a1b1-51c9-a8cb-ffd871d4c2cc
+

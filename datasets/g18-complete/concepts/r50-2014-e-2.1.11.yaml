@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r50-2014-e-2.1.11
+  localized_concepts:
+    eng: 8cd747cd-6e1a-580e-8803-450115087a7c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:50:2014
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+status: valid
+id: d213ecc2-42d7-5e1a-8f63-ea9c3c7eb4bf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device used in simulation tests on the continuously totalizing weigher
+      without its conveyor and intended to simulate displacement of the belt by activating
+      the displacement transducer in a similar manner to how it would operate with
+      the conveyor (e.g. by use of a pulse generator or a motor to simulate rotation
+      of a wheel which incorporates the displacement transducer)
+  examples: []
+  id: r50-2014-e-2.1.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50:2014
+        version: '2014'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: displacement simulation device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8cd747cd-6e1a-580e-8803-450115087a7c
+

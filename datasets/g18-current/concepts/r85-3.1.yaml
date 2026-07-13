@@ -1,0 +1,113 @@
+---
+data:
+  identifier: r85-3.1
+  localized_concepts:
+    eng: 10d730d6-38f8-5e98-9542-519298c8df1d
+    fra: 9f5b47ce-ae87-5785-81f8-d4266dfbda87
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+status: valid
+id: b7d545df-c3b6-5108-8d50-8d9aefa35299
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument intended to measure automatically and display the level of
+      the liquid contained in a tank with respect to a fixed reference.
+  examples: []
+  id: r85-3.1-eng
+  notes:
+  - content: An automatic level gauge includes at least a liquid level sensor, a transducer,
+      and an indicating device.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Automatic level gauge
+  - type: expression
+    normative_status: admitted
+    designation: ALG
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 10d730d6-38f8-5e98-9542-519298c8df1d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument destiné au mesurage automatique et à l'affichage du niveau
+      du liquide contenu dans un réservoir par rapport à une référence fixe.
+  examples: []
+  id: r85-3.1-fra
+  notes:
+  - content: Un jaugeur automatique comprend au moins un détecteur de niveau de liquide,
+      un transducteur et un dispositif indicateur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Jaugeur automatique
+  - type: expression
+    normative_status: admitted
+    designation: JA
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9f5b47ce-ae87-5785-81f8-d4266dfbda87
+

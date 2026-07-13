@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r61-3.3.7
+  localized_concepts:
+    eng: 5aea672d-be90-53aa-9af9-108f3f8a0be9
+    deu: 3b4b4773-c437-5a0b-8531-69d45b2e9df6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+status: valid
+id: 89690fc8-9f3d-504a-bd2f-c5158571c6bd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: storage device used for keeping weighing data ready after completion
+      of the measurement for subsequent indication, data transfer, totalizing, etc.
+  examples: []
+  id: r61-3.3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data storage device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5aea672d-be90-53aa-9af9-108f3f8a0be9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Speichereinrichtung, die angewendet wird, um Wägedaten nach Abschluss
+      der Messung für die spätere Anzeige, Datenübertragung, Summenbildung usw. abrufbereit
+      zu halten
+  examples: []
+  id: r61-3.3.7-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Datenspeichereinrichtung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3b4b4773-c437-5a0b-8531-69d45b2e9df6
+

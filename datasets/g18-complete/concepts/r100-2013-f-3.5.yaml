@@ -1,0 +1,83 @@
+---
+data:
+  identifier: r100-2013-f-3.5
+  localized_concepts:
+    eng: a331180b-d266-53c0-8718-5046d51b5262
+    fra: 1a539106-5212-5727-af22-2ae127cd2602
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: 4e2b7893-0331-51dc-ae7e-f32a28a9d50d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: concentration or mass of an element which produces a change from the
+      blank test solution of 0.004 4 absorbance units (1 % absorption) at the wavelength
+      of the absorption line employed
+  examples: []
+  id: r100-2013-f-3.5-eng
+  notes:
+  - content: Historically, sensitivity has been used for this term in this field.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: characteristic concentration/characteristic mass
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a331180b-d266-53c0-8718-5046d51b5262
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: concentration ou masse d'un élément qui produit un changement de la solution
+      d'essai à blanc de 0,004 4 unités d'absorbance (1 % absorption) à la longueur
+      d'onde de ligne d'absorption employée
+  examples: []
+  id: r100-2013-f-3.5-fra
+  notes:
+  - content: Historiquement, le terme « sensibilité » a été utilisé sur le terrain.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: concentration caractéristique/masse caractéristique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1a539106-5212-5727-af22-2ae127cd2602
+

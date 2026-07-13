@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r55-1981-e-1.6
+  localized_concepts:
+    eng: 73ea3f8e-34be-554a-9a28-f1583c96caaf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:55:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.6'
+status: valid
+id: d7d9759a-4cb1-5449-8439-afbd9295bddb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Characteristic quantity showing the type (revolutions of the driving
+      shaft or impulses) and the frequency of signals at which the speedometer must
+      indicate a speed of 60 km/h.
+  examples: []
+  id: r55-1981-e-1.6-eng
+  notes:
+  - content: The speedometer constant may be expressed in revolutions per minute,
+      rev/min, or in impulses per minute, imp/min.
+  - content: The speedometer constant is numerically equal to odometer constant k
+      when the same driving system is used for both instruments.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Speedometer constant
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 73ea3f8e-34be-554a-9a28-f1583c96caaf
+

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r61-1-2017-deu-3.5.2.4
+  localized_concepts:
+    deu: ef7ae16d-7189-5241-ac80-b76488f6fb5b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+status: valid
+id: 3bc9438d-1dea-5ae0-a5e7-b897bc02801f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Größter Wert einer Messabweichung in Bezug auf einen bekannten Referenzwert
+      der durch Spezifikationen oder Vorschriften für eine Messung, ein Messgerät
+      oder ein Messsystem zugelassen ist
+  examples: []
+  id: r61-1-2017-deu-3.5.2.4-deu
+  notes:
+  - content: 'Gewöhnlich werden die Benennungen '
+  - content: 'Grenzwerte der Messabweichung“ oder '
+  - content: Fehlergrenzen“ verwendet, wenn es zwei Extremwerte gibt.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Größter zulässiger Fehler (mpe)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ef7ae16d-7189-5241-ac80-b76488f6fb5b
+

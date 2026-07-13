@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r105-T.5
+  localized_concepts:
+    eng: c4cfef75-1ded-539a-9803-309831f80da7
+    fra: 045e9d9e-8725-55c1-824f-5016862edf61
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:105:1993
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    locality:
+      type: clause
+      reference_from: T.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    locality:
+      type: clause
+      reference_from: T.5
+    type: authoritative
+status: valid
+id: cf252bbf-d4c8-5a4f-966c-0d15e4a1f90c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A measuring transaction during which both the buyer and the seller (or
+      their agents) are present when the quantity is being determined.
+  examples: []
+  id: r105-T.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Direct sale
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c4cfef75-1ded-539a-9803-309831f80da7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Transaction metrologique pendant laquelle a la fois l'acheteur et le
+      vendeur (ou leurs representants) sont presents lorsque la quantite est determinee.
+  examples: []
+  id: r105-T.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 105:1993
+        version: '1993'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vente directe
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 045e9d9e-8725-55c1-824f-5016862edf61
+

@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r117-2007-f-T.c.3.1
+  localized_concepts:
+    fra: 25e61245-5e51-5f0f-9721-0411596ce7d3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.3.1
+    type: authoritative
+status: valid
+id: a3a9b7a7-e117-57ce-af77-998ee70066a6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Valeurs spécifiées caractérisant les conditions dans lesquelles la quantité
+      de liquide mesurée est convertie (exemple: température et pression de base).'
+  examples: []
+  id: r117-2007-f-T.c.3.1-fra
+  notes:
+  - content: Il ne faut pas confondre les conditions de mesure et les conditions de
+      base (qui se rapportent seulement à la quantité du liquide à mesurer ou à indiquer)
+      avec les "conditions assignées de fonctionnement" et les "conditions de référence"
+      qui se rapportent aux grandeurs d'influence.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base conditions
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 25e61245-5e51-5f0f-9721-0411596ce7d3
+

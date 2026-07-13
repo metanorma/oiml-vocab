@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-2008-e-3.1.2
+  localized_concepts:
+    eng: c01b1c0d-3f62-5720-9f60-bda1e589671d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.2
+status: valid
+id: b279b126-5b53-5af4-a5fa-58ddf6c837e3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Continuous data file containing a time stamped information record of
+      events, e.g. changes in the values of the parameters of a device or software
+      updates, or other activities that are legally relevant and which may influence
+      the metrological characteristics.
+  examples: []
+  id: d31-2008-e-3.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: audit trail
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c01b1c0d-3f62-5720-9f60-bda1e589671d
+

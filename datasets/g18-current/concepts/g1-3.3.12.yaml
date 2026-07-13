@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g1-3.3.12
+  localized_concepts:
+    eng: da50d45e-57a0-5157-a097-f8096d03c1e1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.12
+    type: authoritative
+status: valid
+id: ee92052a-b0f1-5f0d-af67-f46c1f187d46
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: documented rule that describes how measurement uncertainty will be accounted
+      for with regard to accepting or rejecting an item, given a specified requirement
+      and the result of a measurement
+  examples: []
+  id: g1-3.3.12-eng
+  notes:
+  - content: 'Source citation: Adapted from ASME B89.7.3.1-2001 [2]'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.12
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: decision rule
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: da50d45e-57a0-5157-a097-f8096d03c1e1
+

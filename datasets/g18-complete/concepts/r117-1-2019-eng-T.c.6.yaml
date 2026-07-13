@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r117-1-2019-eng-T.c.6
+  localized_concepts:
+    eng: ce5a2a31-5e85-555b-a7fa-c11c7d26e9be
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117-1:2019
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: T.c.6
+    type: authoritative
+status: valid
+id: 152e3cce-50c1-5742-91e6-73541f4d747e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device connected to or incorporated in the meter for automatically correcting
+      the measured quantity at the time of measurement, by taking into account the
+      flowrate and/or the characteristics of the liquid to be measured (viscosity,
+      temperature, pressure, etc.) and the pre-established calibration curves
+  examples: []
+  id: r117-1-2019-eng-T.c.6-eng
+  notes:
+  - content: The characteristics of the liquid shall either be measured using associated
+      measuring devices, or stored in the memory of the instrument
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: T.c.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: correction device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ce5a2a31-5e85-555b-a7fa-c11c7d26e9be
+

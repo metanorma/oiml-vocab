@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.5
+    type: authoritative
 status: valid
 id: 6f167574-1aa4-484c-b852-2fbc69204497
 schema_version: '3'
@@ -15,15 +24,26 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device for checking, before start-up and after shut-down, that all or part of the measuring system is either filled completely with liquid (full hose measuring systems) or completely empty of liquid (empty hose measuring system)'
-  id: 03494-eng
+  - content: device for checking, before start-up and after shut-down, that all or
+      part of the measuring system is either filled completely with liquid (full hose
+      measuring systems) or completely empty of liquid (empty hose measuring system)
+  id: '03494-eng'
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 91-1:2025
+        version: '2025'
+    locality:
+      type: clause
+      reference_from: 3.4.5
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'sight glass'
+    designation: sight glass
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 5d22f0e5-08f1-5bb3-8894-e1b2890c4f0f
+

@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r41-2.1
+  localized_concepts:
+    fra: 302d77e2-21e7-5335-8240-c35b912149f3
+    eng: ca22f201-e82b-58e7-a684-fefbc223877e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:41:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+status: valid
+id: 4fcb3e13-c31d-5204-a0ab-6ed0a754b0c1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La capacité correspondant à un trait repère est egale au volume d'eau,
+      à la température de référence, délivré par la burette à cette température, quand
+      on la vide depuis le trait zéro jusqu'à ce trait repère, l'écoulement se faisant
+      librement jusqu'à l'ajustage du ménisque à ce trait, aucun délai n'étant accordé
+      pour le drainage du liquide adhérant aux parois avant l'ajustage final.
+  examples: []
+  id: r41-2.1-fra
+  notes:
+  - content: le ménisque formé par l'eau dans la burette doit être ajusté de telle
+      manière que le plan horizontal passant par le bord supérieur du trait repère
+      soit tangent au ménisque en sont point le plus bas, la visée se faisant dans
+      ce plan.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Capacité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 302d77e2-21e7-5335-8240-c35b912149f3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The capacity corresponding to any scale mark is equal to the volume of
+      water, at the reference temperature, delivered by the burette at this temperature
+      when it is emptied from the zero mark to this scale mark, the outflow being
+      unrestricted until the meniscus is set on this scale mark, no period being allowed
+      for drainage of liquid adhering to the walls before making the final setting.
+  examples: []
+  id: r41-2.1-eng
+  notes:
+  - content: The meniscus formed by the water in the burette, must be so adjusted
+      that the horizontal plane passing through the upper edge of the scale mark,
+      is tangential to the lowest point of the meniscus when viewed in this plane.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 41:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Capacity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ca22f201-e82b-58e7-a684-fefbc223877e
+

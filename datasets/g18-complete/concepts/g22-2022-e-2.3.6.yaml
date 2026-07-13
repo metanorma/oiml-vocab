@@ -1,0 +1,51 @@
+---
+data:
+  identifier: g22-2022-e-2.3.6
+  localized_concepts:
+    eng: 7371fa65-6bcf-5ec7-adbb-7e55b8b63d6f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.6
+status: valid
+id: 3d736224-2383-517e-84cb-ad0706ef4f15
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'For AC EVSE: RMS value of the electrical voltage supplied to the electric
+      vehicle at the connection point. For DC EVSE: value of voltage supplied to the
+      electric vehicle at the connection point'
+  examples: []
+  id: g22-2022-e-2.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: voltage, U
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7371fa65-6bcf-5ec7-adbb-7e55b8b63d6f
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d11-3.21
+  localized_concepts:
+    fra: 3fa47dbe-4a82-588a-a488-6c5f18f17984
+    eng: 01db432e-50e7-53e8-b760-3793696ffd86
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: '3.21'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.21'
+    type: authoritative
+status: valid
+id: 3f1d4464-4794-56f0-b8b0-7e820b7dacce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: séries d'opérations permettant de vérifier la conformité de l'équipement
+      sous essai (ESE) avec les exigences spécifiées
+  examples: []
+  id: d11-3.21-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.21'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3fa47dbe-4a82-588a-a488-6c5f18f17984
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: series of operations intended to verify the compliance of the equipment
+      under test (EUT) with specified requirements
+  examples: []
+  id: d11-3.21-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.21
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test
+  language_code: eng
+  entry_status: valid
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: 01db432e-50e7-53e8-b760-3793696ffd86
+

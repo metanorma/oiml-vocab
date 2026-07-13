@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r83-2006-e-3.9
+  localized_concepts:
+    eng: 9de0ed54-60cf-598c-bf12-fbe2f9cbe35e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:83:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:2006
+        version: '2006'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+status: valid
+id: 9bed269d-fd46-5eb5-9fee-9b3eca7171cf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Minimum amount of a specific compound which, when injected into the gas
+      chromatograph, produces a signal-to-noise ratio of at least 3 for a characteristic
+      base peak of that compound depending on the mode of ionization and over a specified
+      mass range.
+  examples: []
+  id: r83-2006-e-3.9-eng
+  notes:
+  - content: Some compounds do not give a molecular ion, but all amenable compounds
+      have a base peak in their spectra; the base peak is the most intense or abundant
+      ion in a mass spectrum.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:2006
+        version: '2006'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9de0ed54-60cf-598c-bf12-fbe2f9cbe35e
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: b3-2.12
+  localized_concepts:
+    fra: bfcfa632-af1c-5a4f-9e35-c3b8a5d8dd04
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:b:3:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+status: valid
+id: bf572a9f-1e63-5433-88c0-95f6992bfb85
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: document délivré selon les règles du Système par une Autorité de délivrance
+      OIML et apportant l'assurance que le type d'instrument de mesure ou de module
+      identifié est conforme aux exigences de la Recommandation applicable
+  examples: []
+  id: b3-2.12-fra
+  notes:
+  - content: Si les règles complémentaires définies dans l'OIML B 10 sont également
+      respectées (c'est-à-dire qu'une Déclaration de Confiance Mutuelle (DoMC) est
+      publiée pour la catégorie correspondante), les Certificats délivrés sont appelés
+      « Certificats OIML de Conformité MAA ».
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: certificat OIML de Conformité dit « de Base »
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bfcfa632-af1c-5a4f-9e35-c3b8a5d8dd04
+

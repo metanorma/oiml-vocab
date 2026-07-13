@@ -1,0 +1,53 @@
+---
+data:
+  identifier: d31-3.2.38
+  localized_concepts:
+    eng: 19a6d407-24ef-5224-94e6-2be3d75926e1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.38
+    type: authoritative
+status: valid
+id: f0a0fa84-931a-5c67-810d-fae9691a4fc1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: data used during the measurement process to construct the measurement
+      result
+  examples: []
+  id: d31-3.2.38-eng
+  notes:
+  - content: Examples of measurement process data include values of measurement parameters,
+      values of connection settings or values of session parameters.
+  - content: See Annex C for clarification regarding measurement-related terms.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.38
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement process data
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 19a6d407-24ef-5224-94e6-2be3d75926e1
+

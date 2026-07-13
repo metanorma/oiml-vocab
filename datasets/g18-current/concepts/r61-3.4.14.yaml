@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r61-3.4.14
+  localized_concepts:
+    eng: d619febb-2eeb-5c99-acf2-50a7ac5187a9
+    deu: 318efedd-c4e2-5056-9c92-dad7e25c0e27
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.14
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.14
+    type: authoritative
+status: valid
+id: fc9a0ccb-4374-52da-b9cf-a20eb48b23a2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: time between the moment power is applied to an instrument and the moment
+      at which the instrument is capable of complying with the requirements
+  examples: []
+  id: r61-3.4.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: warm-up time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d619febb-2eeb-5c99-acf2-50a7ac5187a9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Zeit zwischen dem Einschaltzeitpunkt einer Waage und dem Zeitpunkt, von
+      dem an die Waage den Anforderungen entspricht
+  examples: []
+  id: r61-3.4.14-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anwärmzeit
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 318efedd-c4e2-5056-9c92-dad7e25c0e27
+

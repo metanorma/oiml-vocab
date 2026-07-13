@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r89-1990-e-5.3.11
+  localized_concepts:
+    eng: 0b83213a-4c5a-51b3-9ef0-2b5268afb8c9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.11
+    type: authoritative
+status: valid
+id: 424aa9d3-f4d4-548c-934d-4c786afddd3c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The common-mode rejection ratio is the ratio of the peak-to-peak amplitude
+      of an in-phase signal applied at the input of the EUT to the peak-to-peak amplitude
+      of an out-of-phase signal that results in the same peak-to-peak amplitude of
+      the recorded signal.
+  examples: []
+  id: r89-1990-e-5.3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: common-mode rejection ratio
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0b83213a-4c5a-51b3-9ef0-2b5268afb8c9
+

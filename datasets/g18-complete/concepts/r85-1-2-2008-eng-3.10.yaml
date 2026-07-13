@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r85-1-2-2008-eng-3.10
+  localized_concepts:
+    eng: 6766d9ed-7837-51f5-9e8f-4862213b1cad
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85-1-2:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+status: valid
+id: 56e189ba-a049-56e3-9757-6f364d54317e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Facility incorporated in an electronic automatic level gauge that enables
+      significant faults, incorrect functioning of a specific device of the ALG, and/or
+      disturbed communication between specific devices of the ALG to be detected and
+      acted upon.
+  examples: []
+  id: r85-1-2-2008-eng-3.10-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the ALG (luminous signal,
+      acoustic signal, prevention of the measurement process, etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6766d9ed-7837-51f5-9e8f-4862213b1cad
+

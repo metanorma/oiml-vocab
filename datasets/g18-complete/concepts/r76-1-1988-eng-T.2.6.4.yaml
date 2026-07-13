@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r76-1-1988-eng-T.2.6.4
+  localized_concepts:
+    eng: 2ec35de5-c2d3-52c9-8efe-e3cc32afe39d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76-1:1988
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+status: valid
+id: ee4b0e98-0b28-5af6-aa57-81943b8936b9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device for setting the indication to zero when a load is on the load
+      receptor, without altering the weighing range for net loads (additive tare device)
+      or reducing the weighing range for net loads (subtractive tare device).
+  - content: It may function as a non-automatic device (load balanced by an operator),
+      a semi-automatic device (load balanced automatically following a single manual
+      command), or an automatic device (load balanced automatically without the intervention
+      of an operator).
+  examples: []
+  id: r76-1-1988-eng-T.2.6.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tare device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2ec35de5-c2d3-52c9-8efe-e3cc32afe39d
+

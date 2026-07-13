@@ -6,10 +6,11 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 91-1:2025
+        source: OIML R 91-1:2025
+        version: '2025'
     locality:
       type: clause
-      reference_from: '3.1.5'
+      reference_from: 3.1.5
     type: authoritative
   domains:
   - concept_id: section-D091-1
@@ -23,15 +24,17 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'mode of operation in which speed measurements for test and examination purposes are carried out'
-  id: 03790-eng
+  - content: mode of operation in which speed measurements for test and examination
+      purposes are carried out
+  id: '03790-eng'
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'test mode'
+    designation: test mode
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 73cd6754-6c47-5580-9c7d-5bf86a22b1bd
+

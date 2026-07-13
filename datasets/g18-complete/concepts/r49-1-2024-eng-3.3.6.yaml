@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.3.6
+  localized_concepts:
+    eng: ddc45119-9d37-53fd-9a0c-8cddd419efba
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.6
+    type: authoritative
+status: valid
+id: 48e5f925-2dc5-5aa4-b9f3-402fcf20b3a3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: flow rate (3.3.1) at which the flow in the larger meter stops with decreasing
+      flow rate $(Q_{x1})$ or starts with increasing flow rate $(Q_{x2})$
+  examples: []
+  id: r49-1-2024-eng-3.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: combination meter changeover flow rate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{\\mathrm{x}}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ddc45119-9d37-53fd-9a0c-8cddd419efba
+

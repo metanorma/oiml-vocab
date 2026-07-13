@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2000-eng-B.1.1
+  localized_concepts:
+    eng: 77563afe-c1d5-57d0-82d0-756f9fccee91
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.1
+    type: authoritative
+status: valid
+id: 8526394f-ef02-54da-9243-8873b2f89295
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: highest flowrate at which a water meter can actually operate in a satisfactory
+      manner, within maximum permissible error, under normal conditions of use, i.e.
+      under steady or intermittent flow conditions
+  examples: []
+  id: r49-1-2000-eng-B.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: continuous flowrate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{c}$"
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77563afe-c1d5-57d0-82d0-756f9fccee91
+

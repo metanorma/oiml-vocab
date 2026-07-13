@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r49-2013-f-3.2.5
+  localized_concepts:
+    eng: '09ae184b-b695-57d8-bf71-4d7db7b9442d'
+    fra: 41e3b4c9-9fdd-5316-bfe7-802652c4e17c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+status: valid
+id: 06d79b2e-ae89-5b35-8fdc-b2cc99e524ea
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value permitted by specifications or regulations for a given meter
+  examples: []
+  id: r49-2013-f-3.2.5-eng
+  notes:
+  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.26, modified — "meter"
+      replaces "measurement, measuring instrument, or measuring system".'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '09ae184b-b695-57d8-bf71-4d7db7b9442d'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur extrême de l'erreur de mesure, respectivement à la valeur d'une
+      quantité de référence connue, permise par les spécifications ou réglementations
+      pour un compteur donné
+  examples: []
+  id: r49-2013-f-3.2.5-fra
+  notes:
+  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.26, modifié — « compteur
+      » remplace « mesurage instrument de mesure, ou système de mesure ».'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée
+  - type: expression
+    normative_status: admitted
+    designation: EMT
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 41e3b4c9-9fdd-5316-bfe7-802652c4e17c
+

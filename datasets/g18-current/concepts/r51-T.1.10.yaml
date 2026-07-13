@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r51-T.1.10
+  localized_concepts:
+    eng: 30dac2c0-670d-5a04-b2ea-51a6ac5deabe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:51:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.10
+    type: authoritative
+status: valid
+id: eb97b3e6-2764-5ecb-aab8-7ee1a146bdf8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value of a quantity provided by a measuring instrument.
+  examples: []
+  id: r51-T.1.10-eng
+  notes:
+  - content: The terms "indication", "indicate" or "indicating" include both displaying
+      and/or printing.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indication of an instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 30dac2c0-670d-5a04-b2ea-51a6ac5deabe
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r46-1-2-2012-fra-2.1.1
+  localized_concepts:
+    fra: 3dd0de40-2e69-537d-8542-c5ba150b305d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.1
+status: valid
+id: fb1be365-3895-51ed-a9c5-a40d9d1de0e8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument destiné à mesurer l'énergie électrique en continu par intégration
+      de la puissance en fonction du temps et à stocker le résultat
+  examples: []
+  id: r46-1-2-2012-fra-2.1.1-fra
+  notes:
+  - content: Il est admis que "en continu" peut également couvrir les compteurs avec
+      un taux d'échantillonnage suffisamment élevé pour satisfaire aux exigences de
+      la présente Recommandation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur électrique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3dd0de40-2e69-537d-8542-c5ba150b305d
+

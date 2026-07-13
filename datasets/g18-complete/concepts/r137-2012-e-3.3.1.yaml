@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r137-2012-e-3.3.1
+  localized_concepts:
+    eng: 969d76ad-1af9-5228-8ecc-48070bccf4cf
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+status: valid
+id: 54573b1c-76fd-5a96-b2d6-cf2e4378b5c4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient of the actual quantity of gas passing through the gas meter
+      and the time taken for this quantity to pass through the gas meter.
+  examples: []
+  id: r137-2012-e-3.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: flow rate
+  - type: symbol
+    normative_status: admitted
+    designation: Q
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 969d76ad-1af9-5228-8ecc-48070bccf4cf
+

@@ -1,0 +1,51 @@
+---
+data:
+  identifier: g19-2.9
+  localized_concepts:
+    eng: dd81fd7b-59da-583c-8700-830374acdc8e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '2.9'
+    type: authoritative
+status: valid
+id: 327ee62e-cd2d-5f70-9c25-694b5f74c6f0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of quantity values being attributed to a measurand together with
+      any other available relevant information
+  examples: []
+  id: g19-2.9-eng
+  notes:
+  - content: 'Source citation: VIM3 2.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dd81fd7b-59da-583c-8700-830374acdc8e
+

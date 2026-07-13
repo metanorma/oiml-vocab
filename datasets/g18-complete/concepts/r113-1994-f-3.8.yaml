@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r113-1994-f-3.8
+  localized_concepts:
+    fra: 6e263834-6ac0-5fe4-a489-7eb5ceb32137
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:113:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+status: valid
+id: a22c4e53-4288-5ea2-8924-d31bdad373e5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Mesure de la variation du signal de sortie du detecteur lorsqu''un composant
+      de l''echantillon n''est pas detecte. Ceci peut etre classe en deux types: bruit
+      a court terme (comprend toutes les variations aleatoires perceptibles du signal
+      du detecteur ou d''autres composants ayant une frequence d''environ un cycle
+      ou plus par minute); derive (pente moyenne du signal de base mesure sur une
+      periode de temps prolongee, par exemple une demi-heure).'
+  examples: []
+  id: r113-1994-f-3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bruit
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6e263834-6ac0-5fe4-a489-7eb5ceb32137
+

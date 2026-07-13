@@ -1,0 +1,67 @@
+---
+data:
+  identifier: d10-2022-spa-3.14
+  localized_concepts:
+    spa: b3e4e8f7-aed7-526d-b55e-0bd159d5e88b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+status: valid
+id: d856d08a-44db-5836-8cf3-3529e43d0e22
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conjunto de valores de una magnitud atribuidos a un mensurando, acompañados
+      de cualquier otra información relevante disponible
+  examples: []
+  id: d10-2022-spa-3.14-spa
+  notes:
+  - content: Un resultado de medición contiene generalmente información relevante
+      sobre el conjunto de valores de una magnitud. Algunos de ellos representan el
+      mensurando mejor que otros. Esto puede representarse como una función de densidad
+      de probabilidad (FDP).
+  - content: El resultado de una medición se expresa generalmente como un valor medio
+      único y una incertidumbre de medición. Si la incertidumbre de medición se considera
+      despreciable para un determinado fin, el resultado de medición puede expresarse
+      como un único valor medido de la magnitud. En muchos campos ésta es la forma
+      habitual de expresar el resultado de medición.
+  - content: En la bibliografía tradicional y en la edición precedente del VIM, el
+      término resultado de medición estaba definido como un valor atribuido al mensurando
+      y podía entenderse como indicación, resultado no corregido o resultado corregido,
+      según el contexto.
+  - content: 'Source citation: VIM3, 2.9'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resultado de medición
+  - type: expression
+    normative_status: admitted
+    designation: resultado de una medición
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b3e4e8f7-aed7-526d-b55e-0bd159d5e88b
+

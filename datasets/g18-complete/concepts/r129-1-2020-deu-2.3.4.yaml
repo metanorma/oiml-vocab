@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r129-1-2020-deu-2.3.4
+  localized_concepts:
+    deu: f1cf3f1a-a104-591f-b2f9-447ecd317cba
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+status: valid
+id: 318af0fd-6fd7-5a9e-af2e-04cfd9985db0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: der in Spezifikationen, Empfehlungen, Vorschriften usw. zugelassene Extremwert
+      (positiv und negativ) der Abweichung der Anzeige
+  examples: []
+  id: r129-1-2020-deu-2.3.4-deu
+  notes:
+  - content: Der Absolutwert der Fehlergrenze ist der gleiche Wert ohne Vorzeichen.
+  - content: 'Source citation: adapted from VIM 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehlergrenze
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f1cf3f1a-a104-591f-b2f9-447ecd317cba
+

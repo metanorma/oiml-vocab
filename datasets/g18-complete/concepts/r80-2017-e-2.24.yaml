@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r80-2017-e-2.24
+  localized_concepts:
+    eng: aebcacfb-6bf6-51f3-9377-d295259c1698
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:80:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+status: valid
+id: 6a9261d2-63aa-58eb-b201-40bcea05f848
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Range between the minimum and maximum possible indications of the level
+      sensor. The lower limit is type and system dependent and shall be significantly
+      less than the liquid level corresponding to the minimum measured quantity of
+      the tank or compartment. The upper limit depends on the tank height and shall
+      be above the maximum permissible filling height of the tank or compartment.
+  examples: []
+  id: r80-2017-e-2.24-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '2.24'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Measuring range of the level sensor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aebcacfb-6bf6-51f3-9377-d295259c1698
+

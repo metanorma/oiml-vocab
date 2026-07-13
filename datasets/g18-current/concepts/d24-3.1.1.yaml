@@ -1,0 +1,93 @@
+---
+data:
+  identifier: d24-3.1.1
+  localized_concepts:
+    eng: f6e6ff6e-59fb-5081-a680-ad2f28f60970
+    fra: 02eaff04-8d90-59d3-8e32-8732b9e61268
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+status: valid
+id: f43b2371-94a3-5d2a-880c-9601a4d87806
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The intrinsic error characterizes the accuracy of the instrument. This
+      error is equal to the difference between the mean value of a sufficient number
+      of indications given by the pyrometer, under reference conditions (see 3.2)
+      when measuring the temperature of a black body at constant temperature, and
+      a conventional true value of the temperature of that body.
+  examples: []
+  id: d24-3.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f6e6ff6e-59fb-5081-a680-ad2f28f60970
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'erreur intrinsèque caractérise l'exactitude de l'instrument. Cette
+      erreur est égale à la différence entre la valeur moyenne d'un nombre suffisant
+      d'indications données par le pyromètre, dans les conditions de référence (voir
+      3.2) lors de la mesure de la température d'un corps noir à température constante,
+      et une valeur conventionnellement vraie de la température de ce corps noir.
+  examples: []
+  id: d24-3.1.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 02eaff04-8d90-59d3-8e32-8732b9e61268
+

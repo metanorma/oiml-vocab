@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2000-fra-2.2.1
+  localized_concepts:
+    fra: 92a1fd8a-51b3-5bc1-b338-17cd636af854
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+status: valid
+id: 839f014c-acf1-5a81-afc2-0aaadb1364b1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: volume d'eau total passant par le compteur d'eau, indépendamment du temps
+      nécessaire
+  examples: []
+  id: r49-1-2000-fra-2.2.1-fra
+  notes:
+  - content: Il s'agit du mesurande.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: volume réel
+  - type: symbol
+    normative_status: preferred
+    designation: "$V_{\\alpha}$"
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 92a1fd8a-51b3-5bc1-b338-17cd636af854
+

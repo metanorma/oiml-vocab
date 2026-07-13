@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r49-2013-e-3.2.4
+  localized_concepts:
+    eng: 16c8d81d-a631-5d7e-91e3-6f1d40f163bf
+    fra: e3cd3f43-43bf-53fb-8bb2-f2b9aadfc7a3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+status: valid
+id: 0a1c4a16-45ad-5ac9-8147-ecdcad8b1d51
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r49-2013-e-3.2.4-eng
+  notes:
+  - content: For the application of this part of OIML R 49, the indicated volume is
+      considered as the measured quantity value and the actual volume as the reference
+      quantity value. The difference between indicated volume and actual volume is
+      referred to as error (of indication).
+  - content: 'In this Recommendation, the error (of indication) is expressed as a
+      percentage of the actual volume, and is equal to: ((Vi - Va)/Va) x 100%.'
+  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.16.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 16c8d81d-a631-5d7e-91e3-6f1d40f163bf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur de la quantite mesuree moins valeur de la quantite de reference
+  examples: []
+  id: r49-2013-e-3.2.4-fra
+  notes:
+  - content: pour l'application de cette partie de l'OIML R 49, le volume indique
+      est considere comme la valeur de la quantite mesuree et le volume reel comme
+      la valeur de la quantite de reference. La difference entre le volume indique
+      et le volume reel est denommee erreur (d'indication).
+  - content: 'dans cette recommandation, l''erreur (d''indication) est exprimee en
+      pourcentage du volume reel et est egal a : ((Vi - Vr)/Vr) x 100%.'
+  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.16.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e3cd3f43-43bf-53fb-8bb2-f2b9aadfc7a3
+

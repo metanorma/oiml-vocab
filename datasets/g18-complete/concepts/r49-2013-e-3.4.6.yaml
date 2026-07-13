@@ -1,0 +1,81 @@
+---
+data:
+  identifier: r49-2013-e-3.4.6
+  localized_concepts:
+    eng: ae48bc3b-e33e-5f1a-a171-b4570a8313db
+    fra: 0cc6f08e-0d73-54d2-bd81-fe35b32e5ce3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+status: valid
+id: d4b4fa74-f1f0-57ca-a7a9-e7ec4425bf7f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: test intended to verify whether the equipment under test is able to accomplish
+      its intended functions
+  examples: []
+  id: r49-2013-e-3.4.6-eng
+  notes:
+  - content: 'Source citation: OIML D 11:2013 [3], 3.21.4.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: performance test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ae48bc3b-e33e-5f1a-a171-b4570a8313db
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: essai destine a verifier si l'equipement sous essai est capable d'accomplir
+      les fonctions prevues
+  examples: []
+  id: r49-2013-e-3.4.6-fra
+  notes:
+  - content: 'Source citation: OIML D 11:2013 [3], 3.21.4.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai de performance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0cc6f08e-0d73-54d2-bd81-fe35b32e5ce3
+

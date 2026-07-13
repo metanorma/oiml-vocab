@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r137-1-2-2012-eng-3.2.8
+  localized_concepts:
+    eng: cbd573a6-7117-5037-9efd-4425d3bfe36d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+status: valid
+id: b4a84bd2-3ad7-5fde-bc61-96d2ada433f1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system.
+  examples: []
+  id: r137-1-2-2012-eng-3.2.8-eng
+  notes:
+  - content: 'Source citation: VIM 4.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cbd573a6-7117-5037-9efd-4425d3bfe36d
+

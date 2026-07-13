@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r72-7
+  localized_concepts:
+    eng: 5cce8d1b-51d5-593c-9659-7c1da1f585e5
+    fra: 8002ee21-8dae-529e-8af6-b202c3abdfdc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:72:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '7'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '7'
+    type: authoritative
+status: valid
+id: 48b069f6-7205-5ad4-8da5-44062eeccb81
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The flowrate value corresponding to the lower limit of the flowrate range,
+      being the lowest flowrate value at which the hot water meter is required to
+      give indications which are not affected by an error exceeding the maximum permissible
+      errors.
+  examples: []
+  id: r72-7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum flowrate (Q_min)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5cce8d1b-51d5-593c-9659-7c1da1f585e5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur du débit correspondant à la limite inférieure de l'étendue de
+      la charge (débit) ; c'est le débit le plus faible auquel le compteur d'eau chaude
+      doit pouvoir fournir des indications qui ne sont pas entachées d'une erreur
+      supérieure à l'erreur maximale tolérée.
+  examples: []
+  id: r72-7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit minimal (Q_min)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8002ee21-8dae-529e-8af6-b202c3abdfdc
+

@@ -1,0 +1,42 @@
+G 18 PTB scraper
+  base: https://digilab.ptb.de/oiml-g-18/vocab
+  out:  /Users/mulgogi/src/oimlsmart/vocab/reference-docs/g018-2010-ptb
+  threads: 6, delay: 0.05s, html: true, refresh: false
+
+  Vocabulary reports 2125 terms
+  Fetching 23 letter indexes...
+    letter A: 161 terms
+    letter B: 31 terms
+    letter C: 179 terms
+    letter D: 152 terms
+    letter E: 139 terms
+    letter F: 72 terms
+    letter G: 24 terms
+    letter H: 11 terms
+    letter I: 189 terms
+    letter J: 1 terms
+    letter L: 75 terms
+    letter M: 217 terms
+    letter N: 68 terms
+    letter O: 27 terms
+    letter P: 131 terms
+    letter Q: 7 terms
+    letter R: 176 terms
+    letter S: 203 terms
+    letter T: 126 terms
+    letter U: 25 terms
+    letter V: 27 terms
+    letter W: 63 terms
+    letter Z: 17 terms
+  Discovered 2125 unique term_ids across all letters + gaps
+  Fetching per-term data for 2125 terms with 6 threads...
+    50/2125 fetched  (67.8/s, ETA 30s)        100/2125 fetched  (6.7/s, ETA 303s)        150/2125 fetched  (5.2/s, ETA 380s)        200/2125 fetched  (4.6/s, ETA 415s)        250/2125 fetched  (4.4/s, ETA 423s)        300/2125 fetched  (4.3/s, ETA 420s)        350/2125 fetched  (4.2/s, ETA 418s)        400/2125 fetched  (4.1/s, ETA 416s)        450/2125 fetched  (4.1/s, ETA 408s)        500/2125 fetched  (4.1/s, ETA 399s)        550/2125 fetched  (4.0/s, ETA 390s)        600/2125 fetched  (4.0/s, ETA 381s)        650/2125 fetched  (3.9/s, ETA 375s)        700/2125 fetched  (3.9/s, ETA 362s)        750/2125 fetched  (3.9/s, ETA 351s)        800/2125 fetched  (3.9/s, ETA 339s)        850/2125 fetched  (3.9/s, ETA 328s)        900/2125 fetched  (3.8/s, ETA 318s)        950/2125 fetched  (3.8/s, ETA 306s)        1000/2125 fetched  (3.8/s, ETA 294s)        1050/2125 fetched  (3.8/s, ETA 281s)        1100/2125 fetched  (3.8/s, ETA 269s)        1150/2125 fetched  (3.8/s, ETA 256s)        1200/2125 fetched  (3.8/s, ETA 243s)        1250/2125 fetched  (3.8/s, ETA 230s)        1300/2125 fetched  (3.8/s, ETA 218s)        1350/2125 fetched  (3.8/s, ETA 205s)        1400/2125 fetched  (3.8/s, ETA 191s)        1450/2125 fetched  (3.8/s, ETA 178s)        1500/2125 fetched  (3.8/s, ETA 165s)        1550/2125 fetched  (3.8/s, ETA 152s)        1600/2125 fetched  (3.8/s, ETA 139s)        1650/2125 fetched  (3.8/s, ETA 126s)        1700/2125 fetched  (3.8/s, ETA 113s)        1750/2125 fetched  (3.8/s, ETA 99s)        1800/2125 fetched  (3.7/s, ETA 86s)        1850/2125 fetched  (3.7/s, ETA 73s)        1900/2125 fetched  (3.7/s, ETA 60s)        1950/2125 fetched  (3.7/s, ETA 46s)        2000/2125 fetched  (3.7/s, ETA 33s)        2050/2125 fetched  (3.7/s, ETA 20s)        2100/2125 fetched  (3.7/s, ETA 6s)        2125/2125 fetched  (3.7/s, ETA 0s)    
+Manifest:
+  total term_ids:    2125
+  with concept_id:   2123
+  without concept_id: 2  (meta terms like 'OIML')
+  notes files:       2125
+  html files:        2125
+
+Manifest written: /Users/mulgogi/src/oimlsmart/vocab/reference-docs/g018-2010-ptb/raw/manifest.json
+Next: ruby scripts/parse_g18_ptb.rb

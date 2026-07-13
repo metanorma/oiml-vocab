@@ -1,0 +1,368 @@
+{
+  "nodes": [
+    {
+      "id": "1.1",
+      "designation": "quantity",
+      "external": false
+    },
+    {
+      "id": "1.2",
+      "designation": "kind of quantity",
+      "external": false
+    },
+    {
+      "id": "1.19",
+      "designation": "quantity value",
+      "external": false
+    },
+    {
+      "id": "1.20",
+      "designation": "numerical quantity value",
+      "external": false
+    },
+    {
+      "id": "1.21",
+      "designation": "quantity calculus",
+      "external": false
+    },
+    {
+      "id": "1.22",
+      "designation": "quantity equation",
+      "external": false
+    },
+    {
+      "id": "1.23",
+      "designation": "unit equation",
+      "external": false
+    },
+    {
+      "id": "1.25",
+      "designation": "numerical value equation",
+      "external": false
+    },
+    {
+      "id": "1.26",
+      "designation": "ordinal quantity",
+      "external": false
+    },
+    {
+      "id": "1.27",
+      "designation": "quantity-value scale",
+      "external": false
+    },
+    {
+      "id": "1.28",
+      "designation": "ordinal quantity-value scale",
+      "external": false
+    },
+    {
+      "id": "1.29",
+      "designation": "conventional reference scale",
+      "external": false
+    },
+    {
+      "id": "1.30",
+      "designation": "nominal property",
+      "external": false
+    },
+    {
+      "id": "1.3",
+      "designation": "system of quantities",
+      "external": false
+    },
+    {
+      "id": "1.4",
+      "designation": "base quantity",
+      "external": false
+    },
+    {
+      "id": "1.5",
+      "designation": "derived quantity",
+      "external": false
+    },
+    {
+      "id": "1.6",
+      "designation": "International System of Quantities",
+      "external": false
+    },
+    {
+      "id": "1.7",
+      "designation": "quantity dimension",
+      "external": false
+    },
+    {
+      "id": "1.8",
+      "designation": "quantity of dimension one",
+      "external": false
+    },
+    {
+      "id": "1.9",
+      "designation": "measurement unit",
+      "external": false
+    },
+    {
+      "id": "2.10",
+      "designation": "measured quantity value",
+      "external": false
+    },
+    {
+      "id": "2.11",
+      "designation": "true quantity value",
+      "external": false
+    },
+    {
+      "id": "2.12",
+      "designation": "conventional quantity value",
+      "external": false
+    },
+    {
+      "id": "2.6",
+      "designation": "measurement procedure",
+      "external": false
+    },
+    {
+      "id": "5.1",
+      "designation": "measurement standard",
+      "external": false
+    },
+    {
+      "id": "ext_property",
+      "designation": "property",
+      "external": true
+    },
+    {
+      "id": "ext_kind_of_property",
+      "designation": "kind of property",
+      "external": true
+    },
+    {
+      "id": "ext_quantity_expressed_by_a_measurement_unit",
+      "designation": "quantity expressed by a measurement unit",
+      "external": true
+    },
+    {
+      "id": "ext_reference",
+      "designation": "reference",
+      "external": true
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-001",
+      "type": "associative",
+      "members": [
+        "ext_property",
+        "ext_kind_of_property"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "type": "associative",
+      "members": [
+        "1.1",
+        "1.2"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "type": "associative",
+      "members": [
+        "1.1",
+        "1.19"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "type": "associative",
+      "members": [
+        "1.1",
+        "1.27"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "type": "associative",
+      "members": [
+        "ext_quantity_expressed_by_a_measurement_unit",
+        "1.21"
+      ]
+    },
+    {
+      "id": "rel-006",
+      "type": "associative",
+      "members": [
+        "1.26",
+        "2.6"
+      ]
+    },
+    {
+      "id": "rel-007",
+      "type": "associative",
+      "members": [
+        "2.6",
+        "1.28"
+      ]
+    },
+    {
+      "id": "rel-008",
+      "type": "associative",
+      "members": [
+        "1.9",
+        "5.1"
+      ]
+    },
+    {
+      "id": "rel-009",
+      "type": "associative",
+      "members": [
+        "1.4",
+        "1.5"
+      ]
+    },
+    {
+      "id": "rel-010",
+      "type": "associative",
+      "members": [
+        "1.7",
+        "1.3"
+      ]
+    },
+    {
+      "id": "rel-011",
+      "type": "associative",
+      "members": [
+        "1.22",
+        "1.25"
+      ]
+    },
+    {
+      "id": "rel-012",
+      "type": "associative",
+      "members": [
+        "1.23",
+        "1.25"
+      ]
+    },
+    {
+      "id": "rel-013",
+      "type": "associative",
+      "members": [
+        "1.25",
+        "1.20"
+      ]
+    },
+    {
+      "id": "rel-014",
+      "type": "associative",
+      "members": [
+        "1.22",
+        "1.20"
+      ]
+    },
+    {
+      "id": "rel-015",
+      "type": "associative",
+      "members": [
+        "1.23",
+        "1.20"
+      ]
+    },
+    {
+      "id": "rel-016",
+      "type": "hierarchical",
+      "broader": "ext_property",
+      "narrower": {
+        "listed": [
+          "1.30",
+          "1.1"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-017",
+      "type": "hierarchical",
+      "broader": "1.1",
+      "narrower": {
+        "listed": [
+          "1.26",
+          "ext_quantity_expressed_by_a_measurement_unit"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-018",
+      "type": "hierarchical",
+      "broader": "1.19",
+      "narrower": {
+        "listed": [
+          "2.11",
+          "2.10",
+          "2.12"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-019",
+      "type": "partitive",
+      "comprehensive": "1.27",
+      "parts": {
+        "listed": [
+          "1.28",
+          "1.29"
+        ],
+        "has_unlisted_others": true
+      }
+    },
+    {
+      "id": "rel-020",
+      "type": "partitive",
+      "comprehensive": "1.20",
+      "parts": {
+        "listed": [
+          "ext_reference"
+        ],
+        "has_unlisted_others": false
+      }
+    },
+    {
+      "id": "rel-021",
+      "type": "partitive_plural",
+      "comprehensive": "ext_quantity_expressed_by_a_measurement_unit",
+      "parts": {
+        "listed": [
+          "1.8",
+          "1.9",
+          "1.7",
+          "1.22",
+          "1.23",
+          "1.3"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": true,
+        "dashed": true
+      }
+    },
+    {
+      "id": "rel-022",
+      "type": "partitive_plural",
+      "comprehensive": "1.3",
+      "parts": {
+        "listed": [
+          "1.4",
+          "1.5",
+          "1.6"
+        ],
+        "has_unlisted_others": true
+      },
+      "markers": {
+        "double_line": true,
+        "dashed": true
+      }
+    }
+  ]
+}

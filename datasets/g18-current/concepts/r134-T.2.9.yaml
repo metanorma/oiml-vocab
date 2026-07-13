@@ -1,0 +1,110 @@
+---
+data:
+  identifier: r134-T.2.9
+  localized_concepts:
+    eng: 729c86ba-db26-5c38-a034-291a020dcb26
+    fra: 6f4ef94e-1181-5864-af73-81f51d3e7ab8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.9
+    type: authoritative
+status: valid
+id: bce52322-d528-5feb-93d8-f4508c6f6702
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Interface that prevents the introduction of any data into the data processing
+      device of the instrument which may: display data that are not clearly defined
+      and that could be taken as being a measurement result; falsify displayed, processed
+      or stored measurement results or primary indications; adjust the instrument
+      or change any adjustment factor.'
+  examples: []
+  id: r134-T.2.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protective interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 729c86ba-db26-5c38-a034-291a020dcb26
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Interface empêchant l''introduction de toute donnée dans le dispositif
+      de traitement de données de l''instrument, introduction qui peut: afficher des
+      données non clairement définies et qui pourraient être considérées comme étant
+      un résultat de mesure; falsifier des résultats de mesure traités ou stockés
+      ou des indications primaires; régler l''instrument ou changer tout facteur de
+      réglage.'
+  examples: []
+  id: r134-T.2.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interface de protection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6f4ef94e-1181-5864-af73-81f51d3e7ab8
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r82-2006-e-3.11
+  localized_concepts:
+    eng: 31391a43-26f7-5ba3-83ec-1f0c49498ec0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:82:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:2006
+        version: '2006'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+status: valid
+id: 7d8ce2ef-ed9a-5b19-a650-0ecb7f87f264
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mass flow rate (for mass flow rate dependent detectors) or concentration
+      (for concentration-dependent detectors) yielding a signal equal to three times
+      the short-term noise level as determined on a statistical basis.
+  examples: []
+  id: r82-2006-e-3.11-eng
+  notes:
+  - content: This term is also referred to as "minimum detectability", or "minimum
+      detectable limit (MDL)" in some references and manufacturer's literature.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:2006
+        version: '2006'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 31391a43-26f7-5ba3-83ec-1f0c49498ec0
+

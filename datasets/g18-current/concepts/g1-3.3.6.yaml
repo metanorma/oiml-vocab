@@ -1,0 +1,52 @@
+---
+data:
+  identifier: g1-3.3.6
+  localized_concepts:
+    eng: 539664bb-b0e9-523c-9e2d-a1569cfaf807
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.6
+    type: authoritative
+status: valid
+id: bfaa7fe2-8f77-5dc2-b12f-9e837f31507a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between upper and lower tolerance limits
+  examples: []
+  id: g1-3.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-106:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tolerance
+  - type: expression
+    normative_status: admitted
+    designation: specified tolerance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 539664bb-b0e9-523c-9e2d-a1569cfaf807
+

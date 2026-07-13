@@ -1,0 +1,64 @@
+---
+data:
+  identifier: g19-2017-e-2.10
+  localized_concepts:
+    eng: b23399e1-d1c3-56b5-9c34-cbd2e9cfa8c8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:19:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.10'
+status: valid
+id: cad28e5b-6e58-5128-a390-d49e02b43a27
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: g19-2017-e-2.10-eng
+  notes:
+  - content: The concept of 'measurement error' can be used both a) when there is
+      a single reference quantity value to refer to, which occurs if a calibration
+      is made by means of a measurement standard with a measured quantity value having
+      a negligible measurement uncertainty or if a conventional quantity value is
+      given, in which case the measurement error is known, and b) if a measurand is
+      supposed to be represented by a unique true quantity value or a set of true
+      quantity values of negligible range, in which case the measurement error is
+      not known.
+  - content: Measurement error should not be confused with production error or mistake.
+  - content: There are two positions on the consideration of 'error', whether it should
+      be defined as a 'value', as in the above definition, or as a 'quantity' that
+      has a value. Both uses of the term 'error' can be found in the metrology literature.
+      In this Guide the definition given above will be used. Note that in reference
+      [5] this is not the case. (not in VIM3)
+  - content: 'Source citation: VIM3 2.16'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b23399e1-d1c3-56b5-9c34-cbd2e9cfa8c8
+

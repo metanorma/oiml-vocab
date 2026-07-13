@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r136-2004-e-T.4.8
+  localized_concepts:
+    eng: '09ae16e7-3320-57a5-8fc0-d3b33f604f71'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:136:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.8
+    type: authoritative
+status: valid
+id: 46392d0f-1033-5fc5-9225-a3e7a754c616
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Deviation of the mean value for a number of consecutive area measurements
+      made on one template material, from the conventional true value of the template
+      area.
+  examples: []
+  id: r136-2004-e-T.4.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mean area error
+  - type: symbol
+    normative_status: admitted
+    designation: x_bar_e
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '09ae16e7-3320-57a5-8fc0-d3b33f604f71'
+

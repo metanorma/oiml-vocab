@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r137-3.2.14
+  localized_concepts:
+    eng: d0d31076-d9cc-5afe-bbc4-b103601dab35
+    fra: 9aac1d2e-14de-569f-914b-3d8c4c98b321
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+status: valid
+id: e94facb4-9cc6-56d1-a767-12838d642f28
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Measurement precision under reproducibility condition of measurement.
+  examples: []
+  id: r137-3.2.14-eng
+  notes:
+  - content: 'Source citation: VIM 2.25'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproducibility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d0d31076-d9cc-5afe-bbc4-b103601dab35
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fidélité de mesure selon un ensemble de conditions de reproductibilité.
+  examples: []
+  id: r137-3.2.14-fra
+  notes:
+  - content: 'Source citation: VIM 2.25'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproductibilité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9aac1d2e-14de-569f-914b-3d8c4c98b321
+

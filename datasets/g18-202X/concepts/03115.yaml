@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.1.1
+    type: authoritative
 status: valid
 id: 9a8cb14a-b661-4393-9a9c-f07d90a0e9ed
 schema_version: '3'
@@ -15,24 +24,35 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'influence quantity having a value within the specified rated operating conditions of the measuring instrument'
+  - content: influence quantity having a value within the specified rated operating
+      conditions of the measuring instrument
     sources:
     - type: authoritative
       status: identical
       origin:
         ref:
-          source: 'OIML D 11:2013'
-          id: '3.13.1'
+          source: OIML D 11:2013
+          id: 3.13.1
   id: 03115-eng
   language_code: eng
   notes:
-  - content: 'The variation of an indication as a consequence of an influence factor is considered an error and not a fault.'
-  sources: []
+  - content: The variation of an indication as a consequence of an influence factor
+      is considered an error and not a fault.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.1.1
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'influence factor'
+    designation: influence factor
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 9e666d2b-f18c-55aa-be7e-bdfc19c2f432
+

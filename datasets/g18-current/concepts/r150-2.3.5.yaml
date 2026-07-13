@@ -1,0 +1,52 @@
+---
+data:
+  identifier: r150-2.3.5
+  localized_concepts:
+    eng: f3776494-3aff-5a9b-9edc-32a6baf89c74
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:150:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+status: valid
+id: 30474523-ab39-57fa-9539-82a62079321a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: mass of a product which passes per unit of time
+  examples: []
+  id: r150-2.3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 150-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mass flowrate
+  - type: symbol
+    normative_status: admitted
+    designation: Qm
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f3776494-3aff-5a9b-9edc-32a6baf89c74
+

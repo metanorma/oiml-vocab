@@ -6,6 +6,15 @@ data:
   domains:
   - concept_id: section-misc
     ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
 status: valid
 id: 5cd36726-43bc-42c6-9fd8-e31bab713c7e
 schema_version: '3'
@@ -15,15 +24,25 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'value of the difference between a gross or net weight value and a preset tare value'
+  - content: value of the difference between a gross or net weight value and a preset
+      tare value
   id: 00632-eng
   language_code: eng
-  sources: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'calculated net value'
+    designation: calculated net value
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
 id: 0af92a43-3fd0-59ac-9919-541c67664226
+

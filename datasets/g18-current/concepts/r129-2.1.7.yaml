@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r129-2.1.7
+  localized_concepts:
+    deu: 9e581c8a-c1ba-538c-9e29-b0ba665dd88c
+    eng: b58eb726-f36f-5ce9-9657-c07c53ac65ce
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.7
+    type: authoritative
+status: valid
+id: 235da685-1bbd-5ef3-847b-5c9322c16d82
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Messgerät, das Messungen ohne den Eingriff eines Bedieners durchführt
+  examples: []
+  id: r129-2.1.7-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: automatisches Messgerät
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9e581c8a-c1ba-538c-9e29-b0ba665dd88c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument that measures without the intervention of an operator
+  examples: []
+  id: r129-2.1.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: automatic instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b58eb726-f36f-5ce9-9657-c07c53ac65ce
+

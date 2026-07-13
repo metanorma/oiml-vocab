@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r112-1994-f-2.8
+  localized_concepts:
+    fra: 1bfb4012-dfb2-59c5-95e1-6204e3bc53c9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+status: valid
+id: 7ff8009c-1713-552a-b115-e51c79586652
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Mesure d''une variation dans le signal du detecteur; il peut etre divise
+      en trois composantes: bruit a court terme (toutes les variations aleatoires
+      perceptibles du signal du detecteur, dans des frequences de l''ordre de 10^-2
+      Hz a 10^-1 Hz et qu''il convient de mesurer pic-a-pic); bruit a long terme (toutes
+      les variations aleatoires perceptibles du signal du detecteur, dans des frequences
+      de l''ordre de 0,1 Hz a 1,0 Hz); derive (gradient moyen du signal de base mesure
+      sur une periode d''au moins une demi-heure).'
+  examples: []
+  id: r112-1994-f-2.8-fra
+  notes:
+  - content: Bien que le bruit a long terme puisse se produire a tout moment pendant
+      une analyse, il arrive qu'on le confonde avec un eluant tardif. Les pics d'elution
+      precedents sont habituellement plus nets et moins facilement confondus avec
+      le bruit a long terme.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bruit
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1bfb4012-dfb2-59c5-95e1-6204e3bc53c9
+

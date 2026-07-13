@@ -1,0 +1,69 @@
+---
+data:
+  identifier: d10-2022-e-3.16
+  localized_concepts:
+    eng: 95d2bec8-8195-5528-814c-def53d88d1b3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.16'
+status: valid
+id: c8e9e1d2-be3e-5ad3-901c-9ce43939415e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: non-negative parameter characterising the dispersion of the quantity
+      values being attributed to a measurand, based on the information used
+  examples: []
+  id: d10-2022-e-3.16-eng
+  notes:
+  - content: Measurement uncertainty includes components arising from systematic effects,
+      such as components associated with corrections and the assigned quantity values
+      of measurement standards, as well as the definitional uncertainty.
+  - content: The parameter may be, for example, a standard deviation called standard
+      measurement uncertainty (or a specified multiple of it), or the half-width of
+      an interval, having a stated coverage probability.
+  - content: Measurement uncertainty comprises, in general, many components. Some
+      of these may be evaluated by Type A evaluation of measurement uncertainty and
+      the others by Type B evaluation.
+  - content: In general, for a given set of information, it is understood that the
+      measurement uncertainty is associated with a stated quantity value attributed
+      to the measurand.
+  - content: 'Source citation: VIM3 2.26'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement uncertainty
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty of measurement
+  - type: expression
+    normative_status: admitted
+    designation: uncertainty
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 95d2bec8-8195-5528-814c-def53d88d1b3
+

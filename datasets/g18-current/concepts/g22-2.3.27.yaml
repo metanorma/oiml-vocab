@@ -1,0 +1,56 @@
+---
+data:
+  identifier: g22-2.3.27
+  localized_concepts:
+    eng: 3c1648f5-2d5b-517b-9b43-f5354f29955c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:g:22:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 2.3.27
+    type: authoritative
+status: valid
+id: 318b9d9b-5e9b-5ac3-bf82-0b4618b75f95
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition prescribed for evaluating the performance of a measuring
+      instrument or measuring system or for comparison of measurement results
+  examples: []
+  id: g22-2.3.27-eng
+  notes:
+  - content: Reference operating conditions specify intervals of values of the measurand
+      and of the influence quantities.
+  - content: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
+      to an operating condition under which the specified instrumental measurement
+      uncertainty is the smallest possible.
+  - content: 'Source citation: OIML D 11:2013, 3.17'
+  sources:
+  - origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.3.27
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference condition
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3c1648f5-2d5b-517b-9b43-f5354f29955c
+

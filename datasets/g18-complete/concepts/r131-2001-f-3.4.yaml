@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r131-2001-f-3.4
+  localized_concepts:
+    fra: 560e8764-8ceb-515b-85ff-e3900d0bbaab
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:131:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+status: valid
+id: cd53f956-690d-53fe-9b9c-208a897b6ff1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Longueur d'onde utilisée dans un spectrophotomètre pour mesurer l'absorbance
+      optique d'un dosimètre au PMMA.
+  examples: []
+  id: r131-2001-f-3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: longueur d'onde d'analyse
+  - type: symbol
+    normative_status: preferred
+    designation: lambda
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 560e8764-8ceb-515b-85ff-e3900d0bbaab
+

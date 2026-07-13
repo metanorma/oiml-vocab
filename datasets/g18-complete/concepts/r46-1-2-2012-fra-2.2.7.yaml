@@ -1,0 +1,51 @@
+---
+data:
+  identifier: r46-1-2-2012-fra-2.2.7
+  localized_concepts:
+    fra: c8f00e68-c1ee-5deb-bf46-cbfdab03290f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.7
+status: valid
+id: 461a7db3-c543-57eb-983b-4aa49105b8d8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: tension spécifiée par le fabricant pour un fonctionnement normal du compteur
+  examples: []
+  id: r46-1-2-2012-fra-2.2.7-fra
+  notes:
+  - content: Les compteurs conçus pour fonctionner dans une plage de tensions peuvent
+      avoir plusieurs valeurs de tension de référence.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tension de référence ($U_{nom}$)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c8f00e68-c1ee-5deb-bf46-cbfdab03290f
+

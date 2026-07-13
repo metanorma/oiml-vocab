@@ -1,0 +1,81 @@
+---
+data:
+  identifier: r49-2013-e-3.4.8
+  localized_concepts:
+    eng: 1b828642-5e79-50e5-b65f-a046333d1b0f
+    fra: fe9f4c43-119d-54ae-b6ff-18d91bf4e0fe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.8
+    type: authoritative
+status: valid
+id: 9376b3ec-196d-5a42-9714-637883931f64
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: condition in which all parts of the equipment under test have a temperature
+      within 3 $ ^{\circ} \mathrm{C} $ of each other, or as otherwise specified in
+      the relevant specification of its final temperature
+  examples: []
+  id: r49-2013-e-3.4.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temperature stability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1b828642-5e79-50e5-b65f-a046333d1b0f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: condition dans laquelle toutes les parties de l'equipement sous essai
+      ont une temperature a 3°C les unes des autres, ou comme specifie autrement dans
+      la specification pertinente de sa temperature finale
+  examples: []
+  id: r49-2013-e-3.4.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: stabilite en temperature
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fe9f4c43-119d-54ae-b6ff-18d91bf4e0fe
+

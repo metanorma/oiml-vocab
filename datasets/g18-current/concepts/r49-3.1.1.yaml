@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r49-3.1.1
+  localized_concepts:
+    eng: 83c5707a-daea-54c1-84cc-3182c7f2befe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+status: valid
+id: 74197d50-ea4c-507a-8272-9c523cbe550b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument intended to measure, memorize, and display the volume of water
+      passing through the measurement transducer (3.1.2) at metering conditions (3.2.11)
+  examples: []
+  id: r49-3.1.1-eng
+  notes:
+  - content: A water meter includes at least a measurement transducer, a calculator
+      (including adjustment or correction devices, if present) and an indicating device.
+      These three devices can be in different housings.
+  - content: A water meter may be a combination meter (see 3.1.16).
+  - content: In this Recommendation a water meter is also referred to as a "meter".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: water meter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 83c5707a-daea-54c1-84cc-3182c7f2befe
+

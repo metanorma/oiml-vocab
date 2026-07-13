@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-3.2.50
+  localized_concepts:
+    eng: d80c0d76-f2d1-5f12-829e-5087924a3ad7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.50
+    type: authoritative
+status: valid
+id: 4a696a08-74df-52ab-b9e6-9d30dccf53e1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: software to control program operation and to provide the services for
+      resource allocation task scheduling, I/O control, and data management as well
+      such tasks as access control and security
+  examples: []
+  id: d31-3.2.50-eng
+  notes:
+  - content: 'Source citation: adapted from [ISO 16484-2:2004, 3.140]'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.50
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: operating system
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d80c0d76-f2d1-5f12-829e-5087924a3ad7
+

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: r117-2007-e-T.c.3.1
+  localized_concepts:
+    eng: 9dcb68e3-e05a-5f99-aa53-269da35f334b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:117:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.3.1
+    type: authoritative
+status: valid
+id: 91481aa8-ad80-5271-bb33-f741aabbef84
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Specified values of the conditions to which the measured quantity of
+      liquid is converted (example: base temperature and base pressure of the liquid).'
+  examples: []
+  id: r117-2007-e-T.c.3.1-eng
+  notes:
+  - content: Metering and base conditions (which refer only to the volume of liquid
+      to be measured or indicated) should not be confused with the "rated operating
+      conditions" and "reference conditions" which apply to influence quantities.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.c.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base conditions
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9dcb68e3-e05a-5f99-aa53-269da35f334b
+

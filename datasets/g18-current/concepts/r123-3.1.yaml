@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r123-3.1
+  localized_concepts:
+    fra: 8e0ee403-4cce-5ef9-840a-14c29de3d5e6
+    eng: 8dc3eb70-823b-5d18-9ecf-109a23035892
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+status: valid
+id: 40c5229b-b58c-52fe-a12a-a8d45fe2ebd2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etroitesse de l'accord entre le resultat d'un mesurage et une valeur
+      vraie du mesurande.
+  examples: []
+  id: r123-3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Exactitude
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8e0ee403-4cce-5ef9-840a-14c29de3d5e6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Closeness of the agreement between the result of a measurement and a
+      true value of the measurand.
+  examples: []
+  id: r123-3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Accuracy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8dc3eb70-823b-5d18-9ecf-109a23035892
+

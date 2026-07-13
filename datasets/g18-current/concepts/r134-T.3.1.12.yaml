@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r134-T.3.1.12
+  localized_concepts:
+    eng: d041cbbe-b9a1-59ac-8b45-3e6a8e43c548
+    fra: 7b4f3d49-9b7c-5706-b9b8-d488d27c99bb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.12
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.12
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.12
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.12
+    type: authoritative
+status: valid
+id: 1c65be86-3e13-50fe-b77c-c2684a8179cc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Portion of the vehicle mass imposed upon the tyre at the time of weighing,
+      expressed in the units of mass.
+  examples: []
+  id: r134-T.3.1.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tyre load
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d041cbbe-b9a1-59ac-8b45-3e6a8e43c548
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Part de la masse du véhicule imposée pour le pneu au moment de la pesée,
+      exprimée en unités de masse.
+  examples: []
+  id: r134-T.3.1.12-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: charge par pneu
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7b4f3d49-9b7c-5706-b9b8-d488d27c99bb
+

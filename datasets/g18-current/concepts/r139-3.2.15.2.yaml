@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r139-3.2.15.2
+  localized_concepts:
+    eng: 94d9352a-0156-5b11-9c14-f72bf7ea3644
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:139:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.15.2
+    type: authoritative
+status: valid
+id: 83b98e69-1cff-5d65-809b-3b4b47c949a7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: automatic checking facility that operates at certain time intervals or
+      per fixed number of measurement cycles
+  examples: []
+  id: r139-3.2.15.2-eng
+  notes:
+  - content: 'Source citation: OIML D 11:2013, 3.19.1.2'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: 3.2.15.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intermittent automatic checking facility
+  - type: expression
+    normative_status: admitted
+    designation: checking facility of type I
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 94d9352a-0156-5b11-9c14-f72bf7ea3644
+

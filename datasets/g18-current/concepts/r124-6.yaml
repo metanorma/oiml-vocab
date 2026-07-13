@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r124-6
+  localized_concepts:
+    fra: c915dae4-68e0-592b-98a3-62678c64f963
+    eng: daea0528-2389-594b-9b67-509477a63235
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:124:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '6'
+    type: authoritative
+status: valid
+id: 25a56309-8a80-5649-b9db-e908daf63a35
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions d'utilisation, donnant l'étendue des valeurs des grandeurs
+      d'influence pour lesquelles les caractéristiques métrologiques sont supposées
+      rester à l'intérieur des erreurs maximales tolérées spécifiées
+  examples: []
+  id: r124-6-fra
+  notes:
+  - content: 'Source citation: D 11 article T.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conditions assignées de fonctionnement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c915dae4-68e0-592b-98a3-62678c64f963
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended to be within the specified
+      maximum permissible errors
+  examples: []
+  id: r124-6-eng
+  notes:
+  - content: 'Source citation: D 11 clause T.13'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 124:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated operating conditions
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: daea0528-2389-594b-9b67-509477a63235
+

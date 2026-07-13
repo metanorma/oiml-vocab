@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2013-spa-3.1.4
+  localized_concepts:
+    spa: 20cce0cc-2ef6-5a28-82c1-565e978f75a5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+status: valid
+id: 42acc287-526c-579b-b30a-ff89f7ae7b43
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Es la parte del medidor que transforma las señales de salida del transductor
+      de medición y, posiblemente, de los instrumento de medición asociados y, si
+      es apropiado, almacena los resultados en la memoria hasta que sean utilizados.
+  examples: []
+  id: r49-1-2013-spa-3.1.4-spa
+  notes:
+  - content: En un medidor mecánico, el engranaje es considerado como el calculador.
+  - content: El calculador debe tener la capacidad de comunicarse con los dispositivos
+      auxiliares en ambas vías.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculador
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 20cce0cc-2ef6-5a28-82c1-565e978f75a5
+

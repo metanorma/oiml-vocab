@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r49-1-2024-eng-3.1.5
+  localized_concepts:
+    eng: e00d7eba-9a02-5b58-9c92-1ecaea8553bc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:49-1:2024
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+status: valid
+id: e9f28c4a-0303-54b2-8cb8-7bbaebbbdc23
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the meter that provides an indication corresponding to the volume
+      of water passing through the meter
+  examples: []
+  id: r49-1-2024-eng-3.1.5-eng
+  notes:
+  - content: For the definition of the term "indication", see ISO/IEC Guide 99:2007|OIML
+      V 2-200:2012 (VIM), 4.1.
+  - content: In this Recommendation, the volume of water passing through the meter
+      refers to the accumulated volume.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2024
+        version: '2024'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e00d7eba-9a02-5b58-9c92-1ecaea8553bc
+

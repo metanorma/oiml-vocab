@@ -1,0 +1,81 @@
+---
+data:
+  identifier: r85-2008-e-3.20
+  localized_concepts:
+    eng: 90696369-8815-5412-9136-8507fa77cd00
+    fra: 8cff1ae4-e621-56b2-a65f-1fe16f8118bb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+status: valid
+id: 53acd903-16d3-5bfd-92d5-007d7f4ea314
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Distance between the liquid level and the upper reference point, measured
+      along the vertical measurement axis.
+  examples: []
+  id: r85-2008-e-3.20-eng
+  notes:
+  - content: The term "outage" is synonymous.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ullage
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 90696369-8815-5412-9136-8507fa77cd00
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Distance entre le niveau du liquide et le point de référence supérieur,
+      mesurée le long de l'axe de la verticale de mesurage.
+  examples: []
+  id: r85-2008-e-3.20-fra
+  notes:
+  - content: Le terme "creux" est un synonyme.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hauteur de creux
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8cff1ae4-e621-56b2-a65f-1fe16f8118bb
+
