@@ -15,8 +15,8 @@ source_pdf:      reference-docs/v002-200-e10-relationships.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-08T10:55:22Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
@@ -58,97 +58,65 @@ relationships:
     runs: [1, 2]
   - members: ['1.1', '1.2']
     runs: [1, 2]
-  - members: ['1.19', '1.27']
-    runs: [1, 2]
   - members: [ext_quantity_expressed_by_a_measurement_unit, '1.21']
     runs: [1, 2]
   - members: ['1.25', '1.22']
     runs: [1, 2]
   - members: ['1.26', '2.6']
     runs: [1, 2]
-  - members: ['2.6', '1.28']
-    runs: [1, 2]
   - members: ['1.3', '1.7']
-    runs: [1, 2]
-  - members: ['1.9', '5.1']
     runs: [1, 2]
   - members: [ext_kind_of_property, ext_property]
     runs: [1, 2]
-  - members: ['1.1', ext_quantity_expressed_by_a_measurement_unit]
-    runs: [2]
-  - members: [ext_property, '1.2']
-    runs: [2]
   - members: ['1.20', '1.25']
     runs: [1]
-  - members: ['5.1', '1.20']
-    runs: [2]
-  - members: ['1.23', '1.22']
-    runs: [2]
   - members: ['1.9', '1.23']
-    runs: [1]
-  - members: ['1.3', '1.6']
     runs: [1]
   - members: ['1.4', '1.5']
     runs: [2]
-
+  - members: ['1.1', '1.27']
+  - members: ['1.26', '1.28']
+  - members: [ext_quantity_expressed_by_a_measurement_unit, '1.7']
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
+
   hierarchical:
   - broader: ext_property
     narrower: ['1.30', '1.1']
     runs: [1, 2]
   - broader: '1.1'
-    narrower: ['1.26', ext_quantity_expressed_by_a_measurement_unit, '1.21']
+    narrower: ['1.26', ext_quantity_expressed_by_a_measurement_unit]
     runs: [1]
-  - broader: '1.1'
-    narrower: ['1.26', '1.27', ext_quantity_expressed_by_a_measurement_unit]
-    runs: [2]
   - broader: '1.19'
     narrower: ['2.11', '2.10', '2.12', ...]
     runs: [2]
   - broader: '1.27'
-    narrower: ['1.28', '1.29']
+    narrower: ['1.28', '1.29', ...]
     runs: [2]
   - broader: ext_reference
-    narrower: ['1.20', '5.1']
+    narrower: ['1.9', '2.6', '5.1']
     runs: [2]
+  - broader: ext_quantity_expressed_by_a_measurement_unit
+    narrower: ['1.8', ...]
+  - broader: ext_quantity_expressed_by_a_measurement_unit
+    narrower: ['1.9', ...]
+  - broader: ext_quantity_expressed_by_a_measurement_unit
+    narrower: ['1.4', '1.5']
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive:
-  - comprehensive: '1.27'
-    parts: ['1.28', '1.29', ...]
-    runs: [1, 2]
   - comprehensive: '1.19'
-    parts: ['2.11', '2.10', '2.12', ...]
-    runs: [1]
-  - comprehensive: '1.20'
-    parts: ['1.25', '1.23']
-    runs: [2]
-  - comprehensive: '1.6'
-    parts: [...]
-    runs: [2]
-  - comprehensive: ext_quantity_expressed_by_a_measurement_unit
-    parts: ['1.21', '1.8', '1.9', ...]
-    runs: [2]
-  - comprehensive: ext_quantity_expressed_by_a_measurement_unit
-    parts: ['1.8', '1.9', ...]
-    runs: [1]
-  - comprehensive: ext_reference
-    parts: ['5.1', '1.20']
+    parts: [ext_reference, '1.20']
     runs: [1]
 
   # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
   #     INDEPENDENT HYPEREDGE — see schema.
   partitive_plural:
   - comprehensive: '1.3'
-    parts: ['1.22', '1.4', '1.5']
-    markers: [double]
+    parts: ['1.22', '1.4', '1.5', ext_quantity_expressed_by_a_measurement_unit]
+    markers: [double, dashed]
     runs: [1, 2]
-  - comprehensive: '1.21'
-    parts: [...]
-    markers: [double]
-    runs: [1]
-  - comprehensive: '1.9'
-    parts: [...]
+  - comprehensive: '1.27'
+    parts: ['1.19']
     markers: [double]
     runs: [1]
