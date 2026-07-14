@@ -5,8 +5,8 @@ data:
     eng: 9abcbca3-62f3-5afe-b272-eead4b735814
     fra: 5ee8fec3-0aad-5c67-a283-6a4c97d4939b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:100:2013
+  - concept_id: r-100
+    source: OIML R 100:2013
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: blank test solution
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9abcbca3-62f3-5afe-b272-eead4b735814
 ---
@@ -76,6 +80,10 @@ data:
     designation: solution d'essai à blanc
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5ee8fec3-0aad-5c67-a283-6a4c97d4939b
 

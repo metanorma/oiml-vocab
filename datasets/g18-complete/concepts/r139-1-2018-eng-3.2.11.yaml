@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 41e250fa-031b-591f-bcd3-a5b60f566b5b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:139-1:2018
+  - concept_id: r-139-1
+    source: OIML R 139-1:2018
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
       which is connected to the calculator or the correction device, for measuring
       certain quantity values which are characteristic of the gas, with a view to
       making a correction.
-  - content: 'Source citation: OIML V 1:2013, 5.09'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.09'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139-1:2018
         version: '2018'
     locality:
       type: clause
       reference_from: 3.2.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: associated measuring instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 41e250fa-031b-591f-bcd3-a5b60f566b5b
 

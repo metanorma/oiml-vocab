@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: '083fcc5f-ca22-5eac-8f3d-89d14449aaac'
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60:2017
+  - concept_id: r-60
+    source: OIML R 60:2017
     ref_type: section
   sources:
   - origin:
@@ -30,23 +30,37 @@ data:
   examples: []
   id: r60-2017-e-3.8.4-eng
   notes:
-  - content: 'Source citation: VIM 4.9'
   - content: "(For notes, refer to the VIM [2])."
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.9'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 60:2017
         version: '2017'
     locality:
       type: clause
       reference_from: 3.8.4
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: rated operating condition
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '083fcc5f-ca22-5eac-8f3d-89d14449aaac'
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 5d88f51d-3c8f-5f70-a2a8-3dc698cb513c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:32:2018
+  - concept_id: d-32
+    source: OIML D 32:2018
     ref_type: section
   sources:
   - origin:
@@ -31,25 +31,39 @@ data:
   examples: []
   id: d32-2018-f-G.3-2d-fra
   notes:
-  - content: 'Source citation: VIML 2.04'
   - content: En métrologie légale, on utilise "modèle" dans le même sens que "type".
   - content: Aux fins de l'OIML-CS, on entendra par « rapport d'évaluation » le «
       rapport d'évaluation de type OIML ».
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.04'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 32:2018
         version: '2018'
     locality:
       type: clause
       reference_from: G.3-2d
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: évaluation de type (modèle)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5d88f51d-3c8f-5f70-a2a8-3dc698cb513c
 

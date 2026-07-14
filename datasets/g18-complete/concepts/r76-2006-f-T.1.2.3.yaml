@@ -5,8 +5,8 @@ data:
     eng: 9b5d7949-fc9e-5a25-b3c9-6ebc85a8a371
     fra: 5eb11f6f-0291-50f0-aa20-1236bf2a2892
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Self-indicating instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9b5d7949-fc9e-5a25-b3c9-6ebc85a8a371
 ---
@@ -74,6 +78,10 @@ data:
     designation: Instrument a equilibre automatique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5eb11f6f-0291-50f0-aa20-1236bf2a2892
 

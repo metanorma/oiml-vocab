@@ -5,8 +5,8 @@ data:
     eng: fc90c629-8b00-5135-98a4-8a8c446aeb5e
     fra: 36980a52-6af1-545f-b93e-69f7192c617d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:126:2012
+  - concept_id: r-126
+    source: OIML R 126:2012
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: end expiratory breath
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fc90c629-8b00-5135-98a4-8a8c446aeb5e
 ---
@@ -74,6 +78,10 @@ data:
     designation: fin du souffle expiratoire
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 36980a52-6af1-545f-b93e-69f7192c617d
 

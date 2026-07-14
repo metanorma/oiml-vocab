@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 8ee92962-01cd-5bbe-85b7-969999f5e61c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:34:2019
+  - concept_id: d-34
+    source: OIML D 34:2019
     ref_type: section
   sources:
   - origin:
@@ -30,16 +30,20 @@ data:
   examples: []
   id: d34-2019-e-3.1.3-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000:2004, 2.1 and VIML, A.1'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 34:2019
         version: '2019'
-    type: authoritative
     locality:
       type: clause
       reference_from: 3.1.3
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

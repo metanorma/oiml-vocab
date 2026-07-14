@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 14767c13-a785-53ff-a7ae-34d7ca9e5c32
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
   - content: L'article indéfini «une» plutôt que l'article défini «la» est utilisé
       en conjonction avec «valeur vraie» parce qu'il peut y avoir plusieurs valeurs
       correspondant à la définition d'une grandeur particulière donnée.
-  - content: 'Source citation: VIM:1993, definition 1.19'
   sources:
   - origin:
       ref:
@@ -50,6 +49,10 @@ data:
     designation: valeur vraie (d'une grandeur)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 14767c13-a785-53ff-a7ae-34d7ca9e5c32
 

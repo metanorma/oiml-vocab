@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 8c831005-0f97-5b93-bca0-a669fda93325
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:b:18:2022
+  - concept_id: b-18
+    source: OIML B 18:2022
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   notes:
   - content: A certification body can be non-governmental or governmental (with or
       without regulatory authority).
-  - content: 'Source citation: ISO/IEC 17065, 3.12'
+  - content: 'Source citation: ISO/IEC 17065 3.12'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 18:2022
         version: '2022'
     locality:
       type: clause
       reference_from: '3.7'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17065
   terms:
   - type: expression
     normative_status: preferred

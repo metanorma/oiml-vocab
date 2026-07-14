@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: f2be7419-e2bd-5e10-835b-332d3eb8d209
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
       quelquefois appelé lui-même «mode opératoire» et qui donne assez de détails
       pour qu'un opérateur puisse effectuer un mesurage sans avoir besoin d'autres
       informations.
-  - content: 'Source citation: VIM:1993, definition 2.5'
   sources:
   - origin:
       ref:
@@ -50,6 +49,10 @@ data:
     designation: mode opératoire (de mesure)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f2be7419-e2bd-5e10-835b-332d3eb8d209
 

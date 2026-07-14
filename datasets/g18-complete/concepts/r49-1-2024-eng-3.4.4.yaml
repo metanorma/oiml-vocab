@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: ed6072a5-e717-5296-85be-b767f49dbaf4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2024
+  - concept_id: r-49-1
+    source: OIML R 49-1:2024
     ref_type: section
   sources:
   - origin:
@@ -33,19 +33,20 @@ data:
   - content: The rated operating conditions specify intervals for the flow rate and
       for the influence quantities for which the errors (of indication) are required
       to be within the maximum permissible errors.
-  - content: 'Source citation: ISO/IEC Guide 99:2007|OIML V 2-200:2012 (VIM), 4.9,
-      modified - "requiring fulfilment" replaces "that must be fulfilled"; "meter"
-      replaces "measuring instrument or measuring system"; "Note" replaces the original
-      note.'
+  - content: 'Source citation: ISO/IEC Guide 99'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2024
         version: '2024'
     locality:
       type: clause
       reference_from: 3.4.4
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred

@@ -5,8 +5,8 @@ data:
     eng: '082f2dc8-405e-54d2-8d9d-0ecb3f2a4ffb'
     fra: eadd7693-a3a9-5462-9817-4fd266a6b27a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Intermittent automatic checking facility (type I)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '082f2dc8-405e-54d2-8d9d-0ecb3f2a4ffb'
 ---
@@ -74,6 +78,10 @@ data:
     designation: Système de contrôle automatique intermittent (type I)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: eadd7693-a3a9-5462-9817-4fd266a6b27a
 

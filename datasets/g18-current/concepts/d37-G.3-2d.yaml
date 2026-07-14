@@ -31,24 +31,38 @@ data:
   examples: []
   id: d37-G.3-2d-eng
   notes:
-  - content: 'Source citation: VIML 2.05'
   - content: For the purposes of the OIML-CS, "type approval certificate" should be
       read as "OIML certificate".
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.05'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 37:2022
         version: '2022'
     locality:
       type: clause
       reference_from: G.3-2d
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: type approval
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8b734656-d07a-5c6a-99ea-0d0a5465feb5
 

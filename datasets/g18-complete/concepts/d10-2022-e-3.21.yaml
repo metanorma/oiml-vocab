@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 9f1d56e8-4a15-5fa2-8f07-a6262322170c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
   - content: A reference quantity value with associated measurement uncertainty is
       usually provided with reference to a material, a device, a reference measurement
       procedure, or a comparison of measurement standards.
-  - content: 'Source citation: VIM3 5.18'
   sources:
   - origin:
       ref:
@@ -55,6 +54,10 @@ data:
     designation: reference value
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9f1d56e8-4a15-5fa2-8f07-a6262322170c
 

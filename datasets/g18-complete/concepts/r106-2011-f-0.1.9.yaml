@@ -5,8 +5,8 @@ data:
     eng: 01e6f93f-f2d6-56f0-a0b0-1d8b81b4f7cf
     fra: 63fca8ff-62df-5de7-b4e6-774b9e6e8784
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106:2011
+  - concept_id: r-106
+    source: OIML R 106:2011
     ref_type: section
   sources:
   - origin:
@@ -45,6 +45,10 @@ data:
     designation: coupled wagon
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 01e6f93f-f2d6-56f0-a0b0-1d8b81b4f7cf
 ---
@@ -72,6 +76,10 @@ data:
     designation: wagon couple
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 63fca8ff-62df-5de7-b4e6-774b9e6e8784
 

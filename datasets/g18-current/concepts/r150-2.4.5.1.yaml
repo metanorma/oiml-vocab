@@ -29,22 +29,36 @@ data:
   examples: []
   id: r150-2.4.5.1-eng
   notes:
-  - content: 'Source citation: VIML 0.06'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.06'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 150-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.4.5.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 428d755a-73dc-579b-8b80-df4b066bbbca
 

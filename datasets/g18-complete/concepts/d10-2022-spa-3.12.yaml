@@ -4,8 +4,8 @@ data:
   localized_concepts:
     spa: ea1610af-f2ae-5dbb-8f0f-79c99a68b4bc
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
   notes:
   - content: La indicación de una medida materializada es su valor asignado.
   - content: Una medida materializada puede ser un patrón.
-  - content: 'Source citation: VIM3, 3.6'
   sources:
   - origin:
       ref:
@@ -52,6 +51,10 @@ data:
     designation: medida materializada
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ea1610af-f2ae-5dbb-8f0f-79c99a68b4bc
 

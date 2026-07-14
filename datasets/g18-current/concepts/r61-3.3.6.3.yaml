@@ -43,22 +43,36 @@ data:
   id: r61-3.3.6.3-eng
   notes:
   - content: Type-specific parameters are part of the legally relevant software.
-  - content: 'Source citation: VIML 4.11'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.11'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 61-1:2017
         version: '2017'
     locality:
       type: clause
       reference_from: 3.3.6.3
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: type-specific parameter
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 85511743-fa50-5ead-bbf0-45f607f011eb
 ---
@@ -89,6 +103,10 @@ data:
     designation: bauartspezifischer Parameter
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fd77f44c-e8af-5ef1-b820-c47dda864d84
 

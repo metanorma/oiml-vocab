@@ -4,8 +4,8 @@ data:
   localized_concepts:
     deu: 8f795cff-5e50-55a8-b9d0-398b2dc0ebf1
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:136-1:2004
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
     ref_type: section
   sources:
   - origin:
@@ -29,22 +29,36 @@ data:
   examples: []
   id: r136-1-2004-deu-T.4.2-deu
   notes:
-  - content: 'Source citation: VIM 5.24'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 136-1:2004
         version: '2004'
     locality:
       type: clause
       reference_from: T.4.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Eigenabweichung
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8f795cff-5e50-55a8-b9d0-398b2dc0ebf1
 

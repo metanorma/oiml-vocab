@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 3ff97375-967c-564d-88b4-b74c0d41a697
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:107-1:2007
+  - concept_id: r-107-1
+    source: OIML R 107-1:2007
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   notes:
   - content: An influence quantity does not affect the actual mass of the load being
       weighed, but affects the value (weighing result) indicated by the instrument.
-  - content: 'Source citation: VIM: 1993, 2.10'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: influence quantity
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-107-1
+    source: OIML R 107-1:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3ff97375-967c-564d-88b4-b74c0d41a697
 

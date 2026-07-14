@@ -58,22 +58,36 @@ data:
   - content: For a digital device, this is the change in the indication when the least
       significant digit changes by one step. For an analogue device, this is half
       the difference between subsequent scale marks.
-  - content: 'Source citation: VIM 4.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.21
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: resolution (of a displaying device)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: dfcf44d4-9431-518a-a040-67875ff7219e
 ---
@@ -91,22 +105,36 @@ data:
       lorsque le moindre chiffre significatif change d'un échelon. Pour un dispositif
       analogique, elle constitue la moitié de la différence entre deux repères chiffrés
       consécutifs.
-  - content: 'Source citation: VIM 4.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137-1-2:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.21
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: résolution (d'un dispositif afficheur)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 79eca4c9-0218-58de-8184-3428179d5aac
 

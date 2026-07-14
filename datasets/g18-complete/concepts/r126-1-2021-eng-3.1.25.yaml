@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 63dbfc07-18af-5870-a217-a36743e7d398
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:126-1:2021
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
       large compared with the resolution.
   - content: In the scope of this Recommendation, sensitivity relates to the added
       substance which is not identical with the measurand.
-  - content: 'Source citation: OIML V 2-200, 4.12'
   sources:
   - origin:
       ref:
@@ -52,6 +51,10 @@ data:
     designation: sensitivity
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 63dbfc07-18af-5870-a217-a36743e7d398
 

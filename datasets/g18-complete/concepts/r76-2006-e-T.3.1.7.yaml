@@ -5,8 +5,8 @@ data:
     eng: aa1e1e49-9cd8-581e-afd7-04a05a8169c5
     fra: cbd2d825-3558-5ada-aee2-758178523130
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: maximum safe load (Lim)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: aa1e1e49-9cd8-581e-afd7-04a05a8169c5
 ---
@@ -74,6 +78,10 @@ data:
     designation: charge limite (Lim)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: cbd2d825-3558-5ada-aee2-758178523130
 

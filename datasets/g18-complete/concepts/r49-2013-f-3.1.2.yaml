@@ -5,8 +5,8 @@ data:
     eng: 5e91e57e-c7ab-59b6-9e7d-b3fb1a60957a
     fra: 6f11529d-e055-5281-af74-8f42207f3adc
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -49,6 +49,10 @@ data:
     designation: measurement transducer
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5e91e57e-c7ab-59b6-9e7d-b3fb1a60957a
 ---
@@ -80,6 +84,10 @@ data:
     designation: transducteur de mesure
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6f11529d-e055-5281-af74-8f42207f3adc
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 406f9891-694c-55ca-8180-0257a531983e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:137-1-2:2012
+  - concept_id: r-137-1-2
+    source: OIML R 137-1-2:2012
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   notes:
   - content: An influence quantity is a disturbance if for that influence quantity
       the rated operating conditions are not specified.
-  - content: 'Source citation: OIML D 11, 3.13.2'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: disturbance
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-137-1-2
+    source: OIML R 137-1-2:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 406f9891-694c-55ca-8180-0257a531983e
 

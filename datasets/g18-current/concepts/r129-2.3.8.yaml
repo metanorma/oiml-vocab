@@ -40,22 +40,36 @@ data:
   examples: []
   id: r129-2.3.8-deu
   notes:
-  - content: 'Source citation: VIM 2.52'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.52'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.8
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Einflussgröße
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 850eb4f0-dbd2-5515-b687-2e720ce33b20
 ---
@@ -70,22 +84,36 @@ data:
   examples: []
   id: r129-2.3.8-eng
   notes:
-  - content: 'Source citation: VIM 2.52'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.52'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.8
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: influence quantity
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c7734886-f28c-59a3-be45-4de921c8e3c2
 

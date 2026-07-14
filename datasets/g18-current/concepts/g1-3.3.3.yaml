@@ -40,16 +40,20 @@ data:
       related to the expectation of a random variable; see definition 3.1.5.
   - content: In this document, a typical specified requirement takes the form of a
       stated interval of permissible values of a measurable property of an item.
-  - content: 'Source citation: ISO/IEC 17000:2004 3.1'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-106:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 3.3.3
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

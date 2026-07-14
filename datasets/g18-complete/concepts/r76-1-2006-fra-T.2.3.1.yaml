@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: dff6aa9e-ee17-5d0b-a0fa-3247846f4c2b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76-1:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
   sources:
   - origin:
@@ -37,22 +37,36 @@ data:
       (par exemple, un indicateur, un dispositif de traitement de données analogiques,
       un module de pesage) ou un dispositif périphérique (par exemple, une imprimante,
       un afficheur secondaire).
-  - content: 'Source citation: OIML D 11:2004, 3.2'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.3.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: dispositif électronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: dff6aa9e-ee17-5d0b-a0fa-3247846f4c2b
 

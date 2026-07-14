@@ -5,8 +5,8 @@ data:
     eng: ff5691a2-15a3-5632-925e-0b5756002b59
     fra: 06604656-506e-55db-b684-cadeab71076a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
       the temperature of the water passing through the meter affects the measurand.
   id: r49-2013-e-3.4.1-eng
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.52.'
   sources:
   - origin:
       ref:
@@ -50,6 +49,10 @@ data:
     designation: influence quantity
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ff5691a2-15a3-5632-925e-0b5756002b59
 ---
@@ -65,7 +68,6 @@ data:
       que la temperature de l'eau traversant le compteur affecte le mesurande.
   id: r49-2013-e-3.4.1-fra
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.52.'
   sources:
   - origin:
       ref:
@@ -81,6 +83,10 @@ data:
     designation: grandeur d'influence
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 06604656-506e-55db-b684-cadeab71076a
 

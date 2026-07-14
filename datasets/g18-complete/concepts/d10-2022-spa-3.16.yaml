@@ -4,8 +4,8 @@ data:
   localized_concepts:
     spa: 235158f8-a5b8-53a2-91eb-e21686e1c636
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -50,7 +50,6 @@ data:
       de medición está asociada a un valor determinado atribuido al mensurando. Por
       tanto, una modificación de este valor supone una modificación de la incertidumbre
       asociada.
-  - content: 'Source citation: VIM3, 2.26'
   sources:
   - origin:
       ref:
@@ -69,6 +68,10 @@ data:
     designation: incertidumbre
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 235158f8-a5b8-53a2-91eb-e21686e1c636
 

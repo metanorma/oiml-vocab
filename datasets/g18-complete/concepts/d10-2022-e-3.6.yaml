@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: f7be9a99-fbd5-51e9-a44e-4479a7ff99ed
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -46,7 +46,6 @@ data:
       traceability with associated measurement uncertainty.
   - content: ISO/REMCO has an analogous definition but uses the modifiers "metrological"
       and "metrologically" to refer to both quantity and nominal property.
-  - content: 'Source citation: VIM3 5.14'
   sources:
   - origin:
       ref:
@@ -65,6 +64,10 @@ data:
     designation: CRM
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f7be9a99-fbd5-51e9-a44e-4479a7ff99ed
 

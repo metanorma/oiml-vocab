@@ -4,8 +4,8 @@ data:
   localized_concepts:
     spa: 9d492995-3ebc-5ca0-a343-539fcd17d92e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
       de medición, en el cálculo de la incertidumbre típica combinada es necesario
       también considerar las covarianzas; véase también la Guía ISO/IEC 98-3:2008,
       2.3.4.
-  - content: 'Source citation: VIM3, 2.31'
   sources:
   - origin:
       ref:
@@ -53,6 +52,10 @@ data:
     designation: incertidumbre típica combinada
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9d492995-3ebc-5ca0-a343-539fcd17d92e
 

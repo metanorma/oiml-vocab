@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: fe41160a-e6f5-5de4-ae45-6c23602622c4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60:2000
+  - concept_id: r-60
+    source: OIML R 60:2000
     ref_type: section
   sources:
   - origin:
@@ -31,8 +31,6 @@ data:
   examples: []
   id: r60-2000-e-2.4.3-eng
   notes:
-  - content: 'Source citation: Guide to the Expression of Uncertainty in Measurement,
-      BIPM, IEC, IFCC, ISO, IUPAC, IUPAP, OIML, 1993'
   sources:
   - origin:
       ref:
@@ -48,6 +46,10 @@ data:
     designation: Expanded uncertainty
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fe41160a-e6f5-5de4-ae45-6c23602622c4
 

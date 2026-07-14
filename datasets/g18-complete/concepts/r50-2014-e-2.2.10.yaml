@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b411a7c4-760c-5808-8680-1b39a909a699
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:50:2014
+  - concept_id: r-50
+    source: OIML R 50:2014
     ref_type: section
   sources:
   - origin:
@@ -38,7 +38,6 @@ data:
   - content: 'Typical modules of an automatic weighing instrument are: load cell,
       indicator, analogue or digital processors, weighing module, remote display,
       software.'
-  - content: 'Source citation: OIML B3, 3.4 [3]'
   sources:
   - origin:
       ref:
@@ -54,6 +53,10 @@ data:
     designation: module
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-50
+    source: OIML R 50:2014
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b411a7c4-760c-5808-8680-1b39a909a699
 

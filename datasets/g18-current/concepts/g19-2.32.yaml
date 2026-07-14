@@ -38,22 +38,36 @@ data:
       SI or national standards.
   - content: There are also regulations outside the area of legal metrology pertaining
       to the accuracy and correctness of measurement methods.
-  - content: 'Source citation: VIML 0.01'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.01'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 19:2017
         version: '2017'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.32'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: legal metrology
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fd4ab14e-e1e8-567d-a5be-44890f412dd5
 

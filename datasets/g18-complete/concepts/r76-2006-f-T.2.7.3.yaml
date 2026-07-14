@@ -5,8 +5,8 @@ data:
     eng: 41a8c8ed-1c8c-5c29-ab1a-c47b2ed50e48
     fra: c9707fd7-3e94-5e53-8c2b-3ecc48578979
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -45,6 +45,10 @@ data:
     designation: Zero-tracking device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 41a8c8ed-1c8c-5c29-ab1a-c47b2ed50e48
 ---
@@ -73,6 +77,10 @@ data:
     designation: Dispositif de maintien du zero (zero suiveur)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c9707fd7-3e94-5e53-8c2b-3ecc48578979
 

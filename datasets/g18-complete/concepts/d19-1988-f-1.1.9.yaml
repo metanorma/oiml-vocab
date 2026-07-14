@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: '0402832f-e6b6-5876-9e0c-fd3cab19cea0'
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:19:1988
+  - concept_id: d-19
+    source: OIML D 19:1988
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
       d'essais que la seule reconnaissance de sa capacité technique. L'agrément est
       normalement accordé après une évaluation positive du laboratoire, suivie d'une
       surveillance appropriée.
-  - content: 'Source citation: Guide ISO 2'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: Agrément d'un laboratoire
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-19
+    source: OIML D 19:1988
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '0402832f-e6b6-5876-9e0c-fd3cab19cea0'
 

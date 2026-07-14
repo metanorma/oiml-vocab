@@ -29,16 +29,26 @@ data:
   examples: []
   id: r139-3.2.15.1-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013, 3.19.1.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: 3.19.1.1
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139-1:2022
         version: '2022'
     locality:
       type: clause
       reference_from: 3.2.15.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
@@ -48,6 +58,10 @@ data:
     designation: checking facility of type P
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8fd17c30-1691-53f1-980d-dd3a28726e21
 

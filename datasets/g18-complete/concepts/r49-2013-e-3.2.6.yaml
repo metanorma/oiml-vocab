@@ -5,8 +5,8 @@ data:
     eng: 3450817a-a0c2-589a-9b12-e87a3ae52b63
     fra: 88da1321-e840-50cf-8753-b9c19741400f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -30,8 +30,6 @@ data:
   examples: []
   id: r49-2013-e-3.2.6-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.8, modified — "meter" replaces
-      "measuring instrument".'
   sources:
   - origin:
       ref:
@@ -47,6 +45,10 @@ data:
     designation: intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3450817a-a0c2-589a-9b12-e87a3ae52b63
 ---
@@ -59,8 +61,6 @@ data:
   examples: []
   id: r49-2013-e-3.2.6-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.8, modifie — << compteur >> remplace
-      << instrument de mesure >>.'
   sources:
   - origin:
       ref:
@@ -76,6 +76,10 @@ data:
     designation: erreur intrinseque
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 88da1321-e840-50cf-8753-b9c19741400f
 

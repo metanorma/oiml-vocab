@@ -40,22 +40,36 @@ data:
   examples: []
   id: r146-2.2.10-eng
   notes:
-  - content: 'Source citation: OIML D 31:2008, 3.1.29'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 31:2008
+    locality:
+      type: clause
+      reference_from: 3.1.29
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 146:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.2.10
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 31:2008
   terms:
   - type: expression
     normative_status: preferred
     designation: legally relevant
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e02d9161-6232-56e2-a98b-dc6653ce60a8
 

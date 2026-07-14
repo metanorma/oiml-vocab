@@ -38,22 +38,36 @@ data:
   examples: []
   id: r129-2.3.6-deu
   notes:
-  - content: 'Source citation: VIML 5.13'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.13'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.6
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Fehlergrenzwert
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 564999cb-b97b-5356-80b0-415f92d4d0cc
 ---
@@ -66,22 +80,36 @@ data:
   examples: []
   id: r129-2.3.6-eng
   notes:
-  - content: 'Source citation: VIML 5.13'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.13'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.6
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: fault limit
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d6313c5d-e1af-50c3-8e7b-89b9bd13d5e3
 

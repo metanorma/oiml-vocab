@@ -34,16 +34,26 @@ data:
   - content: Different measuring systems may use different measurement procedures.
   - content: A specification should give the conditions changed and unchanged, to
       the extent practical.
-  - content: 'Source citation: VIM 2.24'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.24'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 142-1:2025
         version: '2025'
     locality:
       type: clause
       reference_from: '3.18'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -53,6 +63,10 @@ data:
     designation: reproducibility condition
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9427ef31-174b-5f3f-89c2-75f0efd00fb2
 

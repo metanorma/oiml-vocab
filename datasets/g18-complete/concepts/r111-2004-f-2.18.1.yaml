@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: f7b57c48-27a0-5c4c-b702-1f923cd802cf
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:111:2004
+  - concept_id: r-111
+    source: OIML R 111:2004
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
   examples: []
   id: r111-2004-f-2.18.1-fra
   notes:
-  - content: 'Source citation: Adapté de OIML D 20 Edition 1988'
   sources:
   - origin:
       ref:
@@ -52,6 +51,10 @@ data:
     designation: vérification primitive
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-111
+    source: OIML R 111:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f7b57c48-27a0-5c4c-b702-1f923cd802cf
 

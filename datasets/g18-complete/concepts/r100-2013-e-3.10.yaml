@@ -5,8 +5,8 @@ data:
     eng: 2a121a0b-e2f0-5297-ba48-c4c41ee14f1a
     fra: d504c42d-94e9-53b8-b6d4-46d04be1e4a2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:100:2013
+  - concept_id: r-100
+    source: OIML R 100:2013
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: temperature programming
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2a121a0b-e2f0-5297-ba48-c4c41ee14f1a
 ---
@@ -74,6 +78,10 @@ data:
     designation: programmation de la température
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d504c42d-94e9-53b8-b6d4-46d04be1e4a2
 

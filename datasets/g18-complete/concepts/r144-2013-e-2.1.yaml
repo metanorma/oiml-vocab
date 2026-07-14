@@ -5,8 +5,8 @@ data:
     eng: 50a7264c-7756-5321-8711-8ef78bb0f133
     fra: 3f5868d3-f1b3-594d-960c-63ee3487cef0
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -43,16 +43,20 @@ data:
       of the main components of the system, - an interface to connect devices measuring
       the gas flow parameters of exhaust emissions, and - gas and electric lines of
       communication.
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.1'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred
@@ -84,16 +88,20 @@ data:
       du système, - une interface pour connecter les dispositifs metes paramètres
       d'écoulement de gaz des émissions d'échappement, et - du gaz et des lignes électriques
       de communication.
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.1'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred

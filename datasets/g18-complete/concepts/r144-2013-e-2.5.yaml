@@ -5,8 +5,8 @@ data:
     eng: c19d34aa-6d1d-5a02-9f86-944779ce4d9c
     fra: 2f3eee9a-7cbd-543f-8114-2b73a2a428d8
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: input measurement signal
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c19d34aa-6d1d-5a02-9f86-944779ce4d9c
 ---
@@ -76,6 +80,10 @@ data:
     designation: signal de mesure d'entr\xE9e
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2f3eee9a-7cbd-543f-8114-2b73a2a428d8
 

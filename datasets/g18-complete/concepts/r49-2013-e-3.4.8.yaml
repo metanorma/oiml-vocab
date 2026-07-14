@@ -5,8 +5,8 @@ data:
     eng: 1b828642-5e79-50e5-b65f-a046333d1b0f
     fra: fe9f4c43-119d-54ae-b6ff-18d91bf4e0fe
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: temperature stability
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1b828642-5e79-50e5-b65f-a046333d1b0f
 ---
@@ -76,6 +80,10 @@ data:
     designation: stabilite en temperature
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fe9f4c43-119d-54ae-b6ff-18d91bf4e0fe
 

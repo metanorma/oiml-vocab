@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 557a117e-c8ec-58bc-96dc-11bbaa5dfdda
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:129-1:2020
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
     ref_type: section
   sources:
   - origin:
@@ -37,22 +37,36 @@ data:
       as a measurement result; and (d) faults giving rise to variations in the measurement
       result so serious that they are bound to be noticed by all those interested
       in the result of the measurement.'
-  - content: 'Source citation: VIML 5.14'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.14'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.7
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: significant fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 557a117e-c8ec-58bc-96dc-11bbaa5dfdda
 

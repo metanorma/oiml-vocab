@@ -39,22 +39,36 @@ data:
   examples: []
   id: r125-T.22.2-eng
   notes:
-  - content: 'Source citation: VIM 3.12'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.12'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 125:1998
         version: '1998'
-    type: authoritative
     locality:
       type: clause
       reference_from: T.22.2
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: relative error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9eb0fea3-6f95-5ed8-a9c1-a767aec86c67
 ---
@@ -83,6 +97,10 @@ data:
     designation: Erreur relative
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8324edd0-bde6-572e-988c-30520c837a7c
 

@@ -5,8 +5,8 @@ data:
     eng: 90696369-8815-5412-9136-8507fa77cd00
     fra: 8cff1ae4-e621-56b2-a65f-1fe16f8118bb
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: Ullage
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 90696369-8815-5412-9136-8507fa77cd00
 ---
@@ -76,6 +80,10 @@ data:
     designation: Hauteur de creux
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8cff1ae4-e621-56b2-a65f-1fe16f8118bb
 

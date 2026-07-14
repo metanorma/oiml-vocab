@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: e4d51d4e-243b-5257-b9b0-335749a83c38
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2026
+  - concept_id: d-11
+    source: OIML D 11:2026
     ref_type: section
   sources:
   - origin:
@@ -38,22 +38,36 @@ data:
   - content: In case the listed rated operating conditions of a measuring instrument
       do not include a range for the specific influence quantity, the influence quantity
       is qualified as being a disturbance.
-  - content: 'Source citation: VIML 5.19'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: 2026
     locality:
       type: clause
       reference_from: 3.15.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: disturbance
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: 2026-07-13 00:00:00.000000000 +00:00
 id: e4d51d4e-243b-5257-b9b0-335749a83c38
 

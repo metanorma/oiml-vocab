@@ -5,8 +5,8 @@ data:
     eng: 56a7454d-6c3e-53e1-86e0-271aac7ae21d
     fra: 71f24055-866d-54e6-9fc2-1a8430f9b9e3
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:35:2007
+  - concept_id: r-35
+    source: OIML R 35:2007
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Ancillary device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-35
+    source: OIML R 35:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 56a7454d-6c3e-53e1-86e0-271aac7ae21d
 ---
@@ -74,6 +78,10 @@ data:
     designation: Dispositif auxiliaire
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-35
+    source: OIML R 35:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 71f24055-866d-54e6-9fc2-1a8430f9b9e3
 

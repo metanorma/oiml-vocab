@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: d0df167f-4642-5239-8225-6dac8ac329fd
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-106:2012
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   - content: An indication is often given as the position of a pointer for an analogue
       output or the displayed or printed number for a digital output.
   - content: An indication is also known as a reading.
-  - content: 'Source citation: Adapted from JCGM 200:2012 4.1'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: indication
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d0df167f-4642-5239-8225-6dac8ac329fd
 

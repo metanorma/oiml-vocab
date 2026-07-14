@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 1cf34a47-6992-5fec-8777-67b6fe1aa2f1
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:b:10-1:2004
+  - concept_id: b-10-1
+    source: OIML B 10-1:2004
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
   notes:
   - content: The OIML Test Report shall always be accompanied by the OIML Certificate
       of Conformity which validates it.
-  - content: 'Source citation: OIML B 3 (formerly P 1) Edition 2003 subclause 2.12'
   sources:
   - origin:
       ref:
@@ -52,6 +51,10 @@ data:
     designation: OIML Test Report
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: b-10-1
+    source: OIML B 10-1:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1cf34a47-6992-5fec-8777-67b6fe1aa2f1
 

@@ -5,8 +5,8 @@ data:
     eng: 2a28cd89-5b0c-5d87-bc51-fafa7eb5f99c
     fra: ca3ff26c-cde4-546d-ae86-79b6092f4bc5
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -50,6 +50,10 @@ data:
     designation: warm-up time
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2a28cd89-5b0c-5d87-bc51-fafa7eb5f99c
 ---
@@ -82,6 +86,10 @@ data:
     designation: temps de chauffe
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ca3ff26c-cde4-546d-ae86-79b6092f4bc5
 

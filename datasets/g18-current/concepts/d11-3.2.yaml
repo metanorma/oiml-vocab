@@ -58,6 +58,10 @@ data:
     designation: module
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 65de713f-c259-5f52-95a8-79c3e5260a93
 ---
@@ -73,22 +77,36 @@ data:
   examples: []
   id: d11-3.2-eng
   notes:
-  - content: 'Source citation: VIML 4.04'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.04'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: '2026'
     locality:
       type: clause
       reference_from: '3.2'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: module
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8525963f-3a1e-54f7-adb1-b6b632719bbd
 

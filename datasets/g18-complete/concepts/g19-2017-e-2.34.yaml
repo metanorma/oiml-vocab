@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b3877923-aaba-5b5a-b6fe-e40579cb9a67
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:19:2017
+  - concept_id: g-19
+    source: OIML G 19:2017
     ref_type: section
   sources:
   - origin:
@@ -39,7 +39,6 @@ data:
   - content: The term "measurement accuracy" is sometimes understood as meaning closeness
       of agreement between measured quantity values that are being attributed to the
       measurand.
-  - content: 'Source citation: VIM3 2.13'
   sources:
   - origin:
       ref:
@@ -61,6 +60,10 @@ data:
     designation: accuracy
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-19
+    source: OIML G 19:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b3877923-aaba-5b5a-b6fe-e40579cb9a67
 

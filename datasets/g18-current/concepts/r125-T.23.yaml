@@ -38,22 +38,36 @@ data:
   examples: []
   id: r125-T.23-eng
   notes:
-  - content: 'Source citation: VIM 5.24'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 125:1998
         version: '1998'
-    type: authoritative
     locality:
       type: clause
       reference_from: T.23
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2c23eb6b-a5ee-5235-8210-6ac93a76b794
 ---
@@ -82,6 +96,10 @@ data:
     designation: Erreur intrinseque
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c13f6a2f-7f9a-57b9-9b1e-5b27d0e52a9b
 

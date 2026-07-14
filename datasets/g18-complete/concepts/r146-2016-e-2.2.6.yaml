@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 63b8cbaa-ac9b-589d-b16a-9c7af075e561
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:146:2016
+  - concept_id: r-146
+    source: OIML R 146:2016
     ref_type: section
   sources:
   - origin:
@@ -38,22 +38,36 @@ data:
       is not used, a fault is the difference between a single indication during or
       after a disturbance and the mean indication at reference conditions prior to
       test.
-  - content: 'Source citation: OIML D 11:2013, 3.9'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: '3.9'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 146:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.2.6
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 63b8cbaa-ac9b-589d-b16a-9c7af075e561
 

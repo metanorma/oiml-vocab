@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 10b006b6-9c82-597c-b4fb-44e37da09823
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2003
+  - concept_id: r-49-1
+    source: OIML R 49-1:2003
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   examples: []
   id: r49-1-2003-fra-2.4.6-fra
   notes:
-  - content: 'Source citation: VIM 5.6'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.6'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2003
         version: '2003'
     locality:
       type: clause
       reference_from: 2.4.6
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Conditions limites
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 10b006b6-9c82-597c-b4fb-44e37da09823
 

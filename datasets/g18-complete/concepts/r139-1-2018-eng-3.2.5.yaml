@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 89ac2efd-e41d-57ff-a3fc-18a7f1dee4dd
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:139-1:2018
+  - concept_id: r-139-1
+    source: OIML R 139-1:2018
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   notes:
   - content: A printing device is not an indicating device, although a printed measurement
       result is considered to be an indication.
-  - content: 'Source citation: OIML V 1:2013, 5.04'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.04'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139-1:2018
         version: '2018'
     locality:
       type: clause
       reference_from: 3.2.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: indicating device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 89ac2efd-e41d-57ff-a3fc-18a7f1dee4dd
 

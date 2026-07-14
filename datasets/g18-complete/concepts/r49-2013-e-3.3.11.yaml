@@ -5,8 +5,8 @@ data:
     eng: f78748b1-3961-5677-a67c-9d98782d4303
     fra: 85b39e19-48f4-597e-abb8-6d479abff7ee
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: working pressure
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f78748b1-3961-5677-a67c-9d98782d4303
 ---
@@ -74,6 +78,10 @@ data:
     designation: pression de service
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 85b39e19-48f4-597e-abb8-6d479abff7ee
 

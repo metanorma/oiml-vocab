@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: ca40e882-e0b7-51ea-803c-d1004c28a670
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -35,16 +35,20 @@ data:
   - content: The average of a simple random sample taken from a population is an unbiased
       estimator of the mean of this population. However, other estimators, such as
       the geometric or harmonic mean, or the median or mode, are sometimes used.
-  - content: 'Source citation: ISO 3534-1:1993, definition 2.26'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-100:2008
         version: '2008'
     locality:
       type: clause
       reference_from: C.2.19
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

@@ -54,7 +54,6 @@ data:
   - content: The concept of a "family" primarily aims to reduce the testing required
       at type examination. It does not preclude the possibility of listing more than
       one family in one Certificate.
-  - content: 'Source citation: adapted from OIML B 3:2003, 2.3'
   sources:
   - origin:
       ref:
@@ -64,12 +63,35 @@ data:
       type: clause
       reference_from: T.3.5
     type: authoritative
+  - type: lineage
+    origin:
+      ref:
+        source: OIML B 3:2003
+    locality:
+      type: clause
+      reference_from: '2.3'
+  - type: lineage
+    status: modified
+    origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.5
+    sourced_from:
+    - ref:
+        source: OIML B 3:2003
   terms:
   - type: expression
     normative_status: preferred
     designation: family
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 752853e6-c2b8-5a56-aca2-e6cb69f99de3
 ---
@@ -90,7 +112,6 @@ data:
   - content: Le concept de «famille» vise d'abord à réduire les essais exigés pour
       l'approbation de modele. Ceci n'empêche pas la possibilité de lister plus qu'une
       famille dans un Certificat.
-  - content: 'Source citation: adapted from OIML B 3:2003, 2.3'
   sources:
   - origin:
       ref:
@@ -100,12 +121,35 @@ data:
       type: clause
       reference_from: T.3.5
     type: authoritative
+  - type: lineage
+    origin:
+      ref:
+        source: OIML B 3:2003
+    locality:
+      type: clause
+      reference_from: '2.3'
+  - type: lineage
+    status: modified
+    origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.5
+    sourced_from:
+    - ref:
+        source: OIML B 3:2003
   terms:
   - type: expression
     normative_status: preferred
     designation: famille
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c4e1bbf9-5090-593d-9b00-eb287b31373b
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 04663f24-3dd4-53c1-8fba-a365ff000de1
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:19:2017
+  - concept_id: g-19
+    source: OIML G 19:2017
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: g19-2017-e-2.28-eng
   notes:
-  - content: 'Source citation: VIML 2.09'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.09'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 19:2017
         version: '2017'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.28'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: verification of a measuring instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 04663f24-3dd4-53c1-8fba-a365ff000de1
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 5c842310-9a51-5f84-ac54-ebd893470435
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:b:10-1:2004
+  - concept_id: b-10-1
+    source: OIML B 10-1:2004
     ref_type: section
   sources:
   - origin:
@@ -30,16 +30,20 @@ data:
   examples: []
   id: b10-1-2004-e-3.20-eng
   notes:
-  - content: 'Source citation: ISO/IEC Guide 2, 12.2'
+  - content: 'Source citation: ISO/IEC Guide 2'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 10-1:2004
         version: '2004'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.20'
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred

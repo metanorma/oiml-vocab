@@ -5,8 +5,8 @@ data:
     eng: '0648310d-48d0-5f1c-a216-0aad4b0e391a'
     fra: e5370152-849a-59b2-a357-b209e7e69f89
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
   - content: Random errors presenting momentary variations in the indication but which
       cannot be interpreted recorded or transmitted as measuring results are considered
       to be insignificant faults.
-  - content: 'Source citation: VIML 2012 (V1), 5.11 [25]'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2012'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.16'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '0648310d-48d0-5f1c-a216-0aad4b0e391a'
 ---
@@ -66,22 +80,36 @@ data:
   - content: Les erreurs aléatoires présentant des variations dans l'indication, mais
       qui ne peuvent pas être interprétées, enregistrées ou transmisees résultats
       de mesure sont considérés comme des défauts non significatifs.
-  - content: 'Source citation: VIML 2012 (V1), 5.11 [25]'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2012'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.16'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: défaut
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e5370152-849a-59b2-a357-b209e7e69f89
 

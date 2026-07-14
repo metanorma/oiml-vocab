@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 4f44382f-6ad7-50d3-9e08-9bf023f5fcee
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106-1:2011
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
     ref_type: section
   sources:
   - origin:
@@ -29,22 +29,36 @@ data:
   examples: []
   id: r106-1-2011-fra-0.4.4.2-fra
   notes:
-  - content: 'Source citation: VIM 5.24'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 106-1:2011
         version: '2011'
     locality:
       type: clause
       reference_from: 0.4.4.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur intrinseque
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4f44382f-6ad7-50d3-9e08-9bf023f5fcee
 

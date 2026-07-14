@@ -34,16 +34,20 @@ data:
       upon legal metrology experts assess, against specified requirements, on site,
       the competence of Testing Laboratories requested by Issuing Participants to
       be registered in a DoMC.
-  - content: 'Source citation: ISO/IEC 17000 4.5 [6]'
+  - content: 'Source citation: ISO/IEC 17000 4.5'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 10:2011
         version: '2011'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.14'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred

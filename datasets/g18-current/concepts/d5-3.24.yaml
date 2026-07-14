@@ -34,22 +34,36 @@ data:
       demonstrating, e.g. to testify in a court of law, the condition of a measuring
       instrument and to determine its metrological properties, amongst others by reference
       to the relevant statutory requirements.
-  - content: 'Source citation: VIML 2.01'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.01'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.24'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: legal metrological control
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ee862887-a614-528e-819c-374b7c1d4f0b
 

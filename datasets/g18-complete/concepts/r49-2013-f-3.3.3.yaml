@@ -5,8 +5,8 @@ data:
     eng: aed6dacd-3de1-5bf5-b341-73cd7701f744
     fra: 64ed86fb-5d69-5693-bd1f-a5d1ea4bb73a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: overload flow rate
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: aed6dacd-3de1-5bf5-b341-73cd7701f744
 ---
@@ -77,6 +81,10 @@ data:
     designation: débit de surcharge
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 64ed86fb-5d69-5693-bd1f-a5d1ea4bb73a
 

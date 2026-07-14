@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 928fb579-f66f-5555-ad9d-89af0a0e7da9
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:139:2018
+  - concept_id: r-139
+    source: OIML R 139:2018
     ref_type: section
   sources:
   - origin:
@@ -29,22 +29,36 @@ data:
   examples: []
   id: r139-2018-e-3.1.11-eng
   notes:
-  - content: 'Source citation: OIML V 1:2013, 5.13'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.13'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139:2018
         version: '2018'
     locality:
       type: clause
       reference_from: 3.1.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: fault limit
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 928fb579-f66f-5555-ad9d-89af0a0e7da9
 

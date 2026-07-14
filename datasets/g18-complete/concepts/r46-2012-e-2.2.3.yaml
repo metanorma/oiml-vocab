@@ -5,8 +5,8 @@ data:
     eng: 5c4429bc-8fda-5037-a5be-3d16907f8c5c
     fra: 644c6858-80f6-5259-84fd-a108c99e396a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: minimum current (Imin)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5c4429bc-8fda-5037-a5be-3d16907f8c5c
 ---
@@ -74,6 +78,10 @@ data:
     designation: courant minimal $( I_{\mathrm{min}}) $
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 644c6858-80f6-5259-84fd-a108c99e396a
 

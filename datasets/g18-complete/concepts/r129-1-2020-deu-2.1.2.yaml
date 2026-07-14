@@ -4,8 +4,8 @@ data:
   localized_concepts:
     deu: c85471d1-3b9b-55a9-bb6c-6c3f244f0b7b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:129-1:2020
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   - content: Eine Einrichtung kann ein eigenständiges und komplettes Messgerät (z.
       B. Tischwaage, Stromzähler) oder Teil eines Messgeräts (z. B. Drucker, Anzeige)
       sein.
-  - content: 'Source citation: OIML D 11, 3.3'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: Einrichtung
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c85471d1-3b9b-55a9-bb6c-6c3f244f0b7b
 

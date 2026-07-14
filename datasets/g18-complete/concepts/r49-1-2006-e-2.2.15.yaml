@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 6c1d8540-ac61-5ad4-b3e4-527faeeb191d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2006
+  - concept_id: r-49-1
+    source: OIML R 49-1:2006
     ref_type: section
   sources:
   - origin:
@@ -30,24 +30,38 @@ data:
   examples: []
   id: r49-1-2006-e-2.2.15-eng
   notes:
-  - content: 'Source citation: adapted from VIM 5.12'
   - content: For a digital device, this is the change in the indication when the least
       significant digit changes by one step.
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.12'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2006
         version: '2006'
     locality:
       type: clause
       reference_from: 2.2.15
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: resolution (of an indicating device)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6c1d8540-ac61-5ad4-b3e4-527faeeb191d
 

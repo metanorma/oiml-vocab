@@ -34,22 +34,36 @@ data:
       before expiry of the period of validity of a previous verification either at
       the request of the user (owner) or when its verification is declared to be no
       longer valid.
-  - content: 'Source citation: VIML 2.16'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.16'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 16:2011
         version: '2011'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.12'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: subsequent verification
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9779b269-1dfd-5131-baa9-a9d7b592946a
 

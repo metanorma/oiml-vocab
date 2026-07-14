@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 35513722-9387-5aea-83db-4c272d4ac46a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:37:2022
+  - concept_id: d-37
+    source: OIML D 37:2022
     ref_type: section
   sources:
   - origin:
@@ -31,25 +31,39 @@ data:
   examples: []
   id: d37-2022-e-G.3-2c-eng
   notes:
-  - content: 'Source citation: VIML 2.04'
   - content: '"Pattern" is used in legal metrology with the same meaning as "type".'
   - content: For the purposes of the OIML-CS, "evaluation report" should be read as
       "OIML type evaluation report".
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.04'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 37:2022
         version: '2022'
     locality:
       type: clause
       reference_from: G.3-2c
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: type (pattern) evaluation
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 35513722-9387-5aea-83db-4c272d4ac46a
 

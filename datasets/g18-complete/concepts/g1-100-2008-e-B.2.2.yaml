@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: fb72da5e-a954-5890-b563-f7df9ef40445
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -40,7 +40,6 @@ data:
   - content: A quantity that cannot be expressed as a unit of measurement multiplied
       by a number may be expressed by reference to a conventional reference scale
       or to a measurement procedure or to both.
-  - content: 'Source citation: VIM:1993, definition 1.18'
   sources:
   - origin:
       ref:
@@ -56,6 +55,10 @@ data:
     designation: value (of a quantity)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fb72da5e-a954-5890-b563-f7df9ef40445
 

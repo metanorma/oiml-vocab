@@ -5,8 +5,8 @@ data:
     eng: 6e4ef710-a02b-59d6-83a4-e8b10bf55eca
     fra: a8c4c12f-3b83-5962-8007-0d21977b114c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   examples: []
   id: r144-2013-f-2.2-eng
   notes:
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.2'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred
@@ -60,16 +64,20 @@ data:
   examples: []
   id: r144-2013-f-2.2-fra
   notes:
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.2'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred

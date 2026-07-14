@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: da6a3ed0-0423-5090-aaeb-b8d4fd0d1ceb
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:142-1:2025
+  - concept_id: r-142-1
+    source: OIML R 142-1:2025
     ref_type: section
   sources:
   - origin:
@@ -39,16 +39,26 @@ data:
       verification and verification after repair of refractometer are defined in 5.2.1.'
   - content: Maximum permissible errors for refractometer in service are defined in
       5.2.2.
-  - content: 'Source citation: VIM 4.26'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 142-1:2025
         version: '2025'
     locality:
       type: clause
       reference_from: '3.9'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -64,6 +74,10 @@ data:
     designation: limit of error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: da6a3ed0-0423-5090-aaeb-b8d4fd0d1ceb
 

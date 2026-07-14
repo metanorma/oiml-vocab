@@ -41,16 +41,20 @@ data:
   notes:
   - content: The term "validated" is used to designate the corresponding status.
   - content: The use conditions for validation can be real or simulated.
-  - content: 'Source citation: ISO 9000:2000, 3.8.5'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.14'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred
@@ -72,16 +76,20 @@ data:
   notes:
   - content: Le terme "validé" désigne l'état correspondant.
   - content: Les conditions d'utilisation peuvent être réelles ou simulées.
-  - content: 'Source citation: ISO 9000:2000, 3.8.5'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.14'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred

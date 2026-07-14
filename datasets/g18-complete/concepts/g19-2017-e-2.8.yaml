@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: ea098ab4-21e6-5990-ad82-df7cb8b8df68
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:19:2017
+  - concept_id: g-19
+    source: OIML G 19:2017
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   - content: In GUM Supplement JCGM 104 [4], measurement uncertainty is described
       as a measure of how well the essentially unique true value of a measurand is
       believed to be known. (not in VIM3)
-  - content: 'Source citation: VIM3 2.26'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: measurement uncertainty
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-19
+    source: OIML G 19:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ea098ab4-21e6-5990-ad82-df7cb8b8df68
 

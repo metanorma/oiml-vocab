@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 155c8a3f-d695-573a-9c52-23e9fb2f7478
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -31,9 +31,6 @@ data:
   examples: []
   id: r49-1-2013-fra-3.5.1-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.2, modifie - "fonction, habituellement
-      fabrique en tant qu''unite separee et pouvant" remplace "fonction. Des dispositifs
-      electroniques sont habituellement fabriques en tant qu''unites separees et peuvent".'
   - content: Un dispositif electronique peut etre un compteur complet ou une partie
       d'un compteur, comme par exemple au 3.1.1-3.1.5 et 3.1.8.
   sources:
@@ -51,6 +48,10 @@ data:
     designation: dispositif electronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 155c8a3f-d695-573a-9c52-23e9fb2f7478
 

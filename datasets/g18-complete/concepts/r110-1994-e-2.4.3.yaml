@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 3d27c83e-b5cb-591e-9b99-f1a6890ad831
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:110:1994
+  - concept_id: r-110
+    source: OIML R 110:1994
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Uncertainty of the pressure measurement
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3d27c83e-b5cb-591e-9b99-f1a6890ad831
 

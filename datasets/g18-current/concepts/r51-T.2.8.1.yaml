@@ -35,22 +35,36 @@ data:
       (e.g. an instrument for direct sales to the public), a module (e.g. indicator,
       analog data processing device, weighing module) or a peripheral device (e.g.
       printer, secondary display).
-  - content: 'Source citation: OIML D 11:2004, 3.2.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 51:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.8.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: Electronic device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e2953cd3-2614-5a92-beca-9b81028e39d5
 

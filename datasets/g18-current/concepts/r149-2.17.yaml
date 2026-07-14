@@ -30,22 +30,36 @@ data:
   examples: []
   id: r149-2.17-eng
   notes:
-  - content: 'Source citation: VIM 3.11'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.11'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 149-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: '2.17'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: zero adjustment of a measuring system
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 147b9fe4-e5f2-5e2e-8f10-501cc28bb9b5
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 16ad4160-0773-5434-8abf-428a8e5bc261
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:107-1:2007
+  - concept_id: r-107-1
+    source: OIML R 107-1:2007
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   id: r107-1-2007-eng-T.3.11-eng
   notes:
   - content: An automatic checking facility performs securing and monitoring activities.
-  - content: 'Source citation: OIML D 11:2004, 3.18 and 3.18.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.18'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 107-1:2007
         version: '2007'
     locality:
       type: clause
       reference_from: T.3.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: automatic checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 16ad4160-0773-5434-8abf-428a8e5bc261
 

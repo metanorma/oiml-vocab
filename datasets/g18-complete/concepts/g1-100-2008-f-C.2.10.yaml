@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: cab1aaf9-6de4-50e0-9832-29567838163b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   notes:
   - content: Si la variable aléatoire X a pour espérance mathématique mu, la variable
       aléatoire centrée correspondante est (X - mu).
-  - content: 'Source citation: ISO 3534-1:1993, definition 1.21'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-100:2008
         version: '2008'
     locality:
       type: clause
       reference_from: C.2.10
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

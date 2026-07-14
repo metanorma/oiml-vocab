@@ -5,8 +5,8 @@ data:
     eng: de70d8ba-4de5-5f3a-b051-e89a3bd05a58
     fra: bd38d3d5-1992-51aa-ad22-27ddc355d43d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   examples: []
   id: r76-2006-f-T.6.2-eng
   notes:
-  - content: 'Source citation: VIM:1993,5.5.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2:1993
+    locality:
+      type: clause
+      reference_from: '5.5'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.6.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2:1993
   terms:
   - type: expression
     normative_status: preferred
     designation: Rated operating conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2
+    source: OIML V 2:1993
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: de70d8ba-4de5-5f3a-b051-e89a3bd05a58
 ---
@@ -62,22 +76,36 @@ data:
   examples: []
   id: r76-2006-f-T.6.2-fra
   notes:
-  - content: 'Source citation: VIM:1993, 5.5.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2:1993
+    locality:
+      type: clause
+      reference_from: '5.5'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.6.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2:1993
   terms:
   - type: expression
     normative_status: preferred
     designation: Conditions assignées de fonctionnement
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2
+    source: OIML V 2:1993
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bd38d3d5-1992-51aa-ad22-27ddc355d43d
 

@@ -5,8 +5,8 @@ data:
     eng: d7a3a8c9-1e57-55a8-98f5-c10c5fd6f751
     fra: c0e69740-8c7e-5d2b-a2ce-4fe862c8af36
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Balancing by weights
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d7a3a8c9-1e57-55a8-98f5-c10c5fd6f751
 ---
@@ -74,6 +78,10 @@ data:
     designation: Équilibrage par poids
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c0e69740-8c7e-5d2b-a2ce-4fe862c8af36
 

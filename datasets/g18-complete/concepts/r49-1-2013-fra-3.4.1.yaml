@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 60e60b7e-ebe6-59b3-9eb2-593b67df1aeb
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
       que la temperature de l'eau traversant le compteur affecte le mesurande.
   id: r49-1-2013-fra-3.4.1-fra
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.52.'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: grandeur d'influence
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 60e60b7e-ebe6-59b3-9eb2-593b67df1aeb
 

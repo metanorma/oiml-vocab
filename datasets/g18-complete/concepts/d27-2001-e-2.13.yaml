@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: cb9ea300-4c1d-5be6-8d79-ba3105215309
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -35,16 +35,20 @@ data:
   - content: A quality plan often makes reference to parts of the quality manual or
       to procedure documents.
   - content: A quality plan is generally one of the results of quality planning.
-  - content: 'Source citation: ISO 9000:2000, 3.7.5'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.13'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred

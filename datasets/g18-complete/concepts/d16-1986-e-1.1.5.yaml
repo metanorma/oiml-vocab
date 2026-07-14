@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 25ee6c46-abe6-5a23-95fd-3a343f28a67a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:16:1986
+  - concept_id: d-16
+    source: OIML D 16:1986
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: d16-1986-e-1.1.5-eng
   notes:
-  - content: 'Source citation: VIM 4.05'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.05'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 16:1986
         version: '1986'
-    type: authoritative
     locality:
       type: clause
       reference_from: 1.1.5
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Measurement system
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 25ee6c46-abe6-5a23-95fd-3a343f28a67a
 

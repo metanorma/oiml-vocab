@@ -5,8 +5,8 @@ data:
     eng: 5bc7b379-9163-5152-b6b7-3c33d0a72b64
     fra: 764de8e2-7cef-5090-b7ef-1aa5d9ad6965
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
   sources:
   - origin:
@@ -54,6 +54,10 @@ data:
     designation: Significant fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5bc7b379-9163-5152-b6b7-3c33d0a72b64
 ---
@@ -91,6 +95,10 @@ data:
     designation: Défaut significatif
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 764de8e2-7cef-5090-b7ef-1aa5d9ad6965
 

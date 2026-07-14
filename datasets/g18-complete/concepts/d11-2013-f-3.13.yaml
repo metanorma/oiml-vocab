@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 8e5f5b78-c8bc-5c36-86b1-8aca0105e387
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2013
+  - concept_id: d-11
+    source: OIML D 11:2013
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: d11-2013-f-3.13-fra
   notes:
-  - content: 'Source citation: VIML 5.16'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.16'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '3.13'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur de durabilité
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8e5f5b78-c8bc-5c36-86b1-8aca0105e387
 

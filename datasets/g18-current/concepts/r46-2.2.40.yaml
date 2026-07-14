@@ -64,22 +64,36 @@ data:
   examples: []
   id: r46-2.2.40-eng
   notes:
-  - content: 'Source citation: OIML V 1:2013, 4.08'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.08'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.40
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: legally relevant
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 583e3fdc-bbac-5b9d-8f5c-d278b6ecd742
 ---
@@ -93,22 +107,36 @@ data:
   examples: []
   id: r46-2.2.40-spa
   notes:
-  - content: 'Source citation: OIML V 1:2013, 4.08'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.08'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.40
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Legalmente relevante
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8a44443e-70fc-5925-a77c-dac1691b8932
 ---
@@ -122,22 +150,36 @@ data:
   examples: []
   id: r46-2.2.40-fra
   notes:
-  - content: 'Source citation: OIML V 1:2013,4.08'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.08'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1-2:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.2.40
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: caractère légal
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5e24f343-ef98-59f6-a9c7-aefdc362a6b3
 

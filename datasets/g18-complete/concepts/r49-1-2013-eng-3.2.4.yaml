@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 1970018a-90cf-5896-8006-7a7eddb16db7
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
       referred to as error (of indication).
   - content: In this Recommendation, the error (of indication) is expressed as a percentage
       of the actual volume.
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.16.'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1970018a-90cf-5896-8006-7a7eddb16db7
 

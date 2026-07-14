@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 55173758-c8fc-560c-a578-94dfe58fda73
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2019
+  - concept_id: d-31
+    source: OIML D 31:2019
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
   - content: From the definition it follows that a "fault" is a numerical value which
       is expressed either in a unit of measurement or as a relative value, for instance
       as a percentage.
-  - content: 'Source citation: [OIML V 1:2013, 5.12]'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2019
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 55173758-c8fc-560c-a578-94dfe58fda73
 

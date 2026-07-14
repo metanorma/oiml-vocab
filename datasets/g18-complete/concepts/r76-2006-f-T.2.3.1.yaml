@@ -5,8 +5,8 @@ data:
     eng: fdc5a69c-fddb-52b3-b495-8a6b16a26b46
     fra: e5a0d952-c1ec-5827-9e62-c9c646e2438a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -36,22 +36,36 @@ data:
       (e.g. an instrument for direct sales to the public), a module (e.g. indicator,
       analog data processing device, weighing module) or a peripheral device (e.g.
       printer, secondary display).
-  - content: 'Source citation: OIML D 11:2004,3.2.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.3.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: Electronic device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fdc5a69c-fddb-52b3-b495-8a6b16a26b46
 ---
@@ -71,22 +85,36 @@ data:
       (par exemple, un indicateur, un dispositif de traitement de donnees analogiques,
       un module de pesage) ou un dispositif peripherique (par exemple, une imprimante,
       un afficheur secondaire).
-  - content: 'Source citation: OIML D 11:2004,3.2.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.3.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: Dispositif electronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e5a0d952-c1ec-5827-9e62-c9c646e2438a
 

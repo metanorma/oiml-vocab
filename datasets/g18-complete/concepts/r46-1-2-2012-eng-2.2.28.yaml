@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b7d4566a-2ad9-587c-b9dd-855ee17189ac
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46-1-2:2012
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
   notes:
   - content: In this Recommendation, the stated metrological requirements for accuracy
       class include permissible responses to disturbances.
-  - content: 'Source citation: OIML V 2-200:2012, 4.25'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.25'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1-2:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.2.28
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: accuracy class
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b7d4566a-2ad9-587c-b9dd-855ee17189ac
 

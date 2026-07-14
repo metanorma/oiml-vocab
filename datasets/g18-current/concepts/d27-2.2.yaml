@@ -41,22 +41,36 @@ data:
   notes:
   - content: 'Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
-  - content: 'Source citation: VIML 2.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.2'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Legal metrological control
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7ae8e270-0c32-5852-949b-a23f7f224f94
 ---
@@ -72,22 +86,36 @@ data:
   notes:
   - content: 'Le contrôle de métrologie légale inclut: le contrôle légal des instruments
       de mesure, la surveillance métrologique, l''expertise métrologique.'
-  - content: 'Source citation: VIML 2.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.2'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Contrôle de métrologie légale
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 19b63a2c-43f6-5ac6-ae8f-31258a7c9061
 

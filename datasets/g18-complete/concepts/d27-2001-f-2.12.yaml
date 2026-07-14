@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: a5144ba9-33f6-5aee-89c6-51ca927381ec
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   notes:
   - content: Le degré de détail et la forme d'un manuel qualité peuvent varier pour
       s'adapter à la taille et la complexité d'un organisme particulier.
-  - content: 'Source citation: ISO 9000:2000, 3.7.4'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.12'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred

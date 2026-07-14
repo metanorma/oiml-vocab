@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: a941441b-2c17-5b3b-b9dc-b08d3972682d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:105:1993
+  - concept_id: r-105
+    source: OIML R 105:1993
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   examples: []
   id: r105-1993-e-T.25-eng
   notes:
-  - content: 'Source citation: adapted from VIM 5.05'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.05'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 105:1993
         version: '1993'
-    type: authoritative
     locality:
       type: clause
       reference_from: T.25
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Rated operating conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a941441b-2c17-5b3b-b9dc-b08d3972682d
 

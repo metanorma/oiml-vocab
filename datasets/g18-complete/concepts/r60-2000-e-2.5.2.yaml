@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 5745c6d3-b0df-5d9e-8f33-f6f717e2ab10
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60:2000
+  - concept_id: r-60
+    source: OIML R 60:2000
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   notes:
   - content: The rated operating conditions generally specify ranges or rated values
       of the measurand and of the influence quantities.
-  - content: 'Source citation: Adapted from VIM 5.5'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.5'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 60:2000
         version: '2000'
     locality:
       type: clause
       reference_from: 2.5.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Rated operating conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5745c6d3-b0df-5d9e-8f33-f6f717e2ab10
 

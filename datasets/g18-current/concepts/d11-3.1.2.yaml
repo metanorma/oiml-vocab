@@ -33,22 +33,36 @@ data:
   id: d11-3.1.2-eng
   notes:
   - content: A measuring system may consist of only one measuring instrument.
-  - content: 'Source citation: VIM 3.2'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: '2026'
     locality:
       type: clause
       reference_from: 3.1.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: measuring system
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 948c8a93-ffd1-5b76-8c7a-080893f471c9
 

@@ -5,8 +5,8 @@ data:
     eng: 24f071ca-63c9-5982-ad24-cf1757b145b8
     fra: c6518ad4-e78d-51fc-a5be-0f538e50de13
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   examples: []
   id: r49-2013-f-3.2.14-eng
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.15.'
   - content: For a digital indicating device, this is the change in the indication
       when the least significant digit changes by one step.
   sources:
@@ -49,6 +48,10 @@ data:
     designation: resolution of a displaying device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 24f071ca-63c9-5982-ad24-cf1757b145b8
 ---
@@ -62,7 +65,6 @@ data:
   examples: []
   id: r49-2013-f-3.2.14-fra
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.15.'
   - content: Pour un dispositif indicateur numérique, il s'agit de la variation de
       l'indication lorsque le plus petit chiffre significatif change d'un pas supplémentaire.
   sources:
@@ -80,6 +82,10 @@ data:
     designation: résolution d'un dispositif indicateur
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c6518ad4-e78d-51fc-a5be-0f538e50de13
 

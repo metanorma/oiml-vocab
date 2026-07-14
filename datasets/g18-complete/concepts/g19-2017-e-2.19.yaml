@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: c5a11d10-aa68-5aaa-aa46-1fd168c47aa0
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:19:2017
+  - concept_id: g-19
+    source: OIML G 19:2017
     ref_type: section
   sources:
   - origin:
@@ -29,7 +29,6 @@ data:
   examples: []
   id: g19-2017-e-2.19-eng
   notes:
-  - content: 'Source citation: JCGM 106 3.3.16 called specific producer''s risk'
   sources:
   - origin:
       ref:
@@ -45,6 +44,10 @@ data:
     designation: risk of false rejection
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-19
+    source: OIML G 19:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c5a11d10-aa68-5aaa-aa46-1fd168c47aa0
 

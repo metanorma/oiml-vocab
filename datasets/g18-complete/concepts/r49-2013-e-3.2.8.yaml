@@ -5,8 +5,8 @@ data:
     eng: '02187f35-6f20-519e-8128-7635f65645ff'
     fra: 8e273c4c-ad08-574e-8b77-23ea989c6456
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -31,8 +31,6 @@ data:
   examples: []
   id: r49-2013-e-3.2.8-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.10, modified — "of indication"
-      placed in parentheses; "meter" replaces "measuring instrument".'
   sources:
   - origin:
       ref:
@@ -48,6 +46,10 @@ data:
     designation: fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '02187f35-6f20-519e-8128-7635f65645ff'
 ---
@@ -61,8 +63,6 @@ data:
   examples: []
   id: r49-2013-e-3.2.8-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.10, modifie — << d''indication
-      >> mis entre parentheses; << compteur >> remplace << instrument de mesure >>.'
   sources:
   - origin:
       ref:
@@ -78,6 +78,10 @@ data:
     designation: defaut
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8e273c4c-ad08-574e-8b77-23ea989c6456
 

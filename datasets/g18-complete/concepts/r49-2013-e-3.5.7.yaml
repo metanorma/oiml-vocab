@@ -5,8 +5,8 @@ data:
     eng: 292d907c-355c-58b4-ae32-3677b4e1c43e
     fra: a459ca61-3e2e-5fd1-8cb2-e20c7a2d49b1
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   examples: []
   id: r49-2013-e-3.5.7-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.19.1.2, modified — Synonym presentation.'
   sources:
   - origin:
       ref:
@@ -50,6 +49,10 @@ data:
     designation: type I automatic checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 292d907c-355c-58b4-ae32-3677b4e1c43e
 ---
@@ -63,8 +66,6 @@ data:
   examples: []
   id: r49-2013-e-3.5.7-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.19.1.2, modifie — Presentation
-      synonyme.'
   sources:
   - origin:
       ref:
@@ -83,6 +84,10 @@ data:
     designation: dispositif de controles automatique de type I
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a459ca61-3e2e-5fd1-8cb2-e20c7a2d49b1
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: c9ff6bf0-299b-5222-a23c-fb81507d37ac
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2013
+  - concept_id: d-11
+    source: OIML D 11:2013
     ref_type: section
   sources:
   - origin:
@@ -38,22 +38,36 @@ data:
   - content: Dans le cas où les conditions assignées de fonctionnement listées d'un
       instrument de mesure n'incluent pas une plage pour la grandeur d'influence spécifique,
       la grandeur spécifique est qualifiée comme étant une perturbation.
-  - content: 'Source citation: VIML 5.19'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2013
         version: '2013'
     locality:
       type: clause
       reference_from: 3.15.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: perturbation
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c9ff6bf0-299b-5222-a23c-fb81507d37ac
 

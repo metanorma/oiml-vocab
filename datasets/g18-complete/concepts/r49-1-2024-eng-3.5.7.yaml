@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: ca1066fb-659a-5856-a6a9-b13b62839d12
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2024
+  - concept_id: r-49-1
+    source: OIML R 49-1:2024
     ref_type: section
   sources:
   - origin:
@@ -30,16 +30,26 @@ data:
   examples: []
   id: r49-1-2024-eng-3.5.7-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013, 3.19.1.2, modified - Synonym presentation.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: 3.19.1.2
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2024
         version: '2024'
     locality:
       type: clause
       reference_from: 3.5.7
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
@@ -49,6 +59,10 @@ data:
     designation: type I automatic checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ca1066fb-659a-5856-a6a9-b13b62839d12
 

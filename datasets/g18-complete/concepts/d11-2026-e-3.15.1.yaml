@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 2d503a08-25e7-5ae4-8173-a98edcb865e4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2026
+  - concept_id: d-11
+    source: OIML D 11:2026
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
       requirements specified in the applicable OIML Recommendation.
   - content: The variation of an indication as a consequence of an influence factor
       is considered an error and not a fault.
-  - content: 'Source citation: VIML 5.18'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.18'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: 2026
     locality:
       type: clause
       reference_from: 3.15.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: influence factor
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: 2026-07-13 00:00:00.000000000 +00:00
 id: 2d503a08-25e7-5ae4-8173-a98edcb865e4
 

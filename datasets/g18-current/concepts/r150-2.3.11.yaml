@@ -37,22 +37,36 @@ data:
   - content: The concept of a family primarily aims to reduce the test effort during
       type examination. It does not preclude the possibility of listing more than
       one family in one certificate.
-  - content: 'Source citation: Adapted from VIML 4.02 - examples added'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.02'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 150-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: family of measuring instruments
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 88d21c78-1795-574a-ae90-66ae0d3eae3a
 

@@ -55,22 +55,36 @@ data:
   examples: []
   id: r137-3.2.22-eng
   notes:
-  - content: 'Source citation: VIM 4.21'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.22
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: "(instrumental) drift"
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: acaf0f1c-c6fe-548b-b922-20e80cda75a2
 ---
@@ -84,22 +98,36 @@ data:
   examples: []
   id: r137-3.2.22-fra
   notes:
-  - content: 'Source citation: VIM 4.21'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137-1-2:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.22
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: dérive (instrumentale)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 54c61340-c828-592a-b6f9-804e716b5171
 

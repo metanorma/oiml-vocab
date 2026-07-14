@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: ac20f14b-170c-5b71-bb25-4a30d6e28ddf
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:50:2014
+  - concept_id: r-50
+    source: OIML R 50:2014
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
   examples: []
   id: r50-2014-e-2.3.14-eng
   notes:
-  - content: 'Source citation: OIML B3, 3.3 [3]'
   - content: The concept of family primarily aims at reducing the test effort at type
       examination. It does not preclude the possibility of listing more than one family
       in one certificate.
@@ -53,6 +52,10 @@ data:
     designation: family of measuring instruments
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-50
+    source: OIML R 50:2014
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ac20f14b-170c-5b71-bb25-4a30d6e28ddf
 

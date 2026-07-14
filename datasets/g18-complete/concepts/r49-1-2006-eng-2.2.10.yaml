@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: fbd0f91a-7ebb-5f03-b8cb-5f691550b054
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2006
+  - concept_id: r-49-1
+    source: OIML R 49-1:2006
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
       or in its checking facilities; and transitory faults being momentary variations
       in the indication which cannot be interpreted, memorized or transmitted as a
       measurement result.
-  - content: 'Source citation: adapted from OIML D 11'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: significant fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fbd0f91a-7ebb-5f03-b8cb-5f691550b054
 

@@ -5,8 +5,8 @@ data:
     eng: 965039fb-c345-55d1-b458-db29c894f5df
     fra: 70ca40eb-bf76-5394-a830-23ece0591e88
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:100:2013
+  - concept_id: r-100
+    source: OIML R 100:2013
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: instrument detection limit (IDL)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 965039fb-c345-55d1-b458-db29c894f5df
 ---
@@ -76,6 +80,10 @@ data:
     designation: limite de detection de I' instrument (LDI)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 70ca40eb-bf76-5394-a830-23ece0591e88
 

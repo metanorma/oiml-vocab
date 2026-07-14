@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: b866e03f-dcef-5739-b6a4-bd6ee7b1e8ea
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -32,16 +32,20 @@ data:
   notes:
   - content: Le terme "validé" désigne l'état correspondant.
   - content: Les conditions d'utilisation peuvent être réelles ou simulées.
-  - content: 'Source citation: ISO 9000:2000, 3.8.5'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.14'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred

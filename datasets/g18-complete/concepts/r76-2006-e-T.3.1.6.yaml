@@ -5,8 +5,8 @@ data:
     eng: 9ed72147-45f7-544c-b6b8-746835ced8f6
     fra: 42310e42-3dc6-5bfc-a93f-697a5d0ae4d7
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: maximum tare effect (T=+..., T=-...)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9ed72147-45f7-544c-b6b8-746835ced8f6
 ---
@@ -74,6 +78,10 @@ data:
     designation: effet maximal de tare (T = + ... T = - ...)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 42310e42-3dc6-5bfc-a93f-697a5d0ae4d7
 

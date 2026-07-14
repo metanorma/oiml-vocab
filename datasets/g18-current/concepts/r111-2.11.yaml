@@ -57,16 +57,20 @@ data:
   examples: []
   id: r111-2.11-fra
   notes:
-  - content: 'Source citation: ISO 4287:1997'
+  - content: 'Source citation: ISO 428 7'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 111-1:2004
         version: '2004'
     locality:
       type: clause
       reference_from: '2.11'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 428
   terms:
   - type: expression
     normative_status: preferred

@@ -34,16 +34,26 @@ data:
       under legal control according to national regulations - measuring instruments,
       coin counting machines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.
-  - content: 'Source citation: VIML 4.3'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 9:2004
         version: '2004'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.3'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
@@ -53,6 +63,10 @@ data:
     designation: measuring instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ffd9bad9-8085-5928-808b-f358c60e9ace
 

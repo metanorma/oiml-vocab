@@ -5,8 +5,8 @@ data:
     eng: d2af4c24-f310-5f65-a5b8-dd7e8ae425db
     fra: eb30b007-dc59-5c89-a5fe-946c20620fb4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   examples: []
   id: r46-2012-e-2.1.7-eng
   notes:
-  - content: 'Source citation: IEC 62052-11:2003, 3.1.1'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: electromechanical meter
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d2af4c24-f310-5f65-a5b8-dd7e8ae425db
 ---
@@ -62,7 +65,6 @@ data:
   examples: []
   id: r46-2012-e-2.1.7-fra
   notes:
-  - content: 'Source citation: CEI 62052-11:2003, 3.1.1'
   sources:
   - origin:
       ref:
@@ -78,6 +80,10 @@ data:
     designation: compteur électromécanique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: eb30b007-dc59-5c89-a5fe-946c20620fb4
 

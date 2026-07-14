@@ -5,8 +5,8 @@ data:
     eng: 9a5da478-afa1-519c-a0ac-ad8e1bc8dd29
     fra: f9b7ef28-e7a0-59a1-8789-343c322d0944
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -35,16 +35,20 @@ data:
   - content: A gas analyzer measures all components covered by this Recommendation
       (CO, NO, $ NO_{2} $ , or $ NO_{x} $ ), or measures only CO, or only NO and $
       NO_{2} $ , or $ NO_{x} $ .
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.4'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred
@@ -68,16 +72,20 @@ data:
   - content: Un analyseur de gaz mesure tous les composants par cette Recommandation
       (CO, NO, $ \mathrm{N O_{2}} $ , ou $ \mathrm{N O_{x}} $ ), ou mesure seulement
       CO, ou seulement NO et $ \mathrm{N O N O_{x}} $ .
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.4'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred

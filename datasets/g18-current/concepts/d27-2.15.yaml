@@ -47,16 +47,20 @@ data:
       audits are conducted by parties having an interest in the organization, such
       as customers, or by other persons on their behalf. Third-party audits are conducted
       by external independent organizations.
-  - content: 'Source citation: ISO 9000:2000, 3.9.1'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.15'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred
@@ -84,16 +88,20 @@ data:
       Les audits seconde partie sont réalisés par des parties, telles que des clients,
       ayant un intérêt dans l'organisme, ou par d'autres personnes en leur nom. Les
       audits tierce partie sont réalisés par des organismes externes indépendants.
-  - content: 'Source citation: ISO 9000:2000, 3.9.1'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.15'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred

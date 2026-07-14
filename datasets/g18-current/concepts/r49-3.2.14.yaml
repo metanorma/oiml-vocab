@@ -32,17 +32,20 @@ data:
   notes:
   - content: For a digital indicating device, this is the change in the indication
       when the least significant digit changes by one step.
-  - content: 'Source citation: ISO/IEC Guide 99:2007|OIML V 2-200:2012 (VIM), 4.15,
-      modified - "Note 1" added.'
+  - content: 'Source citation: ISO/IEC Guide 99'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2024
         version: '2024'
     locality:
       type: clause
       reference_from: 3.2.14
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred

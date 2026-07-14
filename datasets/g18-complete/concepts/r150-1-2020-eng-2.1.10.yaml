@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: a4aa78ef-13b0-53d8-909b-8b6c062421c4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:150-1:2020
+  - concept_id: r-150-1
+    source: OIML R 150-1:2020
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r150-1-2020-eng-2.1.10-eng
   notes:
-  - content: 'Source citation: VIML 5.08'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.08'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 150-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.1.10
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: control instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a4aa78ef-13b0-53d8-909b-8b6c062421c4
 

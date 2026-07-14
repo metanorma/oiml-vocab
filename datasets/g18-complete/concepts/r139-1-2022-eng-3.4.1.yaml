@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: d66d4a33-12d6-5cb8-9161-08966b077461
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:139-1:2022
+  - concept_id: r-139-1
+    source: OIML R 139-1:2022
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   examples: []
   id: r139-1-2022-eng-3.4.1-eng
   notes:
-  - content: 'Source citation: OIML V 2-200:2012, 2.52; OIML V 1:2013, 0.07'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.52'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139-1:2022
         version: '2022'
     locality:
       type: clause
       reference_from: 3.4.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: influence quantity
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d66d4a33-12d6-5cb8-9161-08966b077461
 

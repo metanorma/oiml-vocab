@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 8936bee7-0430-5996-866c-5dc84dcb0737
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:126-1:2021
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   - content: A "good" hash function is such that the results of applying the function
       to a (large) set of values in the domain will be evenly distributed (and apparently
       at random) over the range.
-  - content: 'Source citation: OIML D 31, 3.1.20'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: hash function
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8936bee7-0430-5996-866c-5dc84dcb0737
 

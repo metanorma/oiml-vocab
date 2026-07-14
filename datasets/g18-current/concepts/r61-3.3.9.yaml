@@ -42,22 +42,36 @@ data:
   id: r61-3.3.9-eng
   notes:
   - content: Often referred to as "HMI" (human machine interface).
-  - content: 'Source citation: VIML 6.08'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '6.08'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 61-1:2017
         version: '2017'
     locality:
       type: clause
       reference_from: 3.3.9
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: user interface
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 869f620c-a7d4-5e85-a5cc-8ed237df44b3
 ---
@@ -89,6 +103,10 @@ data:
     designation: Benutzerschnittstelle
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 55858590-d429-59b9-8f58-0666ccd85e6b
 

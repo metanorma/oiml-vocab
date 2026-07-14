@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b1d1bdcc-a71a-5ba8-8adb-a28a2be92480
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:59-1:2016
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,26 @@ data:
   examples: []
   id: r59-1-2016-eng-2.1.4-eng
   notes:
-  - content: 'Source citation: VIM 5.14'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.14'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 59-1:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.1.4
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -50,6 +60,10 @@ data:
     designation: CRM
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b1d1bdcc-a71a-5ba8-8adb-a28a2be92480
 

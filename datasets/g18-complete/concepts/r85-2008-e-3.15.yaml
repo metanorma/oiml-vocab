@@ -5,8 +5,8 @@ data:
     eng: 49fdc6e9-d9cb-587c-b25c-6f6f895e569a
     fra: 4b16ca19-9fdb-5699-ba64-35eb75d8c9d2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Principal gauge hatch
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 49fdc6e9-d9cb-587c-b25c-6f6f895e569a
 ---
@@ -74,6 +78,10 @@ data:
     designation: Orifice de mesurage principal
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4b16ca19-9fdb-5699-ba64-35eb75d8c9d2
 

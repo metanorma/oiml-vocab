@@ -5,8 +5,8 @@ data:
     eng: 29301b03-fb43-5552-b32f-dc55f573cb9d
     fra: b1150d01-42b3-5594-b6f6-349f4ff49a77
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Number of verification scale intervals, n
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 29301b03-fb43-5552-b32f-dc55f573cb9d
 ---
@@ -73,6 +77,10 @@ data:
     designation: Nombre d'échelons de vérification, n
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b1150d01-42b3-5594-b6f6-349f4ff49a77
 

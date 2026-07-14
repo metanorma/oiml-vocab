@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: bf372e6c-352d-58af-931b-40f454268b0f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -29,22 +29,36 @@ data:
   examples: []
   id: d27-2001-f-2.5-fra
   notes:
-  - content: 'Source citation: VIML 2.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.5'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Vérification primitive d'un instrument de mesure
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bf372e6c-352d-58af-931b-40f454268b0f
 

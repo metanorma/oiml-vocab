@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 55c92a44-7835-5730-a9d6-8a7817b064de
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:87:2016
+  - concept_id: r-87
+    source: OIML R 87:2016
     ref_type: section
   sources:
   - origin:
@@ -32,8 +32,6 @@ data:
   - content: The symbol $Q_{\mathrm{nom}}$ is used to designate the nominal quantity.
   - content: In some national legislation the nominal quantity of the product is referred
       to as "net quantity", "net contents", "net mass" or "net volume".
-  - content: 'Source citation: The nominal quantity should be declared in accordance
-      with OIML R 79 [1].'
   sources:
   - origin:
       ref:
@@ -49,6 +47,10 @@ data:
     designation: nominal quantity
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-87
+    source: OIML R 87:2016
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 55c92a44-7835-5730-a9d6-8a7817b064de
 

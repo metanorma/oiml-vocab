@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 22bf553b-ef04-5971-a2b9-1742d88ced8f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2026
+  - concept_id: d-11
+    source: OIML D 11:2026
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   notes:
   - content: Les conditions de fonctionnement de référence spécifient des intervalles
       de valeurs du mesurande et des grandeurs d'influence.
-  - content: 'Source citation: VIM 4.11; VIML 0.09'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.11'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: '2026'
     locality:
       type: clause
       reference_from: '3.17'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: condition de fonctionnement de référence
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 22bf553b-ef04-5971-a2b9-1742d88ced8f
 

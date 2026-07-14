@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: c074763a-f86e-5485-9aa2-573b20a3fb4f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -33,14 +33,18 @@ data:
       without a regulatory authority).
   - content: 'Source citation: ISO/IEC 17065 3.12'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 10:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.5'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17065
   terms:
   - type: expression
     normative_status: preferred

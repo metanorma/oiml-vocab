@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: ce7f5dab-e913-5c4f-9c42-be1bab4125c9
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:142-1:2025
+  - concept_id: r-142-1
+    source: OIML R 142-1:2025
     ref_type: section
   sources:
   - origin:
@@ -33,16 +33,26 @@ data:
   notes:
   - content: "'Pattern' is used in legal metrology with the same meaning as 'type';
       in the entries below only 'type' is used."
-  - content: 'Source citation: VIML 2.04'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.04'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 142-1:2025
         version: '2025'
     locality:
       type: clause
       reference_from: '3.20'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
@@ -52,6 +62,10 @@ data:
     designation: pattern evaluation
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ce7f5dab-e913-5c4f-9c42-be1bab4125c9
 

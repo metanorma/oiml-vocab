@@ -75,6 +75,10 @@ data:
     designation: système d'analyse des gaz
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: abc8301d-4fdd-5629-b529-ba4d1f22f347
 ---
@@ -100,16 +104,20 @@ data:
       of the main components of the system, - an interface to connect devices measuring
       the gas flow parameters of exhaust emissions, and - gas and electric lines of
       communication.
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.1'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred

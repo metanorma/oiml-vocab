@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 39e20c89-4373-572d-9f79-0edfae0d2c79
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2023
+  - concept_id: d-31
+    source: OIML D 31:2023
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   notes:
   - content: This reference value is sometimes referred to as a (conventional) true
       quantity value. See, however, also OIML V 2-200:2012, 2.12, Note 1).
-  - content: 'Source citation: [OIML V 1:2022, 0.04]'
   sources:
   - origin:
       ref:
@@ -47,6 +46,10 @@ data:
     designation: error of indication
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2023
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 39e20c89-4373-572d-9f79-0edfae0d2c79
 

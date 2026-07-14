@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 16f7f752-1a06-57ce-86f3-6de7ca6f0802
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:3:1979
+  - concept_id: d-3
+    source: OIML D 3:1979
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
   - content: 'La vérification se traduit donc par une sélection des instruments: ceux
       qui ont subi l''examen avec succès reçoivent l''empreinte d''un poinçon d''acceptation,
       les autres peuvent recevoir l''empreinte d''un poinçon de refus.'
-  - content: 'Source citation: Vocabulaire de métrologie légale'
   sources:
   - origin:
       ref:
@@ -52,6 +51,10 @@ data:
     designation: Vérification
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-3
+    source: OIML D 3:1979
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 16f7f752-1a06-57ce-86f3-6de7ca6f0802
 

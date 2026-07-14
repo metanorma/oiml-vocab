@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: a65d376e-9886-5dd2-b50b-6a6877f7d020
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -29,22 +29,36 @@ data:
   examples: []
   id: d31-2008-f-3.1.28-fra
   notes:
-  - content: 'Source citation: VIM:1993, 5.24; OIML D 11:2004, 3.7'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2:1993
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.28
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2:1993
   terms:
   - type: expression
     normative_status: preferred
     designation: Erreur intrinsèque
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2
+    source: OIML V 2:1993
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a65d376e-9886-5dd2-b50b-6a6877f7d020
 

@@ -30,16 +30,20 @@ data:
   examples: []
   id: d34-3.1.13-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000:2004, 6.1 and VIML, A.20'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 34:2019
         version: '2019'
-    type: authoritative
     locality:
       type: clause
       reference_from: 3.1.13
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

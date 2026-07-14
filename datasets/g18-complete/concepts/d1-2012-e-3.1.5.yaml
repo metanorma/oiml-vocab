@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: c7511997-afeb-5eae-8479-46f713dd2ca9
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:1:2012
+  - concept_id: d-1
+    source: OIML D 1:2012
     ref_type: section
   sources:
   - origin:
@@ -76,22 +76,36 @@ data:
       (in French "etalon"). This Vocabulary is concerned solely with the second meaning.'
   - content: The term "measurement standard" is sometimes used to denote other metrological
       tools, e.g. 'software measurement standard', see ISO 5436-2.
-  - content: 'Source citation: VIM 5.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Measurement standard
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c7511997-afeb-5eae-8479-46f713dd2ca9
 

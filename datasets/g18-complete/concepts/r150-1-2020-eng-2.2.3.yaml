@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 8b0e9d6b-2eb7-5c1a-8bd9-a537fcbd5ead
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:150-1:2020
+  - concept_id: r-150-1
+    source: OIML R 150-1:2020
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r150-1-2020-eng-2.2.3-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013, 3.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: '3.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 150-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.2.3
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: electronic measuring instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8b0e9d6b-2eb7-5c1a-8bd9-a537fcbd5ead
 

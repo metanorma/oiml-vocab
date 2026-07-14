@@ -5,8 +5,8 @@ data:
     eng: 127d52bf-44db-55fd-a2a0-25d710d23faf
     fra: bd0e87f3-0ec6-56c5-bd42-4a0d58d808b0
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -31,8 +31,6 @@ data:
   examples: []
   id: r49-2013-f-3.4.2-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.15.1, modified — "meter" replaces
-      "measuring instrument"; "this part of OIML R 49" replaces "the relevant Recommendation".'
   sources:
   - origin:
       ref:
@@ -48,6 +46,10 @@ data:
     designation: influence factor
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 127d52bf-44db-55fd-a2a0-25d710d23faf
 ---
@@ -61,9 +63,6 @@ data:
   examples: []
   id: r49-2013-f-3.4.2-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.15.1, modifié — « compteur »
-      remplace « instrument de mesure » ; « cette partie de l''OIML R 49 » remplace
-      « la Recommandation applicable ».'
   sources:
   - origin:
       ref:
@@ -79,6 +78,10 @@ data:
     designation: facteur d'influence
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bd0e87f3-0ec6-56c5-bd42-4a0d58d808b0
 

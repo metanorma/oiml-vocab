@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: dacfb175-f38e-5431-9571-2e3a83d7947f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-101:2008
+  - concept_id: g-1-101
+    source: OIML G 1-101:2008
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   examples: []
   id: g1-101-2008-e-3.2-eng
   notes:
-  - content: 'Source citation: Adapted from ISO 3534-1:1993 1.4; GUM:1995 C.2.4'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-101:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.2'
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

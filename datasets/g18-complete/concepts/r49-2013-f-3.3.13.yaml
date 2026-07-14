@@ -5,8 +5,8 @@ data:
     eng: 4a3b497a-7d38-5d00-be0d-02a956f7d293
     fra: 10008675-d30e-519a-a9db-70a2e46f884c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: test flow rate
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4a3b497a-7d38-5d00-be0d-02a956f7d293
 ---
@@ -74,6 +78,10 @@ data:
     designation: débit d'essai
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 10008675-d30e-519a-a9db-70a2e46f884c
 

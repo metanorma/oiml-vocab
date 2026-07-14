@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 33b59833-4dca-5583-9939-cba5af033745
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2000
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
     ref_type: section
   sources:
   - origin:
@@ -30,7 +30,6 @@ data:
   examples: []
   id: r49-1-2000-fra-2.2.10-fra
   notes:
-  - content: 'Source citation: adapté de D 11, T.9'
   - content: Ne sont pas considérés comme défauts significatifs - les défauts résultant
       de causes simultanées et mutuellement indépendantes dans le compteur d'eau lui-même
       ou dans son système de contrôle; et les défauts transitoires consistant en des
@@ -51,6 +50,10 @@ data:
     designation: défaut significatif
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 33b59833-4dca-5583-9939-cba5af033745
 

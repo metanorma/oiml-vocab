@@ -5,8 +5,8 @@ data:
     eng: 13aa1607-c80d-5167-841f-fcc2ee76e60d
     fra: 8b03b87a-2620-53c7-80b2-8e031aa53e28
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:81:1998
+  - concept_id: r-81
+    source: OIML R 81:1998
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   examples: []
   id: r81-1998-f-3.19-eng
   notes:
-  - content: 'Source citation: VIM 5.27'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.27'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 81:1998
         version: '1998'
     locality:
       type: clause
       reference_from: '3.19'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: repeatability
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 13aa1607-c80d-5167-841f-fcc2ee76e60d
 ---
@@ -62,22 +76,36 @@ data:
   examples: []
   id: r81-1998-f-3.19-fra
   notes:
-  - content: 'Source citation: VIM 5.27'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.27'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 81:1998
         version: '1998'
     locality:
       type: clause
       reference_from: '3.19'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur de repetabilite
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8b03b87a-2620-53c7-80b2-8e031aa53e28
 

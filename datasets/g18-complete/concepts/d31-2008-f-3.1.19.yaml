@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: c121bfb1-1c36-59d1-ba99-c9db7b436f08
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   examples: []
   id: d31-2008-f-3.1.19-fra
   notes:
-  - content: 'Source citation: OIML V 1:2000, 2.5'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2000
+    locality:
+      type: clause
+      reference_from: '2.5'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.19
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2000
   terms:
   - type: expression
     normative_status: preferred
     designation: Evaluation (de type)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c121bfb1-1c36-59d1-ba99-c9db7b436f08
 

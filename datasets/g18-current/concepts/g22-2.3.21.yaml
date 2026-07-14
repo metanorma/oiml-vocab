@@ -30,22 +30,36 @@ data:
   examples: []
   id: g22-2.3.21-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013, 3.9'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: '3.9'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 22:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.3.21
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: initial intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 95fa49cc-c9fd-5817-9116-20b4921d732a
 

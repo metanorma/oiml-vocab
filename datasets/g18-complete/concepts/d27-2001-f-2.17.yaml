@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 422484e1-22eb-5dc1-a754-a860c89bb76e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
       installateurs, réemballeurs, réétiqueteurs, etc. qui ont la responsabilité d'assurer
       la qualité et la performance d'un instrument de mesure avant qu'il soit mis
       en service.
-  - content: 'Source citation: ISO/CEI Guide 22'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: Fabricant autorisé
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-27
+    source: OIML D 27:2001
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 422484e1-22eb-5dc1-a754-a860c89bb76e
 

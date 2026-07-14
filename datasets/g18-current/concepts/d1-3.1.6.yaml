@@ -40,22 +40,36 @@ data:
   examples: []
   id: d1-3.1.6-fra
   notes:
-  - content: 'Source citation: VIML 4.06'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.06'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.6
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Type d'instrument de mesure
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6dbb3ca4-8513-5531-af2d-859ef5557d70
 ---
@@ -70,22 +84,36 @@ data:
   examples: []
   id: d1-3.1.6-eng
   notes:
-  - content: 'Source citation: VIML 4.06'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.06'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.6
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Type of a measuring instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: aff0194e-58f3-5485-a08e-c0f414efd3c5
 

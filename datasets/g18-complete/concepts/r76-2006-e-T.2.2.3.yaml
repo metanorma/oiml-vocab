@@ -5,8 +5,8 @@ data:
     eng: 2712f369-a343-5365-93b3-be35f0c54c25
     fra: 3f91f123-92c7-5a31-a235-3e47b0cc98e7
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -49,6 +49,10 @@ data:
     designation: analog data processing device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2712f369-a343-5365-93b3-be35f0c54c25
 ---
@@ -80,6 +84,10 @@ data:
     designation: dispositif de traitement de données analogiques
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3f91f123-92c7-5a31-a235-3e47b0cc98e7
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 984feb08-06fa-5886-8d92-c6cc7128ce23
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:30:2020
+  - concept_id: d-30
+    source: OIML D 30:2020
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   examples: []
   id: d30-2020-e-G.3-2f-eng
   notes:
-  - content: 'Source citation: OIML B 18, 3.29'
   - content: Unless the OIML Recommendation states otherwise, several test reports
       may be issued if several test laboratories are involved in covering all of the
       tests and examinations specified in the relevant OIML Recommendation.
@@ -51,6 +50,10 @@ data:
     designation: OIML test report
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-30
+    source: OIML D 30:2020
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 984feb08-06fa-5886-8d92-c6cc7128ce23
 

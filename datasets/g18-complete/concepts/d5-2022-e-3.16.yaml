@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 9064aece-d681-5fba-81bc-f1583680b106
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:5:2022
+  - concept_id: d-5
+    source: OIML D 5:2022
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,26 @@ data:
   examples: []
   id: d5-2022-e-3.16-eng
   notes:
-  - content: 'Source citation: VIM 5.3'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.16'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -50,6 +60,10 @@ data:
     designation: national standard
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9064aece-d681-5fba-81bc-f1583680b106
 

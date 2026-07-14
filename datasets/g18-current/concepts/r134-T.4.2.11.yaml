@@ -45,22 +45,36 @@ data:
   examples: []
   id: r134-T.4.2.11-eng
   notes:
-  - content: 'Source citation: VIM 3.4'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.4'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 134:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.4.2.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: corrected result (mean axle- and axle-group load)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9947f082-9a78-5c3b-a096-ddcd07d4afe7
 

@@ -5,8 +5,8 @@ data:
     eng: 5a12f31f-629f-5248-a246-de068d982eb8
     fra: b09441b0-9da2-53c3-81f2-d069299ccd15
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Maximum permissible error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5a12f31f-629f-5248-a246-de068d982eb8
 ---
@@ -73,6 +77,10 @@ data:
     designation: Erreur maximale tolérée
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b09441b0-9da2-53c3-81f2-d069299ccd15
 

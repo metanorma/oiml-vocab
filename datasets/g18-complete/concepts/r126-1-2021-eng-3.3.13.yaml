@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 8effd106-b124-5ceb-a1e4-f2f2cde04b30
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:126-1:2021
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   notes:
   - content: Examples are switches, keyboard, mouse, display, monitor, printer, touch-screen,
       software window on a screen including the software that generates it.
-  - content: 'Source citation: OIML D 31, 3.1.60'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: user interface
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8effd106-b124-5ceb-a1e4-f2f2cde04b30
 

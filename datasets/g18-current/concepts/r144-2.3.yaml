@@ -73,6 +73,10 @@ data:
     designation: ligne de prélèvement
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: dd7edf1e-ac04-5ccb-8983-03f83ab5fdd7
 ---
@@ -88,16 +92,20 @@ data:
   notes:
   - content: A sample line may include devices such as coarse and fine filters, dryers
       or separators which are necessary to prepare the sample for analysis.
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.3'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred

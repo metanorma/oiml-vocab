@@ -5,8 +5,8 @@ data:
     eng: 13d626e2-cdb2-51db-8b5c-c8976890eb8a
     fra: 3dd86b2e-282a-5b86-a28d-e92cf56947a4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: Disturbance
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 13d626e2-cdb2-51db-8b5c-c8976890eb8a
 ---
@@ -76,6 +80,10 @@ data:
     designation: Perturbation
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3dd86b2e-282a-5b86-a28d-e92cf56947a4
 

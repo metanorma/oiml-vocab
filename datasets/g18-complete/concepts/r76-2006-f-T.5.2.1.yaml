@@ -5,8 +5,8 @@ data:
     eng: 3ea45666-4749-56d7-87c1-4b2c8fb5bf73
     fra: f5582ed1-3c7d-57fc-8a04-637e2683770f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Gross value, G or B
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3ea45666-4749-56d7-87c1-4b2c8fb5bf73
 ---
@@ -74,6 +78,10 @@ data:
     designation: Valeur brute, G ou B
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f5582ed1-3c7d-57fc-8a04-637e2683770f
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: c503e5b3-4545-5b3b-87f6-95a1b9b05c72
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:124:1997
+  - concept_id: r-124
+    source: OIML R 124:1997
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   notes:
   - content: Une grandeur d'influence est une perturbation si aucune condition assignée
       de fonctionnement n'est spécifiée pour cette grandeur d'influence
-  - content: 'Source citation: D 11 article T.12.2'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: Perturbation
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-124
+    source: OIML R 124:1997
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c503e5b3-4545-5b3b-87f6-95a1b9b05c72
 

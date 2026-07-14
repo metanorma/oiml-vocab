@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 839c393c-e141-5302-8c8d-431c4ad0c18e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2026
+  - concept_id: d-11
+    source: OIML D 11:2026
     ref_type: section
   sources:
   - origin:
@@ -29,22 +29,36 @@ data:
   examples: []
   id: d11-2026-e-3.8-eng
   notes:
-  - content: 'Source citation: VIML 0.06'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.06'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: '2026'
     locality:
       type: clause
       reference_from: '3.8'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 839c393c-e141-5302-8c8d-431c4ad0c18e
 

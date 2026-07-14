@@ -5,8 +5,8 @@ data:
     eng: 944cad51-cf9a-58cf-aa1d-75631e5fc606
     fra: 0f7599ad-317d-523f-9f71-60b31d718424
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -45,6 +45,10 @@ data:
     designation: working temperature
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 944cad51-cf9a-58cf-aa1d-75631e5fc606
 ---
@@ -72,6 +76,10 @@ data:
     designation: température de service
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0f7599ad-317d-523f-9f71-60b31d718424
 

@@ -29,18 +29,22 @@ data:
   examples: []
   id: b18-3.7-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17065:2012, 3.12 [6]'
   - content: A certification body can be non-governmental or governmental (with or
       without regulatory authority).
+  - content: 'Source citation: ISO/IEC 1706 5'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 18:2025
         version: '2025'
     locality:
       type: clause
       reference_from: '3.7'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1706
   terms:
   - type: expression
     normative_status: preferred

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     deu: c2ca3743-1764-5548-9f35-058cd66023aa
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:129-1:2020
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
     ref_type: section
   sources:
   - origin:
@@ -36,22 +36,36 @@ data:
   - content: Aus der Definition folgt, dass ein "Fehler" ein numerischer Wert ist,
       der entweder in einer Maßeinheit oder als Relativwert, z. B. als Prozentsatz,
       ausgedrückt wird.
-  - content: 'Source citation: VIML 5.12'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.12'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Fehler
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c2ca3743-1764-5548-9f35-058cd66023aa
 

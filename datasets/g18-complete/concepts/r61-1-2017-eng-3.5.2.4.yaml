@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: e44ea4ed-a9a2-5194-9dd2-7b25c04cb326
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:61-1:2017
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
       used where there are two extreme values.
   - content: The term "tolerance" should not be used to designate 'maximum permissible
       error'.
-  - content: 'Source citation: VIM, 4.26'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: maximum permissible error, mpe
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e44ea4ed-a9a2-5194-9dd2-7b25c04cb326
 

@@ -5,8 +5,8 @@ data:
     eng: 4ef0eadb-c314-53a7-bd3a-4078bad79d03
     fra: 72b885af-bd21-53a1-97f4-36bf74494af2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -51,6 +51,10 @@ data:
     designation: water meter
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4ef0eadb-c314-53a7-bd3a-4078bad79d03
 ---
@@ -87,6 +91,10 @@ data:
     designation: compteur d'eau
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 72b885af-bd21-53a1-97f4-36bf74494af2
 

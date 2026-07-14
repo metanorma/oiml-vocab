@@ -5,8 +5,8 @@ data:
     eng: 301b9c3c-4a3b-56b0-9f31-35dced6567c2
     fra: a949b6a2-0e57-5619-88a7-fd7f62f1602c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   examples: []
   id: r49-2013-e-3.5.3-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.4.'
   sources:
   - origin:
       ref:
@@ -47,6 +46,10 @@ data:
     designation: electronic component
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 301b9c3c-4a3b-56b0-9f31-35dced6567c2
 ---
@@ -60,7 +63,6 @@ data:
   examples: []
   id: r49-2013-e-3.5.3-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.4.'
   sources:
   - origin:
       ref:
@@ -76,6 +78,10 @@ data:
     designation: composant electronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a949b6a2-0e57-5619-88a7-fd7f62f1602c
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 227c6bc5-5f33-53ac-b93a-87cf3ae96459
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:111:2004
+  - concept_id: r-111
+    source: OIML R 111:2004
     ref_type: section
   sources:
   - origin:
@@ -33,8 +33,6 @@ data:
   examples: []
   id: r111-2004-e-2.18.1-fra
   notes:
-  - content: 'Source citation: Adapté de Vérifications primitive et ultérieure des
-      instruments et processus de mesure OIML D 20 Edition 1988'
   sources:
   - origin:
       ref:
@@ -50,6 +48,10 @@ data:
     designation: Vérification primitive
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-111
+    source: OIML R 111:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 227c6bc5-5f33-53ac-b93a-87cf3ae96459
 

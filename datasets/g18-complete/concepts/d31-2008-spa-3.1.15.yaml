@@ -4,8 +4,8 @@ data:
   localized_concepts:
     spa: 1dc90e7c-946b-55d6-983c-3757654e74dd
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   notes:
   - content: En este Documento el equipamiento auxiliar se considerará parte del instrumento
       de medida, siempre que esté sujeto al control metrológico legal.
-  - content: 'Source citation: OIML D 11:2004, 3.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.15
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: Instrumento de medida electrónico
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1dc90e7c-946b-55d6-983c-3757654e74dd
 

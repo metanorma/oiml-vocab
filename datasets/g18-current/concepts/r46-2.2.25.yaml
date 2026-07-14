@@ -67,22 +67,36 @@ data:
   notes:
   - content: An influence quantity is a disturbance if the rated operating conditions
       for that influence quantity are not specified.
-  - content: 'Source citation: OIML V 1:2013, 5.19'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.25
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: disturbance
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e758f3d1-6d20-55ec-81ce-67b53cb9ac45
 ---
@@ -99,22 +113,36 @@ data:
   notes:
   - content: Una cantidad de influencia es una perturbación si no se especifican las
       condiciones nominales de operación para dicha cantidad de influencia.
-  - content: 'Source citation: OIML V 1:2013, 5.19'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.25
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Perturbación
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f36678f8-8c8a-5c4e-ad06-411be6885e27
 ---
@@ -131,22 +159,36 @@ data:
   notes:
   - content: Une grandeur d'influence est une perturbation, si les conditions assignées
       de fonctionnement de cette grandeur d'influence ne sont pas spécifiés.
-  - content: 'Source citation: OIML V 1:2013, 5.19'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1-2:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.2.25
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: perturbation
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1bda9064-9e18-5ce5-9265-f0db1ca9f314
 

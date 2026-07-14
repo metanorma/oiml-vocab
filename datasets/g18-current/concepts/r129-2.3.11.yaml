@@ -39,22 +39,36 @@ data:
   examples: []
   id: r129-2.3.11-deu
   notes:
-  - content: 'Source citation: VIM 4.9'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.9'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Bemessungsbetriebsbedingungen
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 831c31eb-830c-5417-89a6-a40b7735103e
 ---
@@ -68,22 +82,36 @@ data:
   examples: []
   id: r129-2.3.11-eng
   notes:
-  - content: 'Source citation: VIM 4.9'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.9'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: rated operating conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: dfe776de-47f1-5870-9e12-c2bce04b2f3b
 

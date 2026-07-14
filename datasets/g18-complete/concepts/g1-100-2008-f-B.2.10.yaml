@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 309397b2-a446-5c30-89bd-024440f0b9b8
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -40,7 +40,6 @@ data:
       que les phénomènes tels que les fluctuations à court terme de l'instrument de
       mesure et les grandeurs telles que la température ambiante, la pression atmosphérique
       et l'humidité.
-  - content: 'Source citation: VIM:1993, definition 2.7'
   sources:
   - origin:
       ref:
@@ -56,6 +55,10 @@ data:
     designation: grandeur d'influence
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 309397b2-a446-5c30-89bd-024440f0b9b8
 

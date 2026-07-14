@@ -5,8 +5,8 @@ data:
     eng: 9f7da019-4a05-5d46-9130-c4db69465b68
     fra: '09129754-55a8-5deb-bb5c-6e12677e34cc'
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: preset tare device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9f7da019-4a05-5d46-9130-c4db69465b68
 ---
@@ -76,6 +80,10 @@ data:
     designation: dispositif de prédétermination de la tare
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '09129754-55a8-5deb-bb5c-6e12677e34cc'
 

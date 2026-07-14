@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 34404b2c-c240-5d47-a9a3-0af6b745f22a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:111:2004
+  - concept_id: r-111
+    source: OIML R 111:2004
     ref_type: section
   sources:
   - origin:
@@ -33,16 +33,20 @@ data:
   examples: []
   id: r111-2004-f-2.11-fra
   notes:
-  - content: 'Source citation: ISO 4287:1997'
+  - content: 'Source citation: ISO 428 7'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 111:2004
         version: '2004'
     locality:
       type: clause
       reference_from: '2.11'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 428
   terms:
   - type: expression
     normative_status: preferred

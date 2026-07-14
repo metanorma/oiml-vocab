@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 7fd47c6d-f60c-500c-a50f-820b84ac5434
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-106:2012
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
       for example, (a) a measured quantity value with an associated measurement uncertainty;
       (b) a coverage interval for the measurand with an associated coverage probability;
       (c) a PDF; or (d) a numerical approximation to a PDF.
-  - content: 'Source citation: JCGM 200:2012 2.9'
   sources:
   - origin:
       ref:
@@ -53,6 +52,10 @@ data:
     designation: result of measurement
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7fd47c6d-f60c-500c-a50f-820b84ac5434
 

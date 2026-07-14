@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: d2e87715-1c35-5ca2-aa70-5c85c74480ef
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   id: g1-100-2008-e-C.2.5-eng
   notes:
   - content: 'f(x) dx is the "probability element": f(x) dx = Pr(x < X < x + dx)'
-  - content: 'Source citation: ISO 3534-1:1993, definition 1.5'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-100:2008
         version: '2008'
     locality:
       type: clause
       reference_from: C.2.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

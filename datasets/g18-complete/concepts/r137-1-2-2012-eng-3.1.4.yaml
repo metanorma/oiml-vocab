@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 60e1c55a-0614-5f59-bc96-7aefee87f253
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:137-1-2:2012
+  - concept_id: r-137-1-2
+    source: OIML R 137-1-2:2012
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r137-1-2-2012-eng-3.1.4-eng
   notes:
-  - content: 'Source citation: VIM 3.7'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.7'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137-1-2:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.4
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: measuring transducer
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 60e1c55a-0614-5f59-bc96-7aefee87f253
 

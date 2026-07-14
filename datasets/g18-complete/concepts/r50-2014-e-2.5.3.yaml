@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 177921dd-2549-57c2-9b13-6d1f3680ef53
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:50:2014
+  - concept_id: r-50
+    source: OIML R 50:2014
     ref_type: section
   sources:
   - origin:
@@ -30,7 +30,6 @@ data:
   examples: []
   id: r50-2014-e-2.5.3-eng
   notes:
-  - content: 'Source citation: VIM, 4.11 [1]'
   - content: Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.
   sources:
@@ -48,6 +47,10 @@ data:
     designation: reference conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-50
+    source: OIML R 50:2014
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 177921dd-2549-57c2-9b13-6d1f3680ef53
 

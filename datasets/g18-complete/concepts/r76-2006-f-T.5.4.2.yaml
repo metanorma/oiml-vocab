@@ -5,8 +5,8 @@ data:
     eng: ba5ede05-c263-5374-a222-d6e7b8e5c1f9
     fra: fbcfa302-85af-5c39-82d8-661ed05cb9e8
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -48,6 +48,10 @@ data:
     designation: Overall inaccuracy of reading
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ba5ede05-c263-5374-a222-d6e7b8e5c1f9
 ---
@@ -78,6 +82,10 @@ data:
     designation: Inexactitude globale de lecture
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fbcfa302-85af-5c39-82d8-661ed05cb9e8
 

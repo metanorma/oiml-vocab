@@ -5,8 +5,8 @@ data:
     eng: eef49d9d-3c3f-5fce-8123-16862f579a7f
     fra: b68c49a5-7661-5a0e-ac26-fbaa2c6a825b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   examples: []
   id: r46-2012-e-2.1.11-eng
   notes:
-  - content: 'Source citation: IEC 62052-11:2003, 3.2.7'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: voltage circuit
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: eef49d9d-3c3f-5fce-8123-16862f579a7f
 ---
@@ -62,7 +65,6 @@ data:
   examples: []
   id: r46-2012-e-2.1.11-fra
   notes:
-  - content: 'Source citation: CEI 62052-11:2003, 3.2.7'
   sources:
   - origin:
       ref:
@@ -78,6 +80,10 @@ data:
     designation: circuit de tension
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b68c49a5-7661-5a0e-ac26-fbaa2c6a825b
 

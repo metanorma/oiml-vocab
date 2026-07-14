@@ -54,22 +54,36 @@ data:
   examples: []
   id: r106-0.4.4.2-eng
   notes:
-  - content: 'Source citation: VIM 5.24'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 106:2011
         version: '2011'
     locality:
       type: clause
       reference_from: 0.4.4.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 14d1b05b-040d-5c33-bdb1-888c84be395b
 ---
@@ -82,22 +96,36 @@ data:
   examples: []
   id: r106-0.4.4.2-fra
   notes:
-  - content: 'Source citation: VIM 5.24'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 106:2011
         version: '2011'
     locality:
       type: clause
       reference_from: 0.4.4.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur intrinseque
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9956fc75-68b2-5c6b-8d11-4f3aa2cab6a7
 

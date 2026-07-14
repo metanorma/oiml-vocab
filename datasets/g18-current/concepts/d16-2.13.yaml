@@ -31,22 +31,36 @@ data:
   examples: []
   id: d16-2.13-eng
   notes:
-  - content: 'Source citation: VIML 2.14'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.14'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 16:2011
         version: '2011'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.13'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: verification by sampling
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1b26f298-e8a6-5ab9-af6e-4163c8f1d3f6
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 374023e0-9ffd-5175-ad99-59c49865f294
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:137:2012
+  - concept_id: r-137
+    source: OIML R 137:2012
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
       under reference conditions.
   - content: '"measuring instrument" is to be interpreted as a "gas meter" within
       the scope of this Recommendation.'
-  - content: 'Source citation: OIML D 11, 3.9'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 374023e0-9ffd-5175-ad99-59c49865f294
 

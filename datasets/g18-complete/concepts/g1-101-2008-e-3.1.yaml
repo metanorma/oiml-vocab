@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 6c0fd6db-000d-5338-ba17-43ce198fa770
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-101:2008
+  - concept_id: g-1-101
+    source: OIML G 1-101:2008
     ref_type: section
   sources:
   - origin:
@@ -38,16 +38,20 @@ data:
       as a joint distribution.
   - content: A probability distribution can take the form of a distribution function
       or a probability density function.
-  - content: 'Source citation: Adapted from ISO 3534-1:1993 1.3; GUM:1995 C.2.3'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-101:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.1'
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

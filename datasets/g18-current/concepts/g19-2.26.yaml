@@ -31,22 +31,36 @@ data:
   examples: []
   id: g19-2.26-eng
   notes:
-  - content: 'Source citation: VIML 2.04'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.04'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 19:2017
         version: '2017'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.26'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: type (pattern) evaluation
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d9f18ef8-2290-54b5-b4a9-8ae604475d5a
 

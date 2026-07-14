@@ -32,22 +32,36 @@ data:
   notes:
   - content: Legal metrological control includes legal control of measuring instruments;
       metrological supervision; metrological expertise.
-  - content: 'Source citation: VIML 2.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 9:2004
         version: '2004'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.4'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: legal metrological control
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ef111fd0-5a5e-5011-b8e0-acd00d61ea87
 

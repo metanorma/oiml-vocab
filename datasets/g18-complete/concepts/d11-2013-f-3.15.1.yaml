@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 62bc7179-54f2-5d53-a5ef-a7982a737569
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2013
+  - concept_id: d-11
+    source: OIML D 11:2013
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
       avec les exigences applicables spécifiées dans la Recommandation applicable.
   - content: La variation d'une indication due à un facteur d'influence est une erreur
       et non un défaut.
-  - content: 'Source citation: VIML 5.18'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.18'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2013
         version: '2013'
     locality:
       type: clause
       reference_from: 3.15.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: facteur d'influence
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 62bc7179-54f2-5d53-a5ef-a7982a737569
 

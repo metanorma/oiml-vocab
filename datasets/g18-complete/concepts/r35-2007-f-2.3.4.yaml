@@ -5,8 +5,8 @@ data:
     eng: 3307a4d9-bc16-55bd-8bfb-94a8f1c74077
     fra: 61714782-1b40-57d0-8808-9842b29f8a9d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:35:2007
+  - concept_id: r-35
+    source: OIML R 35:2007
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: Rated operating conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-35
+    source: OIML R 35:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3307a4d9-bc16-55bd-8bfb-94a8f1c74077
 ---
@@ -76,6 +80,10 @@ data:
     designation: Conditions assignées de fonctionnement
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-35
+    source: OIML R 35:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 61714782-1b40-57d0-8808-9842b29f8a9d
 

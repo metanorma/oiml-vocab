@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: bf40d3cb-d35b-57a7-8d8e-294ace56b4b6
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2026
+  - concept_id: d-11
+    source: OIML D 11:2026
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   - content: A measuring instrument that can be used alone is a measuring system.
   - content: A measuring instrument may be an indicating measuring instrument or a
       material measure.
-  - content: 'Source citation: VIML 0.10, VIM 3.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.10'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: '2026'
     locality:
       type: clause
       reference_from: '3.1'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: measuring instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bf40d3cb-d35b-57a7-8d8e-294ace56b4b6
 

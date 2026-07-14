@@ -37,16 +37,20 @@ data:
       measurement results, means for control and adjustment of the main components
       of the system, an interface to connect devices measuring the gas flow parameters
       of exhaust emissions, and gas and electric lines of communication.
-  - content: 'Source citation: ISO 7504:2001'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 143:2009
         version: '2009'
     locality:
       type: clause
       reference_from: 2.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred

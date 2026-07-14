@@ -5,8 +5,8 @@ data:
     eng: bc45a7af-c539-50ff-9fd7-36ee7b258c61
     fra: 258a0b81-8b7a-539d-864b-ccc7969d55fa
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: price-computing instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bc45a7af-c539-50ff-9fd7-36ee7b258c61
 ---
@@ -74,6 +78,10 @@ data:
     designation: instrument calculateur de prix (instrument poids-prix)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 258a0b81-8b7a-539d-864b-ccc7969d55fa
 

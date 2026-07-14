@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 59f593ba-efc7-56b4-adf5-fd6b14c57ccf
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   notes:
   - content: La définition du mesurande peut nécessiter des indications relatives
       à des grandeurs telles que le temps, la température et la pression.
-  - content: 'Source citation: VIM:1993, definition 2.6'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: mesurande
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 59f593ba-efc7-56b4-adf5-fd6b14c57ccf
 

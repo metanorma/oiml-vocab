@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 49db1585-269f-5560-b638-b8bd6ddcbc56
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
   notes:
   - content: '"Modèle" est utilisé en métrologie légale avec la même signification
       que "type"; dans les entrées ci-après, seul "type" est utilisé.'
-  - content: 'Source citation: VIML 2.5'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.5'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.3'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Évaluation de type (modèle)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 49db1585-269f-5560-b638-b8bd6ddcbc56
 

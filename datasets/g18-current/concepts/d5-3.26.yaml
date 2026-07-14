@@ -32,22 +32,36 @@ data:
   id: d5-3.26-eng
   notes:
   - content: See also VIML A.25.
-  - content: 'Source citation: VIML 2.05'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.05'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.26'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: type approval
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: aa13f583-fc09-5661-b71a-35cc595cd968
 

@@ -5,8 +5,8 @@ data:
     eng: ebc1363e-ee76-51a5-9484-46e67420e439
     fra: dd65013d-c7e7-5295-96d1-ca954dc4dd52
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -33,16 +33,20 @@ data:
   notes:
   - content: A sample line may include devices such as coarse and fine filters, dryers
       or separators which are necessary to prepare the sample for analysis.
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.3'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred
@@ -65,16 +69,20 @@ data:
   - content: Une ligne de prélèvement peut intégrer des disposés que des filtres primaires
       et fins, des dispositifs de séchage ou des séparateurs, soit nécessaire à la
       préparation de l'échantillon pour l'analyse.
-  - content: 'Source citation: ISO 7504:2001 [16]'
+  - content: 'Source citation: ISO 750 4'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.3'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 750
   terms:
   - type: expression
     normative_status: preferred

@@ -35,22 +35,36 @@ data:
   - content: Confirmation that a target measurement uncertainty can be met.
   id: d5-3.10-eng
   notes:
-  - content: 'Source citation: VIM 2.44'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.44'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.10'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: verification
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 46d9fdfb-4792-5347-b7b2-6c976151d02e
 

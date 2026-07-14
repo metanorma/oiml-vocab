@@ -5,8 +5,8 @@ data:
     eng: '08a574e8-7174-5e8c-b20b-a06149ca37f8'
     fra: 9a8e8ea9-2a73-533e-93f4-106a6e269a94
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   - content: A/D converter, display.
   id: r76-2006-e-T.2.3.2-eng
   notes:
-  - content: 'Source citation: OIML D 11:2004, 3.3'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.3.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: electronic sub-assembly
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '08a574e8-7174-5e8c-b20b-a06149ca37f8'
 ---
@@ -62,22 +76,36 @@ data:
   - content: Convertisseur analogique / numérique, afficheur.
   id: r76-2006-e-T.2.3.2-fra
   notes:
-  - content: 'Source citation: OIML D 11:2004, 3.3'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.3.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: sous-ensemble électronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9a8e8ea9-2a73-533e-93f4-106a6e269a94
 

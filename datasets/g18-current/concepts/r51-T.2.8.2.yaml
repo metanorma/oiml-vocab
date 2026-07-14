@@ -31,22 +31,36 @@ data:
   - content: A/D converter, display.
   id: r51-T.2.8.2-eng
   notes:
-  - content: 'Source citation: OIML D 11:2004, 3.3.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 51:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.8.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: Electronic sub-assembly
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fd400b00-b02c-5cf9-87a8-0c2d24af1e58
 

@@ -32,16 +32,20 @@ data:
   notes:
   - content: A measurement performed as part of conformity assessment is sometimes
       called an inspection measurement.
-  - content: 'Source citation: Adapted from ISO 3534-2:2006 4.1.2'
+  - content: 'Source citation: ISO 3534- 2'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-106:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 3.3.2
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred
