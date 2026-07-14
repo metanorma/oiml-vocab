@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 1981de7e-0a6c-53fa-9e70-ce003f026beb
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:129-1:2020
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   - content: 'A device may be a stand-alone and complete measuring instrument (for
       example: counter scale, electricity meter) or part of a measuring instrument
       (for example: printer, indicator).'
-  - content: 'Source citation: OIML D 11, 3.3'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1981de7e-0a6c-53fa-9e70-ce003f026beb
 

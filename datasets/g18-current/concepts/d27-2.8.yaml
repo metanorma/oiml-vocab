@@ -42,16 +42,20 @@ data:
       excellent.
   - content: '"Inherent" as opposed to "assigned" means existing in something, especially
       as a permanent characteristic.'
-  - content: 'Source citation: ISO 9000:2000, 3.1.1'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.8'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred
@@ -75,16 +79,20 @@ data:
       médiocre, bon ou excellent.
   - content: '"Intrinsèque", par opposition à "attribué", signifie présent dans quelque
       chose, notamment en tant que caractéristique permanente.'
-  - content: 'Source citation: ISO 9000:2000, 3.1.1'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.8'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred

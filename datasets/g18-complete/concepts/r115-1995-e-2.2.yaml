@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: ab5be86b-d0fd-58a4-8a1c-df6f8648828f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:115:1995
+  - concept_id: r-115
+    source: OIML R 115:1995
     ref_type: section
   sources:
   - origin:
@@ -50,6 +50,10 @@ data:
     designation: temperature probe
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-115
+    source: OIML R 115:1995
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ab5be86b-d0fd-58a4-8a1c-df6f8648828f
 

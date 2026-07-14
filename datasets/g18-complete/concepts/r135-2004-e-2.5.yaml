@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 186e91ad-76f3-5550-b1a1-030c994de6fc
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:135:2004
+  - concept_id: r-135
+    source: OIML R 135:2004
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   notes:
   - content: Absorbance has the dimension one and is expressed with the derived coherent
       SI unit one (1).
-  - content: 'Source citation: ISO 6286, Table 1, No. 5'
+  - content: 'Source citation: ISO 628 6'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 135:2004
         version: '2004'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.5'
+    sourced_from:
+    - ref:
+        source: ISO 628
   terms:
   - type: expression
     normative_status: preferred

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 641c979d-b6c1-59ea-8a86-3a230e93eb7e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   - content: Pour les besoins de ce Document, les équipements complémentaires, dans
       la mesure où ils sont soumis au contrôle de la métrologie légale, sont considérés
       comme faisant partie de l'instrument de mesure.
-  - content: 'Source citation: OIML D 11:2004, 3.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.15
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: Instrument de mesure électronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 641c979d-b6c1-59ea-8a86-3a230e93eb7e
 

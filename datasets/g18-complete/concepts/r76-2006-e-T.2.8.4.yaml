@@ -5,8 +5,8 @@ data:
     eng: 1ddeb3e9-a495-595a-9dbf-430e66b72dd2
     fra: 0be9b14f-6a10-5a5e-9168-54814d896888
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -52,6 +52,10 @@ data:
     designation: device-specific parameter
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1ddeb3e9-a495-595a-9dbf-430e66b72dd2
 ---
@@ -87,6 +91,10 @@ data:
     designation: paramètre spécifique au dispositif
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0be9b14f-6a10-5a5e-9168-54814d896888
 

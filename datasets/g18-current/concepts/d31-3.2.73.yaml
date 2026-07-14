@@ -29,7 +29,6 @@ data:
   examples: []
   id: d31-3.2.73-eng
   notes:
-  - content: 'Source citation: [adapted from OIML V 2-200:2012, 2.44]'
   sources:
   - origin:
       ref:
@@ -39,12 +38,35 @@ data:
       type: clause
       reference_from: 3.2.73
     type: authoritative
+  - type: lineage
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.44'
+  - type: lineage
+    status: modified
+    origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.73
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: verification
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2023
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ba291d7a-b74f-5991-8701-defd1ebc7beb
 

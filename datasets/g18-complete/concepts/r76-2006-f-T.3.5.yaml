@@ -5,8 +5,8 @@ data:
     eng: 4216cb2f-7883-5724-ac4c-f282ab0d2746
     fra: f171003f-fd1f-5170-8845-d3ae0633c1bc
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -38,7 +38,6 @@ data:
   - content: The concept of a "family" primarily aims to reduce the testing required
       at type examination. It does not preclude the possibility of listing more than
       one family in one Certificate.
-  - content: 'Source citation: adapted from OIML B 3:2003,2.3.'
   sources:
   - origin:
       ref:
@@ -48,12 +47,35 @@ data:
       type: clause
       reference_from: T.3.5
     type: authoritative
+  - type: lineage
+    origin:
+      ref:
+        source: OIML B 3:2003
+    locality:
+      type: clause
+      reference_from: '2.3'
+  - type: lineage
+    status: modified
+    origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.5
+    sourced_from:
+    - ref:
+        source: OIML B 3:2003
   terms:
   - type: expression
     normative_status: preferred
     designation: Family
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4216cb2f-7883-5724-ac4c-f282ab0d2746
 ---
@@ -74,7 +96,6 @@ data:
   - content: Le concept de « famille » vise d'abord à réduire les essais exigés pour
       l'approbation de modèle. Ceci n'empêche pas la possibilité de lister plus qu'une
       famille dans un Certificat.
-  - content: 'Source citation: adapté de OIML B 3:2003,2.3.'
   sources:
   - origin:
       ref:
@@ -90,6 +111,10 @@ data:
     designation: Famille
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f171003f-fd1f-5170-8845-d3ae0633c1bc
 

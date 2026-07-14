@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 060d1bd4-9033-50ce-83f5-63f2c81e808a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2023
+  - concept_id: d-31
+    source: OIML D 31:2023
     ref_type: section
   sources:
   - origin:
@@ -29,7 +29,6 @@ data:
   examples: []
   id: d31-2023-e-3.2.73-eng
   notes:
-  - content: 'Source citation: [adapted from OIML V 2-200:2012, 2.44]'
   sources:
   - origin:
       ref:
@@ -39,12 +38,35 @@ data:
       type: clause
       reference_from: 3.2.73
     type: authoritative
+  - type: lineage
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.44'
+  - type: lineage
+    status: modified
+    origin:
+      ref:
+        source: OIML D 31:2023
+        version: '2023'
+    locality:
+      type: clause
+      reference_from: 3.2.73
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: verification
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2023
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 060d1bd4-9033-50ce-83f5-63f2c81e808a
 

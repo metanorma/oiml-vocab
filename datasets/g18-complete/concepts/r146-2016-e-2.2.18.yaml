@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 92ee6f50-6256-52d1-9042-b087368ae2ce
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:146:2016
+  - concept_id: r-146
+    source: OIML R 146:2016
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   id: r146-2016-e-2.2.18-eng
   notes:
   - content: In the present case the related requirements are those of this Recommendation.
-  - content: 'Source citation: OIML D 31:2008, 3.1.56'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 31:2008
+    locality:
+      type: clause
+      reference_from: 3.1.56
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 146:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.2.18
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 31:2008
   terms:
   - type: expression
     normative_status: preferred
     designation: "(software) validation"
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 92ee6f50-6256-52d1-9042-b087368ae2ce
 

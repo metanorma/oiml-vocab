@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 1f752ce4-2eae-5e4a-b40c-0b72728614a2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-106:2012
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
     ref_type: section
   sources:
   - origin:
@@ -30,16 +30,20 @@ data:
   examples: []
   id: g1-106-2012-e-3.3.1-eng
   notes:
-  - content: 'Source citation: Adapted from ISO/IEC 17000:2004 2.1'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-106:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 3.3.1
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

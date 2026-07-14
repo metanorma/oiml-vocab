@@ -30,16 +30,20 @@ data:
   examples: []
   id: b10-3.13-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000 2.1 [6]'
+  - content: 'Source citation: ISO/IEC 17000 2.1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 10:2011
         version: '2011'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.13'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 82c70c60-737c-5abd-a1c8-4f1c60899208
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:59-1:2016
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   notes:
   - content: This is in contrast to a closed network which is a network of a fixed
       number of participants with a known identity functionality and location.
-  - content: 'Source citation: OIML D 31, 3.1.35'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: open network
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 82c70c60-737c-5abd-a1c8-4f1c60899208
 

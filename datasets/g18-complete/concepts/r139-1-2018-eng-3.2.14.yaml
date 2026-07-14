@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 42583ff1-f444-5704-8269-37d5e2a82481
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:139-1:2018
+  - concept_id: r-139-1
+    source: OIML R 139-1:2018
     ref_type: section
   sources:
   - origin:
@@ -35,22 +35,36 @@ data:
   - content: Acted upon refers to any adequate response by the measuring instrument
       (for example a luminous signal, an acoustic signal, interruption or blocking
       of the measurement process, etc.).
-  - content: 'Source citation: OIML V 1:2013, 5.07'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139-1:2018
         version: '2018'
     locality:
       type: clause
       reference_from: 3.2.14
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 42583ff1-f444-5704-8269-37d5e2a82481
 

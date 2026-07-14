@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 7bd843dc-dcd4-5b53-aa91-a461b3c27a76
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   - content: L'erreur aléatoire est égale à l'erreur moins l'erreur systématique.
   - content: Comme on ne peut faire qu'un nombre fini de mesurages, il est seulement
       possible de déterminer une estimation de l'erreur aléatoire.
-  - content: 'Source citation: VIM:1993, definition 3.13'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: erreur aléatoire
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7bd843dc-dcd4-5b53-aa91-a461b3c27a76
 

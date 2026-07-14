@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 3db297e3-f58b-58c1-bc00-ac485ef95845
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:1998
+  - concept_id: r-85
+    source: OIML R 85:1998
     ref_type: section
   sources:
   - origin:
@@ -28,7 +28,6 @@ data:
   examples: []
   id: r85-1998-e-2.18-eng
   notes:
-  - content: 'Source citation: See "Ullage".'
   sources:
   - origin:
       ref:
@@ -44,6 +43,10 @@ data:
     designation: Outage
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:1998
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3db297e3-f58b-58c1-bc00-ac485ef95845
 

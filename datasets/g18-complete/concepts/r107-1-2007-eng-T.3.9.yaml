@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 93fe8db4-ddcc-545e-9126-c49b2a43c382
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:107-1:2007
+  - concept_id: r-107-1
+    source: OIML R 107-1:2007
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   notes:
   - content: For an instrument, this is its ability to provide weighing results that
       agree one with the other under the same or constant operating conditions.
-  - content: 'Source citation: VIM: 1993, 3.6'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: repeatability
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-107-1
+    source: OIML R 107-1:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 93fe8db4-ddcc-545e-9126-c49b2a43c382
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: a9735013-60c1-51e8-b55a-ac3a820d237b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -39,16 +39,20 @@ data:
   - content: Dans une longue série d'échantillons, la fréquence des cas où la valeur
       vraie du paramètre de la population theta est contenue par l'intervalle de confiance,
       est égale ou supérieure à (1 - alpha).
-  - content: 'Source citation: ISO 3534-1:1993, definition 2.57'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-100:2008
         version: '2008'
     locality:
       type: clause
       reference_from: C.2.27
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

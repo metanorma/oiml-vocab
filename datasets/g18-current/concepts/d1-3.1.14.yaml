@@ -46,16 +46,20 @@ data:
       pour réaliser des étalonnages et mesurages traçables, laboratoires d'essais,
       organismes d'inspection, et organismes de certification, certificateur de produit,
       certificateur de systèmes qualité ou certificateur de personnel.
-  - content: 'Source citation: ISO 17000:2004, 5.6'
+  - content: 'Source citation: ISO 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.14
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 1700
   terms:
   - type: expression
     normative_status: preferred
@@ -83,16 +87,20 @@ data:
       systems certification or certification of personnel. Not all countries have
       a national accreditation system. If it exists, it should be recognized by the
       appropriate authorities.
-  - content: 'Source citation: ISO 17000:2004, 5.6'
+  - content: 'Source citation: ISO 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.14
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 1700
   terms:
   - type: expression
     normative_status: preferred

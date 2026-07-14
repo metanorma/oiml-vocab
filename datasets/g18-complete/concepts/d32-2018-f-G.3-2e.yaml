@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 7a48a41f-76c3-5734-993a-41083396fef4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:32:2018
+  - concept_id: d-32
+    source: OIML D 32:2018
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   examples: []
   id: d32-2018-f-G.3-2e-fra
   notes:
-  - content: 'Source citation: VIML 2.05'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.05'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 32:2018
         version: '2018'
     locality:
       type: clause
       reference_from: G.3-2e
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: approbation de type
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7a48a41f-76c3-5734-993a-41083396fef4
 

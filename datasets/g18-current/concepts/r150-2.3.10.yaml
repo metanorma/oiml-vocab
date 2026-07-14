@@ -30,22 +30,36 @@ data:
   examples: []
   id: r150-2.3.10-eng
   notes:
-  - content: 'Source citation: VIML 5.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 150-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.10
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: durability
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fad45ec7-d584-50c2-a706-29865ac7f85a
 

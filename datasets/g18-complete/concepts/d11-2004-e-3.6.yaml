@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 30f56fe0-5f50-5104-be18-87ccd288901f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2004
+  - concept_id: d-11
+    source: OIML D 11:2004
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: d11-2004-e-3.6-eng
   notes:
-  - content: 'Source citation: VIM 5.21'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2004
         version: '2004'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.6'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Maximum permissible error (of a measuring instrument)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 30f56fe0-5f50-5104-be18-87ccd288901f
 

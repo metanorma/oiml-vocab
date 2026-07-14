@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: a74a1630-4af5-570a-b005-3074d6229dda
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:139:2014
+  - concept_id: r-139
+    source: OIML R 139:2014
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   examples: []
   id: r139-2014-e-3.4.3-eng
   notes:
-  - content: 'Source citation: OIML V 1:2013, 5.19'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139:2014
         version: '2014'
     locality:
       type: clause
       reference_from: 3.4.3
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: disturbance
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a74a1630-4af5-570a-b005-3074d6229dda
 

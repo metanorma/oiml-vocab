@@ -45,14 +45,18 @@ data:
       and performance of a measuring instrument prior to its being placed in service.
   - content: 'Source citation: ISO/IEC Guide 22'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.17'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred
@@ -77,7 +81,6 @@ data:
       installateurs, réemballeurs, réétiqueteurs, etc. qui ont la responsabilité d'assurer
       la qualité et la performance d'un instrument de mesure avant qu'il soit mis
       en service.
-  - content: 'Source citation: ISO/CEI Guide 22'
   sources:
   - origin:
       ref:
@@ -93,6 +96,10 @@ data:
     designation: Fabricant autorisé
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-27
+    source: OIML D 27:2001
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9f9310ab-dd7d-5f0c-8894-996d4c83a332
 

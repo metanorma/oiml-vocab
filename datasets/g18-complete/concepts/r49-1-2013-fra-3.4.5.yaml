@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 4553c9e9-e228-54a4-9bad-8b4b68762fa4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -30,8 +30,6 @@ data:
   examples: []
   id: r49-1-2013-fra-3.4.5-fra
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.11, modifie - "compteur"
-      remplace "instrument de mesure ou systeme de mesure".'
   sources:
   - origin:
       ref:
@@ -47,6 +45,10 @@ data:
     designation: condition de reference
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4553c9e9-e228-54a4-9bad-8b4b68762fa4
 

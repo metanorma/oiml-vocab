@@ -71,6 +71,10 @@ data:
     designation: perturbation
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '0781c159-d4c8-513b-91b2-a918d403d6b0'
 ---
@@ -85,22 +89,36 @@ data:
   examples: []
   id: r144-2.19-eng
   notes:
-  - content: 'Source citation: VIML 2012 (V1), 5.16 [25]'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2012'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.19'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: disturbance
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: dc369f73-1362-5a32-8075-d3b7ccfd7f0b
 

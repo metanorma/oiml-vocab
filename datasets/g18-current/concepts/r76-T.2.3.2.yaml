@@ -56,22 +56,36 @@ data:
   - content: A/D converter, display.
   id: r76-T.2.3.2-eng
   notes:
-  - content: 'Source citation: OIML D 11:2004, 3.3'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.3.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: electronic sub-assembly
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 04065001-6f31-52d6-abd5-5f2fafd4565c
 ---
@@ -86,22 +100,36 @@ data:
   - content: Convertisseur analogique / numérique, afficheur.
   id: r76-T.2.3.2-fra
   notes:
-  - content: 'Source citation: OIML D 11:2004, 3.3'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.3.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: sous-ensemble électronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7c18a6ff-d993-5cb1-a227-1d8299217770
 

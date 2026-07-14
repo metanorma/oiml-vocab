@@ -31,22 +31,36 @@ data:
   examples: []
   id: d9-2.1-eng
   notes:
-  - content: 'Source citation: VIML 1.2'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '1.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 9:2004
         version: '2004'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.1'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: legal metrology
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c2cb3202-6125-501c-b4e7-3d23497160b6
 

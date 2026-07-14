@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 91107f8b-3727-5c0e-9540-077cd2ba45a9
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:1:2012
+  - concept_id: d-1
+    source: OIML D 1:2012
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   notes:
   - content: "« Modèle » est utilisé en métrologie légale avec la même signification
       que « type » ; dans les définitions ci-après, seul « type » est utilisé."
-  - content: 'Source citation: VIML 2.05'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.05'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.7
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Évaluation type d'instruments de mesure
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 91107f8b-3727-5c0e-9540-077cd2ba45a9
 

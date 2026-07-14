@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 0a7e00d9-cea6-5a2e-a270-dbad3386df21
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:139-1:2014
+  - concept_id: r-139-1
+    source: OIML R 139-1:2014
     ref_type: section
   sources:
   - origin:
@@ -29,16 +29,26 @@ data:
   examples: []
   id: r139-1-2014-eng-3.2.15.1-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013, 3.19.1.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: 3.19.1.1
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 139-1:2014
         version: '2014'
     locality:
       type: clause
       reference_from: 3.2.15.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
@@ -48,6 +58,10 @@ data:
     designation: checking facility of type P
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0a7e00d9-cea6-5a2e-a270-dbad3386df21
 

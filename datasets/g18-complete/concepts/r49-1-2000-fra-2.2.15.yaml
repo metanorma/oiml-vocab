@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 04cdcbe6-25e9-5f7d-a5c2-aefdadbcbdbd
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2000
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
     ref_type: section
   sources:
   - origin:
@@ -30,7 +30,6 @@ data:
   examples: []
   id: r49-1-2000-fra-2.2.15-fra
   notes:
-  - content: 'Source citation: adapté de VIM 5.12'
   - content: Pour un dispositif numérique, il s'agit de la variation de l'indication
       lorsque le plus petit chiffre significatif change d'un pas supplémentaire.
   sources:
@@ -48,6 +47,10 @@ data:
     designation: résolution (d'un dispositif indicateur)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 04cdcbe6-25e9-5f7d-a5c2-aefdadbcbdbd
 

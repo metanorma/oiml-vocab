@@ -36,22 +36,36 @@ data:
       upon which the result of a measurement may depend, as well as phenomena such
       as short-term measuring instrument fluctuations and quantities such as ambient
       temperature, barometric pressure and humidity.
-  - content: 'Source citation: OIML D 11:2013, 3.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: '3.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 22:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.3.23
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: influence quantity
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a8873a8a-17c9-5191-8622-d03a73ac359e
 

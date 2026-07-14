@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 4d27f2df-c89f-5190-b898-1a0b7f130e3f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:19:2017
+  - concept_id: g-19
+    source: OIML G 19:2017
     ref_type: section
   sources:
   - origin:
@@ -39,7 +39,6 @@ data:
       error', whether it should be defined as a 'value', as in the above definition,
       or as a 'quantity' that has a value. In this Guide the definition given above
       will be used. (not in VIM3)
-  - content: 'Source citation: VIM3 4.26'
   sources:
   - origin:
       ref:
@@ -58,6 +57,10 @@ data:
     designation: MPE
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-19
+    source: OIML G 19:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4d27f2df-c89f-5190-b898-1a0b7f130e3f
 

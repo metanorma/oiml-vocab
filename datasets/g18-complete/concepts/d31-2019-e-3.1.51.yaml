@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b99d6da0-7054-5350-9731-05d0ff75c49d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2019
+  - concept_id: d-31
+    source: OIML D 31:2019
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   notes:
   - content: The seal must be removed, damaged or broken to obtain access to change
       software.
-  - content: 'Source citation: [OIML V 1:2013, 6.04]'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: software protection
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2019
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b99d6da0-7054-5350-9731-05d0ff75c49d
 

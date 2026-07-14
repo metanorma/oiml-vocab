@@ -5,8 +5,8 @@ data:
     eng: 18476fa6-42a2-5bc8-b829-d87441a8beff
     fra: e38b0a05-966e-5d30-a2bf-7718f24c9db8
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:35:2007
+  - concept_id: r-35
+    source: OIML R 35:2007
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: End measure
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-35
+    source: OIML R 35:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 18476fa6-42a2-5bc8-b829-d87441a8beff
 ---
@@ -74,6 +78,10 @@ data:
     designation: Mesure de longueur à bouts
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-35
+    source: OIML R 35:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e38b0a05-966e-5d30-a2bf-7718f24c9db8
 

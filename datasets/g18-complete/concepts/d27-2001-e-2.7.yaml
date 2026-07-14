@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 0e342b21-4c00-5ea7-8fdd-af499f803934
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -34,16 +34,20 @@ data:
       adjustment or repair and subsequent recalibration, as well as any required sealing
       and labeling.
   - content: In this Document, this term is referred to as "confirmation".
-  - content: 'Source citation: ISO 10012-1'
+  - content: 'Source citation: ISO 10012- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.7'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 10012-
   terms:
   - type: expression
     normative_status: preferred

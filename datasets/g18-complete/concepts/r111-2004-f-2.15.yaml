@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 5e77836c-3896-5ec6-ac09-6fb973385a2b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:111:2004
+  - concept_id: r-111
+    source: OIML R 111:2004
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   examples: []
   id: r111-2004-f-2.15-fra
   notes:
-  - content: 'Source citation: ISO/IEC Guide 2:1996, 13.1'
+  - content: 'Source citation: ISO/IEC Guide 2'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 111:2004
         version: '2004'
     locality:
       type: clause
       reference_from: '2.15'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred

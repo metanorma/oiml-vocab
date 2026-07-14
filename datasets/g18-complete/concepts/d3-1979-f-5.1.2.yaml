@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: c3f1267f-f3b8-5e9e-99d3-c3c7c77ed28a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:3:1979
+  - concept_id: d-3
+    source: OIML D 3:1979
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
       instruments neufs, mais les réglementations nationales peuvent prescrire que
       les instruments réparés ou rajustés doivent aussi subir une vérification conforme
       à la vérification primitive.
-  - content: 'Source citation: Vocabulaire de métrologie légale'
   sources:
   - origin:
       ref:
@@ -50,6 +49,10 @@ data:
     designation: Vérification primitive
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-3
+    source: OIML D 3:1979
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c3f1267f-f3b8-5e9e-99d3-c3c7c77ed28a
 

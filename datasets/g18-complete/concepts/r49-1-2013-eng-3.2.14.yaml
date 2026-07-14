@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 71a51e25-1e91-5148-bf57-4601c06a9041
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   notes:
   - content: For a digital indicating device, this is the change in the indication
       when the least significant digit changes by one step.
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.15.'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: resolution of a displaying device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 71a51e25-1e91-5148-bf57-4601c06a9041
 

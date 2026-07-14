@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: bfc70dd9-3df7-596b-9f2b-48ac7a0e71c0
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   examples: []
   id: d31-2008-f-3.1.27-fra
   notes:
-  - content: 'Source citation: ISO 2382-9:1995'
+  - content: 'Source citation: ISO 2382- 9'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.27
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 2382-
   terms:
   - type: expression
     normative_status: preferred

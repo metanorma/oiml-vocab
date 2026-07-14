@@ -56,16 +56,26 @@ data:
   examples: []
   id: r137-3.2.8-eng
   notes:
-  - content: 'Source citation: VIM 4.26'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.8
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -75,6 +85,10 @@ data:
     designation: MPE
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 65654ef7-24b4-58a0-8f56-d3232d750e42
 ---
@@ -89,16 +103,26 @@ data:
   examples: []
   id: r137-3.2.8-fra
   notes:
-  - content: 'Source citation: VIM 4.26'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137-1-2:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.8
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -108,6 +132,10 @@ data:
     designation: EMT
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 031471ea-2410-5ac3-b0ea-afbf330a0318
 

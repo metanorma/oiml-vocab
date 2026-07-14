@@ -5,8 +5,8 @@ data:
     eng: a7bfe032-5270-5fcc-9f4b-883579ae2a92
     fra: 10e408fa-f593-5c0f-82b6-0d2260120e69
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Calculated weight value
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a7bfe032-5270-5fcc-9f4b-883579ae2a92
 ---
@@ -74,6 +78,10 @@ data:
     designation: Valeur de poids calculée
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 10e408fa-f593-5c0f-82b6-0d2260120e69
 

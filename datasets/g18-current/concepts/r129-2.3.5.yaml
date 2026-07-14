@@ -45,22 +45,36 @@ data:
   - content: Aus der Definition folgt, dass ein "Fehler" ein numerischer Wert ist,
       der entweder in einer Maßeinheit oder als Relativwert, z. B. als Prozentsatz,
       ausgedrückt wird.
-  - content: 'Source citation: VIML 5.12'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.12'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Fehler
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 89e20dba-42e2-5e7e-8314-7595a6ecc134
 ---
@@ -79,22 +93,36 @@ data:
   - content: From the definition, it follows that a "fault" is a numerical value which
       is expressed either in a unit of measurement or as a relative value, for instance
       as a percentage.
-  - content: 'Source citation: VIML 5.12'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.12'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.3.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 711a10e1-aab1-57bc-a9ff-f2d2b6f8ff1f
 

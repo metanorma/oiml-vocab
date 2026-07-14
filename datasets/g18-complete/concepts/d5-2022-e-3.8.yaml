@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 75dd7a28-236b-5d6e-b23d-d293511526db
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:5:2022
+  - concept_id: d-5
+    source: OIML D 5:2022
     ref_type: section
   sources:
   - origin:
@@ -36,22 +36,36 @@ data:
   - content: A comparison between two measurement standards may be viewed as a calibration
       if the comparison is used to check and, if necessary, correct the quantity value
       and measurement uncertainty attributed to one of the measurement standards.
-  - content: 'Source citation: VIM 2.42'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.42'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.8'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: metrological traceability chain
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 75dd7a28-236b-5d6e-b23d-d293511526db
 

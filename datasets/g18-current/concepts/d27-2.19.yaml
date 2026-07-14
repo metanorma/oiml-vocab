@@ -41,22 +41,36 @@ data:
   notes:
   - content: The verification mark may also identify the body responsible for verification
       and/or indicate the year or date of verification or its expiry date.
-  - content: 'Source citation: VIML 3.7'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '3.7'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.19'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Verification mark
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 138688c6-2426-558f-a68f-26e05fa0c56a
 ---
@@ -73,22 +87,36 @@ data:
   - content: La marque de vérification peut aussi identifier l'organisme responsable
       de la vérification et/ou indiquer l'année ou la date de vérification ou sa date
       d'expiration.
-  - content: 'Source citation: VIML 3.7'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '3.7'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.19'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Marque de vérification
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b8ddaec4-393d-55bc-a4b3-6cdc010b263d
 

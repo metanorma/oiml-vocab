@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 237d88bb-c927-5e30-b2a3-e9cf3fc3d468
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   notes:
   - content: Un dispositif électronique peut être un instrument de mesure complet
       ou une partie d'instrument de mesure.
-  - content: 'Source citation: OIML D 11:2004, 3.2'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.16
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
   terms:
   - type: expression
     normative_status: preferred
     designation: Dispositif électronique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 237d88bb-c927-5e30-b2a3-e9cf3fc3d468
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 37948fc3-2f9a-5884-bc84-383dc9a1300b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:147:2016
+  - concept_id: r-147
+    source: OIML R 147:2016
     ref_type: section
   sources:
   - origin:
@@ -29,16 +29,20 @@ data:
   examples: []
   id: r147-2016-e-2.1.3-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000:2004, 5.5'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 147:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.1.3
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

@@ -5,8 +5,8 @@ data:
     eng: b98e1247-202f-5dc0-a564-02acd6815de8
     fra: 01d58972-4e52-5d31-ad55-1f5d508166f3
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -31,8 +31,6 @@ data:
   examples: []
   id: r49-2013-f-3.5.4-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.19, modified — "meter" replaces
-      "measuring instrument".'
   - content: The checking of a transmission device aims to verify whether all the
       information which is transmitted (and only that information) is fully received
       by the receiving equipment.
@@ -51,6 +49,10 @@ data:
     designation: checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b98e1247-202f-5dc0-a564-02acd6815de8
 ---
@@ -64,8 +66,6 @@ data:
   examples: []
   id: r49-2013-f-3.5.4-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.19, modifié — « compteur » remplace
-      « instrument de mesure ».'
   - content: Le contrôle d'un dispositif de transmission a pour but de vérifier que
       toute l'information transmise (et uniquement cette information) est reçue intégralement
       par l'équipement récepteur.
@@ -84,6 +84,10 @@ data:
     designation: dispositif de contrôle
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 01d58972-4e52-5d31-ad55-1f5d508166f3
 

@@ -42,22 +42,36 @@ data:
       unknown to the other participants. This is in contrast to a closed network [OIML
       D 31:2008, 3.1.6] which is a network of a fixed number of participants with
       a known identity functionality and location.
-  - content: 'Source citation: OIML D 31:2008, 3.1.35'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 31:2008
+    locality:
+      type: clause
+      reference_from: 3.1.35
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 146:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.2.12
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 31:2008
   terms:
   - type: expression
     normative_status: preferred
     designation: open network
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 70f9e84c-7c7f-591a-99b7-413fbcde8176
 

@@ -55,22 +55,36 @@ data:
   examples: []
   id: r106-0.4.2.2-eng
   notes:
-  - content: 'Source citation: VIM 4.10'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.10'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 106:2011
         version: '2011'
     locality:
       type: clause
       reference_from: 0.4.2.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: analogue indication
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6b4101b7-55ea-526f-96e3-656612c13162
 ---
@@ -84,22 +98,36 @@ data:
   examples: []
   id: r106-0.4.2.2-fra
   notes:
-  - content: 'Source citation: VIM 4.10'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.10'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 106:2011
         version: '2011'
     locality:
       type: clause
       reference_from: 0.4.2.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: indication analogique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ff832853-7b28-5c16-b340-be935698ca14
 

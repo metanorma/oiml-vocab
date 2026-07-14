@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b51b3c84-27e6-5098-a679-7f4a3220e530
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
   notes:
   - content: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
-  - content: 'Source citation: VIML 2.3'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.3'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.16'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Metrological supervision
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b51b3c84-27e6-5098-a679-7f4a3220e530
 

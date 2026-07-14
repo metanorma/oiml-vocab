@@ -5,8 +5,8 @@ data:
     eng: f1a65093-8de5-5243-9320-3f5877ea9f68
     fra: 4bc0ac57-b71d-512a-a3ff-eec161bab3b9
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -48,6 +48,10 @@ data:
     designation: power factor (PF)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f1a65093-8de5-5243-9320-3f5877ea9f68
 ---
@@ -78,6 +82,10 @@ data:
     designation: facteur de puissance (FP)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4bc0ac57-b71d-512a-a3ff-eec161bab3b9
 

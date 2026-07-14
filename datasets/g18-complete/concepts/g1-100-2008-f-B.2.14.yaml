@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: ba90e9eb-54db-5126-a893-91029035642e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   notes:
   - content: Le concept d'«exactitude» est qualitatif.
   - content: Le terme «précision» ne doit pas être utilisé pour «exactitude».
-  - content: 'Source citation: VIM:1993, definition 3.5'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: exactitude de mesure
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ba90e9eb-54db-5126-a893-91029035642e
 

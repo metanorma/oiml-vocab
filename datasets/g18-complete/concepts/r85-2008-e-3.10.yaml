@@ -5,8 +5,8 @@ data:
     eng: 4ea9a376-b967-5bc7-b834-9275477e3c47
     fra: ee4ed07d-d7a3-5ea4-93d0-3ad00910d32a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
   sources:
   - origin:
@@ -50,6 +50,10 @@ data:
     designation: Checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4ea9a376-b967-5bc7-b834-9275477e3c47
 ---
@@ -82,6 +86,10 @@ data:
     designation: Système de contrôle
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ee4ed07d-d7a3-5ea4-93d0-3ad00910d32a
 

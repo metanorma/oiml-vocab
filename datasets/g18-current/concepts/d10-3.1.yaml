@@ -42,14 +42,18 @@ data:
       public authorities, contracts, market acceptance, or scheme owners.
   - content: 'Source citation: ISO/IEC 17000 4.7'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 10:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.1'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred
@@ -71,16 +75,20 @@ data:
   - content: La autoridad de un órgano de acreditación puede derivarse del gobierno,
       del sector público autoridades, contratos, aceptación del mercado o propietarios
       de esquemas.
-  - content: 'Source citation: ISO/IEC 17000, 4.7'
+  - content: 'Source citation: ISO/IEC 17000 4.7'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 10:2022
         version: '2022'
     locality:
       type: clause
       reference_from: '3.1'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred

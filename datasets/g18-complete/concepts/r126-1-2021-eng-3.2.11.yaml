@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b697b9b2-9a56-55e7-a75b-23b08c83a7dc
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:126-1:2021
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
       result in significant faults, and/or - incorrect functioning of a specific device
       of the measuring instrument, and/or - disturbed communication between specific
       devices of the measuring instrument.'
-  - content: 'Source citation: adapted from OIML V 1, 5.07'
   sources:
   - origin:
       ref:
@@ -52,6 +51,10 @@ data:
     designation: checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b697b9b2-9a56-55e7-a75b-23b08c83a7dc
 

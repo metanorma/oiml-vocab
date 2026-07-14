@@ -5,8 +5,8 @@ data:
     eng: 82925d71-89e0-51db-bbaa-d309139e6ef5
     fra: eebec159-cfdc-54e5-9be2-a0cbadd2a929
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106:2011
+  - concept_id: r-106
+    source: OIML R 106:2011
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: control instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 82925d71-89e0-51db-bbaa-d309139e6ef5
 ---
@@ -74,6 +78,10 @@ data:
     designation: instrument de controle
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: eebec159-cfdc-54e5-9be2-a0cbadd2a929
 

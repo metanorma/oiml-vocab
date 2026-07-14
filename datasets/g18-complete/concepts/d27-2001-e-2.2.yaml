@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b479802e-3e84-5bca-bcf9-5bd1e80dfd49
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   notes:
   - content: 'Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
-  - content: 'Source citation: VIML 2.1'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.1'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.2'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Legal metrological control
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b479802e-3e84-5bca-bcf9-5bd1e80dfd49
 

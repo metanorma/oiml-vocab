@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 8e904735-9ced-558d-969c-902d63e24bcd
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:150-1:2020
+  - concept_id: r-150-1
+    source: OIML R 150-1:2020
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   notes:
   - content: This reference value is sometimes referred to as a (conventional) true
       quantity value.
-  - content: 'Source citation: VIML 0.04'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.04'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 150-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.4.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: error of indication
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8e904735-9ced-558d-969c-902d63e24bcd
 

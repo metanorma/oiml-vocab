@@ -5,8 +5,8 @@ data:
     eng: 8b2f7b2e-f5a5-5f98-ad2a-722cc45bfa60
     fra: b16da4da-7e22-5149-ac44-7a235e7478b6
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -31,8 +31,6 @@ data:
   examples: []
   id: r49-2013-e-3.2.5-eng
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.26, modified — "meter"
-      replaces "measurement, measuring instrument, or measuring system".'
   sources:
   - origin:
       ref:
@@ -51,6 +49,10 @@ data:
     designation: MPE
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 8b2f7b2e-f5a5-5f98-ad2a-722cc45bfa60
 ---
@@ -65,8 +67,6 @@ data:
   examples: []
   id: r49-2013-e-3.2.5-fra
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.26, modifie — << compteur
-      >> remplace << mesurage instrument de mesure, ou systeme de mesure >>.'
   sources:
   - origin:
       ref:
@@ -85,6 +85,10 @@ data:
     designation: EMT
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b16da4da-7e22-5149-ac44-7a235e7478b6
 

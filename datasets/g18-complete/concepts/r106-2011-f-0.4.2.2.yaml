@@ -5,8 +5,8 @@ data:
     eng: 4ca003dd-eaab-5e9a-9c1d-f25411d4cad1
     fra: 107163da-90e2-5a8a-aa49-e82317c1c05f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106:2011
+  - concept_id: r-106
+    source: OIML R 106:2011
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   examples: []
   id: r106-2011-f-0.4.2.2-eng
   notes:
-  - content: 'Source citation: VIM 4.10'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.10'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 106:2011
         version: '2011'
     locality:
       type: clause
       reference_from: 0.4.2.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: analogue indication
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4ca003dd-eaab-5e9a-9c1d-f25411d4cad1
 ---
@@ -60,22 +74,36 @@ data:
   examples: []
   id: r106-2011-f-0.4.2.2-fra
   notes:
-  - content: 'Source citation: VIM 4.10'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.10'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 106:2011
         version: '2011'
     locality:
       type: clause
       reference_from: 0.4.2.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: indication analogique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 107163da-90e2-5a8a-aa49-e82317c1c05f
 

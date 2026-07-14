@@ -5,8 +5,8 @@ data:
     eng: b408a02b-e781-55c0-922c-644710bd7b69
     fra: 70b1fe6d-dc7e-5fd9-8922-5b5a7784a8e9
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -48,6 +48,10 @@ data:
     designation: peripheral device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b408a02b-e781-55c0-922c-644710bd7b69
 ---
@@ -78,6 +82,10 @@ data:
     designation: dispositif périphérique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 70b1fe6d-dc7e-5fd9-8922-5b5a7784a8e9
 

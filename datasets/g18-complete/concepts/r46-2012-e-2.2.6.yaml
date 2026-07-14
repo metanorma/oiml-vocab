@@ -5,8 +5,8 @@ data:
     eng: 6ceea758-34dd-5acd-a234-941f430038ea
     fra: 7a6391e0-298e-5f5d-a5d6-f8b108459034
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: voltage (U)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6ceea758-34dd-5acd-a234-941f430038ea
 ---
@@ -76,6 +80,10 @@ data:
     designation: tension (U)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7a6391e0-298e-5f5d-a5d6-f8b108459034
 

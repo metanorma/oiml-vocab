@@ -5,8 +5,8 @@ data:
     eng: c3e36798-9668-5a23-8474-1d6e450c7062
     fra: 281796ab-688f-5aef-96b7-9b570d359d0f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -36,22 +36,36 @@ data:
   - content: Load cells equipped with electronics including amplifier, analog-to-digital
       converter (ADC), and data processing device (optionally) are called digital
       load cells (see Figure 1).
-  - content: 'Source citation: OIML R 60:2000,2.1.2.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 60:2000
+    locality:
+      type: clause
+      reference_from: 2.1.2
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.2.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML R 60:2000
   terms:
   - type: expression
     normative_status: preferred
     designation: Load cell
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c3e36798-9668-5a23-8474-1d6e450c7062
 ---
@@ -71,22 +85,36 @@ data:
       amplificateur, un convertisseur analogique-numerique (CAN), et un dispositif
       de traitement de donnees (en option) sont appelees des cellules de pese numeriques
       (voir Figure 1).
-  - content: 'Source citation: OIML R 60:2000,2.1.2.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 60:2000
+    locality:
+      type: clause
+      reference_from: 2.1.2
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.2.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML R 60:2000
   terms:
   - type: expression
     normative_status: preferred
     designation: Cellule de pese
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 281796ab-688f-5aef-96b7-9b570d359d0f
 

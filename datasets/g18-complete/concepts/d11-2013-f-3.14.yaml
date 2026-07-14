@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 05bf6d2d-fe5e-5524-b02e-c992bb3f104a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:11:2013
+  - concept_id: d-11
+    source: OIML D 11:2013
     ref_type: section
   sources:
   - origin:
@@ -40,22 +40,36 @@ data:
       identifiée par tous ceux intéressés par le résultat du mesurage; ou (d) une
       erreur de durabilité ne peut pas être détectée et mise en évidence à cause d''une
       panne du système de protection de durabilité concernée.'
-  - content: 'Source citation: VIML 5.17'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.17'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '3.14'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur de durabilité significative
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 05bf6d2d-fe5e-5524-b02e-c992bb3f104a
 

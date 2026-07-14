@@ -5,8 +5,8 @@ data:
     eng: 2425aa21-45c2-5d04-995d-7a4771d25d7a
     fra: 889286ed-4621-55fc-ad05-ca33b136c521
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   examples: []
   id: r46-2012-e-2.2.29-eng
   notes:
-  - content: 'Source citation: OIML V 1:2013, 5.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.29
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: durability
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2425aa21-45c2-5d04-995d-7a4771d25d7a
 ---
@@ -60,22 +74,36 @@ data:
   examples: []
   id: r46-2012-e-2.2.29-fra
   notes:
-  - content: 'Source citation: OIML V 1:2013, 5.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.29
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: durabilité
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 889286ed-4621-55fc-ad05-ca33b136c521
 

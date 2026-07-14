@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 5847a0f8-06c9-5342-86ff-9b47551bff01
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-101:2008
+  - concept_id: g-1-101
+    source: OIML G 1-101:2008
     ref_type: section
   sources:
   - origin:
@@ -35,16 +35,20 @@ data:
   - content: "$ \\mu $ is the expectation and $ \\sigma $ is the standard deviation
       of X."
   - content: The normal distribution is also known as a Gaussian distribution.
-  - content: 'Source citation: Adapted from ISO 3534-1:1993 1.37; GUM:1995 C.2.14'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-101:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.4'
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

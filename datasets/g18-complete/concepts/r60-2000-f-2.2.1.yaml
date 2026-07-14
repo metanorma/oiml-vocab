@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: fac12b7f-81f7-5a90-83f3-19aab603261d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60:2000
+  - concept_id: r-60
+    source: OIML R 60:2000
     ref_type: section
   sources:
   - origin:
@@ -29,7 +29,6 @@ data:
   examples: []
   id: r60-2000-f-2.2.1-fra
   notes:
-  - content: 'Source citation: Adapté de VIM 5.19'
   sources:
   - origin:
       ref:
@@ -45,6 +44,10 @@ data:
     designation: Classe d'exactitude
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fac12b7f-81f7-5a90-83f3-19aab603261d
 

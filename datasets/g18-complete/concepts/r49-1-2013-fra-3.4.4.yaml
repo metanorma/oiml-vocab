@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: fca6957c-bf93-535d-ab79-db742922169f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -30,9 +30,6 @@ data:
   examples: []
   id: r49-1-2013-fra-3.4.4-fra
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.9, modifie - "devant
-      etre atteintes" remplace "qui doivent etre remplies"; "compteur" remplace "instrument
-      de mesure or systeme de mesure".'
   - content: Les conditions assignees de fonctionnement specifient les intervalles
       pour les debits et pour les grandeurs d'influence dans lesquelles les erreurs
       (d'indication) doivent etre au sein des erreurs maximales tolerees.
@@ -54,6 +51,10 @@ data:
     designation: CAF
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fca6957c-bf93-535d-ab79-db742922169f
 

@@ -5,8 +5,8 @@ data:
     eng: c7656607-b287-5b57-8b88-2f7b9bc25b52
     fra: c04de9d7-6676-5dc4-98f3-4023b9c2e70a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -40,22 +40,36 @@ data:
       measured during the fault.
   - content: Faults that are detected and acted upon by means of a checking facility
       shall not be considered as significant faults.
-  - content: 'Source citation: OIML V 1:2013, 5.07'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.32
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c7656607-b287-5b57-8b88-2f7b9bc25b52
 ---
@@ -79,22 +93,36 @@ data:
       durée du défaut et la quantité d'énergie mesurée pendant le défaut.
   - content: Les défauts détectés et mis en évidence au moyen de systèmes de contrôle
       ne doivent pas être considérés comme des défauts significatifs.
-  - content: 'Source citation: OIML V 1:2013, 5.07'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.32
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: système de contrôle
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c04de9d7-6676-5dc4-98f3-4023b9c2e70a
 

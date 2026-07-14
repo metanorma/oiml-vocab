@@ -5,8 +5,8 @@ data:
     eng: e18bf373-f7d1-5b9d-9442-658f0c36c36e
     fra: d2ce158a-877c-5404-89c8-5a1bceeea4c3
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -30,8 +30,6 @@ data:
   examples: []
   id: r49-2013-f-3.2.9-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.12, modified — "this part of
-      OIML R 49" replaces "the relevant Recommendation".'
   - content: See 5.1.2, which specifies the value of a significant fault.
   sources:
   - origin:
@@ -48,6 +46,10 @@ data:
     designation: significant fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e18bf373-f7d1-5b9d-9442-658f0c36c36e
 ---
@@ -61,8 +63,6 @@ data:
   examples: []
   id: r49-2013-f-3.2.9-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.12, modifié — « cette partie
-      de la R 49 » remplace « la Recommandation applicable ».'
   - content: Voir 5.1.2, qui spécifie la valeur d'un défaut significatif.
   sources:
   - origin:
@@ -79,6 +79,10 @@ data:
     designation: défaut significatif
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d2ce158a-877c-5404-89c8-5a1bceeea4c3
 

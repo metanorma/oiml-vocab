@@ -33,17 +33,20 @@ data:
       the temperature of the water passing through the meter affects the measurand.
   id: r49-3.4.1-eng
   notes:
-  - content: 'Source citation: ISO/IEC Guide 99:2007|OIML V 2-200:2012 (VIM) 2.52,
-      modified - original examples and notes removed; "EXAMPLE" added.'
+  - content: 'Source citation: ISO/IEC Guide 99'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2024
         version: '2024'
     locality:
       type: clause
       reference_from: 3.4.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred

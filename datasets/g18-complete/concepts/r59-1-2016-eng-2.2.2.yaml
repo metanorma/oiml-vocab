@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: eabf4e75-2b8f-5c42-9bd6-a72159cf0c7f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:59-1:2016
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   notes:
   - content: Electronic signing of data with the purpose of enabling the receiver
       or user of the data to verify the origin of the data, i.e. to prove their authenticity.
-  - content: 'Source citation: OIML D 31, 3.1.11'
   sources:
   - origin:
       ref:
@@ -49,6 +48,10 @@ data:
     designation: cryptographic means
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: eabf4e75-2b8f-5c42-9bd6-a72159cf0c7f
 

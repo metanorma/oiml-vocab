@@ -5,8 +5,8 @@ data:
     eng: 0c6750f6-19c9-5af8-b578-1e4c659e035b
     fra: 47a2e9b2-af01-5c59-8874-d0ea98648e08
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -48,6 +48,10 @@ data:
     designation: calibration gas mixture (CGM)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0c6750f6-19c9-5af8-b578-1e4c659e035b
 ---
@@ -78,6 +82,10 @@ data:
     designation: mélange de gaz pour étalonnage (CGM)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 47a2e9b2-af01-5c59-8874-d0ea98648e08
 

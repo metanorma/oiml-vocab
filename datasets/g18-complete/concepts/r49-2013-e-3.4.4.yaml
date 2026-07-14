@@ -5,8 +5,8 @@ data:
     eng: ae187166-8563-5b55-b71f-fb21bc644bcf
     fra: 7c47be98-6f88-5690-93b5-fcba291929bb
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -34,9 +34,6 @@ data:
   - content: The rated operating conditions specify intervals for the flow rate and
       for the influence quantities for which the errors (of indication) are required
       to be within the maximum permissible errors.
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.9, modified — "requiring
-      fulfillment" replaces "that must be fulfilled"; "meter" replaces "measuring
-      instrument or measuring system".'
   sources:
   - origin:
       ref:
@@ -55,6 +52,10 @@ data:
     designation: ROC
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ae187166-8563-5b55-b71f-fb21bc644bcf
 ---
@@ -71,9 +72,6 @@ data:
   - content: les conditions assignees de fonctionnement specifient les intervalles
       pour les debits et pour les grandeurs d'influence dans lesquelles les erreurs
       (d'indication) doivent etre au sein des erreurs maximales tolerees.
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.9, modifie — << devant
-      etre atteintes >> remplace << qui doivent etre remplies >> ; << compteur >>
-      remplace << instrument de mesure or systeme de mesure >>.'
   sources:
   - origin:
       ref:
@@ -92,6 +90,10 @@ data:
     designation: CAF
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7c47be98-6f88-5690-93b5-fcba291929bb
 

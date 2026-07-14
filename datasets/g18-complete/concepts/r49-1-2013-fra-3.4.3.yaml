@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 22fe1924-960d-5c4f-961a-4a101948104f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -33,9 +33,6 @@ data:
   notes:
   - content: Une grandeur d'influence est une perturbation si pour cette grandeur
       d'influence, les conditions assignees de fonctionnement ne sont pas specifiees.
-  - content: 'Source citation: OIML D 11:2013 [3], 3.15.2, modifie - "cette partie
-      de OIML R 49" remplace "la Recommandation Applicable"; "compteur" remplace "instrument
-      de mesure".'
   sources:
   - origin:
       ref:
@@ -51,6 +48,10 @@ data:
     designation: perturbation
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 22fe1924-960d-5c4f-961a-4a101948104f
 

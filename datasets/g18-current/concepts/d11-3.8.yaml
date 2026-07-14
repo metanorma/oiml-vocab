@@ -53,6 +53,10 @@ data:
     designation: erreur intrinsèque
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9f282317-4f9f-570f-a35f-9e36f8fec71d
 ---
@@ -65,22 +69,36 @@ data:
   examples: []
   id: d11-3.8-eng
   notes:
-  - content: 'Source citation: VIML 0.06'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.06'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: '2026'
     locality:
       type: clause
       reference_from: '3.8'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: cf5e5f72-1e01-5d0f-9ff8-5cfc84c1053c
 

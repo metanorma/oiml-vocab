@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: a7511a08-8e4f-55a7-8907-cf2e0f0b66d2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:137-1-2:2012
+  - concept_id: r-137-1-2
+    source: OIML R 137-1-2:2012
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r137-1-2-2012-eng-3.2.22-eng
   notes:
-  - content: 'Source citation: VIM 4.21'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137-1-2:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.22
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: "(instrumental) drift"
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a7511a08-8e4f-55a7-8907-cf2e0f0b66d2
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: f9b74c2a-8d75-55f5-9998-f600864d5994
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:b:18:2022
+  - concept_id: b-18
+    source: OIML B 18:2022
     ref_type: section
   sources:
   - origin:
@@ -35,16 +35,20 @@ data:
       competence of OIML Issuing Authorities and Test Laboratories to be registered
       in the Declaration.
   - content: In the OIML-CS, peer assessment is equivalent to accreditation (see 3.1).
-  - content: 'Source citation: ISO/IEC 17000, 6.7'
+  - content: 'Source citation: ISO/IEC 17000 6.7'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 18:2022
         version: '2022'
     locality:
       type: clause
       reference_from: '3.33'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred

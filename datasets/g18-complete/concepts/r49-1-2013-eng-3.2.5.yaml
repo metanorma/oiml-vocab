@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: acc57b4a-dece-5e9f-951a-3cd1ab38c1a2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -30,8 +30,6 @@ data:
   examples: []
   id: r49-1-2013-eng-3.2.5-eng
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 4.26, modified — "meter"
-      replaces "measurement, measuring instrument, or measuring system".'
   sources:
   - origin:
       ref:
@@ -50,6 +48,10 @@ data:
     designation: MPE
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: acc57b4a-dece-5e9f-951a-3cd1ab38c1a2
 

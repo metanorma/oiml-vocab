@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b54572c9-5189-5fca-ad28-9b6c587361b3
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:150-1:2020
+  - concept_id: r-150-1
+    source: OIML R 150-1:2020
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r150-1-2020-eng-2.5.1.2-eng
   notes:
-  - content: 'Source citation: VIML 5.19'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 150-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.5.1.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: disturbance
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b54572c9-5189-5fca-ad28-9b6c587361b3
 

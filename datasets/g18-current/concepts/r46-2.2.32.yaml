@@ -66,7 +66,6 @@ data:
   notes:
   - content: '"Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
-  - content: 'Source citation: OIML V 1:2013, 5.07'
   - content: 'For the application of this Recommendation, the term "measuring instrument"
       means: electricity meter and the action following the detection of a significant
       fault should be either to stop measuring and record the time and duration of
@@ -75,20 +74,35 @@ data:
   - content: Faults that are detected and acted upon by means of a checking facility
       shall not be considered as significant faults.
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.32
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0af3965d-d54e-5b85-af42-2a8a10f02825
 ---
@@ -105,7 +119,6 @@ data:
   - content: '"Actuar sobre los mismos" se refiere a cualquier respuesta adecuada
       por el instrumento de medición (señal lumínica, señal acústica, prevención del
       proceso de medición, etc.).'
-  - content: 'Source citation: OIML V 1:2013, 5.07'
   - content: 'Para su aplicación en esta Recomendación, el término "instrumento de
       medición" significa: medidor de electricidad y la acción que sigue a la detección
       de un fallo significativo debería bien sea detener la medición y registrar la
@@ -114,20 +127,35 @@ data:
   - content: Los fallos que se detecten y generen acciones por un dispositivo de verificación
       no serán considerados fallos significativos.
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.32
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Dispositivo de verificación
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 12f5b870-d7f5-5d10-9f56-a962506465bd
 ---
@@ -143,22 +171,36 @@ data:
   notes:
   - content: La mise en évidence peut être matérialisée par toute réponse appropriée
       de l'instrument de mesure.
-  - content: 'Source citation: OIML V 1:2013, 5.07'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1-2:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.2.32
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: système de contrôle
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 01c69d4b-9be7-5123-a5b2-27bdd42157d6
 

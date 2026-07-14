@@ -5,8 +5,8 @@ data:
     eng: 839ed729-ddc6-5d68-a906-257f6686f3ed
     fra: d9dd027c-1ea0-5b97-af0d-9667f6f3ebf0
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: tare-balancing device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 839ed729-ddc6-5d68-a906-257f6686f3ed
 ---
@@ -74,6 +78,10 @@ data:
     designation: dispositif d'équilibrage de la tare
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d9dd027c-1ea0-5b97-af0d-9667f6f3ebf0
 

@@ -30,22 +30,36 @@ data:
   examples: []
   id: r60-3.7.16-eng
   notes:
-  - content: 'Source citation: VIML 5.17'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.17'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 60-1:2021
         version: '2021'
     locality:
       type: clause
       reference_from: 3.7.16
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: significant durability error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: dc36a437-9c1e-5280-93f0-2c1b9860b165
 

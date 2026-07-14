@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 87f7cb50-ff16-594a-8e0d-7d92a70d57ec
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:146:2016
+  - concept_id: r-146
+    source: OIML R 146:2016
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   notes:
   - content: In general this software is founded on an operating system that permits
       loading and execution of software for specific purposes.
-  - content: 'Source citation: OIML D 31:2008, 3.1.54'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 31:2008
+    locality:
+      type: clause
+      reference_from: 3.1.54
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 146:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.2.17
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 31:2008
   terms:
   - type: expression
     normative_status: preferred
     designation: universal computer
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 87f7cb50-ff16-594a-8e0d-7d92a70d57ec
 

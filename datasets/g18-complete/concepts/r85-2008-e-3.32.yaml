@@ -5,8 +5,8 @@ data:
     eng: 06dada65-b6c5-506c-b72e-f19162f250a3
     fra: 960cfe70-9380-5ad9-89ab-d8173a8a7813
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:85:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
   sources:
   - origin:
@@ -48,6 +48,10 @@ data:
     designation: Fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 06dada65-b6c5-506c-b72e-f19162f250a3
 ---
@@ -77,6 +81,10 @@ data:
     designation: Défaut
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 960cfe70-9380-5ad9-89ab-d8173a8a7813
 

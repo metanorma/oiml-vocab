@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 6c70b0c8-a6d5-507f-b6e2-6144ff57556d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -35,7 +35,6 @@ data:
   - content: Like true value, systematic error and its causes cannot be completely
       known.
   - content: For a measuring instrument, see "bias" (VIM:1993, definition 5.25).
-  - content: 'Source citation: VIM:1993, definition 3.14'
   sources:
   - origin:
       ref:
@@ -51,6 +50,10 @@ data:
     designation: systematic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6c70b0c8-a6d5-507f-b6e2-6144ff57556d
 

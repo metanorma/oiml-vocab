@@ -5,8 +5,8 @@ data:
     eng: 166ca916-97c2-5ee6-ab2c-60d78f8c1d82
     fra: bed89301-54f2-5be3-9bbc-05bab8a6c345
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106:2011
+  - concept_id: r-106
+    source: OIML R 106:2011
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: minimum operating speed
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 166ca916-97c2-5ee6-ab2c-60d78f8c1d82
 ---
@@ -76,6 +80,10 @@ data:
     designation: vitesse minimale de fonctionnement
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bed89301-54f2-5be3-9bbc-05bab8a6c345
 

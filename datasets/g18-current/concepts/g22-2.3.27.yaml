@@ -35,22 +35,36 @@ data:
   - content: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
       to an operating condition under which the specified instrumental measurement
       uncertainty is the smallest possible.
-  - content: 'Source citation: OIML D 11:2013, 3.17'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: '3.17'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 22:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.3.27
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: reference condition
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3c1648f5-2d5b-517b-9b43-f5354f29955c
 

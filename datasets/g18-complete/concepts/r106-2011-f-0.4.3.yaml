@@ -5,8 +5,8 @@ data:
     eng: db10216d-36ea-5c00-baef-8ae952c4bcfc
     fra: 7cc8a641-70ad-5f68-b4c1-da48648a4db3
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106:2011
+  - concept_id: r-106
+    source: OIML R 106:2011
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: reading by simple juxtaposition
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: db10216d-36ea-5c00-baef-8ae952c4bcfc
 ---
@@ -74,6 +78,10 @@ data:
     designation: lecture par simple juxtaposition
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7cc8a641-70ad-5f68-b4c1-da48648a4db3
 

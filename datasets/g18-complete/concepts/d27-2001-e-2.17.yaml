@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 67a05f8e-9018-56c8-a99c-8a6d8a52e821
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -36,14 +36,18 @@ data:
       and performance of a measuring instrument prior to its being placed in service.
   - content: 'Source citation: ISO/IEC Guide 22'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.17'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: a5d1a299-6f6b-53e9-af11-1d6f820b054e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: d31-2008-f-3.1.32-fra
   notes:
-  - content: 'Source citation: VIM:1993, 5.21; OIML D 11:2004, 3.6'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2:1993
+    locality:
+      type: clause
+      reference_from: '5.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.32
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2:1993
   terms:
   - type: expression
     normative_status: preferred
     designation: Erreur maximale tolérée (d'un instrument de mesure)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2
+    source: OIML V 2:1993
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a5d1a299-6f6b-53e9-af11-1d6f820b054e
 

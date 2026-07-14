@@ -5,8 +5,8 @@ data:
     eng: '078ea182-720f-5d50-b921-74c7c5c27f11'
     fra: 888bb928-6446-5a4e-b1a3-8b1f98769fd9
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: Minimum capacity (Min)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '078ea182-720f-5d50-b921-74c7c5c27f11'
 ---
@@ -74,6 +78,10 @@ data:
     designation: Portee minimale (Min)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 888bb928-6446-5a4e-b1a3-8b1f98769fd9
 

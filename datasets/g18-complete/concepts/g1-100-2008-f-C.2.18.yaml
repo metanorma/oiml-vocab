@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: e8e5090d-5ffd-5046-b5bc-57f0c9472002
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -33,16 +33,20 @@ data:
   - content: La distribution peut être présentée graphiquement sous la forme d'un
       histogramme, d'un diagramme en bâtons, d'un polygone d'effectif cumulé, ou d'une
       table d'effectifs à double entrée.
-  - content: 'Source citation: ISO 3534-1:1993, definition 2.15'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-100:2008
         version: '2008'
     locality:
       type: clause
       reference_from: C.2.18
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

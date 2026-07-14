@@ -40,14 +40,18 @@ data:
   notes:
   - content: 'Source citation: ISO/IEC 17000 4.6'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 10:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.8'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred
@@ -67,16 +71,20 @@ data:
   examples: []
   id: d10-3.8-spa
   notes:
-  - content: 'Source citation: ISO/IEC 17000, 4.6'
+  - content: 'Source citation: ISO/IEC 17000 4.6'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 10:2022
         version: '2022'
     locality:
       type: clause
       reference_from: '3.8'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred

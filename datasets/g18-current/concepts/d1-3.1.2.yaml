@@ -40,22 +40,36 @@ data:
   examples: []
   id: d1-3.1.2-fra
   notes:
-  - content: 'Source citation: VIM 2.41'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.41'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Traçabilité métrologique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9566394f-bbb9-5c6d-9449-5045aca67007
 ---
@@ -70,22 +84,36 @@ data:
   examples: []
   id: d1-3.1.2-eng
   notes:
-  - content: 'Source citation: VIM 2.41'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.41'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Metrological traceability
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6e261140-b6bc-577e-a111-80640fa7c5ad
 

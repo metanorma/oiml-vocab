@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: c1f1c4d7-3930-508d-b095-f490b067575b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60:2017
+  - concept_id: r-60
+    source: OIML R 60:2017
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r60-2017-e-3.7.3-eng
   notes:
-  - content: 'Source citation: VIML 5.16'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.16'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 60:2017
         version: '2017'
     locality:
       type: clause
       reference_from: 3.7.3
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: durability error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c1f1c4d7-3930-508d-b095-f490b067575b
 

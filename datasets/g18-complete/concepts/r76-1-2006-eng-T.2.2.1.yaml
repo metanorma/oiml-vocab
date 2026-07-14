@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 3bc59a9b-bca5-5c94-89bd-48a71af44870
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76-1:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
   sources:
   - origin:
@@ -32,22 +32,36 @@ data:
   examples: []
   id: r76-1-2006-eng-T.2.2.1-eng
   notes:
-  - content: 'Source citation: OIML R 60:2000, 2.1.2'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 60:2000
+    locality:
+      type: clause
+      reference_from: 2.1.2
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.2.2.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML R 60:2000
   terms:
   - type: expression
     normative_status: preferred
     designation: load cell
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3bc59a9b-bca5-5c94-89bd-48a71af44870
 

@@ -44,22 +44,36 @@ data:
   - content: 'Wesentliche Hilfseinrichtungen sind: Nullstelleinrichtung; Wiederholanzeigeeinrichtung;
       Druckeinrichtung; Speichereinrichtung; Preisanzeigeeinrichtung; Summenanzeigeeinrichtung;
       Voreinstelleinrichtung; Selbstbedienungseinrichtung.'
-  - content: 'Source citation: VIML 5.06'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.06'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.1.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Hilfseinrichtung
   language_code: deu
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 46eb737e-6463-5db2-8646-6d07e82eab14
 ---
@@ -78,22 +92,36 @@ data:
   - content: 'Main ancillary devices are: - zero-setting device; - repeating indicating
       device; - printing device; - memory device; - price indicating device; - totalising
       indicating device; - pre-setting device; - self-service device.'
-  - content: 'Source citation: VIML 5.06'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.06'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 129-1:2020
         version: '2020'
     locality:
       type: clause
       reference_from: 2.1.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: ancillary device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 815bce7f-3976-536d-beb6-97cc93363413
 

@@ -35,22 +35,36 @@ data:
       used where there are two extreme values.
   - content: The term "tolerance" shall not be used to designate "maximum permissible
       error".
-  - content: 'Source citation: OIML D 31:2019, 3.1.28'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 31:2019
+    locality:
+      type: clause
+      reference_from: 3.1.28
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 22:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.3.17
+    sourced_from:
+    - ref:
+        source: OIML D 31:2019
   terms:
   - type: expression
     normative_status: preferred
     designation: maximum permissible error (MPE)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2019
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e0b4b854-1592-5980-9f98-60228166b0c1
 

@@ -40,16 +40,20 @@ data:
   examples: []
   id: r147-2.1.1-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000:2004; 5.6'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 147:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.1.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred
@@ -71,16 +75,20 @@ data:
   examples: []
   id: r147-2.1.1-fra
   notes:
-  - content: 'Source citation: ISO/IEC 17000:2004; 5.6 [1]'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 147:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.1.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

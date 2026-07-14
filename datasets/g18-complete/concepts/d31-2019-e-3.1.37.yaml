@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: fcca778f-a53c-51a7-b36a-1848809d3671
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2019
+  - concept_id: d-31
+    source: OIML D 31:2019
     ref_type: section
   sources:
   - origin:
@@ -37,7 +37,6 @@ data:
   - content: The measurement result (including the measured quantity value according
       to V 2:200:2012) is used for the legally relevant purpose, e.g. conclusion of
       a transaction.
-  - content: 'Source citation: adapted from [V 2-200:2012, 2.9]'
   sources:
   - origin:
       ref:
@@ -53,6 +52,10 @@ data:
     designation: measurement result
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2019
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fcca778f-a53c-51a7-b36a-1848809d3671
 

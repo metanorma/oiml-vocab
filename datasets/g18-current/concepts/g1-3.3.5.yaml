@@ -35,16 +35,20 @@ data:
       different meaning from the same term as it is used in statistics.
   - content: A tolerance interval is called a 'specification zone' in ASME B89.7.3.1:2001
       [2].
-  - content: 'Source citation: Adapted from ISO 10576-1:2003 3.5'
+  - content: 'Source citation: ISO 10576- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-106:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 3.3.5
+    sourced_from:
+    - ref:
+        source: ISO 10576-
   terms:
   - type: expression
     normative_status: preferred

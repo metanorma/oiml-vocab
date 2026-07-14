@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 9059f0c0-3664-5d24-b76e-81262adf37d4
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:137-1:2006
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
     ref_type: section
   sources:
   - origin:
@@ -33,7 +33,6 @@ data:
   - content: In practice this is the difference between the error of the meter observed
       during or after a test, and the error of the meter prior to this test, performed
       under reference conditions.
-  - content: 'Source citation: OIML D 11, 3.9'
   sources:
   - origin:
       ref:
@@ -52,6 +51,10 @@ data:
     designation: Delta e
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9059f0c0-3664-5d24-b76e-81262adf37d4
 

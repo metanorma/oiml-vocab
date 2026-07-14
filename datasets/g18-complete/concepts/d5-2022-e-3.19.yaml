@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 5bd1631d-b3e7-5da8-b77c-1d3d71d33616
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:5:2022
+  - concept_id: d-5
+    source: OIML D 5:2022
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
       a reference measurement standard.
   - content: In relation to verification, the terms "check standard" or "control standard"
       are also sometimes used.
-  - content: 'Source citation: VIM 5.7'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.7'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.19'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: working measurement standard
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5bd1631d-b3e7-5da8-b77c-1d3d71d33616
 

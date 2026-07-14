@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 3ff6eeeb-9036-568c-ad72-bcb7debdc9aa
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:50:2014
+  - concept_id: r-50
+    source: OIML R 50:2014
     ref_type: section
   sources:
   - origin:
@@ -30,7 +30,6 @@ data:
   examples: []
   id: r50-2014-e-2.2.11.1-eng
   notes:
-  - content: 'Source citation: OIML D31, 3.1.31 [23]'
   - content: Examples of legally relevant software are software involved in the determination
       of the final results of the measurement including the decimal sign and the unit,
       identification of the weighing range, software identification, and load receptor
@@ -50,6 +49,10 @@ data:
     designation: legally relevant software part
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-50
+    source: OIML R 50:2014
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3ff6eeeb-9036-568c-ad72-bcb7debdc9aa
 

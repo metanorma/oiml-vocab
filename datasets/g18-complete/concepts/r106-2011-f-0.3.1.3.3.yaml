@@ -5,8 +5,8 @@ data:
     eng: 48f89dfc-fce3-56ba-b900-5f96d57f99b0
     fra: 1559b511-cca5-515c-a60f-e21704fec4ab
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106:2011
+  - concept_id: r-106
+    source: OIML R 106:2011
     ref_type: section
   sources:
   - origin:
@@ -45,6 +45,10 @@ data:
     designation: train weighing
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 48f89dfc-fce3-56ba-b900-5f96d57f99b0
 ---
@@ -72,6 +76,10 @@ data:
     designation: pesage du train
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1559b511-cca5-515c-a60f-e21704fec4ab
 

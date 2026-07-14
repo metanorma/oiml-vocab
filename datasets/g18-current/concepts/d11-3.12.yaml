@@ -50,22 +50,36 @@ data:
       (d) défauts provoquant des variations du résultat de mesurage suffisamment importantes
       pour être identifiées par tous ceux intéressés par le résultat de mesurage;
       la Recommandation applicable peut spécifier la nature de ces variations.'
-  - content: 'Source citation: VIML 5.14'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.14'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: '2026'
     locality:
       type: clause
       reference_from: '3.12'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: défaut significatif
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 73f55a8a-324e-5e91-a19c-543d01b4f450
 ---
@@ -105,6 +119,10 @@ data:
     designation: significant fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
 date_accepted: 2026-07-13 00:00:00.000000000 +00:00
 id: c9c4c58b-2c36-526b-89c3-ecc105724d9a
 

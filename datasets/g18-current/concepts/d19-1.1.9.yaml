@@ -45,14 +45,18 @@ data:
       laboratory assessment and is followed by appropriate monitoring.
   - content: 'Source citation: ISO Guide 2'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 19:1988
         version: '1988'
     locality:
       type: clause
       reference_from: 1.1.9
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO Guide
   terms:
   - type: expression
     normative_status: preferred
@@ -77,7 +81,6 @@ data:
       d'essais que la seule reconnaissance de sa capacité technique. L'agrément est
       normalement accordé après une évaluation positive du laboratoire, suivie d'une
       surveillance appropriée.
-  - content: 'Source citation: Guide ISO 2'
   sources:
   - origin:
       ref:
@@ -93,6 +96,10 @@ data:
     designation: Agrément d'un laboratoire
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-19
+    source: OIML D 19:1988
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 51136381-896c-5101-9e9c-65ff4a5315db
 

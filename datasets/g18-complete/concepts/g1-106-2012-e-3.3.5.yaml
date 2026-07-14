@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b1e96145-aded-59d8-880c-1bd3dfc44fa6
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-106:2012
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
     ref_type: section
   sources:
   - origin:
@@ -35,16 +35,20 @@ data:
       different meaning from the same term as it is used in statistics.
   - content: A tolerance interval is called a 'specification zone' in ASME B89.7.3.1:2001
       [2].
-  - content: 'Source citation: Adapted from ISO 10576-1:2003 3.5'
+  - content: 'Source citation: ISO 10576- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-106:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 3.3.5
+    sourced_from:
+    - ref:
+        source: ISO 10576-
   terms:
   - type: expression
     normative_status: preferred

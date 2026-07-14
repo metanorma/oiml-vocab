@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 2c45a4d6-1d37-56ed-b0cf-fefb088939fe
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:b:18:2025
+  - concept_id: b-18
+    source: OIML B 18:2025
     ref_type: section
   sources:
   - origin:
@@ -29,16 +29,20 @@ data:
   examples: []
   id: b18-2025-e-3.9-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000:2020, 4.6 [4]'
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 18:2025
         version: '2025'
     locality:
       type: clause
       reference_from: '3.9'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

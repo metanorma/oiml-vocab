@@ -4,8 +4,8 @@ data:
   localized_concepts:
     spa: b3e4e8f7-aed7-526d-b55e-0bd159d5e88b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -43,7 +43,6 @@ data:
       término resultado de medición estaba definido como un valor atribuido al mensurando
       y podía entenderse como indicación, resultado no corregido o resultado corregido,
       según el contexto.
-  - content: 'Source citation: VIM3, 2.9'
   sources:
   - origin:
       ref:
@@ -62,6 +61,10 @@ data:
     designation: resultado de una medición
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b3e4e8f7-aed7-526d-b55e-0bd159d5e88b
 

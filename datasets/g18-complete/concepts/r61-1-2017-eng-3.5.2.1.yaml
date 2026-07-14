@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 783ef3e2-5b33-53f9-9872-17cfe0db63fe
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:61-1:2017
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
     ref_type: section
   sources:
   - origin:
@@ -38,7 +38,6 @@ data:
       quantity values of negligible range, in which case the measurement error is
       not known.
   - content: Measurement error should not be confused with production error or mistake.
-  - content: 'Source citation: VIM, 2.16'
   sources:
   - origin:
       ref:
@@ -54,6 +53,10 @@ data:
     designation: measurement error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 783ef3e2-5b33-53f9-9872-17cfe0db63fe
 

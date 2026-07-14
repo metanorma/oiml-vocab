@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 6748b02c-b6a4-5037-96cf-7208ea05cd16
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:b:18:2017
+  - concept_id: b-18
+    source: OIML B 18:2017
     ref_type: section
   sources:
   - origin:
@@ -32,16 +32,20 @@ data:
   id: b18-2017-e-3.1-eng
   notes:
   - content: In the OIML-CS, accreditation is equivalent to peer assessment (see 3.31).
-  - content: 'Source citation: ISO/IEC 17000, 5.6'
+  - content: 'Source citation: ISO/IEC 17000 5.6'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 18:2017
         version: '2017'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.1'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred

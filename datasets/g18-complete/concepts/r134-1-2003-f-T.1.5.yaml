@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 22be94b8-f7c5-5593-8fc3-e4933fe50a2e
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:134-1:2003
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
     ref_type: section
   sources:
   - origin:
@@ -45,6 +45,10 @@ data:
     designation: Instrument de contrôle
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 22be94b8-f7c5-5593-8fc3-e4933fe50a2e
 

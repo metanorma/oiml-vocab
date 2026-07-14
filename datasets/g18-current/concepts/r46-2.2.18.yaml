@@ -69,7 +69,6 @@ data:
       is used where there are two extreme values.
   - content: The term "tolerance" should not be used to designate "maximum permissible
       error".
-  - content: 'Source citation: OIML V 2-200:2012, 4.26'
   - content: In this Recommendation, the maximum permissible error is a combination
       of the base maximum permissible error and the maximum permissible error shift
       as described in Annex B.
@@ -77,20 +76,35 @@ data:
       means: the provisions contained in this Recommendation, and the terms "measuring
       instrument" and "measuring system" mean: electricity meter.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.18
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: maximum permissible error (mpe)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e887a87f-7bfb-5ec8-a756-73347e9f8607
 ---
@@ -109,7 +123,6 @@ data:
       se utiliza cuando hay dos valores extremos.
   - content: El término "tolerancia" no debe utilizarse para referirse a "error máximo
       permitido".
-  - content: 'Source citation: OIML V 2-200:2012, 4.26'
   - content: En esta Recomendación, el error máximo permitido es una combinación del
       error máximo permitido base y el cambio en el error máximo permitido, según
       se describe en el Anexo B.
@@ -117,20 +130,35 @@ data:
       significa: las disposiciones contenidas en esta Recomendación, y los términos
       "instrumento de medición" y "sistema de medición" significan: medidor de electricidad.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.18
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Error máximo permitido (mpe)
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e5ec9139-a336-53a3-9352-273f824bb3f7
 ---
@@ -148,22 +176,36 @@ data:
   - content: Dans la présente Recommandation, l'erreur maximale tolérée est une combinaison
       de l'erreur maximale tolérée de base et le décalage d'erreur maximal toléré
       tel que décrit en Annexe B.
-  - content: 'Source citation: OIML V 2-200:2012,4.26'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1-2:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.2.18
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur maximale tolérée emt
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7fca18c0-6cce-553f-b866-4cccfadf3302
 

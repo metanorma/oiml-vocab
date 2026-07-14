@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 292668c7-8949-5562-b303-6013b88a4282
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-106:2012
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   notes:
   - content: A measured quantity value is also known as an estimate, or best estimate,
       of a quantity.
-  - content: 'Source citation: JCGM 200:2012 2.10'
   sources:
   - origin:
       ref:
@@ -53,6 +52,10 @@ data:
     designation: measured value
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-1-106
+    source: OIML G 1-106:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 292668c7-8949-5562-b303-6013b88a4282
 

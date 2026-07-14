@@ -5,8 +5,8 @@ data:
     eng: 9935ec86-afca-56df-a5bf-2fa9f4b95286
     fra: 3a5531f3-f9d4-550d-a7c7-8014796f4bfb
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -34,7 +34,6 @@ data:
   - content: In this Recommendation, "drift" means a change in the indication which
       occurs during a stated period of time at a given concentration of CO, NO and
       $ \mathrm{N O_{2}} $ in a sample to be analyzed.
-  - content: 'Source citation: VIM, 4.21 [1]'
   sources:
   - origin:
       ref:
@@ -50,6 +49,10 @@ data:
     designation: instrumental drift
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9935ec86-afca-56df-a5bf-2fa9f4b95286
 ---
@@ -66,7 +69,6 @@ data:
   - content: Dans cette Recommandation, « dérive » signifie bangement de l'indication
       qui apparaît pendant une période de temps définie et à une ntation donnée de
       CO, NO et NOans un échantillon à analyser.
-  - content: 'Source citation: VIM, 4.11 [1]'
   sources:
   - origin:
       ref:
@@ -82,6 +84,10 @@ data:
     designation: dérive instrumentale
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3a5531f3-f9d4-550d-a7c7-8014796f4bfb
 

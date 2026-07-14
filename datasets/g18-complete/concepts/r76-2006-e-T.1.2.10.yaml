@@ -5,8 +5,8 @@ data:
     eng: eabd4231-07ca-5ec6-bf9c-281964d9ab34
     fra: d97ec543-e6a9-58bb-90ca-0703ebc9edf0
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -45,6 +45,10 @@ data:
     designation: self-service instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: eabd4231-07ca-5ec6-bf9c-281964d9ab34
 ---
@@ -72,6 +76,10 @@ data:
     designation: instrument libre-service
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d97ec543-e6a9-58bb-90ca-0703ebc9edf0
 

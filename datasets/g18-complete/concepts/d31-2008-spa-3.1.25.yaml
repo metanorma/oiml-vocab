@@ -4,8 +4,8 @@ data:
   localized_concepts:
     spa: 3e30f1c9-0aaf-5fab-b5b3-9ed5f904d508
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:31:2008
+  - concept_id: d-31
+    source: OIML D 31:2008
     ref_type: section
   sources:
   - origin:
@@ -33,16 +33,20 @@ data:
   examples: []
   id: d31-2008-spa-3.1.25-spa
   notes:
-  - content: 'Source citation: ISO/IEC 9594-8:2001'
+  - content: 'Source citation: ISO/IEC 9594- 8'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2008
         version: '2008'
     locality:
       type: clause
       reference_from: 3.1.25
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 9594-
   terms:
   - type: expression
     normative_status: preferred

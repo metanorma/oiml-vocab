@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: c10f73da-7106-5572-9769-916e5837a5c8
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:19:2017
+  - concept_id: g-19
+    source: OIML G 19:2017
     ref_type: section
   sources:
   - origin:
@@ -41,7 +41,6 @@ data:
       that has a value. Both uses of the term 'indication' can be found in the metrology
       literature. In this Guide the definition given above will be used. Note that
       in reference [5] this is not the case. (not in VIM3)
-  - content: 'Source citation: VIM3 4.1'
   sources:
   - origin:
       ref:
@@ -57,6 +56,10 @@ data:
     designation: indication
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-19
+    source: OIML G 19:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c10f73da-7106-5572-9769-916e5837a5c8
 

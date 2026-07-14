@@ -35,22 +35,36 @@ data:
       unit through its practical realisation, or a measurement procedure including
       the measurement unit for a non-ordinal quantity, or a measurement standard.
   - content: Metrological traceability requires an established calibration hierarchy.
-  - content: 'Source citation: VIM 2.41'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.41'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.7'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: metrological traceability
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d822939a-b865-5c81-b451-101242e04e8c
 

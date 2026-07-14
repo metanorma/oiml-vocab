@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 72de56d8-8621-527e-8517-55c17a154a8b
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:107-1:2007
+  - concept_id: r-107-1
+    source: OIML R 107-1:2007
     ref_type: section
   sources:
   - origin:
@@ -33,22 +33,36 @@ data:
   - content: These conditions of use are the range of weight values and the range
       of influence quantity values for which the indication of an instrument is intended
       to lie within maximum permissible errors.
-  - content: 'Source citation: VIM:1993, 5.5'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2:1993
+    locality:
+      type: clause
+      reference_from: '5.5'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 107-1:2007
         version: '2007'
     locality:
       type: clause
       reference_from: T.5.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2:1993
   terms:
   - type: expression
     normative_status: preferred
     designation: rated operating conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2
+    source: OIML V 2:1993
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 72de56d8-8621-527e-8517-55c17a154a8b
 

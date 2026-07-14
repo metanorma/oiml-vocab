@@ -5,8 +5,8 @@ data:
     eng: a0d7ec69-8de9-598a-9140-199d1b400cb4
     fra: 25af9733-2fe6-5ca6-aaad-f9ca4467288a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46:2012
+  - concept_id: r-46
+    source: OIML R 46:2012
     ref_type: section
   sources:
   - origin:
@@ -45,6 +45,10 @@ data:
     designation: transformer operated meter
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a0d7ec69-8de9-598a-9140-199d1b400cb4
 ---
@@ -73,6 +77,10 @@ data:
     designation: compteur alimenté par transformateur
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 25af9733-2fe6-5ca6-aaad-f9ca4467288a
 

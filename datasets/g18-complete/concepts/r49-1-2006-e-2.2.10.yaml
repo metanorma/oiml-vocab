@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 72379484-d932-566c-a00e-4dadf947445f
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2006
+  - concept_id: r-49-1
+    source: OIML R 49-1:2006
     ref_type: section
   sources:
   - origin:
@@ -30,7 +30,6 @@ data:
   examples: []
   id: r49-1-2006-e-2.2.10-eng
   notes:
-  - content: 'Source citation: adapted from OIML D 11'
   - content: The following are not considered to be significant faults - faults arising
       from simultaneous and mutually independent causes in the water meter itself
       or in its checking facilities; and transitory faults being momentary variations
@@ -51,6 +50,10 @@ data:
     designation: significant fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 72379484-d932-566c-a00e-4dadf947445f
 

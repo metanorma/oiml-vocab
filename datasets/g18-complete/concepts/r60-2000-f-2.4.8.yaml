@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 10af9dac-67c6-5eea-bc07-c50afbc1806c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60:2000
+  - concept_id: r-60
+    source: OIML R 60:2000
     ref_type: section
   sources:
   - origin:
@@ -30,7 +30,6 @@ data:
   examples: []
   id: r60-2000-f-2.4.8-fra
   notes:
-  - content: 'Source citation: Adapté de VIM 5.24'
   sources:
   - origin:
       ref:
@@ -46,6 +45,10 @@ data:
     designation: Erreur intrinsèque de la cellule de pesée
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 10af9dac-67c6-5eea-bc07-c50afbc1806c
 

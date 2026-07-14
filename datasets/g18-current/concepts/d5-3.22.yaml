@@ -37,16 +37,26 @@ data:
       error'.
   - content: Usually the term "maximum permissible error" is abbreviated to "MPE",
       or "mpe".
-  - content: 'Source citation: VIML 0.05 OIML V2-200:2012 4.26'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.05'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.22'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
@@ -59,6 +69,10 @@ data:
     designation: limit of error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 53b3a523-4b4f-5ba7-b5ed-28018ded184c
 

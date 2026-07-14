@@ -5,8 +5,8 @@ data:
     eng: 1c73026b-bc32-5a50-96da-dd9b2cf55b13
     fra: 5d49ce93-f7fd-5a5b-a2ae-fd992e76ecd2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:138:2007
+  - concept_id: r-138
+    source: OIML R 138:2007
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: measuring container bottles
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-138
+    source: OIML R 138:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1c73026b-bc32-5a50-96da-dd9b2cf55b13
 ---
@@ -76,6 +80,10 @@ data:
     designation: bouteilles récipients-mesures
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-138
+    source: OIML R 138:2007
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 5d49ce93-f7fd-5a5b-a2ae-fd992e76ecd2
 

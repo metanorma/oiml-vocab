@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: b9754672-bcb1-596d-a847-e3e6a9903fd6
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60:2000
+  - concept_id: r-60
+    source: OIML R 60:2000
     ref_type: section
   sources:
   - origin:
@@ -30,24 +30,38 @@ data:
   examples: []
   id: r60-2000-f-2.5.1-fra
   notes:
-  - content: 'Source citation: VIM 2.7'
   - content: Par exemple, la température ou le taux d'humidité au moment où les mesures
       sur la cellule de pesée sont relevées ou enregistrées.
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.7'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 60:2000
         version: '2000'
     locality:
       type: clause
       reference_from: 2.5.1
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Grandeur d'influence
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b9754672-bcb1-596d-a847-e3e6a9903fd6
 

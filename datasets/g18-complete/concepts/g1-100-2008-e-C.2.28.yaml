@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: de3e049d-cfcf-59c8-ae4a-951eac93c0b0
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -36,16 +36,20 @@ data:
   notes:
   - content: The limit T of the confidence interval is a statistic and as such will
       generally assume different values from sample to sample.
-  - content: 'Source citation: ISO 3534-1:1993, definition 2.58'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-100:2008
         version: '2008'
     locality:
       type: clause
       reference_from: C.2.28
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

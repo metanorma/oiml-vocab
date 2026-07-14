@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b23399e1-d1c3-56b5-9c34-cbd2e9cfa8c8
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:19:2017
+  - concept_id: g-19
+    source: OIML G 19:2017
     ref_type: section
   sources:
   - origin:
@@ -43,7 +43,6 @@ data:
       has a value. Both uses of the term 'error' can be found in the metrology literature.
       In this Guide the definition given above will be used. Note that in reference
       [5] this is not the case. (not in VIM3)
-  - content: 'Source citation: VIM3 2.16'
   sources:
   - origin:
       ref:
@@ -59,6 +58,10 @@ data:
     designation: measurement error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-19
+    source: OIML G 19:2017
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b23399e1-d1c3-56b5-9c34-cbd2e9cfa8c8
 

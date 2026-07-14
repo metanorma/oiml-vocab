@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: e153ce29-64bc-5207-b183-e9c865c16b4d
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:123:1997
+  - concept_id: r-123
+    source: OIML R 123:1997
     ref_type: section
   sources:
   - origin:
@@ -50,6 +50,10 @@ data:
     designation: Detection limit
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-123
+    source: OIML R 123:1997
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e153ce29-64bc-5207-b183-e9c865c16b4d
 

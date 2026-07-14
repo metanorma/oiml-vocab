@@ -73,6 +73,10 @@ data:
     designation: défaut
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1c9a15ce-3414-526c-ba00-3ec61cc14339
 ---
@@ -89,22 +93,36 @@ data:
   - content: Random errors presenting momentary variations in the indication but which
       cannot be interpreted recorded or transmitted as measuring results are considered
       to be insignificant faults.
-  - content: 'Source citation: VIML 2012 (V1), 5.11 [25]'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2012'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 144:2013
         version: '2013'
     locality:
       type: clause
       reference_from: '2.16'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: fault
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1d763371-74c4-58c9-8f79-36ffb8601d0f
 

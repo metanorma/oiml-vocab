@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: faaa9838-b5df-587f-90ba-8281589f96ee
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:50:2014
+  - concept_id: r-50
+    source: OIML R 50:2014
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   notes:
   - content: This reference value is sometimes referred to as a (conventional) true
       quantity value.
-  - content: 'Source citation: VIML, 4.06 [2]'
   sources:
   - origin:
       ref:
@@ -47,6 +46,10 @@ data:
     designation: error (of indication)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-50
+    source: OIML R 50:2014
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: faaa9838-b5df-587f-90ba-8281589f96ee
 

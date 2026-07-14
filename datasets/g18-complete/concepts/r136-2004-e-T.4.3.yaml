@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: b2b278e1-a84e-5f38-b576-33db1d0dd1fe
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:136:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,26 @@ data:
   examples: []
   id: r136-2004-e-T.4.3-eng
   notes:
-  - content: 'Source citation: VIM 5.21'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
       reference_from: T.4.3
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -50,6 +60,10 @@ data:
     designation: MPE
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b2b278e1-a84e-5f38-b576-33db1d0dd1fe
 

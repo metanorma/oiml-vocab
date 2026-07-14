@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 1bbe543d-30b5-5027-88a5-04b2268ca2b2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:18:2008
+  - concept_id: d-18
+    source: OIML D 18:2008
     ref_type: section
   sources:
   - origin:
@@ -31,22 +31,36 @@ data:
   examples: []
   id: d18-2008-e-2.2-eng
   notes:
-  - content: 'Source citation: VIM 5.14'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.14'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 18:2008
         version: '2008'
     locality:
       type: clause
       reference_from: '2.2'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: Certified reference material (CRM)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1bbe543d-30b5-5027-88a5-04b2268ca2b2
 

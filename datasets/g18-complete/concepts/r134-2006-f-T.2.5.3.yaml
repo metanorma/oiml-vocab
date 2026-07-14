@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 35e64f93-8566-5338-8d35-a24437d701bd
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:134:2006
+  - concept_id: r-134
+    source: OIML R 134:2006
     ref_type: section
   sources:
   - origin:
@@ -32,7 +32,6 @@ data:
   examples: []
   id: r134-2006-f-T.2.5.3-eng
   notes:
-  - content: 'Source citation: OIML R 60'
   sources:
   - origin:
       ref:
@@ -48,6 +47,10 @@ data:
     designation: load cell
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 35e64f93-8566-5338-8d35-a24437d701bd
 

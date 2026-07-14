@@ -39,22 +39,36 @@ data:
   examples: []
   id: r125-T.25-eng
   notes:
-  - content: 'Source citation: VIM 5.21'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 125:1998
         version: '1998'
-    type: authoritative
     locality:
       type: clause
       reference_from: T.25
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: maximum permissible error (of a measuring instrument)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0b13b6ce-7fa0-5544-a6b8-220e5ed2d231
 ---
@@ -83,6 +97,10 @@ data:
     designation: Erreur maximale toleree
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bd8595e9-415a-5021-8a81-69544aaabbdc
 

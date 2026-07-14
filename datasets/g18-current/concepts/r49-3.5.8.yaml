@@ -29,16 +29,26 @@ data:
   examples: []
   id: r49-3.5.8-eng
   notes:
-  - content: 'Source citation: OIML D 11:2013, 3.19.2, modified - Synonym presentation.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2013
+    locality:
+      type: clause
+      reference_from: 3.19.2
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2024
         version: '2024'
     locality:
       type: clause
       reference_from: 3.5.8
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 11:2013
   terms:
   - type: expression
     normative_status: preferred
@@ -48,6 +58,10 @@ data:
     designation: type N checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0a789cda-cf1c-5e0a-9d99-2a91bec070f7
 

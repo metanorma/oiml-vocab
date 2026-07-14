@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 1c9da26c-0720-5f29-b5ac-60cad031fc54
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -30,8 +30,6 @@ data:
   examples: []
   id: r49-1-2013-fra-3.2.9-fra
   notes:
-  - content: 'Source citation: OIML D 11:2013 [3], 3.12, modifie - "cette partie de
-      la R 49" remplace "la Recommandation applicable".'
   - content: Voir 5.1.2, qui specifie la valeur d'un defaut significatif.
   sources:
   - origin:
@@ -48,6 +46,10 @@ data:
     designation: defaut significatif
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1c9da26c-0720-5f29-b5ac-60cad031fc54
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 4da51c33-9adb-5c6e-9846-6d1700795852
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -38,7 +38,6 @@ data:
   - content: Reproducibility may be expressed quantitatively in terms of the dispersion
       characteristics of the results.
   - content: Results are here usually understood to be corrected results.
-  - content: 'Source citation: VIM:1993, definition 3.7'
   sources:
   - origin:
       ref:
@@ -54,6 +53,10 @@ data:
     designation: reproducibility (of results of measurements)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4da51c33-9adb-5c6e-9846-6d1700795852
 

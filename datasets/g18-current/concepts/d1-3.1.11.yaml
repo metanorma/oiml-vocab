@@ -43,22 +43,36 @@ data:
       quantités indiquées sur et contenues dans les préemballages.
   - content: Dans ce cadre, des moyens tels que la surveillance du marché et le management
       de la qualité peuvent être utilisés.
-  - content: 'Source citation: VIML 2.03'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.03'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Surveillance métrologique
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2ca20896-79fd-580f-addc-0828baf8115d
 ---
@@ -76,22 +90,36 @@ data:
       indicated on and contained in pre-packages and the correct use of units of measurement.
   - content: For achieving these purposes, means and methods such as market surveillance
       and quality management may be utilized.
-  - content: 'Source citation: VIML 2.03'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.03'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.1.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: Metrological supervision
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 29272c75-9791-5467-8cc2-1fab306eb58b
 

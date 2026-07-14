@@ -61,6 +61,10 @@ data:
     designation: dispositif de contrôle
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 49ad47e7-058b-5696-bc27-e463bcbfcf9a
 ---
@@ -80,22 +84,36 @@ data:
   - content: '"Act upon" refers to any adequate response by the measuring instrument
       (for example: a luminous signal, an acoustic signal, interruption or blocking
       of the measurement process, etc.).'
-  - content: 'Source citation: VIML 5.07'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 11:2026
         version: 2026
     locality:
       type: clause
       reference_from: 3.19
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: checking facility
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: 2026-07-13 00:00:00.000000000 +00:00
 id: 470e54ac-34ed-5b58-a1bd-a327629f3eeb
 

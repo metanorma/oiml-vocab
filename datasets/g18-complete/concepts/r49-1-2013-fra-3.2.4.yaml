@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: ba548409-1037-572b-ae30-7b7b141cf2de
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49-1:2013
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
     ref_type: section
   sources:
   - origin:
@@ -29,7 +29,6 @@ data:
   examples: []
   id: r49-1-2013-fra-3.2.4-fra
   notes:
-  - content: 'Source citation: OIML V 2-200:2012 (VIM) [1], 2.16.'
   - content: Pour l'application de cette partie de l'OIML R 49, le volume indique
       est considere comme la valeur de la quantite mesuree et le volume reel comme
       la valeur de la quantite de reference. La difference entre le volume indique
@@ -51,6 +50,10 @@ data:
     designation: erreur
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ba548409-1037-572b-ae30-7b7b141cf2de
 

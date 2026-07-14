@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 77537f6c-20c2-592d-8396-f3864fd37314
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:b:18:2022
+  - concept_id: b-18
+    source: OIML B 18:2022
     ref_type: section
   sources:
   - origin:
@@ -29,16 +29,20 @@ data:
   examples: []
   id: b18-2022-e-3.9-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000, 4.6'
+  - content: 'Source citation: ISO/IEC 17000 4.6'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 18:2022
         version: '2022'
     locality:
       type: clause
       reference_from: '3.9'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
   terms:
   - type: expression
     normative_status: preferred

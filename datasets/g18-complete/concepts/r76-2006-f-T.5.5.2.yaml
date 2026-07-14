@@ -5,8 +5,8 @@ data:
     eng: 69e2b1cb-82ae-5028-961d-b007c1a26987
     fra: 10c055b6-d7b1-5481-99b6-12e8331af6ff
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r76-2006-f-T.5.5.2-eng
   notes:
-  - content: 'Source citation: VIM:1993,5.4.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2:1993
+    locality:
+      type: clause
+      reference_from: '5.4'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.5.5.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2:1993
   terms:
   - type: expression
     normative_status: preferred
     designation: Intrinsic error
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-2
+    source: OIML V 2:1993
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 69e2b1cb-82ae-5028-961d-b007c1a26987
 ---
@@ -58,22 +72,36 @@ data:
   examples: []
   id: r76-2006-f-T.5.5.2-fra
   notes:
-  - content: 'Source citation: VIM:1993,5.4.'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2:1993
+    locality:
+      type: clause
+      reference_from: '5.4'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.5.5.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2:1993
   terms:
   - type: expression
     normative_status: preferred
     designation: Erreur intrinsèque
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2
+    source: OIML V 2:1993
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 10c055b6-d7b1-5481-99b6-12e8331af6ff
 

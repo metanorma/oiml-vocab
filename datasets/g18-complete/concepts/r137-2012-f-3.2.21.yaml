@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: c3e5e136-ca6e-51be-8117-30d13392a684
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:137:2012
+  - concept_id: r-137
+    source: OIML R 137:2012
     ref_type: section
   sources:
   - origin:
@@ -34,22 +34,36 @@ data:
       lorsque le moindre chiffre significatif change d'un échelon. Pour un dispositif
       analogique, elle constitue la moitié de la différence entre deux repères chiffrés
       consécutifs.
-  - content: 'Source citation: VIM 4.15'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.15'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 137:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 3.2.21
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: résolution (d'un dispositif afficheur)
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c3e5e136-ca6e-51be-8117-30d13392a684
 

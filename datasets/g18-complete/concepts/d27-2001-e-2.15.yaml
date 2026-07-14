@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 59ee0d8d-8e08-5ff9-a665-818b4b45eab5
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:27:2001
+  - concept_id: d-27
+    source: OIML D 27:2001
     ref_type: section
   sources:
   - origin:
@@ -38,16 +38,20 @@ data:
       audits are conducted by parties having an interest in the organization, such
       as customers, or by other persons on their behalf. Third-party audits are conducted
       by external independent organizations.
-  - content: 'Source citation: ISO 9000:2000, 3.9.1'
+  - content: 'Source citation: ISO 900 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 27:2001
         version: '2001'
     locality:
       type: clause
       reference_from: '2.15'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 900
   terms:
   - type: expression
     normative_status: preferred

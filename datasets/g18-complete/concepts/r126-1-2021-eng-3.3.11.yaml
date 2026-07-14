@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: bacf9eb2-8de0-58ed-8adf-9ce3a8f0fbbb
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:126-1:2021
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   id: r126-1-2021-eng-3.3.11-eng
   notes:
   - content: The identification can be checked on an instrument whilst it is in use.
-  - content: 'Source citation: OIML D 31, 3.1.48'
   sources:
   - origin:
       ref:
@@ -47,6 +46,10 @@ data:
     designation: software identification
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-126-1
+    source: OIML R 126-1:2021
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bacf9eb2-8de0-58ed-8adf-9ce3a8f0fbbb
 

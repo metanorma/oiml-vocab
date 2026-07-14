@@ -30,18 +30,20 @@ data:
   examples: []
   id: r49-3.2.5-eng
   notes:
-  - content: 'Source citation: ISO/IEC Guide 99:2007|OIML V 2-200:2012 (VIM), 4.26,
-      modified - "meter" replaces "measurement, measuring instrument, or measuring
-      system"; original notes removed.'
+  - content: 'Source citation: ISO/IEC Guide 99'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 49-1:2024
         version: '2024'
     locality:
       type: clause
       reference_from: 3.2.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC Guide
   terms:
   - type: expression
     normative_status: preferred

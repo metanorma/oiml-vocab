@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 4d5c859b-f9b7-55d2-8a49-159dbdbe2f33
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:g:1-100:2008
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
     ref_type: section
   sources:
   - origin:
@@ -31,16 +31,20 @@ data:
   notes:
   - content: Dans le cas d'une variable aléatoire, la loi de probabilité est considérée
       comme définissant la population de cette variable.
-  - content: 'Source citation: ISO 3534-1:1993, definition 2.3'
+  - content: 'Source citation: ISO 3534- 1'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML G 1-100:2008
         version: '2008'
     locality:
       type: clause
       reference_from: C.2.16
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO 3534-
   terms:
   - type: expression
     normative_status: preferred

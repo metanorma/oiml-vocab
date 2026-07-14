@@ -4,8 +4,8 @@ data:
   localized_concepts:
     spa: 2ee4cfe0-106e-59d5-b309-a068150f8ee2
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:d:10:2022
+  - concept_id: d-10
+    source: OIML D 10:2022
     ref_type: section
   sources:
   - origin:
@@ -36,7 +36,6 @@ data:
       se refiere a un material, por ejemplo, un material de referencia certificado;
       un dispositivo, por ejemplo, un láser estabilizado; un procedimiento de medición
       de referencia; o una comparación de patrones de medición.
-  - content: 'Source citation: VIM3, 5.18'
   sources:
   - origin:
       ref:
@@ -55,6 +54,10 @@ data:
     designation: valor de referencia
   language_code: spa
   entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2ee4cfe0-106e-59d5-b309-a068150f8ee2
 

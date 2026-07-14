@@ -32,16 +32,26 @@ data:
   examples: []
   id: r134-T.4.4.4-fra
   notes:
-  - content: 'Source citation: VIM 5.21'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.21'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 134-1:2006
         version: '2006'
     locality:
       type: clause
       reference_from: T.4.4.4
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
@@ -51,6 +61,10 @@ data:
     designation: EMT
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: acebe24f-4a60-5719-81ec-4061b92aaafd
 

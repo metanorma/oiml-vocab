@@ -30,22 +30,36 @@ data:
   examples: []
   id: d16-2.3-eng
   notes:
-  - content: 'Source citation: VIML 2.2'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.2'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 16:2011
         version: '2011'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.3'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: legal control of measuring instruments
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 13d258d7-1521-56cb-b242-9f66452dbac5
 

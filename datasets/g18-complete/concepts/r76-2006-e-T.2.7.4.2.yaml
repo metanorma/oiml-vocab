@@ -5,8 +5,8 @@ data:
     eng: 1bc40c5d-75f3-5e6a-acbc-b79346c78672
     fra: 20a9ef25-efff-5387-bccf-85749d806f04
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:76:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: tare-weighing device
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1bc40c5d-75f3-5e6a-acbc-b79346c78672
 ---
@@ -74,6 +78,10 @@ data:
     designation: dispositif de pesage de la tare
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 20a9ef25-efff-5387-bccf-85749d806f04
 

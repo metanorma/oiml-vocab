@@ -5,8 +5,8 @@ data:
     eng: 0e51be3f-98b3-5a6c-bb1e-9d8aed5f572d
     fra: d2cdda90-b9b0-5275-a2b2-a126fd62e9ba
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:144:2013
+  - concept_id: r-144
+    source: OIML R 144:2013
     ref_type: section
   sources:
   - origin:
@@ -31,7 +31,6 @@ data:
   examples: []
   id: r144-2013-e-2.18-eng
   notes:
-  - content: 'Source citation: VIM, 4.9 [1]'
   sources:
   - origin:
       ref:
@@ -47,6 +46,10 @@ data:
     designation: rated operating conditions
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0e51be3f-98b3-5a6c-bb1e-9d8aed5f572d
 ---
@@ -60,7 +63,6 @@ data:
   examples: []
   id: r144-2013-e-2.18-fra
   notes:
-  - content: 'Source citation: VIM, 4.9 [1]'
   sources:
   - origin:
       ref:
@@ -76,6 +78,10 @@ data:
     designation: conditions assignées de fonctionnement
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d2cdda90-b9b0-5275-a2b2-a126fd62e9ba
 

@@ -30,21 +30,25 @@ data:
   examples: []
   id: b18-3.33-eng
   notes:
-  - content: 'Source citation: ISO/IEC 17000:2020, 6.7 [4]'
   - content: Within the context of the OIML-CS implementation, this is the procedure
       by which approved experts assess, against specified requirements, on site, the
       competence of OIML Issuing Authorities and Test Laboratories to be registered
       in the Declaration.
   - content: In the OIML-CS, peer assessment is equivalent to accreditation (see 3.1).
+  - content: 'Source citation: ISO/IEC 1700 0'
   sources:
-  - origin:
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 18:2025
         version: '2025'
     locality:
       type: clause
       reference_from: '3.33'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: ISO/IEC 1700
   terms:
   - type: expression
     normative_status: preferred

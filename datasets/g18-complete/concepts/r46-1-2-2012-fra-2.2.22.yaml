@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 42fa59d5-f996-5c01-85a2-7ffb10586129
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:46-1-2:2012
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
     ref_type: section
   sources:
   - origin:
@@ -30,22 +30,36 @@ data:
   examples: []
   id: r46-1-2-2012-fra-2.2.22-fra
   notes:
-  - content: 'Source citation: OIML V 1:2013, 5.11'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.11'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1-2:2012
         version: '2012'
-    type: authoritative
     locality:
       type: clause
       reference_from: 2.2.22
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur intrinsèque initiale
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 42fa59d5-f996-5c01-85a2-7ffb10586129
 

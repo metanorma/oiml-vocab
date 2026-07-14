@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: 491ec357-29e8-556f-b26a-b37c75286d6a
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60-1:2017
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
     ref_type: section
   sources:
   - origin:
@@ -30,23 +30,37 @@ data:
   examples: []
   id: r60-1-2017-eng-3.1.9-eng
   notes:
-  - content: 'Source citation: VIML 2.20'
   - content: For notes, refer to the VIML.
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.20'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 60-1:2017
         version: '2017'
     locality:
       type: clause
       reference_from: 3.1.9
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: sealing
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 491ec357-29e8-556f-b26a-b37c75286d6a
 

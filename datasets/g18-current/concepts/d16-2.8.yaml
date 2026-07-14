@@ -34,22 +34,36 @@ data:
   - content: Conformity assessment does not only concern metrological requirements
       but may also cover requirements relating to safety; EMC; software identification;
       ease of use; marking, etc.
-  - content: 'Source citation: VIML 2.11'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.11'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 16:2011
         version: '2011'
-    type: authoritative
     locality:
       type: clause
       reference_from: '2.8'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
   terms:
   - type: expression
     normative_status: preferred
     designation: conformity assessment of a measuring instrument
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1560ed6f-a9f3-5bca-967e-8f94337f02ac
 

@@ -4,8 +4,8 @@ data:
   localized_concepts:
     eng: '00938321-83a5-5001-9f6c-b8c1b4b26fba'
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:100-1:2013
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
     ref_type: section
   sources:
   - origin:
@@ -46,6 +46,10 @@ data:
     designation: instrument detection limit (IDL)
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '00938321-83a5-5001-9f6c-b8c1b4b26fba'
 

@@ -5,8 +5,8 @@ data:
     eng: 81dacff1-60e8-5812-9f8e-03bf31628821
     fra: 74805503-7cb0-51c1-8930-9c77da2629de
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:49:2013
+  - concept_id: r-49
+    source: OIML R 49:2013
     ref_type: section
   sources:
   - origin:
@@ -34,9 +34,6 @@ data:
   id: r49-2013-e-3.4.12-eng
   notes:
   - content: '"Pattern" is used in legal metrology with the same meaning as "type".'
-  - content: 'Source citation: OIML V 1:2013 [2], 2.04, modified — The term synonyms
-      "type evaluation" and "pattern evaluation" replace "type (pattern) evaluation";
-      "type or pattern" replaces "type (pattern)".'
   sources:
   - origin:
       ref:
@@ -55,6 +52,10 @@ data:
     designation: pattern evaluation
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 81dacff1-60e8-5812-9f8e-03bf31628821
 ---
@@ -72,9 +73,6 @@ data:
   notes:
   - content: "« modele » est utilise avec la meme signification que « type » en metrologie
       legale."
-  - content: 'Source citation: OIML V 1:2013 [2], 2.04, modifie — les termes synonyms
-      « evaluation de type » et « evaluation de modele » remplacent « evaluation de
-      type (modele) » ; « modele ou type » remplace « type (modele) ».'
   sources:
   - origin:
       ref:
@@ -93,6 +91,10 @@ data:
     designation: evaluation de modele
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 74805503-7cb0-51c1-8930-9c77da2629de
 

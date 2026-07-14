@@ -5,8 +5,8 @@ data:
     eng: 3e094bb5-01cb-568a-9696-70e4d8bc3a96
     fra: b5cc1f71-1d9f-5767-b545-35933677a01c
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:106:2011
+  - concept_id: r-106
+    source: OIML R 106:2011
     ref_type: section
   sources:
   - origin:
@@ -47,6 +47,10 @@ data:
     designation: maximum operating speed
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3e094bb5-01cb-568a-9696-70e4d8bc3a96
 ---
@@ -76,6 +80,10 @@ data:
     designation: vitesse maximale de fonctionnement
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b5cc1f71-1d9f-5767-b545-35933677a01c
 

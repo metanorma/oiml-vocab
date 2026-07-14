@@ -4,8 +4,8 @@ data:
   localized_concepts:
     fra: 528ab2b7-2fca-5fb2-a41f-4865769c1f30
   domains:
-  - concept_id: section-terms
-    source: urn:oiml:pub:r:60-1:2017
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
     ref_type: section
   sources:
   - origin:
@@ -29,25 +29,39 @@ data:
   examples: []
   id: r60-1-2017-fra-3.7.11-fra
   notes:
-  - content: 'Source citation: VIM 2.16'
   - content: Le terme « erreur de mesure » utilisé dans la présente Recommandation
       se rapporte aux erreurs de mesure de la cellule de pesée.
   - content: "(Pour plus de notes, veuillez vous reporter à VIM [2])."
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.16'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 60-1:2017
         version: '2017'
     locality:
       type: clause
       reference_from: 3.7.11
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
   terms:
   - type: expression
     normative_status: preferred
     designation: erreur de mesure
   language_code: fra
   entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 528ab2b7-2fca-5fb2-a41f-4865769c1f30
 

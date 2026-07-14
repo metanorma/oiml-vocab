@@ -40,22 +40,36 @@ data:
   notes:
   - content: In general this software is founded on an operating system that permits
       loading and execution of software for specific purposes.
-  - content: 'Source citation: OIML D 31:2008, 3.1.54'
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 31:2008
+    locality:
+      type: clause
+      reference_from: 3.1.54
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 146:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.2.17
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML D 31:2008
   terms:
   - type: expression
     normative_status: preferred
     designation: universal computer
   language_code: eng
   entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: be04090c-a702-5627-9b54-5f7d8e1d8ab3
 
