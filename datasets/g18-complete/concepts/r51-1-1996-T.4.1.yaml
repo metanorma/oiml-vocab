@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r51-1-1996-T.4.1
+  localized_concepts:
+    eng: a6452b29-5b44-5639-9b9c-c07d37a2e2c6
+    fra: d939a88c-dcb9-5bcb-a416-ad5bf2500539
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.20'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 7fb8c20e-70a2-5430-84fe-b2cf57364045
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: the indication of an instrument minus the (conventional) true value of
+      the mass
+  examples: []
+  id: r51-1-1996-eng-T.4.1-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error (of indication)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a6452b29-5b44-5639-9b9c-c07d37a2e2c6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication d'un instrument moins la valeur conventionnellement vraie
+      de la masse.
+  examples: []
+  id: r51-1-1996-fra-T.4.1-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur (d'indication)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d939a88c-dcb9-5bcb-a416-ad5bf2500539
+

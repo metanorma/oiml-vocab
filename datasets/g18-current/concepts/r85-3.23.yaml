@@ -3,7 +3,6 @@ data:
   identifier: r85-3.23
   localized_concepts:
     eng: c0aff852-f90d-54c8-95ee-ea59b3d03f45
-    fra: fc4ce79a-1282-5921-a376-78d934d638ad
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -12,22 +11,6 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.23'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.23'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -50,54 +33,22 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85:2008
+        source: OIML R 85-1-2:2008
         version: '2008'
+    type: authoritative
     locality:
       type: clause
       reference_from: '3.23'
-    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: Influence quantity
+    designation: influence quantity
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
+  - concept_id: r-85-1-2
+    source: OIML R 85-1-2:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c0aff852-f90d-54c8-95ee-ea59b3d03f45
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Grandeur qui ne fait pas l'objet du mesurage mais qui influe sur la valeur
-      du mesurande ou sur les indications du JA.
-  examples: []
-  id: r85-3.23-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.23'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Grandeur d'influence
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: fc4ce79a-1282-5921-a376-78d934d638ad
 

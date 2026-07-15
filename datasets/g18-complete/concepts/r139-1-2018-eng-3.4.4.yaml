@@ -8,29 +8,6 @@ data:
     source: OIML R 139-1:2018
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2018
-        version: '2018'
-    locality:
-      type: clause
-      reference_from: 3.4.4
-    type: authoritative
-status: valid
-id: d70ac661-b239-5c7a-b794-bf7dd391543e
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: test intended to verify whether the measuring system under test (EUT)
-      is able to accomplish its intended functions
-  examples: []
-  id: r139-1-2018-eng-3.4.4-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: d70ac661-b239-5c7a-b794-bf7dd391543e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: test intended to verify whether the measuring system under test (EUT)
+      is able to accomplish its intended functions
+  examples: []
+  id: r139-1-2018-eng-3.4.4-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

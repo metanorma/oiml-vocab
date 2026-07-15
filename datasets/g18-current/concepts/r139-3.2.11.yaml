@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 139-1:2022
+        source: OIML V 1:2013
         version: '2022'
     locality:
       type: clause
@@ -34,26 +34,7 @@ data:
       which is connected to the calculator or the correction device, for measuring
       certain quantity values which are characteristic of the gas, with a view to
       making a correction.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '5.09'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.2.11
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

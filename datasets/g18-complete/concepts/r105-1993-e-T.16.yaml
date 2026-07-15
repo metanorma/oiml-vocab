@@ -8,29 +8,6 @@ data:
     source: OIML R 105:1993
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 105:1993
-        version: '1993'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: T.16
-status: valid
-id: 3aafdccd-7f9c-50bd-a1fc-3f88f206e766
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The indication of a measuring system minus the (conventional) true value
-      of the measure [VIM 5.24].
-  examples: []
-  id: r105-1993-e-T.16-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 3aafdccd-7f9c-50bd-a1fc-3f88f206e766
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The indication of a measuring system minus the (conventional) true value
+      of the measure [VIM 5.24].
+  examples: []
+  id: r105-1993-e-T.16-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

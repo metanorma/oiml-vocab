@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r117-2007-T.p.1.2
+  localized_concepts:
+    eng: e70836c1-0343-5472-9a8e-5d66758d04bd
+    fra: 0dadb79d-c9db-5cbf-bb91-4951c7ed9cc8
+  domains:
+  - concept_id: r-117
+    source: OIML R 117:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.p.1.2
+    type: authoritative
+status: valid
+id: 7aa6960b-62e1-5c66-84d7-1c2282593552
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Type of payment requiring payment after the delivery, either before leaving
+      the site (post-payment) or after leaving the site (delayed payment).
+  examples: []
+  id: r117-2007-e-T.p.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.p.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: post-payment or delayed payment
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-117
+    source: OIML R 117:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e70836c1-0343-5472-9a8e-5d66758d04bd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Type de paiement impliquant le paiement après la livraison, soit avant
+      de quitter le site (postpaiement), soit après avoir quitté le site (paiement
+      différé).
+  examples: []
+  id: r117-2007-f-T.p.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.p.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: postpaiement ou paiement différé
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-117
+    source: OIML R 117:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0dadb79d-c9db-5cbf-bb91-4951c7ed9cc8
+

@@ -8,33 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.24'
-status: valid
-id: bb98f3a2-1aed-595d-adab-59265f109093
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: the whole of legal metrology activities
-  examples: []
-  id: d5-2022-e-3.24-eng
-  notes:
-  - content: Legal metrological control includes legal control of measuring instruments;
-      metrological supervision; all the operations for the purpose of examining and
-      demonstrating, e.g. to testify in a court of law, the condition of a measuring
-      instrument and to determine its metrological properties, amongst others by reference
-      to the relevant statutory requirements.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: bb98f3a2-1aed-595d-adab-59265f109093
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: the whole of legal metrology activities
+  examples: []
+  id: d5-2022-e-3.24-eng
+  notes:
+  - content: Legal metrological control includes legal control of measuring instruments;
+      metrological supervision; all the operations for the purpose of examining and
+      demonstrating, e.g. to testify in a court of law, the condition of a measuring
+      instrument and to determine its metrological properties, amongst others by reference
+      to the relevant statutory requirements.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

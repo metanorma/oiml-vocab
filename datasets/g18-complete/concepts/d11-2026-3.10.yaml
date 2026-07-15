@@ -1,0 +1,92 @@
+---
+data:
+  identifier: d11-2026-3.10
+  localized_concepts:
+    eng: d57159e8-be45-5ef0-b94b-c359f8eea70a
+    fra: eb4bd953-d7b3-5a61-855a-8ee465139b7d
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.12'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: a30583e9-48d0-50d6-b516-f2817e4eba96
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument
+      de mesure
+  examples: []
+  id: d11-2026-f-3.10-fra
+  notes:
+  - content: Principalement, un défaut est le résultat d'une modification non désirée
+      des données contenues dans ou transitant par un instrument de mesure électronique.
+  - content: De la définition, il s'ensuit que dans ce Document, un "défaut" est une
+      valeur numérique exprimée soit en une unité de mesure soit en une valeur relative,
+      par exemple sous forme d'un pourcentage.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eb4bd953-d7b3-5a61-855a-8ee465139b7d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: d11-2026-e-3.10-eng
+  notes:
+  - content: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic measuring instrument.
+  - content: From the definition it follows that in this Document, a "fault" is a
+      numerical value which is expressed either in a unit of measurement or as a relative
+      value, for instance as a percentage.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d57159e8-be45-5ef0-b94b-c359f8eea70a
+

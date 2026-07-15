@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r71-1985-3
+  localized_concepts:
+    eng: d1881c6f-8b03-568a-ac32-70e0620627f6
+    fra: c34b161e-c7f0-5e61-92f9-a9776970dff8
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3'
+status: valid
+id: c53bead5-67d1-5c53-bfeb-e09a29e0b652
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The change in the level, dh, divided by the corresponding relative change
+      in the volume, dV/V, for the contained volume V corresponding to the level h.
+  examples: []
+  id: r71-1985-e-3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensitivity of a tank in the vicinity of a liquid level h
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d1881c6f-8b03-568a-ac32-70e0620627f6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient de la variation de niveau, dh, par la variation relative de
+      volume correspondante, dV/V, pour le volume contenu V correspondant au niveau
+      h.
+  examples: []
+  id: r71-1985-f-3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensibilité d'un réservoir au voisinage d'un niveau h de remplissage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c34b161e-c7f0-5e61-92f9-a9776970dff8
+

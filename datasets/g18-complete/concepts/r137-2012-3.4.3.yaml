@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r137-2012-3.4.3
+  localized_concepts:
+    eng: 6917273b-89c4-5a19-bf27-070a97aeb5d1
+    fra: a7bd4a34-f652-52cf-bff7-8e405645fbfc
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+status: valid
+id: 61d6c739-f073-5067-b7b4-bf7d05bbe656
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions en dehors des conditions assignées de fonctionnement (incluant
+      le débit, la température, la pression, l'humidité et l'interférence électromagnétique)
+      auxquelles un compteur de gaz est tenu de résister sans détérioration.
+  examples: []
+  id: r137-2012-f-3.4.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conditions de surcharge
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a7bd4a34-f652-52cf-bff7-8e405645fbfc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions outside the rated operating conditions (including flow rate,
+      temperature, pressure, humidity and electromagnetic interference) that a gas
+      meter is required to withstand without deterioration.
+  examples: []
+  id: r137-2012-e-3.4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: overload conditions
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6917273b-89c4-5a19-bf27-070a97aeb5d1
+

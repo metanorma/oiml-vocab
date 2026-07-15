@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r116-1995-3.12
+  localized_concepts:
+    eng: e508de17-a207-5e3a-9cfa-d2ee9608c1c3
+    fra: 768729ab-a9fb-5a39-ae82-bb268a097c2b
+  domains:
+  - concept_id: r-116
+    source: OIML R 116:1995
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 116:1995
+        version: '1995'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: ebfcd153-ec5a-5b1f-9769-7828a9c02f50
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etendue des concentrations pour lesquelles le signal de sortie de l'instrument
+      est, dans des limites specifiees, directement proportionnel a la concentration
+      de l'element mesure.
+  examples: []
+  id: r116-1995-f-3.12-fra
+  notes:
+  - content: Pour un systeme ICP, l'etendue lineaire est aussi son etendue de fonctionnement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 116:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue lineaire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-116
+    source: OIML R 116:1995
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 768729ab-a9fb-5a39-ae82-bb268a097c2b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of concentrations over which the output signal of the instrument
+      is directly proportional to the concentration of the element being measured
+      to within specified limits.
+  examples: []
+  id: r116-1995-e-3.12-eng
+  notes:
+  - content: For the ICP, the linear range is also its working range.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 116:1995
+        version: '1995'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linear range
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-116
+    source: OIML R 116:1995
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e508de17-a207-5e3a-9cfa-d2ee9608c1c3
+

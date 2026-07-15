@@ -8,29 +8,6 @@ data:
     source: OIML R 137-1:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 137-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: 2.2.7
-    type: authoritative
-status: valid
-id: 45c4d6ea-d24e-5bb6-86eb-6c29477bf4ce
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Error of measurement divided by a true value of the measurand. The error
-      is expressed as a percentage.
-  examples: []
-  id: r137-1-2006-e-2.2.7-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 45c4d6ea-d24e-5bb6-86eb-6c29477bf4ce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of measurement divided by a true value of the measurand. The error
+      is expressed as a percentage.
+  examples: []
+  id: r137-1-2006-e-2.2.7-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

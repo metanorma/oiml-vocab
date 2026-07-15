@@ -1,0 +1,96 @@
+---
+data:
+  identifier: r107-1-1997-T.3.4
+  localized_concepts:
+    eng: fdd19b94-cf28-5084-9688-4243a77155fb
+    fra: e47f374e-0d50-5e4c-9bf9-2a3f5c0e8e82
+  domains:
+  - concept_id: r-107-1
+    source: OIML R 107-1:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.4
+    type: authoritative
+status: valid
+id: d798a840-580c-5a44-9721-bef97060e743
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur de la plus petite charge en vrac qui puisse être totalisée sans
+      dépassement de l'erreur maximale tolérée lorsque l'opération automatique est
+      constituée de charges discrètes, chacune à l'intérieur de l'étendue de pesage
+      en fonctionnement automatique.
+  examples: []
+  id: r107-1-1997-f-T.3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: charge totalisée minimale
+  - type: symbol
+    normative_status: admitted
+    designation: Sigma_min
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-107-1
+    source: OIML R 107-1:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e47f374e-0d50-5e4c-9bf9-2a3f5c0e8e82
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The value of the smallest bulk load that can be totalized without exceeding
+      the maximum permissible error when the automatic operation is comprised of discrete
+      loads, each within the automatic weighing range.
+  examples: []
+  id: r107-1-1997-e-T.3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 107-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum totalized load
+  - type: symbol
+    normative_status: admitted
+    designation: Sigma_min
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-107-1
+    source: OIML R 107-1:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fdd19b94-cf28-5084-9688-4243a77155fb
+

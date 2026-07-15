@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r117-1-2007-T.s.4.2
+  localized_concepts:
+    eng: e8738084-1efe-5b41-9a1f-00b72d37f500
+    fra: d8ec1662-c889-57c4-9486-1f7c4d549d79
+  domains:
+  - concept_id: r-117-1
+    source: OIML R 117-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.s.4.2
+    type: authoritative
+status: valid
+id: 2e9ebb8c-d128-54a4-969c-f3e8db6db89d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Operating mode of a self-service arrangement in which the self-service
+      device controls the authorization for the delivery, based on an action of the
+      customer.
+  examples: []
+  id: r117-1-2007-eng-T.s.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.s.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: unattended service mode
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-117-1
+    source: OIML R 117-1:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e8738084-1efe-5b41-9a1f-00b72d37f500
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mode de fonctionnement d'une installation en libre-service dans lequel
+      le dispositif de libre-service délivre l'autorisation de livraison sur action
+      du client.
+  examples: []
+  id: r117-1-2007-fra-T.s.4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.s.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mode de service non surveillé
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-117-1
+    source: OIML R 117-1:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d8ec1662-c889-57c4-9486-1f7c4d549d79
+

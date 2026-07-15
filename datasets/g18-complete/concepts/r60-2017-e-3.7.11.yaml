@@ -8,31 +8,6 @@ data:
     source: OIML R 60:2017
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 60:2017
-        version: '2017'
-    locality:
-      type: clause
-      reference_from: 3.7.11
-    type: authoritative
-status: valid
-id: b1451899-a22a-56c4-9a2d-1319caa5e9d4
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: measured quantity minus a reference quantity value.
-  examples: []
-  id: r60-2017-e-3.7.11-eng
-  notes:
-  - content: The term "measurement error" in this Recommendation refers to load cell
-      measurement errors.
-  - content: "(For additional notes, refer to the VIM [2])."
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: b1451899-a22a-56c4-9a2d-1319caa5e9d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity minus a reference quantity value.
+  examples: []
+  id: r60-2017-e-3.7.11-eng
+  notes:
+  - content: The term "measurement error" in this Recommendation refers to load cell
+      measurement errors.
+  - content: "(For additional notes, refer to the VIM [2])."
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

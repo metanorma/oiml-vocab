@@ -8,34 +8,6 @@ data:
     source: OIML D 29:2008
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 29:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: G.3-2b
-    type: authoritative
-status: valid
-id: 6a3955a2-6f8f-5644-b6ed-bfe4a0c74d00
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Decision of legal relevance, based on the evaluation report that the
-      type of a measuring instrument complies with the relevant statutory requirements
-      and is suitable for use in the regulated area in such a way that it is expected
-      to provide reliable measurement results over a defined period of time.
-  examples: []
-  id: d29-2008-e-G.3-2b-eng
-  notes:
-  - content: For the purpose of this Document, the "type approval" is named "type
-      evaluation". Consequently "Type evaluation" in the sense of this Document includes
-      examination, tests and decision.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -55,6 +27,26 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 6a3955a2-6f8f-5644-b6ed-bfe4a0c74d00
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Decision of legal relevance, based on the evaluation report that the
+      type of a measuring instrument complies with the relevant statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time.
+  examples: []
+  id: d29-2008-e-G.3-2b-eng
+  notes:
+  - content: For the purpose of this Document, the "type approval" is named "type
+      evaluation". Consequently "Type evaluation" in the sense of this Document includes
+      examination, tests and decision.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

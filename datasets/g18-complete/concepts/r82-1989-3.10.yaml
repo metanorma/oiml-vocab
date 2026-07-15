@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r82-1989-3.10
+  localized_concepts:
+    eng: 88323382-e1b9-5277-a6a3-6c2e517923a6
+    fra: 652e3c90-9432-5d5d-91db-cf5f75b27583
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+status: valid
+id: f07c46d0-e54f-5923-903b-10bc2bf5bfaf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The mass flow rate (for mass flow-rate-dependent detectors) or the concentration
+      (for concentration-dependent detectors) that yields a signal equal to three
+      times the short-term noise level as determined on a statistical basis.
+  examples: []
+  id: r82-1989-e-3.10-eng
+  notes:
+  - content: This term is also referred to as "minimum detectability", or "minimum
+      detectable limit (MDL)", in some references and manufacturer's literature. It
+      is sometimes defined as an output signal equal to some other multiple (two or
+      ten) of the noise level and depends somewhat on whether the gas chromatograph
+      is used for quantitative or qualitative analysis.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detection limit
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 88323382-e1b9-5277-a6a3-6c2e517923a6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Débit massique (pour les détecteurs sensibles au débit massique) ou concentration
+      (pour les détecteurs sensibles à la concentration) qui fournit un signal égal
+      à trois fois le niveau de bruit à court terme déterminé sur une base statistique.
+  examples: []
+  id: r82-1989-f-3.10-fra
+  notes:
+  - content: Ce terme est parfois désigné comme "détectabilité minimale" ou "limite
+      minimale de détectabilité" dans les références ou dans la documentation des
+      constructeurs. Il est parfois défini comme un signal de sortie égal à un autre
+      multiple (2 ou 10) du niveau de bruit et peut varier selon que le chromatographe
+      est utilisé pour une analyse quantitative ou pour une analyse qualitative.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de detection
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 652e3c90-9432-5d5d-91db-cf5f75b27583
+

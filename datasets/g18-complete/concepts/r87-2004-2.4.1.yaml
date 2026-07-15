@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r87-2004-2.4.1
+  localized_concepts:
+    eng: 33588843-055a-59c3-9de7-4e81a6f541d6
+    fra: 127b13fb-7878-5f17-90ac-b2591fe69284
+  domains:
+  - concept_id: r-87
+    source: OIML R 87:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.4.1
+status: valid
+id: 6e4ba08b-d46d-54bf-96ee-141db80f199e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Un préemballage inadéquat pour lequel il est constaté que la quantité
+      réelle contenue est inférieure à la quantité nominale moins l'insuffisance tolérée
+      autorisée en 4.2.3 pour la quantité nominale, est désigné comme erreur T1. Erreur
+      T1 - Contenu réel < (Qn - T).
+  examples: []
+  id: r87-2004-f-2.4.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.4.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur T1
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-87
+    source: OIML R 87:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 127b13fb-7878-5f17-90ac-b2591fe69284
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An inadequate prepackage found to contain an actual quantity less than
+      the nominal quantity minus the tolerable deficiency allowed in 4.2.3 for the
+      nominal quantity is called a T1 error. T1 error - Actual contents < (Qn - T).
+  examples: []
+  id: r87-2004-e-2.4.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2004
+        version: '2004'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.4.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: T1 error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-87
+    source: OIML R 87:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 33588843-055a-59c3-9de7-4e81a6f541d6
+

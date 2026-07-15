@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r76-1-1992-T.2.4.1
+  localized_concepts:
+    eng: 68545c6c-f93a-53d5-a448-f2c02152d1d3
+    fra: d93c117a-9127-5081-9a0d-504fd911d2ea
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+status: valid
+id: '0941d967-63f4-5d1d-8f79-98c57e5e1884'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Component indicating the equilibrium and/or the result.
+  examples: []
+  id: r76-1-1992-e-T.2.4.1-eng
+  notes:
+  - content: On an instrument with one position of equilibrium it indicates only the
+      equilibrium (so-called zero).
+  - content: On an instrument with several positions of equilibrium it indicates both
+      the equilibrium and the result. On an electronic instrument, this is the display.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indicating component
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 68545c6c-f93a-53d5-a448-f2c02152d1d3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Organe indiquant l'équilibre et/ou le résultat.
+  examples: []
+  id: r76-1-1992-f-T.2.4.1-fra
+  notes:
+  - content: Sur les instruments à une seule position d'équilibre, il indique uniquement
+      l'équilibre (également appelé "zéro").
+  - content: Sur les instruments à plusieurs positions d'équilibre, il indique à la
+      fois l'équilibre et le résultat. Sur un instrument électronique, il s'agit de
+      l'affichage.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Organe indicateur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d93c117a-9127-5081-9a0d-504fd911d2ea
+

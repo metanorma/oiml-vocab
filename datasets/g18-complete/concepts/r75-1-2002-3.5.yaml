@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r75-1-2002-3.5
+  localized_concepts:
+    eng: 1f6f7851-86a3-5fd1-b942-7026754a2d10
+    fra: 5dad5649-ab93-58ba-b48c-34c9e45e9c3f
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+status: valid
+id: 34ebf081-6e63-53e7-8380-66027b554bc1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A sub-assembly, a combination of subassemblies or a complete meter subject
+      to a test.
+  examples: []
+  id: r75-1-2002-eng-3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: equipment under test (EUT)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1f6f7851-86a3-5fd1-b942-7026754a2d10
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Sous-ensemble, combinaison de sous-ensembles ou instrument complet soumis
+      à un essai.
+  examples: []
+  id: r75-1-2002-fra-3.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Équipement soumis à l'essai
+  - type: abbreviation
+    normative_status: admitted
+    designation: EST
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5dad5649-ab93-58ba-b48c-34c9e45e9c3f
+

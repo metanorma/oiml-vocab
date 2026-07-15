@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r82-1989-3.11
+  localized_concepts:
+    eng: c7b4318a-174e-593c-a76f-26a2f4bcf149
+    fra: a19d46f0-66c0-5cdc-aef0-9863eb0774b4
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+status: valid
+id: 2618ce9d-179f-539e-89ca-ef1b4d4d29ec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: That range of mass flow rate or concentration of the test sample components
+      over which an incremental change in the mass flow rate produces an incremental
+      change in the detector signal. The lower limit is given by the detection limit,
+      and upper limit is the highest mass flow rate or concentration at which a further
+      slight increase in flow rate or concentration will give no observable increase
+      in detector signal. The value of the dynamic range is the ratio of the upper
+      to the lower limit and is larger than or equal to the linear range.
+  examples: []
+  id: r82-1989-e-3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dynamic range of a detector
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c7b4318a-174e-593c-a76f-26a2f4bcf149
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etendue des débits massiques ou des concentrations des composants de
+      l'échantillon d'essai dans laquelle une variation du débit massique produit
+      une variation du signal du détecteur. La limite inférieure est donnée par la
+      limite de détction et la limite supérieure correspond au débit massique ou concentration
+      le plus élevé auquel une légère augmentation supplémentaire du débit ou de la
+      concentration ne produit plus d'augmentation observable du signal du détecteur.
+      La valeur de l'étendue dynamique est donnée par le rapport de la limite supérieure
+      à la limite inférieure; elle est supérieure ou égale à la valeur de l'étendue
+      linéaire.
+  examples: []
+  id: r82-1989-f-3.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue dynamique d'un détecteur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a19d46f0-66c0-5cdc-aef0-9863eb0774b4
+

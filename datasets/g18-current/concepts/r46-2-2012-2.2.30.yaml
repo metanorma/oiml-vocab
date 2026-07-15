@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r46-2-2012-2.2.30
+  localized_concepts:
+    eng: 175e46b3-7db4-5fd8-acc7-cb74cb39c1cb
+    fra: 8f834a09-d7ab-5e81-a25a-e252ae1fa53a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:0
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2-2012-2.2.30
+    type: authoritative
+status: valid
+id: 43ab76c0-3066-5444-8732-c5d1865eaad9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: r46-2-2012-2.2.30-eng
+  notes:
+  - content: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through a measuring instrument.
+  - content: From the definition it follows that a "fault" is a numerical value which
+      is expressed either in a unit of measurement or as a relative value, for instance
+      as a percentage.
+  - content: In this Recommendation, the above definition does not apply to the term
+      'earth fault', in which the word 'fault' has its usual dictionary meaning.
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.9'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.30
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 175e46b3-7db4-5fd8-acc7-cb74cb39c1cb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument
+      de mesure
+  examples: []
+  id: r46-2-2012-2.2.30-fra
+  notes:
+  - content: Un défaut est principalement le résultat d'une modification non désirée
+      de données contenues ou traversant un instrument de mesure.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.30
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8f834a09-d7ab-5e81-a25a-e252ae1fa53a
+

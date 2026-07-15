@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r106-1-2011-0.4.4.6
+  localized_concepts:
+    eng: f33a9856-35e1-5038-b711-98013777578b
+    fra: f2f7fcd5-2444-560d-943e-ac54e64569bf
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.4.6
+    type: authoritative
+status: valid
+id: a08cb285-aa74-5743-b5a9-b2cee25817d7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault greater than 1 d
+  examples: []
+  id: r106-1-2011-eng-0.4.4.6-eng
+  notes:
+  - content: 'The relevant Recommendation may specify that the following faults are
+      not significant, even when they exceed the value defined in 0.4.4.6: faults
+      that result from simultaneous and mutually independent causes in the instrument
+      or in its checking facility; faults that make it impossible to perform any measurement;
+      transitory faults that are momentary variations in the indications which cannot
+      be interpreted, memorized or transmitted as a measurement result; faults that
+      are so serious that they will inevitably be noticed by those interested in the
+      measurement.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f33a9856-35e1-5038-b711-98013777578b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: defaut superieur a 1 d
+  examples: []
+  id: r106-1-2011-fra-0.4.4.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: defaut significatif
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f2f7fcd5-2444-560d-943e-ac54e64569bf
+

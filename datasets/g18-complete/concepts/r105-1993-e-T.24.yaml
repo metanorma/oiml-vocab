@@ -8,29 +8,6 @@ data:
     source: OIML R 105:1993
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 105:1993
-        version: '1993'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: T.24
-status: valid
-id: 21e4a583-0cb5-5f3e-afca-e80b816b8e91
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: A quantity that is not the subject of the measurement but which influences
-      the value of the measurand or the indication of the measuring system [VIM 2.10].
-  examples: []
-  id: r105-1993-e-T.24-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 21e4a583-0cb5-5f3e-afca-e80b816b8e91
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring system [VIM 2.10].
+  examples: []
+  id: r105-1993-e-T.24-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

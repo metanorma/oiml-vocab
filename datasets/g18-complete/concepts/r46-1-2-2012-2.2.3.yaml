@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.3
+  localized_concepts:
+    eng: be03ba9e-cbff-5822-b899-2cbe98536ca5
+    fra: 309d7e75-5572-58b3-8a45-5a0928098bb0
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.3
+status: valid
+id: bd1c2f3a-d402-5d28-a39b-15483760a535
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: lowest value of current at which the meter is specified by the manufacturer
+      to meet the accuracy requirements
+  examples: []
+  id: r46-1-2-2012-eng-2.2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum current (Imin)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 71196f94-c624-51ae-8018-32d38c606c9e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur la plus basse du courant spécifiée par le fabricant pour laquelle
+      le compteur répond aux exigences d'exactitudes
+  examples: []
+  id: r46-1-2-2012-fra-2.2.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant minimal ($I_{min}$)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 512bf7ac-4b14-5df3-8891-aeec9c37608e
+

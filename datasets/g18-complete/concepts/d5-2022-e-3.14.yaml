@@ -8,14 +8,25 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '3.6'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.14'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: ee95603e-9cc4-5fd3-9b9e-2d7f38f336ab
 schema_version: '3'
@@ -36,26 +47,7 @@ data:
   notes:
   - content: The indication of a material measure is its assigned quantity value.
   - content: A material measure can be a measurement standard.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '3.6'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: '3.14'
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

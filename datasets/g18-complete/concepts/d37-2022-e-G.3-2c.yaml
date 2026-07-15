@@ -8,33 +8,6 @@ data:
     source: OIML D 37:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 37:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: G.3-2c
-    type: authoritative
-status: valid
-id: d58e31a1-46f4-5cd0-b776-893034a5d17c
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: conformity assessment procedure on one or more specimens of an identified
-      type (pattern) of measuring instruments which results in an evaluation report
-      and / or an evaluation certificate
-  examples: []
-  id: d37-2022-e-G.3-2c-eng
-  notes:
-  - content: '"Pattern" is used in legal metrology with the same meaning as "type".'
-  - content: For the purposes of the OIML-CS, "evaluation report" should be read as
-      "OIML type evaluation report".
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: d58e31a1-46f4-5cd0-b776-893034a5d17c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and / or an evaluation certificate
+  examples: []
+  id: d37-2022-e-G.3-2c-eng
+  notes:
+  - content: '"Pattern" is used in legal metrology with the same meaning as "type".'
+  - content: For the purposes of the OIML-CS, "evaluation report" should be read as
+      "OIML type evaluation report".
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

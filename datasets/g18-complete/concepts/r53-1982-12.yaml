@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r53-1982-12
+  localized_concepts:
+    eng: 19c1400c-0621-5a86-9b5d-961c79e72da4
+    fra: 53c125bd-2870-5060-9cee-ee53c91c1c79
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '12'
+    type: authoritative
+status: valid
+id: ade1fc91-f8bf-5d68-9b57-0fae9bf2939d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient de l'accroissement du déplacement du point de référence par
+      l'accroissement correspondant de la pression.
+  examples: []
+  id: r53-1982-f-12-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 53c125bd-2870-5060-9cee-ee53c91c1c79
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient of the increase in value of displacement of the reference point
+      and the corresponding increase in pressure.
+  examples: []
+  id: r53-1982-e-12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensitivity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 19c1400c-0621-5a86-9b5d-961c79e72da4
+

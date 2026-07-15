@@ -8,14 +8,25 @@ data:
     source: OIML D 31:2023
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.44'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 31:2023
         version: '2023'
     locality:
       type: clause
       reference_from: 3.2.73
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: c9917f88-1902-51c7-b3f8-fc90f50e0caa
 schema_version: '3'
@@ -29,34 +40,7 @@ data:
   examples: []
   id: d31-2023-e-3.2.73-eng
   notes:
-  sources:
-  - origin:
-      ref:
-        source: OIML D 31:2023
-        version: '2023'
-    locality:
-      type: clause
-      reference_from: 3.2.73
-    type: authoritative
-  - type: lineage
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.44'
-  - type: lineage
-    status: modified
-    origin:
-      ref:
-        source: OIML D 31:2023
-        version: '2023'
-    locality:
-      type: clause
-      reference_from: 3.2.73
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

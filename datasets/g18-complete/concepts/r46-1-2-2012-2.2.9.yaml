@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.9
+  localized_concepts:
+    eng: 7dd67ea1-5464-589b-965b-dc06f97b3bb3
+    fra: 4e417f87-085f-53ee-bdc3-5d8cb51bf41e
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.9
+status: valid
+id: a4c39624-a3ea-5baa-afb2-76e67a5e3e61
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fréquence de la tension (et du courant) spécifiés par le fabricant pour
+      un fonctionnement normal du compteur
+  examples: []
+  id: r46-1-2-2012-fra-2.2.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fréquence de référence ($f_{nom}$)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4c13b530-469b-56ce-8f16-695e98f50587
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: frequency of the voltage (and current) specified by the manufacturer
+      for normal operation of the meter
+  examples: []
+  id: r46-1-2-2012-eng-2.2.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal frequency (fnom)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 31d27fa9-1cc3-5a36-8523-a68159558c3d
+

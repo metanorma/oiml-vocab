@@ -1,0 +1,98 @@
+---
+data:
+  identifier: d11-2013-3.15.2
+  localized_concepts:
+    eng: ae258e82-7de7-5aa5-a73c-10e359ecd8b6
+    fra: c9ff6bf0-299b-5222-a23c-fb81507d37ac
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.19'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.15.2
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: '018ba9c4-5afa-5904-bfba-afb30f5415a7'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      dans la Recommandation applicable, mais en dehors des conditions assignées de
+      fonctionnement spécifiées de l'instrument de mesure.
+  examples: []
+  id: d11-2013-f-3.15.2-fra
+  notes:
+  - content: Ces limites spécifiées dans la Recommandation applicable, doivent être
+      basées sur la probabilité d'occurrence du phénomène perturbant dans l'environnement
+      de l'instrument de mesure.
+  - content: Une perturbation est typiquement de nature stochastique.
+  - content: Dans le cas où les conditions assignées de fonctionnement listées d'un
+      instrument de mesure n'incluent pas une plage pour la grandeur d'influence spécifique,
+      la grandeur spécifique est qualifiée comme étant une perturbation.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c9ff6bf0-299b-5222-a23c-fb81507d37ac
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in the
+      applicable Recommendation but outside the specified rated operating conditions
+      of the measuring instrument
+  examples: []
+  id: d11-2013-e-3.15.2-eng
+  notes:
+  - content: These limits to be specified in the applicable Recommendation shall be
+      based on the probability of occurrence of the disturbing phenomenon within the
+      environment of the measuring instrument.
+  - content: A disturbance typically is of stochastic nature.
+  - content: In case the listed rated operating conditions of a measuring instrument
+      do not include a range for the specific influence quantity, the influence quantity
+      is qualified as being a disturbance.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ae258e82-7de7-5aa5-a73c-10e359ecd8b6
+

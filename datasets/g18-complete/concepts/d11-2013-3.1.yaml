@@ -1,0 +1,93 @@
+---
+data:
+  identifier: d11-2013-3.1
+  localized_concepts:
+    eng: f8ce1fa9-90dd-5e4d-bbcc-3bb9982f2d50
+    fra: 354860a3-b082-5c4b-ba1b-dd4979e0b95f
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+status: valid
+id: 6bb591ae-68d6-5a8d-9181-bd8bf97f839c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument intended to measure an electrical or non-electrical quantity
+      using electronic means and/or equipped with electronic devices
+  examples: []
+  id: d11-2013-e-3.1-eng
+  notes:
+  - content: For the purpose of this Document, auxiliary equipment, provided that
+      it is subject to metrological control, is considered to be a part of the measuring
+      instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: electronic measuring instrument
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f8ce1fa9-90dd-5e4d-bbcc-3bb9982f2d50
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument destiné à mesurer une grandeur électrique ou non-électrique
+      à l'aide des moyens électroniques et / ou équipé de dispositifs électroniques
+  examples: []
+  id: d11-2013-f-3.1-fra
+  notes:
+  - content: Pour le but de ce Document, l'équipement auxiliaire est considéré comme
+      une partie de l'instrument de mesure, à condition qu'il soit soumis au contrôle
+      métrologique.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrument de mesure électronique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 354860a3-b082-5c4b-ba1b-dd4979e0b95f
+

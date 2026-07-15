@@ -1,0 +1,92 @@
+---
+data:
+  identifier: g1-100-2008-C.2.13
+  localized_concepts:
+    eng: 72f9b5b0-6e99-5f31-8564-ff8d07e5b783
+    fra: 85478fb5-2fb7-5b2a-b53f-2fcf2e106191
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.13
+    type: authoritative
+status: valid
+id: d6c9f70f-5f28-5837-aaec-5cb5ab9821ff
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'dans une loi de probabilité à une variable, espérance mathématique de
+      la qième puissance de la variable aléatoire centrée (X - mu): E[(X - mu)^q]'
+  examples: []
+  id: g1-100-2008-f-C.2.13-fra
+  notes:
+  - content: Le moment centré d'ordre 2 est la variance de la variable aléatoire X.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.13
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: moment centré d'ordre q
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 85478fb5-2fb7-5b2a-b53f-2fcf2e106191
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'in a univariate distribution, the expectation of the qth power of the
+      centred random variable (X - mu): E[(X - mu)^q]'
+  examples: []
+  id: g1-100-2008-e-C.2.13-eng
+  notes:
+  - content: The central moment of order 2 is the variance of the random variable
+      X.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.13
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: central moment 2) of order q
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 72f9b5b0-6e99-5f31-8564-ff8d07e5b783
+

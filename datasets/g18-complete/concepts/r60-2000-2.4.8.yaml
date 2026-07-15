@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r60-2000-2.4.8
+  localized_concepts:
+    eng: a71a1812-205b-5573-87a1-c4b3309b58cf
+    fra: 10af9dac-67c6-5eea-bc07-c50afbc1806c
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 307c42bd-62f3-5977-be65-aedd9d2299d2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur d'une cellule de pesée, déterminée dans les conditions de référence
+      (voir 2.5.3).
+  examples: []
+  id: r60-2000-f-2.4.8-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur intrinsèque de la cellule de pesée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 10af9dac-67c6-5eea-bc07-c50afbc1806c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of a load cell, determined under reference conditions (see 2.5.3).
+  examples: []
+  id: r60-2000-e-2.4.8-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Load cell intrinsic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a71a1812-205b-5573-87a1-c4b3309b58cf
+

@@ -1,0 +1,102 @@
+---
+data:
+  identifier: d16-1986-1.1.6
+  localized_concepts:
+    eng: d1260cce-5202-536c-9285-43f99c3f2276
+    fra: 76203ead-5273-5fe9-a889-a92e340e18d1
+  domains:
+  - concept_id: d-16
+    source: OIML D 16:1986
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 16:1986
+        version: '1986'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 1.1.6
+status: valid
+id: 514960f5-7394-54a5-a057-2ef737c0b29b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Un processus de mesure est en état de contrôle statistique si les observations
+      résultant du processus, lorsqu''elles sont collectées dans des condition expérimentales
+      quelconques fixées à l''intérieur du domaine des conditions a priori bien définies
+      du processus, se comportent comme des tirages aléatoires à partir d''une distribution
+      fixée ayant des paramètres de position et d''échelle fixés. Une définition plus
+      facile à comprendre mais moins rigoureuse est: un processus de mesure est dans
+      un état de contrôle statistique si la dispersion des données provenant de mesurages
+      répétés du même sujet au cours d''une période de temps ne change pas avec le
+      temps, et s''il n''y a ni dérive non prévisible, ni dérive soudaine dans la
+      moyenne des mesurages répétés du même sujet.'
+  examples: []
+  id: d16-1986-f-1.1.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 16:1986
+        version: '1986'
+    locality:
+      type: clause
+      reference_from: 1.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etat de contrôle statistique (d'un processus de mesure)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-16
+    source: OIML D 16:1986
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 76203ead-5273-5fe9-a889-a92e340e18d1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A measurement process is in a state of statistical control if the resulting
+      observations from the process, when collected under any fixed experimental conditions
+      within the scope of the a priori well-defined conditions of the process, behave
+      like random drawings from some fixed distribution with fixed location and fixed
+      scale parameters. A less rigorous but more easily understood definition is that
+      a measurement process is in a state of statistical control if the amount of
+      scatter in the data from repeated measurements of the same item over a period
+      of time does not change with time, and if there are no unpredictable drifts
+      or sudden shifts in the mean of repeated measurements on the same item.
+  examples: []
+  id: d16-1986-e-1.1.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 16:1986
+        version: '1986'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 1.1.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: State of statistical control (of a measurement process)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-16
+    source: OIML D 16:1986
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d1260cce-5202-536c-9285-43f99c3f2276
+

@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 5:2022
+        source: OIML V 2-200:2012
         version: '2022'
     locality:
       type: clause
@@ -35,26 +35,7 @@ data:
       unit through its practical realisation, or a measurement procedure including
       the measurement unit for a non-ordinal quantity, or a measurement standard.
   - content: Metrological traceability requires an established calibration hierarchy.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.41'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: '3.7'
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

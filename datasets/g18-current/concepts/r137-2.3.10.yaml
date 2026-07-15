@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r137-2.3.10
+  localized_concepts:
+    eng: 86182ed6-3a55-5f95-ace2-ebd17bdf9f81
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.10
+    type: authoritative
+status: valid
+id: 0ffe3411-b140-5860-b31f-b14ab5f4bc42
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Density of the gas flowing through the gas meter, corresponding to p_w
+      and t_w.
+  examples: []
+  id: r137-2.3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: working density
+  - type: symbol
+    normative_status: admitted
+    designation: rho_w
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 86182ed6-3a55-5f95-ace2-ebd17bdf9f81
+

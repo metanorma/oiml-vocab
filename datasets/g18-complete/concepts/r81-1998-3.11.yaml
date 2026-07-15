@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r81-1998-3.11
+  localized_concepts:
+    eng: ef238cff-8020-5f71-8f28-e2e58620f7c3
+    fra: e4d6b908-f242-5554-93ef-022585ac309a
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+status: valid
+id: 65ea7896-334d-52f3-a2a7-eaaa2fd72507
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A device that automatically converts the volume measured at metering
+      conditions into a volume at base conditions or into a mass, by taking account
+      of the characteristics of the measured liquid (temperature, pressure, density,
+      relative density, etc.) using associated measuring instruments, or associated
+      values stored in a memory.
+  examples: []
+  id: r81-1998-e-3.11-eng
+  notes:
+  - content: The quotient of the volume at base conditions, or of the mass, to the
+      volume at metering conditions is referred to as the "conversion factor".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conversion device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ef238cff-8020-5f71-8f28-e2e58620f7c3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif convertissant automatiquement le volume mesure, dans les conditions
+      de mesure, en un volume dans les conditions de base ou en une masse, en tenant
+      compte des caracteristiques du liquide mesure (temperature, pression, masse
+      volumique, densite relative, etc.) en utilisant les instruments de mesure associes,
+      ou les valeurs associees mises en memoire.
+  examples: []
+  id: r81-1998-f-3.11-fra
+  notes:
+  - content: Le quotient du volume dans les conditions de base, ou de la masse, par
+      le volume dans les conditions de mesure est designe comme le "facteur de conversion".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de conversion
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4d6b908-f242-5554-93ef-022585ac309a
+

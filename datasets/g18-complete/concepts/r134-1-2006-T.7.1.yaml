@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r134-1-2006-T.7.1
+  localized_concepts:
+    eng: 5058fdc3-1506-52ec-a16a-ff4836e09237
+    fra: fb34c7d8-3852-5ef6-81b8-19b5ef46539f
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.7.1
+    type: authoritative
+status: valid
+id: 6d6ca155-1251-5afe-8e5c-ee613da6e03b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Loaded or unloaded road vehicle that is recognized by the instrument
+      as a vehicle to be weighed.
+  examples: []
+  id: r134-1-2006-eng-T.7.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.7.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vehicle
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5058fdc3-1506-52ec-a16a-ff4836e09237
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Véhicule routier chargé ou déchargé qui est reconnu par l'instrument
+      comme un véhicule à peser.
+  examples: []
+  id: r134-1-2006-fra-T.7.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.7.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: véhicule
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fb34c7d8-3852-5ef6-81b8-19b5ef46539f
+

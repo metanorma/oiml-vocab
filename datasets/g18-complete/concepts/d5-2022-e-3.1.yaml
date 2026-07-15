@@ -8,31 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.1'
-status: valid
-id: 5636949b-5b30-5e4a-8b3b-23387fc69c8e
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: system of units, based on the International System of Quantities, their
-      names and symbols including a series of prefixes and their names and symbols,
-      together with rules for their use adopted by the General Conference on Weights
-      and Measures (CGPM)
-  examples: []
-  id: d5-2022-e-3.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 5636949b-5b30-5e4a-8b3b-23387fc69c8e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: system of units, based on the International System of Quantities, their
+      names and symbols including a series of prefixes and their names and symbols,
+      together with rules for their use adopted by the General Conference on Weights
+      and Measures (CGPM)
+  examples: []
+  id: d5-2022-e-3.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

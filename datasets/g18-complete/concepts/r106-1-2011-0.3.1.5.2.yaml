@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r106-1-2011-0.3.1.5.2
+  localized_concepts:
+    eng: 98ef9e4f-aa44-51b0-bd8b-bb320a1426b2
+    fra: eb6a4546-cf15-50df-bca3-4de6d6484cbf
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.5.2
+    type: authoritative
+status: valid
+id: 165da1cc-39f3-515d-b492-8b077fe9e2a7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: wagon mass below which a weighing-in-motion result may be subject to
+      an excessive relative error
+  examples: []
+  id: r106-1-2011-eng-0.3.1.5.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum wagon mass
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 98ef9e4f-aa44-51b0-bd8b-bb320a1426b2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: masse de wagon au-dessous de laquelle un resultat de pesage en mouvement
+      peut etre sujet a une erreur relative excessive
+  examples: []
+  id: r106-1-2011-fra-0.3.1.5.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: masse minimale de wagon
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eb6a4546-cf15-50df-bca3-4de6d6484cbf
+

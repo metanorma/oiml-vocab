@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 139-1:2022
+        source: OIML V 2-200:2012
         version: '2022'
     locality:
       type: clause
@@ -33,26 +33,7 @@ data:
   - content: For the purpose of this Recommendation this transducer is part of the
       measuring device and its output signal represents the output quantity which
       is based on the input from the sensor(s), being the input quantity.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '3.7'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.2.3.2
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

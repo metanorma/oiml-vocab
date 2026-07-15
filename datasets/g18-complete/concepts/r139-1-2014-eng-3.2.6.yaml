@@ -8,34 +8,6 @@ data:
     source: OIML R 139-1:2014
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2014
-        version: '2014'
-    locality:
-      type: clause
-      reference_from: 3.2.6
-    type: authoritative
-status: valid
-id: 4f277cd0-37aa-5581-b2bf-e672ad4abf6d
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: device intended to perform a particular function, directly involved in
-      elaborating, transmitting or displaying measurement results
-  examples: []
-  id: r139-1-2014-eng-3.2.6-eng
-  notes:
-  - content: An ancillary device may or may not be subject to legal metrology control
-      according to its function in the measuring system or to national regulations.
-  - content: Main ancillary devices are zero-setting device, repeating indicating
-      device, printing device, memory device, price indicating device, totalizing
-      indicating device, presetting device, self-service device.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -55,6 +27,26 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 4f277cd0-37aa-5581-b2bf-e672ad4abf6d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying measurement results
+  examples: []
+  id: r139-1-2014-eng-3.2.6-eng
+  notes:
+  - content: An ancillary device may or may not be subject to legal metrology control
+      according to its function in the measuring system or to national regulations.
+  - content: Main ancillary devices are zero-setting device, repeating indicating
+      device, printing device, memory device, price indicating device, totalizing
+      indicating device, presetting device, self-service device.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

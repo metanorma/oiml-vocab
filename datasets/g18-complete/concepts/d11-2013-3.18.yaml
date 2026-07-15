@@ -1,0 +1,82 @@
+---
+data:
+  identifier: d11-2013-3.18
+  localized_concepts:
+    eng: 1b882679-47d9-56cc-8e72-feb5cccb29d9
+    fra: 1a163e15-88fa-5e80-a39e-21f56332472a
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.15'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.18'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 66356a55-cd2e-5085-8628-f4c5ea0e05f4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: aptitude d'un instrument de mesure à conserver ses caractéristiques de
+      performance après une période d'utilisation
+  examples: []
+  id: d11-2013-f-3.18-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durabilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1a163e15-88fa-5e80-a39e-21f56332472a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ability of the measuring instrument to maintain its performance characteristics
+      over a period of use
+  examples: []
+  id: d11-2013-e-3.18-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durability
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1b882679-47d9-56cc-8e72-feb5cccb29d9
+

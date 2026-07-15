@@ -1,0 +1,89 @@
+---
+data:
+  identifier: d22-1991-3.9
+  localized_concepts:
+    eng: 77a709ac-f502-5e89-ad9a-f2c8e6df2e55
+    fra: 94ba8021-1d69-525f-b3de-e01a0424c846
+  domains:
+  - concept_id: d-22
+    source: OIML D 22:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+status: valid
+id: db435a1d-8010-5286-8382-0d965155123b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etendue des concentrations dans laquelle le signal de sortie de l'instrument
+      est proportionnel à la concentration de la substance à un pourcentage spécifié
+      près, par exemple +/- 5-10%.
+  examples: []
+  id: d22-1991-f-3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue linéaire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-22
+    source: OIML D 22:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 94ba8021-1d69-525f-b3de-e01a0424c846
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of concentrations over which the output signal of the instrument
+      is proportional to the concentration of the substance to within a specified
+      percentage, for example +/- 5-10%.
+  examples: []
+  id: d22-1991-e-3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linear range
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-22
+    source: OIML D 22:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77a709ac-f502-5e89-ad9a-f2c8e6df2e55
+

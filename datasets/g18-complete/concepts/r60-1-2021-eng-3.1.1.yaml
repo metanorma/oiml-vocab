@@ -8,29 +8,6 @@ data:
     source: OIML R 60-1:2021
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 60-1:2021
-        version: '2021'
-    locality:
-      type: clause
-      reference_from: 3.1.1
-    type: authoritative
-status: valid
-id: b1cf0917-e8eb-59c8-9178-8e4e5d2a0d27
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: ability of a measuring instrument to maintain its performance characteristics
-      over a period of use
-  examples: []
-  id: r60-1-2021-eng-3.1.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: b1cf0917-e8eb-59c8-9178-8e4e5d2a0d27
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ability of a measuring instrument to maintain its performance characteristics
+      over a period of use
+  examples: []
+  id: r60-1-2021-eng-3.1.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

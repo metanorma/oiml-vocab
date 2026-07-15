@@ -1,0 +1,80 @@
+---
+data:
+  identifier: r51-1-1996-T.4.2
+  localized_concepts:
+    eng: f950cb7e-d63f-563b-8773-02381e006afa
+    fra: 7a78cfb2-986b-56dd-af18-c17d29e6556b
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.2
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 0bf76e58-2578-591a-952e-fe215f175682
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur d'un instrument dans les conditions de référence.
+  examples: []
+  id: r51-1-1996-fra-T.4.2-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a78cfb2-986b-56dd-af18-c17d29e6556b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The error of an instrument, determined under reference conditions.
+  examples: []
+  id: r51-1-1996-e-T.4.2-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f950cb7e-d63f-563b-8773-02381e006afa
+

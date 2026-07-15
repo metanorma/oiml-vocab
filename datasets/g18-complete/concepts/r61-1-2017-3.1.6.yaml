@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r61-1-2017-3.1.6
+  localized_concepts:
+    eng: a2c3abeb-6f82-5524-8da4-d112772b7b31
+    deu: eb809b91-673b-5406-8cac-64aa66cb7b7e
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.9'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 30c6caed-46cb-501d-8212-d37f4b7ee6e5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of quantity values being attributed to a measurand together with
+      any other available relevant information
+  examples: []
+  id: r61-1-2017-eng-3.1.6-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a2c3abeb-6f82-5524-8da4-d112772b7b31
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Menge von Größenwerten, die einer Messgröße zugewiesen sind, zusammen
+      mit jeglicher verfügbarer relevanter Information
+  examples:
+  - content: 'Source citation: VIM 2.9'
+  id: r61-1-2017-deu-3.1.6-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messergebnis
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eb809b91-673b-5406-8cac-64aa66cb7b7e
+

@@ -8,29 +8,6 @@ data:
     source: OIML R 60:2017
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 60:2017
-        version: '2017'
-    locality:
-      type: clause
-      reference_from: 3.7.16
-    type: authoritative
-status: valid
-id: 557a44e2-f6d5-5ba0-b4e6-2c1ba802a7b8
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: durability error exceeding the value specified in the applicable Recommendation
-  examples: []
-  id: r60-2017-e-3.7.16-eng
-  notes:
-  - content: "(For notes, refer to the VIML [3])."
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 557a44e2-f6d5-5ba0-b4e6-2c1ba802a7b8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: durability error exceeding the value specified in the applicable Recommendation
+  examples: []
+  id: r60-2017-e-3.7.16-eng
+  notes:
+  - content: "(For notes, refer to the VIML [3])."
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

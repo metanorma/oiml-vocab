@@ -1,0 +1,94 @@
+---
+data:
+  identifier: d31-2008-3.1.25
+  localized_concepts:
+    fra: 910f177d-49a2-57ff-be8b-dbe8afb24d5c
+    spa: 3e30f1c9-0aaf-5fab-b5b3-9ed5f904d508
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.25
+    type: authoritative
+status: valid
+id: 6508308f-5d85-5553-9e08-084e91daa5d3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Función (matemática) que proyecto los valores de un dominio amplio (probablemente
+      muy amplio) en un rango menor. Una función hash correcta es aquella en la que
+      los resultados de aplicar la función en un conjunto (amplio) de valores del
+      dominio se distribuyen uniformemente (y aparentemente de forma aleatoria) sobre
+      el rango.
+  examples: []
+  id: d31-2008-spa-3.1.25-spa
+  notes:
+  - content: 'Source citation: ISO/IEC 9594- 8'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.25
+    sourced_from:
+    - ref:
+        source: ISO/IEC 9594-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Funcion hash
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3e30f1c9-0aaf-5fab-b5b3-9ed5f904d508
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fonction (mathématique) qui lie les valeurs d'un grand domaine (potentiellement
+      très grand) à une plus petite étendue. Une "bonne" fonction de hachage est telle
+      que les résultats de l'application de la fonction à une (grande) série de valeurs
+      dans le domaine seront uniquement distribués (et apparemment aléatoirement)
+      sur l'étendue.
+  examples: []
+  id: d31-2008-f-3.1.25-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.25
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fonction de hachage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 910f177d-49a2-57ff-be8b-dbe8afb24d5c
+

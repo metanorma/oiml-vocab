@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r76-2006-T.2.8.4
+  localized_concepts:
+    eng: 1ddeb3e9-a495-595a-9dbf-430e66b72dd2
+    fra: 0be9b14f-6a10-5a5e-9168-54814d896888
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.4
+    type: authoritative
+status: valid
+id: a41f4f7b-b7b9-57ab-b9f3-1a422e50bada
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the individual
+      instrument. Device-specific parameters comprise calibration parameters (e.g.
+      span adjustment or other adjustments or corrections) and configuration parameters
+      (e.g. maximum capacity, minimum capacity, units of measurement, etc.). They
+      are adjustable or selectable only in a special operational mode of the instrument.
+      Device-specific parameters may be classified as those that should be secured
+      (unalterable) and those that may be accessed (settable parameters) by an authorized
+      person.
+  examples: []
+  id: r76-2006-e-T.2.8.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: device-specific parameter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ddeb3e9-a495-595a-9dbf-430e66b72dd2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Paramètre d'application légale avec une valeur qui dépend de l'instrument
+      individuellement. Les paramètres spécifiques au dispositif comprennent les paramètres
+      d'etalonnage (par exemple, le réglage de la pente ou d'autres réglages ou corrections)
+      et les paramètres de configuration (par exemple, la portée maximale, la portée
+      minimale, les unités de mesure, etc.). Ils sont réglables ou sélectables seulement
+      par un mode d'opération spéciale de l'instrument. Les paramètres spécifiques
+      du dispositif peuvent être classés comme ceux qui doivent être sécurisés (inaltérables)
+      et ceux qui peuvent être accessibles (paramètres sélectables) par une personne
+      autorisée.
+  examples: []
+  id: r76-2006-e-T.2.8.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paramètre spécifique au dispositif
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0be9b14f-6a10-5a5e-9168-54814d896888
+

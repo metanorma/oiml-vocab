@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r106-1-2011-0.3.1.2.2
+  localized_concepts:
+    eng: 144d45f3-ca5d-5853-9449-763eaee5e612
+    fra: edb6b1ba-047c-56d2-93f4-75d35c219e76
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.2.2
+    type: authoritative
+status: valid
+id: 4ea1969e-56e3-5f5f-87b6-4941387e944a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: pesage d un wagon par determination du poids de chaque bogie reposant
+      sur le meme recepteur de charge
+  examples: []
+  id: r106-1-2011-fra-0.3.1.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pesage partiel par bogie
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: edb6b1ba-047c-56d2-93f4-75d35c219e76
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: weighing a wagon for each bogie weight on the same load receptor the
+      results are automatically added to indicate the wagon weight
+  examples: []
+  id: r106-1-2011-eng-0.3.1.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: bogie partial weighing
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 144d45f3-ca5d-5853-9449-763eaee5e612
+

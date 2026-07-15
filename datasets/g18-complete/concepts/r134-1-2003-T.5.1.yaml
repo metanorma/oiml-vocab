@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r134-1-2003-T.5.1
+  localized_concepts:
+    eng: 751741b2-61a5-5167-8eae-45c2d53c3885
+    fra: c2fbfcd6-a287-59f4-b8b2-2968bdb61ebd
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.5.1
+    type: authoritative
+status: valid
+id: 5019c885-51ea-55df-bfbb-cb3407bbbc93
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur ne faisant pas l'objet du mesurage mais influençant la valeur
+      du mesurande ou l'indication de l'instrument.
+  examples: []
+  id: r134-1-2003-fra-T.5.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.5.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Grandeur d'influence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c2fbfcd6-a287-59f4-b8b2-2968bdb61ebd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the instrument.
+  examples: []
+  id: r134-1-2003-eng-T.5.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.5.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 751741b2-61a5-5167-8eae-45c2d53c3885
+

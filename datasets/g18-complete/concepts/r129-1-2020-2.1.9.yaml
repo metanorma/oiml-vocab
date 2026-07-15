@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r129-1-2020-2.1.9
+  localized_concepts:
+    eng: c5426bc9-4f62-5159-ab40-e404ab874b8b
+    deu: 6ae20198-b69c-5aed-9851-9df60ea834fb
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.9
+    type: authoritative
+status: valid
+id: b001d3ae-c686-583a-8cee-67c78fcf9cbf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: maximale Geschwindigkeit, bei der das Gerät korrekte Messungen durchführt
+  examples: []
+  id: r129-1-2020-deu-2.1.9-deu
+  notes:
+  - content: Gilt nur für Geräte, bei denen Messungen durch eine Relativbewegung zwischen
+      Objekt und Gerät beeinträchtigt werden.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximale Messgeschwindigkeit (V_max)
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6ae20198-b69c-5aed-9851-9df60ea834fb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: maximum speed at which the instrument will measure correctly
+  examples: []
+  id: r129-1-2020-eng-2.1.9-eng
+  notes:
+  - content: Only applicable to instruments where measurements are affected by means
+      of relative movement between the object and the instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum measuring speed
+  - type: symbol
+    normative_status: admitted
+    designation: V_max
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c5426bc9-4f62-5159-ab40-e404ab874b8b
+

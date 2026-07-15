@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r126-1998-3.8
+  localized_concepts:
+    eng: bf0efde9-dfeb-50ab-81a8-3c8b2ad07fd2
+    fra: a3d089af-ebf7-5020-9671-bddd44441193
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+status: valid
+id: 634c4a50-8b50-5918-a285-11cc99a0aabf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mode, clairement mis en evidence, pour lequel l'ethylometre peut effectuer
+      des mesurages a la cadence normalement prevue en service et, pour lequel les
+      exigences de performance de la presente Recommandation doivent etre satisfaites.
+  examples: []
+  id: r126-1998-f-3.8-fra
+  notes:
+  - content: Les positions mesure et veille (3.7) sont des modes du fonctionnement
+      normal (3.6).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Position mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a3d089af-ebf7-5020-9671-bddd44441193
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The clearly marked mode in which the EBA can make measurements at the
+      rate normally expected in service and in which it shall meet the performance
+      requirements of this Recommendation.
+  examples: []
+  id: r126-1998-e-3.8-eng
+  notes:
+  - content: The measuring mode and the stand-by mode (3.7) are modes of normal operation
+      (3.6).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring mode
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bf0efde9-dfeb-50ab-81a8-3c8b2ad07fd2
+

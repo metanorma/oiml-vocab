@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r85-2008-3.25
+  localized_concepts:
+    eng: 4cd8df78-ca5f-5687-9a8a-42ee8d0ba540
+    fra: 0106dc2d-b7b9-586b-b8a3-114ba905b455
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.25'
+    type: authoritative
+status: valid
+id: 7f73ca83-4fa3-5de8-93a3-0d35f1965c5f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Influence quantity having a value within specified limits, but outside
+      the specified rated operating conditions of the ALG.
+  examples: []
+  id: r85-2008-e-3.25-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.25'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4cd8df78-ca5f-5687-9a8a-42ee8d0ba540
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      mais en dehors des conditions assignées de fonctionnement spécifiées pour le
+      JA.
+  examples: []
+  id: r85-2008-e-3.25-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.25'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: 2026-07-13T00:00+00:00
+id: 0106dc2d-b7b9-586b-b8a3-114ba905b455
+

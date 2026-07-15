@@ -8,28 +8,6 @@ data:
     source: OIML R 139-1:2014
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2014
-        version: '2014'
-    locality:
-      type: clause
-      reference_from: 3.1.4
-    type: authoritative
-status: valid
-id: '008d1148-3964-54e6-9aa7-0eb7a7fc0ef2'
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: indication minus a reference quantity value
-  examples: []
-  id: r139-1-2014-eng-3.1.4-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: '008d1148-3964-54e6-9aa7-0eb7a7fc0ef2'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indication minus a reference quantity value
+  examples: []
+  id: r139-1-2014-eng-3.1.4-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

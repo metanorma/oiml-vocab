@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r126-1998-3.11
+  localized_concepts:
+    eng: '028bc444-c77b-5303-9493-b735e54ead97'
+    fra: 95125c92-3665-5e9b-ae60-de4a8be7132b
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+status: valid
+id: ea94669d-1121-5b5e-8bce-01db5ca70c28
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Operation permettant de verifier si l'ethylometre est convenablement
+      ajuste, en faisant intervenir tous les elements internes appropries.
+  examples: []
+  id: r126-1998-f-3.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Verification du bon ajustage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 95125c92-3665-5e9b-ae60-de4a8be7132b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An operation involving all relevant internal elements which verifies
+      that the EBA is suitably adjusted.
+  examples: []
+  id: r126-1998-e-3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: adjustment-checking operation
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '028bc444-c77b-5303-9493-b735e54ead97'
+

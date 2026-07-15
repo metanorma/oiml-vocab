@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r76-1-1992-T.5.2.1
+  localized_concepts:
+    eng: e354f43c-c623-519d-bf68-91249e2e884d
+    fra: 79112ac3-b778-5e01-a64b-3ebaf9064dfa
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.5.2.1
+    type: authoritative
+status: valid
+id: d772b644-8d02-5bc7-a5d8-b4c80d787530
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication du poids de la charge sur un instrument, lorsqu'aucun dispositif
+      de tare ou dispositif de prédétermination de la tare n'a été mis en œuvre.
+  examples: []
+  id: r76-1-1992-f-T.5.2.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.5.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Valeur brute (G ou B)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 79112ac3-b778-5e01-a64b-3ebaf9064dfa
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication of the weight of a load on an instrument, with no tare or
+      preset tare device in operation.
+  examples: []
+  id: r76-1-1992-e-T.5.2.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.5.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Gross value (G or B)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e354f43c-c623-519d-bf68-91249e2e884d
+

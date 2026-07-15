@@ -8,29 +8,6 @@ data:
     source: OIML R 106-1:2011
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 106-1:2011
-        version: '2011'
-    locality:
-      type: clause
-      reference_from: 0.1.12
-    type: authoritative
-status: valid
-id: bd2f755c-0572-5ead-997f-a19ba488c12c
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: einer Große zugeordneter und akzeptierter Wert, teilweise mit einer per
-      Konvention akzeptierten Ungenauigkeit fur einen gegebenen Zweck.
-  examples: []
-  id: r106-1-2011-deu-0.1.12-deu
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: bd2f755c-0572-5ead-997f-a19ba488c12c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: einer Große zugeordneter und akzeptierter Wert, teilweise mit einer per
+      Konvention akzeptierten Ungenauigkeit fur einen gegebenen Zweck.
+  examples: []
+  id: r106-1-2011-deu-0.1.12-deu
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -8,30 +8,6 @@ data:
     source: OIML R 137-1:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 137-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: 2.2.15
-    type: authoritative
-status: valid
-id: 19565d78-b0f3-5c8a-904d-385e3692a981
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Conditions of use giving the range of values of the measurand and the
-      influence quantities, for which the errors of the gas meter are required to
-      be within the limits of the maximum permissible error.
-  examples: []
-  id: r137-1-2006-e-2.2.15-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 19565d78-b0f3-5c8a-904d-385e3692a981
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions of use giving the range of values of the measurand and the
+      influence quantities, for which the errors of the gas meter are required to
+      be within the limits of the maximum permissible error.
+  examples: []
+  id: r137-1-2006-e-2.2.15-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

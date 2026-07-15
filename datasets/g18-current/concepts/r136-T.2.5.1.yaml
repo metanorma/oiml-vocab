@@ -3,28 +3,11 @@ data:
   identifier: r136-T.2.5.1
   localized_concepts:
     eng: 23bae642-cf31-53fe-a803-4cb5eb93f487
-    deu: b173e9bf-f884-5e36-817f-6f2dc8860fee
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5.1
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5.1
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -50,7 +33,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -63,41 +46,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 23bae642-cf31-53fe-a803-4cb5eb93f487
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Einrichtung, um eine Anzeige automatisch, ohne das Tätigwerden eines
-      Bedieners, auf null zu stellen.
-  examples: []
-  id: r136-T.2.5.1-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5.1
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: selbsttätige Nullstelleinrichtung
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: b173e9bf-f884-5e36-817f-6f2dc8860fee
 

@@ -3,28 +3,11 @@ data:
   identifier: r136-T.2.5.3
   localized_concepts:
     eng: 723fefa5-1163-5513-9a9a-21909a853a5d
-    deu: 2eeb829e-267e-5cae-82f4-b2cfb5023aaf
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5.3
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5.3
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -49,7 +32,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -62,40 +45,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 723fefa5-1163-5513-9a9a-21909a853a5d
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Einrichtung, um eine Anzeige durch einen Bediener auf null zu stellen.
-  examples: []
-  id: r136-T.2.5.3-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5.3
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: nichtselbsttätige Nullstelleinrichtung
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 2eeb829e-267e-5cae-82f4-b2cfb5023aaf
 

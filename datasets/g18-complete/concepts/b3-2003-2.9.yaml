@@ -1,0 +1,87 @@
+---
+data:
+  identifier: b3-2003-2.9
+  localized_concepts:
+    eng: 37a67b24-a1bc-54a9-b000-72e400ade76b
+    fra: 3f6863c4-9b87-53bd-a039-bc89a26ddd66
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.9'
+status: valid
+id: fa8d52f9-dac6-5205-bcbe-7e8ff0e8bebe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conformité d'un type d'instrument de mesure avec les exigences métrologiques
+      et techniques telles que spécifiées dans la Recommandation applicable.
+  examples: []
+  id: b3-2003-f-2.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: '2.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conformité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3f6863c4-9b87-53bd-a039-bc89a26ddd66
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fulfillment by a measuring instrument type of metrological and technical
+      requirements as specified in the relevant Recommendation.
+  examples: []
+  id: b3-2003-e-2.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conformity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 37a67b24-a1bc-54a9-b000-72e400ade76b
+

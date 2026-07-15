@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r117-1-2007-T.s.5
+  localized_concepts:
+    eng: 77019f2c-7ee7-547c-9c68-2398f901771f
+    fra: d9f80c09-d03a-5c79-81f5-b1e5ea3feadf
+  domains:
+  - concept_id: r-117-1
+    source: OIML R 117-1:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.s.5
+    type: authoritative
+status: valid
+id: 34083766-49d3-560f-b72c-ab1f4fffbc0d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Une transaction est conclue lorsque les parties intéressées à cette transaction
+      ont fait connaître leur accord (explicite ou implicite) sur le montant de celle-ci.
+      Il peut s'agir du paiement, de la signature d'un bordereau de carte de crédit,
+      de la signature d'un bon de livraison, etc.
+  examples: []
+  id: r117-1-2007-fra-T.s.5-fra
+  notes:
+  - content: 'Les parties intéressées à une transaction peuvent être les parties elles-mêmes
+      ou leurs représentants (exemple: pompiste dans une station-service, chauffeur
+      d''un camion).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.s.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conclusion d'une transaction
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-117-1
+    source: OIML R 117-1:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d9f80c09-d03a-5c79-81f5-b1e5ea3feadf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A transaction is settled when the parties interested in the transaction
+      have made their agreement known (explicitly or implicitly) regarding the amount
+      of the transaction. This may be a payment, signing a credit card voucher, signing
+      a delivery order, etc.
+  examples: []
+  id: r117-1-2007-eng-T.s.5-eng
+  notes:
+  - content: The parties interested in a transaction may be the parties themselves
+      or their representatives (for example, the employee in a filling station or
+      the driver of a truck).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117-1:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.s.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: settlement of a transaction
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-117-1
+    source: OIML R 117-1:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77019f2c-7ee7-547c-9c68-2398f901771f
+

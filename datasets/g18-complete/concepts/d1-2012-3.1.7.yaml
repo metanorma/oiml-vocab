@@ -1,0 +1,88 @@
+---
+data:
+  identifier: d1-2012-3.1.7
+  localized_concepts:
+    eng: 9663d877-9585-5f8d-8c1d-284b8ac2f5cd
+    fra: 91107f8b-3727-5c0e-9540-077cd2ba45a9
+  domains:
+  - concept_id: d-1
+    source: OIML D 1:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.05'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: c13b41b1-c2b6-5372-973f-75a5b35f57de
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and/or an evaluation certificate
+  examples: []
+  id: d1-2012-e-3.1.7-eng
+  notes:
+  - content: '"Pattern" is used in legal metrology with the same meaning as "type".
+      In the entries below, only "type" is used.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Type evaluation of measuring instruments
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9663d877-9585-5f8d-8c1d-284b8ac2f5cd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: procédure d'évaluation de la conformité d'un ou plusieurs exemplaires
+      d'un type (modèle) identifié d'instrument de mesure conduisant à l'établissement
+      d'un rapport d'évaluation et/ou d'un certificat d'évaluation
+  examples: []
+  id: d1-2012-f-3.1.7-fra
+  notes:
+  - content: "« Modèle » est utilisé en métrologie légale avec la même signification
+      que « type » ; dans les définitions ci-après, seul « type » est utilisé."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Évaluation type d'instruments de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 91107f8b-3727-5c0e-9540-077cd2ba45a9
+

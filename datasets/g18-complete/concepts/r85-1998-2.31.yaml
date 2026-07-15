@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r85-1998-2.31
+  localized_concepts:
+    eng: a677c71d-eaae-5033-8429-44623af6d061
+    fra: 025ec4f4-762d-5e78-9515-1c4b320c6df9
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '2.31'
+    type: authoritative
+status: valid
+id: b806ec53-f580-5f24-8074-474bc4fdd6cc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The difference between the error of indication and the intrinsic error
+      of an ALG.
+  examples: []
+  id: r85-1998-e-2.31-eng
+  notes:
+  - content: Principally a fault is the result of an undesired change of data contained
+      in or flowing through an electronic ALG.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '2.31'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a677c71d-eaae-5033-8429-44623af6d061
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre l'erreur d'indication et l'erreur intrinsèque d'un JA.
+  examples: []
+  id: r85-1998-f-2.31-fra
+  notes:
+  - content: Un défaut est principalement le résultat d'un changement non désiré des
+      données contenues ou transitant dans un JA électronique.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '2.31'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 025ec4f4-762d-5e78-9515-1c4b320c6df9
+

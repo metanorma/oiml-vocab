@@ -1,0 +1,105 @@
+---
+data:
+  identifier: d27-2001-2.15
+  localized_concepts:
+    eng: 59ee0d8d-8e08-5ff9-a665-818b4b45eab5
+    fra: 67707434-d377-5dc1-87c0-197d2af656cd
+  domains:
+  - concept_id: d-27
+    source: OIML D 27:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+status: valid
+id: 758cd8da-7df8-5d3f-846c-451f9c746d6e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Processus méthodique, indépendant et documenté permettant d'obtenir des
+      preuves d'audit et de les évaluer de manière objective pour déterminer dans
+      quelle mesure les critères d'audit sont satisfaits.
+  examples: []
+  id: d27-2001-f-2.15-fra
+  notes:
+  - content: Les audits internes, appelés parfois "audits première partie" sont réalisés
+      par, ou au nom de, l'organisme lui-même pour des raisons internes et peuvent
+      constituer la base d'une autodéclaration de conformité. Les audits externes
+      comprennent ce que l'on appelle généralement les "audits seconde ou tierce partie".
+      Les audits seconde partie sont réalisés par des parties, telles que des clients,
+      ayant un intérêt dans l'organisme, ou par d'autres personnes en leur nom. Les
+      audits tierce partie sont réalisés par des organismes externes indépendants.
+  - content: 'Source citation: ISO 900 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    sourced_from:
+    - ref:
+        source: ISO 900
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Audit
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 67707434-d377-5dc1-87c0-197d2af656cd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Systematic, independent and documented process for obtaining audit evidence
+      and evaluating it objectively to determine the extent to which audit criteria
+      are fulfilled.
+  examples: []
+  id: d27-2001-e-2.15-eng
+  notes:
+  - content: Internal audits, sometimes called "first-party audits", are conducted
+      by, or on behalf of, the organization itself for internal purposes and can form
+      the basis of an organization's self-declaration of conformity. External audits
+      include what are generally termed "second- or third-party audits". Second-party
+      audits are conducted by parties having an interest in the organization, such
+      as customers, or by other persons on their behalf. Third-party audits are conducted
+      by external independent organizations.
+  - content: 'Source citation: ISO 900 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    sourced_from:
+    - ref:
+        source: ISO 900
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Audit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 59ee0d8d-8e08-5ff9-a665-818b4b45eab5
+

@@ -1,0 +1,116 @@
+---
+data:
+  identifier: r76-1-2006-T.2.3.1
+  localized_concepts:
+    eng: fe25168b-f4e3-517d-95b5-3b9865ba9b88
+    fra: dff6aa9e-ee17-5d0b-a0fa-3247846f4c2b
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.1
+    type: authoritative
+status: valid
+id: 65e676c4-7414-5eb0-a984-90114da1d7e1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif utilisant des sous-ensembles électroniques et accomplissant
+      une fonction spécifique.
+  examples: []
+  id: r76-1-2006-fra-T.2.3.1-fra
+  notes:
+  - content: Les dispositifs électroniques sont généralement fabriqués comme des éléments
+      séparés et sont susceptibles d'être essayés indépendamment.
+  - content: Un dispositif électronique, comme défini ci-dessus, peut être un instrument
+      complet (par exemple, un instrument pour la vente directe au public), un module
+      (par exemple, un indicateur, un dispositif de traitement de données analogiques,
+      un module de pesage) ou un dispositif périphérique (par exemple, une imprimante,
+      un afficheur secondaire).
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.1
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif électronique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dff6aa9e-ee17-5d0b-a0fa-3247846f4c2b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device employing electronic sub-assemblies and performing a specific
+      function.
+  examples: []
+  id: r76-1-2006-eng-T.2.3.1-eng
+  notes:
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.1
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: electronic device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fe25168b-f4e3-517d-95b5-3b9865ba9b88
+

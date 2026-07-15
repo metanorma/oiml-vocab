@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 59-1:2016
+        source: OIML V 1:2013
         version: '2016'
     locality:
       type: clause
@@ -33,26 +33,7 @@ data:
   notes:
   - content: Pattern is used in legal metrology with the same meaning as type; in
       the entries below, only type is used.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '2.04'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.15
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

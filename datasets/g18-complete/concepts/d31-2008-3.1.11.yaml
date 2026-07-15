@@ -1,0 +1,95 @@
+---
+data:
+  identifier: d31-2008-3.1.11
+  localized_concepts:
+    fra: fc3c2112-8581-504c-8d6f-48216e176781
+    spa: 0e60f80d-a552-52aa-be5d-579156754cf2
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.11
+    type: authoritative
+status: valid
+id: 29da4391-694a-5d49-9a24-1b76147087aa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Cryptage des données par l'émetteur et décryptage par le récepteur avec
+      pour objectif la dissimulation des informations aux personnes non autorisées.
+      Signer électroniquement des données dans le but de permettre au récepteur ou
+      utilisateur des données de vérifier l'origine de ces données, i.e. de prouver
+      leur authenticité.
+  examples: []
+  id: d31-2008-f-3.1.11-fra
+  notes:
+  - content: Pour signer électroniquement, un système de clef publique est en général
+      utilisé.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Moyens cryptographiques
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fc3c2112-8581-504c-8d6f-48216e176781
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Procesos en los que el remitente cifra datos y el receptor los descifra
+      con el objetivo de ocultar información a personas no autorizadas. Firma electrónica
+      de los datos con el objeto de permitir al receptor o usuario verificar su origen.
+  examples: []
+  id: d31-2008-spa-3.1.11-spa
+  notes:
+  - content: Por lo general, se utiliza para firmar electrónicamente un sistema de
+      clave pública.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Métodos criptográficos
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0e60f80d-a552-52aa-be5d-579156754cf2
+

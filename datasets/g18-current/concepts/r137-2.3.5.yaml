@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r137-2.3.5
+  localized_concepts:
+    eng: c1c576c8-2d97-5929-bcae-8f2ff2a12a4c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+status: valid
+id: 1ea07d14-cb42-5d4b-882c-956d02b4ef92
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Temperature of the gas to be measured at the gas meter.
+  examples: []
+  id: r137-2.3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: working temperature
+  - type: symbol
+    normative_status: admitted
+    designation: t_w
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c1c576c8-2d97-5929-bcae-8f2ff2a12a4c
+

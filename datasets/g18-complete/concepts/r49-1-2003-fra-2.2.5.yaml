@@ -8,28 +8,6 @@ data:
     source: OIML R 49-1:2003
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 49-1:2003
-        version: '2003'
-    locality:
-      type: clause
-      reference_from: 2.2.5
-    type: authoritative
-status: valid
-id: dbdc5c55-df76-547a-86aa-d1f1bab457c4
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Erreur (d'indication) divisée par le volume réel [adapté de VIM 3.12].
-  examples: []
-  id: r49-1-2003-fra-2.2.5-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: dbdc5c55-df76-547a-86aa-d1f1bab457c4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur (d'indication) divisée par le volume réel [adapté de VIM 3.12].
+  examples: []
+  id: r49-1-2003-fra-2.2.5-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

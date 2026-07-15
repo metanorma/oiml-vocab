@@ -8,34 +8,6 @@ data:
     source: OIML R 142-1:2025
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 142-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '3.13'
-    type: authoritative
-status: valid
-id: a57a3500-2de0-522f-9dd0-11725f6a2fb7
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: measurement precision under reproducibility conditions of measurement
-  examples: []
-  id: r142-1-2025-eng-3.13-eng
-  notes:
-  - content: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.
-  - content: In this Recommendation, the reproducibility of measurements between units
-      of the same type of instrument under reference conditions is assessed by the
-      standard deviation of differences (SDD). The reproducibility of measurements
-      from one instrument when select influence factors are varied is assessed by
-      the magnitude of the error shift or fault.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -55,6 +27,26 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: a57a3500-2de0-522f-9dd0-11725f6a2fb7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement precision under reproducibility conditions of measurement
+  examples: []
+  id: r142-1-2025-eng-3.13-eng
+  notes:
+  - content: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.
+  - content: In this Recommendation, the reproducibility of measurements between units
+      of the same type of instrument under reference conditions is assessed by the
+      standard deviation of differences (SDD). The reproducibility of measurements
+      from one instrument when select influence factors are varied is assessed by
+      the magnitude of the error shift or fault.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

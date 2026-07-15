@@ -8,29 +8,6 @@ data:
     source: OIML R 150-1:2020
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.3.10
-    type: authoritative
-status: valid
-id: aed5d800-c459-5874-a4df-7f7977e3e88c
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: ability of an instrument to maintain its performance characteristics
-      over a period of use
-  examples: []
-  id: r150-1-2020-eng-2.3.10-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: aed5d800-c459-5874-a4df-7f7977e3e88c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ability of an instrument to maintain its performance characteristics
+      over a period of use
+  examples: []
+  id: r150-1-2020-eng-2.3.10-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

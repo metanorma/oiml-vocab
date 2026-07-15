@@ -8,34 +8,6 @@ data:
     source: OIML R 59-1:2016
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.8
-    type: authoritative
-status: valid
-id: 1a3024b2-b337-5a11-8426-ed31ded28828
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: measurement precision under reproducibility conditions of measurement
-  examples: []
-  id: r59-1-2016-eng-2.1.8-eng
-  notes:
-  - content: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.
-  - content: In this Recommendation, the reproducibility of measurements between units
-      of the same type of instrument under reference conditions is assessed by the
-      standard deviation of differences (SDD_1). The reproducibility of measurements
-      from one instrument when select influence factors are varied is assessed by
-      the magnitude of the error shift or fault.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -55,6 +27,26 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 1a3024b2-b337-5a11-8426-ed31ded28828
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement precision under reproducibility conditions of measurement
+  examples: []
+  id: r59-1-2016-eng-2.1.8-eng
+  notes:
+  - content: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.
+  - content: In this Recommendation, the reproducibility of measurements between units
+      of the same type of instrument under reference conditions is assessed by the
+      standard deviation of differences (SDD_1). The reproducibility of measurements
+      from one instrument when select influence factors are varied is assessed by
+      the magnitude of the error shift or fault.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

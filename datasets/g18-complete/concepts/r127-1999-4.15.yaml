@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r127-1999-4.15
+  localized_concepts:
+    eng: 309be9db-befc-5e01-80f2-d67143c454fe
+    fra: 1fc883e9-c02b-5f54-869e-a9d81ce15bd8
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.15'
+status: valid
+id: 85f059d3-224f-50dd-881d-e34a4f87ad1d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The set of values of absorbed dose for which the error of the dosimetry
+      system is intended to lie within specified limits.
+  examples: []
+  id: r127-1999-e-4.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.15'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: absorbed-dose working range
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 309be9db-befc-5e01-80f2-d67143c454fe
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Intervalle de valeurs de dose absorbée pour lequel l'erreur du système
+      de dosimétrie est censée rester dans les limites spécifiées.
+  examples: []
+  id: r127-1999-f-4.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Étendue de mesure de dose absorbée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1fc883e9-c02b-5f54-869e-a9d81ce15bd8
+

@@ -1,0 +1,96 @@
+---
+data:
+  identifier: r61-1-2017-3.5.2.1
+  localized_concepts:
+    eng: 783ef3e2-5b33-53f9-9872-17cfe0db63fe
+    deu: b2acafc7-f9b5-5f9c-bb87-4758ccecb029
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.1
+    type: authoritative
+status: valid
+id: 28329df5-1f7b-5106-8ab9-7a522c7b7e11
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r61-1-2017-eng-3.5.2.1-eng
+  notes:
+  - content: The concept of 'measurement error' can be used both a) when there is
+      a single reference quantity value to refer to, which occurs if a calibration
+      is made by means of a measurement standard with a measured quantity value having
+      a negligible measurement uncertainty or if a conventional quantity value is
+      given, in which case the measurement error is known, and b) if a measurand is
+      supposed to be represented by a unique true quantity value or a set of true
+      quantity values of negligible range, in which case the measurement error is
+      not known.
+  - content: Measurement error should not be confused with production error or mistake.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 783ef3e2-5b33-53f9-9872-17cfe0db63fe
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Messwert minus eines Referenzwerts
+  examples:
+  - content: 'Source citation: VIM 2.16'
+  id: r61-1-2017-deu-3.5.2.1-deu
+  notes:
+  - content: Messabweichung sollte nicht mit Fehler verwechselt werden.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messabweichung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b2acafc7-f9b5-5f9c-bb87-4758ccecb029
+

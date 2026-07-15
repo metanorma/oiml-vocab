@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r59-1-2016-2.3.4
+  localized_concepts:
+    eng: e1d7f2b7-d4b4-54be-9e1a-d2bdaaf53957
+    fra: 1eeee22b-e889-5361-a880-3be6576f7025
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+status: valid
+id: 52ce3aaf-3a0d-5a87-9403-3dd0fe6dbb0b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: batterie dont le but est d'alimenter des fonctions spécifiques d'un instrument
+      en l'absence d'une source principale d'alimentation, par exemple pour conserver
+      des données enregistrées.
+  examples: []
+  id: r59-1-2016-fra-2.3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: batterie de secours
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1eeee22b-e889-5361-a880-3be6576f7025
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: battery intended to power specific functions of an instrument in the
+      absence of the primary power supply
+  examples:
+  - content: to preserve stored data
+  id: r59-1-2016-eng-2.3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: back-up battery
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e1d7f2b7-d4b4-54be-9e1a-d2bdaaf53957
+

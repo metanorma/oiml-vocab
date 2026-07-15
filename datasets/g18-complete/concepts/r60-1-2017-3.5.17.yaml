@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r60-1-2017-3.5.17
+  localized_concepts:
+    eng: 5ac28b45-bacc-54a4-b71b-41c389b4eabf
+    fra: b42bc74a-a4d9-53e7-9751-782f8fa13f78
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.17
+    type: authoritative
+status: valid
+id: 5f16735e-67b2-5281-8737-b48eb23f78ba
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: temps écoulé entre le moment de mise sous tension d'une cellule de pesée
+      et le moment où la cellule de pesée est prête à satisfaire aux exigences
+  examples: []
+  id: r60-1-2017-fra-3.5.17-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.17
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de chauffage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b42bc74a-a4d9-53e7-9751-782f8fa13f78
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: time between the moment power is applied to a load cell and the moment
+      at which the load cell is capable of complying with the requirements
+  examples: []
+  id: r60-1-2017-eng-3.5.17-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.17
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: warm-up time
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5ac28b45-bacc-54a4-b71b-41c389b4eabf
+

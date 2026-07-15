@@ -8,34 +8,6 @@ data:
     source: OIML R 59-1:2016
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.10
-    type: authoritative
-status: valid
-id: ac4d42c9-7653-5e67-954f-10358f7baccc
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: operating condition prescribed for evaluating the performance of a measuring
-      instrument or measuring system or for comparison of measurement results
-  examples: []
-  id: r59-1-2016-eng-2.1.10-eng
-  notes:
-  - content: Reference conditions specify intervals of values of the measurand and
-      influence quantities.
-  - content: In IEC 60050-300, item 311-06-02, the term reference condition refers
-      to an operating condition under which the specified instrumental measurement
-      uncertainty is the smallest possible.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -55,6 +27,26 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: ac4d42c9-7653-5e67-954f-10358f7baccc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition prescribed for evaluating the performance of a measuring
+      instrument or measuring system or for comparison of measurement results
+  examples: []
+  id: r59-1-2016-eng-2.1.10-eng
+  notes:
+  - content: Reference conditions specify intervals of values of the measurand and
+      influence quantities.
+  - content: In IEC 60050-300, item 311-06-02, the term reference condition refers
+      to an operating condition under which the specified instrumental measurement
+      uncertainty is the smallest possible.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

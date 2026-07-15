@@ -8,30 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.20'
-status: valid
-id: e53d43e4-b120-5d8f-be10-097babd20d78
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: material, sufficiently homogeneous and stable with reference to specified
-      properties, which has been established to be fit for its intended use in measurement
-      or in examination of nominal properties
-  examples: []
-  id: d5-2022-e-3.20-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: e53d43e4-b120-5d8f-be10-097babd20d78
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended use in measurement
+      or in examination of nominal properties
+  examples: []
+  id: d5-2022-e-3.20-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

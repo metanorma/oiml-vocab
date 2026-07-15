@@ -8,14 +8,25 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.35'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.4'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: 4d9e1e56-1455-5530-a0db-2919e4fddb0e
 schema_version: '3'
@@ -36,26 +47,7 @@ data:
   - content: Expanded measurement uncertainty is termed "overall uncertainty" in paragraph
       5 of Recommendation INC-1 (1980) (see the GUM) and simply "uncertainty" in IEC
       documents.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.35'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: '3.4'
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

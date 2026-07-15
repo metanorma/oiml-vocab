@@ -8,32 +8,6 @@ data:
     source: OIML D 11:2026
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 11:2026
-        version: '2026'
-    locality:
-      type: clause
-      reference_from: 3.1.2
-    type: authoritative
-status: valid
-id: 7d9dd080-d264-5e71-a7f5-8769355dac11
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: set of one or more measuring instruments and often other devices, including
-      any reagent and supply, assembled and adapted to give information used to generate
-      measured quantity values within specified intervals for quantities of specified
-      kinds
-  examples: []
-  id: d11-2026-e-3.1.2-eng
-  notes:
-  - content: A measuring system may consist of only one measuring instrument.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 7d9dd080-d264-5e71-a7f5-8769355dac11
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of one or more measuring instruments and often other devices, including
+      any reagent and supply, assembled and adapted to give information used to generate
+      measured quantity values within specified intervals for quantities of specified
+      kinds
+  examples: []
+  id: d11-2026-e-3.1.2-eng
+  notes:
+  - content: A measuring system may consist of only one measuring instrument.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

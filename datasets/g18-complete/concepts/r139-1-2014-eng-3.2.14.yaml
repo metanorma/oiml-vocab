@@ -8,34 +8,6 @@ data:
     source: OIML R 139-1:2014
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2014
-        version: '2014'
-    locality:
-      type: clause
-      reference_from: 3.2.14
-    type: authoritative
-status: valid
-id: 1986bf84-2729-5cf1-94b2-bb4e82d23586
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: facility, incorporated in a measuring instrument (or system), which enables
-      significant faults to be detected and acted upon, including incorrect functioning
-      of a specific device of the measuring instrument or system, and/or disturbed
-      communication between specific devices of the measuring instrument or system
-  examples: []
-  id: r139-1-2014-eng-3.2.14-eng
-  notes:
-  - content: Acted upon refers to any adequate response by the measuring instrument
-      (for example a luminous signal, an acoustic signal, interruption or blocking
-      of the measurement process, etc.).
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -55,6 +27,26 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 1986bf84-2729-5cf1-94b2-bb4e82d23586
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility, incorporated in a measuring instrument (or system), which enables
+      significant faults to be detected and acted upon, including incorrect functioning
+      of a specific device of the measuring instrument or system, and/or disturbed
+      communication between specific devices of the measuring instrument or system
+  examples: []
+  id: r139-1-2014-eng-3.2.14-eng
+  notes:
+  - content: Acted upon refers to any adequate response by the measuring instrument
+      (for example a luminous signal, an acoustic signal, interruption or blocking
+      of the measurement process, etc.).
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

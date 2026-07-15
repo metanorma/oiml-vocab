@@ -8,30 +8,6 @@ data:
     source: OIML D 11:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 11:2004
-        version: '2004'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.14'
-status: valid
-id: b1dca87e-2876-5225-a491-86e50a8dba94
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Conditions of use giving the range of values of influence quantities
-      for which specified metrological characteristics of a measuring instrument are
-      intended to lie within given limits.
-  examples: []
-  id: d11-2004-e-3.14-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: b1dca87e-2876-5225-a491-86e50a8dba94
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions of use giving the range of values of influence quantities
+      for which specified metrological characteristics of a measuring instrument are
+      intended to lie within given limits.
+  examples: []
+  id: d11-2004-e-3.14-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

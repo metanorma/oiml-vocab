@@ -1,0 +1,89 @@
+---
+data:
+  identifier: g1-100-2008-C.2.31
+  localized_concepts:
+    eng: 8f55879c-717d-5079-ad0a-501297be71c2
+    fra: 350e76ab-7669-514b-88f7-525ed880d8aa
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.31
+    type: authoritative
+status: valid
+id: aef02ebd-ccea-5c47-90ea-20fddf8b6107
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: in general, the number of terms in a sum minus the number of constraints
+      on the terms of the sum
+  examples: []
+  id: g1-100-2008-e-C.2.31-eng
+  notes:
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.31
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: degrees of freedom
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8f55879c-717d-5079-ad0a-501297be71c2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: en général, le nombre de termes de la somme moins le nombre de contraintes
+      sur les termes de la somme
+  examples: []
+  id: g1-100-2008-f-C.2.31-fra
+  notes:
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.31
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: degrés de liberté
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 350e76ab-7669-514b-88f7-525ed880d8aa
+

@@ -1,0 +1,110 @@
+---
+data:
+  identifier: r76-1-2006-T.2.3.3
+  localized_concepts:
+    eng: 113aa807-a5b4-5794-9051-f4be9d039f30
+    fra: 643fd650-d26b-5ed8-a705-c45935224c5e
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.3
+    type: authoritative
+status: valid
+id: 1f4d451f-9826-5e1d-8c26-918b4c681353
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus petite entité physique qui utilise une conduction par des électrons
+      ou trous dans des semiconducteurs, des gaz ou le vide.
+  examples:
+  - content: Tube électronique, transistor, circuit intégré.
+  id: r76-1-2006-fra-T.2.3.3-fra
+  notes:
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.4'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.3
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: composant électronique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 643fd650-d26b-5ed8-a705-c45935224c5e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Smallest physical entity that uses electron or hole conduction in semi-conductors,
+      gases or in a vacuum.
+  examples: []
+  id: r76-1-2006-eng-T.2.3.3-eng
+  notes:
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.4'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.3
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: electronic component
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 113aa807-a5b4-5794-9051-f4be9d039f30
+

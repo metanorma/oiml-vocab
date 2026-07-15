@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r136-1-2004-T.3.3
+  localized_concepts:
+    eng: ff2eaf2d-92f5-519d-b660-4e761c162c77
+    deu: 99d12147-c004-5b1c-a149-5eb8187f33d8
+  domains:
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+status: valid
+id: f2323c3e-f4ef-5767-9d3d-caf9dca309ee
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Höchstwert des auf dem Auswertegerät markierten Bereichs für eine Analoganzeige.
+      Höchster nominaler Wert, der vom digitalen Auswertegerät plus einem Skalenteilungswert
+      für elektronische Anzeigen nachgewiesen werden kann.
+  examples: []
+  id: r136-1-2004-deu-T.3.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maximale Fläche
+  - type: symbol
+    normative_status: admitted
+    designation: A_max
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99d12147-c004-5b1c-a149-5eb8187f33d8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Highest value of the marked range on the indicator for an analogue display.
+      Nominally the highest value that can be detected by the digital indicator plus
+      one scale interval for electronic displays.
+  examples: []
+  id: r136-1-2004-eng-T.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum area
+  - type: symbol
+    normative_status: admitted
+    designation: A_max
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ff2eaf2d-92f5-519d-b660-4e761c162c77
+

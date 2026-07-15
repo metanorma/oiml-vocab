@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r49-2013-3.3.9
+  localized_concepts:
+    eng: 48e2a0b4-4dc2-5c11-91cd-f6bc04fb51c9
+    fra: a9585680-a41c-51cc-9459-2b2c19d1b953
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+status: valid
+id: c3485be9-ffc0-5168-a3d8-abacc9e1066b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: maximum internal pressure that a meter can withstand permanently, within
+      its rated operating conditions, without deterioration of its metrological performance
+  examples: []
+  id: r49-2013-e-3.3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum admissible pressure
+  - type: expression
+    normative_status: admitted
+    designation: MAP
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 48e2a0b4-4dc2-5c11-91cd-f6bc04fb51c9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: pression interne maximale qu'un compteur d'eau peut supporter de maniere
+      permanente, dans ses conditions assignees de fonctionnement, sans deterioration
+      de ses performances metrologiques
+  examples: []
+  id: r49-2013-e-3.3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pression maximale admissible
+  - type: expression
+    normative_status: admitted
+    designation: PMA
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a9585680-a41c-51cc-9459-2b2c19d1b953
+

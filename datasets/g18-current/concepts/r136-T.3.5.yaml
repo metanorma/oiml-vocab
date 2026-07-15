@@ -3,28 +3,11 @@ data:
   identifier: r136-T.3.5
   localized_concepts:
     eng: f3048919-c798-5628-8b40-f4dbc303808c
-    deu: 9ef2d7ec-62aa-55b6-803e-8822d8cb6fdb
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.3.5
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.3.5
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -49,7 +32,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -62,40 +45,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: f3048919-c798-5628-8b40-f4dbc303808c
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Bereich, in welchem die Höchst- und Mindestflächen liegen sollen.
-  examples: []
-  id: r136-T.3.5-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.3.5
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Messbereich
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 9ef2d7ec-62aa-55b6-803e-8822d8cb6fdb
 

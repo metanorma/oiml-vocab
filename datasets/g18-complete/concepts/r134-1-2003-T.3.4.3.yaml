@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r134-1-2003-T.3.4.3
+  localized_concepts:
+    eng: 170b7bfa-8c63-5750-b14f-109bb6bde535
+    fra: 23812ac4-5d56-598a-a0a7-985c40f8ac30
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.3.4.3
+status: valid
+id: 76970513-31c4-5a88-a6cc-b9f023c180a6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble des valeurs entre les vitesses de fonctionnement minimale et
+      maximale auxquelles un véhicule peut être pesé en mouvement.
+  examples: []
+  id: r134-1-2003-fra-T.3.4.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Étendue des vitesses de fonctionnement
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 23812ac4-5d56-598a-a0a7-985c40f8ac30
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Set of values between the minimum and maximum operating speeds at which
+      a vehicle may be weighed in motion.
+  examples: []
+  id: r134-1-2003-e-T.3.4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.3.4.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Range of operating speeds
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 170b7bfa-8c63-5750-b14f-109bb6bde535
+

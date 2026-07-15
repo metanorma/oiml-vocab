@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r60-2000-2.4.14
+  localized_concepts:
+    eng: 18f05fbd-f8b2-5113-89eb-67850808fd7e
+    fra: 8e45c796-6ee9-5b5d-802d-dacdd01723c1
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.14
+    type: authoritative
+status: valid
+id: 2b633512-7063-59e3-a83d-67aafaeb3daa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Défaut supérieur à l'échelon de vérification, v, de la cellule de pesée.
+  examples: []
+  id: r60-2000-f-2.4.14-fra
+  notes:
+  - content: Les défauts suivants ne sont pas considérés comme défauts significatifs
+      même s'ils sont supérieurs à l'échelon de vérification, v, de la cellule de
+      pesée - défauts provenant de causes simultanées et mutuellement indépendantes;
+      défauts rendant impossible l'accomplissement de tout mesurage; défauts si importants
+      qu'ils ne peuvent manquer d'être remarqués par toutes les parties intéressées
+      au résultat du mesurage; et défauts transitoires consistant en des variations
+      momentanées du signal de sortie de la cellule de pesée ne pouvant être interprétés,
+      mémorisés ou transmis en tant que résultat de mesure.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8e45c796-6ee9-5b5d-802d-dacdd01723c1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fault greater than the load cell verification interval, v.
+  examples: []
+  id: r60-2000-e-2.4.14-eng
+  notes:
+  - content: The following are not considered significant faults even when they exceed
+      the load cell verification interval, v - faults arising from simultaneous and
+      mutually independent causes; faults implying the impossibility to perform any
+      measurements; faults being so serious that they are bound to be noticed by all
+      interested in the result of measurement; and transitory faults being momentary
+      variations in the load cell output which cannot be interpreted, memorized or
+      transmitted as a measurement result.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 18f05fbd-f8b2-5113-89eb-67850808fd7e
+

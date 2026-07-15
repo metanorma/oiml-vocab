@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r100-2013-3.9
+  localized_concepts:
+    eng: 585d3860-f864-5f57-a14e-09f902439689
+    fra: affc4359-7df4-5b43-b892-5f9d225d07a2
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+status: valid
+id: 262b434e-060c-51b7-b9ba-b5c60259a383
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: closeness of agreement between the results of successive measurements
+      of the same quantity being measured using the same instrument and under the
+      same defined conditions within a relatively short period of time
+  examples: []
+  id: r100-2013-f-3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5181415f-993e-5298-acb6-1e79b4b7fe4a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: étroitesse de l'accord entre les résultats des mesurages successifs d'une
+      même grandeur mesurée en utilisant le même instrument et dans les mêmes conditions
+      définies, et sur une période de temps relativement courte
+  examples: []
+  id: r100-2013-f-3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: répétabilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b0e361d7-606a-5939-9d3d-fbf91b92074d
+

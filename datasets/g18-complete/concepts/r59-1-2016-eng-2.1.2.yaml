@@ -8,14 +8,25 @@ data:
     source: OIML R 59-1:2016
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.13'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 59-1:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.1.2
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: 844e8990-b9a6-5f70-8197-52e9ac113785
 schema_version: '3'
@@ -38,26 +49,7 @@ data:
       which, however, is related to both concepts.
   - content: Measurement accuracy is sometimes understood as closeness of agreement
       between measured quantity values that are being attributed to the measurand.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.13'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.2
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

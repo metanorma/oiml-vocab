@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.32
+  localized_concepts:
+    eng: 654a1e72-188d-5a6b-be9f-a35a7ea323ad
+    fra: 9f5dff5c-21e3-5387-90ea-bd315cfa998c
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.32
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: d5891433-07e6-56c1-ad91-ac06539f5217
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: système incorporé dans un instrument de mesure et qui permet de détecter
+      et de mettre en évidence les défauts significatifs
+  examples: []
+  id: r46-1-2-2012-fra-2.2.32-fra
+  notes:
+  - content: La mise en évidence peut être matérialisée par toute réponse appropriée
+      de l'instrument de mesure.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de contrôle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6dc346c5-6192-53dc-bb24-cd66c1bd7d47
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility that is incorporated in a measuring instrument and which enables
+      significant faults to be detected and acted upon
+  examples: []
+  id: r46-1-2-2012-eng-2.2.32-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+  - content: For the application of this Recommendation, the term "measuring instrument"
+      means electricity meter and the action following the detection of a significant
+      fault should be either to stop measuring and record the time and duration of
+      the stop, or record the time and duration of the fault and the amount of energy
+      measured during the fault.
+  - content: Faults that are detected and acted upon by means of a checking facility
+      shall not be considered as significant faults.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 13b38b7e-3ea5-5780-8e59-5e8ec532310a
+

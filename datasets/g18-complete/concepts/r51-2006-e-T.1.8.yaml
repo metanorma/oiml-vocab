@@ -8,29 +8,6 @@ data:
     source: OIML R 51:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 51:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.1.8
-    type: authoritative
-status: valid
-id: 191d32b2-d7bb-5655-823d-06409e8bf4ec
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Value attributed to a particular quantity (mass of a body) and accepted,
-      by convention, as having an uncertainty appropriate for a given purpose.
-  examples: []
-  id: r51-2006-e-T.1.8-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2:1993
+status: valid
+id: 191d32b2-d7bb-5655-823d-06409e8bf4ec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value attributed to a particular quantity (mass of a body) and accepted,
+      by convention, as having an uncertainty appropriate for a given purpose.
+  examples: []
+  id: r51-2006-e-T.1.8-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

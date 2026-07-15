@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r134-1-2006-T.3.1.5
+  localized_concepts:
+    eng: d393516a-1aec-542a-a51a-a3b3f4acc4f6
+    fra: 39bdf1b5-1b6b-5993-926f-91f77afb7659
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+status: valid
+id: 86f8d937-e1bd-5813-8931-70777073ebcc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Total mass of the vehicle combination including all connected components.
+  examples: []
+  id: r134-1-2006-eng-T.3.1.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vehicle mass
+  - type: symbol
+    normative_status: admitted
+    designation: VM
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d393516a-1aec-542a-a51a-a3b3f4acc4f6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Masse totale de la combinaison du véhicule incluant tous les composants
+      connectés.
+  examples: []
+  id: r134-1-2006-fra-T.3.1.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: masse du véhicule
+  - type: symbol
+    normative_status: admitted
+    designation: MV
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 39bdf1b5-1b6b-5993-926f-91f77afb7659
+

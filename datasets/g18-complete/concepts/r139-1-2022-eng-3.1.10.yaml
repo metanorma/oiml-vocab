@@ -8,29 +8,6 @@ data:
     source: OIML R 139-1:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.1.10
-    type: authoritative
-status: valid
-id: 80981dd6-6886-5f5b-811f-c05602d9fb21
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: difference between the error of indication and the intrinsic error of
-      a measuring instrument
-  examples: []
-  id: r139-1-2022-eng-3.1.10-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 80981dd6-6886-5f5b-811f-c05602d9fb21
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: r139-1-2022-eng-3.1.10-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

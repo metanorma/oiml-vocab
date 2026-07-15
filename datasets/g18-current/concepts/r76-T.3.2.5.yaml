@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.3.2.5
   localized_concepts:
-    eng: 5bd6b6d2-4384-5b52-9e6f-432e719a7cf1
     fra: b43d7674-9360-5014-9c42-a440c4b700e4
   domains:
   - concept_id: section-terms
@@ -17,60 +16,9 @@ data:
       type: clause
       reference_from: T.3.2.5
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.3.2.5
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.3.2.5
-    type: authoritative
 status: valid
 id: d0af82de-d5e1-5237-bd1e-deb2ab349031
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: 'Quotient of the maximum capacity and the verification scale interval:
-      $ n = \operatorname{Max} / e $'
-  examples: []
-  id: r76-T.3.2.5-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.3.2.5
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: number of verification scale intervals, n
-  - type: symbol
-    normative_status: preferred
-    designation: "n"
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 5bd6b6d2-4384-5b52-9e6f-432e719a7cf1
 ---
 data:
   dates:
@@ -85,7 +33,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -101,8 +49,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b43d7674-9360-5014-9c42-a440c4b700e4

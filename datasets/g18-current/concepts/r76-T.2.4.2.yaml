@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.2.4.2
   localized_concepts:
-    eng: 4d6ff68a-b988-5e2b-acb0-67959cb12e39
     fra: 715a2a9f-395f-5c96-b912-dbbe9569a7be
   domains:
   - concept_id: section-terms
@@ -17,57 +16,9 @@ data:
       type: clause
       reference_from: T.2.4.2
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.4.2
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.4.2
-    type: authoritative
 status: valid
 id: 8f19d379-c903-5af3-843f-ecdf3779a1b6
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Line or other mark on a displaying component corresponding to a specified
-      value of mass.
-  examples: []
-  id: r76-T.2.4.2-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.4.2
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: scale mark
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 4d6ff68a-b988-5e2b-acb0-67959cb12e39
 ---
 data:
   dates:
@@ -82,7 +33,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -95,8 +46,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 715a2a9f-395f-5c96-b912-dbbe9569a7be

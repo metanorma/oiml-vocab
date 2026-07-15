@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r49-2-2004-2.1
+  localized_concepts:
+    eng: 3d9407b7-65d1-50b6-a771-0c1e7f620492
+    fra: 5b37b59a-d4b4-5aff-bda8-4b46e39ea102
+  domains:
+  - concept_id: r-49-2
+    source: OIML R 49-2:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-2:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+status: valid
+id: 2e677903-dae0-547e-9e35-b938474661af
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mean flowrate during a test, calculated from the indications of a calibrated
+      reference device. The quotient of the actual volume passing through the water
+      meter divided by the time for that volume to pass through the water meter.
+  examples: []
+  id: r49-2-2004-eng-2.1-eng
+  notes:
+  - content: Some of the definitions used in this Recommendation conform to terminology
+      used in IEC 60068-1 [14] and are adapted where necessary.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-2:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Test flowrate
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-2
+    source: OIML R 49-2:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3d9407b7-65d1-50b6-a771-0c1e7f620492
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Débit moyen pendant un essai, calculé à partir des indications d'un dispositif
+      de référence étalonné. Quotient du volume réel passant dans le compteur d'eau
+      divisé par le temps nécessaire au passage de ce volume dans le compteur d'eau.
+  examples: []
+  id: r49-2-2004-f-2.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-2:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Débit d'essai
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-2
+    source: OIML R 49-2:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5b37b59a-d4b4-5aff-bda8-4b46e39ea102
+

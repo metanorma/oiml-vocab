@@ -8,31 +8,6 @@ data:
     source: OIML B 10:2011
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML B 10:2011
-        version: '2011'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.1'
-status: valid
-id: 7c48550c-c255-52a6-a146-766f5b860071
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: certifying body or person in an OIML Member State or Corresponding Member
-      that is responsible for national type approval and that issues national/regional
-      Type Approval Certificates for specific categories of measuring instruments
-      or modules on the basis of examination and testing under its own control
-  examples: []
-  id: b10-2011-e-3.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 7c48550c-c255-52a6-a146-766f5b860071
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: certifying body or person in an OIML Member State or Corresponding Member
+      that is responsible for national type approval and that issues national/regional
+      Type Approval Certificates for specific categories of measuring instruments
+      or modules on the basis of examination and testing under its own control
+  examples: []
+  id: b10-2011-e-3.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

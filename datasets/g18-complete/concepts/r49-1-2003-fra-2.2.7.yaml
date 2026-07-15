@@ -8,29 +8,6 @@ data:
     source: OIML R 49-1:2003
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 49-1:2003
-        version: '2003'
-    locality:
-      type: clause
-      reference_from: 2.2.7
-    type: authoritative
-status: valid
-id: 2877d505-1567-5022-ab97-a76e45c96138
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Erreur (d'indication) d'un compteur d'eau déterminée dans les conditions
-      de référence [adapté de VIM 5.24].
-  examples: []
-  id: r49-1-2003-fra-2.2.7-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 2877d505-1567-5022-ab97-a76e45c96138
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur (d'indication) d'un compteur d'eau déterminée dans les conditions
+      de référence [adapté de VIM 5.24].
+  examples: []
+  id: r49-1-2003-fra-2.2.7-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

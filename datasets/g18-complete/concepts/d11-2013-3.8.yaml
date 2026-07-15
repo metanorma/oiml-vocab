@@ -1,0 +1,88 @@
+---
+data:
+  identifier: d11-2013-3.8
+  localized_concepts:
+    eng: f257a845-e786-54bf-9022-196e5b52812f
+    fra: 6714f1f1-cae9-542b-a928-407b79e2c63f
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.06'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 5443af02-1e59-5024-9af6-3ae2936ffb71
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: erreur d'indication déterminée dans les conditions de référence
+  examples: []
+  id: d11-2013-f-3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6714f1f1-cae9-542b-a928-407b79e2c63f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: error of indication determined under reference conditions
+  examples: []
+  id: d11-2013-e-3.8-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f257a845-e786-54bf-9022-196e5b52812f
+

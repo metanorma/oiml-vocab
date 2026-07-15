@@ -8,30 +8,6 @@ data:
     source: OIML R 139-1:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.4.1
-    type: authoritative
-status: valid
-id: 1213d5e9-df0c-5985-a774-5bafe21e2097
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: quantity that, in a direct measurement, does not affect the quantity
-      that is actually measured, but affects the relation between the indication and
-      the measurement result
-  examples: []
-  id: r139-1-2022-eng-3.4.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 1213d5e9-df0c-5985-a774-5bafe21e2097
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+  examples: []
+  id: r139-1-2022-eng-3.4.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

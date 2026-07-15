@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r100-1991-3.3.1
+  localized_concepts:
+    eng: d9557a28-f266-5cf9-a107-1f011a2c47f4
+    fra: ec13f1df-0109-583e-a68a-ed41479259fa
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.1
+status: valid
+id: 4364eccd-3882-53d3-9c1e-92bcbddf4f9b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A solution that is used to set the zero absorbance on the spectrometer
+      and that normally consists of a pure solvent such as deionized water.
+  examples: []
+  id: r100-1991-e-3.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Blank reference solution
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d9557a28-f266-5cf9-a107-1f011a2c47f4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Solution employeee pour la mise au zero d'absorbance du spectrometre;
+      elle consiste normalement en un milieu de dilution pur, tel que de l'eau demineralisee.
+  examples: []
+  id: r100-1991-f-3.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Solution de reference (d'etalonnage) a blanc
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec13f1df-0109-583e-a68a-ed41479259fa
+

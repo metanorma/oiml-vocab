@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r65-2000-3.9
+  localized_concepts:
+    eng: 4fc16f75-b66f-51f1-97ff-808480af282f
+    fra: 96cec7a4-b116-533e-a7ec-7b26637090d3
+  domains:
+  - concept_id: r-65
+    source: OIML R 65:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 65:2000
+        version: '2000'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+status: valid
+id: a7bc1df1-c9ff-592c-9b75-078f1770e968
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Maximum value of the error permitted by laws regulations, or specifications
+      for a given measuring instrument.
+  examples: []
+  id: r65-2000-e-3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 65:2000
+        version: '2000'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error (mpe)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-65
+    source: OIML R 65:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4fc16f75-b66f-51f1-97ff-808480af282f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur maximale de l'erreur autorisée par les lois, réglementations ou
+      spécifications pour un instrument de mesure donné.
+  examples: []
+  id: r65-2000-f-3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 65:2000
+        version: '2000'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée (emt)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-65
+    source: OIML R 65:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 96cec7a4-b116-533e-a7ec-7b26637090d3
+

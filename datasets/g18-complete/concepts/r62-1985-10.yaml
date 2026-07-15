@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r62-1985-10
+  localized_concepts:
+    eng: 450c05b5-d83c-517d-80f8-3dfde0139700
+    fra: c07a1f92-69a3-5b1e-8951-d13c897b7f3b
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '10'
+status: valid
+id: 48af3a23-3d43-5c8a-9671-1cab891df465
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Longueur de la section sensible à la déformation d'un extensomètre, parallèlement
+      à l'axe de mesure. La longueur de jauge est approximativement la distance délimitée
+      par l'intérieur des boucles terminales de l'extensomètre. Etant donné que la
+      valeur vraie de la longueur de jauge est inconnue, la longueur de jauge peut
+      être mesurée sur la base d'autres paramètres géométriques (par exemple en incluant
+      les boucles terminales) pourvu que la variante soit définie.
+  examples: []
+  id: r62-1985-f-10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: longueur de jauge
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c07a1f92-69a3-5b1e-8951-d13c897b7f3b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The length of the strain sensitive section of a strain gauge in the measurement
+      axis direction. An approximation of this length is the distance between the
+      inside of the strain gauge end loops. Since the "true" gauge length is not known,
+      gauge length may be measured by other geometries (such as the outside of the
+      end loops) providing that the deviation is defined.
+  examples: []
+  id: r62-1985-e-10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gauge length
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 450c05b5-d83c-517d-80f8-3dfde0139700
+

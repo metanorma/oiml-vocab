@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r134-1-2006-T.2.6.4
+  localized_concepts:
+    eng: 1650b700-cc1b-5232-a99f-c0f326e8841e
+    fra: 1ea2977f-1f11-56f7-83c3-645fbc75e5a8
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+status: valid
+id: bed49b1f-336b-5abe-88d9-e6769fad11e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Paramètre d'application légale avec une valeur qui dépend de l'instrument
+      particulier. De tels paramètres comprennent des paramètres d'étalonnage (par
+      exemple, réglages de la pente ou corrections) et des paramètres de configuration
+      (par exemple, portée maximale, portée minimale, unités de mesure, etc.). Ils
+      sont réglables ou sélectionnables seulement dans un mode de fonctionnement spécial
+      de l'instrument.
+  examples: []
+  id: r134-1-2006-fra-T.2.6.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paramètre spécifique au dispositif
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ea2977f-1f11-56f7-83c3-645fbc75e5a8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the individual
+      instrument. Such parameters comprise calibration parameters (e.g. span adjustments
+      or corrections) and configuration parameters (e.g. maximum capacity, minimum
+      capacity, units of measurement, etc.). They are adjustable or selectable only
+      in a special operational mode of the instrument.
+  examples: []
+  id: r134-1-2006-eng-T.2.6.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: device-specific parameter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1650b700-cc1b-5232-a99f-c0f326e8841e
+

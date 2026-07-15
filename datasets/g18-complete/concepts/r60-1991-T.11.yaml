@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r60-1991-T.11
+  localized_concepts:
+    eng: 9de1a0fe-7935-5e44-9e9f-ead8436dddf7
+    fra: 9209b0c3-ee07-58de-ba21-de881c5eef8c
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.11
+    type: authoritative
+status: valid
+id: a8b1302a-dd6b-5d13-ae21-9b68fd23bf69
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Écart de la courbe d'étalonnage de la cellule de pesée, pour des charges
+      croissantes, par rapport à une ligne droite.
+  examples: []
+  id: r60-1991-f-T.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Non-linéarité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9209b0c3-ee07-58de-ba21-de881c5eef8c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The deviation of the increasing load cell calibration curve from a straight
+      line.
+  examples: []
+  id: r60-1991-e-T.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Non-linearity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9de1a0fe-7935-5e44-9e9f-ead8436dddf7
+

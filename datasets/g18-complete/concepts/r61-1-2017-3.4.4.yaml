@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r61-1-2017-3.4.4
+  localized_concepts:
+    eng: 785a2e16-24cf-54d5-a6a3-8398692e1c3a
+    deu: 30f8a5b5-b9db-52c1-a60a-eb06f559d905
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+status: valid
+id: 36d25e5d-ff5d-5bcb-8b20-aae1df9a98ee
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of the test weights which, in static tests, balance the value selected
+      on the indication of the fill setting device
+  examples: []
+  id: r61-1-2017-eng-3.4.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: static set point
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 785a2e16-24cf-54d5-a6a3-8398692e1c3a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: bei statischen Prüfungen der Wert der aufgelegten Gewichtstücke, die
+      den an der Einstelleinrichtung eingestellten Sollwerte ausgleichen
+  examples: []
+  id: r61-1-2017-deu-3.4.4-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: statischer Einstellpunkt
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 30f8a5b5-b9db-52c1-a60a-eb06f559d905
+

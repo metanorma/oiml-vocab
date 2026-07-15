@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r50-1-1997-T.3.8.3
+  localized_concepts:
+    eng: e4adf875-7d12-521c-8282-3f69bde5e56d
+    fra: 58bd06ce-1d3b-5cd1-bd3e-e0a01c86a910
+  domains:
+  - concept_id: r-50-1
+    source: OIML R 50-1:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.8.3
+    type: authoritative
+status: valid
+id: 13427340-9f99-54ae-9b8d-1745640d4285
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A device that indicates the percentage of the maximum capacity (Max)
+      or the mass of the load acting on the weighing unit at a given time.
+  examples: []
+  id: r50-1-1997-eng-T.3.8.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instantaneous load indicating device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-50-1
+    source: OIML R 50-1:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4adf875-7d12-521c-8282-3f69bde5e56d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif indiquant le pourcentage de la portée maximale (Max) ou la
+      masse de la charge agissant sur la cellule de pesage à un instant donné.
+  examples: []
+  id: r50-1-1997-fra-T.3.8.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 50-1:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: T.3.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif indicateur de charge instantanée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-50-1
+    source: OIML R 50-1:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 58bd06ce-1d3b-5cd1-bd3e-e0a01c86a910
+

@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 5:2022
+        source: OIML V 1:2013
         version: '2022'
     locality:
       type: clause
@@ -34,26 +34,7 @@ data:
       demonstrating, e.g. to testify in a court of law, the condition of a measuring
       instrument and to determine its metrological properties, amongst others by reference
       to the relevant statutory requirements.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '2.01'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: '3.24'
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

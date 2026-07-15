@@ -8,30 +8,6 @@ data:
     source: OIML D 18:2008
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 18:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '2.2'
-    type: authoritative
-status: valid
-id: 297116d0-88e5-5759-92c2-6735b8a0443d
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Reference material, accompanied by documentation issued by an authoritative
-      body and providing one or more specified property values with associated uncertainties
-      and traceabilities, using valid procedures.
-  examples: []
-  id: d18-2008-e-2.2-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 297116d0-88e5-5759-92c2-6735b8a0443d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Reference material, accompanied by documentation issued by an authoritative
+      body and providing one or more specified property values with associated uncertainties
+      and traceabilities, using valid procedures.
+  examples: []
+  id: d18-2008-e-2.2-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

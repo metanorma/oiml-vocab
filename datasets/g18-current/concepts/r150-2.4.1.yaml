@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 150-1:2020
+        source: OIML V 1:2013
         version: '2020'
     locality:
       type: clause
@@ -31,26 +31,7 @@ data:
   notes:
   - content: '"Indication", "indicate" or "indicating" includes both displaying, and/or
       printing.'
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '0.03'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.4.1
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

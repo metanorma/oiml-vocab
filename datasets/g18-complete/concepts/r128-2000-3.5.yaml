@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r128-2000-3.5
+  localized_concepts:
+    eng: 368a83f0-972e-531f-8c41-dab770474902
+    fra: 3590dcee-0664-58ee-865d-e68d6b51ee24
+  domains:
+  - concept_id: r-128
+    source: OIML R 128:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: 9dfbb5d9-67a9-546d-bac6-58464113eee3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The basic handle position H is defined by the vertical distance CH from
+      the center C of the foot crank bearing to the handle connection point and by
+      the horizontal distance SH from the saddle position S to the handle connection
+      point.
+  examples: []
+  id: r128-2000-e-3.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Basic handle position H
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-128
+    source: OIML R 128:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 368a83f0-972e-531f-8c41-dab770474902
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La position de base H du guidon est définie par la distance verticale
+      CH depuis le centre C de l'axe du pedalier jusqu'au point de fixation du guidon
+      et par la distance horizontale SH depuis la position S de la selle jusqu'au
+      point de fixation du guidon (voir Fig. 1).
+  examples: []
+  id: r128-2000-f-3.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: position de base H du guidon
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-128
+    source: OIML R 128:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3590dcee-0664-58ee-865d-e68d6b51ee24
+

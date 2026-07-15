@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r134-1-2003-T.2.4.1
+  localized_concepts:
+    eng: a1433758-1db8-59f1-9af5-a613e4044bef
+    fra: c62a05cb-eabb-5b67-83c5-cb76143a7d21
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+status: valid
+id: 20ac97ab-a5b6-5a58-9929-cdca5320d2c5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Means used to set the weight indicating device to zero when the load
+      receptor is empty.
+  examples: []
+  id: r134-1-2003-e-T.2.4.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Zero-setting device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a1433758-1db8-59f1-9af5-a613e4044bef
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Moyens utilisés pour régler le dispositif d'indication du poids à zéro
+      quand le récepteur de charge est vide.
+  examples: []
+  id: r134-1-2003-f-T.2.4.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.2.4.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif de mise à zéro
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c62a05cb-eabb-5b67-83c5-cb76143a7d21
+

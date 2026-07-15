@@ -1,0 +1,88 @@
+---
+data:
+  identifier: b18-2017-3.7
+  localized_concepts:
+    eng: d446b0c0-949e-5649-8fee-b34dcd976fbf
+    fra: 7e2ee4d0-29a3-53d3-9f36-68cb0000fb40
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+status: valid
+id: ddc74437-fc8e-5056-9fca-cde0ff5d0c21
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: démonstration du fait que les exigences spécifiées et se rapportant à
+      un produit, un procédé, un système, une personne ou un organisme sont remplies
+  examples: []
+  id: b18-2017-f-3.7-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: évaluation de conformité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7e2ee4d0-29a3-53d3-9f36-68cb0000fb40
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: demonstration that specified requirements related to a product, process,
+      system, person or body are fulfilled
+  examples: []
+  id: b18-2017-e-3.7-eng
+  notes:
+  - content: 'Source citation: ISO/IEC 17000 2.1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conformity assessment
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d446b0c0-949e-5649-8fee-b34dcd976fbf
+

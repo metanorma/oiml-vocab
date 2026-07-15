@@ -1,0 +1,90 @@
+---
+data:
+  identifier: d1-2012-3.1.11
+  localized_concepts:
+    eng: 691adc19-78dc-555f-b9ca-82fe60be4b0a
+    fra: 652276cd-f59c-5451-9850-95a028cbbb74
+  domains:
+  - concept_id: d-1
+    source: OIML D 1:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.03'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.11
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 36053aa1-daa1-5692-8239-499463dbd2bd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: activity of legal metrological control to check the observance of metrology
+      laws and regulations.
+  examples: []
+  id: d1-2012-e-3.1.11-eng
+  notes:
+  - content: Metrological supervision also includes checking the correctness of quantities
+      indicated on and contained in pre-packages and the correct use of units of measurement.
+  - content: For achieving these purposes, means and methods such as market surveillance
+      and quality management may be utilized.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Metrological supervision
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 691adc19-78dc-555f-b9ca-82fe60be4b0a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: activité du contrôle de métrologie légale consistant à vérifier que les
+      lois et règlements de métrologie sont respectés
+  examples: []
+  id: d1-2012-f-3.1.11-fra
+  notes:
+  - content: La surveillance métrologique comprend le contrôle de l'exactitude des
+      quantités indiquées sur et contenues dans les préemballages.
+  - content: Dans ce cadre, des moyens tels que la surveillance du marché et le management
+      de la qualité peuvent être utilisés.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Surveillance métrologique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 652276cd-f59c-5451-9850-95a028cbbb74
+

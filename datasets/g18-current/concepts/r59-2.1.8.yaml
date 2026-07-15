@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 59-1:2016
+        source: OIML V 2-200:2012
         version: '2016'
     locality:
       type: clause
@@ -35,26 +35,7 @@ data:
       standard deviation of differences (SDD_1). The reproducibility of measurements
       from one instrument when select influence factors are varied is assessed by
       the magnitude of the error shift or fault.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.25'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.8
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

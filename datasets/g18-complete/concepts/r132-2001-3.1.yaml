@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r132-2001-3.1
+  localized_concepts:
+    eng: 39ff8854-4483-53e2-a1f0-1977229fb3ac
+    fra: fc1c85dc-8238-5d1a-8e5b-50d969da1f9a
+  domains:
+  - concept_id: r-132
+    source: OIML R 132:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+status: valid
+id: 2508780e-aa8e-590a-b227-de8188dd22d1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Système utilisé pour la détermination de la dose absorbée comprenant
+      des dosimètres à l'alanine et un spectromètre RPE.
+  examples: []
+  id: r132-2001-f-3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Système dosimétrique RPE à l'alanine
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-132
+    source: OIML R 132:2001
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fc1c85dc-8238-5d1a-8e5b-50d969da1f9a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: System used for determining absorbed dose consisting of alanine dosimeters
+      and an EPR spectrometer.
+  examples: []
+  id: r132-2001-e-3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 132:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: alanine EPR dosimetry system
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-132
+    source: OIML R 132:2001
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 39ff8854-4483-53e2-a1f0-1977229fb3ac
+

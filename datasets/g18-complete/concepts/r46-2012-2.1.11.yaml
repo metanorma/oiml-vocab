@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-2012-2.1.11
+  localized_concepts:
+    eng: eef49d9d-3c3f-5fce-8123-16862f579a7f
+    fra: b68c49a5-7661-5a0e-ac26-fbaa2c6a825b
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+status: valid
+id: 2f5a7942-6820-545b-877e-2ca3fe458794
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: internal connections of the meter, part of the measuring element and,
+      in the case of static meters, part of the power supply, supplied with the voltage
+      of the circuit to which the meter is connected
+  examples: []
+  id: r46-2012-e-2.1.11-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: voltage circuit
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eef49d9d-3c3f-5fce-8123-16862f579a7f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: liaisons intérieures du compteur, faisant partie de l'élément de mesure
+      et, dans le cas de compteurs statiques, de l'alimentation du compteur, alimentées
+      par la tension du réseau auquel le compteur est raccordé
+  examples: []
+  id: r46-2012-e-2.1.11-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: circuit de tension
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b68c49a5-7661-5a0e-ac26-fbaa2c6a825b
+

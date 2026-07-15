@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r49-1-2000-2.2.12
+  localized_concepts:
+    eng: 0604130e-da47-5ebb-b8cb-9858a2c238ac
+    fra: d265d6ed-717c-56ca-9516-e2a4701313ab
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+status: valid
+id: 7643d8f8-92df-5f6b-9427-2b80f5de3a93
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conditions of the water, of which the volume is to be measured, at the
+      point of measurement
+  examples:
+  - content: temperature and pressure of the water
+  id: r49-1-2000-eng-2.2.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metering conditions
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0604130e-da47-5ebb-b8cb-9858a2c238ac
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conditions de l'eau dont le volume doit être mesuré, au point de mesurage
+  examples:
+  - content: température et pression de l'eau
+  id: r49-1-2000-fra-2.2.12-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conditions de mesurage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d265d6ed-717c-56ca-9516-e2a4701313ab
+

@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r129-1-2020-2.3.10
+  localized_concepts:
+    eng: fea53138-1fb6-5d56-8f2a-58e73964549e
+    deu: 64fe59c8-88ca-5904-a8c6-03832a30f056
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.10
+    type: authoritative
+status: valid
+id: c9c45c21-d615-54da-a2b6-636642178fa8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einflussgröße, deren Wert innerhalb der in dieser Empfehlung angegebenen
+      Grenzen, jedoch außerhalb der angegebenen Bemessungsbetriebsbedingungen des
+      Messgeräts liegt
+  examples: []
+  id: r129-1-2020-deu-2.3.10-deu
+  notes:
+  - content: Eine Einflussgröße ist ein Störeinfluss, wenn für diese Einflussgröße
+      keine Bemessungsbetriebsbedingungen festgelegt sind.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Störeinfluss
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 64fe59c8-88ca-5904-a8c6-03832a30f056
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      measuring instrument
+  examples: []
+  id: r129-1-2020-eng-2.3.10-eng
+  notes:
+  - content: An influence quantity is a disturbance if for that influence quantity
+      the rated operating conditions are not specified.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fea53138-1fb6-5d56-8f2a-58e73964549e
+

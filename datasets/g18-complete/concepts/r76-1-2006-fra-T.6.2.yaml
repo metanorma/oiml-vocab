@@ -8,30 +8,6 @@ data:
     source: OIML R 76-1:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 76-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.6.2
-    type: authoritative
-status: valid
-id: 8d31cd71-a08f-57c7-82e5-da87778d9ed3
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Conditions de fonctionnement, donnant l'étendue des valeurs des grandeurs
-      d'influence pour lesquelles les caractéristiques métrologiques sont destinées
-      à rester à l'intérieur des erreurs maximales admissibles spécifiées.
-  examples: []
-  id: r76-1-2006-fra-T.6.2-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2:1993
+status: valid
+id: 8d31cd71-a08f-57c7-82e5-da87778d9ed3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions de fonctionnement, donnant l'étendue des valeurs des grandeurs
+      d'influence pour lesquelles les caractéristiques métrologiques sont destinées
+      à rester à l'intérieur des erreurs maximales admissibles spécifiées.
+  examples: []
+  id: r76-1-2006-fra-T.6.2-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

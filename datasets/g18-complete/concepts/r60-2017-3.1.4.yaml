@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r60-2017-3.1.4
+  localized_concepts:
+    eng: b3eedc41-2aa5-5a85-9bb1-2e40c7aaacd0
+    fra: 6fe15c9f-83e9-58fd-a117-d3274d4532ff
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2017
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.19'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: f11b17ab-d837-5390-bb20-1bf786fda197
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: apposition d'une ou de plusieurs marques
+  examples: []
+  id: r60-2017-f-3.1.4-fra
+  notes:
+  - content: "(Pour consulter les notes, veuillez vous reporter à VIML [3])."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: marquage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6fe15c9f-83e9-58fd-a117-d3274d4532ff
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: affixing of one or more marks
+  examples: []
+  id: r60-2017-e-3.1.4-eng
+  notes:
+  - content: "(For notes, refer to the VIML [3])."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: marking
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b3eedc41-2aa5-5a85-9bb1-2e40c7aaacd0
+

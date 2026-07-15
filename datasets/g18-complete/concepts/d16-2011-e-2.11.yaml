@@ -8,28 +8,6 @@ data:
     source: OIML D 16:2011
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 16:2011
-        version: '2011'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2.11'
-status: valid
-id: c2ddbfac-2ea8-5f8e-a02c-b54d4b3905ed
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: verification of a measuring instrument which has not been verified previously
-  examples: []
-  id: d16-2011-e-2.11-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: c2ddbfac-2ea8-5f8e-a02c-b54d4b3905ed
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: verification of a measuring instrument which has not been verified previously
+  examples: []
+  id: d16-2011-e-2.11-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

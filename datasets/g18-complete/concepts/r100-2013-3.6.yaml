@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r100-2013-3.6
+  localized_concepts:
+    eng: 965039fb-c345-55d1-b458-db29c894f5df
+    fra: 70ca40eb-bf76-5394-a830-23ece0591e88
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+status: valid
+id: 66d509bc-5e2e-555c-bc0d-27cb6a4c19af
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: figure of merit which is calculated as three times the observed standard
+      deviation of the baseline noise, established by measuring the output signal
+      from a blank test solution free of interferents
+  examples: []
+  id: r100-2013-e-3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrument detection limit (IDL)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 965039fb-c345-55d1-b458-db29c894f5df
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facteur de mérite qui est égal à trois fois l'écart type du bruit de
+      fond observé, établi en mesurant le signal de sortie d'une solution d'essai
+      à blanc exempte de substance interferente
+  examples: []
+  id: r100-2013-e-3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limite de detection de I' instrument (LDI)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 70ca40eb-bf76-5394-a830-23ece0591e88
+

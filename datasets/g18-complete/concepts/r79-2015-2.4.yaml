@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r79-2015-2.4
+  localized_concepts:
+    eng: af5a3b5b-a2b0-5385-b4d7-15d2fb538f9e
+    spa: c883271d-519d-5a12-b266-18cadabe003f
+  domains:
+  - concept_id: r-79
+    source: OIML R 79:2015
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.4'
+status: valid
+id: a65a8c7a-cc15-5d79-a960-15d0ae2d3262
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Cantidad de producto identificado en el preempacado, exceptuando el material
+      de empaque.
+  examples: []
+  id: r79-2015-spa-2.4-spa
+  notes:
+  - content: "'Material de empaque' incluye las envolturas y cualquier otro material
+      empacado con dicho producto. Ver 2.6, Nota 3."
+  - content: Este término se relaciona con las especificaciones que van colocadas
+      sobre el preempacado y no representa la cantidad real de un preempacado individual.
+      En el caso de preempacados con cantidad nominal constante, los procedimientos
+      para determinar si un lote de inspección cumple los requisitos reglamentarios
+      se encuentran en la Recomendación OIML R 87 [1].
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cantidad neta
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: r-79
+    source: OIML R 79:2015
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c883271d-519d-5a12-b266-18cadabe003f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity of the identified product in the prepackage exclusive of packing
+      material
+  examples: []
+  id: r79-2015-e-2.4-eng
+  notes:
+  - content: "'Packing material' includes wrappers and any other material packed with
+      such product. See 2.6, Note 3."
+  - content: This term relates to specifications on a prepackage and does not account
+      for the actual quantity in an individual prepackage. For prepackages with constant
+      nominal quantity, the procedures for determining whether an inspection lot meets
+      regulatory requirements are provided in OIML R 87 [1].
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: net quantity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-79
+    source: OIML R 79:2015
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: af5a3b5b-a2b0-5385-b4d7-15d2fb538f9e
+

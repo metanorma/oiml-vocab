@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 150-1:2020
+        source: OIML V 1:2013
         version: '2020'
     locality:
       type: clause
@@ -32,26 +32,7 @@ data:
   notes:
   - content: Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '0.09'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.5.3
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r100-1991-3.8
+  localized_concepts:
+    eng: f5869b91-b706-5bd5-98a2-fc37c7b566a8
+    fra: 4e747d3a-2586-5c3a-84de-db68c12b7387
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+status: valid
+id: bc1dc51f-41e1-5c33-a8a2-621202f032f8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif qui transforme un echantillon liquide en aerosol.
+  examples: []
+  id: r100-1991-f-3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nebuliseur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4e747d3a-2586-5c3a-84de-db68c12b7387
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A device that converts a liquid sample into an aerosol.
+  examples: []
+  id: r100-1991-e-3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nebulizer
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f5869b91-b706-5bd5-98a2-fc37c7b566a8
+

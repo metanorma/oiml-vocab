@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r89-1990-5.3.6
+  localized_concepts:
+    eng: 9acf3c6d-e9d2-544f-9321-61312f9a716b
+    fra: 7a0a54fb-f824-52a3-9f2a-8c3a037a0eae
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.6
+    type: authoritative
+status: valid
+id: 926e500c-f131-55e1-9ed2-8b94d18385be
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'erreur relative du dispositif d'étalonnage incorporé ou celle du marqueur
+      de temps est la différence entre les valeurs mesurée et nominale de la tension
+      de sortie du dispositif d'étalonnage ou de l'intervalle de temps du marqueur
+      de temps, divisée par la valeur nominale.
+  examples: []
+  id: r89-1990-f-5.3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur relative du dispositif d'étalonnage incorporé ou du marqueur
+      de temps
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a0a54fb-f824-52a3-9f2a-8c3a037a0eae
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The relative error of the internal calibrator or of the time marker is
+      the difference between the measured and nominal values of voltage output of
+      the internal calibrator or of the time interval of the time marker, divided
+      by their respective nominal values.
+  examples: []
+  id: r89-1990-e-5.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative errors of internal calibrator and time marker
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9acf3c6d-e9d2-544f-9321-61312f9a716b
+

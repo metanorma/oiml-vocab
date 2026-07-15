@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r106-2011-0.4.4.1
+  localized_concepts:
+    eng: d646db44-44cd-593d-9ef1-f5c1d3a3f21c
+    fra: 58e64154-76cc-5f6d-96ed-26e270693f1f
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.20'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.4.1
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: a300b406-67bf-56a3-80ea-3f7d80ae98df
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indication of an instrument minus the (conventional) true value of the
+      corresponding input quantity
+  examples: []
+  id: r106-2011-e-0.4.4.1-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error (of indication)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d646db44-44cd-593d-9ef1-f5c1d3a3f21c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indication d un instrument moins la valeur (conventionnellement) vraie
+      de la grandeur d entree correspondante
+  examples: []
+  id: r106-2011-f-0.4.4.1-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur (d indication)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 58e64154-76cc-5f6d-96ed-26e270693f1f
+

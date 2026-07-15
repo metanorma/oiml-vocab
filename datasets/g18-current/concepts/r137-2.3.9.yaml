@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r137-2.3.9
+  localized_concepts:
+    eng: 900b0e45-4477-5b2f-93b9-ecff1390d58d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.9
+    type: authoritative
+status: valid
+id: 4b695c22-be2a-5040-969e-7aecc17234e7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mean difference between the pressures at the inlet and outlet of the
+      gas meter while the gas is flowing.
+  examples: []
+  id: r137-2.3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: static pressure loss or pressure differential
+  - type: symbol
+    normative_status: admitted
+    designation: Delta p
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 900b0e45-4477-5b2f-93b9-ecff1390d58d
+

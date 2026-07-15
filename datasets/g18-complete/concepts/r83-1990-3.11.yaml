@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r83-1990-3.11
+  localized_concepts:
+    eng: bffd4828-0d87-55ae-9c30-bedf38751eb2
+    fra: ff12e713-a674-5703-a256-ed47bfe26291
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+status: valid
+id: 32a14bf1-f8c6-5cd9-8164-35e134b501ae
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ratio of the maximum amount of sample (below the saturation level
+      of the mass spectrometer) that can be introduced into the gas chromatograph/mass
+      spectrometer and measured, to the minimum detectable amount. It depends on the
+      gas chromatograph column type (packed or open tubular) used and the mass spectrometer
+      mode of operation (selected ion monitoring or scanning).
+  examples: []
+  id: r83-1990-e-3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dynamic range of the gas chromatograph/mass spectrometer system
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bffd4828-0d87-55ae-9c30-bedf38751eb2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rapport entre la quantité maximale d'échantillon (au-dessous du niveau
+      de saturation du spectromètre) qui peut être introduite et mesurée dans l'ensemble
+      chromatographe-spectromètre, et la quantité minimale détectable. Ce rapport
+      dépend du type de colonne de chromatographie utilisé (comme remplie ou tubulaire
+      ouverte) et du mode de fonctionnement du spectromètre (contrôle d'un ion spécifique
+      ou balayage).
+  examples: []
+  id: r83-1990-f-3.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue dynamique d'un ensemble chromatographe en phase gazeuse/spectromètre
+      de masse
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ff12e713-a674-5703-a256-ed47bfe26291
+

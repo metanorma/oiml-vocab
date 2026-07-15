@@ -1,0 +1,88 @@
+---
+data:
+  identifier: d31-2008-3.1.3
+  localized_concepts:
+    fra: e08fd7bb-224e-5256-9e63-ca52561ac892
+    spa: 9a5cd867-bcf0-54e7-b7fc-f8808ddca3d8
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+status: valid
+id: 8c542d02-496b-5ec3-b4fc-0e3e855f4153
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Vérification de l'identité déclarée ou présumée d'un utilisateur, processus,
+      ou dispositif (par exemple vérification que le logiciel téléchargé a bien pour
+      origine le détenteur du certificat d'approbation de type).
+  examples: []
+  id: d31-2008-f-3.1.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Authentification
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e08fd7bb-224e-5256-9e63-ca52561ac892
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Verificación de la identidad declarada o alegada de un usuario, proceso
+      o dispositivo.
+  examples: []
+  id: d31-2008-spa-3.1.3-spa
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Autenticación
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9a5cd867-bcf0-54e7-b7fc-f8808ddca3d8
+

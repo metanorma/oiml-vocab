@@ -8,30 +8,6 @@ data:
     source: OIML R 60-1:2021
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 60-1:2021
-        version: '2021'
-    locality:
-      type: clause
-      reference_from: 3.1.8
-    type: authoritative
-status: valid
-id: 3ffe461a-500c-5cb2-b27c-34cc5ebc4dd9
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: operating condition that must be fulfilled during measurement in order
-      that a measuring instrument or measuring system perform as designed (For notes,
-      refer to the VIM [2]).
-  examples: []
-  id: r60-1-2021-eng-3.1.8-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 3ffe461a-500c-5cb2-b27c-34cc5ebc4dd9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition that must be fulfilled during measurement in order
+      that a measuring instrument or measuring system perform as designed (For notes,
+      refer to the VIM [2]).
+  examples: []
+  id: r60-1-2021-eng-3.1.8-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

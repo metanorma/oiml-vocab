@@ -1,0 +1,95 @@
+---
+data:
+  identifier: b18-2017-3.3
+  localized_concepts:
+    eng: 38d84118-7697-5df6-bfe0-e7041092a0f5
+    fra: 64720679-ae74-5ba0-9f26-26055e56e9b8
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+status: valid
+id: 4e50b511-6c21-5c82-a74d-77d5051b5d73
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: manufacturer and/or authorized representative who submits an application
+      for an OIML type evaluation of a measuring instrument to an OIML Issuing Authority
+      in order to receive an OIML type evaluation report and an OIML Certificate for
+      that type of measuring instrument
+  examples: []
+  id: b18-2017-e-3.3-eng
+  notes:
+  - content: Upon issuance of the OIML Certificate, the applicant becomes the owner
+      of the OIML Certificate.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: applicant
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 38d84118-7697-5df6-bfe0-e7041092a0f5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fabricant et/ou représentant autorisé qui soumet une demande d'évaluation
+      de type OIML d'un instrument de mesure à une Autorité de délivrance OIML, en
+      vue d'obtenir un rapport d'évaluation de type OIML et un Certificat OIML pour
+      ce type d'instrument de mesure
+  examples: []
+  id: b18-2017-f-3.3-fra
+  notes:
+  - content: Le demandeur devient propriétaire du Certificat au moment où celui-ci
+      lui est délivré.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: demandeur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 64720679-ae74-5ba0-9f26-26055e56e9b8
+

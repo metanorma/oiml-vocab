@@ -1,0 +1,94 @@
+---
+data:
+  identifier: g1-100-2008-C.2.29
+  localized_concepts:
+    eng: 5956db5e-185b-5ead-bd1f-75b97ebfca28
+    fra: cc71738a-0805-50d4-b756-9aebace8cb17
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.29
+    type: authoritative
+status: valid
+id: 315c3003-6d85-5e79-abc7-ba4070db558d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur (1 - alpha) de la probabilité associée à un intervalle de confiance
+      ou à un intervalle statistique de dispersion
+  examples: []
+  id: g1-100-2008-f-C.2.29-fra
+  notes:
+  - content: "(1 - alpha) est souvent exprimé comme un pourcentage."
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.29
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: niveau de confiance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cc71738a-0805-50d4-b756-9aebace8cb17
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: the value (1 - alpha) of the probability associated with a confidence
+      interval or a statistical coverage interval
+  examples: []
+  id: g1-100-2008-e-C.2.29-eng
+  notes:
+  - content: "(1 - alpha) is often expressed as a percentage."
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.29
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: confidence coefficient
+  - type: expression
+    normative_status: admitted
+    designation: confidence level
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5956db5e-185b-5ead-bd1f-75b97ebfca28
+

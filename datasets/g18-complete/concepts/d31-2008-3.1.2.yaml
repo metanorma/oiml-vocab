@@ -1,0 +1,126 @@
+---
+data:
+  identifier: d31-2008-3.1.2
+  localized_concepts:
+    eng: c01b1c0d-3f62-5720-9f60-bda1e589671d
+    fra: 6e814cab-aac7-5d1c-be96-2ff5961ccbf9
+    spa: 017061b8-4063-5c55-ab56-13132bf19c7a
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.2
+status: valid
+id: b279b126-5b53-5af4-a5fa-58ddf6c837e3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fichier continu de données contenant un enregistrement horodaté des évènements,
+      par exemple des changements de valeur des paramètres d'un dispositif, ou les
+      mises à jour d'un logiciel, ou toutes autres activités réglementairement pertinentes
+      qui pourraient influencer les caractéristiques métrologiques.
+  examples: []
+  id: d31-2008-f-3.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Expertise de l'historique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6e814cab-aac7-5d1c-be96-2ff5961ccbf9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Archivo de datos continuo que incluye un registro de información histórica
+      de sucesos; p. ej. modificaciones en los valores de los parámetros de un dispositivo
+      o actualizaciones del software, así como otras actividades legalmente relevantes
+      que pueden influir en las características metrológicas.
+  examples: []
+  id: d31-2008-spa-3.1.2-spa
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Registro de actividades
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 017061b8-4063-5c55-ab56-13132bf19c7a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Continuous data file containing a time stamped information record of
+      events, e.g. changes in the values of the parameters of a device or software
+      updates, or other activities that are legally relevant and which may influence
+      the metrological characteristics.
+  examples: []
+  id: d31-2008-e-3.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: audit trail
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c01b1c0d-3f62-5720-9f60-bda1e589671d
+

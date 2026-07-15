@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r96-1990-2.3
+  localized_concepts:
+    eng: e5ee241e-4b74-53e2-9193-45fa1e5a0982
+    fra: caedf074-75c3-59f0-af78-fc84c1cd51dc
+  domains:
+  - concept_id: r-96
+    source: OIML R 96:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 96:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+status: valid
+id: d72c1b53-2142-5706-b9e0-f341d8556f14
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La capacité effective d'une bouteille est le volume de liquide qu'elle
+      contient réellement lorsqu'elle est remplie, soit au niveau qui correspond théoriquement
+      à la capacité nominale, soit à ras bord.
+  examples: []
+  id: r96-1990-f-2.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 96:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Capacité effective d'une bouteille
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-96
+    source: OIML R 96:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: caedf074-75c3-59f0-af78-fc84c1cd51dc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The volume of liquid a bottle in fact contains when filled either to
+      the level which is supposed to correspond to the nominal capacity, or to the
+      brim.
+  examples: []
+  id: r96-1990-e-2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 96:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Actual capacity of a bottle
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-96
+    source: OIML R 96:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e5ee241e-4b74-53e2-9193-45fa1e5a0982
+

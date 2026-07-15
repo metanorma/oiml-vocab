@@ -1,0 +1,102 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.31
+  localized_concepts:
+    eng: 0a8c468c-a83c-56bd-8f6d-367ff19dad7c
+    fra: 35f77dac-b8aa-5bb2-bb0e-bd0c82b7c625
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.31
+status: valid
+id: 70c3eacd-7264-54bb-8667-482becb37fbd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value
+  examples: []
+  id: r46-1-2-2012-eng-2.2.31-eng
+  notes:
+  - content: 'The following are also considered to be significant faults: a change
+      larger than the critical change value (see 3.3.6.2) has occurred in the measurement
+      registers due to disturbances; the functionality of the meter has become impaired.'
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.10'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.31
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 204a8610-4e60-5741-825b-a681afeee7ec
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: défaut excédant la valeur limite de défaut applicable
+  examples: []
+  id: r46-1-2-2012-fra-2.2.31-fra
+  notes:
+  - content: Sont également considérés comme des défauts significatifs un changement
+      plus grand que la valeur de variation critique s'est produit dans les registres
+      de mesure dus à des perturbations ; le fonctionnement du compteur est perturbé.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.31
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a8688515-ddc3-5487-bf4e-60972156b2d4
+

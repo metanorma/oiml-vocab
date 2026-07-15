@@ -8,33 +8,6 @@ data:
     source: OIML D 9:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 9:2004
-        version: '2004'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2.9'
-status: valid
-id: 313b3965-aca9-590c-a49a-12dc7aefefc3
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Testing and evaluation of a measuring instrument to ascertain whether
-      or not a single instrument, an instrument lot or a production series of instruments
-      comply with all statutory requirements applicable to this instrument type.
-  examples: []
-  id: d9-2004-e-2.9-eng
-  notes:
-  - content: Conformity assessment does not only concern metrological requirements
-      but may also cover requirements relating to safety; EMC; software identification;
-      ease of use; marking; etc.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 313b3965-aca9-590c-a49a-12dc7aefefc3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Testing and evaluation of a measuring instrument to ascertain whether
+      or not a single instrument, an instrument lot or a production series of instruments
+      comply with all statutory requirements applicable to this instrument type.
+  examples: []
+  id: d9-2004-e-2.9-eng
+  notes:
+  - content: Conformity assessment does not only concern metrological requirements
+      but may also cover requirements relating to safety; EMC; software identification;
+      ease of use; marking; etc.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

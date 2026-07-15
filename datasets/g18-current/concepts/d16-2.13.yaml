@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 16:2011
+        source: OIML V 1:2013
         version: '2011'
     locality:
       type: clause
@@ -31,26 +31,7 @@ data:
   examples: []
   id: d16-2.13-eng
   notes:
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '2.14'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 16:2011
-        version: '2011'
-    locality:
-      type: clause
-      reference_from: '2.13'
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

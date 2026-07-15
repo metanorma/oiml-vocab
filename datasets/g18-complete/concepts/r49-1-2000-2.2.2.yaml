@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r49-1-2000-2.2.2
+  localized_concepts:
+    eng: 2ebd742d-023d-5bc0-9528-7abc31cb25fc
+    fra: 7d6d1cc0-4264-5b6e-8a09-0ece470f24dd
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+status: valid
+id: f015a5f1-c55e-5173-a3e3-ebe34c760e29
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: volume of water indicated by the meter, corresponding to the actual volume
+  examples: []
+  id: r49-1-2000-eng-2.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicated volume
+  - type: symbol
+    normative_status: preferred
+    designation: "$V_{\\mathrm{i}}$"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2ebd742d-023d-5bc0-9528-7abc31cb25fc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: volume d'eau indiqué par le compteur, correspondant au volume réel
+  examples: []
+  id: r49-1-2000-fra-2.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: volume indiqué
+  - type: symbol
+    normative_status: preferred
+    designation: "$V_{\\mathrm{i}}$"
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7d6d1cc0-4264-5b6e-8a09-0ece470f24dd
+

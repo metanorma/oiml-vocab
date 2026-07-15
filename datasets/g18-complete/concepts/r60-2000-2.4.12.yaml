@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r60-2000-2.4.12
+  localized_concepts:
+    eng: 0b192380-0e83-56e4-b716-9d16257a26fd
+    fra: 4eab3a21-2858-5f36-85eb-d431a9e0d94a
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.27'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.12
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 73962ad3-bca0-5c22-8d84-ce5960f1241b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference between load cell output readings taken from consecutive tests
+      under the same loading and environmental conditions of measurement.
+  examples: []
+  id: r60-2000-e-2.4.12-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0b192380-0e83-56e4-b716-9d16257a26fd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre les indications du signal de sortie de la cellule de
+      pesée obtenues au cours d'essais consécutifs dans les mêmes conditions de mesurage
+      ambiantes et de charge.
+  examples: []
+  id: r60-2000-f-2.4.12-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur de répétabilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4eab3a21-2858-5f36-85eb-d431a9e0d94a
+

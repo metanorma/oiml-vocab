@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r106-2011-0.4.2.1
+  localized_concepts:
+    eng: 7aca4178-f304-5764-a340-e80dec3b1cad
+    fra: 8e00135e-1de7-5902-bd7d-cd1ea92ffcdb
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.11'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.2.1
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 7163a505-ac86-5e0f-81aa-c8074cd4e197
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement results are displayed by a digital measuring instrument in
+      a digitized form
+  examples: []
+  id: r106-2011-e-0.4.2.1-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: digital indication
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7aca4178-f304-5764-a340-e80dec3b1cad
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: resultats de mesure affiches par un instrument de mesure numerique sous
+      une forme numerisee
+  examples: []
+  id: r106-2011-f-0.4.2.1-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication numerique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8e00135e-1de7-5902-bd7d-cd1ea92ffcdb
+

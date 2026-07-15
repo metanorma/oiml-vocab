@@ -8,30 +8,6 @@ data:
     source: OIML R 139-1:2018
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2018
-        version: '2018'
-    locality:
-      type: clause
-      reference_from: 3.1.5
-    type: authoritative
-status: valid
-id: f8f2fc91-08ef-5069-b2e7-af6556bbd3ff
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: extreme value of measurement error, with respect to a known reference
-      quantity value, permitted by specifications or regulations for a given measurement,
-      measuring instrument, or measuring system
-  examples: []
-  id: r139-1-2018-eng-3.1.5-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: f8f2fc91-08ef-5069-b2e7-af6556bbd3ff
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r139-1-2018-eng-3.1.5-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

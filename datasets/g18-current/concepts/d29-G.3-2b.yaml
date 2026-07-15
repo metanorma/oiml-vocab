@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 29:2008
+        source: OIML V 1:2013
         version: '2008'
     locality:
       type: clause
@@ -35,26 +35,7 @@ data:
   - content: For the purpose of this Document, the "type approval" is named "type
       evaluation". Consequently "Type evaluation" in the sense of this Document includes
       examination, tests and decision.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '2.6'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 29:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: G.3-2b
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

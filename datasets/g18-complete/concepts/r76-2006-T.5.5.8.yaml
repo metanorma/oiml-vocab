@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r76-2006-T.5.5.8
+  localized_concepts:
+    eng: c9f8117b-9cc5-5b9d-9121-bc126ece8b6a
+    fra: 000e219f-55af-5f0c-8e12-eb57fe0d5a90
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.5.8
+    type: authoritative
+status: valid
+id: 40e7253e-c868-5010-b937-4fddcf420f53
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Durability error greater than e.
+  examples: []
+  id: r76-2006-f-T.5.5.8-eng
+  notes:
+  - content: A durability error can be due to mechanical wear and tear or due to drift
+      and ageing of electronic parts. The concept of significant durability error
+      applies only to electronic parts. For a multi-interval instrument, the value
+      of e is that appropriate to the partial weighing range. Errors, occurring after
+      a period of instrument use, are not considered to be significant durability
+      errors, even when they exceed e, if they are clearly the result of the failure
+      of a device/component, or of a disturbance and for which the indication cannot
+      be interpreted, memorized, or transmitted as a measurement result, implies the
+      impossibility to perform any measurement, or is so obviously wrong that it is
+      bound to be noticed by all those interested in the result of measurement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.5.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant durability error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 16daa6d8-6c80-5f72-940f-153a7df4452e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur de durabilité supérieure à e.
+  examples: []
+  id: r76-2006-f-T.5.5.8-fra
+  notes:
+  - content: Une erreur de durabilité peut être due à l'usure ou aux avaries mécaniques,
+      ou à la dérive et au vieillissement des parties électroniques. Le concept d'erreur
+      de durabilité significative ne s'applique qu'aux parties électroniques. Pour
+      les instruments à échelons multiples, la valeur de e est celle qui correspond
+      à l'étendue de pesage partielle. Les erreurs suivantes, qui se produisent après
+      une certaine période d'utilisation, ne sont pas considérées comme des erreurs
+      de durabilité significatives, même si elles dépassent e, si elles sont à l'évidence
+      le résultat d'une panne d'un dispositif ou composant, ou d'une perturbation
+      et pour lesquelles l'indication ne peut être interprétée, mémorisée, ou transmise
+      comme résultat de mesure, est telle qu'il est impossible d'accomplir une mesure,
+      ou est si évidemment erronée que cela ne peut manquer d'être remarqué par tous
+      ceux qui sont intéressés au résultat du mesurage.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.5.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur de durabilité significative
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1963d39f-9de3-5300-a160-9a565d44cd16
+

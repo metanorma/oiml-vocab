@@ -8,31 +8,6 @@ data:
     source: OIML R 150-1:2020
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.5.1.1
-    type: authoritative
-status: valid
-id: 0bc93f99-b3d1-5d0b-a07a-a75d6f6cf928
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: influence quantity having a value which ranges within the specified rated
-      operating conditions of the measuring instrument
-  examples: []
-  id: r150-1-2020-eng-2.5.1.1-eng
-  notes:
-  - content: The variation of an indication as a consequence of an influence factor
-      is considered an error and not a fault.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 0bc93f99-b3d1-5d0b-a07a-a75d6f6cf928
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value which ranges within the specified rated
+      operating conditions of the measuring instrument
+  examples: []
+  id: r150-1-2020-eng-2.5.1.1-eng
+  notes:
+  - content: The variation of an indication as a consequence of an influence factor
+      is considered an error and not a fault.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

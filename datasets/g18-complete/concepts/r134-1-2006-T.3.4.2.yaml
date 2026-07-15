@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r134-1-2006-T.3.4.2
+  localized_concepts:
+    eng: 54bd4706-ed9c-5a81-9a11-e8aad243258a
+    fra: 54163baf-e2a4-5320-b549-f4ea364ea370
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+status: valid
+id: 832850c4-9180-5778-a538-b992683aa5a9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Greatest velocity of a vehicle that the instrument is designed to weigh-in-motion
+      and above which the weighing results may be subject to an excessive relative
+      error.
+  examples: []
+  id: r134-1-2006-eng-T.3.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum operating speed
+  - type: symbol
+    normative_status: admitted
+    designation: v_max
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54bd4706-ed9c-5a81-9a11-e8aad243258a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus grande vitesse d'un véhicule pour laquelle l'instrument de pesage
+      en mouvement est conçu et au-dessus de laquelle les résultats de pesée peuvent
+      être sujets à une erreur relative excessive.
+  examples: []
+  id: r134-1-2006-fra-T.3.4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vitesse de fonctionnement maximale
+  - type: symbol
+    normative_status: admitted
+    designation: v_max
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54163baf-e2a4-5320-b549-f4ea364ea370
+

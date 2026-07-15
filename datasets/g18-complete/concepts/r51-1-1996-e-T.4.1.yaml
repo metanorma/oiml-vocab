@@ -8,29 +8,6 @@ data:
     source: OIML R 51-1:1996
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 51-1:1996
-        version: '1996'
-    locality:
-      type: clause
-      reference_from: T.4.1
-    type: authoritative
-status: valid
-id: 44f1a471-35ee-5e21-958d-013034cf025d
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The indication of an instrument minus the (conventional) true value of
-      the mass.
-  examples: []
-  id: r51-1-1996-e-T.4.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 44f1a471-35ee-5e21-958d-013034cf025d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The indication of an instrument minus the (conventional) true value of
+      the mass.
+  examples: []
+  id: r51-1-1996-e-T.4.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

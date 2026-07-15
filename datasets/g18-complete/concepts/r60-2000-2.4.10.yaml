@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r60-2000-2.4.10
+  localized_concepts:
+    eng: 82de1c04-501e-5986-9968-da6494cf7a01
+    fra: 99d0253d-bebe-5ed3-9287-d2d6c0b97ce1
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.10
+    type: authoritative
+status: valid
+id: d7dd6917-956d-512b-bf70-22ab46bb7b3e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Écart de la courbe croissante du signal de sortie de la cellule de pesée
+      par rapport à une ligne droite.
+  examples: []
+  id: r60-2000-f-2.4.10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Non-linéarité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99d0253d-bebe-5ed3-9287-d2d6c0b97ce1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Deviation of the increasing load cell signal output curve from a straight
+      line.
+  examples: []
+  id: r60-2000-e-2.4.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Non-linearity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 82de1c04-501e-5986-9968-da6494cf7a01
+

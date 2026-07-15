@@ -8,29 +8,6 @@ data:
     source: OIML R 46-1:2012
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 46-1:2012
-        version: '2012'
-    locality:
-      type: clause
-      reference_from: 2.2.40
-    type: authoritative
-status: valid
-id: 4112e04b-46ac-5883-adf3-10d3282f7d45
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Atributo de una parte de un instrumento, dispositivo o software de medición
-      sujeto a control legal
-  examples: []
-  id: r46-1-spa-2.2.40-spa
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 4112e04b-46ac-5883-adf3-10d3282f7d45
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Atributo de una parte de un instrumento, dispositivo o software de medición
+      sujeto a control legal
+  examples: []
+  id: r46-1-spa-2.2.40-spa
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

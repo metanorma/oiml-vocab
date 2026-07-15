@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r110-1994-2.4.4
+  localized_concepts:
+    eng: 52c6c2a3-826b-5943-93c9-bace29d0b2d2
+    fra: b56181a5-1785-529c-a8be-1c68bf1b0c96
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.4
+    type: authoritative
+status: valid
+id: afd9eb32-3644-57b5-a557-683fd7b9ace3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The result of a pressure measurement minus the (conventional) true value
+      of the measured pressure.
+  examples: []
+  id: r110-1994-e-2.4.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error of the pressure measurement
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 52c6c2a3-826b-5943-93c9-bace29d0b2d2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Resultat d'un mesurage de pression moins la valeur (conventionnellement)
+      vraie de la pression mesuree.
+  examples: []
+  id: r110-1994-f-2.4.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur du mesurage de pression
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b56181a5-1785-529c-a8be-1c68bf1b0c96
+

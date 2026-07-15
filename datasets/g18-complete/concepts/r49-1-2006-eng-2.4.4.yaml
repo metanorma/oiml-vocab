@@ -8,30 +8,6 @@ data:
     source: OIML R 49-1:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 49-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: 2.4.4
-    type: authoritative
-status: valid
-id: cc4bbb26-2091-5bc5-94f2-8e9b8506c70f
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: conditions of use giving the range of values of the influence factors,
-      for which the errors (of indication) of the water meter are required to be within
-      the maximum permissible errors
-  examples: []
-  id: r49-1-2006-eng-2.4.4-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: cc4bbb26-2091-5bc5-94f2-8e9b8506c70f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conditions of use giving the range of values of the influence factors,
+      for which the errors (of indication) of the water meter are required to be within
+      the maximum permissible errors
+  examples: []
+  id: r49-1-2006-eng-2.4.4-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r137-1-2-2012-3.2.22
+  localized_concepts:
+    eng: a7511a08-8e4f-55a7-8907-cf2e0f0b66d2
+    fra: 55f52e8b-e3b1-5d20-bdb3-76ca8e2c8434
+  domains:
+  - concept_id: r-137-1-2
+    source: OIML R 137-1-2:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.21'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.22
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 65513e38-eb43-5b3d-aa48-98e0944ba4a7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Continuous or incremental change over time in indication, due to changes
+      in the metrological properties of a measuring instrument.
+  examples: []
+  id: r137-1-2-2012-eng-3.2.22-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(instrumental) drift"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a7511a08-8e4f-55a7-8907-cf2e0f0b66d2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Variation continue ou incrémentale dans le temps d'une indication, due
+      à des variations des propriétés métrologiques d'un instrument de mesure.
+  examples: []
+  id: r137-1-2-2012-fra-3.2.22-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dérive (instrumentale)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 55f52e8b-e3b1-5d20-bdb3-76ca8e2c8434
+

@@ -8,33 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.13'
-status: valid
-id: 2365d1eb-caf3-55ca-98ef-07bcc7deb6af
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: measuring instrument providing an output signal carrying information
-      about the value of the quantity being measured
-  examples:
-  - content: Voltmeter, micrometer, thermometer, electronic balance.
-  id: d5-2022-e-3.13-eng
-  notes:
-  - content: An indicating measuring instrument may provide a record of its indication.
-  - content: An output signal may be presented in visual or acoustic form. It may
-      also be transmitted to one or more other devices.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 2365d1eb-caf3-55ca-98ef-07bcc7deb6af
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measuring instrument providing an output signal carrying information
+      about the value of the quantity being measured
+  examples:
+  - content: Voltmeter, micrometer, thermometer, electronic balance.
+  id: d5-2022-e-3.13-eng
+  notes:
+  - content: An indicating measuring instrument may provide a record of its indication.
+  - content: An output signal may be presented in visual or acoustic form. It may
+      also be transmitted to one or more other devices.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

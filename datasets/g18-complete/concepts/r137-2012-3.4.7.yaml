@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r137-2012-3.4.7
+  localized_concepts:
+    eng: ddd07a2a-6c6b-5627-bc1b-18c30f14b6c3
+    fra: 518303ab-1b5d-5088-adfc-37846cff147d
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+status: valid
+id: d49f6c1f-4a3d-52df-9fe7-e1efcb53df07
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test intended to verify whether the equipment under test (EUT) is capable
+      of accomplishing its intended functions.
+  examples: []
+  id: r137-2012-e-3.4.7-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: performance test
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ddd07a2a-6c6b-5627-bc1b-18c30f14b6c3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai dont le but est de vérifier si l'équipement soumis à l'essai (ESE)
+      est capable de réaliser ses fonctions attendues.
+  examples: []
+  id: r137-2012-f-3.4.7-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai de performance
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 518303ab-1b5d-5088-adfc-37846cff147d
+

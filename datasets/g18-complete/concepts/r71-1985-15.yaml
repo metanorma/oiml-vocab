@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r71-1985-15
+  localized_concepts:
+    eng: 429f0eb1-a044-5678-bb68-ba851d7cee1e
+    fra: 302f379a-5ba1-5aaa-9815-45b045a70549
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '15'
+status: valid
+id: 880c9095-319f-56f8-a3ac-b2bb2a078502
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Volume de liquide contenu dans le fond du réservoir, jusqu'au point de
+      référence inférieur le plus bas.
+  examples: []
+  id: r71-1985-f-15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '15'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: volume mort
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 302f379a-5ba1-5aaa-9815-45b045a70549
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Volume of liquid contained in the bottom of the tank up to the lowest
+      dipping datum point.
+  examples: []
+  id: r71-1985-e-15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '15'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: deadstock
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 429f0eb1-a044-5678-bb68-ba851d7cee1e
+

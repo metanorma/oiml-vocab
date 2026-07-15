@@ -8,32 +8,6 @@ data:
     source: OIML R 139:2018
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139:2018
-        version: '2018'
-    locality:
-      type: clause
-      reference_from: 3.2.3.2
-    type: authoritative
-status: valid
-id: 0aa7362f-5c4b-5a14-b3a5-0b8035af0081
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: device that provides an output quantity having a specified relation to
-      the input quantity
-  examples: []
-  id: r139-2018-e-3.2.3.2-eng
-  notes:
-  - content: For the purpose of this Recommendation this transducer is part of the
-      measuring device and its output signal represents the output quantity which
-      is based on the input from the sensor(s), being the input quantity.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 0aa7362f-5c4b-5a14-b3a5-0b8035af0081
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that provides an output quantity having a specified relation to
+      the input quantity
+  examples: []
+  id: r139-2018-e-3.2.3.2-eng
+  notes:
+  - content: For the purpose of this Recommendation this transducer is part of the
+      measuring device and its output signal represents the output quantity which
+      is based on the input from the sensor(s), being the input quantity.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -1,0 +1,96 @@
+---
+data:
+  identifier: d11-2026-3.2
+  localized_concepts:
+    eng: 3bd4c9e2-61dd-5661-bc13-0a87ab045b0a
+    fra: 58167545-8011-5880-9a79-e0c3c7295acc
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.04'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 4ff2a024-0ca9-5663-af5b-28ae8fb26a2c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif réalisant une ou plusieurs fonctions spécifiques et (généralement)
+      fabriqué et construit tel qu'il puisse être évalué séparément selon les exigences
+      de performance métrologiques et techniques prescrites
+  examples: []
+  id: d11-2026-f-3.2-fra
+  notes:
+  - content: 'Un module peut être un instrument de mesure complet (par exemple: compteur
+      d''échelle, compteur électrique) ou une partie d''un instrument de mesure (par
+      exemple: imprimante, indicateur)'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 58167545-8011-5880-9a79-e0c3c7295acc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: identifiable part of a measuring instrument or of a family of measuring
+      instruments that performs a specific function or functions and that can be separately
+      evaluated according to prescribed metrological and technical performance requirements
+      as specified in the relevant OIML Recommendation
+  examples: []
+  id: d11-2026-e-3.2-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3bd4c9e2-61dd-5661-bc13-0a87ab045b0a
+

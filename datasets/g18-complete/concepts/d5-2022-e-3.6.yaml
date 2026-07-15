@@ -8,30 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.6'
-status: valid
-id: f1ab8e1c-4629-5e02-95f3-6fd2957d036f
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: sequence of calibrations from a reference to the final measuring system,
-      where the outcome of each calibration depends on the outcome of the previous
-      calibration
-  examples: []
-  id: d5-2022-e-3.6-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: f1ab8e1c-4629-5e02-95f3-6fd2957d036f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sequence of calibrations from a reference to the final measuring system,
+      where the outcome of each calibration depends on the outcome of the previous
+      calibration
+  examples: []
+  id: d5-2022-e-3.6-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

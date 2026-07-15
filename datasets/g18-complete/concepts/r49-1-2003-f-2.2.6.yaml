@@ -8,29 +8,6 @@ data:
     source: OIML R 49-1:2003
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 49-1:2003
-        version: '2003'
-    locality:
-      type: clause
-      reference_from: 2.2.6
-    type: authoritative
-status: valid
-id: 676fa82d-0cb8-5b14-9c86-b01b64429b84
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Valeurs extrêmes de l'erreur relative (d'indication) d'un compteur d'eau
-      permises par la présente Recommandation [adapté de VIM 5.21].
-  examples: []
-  id: r49-1-2003-f-2.2.6-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 676fa82d-0cb8-5b14-9c86-b01b64429b84
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeurs extrêmes de l'erreur relative (d'indication) d'un compteur d'eau
+      permises par la présente Recommandation [adapté de VIM 5.21].
+  examples: []
+  id: r49-1-2003-f-2.2.6-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

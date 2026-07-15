@@ -1,0 +1,98 @@
+---
+data:
+  identifier: r100-1991-3.6
+  localized_concepts:
+    eng: '019fd911-85d0-5ad2-a8ff-b77f9322eb70'
+    fra: b4f0c633-44ad-5dae-9629-3872556865c5
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+status: valid
+id: 398b94f4-b9a8-52ed-ba12-8f38e789b17a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The concentration of an element that provides a signal equivalent to
+      three times the standard deviation of the baseline noise as determined on a
+      statistical basis. It is the minimum quantity measured before it can be concluded
+      that an element has been detected.
+  examples: []
+  id: r100-1991-e-3.6-eng
+  notes:
+  - content: In this Recommendation, this term refers to the determination of an element
+      in a reference solution free of interferents. The baseline noise is established
+      by measuring the output signal of several aliquots of a blank test solution.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detection limit
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '019fd911-85d0-5ad2-a8ff-b77f9322eb70'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Concentration d'un element qui donne un signal egal a trois fois l'ecart-type
+      du bruit de fond, tel qu'il a ete determine sur une base statistique. C'est
+      la quantite minimale mesuree pour que l'on puisse conclure qu'un element a effectivement
+      ete detecte.
+  examples: []
+  id: r100-1991-f-3.6-fra
+  notes:
+  - content: Dans la presente Recommandation, ce terme est relatif a la determination
+      d'un element dans une solution de reference sans interferents (perturbations).
+      On etablit le bruit de fond en mesurant le signal de sortie pour plusieurs portions
+      d'une solution d'essai a blanc.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de detection
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b4f0c633-44ad-5dae-9629-3872556865c5
+

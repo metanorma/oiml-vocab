@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.40
+  localized_concepts:
+    eng: 3f8d7695-a705-55e9-8ca5-077e1d7385c1
+    fra: cfa22342-5071-5499-a101-331c87b22b74
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '4.08'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.40
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: '0699d784-70fd-5238-a9b5-a1486568fef2'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: attribute of a part of a measuring instrument, device or software subject
+      to legal control
+  examples: []
+  id: r46-1-2-2012-eng-2.2.40-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c81f5d60-88f2-50fb-983d-375aacd35d3c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: attribut d'une partie d'un instrument de mesure, d'un dispositif ou d'un
+      logiciel soumis au contrôle légal
+  examples: []
+  id: r46-1-2-2012-fra-2.2.40-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: caractère légal
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eabe1447-b035-52a7-9a72-75836e1dbcd3
+

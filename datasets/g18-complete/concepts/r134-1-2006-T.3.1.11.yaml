@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r134-1-2006-T.3.1.11
+  localized_concepts:
+    eng: 23967b41-d1b4-5113-8b66-c4752a2048c1
+    fra: f5b4cc46-18b4-53f6-a52f-647c39fde400
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.11
+    type: authoritative
+status: valid
+id: f82c396b-4298-5576-979a-e563c5654874
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Somme de toutes les charges par essieu dans un groupe d'essieux défini;
+      une fraction de la masse du véhicule imposée pour le groupe d'essieux au moment
+      de la pesée.
+  examples: []
+  id: r134-1-2006-fra-T.3.1.11-fra
+  notes:
+  - content: Les critères de définition de divers groupes d'essieux peuvent être établis
+      par des réglementations nationales.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: charge par groupe d'essieux
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f5b4cc46-18b4-53f6-a52f-647c39fde400
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Sum of all axle loads in a defined group of axles; a fraction of the
+      vehicle mass imposed on the axle group at the time of weighing.
+  examples: []
+  id: r134-1-2006-eng-T.3.1.11-eng
+  notes:
+  - content: The criteria for defining various axle-groups may be set by national
+      regulations.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: axle-group load
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 23967b41-d1b4-5113-8b66-c4752a2048c1
+

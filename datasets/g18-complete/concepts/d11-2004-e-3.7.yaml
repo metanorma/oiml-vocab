@@ -8,28 +8,6 @@ data:
     source: OIML D 11:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 11:2004
-        version: '2004'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.7'
-status: valid
-id: 61e87004-242f-5654-9a47-848124610d44
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Error of a measuring instrument, determined under reference conditions.
-  examples: []
-  id: d11-2004-e-3.7-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 61e87004-242f-5654-9a47-848124610d44
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of a measuring instrument, determined under reference conditions.
+  examples: []
+  id: d11-2004-e-3.7-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

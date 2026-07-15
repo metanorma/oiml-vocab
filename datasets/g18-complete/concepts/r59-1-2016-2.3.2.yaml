@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r59-1-2016-2.3.2
+  localized_concepts:
+    eng: 3b2a4c89-b89f-5bb9-a77c-3356fc5ab784
+    fra: 8458c9dd-4130-5ee8-b64a-b583e5df6627
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+status: valid
+id: 4a793c7e-1361-50d3-a753-dcd0a8fa1993
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: algebraic mean of error shift values calculated from samples of the same
+      grain type with different moisture levels
+  examples: []
+  id: r59-1-2016-eng-2.3.2-eng
+  notes:
+  - content: The resulting average value is indicative of the average variation over
+      the encompassed measurement range, as opposed to the variation in measured values
+      at one point of the range.
+  - content: In this Recommendation, reference to a resulting mean value is reserved
+      for the mean of replicated measurements, i.e. the mean of measured values on
+      the same test sample (usually taken under repeatability conditions).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: average error shift
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3b2a4c89-b89f-5bb9-a77c-3356fc5ab784
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: moyenne algébrique des valeurs issues d'erreurs calculées à partir d'échantillons
+      du même type de grain comportant des niveaux d'humidité différents. La « moyenne
+      » ainsi calculée est une valeur indicative de la variation moyenne sur une étendue
+      de mesure définie, par opposition à la variation des valeurs mesurées à un endroit
+      précis de l'étendue.
+  examples: []
+  id: r59-1-2016-fra-2.3.2-fra
+  notes:
+  - content: Dans la présente Recommandation, il n'est fait référence à une valeur
+      « moyenne » que dans le cas de moyennes de mesures répétées, c'est à dire la
+      moyenne des valeurs mesurées sur le même échantillon test (généralement recueillies
+      dans des conditions de répétabilité).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dérive de l'erreur moyenne
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8458c9dd-4130-5ee8-b64a-b583e5df6627
+

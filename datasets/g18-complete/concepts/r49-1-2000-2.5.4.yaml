@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r49-1-2000-2.5.4
+  localized_concepts:
+    eng: 1f294f2d-4a1f-58da-9c42-c90ec4bb909a
+    fra: 4e383a62-34d8-51d7-b943-33f3ca0602e9
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.5.4
+    type: authoritative
+status: valid
+id: a4dd7908-eb2f-5395-af20-46842a4a893c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility which is incorporated in a water meter with electronic devices
+      and which enables significant faults to be detected and acted upon
+  examples: []
+  id: r49-1-2000-eng-2.5.4-eng
+  notes:
+  - content: The checking of a transmission device aims at verifying that all the
+      information which is transmitted (and only that information) is fully received
+      by the receiving equipment.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.5.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1f294f2d-4a1f-58da-9c42-c90ec4bb909a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif intégré au compteur d'eau avec les dispositifs électroniques
+      et qui permet de détecter et de mettre en évidence des défauts significatifs
+  examples: []
+  id: r49-1-2000-fra-2.5.4-fra
+  notes:
+  - content: Le contrôle d'un dispositif de transmission a pour but de vérifier que
+      toutes l'information transmise (et uniquement cette information) est reçue intégralement
+      par l'équipement récepteur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.5.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de contrôle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4e383a62-34d8-51d7-b943-33f3ca0602e9
+

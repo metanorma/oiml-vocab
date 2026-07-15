@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d11-2026-3.23
+  localized_concepts:
+    eng: a0de6811-5deb-5058-9023-4cf912a1ea27
+    fra: a98af5da-c957-50a8-ae84-5d2252a8cf90
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.23
+    type: authoritative
+status: valid
+id: a61c7b53-ba4f-5985-b0fd-c77c3b3f73b1
+schema_version: 3
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: part of an instrument that converts the voltage from the mains power
+      to a voltage suitable for use by other parts of the instrument
+  examples: []
+  id: d11-2026-e-3.23-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.23
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: power converter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: a0de6811-5deb-5058-9023-4cf912a1ea27
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sous-ensemble convertissant la tension à partir de l'alimentation électrique
+      secteur (primaire) en une tension appropriée pour d'autres sous-ensembles
+  examples: []
+  id: d11-2026-f-3.23-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: convertisseur de puissance (dispositif d'alimentation)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a98af5da-c957-50a8-ae84-5d2252a8cf90
+

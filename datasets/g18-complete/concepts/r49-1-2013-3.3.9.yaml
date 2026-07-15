@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r49-1-2013-3.3.9
+  localized_concepts:
+    eng: 962f5353-e33c-5027-b228-c206a4997322
+    fra: ec3988b1-b179-5287-a252-b288b9527027
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.9
+status: valid
+id: 5a5ab29b-e56f-5a27-a74c-a681c71d06b3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: pression interne maximale qu'un compteur d'eau peut supporter de maniere
+      permanente, dans ses conditions assignees de fonctionnement, sans deterioration
+      de ses performances metrologiques
+  examples: []
+  id: r49-1-2013-fra-3.3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pression maximale admissible
+  - type: abbreviation
+    normative_status: admitted
+    designation: PMA
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec3988b1-b179-5287-a252-b288b9527027
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: maximum internal pressure that a meter can withstand permanently, within
+      its rated operating conditions, without deterioration of its metrological performance
+  examples: []
+  id: r49-1-2013-eng-3.3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.3.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum admissible pressure
+  - type: abbreviation
+    normative_status: admitted
+    designation: MAP
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 962f5353-e33c-5027-b228-c206a4997322
+

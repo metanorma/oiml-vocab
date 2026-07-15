@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r49-1-2000-2.2.7
+  localized_concepts:
+    eng: cbfb46be-c905-531e-853a-381fe1419aff
+    fra: b86d194e-5eea-5cea-81e6-9e4ec69f75c0
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.24'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 5b0b0cfe-2a9c-5ddd-b78a-df90f329dfa0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: error (of indication) of a water meter determined under reference conditions
+  examples: []
+  id: r49-1-2000-eng-2.2.7-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cbfb46be-c905-531e-853a-381fe1419aff
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: erreur (d'indication) d'un compteur d'eau déterminée dans les conditions
+      de référence
+  examples: []
+  id: r49-1-2000-fra-2.2.7-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b86d194e-5eea-5cea-81e6-9e4ec69f75c0
+

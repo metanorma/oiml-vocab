@@ -1,0 +1,80 @@
+---
+data:
+  identifier: r137-1-2-2012-3.1.2
+  localized_concepts:
+    eng: 3d84ab1b-14dc-56f4-9c51-871802a8f195
+    fra: 74600440-76b6-54b7-b8ca-60f762fb273c
+  domains:
+  - concept_id: r-137-1-2
+    source: OIML R 137-1-2:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.3'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.2
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: bb04a4d4-9014-5a36-950a-32abbdce09b2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity intended to be measured.
+  examples: []
+  id: r137-1-2-2012-eng-3.1.2-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurand
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3d84ab1b-14dc-56f4-9c51-871802a8f195
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantité destinée à être mesurée.
+  examples: []
+  id: r137-1-2-2012-fra-3.1.2-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mesurande
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 74600440-76b6-54b7-b8ca-60f762fb273c
+

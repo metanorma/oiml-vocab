@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-2012-2.2.4
+  localized_concepts:
+    eng: 1fb67482-164c-57f4-86d3-1a701ef79c67
+    fra: 66723b9e-cc4e-53fe-9615-2ee6fa9f0a28
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+status: valid
+id: 9a10330e-cc4a-5093-a323-82dd5b79928c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of current at and above which the meter is specified by the manufacturer
+      to lie within the smallest maximum permissible error corresponding to the accuracy
+      class of the meter
+  examples: []
+  id: r46-2012-e-2.2.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transitional current (Itr)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1fb67482-164c-57f4-86d3-1a701ef79c67
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur du courant spécifiée par le fabricant à, et au-dessus de laquelle
+      le compteur respecte la plus petite erreur maximale tolérée correspondant à
+      la classe d'exactitude du compteur
+  examples: []
+  id: r46-2012-e-2.2.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant de transition $ \left( I_{\mathrm{tr}} \right) $
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 66723b9e-cc4e-53fe-9615-2ee6fa9f0a28
+

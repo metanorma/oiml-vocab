@@ -1,0 +1,133 @@
+---
+data:
+  identifier: r49-1-2013-3.2.5
+  localized_concepts:
+    eng: acc57b4a-dece-5e9f-951a-3cd1ab38c1a2
+    spa: 047be402-4d40-56fa-b01f-7271bd586339
+    fra: a3c09618-4fa2-5023-82d3-34273c7e3f72
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.5
+status: valid
+id: 975c7a57-c18b-5c54-92d3-583433cbfa7d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Es el valor extremo del error de medición, respecto a un valor de magnitud
+      de referencia conocido, permitido por las especificaciones o regulaciones para
+      un asunto particular.
+  examples: []
+  id: r49-1-2013-spa-3.2.5-spa
+  notes:
+  - content: 'Fuente citation: OIML V 2-200:2012 (VIM) [1], 4.26, modificado - "medidor"
+      remplaza "medicion, instrumento de medición o sistema de medición".'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error máximo permitido
+  - type: abbreviation
+    normative_status: admitted
+    designation: MPE
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 047be402-4d40-56fa-b01f-7271bd586339
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur extreme de l'erreur de mesure, respectivement a la valeur d'une
+      quantite de reference connue, permise par les specifications ou reglementations
+      pour un compteur donne
+  examples: []
+  id: r49-1-2013-fra-3.2.5-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale toleree
+  - type: abbreviation
+    normative_status: admitted
+    designation: EMT
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a3c09618-4fa2-5023-82d3-34273c7e3f72
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value permitted by specifications or regulations for a given meter
+  examples: []
+  id: r49-1-2013-eng-3.2.5-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: MPE
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: acc57b4a-dece-5e9f-951a-3cd1ab38c1a2
+

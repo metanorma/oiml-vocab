@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r49-2013-3.1.9
+  localized_concepts:
+    eng: 8ff2dc4f-883d-5cfe-b658-1b096beaf8ae
+    fra: b3ca407b-6f0d-559c-9545-02e7a10c9a96
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+status: valid
+id: 89c6b781-e731-5b62-9d7d-b60fc3913371
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that allocates measured values into different registers depending
+      on tariff or other criteria, each register having the possibility to be read
+      individually
+  examples: []
+  id: r49-2013-e-3.1.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tariff control device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8ff2dc4f-883d-5cfe-b658-1b096beaf8ae
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif qui attribue les valeurs mesurees a differents registres en
+      fonction du tarif ou d'autres criteres, chaque registre ayant la possibilite
+      d'etre lu individuellement
+  examples: []
+  id: r49-2013-e-3.1.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de controle de la tarification
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b3ca407b-6f0d-559c-9545-02e7a10c9a96
+

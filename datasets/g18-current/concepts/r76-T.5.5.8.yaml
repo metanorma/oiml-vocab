@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.5.5.8
   localized_concepts:
-    eng: 133f332a-24fe-5f66-a1dd-b65930f6dd29
     fra: 38ed6612-08f4-5d0a-b435-af35a348712c
   domains:
   - concept_id: section-terms
@@ -17,68 +16,9 @@ data:
       type: clause
       reference_from: T.5.5.8
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.8
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.8
-    type: authoritative
 status: valid
 id: 52edfb69-fb99-555b-8494-6c7cbf9b1b68
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Durability error greater than e.
-  examples: []
-  id: r76-T.5.5.8-eng
-  notes:
-  - content: A durability error can be due to mechanical wear and tear or due to drift
-      and ageing of electronic parts. The concept of significant durability error
-      applies only to electronic parts.
-  - content: For a multi-interval instrument, the value of e is that appropriate to
-      the partial weighing range.
-  - content: Errors, occurring after a period of instrument use, are not considered
-      to be significant durability errors, even when they exceed e, if they are clearly
-      the result of the failure of a device/component, or of a disturbance and for
-      which the indication cannot be interpreted, memorized, or transmitted as a measurement
-      result, or implies the impossibility to perform any measurement, or is so obviously
-      wrong that it is bound to be noticed by all those interested in the result of
-      measurement.
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.8
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: significant durability error
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 133f332a-24fe-5f66-a1dd-b65930f6dd29
 ---
 data:
   dates:
@@ -105,7 +45,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -118,8 +58,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 38ed6612-08f4-5d0a-b435-af35a348712c

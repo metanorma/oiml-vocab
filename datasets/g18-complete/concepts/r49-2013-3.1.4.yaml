@@ -1,0 +1,96 @@
+---
+data:
+  identifier: r49-2013-3.1.4
+  localized_concepts:
+    eng: 87b0bcef-3fba-58d3-bfc2-2f432971c674
+    fra: f3ed106e-2f24-530f-b617-710d07b7bae2
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+status: valid
+id: fac58760-de0f-5cd8-8b6c-9771a862c289
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the meter that transforms the output signals from the measurement
+      transducer(s) and possibly, from associated measuring instruments and, if appropriate,
+      stores the results in memory until they are used
+  examples: []
+  id: r49-2013-e-3.1.4-eng
+  notes:
+  - content: The gearing is considered to be the calculator in a mechanical meter.
+  - content: The calculator may be capable of communicating both ways with ancillary
+      devices.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculator
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 87b0bcef-3fba-58d3-bfc2-2f432971c674
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie du compteur qui transforme les signaux de sortie provenant du
+      ou des transducteur(s) de mesure et, eventuellement, des instruments de mesure
+      associes et, le cas echeant, memorise les resultats dans la memoire jusqu'a
+      ce qu'ils soient utilises
+  examples: []
+  id: r49-2013-e-3.1.4-fra
+  notes:
+  - content: la pignonnerie est consideree comme le calculateur d'un compteur mecanique
+  - content: le calculateur peut etre capable de communiquer dans les deux sens avec
+      les dispositifs auxiliaires.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculateur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f3ed106e-2f24-530f-b617-710d07b7bae2
+

@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r60-1-2017-3.7.7
+  localized_concepts:
+    eng: a82d5f36-3ef2-5179-bd98-514903676707
+    fra: f367fdc9-3d88-5625-ae27-04ec26409d68
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.7
+    type: authoritative
+status: valid
+id: 11604871-1776-53eb-926d-31555bfd9460
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre les indications du signal de sortie d'une cellule de
+      pesée pour une même force appliquée, une indication étant obtenue en augmentant
+      la charge à partir de la charge minimale (D_min) et l'autre indication étant
+      obtenue en diminuant la charge à partir de la charge maximale (D_max)
+  examples: []
+  id: r60-1-2017-fra-3.7.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur d'hystérésis
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f367fdc9-3d88-5625-ae27-04ec26409d68
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference in load cell output readings for the same applied force between
+      the reading obtained by increasing the load from minimum load (D_min), and the
+      reading obtained by decreasing the load from maximum load (D_max)
+  examples: []
+  id: r60-1-2017-eng-3.7.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hysteresis error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a82d5f36-3ef2-5179-bd98-514903676707
+

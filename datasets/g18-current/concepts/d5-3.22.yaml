@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 5:2022
+        source: OIML V 1:2013
         version: '2022'
     locality:
       type: clause
@@ -37,26 +37,7 @@ data:
       error'.
   - content: Usually the term "maximum permissible error" is abbreviated to "MPE",
       or "mpe".
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '0.05'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: '3.22'
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

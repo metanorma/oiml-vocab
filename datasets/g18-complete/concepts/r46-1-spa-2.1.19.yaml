@@ -8,32 +8,6 @@ data:
     source: OIML R 46-1:2012
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 46-1:2012
-        version: '2012'
-    locality:
-      type: clause
-      reference_from: 2.1.19
-    type: authoritative
-status: valid
-id: 0c96dd61-f6ba-5727-9a98-d9721e885f5a
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Dispositivo previsto para desarrollar una función particular, directamente
-      relacionada con la elaboración, transmisión o exhibición de los resultados de
-      la medición.
-  examples: []
-  id: r46-1-spa-2.1.19-spa
-  notes:
-  - content: Un dispositivo auxiliar no es parte de la función básica de metrología
-      de un medidor.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 0c96dd61-f6ba-5727-9a98-d9721e885f5a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositivo previsto para desarrollar una función particular, directamente
+      relacionada con la elaboración, transmisión o exhibición de los resultados de
+      la medición.
+  examples: []
+  id: r46-1-spa-2.1.19-spa
+  notes:
+  - content: Un dispositivo auxiliar no es parte de la función básica de metrología
+      de un medidor.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

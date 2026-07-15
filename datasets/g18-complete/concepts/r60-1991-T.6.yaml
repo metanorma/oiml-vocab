@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r60-1991-T.6
+  localized_concepts:
+    eng: 80d70854-8763-5328-b6d1-9be697e3c2a3
+    fra: '080bd3af-631c-5be6-8c2a-32fd023ca936'
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.6
+    type: authoritative
+status: valid
+id: 9f65787f-279c-5495-a1b2-7dd9d6c6721e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur du plus petit échelon de vérification de la cellule de pesée par
+      lequel on peut diviser l'étendue de mesure de la cellule de pesée (v_min).
+  examples: []
+  id: r60-1991-f-T.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Échelon de vérification minimal de la cellule de pesée (v_min)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '080bd3af-631c-5be6-8c2a-32fd023ca936'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The smallest load cell verification interval into which the load cell
+      measuring range can be divided.
+  examples: []
+  id: r60-1991-e-T.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Minimum load cell verification interval $ \left( \mathrm{v}_{\mathrm{min}}
+      \right) $
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 80d70854-8763-5328-b6d1-9be697e3c2a3
+

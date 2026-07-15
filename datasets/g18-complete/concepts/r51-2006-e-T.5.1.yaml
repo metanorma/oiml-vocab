@@ -8,29 +8,6 @@ data:
     source: OIML R 51:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 51:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.1
-    type: authoritative
-status: valid
-id: 0e74a3d1-adac-5a8b-a007-e52a7c7b8274
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Quantity that is not the measurand but that affects the result of the
-      measurement.
-  examples: []
-  id: r51-2006-e-T.5.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2:1993
+status: valid
+id: 0e74a3d1-adac-5a8b-a007-e52a7c7b8274
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity that is not the measurand but that affects the result of the
+      measurement.
+  examples: []
+  id: r51-2006-e-T.5.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

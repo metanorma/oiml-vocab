@@ -1,0 +1,96 @@
+---
+data:
+  identifier: r61-1-2017-3.5.2.4
+  localized_concepts:
+    eng: e44ea4ed-a9a2-5194-9dd2-7b25c04cb326
+    deu: ef7ae16d-7189-5241-ac80-b76488f6fb5b
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+status: valid
+id: 360f8c9c-cfcf-5cf1-a0b9-fbbe8a75d91b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Größter Wert einer Messabweichung in Bezug auf einen bekannten Referenzwert
+      der durch Spezifikationen oder Vorschriften für eine Messung, ein Messgerät
+      oder ein Messsystem zugelassen ist
+  examples: []
+  id: r61-1-2017-deu-3.5.2.4-deu
+  notes:
+  - content: 'Gewöhnlich werden die Benennungen '
+  - content: 'Grenzwerte der Messabweichung“ oder '
+  - content: Fehlergrenzen“ verwendet, wenn es zwei Extremwerte gibt.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Größter zulässiger Fehler (mpe)
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ef7ae16d-7189-5241-ac80-b76488f6fb5b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r61-1-2017-eng-3.5.2.4-eng
+  notes:
+  - content: Usually, the term "maximum permissible errors" or "limits of error" is
+      used where there are two extreme values.
+  - content: The term "tolerance" should not be used to designate 'maximum permissible
+      error'.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error, mpe
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e44ea4ed-a9a2-5194-9dd2-7b25c04cb326
+

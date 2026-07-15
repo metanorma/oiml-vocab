@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.5
+  localized_concepts:
+    eng: 405dc008-2e17-5da8-a6a5-b93aad3cc201
+    fra: 01a401fc-9892-589b-9e2d-a57426dd5678
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.5
+status: valid
+id: 6a4ba128-12f1-5b5c-9f45-5e64babc8d22
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur la plus haute du courant spécifiée par le fabricant pour laquelle
+      le compteur répond aux exigences d'exactitudes
+  examples: []
+  id: r46-1-2-2012-fra-2.2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant maximal ($I_{max}$)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6386588b-f032-5bb1-b2b3-7381cc4ec884
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: highest value of current at which the meter is specified by the manufacturer
+      to meet the accuracy requirements
+  examples: []
+  id: r46-1-2-2012-eng-2.2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum current (Imax)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d2d665d8-f9af-51c4-bcd7-2358446fc85a
+

@@ -8,33 +8,6 @@ data:
     source: OIML D 16:2011
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 16:2011
-        version: '2011'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2.5'
-status: valid
-id: 69fbed59-566f-57e1-8bfa-f35193867b16
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: control exercised in respect of the manufacture, import, installation,
-      use, maintenance and repair of measuring instruments, performed in order to
-      check that they are used correctly as regards the observance of metrology laws
-      and regulations
-  examples: []
-  id: d16-2011-e-2.5-eng
-  notes:
-  - content: Metrological supervision includes checking the correctness of the quantities
-      indicated on and contained in prepackages.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 69fbed59-566f-57e1-8bfa-f35193867b16
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: control exercised in respect of the manufacture, import, installation,
+      use, maintenance and repair of measuring instruments, performed in order to
+      check that they are used correctly as regards the observance of metrology laws
+      and regulations
+  examples: []
+  id: d16-2011-e-2.5-eng
+  notes:
+  - content: Metrological supervision includes checking the correctness of the quantities
+      indicated on and contained in prepackages.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

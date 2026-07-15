@@ -3,7 +3,6 @@ data:
   identifier: r85-3.30
   localized_concepts:
     eng: e895cf79-08ce-5587-8204-5e205307eae0
-    fra: e418c9eb-1f83-5abf-ae23-5bfa6a46ec43
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -12,22 +11,6 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.30'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.30'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -49,53 +32,22 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85:2008
+        source: OIML R 85-1-2:2008
         version: '2008'
+    type: authoritative
     locality:
       type: clause
       reference_from: '3.30'
-    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: Intrinsic error
+    designation: intrinsic error
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
+  - concept_id: r-85-1-2
+    source: OIML R 85-1-2:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e895cf79-08ce-5587-8204-5e205307eae0
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Erreur d'un JA déterminée dans les conditions de référence.
-  examples: []
-  id: r85-3.30-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.30'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Erreur intrinsèque
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: e418c9eb-1f83-5abf-ae23-5bfa6a46ec43
 

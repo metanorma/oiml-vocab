@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-2-2012-2.1.7
+  localized_concepts:
+    eng: 909098a5-67f3-5cf8-b08d-7c7650a62c7c
+    fra: d0cf8988-6ce7-58a5-aee7-72fd2eb68bf9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:0
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2-2012-2.1.7
+    type: authoritative
+status: valid
+id: 3fcf2a20-e4c4-5a33-92eb-1d302ecb6e0d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: meter in which currents in fixed coils react with the currents induced
+      in the conducting moving element, generally (a) disk(s), which causes their
+      movement proportional to the energy to be measured
+  examples: []
+  id: r46-2-2012-2.1.7-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: electromechanical meter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 909098a5-67f3-5cf8-b08d-7c7650a62c7c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: compteur dans lequel des courants circulant dans des enroulements fixes
+      réagissent sur des courants induits dans des pièces conductrices mobiles, généralement
+      un (des) disque(s), ce qui entraîne leur mouvement proportionnel à l'énergie
+  examples: []
+  id: r46-2-2012-2.1.7-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur électromécanique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d0cf8988-6ce7-58a5-aee7-72fd2eb68bf9
+

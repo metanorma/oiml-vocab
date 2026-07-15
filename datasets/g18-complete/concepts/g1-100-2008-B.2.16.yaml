@@ -1,0 +1,103 @@
+---
+data:
+  identifier: g1-100-2008-B.2.16
+  localized_concepts:
+    eng: 4da51c33-9adb-5c6e-9846-6d1700795852
+    fra: '03899e30-4d64-58c1-9622-a6807c609c53'
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.16
+    type: authoritative
+status: valid
+id: be1df43b-dbc9-5921-af42-5a9fa30a816a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: closeness of the agreement between the results of measurements of the
+      same measurand carried out under changed conditions of measurement
+  examples: []
+  id: g1-100-2008-e-B.2.16-eng
+  notes:
+  - content: A valid statement of reproducibility requires specification of the conditions
+      changed.
+  - content: 'The changed conditions may include: principle of measurement; method
+      of measurement; observer; measuring instrument; reference standard; location;
+      conditions of use; time.'
+  - content: Reproducibility may be expressed quantitatively in terms of the dispersion
+      characteristics of the results.
+  - content: Results are here usually understood to be corrected results.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproducibility (of results of measurements)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4da51c33-9adb-5c6e-9846-6d1700795852
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: étroitesse de l'accord entre les résultats des mesurages du même mesurande,
+      mesurages effectués en faisant varier les conditions de mesure
+  examples: []
+  id: g1-100-2008-f-B.2.16-fra
+  notes:
+  - content: Pour qu'une expression de la reproductibilité soit valable, il est nécessaire
+      de spécifier les conditions que l'on fait varier.
+  - content: 'Les conditions que l''on fait varier peuvent comprendre: principe de
+      mesure; méthode de mesure; observateur; instrument de mesure; étalon de référence;
+      lieu; conditions d''utilisation; temps.'
+  - content: La reproductibilité peut s'exprimer quantitativement à l'aide des caractéristiques
+      de dispersion des résultats.
+  - content: Les résultats considérés ici sont habituellement les résultats corrigés.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reproductibilité (des résultats de mesurage)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '03899e30-4d64-58c1-9622-a6807c609c53'
+

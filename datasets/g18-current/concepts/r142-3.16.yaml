@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 142-1:2025
+        source: OIML V 2-200:2012
         version: '2025'
     locality:
       type: clause
@@ -37,26 +37,7 @@ data:
       usually provided with reference to a material, e.g. a certified reference material,
       a device, e.g. a stabilized laser, a reference measurement procedure, or a comparison
       of measurement standards.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '5.18'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 142-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '3.16'
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -8,30 +8,6 @@ data:
     source: OIML R 136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.4.3
-    type: authoritative
-status: valid
-id: 16946a32-3600-5f73-a1c4-3ea2533d906b
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Extreme value of an error permitted by specifications or regulations
-      between the indication of a measuring instrument and the corresponding true
-      value.
-  examples: []
-  id: r136-2004-e-T.4.3-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 16946a32-3600-5f73-a1c4-3ea2533d906b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme value of an error permitted by specifications or regulations
+      between the indication of a measuring instrument and the corresponding true
+      value.
+  examples: []
+  id: r136-2004-e-T.4.3-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

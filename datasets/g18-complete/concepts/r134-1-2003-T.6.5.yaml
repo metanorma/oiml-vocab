@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r134-1-2003-T.6.5
+  localized_concepts:
+    eng: efd8bd7d-1438-5f38-89b5-8163e4b2201a
+    fra: 4227bbf0-07ea-526b-8e92-363e6da0f541
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.6.5
+status: valid
+id: 583cd705-8d69-5f28-91d4-bb8e499af8ff
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai ayant pour but de vérifier que L'EST est capable de maintenir sa
+      stabilité de pente sur une préiode d'utilisation.
+  examples: []
+  id: r134-1-2003-fra-T.6.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.6.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Essai de stabilité de la pente
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4227bbf0-07ea-526b-8e92-363e6da0f541
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test to verify that the EUT is capable of maintaining its span stability
+      over a period of use.
+  examples: []
+  id: r134-1-2003-e-T.6.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.6.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Span stability test
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: efd8bd7d-1438-5f38-89b5-8163e4b2201a
+

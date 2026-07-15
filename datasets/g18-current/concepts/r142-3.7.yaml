@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 142-1:2025
+        source: OIML V 2-200:2012
         version: '2025'
     locality:
       type: clause
@@ -41,26 +41,7 @@ data:
       often mistakenly called "self-calibration", nor with verification of calibration.
   - content: Often, the first step alone in the above definition is perceived as being
       calibration.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.39'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 142-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '3.7'
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

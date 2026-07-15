@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r134-2006-T.2.6.4
+  localized_concepts:
+    eng: '0328837b-8ea8-561c-a5f5-2777bd4948b1'
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+status: valid
+id: 27ea3cb4-07a8-5a3e-8595-0704b0be5e96
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the individual
+      instrument. Such parameters comprise calibration parameters (e.g. span adjustments
+      or corrections) and configuration parameters (e.g. maximum capacity, minimum
+      capacity, units of measurement, etc.). They are adjustable or selectable only
+      in a special operational mode of the instrument.
+  examples: []
+  id: r134-2006-f-T.2.6.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.6.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: device-specific parameter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: da1e7a1f-5c61-5903-913e-556d4921413f
+

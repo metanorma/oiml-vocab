@@ -1,0 +1,84 @@
+---
+data:
+  identifier: r60-2017-3.1.5
+  localized_concepts:
+    eng: e53670e4-863a-5978-974f-b1d439d94a07
+    fra: '08006c95-06db-5f24-9569-f406ff570e3e'
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2017
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.03'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: f4312da2-3bdc-595a-9a07-8486838a227d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: activité du contrôle de métrologie légale consistant à vérifier que les
+      lois et règlements sont respectés
+  examples: []
+  id: r60-2017-f-3.1.5-fra
+  notes:
+  - content: "(Pour consulter les notes, veuillez vous reporter à VIML [3])."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: surveillance métrologique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '08006c95-06db-5f24-9569-f406ff570e3e'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: activity of legal metrological control to check the observance of metrology
+      laws and regulations
+  examples: []
+  id: r60-2017-e-3.1.5-eng
+  notes:
+  - content: "(For notes, refer to the VIML [3])."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metrological supervision
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e53670e4-863a-5978-974f-b1d439d94a07
+

@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r83-1990-3.12
+  localized_concepts:
+    eng: 7cd9d5c7-8fb9-5cfe-8e95-51df5a3f5dc3
+    fra: 0c206985-4845-593f-8d65-616846f23f1f
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: 5a971075-92f0-512b-82b8-a214b79ed388
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Rapport R = m/delta(m) interprété selon l''une des deux définitions
+      suivantes: m est la masse correspondant au premier pic d''un doublet, et delta(m)
+      la différence de masse correspondant au deux pics. Le doublet doit être séparé
+      par un creux, dont la valeur ne doit pas dépasser 10 % de la valeur du pic le
+      plus haut; ou m est la masse d''un constituent correspondant au pic et delta(m)
+      la largeur du pic à mi-hauteur.'
+  examples: []
+  id: r83-1990-f-3.12-fra
+  notes:
+  - content: Résolution unité signifie en général R = 2|m| ou |m| est la valeur numérique
+      lorsque m est exprimé en unités de masse atomique unifiées.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Résolution d'un spectromètre de masse
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0c206985-4845-593f-8d65-616846f23f1f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'The ratio R = m/delta(m) interpreted by either one of the following
+      definitions: m is the mass of a component comprising the first peak of a doublet,
+      and delta(m) is the difference in mass of the two peaks. The doublet shall be
+      separated by a valley, the value of which shall not exceed 10 % of the value
+      of the highest peak; or m is the mass of a component within a peak and delta(m)
+      is the width of the peak at one-half its height.'
+  examples: []
+  id: r83-1990-e-3.12-eng
+  notes:
+  - content: Unit resolution usually means R = 2|m|, where |m| is the numerical value
+      when m is expressed in unified atomic mass units.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Resolution of a mass spectrometer
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7cd9d5c7-8fb9-5cfe-8e95-51df5a3f5dc3
+

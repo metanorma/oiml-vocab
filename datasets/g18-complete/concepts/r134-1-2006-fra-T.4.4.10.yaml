@@ -8,30 +8,6 @@ data:
     source: OIML R 134-1:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 134-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.4.4.10
-    type: authoritative
-status: valid
-id: 0e97b48b-2464-53db-9ede-d92b9e0de96b
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Différence entre le résultat le plus grand et le résultat le plus faible
-      de mesures successives de la même charge réalisées dans les mêmes conditions
-      de mesure.
-  examples: []
-  id: r134-1-2006-fra-T.4.4.10-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 0e97b48b-2464-53db-9ede-d92b9e0de96b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre le résultat le plus grand et le résultat le plus faible
+      de mesures successives de la même charge réalisées dans les mêmes conditions
+      de mesure.
+  examples: []
+  id: r134-1-2006-fra-T.4.4.10-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

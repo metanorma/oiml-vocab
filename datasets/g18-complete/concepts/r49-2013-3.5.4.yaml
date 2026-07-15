@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r49-2013-3.5.4
+  localized_concepts:
+    eng: bed2065c-6fd6-578b-8425-8fdc500a71cc
+    fra: b94089d6-4c94-55d8-92b1-72324cf89863
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.5.4
+    type: authoritative
+status: valid
+id: b319e78d-037b-5829-b700-8a67bec7bf4e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility that is incorporated in a meter and which enables significant
+      faults to be detected and acted upon
+  examples: []
+  id: r49-2013-e-3.5.4-eng
+  notes:
+  - content: The checking of a transmission device aims to verify whether all the
+      information which is transmitted (and only that information) is fully received
+      by the receiving equipment.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.5.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bed2065c-6fd6-578b-8425-8fdc500a71cc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif integre au compteur qui permet de detecter et de mettre en
+      evidence des defauts significatifs
+  examples: []
+  id: r49-2013-e-3.5.4-fra
+  notes:
+  - content: Le controle d'un dispositif de transmission a pour but de verifier que
+      toute l'information transmise (et uniquement cette information) est recue integralement
+      par l'equipement recepteur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.5.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de controle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b94089d6-4c94-55d8-92b1-72324cf89863
+

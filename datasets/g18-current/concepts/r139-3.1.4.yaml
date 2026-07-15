@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 139-1:2022
+        source: OIML V 2-200:2012
         version: '2022'
     locality:
       type: clause
@@ -29,26 +29,7 @@ data:
   examples: []
   id: r139-3.1.4-eng
   notes:
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '4.1'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.1.4
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

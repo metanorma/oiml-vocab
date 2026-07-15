@@ -8,29 +8,6 @@ data:
     source: OIML B 3:2011
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML B 3:2011
-        version: '2011'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.1'
-status: valid
-id: 826d1f0b-7d90-5fef-8b1f-20ceb684c393
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: device used for making measurements, alone or in conjunction with supplementary
-      device(s)
-  examples: []
-  id: b3-2011-e-3.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 826d1f0b-7d90-5fef-8b1f-20ceb684c393
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device used for making measurements, alone or in conjunction with supplementary
+      device(s)
+  examples: []
+  id: b3-2011-e-3.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

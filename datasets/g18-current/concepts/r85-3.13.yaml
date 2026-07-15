@@ -3,7 +3,6 @@ data:
   identifier: r85-3.13
   localized_concepts:
     eng: 4deb13e3-3fba-5f1b-8266-422822b8ec2d
-    fra: 5edcee52-d34e-564b-a524-c9c3583fd6c2
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -12,22 +11,6 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.13'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.13'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -50,54 +33,22 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85:2008
+        source: OIML R 85-1-2:2008
         version: '2008'
+    type: authoritative
     locality:
       type: clause
       reference_from: '3.13'
-    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: Intermittent automatic checking facility (type I)
+    designation: intermittent automatic checking facility (type I)
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
+  - concept_id: r-85-1-2
+    source: OIML R 85-1-2:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4deb13e3-3fba-5f1b-8266-422822b8ec2d
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Système de contrôle automatique qui opère à intervalle régulier ou après
-      un nombre fixe de cycles de mesure.
-  examples: []
-  id: r85-3.13-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.13'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Système de contrôle automatique intermittent (type I)
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 5edcee52-d34e-564b-a524-c9c3583fd6c2
 

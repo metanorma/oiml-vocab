@@ -1,0 +1,91 @@
+---
+data:
+  identifier: g1-100-2008-C.2.21
+  localized_concepts:
+    eng: abd62ba4-e3dd-53fd-9184-d4545af97655
+    fra: 648ecb67-7f7d-5f60-8594-700331a8df8a
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.21
+    type: authoritative
+status: valid
+id: 0b11a728-397a-5139-995f-b83b8523405d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: racine carrée positive de la variance
+  examples: []
+  id: g1-100-2008-f-C.2.21-fra
+  notes:
+  - content: L'écart-type de l'échantillon est un estimateur biaisé de l'écart-type
+      de la population.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.21
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écart-type
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 648ecb67-7f7d-5f60-8594-700331a8df8a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: the positive square root of the variance
+  examples: []
+  id: g1-100-2008-e-C.2.21-eng
+  notes:
+  - content: The sample standard deviation is a biased estimator of the population
+      standard deviation.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.21
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: standard deviation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: abd62ba4-e3dd-53fd-9184-d4545af97655
+

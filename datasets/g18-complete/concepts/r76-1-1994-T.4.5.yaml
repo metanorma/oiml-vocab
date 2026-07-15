@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r76-1-1994-T.4.5
+  localized_concepts:
+    eng: '08334772-4eb0-5992-9f5a-0630f7b7058e'
+    fra: 84a852d3-af9b-5f53-aa60-d24e96295aa9
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+status: valid
+id: b4ce8407-0f4b-58ab-a132-e08f66debcc2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Intervalle de temps compris entre le moment où l'instrument est mis sous
+      tension et le moment où il peut satisfaire aux exigences.
+  examples: []
+  id: r76-1-1994-fra-T.4.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de chauffage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 84a852d3-af9b-5f53-aa60-d24e96295aa9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The time between the moment power is applied to an instrument and the
+      moment at which the instrument is capable of complying with the requirements.
+  examples: []
+  id: r76-1-1994-eng-T.4.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: warm-up time
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '08334772-4eb0-5992-9f5a-0630f7b7058e'
+

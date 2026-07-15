@@ -3,7 +3,6 @@ data:
   identifier: r85-3.9
   localized_concepts:
     eng: 462002e5-c77b-58a0-ad00-e3608fee75b9
-    fra: e6ff86bc-f9b1-5d04-ac68-925e57a958ec
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -12,22 +11,6 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.9'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.9'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -50,54 +33,22 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85:2008
+        source: OIML R 85-1-2:2008
         version: '2008'
+    type: authoritative
     locality:
       type: clause
       reference_from: '3.9'
-    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: Repeating indicating device
+    designation: repeating indicating device
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
+  - concept_id: r-85-1-2
+    source: OIML R 85-1-2:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 462002e5-c77b-58a0-ad00-e3608fee75b9
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Dispositif additionnel (dispositif auxiliaire) repétant les indications
-      du dispositif indicateur.
-  examples: []
-  id: r85-3.9-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.9'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Dispositif indicateur répétiteur
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: e6ff86bc-f9b1-5d04-ac68-925e57a958ec
 

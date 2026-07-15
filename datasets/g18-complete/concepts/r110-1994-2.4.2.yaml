@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r110-1994-2.4.2
+  localized_concepts:
+    eng: 8dadac5b-a77a-52df-bb24-1d3cf598426b
+    fra: 04d90275-02e3-5132-8266-a241ef9512ee
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
+status: valid
+id: 042ce5b3-b673-5420-a0cb-967cfe4dd5cd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A pressure value that is considered sufficiently close to the corresponding
+      true value to be substituted for that value for purpose of the evaluation of
+      errors.
+  examples: []
+  id: r110-1994-e-2.4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conventional true value of pressure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8dadac5b-a77a-52df-bb24-1d3cf598426b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur de pression qui est consideree suffisamment proche de la valeur
+      vraie correspondante pour etre substituee a cette valeur aux fins de l'evaluation
+      des erreurs.
+  examples: []
+  id: r110-1994-f-2.4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Valeur conventionnellement vraie de pression
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 04d90275-02e3-5132-8266-a241ef9512ee
+

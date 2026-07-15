@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r46-2012-2.2.19
+  localized_concepts:
+    eng: 1fb2296b-1a59-586e-bf01-65483f3c8cc0
+    fra: a186ed95-3b85-545d-8451-332ca5305f2c
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.19
+    type: authoritative
+status: valid
+id: ce0c2314-2845-5c6b-9d52-95165d8cb6d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of the error of indication of a meter, permitted by this
+      Recommendation, when the current and power factor are varied within the intervals
+      given by the rated operating conditions, and when the meter is otherwise operated
+      at reference conditions
+  examples: []
+  id: r46-2012-f-2.2.19-eng
+  notes:
+  - content: In this Recommendation, the maximum permissible error is a combination
+      of the base maximum permissible error and the maximum permissible error shift
+      as described in Annex B.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.19
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base maximum permissible error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4d1768e1-4384-5b61-8ae7-329f58d501bd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur extrême de l'erreur d'indication d'un compteur, permise par la
+      présente Recommandation, lorsque le courant et le facteur de puissance varient
+      dans les intervalles donnés par les conditions assignées de fonctionnement,
+      et lorsque le compteur fonctionne par ailleurs aux conditions de référence
+  examples: []
+  id: r46-2012-e-2.2.19-fra
+  notes:
+  - content: Dans cette Recommandation, l'erreur maximale tolérée est une combinaison
+      de l'erreur maximale tolérée de base et le décalage d'erreur maximal toléré
+      comme décrite en Annexe B.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.19
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée de base
+  - type: expression
+    normative_status: admitted
+    designation: emt
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a186ed95-3b85-545d-8451-332ca5305f2c
+

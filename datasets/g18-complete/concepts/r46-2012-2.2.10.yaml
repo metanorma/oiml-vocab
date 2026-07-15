@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r46-2012-2.2.10
+  localized_concepts:
+    eng: 42ac790e-270d-5592-976c-54bfc92c88db
+    fra: 9e4a9b64-d181-5393-a2b3-5d0b41e845f5
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+status: valid
+id: fc5fb37e-9e61-52ac-b129-79af77a8f1c9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of a signal that has a frequency that is an integer multiple of
+      the fundamental frequency of the signal
+  examples: []
+  id: r46-2012-f-2.2.10-eng
+  notes:
+  - content: The fundamental frequency is generally the nominal frequency (f_nom)
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonic
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0c94116-7148-5d42-861d-fddea2da18e9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie d'un signal qui a une fréquence qui est un multiple entier de
+      la fréquence fondamentale du signal
+  examples: []
+  id: r46-2012-e-2.2.10-fra
+  notes:
+  - content: La fréquence fondamentale est généralement la fréquence nominale $ (
+      f_{\mathrm{nom}} ) $.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9e4a9b64-d181-5393-a2b3-5d0b41e845f5
+

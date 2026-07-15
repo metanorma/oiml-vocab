@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r46-2-2012-2.2.39
+  localized_concepts:
+    eng: 244cb1ff-6c1a-5655-be19-99dfc978b5f7
+    fra: a170edf6-4943-52cd-9f6b-15e671bc0107
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:0
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2-2012-2.2.39
+    type: authoritative
+status: valid
+id: de4440dc-d09b-50d8-80e1-9a2ca351c2a0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: direction of flow in the opposite direction to positive
+  examples: []
+  id: r46-2-2012-2.2.39-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.39
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reverse (energy) flow
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 244cb1ff-6c1a-5655-be19-99dfc978b5f7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sens de l'écoulement dans le sens opposé au positif
+  examples: []
+  id: r46-2-2012-2.2.39-fra
+  notes:
+  - content: pour les compteurs en sens positif uniquement
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.39
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écoulement inverse (de l'énergie)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a170edf6-4943-52cd-9f6b-15e671bc0107
+

@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.2.8.7
   localized_concepts:
-    eng: 93fb3a9a-47af-5f77-8e86-b4f0844dc487
     fra: 3ea0fa1f-a8e1-5348-9134-81d483f03c52
   domains:
   - concept_id: section-terms
@@ -17,58 +16,9 @@ data:
       type: clause
       reference_from: T.2.8.7
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.8.7
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.8.7
-    type: authoritative
 status: valid
 id: da5c448d-7f4c-5655-9c21-78448e543bdc
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Unambiguous separation of software into legally relevant software and
-      non-legally relevant software. If no software separation exists, the whole software
-      is to be considered as legally relevant.
-  examples: []
-  id: r76-T.2.8.7-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.8.7
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: software separation
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 93fb3a9a-47af-5f77-8e86-b4f0844dc487
 ---
 data:
   dates:
@@ -84,7 +34,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -97,8 +47,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 3ea0fa1f-a8e1-5348-9134-81d483f03c52

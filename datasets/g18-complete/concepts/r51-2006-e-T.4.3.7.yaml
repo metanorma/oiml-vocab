@@ -8,29 +8,6 @@ data:
     source: OIML R 51:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 51:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.4.3.7
-    type: authoritative
-status: valid
-id: '02161495-06e0-566b-80b5-f0a8685a0e19'
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Extreme value of an error permitted by specifications, regulations, etc.
-      for a given instrument.
-  examples: []
-  id: r51-2006-e-T.4.3.7-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2:1993
+status: valid
+id: '02161495-06e0-566b-80b5-f0a8685a0e19'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme value of an error permitted by specifications, regulations, etc.
+      for a given instrument.
+  examples: []
+  id: r51-2006-e-T.4.3.7-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

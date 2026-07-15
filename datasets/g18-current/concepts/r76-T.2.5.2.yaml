@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.2.5.2
   localized_concepts:
-    eng: d51377e2-aab8-52d1-bdac-9ecedb9fee0c
     fra: 50ef11ee-9fc7-524d-8935-dee45696f622
   domains:
   - concept_id: section-terms
@@ -17,57 +16,9 @@ data:
       type: clause
       reference_from: T.2.5.2
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.5.2
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.5.2
-    type: authoritative
 status: valid
 id: c677462e-b3cf-516b-8914-10359a1f9ce4
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Device connected to the displaying component and sub-dividing the scale
-      of an instrument, without special adjustment.
-  examples: []
-  id: r76-T.2.5.2-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.5.2
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: device for interpolation of reading (vernier or nonius)
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: d51377e2-aab8-52d1-bdac-9ecedb9fee0c
 ---
 data:
   dates:
@@ -82,7 +33,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -95,8 +46,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 50ef11ee-9fc7-524d-8935-dee45696f622

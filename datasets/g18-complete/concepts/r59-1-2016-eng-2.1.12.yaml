@@ -8,14 +8,25 @@ data:
     source: OIML R 59-1:2016
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.20'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 59-1:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.1.12
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: f944e40c-7293-5cbb-a0d0-2d2b00d8e6b4
 schema_version: '3'
@@ -36,26 +47,7 @@ data:
       to a specified set of repeatability conditions.
   - content: In chemistry, the term intra-serial precision condition of measurement
       is sometimes used to designate this concept.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.20'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.12
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
