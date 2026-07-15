@@ -67,13 +67,9 @@ datasets:
   color:
     light: '#D8E0E5'
     dark: '#E8EEF1'
-- id: g18-current
-  local_path: datasets/g18-current
-  color:
-    light: '#166534'
-    dark: '#22C55E'
-- id: g18-complete
-  local_path: datasets/g18-complete
+
+- id: oiml-complete
+  local_path: datasets/oiml-complete
   color:
     light: '#15803D'
     dark: '#4ADE80'
@@ -155,10 +151,8 @@ dataset_translations:
   vim-1984:
     fra:
       description: Première édition du VIM (publiée conjointement par le BIPM, la CEI, l'ISO et l'OIML). 138 concepts répartis en 6 chapitres. Remplacée par le corrigendum V 2:1984/Cor.1:1987 puis par l'édition 1993.
-  g18-current:
-    fra:
-      description: Vue "courante" de G 18 — un concept par (famille de publication, numéro de terme), en ne conservant que l'édition la plus récente ("tip") par famille. Les éditions linguistiques multiples d'un même terme sont fusionnées en un seul concept multilingue. Environ 3 000 concepts uniques.
-  g18-complete:
+
+  oiml-complete:
     fra:
       description: Index terminologique exhaustif dérivé des publications OIML — chaque entrée terminologique de chaque publication OIML est enregistrée, avec provenance complète. Environ 11 000 concepts à travers ~370 publications ; 5 langues (eng, fra, spa, deu, pol).
 copyright: OIML
@@ -195,13 +189,12 @@ dataset_groups:
   translations:
     fra:
       label: VIM — Vocabulaire international de métrologie
-- id: g18
-  label: G 18 — Cross-publication terminology index
+- id: oiml
+  label: OIML Complete Vocabulary
   kind: collection
-  current: g18-current
+  current: oiml-complete
   datasets:
-  - g18-current
-  - g18-complete
+  - oiml-complete
   color:
     light: '#166534'
     dark: '#22C55E'
