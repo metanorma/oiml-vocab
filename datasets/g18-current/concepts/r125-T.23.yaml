@@ -1,0 +1,78 @@
+---
+data:
+  identifier: r125-T.23
+  localized_concepts:
+    eng: 2c23eb6b-a5ee-5235-8210-6ac93a76b794
+    fra: c13f6a2f-7f9a-57b9-9b1e-5b27d0e52a9b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.23
+    type: authoritative
+status: valid
+id: a8b8d43a-df5f-5b19-a737-80beafe7b3ce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The error of a measuring instrument used under reference conditions
+  examples: []
+  id: r125-T.23-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2c23eb6b-a5ee-5235-8210-6ac93a76b794
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur d'un instrument de mesure utilise dans les conditions de reference
+      (VIM 5.24).
+  examples: []
+  id: r125-T.23-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.23
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur intrinseque
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c13f6a2f-7f9a-57b9-9b1e-5b27d0e52a9b
+

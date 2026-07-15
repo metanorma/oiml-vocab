@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r112-2.11
+  localized_concepts:
+    eng: fe3c86c2-6a8f-5a6b-90fa-0452cefea631
+    fra: 30a9877d-f5be-574b-85b7-ff59f3230908
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
+status: valid
+id: 7fcfee45-fa05-5dbf-b63a-38b42aedde12
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of concentrations or mass flow rates of a sample component
+      over which a change in sample amount produces a measurable change in the detector
+      signal output. Its value is the ratio of the upper limit of detection to the
+      detection limit.
+  examples: []
+  id: r112-2.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dynamic range of a detector
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fe3c86c2-6a8f-5a6b-90fa-0452cefea631
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etendue des concentrations ou des debits massiques d'un composant de
+      l'echantillon examine pour laquelle une variation de la quantite d'echantillon
+      produit une variation mesurable du signal de sortie du detecteur. Sa valeur
+      correspond au rapport de la limite superieure de detection a la limite de detection.
+  examples: []
+  id: r112-2.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue dynamique d'un detecteur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 30a9877d-f5be-574b-85b7-ff59f3230908
+

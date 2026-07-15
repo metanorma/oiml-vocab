@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r137-3.1.9
+  localized_concepts:
+    eng: 6dbbe2be-5a3d-5742-8bf0-ac9270305a9c
+    fra: 6b4fc3ed-a534-5f0e-bf08-70676258c656
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+status: valid
+id: e0227cc7-196f-50fc-807e-c488a7c9a0e0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument connected to the calculator or the correction device for measuring
+      certain gas properties for the purpose of making a correction.
+  examples: []
+  id: r137-3.1.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: associated measuring instrument
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6dbbe2be-5a3d-5742-8bf0-ac9270305a9c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument connecté au calculateur ou au dispositif de correction pour
+      mesurer certaines propriétés du gaz, dans le but d'effectuer une correction.
+  examples: []
+  id: r137-3.1.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de mesure associé
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6b4fc3ed-a534-5f0e-bf08-70676258c656
+

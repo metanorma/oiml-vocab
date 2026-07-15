@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r46-2.2.12
+  localized_concepts:
+    eng: fb866e9d-56e3-58cd-9daa-f218dcab98a8
+    fra: f9b605b2-4353-5f57-b7c2-0eef541cbdb6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+status: valid
+id: 4b0f7c9b-2117-59cb-9994-c82c746eed4b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: integer number used to identify a harmonic
+  examples: []
+  id: r46-2.2.12-eng
+  notes:
+  - content: The harmonic number is the ratio of the frequency of a harmonic to the
+      fundamental frequency of the signal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.12
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonic number
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fb866e9d-56e3-58cd-9daa-f218dcab98a8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: nombre entier utilisé pour identifier un harmonique
+  examples: []
+  id: r46-2.2.12-fra
+  notes:
+  - content: Le rang d'un harmonique est le rapport de la fréquence d'un harmonique
+      sur la fréquence fondamentale du signal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.12
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rang d'un harmonique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f9b605b2-4353-5f57-b7c2-0eef541cbdb6
+

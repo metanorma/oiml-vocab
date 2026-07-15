@@ -3,6 +3,7 @@ data:
   identifier: r85-3.16
   localized_concepts:
     eng: ff350b16-f06d-5566-8686-9ab1b5a3009a
+    fra: 3864c704-e2ad-58df-8cae-ed837202231c
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -11,6 +12,14 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -35,22 +44,55 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85-1-2:2008
+        source: OIML R 85:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.16'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: dipping datum point
+    designation: Dipping datum point
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85-1-2
-    source: OIML R 85-1-2:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ff350b16-f06d-5566-8686-9ab1b5a3009a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Intersection de l'axe vertical de mesurage avec la surface supérieure
+      de la plaque de touche ou avec le fond de réservoir si cette plaque est absente.
+      Il constitue l'origine des mesurages des niveaux de liquide (référence zéro).
+  examples: []
+  id: r85-3.16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Point de référence inférieur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3864c704-e2ad-58df-8cae-ed837202231c
 

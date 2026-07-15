@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r55-1.5
+  localized_concepts:
+    eng: 04fbe2e5-ce5f-5c63-b129-48e11e44b6a6
+    fra: '09231317-083d-5aec-8da1-354004480359'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:55:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '1.5'
+    type: authoritative
+status: valid
+id: bbc549d4-f5c2-567b-a59d-1ad2f018552d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Characteristic quantity showing the type (revolutions of the driving
+      shaft or impulses) and number of signals emitted by the device provided on the
+      vehicle, for connection to the odometer or chronotachograph, when the vehicle
+      covers a distance of 1 km.
+  examples: []
+  id: r55-1.5-eng
+  notes:
+  - content: The coefficient w must be expressed in the same units as constant k.
+  - content: The coefficient w varies according to vehicle load, and the dimensions,
+      pressure and degree of wear of the tyres. It must be determined under standard
+      test conditions (point 4.2.4.).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Coefficient w of the vehicle
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-55
+    source: OIML R 55:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 04fbe2e5-ce5f-5c63-b129-48e11e44b6a6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur caractéristique indiquant l'espèce (tours de l'arbre d'entraînement
+      ou impulsions) et le nombre de signaux émis par le dispositif prévu sur le véhicule
+      pour être raccordé aux compteurs et au chronotachygraphe, quand le véhicule
+      parcourt la distance de 1 kilomètre.
+  examples: []
+  id: r55-1.5-fra
+  notes:
+  - content: Le coefficient w doit être exprimé dans les mêmes unités que la constante
+      k.
+  - content: Le coefficient w varie en fonction de la charge du véhicule et des dimensions,
+      de la pression et du degré d'usure des pneumatiques ; il doit être déterminé
+      dans les conditions normales d'essai (point 4.2.4.).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Coefficient w du vehicule
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-55
+    source: OIML R 55:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '09231317-083d-5aec-8da1-354004480359'
+

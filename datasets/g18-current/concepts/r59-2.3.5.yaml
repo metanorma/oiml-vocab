@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r59-2.3.5
+  localized_concepts:
+    eng: 2e51e8b9-7585-50f8-ab9b-f86f7d4bf921
+    fra: a15cfccd-45e8-500e-8051-70386f40b09e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:59:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 59:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+status: valid
+id: c4d9415f-a738-5f69-94be-0878dcb46534
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of calibration coefficients for one type of grain to convert raw
+      instrument data into a moisture content measurement
+  examples: []
+  id: r59-2.3.5-eng
+  notes:
+  - content: Both these terms are used in the same context as calibration function
+      in Note 1 of VIM 2.39.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration equation
+  - type: expression
+    normative_status: admitted
+    designation: calibration
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2e51e8b9-7585-50f8-ab9b-f86f7d4bf921
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ensemble de coefficients d'étalonnage d'un type de grain permettant de
+      convertir les données brutes d'un instrument en une mesure de la teneur en eau
+  examples: []
+  id: r59-2.3.5-fra
+  notes:
+  - content: ces deux termes sont utilisés dans le même contexte que le terme « fonction
+      d'étalonnage » cité dans la Note 1 du point 2.39. du VIM
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59-1:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.3.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: équation d'étalonnage
+  - type: expression
+    normative_status: admitted
+    designation: étalonnage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-59-1
+    source: OIML R 59-1:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a15cfccd-45e8-500e-8051-70386f40b09e
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: d24-3.1.3
+  localized_concepts:
+    eng: 2353720c-28e2-5ee0-95ff-3789a9b217bd
+    fra: bb695816-955b-5739-af47-8e0399953fa4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+status: valid
+id: d870915d-7b93-5806-aa8a-5e26b115c1ea
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The target distance is the distance between the radiation source and
+      the optics of the total radiation pyrometer. This distance may be measured from
+      another point on the pyrometer, indicated in an accompanying document.
+  examples: []
+  id: d24-3.1.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: target distance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-24
+    source: OIML D 24:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2353720c-28e2-5ee0-95ff-3789a9b217bd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La distance de visée est la distance entre la source de rayonnement et
+      l'optique du pyromètre à radiation totale. Cette distance peut être mesurée
+      à partir d'un autre point du pyromètre, mentionné dans le document d'accompagnement.
+  examples: []
+  id: d24-3.1.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distance de visée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-24
+    source: OIML D 24:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bb695816-955b-5739-af47-8e0399953fa4
+

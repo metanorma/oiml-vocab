@@ -1,0 +1,107 @@
+---
+data:
+  identifier: r16-2.4
+  localized_concepts:
+    eng: d56f97c5-575a-5b4f-8aa8-52b73b8e1c76
+    fra: 52c5259b-7144-5987-9847-0b9bb725c95d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:16:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+status: valid
+id: 7940eeec-2bc0-52ad-a5ce-ca556a9873bc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Minimum value of the arterial blood pressure as a result of relaxation
+      of the systemic ventricle.
+  examples: []
+  id: r16-2.4-eng
+  notes:
+  - content: Because of hydrostatic effects, this value should be measured with the
+      cuff at the heart level.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diastolic blood pressure (value)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-16-2
+    source: OIML R 16-2:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d56f97c5-575a-5b4f-8aa8-52b73b8e1c76
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur minimale de la pression artérielle, résultant de la relaxation
+      du ventricule gauche.
+  examples: []
+  id: r16-2.4-fra
+  notes:
+  - content: En raison d'effets hydrostatiques, il convient de mesurer cette valeur
+      avec le brassard au niveau du cœur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pression sanguine diastolique (valeur)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-16-2
+    source: OIML R 16-2:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 52c5259b-7144-5987-9847-0b9bb725c95d
+

@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.5.3.3
   localized_concepts:
+    eng: bddfd0e0-ba5d-58d3-a52b-dd1026aefe68
     fra: 71efdda6-8475-5daa-86b9-86d204e120e9
   domains:
   - concept_id: section-terms
@@ -16,9 +17,49 @@ data:
       type: clause
       reference_from: T.5.3.3
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.3
+    type: authoritative
 status: valid
 id: 75a0f42c-6b42-5296-be74-215dfd5c357b
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Calculated sum or difference of more than one measured weight value and/or
+      calculated net value.
+  examples: []
+  id: r76-T.5.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Calculated weight value
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bddfd0e0-ba5d-58d3-a52b-dd1026aefe68
 ---
 data:
   dates:
@@ -33,7 +74,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -42,12 +83,12 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: valeur de poids calculée
+    designation: Valeur de poids calculée
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 71efdda6-8475-5daa-86b9-86d204e120e9

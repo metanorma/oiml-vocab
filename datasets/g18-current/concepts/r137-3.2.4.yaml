@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r137-3.2.4
+  localized_concepts:
+    eng: 74d40457-1300-5b35-9c73-764781ca606f
+    fra: b7a98f21-0711-556c-9c82-8d5ff28b1204
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.4
+    type: authoritative
+status: valid
+id: d0b82078-504a-52f0-81e7-2befbf04f073
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Measured quantity value minus a reference quantity value.
+  examples: []
+  id: r137-3.2.4-eng
+  notes:
+  - content: The presented VIM definition of (measurement) error is often interpreted
+      as the definition for an absolute error. However, when expressing a parameter
+      as a percentage or in dB this definition could also be applied to a relative
+      error. Since in all cases in this document the errors are expressed in relative
+      values it was decided that a separate definition for a relative error is not
+      needed.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 74d40457-1300-5b35-9c73-764781ca606f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre la valeur mesurée d'une grandeur et une valeur de référence.
+  examples: []
+  id: r137-3.2.4-fra
+  notes:
+  - content: La présente définition du VIM d'erreur (de mesure) est souvent interprétée
+      comme étant la définition d'une erreur absolue. Cependant, cette définition
+      pourrait également être appliquée à une erreur relative lors de l'expression
+      d'un paramètre en pourcentage ou en dB. Puisque dans tous les cas, dans ce document,
+      les erreurs sont exprimées en valeurs relatives, il a été décidé qu'une définition
+      séparée d'erreur n'était pas nécessaire.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b7a98f21-0711-556c-9c82-8d5ff28b1204
+

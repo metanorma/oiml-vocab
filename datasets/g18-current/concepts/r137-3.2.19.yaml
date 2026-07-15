@@ -1,0 +1,102 @@
+---
+data:
+  identifier: r137-3.2.19
+  localized_concepts:
+    eng: 777dc5dd-d7e0-5088-851c-87152d73e02d
+    fra: b2d38432-fe0f-590b-93b2-8f1d5432b805
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.19
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.19
+    type: authoritative
+status: valid
+id: b17de312-cca6-58ac-9417-273dc3598583
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Conditions to which the measured volume of gas is converted (examples:
+      base temperature and base pressure).'
+  examples: []
+  id: r137-3.2.19-eng
+  notes:
+  - content: Operating and base conditions relate to the volume of gas to be measured
+      or indicated only and should not be confused with "rated operating conditions"
+      and "reference conditions" (VIM 4.9 and 4.11) which refer to influence quantities.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.19
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base conditions
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 777dc5dd-d7e0-5088-851c-87152d73e02d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Conditions auxquelles le volume mesuré de gaz est converti (exemples:
+      température de base et pression de base).'
+  examples: []
+  id: r137-3.2.19-fra
+  notes:
+  - content: Les conditions de fonctionnement et de base concernent le volume de gaz
+      à mesurer ou seulement à indiquer et ne doivent pas être confondues avec "les
+      opérations assignées de fonctionnement" et "les conditions de référence" (VIM
+      4.9 et 4.11) qui font référence aux grandeurs d'influence.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.19
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conditions de base
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b2d38432-fe0f-590b-93b2-8f1d5432b805
+

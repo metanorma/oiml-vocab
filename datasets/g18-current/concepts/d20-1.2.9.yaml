@@ -1,0 +1,91 @@
+---
+data:
+  identifier: d20-1.2.9
+  localized_concepts:
+    eng: 0f0deec2-5f08-52e9-b0bd-1acc713a4a79
+    fra: dced3e7f-636d-5421-8c86-1db72de18090
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:20:1988
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 20:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.2.9
+    type: authoritative
+status: valid
+id: 855ec83b-5081-551e-ad31-59b48be502fe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A blind test object (or material sample) under the additional condition
+      that the personnel of the organization whose capabilities are being assessed
+      are kept unaware that the test object (or material sample) is, in fact, a blind
+      test object (or blind material sample).
+  examples: []
+  id: d20-1.2.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 20:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.2.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Double-blind test object (or double-blind material sample)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-20
+    source: OIML D 20:1988
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0f0deec2-5f08-52e9-b0bd-1acc713a4a79
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Objet d'essai (ou échantillon-type) aveugle qui de plus est soumis à
+      la condition que le personnel de l'organisme dont les capacités sont examinées
+      n'est pas informé du fait que l'objet d'essai (ou échantillon-type) est en fait
+      un objet d'essai aveugle (échantillon-type aveugle).
+  examples: []
+  id: d20-1.2.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 20:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.2.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Objet d'essai doublement aveugle (échantillon-type doublement aveugle)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-20
+    source: OIML D 20:1988
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dced3e7f-636d-5421-8c86-1db72de18090
+

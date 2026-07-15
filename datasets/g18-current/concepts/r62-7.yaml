@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r62-7
+  localized_concepts:
+    eng: c771cafc-e2e9-5011-9dd7-cd6ee30949ce
+    fra: 53d907c2-c8a3-5f9d-9faa-fac2b78e818a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '7'
+    type: authoritative
+status: valid
+id: 6085f10f-827a-5ded-b273-a20fab2d0299
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A group of strain gauges of the same type and lot, manufactured as a
+      set (made at the same time and under the same conditions).
+  examples: []
+  id: r62-7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: batch
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c771cafc-e2e9-5011-9dd7-cd6ee30949ce
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble d'extensomètres du même type et de la même famille, fabriqués
+      en série (c'est-à-dire faits au même moment et dans les mêmes conditions).
+  examples: []
+  id: r62-7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lot de fabrication
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 53d907c2-c8a3-5f9d-9faa-fac2b78e818a
+

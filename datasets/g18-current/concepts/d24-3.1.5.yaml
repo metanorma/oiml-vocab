@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d24-3.1.5
+  localized_concepts:
+    eng: b15aeda3-4956-5242-a813-ae0e288b81cd
+    fra: 7047dc1a-19f6-5835-a1bc-0b4d696939eb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+status: valid
+id: d0c63110-ebac-5bd1-8f6d-7df74d35c25d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The target aperture is the ratio of the diameter of the target area to
+      the target distance.
+  examples: []
+  id: d24-3.1.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: target aperture
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-24
+    source: OIML D 24:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b15aeda3-4956-5242-a813-ae0e288b81cd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'ouverture de visée est le quotient du diamètre de l'aire de visée par
+      la distance de visée.
+  examples: []
+  id: d24-3.1.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ouverture de visée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-24
+    source: OIML D 24:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7047dc1a-19f6-5835-a1bc-0b4d696939eb
+

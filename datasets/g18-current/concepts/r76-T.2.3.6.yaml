@@ -1,0 +1,106 @@
+---
+data:
+  identifier: r76-T.2.3.6
+  localized_concepts:
+    eng: b7884f04-52ce-544b-9e36-ad5a0e59670b
+    fra: f4cefb7c-0858-5af7-a503-c1b95ac2e574
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.6
+    type: authoritative
+status: valid
+id: c5535bd9-9cd9-543b-9ce7-f66580114aab
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Interface (hardware and/or software) which only allows the introduction
+      of such data into the data processing device of an instrument, module or electronic
+      component, which cannot display data which are not clearly defined and which
+      could be taken for a weighing result, falsify displayed, processed or stored
+      weighing results or primary indications, or adjust the instrument or change
+      any adjustment factor.
+  examples: []
+  id: r76-T.2.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protective interface
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b7884f04-52ce-544b-9e36-ad5a0e59670b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Interface (matériel et/ou logiciel) qui autorise seulement l'introduction
+      de données dans le dispositif de traitement de données d'un instrument, module
+      ou composant électronique, telles qu'il ne soit pas possible d'afficher des
+      données qui ne sont pas clairement définies et qui pourraient être prises pour
+      un résultat de pesage, de falsifier des résultats de pesage ou des indications
+      primaires affichées, traitées ou stockées, ou d'ajuster l'instrument ou changer
+      tout facteur d'ajustage, à l'exception du déclenchement d'une procédure d'ajustage
+      avec des dispositifs incorporés ou, dans le cas d'un instrument de classe I,
+      avec des poids d'ajustage externes.
+  examples: []
+  id: r76-T.2.3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interface de protection
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f4cefb7c-0858-5af7-a503-c1b95ac2e574
+

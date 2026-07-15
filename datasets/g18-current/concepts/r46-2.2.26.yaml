@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r46-2.2.26
+  localized_concepts:
+    eng: 113dfbaa-2f14-5372-b3c8-0ece956ec18b
+    fra: 6feb52e5-bdb5-53d2-922c-0d603e817209
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.26
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.26
+    type: authoritative
+status: valid
+id: 4d097d96-13c3-50a4-9541-fc5a4e44f1c8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition that must be fulfilled during measurement in order
+      that a measuring instrument or measuring system perform as designed
+  examples: []
+  id: r46-2.2.26-eng
+  notes:
+  - content: Rated operating conditions generally specify intervals of values for
+      a quantity being measured and for any influence quantity.
+  - content: For the application of this Recommendation, the terms "measuring instrument"
+      and "measuring system" mean electricity meter.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated operating condition
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 113dfbaa-2f14-5372-b3c8-0ece956ec18b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: condition de fonctionnement qui doit être satisfaite pendant un mesurage
+      pour qu'un instrument de mesure ou un système de mesure fonctionne conformément
+      à sa conception
+  examples: []
+  id: r46-2.2.26-fra
+  notes:
+  - content: Les conditions assignées de fonctionnement spécifient généralement des
+      intervalles de valeurs pour la grandeur mesurée et pour les grandeurs d'influence.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: condition assignée de fonctionnement
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6feb52e5-bdb5-53d2-922c-0d603e817209
+

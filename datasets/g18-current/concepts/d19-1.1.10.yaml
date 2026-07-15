@@ -1,0 +1,86 @@
+---
+data:
+  identifier: d19-1.1.10
+  localized_concepts:
+    eng: 90ebb447-34e1-5f38-a693-6349cf370180
+    fra: 0a793f4e-288c-5816-adf4-ae019b6d553a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:19:1988
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 19:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.1.10
+    type: authoritative
+status: valid
+id: 25d3b076-5c49-51f7-b38a-0bfa95dd5c79
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A testing laboratory to which accreditation has been granted.
+  examples: []
+  id: d19-1.1.10-eng
+  notes:
+  - content: 'Source citation: ISO Guide 2'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 19:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.1.10
+    sourced_from:
+    - ref:
+        source: ISO Guide
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Accredited laboratory
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 90ebb447-34e1-5f38-a693-6349cf370180
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Laboratoire d'essais auquel l'agrément a été délivré.
+  examples: []
+  id: d19-1.1.10-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML D 19:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.1.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Laboratoire agréé
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-19
+    source: OIML D 19:1988
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0a793f4e-288c-5816-adf4-ae019b6d553a
+

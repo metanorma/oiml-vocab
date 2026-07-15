@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.6.1
   localized_concepts:
+    eng: 03e5ec67-4f7e-50a5-9209-fc4fcef228be
     fra: c6d141e6-60b0-5ace-84d2-650a09d60f6b
   domains:
   - concept_id: section-terms
@@ -16,9 +17,49 @@ data:
       type: clause
       reference_from: T.6.1
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
 status: valid
 id: 7827c675-2658-5489-8751-5ff3187dcd08
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity that is not the subject of the measurement but which influences
+      the values of the measurand or the indication of the instrument.
+  examples: []
+  id: r76-T.6.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.6.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Influence quantity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 03e5ec67-4f7e-50a5-9209-fc4fcef228be
 ---
 data:
   dates:
@@ -33,7 +74,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -42,12 +83,12 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: grandeur d'influence
+    designation: Grandeur d'influence
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c6d141e6-60b0-5ace-84d2-650a09d60f6b

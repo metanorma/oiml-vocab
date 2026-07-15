@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r61-3.3.6.1
+  localized_concepts:
+    eng: 291aea06-5290-5de7-ac06-c4fd4f1dce73
+    deu: df9909f5-11e5-5e6b-9797-8a0df41af39f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.6.1
+    type: authoritative
+status: valid
+id: d39b1a71-b3c2-5bc1-9ebd-b0e37256ebd7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the applied software that is subject to legal control
+  examples: []
+  id: r61-3.3.6.1-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.6.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant software
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 291aea06-5290-5de7-ac06-c4fd4f1dce73
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Teil der angewendeten Software, der einer gesetzlichen Prüfung unterliegt
+  examples:
+  - content: 'Source citation: VIML 6.10'
+  id: r61-3.3.6.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.6.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rechtlich relevante Software
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: df9909f5-11e5-5e6b-9797-8a0df41af39f
+

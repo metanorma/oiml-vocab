@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r61-3.4.4
+  localized_concepts:
+    eng: a8cfcd30-0a22-517f-9f69-7b31988d5cfc
+    deu: 6f67eddb-8961-5fdd-8052-e9e734ffca0b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+status: valid
+id: 0faf9e97-93f7-5ca7-88fa-e54bf9a394a3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of the test weights which, in static tests, balance the value selected
+      on the indication of the fill setting device
+  examples: []
+  id: r61-3.4.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: static set point
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a8cfcd30-0a22-517f-9f69-7b31988d5cfc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: bei statischen Prüfungen der Wert der aufgelegten Gewichtstücke, die
+      den an der Einstelleinrichtung eingestellten Sollwerte ausgleichen
+  examples: []
+  id: r61-3.4.4-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: statischer Einstellpunkt
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6f67eddb-8961-5fdd-8052-e9e734ffca0b
+

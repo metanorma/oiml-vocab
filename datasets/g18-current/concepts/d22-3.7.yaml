@@ -1,0 +1,95 @@
+---
+data:
+  identifier: d22-3.7
+  localized_concepts:
+    eng: b341fb96-d0ba-5d92-a501-1ecf3141426a
+    fra: 3f6297bc-6968-5e56-b143-f19c49df9741
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:22:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: 045cbff4-5331-58eb-8064-abdcb0f8dbfa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The range of concentrations over which a detectable change in output
+      signal is produced by an incremental change in concentration of a substance.
+      The lower limit is given by the detection limit, and the upper limit occurs
+      at the point of detector saturation. The value of the dynamic range is expressed
+      by the ratio of the upper to the lower limit and is larger than or equal to
+      the linear range.
+  examples: []
+  id: d22-3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dynamic range of a detector
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-22
+    source: OIML D 22:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b341fb96-d0ba-5d92-a501-1ecf3141426a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etendue des concentrations dans laquelle un changement de la concentration
+      d'une substance produit une variation détectable du signal de sortie. La limite
+      inférieure est fixée par la limite de détction et la limite supérieure par le
+      point de saturation du détector. La valeur de l'étendue dynamique s'exprime
+      par le rapport de la limite supérieure à la limite inférieure; elle est supérieure
+      ou égale à l'étendue linéaire.
+  examples: []
+  id: d22-3.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue dynamique d'un détecteur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-22
+    source: OIML D 22:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3f6297bc-6968-5e56-b143-f19c49df9741
+

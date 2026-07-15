@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r129-2.4.3
+  localized_concepts:
+    eng: 8a77f0ca-1fd1-5217-b24a-db31ee63f404
+    deu: a5376b1d-26a2-5dd1-bda5-111ec7f4ba6f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.3
+    type: authoritative
+status: valid
+id: 6bd0de68-5f49-5199-95f4-4c9378ab9fe9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: description of a series of tests for a certain type of equipment
+  examples: []
+  id: r129-2.4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test program
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8a77f0ca-1fd1-5217-b24a-db31ee63f404
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Beschreibung einer Reihe von Prüfungen für einen bestimmten Gerätetyp
+  examples: []
+  id: r129-2.4.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Prüfprogramm
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a5376b1d-26a2-5dd1-bda5-111ec7f4ba6f
+

@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r75-3.2
+  localized_concepts:
+    eng: 3dad7826-144b-59af-a6a9-2c8f7dc90b5a
+    fra: e9dc35fa-f47a-5165-bba3-8c042274c366
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+status: valid
+id: 24713c59-7afb-5a6c-a021-379ecc269d4c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A heat meter which has separable sub-assemblies as defined in 3.4.
+  examples: []
+  id: r75-3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: combined instrument
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3dad7826-144b-59af-a6a9-2c8f7dc90b5a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Compteur d'énergie thermique comportant des sous-ensembles démontables
+      tels que définis en 3.4.
+  examples: []
+  id: r75-3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrument combiné
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e9dc35fa-f47a-5165-bba3-8c042274c366
+

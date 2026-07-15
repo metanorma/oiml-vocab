@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r144-2.22
+  localized_concepts:
+    eng: ebe58318-8c88-543b-b8ae-a595f24d1753
+    fra: 9476d616-6200-53a0-a8e2-ce74aff52e32
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.22'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.22'
+    type: authoritative
+status: valid
+id: 8696142c-262c-51e1-8577-48c563cf0ac5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: gas taken from the pipe or gas duct of the stationary source of emissions,
+      conveyed to the gas analyzer for analysis
+  examples: []
+  id: r144-2.22-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.22'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gas sample
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ebe58318-8c88-543b-b8ae-a595f24d1753
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: gaz prélevé du tuyau ou conduit de gaz de la soixe d'émissions, transmis
+      à l'analyseur de gaerpo analyse
+  examples: []
+  id: r144-2.22-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.22'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échantillon de gaz
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9476d616-6200-53a0-a8e2-ce74aff52e32
+

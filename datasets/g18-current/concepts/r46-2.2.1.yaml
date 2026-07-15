@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r46-2.2.1
+  localized_concepts:
+    eng: bb596d3d-1304-55ce-a482-9e61bc2c9930
+    fra: 3b0fc401-9f04-5251-977d-ffa08471fc7b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+status: valid
+id: 8e650d51-d382-517b-af0b-ed1778f01972
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of the electrical current flowing through the meter
+  examples: []
+  id: r46-2.2.1-eng
+  notes:
+  - content: The term "current" in this Recommendation indicates r.m.s. (root mean
+      square) values unless otherwise specified.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: current (I)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bb596d3d-1304-55ce-a482-9e61bc2c9930
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur du courant électrique circulant à travers le compteur
+  examples: []
+  id: r46-2.2.1-fra
+  notes:
+  - content: Le terme "courant" dans la présente Recommandation correspond aux valeurs
+      r.m.s. (racine carrée de la moyenne des carrés) sauf indication contraire.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant (I)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3b0fc401-9f04-5251-977d-ffa08471fc7b
+

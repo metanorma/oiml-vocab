@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r129-2.2.7
+  localized_concepts:
+    eng: 4bef1fca-86ba-5172-bb15-05b6a0c4d567
+    deu: df9bfd0d-0e2e-5225-94f1-dbb49a298a67
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+status: valid
+id: e24f2c09-8bbb-5482-8752-f4bf4710c486
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: calculated value obtained by applying a conversion factor to the object's
+      dimensional volume or measured dimensions
+  examples: []
+  id: r129-2.2.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dimensional weight
+  - type: abbreviation
+    normative_status: admitted
+    designation: Dim Wt
+  - type: abbreviation
+    normative_status: admitted
+    designation: DW
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4bef1fca-86ba-5172-bb15-05b6a0c4d567
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: berechneter Wert, der sich aus der Anwendung eines Umrechnungsfaktors
+      auf das Maßvolumen bzw. die gemessenen Abmessungen des Objekts ergibt
+  examples: []
+  id: r129-2.2.7-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Volumengewicht (Dim Wt oder DW)
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: df9bfd0d-0e2e-5225-94f1-dbb49a298a67
+

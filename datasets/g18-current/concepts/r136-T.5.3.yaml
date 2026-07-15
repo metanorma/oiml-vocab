@@ -3,11 +3,20 @@ data:
   identifier: r136-T.5.3
   localized_concepts:
     eng: b5322def-0efa-56e9-8bb8-1e84a366f92b
+    deu: 04ef2b29-96ec-574f-99cb-5997be20b930
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.5.3
+    type: authoritative
   - origin:
       ref:
         source: OIML V 2-200:2012
@@ -43,4 +52,28 @@ data:
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b5322def-0efa-56e9-8bb8-1e84a366f92b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Hierbei handelt es sich um einen Satz von festgelegten Werten von Einflussfaktoren,
+      die bestimmt wurden, um einen gültigen Vergleich der Messergebnisse zu gewährleisten.
+  examples: []
+  id: r136-T.5.3-deu
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Referenzbedingungen
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 04ef2b29-96ec-574f-99cb-5997be20b930
 

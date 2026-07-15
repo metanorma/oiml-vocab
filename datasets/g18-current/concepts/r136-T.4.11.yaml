@@ -3,11 +3,20 @@ data:
   identifier: r136-T.4.11
   localized_concepts:
     eng: c7ccfd05-8364-531e-85c9-cbcbd9123161
+    deu: afd51c6a-e5d8-5a53-9d3b-4210ceb1576a
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.11
+    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -34,7 +43,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136:2004
+        source: OIML R 136-1:2004
         version: '2004'
     locality:
       type: clause
@@ -47,9 +56,41 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136
-    source: OIML R 136:2004
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c7ccfd05-8364-531e-85c9-cbcbd9123161
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Prozentualer Wert der Gesamtfläche einer abgeteilten Ledermenge (A_total),
+      der die beste Schätzung des Wertes der Gesamtfläche der abgeteilten Menge kennzeichnet.
+  examples: []
+  id: r136-T.4.11-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.4.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Unsicherheit der Messungen
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: afd51c6a-e5d8-5a53-9d3b-4210ceb1576a
 

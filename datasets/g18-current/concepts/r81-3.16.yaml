@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r81-3.16
+  localized_concepts:
+    eng: 9547833c-f5c3-5e5c-a031-586a821f11d0
+    fra: c7d04f2e-f53f-5c54-bad2-9c252dcadbc7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+status: valid
+id: c5e4a174-db2c-53a4-a926-fc8576195d70
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The conditions of the volume of the liquid at the point of measurement.
+  examples: []
+  id: r81-3.16-eng
+  notes:
+  - content: 'For example: temperature and pressure.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Metering conditions
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9547833c-f5c3-5e5c-a031-586a821f11d0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions du volume de liquide au point de mesurage. Par exemple, la
+      temperature et la pression.
+  examples: []
+  id: r81-3.16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conditions de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c7d04f2e-f53f-5c54-bad2-9c252dcadbc7
+

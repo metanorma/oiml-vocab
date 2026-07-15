@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r61-3.1.1
+  localized_concepts:
+    eng: 8d19c1d2-6f1b-5e25-aab7-3f2310a64641
+    deu: 6ed9e2a4-a1a6-5f6a-88f0-dedf01d9f4cd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+status: valid
+id: 19e23e19-4d84-554e-a34d-d4815e1748e9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: amount of product that is currently introducing the force on the load
+      receptor
+  examples: []
+  id: r61-3.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load, L
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8d19c1d2-6f1b-5e25-aab7-3f2310a64641
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Menge an Produkt, die derzeit die Kraft auf den Lastträger ausübt
+  examples: []
+  id: r61-3.1.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Last
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6ed9e2a4-a1a6-5f6a-88f0-dedf01d9f4cd
+

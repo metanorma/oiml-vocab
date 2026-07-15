@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r93-3.5
+  localized_concepts:
+    eng: efa0ea0e-7604-551e-b02c-b928b5b33946
+    fra: 1ed7593c-d8ec-5bc0-847b-749b4552d7fd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:93:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: 6e209ee5-4396-56c9-a340-2a0c45a764fd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Movable rail or bar used as the reference axis for spectacles during
+      measurement, which is aligned perpendicularly to the optical axis of the focimeter
+      and parallel to the 0-180 degrees axis direction.
+  examples: []
+  id: r93-3.5-eng
+  notes:
+  - content: Also called the lens table or frame rest.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Adjusting rail
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-93
+    source: OIML R 93:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: efa0ea0e-7604-551e-b02c-b928b5b33946
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rail or barre mobile perpendiculaire à l'axe optique du frontofocomètre
+      et parallèle à l'axe 0-180 degrees, utilisé comme axe de référence pour les
+      lunettes pendant le mesurage.
+  examples: []
+  id: r93-3.5-fra
+  notes:
+  - content: Il est également appelé porte-verre ou support-cadre.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 93:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rail de réglage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-93
+    source: OIML R 93:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1ed7593c-d8ec-5bc0-847b-749b4552d7fd
+

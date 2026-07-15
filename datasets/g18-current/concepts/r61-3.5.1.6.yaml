@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r61-3.5.1.6
+  localized_concepts:
+    eng: d7c1aa06-6421-560a-92ac-3de47f3a1346
+    deu: e4f87457-1b99-598f-8db2-ec5fe33c8171
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.6
+    type: authoritative
+status: valid
+id: e8d43fdf-c369-5f61-88ac-7129566563f2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: additional (optional) digital peripheral device, which repeats the weighing
+      result and any other primary indication, or provides further, non-metrological
+      information
+  examples: []
+  id: r61-3.5.1.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: secondary display
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d7c1aa06-6421-560a-92ac-3de47f3a1346
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: weitere digitale Zusatzeinrichtung (wahlweise), die das Wägeergebnis
+      und alle anderen Hauptanzeigen wiederholt oder weitere nicht messtechnische
+      Angaben liefert
+  examples: []
+  id: r61-3.5.1.6-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nebenanzeigeeinrichtung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4f87457-1b99-598f-8db2-ec5fe33c8171
+

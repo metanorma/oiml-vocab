@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r125-T.29.1
+  localized_concepts:
+    eng: 2c420fa9-2707-5b9d-9369-1bc3f4fdb128
+    fra: fcf48518-a358-5f4c-8631-24ddb2e7ba8a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.29.1
+    type: authoritative
+status: valid
+id: a2591b8d-08c8-54bd-97ac-ee81a672930d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An influence quantity having a value within the rated operating conditions
+      of the measuring instrument specified in this Recommendation.
+  examples: []
+  id: r125-T.29.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.29.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2c420fa9-2707-5b9d-9369-1bc3f4fdb128
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence de valeur comprise dans les conditions assignees
+      de fonctionnement de l'instrument de mesure specifiees dans la presente Recommandation.
+  examples: []
+  id: r125-T.29.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.29.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Facteur d'influence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fcf48518-a358-5f4c-8631-24ddb2e7ba8a
+

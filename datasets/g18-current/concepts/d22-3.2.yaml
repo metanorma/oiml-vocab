@@ -1,0 +1,89 @@
+---
+data:
+  identifier: d22-3.2
+  localized_concepts:
+    eng: c87e7c95-9ff5-5611-90b1-da2b14b8ec4e
+    fra: c8d2c688-0156-53bc-b818-29cd5ab11d2f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:22:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+status: valid
+id: 9a1b5a3c-608d-5651-8f40-0edbb64a5f8d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The set of operations which establish, under specified conditions, the
+      relationship between values indicated by a measuring instrument or measuring
+      system and the corresponding known values of a measurand.
+  examples: []
+  id: d22-3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Calibration
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-22
+    source: OIML D 22:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c87e7c95-9ff5-5611-90b1-da2b14b8ec4e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble des opérations établissant, dans des conditions spécifiées,
+      la relation entre les valeurs indiquées par un instrument de mesure ou un système
+      de mesure et les valeurs connues correspondantes de la grandeur à mesurer.
+  examples: []
+  id: d22-3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etalonnage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-22
+    source: OIML D 22:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c8d2c688-0156-53bc-b818-29cd5ab11d2f
+

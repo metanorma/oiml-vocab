@@ -3,11 +3,28 @@ data:
   identifier: r16-2.13
   localized_concepts:
     eng: 755be889-542c-5163-a0d3-f7b6e9e67bfc
+    fra: ebfeafbd-1309-5de7-a274-50ed97986628
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:16:2002
     ref_type: section
   sources:
+  - origin:
+      ref:
+        source: OIML R 16-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
   - origin:
       ref:
         source: OIML R 16:2002
@@ -25,14 +42,23 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Valve for controlled exhaust of the pneumatic system during measurement.
+  - content: Method, wherein a cuff is placed on the limb and the pressure in the
+      cuff is increased until the blood flow in the artery is interrupted and then
+      the pressure in the cuff is slowly reduced.
   examples: []
   id: r16-2.13-eng
-  notes: []
+  notes:
+  - content: During the inflation and deflation of the cuff small pressure changes
+      (oscillations) occur in the cuff as a result of the arterial blood pressure
+      pulses. These oscillations, which first increase and then decrease, are detected
+      and stored together with the corresponding cuff pressure values in the measurement
+      system. With these stored values the systolic, diastolic and mean arterial blood
+      pressure values can be mathematically derived using an appropriate algorithm.
+      It is possible to carry out the measurement during the inflation phase.
   sources:
   - origin:
       ref:
-        source: OIML R 16:2002
+        source: OIML R 16-2:2002
         version: '2002'
     locality:
       type: clause
@@ -41,13 +67,54 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Deflation valve
+    designation: Oscillometric method
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-16
-    source: OIML R 16:2002
+  - concept_id: r-16-2
+    source: OIML R 16-2:2002
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 755be889-542c-5163-a0d3-f7b6e9e67bfc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Méthode dans laquelle un brassard étant placé sur le membre, la pression
+      dans le brassard est augmentée jusqu'à l'interruption de l'écoulement sanguin
+      dans l'artère puis lentement diminuée.
+  examples: []
+  id: r16-2.13-fra
+  notes:
+  - content: Lors du gonflage et du dégonflage du brassard de petites variations de
+      pression (oscillations) se produisent dans le brassard en raison des pulsations
+      de la pression artérielle. Ces oscillations, qui tout d'abord augmentent puis
+      diminuent, sont détectées et enregistrées par le système de mesure en même temps
+      que les pressions correspondantes du brassard. À partir de ces valeurs enregistrées,
+      les valeurs des pressions sanguines systolique, diastolique et artérielle moyenne
+      peuvent être mathématiquement calculées en utilisant un algorithme approprié.
+      Il est possible d'effectuer le mesurage pendant la phase de gonflage.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Méthode oscillométrique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-16-2
+    source: OIML R 16-2:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ebfeafbd-1309-5de7-a274-50ed97986628
 

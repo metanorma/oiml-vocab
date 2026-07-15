@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r131-3.5
+  localized_concepts:
+    eng: 9c1c24e1-87be-5636-b8a6-1b45ed8b7658
+    fra: 1a622462-6f2b-5508-a752-a1659dd2c0ab
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:131:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: aa67bdea-3e9e-5c20-bdf1-04d8fe674356
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Optical absorbance at the analysis wavelength divided by the dosimeter
+      thickness.
+  examples: []
+  id: r131-3.5-eng
+  notes:
+  - content: The thickness is a measure of optical path length.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: specific absorbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-131
+    source: OIML R 131:2001
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9c1c24e1-87be-5636-b8a6-1b45ed8b7658
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Absorbance optique, A_lambda, à la longueur d''onde, lambda, divisée
+      par l''épaisseur du dosimètre, t : k_lambda = A_lambda / t'
+  examples: []
+  id: r131-3.5-fra
+  notes:
+  - content: L'épaisseur, t, est une mesure de la longueur du chemin optique.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 131:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: absorbance spécifique
+  - type: symbol
+    normative_status: preferred
+    designation: k_lambda
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-131
+    source: OIML R 131:2001
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1a622462-6f2b-5508-a752-a1659dd2c0ab
+

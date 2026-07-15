@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.2.5.3
   localized_concepts:
+    eng: 6901220d-2238-5f2e-ac75-9d08ba609cef
     fra: 2937c173-bcd1-5d10-b07b-73054662054b
   domains:
   - concept_id: section-terms
@@ -16,6 +17,14 @@ data:
       type: clause
       reference_from: T.2.5.3
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.3
+    type: authoritative
 status: valid
 id: ed10b94b-313f-5d7a-a3a7-f2ee2b6afcbc
 schema_version: '3'
@@ -25,15 +34,16 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Dispositif réglable permettant d'évaluer la valeur, en unités de masse,
-      correspondant à la distance entre un repère et l'organe indicateur.
+  - content: Adjustable device by means of which it is possible to estimate, in units
+      of mass, the value corresponding to the distance between a scale mark and the
+      displaying component.
   examples: []
-  id: r76-T.2.5.3-fra
+  id: r76-T.2.5.3-eng
   notes: []
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -42,12 +52,44 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: dispositif indicateur complémentaire
+    designation: Complementary displaying device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6901220d-2238-5f2e-ac75-9d08ba609cef
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif reglable permettant d'evaluer la valeur, en unites de masse,
+      correspondant a la distance entre un repere et l'organe indicateur.
+  examples: []
+  id: r76-T.2.5.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif indicateur complementaire
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 2937c173-bcd1-5d10-b07b-73054662054b

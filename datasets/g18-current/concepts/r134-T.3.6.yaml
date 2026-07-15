@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r134-T.3.6
+  localized_concepts:
+    eng: '083a9a84-c5fb-5a2c-b034-8472a2c107cc'
+    fra: 9caacc9b-c843-5d99-a078-b2f3aae4c3fc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.6
+    type: authoritative
+status: valid
+id: 538ab023-b18a-5152-8b88-dc4ff3a96816
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ability of an instrument to maintain its performance characteristics
+      over a period of use.
+  examples: []
+  id: r134-T.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durability
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '083a9a84-c5fb-5a2c-b034-8472a2c107cc'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aptitude d'un instrument à maintenir ses caractéristiques de performance
+      sur une période d'utilisation.
+  examples: []
+  id: r134-T.3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durabilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9caacc9b-c843-5d99-a078-b2f3aae4c3fc
+

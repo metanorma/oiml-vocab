@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r147-2.2.7
+  localized_concepts:
+    eng: d5cacc95-e310-516f-8050-ec2fdbc3b2f4
+    fra: 8b757442-8c18-5aea-a605-dbf932e7b65b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:147:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+status: valid
+id: 5a822c54-a0f2-5cbc-b0c2-ecd371404899
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: contact sensor of an internal or external thermometer that cannot be
+      removed from the BBR without dismantling the latter
+  examples: []
+  id: r147-2.2.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: permanent jointed contact sensor
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d5cacc95-e310-516f-8050-ec2fdbc3b2f4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: capteur de contact d'un thermomètre intérieur ou extérieur ne pouvant
+      pas être retiré du corps noir sans démonter ce dernier
+  examples: []
+  id: r147-2.2.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: capteur de contact \xE0 assemblage permanent
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8b757442-8c18-5aea-a605-dbf932e7b65b
+

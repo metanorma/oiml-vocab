@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-2.2.27
+  localized_concepts:
+    eng: 515331f0-a3a8-5d5f-9fa9-35880879548d
+    fra: 043eb0ff-5475-5de0-b984-48025e604c95
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.27
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.27
+    type: authoritative
+status: valid
+id: fc43e12b-6575-5c53-aa40-73adc114cf0e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition prescribed for evaluating the performance of a measuring
+      instrument or measuring system or for comparison of measurement results
+  examples: []
+  id: r46-2.2.27-eng
+  notes:
+  - content: Reference operating conditions specify intervals of values of the measurand
+      and of the influence quantities.
+  - content: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
+      to an operating condition under which the specified instrumental measurement
+      uncertainty is the smallest possible.
+  - content: For the application of this Recommendation, the terms "measuring instrument"
+      and "measuring system" mean electricity meter.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference condition
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 515331f0-a3a8-5d5f-9fa9-35880879548d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: condition de fonctionnement prescribe pour évaluer les performances d'un
+      instrument de mesure ou d'un système de mesure ou pour comparer des résultats
+      de mesure
+  examples: []
+  id: r46-2.2.27-fra
+  notes:
+  - content: Les conditions de fonctionnement de référence spécifient des intervalles
+      de valeurs du mesurande et des grandeurs d'influence.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: condition de référence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 043eb0ff-5475-5de0-b984-48025e604c95
+

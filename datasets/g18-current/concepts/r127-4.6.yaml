@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r127-4.6
+  localized_concepts:
+    eng: bb285d72-c945-557c-ae0b-24872ffdb1a8
+    fra: 7b0bd857-bfc7-5b59-a1e9-a5cba6e18080
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.6'
+    type: authoritative
+status: valid
+id: 2f6f3748-9b5c-5ad0-b789-5b23bc62ec2d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Net absorbance at the analysis wavelength divided by the thickness of
+      the radiation sensitive layer of the dosimeter.
+  examples: []
+  id: r127-4.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: specific net absorbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bb285d72-c945-557c-ae0b-24872ffdb1a8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Absorbance nette, dA, pour la longueur d''onde d''analyse, divisée par
+      l''épaisseur, t, de la couche sensitive de rayonnement du dosimètre comme suit:'
+  examples:
+  - content: dk = dA / t
+  id: r127-4.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Absorbance nette spécifique, dk
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7b0bd857-bfc7-5b59-a1e9-a5cba6e18080
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r125-T.9.1
+  localized_concepts:
+    eng: 7c3807fc-dbda-5780-8cf0-24927b846d98
+    fra: 442a694d-7f13-5f0c-8db8-3ee7f86ccccd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.9.1
+    type: authoritative
+status: valid
+id: 03a0ee3c-ab58-57af-92d8-475874a56eed
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A device associated with the instrument which is intended to perform
+      a specific function, e.g. a repeat indication device, ticket printer, card reader,
+      data input terminal, etc.
+  examples: []
+  id: r125-T.9.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.9.1
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7c3807fc-dbda-5780-8cf0-24927b846d98
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif associe a l'instrument, destine a accomplir une fonction specifique,
+      tel que les dispositifs a indication continue, les imprimeurs d'etiquettes,
+      les lecteurs de carte, les terminaux de saisie des donnees, etc.
+  examples: []
+  id: r125-T.9.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.9.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif auxiliaire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 442a694d-7f13-5f0c-8db8-3ee7f86ccccd
+

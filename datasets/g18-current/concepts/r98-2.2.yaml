@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r98-2.2
+  localized_concepts:
+    eng: 77de3da2-b065-562d-831b-6d79410bc265
+    fra: a9a0c2e9-d970-54f7-93f7-990fc9ff2a56
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:98:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+status: valid
+id: b731f597-314b-5a81-91c1-da5791832d16
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The length the measure is expected to represent in the absence of any
+      manufacturing error.
+  examples: []
+  id: r98-2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nominal length of a line measure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77de3da2-b065-562d-831b-6d79410bc265
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Longueur que la règle devrait matérialiser en l'absence de toute erreur
+      de fabrication.
+  examples: []
+  id: r98-2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Longueur nominale d'une règle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a9a0c2e9-d970-54f7-93f7-990fc9ff2a56
+

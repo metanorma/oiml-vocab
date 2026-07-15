@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.2.5.1
   localized_concepts:
+    eng: 834a285b-cf40-5b0c-9835-16e05767e7b3
     fra: a038bdd8-0beb-5045-823d-693ff153d620
   domains:
   - concept_id: section-terms
@@ -16,9 +17,49 @@ data:
       type: clause
       reference_from: T.2.5.1
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.1
+    type: authoritative
 status: valid
 id: 65c73c65-cabe-5d6a-8abd-0af0166e8d25
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Detachable poise of small mass that may be placed and moved either on
+      a graduated bar integral with the beam or on the beam itself.
+  examples: []
+  id: r76-T.2.5.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rider
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 834a285b-cf40-5b0c-9835-16e05767e7b3
 ---
 data:
   dates:
@@ -33,7 +74,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -46,8 +87,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: a038bdd8-0beb-5045-823d-693ff153d620

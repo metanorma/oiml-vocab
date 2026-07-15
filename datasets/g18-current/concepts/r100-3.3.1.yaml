@@ -11,6 +11,14 @@ data:
   sources:
   - origin:
       ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  - origin:
+      ref:
         source: OIML R 100:2013
         version: '2013'
     locality:
@@ -34,7 +42,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 100:2013
+        source: OIML R 100-1:2013
         version: '2013'
     type: authoritative
     locality:
@@ -47,8 +55,8 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-100
-    source: OIML R 100:2013
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 769cea82-235f-564c-a94b-ac053d435778
@@ -58,15 +66,15 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: solution employée pour la mise au zéro d'absorbance du spectromètre et
-      qui consiste normalement en un milieu de dilution pur, tel que de l'eau dé-minéralisée
+  - content: solution employee pour la mise au zero d'absorbance du spectrometre et
+      qui consiste normalement en un milieu de dilution pur, tel que de l'eau de-mineralisee
   examples: []
   id: r100-3.3.1-fra
   notes: []
   sources:
   - origin:
       ref:
-        source: OIML R 100:2013
+        source: OIML R 100-1:2013
         version: '2013'
     type: authoritative
     locality:
@@ -75,12 +83,12 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: solution de référence à blanc
+    designation: solution de reference a blanc
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-100
-    source: OIML R 100:2013
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 33596bc6-59bf-5f46-8287-ecb27e181245

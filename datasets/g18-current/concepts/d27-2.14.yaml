@@ -1,0 +1,93 @@
+---
+data:
+  identifier: d27-2.14
+  localized_concepts:
+    eng: 938abc1b-9ae1-5e8f-9532-9c0e7608e27c
+    fra: 701de2d6-4f7a-5bcf-9d81-9a6c0a307346
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:27:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+status: valid
+id: 5714e50c-2d49-5bd2-9646-fa7bf4794bd3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Confirmation, through the provision of objective evidence, that the requirements
+      for a specific intended use or application have been fulfilled.
+  examples: []
+  id: d27-2.14-eng
+  notes:
+  - content: The term "validated" is used to designate the corresponding status.
+  - content: The use conditions for validation can be real or simulated.
+  - content: 'Source citation: ISO 900 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    sourced_from:
+    - ref:
+        source: ISO 900
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Validation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 938abc1b-9ae1-5e8f-9532-9c0e7608e27c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Confirmation par des preuves tangibles que les exigences pour une utilisation
+      spécifique ou une application prévues ont été satisfaites.
+  examples: []
+  id: d27-2.14-fra
+  notes:
+  - content: Le terme "validé" désigne l'état correspondant.
+  - content: Les conditions d'utilisation peuvent être réelles ou simulées.
+  - content: 'Source citation: ISO 900 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    sourced_from:
+    - ref:
+        source: ISO 900
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Validation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 701de2d6-4f7a-5bcf-9d81-9a6c0a307346
+

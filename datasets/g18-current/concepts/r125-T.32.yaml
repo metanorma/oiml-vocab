@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r125-T.32
+  localized_concepts:
+    eng: 4d28d5a5-2fa8-53a7-9d18-0696d45da711
+    fra: 51b1c50f-feb4-5a1a-8b01-62e07daf2530
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.32
+    type: authoritative
+status: valid
+id: eabc7d86-e2d5-50d9-8d04-baf89b89fb56
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The specified conditions to which a measured quantity is converted, e.g.
+      base temperature and base pressure.
+  examples: []
+  id: r125-T.32-eng
+  notes:
+  - content: The values chosen as base conditions should preferably be 15 degC or
+      20 degC and 101 325 Pa.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.32
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: base conditions
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4d28d5a5-2fa8-53a7-9d18-0696d45da711
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions specifiees dans lesquelles une quantite mesuree est convertie,
+      par exemple, temperature de reference et pression de reference.
+  examples: []
+  id: r125-T.32-fra
+  notes:
+  - content: Il convient que les valeurs choisies pour conditions de base soient 15
+      C ou 20 C et 101 325 Pa.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.32
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conditions de base
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 51b1c50f-feb4-5a1a-8b01-62e07daf2530
+

@@ -1,0 +1,76 @@
+---
+data:
+  identifier: r129-2.3.4
+  localized_concepts:
+    eng: 60d8d511-f7b7-5e21-8566-d33b2fcfa196
+    deu: 4383575f-2734-59e7-8123-29f16268b2eb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+status: valid
+id: acb81a24-b81c-5366-907c-ad3794377623
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value (positive and negative) of the error of indication permitted
+      by specifications, Recommendations, regulations, etc.
+  examples: []
+  id: r129-2.3.4-eng
+  notes:
+  - content: The absolute value of the mpe is the same value without sign.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error
+  - type: abbreviation
+    normative_status: admitted
+    designation: mpe
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 60d8d511-f7b7-5e21-8566-d33b2fcfa196
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: der in Spezifikationen, Empfehlungen, Vorschriften usw. zugelassene Extremwert
+      (positiv und negativ) der Abweichung der Anzeige
+  examples: []
+  id: r129-2.3.4-deu
+  notes:
+  - content: Der Absolutwert der Fehlergrenze ist der gleiche Wert ohne Vorzeichen.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehlergrenze
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4383575f-2734-59e7-8123-29f16268b2eb
+

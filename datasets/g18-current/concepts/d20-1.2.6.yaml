@@ -1,0 +1,76 @@
+---
+data:
+  identifier: d20-1.2.6
+  localized_concepts:
+    eng: c6529561-9267-56a9-9b97-b05f954908b5
+    fra: e7f5df35-da7e-57bd-8dc2-84a9f5804394
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:20:1988
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.2.6
+    type: authoritative
+status: valid
+id: 687b3cc5-ddfc-5f4a-8f28-4c9121db5345
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: All the information, equipment and operations relevant to a given measurement.
+  examples: []
+  id: d20-1.2.6-eng
+  notes:
+  - content: This concept embraces all aspects relating to the performance and quality
+      of the measurement; it includes, for example, the principle, method, procedure,
+      values of the influence quantities and the measurement standards.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Measurement process
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c6529561-9267-56a9-9b97-b05f954908b5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Totalité des informations, équipement et opérations relatifs à un mesurage
+      donné.
+  examples: []
+  id: d20-1.2.6-fra
+  notes:
+  - content: Ce concept recouvre tous les aspects relatifs à l'exécution et à la qualité
+      du mesurage; il comprend par exemple le principe, la méthode et le mode opératoire,
+      les valeurs des grandeurs d'influence et les étalons.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Processus de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e7f5df35-da7e-57bd-8dc2-84a9f5804394
+

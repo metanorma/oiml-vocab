@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r100-3.10
+  localized_concepts:
+    eng: c9e38dbf-2e1f-5a35-9781-568b61b58ced
+    fra: 0552d566-89b5-56fa-878a-faec20f42424
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.10'
+    type: authoritative
+status: valid
+id: dd937e0c-d5db-5c72-b5fa-f6fefc4ca66d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: means of automatically controlling the rate and duration of the temperature
+      rise of a furnace-type AAS system
+  examples: []
+  id: r100-3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temperature programming
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c9e38dbf-2e1f-5a35-9781-568b61b58ced
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: moyen de controle automatique du taux et de la duree de montee de la
+      temperature d'un systeme SAA a four
+  examples: []
+  id: r100-3.10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: programmation de la temperature
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0552d566-89b5-56fa-878a-faec20f42424
+

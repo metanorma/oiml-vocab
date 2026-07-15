@@ -1,0 +1,101 @@
+---
+data:
+  identifier: r16-2.12
+  localized_concepts:
+    eng: ec1554c1-3adf-5289-9d44-487c4ac39f09
+    fra: e88abd6e-72d5-5a41-87e9-14b24517f684
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:16:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 16:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+status: valid
+id: 8eecc5ea-db98-5a0b-a22f-fa212968b448
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Component that transforms pressure signals into electrical signals.
+  examples: []
+  id: r16-2.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Electro-mechanical pressure transducer
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-16-2
+    source: OIML R 16-2:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec1554c1-3adf-5289-9d44-487c4ac39f09
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Composant qui transforme les signaux de pression en signaux électriques.
+  examples: []
+  id: r16-2.12-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 16-2:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transducteur de pression électromécanique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-16-2
+    source: OIML R 16-2:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e88abd6e-72d5-5a41-87e9-14b24517f684
+

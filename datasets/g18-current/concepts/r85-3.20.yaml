@@ -3,6 +3,7 @@ data:
   identifier: r85-3.20
   localized_concepts:
     eng: b9011ab4-ee5c-535f-9f6a-6592e1ba0310
+    fra: d42c7430-08b2-5ce6-ae88-481170d33e49
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -11,6 +12,14 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -34,22 +43,55 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85-1-2:2008
+        source: OIML R 85:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.20'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: ullage
+    designation: Ullage
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85-1-2
-    source: OIML R 85-1-2:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b9011ab4-ee5c-535f-9f6a-6592e1ba0310
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Distance entre le niveau du liquide et le point de référence supérieur,
+      mesurée le long de l'axe de la verticale de mesurage.
+  examples: []
+  id: r85-3.20-fra
+  notes:
+  - content: Le terme "creux" est un synonyme.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hauteur de creux
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d42c7430-08b2-5ce6-ae88-481170d33e49
 

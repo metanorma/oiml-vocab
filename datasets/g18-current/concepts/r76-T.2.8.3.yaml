@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.2.8.3
   localized_concepts:
+    eng: d3b07f9f-9649-59d4-b3d5-bdbb5452bba6
     fra: b6f84407-7d41-522b-8023-6307978e4813
   domains:
   - concept_id: section-terms
@@ -16,9 +17,52 @@ data:
       type: clause
       reference_from: T.2.8.3
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.3
+    type: authoritative
 status: valid
 id: 2bbef875-48c8-553a-a45b-8b980420746e
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the type of instrument
+      only. Type-specific parameters are part of the legally relevant software. They
+      are fixed at type approval of the instrument.
+  examples:
+  - content: Parameters used for mass calculation, stability analysis or price calculation
+      and rounding, software identification.
+  id: r76-T.2.8.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: type-specific parameter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d3b07f9f-9649-59d4-b3d5-bdbb5452bba6
 ---
 data:
   dates:
@@ -37,7 +81,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -50,8 +94,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b6f84407-7d41-522b-8023-6307978e4813

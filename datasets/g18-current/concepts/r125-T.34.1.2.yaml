@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r125-T.34.1.2
+  localized_concepts:
+    eng: ea166b35-ba98-5a34-82f4-3ff3bb50357f
+    fra: 82a97a51-8c04-5565-b192-f463567c0399
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.34.1.2
+    type: authoritative
+status: valid
+id: 64ae6821-94d9-590b-8fd7-6a74b2745b5a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An automatic checking facility operating at certain time intervals or
+      over a fixed number of measurement cycles.
+  examples: []
+  id: r125-T.34.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.34.1.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intermittent automatic checking facility (Type I)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ea166b35-ba98-5a34-82f4-3ff3bb50357f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Systeme de controle automatique fonctionnant a certains intervalles de
+      temps ou pendant un nombre donne de cycles de mesurage.
+  examples: []
+  id: r125-T.34.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.34.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Systeme de controle automatique intermittent (Type I)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 82a97a51-8c04-5565-b192-f463567c0399
+

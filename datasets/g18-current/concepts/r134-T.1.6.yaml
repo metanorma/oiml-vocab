@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r134-T.1.6
+  localized_concepts:
+    eng: 22af5a36-1eb7-5466-9745-29b4e1ea841d
+    fra: e96475cc-b0c8-5693-aece-4bd408c2ab38
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.6
+    type: authoritative
+status: valid
+id: b363fb42-6af9-5aaf-82a2-d37dad8db1d5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Legal entity (i.e. the verification, and/or issuing authority) designated
+      or formally accepted by the government to be responsible for ascertaining that
+      the automatic weighing instrument satisfies all or some specific requirements
+      of this Recommendation.
+  examples: []
+  id: r134-T.1.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metrological authority
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 22af5a36-1eb7-5466-9745-29b4e1ea841d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Entité légale (c'est-à-dire l'autorité de vérification et/ou l'autorité
+      de délivrance) désignée ou acceptée formellement par le gouvernement comme étant
+      responsable d'assurer que l'instrument de pesage à fonctionnement automatique
+      satisfait toutes les exigences ou certaines exigences spécifiques de cette Recommandation.
+  examples: []
+  id: r134-T.1.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: autorité métrologique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e96475cc-b0c8-5693-aece-4bd408c2ab38
+

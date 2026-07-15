@@ -1,0 +1,96 @@
+---
+data:
+  identifier: r61-3.5.2.4
+  localized_concepts:
+    eng: 94c4a10a-f394-5db5-9cc6-403ad992d7d0
+    deu: 9dd54816-fe9e-52a8-af98-67143ec74784
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+status: valid
+id: 2768146d-2e0a-5830-adcb-6d56b3a938e1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r61-3.5.2.4-eng
+  notes:
+  - content: Usually, the term "maximum permissible errors" or "limits of error" is
+      used where there are two extreme values.
+  - content: The term "tolerance" should not be used to designate 'maximum permissible
+      error'.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error, mpe
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 94c4a10a-f394-5db5-9cc6-403ad992d7d0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Größter Wert einer Messabweichung in Bezug auf einen bekannten Referenzwert
+      der durch Spezifikationen oder Vorschriften für eine Messung, ein Messgerät
+      oder ein Messsystem zugelassen ist
+  examples: []
+  id: r61-3.5.2.4-deu
+  notes:
+  - content: 'Gewöhnlich werden die Benennungen '
+  - content: 'Grenzwerte der Messabweichung“ oder '
+  - content: Fehlergrenzen“ verwendet, wenn es zwei Extremwerte gibt.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Größter zulässiger Fehler (mpe)
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9dd54816-fe9e-52a8-af98-67143ec74784
+

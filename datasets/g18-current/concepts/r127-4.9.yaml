@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r127-4.9
+  localized_concepts:
+    eng: 768408a7-67e0-5d66-89eb-c5ae6800fc2c
+    fra: b7568db0-ad6d-5c79-9c65-07218b2ac21c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.9'
+    type: authoritative
+status: valid
+id: 0a04ec41-0716-5f2b-8d6d-2d57186e7c1f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Combination of an ionizing radiation source and associated instrumentation
+      that provide uniform and reproducible absorbed dose, or absorbed dose rates,
+      at specified locations within a specific material. The absorbed dose shall be
+      traceable to national or international standards.
+  examples: []
+  id: r127-4.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration facility
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 768408a7-67e0-5d66-89eb-c5ae6800fc2c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Combinaison d'une source de rayonnements ionisants et de l'instrumentation
+      associée, produisant une dose absorbée ou des taux de dose absorbée, uniformes
+      et reproductibles, en des points spécifiés d'un matériau spécifique. La dose
+      absorbée doit être raccordable aux étalons nationaux ou internationaux.
+  examples: []
+  id: r127-4.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.9'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif d'etalonnage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b7568db0-ad6d-5c79-9c65-07218b2ac21c
+

@@ -1,0 +1,131 @@
+---
+data:
+  identifier: r106-0.1.2
+  localized_concepts:
+    eng: c82d56cc-aebb-51e9-b9a8-2a9f68679b3c
+    deu: 4c774a5d-58f9-5aa6-93c4-8cfd253f69a3
+    fra: 356048fb-fd61-5870-a165-03de9584f635
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.2
+    type: authoritative
+status: valid
+id: aa728b39-e977-50b5-8ab3-340bc91563f7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument that weighs without the intervention of an operator and that
+      follows a predetermined program of automatic processes characteristic of the
+      instrument
+  examples: []
+  id: r106-0.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: automatic weighing instrument
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c82d56cc-aebb-51e9-b9a8-2a9f68679b3c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Waage, die ohne das Eingreifen eines Bedieners wagt und bei der der Wagevorgang
+      automatisch nach einem festgelegten Programm ablauft, das fur die Waage charakteristisch
+      ist.
+  examples: []
+  id: r106-0.1.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: selbsttatige Waage
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4c774a5d-58f9-5aa6-93c4-8cfd253f69a3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument qui realise des pesees sans l intervention d un operateur
+      et selon un programme predetermine de processus automatiques caracteristiques
+      de l instrument
+  examples: []
+  id: r106-0.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrument de pesage a fonctionnement automatique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 356048fb-fd61-5870-a165-03de9584f635
+

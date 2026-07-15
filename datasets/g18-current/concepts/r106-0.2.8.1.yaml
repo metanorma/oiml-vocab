@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r106-0.2.8.1
+  localized_concepts:
+    eng: e2025acd-327e-599c-bd2f-a3a4982daced
+    fra: 4fffe623-000f-5bac-9d0d-42da21e8e02c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.2.8.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.2.8.1
+    type: authoritative
+status: valid
+id: b8ea879d-376e-5cdf-8679-5887f36ebeb9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: program, data, type-specific and device-specific parameters that belong
+      to the measuring instrument or device, and define or fulfill functions that
+      are subject to legal control
+  examples: []
+  id: r106-0.2.8.1-eng
+  notes:
+  - content: 'Examples of legally relevant software are: final results of the measurement
+      including the decimal sign and the unit, identification of the weighing range
+      and the load receptor(s).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.2.8.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: legally relevant software
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e2025acd-327e-599c-bd2f-a3a4982daced
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: programmes, donnees, parametres specifiques au type et parametres specifiques
+      au dispositif qui font partie de l instrument ou du dispositif de mesure et
+      qui definissent ou realisent des fonctions soumises au controle legal
+  examples: []
+  id: r106-0.2.8.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.2.8.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: logiciel a caractere legal
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4fffe623-000f-5bac-9d0d-42da21e8e02c
+

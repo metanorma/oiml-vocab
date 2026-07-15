@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r98-2.5
+  localized_concepts:
+    eng: c3eb56d2-86b5-53eb-9d6e-173647a9f636
+    fra: a4a346cb-e760-5ce0-831c-42500af8e651
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:98:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '2.5'
+    type: authoritative
+status: valid
+id: 3c6b3a12-e7b6-5ef3-97fe-59adde0082b4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A line measure with two scale marks representing one value of length
+      only.
+  examples: []
+  id: r98-2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Single-valued line measure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c3eb56d2-86b5-53eb-9d6e-173647a9f636
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Règle à deux traits ne matérielisant qu'une seule longueur.
+  examples: []
+  id: r98-2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Règle à valeur unique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a4a346cb-e760-5ce0-831c-42500af8e651
+

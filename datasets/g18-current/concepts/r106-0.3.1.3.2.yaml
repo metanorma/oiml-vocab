@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r106-0.3.1.3.2
+  localized_concepts:
+    eng: 29989230-5828-5753-8f67-5a2749b35ad4
+    fra: 7a875a55-8830-5a88-96cc-d719d536322d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.3.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.3.2
+    type: authoritative
+status: valid
+id: 8840b032-b39a-5335-8503-1b38221ee570
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: determining the individual wagon mass of a train of coupled wagons
+  examples: []
+  id: r106-0.3.1.3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coupled wagon weighing
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 29989230-5828-5753-8f67-5a2749b35ad4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: determination de la masse individuelle des wagons d un train de wagons
+      couples
+  examples: []
+  id: r106-0.3.1.3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pesage de wagons couples
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a875a55-8830-5a88-96cc-d719d536322d
+

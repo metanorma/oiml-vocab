@@ -1,0 +1,91 @@
+---
+data:
+  identifier: d20-1.2.5
+  localized_concepts:
+    eng: 49905e76-8777-5099-a3bc-98ebc1caed01
+    fra: b82ae73c-12ec-5b2a-ad73-25308b3a61a5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:20:1988
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 20:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.2.5
+    type: authoritative
+status: valid
+id: b31ecb15-4dc4-5a78-a471-b24b7e41e3cb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: For a particular copy of a pattern, the identification, by reference
+      to all possible variables and constraints, of all measurements for which it
+      may hypothetically be used and of all the sets of conditions under which these
+      measurements can legally be made.
+  examples: []
+  id: d20-1.2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 20:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Application of a measuring instrument
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-20
+    source: OIML D 20:1988
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 49905e76-8777-5099-a3bc-98ebc1caed01
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pour une copie donnée d'un modèle, identification, par référence à toutes
+      les variables et contraintes possibles, de tous les mesurages pour lesquels
+      il peut théoriquement être utilisé et de tous les ensembles de conditions dans
+      lesquelles ces mesurages peuvent être légalement effectués.
+  examples: []
+  id: d20-1.2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 20:1988
+        version: '1988'
+    locality:
+      type: clause
+      reference_from: 1.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Application d'un instrument de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-20
+    source: OIML D 20:1988
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b82ae73c-12ec-5b2a-ad73-25308b3a61a5
+

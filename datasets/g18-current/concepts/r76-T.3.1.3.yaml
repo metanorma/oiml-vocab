@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.3.1.3
   localized_concepts:
+    eng: 40a33d0d-8c25-5ac5-ac01-2a18edf6af07
     fra: 13383111-9bae-5aff-848c-f6208483068d
   domains:
   - concept_id: section-terms
@@ -16,6 +17,14 @@ data:
       type: clause
       reference_from: T.3.1.3
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.3
+    type: authoritative
 status: valid
 id: a38b936e-a668-5f0f-a495-ff3fec0c4a35
 schema_version: '3'
@@ -25,15 +34,15 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Capacité de pesage dans laquelle l'équilibre est obtenu sans intervention
-      d'un opérateur.
+  - content: Weighing capacity within which equilibrium is obtained without the intervention
+      of an operator.
   examples: []
-  id: r76-T.3.1.3-fra
+  id: r76-T.3.1.3-eng
   notes: []
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -42,12 +51,44 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: portée d'indication automatique
+    designation: Self-indication capacity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 40a33d0d-8c25-5ac5-ac01-2a18edf6af07
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Capacite de pesage dans laquelle l'equilibre est obtenu sans intervention
+      d'un operateur.
+  examples: []
+  id: r76-T.3.1.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Portee d'indication automatique
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 13383111-9bae-5aff-848c-f6208483068d

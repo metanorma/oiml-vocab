@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r72-5
+  localized_concepts:
+    eng: 03a24e57-210d-57f0-9f28-1a8a8fd899cd
+    fra: f15b9264-dfa5-5c79-9969-6cb75a30537a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:72:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '5'
+    type: authoritative
+status: valid
+id: 0324e2fd-17af-53ce-8119-20b3584c4d03
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The flowrate value which is defined as half the value of the maximum
+      flowrate.
+  - content: At the nominal flowrate the hot water meter should be able to function
+      in normal use, that is under continuous and intermittent conditions, without
+      exceeding the maximum permissible errors.
+  examples: []
+  id: r72-5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal flowrate (Q_n)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 03a24e57-210d-57f0-9f28-1a8a8fd899cd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur du débit définie comme la moitié du débit maximal.
+  - content: Au débit nominal, le compteur d'eau chaude doit pouvoir fonctionner en
+      usage normal, c'est-à-dire de manière continue et intermittente, sans que les
+      erreurs maximales tolérées soient dépassées.
+  examples: []
+  id: r72-5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit nominal (Q_n)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f15b9264-dfa5-5c79-9969-6cb75a30537a
+

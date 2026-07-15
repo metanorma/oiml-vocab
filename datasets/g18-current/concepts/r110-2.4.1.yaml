@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r110-2.4.1
+  localized_concepts:
+    eng: b8b03bf5-93a3-5cd2-8c90-7267b14829fc
+    fra: 0e74518f-1e77-53fc-9695-9341f7576ce0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.1
+    type: authoritative
+status: valid
+id: ef32dc2c-b419-56f0-bf6a-4c2eb38e95ed
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A pressure value that is perfectly consistent with the definition of
+      pressure.
+  examples: []
+  id: r110-2.4.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: True value of pressure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b8b03bf5-93a3-5cd2-8c90-7267b14829fc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur de pression qui est parfaitement coherent avec la definition de
+      la pression.
+  examples: []
+  id: r110-2.4.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Valeur vraie de pression
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0e74518f-1e77-53fc-9695-9341f7576ce0
+

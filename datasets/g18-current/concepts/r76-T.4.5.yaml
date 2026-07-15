@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.4.5
   localized_concepts:
+    eng: c48b9682-fefc-5cc1-bbe1-0bf53b929d13
     fra: c982f375-2693-5c21-8870-cc8bdf4b3a83
   domains:
   - concept_id: section-terms
@@ -16,9 +17,50 @@ data:
       type: clause
       reference_from: T.4.5
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
 status: valid
 id: c833698b-fa62-51b9-84fc-5b786f4f2587
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Time between the moment power is applied to an instrument and the moment
+      at which the instrument is capable of complying with the requirements of this
+      Recommendation.
+  examples: []
+  id: r76-T.4.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: warm-up time
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c48b9682-fefc-5cc1-bbe1-0bf53b929d13
 ---
 data:
   dates:
@@ -33,7 +75,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -46,8 +88,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c982f375-2693-5c21-8870-cc8bdf4b3a83

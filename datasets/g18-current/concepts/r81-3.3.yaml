@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r81-3.3
+  localized_concepts:
+    eng: 2c80bf29-55f1-5d5c-a5bf-663c1b0a2c6c
+    fra: 242ce032-5f89-57bb-9f94-24ca0ea5863c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+status: valid
+id: a7b63953-6be2-543e-8547-f635c9380213
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A standard, traceable to national standards, used for the verification
+      of cryogenic liquid measuring devices and systems.
+  examples: []
+  id: r81-3.3-eng
+  notes:
+  - content: This is usually referred to as "master meter" in this field.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reference (or working) standard
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2c80bf29-55f1-5d5c-a5bf-663c1b0a2c6c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Etalon, raccordable aux etalons nationaux, utilise pour la verification
+      des dispositifs et systemes de mesure de liquides cryogeniques.
+  examples: []
+  id: r81-3.3-fra
+  notes:
+  - content: Cet etalon est habituellement designe comme "compteur principal" dans
+      ce domaine.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: etalon de reference (ou de travail)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 242ce032-5f89-57bb-9f94-24ca0ea5863c
+

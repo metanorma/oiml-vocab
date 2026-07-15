@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r61-3.1.7
+  localized_concepts:
+    eng: 8a31fadf-1074-5a66-a64b-0e8e0b2bbd74
+    deu: 97641fdb-1a6b-5592-84ec-d755689fb0dc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+status: valid
+id: aa0162e0-dd26-5623-a094-84702a4f3e3e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: any device, module, part, component or function of an instrument that
+      may influence the weighing result or any other primary indication that is considered
+      to be metrologically relevant
+  examples: []
+  id: r61-3.1.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: metrologically relevant device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8a31fadf-1074-5a66-a64b-0e8e0b2bbd74
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: alle Geräte, Module, Bauteile, Elemente oder Funktionen einer Waage,
+      die einen Einfluss auf das Wäge- ergebnis oder eine andere Hauptanzeige, die
+      als messtechnisch relevant angesehen wird, ausüben können
+  examples: []
+  id: r61-3.1.7-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: messtechnisch relevantes Gerät
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 97641fdb-1a6b-5592-84ec-d755689fb0dc
+

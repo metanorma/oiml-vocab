@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r81-3.7
+  localized_concepts:
+    eng: e78556bb-fa9b-5f38-9270-370116c8752f
+    fra: 3ba1ccf0-f06b-52c1-a6a9-f2e5f5a74f29
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: 076fe56e-9caa-56f2-85f3-a52228c55014
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A part of the meter that receives the output signal from the transducer(s),
+      transforms it and, if appropriate, stores in memory the results until they are
+      used. Additionally, the calculator may be capable of communicating both ways
+      with the peripheral equipment.
+  examples: []
+  id: r81-3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculator
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e78556bb-fa9b-5f38-9270-370116c8752f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du compteur recevant le signal de sortie du (des) transducteur(s),
+      le transformant et, si approprie, mettant en memoire les resultats jusqu'a leur
+      utilisation. En plus, le calculateur peut etre capable de communiquer en emission/reception
+      avec l'equipement peripherique.
+  examples: []
+  id: r81-3.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calculateur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3ba1ccf0-f06b-52c1-a6a9-f2e5f5a74f29
+

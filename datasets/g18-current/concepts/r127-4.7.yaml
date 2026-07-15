@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r127-4.7
+  localized_concepts:
+    eng: a0262116-6282-5a16-a85e-99f5841258aa
+    fra: 9026516d-bf44-56f2-842d-e418d1b93cd4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.7'
+    type: authoritative
+status: valid
+id: e714b0c5-dd3c-5bbe-aa71-06dc09e6aa5f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The quotient of de by dm, where de is the incremental mean energy imparted
+      by ionizing radiation to a quantity of matter of mass dm. The unit for absorbed
+      dose is the gray (Gy), where 1 Gy = 1 J/kg.
+  examples: []
+  id: r127-4.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: absorbed dose
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a0262116-6282-5a16-a85e-99f5841258aa
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient de par dm, où de est l'énergie moyenne différentielle transmise
+      par rayonnement ionisant à une quantité de matière de masse égale à dm. L'unité
+      de dose absorbée est le gray (Gy), où 1 Gy = 1 J/kg.
+  examples: []
+  id: r127-4.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dose absorbée, D
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9026516d-bf44-56f2-842d-e418d1b93cd4
+

@@ -1,0 +1,101 @@
+---
+data:
+  identifier: r137-3.3.1
+  localized_concepts:
+    eng: 99cb7d61-793c-53f4-a6a6-98e868748c18
+    fra: 003c28df-b236-5c70-a43b-3aa90b0fabd1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+status: valid
+id: cc21879a-fcde-5b23-958a-7e90cd39ac4f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quotient of the actual quantity of gas passing through the gas meter
+      and the time taken for this quantity to pass through the gas meter.
+  examples: []
+  id: r137-3.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: flow rate
+  - type: symbol
+    normative_status: admitted
+    designation: Q
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99cb7d61-793c-53f4-a6a6-98e868748c18
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rapport de la quantité réelle de gaz passant par le compteur de gaz sur
+      le temps passé pour que cette quantité passe par le compteur de gaz.
+  examples: []
+  id: r137-3.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit
+  - type: symbol
+    normative_status: admitted
+    designation: Q
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 003c28df-b236-5c70-a43b-3aa90b0fabd1
+

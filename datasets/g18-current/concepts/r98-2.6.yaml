@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r98-2.6
+  localized_concepts:
+    eng: c4114f85-3f36-597f-8b84-30254e051bd7
+    fra: a96d34e0-99df-5a27-bb27-5c73b8f83cc2
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:98:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '2.6'
+    type: authoritative
+status: valid
+id: d3ed45da-f810-52d8-946f-a4ab4b31b505
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A line measure with a set of scale marks at intervals along its length.
+  examples: []
+  id: r98-2.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Multiple-valued line measure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c4114f85-3f36-597f-8b84-30254e051bd7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Règle portant une série de traits à certains intervalles sur sa longueur.
+  examples: []
+  id: r98-2.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Règle à valeurs multiples
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a96d34e0-99df-5a27-bb27-5c73b8f83cc2
+

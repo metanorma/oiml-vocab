@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r133-3.8
+  localized_concepts:
+    eng: dfe7a36d-88d3-581a-a261-5ab14c812bd6
+    fra: 3f0741d1-9835-528e-ad02-b6028d3b48d8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:133:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+status: valid
+id: 9b67d7af-9b9e-53a6-a8cb-05907296c618
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Set of values of temperature for which the error of the thermometer is
+      intended to lie within specified limits.
+  examples: []
+  id: r133-3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring (working) temperature range
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-133
+    source: OIML R 133:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dfe7a36d-88d3-581a-a261-5ab14c812bd6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble de valeurs de température pour lesquelles l'erreur du thermomètre
+      est supposée se tenir dans des limites spécifiées.
+  examples: []
+  id: r133-3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Étendue de mesure de la température (étendue de travail)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-133
+    source: OIML R 133:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3f0741d1-9835-528e-ad02-b6028d3b48d8
+

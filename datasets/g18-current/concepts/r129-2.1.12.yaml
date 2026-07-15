@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r129-2.1.12
+  localized_concepts:
+    eng: a6fbfa63-e0cf-50ba-adb0-f0e836014bdf
+    deu: 82eb4f36-0f78-56f0-b9dd-c4e620e3f155
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+status: valid
+id: 476e6704-95ac-5a40-91f6-be3106b9845c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: area in and around the instrument in which it is capable of measuring
+      an object
+  examples: []
+  id: r129-2.1.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measuring area
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a6fbfa63-e0cf-50ba-adb0-f0e836014bdf
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Bereich im und um das Gerät, in dem es ein Objekt messen kann
+  examples: []
+  id: r129-2.1.12-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messbereich
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 82eb4f36-0f78-56f0-b9dd-c4e620e3f155
+

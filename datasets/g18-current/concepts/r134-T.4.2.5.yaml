@@ -16,6 +16,14 @@ data:
       type: clause
       reference_from: T.4.2.5
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.5
+    type: authoritative
 status: valid
 id: abb04817-8a98-5287-be59-b424c9fafdc4
 schema_version: '3'
@@ -34,7 +42,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 134-1:2006
+        source: OIML R 134:2006
         version: '2006'
     locality:
       type: clause
@@ -50,8 +58,8 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-134-1
-    source: OIML R 134-1:2006
+  - concept_id: r-134
+    source: OIML R 134:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: cec08a56-7e16-51a9-91e3-f843617e111f

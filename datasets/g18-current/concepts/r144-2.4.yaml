@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r144-2.4
+  localized_concepts:
+    eng: ef1d83ba-f984-5ca0-b90b-df5ca313ea94
+    fra: bc1e8e46-5d04-52b2-98dc-323b749f4269
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+status: valid
+id: dc4bf841-a38d-59a1-b200-c48b34a38fc6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: assembly which enables qualitative and/or quantitative determinations
+      (measurements) of substances content on the basis of their chemical or physical
+      properties
+  examples: []
+  id: r144-2.4-eng
+  notes:
+  - content: A gas analyzer measures all components covered by this Recommendation
+      (CO, NO, $ NO_{2} $ , or $ NO_{x} $ ), or measures only CO, or only NO and $
+      NO_{2} $ , or $ NO_{x} $ .
+  - content: 'Source citation: ISO 750 4'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    sourced_from:
+    - ref:
+        source: ISO 750
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gas analyzer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ef1d83ba-f984-5ca0-b90b-df5ca313ea94
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: assemblage d'éléments qui permet de réaliser des dénations (mesures)
+      qualitatives et/ou quantitat de la teneur des substances, sur la base de représentes
+      chimiques ou physiques
+  examples: []
+  id: r144-2.4-fra
+  notes:
+  - content: Un analyseur de gaz mesure tous les composants par cette Recommandation
+      (CO, NO, $ \mathrm{N O_{2}} $ , ou $ \mathrm{N O_{x}} $ ), ou mesure seulement
+      CO, ou seulement NO et $ \mathrm{N O N O_{x}} $ .
+  - content: 'Source citation: ISO 750 4'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    sourced_from:
+    - ref:
+        source: ISO 750
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Analyseur de gaz
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bc1e8e46-5d04-52b2-98dc-323b749f4269
+

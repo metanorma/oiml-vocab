@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r81-3.5
+  localized_concepts:
+    eng: '08c7b153-73b3-5468-a49e-4b6961490e56'
+    fra: 183da5e1-3b31-5047-9b9f-51942c511209
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: 9f12b6c8-3355-573a-b423-4a3a5f7fddd9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An instrument designed to measure continuously, memorize and display
+      the quantity that passes through the measurement transducer.
+  examples: []
+  id: r81-3.5-eng
+  notes:
+  - content: A meter includes at least a measurement transducer, a calculator (including
+      adjustment or correction devices if present), a conversion device (if necessary),
+      and an indicating device.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Meter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '08c7b153-73b3-5468-a49e-4b6961490e56'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument concu pour mesurer en continu, memoriser et afficher la quantite
+      passant a travers le transducteur de mesure.
+  examples: []
+  id: r81-3.5-fra
+  notes:
+  - content: Un compteur inclut au moins un transducteur de mesure, un calculateur
+      (y compris les dispositifs d'ajustage ou de correction, si presents), un dispositif
+      de conversion (si necessaire) et un dispositif indicateur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 183da5e1-3b31-5047-9b9f-51942c511209
+

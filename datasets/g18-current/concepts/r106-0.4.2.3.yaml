@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r106-0.4.2.3
+  localized_concepts:
+    eng: ef6aa529-aa83-5d82-8ba7-73623dba5488
+    fra: d533d624-9844-59b7-8c6e-0af2e8426cfb
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.2.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.2.3
+    type: authoritative
+status: valid
+id: 0a00ea40-60b4-5834-a113-9a08c7313578
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: hard copy of the measurement results produced from a printer
+  examples: []
+  id: r106-0.4.2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: printout
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ef6aa529-aa83-5d82-8ba7-73623dba5488
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: copie sur papier des resultats de mesure produite par une imprimante
+  examples: []
+  id: r106-0.4.2.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: impression
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d533d624-9844-59b7-8c6e-0af2e8426cfb
+

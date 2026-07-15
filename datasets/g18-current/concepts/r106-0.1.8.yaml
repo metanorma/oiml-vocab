@@ -1,0 +1,125 @@
+---
+data:
+  identifier: r106-0.1.8
+  localized_concepts:
+    eng: 6af1071c-5ab5-534e-a97b-6a7aa2371bb1
+    deu: 8232c2d2-0100-5ce2-842f-46f79f4313b9
+    fra: 113a082b-be3f-5ce5-9722-fce1de0cc192
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.8
+    type: authoritative
+status: valid
+id: ce29d018-83f5-5959-acc2-b0698f26af1a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: single wagon not joined with other wagons
+  examples: []
+  id: r106-0.1.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: uncoupled wagon
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6af1071c-5ab5-534e-a97b-6a7aa2371bb1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: einzelner Waggon, der nicht mit anderen verbunden ist.
+  examples: []
+  id: r106-0.1.8-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ungekuppelter Waggon
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8232c2d2-0100-5ce2-842f-46f79f4313b9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: wagon unique qui n est pas attele a d autres wagons
+  examples: []
+  id: r106-0.1.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: wagon non couple
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 113a082b-be3f-5ce5-9722-fce1de0cc192
+

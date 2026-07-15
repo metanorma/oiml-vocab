@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r113-3.16
+  localized_concepts:
+    eng: e5a81a24-e051-50f5-acb5-93be86dcda3d
+    fra: 1b2c0946-ec13-579f-9d1b-4c2db9244a98
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:113:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+status: valid
+id: ebb66445-bf04-551c-abec-6c8d68f6cac3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The set of operations that establishes, under specified conditions, the
+      relationship between values indicated by a measuring system and the corresponding
+      known values of the measurand.
+  examples: []
+  id: r113-3.16-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Calibration
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-113
+    source: OIML R 113:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e5a81a24-e051-50f5-acb5-93be86dcda3d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble d'operations qui etablit, dans des conditions specifiees, la
+      relation entre les valeurs indiquees par un systeme de mesure et les valeurs
+      connues correspondantes du mesurande.
+  examples: []
+  id: r113-3.16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 113:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '3.16'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etalonnage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-113
+    source: OIML R 113:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1b2c0946-ec13-579f-9d1b-4c2db9244a98
+

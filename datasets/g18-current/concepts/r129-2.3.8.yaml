@@ -1,0 +1,73 @@
+---
+data:
+  identifier: r129-2.3.8
+  localized_concepts:
+    eng: c7734886-f28c-59a3-be45-4de921c8e3c2
+    deu: 850eb4f0-dbd2-5515-b687-2e720ce33b20
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.8
+    type: authoritative
+status: valid
+id: 4a9407ac-c2bb-5b6c-a6a3-00d3c9796bbb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+  examples: []
+  id: r129-2.3.8-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c7734886-f28c-59a3-be45-4de921c8e3c2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Größe, die sich bei einer direkten Messung nicht auf die Größe auswirkt,
+      die gerade gemessen wird, aber die Beziehung zwischen der Anzeige und dem Messergebnis
+      beeinflusst
+  examples: []
+  id: r129-2.3.8-deu
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Einflussgröße
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 850eb4f0-dbd2-5515-b687-2e720ce33b20
+

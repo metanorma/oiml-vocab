@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r106-0.3.6
+  localized_concepts:
+    eng: 44ba665f-c763-54ef-8150-93b0ed2277e0
+    fra: e2a39067-73b4-55cf-bd85-3e4f7774db85
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.6
+    type: authoritative
+status: valid
+id: e95c905f-7d28-5a25-8af1-8fdf23cd27a7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ability of an instrument to maintain its performance characteristics
+      over a period of use
+  examples: []
+  id: r106-0.3.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durability
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 44ba665f-c763-54ef-8150-93b0ed2277e0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: aptitude d un instrument a conserver ses caracteristiques de performance
+      sur une periode d utilisation
+  examples: []
+  id: r106-0.3.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durabilite
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e2a39067-73b4-55cf-bd85-3e4f7774db85
+

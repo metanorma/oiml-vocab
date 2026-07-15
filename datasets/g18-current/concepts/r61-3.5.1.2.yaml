@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r61-3.5.1.2
+  localized_concepts:
+    eng: d4fdd04b-9737-5d07-800b-07f4d20fcb40
+    deu: 42cee100-4cac-5558-a45f-fcd971b86062
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.2
+    type: authoritative
+status: valid
+id: d5a69cff-ce65-5339-9923-90b3e3fe74c8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indications, signals and symbols that are not primary indications
+  examples: []
+  id: r61-3.5.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: secondary indications
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d4fdd04b-9737-5d07-800b-07f4d20fcb40
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Anzeigen, Signale und Symbole, die keine Hauptanzeigen sind
+  examples: []
+  id: r61-3.5.1.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nebenanzeigen
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 42cee100-4cac-5558-a45f-fcd971b86062
+

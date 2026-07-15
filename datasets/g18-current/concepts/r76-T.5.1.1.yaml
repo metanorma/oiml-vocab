@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.5.1.1
   localized_concepts:
+    eng: 11f90d7b-60a9-5c3c-8005-b7dc1742947f
     fra: 6fcd333f-a35b-5acc-8f1e-f94a52249fd9
   domains:
   - concept_id: section-terms
@@ -16,9 +17,49 @@ data:
       type: clause
       reference_from: T.5.1.1
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.1.1
+    type: authoritative
 status: valid
 id: 4f3864a3-b8bc-5a1c-b496-91f3a091dfbb
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value of metrologically controlled weights that balances the load (taking
+      into account the reduction ratio of the load).
+  examples: []
+  id: r76-T.5.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: balancing by weights
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 11f90d7b-60a9-5c3c-8005-b7dc1742947f
 ---
 data:
   dates:
@@ -33,7 +74,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -46,8 +87,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 6fcd333f-a35b-5acc-8f1e-f94a52249fd9

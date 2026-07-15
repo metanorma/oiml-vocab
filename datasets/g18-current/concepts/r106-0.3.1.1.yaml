@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r106-0.3.1.1
+  localized_concepts:
+    eng: 12f264b0-28d2-5ea2-a2c8-b030a22b984e
+    fra: 96f8a9a0-72c6-5ba5-8b2e-676c12ba8667
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.1
+    type: authoritative
+status: valid
+id: 74acc0dd-1d27-5a5c-aa96-27c3dedf24bf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: determining the mass of a wagon that is entirely supported on the load
+      receptor(s)
+  examples: []
+  id: r106-0.3.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: full-draught weighing
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 12f264b0-28d2-5ea2-a2c8-b030a22b984e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: determination de la masse d un wagon entierement porte par le ou les
+      recepteurs de charge
+  examples: []
+  id: r106-0.3.1.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pesage entier
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 96f8a9a0-72c6-5ba5-8b2e-676c12ba8667
+

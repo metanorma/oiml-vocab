@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r45-2.1
+  localized_concepts:
+    eng: 1a3b9f3a-9820-537d-b535-1dd94477bb2a
+    fra: dfcfc3fe-1a8b-579d-9676-b85d99216387
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:45:1980
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+status: valid
+id: ea0e5f37-d4fc-5016-9f39-22675b8284fb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The nominal total capacity of a cask is the volume indicated on the cask.
+  examples: []
+  id: r45-2.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nominal total capacity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-45
+    source: OIML R 45:1980
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1a3b9f3a-9820-537d-b535-1dd94477bb2a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La capacité nominale totale d'un tonneau est le volume indiqué sur le
+      tonneau.
+  examples: []
+  id: r45-2.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Capacité nominale totale
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-45
+    source: OIML R 45:1980
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dfcfc3fe-1a8b-579d-9676-b85d99216387
+

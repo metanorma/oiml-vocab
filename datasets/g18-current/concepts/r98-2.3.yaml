@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r98-2.3
+  localized_concepts:
+    eng: e01cefbd-75b5-556a-9340-a00f87c1aef1
+    fra: '09bc3e40-d284-58aa-bfaf-e68767468821'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:98:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '2.3'
+    type: authoritative
+status: valid
+id: d705c61a-c9e3-5e3d-8ef1-6dd72972c43d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The algebraic difference between the nominal value of the length of the
+      line measure and its conventional true value.
+  examples: []
+  id: r98-2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error of a line measure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e01cefbd-75b5-556a-9340-a00f87c1aef1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence algébrique entre la valeur nominale de la longueur de la règle
+      et sa valeur conventionnellement vraie.
+  examples: []
+  id: r98-2.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 98:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur d'une règle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-98
+    source: OIML R 98:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '09bc3e40-d284-58aa-bfaf-e68767468821'
+

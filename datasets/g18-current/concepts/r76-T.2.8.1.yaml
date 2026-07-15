@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.2.8.1
   localized_concepts:
+    eng: fc60cfdb-c1be-52c5-90b2-2ef536ed474c
     fra: fd66ecc7-3901-5337-8838-5168fcabd5f3
   domains:
   - concept_id: section-terms
@@ -16,6 +17,14 @@ data:
       type: clause
       reference_from: T.2.8.1
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.1
+    type: authoritative
 status: valid
 id: be8e0e48-bcab-543d-a948-72f20b2cccb5
 schema_version: '3'
@@ -25,20 +34,20 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Programmes, données, paramètres spécifiques au modèle et au dispositif
-      qui appartiennent à l'instrument de mesure ou au module, et définissant ou remplissant
-      des fonctions qui sont soumises au contrôle légal.
+  - content: Programs, data, type-specific and device-specific parameters that belong
+      to the measuring instrument or module, and define or fulfill functions which
+      are subject to legal control.
   examples:
-  - content: Les résultats finaux de la mesure, c'est à dire les valeurs, brut, net
-      et tare/tare prédéterminée (y compris le signe décimal et l'unité), l'identification
-      de l'étendue de pesage et le récepteur de charge (si plusieurs récepteurs de
-      charge ont été utilisés), l'identification du logiciel.
-  id: r76-T.2.8.1-fra
+  - content: Final results of the measurement, i.e. gross, net and tare / preset tare
+      value (including the decimal sign and the unit), identification of the weighing
+      range and the load receptor (if several load receptors have been used), software
+      identification.
+  id: r76-T.2.8.1-eng
   notes: []
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -47,12 +56,49 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: logiciel d'application légale
+    designation: Legally relevant software
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fc60cfdb-c1be-52c5-90b2-2ef536ed474c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Programmes, donnees, parametres specifiques au modele et au dispositif
+      qui appartiennent a l'instrument de mesure ou au module, et definissant ou remplissant
+      des fonctions qui sont soumises au controle legal.
+  examples:
+  - content: Les resultats finaux de la mesure, c'est a dire les valeurs, brut, net
+      et tare/tare predeterminee (y compris le signe decimal et l'unite), l'identification
+      de l'etendue de pesage et le recepteur de charge (si plusieurs recepteurs de
+      charge ont ete utilises), l'identification du logiciel.
+  id: r76-T.2.8.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Logiciel d'application legale
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: fd66ecc7-3901-5337-8838-5168fcabd5f3

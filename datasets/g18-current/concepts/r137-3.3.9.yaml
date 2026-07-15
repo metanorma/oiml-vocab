@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r137-3.3.9
+  localized_concepts:
+    eng: 0aff4ec5-8e11-52ee-8316-671ec2ebe53f
+    fra: 6c9237db-28a5-56d5-8da2-3e5f03dcde45
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+status: valid
+id: f9302bb2-f77c-5661-8a07-6e26f68efc45
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Minimum and maximum internal pressure that a gas meter can withstand,
+      within its rated operating conditions, without deterioration of its metrological
+      performance.
+  examples: []
+  id: r137-3.3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum and maximum working pressure
+  - type: symbol
+    normative_status: admitted
+    designation: p_min and p_max
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0aff4ec5-8e11-52ee-8316-671ec2ebe53f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pression interne minimale et maximale d'un gaz auxquelles un compteur
+      de gaz peut résister, dans ses conditions assignées de fonctionnement, sans
+      détérioration inacceptable de ses performances métrologiques.
+  examples: []
+  id: r137-3.3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.3.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pressions de travail minimales et maximales de travail
+  - type: symbol
+    normative_status: admitted
+    designation: p_min et p_max
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6c9237db-28a5-56d5-8da2-3e5f03dcde45
+
