@@ -1,0 +1,101 @@
+---
+data:
+  identifier: b3-2011-3.16
+  localized_concepts:
+    eng: b46a13cb-95a3-5761-bf41-cbcae9ab0743
+    fra: b4501797-e786-538d-a45a-c3f735b7726b
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.16'
+status: valid
+id: 19982f4a-92ef-5c65-b36a-af1f5e8dbf9a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: any laboratory designated by the OIML Issuing Authority to carry out
+      all or specific tests and examinations of sample(s) of a measuring instrument
+      or module submitted for OIML type evaluation
+  examples: []
+  id: b3-2011-e-3.16-eng
+  notes:
+  - content: Testing laboratories may be internal laboratories of OIML Issuing Authorities,
+      thirdparty laboratories or manufacturers' testing laboratories (MTLs).
+  - content: The OIML Issuing Authority, and not the Testing Laboratory, is responsible
+      for issuing the OIML Basic Type Evaluation Report.
+  - content: See Annex C.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: testing laboratory
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b46a13cb-95a3-5761-bf41-cbcae9ab0743
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: tout laboratoire désigné par l'Autorité de délivrance OIML pour réaliser
+      tous les essais et examens ou des essais et examens spécifiques d'un ou de plusieurs
+      échantillons d'un instrument de mesure ou d'un module soumis à une évaluation
+      de type OIML
+  examples: []
+  id: b3-2011-f-2.16-fra
+  notes:
+  - content: Les laboratoires d'essai peuvent être des laboratoires internes des Autorités
+      de délivrance OIML, des laboratoires d'une tierce partie ou des laboratoires
+      d'essai de fabricants (MTL).
+  - content: La responsabilité d'émettre le Rapport d'évaluation de type OIML de Base
+      incombe à l'Autorité de délivrance OIML, et non au laboratoire d'essai.
+  - content: Voir Annexe C.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: laboratoire d'essai
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b4501797-e786-538d-a45a-c3f735b7726b
+

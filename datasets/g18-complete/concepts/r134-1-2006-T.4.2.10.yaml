@@ -1,12 +1,12 @@
 ---
 data:
-  identifier: r51-1-1996-T.4.2
+  identifier: r134-1-2006-T.4.2.10
   localized_concepts:
-    eng: f6e96af5-a81f-5052-8f2a-dbcc965aa352
-    fra: 2ee77894-e65c-5bc0-9b02-f03c259073da
+    eng: 35b16e4b-1c3d-56ce-80d2-989be00800be
+    fra: aa526e15-5532-546d-9e5f-0a08d32dc320
   domains:
-  - concept_id: r-51-1
-    source: OIML R 51-1:1996
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
     ref_type: section
   sources:
   - type: authoritative
@@ -15,22 +15,22 @@ data:
         source: OIML V 2-200:2012
     locality: &1
       type: clause
-      reference_from: '5.24'
+      reference_from: '3.6'
   - type: lineage
     status: identical
     origin:
       ref:
-        source: OIML R 51-1:1996
-        version: '1996'
+        source: OIML R 134-1:2006
+        version: '2006'
     locality:
       type: clause
-      reference_from: T.4.2
+      reference_from: T.4.2.10
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
       locality: *1
 status: valid
-id: 5d6a35cb-1f03-5e2b-8045-32584dd97ddd
+id: b8a255f4-c6ea-5040-bf1e-1955e90d2afc
 schema_version: '3'
 ---
 data:
@@ -38,15 +38,16 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: the error of an instrument, determined under reference conditions
+  - content: Difference between the highest and lowest results of successive measurements
+      of the same load carried out under the same conditions of measurement.
   examples: []
-  id: r51-1-1996-eng-T.4.2-eng
+  id: r134-1-2006-eng-T.4.2.10-eng
   notes:
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: intrinsic error
+    designation: repeatability error
   language_code: eng
   entry_status: valid
   domains:
@@ -54,22 +55,24 @@ data:
     source: OIML V 2-200:2012
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
-id: f6e96af5-a81f-5052-8f2a-dbcc965aa352
+id: 35b16e4b-1c3d-56ce-80d2-989be00800be
 ---
 data:
   dates:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Erreur d'un instrument dans les conditions de référence.
+  - content: Différence entre le résultat le plus grand et le résultat le plus faible
+      de mesures successives de la même charge réalisées dans les mêmes conditions
+      de mesure.
   examples: []
-  id: r51-1-1996-f-T.4.2-fra
+  id: r134-1-2006-fra-T.4.4.10-fra
   notes:
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: erreur intrinsèque
+    designation: erreur de répétabilité
   language_code: fra
   entry_status: valid
   domains:
@@ -77,5 +80,5 @@ data:
     source: OIML V 2-200:2012
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
-id: 2ee77894-e65c-5bc0-9b02-f03c259073da
+id: aa526e15-5532-546d-9e5f-0a08d32dc320
 

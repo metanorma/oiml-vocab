@@ -1,12 +1,12 @@
 ---
 data:
-  identifier: r51-1-1996-T.4.2
+  identifier: b3-2011-3.1
   localized_concepts:
-    eng: f6e96af5-a81f-5052-8f2a-dbcc965aa352
-    fra: 2ee77894-e65c-5bc0-9b02-f03c259073da
+    eng: e1706b5a-eb6b-5fcd-a84b-903151df7a19
+    fra: a690f882-e4dc-5326-aca7-c2d214e07835
   domains:
-  - concept_id: r-51-1
-    source: OIML R 51-1:1996
+  - concept_id: b-3
+    source: OIML B 3:2011
     ref_type: section
   sources:
   - type: authoritative
@@ -15,22 +15,22 @@ data:
         source: OIML V 2-200:2012
     locality: &1
       type: clause
-      reference_from: '5.24'
+      reference_from: '3.1'
   - type: lineage
     status: identical
     origin:
       ref:
-        source: OIML R 51-1:1996
-        version: '1996'
+        source: OIML B 3:2011
+        version: '2011'
     locality:
       type: clause
-      reference_from: T.4.2
+      reference_from: '3.1'
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
       locality: *1
 status: valid
-id: 5d6a35cb-1f03-5e2b-8045-32584dd97ddd
+id: 826d1f0b-7d90-5fef-8b1f-20ceb684c393
 schema_version: '3'
 ---
 data:
@@ -38,15 +38,16 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: the error of an instrument, determined under reference conditions
+  - content: device used for making measurements, alone or in conjunction with supplementary
+      device(s)
   examples: []
-  id: r51-1-1996-eng-T.4.2-eng
+  id: b3-2011-e-3.1-eng
   notes:
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: intrinsic error
+    designation: measuring instrument
   language_code: eng
   entry_status: valid
   domains:
@@ -54,22 +55,23 @@ data:
     source: OIML V 2-200:2012
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
-id: f6e96af5-a81f-5052-8f2a-dbcc965aa352
+id: e1706b5a-eb6b-5fcd-a84b-903151df7a19
 ---
 data:
   dates:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Erreur d'un instrument dans les conditions de référence.
+  - content: dispositif utilisé pour faire des mesurages, seul ou associé à un ou
+      plusieurs dispositifs annexes
   examples: []
-  id: r51-1-1996-f-T.4.2-fra
+  id: b3-2011-f-2.1-fra
   notes:
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: erreur intrinsèque
+    designation: instrument de mesure
   language_code: fra
   entry_status: valid
   domains:
@@ -77,5 +79,5 @@ data:
     source: OIML V 2-200:2012
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
-id: 2ee77894-e65c-5bc0-9b02-f03c259073da
+id: a690f882-e4dc-5326-aca7-c2d214e07835
 
