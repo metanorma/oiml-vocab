@@ -1,12 +1,12 @@
 ---
 data:
-  identifier: r51-1-1996-T.4.2
+  identifier: r134-1-2006-T.4.2.11
   localized_concepts:
-    eng: f6e96af5-a81f-5052-8f2a-dbcc965aa352
-    fra: 2ee77894-e65c-5bc0-9b02-f03c259073da
+    eng: 95d48534-ef17-5686-a58f-01f8afb0f971
+    fra: 302e4194-1c8a-5fd2-955f-d1c222f419f4
   domains:
-  - concept_id: r-51-1
-    source: OIML R 51-1:1996
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
     ref_type: section
   sources:
   - type: authoritative
@@ -15,22 +15,22 @@ data:
         source: OIML V 2-200:2012
     locality: &1
       type: clause
-      reference_from: '5.24'
+      reference_from: '3.4'
   - type: lineage
     status: identical
     origin:
       ref:
-        source: OIML R 51-1:1996
-        version: '1996'
+        source: OIML R 134-1:2006
+        version: '2006'
     locality:
       type: clause
-      reference_from: T.4.2
+      reference_from: T.4.2.11
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
       locality: *1
 status: valid
-id: 5d6a35cb-1f03-5e2b-8045-32584dd97ddd
+id: 15957ffb-38a8-5f60-b5b3-ff6d12fd2e7d
 schema_version: '3'
 ---
 data:
@@ -38,15 +38,15 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: the error of an instrument, determined under reference conditions
+  - content: Result of a measurement after algebraic correction for systematic error.
   examples: []
-  id: r51-1-1996-eng-T.4.2-eng
+  id: r134-1-2006-eng-T.4.2.11-eng
   notes:
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: intrinsic error
+    designation: corrected result (mean axle- and axle-group load)
   language_code: eng
   entry_status: valid
   domains:
@@ -54,22 +54,22 @@ data:
     source: OIML V 2-200:2012
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
-id: f6e96af5-a81f-5052-8f2a-dbcc965aa352
+id: 95d48534-ef17-5686-a58f-01f8afb0f971
 ---
 data:
   dates:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Erreur d'un instrument dans les conditions de référence.
+  - content: Résultat d'une mesure après correction algébrique pour l'erreur systématique.
   examples: []
-  id: r51-1-1996-f-T.4.2-fra
+  id: r134-1-2006-fra-T.4.4.11-fra
   notes:
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: erreur intrinsèque
+    designation: résultat corrigé (charge moyenne par essieu et par groupe d'essieux)
   language_code: fra
   entry_status: valid
   domains:
@@ -77,5 +77,5 @@ data:
     source: OIML V 2-200:2012
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
-id: 2ee77894-e65c-5bc0-9b02-f03c259073da
+id: 302e4194-1c8a-5fd2-955f-d1c222f419f4
 
