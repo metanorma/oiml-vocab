@@ -8,31 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.9'
-status: valid
-id: dbdc32c5-2499-5eff-902f-ec1f59160346
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: metrological traceability where the reference is the definition of a
-      measurement unit through its practical realisation
-  examples: []
-  id: d5-2022-e-3.9-eng
-  notes:
-  - content: The expression "traceability to the SI" means 'metrological traceability
-      to a measurement unit of the International System of Units'.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: dbdc32c5-2499-5eff-902f-ec1f59160346
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: metrological traceability where the reference is the definition of a
+      measurement unit through its practical realisation
+  examples: []
+  id: d5-2022-e-3.9-eng
+  notes:
+  - content: The expression "traceability to the SI" means 'metrological traceability
+      to a measurement unit of the International System of Units'.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

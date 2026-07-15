@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r60-1-2017-3.7.4
+  localized_concepts:
+    eng: 1e23f287-0a16-5892-8b07-f981a3ddbd42
+    fra: 675e37c1-3119-53ee-9c80-97acf9ba51af
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.4
+    type: authoritative
+status: valid
+id: 96ca1176-cfa9-5e4c-a06f-3c7b8f7d76b4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity defining an interval about the result of a measurement that
+      may be expected to encompass a large fraction of the distribution of values
+      that could reasonably be attributed to the measurand
+  examples: []
+  id: r60-1-2017-eng-3.7.4-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: expanded uncertainty
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1e23f287-0a16-5892-8b07-f981a3ddbd42
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur définissant un intervalle, autour du résultat d'un mesurage,
+      dont on puisse s'attendre à ce qu'il comprenne une fraction élevée de la distribution
+      des valeurs qui pourraient être attribuées raisonnablement au mesurande (OIML
+      G 1-100 Guide pour l'expression de l'incertitude de mesure)
+  examples: []
+  id: r60-1-2017-fra-3.7.4-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitude élargie
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 675e37c1-3119-53ee-9c80-97acf9ba51af
+

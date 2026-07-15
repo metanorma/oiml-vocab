@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r55-1981-1.4
+  localized_concepts:
+    eng: d7053d5d-f62f-5a13-9b1a-d593aba08f72
+    fra: a8125083-e8f7-5887-b088-ae9478b1998f
+  domains:
+  - concept_id: r-55
+    source: OIML R 55:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.4'
+status: valid
+id: 15e3491a-d0b8-5a07-9752-ea144bab38c5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Characteristic quantity showing the type (revolutions of the driving
+      shaft or impulses) and number of signals which the odometer or chronotachograph
+      must receive so that the indicated and/or recorded distance increases by 1 km.
+  examples: []
+  id: r55-1981-e-1.4-eng
+  notes:
+  - content: The constant k may be expressed in revolutions per kilometre, rev/km,
+      or impulses per kilometre, imp/km.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Constant k of odometer or chronotachograph
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-55
+    source: OIML R 55:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d7053d5d-f62f-5a13-9b1a-d593aba08f72
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur caractéristique indiquant l'espèce (tours de l'arbre d'entraînement
+      ou impulsions) et le nombre de signaux que doit recevoir le compteur de distance
+      ou le chronotachygraphe pour que la distance indiquée et/ou enregistrée s'accroisse
+      de 1 kilomètre.
+  examples: []
+  id: r55-1981-f-1.4-fra
+  notes:
+  - content: La constante k peut être exprimée en tours par kilomètre, tr/km, ou en
+      impulsions par kilomètre, imp/km.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Constante k du compteur de distance ou du chronotachygraphe
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-55
+    source: OIML R 55:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a8125083-e8f7-5887-b088-ae9478b1998f
+

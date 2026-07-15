@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r129-2.29.2
+  localized_concepts:
+    fra: 5f62aa4a-c393-5795-934a-14125ac1c845
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.29.2
+    type: authoritative
+status: valid
+id: ae907701-d45a-5357-b623-4d0014dbf820
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence ayant une valeur à l'intérieur des limites spécifiées
+      dans la présente Recommandation, mais en dehors des conditions assignées de
+      fonctionnement de l'instrument de mesure.
+  examples: []
+  id: r129-2.29.2-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si pour cette grandeur
+      d'influence les conditions assignées de fonctionnement ne sont pas spécifiées.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.29.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-129
+    source: OIML R 129:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5f62aa4a-c393-5795-934a-14125ac1c845
+

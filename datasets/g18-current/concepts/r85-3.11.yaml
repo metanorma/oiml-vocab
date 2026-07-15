@@ -3,7 +3,6 @@ data:
   identifier: r85-3.11
   localized_concepts:
     eng: bd045fbf-974c-5c5a-9755-99cd028dc16e
-    fra: 13a39669-a70d-54ae-88eb-e2e610a141fe
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -12,22 +11,6 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.11'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.11'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -49,53 +32,22 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85:2008
+        source: OIML R 85-1-2:2008
         version: '2008'
+    type: authoritative
     locality:
       type: clause
       reference_from: '3.11'
-    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: Automatic checking facility
+    designation: automatic checking facility
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
+  - concept_id: r-85-1-2
+    source: OIML R 85-1-2:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: bd045fbf-974c-5c5a-9755-99cd028dc16e
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Système de contrôle qui fonctionne sans l'intervention d'un opérateur.
-  examples: []
-  id: r85-3.11-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.11'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Système de contrôle automatique
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 13a39669-a70d-54ae-88eb-e2e610a141fe
 

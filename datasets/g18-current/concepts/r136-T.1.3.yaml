@@ -3,28 +3,11 @@ data:
   identifier: r136-T.1.3
   localized_concepts:
     eng: 9876c852-a1bc-5e88-b461-8a8402150b7c
-    deu: 9969d55c-2e83-5b5b-ade4-89cc0e5f1c50
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.3
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.3
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -51,7 +34,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -64,42 +47,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9876c852-a1bc-5e88-b461-8a8402150b7c
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Ein Gerät, das ohne Eingreifen von Bedienungspersonal misst und dabei
-      einem vorgegebenen automatischen, für das Gerät charakteristischen Programmablauf
-      folgt.
-  examples: []
-  id: r136-T.1.3-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.3
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: automatisches Messgerät
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 9969d55c-2e83-5b5b-ade4-89cc0e5f1c50
 

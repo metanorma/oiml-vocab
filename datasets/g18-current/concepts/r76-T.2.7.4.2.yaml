@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.2.7.4.2
   localized_concepts:
-    eng: 4745e17d-4b6d-59bf-bda7-fd3e47ad70bc
     fra: 962f31b8-7d34-5ec3-9e7a-2ee449fc2ae5
   domains:
   - concept_id: section-terms
@@ -17,57 +16,9 @@ data:
       type: clause
       reference_from: T.2.7.4.2
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.7.4.2
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.7.4.2
-    type: authoritative
 status: valid
 id: f54e1d5a-2eaf-56f8-aa6b-03e9b1ddf64f
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Tare device that stores the tare value and that is capable of displaying
-      or printing it whether or not the instrument is loaded.
-  examples: []
-  id: r76-T.2.7.4.2-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.7.4.2
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: tare-weighing device
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 4745e17d-4b6d-59bf-bda7-fd3e47ad70bc
 ---
 data:
   dates:
@@ -82,7 +33,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -95,8 +46,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 962f31b8-7d34-5ec3-9e7a-2ee449fc2ae5

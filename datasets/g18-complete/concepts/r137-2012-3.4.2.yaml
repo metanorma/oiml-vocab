@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r137-2012-3.4.2
+  localized_concepts:
+    eng: 7625020d-35e8-55f4-bcf3-b57f803627a0
+    fra: 22182632-6d2a-5d4a-b83c-0b5dcb715018
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+status: valid
+id: ed140f7e-a75c-581f-9dc3-2e6bb1b9cad5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      par cette Recommandation, mais en dehors des conditions assignées de fonctionnement
+      spécifiées du compteur de gaz.
+  examples: []
+  id: r137-2012-f-3.4.2-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si les conditions assignées
+      de fonctionnement ne sont pas fixées pour cette grandeur d'influence.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 22182632-6d2a-5d4a-b83c-0b5dcb715018
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      gas meter.
+  examples: []
+  id: r137-2012-e-3.4.2-eng
+  notes:
+  - content: An influence quantity is a disturbance if for that influence quantity
+      the rated operating conditions are not specified.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7625020d-35e8-55f4-bcf3-b57f803627a0
+

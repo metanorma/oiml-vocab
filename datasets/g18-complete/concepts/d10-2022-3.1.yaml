@@ -1,0 +1,92 @@
+---
+data:
+  identifier: d10-2022-3.1
+  localized_concepts:
+    eng: 22a2dfc5-dfad-5fec-ba87-3203c5f9c39f
+    spa: e6a9e43c-32a9-5347-856d-e735e7a1e64b
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+status: valid
+id: db80577b-4d6c-5c16-b7c3-6df8ab6b55e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Organismo autorizado a realizar acreditación.
+  examples: []
+  id: d10-2022-spa-3.1-spa
+  notes:
+  - content: La autoridad de un órgano de acreditación puede derivarse del gobierno,
+      del sector público autoridades, contratos, aceptación del mercado o propietarios
+      de esquemas.
+  - content: 'Source citation: ISO/IEC 17000 4.7'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: organismo acreditador
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e6a9e43c-32a9-5347-856d-e735e7a1e64b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: authoritative body that performs accreditation
+  examples: []
+  id: d10-2022-e-3.1-eng
+  notes:
+  - content: The authority of an accreditation body can be derived from government,
+      public authorities, contracts, market acceptance, or scheme owners.
+  - content: 'Source citation: ISO/IEC 17000 4.7'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17000
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accreditation body
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 22a2dfc5-dfad-5fec-ba87-3203c5f9c39f
+

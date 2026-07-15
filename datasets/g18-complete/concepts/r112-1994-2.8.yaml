@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r112-1994-2.8
+  localized_concepts:
+    eng: c7aa7712-f706-5dee-b3dd-7019afd0c103
+    fra: 1bfb4012-dfb2-59c5-95e1-6204e3bc53c9
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+status: valid
+id: f805aca4-c577-5fa5-a0b0-ca7ee9754d94
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Mesure d''une variation dans le signal du detecteur; il peut etre divise
+      en trois composantes: bruit a court terme (toutes les variations aleatoires
+      perceptibles du signal du detecteur, dans des frequences de l''ordre de 10^-2
+      Hz a 10^-1 Hz et qu''il convient de mesurer pic-a-pic); bruit a long terme (toutes
+      les variations aleatoires perceptibles du signal du detecteur, dans des frequences
+      de l''ordre de 0,1 Hz a 1,0 Hz); derive (gradient moyen du signal de base mesure
+      sur une periode d''au moins une demi-heure).'
+  examples: []
+  id: r112-1994-f-2.8-fra
+  notes:
+  - content: Bien que le bruit a long terme puisse se produire a tout moment pendant
+      une analyse, il arrive qu'on le confonde avec un eluant tardif. Les pics d'elution
+      precedents sont habituellement plus nets et moins facilement confondus avec
+      le bruit a long terme.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bruit
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1bfb4012-dfb2-59c5-95e1-6204e3bc53c9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A measure of variation in the detector signal; it can be divided into
+      three components, namely short-term noise, long-term noise, and drift.
+  examples: []
+  id: r112-1994-e-2.8-eng
+  notes:
+  - content: Short-term noise includes all observable random variations of the detector
+      signal having a frequency of the order of 10^-2 Hz to 10^-1 Hz (one or more
+      cycles per minute) and should be measured peak to peak.
+  - content: Long-term noise includes all observable random variations of the detector
+      signal with frequencies between 0.1 Hz and 1.0 Hz.
+  - content: Drift is the average slope of the baseline signal measured over a minimum
+      period of one-half hour.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.8'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Noise
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c7aa7712-f706-5dee-b3dd-7019afd0c103
+

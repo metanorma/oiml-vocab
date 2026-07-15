@@ -1,0 +1,90 @@
+---
+data:
+  identifier: d27-2001-2.3
+  localized_concepts:
+    eng: b6e70b35-7253-5ed6-89a7-287000a1dce0
+    fra: 49db1585-269f-5560-b638-b8bd6ddcbc56
+  domains:
+  - concept_id: d-27
+    source: OIML D 27:2001
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.5'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.3'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: c97436cd-4f41-57af-8e06-55712fe263aa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Systematic examination and testing of the performance of one or more
+      specimens of an identified type (pattern) of measuring instruments against documented
+      requirements, the results of which are contained in the evaluation report, in
+      order to determine whether the type may be approved.
+  examples: []
+  id: d27-2001-e-2.3-eng
+  notes:
+  - content: '"Pattern" is used in legal metrology with the same meaning as "type";
+      in the entries below only "type" is used.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Type (pattern) evaluation
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b6e70b35-7253-5ed6-89a7-287000a1dce0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Examen et essai systématiques des performances d'un ou de plusieurs exemplaires
+      d'un type (modèle) identifié d'instrument de mesure par rapport à des exigences
+      documentées et dont le résultat est contenu dans un rapport d'évaluation afin
+      de déterminer si le type peut être approuvé.
+  examples: []
+  id: d27-2001-f-2.3-fra
+  notes:
+  - content: '"Modèle" est utilisé en métrologie légale avec la même signification
+      que "type"; dans les entrées ci-après, seul "type" est utilisé.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Évaluation de type (modèle)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 49db1585-269f-5560-b638-b8bd6ddcbc56
+

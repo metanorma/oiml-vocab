@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r137-2.1.10
+  localized_concepts:
+    eng: 3e55cae8-342e-5b0f-855c-6a5a8eb6c0d7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.10
+    type: authoritative
+status: valid
+id: 7661fd28-4ff5-56ea-be7a-6e26fb15496e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying measurement results.
+  examples: []
+  id: r137-2.1.10-eng
+  notes:
+  - content: 'The main ancillary devices are: a) repeating indicating device; b) printing
+      device; c) memory device; and d) communication device.'
+  - content: An ancillary device is not necessarily subject to metrological control.
+  - content: An ancillary device may be integrated in the gas meter.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3e55cae8-342e-5b0f-855c-6a5a8eb6c0d7
+

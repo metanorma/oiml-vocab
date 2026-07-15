@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r60-2017-3.1.3
+  localized_concepts:
+    eng: ec4eea98-81e1-52ac-be2f-0c2dedb3640a
+    fra: 56f6d730-a447-5afd-9ac8-ab693e6640b2
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+status: valid
+id: 22e5e927-d7e2-5bff-98d2-cea788901e65
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: transducteur de mesure qui produit un signal de sortie en réponse à une
+      charge appliquée. Ce signal de sortie peut être converti par un autre dispositif
+      en unités de mesure telle que la masse
+  examples: []
+  id: r60-2017-f-3.1.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cellule de pesée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 56f6d730-a447-5afd-9ac8-ab693e6640b2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measuring transducer that will produce an output in response to an applied
+      load. This output may be converted by another device into measurement units
+      such as mass
+  examples: []
+  id: r60-2017-e-3.1.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load cell
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec4eea98-81e1-52ac-be2f-0c2dedb3640a
+

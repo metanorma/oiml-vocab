@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r60-2000-2.3.15
+  localized_concepts:
+    eng: 537f7092-d070-547e-bd10-9b397930a08c
+    fra: c78c1246-3b43-5430-91e7-13659432ba00
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.15
+    type: authoritative
+status: valid
+id: d979c5f4-7d47-5eb5-a8c6-7feeade61ea1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Charge maximale pouvant être appliquée sans produire de dérives permanentes
+      des caractéristiques de performance, supérieures à celles spécifiées (E_lim).
+  examples: []
+  id: r60-2000-f-2.3.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Charge limite de sécurité (E_lim)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c78c1246-3b43-5430-91e7-13659432ba00
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Maximum load that can be applied without producing a permanent shift
+      in the performance characteristics beyond those specified (E_lim).
+  examples: []
+  id: r60-2000-e-2.3.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Safe load limit (E_lim)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 537f7092-d070-547e-bd10-9b397930a08c
+

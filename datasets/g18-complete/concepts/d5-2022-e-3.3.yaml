@@ -8,14 +8,25 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML D 5:2022
         version: '2022'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.3'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: 1172a2cb-bd66-59f3-9aaf-8e89cab57f54
 schema_version: '3'
@@ -49,26 +60,7 @@ data:
       measurement uncertainty is associated with a stated quantity value attributed
       to the measurand. A modification of this value results in a modification of
       the associated uncertainty.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '2.26'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: '3.3'
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

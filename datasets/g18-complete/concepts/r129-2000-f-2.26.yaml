@@ -8,30 +8,6 @@ data:
     source: OIML R 129:2000
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 129:2000
-        version: '2000'
-    locality:
-      type: clause
-      reference_from: '2.26'
-    type: authoritative
-status: valid
-id: 0ce23a87-0a6d-592e-8d11-5f41bc04b9e6
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Valeurs extrêmes (positive et négative) de l'erreur d'indication admises
-      sur spécifications, Recommandations, réglementations, etc. La valeur absolue
-      de l'emt est la même valeur sans signe.
-  examples: []
-  id: r129-2000-f-2.26-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 0ce23a87-0a6d-592e-8d11-5f41bc04b9e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeurs extrêmes (positive et négative) de l'erreur d'indication admises
+      sur spécifications, Recommandations, réglementations, etc. La valeur absolue
+      de l'emt est la même valeur sans signe.
+  examples: []
+  id: r129-2000-f-2.26-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

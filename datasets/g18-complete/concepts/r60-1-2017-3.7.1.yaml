@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r60-1-2017-3.7.1
+  localized_concepts:
+    eng: 1993732e-7288-57f2-aef8-db01e1aaf4ca
+    fra: '084918ec-a6ec-580c-8ea4-b7586546d30f'
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.1
+    type: authoritative
+status: valid
+id: 04adf07f-1007-5c8b-8bc7-3e0824f2bf68
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: change in load cell output occurring with time while under constant load
+      and with all environmental conditions and other variables also remaining constant
+  examples: []
+  id: r60-1-2017-eng-3.7.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: creep
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1993732e-7288-57f2-aef8-db01e1aaf4ca
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: variation du signal de sortie de la cellule de pesée se produisant avec
+      le temps sous l'action d'une charge constante, toutes les conditions ambiantes
+      et autres variables restant constantes
+  examples: []
+  id: r60-1-2017-fra-3.7.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fluage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '084918ec-a6ec-580c-8ea4-b7586546d30f'
+

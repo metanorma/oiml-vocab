@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r127-1999-4.13
+  localized_concepts:
+    eng: c0f7880b-922c-5219-b740-6431f641e47f
+    fra: c725177d-d255-56e9-b403-1cf2aabe0de8
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.13'
+status: valid
+id: d08036ad-7ce3-5b25-9e10-8093f375978e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The closeness of agreement between the results of successive measurements
+      of the same sample carried out under the same conditions and within a relatively
+      short period of time.
+  examples: []
+  id: r127-1999-e-4.13-eng
+  notes:
+  - content: The same conditions would include the same method of measurement, measuring
+      instrument, operator, location, and ambient environmental conditions.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: repeatability
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0f7880b-922c-5219-b740-6431f641e47f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Étroitesse de l'accord entre les résultats de mesurages successifs du
+      même échantillon effectués dans les mêmes conditions et dans un laps de temps
+      relativement court.
+  examples: []
+  id: r127-1999-f-4.13-fra
+  notes:
+  - content: On entend par "les mêmes conditions", les mêmes méthode de mesure, instrument
+      de mesure, opérateur, lieu et conditions environnementales.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Répétabilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c725177d-d255-56e9-b403-1cf2aabe0de8
+

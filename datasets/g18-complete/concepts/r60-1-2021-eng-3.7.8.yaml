@@ -8,29 +8,6 @@ data:
     source: OIML R 60-1:2021
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 60-1:2021
-        version: '2021'
-    locality:
-      type: clause
-      reference_from: 3.7.8
-    type: authoritative
-status: valid
-id: 030d11f7-1e96-5461-9615-f1fc6632db78
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: intrinsic error of a measuring instrument as determined prior to performance
-      tests and durability evaluations
-  examples: []
-  id: r60-1-2021-eng-3.7.8-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 030d11f7-1e96-5461-9615-f1fc6632db78
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: intrinsic error of a measuring instrument as determined prior to performance
+      tests and durability evaluations
+  examples: []
+  id: r60-1-2021-eng-3.7.8-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

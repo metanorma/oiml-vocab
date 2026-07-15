@@ -1,0 +1,88 @@
+---
+data:
+  identifier: d27-2001-2.11
+  localized_concepts:
+    eng: 5257acfd-8eda-53c3-b638-0624abbac60a
+    fra: 1151aa92-2c53-5a6d-8242-ec36d825247f
+  domains:
+  - concept_id: d-27
+    source: OIML D 27:2001
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
+status: valid
+id: a038829c-06b5-5350-a615-480da8f706eb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Part of quality management, focused on fulfilling quality requirements.
+  examples: []
+  id: d27-2001-e-2.11-eng
+  notes:
+  - content: 'Source citation: ISO 900 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    sourced_from:
+    - ref:
+        source: ISO 900
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Quality control
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5257acfd-8eda-53c3-b638-0624abbac60a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du management de la qualité axée sur la satisfaction des exigences
+      pour la qualité.
+  examples: []
+  id: d27-2001-f-2.11-fra
+  notes:
+  - content: 'Source citation: ISO 900 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 27:2001
+        version: '2001'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    sourced_from:
+    - ref:
+        source: ISO 900
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maître de la qualité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1151aa92-2c53-5a6d-8242-ec36d825247f
+

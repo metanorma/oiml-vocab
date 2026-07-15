@@ -1,0 +1,46 @@
+---
+data:
+  identifier: r129-2.23
+  localized_concepts:
+    fra: b5853b8f-0933-52a1-93ed-3c36297e1c65
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '2.23'
+    type: authoritative
+status: valid
+id: 3e463ea0-7923-5f36-9225-b3a129a539c4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication d'un instrument de mesure moins la valeur vraie de la grandeur
+      d'entrée correspondante.
+  examples: []
+  id: r129-2.23-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur d'indication
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b5853b8f-0933-52a1-93ed-3c36297e1c65
+

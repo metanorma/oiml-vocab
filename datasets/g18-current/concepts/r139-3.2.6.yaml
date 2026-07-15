@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 139-1:2022
+        source: OIML V 1:2013
         version: '2022'
     locality:
       type: clause
@@ -35,26 +35,7 @@ data:
   - content: 'Main ancillary devices are: a) zero-setting device; b) repeating indicating
       device; c) printing device; d) memory device; e) price indicating device; f)
       totalizing indicating device; g) presetting device; h) self-service device.'
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '5.06'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.2.6
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

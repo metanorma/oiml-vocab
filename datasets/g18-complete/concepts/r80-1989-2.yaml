@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r80-1989-2
+  localized_concepts:
+    eng: 350a4098-db98-51b3-aa24-dc791a295d0a
+    fra: 18c9cfd1-7600-56c1-86e1-88e0d1f88dc8
+  domains:
+  - concept_id: r-80
+    source: OIML R 80:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2'
+status: valid
+id: 861aeac0-7b58-5d0d-b068-41099ff46a6e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Volume maximal de liquide que la citerne peut contenir jusqu'au débordement,
+      dans les conditions assignées de fonctionnement, à la température de référence.
+  examples: []
+  id: r80-1989-f-2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Contenance totale
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-80
+    source: OIML R 80:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 18c9cfd1-7600-56c1-86e1-88e0d1f88dc8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The maximum volume of liquid which a tank may contain up to overflowing,
+      under rated operating conditions, at reference temperature.
+  examples: []
+  id: r80-1989-e-2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Total contents
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-80
+    source: OIML R 80:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 350a4098-db98-51b3-aa24-dc791a295d0a
+

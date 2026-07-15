@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r72-1985-6
+  localized_concepts:
+    eng: e483ee00-d74e-5f57-916e-45883d22d6d9
+    fra: 3f269511-312a-5008-aadf-a1dd8aaa9898
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+status: valid
+id: 3f915c79-3aeb-53b9-ba9c-70d47f6039d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rapport q d'un débit quelconque Q au débit maximal Q_max. Les deux rapports
+      particuliers utilisés dans la présente Recommandation sont q_t (Q_t/Q_max) et
+      q_min (Q_min/Q_max).
+  examples: []
+  id: r72-1985-f-6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit relatif (q = Q/Q_max)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3f269511-312a-5008-aadf-a1dd8aaa9898
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ratio q of any given flowrate Q to the maximum flowrate. The two
+      particular ratios used in this Recommendation are q_t (Q_t/Q_max) and q_min
+      (Q_min/Q_max).
+  examples: []
+  id: r72-1985-e-6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '6'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative flowrate (q = Q/Q_max)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e483ee00-d74e-5f57-916e-45883d22d6d9
+

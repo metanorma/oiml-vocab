@@ -1,0 +1,90 @@
+---
+data:
+  identifier: d11-2026-3.26
+  localized_concepts:
+    eng: df4d3fd9-33b3-5d38-bd77-21370d0960b7
+    fra: 3b02ca17-07ae-506b-89c2-110d5b03307d
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.26
+    type: authoritative
+status: valid
+id: f173af66-d604-5871-9b44-dbe640c9e39c
+schema_version: 3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: batterie qui permet de conserver la puissance électrique pour des fonctions
+      spécifiques d'un instrument, en l'absence de l'alimentation électrique primaire
+      (du secteur)
+  examples:
+  - content: Pour préserver des données stockées.
+  id: d11-2026-f-3.26-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.26'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: batterie (pile) de sauvegarde
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3b02ca17-07ae-506b-89c2-110d5b03307d
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply
+  examples: []
+  id: d11-2026-e-3.26-eng
+  notes:
+  - content: 'Example: To preserve stored data.'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.26
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: back-up battery
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: df4d3fd9-33b3-5d38-bd77-21370d0960b7
+

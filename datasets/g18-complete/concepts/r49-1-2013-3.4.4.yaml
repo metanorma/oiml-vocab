@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r49-1-2013-3.4.4
+  localized_concepts:
+    eng: 8d25ca7e-dad4-5d46-8783-d3c46d3a7f65
+    fra: fca6957c-bf93-535d-ab79-db742922169f
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.4.4
+status: valid
+id: 76d48cb5-510c-570d-9fc0-2eeadb4a3f3f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition requiring fulfilment during measurement in order
+      that a meter perform as designed
+  examples: []
+  id: r49-1-2013-eng-3.4.4-eng
+  notes:
+  - content: The rated operating conditions specify intervals for the flow rate and
+      for the influence quantities for which the errors (of indication) are required
+      to be within the maximum permissible errors.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.4.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated operating condition
+  - type: abbreviation
+    normative_status: admitted
+    designation: ROC
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8d25ca7e-dad4-5d46-8783-d3c46d3a7f65
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conditions de fonctionnement devant etre atteintes pendant le mesurage
+      afin que le compteur fonctionne tel qu'il a ete concu
+  examples: []
+  id: r49-1-2013-fra-3.4.4-fra
+  notes:
+  - content: Les conditions assignees de fonctionnement specifient les intervalles
+      pour les debits et pour les grandeurs d'influence dans lesquelles les erreurs
+      (d'indication) doivent etre au sein des erreurs maximales tolerees.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conditions assignees de fonctionnement
+  - type: abbreviation
+    normative_status: admitted
+    designation: CAF
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fca6957c-bf93-535d-ab79-db742922169f
+

@@ -8,32 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.5'
-status: valid
-id: a54cad39-df1d-5fb2-ac09-3264b60b6771
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: operation that, under specified conditions, in a first step, establishes
-      a relation between the quantity values with measurement uncertainties provided
-      by measurement standards and corresponding indications with associated measurement
-      uncertainties and, in a second step, uses this information to establish a relation
-      for obtaining a measurement result from an indication
-  examples: []
-  id: d5-2022-e-3.5-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: a54cad39-df1d-5fb2-ac09-3264b60b6771
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication
+  examples: []
+  id: d5-2022-e-3.5-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

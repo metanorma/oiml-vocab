@@ -1,0 +1,91 @@
+---
+data:
+  identifier: g1-100-2008-C.2.16
+  localized_concepts:
+    eng: 8400b038-f4bb-50c7-88d2-9a8afbde5e6c
+    fra: 4d5c859b-f9b7-55d2-8a49-159dbdbe2f33
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.16
+    type: authoritative
+status: valid
+id: ba573259-f081-5972-9a71-d209ce5c7b41
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: totalité des individus pris en considération
+  examples: []
+  id: g1-100-2008-f-C.2.16-fra
+  notes:
+  - content: Dans le cas d'une variable aléatoire, la loi de probabilité est considérée
+      comme définissant la population de cette variable.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.16
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: population
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4d5c859b-f9b7-55d2-8a49-159dbdbe2f33
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: the totality of items under consideration
+  examples: []
+  id: g1-100-2008-e-C.2.16-eng
+  notes:
+  - content: In the case of a random variable, the probability distribution is considered
+      to define the population of that variable.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.16
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: population
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8400b038-f4bb-50c7-88d2-9a8afbde5e6c
+

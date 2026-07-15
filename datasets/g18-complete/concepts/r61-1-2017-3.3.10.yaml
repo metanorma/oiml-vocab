@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r61-1-2017-3.3.10
+  localized_concepts:
+    eng: fd788dac-1b16-5051-a78a-5dbce5a9f261
+    deu: dbb1087c-79ce-51fe-a7f9-246b1f12d5be
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+status: valid
+id: 22af2807-0af1-5fb1-9003-b2ede41d05d9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: interface (hardware and/or software) which will only allow the introduction
+      into the instrument of data or instructions that cannot influence the metrological
+      properties of the instrument
+  examples: []
+  id: r61-1-2017-eng-3.3.10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protective interface
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fd788dac-1b16-5051-a78a-5dbce5a9f261
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Schnittstelle (Hardware und/oder Software), die das Einbringen von nur
+      solchen Daten oder Befehlen in die Waage zulässt, die die messtechnischen Eigenschaften
+      der Waage nicht beeinflussen können
+  examples: []
+  id: r61-1-2017-deu-3.3.10-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rückwirkungsfreie Schnittstelle
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dbb1087c-79ce-51fe-a7f9-246b1f12d5be
+

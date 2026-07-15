@@ -8,29 +8,6 @@ data:
     source: OIML R 60:2017
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 60:2017
-        version: '2017'
-    locality:
-      type: clause
-      reference_from: 3.7.12
-    type: authoritative
-status: valid
-id: 3de30ac7-d32b-5d92-972c-bcdac936336f
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: quantity value representing a measurement result
-  examples: []
-  id: r60-2017-e-3.7.12-eng
-  notes:
-  - content: "(For notes, refer to the VIM [2])."
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 3de30ac7-d32b-5d92-972c-bcdac936336f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity value representing a measurement result
+  examples: []
+  id: r60-2017-e-3.7.12-eng
+  notes:
+  - content: "(For notes, refer to the VIM [2])."
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

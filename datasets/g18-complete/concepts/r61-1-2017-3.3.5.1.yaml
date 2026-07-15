@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r61-1-2017-3.3.5.1
+  localized_concepts:
+    eng: eeb407a1-ae2e-5409-b5f3-6e4b8eca4c03
+    deu: 4148c2a1-edc6-564c-a42c-ff4fd9ecc717
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.5.1
+    type: authoritative
+status: valid
+id: afe223ec-0172-5a2f-8c75-44c6d497fdb8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung, mit der die Anzeige bei einer belasteten Waage auf null
+      gestellt wird
+  examples: []
+  id: r61-1-2017-deu-3.3.5.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.5.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Taraeinrichtung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4148c2a1-edc6-564c-a42c-ff4fd9ecc717
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'device for setting the indication to zero when a load is on the load
+      receptor: a) without altering the weighing range for net loads (additive tare
+      device); or b) reducing the weighing range for net loads (subtractive tare device)'
+  examples: []
+  id: r61-1-2017-eng-3.3.5.1-eng
+  notes:
+  - content: The tare device functions as a) a non-automatic device (load balanced
+      by operator), b) a semi-automatic device (load balanced automatically following
+      a single manual command), c) an automatic device (load balanced automatically
+      without the intervention of an operator).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.5.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tare device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eeb407a1-ae2e-5409-b5f3-6e4b8eca4c03
+

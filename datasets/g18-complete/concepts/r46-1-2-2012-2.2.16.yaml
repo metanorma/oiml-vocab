@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.16
+  localized_concepts:
+    eng: 6a5cc54f-9b2e-5f49-8d2a-762d520b8fec
+    fra: d7666704-1e7f-5883-925e-55752afa004b
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.16
+status: valid
+id: a6e9468d-10ce-58c1-ad0c-ce8fa53981df
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: active power integrated over time
+  examples: []
+  id: r46-1-2-2012-eng-2.2.16-eng
+  notes:
+  - content: E is the active energy. Other symbols are as defined in 2.2.15.
+  - content: Active energy is usually expressed in kWh or MWh. Refer to 3.1 for requirements
+      on units of measurement.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.16
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: active energy
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0cf604c0-dc79-5018-97eb-02d3d806fa77
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: puissance active intégrée dans le temps
+  examples: []
+  id: r46-1-2-2012-fra-2.2.16-fra
+  notes:
+  - content: L'énergie active est généralement exprimée en kWh ou MWh.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.16
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: énergie active
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3c4560b9-4357-57c9-b8d1-a04870803cee
+

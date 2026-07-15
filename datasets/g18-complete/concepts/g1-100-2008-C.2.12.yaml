@@ -1,0 +1,87 @@
+---
+data:
+  identifier: g1-100-2008-C.2.12
+  localized_concepts:
+    eng: 046f7ddf-6b18-56f7-925a-9bdb98dfb131
+    fra: 8e56b353-87a3-575e-9212-6743d1ff65fa
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.12
+    type: authoritative
+status: valid
+id: 10ee7478-1607-5c5f-9bb2-17ee26d7c6d3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'racine carrée positive de la variance: sigma = sqrt[V(X)]'
+  examples: []
+  id: g1-100-2008-f-C.2.12-fra
+  notes:
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.12
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écart-type (d'une variable aléatoire ou d'une loi de probabilité)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8e56b353-87a3-575e-9212-6743d1ff65fa
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'the positive square root of the variance: sigma = sqrt[V(X)]'
+  examples: []
+  id: g1-100-2008-e-C.2.12-eng
+  notes:
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.12
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: standard deviation (of a random variable or of a probability distribution)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 046f7ddf-6b18-56f7-925a-9bdb98dfb131
+

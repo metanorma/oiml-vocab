@@ -1,0 +1,82 @@
+---
+data:
+  identifier: d11-2013-3.21.5
+  localized_concepts:
+    eng: 3280cbed-9661-5e2e-83a9-9af9b3c6be1c
+    fra: d961b19b-e92c-571b-929c-054f94c816b5
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.22'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.21.5
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: d6ed666e-1d01-53f3-bba1-8fcd3f9939e8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: test intended to verify whether the EUT is able to maintain its performance
+      characteristics over a period of use
+  examples: []
+  id: d11-2013-e-3.21.5-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durability test
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3280cbed-9661-5e2e-83a9-9af9b3c6be1c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: essai permettant de vérifier si l'ESE est capable de conserver ses caractéristiques
+      de performances après un certain temps d'utilisation
+  examples: []
+  id: d11-2013-f-3.21.5-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai de durabilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d961b19b-e92c-571b-929c-054f94c816b5
+

@@ -1,0 +1,91 @@
+---
+data:
+  identifier: g1-100-2008-B.2.14
+  localized_concepts:
+    eng: 46ebf0b4-03ab-518d-99c7-272aa549c4a7
+    fra: ba90e9eb-54db-5126-a893-91029035642e
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.14
+    type: authoritative
+status: valid
+id: ad596195-febd-5973-a5a4-23a74f5f9962
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: étroitesse de l'accord entre le résultat d'un mesurage et une valeur
+      vraie du mesurande
+  examples: []
+  id: g1-100-2008-f-B.2.14-fra
+  notes:
+  - content: Le concept d'«exactitude» est qualitatif.
+  - content: Le terme «précision» ne doit pas être utilisé pour «exactitude».
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: exactitude de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ba90e9eb-54db-5126-a893-91029035642e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: closeness of the agreement between the result of a measurement and a
+      true value of the measurand
+  examples: []
+  id: g1-100-2008-e-B.2.14-eng
+  notes:
+  - content: '"Accuracy" is a qualitative concept.'
+  - content: The term precision should not be used for "accuracy".
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy of measurement
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 46ebf0b4-03ab-518d-99c7-272aa549c4a7
+

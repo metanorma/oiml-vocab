@@ -1,0 +1,80 @@
+---
+data:
+  identifier: d11-2026-3.4
+  localized_concepts:
+    eng: 4bebec27-522a-504e-941d-09085e3123d0
+    fra: 18803a8f-b2a1-5c35-aeac-cc0b72fc8f84
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.16'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 2ca74d02-99b0-544c-9c3d-00264f15de2f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre la valeur mesurée d'une grandeur et une valeur de référence
+  examples: []
+  id: d11-2026-f-3.4-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur (de mesure)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 18803a8f-b2a1-5c35-aeac-cc0b72fc8f84
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: d11-2026-e-3.4-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(measurement) error"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4bebec27-522a-504e-941d-09085e3123d0
+

@@ -8,29 +8,6 @@ data:
     source: OIML R 46-1:2012
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 46-1:2012
-        version: '2012'
-    locality:
-      type: clause
-      reference_from: 2.2.22
-    type: authoritative
-status: valid
-id: e774ee83-9642-59e5-81b6-a0e9ac7b0d9f
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Es el error intrínseco de un instrumento de medición, según se determine
-      antes de las pruebas de rendimiento y las evaluaciones de durabilidad.
-  examples: []
-  id: r46-1-spa-2.2.22-spa
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: e774ee83-9642-59e5-81b6-a0e9ac7b0d9f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Es el error intrínseco de un instrumento de medición, según se determine
+      antes de las pruebas de rendimiento y las evaluaciones de durabilidad.
+  examples: []
+  id: r46-1-spa-2.2.22-spa
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

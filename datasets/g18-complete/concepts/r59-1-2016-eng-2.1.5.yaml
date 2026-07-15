@@ -8,14 +8,25 @@ data:
     source: OIML R 59-1:2016
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 59-1:2016
         version: '2016'
     locality:
       type: clause
       reference_from: 2.1.5
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: 63b74c8c-8865-5fe1-a745-c1dd90320865
 schema_version: '3'
@@ -38,26 +49,7 @@ data:
   - content: The MPEs in 4.4.2 of this Recommendation are errors associated with a
       meter in use in the market place. The errors for the OIML test procedures are
       based on 4.4.1.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '4.26'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.5
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

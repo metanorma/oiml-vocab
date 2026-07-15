@@ -8,14 +8,25 @@ data:
     source: OIML B 3:2011
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.5'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML B 3:2011
         version: '2011'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.7'
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
 status: valid
 id: f21e2925-a23d-54d9-81af-687156155ff5
 schema_version: '3'
@@ -40,26 +51,7 @@ data:
       in the VIML to "conformity assessment procedure on one or more specimens of
       an identified type of measuring instrument which results in an evaluation report
       and/or an evaluation certificate".
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '2.5'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML B 3:2011
-        version: '2011'
-    locality:
-      type: clause
-      reference_from: '3.7'
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

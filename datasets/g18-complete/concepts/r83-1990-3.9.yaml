@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r83-1990-3.9
+  localized_concepts:
+    eng: dd550c77-1134-59ef-90f3-3aba6a4ed631
+    fra: 33216c2b-7cb8-51ba-a1e8-ff3a004dec43
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+status: valid
+id: a8af0ee5-52d6-545b-9cbc-8eccad4ce9f8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Représentation graphique ou sous forme de table des rapports mesurés
+      masse/charge (m/z) des ions séparés et des intensités correspondantes pour un
+      échantillon spécifique.
+  examples: []
+  id: r83-1990-f-3.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Spectre de masse
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 33216c2b-7cb8-51ba-a1e8-ff3a004dec43
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Either a graphical or tabular presentation form of the measured mass-to-charge
+      (m/z) ratios of separated ions and their corresponding intensities for a specific
+      sample.
+  examples: []
+  id: r83-1990-e-3.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mass spectrum
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dd550c77-1134-59ef-90f3-3aba6a4ed631
+

@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.5.5.6
   localized_concepts:
-    eng: 0d305f00-856a-561d-a609-1d3de4ecffa0
     fra: af0231ee-35db-5023-ae0b-c25b3ab809b2
   domains:
   - concept_id: section-terms
@@ -17,65 +16,9 @@ data:
       type: clause
       reference_from: T.5.5.6
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.6
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.6
-    type: authoritative
 status: valid
 id: 5becbde9-c414-5e13-be7b-9d98d55c82aa
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Fault greater than e.
-  examples: []
-  id: r76-T.5.5.6-eng
-  notes:
-  - content: For a multi-interval instrument, the value of e is that appropriate to
-      the partial weighing range.
-  - content: 'The following are not considered to be significant faults, even when
-      they exceed e: faults arising from simultaneous and mutually independent causes
-      in the instrument; faults implying the impossibility to perform any measurement;
-      faults being so serious that they are bound to be noticed by all those interested
-      in the result of measurement; or transitory faults, being momentary variations
-      in the indication which cannot be interpreted, memorized or transmitted as a
-      measuring result.'
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.6
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: significant fault
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 0d305f00-856a-561d-a609-1d3de4ecffa0
 ---
 data:
   dates:
@@ -98,7 +41,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -111,8 +54,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: af0231ee-35db-5023-ae0b-c25b3ab809b2

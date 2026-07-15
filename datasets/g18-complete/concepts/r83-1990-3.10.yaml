@@ -1,0 +1,104 @@
+---
+data:
+  identifier: r83-1990-3.10
+  localized_concepts:
+    eng: ed9df4f1-f687-51e8-8206-a7fcb51db731
+    fra: c9f5a168-6c8d-55c1-8aa2-05e22736d11b
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+status: valid
+id: 428cc999-0255-59cb-9746-0ce22a6bc697
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The minimum amount of a specific compound which, when injected into the
+      gas chromatograph can produce a signal-to-noise ratio of at least 10 for a characteristic
+      molecular ion of that compound subject to the following conditions; in the full
+      scan mode, a scan time (for example, one second) over the appropriate mass range
+      shall be specified; in the selected ion monitoring (SIM) mode, the principal
+      ion characterizing the compound shall be measured. The mode of ionization (electron
+      impact or chemical ionization) shall be considered.
+  examples: []
+  id: r83-1990-e-3.10-eng
+  notes:
+  - content: Methyl stearate is often used as the test compound.
+  - content: The term "sensitivity" is frequently used to have the same meaning as
+      this term within the community of mass spectrometer manufacturers and users.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detection limit of a gas chromatograph/mass spectrometer system
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ed9df4f1-f687-51e8-8206-a7fcb51db731
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantité minimale d'un composé donné qui, injecté dans le chromatographe,
+      permet d'obtenir un rapport signal/bruit d'au moins 10 pour un ion moléculaire
+      caractéristique de ce composé dans les conditions suivantes; en mode de balayage
+      complet, un temps de balayage de l'étendue appropriée des masses doit être spécifié
+      (par exemple une seconde); en mode de contrôle d'un ion spécifique, il faut
+      mesurer l'ion principal du composé. Il faut également tenir compte du mode d'ionisation
+      (impact d'électrons ou ionisation chimique).
+  examples: []
+  id: r83-1990-f-3.10-fra
+  notes:
+  - content: Le methyl stéarate est souvent utilisé comme composé d'essai.
+  - content: Les constructeurs et utilisateurs de spectromètres de masse emploient
+      souvent le terme "sensibilité" dans le même sens que "limite de détction".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de détction d'un ensemble chromatographe en phase gazeuse/spectromètre
+      de masse
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c9f5a168-6c8d-55c1-8aa2-05e22736d11b
+

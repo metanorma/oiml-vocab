@@ -8,33 +8,6 @@ data:
     source: OIML R 139-1:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.2.11
-    type: authoritative
-status: valid
-id: 06b43863-387e-5f3e-bec5-e073c1c9560f
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: instrument for the measurement of a quantity, other than the measurand,
-      the value of which is used to correct or convert a measurement result
-  examples: []
-  id: r139-1-2022-eng-3.2.11-eng
-  notes:
-  - content: Within the scope of this Recommendation, this concerns the instrument
-      which is connected to the calculator or the correction device, for measuring
-      certain quantity values which are characteristic of the gas, with a view to
-      making a correction.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 06b43863-387e-5f3e-bec5-e073c1c9560f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrument for the measurement of a quantity, other than the measurand,
+      the value of which is used to correct or convert a measurement result
+  examples: []
+  id: r139-1-2022-eng-3.2.11-eng
+  notes:
+  - content: Within the scope of this Recommendation, this concerns the instrument
+      which is connected to the calculator or the correction device, for measuring
+      certain quantity values which are characteristic of the gas, with a view to
+      making a correction.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

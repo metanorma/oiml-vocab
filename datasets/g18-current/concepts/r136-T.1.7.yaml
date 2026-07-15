@@ -3,28 +3,11 @@ data:
   identifier: r136-T.1.7
   localized_concepts:
     eng: 7b469ae0-07d4-5488-afc8-a59e1904687a
-    deu: 47f8973e-0858-5783-97ae-4054b10be43b
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.7
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.7
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -51,7 +34,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -64,42 +47,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 7b469ae0-07d4-5488-afc8-a59e1904687a
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Messung des Ausmaßes der Fläche eines Ledermaterials, das so gehalten
-      oder unterlegt wird, dass das Material für die Messung in einer Form vorliegt,
-      die die dreidimensionalen Eigenschaften des Materials beseitigt.
-  examples: []
-  id: r136-T.1.7-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.7
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Lederfläche
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 47f8973e-0858-5783-97ae-4054b10be43b
 

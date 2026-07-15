@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r106-2011-0.3.4.1
+  localized_concepts:
+    eng: e8ed2401-8899-5b33-abc4-51479e2595af
+    fra: b5cc1f71-1d9f-5767-b545-35933677a01c
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.4.1
+    type: authoritative
+status: valid
+id: f398716a-b84d-5659-a3f3-ff3d660273c3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: greatest velocity of a wagon that the instrument is designed to weigh
+      in-motion and above which the weighing result may be subject to an excessive
+      relative error
+  examples: []
+  id: r106-2011-e-0.3.4.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum operating speed
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e8ed2401-8899-5b33-abc4-51479e2595af
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: vitesse la plus elevee d un wagon que l instrument est concu pour peser
+      en mouvement et au-dessus de laquelle le resultat de pesage peut etre sujet
+      a une erreur relative excessive
+  examples: []
+  id: r106-2011-f-0.3.4.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vitesse maximale de fonctionnement
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b5cc1f71-1d9f-5767-b545-35933677a01c
+

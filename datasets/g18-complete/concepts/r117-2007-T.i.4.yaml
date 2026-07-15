@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r117-2007-T.i.4
+  localized_concepts:
+    eng: d4ad59fb-3987-5abd-b044-c7c28bc820f3
+    fra: 2cd24108-127a-508e-912f-8697254f1cf3
+  domains:
+  - concept_id: r-117
+    source: OIML R 117:2007
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.i.4
+    type: authoritative
+status: valid
+id: a49558ad-aea2-5a01-b357-e62a97c204d1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Un ensemble de mesurage interruptible est un ensemble de mesurage pour
+      lequel le débit du liquide peut être aisément et rapidement interrompu (sans
+      recourir à un dispositif d'arrêt d'urgence). Dans les autres cas, l'ensemble
+      de mesurage est considéré non-interruptible.
+  examples: []
+  id: r117-2007-f-T.i.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.i.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ensemble de mesurage interruptible ou non-interruptible
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-117
+    source: OIML R 117:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2cd24108-127a-508e-912f-8697254f1cf3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An interruptible measuring system is a measuring system in which the
+      liquid flow can be stopped easily and rapidly (this does not include an emergency
+      stop). In other cases the measuring system is considered to be non-interruptible.
+  examples: []
+  id: r117-2007-e-T.i.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 117:2007
+        version: '2007'
+    locality:
+      type: clause
+      reference_from: T.i.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interruptible and non-interruptible measuring system
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-117
+    source: OIML R 117:2007
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d4ad59fb-3987-5abd-b044-c7c28bc820f3
+

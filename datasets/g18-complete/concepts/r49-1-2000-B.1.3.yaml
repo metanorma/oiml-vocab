@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r49-1-2000-B.1.3
+  localized_concepts:
+    eng: 76fc4136-9573-59c4-94f4-dd18a3a3c416
+    fra: 6abf18dd-4bc3-5953-b590-1a42774261fb
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.3
+    type: authoritative
+status: valid
+id: 7e1f00ca-e2d0-584f-a177-6cf9a74ab85c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: débit le plus faible auquel un compteur d'eau peut donner des indications
+      satisfaisant aux exigences relatives aux erreurs maximales tolérées dans la
+      zone inférieure
+  examples: []
+  id: r49-1-2000-fra-B.1.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit inférieur
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{\\mathrm{l}}$"
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6abf18dd-4bc3-5953-b590-1a42774261fb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: lowest flowrate at which a water meter can give indications that satisfy
+      requirements concerning the maximum permissible errors in the lower zone
+  examples: []
+  id: r49-1-2000-eng-B.1.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: low flowrate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{\\mathrm{l}}$"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 76fc4136-9573-59c4-94f4-dd18a3a3c416
+

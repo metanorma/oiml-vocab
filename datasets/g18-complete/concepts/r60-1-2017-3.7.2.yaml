@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r60-1-2017-3.7.2
+  localized_concepts:
+    eng: 668a9309-8e6e-53cf-8d75-e8e261b40ae5
+    fra: 93ce59d6-8aca-59f7-96d1-ce073d397891
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.2
+    type: authoritative
+status: valid
+id: 78958591-37fc-51a4-b02a-4d74a16a15be
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur d'une fraction sans dimension exprimée comme une décimale (par
+      exemple, 0,7), représentant la répartition d'une erreur observée dans l'instrument
+      (de pesage) attribuée à la cellule de pesée seule (p_LC)
+  examples: []
+  id: r60-1-2017-fra-3.7.2-fra
+  notes:
+  - content: Cette valeur est utilisée pour déterminer l'EMT (voir 3.7.10).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur de répartition (p_LC)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 93ce59d6-8aca-59f7-96d1-ce073d397891
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of a dimensionless fraction expressed as a decimal (for example,
+      0.7) representing that portion of an error observed in the (weighing) instrument
+      which is attributed to the load cell alone
+  examples: []
+  id: r60-1-2017-eng-3.7.2-eng
+  notes:
+  - content: This value is used in determining the MPE (see 3.7.10).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: apportioning factor
+  - type: symbol
+    designation: "$p_{\\mathrm{LC}}$"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 668a9309-8e6e-53cf-8d75-e8e261b40ae5
+

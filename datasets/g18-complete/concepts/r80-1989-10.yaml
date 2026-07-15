@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r80-1989-10
+  localized_concepts:
+    eng: 0ae72414-5381-5cf5-8005-92b7b8631c62
+    fra: 2268848d-910c-5715-a8f3-1c475cf5a2fd
+  domains:
+  - concept_id: r-80
+    source: OIML R 80:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '10'
+status: valid
+id: f17dcd54-eb18-57e9-a593-7d5b2dcaa227
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The expression, in the form of a table, of the mathematical function
+      V(h) [resp. V(C)] representing the relation between the height h [resp. ullage
+      height C] (independent variable) and the volume V (dependent variable).
+  examples: []
+  id: r80-1989-e-10-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Calibration table
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-80
+    source: OIML R 80:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0ae72414-5381-5cf5-8005-92b7b8631c62
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Expression sous forme de tableau, de la fonction mathématique V(h) [resp.
+      V(C)] qui représente la relation entre la hauteur h [resp. le creux C] (variable
+      indépendante) et le volume V (variable dependante).
+  examples: []
+  id: r80-1989-f-10-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 80:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '10'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Table de jaugeage (barème)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-80
+    source: OIML R 80:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2268848d-910c-5715-a8f3-1c475cf5a2fd
+

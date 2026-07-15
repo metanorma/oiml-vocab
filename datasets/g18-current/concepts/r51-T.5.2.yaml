@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 51:2006
+        source: OIML V 2:1993
         version: '2006'
     locality:
       type: clause
@@ -31,26 +31,7 @@ data:
   examples: []
   id: r51-T.5.2-eng
   notes:
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2:1993
-    locality:
-      type: clause
-      reference_from: '5.5'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 51:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.2
-    sourced_from:
-    - ref:
-        source: OIML V 2:1993
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -8,30 +8,6 @@ data:
     source: OIML R 139:2018
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139:2018
-        version: '2018'
-    locality:
-      type: clause
-      reference_from: 3.4.3
-    type: authoritative
-status: valid
-id: 761e64a4-d36a-5f34-b387-044a25063e7e
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: influence quantity having a value ranging within the limits specified
-      in the relevant Recommendation, but outside the specified rated operating conditions
-      of a measuring instrument
-  examples: []
-  id: r139-2018-e-3.4.3-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 761e64a4-d36a-5f34-b387-044a25063e7e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value ranging within the limits specified
+      in the relevant Recommendation, but outside the specified rated operating conditions
+      of a measuring instrument
+  examples: []
+  id: r139-2018-e-3.4.3-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

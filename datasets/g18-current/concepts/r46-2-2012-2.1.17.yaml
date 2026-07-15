@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r46-2-2012-2.1.17
+  localized_concepts:
+    eng: 892ec503-69ee-5932-86ee-3885a52cb7f7
+    fra: 7f2b5734-ccfc-5e4f-af7c-e195b20c420d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:0
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2-2012-2.1.17
+    type: authoritative
+status: valid
+id: be107b4a-5518-5aa1-890c-eb29da02dc69
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device which can be used for testing the meter, providing pulses or the
+      means to provide pulses corresponding to the energy measured by the meter
+  examples: []
+  id: r46-2-2012-2.1.17-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.17
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test output
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 892ec503-69ee-5932-86ee-3885a52cb7f7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif qui peut être utilisé pour tester le compteur, fournissant
+      des impulsions ou les moyens pour fournir des impulsions correspondant à l'énergie
+      mesurée par le compteur
+  examples: []
+  id: r46-2-2012-2.1.17-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.17
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de sortie d'essai
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7f2b5734-ccfc-5e4f-af7c-e195b20c420d
+

@@ -1,0 +1,114 @@
+---
+data:
+  identifier: d31-2008-3.1.15
+  localized_concepts:
+    fra: 641c979d-b6c1-59ea-8a86-3a230e93eb7e
+    spa: 1dc90e7c-946b-55d6-983c-3757654e74dd
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.15
+    type: authoritative
+status: valid
+id: 5718f969-48b7-5d73-82be-94857d52cac3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrumento de medida diseñado para medir una magnitud ya sea eléctrica
+      o no, utilizando métodos electrónicos y/o equipado con dispositivos electrónicos.
+  examples: []
+  id: d31-2008-spa-3.1.15-spa
+  notes:
+  - content: En este Documento el equipamiento auxiliar se considerará parte del instrumento
+      de medida, siempre que esté sujeto al control metrológico legal.
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.1'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.15
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrumento de medida electrónico
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1dc90e7c-946b-55d6-983c-3757654e74dd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument de mesure destiné à mesurer une quantité électrique ou non-electrique
+      en utilisant des moyens électriques et/ou équipés de dispositifs électroniques.
+  examples: []
+  id: d31-2008-f-3.1.15-fra
+  notes:
+  - content: Pour les besoins de ce Document, les équipements complémentaires, dans
+      la mesure où ils sont soumis au contrôle de la métrologie légale, sont considérés
+      comme faisant partie de l'instrument de mesure.
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.1'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.15
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrument de mesure électronique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 641c979d-b6c1-59ea-8a86-3a230e93eb7e
+

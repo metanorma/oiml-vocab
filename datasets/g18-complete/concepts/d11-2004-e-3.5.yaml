@@ -8,29 +8,6 @@ data:
     source: OIML D 11:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 11:2004
-        version: '2004'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.5'
-status: valid
-id: b588becc-65f7-539f-9194-89f955194993
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Indication of a measuring instrument minus a true value of the corresponding
-      input quantity.
-  examples: []
-  id: d11-2004-e-3.5-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: b588becc-65f7-539f-9194-89f955194993
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication of a measuring instrument minus a true value of the corresponding
+      input quantity.
+  examples: []
+  id: d11-2004-e-3.5-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r49-2013-3.1.16
+  localized_concepts:
+    eng: 7ea72943-f789-5156-992f-ed94a9564366
+    fra: 580184fb-f1bb-5830-98bc-514a50424a27
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+status: valid
+id: c84e7d31-790f-5d4c-91b1-18ae278f0c51
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: meter comprising one large meter, one small meter, and a changeover device
+      that, depending on the magnitude of the flow rate passing through the meter,
+      automatically directs the flow through either the small or the large meter,
+      or both
+  examples: []
+  id: r49-2013-e-3.1.16-eng
+  notes:
+  - content: The meter reading is obtained from two independent totalizers, or from
+      one totalizer which adds up the values from both water meters.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: combination meter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7ea72943-f789-5156-992f-ed94a9564366
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: compteur comprenant un gros compteur, un petit compteur et un dispositif
+      de selection qui, en fonction de la valeur du debit passant au travers du compteur,
+      dirige automatiquement le flux dans le petit compteur, dans le grand, ou bien
+      dans les deux
+  examples: []
+  id: r49-2013-e-3.1.16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur combine
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 580184fb-f1bb-5830-98bc-514a50424a27
+

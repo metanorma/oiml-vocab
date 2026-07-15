@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r51-1-1996-T.5.3
+  localized_concepts:
+    eng: 518eca0f-6c51-5d91-bd3f-453ba91636b9
+    fra: c30bf605-c59a-5e71-ad12-b78b515456db
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '5.7'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.5.3
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: b904faec-d1f6-5980-adbd-9b52408c84a7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: a set of specified values of influence factors fixed to ensure valid
+      intercomparison of the results of measurements
+  examples: []
+  id: r51-1-1996-eng-T.5.3-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference conditions
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 518eca0f-6c51-5d91-bd3f-453ba91636b9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble des valeurs spécifiées des facteurs d'influence, fixées pour
+      permettre des comparaisons valables entre résultats de mesure.
+  examples: []
+  id: r51-1-1996-fra-T.5.3-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conditions de référence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c30bf605-c59a-5e71-ad12-b78b515456db
+

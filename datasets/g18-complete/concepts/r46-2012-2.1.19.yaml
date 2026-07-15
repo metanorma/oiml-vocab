@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r46-2012-2.1.19
+  localized_concepts:
+    eng: ad3c26f4-6065-55ed-ad34-6a4d3552d77e
+    fra: a977f695-2714-54e1-b65f-fd24fbe88f3f
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.06'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.19
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: b2b9ea44-e5f2-5f3d-a283-e1ed07eb1dda
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying measurement results
+  examples: []
+  id: r46-2012-e-2.1.19-eng
+  notes:
+  - content: An ancillary device is not part of the basic metrology function of a
+      meter.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ad3c26f4-6065-55ed-ad34-6a4d3552d77e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif destiné à accomplir une fonction particulière directement
+      impliquée dans l'élaboration, la transmission ou l'affichage de résultats de
+      mesurage
+  examples: []
+  id: r46-2012-e-2.1.19-fra
+  notes:
+  - content: Un dispositif complémentaire ne fait pas partie des fonctions métrologiques
+      de base d'un compteur.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif complémentaire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a977f695-2714-54e1-b65f-fd24fbe88f3f
+

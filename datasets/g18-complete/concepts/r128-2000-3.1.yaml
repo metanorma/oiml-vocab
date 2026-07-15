@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r128-2000-3.1
+  localized_concepts:
+    eng: 7797ee61-0bc5-5759-bea3-fb33a0417a68
+    fra: 0db9bbb1-fced-5548-b75c-4ccf57b40e44
+  domains:
+  - concept_id: r-128
+    source: OIML R 128:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+status: valid
+id: b7d66698-81c2-5e0b-bf3f-3037750be2f7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Les ergomètres à pédalier sont des appareils équipés d'un système à pédales,
+      d'un dispositif de freinage et d'un dispositif indicateur. Ils sont utilisés
+      pour mesurer l'effort physique défini et reproductible exercé par des sujets
+      (patients).
+  examples: []
+  id: r128-2000-f-3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ergomètres à pedalier
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-128
+    source: OIML R 128:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0db9bbb1-fced-5548-b75c-4ccf57b40e44
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Foot crank ergomers are devices that are equipped with a pedal arrangement,
+      a braking device and an indicating device. They are used for the defined and
+      reproducible physical stressing of subjects (patients).
+  examples: []
+  id: r128-2000-e-3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 128:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ergometers for foot crank work (foot crank ergometers)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-128
+    source: OIML R 128:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7797ee61-0bc5-5759-bea3-fb33a0417a68
+

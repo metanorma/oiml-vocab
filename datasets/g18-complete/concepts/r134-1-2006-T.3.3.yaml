@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r134-1-2006-T.3.3
+  localized_concepts:
+    eng: 6ca18806-18eb-5452-972c-3295467e6d2d
+    fra: 4c4559de-f05f-53ec-a9b6-e98dc0260889
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+status: valid
+id: a71da61c-e5ac-5ed4-ad8a-e2662eb012ed
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value expressed in units of mass for weighing-in-motion that is the difference
+      between two consecutive indicated or printed values.
+  examples: []
+  id: r134-1-2006-eng-T.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale interval
+  - type: symbol
+    normative_status: admitted
+    designation: d
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6ca18806-18eb-5452-972c-3295467e6d2d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur exprimée en unités de masse pour le pesage en mouvement, qui est
+      la différence entre deux valeurs consécutives indiquées ou imprimées.
+  examples: []
+  id: r134-1-2006-fra-T.3.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échelon
+  - type: symbol
+    normative_status: admitted
+    designation: d
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4c4559de-f05f-53ec-a9b6-e98dc0260889
+

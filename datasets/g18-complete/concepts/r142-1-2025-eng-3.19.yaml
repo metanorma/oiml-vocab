@@ -8,31 +8,6 @@ data:
     source: OIML R 142-1:2025
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 142-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '3.19'
-    type: authoritative
-status: valid
-id: 0f3f7449-200b-5f69-99dc-9700c3cd0f6f
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: decision of legal relevance, based on the review of the type evaluation
-      report, that the type of a measuring instrument complies with the relevant statutory
-      requirements and results in the issuance of the type approval certificate
-  examples: []
-  id: r142-1-2025-eng-3.19-eng
-  notes:
-  - content: See also VIML A.25.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 0f3f7449-200b-5f69-99dc-9700c3cd0f6f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: decision of legal relevance, based on the review of the type evaluation
+      report, that the type of a measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate
+  examples: []
+  id: r142-1-2025-eng-3.19-eng
+  notes:
+  - content: See also VIML A.25.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

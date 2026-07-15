@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.24
+  localized_concepts:
+    eng: 4398d16c-6537-5fb9-80b4-df86a7c5c990
+    fra: 9c93d470-466b-5892-ab5c-56db4c507ca6
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.18'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.24
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: c8f50404-9e18-5fb6-9e53-91069d92711b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont la valeur se situe dans les conditions assignées
+      de fonctionnement d'un instrument de mesure
+  examples: []
+  id: r46-1-2-2012-fra-2.2.24-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur d'influence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c790e5df-d94e-59ba-8995-f8958b4346cc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value which ranges within the rated operating
+      conditions of a measuring instrument
+  examples: []
+  id: r46-1-2-2012-eng-2.2.24-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 28c6623c-81bd-5d0a-ac53-4b9e46caec94
+

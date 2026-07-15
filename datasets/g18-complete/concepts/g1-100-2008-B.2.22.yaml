@@ -1,0 +1,97 @@
+---
+data:
+  identifier: g1-100-2008-B.2.22
+  localized_concepts:
+    eng: 6c70b0c8-a6d5-507f-b6e2-6144ff57556d
+    fra: 35625ebf-aacc-5bad-b8e0-e359fb0be2c4
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.22
+    type: authoritative
+status: valid
+id: 2c73fda0-8791-58ad-a2ee-a97ad1630e81
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: moyenne qui résultait d'un nombre infini de mesurages du même mesurande,
+      effectués dans les conditions de répétabilité, moins une valeur vraie du mesurande
+  examples: []
+  id: g1-100-2008-f-B.2.22-fra
+  notes:
+  - content: L'erreur systématique est égale à l'erreur moins l'erreur aléatoire.
+  - content: Comme la valeur vraie, l'erreur systématique et ses causes ne peuvent
+      pas être connues complètement.
+  - content: Pour un instrument de mesure, voir «erreur de justesse» (VIM:1993, définition
+      5.25).
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.22
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur systématique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 35625ebf-aacc-5bad-b8e0-e359fb0be2c4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: mean that would result from an infinite number of measurements of the
+      same measurand carried out under repeatability conditions minus a true value
+      of the measurand
+  examples: []
+  id: g1-100-2008-e-B.2.22-eng
+  notes:
+  - content: Systematic error is equal to error minus random error.
+  - content: Like true value, systematic error and its causes cannot be completely
+      known.
+  - content: For a measuring instrument, see "bias" (VIM:1993, definition 5.25).
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.22
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: systematic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6c70b0c8-a6d5-507f-b6e2-6144ff57556d
+

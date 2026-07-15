@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.5.5.2
   localized_concepts:
-    eng: 710af3e0-76dc-5126-8942-517a0c4aaa68
     fra: a2f51dea-1977-5ebd-86ae-bcc429be725c
   domains:
   - concept_id: section-terms
@@ -11,23 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.2
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.2
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
+        source: OIML V 2:1993
         version: '2006'
     locality:
       type: clause
@@ -42,72 +25,11 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Error of an instrument determined under reference conditions.
-  examples: []
-  id: r76-T.5.5.2-eng
-  notes:
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2:1993
-    locality:
-      type: clause
-      reference_from: '5.4'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.2
-    sourced_from:
-    - ref:
-        source: OIML V 2:1993
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: intrinsic error
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: v-2
-    source: OIML V 2:1993
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 710af3e0-76dc-5126-8942-517a0c4aaa68
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
   - content: Erreur d'un instrument utilisé dans les conditions de référence.
   examples: []
   id: r76-T.5.5.2-fra
   notes:
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2:1993
-    locality:
-      type: clause
-      reference_from: '5.4'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.5.5.2
-    sourced_from:
-    - ref:
-        source: OIML V 2:1993
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

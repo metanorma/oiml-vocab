@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.3.2.6
   localized_concepts:
-    eng: c0c0e138-4846-550f-ac41-cadff6fb8346
     fra: 1f1b6db6-2db0-5106-9710-00a6969a1acf
   domains:
   - concept_id: section-terms
@@ -17,59 +16,9 @@ data:
       type: clause
       reference_from: T.3.2.6
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.3.2.6
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.3.2.6
-    type: authoritative
 status: valid
 id: 358032a4-9bc7-5d76-aeb1-9f25fa974194
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Instrument having one weighing range which is divided into partial weighing
-      ranges each with different scale intervals, with the partial weighing range
-      determined automatically according to the load applied, both on increasing and
-      decreasing loads.
-  examples: []
-  id: r76-T.3.2.6-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.3.2.6
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: multi-interval instrument
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: c0c0e138-4846-550f-ac41-cadff6fb8346
 ---
 data:
   dates:
@@ -86,7 +35,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -99,8 +48,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1f1b6db6-2db0-5106-9710-00a6969a1acf

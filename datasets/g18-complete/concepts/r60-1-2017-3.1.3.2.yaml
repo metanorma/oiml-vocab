@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r60-1-2017-3.1.3.2
+  localized_concepts:
+    eng: 8f09c597-243d-561b-aed3-7cb5a1945789
+    fra: 5169faf2-9c64-5242-ac25-19a3d9fe585a
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.3.2
+    type: authoritative
+status: valid
+id: 12d25f7a-f78d-5619-b90c-65a77f5b0b20
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: cellule de pesée capable de remplir les fonctions décrites au point «
+      cellule de pesée analogique passive » (3.1.3.1) et qui utilise également des
+      composantes électroniques actives
+  examples: []
+  id: r60-1-2017-fra-3.1.3.2-fra
+  notes:
+  - content: Ce type de cellule de pesée peut utiliser les composantes électroniques
+      actives pour obtenir une représentation électronique de la valeur du mesurande,
+      une compensation active de la température, et des fonctions similaires influençant
+      la valeur du mesurande.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cellule de pesée analogique active
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5169faf2-9c64-5242-ac25-19a3d9fe585a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: load cell which is capable of performing the functions as described under
+      analog-passive load cell and which also utilizes active electronics
+  examples: []
+  id: r60-1-2017-eng-3.1.3.2-eng
+  notes:
+  - content: This type of load cell may utilize the active electronics for gaining
+      an electronic representation of the measurand value, active temperature compensation,
+      and similar functions being of influence to the measurand value.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: analog-active load cell
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8f09c597-243d-561b-aed3-7cb5a1945789
+

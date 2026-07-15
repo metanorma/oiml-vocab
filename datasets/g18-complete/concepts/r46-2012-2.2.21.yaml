@@ -1,0 +1,80 @@
+---
+data:
+  identifier: r46-2012-2.2.21
+  localized_concepts:
+    eng: 1761c215-fbf7-583a-b94f-35f78e64614c
+    fra: 9c4fa2bb-0e31-517d-9b75-ef3c1ebbcff7
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '0.06'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.21
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 1ec15412-2c8b-5c61-94cc-aa6e37a6da01
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: error of a measuring instrument, determined under reference conditions
+  examples: []
+  id: r46-2012-e-2.2.21-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1761c215-fbf7-583a-b94f-35f78e64614c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: erreur d'indication déterminée dans les conditions de référence
+  examples: []
+  id: r46-2012-e-2.2.21-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9c4fa2bb-0e31-517d-9b75-ef3c1ebbcff7
+

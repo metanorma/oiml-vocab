@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r137-2.1.12
+  localized_concepts:
+    eng: 906456f2-6090-5c60-8552-de402f8e9a61
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+status: valid
+id: cd416ee8-a130-526a-b5e6-61ab4276d2e0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: "(Part of the) gas meter and/or associated devices which is exposed to
+      one of the tests."
+  examples: []
+  id: r137-2.1.12-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: equipment under test
+  - type: expression
+    normative_status: admitted
+    designation: EUT
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 906456f2-6090-5c60-8552-de402f8e9a61
+

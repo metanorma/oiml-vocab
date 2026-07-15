@@ -1,0 +1,98 @@
+---
+data:
+  identifier: b18-2017-3.28
+  localized_concepts:
+    eng: 7e7c02f9-9c8c-55af-ae05-3962bd9ba3df
+    fra: 7b2c091c-0c73-5d4e-8805-7cb0ccab27d9
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.28'
+status: valid
+id: 4e2c7ee1-4f74-5f4f-96de-2687c9ac892e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rapport délivré par un laboratoire d'essai, qui contient les résultats
+      des essais et examens qu'il a effectués sur la base de la Recommandation OIML
+      applicable pendant l'évaluation de type OIML menée sur un ou plusieurs échantillon(s)
+      identifié(s) d'un type donné d'instrument de mesure ou de module
+  examples: []
+  id: b18-2017-f-3.28-fra
+  notes:
+  - content: Sauf disposition contraire de la Recommandation OIML, plusieurs rapports
+      d'essai peuvent être délivrés dans le cas où plusieurs laboratoires d'essai
+      sont impliqués dans la réalisation de tous les essais et examens spécifiés dans
+      la Recommandation OIML applicable.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.28'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rapport d'essai OIML
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7b2c091c-0c73-5d4e-8805-7cb0ccab27d9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: report issued by a test laboratory that includes the results of tests
+      and examinations it carried out on the basis of the relevant OIML Recommendation
+      during OIML type evaluation on identified sample(s) of a given type of measuring
+      instrument or module
+  examples: []
+  id: b18-2017-e-3.28-eng
+  notes:
+  - content: Unless the OIML Recommendation states otherwise, several test reports
+      may be issued if several test laboratories are involved in covering all of the
+      tests and examinations specified in the relevant OIML Recommendation.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2017
+        version: '2017'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.28'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: OIML test report
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7e7c02f9-9c8c-55af-ae05-3962bd9ba3df
+

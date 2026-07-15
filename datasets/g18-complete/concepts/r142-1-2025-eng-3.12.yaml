@@ -8,28 +8,6 @@ data:
     source: OIML R 142-1:2025
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 142-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '3.12'
-    type: authoritative
-status: valid
-id: 3a3b4b51-737f-5089-93f8-406b7f09802e
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: measurement precision under a set of repeatability conditions of measurement
-  examples: []
-  id: r142-1-2025-eng-3.12-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 3a3b4b51-737f-5089-93f8-406b7f09802e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement precision under a set of repeatability conditions of measurement
+  examples: []
+  id: r142-1-2025-eng-3.12-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

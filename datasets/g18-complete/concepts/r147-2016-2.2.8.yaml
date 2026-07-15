@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r147-2016-2.2.8
+  localized_concepts:
+    eng: 20b14598-74ee-5b36-b34c-666a9771730a
+    fra: bffaae6e-d89b-5b83-b06a-42d63ec2e629
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.8
+    type: authoritative
+status: valid
+id: baa5c8a9-830b-5487-a129-cba5c230b3e8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: capteur intégré relié à un appareil intérieur ou extérieur ayant un signal
+      de sortie (montrant l'appareil ou l'interface ou le transmetteur transformant
+      un signal du capteur en un signal électrique normal) en corrélation avec la
+      température de rayonnement du corps noir
+  examples: []
+  id: r147-2016-f-2.2.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: thermomètre intégré dans le corps noir
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bffaae6e-d89b-5b83-b06a-42d63ec2e629
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: built-in sensor connected to an internal or external device having an
+      output signal correlated with the temperature of the BBR radiation
+  examples: []
+  id: r147-2016-e-2.2.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: BBR own thermometer
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 20b14598-74ee-5b36-b34c-666a9771730a
+

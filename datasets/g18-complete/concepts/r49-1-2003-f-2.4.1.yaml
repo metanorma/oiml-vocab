@@ -8,29 +8,6 @@ data:
     source: OIML R 49-1:2003
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 49-1:2003
-        version: '2003'
-    locality:
-      type: clause
-      reference_from: 2.4.1
-    type: authoritative
-status: valid
-id: 1b9f8a41-6786-5542-9086-e7d16a59d4a0
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Grandeur qui n'est pas le mesurande mais qui influe sur la valeur du
-      mesurage [VIM 2.7].
-  examples: []
-  id: r49-1-2003-f-2.4.1-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 1b9f8a41-6786-5542-9086-e7d16a59d4a0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur qui n'est pas le mesurande mais qui influe sur la valeur du
+      mesurage [VIM 2.7].
+  examples: []
+  id: r49-1-2003-f-2.4.1-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

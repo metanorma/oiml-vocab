@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r76-2006-T.4.5
+  localized_concepts:
+    eng: 2026ad8b-dc94-588f-91bc-8670b1cc1b38
+    fra: ae33aec1-c967-5c12-923d-7654aac763a3
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+status: valid
+id: d136e61b-63df-5944-be94-daa5ea3cbe44
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Time between the moment power is applied to an instrument and the moment
+      at which the instrument is capable of complying with the requirements of this
+      Recommendation.
+  examples: []
+  id: r76-2006-e-T.4.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: warm-up time
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2026ad8b-dc94-588f-91bc-8670b1cc1b38
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Intervalle de temps compris entre le moment où l'instrument est mis sous
+      tension et le moment où il peut satisfaire aux exigences de la présente Recommandation.
+  examples: []
+  id: r76-2006-e-T.4.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de chauffage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ae33aec1-c967-5c12-923d-7654aac763a3
+

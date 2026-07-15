@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r134-1-2003-T.6.3
+  localized_concepts:
+    eng: 7370ebc2-90c3-510c-b1f3-90c51204927f
+    fra: dd19e6ef-915b-5c5e-8af0-1629155f134f
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.6.3
+status: valid
+id: 8d6d0da8-16f4-5062-837c-0490eac546ac
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Essai effectué sur un instrument complet, ou partie d'un instrument,
+      dans lequel toute partie de l'opération de pesage est simulée.
+  examples: []
+  id: r134-1-2003-fra-T.6.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.6.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Essai de simulation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dd19e6ef-915b-5c5e-8af0-1629155f134f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Test carried out on a complete instrument or part of an instrument in
+      which any part of the weighing operation is simulated.
+  examples: []
+  id: r134-1-2003-e-T.6.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.6.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Simulation test
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7370ebc2-90c3-510c-b1f3-90c51204927f
+

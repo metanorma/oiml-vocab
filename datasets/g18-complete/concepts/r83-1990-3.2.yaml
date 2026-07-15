@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r83-1990-3.2
+  localized_concepts:
+    eng: b9fd6803-0770-53ee-a791-9ff81ab726f4
+    fra: 9707c0b5-6779-5815-904f-3f4e15272d64
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+status: valid
+id: d35b9d76-08a5-5c91-9d9a-e6a18bdb2241
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble formé du gaz porteur et de la portion d'échantillon introduite
+      dans la colonne.
+  examples: []
+  id: r83-1990-f-3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Phase mobile
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9707c0b5-6779-5815-904f-3f4e15272d64
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The carrier gas together with the portion of the sample entering the
+      column.
+  examples: []
+  id: r83-1990-e-3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 83:1990
+        version: '1990'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mobile phase
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-83
+    source: OIML R 83:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b9fd6803-0770-53ee-a791-9ff81ab726f4
+

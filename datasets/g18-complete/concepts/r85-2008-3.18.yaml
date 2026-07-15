@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r85-2008-3.18
+  localized_concepts:
+    eng: 82798fd2-681a-55c0-8c03-7435ac81b927
+    fra: '09a921f8-4cc4-56a7-9b69-93ec7a370c9a'
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.18'
+    type: authoritative
+status: valid
+id: bb71f9ba-fa19-5c7d-b8e5-585a31a17761
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Distance between the dipping datum point and the zero point of the ALG.
+  examples: []
+  id: r85-2008-e-3.18-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.18'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Gauge reference length
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 82798fd2-681a-55c0-8c03-7435ac81b927
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Distance entre le point de référence inférieur et le point zéro du JA.
+  examples: []
+  id: r85-2008-e-3.18-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.18'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hauteur de référence du jougeur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '09a921f8-4cc4-56a7-9b69-93ec7a370c9a'
+

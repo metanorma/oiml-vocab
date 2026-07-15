@@ -1,0 +1,98 @@
+---
+data:
+  identifier: r79-2015-2.5
+  localized_concepts:
+    eng: a5e6cb8f-a26b-5eb7-8995-52b60f49b6b4
+    spa: 60545569-4953-5300-b717-396d24a3e534
+  domains:
+  - concept_id: r-79
+    source: OIML R 79:2015
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+status: valid
+id: d42170cf-b816-5098-8e6e-1a6c7d2a0b96
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Cantidad de producto en un preempacado y declarada en la etiqueta.
+  examples: []
+  id: r79-2015-spa-2.5-spa
+  notes:
+  - content: En algunas legislaciones nacionales, la cantidad nominal del producto
+      se denomina "cantidad neta", "contenido neto", "masa neta" o "volumen neto".
+  - content: Este término se relaciona con las especificaciones que van colocadas
+      sobre el preempacado y no representa la cantidad real en un preempacado individual.
+      En el caso de preempacados con cantidad nominal constante, los procedimientos
+      para determinar si una inspección cumple los requisitos reglamentarios se encuentran
+      en la OIML R 87 [1].
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cantidad nominal
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: r-79
+    source: OIML R 79:2015
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 60545569-4953-5300-b717-396d24a3e534
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity of product in a prepackage declared on the label
+  examples: []
+  id: r79-2015-e-2.5-eng
+  notes:
+  - content: In some national legislation the nominal quantity of the product is referred
+      to as "net quantity", "net contents", "net mass" or "net volume".
+  - content: This term relates to specifications on a prepackage and does not account
+      for the actual quantity in an individual prepackage. For prepackages with constant
+      nominal quantity, the procedures for determining whether an inspection lot meets
+      regulatory requirements are provided in OIML R 87 [1].
+  sources:
+  - origin:
+      ref:
+        source: OIML R 79:2015
+        version: '2015'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.5'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal quantity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-79
+    source: OIML R 79:2015
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a5e6cb8f-a26b-5eb7-8995-52b60f49b6b4
+

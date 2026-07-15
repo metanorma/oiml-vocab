@@ -3,28 +3,11 @@ data:
   identifier: r136-T.1.5
   localized_concepts:
     eng: 1df0739d-13f2-595b-8706-5a23eba4bfc4
-    deu: e30e70ba-d4b8-536e-adf0-df51dd12b9a6
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.5
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.5
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -51,7 +34,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -64,43 +47,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1df0739d-13f2-595b-8706-5a23eba4bfc4
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Messgerät mit einer metrologischen Eigenschaft, die für die Eichung eines
-      Geräts oder einer Messmethode geeignet ist (bzw. Messgerät mit mehreren metrologischen
-      Eigenschaften, welche für die Eichung eines Geräts oder einer Messmethode geeignet
-      sind).
-  examples: []
-  id: r136-T.1.5-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.1.5
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Referenzgerät
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: e30e70ba-d4b8-536e-adf0-df51dd12b9a6
 

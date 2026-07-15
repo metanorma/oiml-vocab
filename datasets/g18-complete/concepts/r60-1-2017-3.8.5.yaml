@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r60-1-2017-3.8.5
+  localized_concepts:
+    eng: 128d3bc7-ad34-56a8-865a-b39b8e2d12e5
+    fra: df3bc2ab-6949-5794-a1c9-850f78f40d07
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.11'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.8.5
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 1255cb7d-b3ae-590d-98ba-30cc7b62498f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition prescribed for evaluating the performance of a measuring
+      instrument or measuring system or for comparison of measurement results
+  examples: []
+  id: r60-1-2017-eng-3.8.5-eng
+  notes:
+  - content: For notes, refer to the VIM.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference (operating) condition
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: 2026-07-13T00:00+00:00
+id: 128d3bc7-ad34-56a8-865a-b39b8e2d12e5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: condition de fonctionnement prescrite pour évaluer les performances d'un
+      instrument de mesure ou d'un système de mesure ou pour comparer des résultats
+      de mesure
+  examples: []
+  id: r60-1-2017-fra-3.8.5-fra
+  notes:
+  - content: "(Pour consulter les notes, veuillez vous reporter à VIM [2])."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: condition (de fonctionnement) de référence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: df3bc2ab-6949-5794-a1c9-850f78f40d07
+

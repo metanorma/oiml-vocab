@@ -8,29 +8,6 @@ data:
     source: OIML R 51-1:1996
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 51-1:1996
-        version: '1996'
-    locality:
-      type: clause
-      reference_from: T.5.1
-    type: authoritative
-status: valid
-id: c3c20393-960b-5113-b482-8503e593699a
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: a quantity that is not the subject of the measurement but which influences
-      the value of the measurand and or the indication of the instrument
-  examples: []
-  id: r51-1-1996-eng-T.5.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: c3c20393-960b-5113-b482-8503e593699a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: a quantity that is not the subject of the measurement but which influences
+      the value of the measurand and or the indication of the instrument
+  examples: []
+  id: r51-1-1996-eng-T.5.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

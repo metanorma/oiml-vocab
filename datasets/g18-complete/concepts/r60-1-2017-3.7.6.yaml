@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r60-1-2017-3.7.6
+  localized_concepts:
+    eng: a5fdb8c1-078c-568e-9287-d26c1e3b2e28
+    fra: a4c72acb-3de6-5189-a5e6-76e6ff10dc97
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.6
+    type: authoritative
+status: valid
+id: ffedb8fe-d029-5e34-ac8d-bb63a28931cc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: représentation électrique fournie par la cellule de pesée, signalant
+      un état de défaut
+  examples: []
+  id: r60-1-2017-fra-3.7.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: signal de sortie de détection de défaut
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a4c72acb-3de6-5189-a5e6-76e6ff10dc97
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: electrical representation issued by the load cell indicating that a fault
+      condition exists
+  examples: []
+  id: r60-1-2017-eng-3.7.6-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault detection output
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a5fdb8c1-078c-568e-9287-d26c1e3b2e28
+

@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r49-1-2000-2.3.4
+  localized_concepts:
+    eng: e298d938-b500-5735-9e5d-9ca69985a992
+    fra: bd229219-cc24-52a7-aa8c-7472e8464cbd
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+status: valid
+id: c7b0875e-3d7b-5129-b4f3-8fb4b3f7d1ac
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: débit qui se produit entre le débit permanent $Q_{3}$, et le débit minimal
+      $Q_{1}$, divisant l'étendue de débit en deux zones, la "zone supérieure" et
+      la "zone inférieure", chacune étant caractérisée par sa propre erreur maximale
+      tolérée
+  examples: []
+  id: r49-1-2000-fra-2.3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit de transition
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{2}$"
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bd229219-cc24-52a7-aa8c-7472e8464cbd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: flowrate which occurs between the permanent flowrate $Q_{3}$, and the
+      minimum flowrate $Q_{1}$, that divides the flowrate range into two zones, the
+      "upper zone" and the "lower zone", each characterized by its own maximum permissible
+      error
+  examples: []
+  id: r49-1-2000-eng-2.3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transitional flowrate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{2}$"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e298d938-b500-5735-9e5d-9ca69985a992
+

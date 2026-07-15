@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r60-2000-2.4.15
+  localized_concepts:
+    eng: 6fc99560-a319-5510-9c6e-f86e232ba9f9
+    fra: 61952181-9539-5662-97dd-21a9e86e37c3
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.15
+    type: authoritative
+status: valid
+id: 12ae7e08-4b9a-5155-b04b-c6799a3d3cec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Aptitude d'une cellule de pesée à maintenir la différence entre le signal
+      de sortie de la cellule de pesée à la charge maximale, D_max et le signal de
+      sortie de la cellule de pesée à la charge minimale, D_min pendant une période
+      d'utilisation comprise dans les limites spécifiées.
+  examples: []
+  id: r60-2000-f-2.4.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stabilité de la pente
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 61952181-9539-5662-97dd-21a9e86e37c3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Capability of a load cell to maintain the difference between the load
+      cell output at maximum load, D_max and the load cell output at minimum load,
+      D_min over a period of use within specified limits.
+  examples: []
+  id: r60-2000-e-2.4.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.4.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Span stability
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6fc99560-a319-5510-9c6e-f86e232ba9f9
+

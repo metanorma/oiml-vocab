@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r137-1-2-2012-3.2.21
+  localized_concepts:
+    eng: 8a5ebd3e-db22-559c-a861-8a3862662bc6
+    fra: 17aaaf72-fe48-5a78-840a-3db23f770fbc
+  domains:
+  - concept_id: r-137-1-2
+    source: OIML R 137-1-2:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.15'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.21
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: a626a26f-15e0-5653-9ea3-416a39f86e8f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus petite différence entre indications affichées qui peut être perçue
+      de manière significative.
+  examples: []
+  id: r137-1-2-2012-fra-3.2.21-fra
+  notes:
+  - content: Pour un dispositif numérique, elle constitue le changement de l'indication
+      lorsque le moindre chiffre significatif change d'un échelon. Pour un dispositif
+      analogique, elle constitue la moitié de la différence entre deux repères chiffrés
+      consécutifs.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: résolution (d'un dispositif afficheur)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 17aaaf72-fe48-5a78-840a-3db23f770fbc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Smallest difference between displayed indications that can be meaningfully
+      distinguished.
+  examples: []
+  id: r137-1-2-2012-eng-3.2.21-eng
+  notes:
+  - content: For a digital device, this is the change in the indication when the least
+      significant digit changes by one step. For an analogue device, this is half
+      the difference between subsequent scale marks.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: resolution (of a displaying device)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8a5ebd3e-db22-559c-a861-8a3862662bc6
+

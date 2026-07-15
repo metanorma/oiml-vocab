@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r75-2002-4.11
+  localized_concepts:
+    eng: 3b31fd45-30de-598f-95f6-f3e7366e40e4
+  domains:
+  - concept_id: r-75
+    source: OIML R 75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.11'
+    type: authoritative
+status: valid
+id: b3c30a39-eaf9-5c8b-a5e9-d4c34dc44844
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Specified set of values of the flow rate, the return temperature and
+      the temperature difference, fixed to ensure valid intercomparison of the results
+      of measurements.
+  examples: []
+  id: r75-2002-f-4.11-eng
+  notes:
+  - content: A conventional true value is, in general, regarded as sufficiently close
+      to the true value for the difference to be insignificant for the given purpose.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reference values of the measurand
+  - type: abbreviation
+    normative_status: admitted
+    designation: RVM
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-75
+    source: OIML R 75:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a00fd73d-9233-5d64-94e5-d7d23d42988c
+

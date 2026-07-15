@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r111-2004-2.14
+  localized_concepts:
+    fra: 0b25246d-0518-5071-ba70-411642c80ad6
+  domains:
+  - concept_id: r-111
+    source: OIML R 111:2004
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+status: valid
+id: 3bb5142d-5e52-502f-bcc8-501a5630d12b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'En degrés Celsius, est liée à l''échelle de température thermodynamique
+      absolue, appelée l''échelle Kelvin par la relation: t = T - 273,15 K.'
+  examples: []
+  id: r111-2004-e-2.14-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 111:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '2.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Température (t)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-111
+    source: OIML R 111:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0b25246d-0518-5071-ba70-411642c80ad6
+

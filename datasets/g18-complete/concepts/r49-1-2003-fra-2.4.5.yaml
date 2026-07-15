@@ -8,30 +8,6 @@ data:
     source: OIML R 49-1:2003
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 49-1:2003
-        version: '2003'
-    locality:
-      type: clause
-      reference_from: 2.4.5
-    type: authoritative
-status: valid
-id: ab075e2f-aefa-5dab-a0d6-caf1f8cfbbe4
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Ensemble de valeurs de référence ou d'étendues de référence des grandeurs
-      d'influence, fixées pour les essais de performance d'un compteur d'eau ou pour
-      l'intercomparaison des résultats de mesure [adapté de VIM 5.7].
-  examples: []
-  id: r49-1-2003-fra-2.4.5-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: ab075e2f-aefa-5dab-a0d6-caf1f8cfbbe4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble de valeurs de référence ou d'étendues de référence des grandeurs
+      d'influence, fixées pour les essais de performance d'un compteur d'eau ou pour
+      l'intercomparaison des résultats de mesure [adapté de VIM 5.7].
+  examples: []
+  id: r49-1-2003-fra-2.4.5-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

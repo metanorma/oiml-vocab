@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r144-1-2013-2.23
+  localized_concepts:
+    eng: f131a870-3f59-5768-b271-32a62c411d7b
+    fra: 25fb9138-edad-50af-afb7-033691ea3335
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 2.23
+    type: authoritative
+status: valid
+id: 8e497802-a137-590b-b50b-f8f3005bc384
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: variation continue ou incrémentale dans le temps de l'indication, due
+      à des variations des propriétés métrologiques d'un instrument de mesure (VIM,
+      4.11 [1])
+  examples: []
+  id: r144-1-2013-fra-2.23-fra
+  notes:
+  - content: Dans cette Recommandation, dérive signifie changement de l'indication
+      qui apparaît pendant une période de temps définie et à une concentration donnée
+      de CO, NO et NO2 dans un échantillon à analyser.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dérive instrumentale
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 25fb9138-edad-50af-afb7-033691ea3335
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: continuous or incremental change over time in the indication, due to
+      changes in the metrological properties of a measuring instrument (VIM, 4.21)
+  examples: []
+  id: r144-1-2013-eng-2.23-eng
+  notes:
+  - content: In this Recommendation, "drift" means a change in the indication which
+      occurs during a stated period of time at a given concentration of CO, NO and
+      NO2 in a sample to be analyzed.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 2.23
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrumental drift
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f131a870-3f59-5768-b271-32a62c411d7b
+

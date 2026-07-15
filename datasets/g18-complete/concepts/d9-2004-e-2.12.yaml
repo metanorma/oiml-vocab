@@ -8,28 +8,6 @@ data:
     source: OIML D 9:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 9:2004
-        version: '2004'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2.12'
-status: valid
-id: 2c491cac-077f-5738-9154-b332435bb5f4
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Verification of a measuring instrument which has not been verified previously.
-  examples: []
-  id: d9-2004-e-2.12-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 2c491cac-077f-5738-9154-b332435bb5f4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Verification of a measuring instrument which has not been verified previously.
+  examples: []
+  id: d9-2004-e-2.12-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

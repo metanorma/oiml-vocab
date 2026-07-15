@@ -3,28 +3,11 @@ data:
   identifier: r136-T.5.4
   localized_concepts:
     eng: 23d1e868-d5ca-54f5-8525-13176707c718
-    deu: 204b89d8-6a55-578c-85bb-2e79ef6095c9
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.5.4
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.5.4
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -49,7 +32,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -62,40 +45,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 23d1e868-d5ca-54f5-8525-13176707c718
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Fähigkeit des Messgeräts zur Durchführung seiner vorgesehenen Funktionen.
-  examples: []
-  id: r136-T.5.4-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.5.4
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Leistung
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 204b89d8-6a55-578c-85bb-2e79ef6095c9
 

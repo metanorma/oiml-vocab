@@ -8,32 +8,6 @@ data:
     source: OIML R 150-1:2020
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.2.9.4
-    type: authoritative
-status: valid
-id: d0ea6c8f-9459-5a5d-85c7-9799ee76150b
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: legally relevant parameter with a value that depends on the individual
-      instrument
-  examples: []
-  id: r150-1-2020-eng-2.2.9.4-eng
-  notes:
-  - content: Device-specific parameters comprise adjustment parameters (e.g. span
-      adjustments or other adjustments or corrections) and configuration parameters
-      (e.g. maximum value, minimum value, units of measurement, etc.).
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: d0ea6c8f-9459-5a5d-85c7-9799ee76150b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: legally relevant parameter with a value that depends on the individual
+      instrument
+  examples: []
+  id: r150-1-2020-eng-2.2.9.4-eng
+  notes:
+  - content: Device-specific parameters comprise adjustment parameters (e.g. span
+      adjustments or other adjustments or corrections) and configuration parameters
+      (e.g. maximum value, minimum value, units of measurement, etc.).
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

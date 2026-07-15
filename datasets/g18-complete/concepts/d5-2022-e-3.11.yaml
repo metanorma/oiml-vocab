@@ -8,32 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.11'
-status: valid
-id: 3fed691c-5ce8-55bc-9f3d-ba4b6ea3efb6
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: device used for making measurements, alone or in conjunction with one
-      or more supplementary devices
-  examples: []
-  id: d5-2022-e-3.11-eng
-  notes:
-  - content: A measuring instrument that can be used alone is a measuring system.
-  - content: A measuring instrument may be an indicating measuring instrument or a
-      material measure.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 3fed691c-5ce8-55bc-9f3d-ba4b6ea3efb6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device used for making measurements, alone or in conjunction with one
+      or more supplementary devices
+  examples: []
+  id: d5-2022-e-3.11-eng
+  notes:
+  - content: A measuring instrument that can be used alone is a measuring system.
+  - content: A measuring instrument may be an indicating measuring instrument or a
+      material measure.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

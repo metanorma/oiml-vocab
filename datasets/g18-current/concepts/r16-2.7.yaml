@@ -3,44 +3,11 @@ data:
   identifier: r16-2.7
   localized_concepts:
     eng: '081e4b21-8087-552f-a6fe-710dc68e4530'
-    fra: 19b1d58a-7ada-5391-a2bc-b07d27a7c3db
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:16:2002
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 16-1:2002
-        version: '2002'
-    locality:
-      type: clause
-      reference_from: '2.7'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 16-1:2002
-        version: '2002'
-    locality:
-      type: clause
-      reference_from: '2.7'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 16-2:2002
-        version: '2002'
-    locality:
-      type: clause
-      reference_from: '2.7'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 16-2:2002
-        version: '2002'
-    locality:
-      type: clause
-      reference_from: '2.7'
-    type: authoritative
   - origin:
       ref:
         source: OIML R 16:2002
@@ -84,37 +51,4 @@ data:
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '081e4b21-8087-552f-a6fe-710dc68e4530'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Système comprenant tous les composants sous pression et ceux permettant
-      le contrôle de la pression, comme le brassard, les tubes, les connecteurs, les
-      clapets, le transducteur et la pompe.
-  examples: []
-  id: r16-2.7-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 16-2:2002
-        version: '2002'
-    locality:
-      type: clause
-      reference_from: '2.7'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Système pneumatique
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-16-2
-    source: OIML R 16-2:2002
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 19b1d58a-7ada-5391-a2bc-b07d27a7c3db
 

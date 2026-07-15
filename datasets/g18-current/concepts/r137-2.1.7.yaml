@@ -1,0 +1,48 @@
+---
+data:
+  identifier: r137-2.1.7
+  localized_concepts:
+    eng: 253a1662-97d1-50cb-8aca-da484dd7b0c3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.7
+    type: authoritative
+status: valid
+id: 22b9fb7d-16db-536f-bb68-c05720891cb5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Part of the gas meter which displays the measurement results, either
+      continuously or on demand.
+  examples: []
+  id: r137-2.1.7-eng
+  notes:
+  - content: A printing device, which provides an indication at the end of the measurement,
+      is not an indicating device.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indicating device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 253a1662-97d1-50cb-8aca-da484dd7b0c3
+

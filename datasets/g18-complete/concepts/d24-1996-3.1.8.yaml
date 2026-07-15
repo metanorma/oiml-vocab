@@ -1,0 +1,93 @@
+---
+data:
+  identifier: d24-1996-3.1.8
+  localized_concepts:
+    eng: fd3960bd-6b1f-5c1b-88d6-5c5e5a023a0b
+    fra: 347a8f70-3161-5f6f-a5b1-5a8f5ce73f7e
+  domains:
+  - concept_id: d-24
+    source: OIML D 24:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+status: valid
+id: 8942e781-f7af-563a-99f1-b5bea54d2af4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The reference operating temperature is the temperature of the pyrometer
+      housing at which the intrinsic error of the pyrometer is determined. At all
+      other temperatures the total error of the pyrometer is the sum of the intrinsic
+      error and the complementary error due to the influence of change in ambient
+      temperature.
+  examples: []
+  id: d24-1996-e-3.1.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference operating temperature
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-24
+    source: OIML D 24:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fd3960bd-6b1f-5c1b-88d6-5c5e5a023a0b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La température normale de fonctionnement est la température du boîtier
+      du pyromètre à laquelle l'erreur intrinsèque du pyromètre est déterminée. A
+      toute autre température, l'erreur totale du pyromètre est égale à la somme de
+      l'erreur intrinsèque et de l'erreur complémentaire due à la variation de température
+      ambiante.
+  examples: []
+  id: d24-1996-f-3.1.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 24:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: 3.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: température normale de fonctionnement
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-24
+    source: OIML D 24:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 347a8f70-3161-5f6f-a5b1-5a8f5ce73f7e
+

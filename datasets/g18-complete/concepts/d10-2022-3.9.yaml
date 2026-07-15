@@ -1,0 +1,90 @@
+---
+data:
+  identifier: d10-2022-3.9
+  localized_concepts:
+    eng: 1e0cc268-b386-5db8-a034-fbee86a49635
+    spa: f53c905f-f994-5330-b94d-5548568ea361
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.9'
+status: valid
+id: 89df8ecd-f821-5990-8201-abf95e060a56
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: body that performs inspection
+  examples: []
+  id: d10-2022-e-3.9-eng
+  notes:
+  - content: An inspection body can be an organisation, or part of an organisation.
+  - content: 'Source citation: ISO/IEC 17020 3.5'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17020
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: inspection body
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1e0cc268-b386-5db8-a034-fbee86a49635
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: organismo que realiza inspecciones
+  examples: []
+  id: d10-2022-spa-3.9-spa
+  notes:
+  - content: Un organismo de inspección puede ser una organización, o parte de la
+      misma.
+  - content: 'Source citation: ISO/IEC 17020 3.5'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.9'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17020
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: organismo de inspección
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f53c905f-f994-5330-b94d-5548568ea361
+

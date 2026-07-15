@@ -1,0 +1,115 @@
+---
+data:
+  identifier: d31-2008-3.1.5
+  localized_concepts:
+    fra: 96e79e11-ab3b-5990-ab52-2e60e87005c9
+    spa: 51c0e7f3-89a6-5986-83d4-d0e761741db3
+  domains:
+  - concept_id: d-31
+    source: OIML D 31:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    type: authoritative
+status: valid
+id: 88e0e5eb-cca2-5092-85aa-50f3b812b2fd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Système intégré à un instrument de mesure permettant de détecter et de
+      mettre en évidence les défauts significatifs.
+  examples: []
+  id: d31-2008-f-3.1.5-fra
+  notes:
+  - content: '"Mettre en évidence" fait référence à toute réponse appropriée de l''instrument
+      de mesure (signal lumineux, signal sonore, protection du processus de mesurage,
+      etc.).'
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.18'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Système de contrôle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 96e79e11-ab3b-5990-ab52-2e60e87005c9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Herramienta incorporada a un instrumento de medida que permite detectar
+      fallos importantes y manifestarlos.
+  examples: []
+  id: d31-2008-spa-3.1.5-spa
+  notes:
+  - content: El término «manifestar» hace referencia a toda respuesta adecuada del
+      instrumento de medida (señal luminosa, señal acústica, detener el proceso de
+      medida, etc.).
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.18'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 31:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: 3.1.5
+    sourced_from:
+    - ref:
+        source: OIML D 11:2004
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositivo de control
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 51c0e7f3-89a6-5986-83d4-d0e761741db3
+

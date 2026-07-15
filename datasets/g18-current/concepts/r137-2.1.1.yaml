@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r137-2.1.1
+  localized_concepts:
+    eng: 134e390e-8667-5566-934d-b7196cee9b9e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+status: valid
+id: c3a77f1a-57e8-5383-a989-1ef100cdcd54
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument intended to measure, memorize and display the quantity of
+      gas passing the flow sensor at operating conditions.
+  examples: []
+  id: r137-2.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: 2.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: gas meter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137-1
+    source: OIML R 137-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 134e390e-8667-5566-934d-b7196cee9b9e
+

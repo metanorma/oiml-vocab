@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.4.2
   localized_concepts:
-    eng: df789928-5b07-5fec-ab0a-d9f9323c020c
     fra: d95f7344-1b8d-596c-9e64-9095afae079e
   domains:
   - concept_id: section-terms
@@ -17,59 +16,9 @@ data:
       type: clause
       reference_from: T.4.2
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.4.2
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.4.2
-    type: authoritative
 status: valid
 id: ef0dd6cd-dd37-5c26-b602-e4527b17a2fe
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Ability of an instrument to react to small variations of load.
-  examples: []
-  id: r76-T.4.2-eng
-  notes:
-  - content: The discrimination threshold, for a given load, is the value of the smallest
-      additional load that, when gently deposited on or removed from the load receptor,
-      causes a perceptible change in the indication.
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.4.2
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: discrimination
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: df789928-5b07-5fec-ab0a-d9f9323c020c
 ---
 data:
   dates:
@@ -86,7 +35,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -99,8 +48,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: d95f7344-1b8d-596c-9e64-9095afae079e

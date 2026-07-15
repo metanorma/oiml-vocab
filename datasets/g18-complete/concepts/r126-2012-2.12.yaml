@@ -1,0 +1,105 @@
+---
+data:
+  identifier: r126-2012-2.12
+  localized_concepts:
+    eng: cebdc526-3999-5658-960c-a497ca3bdca5
+    spa: de93c62a-19ab-5b00-a94f-ca9e9118201e
+    fra: 62ef48ff-6e28-5b28-bb78-89b9712297d7
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.16'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 753e5a3e-8a8e-51f3-a8df-5dc56a0af9a1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valor de la cantidad medida menos un valor de cantidad de referencia
+  examples: []
+  id: r126-2012-spa-2.12-spa
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error de Medición
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: de93c62a-19ab-5b00-a94f-ca9e9118201e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r126-2012-f-2.12-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b1c3d43e-7878-5db5-8f2c-1a70d92dc114
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre la valeur d'une quantité mesurée et de la valeur de
+      référence
+  examples: []
+  id: r126-2012-f-2.12-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 62ef48ff-6e28-5b28-bb78-89b9712297d7
+

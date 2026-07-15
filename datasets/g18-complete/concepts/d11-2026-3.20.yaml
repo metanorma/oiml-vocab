@@ -1,0 +1,92 @@
+---
+data:
+  identifier: d11-2026-3.20
+  localized_concepts:
+    eng: bde3f75b-513d-5bc4-8a8e-51457c420ed0
+    fra: 76e5718f-5ce6-5743-8857-9c258da12eb2
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.2
+    type: authoritative
+status: valid
+id: efd31530-71f3-57bf-b20c-400c6d7666c3
+schema_version: 3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: système incorporé dans un instrument de mesure qui permet de détecter
+      et de mettre en évidence des erreurs significatives de durabilité
+  examples: []
+  id: d11-2026-f-3.20-fra
+  notes:
+  - content: '"Mettre en évidence" se réfère à toute réponse adéquate de l''instrument
+      de mesure (signal lumineux, signal acoustique, prévention du processus de mesurage,
+      etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de protection de durabilité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 76e5718f-5ce6-5743-8857-9c258da12eb2
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: facility incorporated in a measuring instrument that enables significant
+      durability errors to be detected and acted upon
+  examples: []
+  id: d11-2026-e-3.20-eng
+  notes:
+  - content: '"Act upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: durability protection facility
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: bde3f75b-513d-5bc4-8a8e-51457c420ed0
+

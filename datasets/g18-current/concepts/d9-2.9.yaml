@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML D 9:2004
+        source: OIML V 1:2013
         version: '2004'
     locality:
       type: clause
@@ -34,26 +34,7 @@ data:
   - content: Conformity assessment does not only concern metrological requirements
       but may also cover requirements relating to safety; EMC; software identification;
       ease of use; marking; etc.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '2.11'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML D 9:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: '2.9'
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r61-1-2017-3.3.1.3.3
+  localized_concepts:
+    eng: 3cb5414d-ab9a-551d-97d0-e37d8fb9a1e2
+    deu: 101c71f9-ec6d-5eda-82a3-58505c7acff7
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.3.3
+    type: authoritative
+status: valid
+id: 36fb903e-0721-585c-8dba-b36376ccf770
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung zum Abschalten des Feinstroms, damit sich ein Mittelwert
+      der Füllmasse ergibt, der dem Sollgewicht entspricht
+  examples: []
+  id: r61-1-2017-deu-3.3.1.3.3-deu
+  notes:
+  - content: Die Feinstromabschalteinrichtung kann eine Korrektureinrichtung für das
+      dem Wägemodul zugeführte Füllgut enthalten.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Feinstromabschalteinrichtung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 101c71f9-ec6d-5eda-82a3-58505c7acff7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device which controls the cut-off of the final feed so that the average
+      value of the mass of the fills corresponds to the preset value
+  examples: []
+  id: r61-1-2017-eng-3.3.1.3.3-eng
+  notes:
+  - content: The final feed cut-off device may include a correction device for the
+      material feed into the weighing module.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: final feed cut-off device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3cb5414d-ab9a-551d-97d0-e37d8fb9a1e2
+

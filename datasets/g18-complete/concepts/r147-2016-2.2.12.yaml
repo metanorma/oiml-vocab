@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r147-2016-2.2.12
+  localized_concepts:
+    eng: 2579853e-63ad-500f-b0d1-dc8b1b9af4ae
+    fra: 7f1c027e-b12b-5ddd-b7cc-ed36340f5b10
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+status: valid
+id: 0c40901d-03a9-5dc7-a640-2000d54d2f5a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: apparent emissivity of a blackbody cavity or a surface of a flat-plate
+      blackbody radiator
+  examples: []
+  id: r147-2016-e-2.2.12-eng
+  notes:
+  - content: This should take into account the intrinsic emissivity of the surface,
+      the geometrical factor, the temperature distribution, and the ambient thermal
+      radiation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: effective emissivity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2579853e-63ad-500f-b0d1-dc8b1b9af4ae
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: émissivité apparente de la cavité d'un corps noir ou de la surface plane
+      d'un corps noir. Devront être pris en compte l'émissivité intrinsèque de la
+      surface, le facteur géométrique, la répartition de température et la radiation
+      thermique ambiante
+  examples: []
+  id: r147-2016-f-2.2.12-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.2.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: émissivité effective
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7f1c027e-b12b-5ddd-b7cc-ed36340f5b10
+

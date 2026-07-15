@@ -3,7 +3,6 @@ data:
   identifier: r85-3.19
   localized_concepts:
     eng: 4ecc4bf4-1b24-5937-a1da-ed21b5cdf3e2
-    fra: d13a42fa-d0e1-591e-b160-8a7fed304191
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -12,22 +11,6 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.19'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.19'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -50,55 +33,22 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85:2008
+        source: OIML R 85-1-2:2008
         version: '2008'
+    type: authoritative
     locality:
       type: clause
       reference_from: '3.19'
-    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: Dip
+    designation: dip
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
+  - concept_id: r-85-1-2
+    source: OIML R 85-1-2:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4ecc4bf4-1b24-5937-a1da-ed21b5cdf3e2
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Distance verticale entre le point de référence inférieur et le niveau
-      de liquide.
-  examples: []
-  id: r85-3.19-fra
-  notes:
-  - content: Le terme "plein" est un synonyme.
-  sources:
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.19'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Hauteur de plein
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: d13a42fa-d0e1-591e-b160-8a7fed304191
 

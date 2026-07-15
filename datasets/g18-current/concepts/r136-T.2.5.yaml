@@ -3,28 +3,11 @@ data:
   identifier: r136-T.2.5
   localized_concepts:
     eng: '096bf799-6367-568f-a79a-a7e30e93bfa0'
-    deu: 570fcacf-5ead-50f0-b20f-e965d113a247
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -49,7 +32,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -62,40 +45,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: '096bf799-6367-568f-a79a-a7e30e93bfa0'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Einrichtung, um eine Anzeige auf null zu stellen.
-  examples: []
-  id: r136-T.2.5-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.2.5
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Nullstelleinrichtung
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 570fcacf-5ead-50f0-b20f-e965d113a247
 

@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.20
+  localized_concepts:
+    eng: 50cc822a-67b0-50c5-b161-f42f3777a784
+    fra: 9e18c09d-21b4-5fcd-a5e0-a4cb28a65416
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.20
+status: valid
+id: 5e92a71c-609d-583e-b7c9-485e5a5ed7d6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of the change in error of indication of a meter, permitted
+      by this Recommendation, when a single influence factor is taken from its value
+      at reference conditions and varied within the rated operating conditions
+  examples: []
+  id: r46-1-2-2012-eng-2.2.20-eng
+  notes:
+  - content: For each influence factor there is one corresponding maximum permissible
+      error shift.
+  - content: In this Recommendation, the maximum permissible error is a combination
+      of the base maximum permissible error and the maximum permissible error shift
+      as described in Annex B.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.20
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error shift
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5985d77c-c7b3-512c-8eb8-002d000de2b6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur extrême de la variation de l'erreur de l'indication d'un compteur,
+      permise par la présente Recommandation, quand un seul facteur d'influence est
+      pris à partir de sa valeur aux conditions de référence et varie dans les conditions
+      assignées de fonctionnement
+  examples: []
+  id: r46-1-2-2012-fra-2.2.20-fra
+  notes:
+  - content: Pour chaque facteur d'influence il y a un décalage d'erreur maximal toléré
+      correspondant.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.20
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: décalage d'erreur maximal toléré
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dffe22f1-3ccf-5108-9331-fa97b16ec8d0
+

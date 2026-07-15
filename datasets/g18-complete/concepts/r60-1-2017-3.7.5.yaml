@@ -1,0 +1,84 @@
+---
+data:
+  identifier: r60-1-2017-3.7.5
+  localized_concepts:
+    eng: 290bae5c-a72e-533c-b7f7-5e0798e29ca6
+    fra: 6c6596d0-4c26-5720-9dfd-1f01f2f6dc3a
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.12'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.7.5
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 89ce50b1-a704-52a7-8d15-88c82b450afe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: r60-1-2017-eng-3.7.5-eng
+  notes:
+  - content: For notes, refer to the VIML.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 290bae5c-a72e-533c-b7f7-5e0798e29ca6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument
+      de mesure
+  examples: []
+  id: r60-1-2017-fra-3.7.5-fra
+  notes:
+  - content: "(Pour consulter les notes, veuillez vous reporter à VIML [3])."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6c6596d0-4c26-5720-9dfd-1f01f2f6dc3a
+

@@ -1,0 +1,105 @@
+---
+data:
+  identifier: b18-2018-3.38
+  localized_concepts:
+    eng: d14a0540-a6d5-56a6-948c-2d48e16da28c
+    fra: 64e95770-1a03-5005-b1be-fcc44f7c18d2
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2018
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: '3.38'
+    type: authoritative
+status: valid
+id: 4c1840e5-29ec-5006-8629-d82ece6829e4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: laboratoire réalisant certains ou tous les essais sur un type d'instrument
+      de mesure. Un Laboratoire d'Essai est désigné par une Autorité de Délivrance
+      OIML et accepté par le CM
+  examples: []
+  id: b18-2018-f-3.38-fra
+  notes:
+  - content: Un Laboratoire d'Essai peut être un Laboratoire d'Essai interne d'une
+      Autorité de Délivrance OIML, un Laboratoire d'Essai d'une tierce partie ou un
+      Laboratoire d'Essai d'un Fabricant (LEF).
+  - content: C'est l'Autorité de Délivrance OIML, et non le Laboratoire d'Essai, qui
+      est responsable de la délivrance du rapport d'évaluation de type OIML.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: '3.38'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Laboratoire d'Essai
+  - type: abbreviation
+    normative_status: preferred
+    designation: LE
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2018
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 64e95770-1a03-5005-b1be-fcc44f7c18d2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: laboratory performing certain or all tests on a type of measuring instrument.
+      A Test Laboratory is designated by an OIML Issuing Authority and accepted by
+      the MC
+  examples: []
+  id: b18-2018-e-3.38-eng
+  notes:
+  - content: A Test Laboratory may be an internal Test Laboratory of an OIML Issuing
+      Authority, a third-party Test Laboratory or a Manufacturer's Test Laboratory
+      (MTL).
+  - content: The OIML Issuing Authority, and not the Test Laboratory, is responsible
+      for issuing the OIML type evaluation report.
+  sources:
+  - origin:
+      ref:
+        source: OIML B 18:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: '3.38'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Test Laboratory
+  - type: abbreviation
+    normative_status: preferred
+    designation: TL
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: b-18
+    source: OIML B 18:2018
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d14a0540-a6d5-56a6-948c-2d48e16da28c
+

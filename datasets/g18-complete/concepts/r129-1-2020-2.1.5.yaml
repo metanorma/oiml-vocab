@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r129-1-2020-2.1.5
+  localized_concepts:
+    eng: fe649bee-6daa-5b7b-851e-83187614ccdf
+    deu: 1664cf7e-9af7-55b8-b720-d13663dd6e9b
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.06'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.1.5
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 21d8f131-c271-52ba-b56d-ee152d02199b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung zur Durchführung einer bestimmten Funktion, die direkt an
+      der Ermittlung, Übertragung oder Anzeige der Messergebnisse beteiligt ist
+  examples: []
+  id: r129-1-2020-deu-2.1.5-deu
+  notes:
+  - content: Eine Hilfseinrichtung kann in Abhängigkeit von ihrer Funktion im Messsystem
+      gesetzlichen messtechnischen Kontrollen oder nationalen Vorschriften unterliegen.
+  - content: 'Wesentliche Hilfseinrichtungen sind: Nullstelleinrichtung; Wiederholanzeigeeinrichtung;
+      Druckeinrichtung; Speichereinrichtung; Preisanzeigeeinrichtung; Summenanzeigeeinrichtung;
+      Voreinstelleinrichtung; Selbstbedienungseinrichtung.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hilfseinrichtung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1664cf7e-9af7-55b8-b720-d13663dd6e9b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying measurement results
+  examples: []
+  id: r129-1-2020-eng-2.1.5-eng
+  notes:
+  - content: An ancillary device may or may not be subject to legal metrological control
+      according to its function in the measuring system or to national regulations.
+  - content: 'Main ancillary devices are: - zero-setting device; - repeating indicating
+      device; - printing device; - memory device; - price indicating device; - totalising
+      indicating device; - pre-setting device; - self-service device.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fe649bee-6daa-5b7b-851e-83187614ccdf
+

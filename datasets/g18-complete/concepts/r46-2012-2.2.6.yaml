@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-2012-2.2.6
+  localized_concepts:
+    eng: 6ceea758-34dd-5acd-a234-941f430038ea
+    fra: 7a6391e0-298e-5f5d-a5d6-f8b108459034
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+status: valid
+id: 71778282-0401-5c0b-9381-050b319cd416
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of the electrical voltage supplied to the meter
+  examples: []
+  id: r46-2012-f-2.2.6-eng
+  notes:
+  - content: The term "voltage" in this Recommendation indicates r.m.s. (root mean
+      square) values unless otherwise specified.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: voltage (U)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 723bf4c8-5059-5c70-8144-dffe02f084b6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur de la tension électrique fournie au compteur
+  examples: []
+  id: r46-2012-e-2.2.6-fra
+  notes:
+  - content: Le terme "tension" dans la présente Recommandation correspond aux valeurs
+      r.m.s. (racine carrée de la moyenne des carrés) sauf indication contraire.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tension (U)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46
+    source: OIML R 46:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7a6391e0-298e-5f5d-a5d6-f8b108459034
+

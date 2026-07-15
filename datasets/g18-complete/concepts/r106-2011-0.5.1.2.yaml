@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r106-2011-0.5.1.2
+  localized_concepts:
+    eng: d7c4ffce-1ba3-5ddd-b5cc-510e14a92e8e
+    fra: 78ca744d-0825-5039-abc9-f5729d6d3564
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.1.2
+    type: authoritative
+status: valid
+id: e45eb597-3098-58ed-b58d-f15b7f16e71f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value that falls within the limits specified
+      in this Recommendation but that falls outside the rated operating conditions
+      of the instrument
+  examples: []
+  id: r106-2011-e-0.5.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d7c4ffce-1ba3-5ddd-b5cc-510e14a92e8e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d influence ayant une valeur qui se situe dans les limites specifiees
+      dans la presente Recommandation mais en dehors des conditions assignees de fonctionnement
+      de l instrument
+  examples: []
+  id: r106-2011-f-0.5.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 78ca744d-0825-5039-abc9-f5729d6d3564
+

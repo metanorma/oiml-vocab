@@ -1,0 +1,84 @@
+---
+data:
+  identifier: r60-1-2017-3.8.2
+  localized_concepts:
+    eng: 678c969b-6746-560e-85d7-ca9959849bcb
+    fra: 289e484c-533b-5a7d-9ab1-c5f1cfb08065
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.17'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.8.2
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: c9c163c5-6508-582b-9176-2457f17c4a1a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont la valeur se situe dans les conditions assignées
+      de fonctionnement d'un instrument de mesure
+  examples: []
+  id: r60-1-2017-fra-3.8.2-fra
+  notes:
+  - content: "(Pour consulter les notes, veuillez vous reporter à VIML [3])."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur d'influence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 289e484c-533b-5a7d-9ab1-c5f1cfb08065
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value which ranges within the rated operating
+      conditions of a measuring instrument
+  examples: []
+  id: r60-1-2017-eng-3.8.2-eng
+  notes:
+  - content: For notes, refer to the VIML.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 678c969b-6746-560e-85d7-ca9959849bcb
+

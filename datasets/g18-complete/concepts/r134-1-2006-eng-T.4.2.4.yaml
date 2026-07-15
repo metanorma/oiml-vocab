@@ -8,31 +8,6 @@ data:
     source: OIML R 134-1:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 134-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.4.2.4
-    type: authoritative
-status: valid
-id: c67db1f8-a1f6-5912-80f6-490beb3341be
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Extreme values of an error permitted by specifications or regulations
-      between the indication of a weighing instrument and the corresponding true value,
-      as determined by reference standard mass, at zero or no load, in the reference
-      position.
-  examples: []
-  id: r134-1-2006-eng-T.4.2.4-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: c67db1f8-a1f6-5912-80f6-490beb3341be
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme values of an error permitted by specifications or regulations
+      between the indication of a weighing instrument and the corresponding true value,
+      as determined by reference standard mass, at zero or no load, in the reference
+      position.
+  examples: []
+  id: r134-1-2006-eng-T.4.2.4-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

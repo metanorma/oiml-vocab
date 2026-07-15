@@ -8,33 +8,6 @@ data:
     source: OIML D 9:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 9:2004
-        version: '2004'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2.13'
-status: valid
-id: 6775652c-6a18-5d36-adc5-3173ed11797a
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Any verification of a measuring instrument after a previous verification
-      and including mandatory periodic verification and verification after repair.
-  examples: []
-  id: d9-2004-e-2.13-eng
-  notes:
-  - content: Subsequent verification of a measuring instrument may be carried out
-      before expiry of the period of validity of a previous verification either at
-      the request of the user (owner) or when its verification is declared to be no
-      longer valid.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 6775652c-6a18-5d36-adc5-3173ed11797a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Any verification of a measuring instrument after a previous verification
+      and including mandatory periodic verification and verification after repair.
+  examples: []
+  id: d9-2004-e-2.13-eng
+  notes:
+  - content: Subsequent verification of a measuring instrument may be carried out
+      before expiry of the period of validity of a previous verification either at
+      the request of the user (owner) or when its verification is declared to be no
+      longer valid.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

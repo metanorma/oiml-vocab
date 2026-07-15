@@ -8,29 +8,6 @@ data:
     source: OIML R 139-1:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2022
-        version: '2022'
-    locality:
-      type: clause
-      reference_from: 3.1.7
-    type: authoritative
-status: valid
-id: a8d69013-8244-530e-b861-3ea158e3e879
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: operating condition prescribed for evaluating the performance of a measuring
-      instrument or measuring system or for comparison of measurement results
-  examples: []
-  id: r139-1-2022-eng-3.1.7-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: a8d69013-8244-530e-b861-3ea158e3e879
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition prescribed for evaluating the performance of a measuring
+      instrument or measuring system or for comparison of measurement results
+  examples: []
+  id: r139-1-2022-eng-3.1.7-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

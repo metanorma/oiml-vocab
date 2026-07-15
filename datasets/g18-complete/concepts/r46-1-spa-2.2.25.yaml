@@ -8,32 +8,6 @@ data:
     source: OIML R 46-1:2012
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 46-1:2012
-        version: '2012'
-    locality:
-      type: clause
-      reference_from: 2.2.25
-    type: authoritative
-status: valid
-id: 316863c1-a6e5-5b2b-a6ae-3760c75cf180
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Cantidad de influencia que tiene un valor dentro de los límites específicados
-      en esta Recomendación, pero por fuera de las condiciones nominales de operación
-      específicadas en un instrumento de medición
-  examples: []
-  id: r46-1-spa-2.2.25-spa
-  notes:
-  - content: Una cantidad de influencia es una perturbación si no se especifican las
-      condiciones nominales de operación para dicha cantidad de influencia.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 316863c1-a6e5-5b2b-a6ae-3760c75cf180
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Cantidad de influencia que tiene un valor dentro de los límites específicados
+      en esta Recomendación, pero por fuera de las condiciones nominales de operación
+      específicadas en un instrumento de medición
+  examples: []
+  id: r46-1-spa-2.2.25-spa
+  notes:
+  - content: Una cantidad de influencia es una perturbación si no se especifican las
+      condiciones nominales de operación para dicha cantidad de influencia.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -8,30 +8,6 @@ data:
     source: OIML R 105:1993
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 105:1993
-        version: '1993'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: T.25
-status: valid
-id: afcc4f2c-432c-5db4-9d66-d4d5aeecd521
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Conditions of use, specifying the range of values of influence quantities
-      for which the metrological characteristics are intended to lie within the maximum
-      permissible errors [adapted from VIM 5.05].
-  examples: []
-  id: r105-1993-e-T.25-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: afcc4f2c-432c-5db4-9d66-d4d5aeecd521
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Conditions of use, specifying the range of values of influence quantities
+      for which the metrological characteristics are intended to lie within the maximum
+      permissible errors [adapted from VIM 5.05].
+  examples: []
+  id: r105-1993-e-T.25-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

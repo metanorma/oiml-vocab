@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r81-1998-3.25
+  localized_concepts:
+    eng: fcab738d-fef4-53d8-9145-6e47053e0dc3
+    fra: 9183d4d4-59b2-57f5-83c7-2d3ace6e102d
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '2.7'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.25'
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: 3429813b-852a-5a0c-a654-6ce0b64000dd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A quantity that is not the subject of the measurement but that can influence
+      the value of the measurand or the indication of the measuring system.
+  examples: []
+  id: r81-1998-f-3.25-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9abacdfa-470c-5f69-a519-c486c639172e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur ne faisant pas l'objet du mesurage mais pouvant influencer la
+      valeur du mesurande ou l'indication du systeme de mesure.
+  examples: []
+  id: r81-1998-f-3.25-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9183d4d4-59b2-57f5-83c7-2d3ace6e102d
+

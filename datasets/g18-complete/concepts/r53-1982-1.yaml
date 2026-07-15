@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r53-1982-1
+  localized_concepts:
+    eng: e5dc3f19-506a-5f01-bc5f-deadfb311ac1
+    fra: 98ba3f85-d9e9-5568-b49c-e4f42136def0
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '1'
+    type: authoritative
+status: valid
+id: aea2d40b-bba3-5e26-a310-6a3ef8d287ea
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Gauge or vacuum pressure (see International Recommendations No's 17 and
+      19) to which the elastic sensing element can be submitted.
+  examples: []
+  id: r53-1982-e-1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pressure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e5dc3f19-506a-5f01-bc5f-deadfb311ac1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Surpression ou dépression (voir Recommandations Internationales N^{os}
+      17 et 19) auxquelles peut être soumis l'élément récepteur élastique.
+  examples: []
+  id: r53-1982-f-1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pression
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 98ba3f85-d9e9-5568-b49c-e4f42136def0
+

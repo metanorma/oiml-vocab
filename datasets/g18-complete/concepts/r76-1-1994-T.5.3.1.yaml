@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r76-1-1994-T.5.3.1
+  localized_concepts:
+    eng: a44b3b9a-c9c8-5c26-bce3-8687aaab9d1d
+    fra: fc3051c3-7d6a-56a2-a547-b7fecbcd62da
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+status: valid
+id: 6feeb7cc-008b-5fcb-83f5-65f8751ff33b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Numerical value, representing a weight, that is introduced into the instrument.
+      "Introduced" includes procedures such as keying in, recalling from a data storage,
+      or inserting via an interface.
+  examples: []
+  id: r76-1-1994-eng-T.5.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: preset tare value (PT)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a44b3b9a-c9c8-5c26-bce3-8687aaab9d1d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur numérique, représentant un poids, qui est introduite dans l'instrument.
+      Le mot "introduite" couvre toute procédure comme, par exemple, la tabulation,
+      le rappel depuis un stockage de données ou l'introduction par une interface.
+  examples: []
+  id: r76-1-1994-fra-T.5.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: T.5.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: valeur de tare prédéterminée (PT)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fc3051c3-7d6a-56a2-a547-b7fecbcd62da
+

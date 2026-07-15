@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r147-2016-2.1.4
+  localized_concepts:
+    eng: de6d2224-fe39-59a9-b4cf-f93b06de18a2
+    fra: 9d4d9344-cfb8-5ca4-ae78-3cfb9baef0aa
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+status: valid
+id: 3dde8e9b-bc73-5a42-be54-acae711849b8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of a measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: r147-2016-e-2.1.4-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible measurement error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: de6d2224-fe39-59a9-b4cf-f93b06de18a2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur extrême de l'erreur de mesure, par rapport à une valeur de référence
+      connue, qui est tolérée par les spécifications ou règlements pour un mesurage,
+      un instrument de mesure ou un système de mesure donné
+  examples: []
+  id: r147-2016-f-2.1.4-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 147:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-147
+    source: OIML R 147:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d4d9344-cfb8-5ca4-ae78-3cfb9baef0aa
+

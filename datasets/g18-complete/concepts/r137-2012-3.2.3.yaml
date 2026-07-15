@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r137-2012-3.2.3
+  localized_concepts:
+    eng: 264a8794-caec-5fb6-9f74-80eb5374fd48
+    fra: 591df60e-b4de-58a4-a91d-3fb849687d09
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.3
+    type: authoritative
+status: valid
+id: c529e964-5c39-5174-9156-df34a3f4076f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Volume de gaz correspondant à une révolution complète d'une ou des parties
+      mobiles situées à l'intérieur du compteur (cycle de travail).
+  examples: []
+  id: r137-2012-f-3.2.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: volume cyclique d'un compteur de gaz (déplacement positif du gaz
+      uniquement)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 591df60e-b4de-58a4-a91d-3fb849687d09
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Volume of gas corresponding to one full revolution of the moving part(s)
+      inside the meter (working cycle).
+  examples: []
+  id: r137-2012-e-3.2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cyclic volume of a gas meter (positive displacement gas meters only)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 264a8794-caec-5fb6-9f74-80eb5374fd48
+

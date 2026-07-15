@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.15
+  localized_concepts:
+    eng: 29dbc0a6-ef95-5f42-b5ce-d626b9d3c978
+    fra: 174f472e-20b9-564a-8df6-6c7130e796f4
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.15
+status: valid
+id: da6d800f-b049-584d-8e1d-d7bf9e9f2095
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: taux auquel l'énergie est transporté
+  examples: []
+  id: r46-1-2-2012-fra-2.2.15-fra
+  notes:
+  - content: Dans un système électrique, la puissance active est mesurée comme étant
+      la moyenne temporelle de la puissance instantanée, qui est calculée à chaque
+      instant comme étant le produit de la tension et du courant.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.15
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: puissance active
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f453421f-f641-5891-a7dd-982894d15451
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rate at which energy is transported
+  examples: []
+  id: r46-1-2-2012-eng-2.2.15-eng
+  notes:
+  - content: In an electrical system active power is measured as the time mean of
+      the instantaneous power, which is calculated at each instant as the product
+      of voltage and current.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.15
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: active power
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 586435b0-80db-502c-a8cf-0e4bfa405f19
+

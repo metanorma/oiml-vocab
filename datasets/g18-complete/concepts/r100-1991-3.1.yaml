@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r100-1991-3.1
+  localized_concepts:
+    eng: 54a309b1-2e1b-5b76-9d82-fb0c0d14bdca
+    fra: 1332d252-804d-5029-bb7e-726e1f73971f
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+status: valid
+id: 287766f7-7e0a-5932-8681-aa0ad225ec0f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A value equal to the logarithm of the ratio of the incident light to
+      the transmitted light and is dependent on the path length and the concentration
+      of the absorbing substance.
+  examples: []
+  id: r100-1991-e-3.1-eng
+  notes:
+  - content: The principle of measurement of absorbance by the instrument is the Beer-Lambert
+      law.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Absorbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54a309b1-2e1b-5b76-9d82-fb0c0d14bdca
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Logarithme du rapport entre lumiere incidente et lumiere transmise; elle
+      est fonction du parcours optique et de la concentration de la substance absorbante.
+  examples: []
+  id: r100-1991-f-3.1-fra
+  notes:
+  - content: Le principe de mesure de l'absorbance par l'instrument est la loi de
+      Beer-Lambert.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100:1991
+        version: '1991'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Absorbance
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100
+    source: OIML R 100:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1332d252-804d-5029-bb7e-726e1f73971f
+

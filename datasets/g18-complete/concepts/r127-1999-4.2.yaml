@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r127-1999-4.2
+  localized_concepts:
+    eng: 24e45d2f-852b-5eff-9e36-466bcd9f542e
+    fra: 6f5c51d2-611a-5b25-a83e-fa0cb65a30e1
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.2'
+status: valid
+id: ba01d758-c916-5c96-8eab-bfa51b66aaa8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Film spécialement préparé qui subit une variation d'absorbance optique
+      lorsqu'il est exposé à des rayonnements ionisants. Cette variation d'absorbance
+      peut être liée à la dose absorbée dans la matière environnante (habituellement
+      de l'eau).
+  examples: []
+  id: r127-1999-f-4.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dosimètre à film radiochromique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6f5c51d2-611a-5b25-a83e-fa0cb65a30e1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Specially prepared film that undergoes a change in optical absorbance
+      when exposed to ionizing radiation. This change in absorbance may be related
+      to absorbed dose in the surrounding material that is usually referenced as water.
+  examples: []
+  id: r127-1999-e-4.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: radiochromic film dosimeter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 24e45d2f-852b-5eff-9e36-466bcd9f542e
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.12
+  localized_concepts:
+    eng: 768072b3-840d-5fca-986d-b05c888053db
+    fra: 2fd83d48-e392-542f-b8b8-e43bb8d0f3aa
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.12
+status: valid
+id: 9bcc1164-e5de-5415-9533-55eb314781c8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: nombre entier utilisé pour identifier un harmonique
+  examples: []
+  id: r46-1-2-2012-fra-2.2.12-fra
+  notes:
+  - content: Le rang d'un harmonique est le rapport de la fréquence d'un harmonique
+      sur la fréquence fondamentale du signal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.12
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rang d'un harmonique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 334b47c7-3eba-5a98-989c-7cf7d0f10fa0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: integer number used to identify a harmonic
+  examples: []
+  id: r46-1-2-2012-eng-2.2.12-eng
+  notes:
+  - content: The harmonic number is the ratio of the frequency of a harmonic to the
+      fundamental frequency of the signal.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.12
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonic number
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f12e25fa-ad15-5495-9448-e8193c1987cf
+

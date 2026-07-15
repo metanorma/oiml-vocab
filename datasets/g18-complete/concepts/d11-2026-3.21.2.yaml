@@ -1,0 +1,80 @@
+---
+data:
+  identifier: d11-2026-3.21.2
+  localized_concepts:
+    eng: ec92557a-21bf-584b-bb6d-06fc6d7c16e5
+    fra: 7bcf5e03-2dc2-51ce-830d-4e27d938ebb8
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.20'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.21.2
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: ae7c8f6b-b89a-503b-bd9d-23d79a0ca1cb
+schema_version: 3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: description d'une série d'essais applicable à certains types d'équipement
+  examples: []
+  id: d11-2026-f-3.21.2-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: programme d'essai
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7bcf5e03-2dc2-51ce-830d-4e27d938ebb8
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: description of a series of tests for certain types of equipment
+  examples: []
+  id: d11-2026-e-3.21.2-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test program
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: ec92557a-21bf-584b-bb6d-06fc6d7c16e5
+

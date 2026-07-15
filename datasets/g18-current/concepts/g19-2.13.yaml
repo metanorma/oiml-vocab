@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML G 19:2017
+        source: OIML V 1:2013
         version: '2017'
     locality:
       type: clause
@@ -31,26 +31,7 @@ data:
   notes:
   - content: This reference value is sometimes referred to as a (conventional) true
       quantity value. See, however, also OIML V 2-200:2012, 2.12, Note 1.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '0.04'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML G 19:2017
-        version: '2017'
-    locality:
-      type: clause
-      reference_from: '2.13'
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

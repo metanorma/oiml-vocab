@@ -3,7 +3,6 @@ data:
   identifier: r85-3.32
   localized_concepts:
     eng: 12f21b9f-0df3-5cbc-a4ab-7c9c295ad9b8
-    fra: 6cf59a01-ade8-5d09-8894-6e497cccba7e
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -12,22 +11,6 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.32'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.32'
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -52,55 +35,22 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85:2008
+        source: OIML R 85-1-2:2008
         version: '2008'
+    type: authoritative
     locality:
       type: clause
       reference_from: '3.32'
-    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: Fault
+    designation: fault
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
+  - concept_id: r-85-1-2
+    source: OIML R 85-1-2:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 12f21b9f-0df3-5cbc-a4ab-7c9c295ad9b8
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Différence entre l'erreur d'indication et l'erreur intrinsèque d'un JA.
-  examples: []
-  id: r85-3.32-fra
-  notes:
-  - content: Un défaut est principalement le résultat d'un changement non désiré des
-      données contenues ou transitant dans un JA électronique.
-  sources:
-  - origin:
-      ref:
-        source: OIML R 85:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3.32'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Défaut
-  language_code: fra
-  entry_status: valid
-  domains:
-  - concept_id: r-85
-    source: OIML R 85:2008
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 6cf59a01-ade8-5d09-8894-6e497cccba7e
 

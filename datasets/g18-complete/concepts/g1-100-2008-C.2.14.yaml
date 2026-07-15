@@ -1,0 +1,100 @@
+---
+data:
+  identifier: g1-100-2008-C.2.14
+  localized_concepts:
+    eng: 33b7e6c4-f7ed-50c1-9649-97f7af5bf33f
+    fra: 79297036-0ee9-5862-acde-947251f7b4e7
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.14
+    type: authoritative
+status: valid
+id: 859e980b-27c4-584e-a438-c415eeef2d75
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: the probability distribution of a continuous random variable X, the probability
+      density function of which is f(x) = (1 / (sigma sqrt(2 pi))) exp[-(1/2)((x -
+      mu)/sigma)^2] for -infinity < x < +infinity.
+  examples: []
+  id: g1-100-2008-e-C.2.14-eng
+  notes:
+  - content: mu is the expectation and sigma is the standard deviation of the normal
+      distribution.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.14
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: normal distribution
+  - type: expression
+    normative_status: admitted
+    designation: Laplace-Gauss distribution
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 33b7e6c4-f7ed-50c1-9649-97f7af5bf33f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: loi de probabilité d'une variable aléatoire continue X, dont la densité
+      de probabilité est f(x) = (1 / (sigma sqrt(2 pi))) exp[-(1/2)((x - mu)/sigma)^2]
+      pour -infinity < x < +infinity.
+  examples: []
+  id: g1-100-2008-f-C.2.14-fra
+  notes:
+  - content: mu est l'espérance mathématique et sigma l'écart-type de la loi normale.
+  - content: 'Source citation: ISO 3534- 1'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: C.2.14
+    sourced_from:
+    - ref:
+        source: ISO 3534-
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: loi normale
+  - type: expression
+    normative_status: admitted
+    designation: loi de Laplace-Gauss
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 79297036-0ee9-5862-acde-947251f7b4e7
+

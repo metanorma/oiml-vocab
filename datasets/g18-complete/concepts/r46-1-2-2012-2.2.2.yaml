@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.2
+  localized_concepts:
+    eng: fb7cee72-84be-55bc-9cd6-8b3223e4be99
+    fra: fddab1b8-f549-51ab-9f11-de4382db09be
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.2
+status: valid
+id: 3f24d082-79ba-5896-86ac-f87f23ee80c4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: lowest value of current specified by the manufacturer at which the meter
+      should register electrical energy at unity power factor and, for poly-phase
+      meters, with balanced load
+  examples: []
+  id: r46-1-2-2012-eng-2.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: starting current (Ist)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e4a1bb3b-3948-5a0f-a7cd-28f97f1eee18
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur la plus basse du courant spécifiée par le fabricant pour laquelle
+      le compteur doit enregistrer l'énergie électrique à un facteur de puissance
+      d'unité et, pour les compteurs polyphasés, avec charges équilibrées
+  examples: []
+  id: r46-1-2-2012-fra-2.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant de démarrage ($I_{st}$)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b41f8582-556e-5d15-a749-59847e79bc08
+

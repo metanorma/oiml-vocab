@@ -8,30 +8,6 @@ data:
     source: OIML D 18:2008
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 18:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '2.1'
-    type: authoritative
-status: valid
-id: 043ca90c-303f-5583-8cf3-c831ddab1ac5
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Material, sufficiently homogeneous and stable with reference to specified
-      properties, which has been established to be fit for its intended use in measurement
-      or in examination of nominal properties.
-  examples: []
-  id: d18-2008-e-2.1-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 043ca90c-303f-5583-8cf3-c831ddab1ac5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended use in measurement
+      or in examination of nominal properties.
+  examples: []
+  id: d18-2008-e-2.1-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

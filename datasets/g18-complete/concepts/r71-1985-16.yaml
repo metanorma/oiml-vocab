@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r71-1985-16
+  localized_concepts:
+    eng: 498bce6f-5534-5afb-8ead-cf56718e451e
+    fra: 407f8286-17fe-5795-8c0a-d35dfaf4e783
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '16'
+status: valid
+id: 7394a4d0-0f19-50b3-be36-5b46b2afb19f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The capacity below which the maximum permissible error does not apply,
+      taking account of the shape of the tank and the calibration method.
+  examples: []
+  id: r71-1985-e-16-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: lower limit of accurate capacity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 498bce6f-5534-5afb-8ead-cf56718e451e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Capacité au-dessous de laquelle l'erreur maximale tolérée ne s'applique
+      pas, compte tenu de la forme du réservoir et de la méthode de jaugeage.
+  examples: []
+  id: r71-1985-f-16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '16'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limite inférieure de la capacité précise
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 407f8286-17fe-5795-8c0a-d35dfaf4e783
+

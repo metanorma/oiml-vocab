@@ -8,14 +8,25 @@ data:
     source: OIML R 46-1:2012
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '5.07'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 46-1:2012
         version: '2012'
     locality:
       type: clause
       reference_from: 2.2.32
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
 status: valid
 id: 750c2c9f-1692-5fab-b11f-f6a2dcc88f62
 schema_version: '3'
@@ -40,26 +51,7 @@ data:
       y la cantidad de energía medida durante el fallo.'
   - content: Los fallos que se detecten y generen acciones por un dispositivo de verificación
       no serán considerados fallos significativos.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '5.07'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 46-1:2012
-        version: '2012'
-    locality:
-      type: clause
-      reference_from: 2.2.32
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

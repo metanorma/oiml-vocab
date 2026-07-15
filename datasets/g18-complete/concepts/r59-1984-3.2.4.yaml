@@ -1,0 +1,104 @@
+---
+data:
+  identifier: r59-1984-3.2.4
+  localized_concepts:
+    eng: 9354fdd9-c02b-5586-9f51-8672e37b5e7b
+    fra: 98156a52-1505-50d3-80c6-287b60a8c13c
+  domains:
+  - concept_id: r-59
+    source: OIML R 59:1984
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:1984
+        version: '1984'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.4
+status: valid
+id: f8d171ec-0e01-50d1-a5af-9298c768b31e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Zéro et valeur de contrôle.
+  examples: []
+  id: r59-1984-f-3.2.4-fra
+  notes:
+  - content: Dans la pratique la valeur 0 % masse ne peut jamais être atteinte par
+      la grandeur que représente le titre d'un échantillon de grains ou de graines.
+      Cependant, les humidimètres peuvent donner l'indication « zéro ».
+  - content: Un dispositif permettant la détermination d'une valeur de contrôle est
+      un dispositif destiné à vérifier le bon état de fonctionnement de la partie
+      mesureuse. La valeur de contrôle se matérialise par une ou plusieurs indications
+      du dispositif indicateur qui sont le résultat d'une simulation de mesurage.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:1984
+        version: '1984'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Zéro et valeur de contrôle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-59
+    source: OIML R 59:1984
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 98156a52-1505-50d3-80c6-287b60a8c13c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Zero value and test value.
+  examples: []
+  id: r59-1984-e-3.2.4-eng
+  notes:
+  - content: The value 0% mass can, in practice, never be reached by the quantity
+      which represents the moisture content of a sample of grains or seeds. However,
+      moisture meters may give a "zero" indication. This zero is mechanical or electrical
+      according to the principle of measurement of the instrument. For moisture meters
+      with direct indication of the moisture content - that is to say not requiring
+      the use of conversion tables - zero may represent the result of a measurement
+      when the measuring cell is empty or the indication of the instrument when the
+      measuring operations have not yet been initiated.
+  - content: A device enabling the determination of a test value is a device aiming
+      at verifying the smooth running of the measuring part. The test value is obtained
+      by one or more indications of the indicating device which are the result of
+      a measurement simulation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 59:1984
+        version: '1984'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.2.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Zero value and test value
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-59
+    source: OIML R 59:1984
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9354fdd9-c02b-5586-9f51-8672e37b5e7b
+

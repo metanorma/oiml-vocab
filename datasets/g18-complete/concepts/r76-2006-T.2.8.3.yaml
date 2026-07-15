@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r76-2006-T.2.8.3
+  localized_concepts:
+    eng: 8c5ee7d0-8afe-5a08-b318-e01d8c1e7b42
+    fra: d06fbd70-c621-5330-a218-824fdb2f0099
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.3
+    type: authoritative
+status: valid
+id: 4b3514ee-4d11-5b7c-856e-095b7305c8dd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the type of instrument
+      only. Type-specific parameters are part of the legally relevant software. They
+      are fixed at type approval of the instrument.
+  examples:
+  - content: Parameters used for mass calculation, stability analysis or price calculation
+      and rounding, software identification.
+  id: r76-2006-e-T.2.8.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: type-specific parameter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8c5ee7d0-8afe-5a08-b318-e01d8c1e7b42
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Paramètre d'application légale avec une valeur qui dépend seulement du
+      modèle d'instrument. Les paramètres d'application légale sont une partie du
+      logiciel d'application légale. Ils sont fixés lors de l'approbation de modèle
+      de l'instrument.
+  examples:
+  - content: Paramètres utilisés pour le calcul de la masse, l'analyse de la stabilité
+      ou le calcul du prix ou de l'arrondi, l'identification du logiciel.
+  id: r76-2006-e-T.2.8.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paramètre spécifique au modele
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d06fbd70-c621-5330-a218-824fdb2f0099
+

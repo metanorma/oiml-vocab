@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r60-1991-T.13
+  localized_concepts:
+    eng: 46036c31-cc72-5dd9-98ec-e4b7989e8efe
+    fra: 0be17a6b-2f15-564e-890a-b0938e3f24ab
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.13
+    type: authoritative
+status: valid
+id: 3ee2f5cd-25f3-5c1c-bf29-8e4d846a0777
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The change in load cell output occurring with time while under constant
+      load and with all environmental conditions and other variables also remaining
+      constant.
+  examples: []
+  id: r60-1991-e-T.13-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Creep
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 46036c31-cc72-5dd9-98ec-e4b7989e8efe
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Variation du signal de sortie de la cellule de pesée se produisant au
+      cours du temps en présence d'une charge constante, toutes les conditions ambiantes
+      et autres variables restant également constantes.
+  examples: []
+  id: r60-1991-f-T.13-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: T.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fluage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:1991
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0be17a6b-2f15-564e-890a-b0938e3f24ab
+

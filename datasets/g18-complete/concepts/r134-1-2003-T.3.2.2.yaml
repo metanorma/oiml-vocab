@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r134-1-2003-T.3.2.2
+  localized_concepts:
+    eng: b98447e7-80b6-5dd4-9802-ec3c07b49d36
+    fra: 17c6b81b-dbc4-5a88-8226-9dd3fa597e80
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+status: valid
+id: b81cbd2a-12cb-5ae0-9d53-79753493a1dd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Charge en dessous de laquelle un résultat de pesage en mouvement avant
+      totalisation peut être sujet à une erreur relative excessive.
+  examples: []
+  id: r134-1-2003-fra-T.3.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Portée minimale (Min)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 17c6b81b-dbc4-5a88-8226-9dd3fa597e80
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Load below which a weighing-in-motion result before totalizing may be
+      subject to an excessive relative error.
+  examples: []
+  id: r134-1-2003-eng-T.3.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: T.3.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum capacity (Min)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b98447e7-80b6-5dd4-9802-ec3c07b49d36
+

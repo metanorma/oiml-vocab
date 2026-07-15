@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r106-1-2011-0.4.1
+  localized_concepts:
+    eng: eb4ff4b7-8374-54fb-98f5-be4c4f865339
+    fra: 670e16cf-039c-594e-a9ed-12fe4a56d239
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.1
+    type: authoritative
+status: valid
+id: bedb8560-d19d-56d5-a3df-71e7768ec206
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: quantity value provided by a measuring instrument or a measuring system
+      [VIM 4.1]
+  examples: []
+  id: r106-1-2011-eng-0.4.1-eng
+  notes:
+  - content: An indication may be presented in visual or acoustic form or may be transferred
+      to another device. An indication is often given by the position of a pointer
+      on the display for analog outputs, a displayed or printed number for digital
+      outputs, a code pattern for code outputs, or an assigned quantity value for
+      material measures.
+  - content: An indication and a corresponding value of the quantity being measured
+      are not necessarily values of quantities of the same kind.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eb4ff4b7-8374-54fb-98f5-be4c4f865339
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur de grandeur fournie par un instrument de mesure ou un systeme
+      de mesure
+  examples: []
+  id: r106-1-2011-fra-0.4.1-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 670e16cf-039c-594e-a9ed-12fe4a56d239
+

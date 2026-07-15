@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r75-1-2002-4.3
+  localized_concepts:
+    eng: 9d30c186-a3c0-51ea-953a-0616a1ab754f
+    fra: 1f16062f-83c9-5618-aec9-755369f7ce0c
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.3'
+status: valid
+id: 9e6ef748-e536-54c5-8151-19acb8e7fa91
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Voltage of the external power supply required to operate the heat meter,
+      conventionally the voltage of the AC mains supply.
+  examples: []
+  id: r75-1-2002-eng-4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated voltage
+  - type: symbol
+    normative_status: preferred
+    designation: U_n
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d30c186-a3c0-51ea-953a-0616a1ab754f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Tension de l'alimentation électrique externe nécessaire au fonctionnement
+      du compteur d'énergie thermique et, par convention, tension de l'alimentation
+      secteur en courant alternatif.
+  examples: []
+  id: r75-1-2002-fra-4.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tension nominale
+  - type: symbol
+    normative_status: admitted
+    designation: "$U_{n}$"
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1f16062f-83c9-5618-aec9-755369f7ce0c
+

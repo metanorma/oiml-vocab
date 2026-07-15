@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r106-2011-0.2.6
+  localized_concepts:
+    eng: 71c48128-ba6a-55ce-b20e-491d461237b0
+    fra: 0a0db1dd-9435-5dce-be37-3a8306579089
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.2.6
+    type: authoritative
+status: valid
+id: 87d101cf-0b44-59a3-89e8-7a99c80b6626
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: identifiable part of an instrument that performs a specific function
+      or functions, and that can be separately evaluated according to the metrological
+      and technical performance requirements in the relevant Recommendation
+  examples: []
+  id: r106-2011-e-0.2.6-eng
+  notes:
+  - content: 'Typical modules of an automatic weighing instrument are: load cell,
+      indicator, analogue or digital data processing device, weighing module, terminal,
+      primary display.'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 71c48128-ba6a-55ce-b20e-491d461237b0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie identifiable d un instrument ayant une ou plusieurs fonctions
+      specifiques et qui peut etre evalue separement, en application des exigences
+      de performances metrologiques et techniques fixees dans la Recommandation applicable
+  examples: []
+  id: r106-2011-f-0.2.6-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106
+    source: OIML R 106:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0a0db1dd-9435-5dce-be37-3a8306579089
+

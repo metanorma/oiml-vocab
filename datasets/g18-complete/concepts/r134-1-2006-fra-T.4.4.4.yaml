@@ -8,31 +8,6 @@ data:
     source: OIML R 134-1:2006
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 134-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.4.4.4
-    type: authoritative
-status: valid
-id: 40374c5d-1c89-5e5f-844b-b52266097738
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Valeurs extrêmes d'une erreur tolérée par des spécifications ou règlements
-      entre l'indication d'un instrument de pesage et la valeur vraie correspondante,
-      déterminée par référence à des masses ou poids étalons, à zéro ou à charge nulle,
-      en position de référence.
-  examples: []
-  id: r134-1-2006-fra-T.4.4.4-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 40374c5d-1c89-5e5f-844b-b52266097738
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeurs extrêmes d'une erreur tolérée par des spécifications ou règlements
+      entre l'indication d'un instrument de pesage et la valeur vraie correspondante,
+      déterminée par référence à des masses ou poids étalons, à zéro ou à charge nulle,
+      en position de référence.
+  examples: []
+  id: r134-1-2006-fra-T.4.4.4-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

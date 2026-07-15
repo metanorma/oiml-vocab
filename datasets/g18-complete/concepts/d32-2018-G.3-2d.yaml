@@ -1,0 +1,90 @@
+---
+data:
+  identifier: d32-2018-G.3-2d
+  localized_concepts:
+    eng: 98485a16-26ed-5351-aedf-6eb4942961a3
+    fra: 5d88f51d-3c8f-5f70-a2a8-3dc698cb513c
+  domains:
+  - concept_id: d-32
+    source: OIML D 32:2018
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 1:2013
+    locality:
+      type: clause
+      reference_from: '2.04'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 32:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: G.3-2d
+    sourced_from:
+    - ref:
+        source: OIML V 1:2013
+status: valid
+id: 58b08fd8-0d0d-5bd1-ae00-7cdfbc27287b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and / or an evaluation certificate
+  examples: []
+  id: d32-2018-e-G.3-2d-eng
+  notes:
+  - content: '"Pattern" is used in legal metrology with the same meaning as "type".'
+  - content: For the purposes of the OIML-CS, "evaluation report" should be read as
+      "OIML type evaluation report".
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: type (pattern) evaluation
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 98485a16-26ed-5351-aedf-6eb4942961a3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: procédure d'évaluation de la conformité d'un ou plusieurs exemplaires
+      d'un type (modèle) identifié d'instrument de mesure conduisant à l'établissement
+      d'un rapport d'évaluation et/ou d'un certificat d'évaluation
+  examples: []
+  id: d32-2018-f-G.3-2d-fra
+  notes:
+  - content: En métrologie légale, on utilise "modèle" dans le même sens que "type".
+  - content: Aux fins de l'OIML-CS, on entendra par « rapport d'évaluation » le «
+      rapport d'évaluation de type OIML ».
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: évaluation de type (modèle)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5d88f51d-3c8f-5f70-a2a8-3dc698cb513c
+

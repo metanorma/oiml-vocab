@@ -1,0 +1,130 @@
+---
+data:
+  identifier: r49-1-2013-3.1.16
+  localized_concepts:
+    eng: 0ae35c85-98bd-5a79-a9d3-b3cc9db95173
+    spa: de5ba832-d782-58fc-8a7f-7d7935e4c384
+    fra: a3cfaabf-b4da-53ca-92c0-0f63ac3f1dc0
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.16
+status: valid
+id: 9fccf1da-931d-58eb-bc93-c570fe5ffa74
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Es el medidor que consiste de un medidor grande, un medidor pequeño y
+      un dispositivo de cambio que, dependiendo de la magnitud del caudal que pasa
+      por un medidor, dirige automáticamente el flujo hacia el medidor pequeño o grande,
+      o hacia ambos.
+  examples: []
+  id: r49-1-2013-spa-3.1.16-spa
+  notes:
+  - content: La lectura del medidor se obtiene de dos totalizadores independientes,
+      o de un totalizador que suma los valores de ambos medidores de agua.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: medidor combinado
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: de5ba832-d782-58fc-8a7f-7d7935e4c384
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: meter comprising one large meter, one small meter, and a changeover device
+      that, depending on the magnitude of the flow rate passing through the meter,
+      automatically directs the flow through either the small or the large meter,
+      or both
+  examples: []
+  id: r49-1-2013-eng-3.1.16-eng
+  notes:
+  - content: The meter reading is obtained from two independent totalizers, or from
+      one totalizer which adds up the values from both water meters.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.16
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: combination meter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0ae35c85-98bd-5a79-a9d3-b3cc9db95173
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: compteur comprenant un gros compteur, un petit compteur et un dispositif
+      de selection qui, en fonction de la valeur du debit passant au travers du compteur,
+      dirige automatiquement le flux dans le petit compteur, dans le grand, ou bien
+      dans les deux
+  examples: []
+  id: r49-1-2013-fra-3.1.16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.16
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur combine
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a3cfaabf-b4da-53ca-92c0-0f63ac3f1dc0
+

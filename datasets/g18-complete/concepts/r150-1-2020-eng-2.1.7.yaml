@@ -8,29 +8,6 @@ data:
     source: OIML R 150-1:2020
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.1.7
-    type: authoritative
-status: valid
-id: 974f89ff-b822-5936-a5cf-66a62d324d7e
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: attribute of any device, instrument, function or software that may influence
-      the measurement result or any other primary indication
-  examples: []
-  id: r150-1-2020-eng-2.1.7-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 974f89ff-b822-5936-a5cf-66a62d324d7e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: attribute of any device, instrument, function or software that may influence
+      the measurement result or any other primary indication
+  examples: []
+  id: r150-1-2020-eng-2.1.7-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

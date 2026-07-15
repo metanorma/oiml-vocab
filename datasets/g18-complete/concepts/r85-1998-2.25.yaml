@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r85-1998-2.25
+  localized_concepts:
+    eng: b059d5e3-eda1-5661-b9b2-fe4df6085086
+    fra: bcb76d79-c2ff-5c3d-95b7-9bfeb5f95822
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '2.25'
+    type: authoritative
+status: valid
+id: d264e729-90c6-5e48-ad1e-85a70803b6fa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence dont la valeur se situe dans les limites spécifiées
+      mais en dehors des conditions assignées de fonctionnement spécifiées pour le
+      JA.
+  examples: []
+  id: r85-1998-f-2.25-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '2.25'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bcb76d79-c2ff-5c3d-95b7-9bfeb5f95822
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: An influence quantity having a value within specified limits, but outside
+      the specified rated operating conditions of the ALG.
+  examples: []
+  id: r85-1998-e-2.25-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '2.25'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b059d5e3-eda1-5661-b9b2-fe4df6085086
+

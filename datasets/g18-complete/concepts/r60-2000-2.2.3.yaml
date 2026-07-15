@@ -1,0 +1,102 @@
+---
+data:
+  identifier: r60-2000-2.2.3
+  localized_concepts:
+    eng: d1f0c429-8d0d-5742-846f-35b13dc47424
+    fra: bde4b151-b102-538b-ba07-b0719e147986
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.3
+    type: authoritative
+status: valid
+id: e2fd6689-12de-5d70-8773-29a7f56a6526
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pour les besoins de l'évaluation de type/l'approbation de modele, une
+      famille de cellules de pesée réunit les cellules de pesée de même matériau ou
+      combinaison de matériaux (par exemple, acier doux, acier inoxydable ou aluminium);
+      de même conception de la technique de mesure (par exemple, jauges de contrainte
+      liées à du métal); construites selon le même procédé (par exemple, pour la forme,
+      la fixation des jauges de contrainte, la méthode de montage, la méthode de fabrication);
+      d'un même ensemble de spécifications (par exemple, puissance de sortie, impédance
+      d'entrée, tension d'alimentation, détails de câblage); et d'un ou plusieurs
+      groupes de cellules de pesée.
+  examples: []
+  id: r60-2000-f-2.2.3-fra
+  notes:
+  - content: Les exemples fournis ne sont pas exhaustifs.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Famille de cellule de pesée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bde4b151-b102-538b-ba07-b0719e147986
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: For the purposes of type evaluation/pattern approval, a load cell family
+      consists of load cells that are of the same material or combination of materials
+      (for example, mild steel, stainless steel or aluminum); the same design of the
+      measurement technique (for example, strain gauges bonded to metal); the same
+      method of construction (for example, shape, sealing of strain gauges, mounting
+      method, manufacturing method); the same set of specifications (for example,
+      output rating, input impedance, supply voltage, cable details); and one or more
+      load cell groups.
+  examples: []
+  id: r60-2000-e-2.2.3-eng
+  notes:
+  - content: The examples provided are not intended to be limiting.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: 2.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Load cell family
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60
+    source: OIML R 60:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d1f0c429-8d0d-5742-846f-35b13dc47424
+

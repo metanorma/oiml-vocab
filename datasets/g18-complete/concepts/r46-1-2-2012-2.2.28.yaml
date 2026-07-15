@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.28
+  localized_concepts:
+    eng: 7dff62e4-d21b-5efc-8d01-9bf92389a530
+    fra: 3c74117d-1396-5ea9-b1c0-1ca4bfe89e71
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.25'
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.28
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
+status: valid
+id: ba00233c-c52b-584d-9e8c-1369cffe9616
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: classe d'instruments de mesure ou de systèmes de mesure qui satisfont
+      à certaines exigences métrologiques destinées à maintenir les erreurs de mesure
+      ou les incertitudes instrumentales entre des limites spécifiées dans des conditions
+      de fonctionnement spécifiées
+  examples: []
+  id: r46-1-2-2012-fra-2.2.28-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: classe d'exactitude
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 32a7085d-95d7-5d86-9e79-d6571e2bfe8a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: class of measuring instruments or measuring systems that meet stated
+      metrological requirements that are intended to keep measurement errors or instrumental
+      measurement uncertainties within specified limits under specified operating
+      conditions
+  examples: []
+  id: r46-1-2-2012-eng-2.2.28-eng
+  notes:
+  - content: In this Recommendation, the stated metrological requirements for accuracy
+      class include permissible responses to disturbances.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: accuracy class
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b7d4566a-2ad9-587c-b9dd-855ee17189ac
+

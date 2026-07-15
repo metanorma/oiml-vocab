@@ -8,30 +8,6 @@ data:
     source: OIML R 59-1:2016
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.4
-    type: authoritative
-status: valid
-id: 855043e7-9c27-5ce2-be0f-997ef3dc2acc
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: reference material, accompanied by documentation issued by an authoritative
-      body and providing one or more specified property values with associated uncertainties
-      and traceabilities, using valid procedures
-  examples: []
-  id: r59-1-2016-eng-2.1.4-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 855043e7-9c27-5ce2-be0f-997ef3dc2acc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: reference material, accompanied by documentation issued by an authoritative
+      body and providing one or more specified property values with associated uncertainties
+      and traceabilities, using valid procedures
+  examples: []
+  id: r59-1-2016-eng-2.1.4-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

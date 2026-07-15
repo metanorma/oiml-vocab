@@ -8,28 +8,6 @@ data:
     source: OIML R 139:2014
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139:2014
-        version: '2014'
-    locality:
-      type: clause
-      reference_from: 3.1.15
-    type: authoritative
-status: valid
-id: 54beba60-ec6e-5ce5-8a7d-d4030a2ebafb
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: durability error exceeding the value specified in this Recommendation
-  examples: []
-  id: r139-2014-e-3.1.15-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 54beba60-ec6e-5ce5-8a7d-d4030a2ebafb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: durability error exceeding the value specified in this Recommendation
+  examples: []
+  id: r139-2014-e-3.1.15-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -8,29 +8,6 @@ data:
     source: OIML R 150-1:2020
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.4.5.7
-    type: authoritative
-status: valid
-id: f641e195-fe19-5143-81f7-aadea47f2fe5
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: difference between the intrinsic error after a period of use and the
-      initial intrinsic error of a measuring instrument
-  examples: []
-  id: r150-1-2020-eng-2.4.5.7-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: f641e195-fe19-5143-81f7-aadea47f2fe5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: difference between the intrinsic error after a period of use and the
+      initial intrinsic error of a measuring instrument
+  examples: []
+  id: r150-1-2020-eng-2.4.5.7-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

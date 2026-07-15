@@ -8,30 +8,6 @@ data:
     source: OIML R 150-1:2020
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.2.9.6
-    type: authoritative
-status: valid
-id: c711f62e-ee6e-5c94-8fbd-9eb52f2083be
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: separation of the software in measuring instruments which can be divided
-      into a legally relevant part and a legally non-relevant part
-  examples: []
-  id: r150-1-2020-eng-2.2.9.6-eng
-  notes:
-  - content: These parts communicate via a software interface.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: c711f62e-ee6e-5c94-8fbd-9eb52f2083be
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: separation of the software in measuring instruments which can be divided
+      into a legally relevant part and a legally non-relevant part
+  examples: []
+  id: r150-1-2020-eng-2.2.9.6-eng
+  notes:
+  - content: These parts communicate via a software interface.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

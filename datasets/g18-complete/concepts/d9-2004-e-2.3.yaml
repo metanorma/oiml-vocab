@@ -8,33 +8,6 @@ data:
     source: OIML D 9:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 9:2004
-        version: '2004'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2.3'
-status: valid
-id: 22a285d4-88e6-53ac-b09b-9bba8c8dfc01
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Measuring instrument which conforms to prescribed requirements, in particular
-      legal metrological requirements.
-  examples: []
-  id: d9-2004-e-2.3-eng
-  notes:
-  - content: For the purposes of this Document the following instruments may fall
-      under legal control according to national regulations - measuring instruments,
-      coin counting machines, medical measuring instruments, water dispensing machines,
-      timing instruments in vehicle washes.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -54,6 +27,25 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 22a285d4-88e6-53ac-b09b-9bba8c8dfc01
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Measuring instrument which conforms to prescribed requirements, in particular
+      legal metrological requirements.
+  examples: []
+  id: d9-2004-e-2.3-eng
+  notes:
+  - content: For the purposes of this Document the following instruments may fall
+      under legal control according to national regulations - measuring instruments,
+      coin counting machines, medical measuring instruments, water dispensing machines,
+      timing instruments in vehicle washes.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

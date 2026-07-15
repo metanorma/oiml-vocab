@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 61-1:2017
+        source: OIML V 1:2013
         version: '2017'
     locality:
       type: clause
@@ -40,26 +40,7 @@ data:
       rise to variations in the measurement result that are serious enough to be noticed
       by all those interested in the measurement result. The Recommendation may specify
       the nature of these variations.'
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '5.14'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 61-1:2017
-        version: '2017'
-    locality:
-      type: clause
-      reference_from: 3.5.2.7
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

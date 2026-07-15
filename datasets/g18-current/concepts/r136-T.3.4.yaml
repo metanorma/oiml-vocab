@@ -3,28 +3,11 @@ data:
   identifier: r136-T.3.4
   localized_concepts:
     eng: 71eb2b9b-f36a-5529-9c4d-bac06b0647fa
-    deu: d7c10c4a-3f14-5200-a305-349d1eb7c111
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.3.4
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.3.4
-    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -50,7 +33,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136-1:2004
+        source: OIML R 136:2004
         version: '2004'
     locality:
       type: clause
@@ -66,44 +49,9 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
+  - concept_id: r-136
+    source: OIML R 136:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 71eb2b9b-f36a-5529-9c4d-bac06b0647fa
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Summe der Flächen von Lederstücken, die einzeln gemessen und zu einer
-      abgeteilten Menge gebündelt wurden.
-  examples: []
-  id: r136-T.3.4-deu
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 136-1:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: T.3.4
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Gesamtfläche einer abgeteilten Ledermenge
-  - type: symbol
-    normative_status: admitted
-    designation: A_total
-  language_code: deu
-  entry_status: valid
-  domains:
-  - concept_id: r-136-1
-    source: OIML R 136-1:2004
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: d7c10c4a-3f14-5200-a305-349d1eb7c111
 

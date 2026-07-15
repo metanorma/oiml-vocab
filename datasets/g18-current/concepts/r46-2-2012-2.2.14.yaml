@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r46-2-2012-2.2.14
+  localized_concepts:
+    eng: 630839fa-42b3-534f-8ddf-ae82eaacac93
+    fra: 843affe3-de31-5b0f-bfb8-c822f778e50f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:0
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2-2012-2.2.14
+    type: authoritative
+status: valid
+id: 0ff0161a-8651-5ff2-af23-aaea3205a262
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ratio of the active power to the apparent power
+  examples: []
+  id: r46-2-2012-2.2.14-eng
+  notes:
+  - content: At sinusoidal and either one-phase or symmetrical three-phase conditions,
+      the power factor = cos phi = the cosine of the phase difference phi between
+      voltage U and current I.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.14
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: power factor (PF)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 630839fa-42b3-534f-8ddf-ae82eaacac93
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rapport de la puissance active sur la puissance apparente
+  examples: []
+  id: r46-2-2012-2.2.14-fra
+  notes:
+  - content: Dans des conditions sinusoïdales et soit en phase, soit en triphasé symétrique,
+      le facteur de puissance = cos Phi = le cosinus de la différence de phase Phi
+      entre la tension U et le courant I.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.14
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur de puissance (FP)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 843affe3-de31-5b0f-bfb8-c822f778e50f
+

@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r49-2013-3.4.3
+  localized_concepts:
+    eng: 3dcf1e97-acb2-54b2-98cd-33c68cf069d2
+    fra: 9bb18c10-5162-5073-aea8-379e9992d59f
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+status: valid
+id: 0c6a1fa7-8e87-525b-9f1c-5385798141e3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in this
+      part of OIML R 49, but outside the specified rated operating conditions of the
+      meter
+  examples: []
+  id: r49-2013-f-3.4.3-eng
+  notes:
+  - content: An influence quantity is a disturbance if the rated operating conditions
+      for that influence quantity are not specified.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a9dee1d7-ae02-59fe-a4ae-6b0c36d159bd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont une valeur se situe dans les limites spécifiées
+      dans cette partie de l'OIML R 49 mais en dehors des conditions assignées de
+      fonctionnement spécifiées du compteur
+  examples: []
+  id: r49-2013-f-3.4.3-fra
+  notes:
+  - content: Une grandeur d'influence est une perturbation si pour cette grandeur
+      d'influence, les conditions assignées de fonctionnement ne sont pas spécifiées.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49
+    source: OIML R 49:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5df47ab9-affb-5e5a-8f90-3ad870c1ceda
+

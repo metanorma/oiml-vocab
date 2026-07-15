@@ -8,30 +8,6 @@ data:
     source: OIML G 19:2017
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML G 19:2017
-        version: '2017'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2.13'
-status: valid
-id: b8ab9e15-449e-5645-8f92-70006f5a0f92
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: indication minus a reference quantity value
-  examples: []
-  id: g19-2017-e-2.13-eng
-  notes:
-  - content: This reference value is sometimes referred to as a (conventional) true
-      quantity value. See, however, also OIML V 2-200:2012, 2.12, Note 1.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: b8ab9e15-449e-5645-8f92-70006f5a0f92
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indication minus a reference quantity value
+  examples: []
+  id: g19-2017-e-2.13-eng
+  notes:
+  - content: This reference value is sometimes referred to as a (conventional) true
+      quantity value. See, however, also OIML V 2-200:2012, 2.12, Note 1.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

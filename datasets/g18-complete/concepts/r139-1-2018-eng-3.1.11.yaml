@@ -8,28 +8,6 @@ data:
     source: OIML R 139-1:2018
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 139-1:2018
-        version: '2018'
-    locality:
-      type: clause
-      reference_from: 3.1.11
-    type: authoritative
-status: valid
-id: 7b03b10a-1c86-52d9-b31d-9f3d10efbe10
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: value specified in this Recommendation delimiting non-significant faults
-  examples: []
-  id: r139-1-2018-eng-3.1.11-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 7b03b10a-1c86-52d9-b31d-9f3d10efbe10
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value specified in this Recommendation delimiting non-significant faults
+  examples: []
+  id: r139-1-2018-eng-3.1.11-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

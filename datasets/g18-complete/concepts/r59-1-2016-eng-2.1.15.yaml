@@ -8,32 +8,6 @@ data:
     source: OIML R 59-1:2016
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 59-1:2016
-        version: '2016'
-    locality:
-      type: clause
-      reference_from: 2.1.15
-    type: authoritative
-status: valid
-id: 3ed28f81-a592-571a-874c-3fb1a86637e3
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: conformity assessment procedure on one or more specimens of an identified
-      type (pattern) of measuring instruments which results in an evaluation report
-      and/or an evaluation certificate
-  examples: []
-  id: r59-1-2016-eng-2.1.15-eng
-  notes:
-  - content: Pattern is used in legal metrology with the same meaning as type; in
-      the entries below, only type is used.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -53,6 +27,24 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: 3ed28f81-a592-571a-874c-3fb1a86637e3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and/or an evaluation certificate
+  examples: []
+  id: r59-1-2016-eng-2.1.15-eng
+  notes:
+  - content: Pattern is used in legal metrology with the same meaning as type; in
+      the entries below, only type is used.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

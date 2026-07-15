@@ -8,30 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.27'
-status: valid
-id: ef74d8dc-9988-5596-87e3-9c4191a67870
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: conformity assessment procedure (other than type evaluation) which results
-      in the affixing of a verification mark and/or issuing of a verification certificate
-  examples: []
-  id: d5-2022-e-3.27-eng
-  notes:
-  - content: See also OIML V2-200:2012 2.44.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: ef74d8dc-9988-5596-87e3-9c4191a67870
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conformity assessment procedure (other than type evaluation) which results
+      in the affixing of a verification mark and/or issuing of a verification certificate
+  examples: []
+  id: d5-2022-e-3.27-eng
+  notes:
+  - content: See also OIML V2-200:2012 2.44.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

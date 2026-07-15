@@ -1,0 +1,98 @@
+---
+data:
+  identifier: d10-2022-3.12
+  localized_concepts:
+    eng: be12d6e5-69fb-5eb7-9189-9101d914d626
+    spa: ea1610af-f2ae-5dbb-8f0f-79c99a68b4bc
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+status: valid
+id: a7d6342a-9930-51d7-a440-95a87b9e2851
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measuring instrument reproducing or supplying, in a permanent manner
+      during its use, quantities of one or more given kinds, each with an assigned
+      quantity value
+  examples:
+  - content: Standard weight, volume measure, standard electric resistor, line scale
+      (ruler), gauge block, standard signal generator, certified reference material.
+  id: d10-2022-e-3.12-eng
+  notes:
+  - content: The indication of a material measure is its assigned quantity value.
+  - content: A material measure can be a measurement standard.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.12'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: material measure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: be12d6e5-69fb-5eb7-9189-9101d914d626
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: instrumento de medición que reproduce o proporciona de manera permanente
+      durante su utilización, magnitudes de uno o más tipos dados, cada una de ellas
+      con un valor asignado
+  examples:
+  - content: Pesa patrón, medida de volumen (que ofrece uno o más valores, con o sin
+      escala de valores), resistencia eléctrica patrón, regla graduada, bloque patrón,
+      generador de señales
+  id: d10-2022-spa-3.12-spa
+  notes:
+  - content: La indicación de una medida materializada es su valor asignado.
+  - content: Una medida materializada puede ser un patrón.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: medida materializada
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ea1610af-f2ae-5dbb-8f0f-79c99a68b4bc
+

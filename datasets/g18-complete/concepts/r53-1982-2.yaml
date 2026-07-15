@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r53-1982-2
+  localized_concepts:
+    eng: 26e89a86-d147-5c91-a0c6-c0318b8facdd
+    fra: c3d0827c-4953-5fb4-b002-42e5a6a3dfb4
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '2'
+    type: authoritative
+status: valid
+id: 82bd8f7c-c864-5f8e-94cb-e465a5a0f899
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pression maximale fixée pour l'élément récepteur élastique considéré.
+  examples: []
+  id: r53-1982-f-2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pression nominale
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c3d0827c-4953-5fb4-b002-42e5a6a3dfb4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Maximum pressure specified for the given elastic sensing element.
+  examples: []
+  id: r53-1982-e-2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 53:1982
+        version: '1982'
+    locality:
+      type: clause
+      reference_from: '2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nominal pressure
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-53
+    source: OIML R 53:1982
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 26e89a86-d147-5c91-a0c6-c0318b8facdd
+

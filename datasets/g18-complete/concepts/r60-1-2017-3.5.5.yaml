@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r60-1-2017-3.5.5
+  localized_concepts:
+    eng: 69be1b27-0e77-593c-b4d9-06ceca11aa2e
+    fra: 8cd2a00c-75ab-5039-8b88-a7af3c829e77
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.5
+    type: authoritative
+status: valid
+id: b68bfd83-00d7-59b0-8edc-a34d1b86df38
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: largest value of a quantity expressed in units of mass, which may be
+      applied to a load cell
+  examples: []
+  id: r60-1-2017-eng-3.5.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum capacity
+  - type: symbol
+    designation: "$E_{\\mathrm{max}}$"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 69be1b27-0e77-593c-b4d9-06ceca11aa2e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: plus grande valeur d'une grandeur exprimée en unités de masse pouvant
+      être appliquée à une cellule de pesée (E_max)
+  examples: []
+  id: r60-1-2017-fra-3.5.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 60-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.5.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: portée maximale (E_max)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-60-1
+    source: OIML R 60-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8cd2a00c-75ab-5039-8b88-a7af3c829e77
+

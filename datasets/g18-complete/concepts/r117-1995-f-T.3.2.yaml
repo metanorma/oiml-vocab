@@ -8,28 +8,6 @@ data:
     source: OIML R 117:1995
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 117:1995
-        version: '1995'
-    locality:
-      type: clause
-      reference_from: T.3.2
-    type: authoritative
-status: valid
-id: b3e5c5c1-9d87-5df6-881b-af4f1fc5d050
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Resultat d un mesurage moins valeur (conventionnellement) vraie du mesurande.
-  examples: []
-  id: r117-1995-f-T.3.2-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -49,6 +27,20 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: b3e5c5c1-9d87-5df6-881b-af4f1fc5d050
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Resultat d un mesurage moins valeur (conventionnellement) vraie du mesurande.
+  examples: []
+  id: r117-1995-f-T.3.2-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

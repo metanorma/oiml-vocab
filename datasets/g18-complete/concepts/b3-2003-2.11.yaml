@@ -1,0 +1,89 @@
+---
+data:
+  identifier: b3-2003-2.11
+  localized_concepts:
+    eng: 26568c7b-819e-5138-b931-1cbb592345d4
+    fra: 6ac10877-a650-50dd-9a1f-e1b533d936ae
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2003
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.11'
+status: valid
+id: 75ed758c-fb5f-5d69-a18b-927df98c376c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Document issued under the rules of the System by the Issuing Authority
+      providing confidence that the identified type of measuring instrument is in
+      conformity with the requirements of the relevant Recommendation.
+  examples: []
+  id: b3-2003-e-2.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2003
+        version: '2003'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: OIML Certificate of Conformity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 26568c7b-819e-5138-b931-1cbb592345d4
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Document délivré selon les règles du Système par l'Autorité de Délivrance
+      établissant que le type d'instrument de mesure identifié est conforme aux exigences
+      de la Recommandation applicable.
+  examples: []
+  id: b3-2003-f-2.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML B 3:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: '2.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Certificat OIML de Conformité
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: b-3
+    source: OIML B 3:2003
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6ac10877-a650-50dd-9a1f-e1b533d936ae
+

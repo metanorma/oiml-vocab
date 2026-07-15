@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r46-1-2-2012-2.2.4
+  localized_concepts:
+    eng: bf6a8f9e-f4bd-515b-921e-031efecabe7e
+    fra: 5c1ce4c1-ec7f-5e9a-8e9d-c4aad9c3eded
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.4
+status: valid
+id: fbe301c6-0f62-56c6-9942-0357e66c6520
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur du courant spécifiée par le fabricant à, et au-dessus de laquelle
+      le compteur respecte la plus petite erreur maximale tolérée correspondant à
+      la classe d'exactitude du compteur
+  examples: []
+  id: r46-1-2-2012-fra-2.2.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant de transition ($I_{tr}$)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 604f04e2-03e3-52ed-8439-f3048d21e708
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value of current at and above which the meter is specified by the manufacturer
+      to lie within the smallest maximum permissible error corresponding to the accuracy
+      class of the meter
+  examples: []
+  id: r46-1-2-2012-eng-2.2.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transitional current (Itr)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 82747165-73d1-5512-8be2-b7d5adec5f75
+

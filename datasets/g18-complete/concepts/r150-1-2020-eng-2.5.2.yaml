@@ -8,31 +8,6 @@ data:
     source: OIML R 150-1:2020
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 150-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: 2.5.2
-    type: authoritative
-status: valid
-id: c49c9827-5334-57ec-98fd-fa717e12a621
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: operating condition that must be fulfilled during measurement in order
-      that a measuring instrument or measuring system perform as designed
-  examples: []
-  id: r150-1-2020-eng-2.5.2-eng
-  notes:
-  - content: Rated operating conditions generally specify intervals of values for
-      a quantity being measured and for any influence quantity.
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -52,6 +27,23 @@ data:
     sourced_from:
     - ref:
         source: OIML V 1:2013
+status: valid
+id: c49c9827-5334-57ec-98fd-fa717e12a621
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: operating condition that must be fulfilled during measurement in order
+      that a measuring instrument or measuring system perform as designed
+  examples: []
+  id: r150-1-2020-eng-2.5.2-eng
+  notes:
+  - content: Rated operating conditions generally specify intervals of values for
+      a quantity being measured and for any influence quantity.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

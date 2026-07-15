@@ -2,7 +2,6 @@
 data:
   identifier: r76-T.2.7.2.4
   localized_concepts:
-    eng: a193fded-2e0c-50bf-bd14-54b3d547942b
     fra: b1b19418-759c-59a7-9518-f1646181d8fd
   domains:
   - concept_id: section-terms
@@ -17,57 +16,9 @@ data:
       type: clause
       reference_from: T.2.7.2.4
     type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.7.2.4
-    type: authoritative
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.7.2.4
-    type: authoritative
 status: valid
 id: f7df2006-d4f5-517f-b67e-bf4b19a1c45a
 schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Device for setting the indication to zero automatically at the time the
-      instrument is switched on and before it is ready for use.
-  examples: []
-  id: r76-T.2.7.2.4-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 76:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: T.2.7.2.4
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: initial zero-setting device
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: a193fded-2e0c-50bf-bd14-54b3d547942b
 ---
 data:
   dates:
@@ -82,7 +33,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76:2006
+        source: OIML R 76-1:2006
         version: '2006'
     locality:
       type: clause
@@ -95,8 +46,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76
-    source: OIML R 76:2006
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b1b19418-759c-59a7-9518-f1646181d8fd

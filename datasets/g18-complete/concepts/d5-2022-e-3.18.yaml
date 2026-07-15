@@ -8,30 +8,6 @@ data:
     source: OIML D 5:2022
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML D 5:2022
-        version: '2022'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3.18'
-status: valid
-id: 65c863cc-bc10-5139-8038-95e49787d812
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: measurement standard designated for the calibration of other measurement
-      standards for quantities of a given kind in a given organisation or at a given
-      location
-  examples: []
-  id: d5-2022-e-3.18-eng
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -51,6 +27,22 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 65c863cc-bc10-5139-8038-95e49787d812
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: measurement standard designated for the calibration of other measurement
+      standards for quantities of a given kind in a given organisation or at a given
+      location
+  examples: []
+  id: d5-2022-e-3.18-eng
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

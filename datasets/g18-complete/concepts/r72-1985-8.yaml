@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r72-1985-8
+  localized_concepts:
+    eng: 57aca89d-68c2-5931-a10c-6c63789ca37d
+    fra: d46bd4fd-9ac9-5349-9422-02cd1f8c30cf
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '8'
+status: valid
+id: d6addd68-eb56-5087-8929-f3d78101dd27
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The flowrate value, within the maximum and minimum flowrates, at which
+      the flowrate range is separated into two zones, called upper and lower zones,
+      each characterised by the value of the maximum permissible error in this zone.
+  examples: []
+  id: r72-1985-e-8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transitional flowrate (Q_t)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 57aca89d-68c2-5931-a10c-6c63789ca37d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur du débit, située entre le débit minimal et le débit maximal, à
+      laquelle l'étendue de la charge se divise en deux zones, dites « zone supérieure
+      » et « zone inférieure », chacune caractérisée par la valeur de l'erreur maximale
+      tolérée dans cette zone.
+  examples: []
+  id: r72-1985-f-8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 72:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit de transition (Q_t)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-72
+    source: OIML R 72:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d46bd4fd-9ac9-5349-9422-02cd1f8c30cf
+

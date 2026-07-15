@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r144-1-2013-2.21
+  localized_concepts:
+    eng: 85198e7d-244c-5c3b-aa11-538ff7f9eca1
+    fra: 160f7bdd-0291-5f91-8819-768de476033d
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 2.21
+    type: authoritative
+status: valid
+id: 729090cb-f121-5a2c-b329-02d9e52486bf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: système incorporé dans un instrument de mesure qui permet de détecter
+      et de mettre en évidence les défauts significatifs
+  examples: []
+  id: r144-1-2013-fra-2.21-fra
+  notes:
+  - content: La mise en évidence fait référence à tout moyen approprié de l'instrument
+      de mesure (signal lumineux, signal acoustique, blocage du processus de mesurage,
+      etc.) (VIML 2012 (V 1), 5.06 [25]).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.21'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de contrôle
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 160f7bdd-0291-5f91-8819-768de476033d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facility that is incorporated in a measuring instrument and which enables
+      significant faults to be detected and acted upon
+  examples: []
+  id: r144-1-2013-eng-2.21-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.)
+      (VIML 2012 (V1), 5.06).'
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 2.21
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-144-1
+    source: OIML R 144-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 85198e7d-244c-5c3b-aa11-538ff7f9eca1
+

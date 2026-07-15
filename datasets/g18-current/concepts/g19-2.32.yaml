@@ -10,7 +10,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML G 19:2017
+        source: OIML V 1:2013
         version: '2017'
     locality:
       type: clause
@@ -38,26 +38,7 @@ data:
       SI or national standards.
   - content: There are also regulations outside the area of legal metrology pertaining
       to the accuracy and correctness of measurement methods.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 1:2013
-    locality:
-      type: clause
-      reference_from: '0.01'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML G 19:2017
-        version: '2017'
-    locality:
-      type: clause
-      reference_from: '2.32'
-    sourced_from:
-    - ref:
-        source: OIML V 1:2013
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

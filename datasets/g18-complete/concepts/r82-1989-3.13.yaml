@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r82-1989-3.13
+  localized_concepts:
+    eng: 48f2b751-38fb-5d0b-9968-af4e19aecf0a
+    fra: 4da98613-bdbb-538f-85e5-4020ac6364a6
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+status: valid
+id: 889f00df-0310-51ef-850c-1c2b36d0ef41
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Manifestation d''une variation du signal de sortie du chromatographe.
+      Il peut être divisé en deux composants: 3.13.1. Le bruit à court terme comprend
+      toutes les variations aléatoires observables du signal en provenance du détecteur
+      ou d''autres composants, et dont la fréquence est de l''ordre d''un ou de quelques
+      cycles par minute. 3.13.2. La dérive est la pente moyenne du signal de base
+      mesurée sur une demi-heure au minimum.'
+  examples: []
+  id: r82-1989-f-3.13-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bruit
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4da98613-bdbb-538f-85e5-4020ac6364a6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'A manifestation of variation in the gas chromatograph output signal;
+      it can be divided into two components: 3.13.1. Short-term noise includes all
+      observable random variations of the signal from the detector or other components
+      having a frequency of the order of one or more cycles per minute. 3.13.2. Drift
+      is the average slope of the baseline signal measured over a minimum of one-half
+      hour.'
+  examples: []
+  id: r82-1989-e-3.13-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 82:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Noise
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-82
+    source: OIML R 82:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 48f2b751-38fb-5d0b-9968-af4e19aecf0a
+

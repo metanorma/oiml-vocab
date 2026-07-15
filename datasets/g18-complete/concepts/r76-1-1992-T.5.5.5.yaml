@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r76-1-1992-T.5.5.5
+  localized_concepts:
+    eng: 02a36067-16b0-545a-990d-0d0921e03c68
+    fra: 2791d455-777d-50e9-bbc9-a127a63ddcb0
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.5.5.5
+    type: authoritative
+status: valid
+id: 3ae29436-a83c-5b89-9752-4f1e1d0e0898
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The difference between the error of indication and the intrinsic error
+      of an instrument.
+  examples: []
+  id: r76-1-1992-eng-T.5.5.5-eng
+  notes:
+  - content: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic instrument.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.5.5.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 02a36067-16b0-545a-990d-0d0921e03c68
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument.
+  examples: []
+  id: r76-1-1992-f-T.5.5.5-fra
+  notes:
+  - content: Un défaut est principalement le résultat d'un changement non désiré des
+      données contenues dans, ou transitant à travers, un instrument électronique.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:1992
+        version: '1992'
+    locality:
+      type: clause
+      reference_from: T.5.5.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:1992
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2791d455-777d-50e9-bbc9-a127a63ddcb0
+

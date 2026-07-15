@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r49-1-2000-B.1.2
+  localized_concepts:
+    eng: 06a7cd34-2804-5a6a-b9f3-ad1ce52651eb
+    fra: ecf6f3f2-696d-554b-a6b8-db699e1dd49f
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.2
+    type: authoritative
+status: valid
+id: 68515f02-feda-56eb-9225-a0017bff2bf1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: débit le plus élevé auquel un compteur d'eau peut réellement fonctionner
+      de manière satisfaisante, en respectant l'erreur maximale tolérée, pendant une
+      brève période de temps sans détérioration
+  examples: []
+  id: r49-1-2000-fra-B.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: débit supérieur
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{\\mathrm{h}}$"
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ecf6f3f2-696d-554b-a6b8-db699e1dd49f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: highest flowrate at which a water meter can actually operate in a satisfactory
+      manner, within the maximum permissible error, for a short period of time without
+      deteriorating
+  examples: []
+  id: r49-1-2000-eng-B.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: B.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: high flowrate
+  - type: symbol
+    normative_status: preferred
+    designation: "$Q_{h}$"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2000
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 06a7cd34-2804-5a6a-b9f3-ad1ce52651eb
+

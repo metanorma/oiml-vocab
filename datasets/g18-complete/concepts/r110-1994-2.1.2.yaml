@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r110-1994-2.1.2
+  localized_concepts:
+    eng: ac1dd35a-ffb8-5a21-b908-beb0beea0de6
+    fra: 9366a0a0-31fe-5c53-81d5-fe1832edc488
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+status: valid
+id: 48eeaf98-68cd-55d6-a9f3-18f149fd93b0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Surface determinee pour un ensemble piston-cylindre donne qui est utilisee
+      dans l'equation de conversion pour le calcul de la pression mesuree.
+  examples: []
+  id: r110-1994-f-2.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Surface efficace
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9366a0a0-31fe-5c53-81d5-fe1832edc488
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The area determined for a given piston-cylinder assembly which is used
+      in the conversion equation for the calculation of the measured pressure.
+  examples: []
+  id: r110-1994-e-2.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Effective area
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ac1dd35a-ffb8-5a21-b908-beb0beea0de6
+

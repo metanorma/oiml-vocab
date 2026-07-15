@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r51-1-1996-T.4.5
+  localized_concepts:
+    eng: 83339ca9-dcaf-53e6-a795-15f84cb978ea
+    fra: 6daf93d7-68aa-59f3-854a-0dea4f6c942c
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+status: valid
+id: 2c31143c-8824-546c-8880-71d6e587adb3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The standard deviation of the error (of indication) for a number of consecutive
+      automatic weighings of a load, or similar loads, passed over the load receptor.
+  examples: []
+  id: r51-1-1996-e-T.4.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: standard deviation of the error
+  - type: symbol
+    normative_status: preferred
+    designation: s
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 83339ca9-dcaf-53e6-a795-15f84cb978ea
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Écart-type de l'erreur (d'indication) pour une série de pesées automatiques
+      consécutives d'une charge, ou de charges identiques, passant sur le récepteur
+      de charges, exprimé par la formule mathématique s = sqrt(Σ(x - x̅)² / (n - 1)).
+  examples: []
+  id: r51-1-1996-f-T.4.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 51-1:1996
+        version: '1996'
+    locality:
+      type: clause
+      reference_from: T.4.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écart-type de l'erreur (s)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-51-1
+    source: OIML R 51-1:1996
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6daf93d7-68aa-59f3-854a-0dea4f6c942c
+

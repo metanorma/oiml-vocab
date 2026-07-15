@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r126-1998-3.7
+  localized_concepts:
+    eng: aea16937-cab4-57ed-9f83-c2430376c723
+    fra: 96c6a2af-bf01-51a7-a924-511b343032c1
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+status: valid
+id: 6b74b04a-6bfa-5a3e-98b2-10cb45aa5ef2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The mode of the EBA in which only certain circuits are energized in order
+      to conserve power and/or prolong component life, and to attain the measuring
+      mode more rapidly than would be possible if starting from the un-powered state.
+  examples: []
+  id: r126-1998-e-3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: stand-by mode
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aea16937-cab4-57ed-9f83-c2430376c723
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Mode de l'ethylometre pour lequel seuls certains circuits sont sous tension
+      afin d'economiser l'energie et/ou de prolonger la duree de vie d'un composant,
+      tout en permettant d'atteindre le mode mesure plus rapidement qu'a partir de
+      l'etat de hors tension generale.
+  examples: []
+  id: r126-1998-f-3.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 126:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Position veille
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-126
+    source: OIML R 126:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 96c6a2af-bf01-51a7-a924-511b343032c1
+

@@ -8,29 +8,6 @@ data:
     source: OIML R 117:1995
     ref_type: section
   sources:
-  - origin:
-      ref:
-        source: OIML R 117:1995
-        version: '1995'
-    locality:
-      type: clause
-      reference_from: T.3.3
-    type: authoritative
-status: valid
-id: 6e057ee3-8459-5b26-bce5-dbf62ad87f6d
-schema_version: '3'
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Rapport de l erreur absolue de mesure a la valeur (conventionnellement)
-      vraie de la grandeur mesuree.
-  examples: []
-  id: r117-1995-f-T.3.3-fra
-  notes:
-  sources:
   - type: authoritative
     origin:
       ref:
@@ -50,6 +27,21 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2-200:2012
+status: valid
+id: 6e057ee3-8459-5b26-bce5-dbf62ad87f6d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rapport de l erreur absolue de mesure a la valeur (conventionnellement)
+      vraie de la grandeur mesuree.
+  examples: []
+  id: r117-1995-f-T.3.3-fra
+  notes:
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

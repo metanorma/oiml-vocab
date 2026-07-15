@@ -1,0 +1,94 @@
+---
+data:
+  identifier: g1-100-2008-B.2.21
+  localized_concepts:
+    eng: 719d2040-6280-5e58-a649-610cde212dd5
+    fra: 7bd843dc-dcd4-5b53-aa91-a461b3c27a76
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.21
+    type: authoritative
+status: valid
+id: 80fad0e9-2d1d-5d19-8b0a-001c52a4282c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: result of a measurement minus the mean that would result from an infinite
+      number of measurements of the same measurand carried out under repeatability
+      conditions
+  examples: []
+  id: g1-100-2008-e-B.2.21-eng
+  notes:
+  - content: Random error is equal to error minus systematic error.
+  - content: Because only a finite number of measurements can be made, it is possible
+      to determine only an estimate of random error.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.21
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: random error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 719d2040-6280-5e58-a649-610cde212dd5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: résultat d'un mesurage moins la moyenne d'un nombre infini de mesurages
+      du même mesurande, effectués dans les conditions de répétabilité
+  examples: []
+  id: g1-100-2008-f-B.2.21-fra
+  notes:
+  - content: L'erreur aléatoire est égale à l'erreur moins l'erreur systématique.
+  - content: Comme on ne peut faire qu'un nombre fini de mesurages, il est seulement
+      possible de déterminer une estimation de l'erreur aléatoire.
+  sources:
+  - origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: B.2.21
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur aléatoire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: g-1-100
+    source: OIML G 1-100:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7bd843dc-dcd4-5b53-aa91-a461b3c27a76
+

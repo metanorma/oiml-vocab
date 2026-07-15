@@ -1,0 +1,92 @@
+---
+data:
+  identifier: d11-2013-3.22
+  localized_concepts:
+    eng: 14045228-da30-5780-9597-e108b32b90ca
+    fra: 50253005-b058-5ab7-be7d-a2b739ee9f9d
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.22'
+status: valid
+id: ff92794e-b03d-5585-8dc9-b6ccc2540a9a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: principale source externe d'alimentation électrique pour un instrument,
+      y compris tous les sous-ensembles
+  examples:
+  - content: Réseau électrique public ou local (AC ou DC) ou un générateur externe
+  id: d11-2013-f-3.22-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.22'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: alimentation électrique secteur (primaire)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 50253005-b058-5ab7-be7d-a2b739ee9f9d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: primary external source of electrical power for an instrument, including
+      all sub-assemblies
+  examples:
+  - content: Public or local power grid (AC or DC) or external generator.
+  id: d11-2013-e-3.22-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.22'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: mains power
+  - type: expression
+    normative_status: admitted
+    designation: mains
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 14045228-da30-5780-9597-e108b32b90ca
+

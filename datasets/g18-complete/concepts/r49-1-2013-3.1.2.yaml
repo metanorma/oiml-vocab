@@ -1,0 +1,133 @@
+---
+data:
+  identifier: r49-1-2013-3.1.2
+  localized_concepts:
+    eng: 6781349a-3d4b-5492-b740-043055e1746f
+    fra: f7ae4682-45d1-5bae-b9bf-c38849f5e0d6
+    spa: 7ac63d83-88e9-5511-8f6a-551f8531f1d7
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.2
+status: valid
+id: e4286dd8-94d1-5a3c-a0f8-697e865a3ef0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of the meter that transforms the flow rate or volume of water to
+      be measured into signals which are passed to the calculator and includes the
+      sensor
+  examples: []
+  id: r49-1-2013-eng-3.1.2-eng
+  notes:
+  - content: The measurement transducer may function autonomously or use an external
+      power source and may be based on a mechanical, electrical or electronic principle.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 3.1.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement transducer
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6781349a-3d4b-5492-b740-043055e1746f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie du compteur comprenant le capteur, qui transforme le debit ou
+      le volume d'eau a mesurer en signaux qui sont transmis au calculateur
+  examples: []
+  id: r49-1-2013-fra-3.1.2-fra
+  notes:
+  - content: Le transducteur de mesure peut fonctionner de maniere autonome ou en
+      utilisant une source d'alimentation externe et peut etre base sur un principe
+      mecanique, electrique ou electronique.
+  - content: Pour un compteur d'eau, le capteur peut etre un disque, un piston, une
+      roue, les elements d'une turbine, les electrodes d'un compteur electromagnetique,
+      ou un autre element. Ces elements detectent le debit ou le volume d'eau passant
+      au travers du compteur que l'on appelle capteur de debit ou de volume.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transducteur de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7ae4682-45d1-5bae-b9bf-c38849f5e0d6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Es la parte del medidor que transforma el caudal o el volumen de agua
+      a ser medido en señales que son pasadas al calculador y que incluye el sensor.
+  examples: []
+  id: r49-1-2013-spa-3.1.2-spa
+  notes:
+  - content: El transductor de medición puede funcionar de manera autónoma o utilizar
+      una fuente de energía externa y estar basado en un principio mecánico, eléctrico
+      o electrónico.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 49-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: 3.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transductor de medición
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: r-49-1
+    source: OIML R 49-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7ac63d83-88e9-5511-8f6a-551f8531f1d7
+

@@ -8,14 +8,25 @@ data:
     source: OIML R 142-1:2025
     ref_type: section
   sources:
-  - origin:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012
+    locality:
+      type: clause
+      reference_from: '4.26'
+  - type: lineage
+    status: identical
+    origin:
       ref:
         source: OIML R 142-1:2025
         version: '2025'
     locality:
       type: clause
       reference_from: '3.9'
-    type: authoritative
+    sourced_from:
+    - ref:
+        source: OIML V 2-200:2012
 status: valid
 id: c37269a2-de0e-565e-a70b-d06311dce8f1
 schema_version: '3'
@@ -39,26 +50,7 @@ data:
       verification and verification after repair of refractometer are defined in 5.2.1.'
   - content: Maximum permissible errors for refractometer in service are defined in
       5.2.2.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML V 2-200:2012
-    locality:
-      type: clause
-      reference_from: '4.26'
-  - type: lineage
-    status: identical
-    origin:
-      ref:
-        source: OIML R 142-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '3.9'
-    sourced_from:
-    - ref:
-        source: OIML V 2-200:2012
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
