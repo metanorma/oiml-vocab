@@ -13,7 +13,7 @@ data:
     origin:
       ref:
         source: OIML V 2:1993
-    locality:
+    locality: &1
       type: clause
       reference_from: '4.1'
   - type: lineage
@@ -28,6 +28,7 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2:1993
+      locality: *1
 status: valid
 id: bb4a34ab-ebe9-5c54-8144-a7ef45d1a6f3
 schema_version: '3'

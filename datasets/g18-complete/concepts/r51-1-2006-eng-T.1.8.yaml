@@ -12,7 +12,7 @@ data:
     origin:
       ref:
         source: OIML V 2:1993
-    locality:
+    locality: &1
       type: clause
       reference_from: '1.20'
   - type: lineage
@@ -27,6 +27,7 @@ data:
     sourced_from:
     - ref:
         source: OIML V 2:1993
+      locality: *1
 status: valid
 id: 2f6ceb08-4eae-5513-9d60-f824955645aa
 schema_version: '3'
