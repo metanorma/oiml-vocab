@@ -1,0 +1,85 @@
+---
+data:
+  identifier: d11-3.19.1.1
+  localized_concepts:
+    eng: 25e81d2e-c7f3-572e-9303-244acd7c6bd2
+    fra: 811fe50b-881b-5efb-aabc-3729e94cc4d8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.19.1.1
+    type: authoritative
+status: valid
+id: e01cd2eb-7c5d-5408-866a-275bd5726cf7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: automatic checking facility that operates at each measurement cycle
+  examples: []
+  id: d11-3.19.1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.19.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: permanent automatic checking facility (type P)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: 25e81d2e-c7f3-572e-9303-244acd7c6bd2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: système de contrôle automatique qui fonctionne à chaque cycle de mesure
+  examples: []
+  id: d11-3.19.1.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: 3.19.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de contrôle automatique permanent (type P)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 811fe50b-881b-5efb-aabc-3729e94cc4d8
+

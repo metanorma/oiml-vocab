@@ -1,0 +1,86 @@
+---
+data:
+  identifier: r134-T.4.2.2
+  localized_concepts:
+    eng: 19c782ee-76c7-59a0-bc5d-ee6023c475ad
+    fra: f98903d1-4d33-5883-bc57-cefa8a4391b0
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.2
+    type: authoritative
+status: valid
+id: 6e3f8ccb-2058-5ad6-a5a4-e6666330ef90
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of an instrument determined under reference conditions.
+  examples: []
+  id: r134-T.4.2.2-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 19c782ee-76c7-59a0-bc5d-ee6023c475ad
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication permettant l'évaluation de la position d'équilibre en fraction
+      d'échelon.
+  examples: []
+  id: r134-T.4.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: indication analogique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f98903d1-4d33-5883-bc57-cefa8a4391b0
+

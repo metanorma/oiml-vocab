@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r81-3.4
+  localized_concepts:
+    eng: 48b507c6-fd0d-54b2-99f8-2b22bd24e570
+    fra: 8500ab76-82e9-5604-8811-050dde1a97ff
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+status: valid
+id: 6979b947-7c4c-5408-8767-1278bd2aec8f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A system that is comprised of the meter itself and all the ancillary
+      devices and other equipment assembled to carry out the specified measurement
+      task.
+  examples: []
+  id: r81-3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Measuring system
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 48b507c6-fd0d-54b2-99f8-2b22bd24e570
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Systeme comprenant le compteur lui-meme et tous les dispositifs auxiliaires
+      et autres equipements assembles pour effectuer la tache de mesurage specifiee.
+  examples: []
+  id: r81-3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: systeme de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8500ab76-82e9-5604-8811-050dde1a97ff
+

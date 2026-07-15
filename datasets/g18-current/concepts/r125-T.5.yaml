@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r125-T.5
+  localized_concepts:
+    eng: 3d3164f8-4881-58c3-9f5b-5f981ce2ce4d
+    fra: 81d418e0-52b4-5686-86be-67536b3a4475
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.5
+    type: authoritative
+status: valid
+id: 492e62da-e880-5a39-b3c4-695d7f2a06c2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A table which shows the relation between the height of the liquid level
+      and the volume contained in the tank at that level under specified conditions.
+  examples: []
+  id: r125-T.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tank calibration table
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3d3164f8-4881-58c3-9f5b-5f981ce2ce4d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Bareme donnant la relation entre la hauteur du niveau de liquide et le
+      volume contenu dans le reservoir pour ce niveau dans des conditions specifiees.
+  examples: []
+  id: r125-T.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bareme de jaugeage du reservoir
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 81d418e0-52b4-5686-86be-67536b3a4475
+

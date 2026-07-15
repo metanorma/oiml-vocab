@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r90-5.3.7
+  localized_concepts:
+    eng: 2915936f-bd0e-55cf-b63d-e9e60001bb40
+    fra: bbeb44a1-29da-5750-8916-e60703eb6302
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:90:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.7
+    type: authoritative
+status: valid
+id: 9b524263-ea9a-5b69-b296-fdd2a60f1026
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The overshoot is the difference between the maximum peak-to-peak amplitude
+      of a recorded square-wave signal and its minimum value divided by twice the
+      minimum value.
+  examples: []
+  id: r90-5.3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: overshoot
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2915936f-bd0e-55cf-b63d-e9e60001bb40
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le dépassement est la différence entre les amplitudes crête à crête maximale
+      et minimale du signal rectangulaire enregistré, divisée par deux fois la valeur
+      minimale.
+  examples: []
+  id: r90-5.3.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dépassement
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bbeb44a1-29da-5750-8916-e60703eb6302
+

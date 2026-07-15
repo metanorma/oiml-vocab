@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r56-1.2
+  localized_concepts:
+    eng: bc4dea36-200b-5fbf-ba8a-3fef7437ed2c
+    fra: e7512e4c-968e-582e-b2d4-2f20238d29fc
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:56:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 56:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '1.2'
+    type: authoritative
+status: valid
+id: 68225572-447f-5372-8923-bb32818a3d97
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Container intended for measurement of conductance.
+  examples: []
+  id: r56-1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 56:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conductance cell
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-56
+    source: OIML R 56:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bc4dea36-200b-5fbf-ba8a-3fef7437ed2c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Récipient destiné aux mesurages de conductance.
+  examples: []
+  id: r56-1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 56:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cellule de conductance
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-56
+    source: OIML R 56:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e7512e4c-968e-582e-b2d4-2f20238d29fc
+

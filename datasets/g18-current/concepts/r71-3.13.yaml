@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r71-3.13
+  localized_concepts:
+    eng: 3863199a-f246-5df4-9374-435f991a0ebe
+    deu: 067b99a9-57dc-5392-9967-349148969420
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:71:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+status: valid
+id: dfe6b89a-4333-5663-978f-90f01b3cfe79
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Expression in the form of a table, of the mathematical function V(h)
+      which represents the relation between the height h (independent variable) and
+      the volume V (dependent variable).
+  examples: []
+  id: r71-3.13-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration table
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3863199a-f246-5df4-9374-435f991a0ebe
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ausdruck in Form einer Tabelle der mathematischen Funktion V(h), die
+      den Zusammenhang zwischen der Höhe h (unabhängige Variable) und dem Volumen
+      V (abhängige Variable) darstellt.
+  examples: []
+  id: r71-3.13-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Peiltabelle
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 067b99a9-57dc-5392-9967-349148969420
+

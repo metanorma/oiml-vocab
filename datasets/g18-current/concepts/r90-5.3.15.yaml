@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r90-5.3.15
+  localized_concepts:
+    eng: 89eafb7c-413a-5bf3-b52c-135bd63a3a6f
+    fra: 5aae5203-2533-5862-890d-830f673f25db
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:90:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.15
+    type: authoritative
+status: valid
+id: e149d2c6-ecae-522b-92d0-bc75d90df532
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The intrinsic noise level referred to the input is the maximum peak-to-peak
+      amplitude of the signal evaluated for a given time interval and referred to
+      the input, with Z1 connected to the electrocardiograph inputs.
+  examples: []
+  id: r90-5.3.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic noise level referred to the input
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 89eafb7c-413a-5bf3-b52c-135bd63a3a6f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le niveau de bruit intrinsèque rapporté à l'entrée est l'amplitude crête
+      à crête maximale du signal, évaluée pour un intervalle de temps donné et réduit
+      à l'entrée, l'impédance Z1 étant reliée à l'entrée de l'électrocardiographe.
+  examples: []
+  id: r90-5.3.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: niveau de bruit intrinsèque rapporté à l'entrée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5aae5203-2533-5862-890d-830f673f25db
+

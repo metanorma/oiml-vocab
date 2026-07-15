@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r86-T.5
+  localized_concepts:
+    eng: 8479ced1-5e7a-5410-b8b6-60aee78a74af
+    fra: c3ab38fd-e58a-5823-b260-3c3ea89d8ee4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:86:1989
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 86:1989
+        version: '1989'
+    locality:
+      type: clause
+      reference_from: T.5
+    type: authoritative
+status: valid
+id: 8978b3a2-0c7e-5e82-8319-a88fdda00db4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The ethanol content of the liquid to be measured, indicated as volume
+      concentration or as mass content.
+  examples: []
+  id: r86-T.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 86:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Alcohol content
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-86
+    source: OIML R 86:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8479ced1-5e7a-5410-b8b6-60aee78a74af
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Proportion d'éthanol dans un mélange hydro-alcoolique, exprimée sous
+      forme de titre volumique ou de titre massique.
+  examples: []
+  id: r86-T.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 86:1989
+        version: '1989'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: T.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Titre alcoométrique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-86
+    source: OIML R 86:1989
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c3ab38fd-e58a-5823-b260-3c3ea89d8ee4
+

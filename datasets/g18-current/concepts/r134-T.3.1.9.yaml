@@ -1,0 +1,98 @@
+---
+data:
+  identifier: r134-T.3.1.9
+  localized_concepts:
+    eng: c47c1869-caad-52b4-b23c-c9bf625510f7
+    fra: 6ecd3fb8-1287-5fc5-9eea-065d0f8a9c1a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.9
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.9
+    type: authoritative
+status: valid
+id: d244942b-8352-5769-849c-8610c2a4df0f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Axle load which is not part of an axle-group load. For the purposes of
+      this Recommendation, if no criteria for defining various axle-groups have been
+      specified, all recorded axle loads shall be considered as single-axle loads.
+  examples: []
+  id: r134-T.3.1.9-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: single-axle load
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c47c1869-caad-52b4-b23c-c9bf625510f7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Charge par essieu qui ne fait pas partie d'un groupe d'essieu. Pour les
+      besoins de cette Recommandation, si aucun critère de définition de divers groupes
+      d'essieux n'a été spécifié, toutes les charges par essieu enregistrées doivent
+      être considérées comme des charges par essieu simple.
+  examples: []
+  id: r134-T.3.1.9-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: charge par essieu simple
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6ecd3fb8-1287-5fc5-9eea-065d0f8a9c1a
+

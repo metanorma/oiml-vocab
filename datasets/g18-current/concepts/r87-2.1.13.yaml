@@ -1,0 +1,125 @@
+---
+data:
+  identifier: r87-2.1.13
+  localized_concepts:
+    eng: 565db5e2-7504-56b9-b8ba-f99439cff77d
+    fra: 17d07e7b-f007-5b47-8417-7ffca219b9d5
+    spa: eac57dc4-c7e4-5b8f-b8ca-dd5956488466
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.13
+    type: authoritative
+status: valid
+id: 2e7bdd2b-fa53-5dc1-8f47-b887b3adcb7d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sampling procedure where prepackages to be included in a sample are chosen
+      randomly from the inspection lot (i.e. each prepackage in the inspection lot
+      has an equal probability of being selected to be included in the sample)
+  examples: []
+  id: r87-2.1.13-eng
+  notes:
+  - content: This is also referred to as "sampling without replacement".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: random sampling
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-87
+    source: OIML R 87:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 565db5e2-7504-56b9-b8ba-f99439cff77d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: la procédure d'échantillonnage dans laquelle les préemballages devant
+      être inclus dans un échantillon sont choisis de façon aléatoire dans le lot
+      d'inspection
+  examples: []
+  id: r87-2.1.13-fra
+  notes:
+  - content: On l'appelle également « échantillonnage sans remplacement ».
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: échantillonnage aléatoire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-87
+    source: OIML R 87:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 17d07e7b-f007-5b47-8417-7ffca219b9d5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Procedimiento de muestreo en el cual los preempacados que se van a incluir
+      en una muestra se escogen aleatoriamente del lote de inspección.
+  examples: []
+  id: r87-2.1.13-spa
+  notes:
+  - content: También se denomina "muestreo sin reemplazo".
+  sources:
+  - origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: 2.1.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: muestreo aleatorio
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: r-87
+    source: OIML R 87:2016
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: eac57dc4-c7e4-5b8f-b8ca-dd5956488466
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r71-3.1
+  localized_concepts:
+    eng: 20d738aa-41ef-5337-aca5-02f270627ef6
+    deu: 479ff2d6-e76e-55e5-91b8-6fb932fed563
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:71:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.1'
+    type: authoritative
+status: valid
+id: 58808511-fd93-50f2-b45d-b0ca16ec3953
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Set of operations carried out to establish, under specified conditions,
+      the relationship between the liquid level in the tank and the volume of that
+      liquid.
+  examples: []
+  id: r71-3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 20d738aa-41ef-5337-aca5-02f270627ef6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Reihe von Tätigkeiten, die ausgeführt werden, um unter bestimmten Bedingungen
+      das Verhältnis zwischen dem Flüssigkeitsstand im Behälter und dem Volumen dieser
+      Flüssigkeit zu bestimmen.
+  examples: []
+  id: r71-3.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Kalibrierung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 479ff2d6-e76e-55e5-91b8-6fb932fed563
+

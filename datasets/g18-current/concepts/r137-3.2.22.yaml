@@ -1,0 +1,79 @@
+---
+data:
+  identifier: r137-3.2.22
+  localized_concepts:
+    eng: acaf0f1c-c6fe-548b-b922-20e80cda75a2
+    fra: 54c61340-c828-592a-b6f9-804e716b5171
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.22
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.22
+    type: authoritative
+status: valid
+id: 4a3a4eb8-e8c5-5c94-9f37-454e614ce23a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Continuous or incremental change over time in indication, due to changes
+      in the metrological properties of a measuring instrument.
+  examples: []
+  id: r137-3.2.22-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: "(instrumental) drift"
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: acaf0f1c-c6fe-548b-b922-20e80cda75a2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Variation continue ou incrémentale dans le temps d'une indication, due
+      à des variations des propriétés métrologiques d'un instrument de mesure.
+  examples: []
+  id: r137-3.2.22-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dérive (instrumentale)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 54c61340-c828-592a-b6f9-804e716b5171
+

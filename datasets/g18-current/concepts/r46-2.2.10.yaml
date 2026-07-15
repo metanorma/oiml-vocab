@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r46-2.2.10
+  localized_concepts:
+    eng: a45d0558-2f26-59aa-9fdd-e3c9c1dbc0e9
+    fra: 0c6d4e80-bfb7-579e-9091-149d14a41140
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.10
+    type: authoritative
+status: valid
+id: 7daf1e84-b1a7-53f1-a428-53837e759ef0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: part of a signal that has a frequency that is an integer multiple of
+      the fundamental frequency of the signal
+  examples: []
+  id: r46-2.2.10-eng
+  notes:
+  - content: The fundamental frequency is generally the nominal frequency (fnom).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.10
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonic
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a45d0558-2f26-59aa-9fdd-e3c9c1dbc0e9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: partie d'un signal qui a une fréquence qui est un multiple entier de
+      la fréquence fondamentale du signal
+  examples: []
+  id: r46-2.2.10-fra
+  notes:
+  - content: La fréquence fondamentale est généralement la fréquence nominale.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.10
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: harmonique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0c6d4e80-bfb7-579e-9091-149d14a41140
+

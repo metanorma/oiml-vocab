@@ -1,0 +1,79 @@
+---
+data:
+  identifier: d11-3.15.1
+  localized_concepts:
+    eng: bcb05bd9-750a-52b4-94f8-23cd19c11507
+    fra: deda13c7-6fc2-5d78-bd2c-5a1a2c893e3b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 1:2013
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: 3.15.1
+    type: authoritative
+status: valid
+id: 80db20d8-e38c-5590-bf5b-dc7000ed858e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: influence quantity having a value which ranges within the rated operating
+      conditions of a measuring instrument
+  examples: []
+  id: d11-3.15.1-eng
+  notes:
+  - content: The rated operating conditions shall be in conformity with the applicable
+      requirements specified in the applicable OIML Recommendation.
+  - content: The variation of an indication as a consequence of an influence factor
+      is considered an error and not a fault.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: bcb05bd9-750a-52b4-94f8-23cd19c11507
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont la valeur se situe dans les conditions assignées
+      de fonctionnement d'un instrument de mesure,
+  examples: []
+  id: d11-3.15.1-fra
+  notes:
+  - content: Les conditions assignées de fonctionnement doivent être en conformité
+      avec les exigences applicables spécifiées dans la Recommandation applicable.
+  - content: La variation d'une indication due à un facteur d'influence est une erreur
+      et non un défaut.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur d'influence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: deda13c7-6fc2-5d78-bd2c-5a1a2c893e3b
+

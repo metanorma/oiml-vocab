@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.5.3.2
   localized_concepts:
+    eng: 372bbec6-96e5-5e2c-88aa-7f67ea59a683
     fra: 1780890b-b613-5a6c-a009-3f9197aced16
   domains:
   - concept_id: section-terms
@@ -16,9 +17,49 @@ data:
       type: clause
       reference_from: T.5.3.2
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.2
+    type: authoritative
 status: valid
 id: 25af7f6b-d0f2-55c0-9fd4-80caf7e1b92f
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Value of the difference between a measured weight value (gross or net)
+      and a preset tare value.
+  examples: []
+  id: r76-T.5.3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.5.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Calculated net value
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 372bbec6-96e5-5e2c-88aa-7f67ea59a683
 ---
 data:
   dates:
@@ -33,7 +74,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -42,12 +83,12 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: valeur nette calculée
+    designation: Valeur nette calculée
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 1780890b-b613-5a6c-a009-3f9197aced16

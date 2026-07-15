@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r137-3.4.6
+  localized_concepts:
+    eng: 223f06af-d378-579c-a42a-043f56c0e12c
+    fra: 6f585a73-3c0a-5005-925c-478df0cd7527
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+status: valid
+id: f4e7bbfc-b4cb-559c-affa-e633fdd5d6ca
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Description of a series of tests for a certain type of equipment.
+  examples: []
+  id: r137-3.4.6-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test program
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 223f06af-d378-579c-a42a-043f56c0e12c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Description d'une série d'essais pour un certain type d'équipement.
+  examples: []
+  id: r137-3.4.6-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: programme d'essai
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6f585a73-3c0a-5005-925c-478df0cd7527
+

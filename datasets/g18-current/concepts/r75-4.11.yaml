@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r75-4.11
+  localized_concepts:
+    eng: acc05367-4ddf-5a9c-a3a2-c7595766bc71
+    fra: c5ac89ba-fecf-5181-9db1-fa96e39e6c15
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.11'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.11'
+    type: authoritative
+status: valid
+id: ae3011c0-208e-5812-a1f3-63ba15a95755
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Specified set of values of the flow rate, the return temperature and
+      the temperature difference, fixed to ensure valid intercomparison of the results
+      of measurements.
+  examples: []
+  id: r75-4.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.11'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference values of the measurand, RVM
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: acc05367-4ddf-5a9c-a3a2-c7595766bc71
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Ensemble de valeurs spécifiées du débit, de la température de sortie
+      et de la différence de température, déterminé pour assurer une comparaison valable
+      des résultats de mesure.
+  examples: []
+  id: r75-4.11-fra
+  notes:
+  - content: Une valeur conventionnellement vraie est en général considérée comme
+      suffisamment proche de la valeur vraie pour que la différence, eu égard à l'objectif
+      considéré, soit négligeable.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.11'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Valeurs de référence du mesurande
+  - type: abbreviation
+    normative_status: admitted
+    designation: VRM
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c5ac89ba-fecf-5181-9db1-fa96e39e6c15
+

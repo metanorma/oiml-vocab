@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r137-3.4.4
+  localized_concepts:
+    eng: 5e5dff01-aaaa-529e-b3da-399edaf55464
+    fra: fb7b3adf-d578-5a99-969f-715c01c04104
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+status: valid
+id: 321a7663-7be2-58ac-90cc-9e0c3c1287e8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Series of operations intended to verify the compliance of the equipment
+      under test (EUT) with certain requirements.
+  examples: []
+  id: r137-3.4.4-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5e5dff01-aaaa-529e-b3da-399edaf55464
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Séries d'opérations dont le but est de vérifier la conformité de l'équipement
+      soumis à l'essai (ESE) avec certaines exigences.
+  examples: []
+  id: r137-3.4.4-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.4.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fb7b3adf-d578-5a99-969f-715c01c04104
+

@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r89-5.3.15
+  localized_concepts:
+    eng: 5a4cf3d6-461f-572e-81e4-192bcde92e11
+    fra: 0eb41231-43e1-5e14-a18c-988f020fbd7b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.15
+    type: authoritative
+status: valid
+id: b63c300f-2efe-556a-9820-8e01ca0e404f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The interchannel crosstalk coefficient is the ratio of the peak-to-peak
+      amplitude of the voltage induced on the channel under test to the peak-to-peak
+      amplitude of the voltage applied at all the other channels.
+  examples: []
+  id: r89-5.3.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: interchannel crosstalk coefficient
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5a4cf3d6-461f-572e-81e4-192bcde92e11
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le coefficient de couplage parasite entre canaux est le rapport de l'amplitude
+      crête à crête de la tension induite dans le canal essayé à l'amplitude crête
+      à crête des signaux enregistrés sur tous les autres canaux.
+  examples: []
+  id: r89-5.3.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.15
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coefficient de couplage parasite entre canaux
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0eb41231-43e1-5e14-a18c-988f020fbd7b
+

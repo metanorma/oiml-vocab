@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r106-0.5.3
+  localized_concepts:
+    eng: 482904e9-9e8f-5108-82cf-63aee3baee52
+    fra: 5fa2cc7c-cb65-5065-a51e-1cd6dde34130
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.3
+    type: authoritative
+status: valid
+id: 7e759f60-459f-5d4f-a740-b88bfc37c8d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conditions of use prescribed for testing the performance of a measuring
+      instrument or for intercomparison of results of measurements
+  examples: []
+  id: r106-0.5.3-eng
+  notes:
+  - content: The reference conditions generally include reference values or reference
+      ranges for influence quantities affecting the measuring instrument. [VIM 5.7]
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference conditions
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 482904e9-9e8f-5108-82cf-63aee3baee52
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conditions d utilisation prescrites pour evaluer les performances d un
+      instrument de mesure ou pour l intercomparaison des resultats de mesures
+  examples: []
+  id: r106-0.5.3-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: conditions de reference
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5fa2cc7c-cb65-5065-a51e-1cd6dde34130
+

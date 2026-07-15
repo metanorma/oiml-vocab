@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r123-3.7
+  localized_concepts:
+    eng: 1e6dda61-8492-5d25-837a-c9c605930eb9
+    fra: '01660609-3f80-5134-a2f2-db081dd840e7'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: 5f6390ff-1a70-5b8d-8559-bfdbde1b065e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Change in the response of a measuring instrument divided by the corresponding
+      change in the stimulus.
+  examples: []
+  id: r123-3.7-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensitivity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-123
+    source: OIML R 123:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1e6dda61-8492-5d25-837a-c9c605930eb9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Variation de la reponse d'un instrument de mesure divisee par la variation
+      correspondante de la stimulation.
+  examples: []
+  id: r123-3.7-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilite
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-123
+    source: OIML R 123:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '01660609-3f80-5134-a2f2-db081dd840e7'
+

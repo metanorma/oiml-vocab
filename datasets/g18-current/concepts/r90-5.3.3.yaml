@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r90-5.3.3
+  localized_concepts:
+    eng: 2f7d3c07-ccb9-5a8d-af10-d0ce41143fc7
+    fra: 4b33fecc-254a-51b4-a9d7-26bf449b1a87
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:90:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.3
+    type: authoritative
+status: valid
+id: 8386a264-94a2-5153-baa0-8c9390f1bded
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The relative time-interval measurement error is the difference between
+      the recorded and conventional true values of the input signal period, divided
+      by the latter.
+  examples: []
+  id: r90-5.3.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative time-interval measurement error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2f7d3c07-ccb9-5a8d-af10-d0ce41143fc7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'erreur relative de mesure des intervalles de temps est la différence
+      entre les valeurs mesurée et conventionnellement vraie de la période du signal
+      d'entrée, divisée par la valeur conventionnellement vraie.
+  examples: []
+  id: r90-5.3.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur relative de mesure des intervalles de temps
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4b33fecc-254a-51b4-a9d7-26bf449b1a87
+

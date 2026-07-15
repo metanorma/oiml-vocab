@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r89-5.4
+  localized_concepts:
+    eng: 7e93448f-10a8-5b8d-9378-2f1c6a94b815
+    fra: 0adb8333-eff5-5d5a-a548-672c9ac6459e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: '5.4'
+    type: authoritative
+status: valid
+id: ae9a250d-10fe-55b0-ab8e-751874886687
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The current in the patient circuit is defined as the current passing
+      through a patient while connected to an electroencephalograph.
+  examples: []
+  id: r89-5.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: '5.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: current in the patient circuit
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7e93448f-10a8-5b8d-9378-2f1c6a94b815
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le courant dans le circuit du patient est défini comme le courant traversant
+      le patient relié à l'électroencéphalographe.
+  examples: []
+  id: r89-5.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: '5.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant dans le circuit du patient
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0adb8333-eff5-5d5a-a548-672c9ac6459e
+

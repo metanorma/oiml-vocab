@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r61-3.3.5.2
+  localized_concepts:
+    eng: 693d8199-9835-5d16-9872-7c0090d9ec0b
+    deu: 21498ace-64cf-5d38-bdcb-f9c1017cb5fe
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.5.2
+    type: authoritative
+status: valid
+id: 02e07248-ad39-593b-8ca9-d332a2888088
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device for subtracting a preset tare value from a gross or net weight
+      value and indicating the calculated net weight. The weighing range for net loads
+      is reduced accordingly
+  examples: []
+  id: r61-3.3.5.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: preset tare device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 693d8199-9835-5d16-9872-7c0090d9ec0b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung, mit der ein vorgegebener Tarawert vom Brutto- oder Nettowägewert
+      subtrahiert und das Rechenergebnis angezeigt wird. Der Wägebereich für Nettolasten
+      wird entsprechend verringert
+  examples: []
+  id: r61-3.3.5.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.5.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Taraeingabeeinrichtung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 21498ace-64cf-5d38-bdcb-f9c1017cb5fe
+

@@ -1,0 +1,103 @@
+---
+data:
+  identifier: r134-T.3.4.3
+  localized_concepts:
+    eng: 7ce71001-2789-5d3e-baf0-a513b0efdcd6
+    fra: b2c1e786-78c1-50bc-b8b8-2052e961678e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.3
+    type: authoritative
+status: valid
+id: 4c534e26-985a-5ed4-95ec-2e7fc8a41d4c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Lowest velocity of a vehicle that the instrument is designed to weigh-in-motion
+      and below which the weighing results may be subject to an excessive relative
+      error.
+  examples: []
+  id: r134-T.3.4.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum operating speed
+  - type: symbol
+    normative_status: admitted
+    designation: v_min
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7ce71001-2789-5d3e-baf0-a513b0efdcd6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plus faible vitesse d'un véhicule pour laquelle l'instrument de pesage
+      en mouvement est conçu et au-dessus de laquelle les résultats de pesée peuvent
+      être sujets à une erreur relative excessive.
+  examples: []
+  id: r134-T.3.4.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.4.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vitesse de fonctionnement minimale
+  - type: symbol
+    normative_status: admitted
+    designation: v_min
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b2c1e786-78c1-50bc-b8b8-2052e961678e
+

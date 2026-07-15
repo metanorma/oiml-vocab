@@ -1,0 +1,109 @@
+---
+data:
+  identifier: d10-3.13
+  localized_concepts:
+    eng: 582aef62-0cc4-5637-8daa-9c461d8042e0
+    spa: 391ab5be-b52c-543e-a451-00e88ff60dd6
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+status: valid
+id: 637a0bbc-9b07-5d79-994f-00903227d536
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+  examples: []
+  id: d10-3.13-eng
+  notes:
+  - content: Usually, the terms "maximum permissible errors" or "limits of error"
+      are used where there are two extreme values.
+  - content: The term "tolerance" should not be used to designate 'maximum permissible
+      error'.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.13'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible measurement error
+  - type: expression
+    normative_status: admitted
+    designation: maximum permissible error
+  - type: expression
+    normative_status: admitted
+    designation: limit of error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 582aef62-0cc4-5637-8daa-9c461d8042e0
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valor extremo del error de medición, con respecto a un valor de referencia
+      conocido, permitido por especificaciones o reglamentaciones, para una medición,
+      instrumento de medición, o sistema de medición dado
+  examples: []
+  id: d10-3.13-spa
+  notes:
+  - content: En general, los términos "errores máximos permitidos" o "límites de error"
+      se utilizan cuando existen dos valores extremos.
+  - content: No es conveniente utilizar el término «tolerancia» para designar el "error
+      máximo permitido".
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.13'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error máximo permitido
+  - type: expression
+    normative_status: admitted
+    designation: error máximo tolerado
+  - type: expression
+    normative_status: admitted
+    designation: límite de error
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 391ab5be-b52c-543e-a451-00e88ff60dd6
+

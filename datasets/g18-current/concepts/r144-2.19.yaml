@@ -1,0 +1,81 @@
+---
+data:
+  identifier: r144-2.19
+  localized_concepts:
+    eng: dc369f73-1362-5a32-8075-d3b7ccfd7f0b
+    fra: '0781c159-d4c8-513b-91b2-a918d403d6b0'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.19'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.19'
+    type: authoritative
+status: valid
+id: e31d763c-2aa7-5dc8-9d87-221a66e8df59
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: influence quantity having a value within the limits specified in this
+      Recommendation but outside the specified rated operating conditions of a measuring
+      instrument
+  examples: []
+  id: r144-2.19-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dc369f73-1362-5a32-8075-d3b7ccfd7f0b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence dont la valeur se situe dans limites spécifiées
+      dans cette Recommandation dehors des conditions assignées de fonctionnement
+      instrument de mesure (VIML 2012 (V 1), 5.16]25
+  examples: []
+  id: r144-2.19-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: perturbation
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '0781c159-d4c8-513b-91b2-a918d403d6b0'
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r62-3
+  localized_concepts:
+    eng: 785b1571-d8e3-586b-b19c-c693aa962dfb
+    fra: d9a953b6-b33e-5989-af61-95393ba3bd09
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '3'
+    type: authoritative
+status: valid
+id: 76fa4414-5f8d-5d19-a882-fbf8c6fe0375
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: That portion of the strain-sensing material of the strain gauge that
+      is primarily responsible for resistance change due to strain.
+  examples: []
+  id: r62-3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grid
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 785b1571-d8e3-586b-b19c-c693aa962dfb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie du matériau de l'extensomètre sensible à la déformation et qui
+      est le siège principal des variations de résistance dues à la déformation.
+  examples: []
+  id: r62-3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grille
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d9a953b6-b33e-5989-af61-95393ba3bd09
+

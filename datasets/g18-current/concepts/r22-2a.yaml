@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r22-2a
+  localized_concepts:
+    eng: faba7bb9-7683-5a9f-af27-f8bd85fdcd65
+    fra: 387f011d-2e03-5888-b284-150e9fd784e8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:22:1975
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 22:1975
+        version: '1975'
+    locality:
+      type: clause
+      reference_from: 2a
+    type: authoritative
+status: valid
+id: a0de20cb-dfcc-5254-924e-e2eaf89333a6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: ratio of the volume of alcohol, measured at 20 degrees Celsius, contained
+      in the mixture to the total volume of the mixture, measured at the same temperature
+  examples: []
+  id: r22-2a-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 22:1975
+        version: '1975'
+    locality:
+      type: clause
+      reference_from: '2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: alcoholic strength by volume
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-22
+    source: OIML R 22:1975
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: faba7bb9-7683-5a9f-af27-f8bd85fdcd65
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rapport entre le volume d'alcool, à la température de 20 degrees Celsius,
+      contenu dans ce mélange et le volume total de ce mélange à la même température
+  examples: []
+  id: r22-2a-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 22:1975
+        version: '1975'
+    locality:
+      type: clause
+      reference_from: '2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: titre alcoométrique volumique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-22
+    source: OIML R 22:1975
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 387f011d-2e03-5888-b284-150e9fd784e8
+

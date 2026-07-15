@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.4.1
   localized_concepts:
+    eng: 8fd57e9a-d6dc-574e-adaf-3d4295e45af1
     fra: 9a51127c-017c-5529-a9d8-2d10b4716c65
   domains:
   - concept_id: section-terms
@@ -16,6 +17,14 @@ data:
       type: clause
       reference_from: T.4.1
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
 status: valid
 id: ffef9a04-17ce-5764-b34d-22f0891af392
 schema_version: '3'
@@ -25,16 +34,16 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Pour une valeur donnée de la masse mesurée, quotient de la variation,
-      $ \Delta l $, de la variable observée, $ l $ par la variation correspondante,
-      $ \Delta m $, de la masse mesurée, $ m $.
+  - content: For a given value of the measured mass, the quotient of the change, $
+      \Delta l $ , of the observed variable, l, and the corresponding change, $ \Delta
+      m $ , of the measured mass, m.
   examples: []
-  id: r76-T.4.1-fra
+  id: r76-T.4.1-eng
   notes: []
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -43,12 +52,45 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: sensibilité
+    designation: Sensitivity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8fd57e9a-d6dc-574e-adaf-3d4295e45af1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pour une valeur donnée de la masse mesurée, quotient de la variation,
+      $ \Delta l $ , de la variable observée, l, par la variation correspondante,
+      $ \Delta m $ , de la masse mesurée, m.
+  examples: []
+  id: r76-T.4.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilité
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 9a51127c-017c-5529-a9d8-2d10b4716c65

@@ -1,0 +1,79 @@
+---
+data:
+  identifier: r75-4.6
+  localized_concepts:
+    eng: c0e1558d-7d63-5cb3-b7f8-5002c26c6f35
+    fra: 0075c108-ec4a-5123-9cb5-646012c61ad9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.6'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.6'
+    type: authoritative
+status: valid
+id: 8977d24c-c6b4-5245-85ae-47e7f1e318d4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Quantity that is not the measurand but that affects the result of the
+      measurement.
+  examples: []
+  id: r75-4.6-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c0e1558d-7d63-5cb3-b7f8-5002c26c6f35
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Grandeur qui n'est pas le mesurande mais qui a un effet sur le résultat
+      du mesurage [VIM 2.7].
+  examples: []
+  id: r75-4.6-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Grandeur d'influence
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 0075c108-ec4a-5123-9cb5-646012c61ad9
+

@@ -3,11 +3,20 @@ data:
   identifier: r136-T.3.3
   localized_concepts:
     eng: 0461c792-c923-5e23-8e85-5313fc45d310
+    deu: 830c6d27-c59c-5729-af87-4654c42ae35a
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -34,7 +43,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136:2004
+        source: OIML R 136-1:2004
         version: '2004'
     locality:
       type: clause
@@ -50,9 +59,45 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136
-    source: OIML R 136:2004
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 0461c792-c923-5e23-8e85-5313fc45d310
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Höchstwert des auf dem Auswertegerät markierten Bereichs für eine Analoganzeige.
+      Höchster nominaler Wert, der vom digitalen Auswertegerät plus einem Skalenteilungswert
+      für elektronische Anzeigen nachgewiesen werden kann.
+  examples: []
+  id: r136-T.3.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maximale Fläche
+  - type: symbol
+    normative_status: admitted
+    designation: A_max
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 830c6d27-c59c-5729-af87-4654c42ae35a
 

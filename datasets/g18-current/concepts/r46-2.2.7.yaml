@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r46-2.2.7
+  localized_concepts:
+    eng: f9d60e35-e177-5c6d-9ecd-3d44a7a9b59b
+    fra: 166b225c-e1f0-5b42-9d7f-2731f809036f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.7
+    type: authoritative
+status: valid
+id: 6b6681ef-fb9f-551e-bc9f-b08114e5b990
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: voltage specified by the manufacturer for normal operation of the meter
+  examples: []
+  id: r46-2.2.7-eng
+  notes:
+  - content: Meters designed for operation across a range of voltages may have several
+      nominal voltage values.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal voltage (Unom)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f9d60e35-e177-5c6d-9ecd-3d44a7a9b59b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: tension spécifiée par le fabricant pour un fonctionnement normal du compteur
+  examples: []
+  id: r46-2.2.7-fra
+  notes:
+  - content: Les compteurs conçus pour fonctionner dans une plage de tensions peuvent
+      avoir plusieurs valeurs de tension de référence.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tension de référence ($U_{nom}$)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 166b225c-e1f0-5b42-9d7f-2731f809036f
+

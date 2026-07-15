@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r90-5.3.11
+  localized_concepts:
+    eng: dda65bd8-d91d-5dcd-a227-1159cc1a12d8
+    fra: 816bbab3-59e2-5c6b-a7ce-f8a8ba1ac896
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:90:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.11
+    type: authoritative
+status: valid
+id: 558a8208-e936-55c9-a1d8-fbbb15fd91ec
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The recorded-voltage error introduced by the weighting networks is the
+      difference between the maximum and minimum amplitudes of the sine-wave signals
+      recorded on different leads.
+  examples: []
+  id: r90-5.3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: recorded-voltage error introduced by the weighting networks
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dda65bd8-d91d-5dcd-a227-1159cc1a12d8
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'erreur d'enregistrement de la tension, introduite par les différents
+      circuits de couplage est la différence entre les valeurs maximale et minimale
+      de l'amplitude de signaux sinusoïdaux enregistrés avec des dérivations différentes.
+  examples: []
+  id: r90-5.3.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 90:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur d'enregistrement de la tension introduite par les circuits
+      de couplage
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-90
+    source: OIML R 90:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 816bbab3-59e2-5c6b-a7ce-f8a8ba1ac896
+

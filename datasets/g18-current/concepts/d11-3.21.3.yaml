@@ -1,0 +1,85 @@
+---
+data:
+  identifier: d11-3.21.3
+  localized_concepts:
+    eng: cb62875e-b079-558a-b935-5b78ab4e264a
+    fra: f600e773-ff4f-525e-9421-c3d505f30c45
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.21.3
+    type: authoritative
+status: valid
+id: a5e7873a-77df-5e7b-8068-2d8562b0f823
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-13 00:00:00.000000000 +00:00
+    type: accepted
+  definition:
+  - content: required (simulated) influence quantity value for performing the test
+  examples: []
+  id: d11-3.21.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: 2026
+    locality:
+      type: clause
+      reference_from: 3.21.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test level
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: 2026-07-13 00:00:00.000000000 +00:00
+id: cb62875e-b079-558a-b935-5b78ab4e264a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: grandeur d'influence exigée (simulée) pour effectuer l'essai
+  examples: []
+  id: d11-3.21.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2026
+        version: '2026'
+    locality:
+      type: clause
+      reference_from: 3.21.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence exigée (simulée) pour effectuer l'essai
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: d-11
+    source: OIML D 11:2026
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f600e773-ff4f-525e-9421-c3d505f30c45
+

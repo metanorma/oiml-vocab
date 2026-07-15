@@ -1,0 +1,104 @@
+---
+data:
+  identifier: d1-3.1.14
+  localized_concepts:
+    eng: 2f778313-06bb-5d2e-ace7-03b1887832b3
+    fra: f7954f70-f820-5f04-84df-12a307e74a7f
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:1:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.14
+    type: authoritative
+status: valid
+id: 8a0ddca0-4c41-5532-be3b-b103d1e70b2a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: third party attestation related to a conformity assessment body conveying
+      formal demonstration of its competence to carry out specific conformity assessment
+      tasks
+  examples: []
+  id: d1-3.1.14-eng
+  notes:
+  - content: The national accreditation system, in general, is a voluntary system
+      which establishes the competence and impartiality of calibration laboratories
+      to perform traceable calibrations and measurements, testing laboratories, inspection
+      bodies, and certification bodies which perform product certification, quality
+      systems certification or certification of personnel. Not all countries have
+      a national accreditation system. If it exists, it should be recognized by the
+      appropriate authorities.
+  - content: 'Source citation: ISO 1700 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.14
+    sourced_from:
+    - ref:
+        source: ISO 1700
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Accreditation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2f778313-06bb-5d2e-ace7-03b1887832b3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: attestation délivrée par une tierce partie, ayant rapport à un organisme
+      d'évaluation de la conformité, constituant une reconnaissance formelle de la
+      compétence de ce dernier à réaliser des activités spécifiques d'évaluation de
+      la conformité
+  examples: []
+  id: d1-3.1.14-fra
+  notes:
+  - content: En général, le système national d'accréditation est un système volontaire
+      qui établit les compétences et l'impartialité des laboratoires d'étalonnage
+      pour réaliser des étalonnages et mesurages traçables, laboratoires d'essais,
+      organismes d'inspection, et organismes de certification, certificateur de produit,
+      certificateur de systèmes qualité ou certificateur de personnel.
+  - content: 'Source citation: ISO 1700 0'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 1:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.1.14
+    sourced_from:
+    - ref:
+        source: ISO 1700
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Accréditation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7954f70-f820-5f04-84df-12a307e74a7f
+

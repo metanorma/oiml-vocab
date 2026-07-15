@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r129-2.2.1
+  localized_concepts:
+    eng: f1f5b957-2278-5577-9314-9d5533113057
+    deu: 83f33699-9472-5b79-8d33-2ec94416ea01
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+status: valid
+id: cb9683ba-b574-5753-8e4b-b7dc4187a009
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: polyhedron having six faces that are parallel in pairs having all dihedral
+      angles as right angles
+  examples: []
+  id: r129-2.2.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rectangular box
+  - type: expression
+    normative_status: admitted
+    designation: rectangular parallelepiped
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f1f5b957-2278-5577-9314-9d5533113057
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Polyeder mit sechs Flächen, von denen sich jeweils zwei parallel gegenüberliegen
+      und deren Flächenwinkel rechte Winkel sind
+  examples: []
+  id: r129-2.2.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.2.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Quader
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-129-1
+    source: OIML R 129-1:2020
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 83f33699-9472-5b79-8d33-2ec94416ea01
+

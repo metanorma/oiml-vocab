@@ -1,0 +1,79 @@
+---
+data:
+  identifier: r125-T.22.1
+  localized_concepts:
+    eng: 7446ed1a-0db6-5335-92e1-68abca4127dc
+    fra: 9c448924-ab7b-5e69-b4c2-4c08835e891d
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.22.1
+    type: authoritative
+status: valid
+id: 6d24917e-0857-5e91-9ba6-d46285e2be54
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The result of a measurement minus the (conventional) true value of the
+      measurand
+  examples: []
+  id: r125-T.22.1-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: absolute error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7446ed1a-0db6-5335-92e1-68abca4127dc
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Resultat d'un mesurage moins la valeur (conventionnellement) vraie du
+      mesurande (VIM 3.10).
+  examples: []
+  id: r125-T.22.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: T.22.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur absolue
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-125
+    source: OIML R 125:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9c448924-ab7b-5e69-b4c2-4c08835e891d
+

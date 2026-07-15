@@ -1,0 +1,104 @@
+---
+data:
+  identifier: r46-2.1.4
+  localized_concepts:
+    eng: 88543233-a879-59ba-a21b-0c2c5ae1631f
+    fra: bc6307c6-ea8e-5a8d-91b5-ba9ba7fb0e63
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.4
+    type: authoritative
+status: valid
+id: 41d29da0-6836-5b77-9413-698a0967e242
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: electricity meter intended to measure and display electrical energy where
+      energy will have more than one tariff rate
+  examples: []
+  id: r46-2.1.4-eng
+  notes:
+  - content: The tariff rate may be determined by time, load or some other quantity.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multi-tariff meter
+  - type: expression
+    normative_status: admitted
+    designation: multi-rate meter
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 88543233-a879-59ba-a21b-0c2c5ae1631f
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: compteur électrique destiné à mesurer et afficher l'énergie électrique
+      lorsque l'énergie aura plus d'un taux tarifaire
+  examples: []
+  id: r46-2.1.4-fra
+  notes:
+  - content: Le taux tarifaire peut être déterminé selon le temps, la charge ou autre
+      grandeur.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.4
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur à tarifs multiples
+  - type: expression
+    normative_status: admitted
+    designation: compteur à taux multiples
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: bc6307c6-ea8e-5a8d-91b5-ba9ba7fb0e63
+

@@ -1,0 +1,78 @@
+---
+data:
+  identifier: r75-4.9.2
+  localized_concepts:
+    eng: 34da9189-9934-5b36-97bd-b44fa0db3de6
+    fra: 7399dc58-a92b-5e43-90f9-f240eb9f9432
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: 4.9.2
+    type: authoritative
+status: valid
+id: ac8aba9c-79ea-5a6e-ab21-12a5f0b4df77
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Error of a measuring instrument, determined under reference conditions.
+  examples: []
+  id: r75-4.9.2-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error (of a measuring instrument)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 34da9189-9934-5b36-97bd-b44fa0db3de6
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur d'un instrument de mesure déterminée dans les conditions de référence
+      [VIM 5.24].
+  examples: []
+  id: r75-4.9.2-fra
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur intrinsèque (d'un instrument de mesure)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7399dc58-a92b-5e43-90f9-f240eb9f9432
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r81-3.23
+  localized_concepts:
+    eng: e0658eab-e422-569a-8c0c-419c3e77e586
+    fra: 87851a20-cc86-54b9-969a-26a2cc0a9870
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+status: valid
+id: ce242130-3764-5433-b8e8-5b433c221a7a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The difference between the error of indication and the intrinsic error
+      of a measuring system.
+  examples: []
+  id: r81-3.23-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e0658eab-e422-569a-8c0c-419c3e77e586
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Difference entre l'erreur d'indication et l'erreur intrinseque d'un systeme
+      de mesure.
+  examples: []
+  id: r81-3.23-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.23'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: defaut
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 87851a20-cc86-54b9-969a-26a2cc0a9870
+

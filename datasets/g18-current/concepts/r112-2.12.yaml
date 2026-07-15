@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r112-2.12
+  localized_concepts:
+    eng: 2f050d89-6b94-5e36-b7cb-e510335b6691
+    fra: e25f58e4-f297-5665-bb8e-91387fa8aedd
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+status: valid
+id: d0c6502b-e1d1-58df-8d41-6ff9bcf95149
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The output signal per unit concentration of the sample component in the
+      mobile phase; it may be expressed as S = (A x F) / M, where S is sensitivity,
+      A is the integrated area of the sample component, F is the flow rate, and M
+      is the mass of the sample component injected.
+  examples: []
+  id: r112-2.12-eng
+  notes:
+  - content: An electrochemical detector of the coulombic type does not follow this
+      equation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensitivity of a detector
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2f050d89-6b94-5e36-b7cb-e510335b6691
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'Signal de sortie par unite de concentration du composant de l''echantillon
+      dans la phase mobile; il peut etre exprime comme suit: S = (A x F) / M ou: S
+      = sensibilite, A = surface integree du composant de l''echantillon, F = debit,
+      M = masse du composant de l''echantillon injectee.'
+  examples: []
+  id: r112-2.12-fra
+  notes:
+  - content: Un detecteur electrochimique du type coulombien n'obeit pas a cette equation.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.12'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilite du detecteur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e25f58e4-f297-5665-bb8e-91387fa8aedd
+

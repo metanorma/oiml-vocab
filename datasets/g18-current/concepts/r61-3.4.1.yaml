@@ -1,0 +1,90 @@
+---
+data:
+  identifier: r61-3.4.1
+  localized_concepts:
+    eng: 9d0aa57e-f422-52d5-be98-9aa3bee47e0a
+    deu: 1f115412-1ecb-5e0e-a47b-ce49a174d057
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+status: valid
+id: 9c85d507-5cc0-51d5-9a46-27813b2b22c6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value, expressed in units of the measured quantity of the difference
+      between a) the values corresponding to two consecutive scale marks for analogue
+      indication, or b) two consecutive indicated values for digital indication
+  examples: []
+  id: r61-3.4.1-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale interval, d
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d0aa57e-f422-52d5-be98-9aa3bee47e0a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Wert, angegeben in Einheiten der gemessenen Größe, für die Differenz
+      zwischen den Werten zweier benachbarter Teilstriche, bei Skalenanzeige, oder
+      zwei aufeinanderfolgenden Anzeigewerten, bei Ziffernanzeige
+  examples:
+  - content: 'Source citation: VIML 5.01'
+  id: r61-3.4.1-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Teilungswert (d)
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1f115412-1ecb-5e0e-a47b-ce49a174d057
+

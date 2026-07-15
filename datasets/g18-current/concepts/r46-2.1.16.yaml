@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r46-2.1.16
+  localized_concepts:
+    eng: ca0aef9a-ef66-54be-83dd-ff9f60c04ef5
+    fra: 838fafd2-b4dd-555c-a829-19c9ddd9343a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.16
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.16
+    type: authoritative
+status: valid
+id: 9619cfdf-ca69-5847-bb49-2c876d733e18
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: value expressing the relation between the energy registered by the meter
+      and the corresponding value of the test output
+  examples: []
+  id: r46-2.1.16-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.16
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: meter constant
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ca0aef9a-ef66-54be-83dd-ff9f60c04ef5
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur exprimant la relation entre l'énergie enregistrée par le compteur
+      et la valeur correspondante donnée par le dispositif de sortie d'essai
+  examples: []
+  id: r46-2.1.16-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.16
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: constante du compteur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 838fafd2-b4dd-555c-a829-19c9ddd9343a
+

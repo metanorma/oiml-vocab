@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r75-4.17
+  localized_concepts:
+    eng: 63ad5d0a-d6b8-5463-b261-466b787a3fe3
+    fra: cd6965bf-3fcf-5001-82e1-73d9929feaf4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:75:2002
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.17'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 75:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.17'
+    type: authoritative
+status: valid
+id: c47934fe-00e9-5cf9-919f-56fa75169282
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Increase in temperature signal that is obtained by subjecting each temperature
+      sensor of a pair to a continuous power dissipation of 5 mW when immersed to
+      the minimum immersion depth in a water bath, having a mean water velocity of
+      0.1 m/s.
+  examples: []
+  id: r75-4.17-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.17'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: self-heating effect
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 63ad5d0a-d6b8-5463-b261-466b787a3fe3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Augmentation du signal de température obtenue en soumettant chacune des
+      sondes de température d'une paire à une dissipation continue de puissance de
+      5 mW, lorsque celles-ci sont immergées à la profondeur minimale d'immersion
+      dans un bain d'eau, la vitesse moyenne de circulation de l'eau étant de 0,1
+      m/s.
+  examples: []
+  id: r75-4.17-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 75-1:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4.17'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Effet d'auto-échauffement
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-75-1
+    source: OIML R 75-1:2002
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: cd6965bf-3fcf-5001-82e1-73d9929feaf4
+

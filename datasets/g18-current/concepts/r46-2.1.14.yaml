@@ -1,0 +1,98 @@
+---
+data:
+  identifier: r46-2.1.14
+  localized_concepts:
+    eng: 3bdccb8a-f6b1-5f2f-a2cd-d505d3e2eab7
+    fra: '05398e34-2674-5b50-b420-a8548fa57b32'
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.14
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.14
+    type: authoritative
+status: valid
+id: 22767f3e-fbd2-5120-bd46-0f29ecce38d3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: register where the scale factor(s) due to the used instrument transformer(s)
+      is considered such that the measured energy on the primary side of the instrument
+      transformer(s) is indicated
+  examples: []
+  id: r46-2.1.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.14
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: primary rated register
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 3bdccb8a-f6b1-5f2f-a2cd-d505d3e2eab7
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: registre dont le ou les facteur(s) d'échelle dus au(x) transformateur(s)
+      de mesure utilisé(s) est considéré de telle sorte que l'énergie mesurée sur
+      le côté primaire du ou des transformateur(s) de mesure est indiquée
+  examples: []
+  id: r46-2.1.14-fra
+  notes:
+  - content: pour compteurs alimentés par transformateur
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.1.14
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: registre primaire assigné
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '05398e34-2674-5b50-b420-a8548fa57b32'
+

@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r134-T.2.5.3
+  localized_concepts:
+    eng: 8d3a0c77-de10-5a8d-b15d-f5ed1891db1c
+    fra: 2a0301f6-5d66-591b-9a7b-abd0fb566509
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.3
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.3
+    type: authoritative
+status: valid
+id: 4a150156-ac5c-5217-be62-b59f98a22ac2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Force transducer which, after taking into account the effects of the
+      acceleration of gravity and air buoyancy at the location of its use, measures
+      mass by converting the measured quantity (mass) into another measured quantity
+      (output).
+  examples: []
+  id: r134-T.2.5.3-eng
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: load cell
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8d3a0c77-de10-5a8d-b15d-f5ed1891db1c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Transducteur de force qui, après prise en compte des effets de l'accélération
+      de la pesanteur et de la poussée de l'air sur le lieu d'utilisation, mesure
+      la masse en convertissant la grandeur mesurée (masse) en une autre grandeur
+      mesurée (signal de sortie).
+  examples: []
+  id: r134-T.2.5.3-fra
+  notes:
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cellule de charge
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2a0301f6-5d66-591b-9a7b-abd0fb566509
+

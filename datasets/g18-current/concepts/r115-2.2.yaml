@@ -1,0 +1,98 @@
+---
+data:
+  identifier: r115-2.2
+  localized_concepts:
+    eng: 99f757da-7fa4-5c3e-935b-b1545f583d32
+    fra: 8ab8e9d9-1d7d-5c38-9cfa-d60a7b795c26
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:115:1995
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 115:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+status: valid
+id: 69016f02-8d8f-5baf-b6b2-4a68b31f745c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The component of a thermometer of which part is applied to a body cavity
+      or tissue with which it establishes thermal equilibrium. It comprises a temperature
+      sensor with associated parts including coverings, seals, inner leads, and connecting
+      plug, where appropriate.
+  examples: []
+  id: r115-2.2-eng
+  notes:
+  - content: A body cavity or tissue may be the mouth (sublingual), rectum, or armpit.
+  - content: The part of the probe in contact with a body cavity or tissue is called
+      the applied part.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 115:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temperature probe
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-115
+    source: OIML R 115:1995
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 99f757da-7fa4-5c3e-935b-b1545f583d32
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Composant d'un thermometre dont une partie est appliquee a une cavite
+      ou a un tissu du corps avec lesquels elle etablit un equilibre thermique. Elle
+      comprend un capteur de temperature avec les pieces associees y compris les enveloppes,
+      joints, fils interieurs et fiche de connexion, le cas echeant.
+  examples: []
+  id: r115-2.2-fra
+  notes:
+  - content: Une cavite ou un tissu du corps peut etre la bouche (zone sublinguale),
+      le rectum ou l'aisselle.
+  - content: La partie de la sonde en contact avec une cavite ou un tissu du corps
+      est appelee partie appliquee.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 115:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sonde de temperature
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-115
+    source: OIML R 115:1995
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 8ab8e9d9-1d7d-5c38-9cfa-d60a7b795c26
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r62-1
+  localized_concepts:
+    eng: f729aac7-11b4-508f-81a8-196088dd5c9c
+    fra: 1895aa7f-1267-5888-b47e-25931b52cad5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:62:1985
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    locality:
+      type: clause
+      reference_from: '1'
+    type: authoritative
+status: valid
+id: 492bf44e-5ce3-5925-89ad-70a4720ccb4f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The unit elongation induced in a specimen either by a stress field (mechanical
+      strain) or by a temperature change (thermal expansion).
+  examples: []
+  id: r62-1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: strain, linear
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f729aac7-11b4-508f-81a8-196088dd5c9c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Elongation unitaire provoquée dans une structure soit par un champ de
+      contraintes (déformation mécanique), soit par une variation de température (dilatation).
+  examples: []
+  id: r62-1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 62:1985
+        version: '1985'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: déformation linéaire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-62
+    source: OIML R 62:1985
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1895aa7f-1267-5888-b47e-25931b52cad5
+

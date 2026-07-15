@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r110-2.1.1.2
+  localized_concepts:
+    eng: 7cd1334c-c7ef-5306-b20b-60d96f8d178e
+    fra: 97785a7a-e8f7-59ff-b27b-766b992e9a9a
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.1.1.2
+    type: authoritative
+status: valid
+id: d0a42031-31cf-599e-8db8-2686295a6967
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The minimum pressure to be measured.
+  examples: []
+  id: r110-2.1.1.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.1.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lower limit of measuring range
+  - type: symbol
+    normative_status: admitted
+    designation: P_min
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7cd1334c-c7ef-5306-b20b-60d96f8d178e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Pression minimale a mesurer.
+  examples: []
+  id: r110-2.1.1.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.1.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite inferieure de l'etendue de mesure
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 97785a7a-e8f7-59ff-b27b-766b992e9a9a
+

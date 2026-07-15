@@ -1,0 +1,101 @@
+---
+data:
+  identifier: d10-3.7
+  localized_concepts:
+    eng: e5bec37f-4395-54d6-a1d9-99d6afea1267
+    spa: d7ee49c4-3d44-5991-9e04-059ac6b777ce
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+status: valid
+id: f0bc2ba8-4922-58d8-8f55-41423ec070f5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: standard measurement uncertainty that is obtained using the individual
+      standard measurement uncertainties associated with the input quantities in a
+      measurement model
+  examples: []
+  id: d10-3.7-eng
+  notes:
+  - content: In the case of correlations of input quantities in a measurement model,
+      covariances must also be taken into account when calculating the combined standard
+      measurement uncertainty.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.7'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: combined standard measurement uncertainty
+  - type: expression
+    normative_status: admitted
+    designation: combined standard uncertainty
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e5bec37f-4395-54d6-a1d9-99d6afea1267
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: incertidumbre típica obtenida a partir de las incertidumbres típicas
+      individuales asociadas a las magnitudes de entrada de un modelo de medición
+  examples: []
+  id: d10-3.7-spa
+  notes:
+  - content: Cuando existan correlaciones entre las magnitudes de entrada en un modelo
+      de medición, en el cálculo de la incertidumbre típica combinada es necesario
+      también considerar las covarianzas; véase también la Guía ISO/IEC 98-3:2008,
+      2.3.4.
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertidumbre típica combinada de medición
+  - type: expression
+    normative_status: admitted
+    designation: incertidumbre típica combinada
+  language_code: spa
+  entry_status: valid
+  domains:
+  - concept_id: d-10
+    source: OIML D 10:2022
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d7ee49c4-3d44-5991-9e04-059ac6b777ce
+

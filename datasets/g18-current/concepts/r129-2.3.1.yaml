@@ -1,0 +1,69 @@
+---
+data:
+  identifier: r129-2.3.1
+  localized_concepts:
+    eng: 4325a3a3-29e5-5020-98ad-323fb1a6fd9e
+    deu: 94e12429-8ef8-5678-8ce1-cf40bea1abd3
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:129:2020
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 1:2013
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: 2.3.1
+    type: authoritative
+status: valid
+id: 22cba628-4589-53b9-88bc-f6436fcb595b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: indicated value minus a reference quantity value
+  examples: []
+  id: r129-2.3.1-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error of indication
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4325a3a3-29e5-5020-98ad-323fb1a6fd9e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: angezeigter Wert abzüglich eines Referenzwerts
+  examples: []
+  id: r129-2.3.1-deu
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Abweichung der Anzeige
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 94e12429-8ef8-5678-8ce1-cf40bea1abd3
+

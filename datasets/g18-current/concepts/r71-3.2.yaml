@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r71-3.2
+  localized_concepts:
+    eng: f238b45e-f005-506d-acd4-4cf214570475
+    deu: 6282d5ce-79d5-5141-8abb-a6335ed8ddc8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:71:2008
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+status: valid
+id: 02365d86-c031-53ea-b94f-7450da9f1386
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Rounded value of the maximum volume of liquid that a tank may contain
+      under normal conditions of use.
+  examples: []
+  id: r71-3.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nominal capacity
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f238b45e-f005-506d-acd4-4cf214570475
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Gerundeter Wert des maximalen Volumens einer Flüssigkeit, die ein Behälter
+      unter normalen Gebrauchsbedingungen enthalten kann.
+  examples: []
+  id: r71-3.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 71:2008
+        version: '2008'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.2'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nennfassungsvermögen
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-71
+    source: OIML R 71:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6282d5ce-79d5-5141-8abb-a6335ed8ddc8
+

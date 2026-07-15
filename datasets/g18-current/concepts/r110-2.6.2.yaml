@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r110-2.6.2
+  localized_concepts:
+    eng: e82de970-930e-5357-ba90-3088e7f7f7ca
+    fra: e884eac2-ce4b-56af-8be4-0aab373e72b9
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:110:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.6.2
+    type: authoritative
+status: valid
+id: 31b88b26-8f26-5c81-84fe-91a1511b4c6f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The vertical level, with respect to a clearly defined part of the support
+      column or the base of a pressure balance, to which a measured pressure is related
+      when the piston is at a specific operating level.
+  examples: []
+  id: r110-2.6.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.6.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pressure reference level
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e82de970-930e-5357-ba90-3088e7f7f7ca
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Niveau vertical, par rapport a une partie clairement definie du support
+      ou de la base d'un manometre a piston, auquel une pression mesuree est reliee
+      lorsque le piston est a un niveau de fonctionnement specifique.
+  examples: []
+  id: r110-2.6.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 110:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: 2.6.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Niveau de reference de pression
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-110
+    source: OIML R 110:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e884eac2-ce4b-56af-8be4-0aab373e72b9
+

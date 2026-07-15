@@ -3,6 +3,7 @@ data:
   identifier: r85-3.2
   localized_concepts:
     eng: 48d82d09-db9c-5a0b-bd9e-3a7097f66e1c
+    fra: 56ed338b-be06-58f5-8ef8-b542a8490368
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -11,6 +12,14 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -33,22 +42,54 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85-1-2:2008
+        source: OIML R 85:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.2'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: electronic automatic level gauge
+    designation: Electronic automatic level gauge
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85-1-2
-    source: OIML R 85-1-2:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 48d82d09-db9c-5a0b-bd9e-3a7097f66e1c
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Jaugeur automatique utilisant des systèmes électroniques et/ou muni de
+      dispositifs électroniques.
+  examples: []
+  id: r85-3.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Jaugeur automatique électronique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 56ed338b-be06-58f5-8ef8-b542a8490368
 

@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r106-0.3.11
+  localized_concepts:
+    eng: 61835e5e-96e0-5624-8836-71e977ab09cd
+    fra: f124bb15-8ced-5545-a196-8f7054ea7ca8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.11
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.11
+    type: authoritative
+status: valid
+id: addacf47-c1bc-5c7c-9883-e319485a390b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: electronic count and/or information record of the changes to the values
+      of the legally relevant parameters of a device
+  examples: []
+  id: r106-0.3.11-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: audit trail
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 61835e5e-96e0-5624-8836-71e977ab09cd
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: comptage electronique et/ou enregistrement d information des changements
+      des valeurs des parametres a caractere legal d un dispositif
+  examples: []
+  id: r106-0.3.11-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: piste d audit
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f124bb15-8ced-5545-a196-8f7054ea7ca8
+

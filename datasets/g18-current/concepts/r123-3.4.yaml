@@ -1,0 +1,88 @@
+---
+data:
+  identifier: r123-3.4
+  localized_concepts:
+    eng: 1021d47a-d638-557b-93a8-8b8657716dac
+    fra: 41619e58-3e59-5717-a3a5-36c4929281c7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+status: valid
+id: bf249c06-7dd7-51d0-ba08-0e40b31f62d6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Limits of concentration of an element in a sample over which the instrument
+      operates within the performance requirements of this Recommendation.
+  examples: []
+  id: r123-3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.4'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Working concentration range
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-123
+    source: OIML R 123:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1021d47a-d638-557b-93a8-8b8657716dac
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Limites de concentration d'un element dans un echantillon a l'interieur
+      desquelles l'instrument fonctionne en conformite avec les exigences de performance
+      de cette Recommandation.
+  examples: []
+  id: r123-3.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 123:1997
+        version: '1997'
+    locality:
+      type: clause
+      reference_from: '3.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Etendue de mesure en concentration
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-123
+    source: OIML R 123:1997
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 41619e58-3e59-5717-a3a5-36c4929281c7
+

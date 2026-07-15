@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r55-1.1
+  localized_concepts:
+    eng: 66d00ce1-b249-51ae-986b-0dd49ceff790
+    fra: b39f574c-36d9-5614-8764-81518d049009
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:55:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '1.1'
+    type: authoritative
+status: valid
+id: c7a99420-e2eb-5104-b612-517e834cc0e2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument designed to indicate to the driver, the instantaneous speed
+      of his vehicle.
+  examples: []
+  id: r55-1.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Speedometer
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-55
+    source: OIML R 55:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 66d00ce1-b249-51ae-986b-0dd49ceff790
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument destiné à indiquer au conducteur la vitesse instantanée de
+      son véhicule.
+  examples: []
+  id: r55-1.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 55:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '1.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Compteur de vitesse (tachymètre)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-55
+    source: OIML R 55:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: b39f574c-36d9-5614-8764-81518d049009
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r61-3.3.4
+  localized_concepts:
+    eng: fb895f76-98f0-55be-9b62-ccdb344ef236
+    deu: 03660f54-8c25-5a3b-9467-e02e2cec0f27
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+status: valid
+id: de434d12-5c88-5891-860f-098edc448d31
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device for setting the indication to zero when there is no load on the
+      load receptor
+  examples: []
+  id: r61-3.3.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: zero-setting device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fb895f76-98f0-55be-9b62-ccdb344ef236
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung, mit der die Anzeige bei unbelastetem Lastträger auf null
+      gestellt wird
+  examples: []
+  id: r61-3.3.4-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nullstelleinrichtung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 03660f54-8c25-5a3b-9467-e02e2cec0f27
+

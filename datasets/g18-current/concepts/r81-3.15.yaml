@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r81-3.15
+  localized_concepts:
+    eng: c59a5351-7f60-5d90-a76f-7be90ce5372d
+    fra: 460f443f-34f8-5b7f-b5e4-83bfb7eca2a5
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:81:1998
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+status: valid
+id: b02c823b-32a3-5bf3-9986-41d8b9c53cc9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: A device that permits the selection of the quantity to be measured and
+      which automatically stops the flow of the liquid at the end of the measurement
+      and delivery of the selected quantity.
+  examples: []
+  id: r81-3.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pre-setting device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c59a5351-7f60-5d90-a76f-7be90ce5372d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif permettant la selection de la quantite a mesurer et arretant
+      automatiquement l'ecoulement du liquide a la fin du mesurage et de la livraison
+      de la quantite selectionnee.
+  examples: []
+  id: r81-3.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 81:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '3.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif de predetermination
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-81
+    source: OIML R 81:1998
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 460f443f-34f8-5b7f-b5e4-83bfb7eca2a5
+

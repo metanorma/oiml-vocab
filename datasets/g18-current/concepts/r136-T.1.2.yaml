@@ -3,11 +3,20 @@ data:
   identifier: r136-T.1.2
   localized_concepts:
     eng: 151405b7-baf2-5e8c-b5dc-1755e2460080
+    deu: 6e41de90-ad89-5381-b881-fc898e2be0fd
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.1.2
+    type: authoritative
   - origin:
       ref:
         source: OIML V 2-200:2012
@@ -43,4 +52,28 @@ data:
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 151405b7-baf2-5e8c-b5dc-1755e2460080
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Gerät, das allein oder in Verbindung mit zusätzlichen Einrichtungen für
+      Messungen gebraucht werden soll.
+  examples: []
+  id: r136-T.1.2-deu
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messgerät
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6e41de90-ad89-5381-b881-fc898e2be0fd
 

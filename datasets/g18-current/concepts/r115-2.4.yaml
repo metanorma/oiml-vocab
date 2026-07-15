@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r115-2.4
+  localized_concepts:
+    eng: e3296e83-1801-589d-af31-ce744da0f40b
+    fra: 7fba2adc-8529-5943-85f4-5695da87ab09
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:115:1995
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 115:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+status: valid
+id: 4f451fc5-8bb2-5a58-bd90-fa27b0e546aa
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The component of a thermometer that monitors over a specified time the
+      temperature measured by a probe in contact with a body cavity or tissue, after
+      which it indicates the maximum temperature and maintains the indication until
+      reset by the user.
+  examples: []
+  id: r115-2.4-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 115:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-115
+    source: OIML R 115:1995
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e3296e83-1801-589d-af31-ce744da0f40b
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Composant d'un thermometre qui controle pendant un temps specifie la
+      temperature mesuree par une sonde en contact avec une cavite ou un tissu du
+      corps, apres quoi il indique la temperature maximale et maintient l'indication
+      jusqu'au rearmement par l'utilisateur.
+  examples: []
+  id: r115-2.4-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 115:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '2.4'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif a maximum
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-115
+    source: OIML R 115:1995
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7fba2adc-8529-5943-85f4-5695da87ab09
+

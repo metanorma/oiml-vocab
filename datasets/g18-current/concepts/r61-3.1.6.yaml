@@ -1,0 +1,80 @@
+---
+data:
+  identifier: r61-3.1.6
+  localized_concepts:
+    eng: e45102b2-0f79-5ece-a118-92a64f6da542
+    deu: 72a1556d-0421-5127-858d-806bdadfcc2e
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 2-200:2012
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    type: authoritative
+status: valid
+id: e36c34d5-82e0-598e-9983-e1c3bec92130
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: set of quantity values being attributed to a measurand together with
+      any other available relevant information
+  examples: []
+  id: r61-3.1.6-eng
+  notes:
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: measurement result
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-2-200
+    source: OIML V 2-200:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e45102b2-0f79-5ece-a118-92a64f6da542
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Menge von Größenwerten, die einer Messgröße zugewiesen sind, zusammen
+      mit jeglicher verfügbarer relevanter Information
+  examples:
+  - content: 'Source citation: VIM 2.9'
+  id: r61-3.1.6-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messergebnis
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 72a1556d-0421-5127-858d-806bdadfcc2e
+

@@ -3,6 +3,7 @@ data:
   identifier: r85-3.3
   localized_concepts:
     eng: c4ddb649-6cf4-599a-a3ae-a35384e06b38
+    fra: 5e0c988a-17bb-5475-a799-c327af969934
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -11,6 +12,14 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -28,8 +37,10 @@ data:
   - content: Device intended to perform a particular function, directly involved in
       elaborating, transmitting or displaying measurement results.
   examples:
-  - content: repeating indicating device; printing device; conversion device; memory
-      device.
+  - content: repeating indicating device
+  - content: printing device
+  - content: conversion device
+  - content: memory device
   id: r85-3.3-eng
   notes:
   - content: For the purpose of this Recommendation ancillary equipment, in so far
@@ -37,22 +48,62 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85-1-2:2008
+        source: OIML R 85:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.3'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: ancillary device
+    designation: Ancillary device
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85-1-2
-    source: OIML R 85-1-2:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: c4ddb649-6cf4-599a-a3ae-a35384e06b38
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif destiné à réaliser une fonction particulière, directement
+      impliquée dans l'élaboration, la transmission ou l'affichage des résultats de
+      mesure.
+  examples:
+  - content: dispositif indicateur répétiteur
+  - content: dispositif imprimeur
+  - content: dispositif de mémorisation
+  - content: dispositif de conversion
+  id: r85-3.3-fra
+  notes:
+  - content: Pour les besoins de cette Recommandation, un dispositif auxiliaire, sous
+      réserve d'être soumis au contrôle métrologique, est considéré comme faisant
+      partie du JA.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif auxiliaire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 5e0c988a-17bb-5475-a799-c327af969934
 

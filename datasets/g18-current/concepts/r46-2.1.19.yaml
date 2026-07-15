@@ -1,0 +1,84 @@
+---
+data:
+  identifier: r46-2.1.19
+  localized_concepts:
+    eng: 03caec41-0ad0-51a2-a621-8c88d79757a3
+    fra: 30243115-f8e6-5f2f-ad35-29e7012de3a4
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 1:2013
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.19
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML V 1:2013
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.1.19
+    type: authoritative
+status: valid
+id: edcfc838-785b-5be9-a881-3bb9198cac75
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying measurement results
+  examples: []
+  id: r46-2.1.19-eng
+  notes:
+  - content: An ancillary device is not part of the basic metrology function of a
+      meter.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 03caec41-0ad0-51a2-a621-8c88d79757a3
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif destiné à accomplir une fonction particulière directement
+      impliquée dans l'élaboration, la transmission ou l'affichage de résultats de
+      mesurage
+  examples: []
+  id: r46-2.1.19-fra
+  notes:
+  - content: Un dispositif complémentaire ne fait pas partie des fonctions métrologiques
+      de base d'un compteur.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif complémentaire
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 30243115-f8e6-5f2f-ad35-29e7012de3a4
+

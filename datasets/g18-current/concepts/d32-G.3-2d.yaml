@@ -1,0 +1,79 @@
+---
+data:
+  identifier: d32-G.3-2d
+  localized_concepts:
+    eng: 9a5fa7b5-6b5a-5798-aac6-3de56df9ef40
+    fra: a89bf6ae-9049-57e1-8b69-21c0ca44ac66
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:32:2018
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML V 1:2013
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: G.3-2d
+    type: authoritative
+status: valid
+id: 143a0a82-83b1-526f-b0a5-3b43b74d65c1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and / or an evaluation certificate
+  examples: []
+  id: d32-G.3-2d-eng
+  notes:
+  - content: '"Pattern" is used in legal metrology with the same meaning as "type".'
+  - content: For the purposes of the OIML-CS, "evaluation report" should be read as
+      "OIML type evaluation report".
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: type (pattern) evaluation
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9a5fa7b5-6b5a-5798-aac6-3de56df9ef40
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: procédure d'évaluation de la conformité d'un ou plusieurs exemplaires
+      d'un type (modèle) identifié d'instrument de mesure conduisant à l'établissement
+      d'un rapport d'évaluation et/ou d'un certificat d'évaluation
+  examples: []
+  id: d32-G.3-2d-fra
+  notes:
+  - content: En métrologie légale, on utilise "modèle" dans le même sens que "type".
+  - content: Aux fins de l'OIML-CS, on entendra par « rapport d'évaluation » le «
+      rapport d'évaluation de type OIML ».
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: évaluation de type (modèle)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: v-1
+    source: OIML V 1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a89bf6ae-9049-57e1-8b69-21c0ca44ac66
+

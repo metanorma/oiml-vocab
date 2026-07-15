@@ -1,0 +1,97 @@
+---
+data:
+  identifier: r46-2.2.38
+  localized_concepts:
+    eng: 6d035f82-439f-5c9a-925a-21a2d851f809
+    fra: 1155cc3b-d1c7-560c-8698-ac1f7692987b
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.38
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.38
+    type: authoritative
+status: valid
+id: e25e7428-c6a5-5285-95cf-9bf2300ca951
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: direction of energy flow opposite to positive
+  examples: []
+  id: r46-2.2.38-eng
+  notes:
+  - content: For positive-direction only, the opposite direction is termed reverse
+      energy flow (see 2.2.39).
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.38
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: negative (energy) flow
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 6d035f82-439f-5c9a-925a-21a2d851f809
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: sens d'écoulement de l'énergie opposé au positif
+  examples: []
+  id: r46-2.2.38-fra
+  notes:
+  - content: Pour le sens positif uniquement, le sens opposé est appelé écoulement
+      inverse de l'énergie.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.38
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: écoulement négatif (de l'énergie)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 1155cc3b-d1c7-560c-8698-ac1f7692987b
+

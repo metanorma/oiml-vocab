@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r134-T.7.1
+  localized_concepts:
+    eng: ec92efe5-2ced-54c9-a7e2-b2d9b2c70338
+    fra: 123d584d-f11c-5dc4-b9cf-3bb31f161545
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.7.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.7.1
+    type: authoritative
+status: valid
+id: 344b1192-0bee-5506-ab3f-5425ae8ae959
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Loaded or unloaded road vehicle that is recognized by the instrument
+      as a vehicle to be weighed.
+  examples: []
+  id: r134-T.7.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.7.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: vehicle
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: ec92efe5-2ced-54c9-a7e2-b2d9b2c70338
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Véhicule routier chargé ou déchargé qui est reconnu par l'instrument
+      comme un véhicule à peser.
+  examples: []
+  id: r134-T.7.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.7.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: véhicule
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 123d584d-f11c-5dc4-b9cf-3bb31f161545
+

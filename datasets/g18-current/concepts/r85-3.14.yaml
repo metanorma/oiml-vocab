@@ -3,6 +3,7 @@ data:
   identifier: r85-3.14
   localized_concepts:
     eng: b55c1acf-5e36-5bfc-a7eb-d4c8d8d57b20
+    fra: 77d4f206-8791-5999-8bc6-2296c7a77849
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:85:2008
@@ -11,6 +12,14 @@ data:
   - origin:
       ref:
         source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 85:2008
         version: '2008'
     locality:
       type: clause
@@ -35,22 +44,56 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 85-1-2:2008
+        source: OIML R 85:2008
         version: '2008'
-    type: authoritative
     locality:
       type: clause
       reference_from: '3.14'
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred
-    designation: dip plate
+    designation: Dip plate
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-85-1-2
-    source: OIML R 85-1-2:2008
+  - concept_id: r-85
+    source: OIML R 85:2008
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: b55c1acf-5e36-5bfc-a7eb-d4c8d8d57b20
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Plaque horizontale placée à la verticale du point de référence supérieur
+      matérialisant une surface de contact fixe par rapport à laquelle les mesures
+      manuelles de profondeur de liquide sont effectuées.
+  examples: []
+  id: r85-3.14-fra
+  notes:
+  - content: "(S'applique uniquement à l'Anglais)."
+  sources:
+  - origin:
+      ref:
+        source: OIML R 85:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '3.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Plaque de touche
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-85
+    source: OIML R 85:2008
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 77d4f206-8791-5999-8bc6-2296c7a77849
 

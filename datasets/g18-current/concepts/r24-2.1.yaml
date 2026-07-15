@@ -1,0 +1,94 @@
+---
+data:
+  identifier: r24-2.1
+  localized_concepts:
+    eng: abcc6dfc-8199-5aa3-a2db-ae88de33446a
+    fra: dfcb247b-c04c-5dbf-99b5-d370c8596387
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:24:1975
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 24:1975
+        version: '1975'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+status: valid
+id: e32d0fb4-09e1-5a24-bc3e-54f0d15de2d2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Maximum error, positive or negative, allowed on Verification Officers'
+      metre standard on initial or subsequent verification when compared at the reference
+      temperature of 20 °C with the corresponding standard of length of higher accuracy
+      (in the statutory hierarchy of standards), assuming that this standard of higher
+      accuracy has a negligible error for the purpose of this comparison.
+  examples: []
+  id: r24-2.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 24:1975
+        version: '1975'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maximum permissible error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-24
+    source: OIML R 24:1975
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: abcc6dfc-8199-5aa3-a2db-ae88de33446a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur maximale, en plus ou en moins, tolérée à la température de référence
+      de 20 °C sur le mètre étalon pour Agents de vérification, en vérification initiale
+      ou lors des vérifications ultérieures, quand ce mètre est comparé à l'étalon
+      de longueur correspondant de précision supérieure (dans la hiérarchie légale
+      des étalons) en présumant que cet étalon de précision supérieure a, pour les
+      buts de cette comparaison, une erreur négligeable.
+  examples: []
+  id: r24-2.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 24:1975
+        version: '1975'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.1'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur maximale tolérée
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-24
+    source: OIML R 24:1975
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: dfcb247b-c04c-5dbf-99b5-d370c8596387
+

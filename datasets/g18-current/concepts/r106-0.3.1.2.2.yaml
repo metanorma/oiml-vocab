@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r106-0.3.1.2.2
+  localized_concepts:
+    eng: 44abe6ef-8bdf-5549-b414-6af5b382a5db
+    fra: 7bffcd12-5c39-56c5-b78f-1830448346f1
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.2.2
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.2.2
+    type: authoritative
+status: valid
+id: e4b2eb57-d0ad-580b-b9ac-396f6fdabf1d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: weighing a wagon for each bogie weight on the same load receptor the
+      results are automatically added to indicate the wagon weight
+  examples: []
+  id: r106-0.3.1.2.2-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: bogie partial weighing
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 44abe6ef-8bdf-5549-b414-6af5b382a5db
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: pesage d un wagon par determination du poids de chaque bogie reposant
+      sur le meme recepteur de charge
+  examples: []
+  id: r106-0.3.1.2.2-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.3.1.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pesage partiel par bogie
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7bffcd12-5c39-56c5-b78f-1830448346f1
+

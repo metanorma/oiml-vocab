@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r144-2.15
+  localized_concepts:
+    eng: 45208eae-df32-5061-8e1f-27cff871c02e
+    fra: 95783624-67fd-5c1a-a319-8b5ba189a801
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:144:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+status: valid
+id: 72ea2df0-d10b-5d3f-bcf3-c3512924c924
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: absolute error of measurement divided by the reference value of the measurand
+  examples: []
+  id: r144-2.15-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 45208eae-df32-5061-8e1f-27cff871c02e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: erreur absolue de mesure divisée par la valeur de la mesure
+  examples: []
+  id: r144-2.15-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 144:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '2.15'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur relative
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-144
+    source: OIML R 144:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 95783624-67fd-5c1a-a319-8b5ba189a801
+

@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r127-4.14
+  localized_concepts:
+    eng: 046a9c80-7477-594f-9152-11207f99b1db
+    fra: 36e57e50-64d1-5818-9346-018b4d984c91
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:127:1999
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.14'
+    type: authoritative
+status: valid
+id: 79726612-435f-5638-9a15-f595d141b496
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Extreme values of an error permitted by specifications regulations, etc.
+      for a given measuring instrument.
+  examples: []
+  id: r127-4.14-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '4.14'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible errors
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 046a9c80-7477-594f-9152-11207f99b1db
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeurs limites d'une erreur autorisées dans le cadre des spécifications,
+      réglementations, etc. pour un instrument de mesure donné.
+  examples: []
+  id: r127-4.14-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 127:1999
+        version: '1999'
+    locality:
+      type: clause
+      reference_from: '4.14'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreurs maximales tolérées
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-127
+    source: OIML R 127:1999
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 36e57e50-64d1-5818-9346-018b4d984c91
+

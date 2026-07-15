@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r134-T.3.8
+  localized_concepts:
+    eng: aa1ad10f-90aa-5b21-b389-11e87352913d
+    fra: a7594839-126b-57a0-a8fd-1358a0234e82
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:134:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.8
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.8
+    type: authoritative
+status: valid
+id: 401cb525-6ade-5c95-bd8c-9248cb9ee586
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Condition of the instrument such that the recorded weighing values show
+      no more than two adjacent values of each weighing cycle; with one of them being
+      the final weight value. This condition is only valid for each separate weighing
+      cycle and not for a group of cycles.
+  examples: []
+  id: r134-T.3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: stable equilibrium
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-134
+    source: OIML R 134:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: aa1ad10f-90aa-5b21-b389-11e87352913d
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Condition de l'instrument telle que les valeurs de pesée enregistrées
+      ne montrent pas plus de deux valeurs adjacentes pour chaque cycle de pesage;
+      l'une d'entre elles étant la valeur finale de Poids. Cette condition est valide
+      uniquement pour chaque cycle de pesage séparé mais pas pour un groupe de cycles.
+  examples: []
+  id: r134-T.3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 134-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: équilibre stable
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-134-1
+    source: OIML R 134-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: a7594839-126b-57a0-a8fd-1358a0234e82
+

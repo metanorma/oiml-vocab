@@ -1,0 +1,92 @@
+---
+data:
+  identifier: d10-3.5
+  localized_concepts:
+    eng: 2377b555-f992-547f-a5f2-0a2e411689a1
+    spa: 4b87c9ea-dbf3-593e-9929-cdd00f8dde82
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+status: valid
+id: d05be5a8-86da-55fe-b0a1-cbd208d507e8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: third-party conformity assessment body operating certification schemes
+  examples: []
+  id: d10-3.5-eng
+  notes:
+  - content: A certification body can be non-governmental or governmental (with or
+      without a regulatory authority).
+  - content: 'Source citation: ISO/IEC 17065 3.12'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17065
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: certification body
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2377b555-f992-547f-a5f2-0a2e411689a1
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Organismo de aseguramiento de la conformidad de tercera parte que opera
+      esquemas de certificación
+  examples: []
+  id: d10-3.5-spa
+  notes:
+  - content: Un organismo de certificación puede ser gubernamental o no gubernamental
+      (con o sin autoridad regulatoria).
+  - content: 'Source citation: ISO/IEC 17065 3.12'
+  sources:
+  - type: lineage
+    status: identical
+    origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '3.5'
+    sourced_from:
+    - ref:
+        source: ISO/IEC 17065
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: organismo certificador
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4b87c9ea-dbf3-593e-9929-cdd00f8dde82
+

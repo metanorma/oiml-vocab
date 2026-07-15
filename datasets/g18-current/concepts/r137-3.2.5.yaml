@@ -1,0 +1,106 @@
+---
+data:
+  identifier: r137-3.2.5
+  localized_concepts:
+    eng: 071edb54-4f0a-59de-8e99-7bb5494902cb
+    fra: 10022af3-46bb-50df-ad85-177b84c66d76
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+status: valid
+id: 3efcee57-0adc-52b1-a216-0d476c6cf89b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'The weighted mean error (WME) within the scope of this Recommendation
+      is defined as: WME = sum(k_i × E_i) / sum(k_i), with k_i = Q_i/Q_max for Q_i
+      <= 0.7 Q_max, and k_i = 1.4 - Q_i/Q_max for 0.7 Q_max < Q_i <= Q_max, where
+      k_i is the weighting factor at the flow rate Q_i and E_i is the error at the
+      flow rate Q_i.'
+  examples: []
+  id: r137-3.2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: weighted mean error
+  - type: expression
+    normative_status: admitted
+    designation: WME
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 071edb54-4f0a-59de-8e99-7bb5494902cb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: 'L''erreur moyenne pondérée (EMP), dans le cadre du champ d''application
+      de cette Recommandation, est définie ainsi: EMP = sum(k_i × E_i) / sum(k_i),
+      avec k_i = Q_i/Q_max pour Q_i <= 0,7 Q_max, et k_i = 1,4 - Q_i/Q_max pour 0,7
+      Q_max < Q_i <= Q_max.'
+  examples: []
+  id: r137-3.2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 137:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 3.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur moyenne pondérée
+  - type: expression
+    normative_status: admitted
+    designation: EMP
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-137
+    source: OIML R 137:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 10022af3-46bb-50df-ad85-177b84c66d76
+

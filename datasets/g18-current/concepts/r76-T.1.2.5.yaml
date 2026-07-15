@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r76-T.1.2.5
+  localized_concepts:
+    eng: '08ab45ad-18e2-54a3-8370-59e7607323b6'
+    fra: fc446ac3-678d-5547-b29c-fd853bc67c11
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2.5
+    type: authoritative
+status: valid
+id: db47762c-4f18-56f5-a5b5-1305a50093ce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument in which the position of equilibrium is obtained entirely
+      by the operator.
+  examples: []
+  id: r76-T.1.2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: non-self-indicating instrument
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: '08ab45ad-18e2-54a3-8370-59e7607323b6'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Instrument pour lequel la position d'équilibre est atteinte entièrement
+      par l'opérateur.
+  examples: []
+  id: r76-T.1.2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76-1:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.1.2.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrument à équilibre non automatique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-76-1
+    source: OIML R 76-1:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: fc446ac3-678d-5547-b29c-fd853bc67c11
+

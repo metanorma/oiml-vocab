@@ -53,11 +53,18 @@ WITHDRAWN_REFS = Set.new([
 module G18CurrentG18
   module_function
 
+  LANG_SUFFIXES = %w[eng fra spa deu ara fas zho rus por ita nld pol srp ukr e f].freeze
+
   def resolve_pub_code(basename)
     parts = basename.split("-")
     (parts.length - 1).downto(1) do |i|
       candidate = parts[0...i].join("-")
       return candidate if PUB_CODES.include?(candidate)
+      # Merged multilingual files use base pub-code without language suffix.
+      # Try adding each known suffix to see if a real OCR directory exists.
+      LANG_SUFFIXES.each do |sfx|
+        return candidate if PUB_CODES.include?("#{candidate}-#{sfx}")
+      end
     end
     nil
   end

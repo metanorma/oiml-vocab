@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.2.8.5
   localized_concepts:
+    eng: 649e357b-5419-59a4-a81a-b98ad951055b
     fra: e50afa51-1d98-583f-bed6-64b9a954f421
   domains:
   - concept_id: section-terms
@@ -16,9 +17,52 @@ data:
       type: clause
       reference_from: T.2.8.5
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.5
+    type: authoritative
 status: valid
 id: 26664af6-49d6-5594-acd2-aa8d75730e3d
 schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Storage used for keeping measurement data ready after completion of the
+      measurement for later legally relevant purposes (e.g. conclusion of a trading
+      transaction at a later date, when the customer is not present for the determination
+      of the amount, or for special applications identified and legislated by the
+      state).
+  examples: []
+  id: r76-T.2.8.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.2.8.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: long-term storage of measurement data
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 649e357b-5419-59a4-a81a-b98ad951055b
 ---
 data:
   dates:
@@ -36,7 +80,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -49,8 +93,8 @@ data:
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: e50afa51-1d98-583f-bed6-64b9a954f421

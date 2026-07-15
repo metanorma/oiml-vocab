@@ -3,11 +3,20 @@ data:
   identifier: r136-T.2.4.2
   localized_concepts:
     eng: ffe33fa6-2968-5cb3-a5ce-d74937f89deb
+    deu: 2381cbd1-74ca-55ef-90ab-9c17e169c34a
   domains:
   - concept_id: section-terms
     source: urn:oiml:pub:r:136:2004
     ref_type: section
   sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.2.4.2
+    type: authoritative
   - origin:
       ref:
         source: OIML R 136:2004
@@ -33,7 +42,7 @@ data:
   sources:
   - origin:
       ref:
-        source: OIML R 136:2004
+        source: OIML R 136-1:2004
         version: '2004'
     locality:
       type: clause
@@ -46,9 +55,42 @@ data:
   language_code: eng
   entry_status: valid
   domains:
-  - concept_id: r-136
-    source: OIML R 136:2004
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: ffe33fa6-2968-5cb3-a5ce-d74937f89deb
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Die Ausgabe oder Anzeige erfolgt durch eine Folge von ausgerichteten
+      Ziffern, die keine Interpolation auf einen Bruchteil des Skalenteilungswertes
+      zulassen.
+  examples: []
+  id: r136-T.2.4.2-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: T.2.4.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: digitale Anzeige
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-136-1
+    source: OIML R 136-1:2004
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 2381cbd1-74ca-55ef-90ab-9c17e169c34a
 

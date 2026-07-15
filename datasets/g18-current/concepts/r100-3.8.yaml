@@ -1,0 +1,93 @@
+---
+data:
+  identifier: r100-3.8
+  localized_concepts:
+    eng: 4df210e2-8c17-5a29-970d-79a4b51ad4ba
+    fra: f7471800-6a32-5687-90df-b6b4edfe9e44
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:100:2013
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 100:2013
+        version: '2013'
+    locality:
+      type: clause
+      reference_from: '3.8'
+    type: authoritative
+status: valid
+id: 47654635-5a21-50ca-827f-84cae09674c3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that converts a liquid sample into an aerosol
+  examples: []
+  id: r100-3.8-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nebulizer
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4df210e2-8c17-5a29-970d-79a4b51ad4ba
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: dispositif qui transforme un echantillon liquide en aerosol
+  examples: []
+  id: r100-3.8-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 100-1:2013
+        version: '2013'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '3.8'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nebuliseur
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-100-1
+    source: OIML R 100-1:2013
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f7471800-6a32-5687-90df-b6b4edfe9e44
+

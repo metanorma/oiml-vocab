@@ -1,0 +1,85 @@
+---
+data:
+  identifier: r112-2.1
+  localized_concepts:
+    eng: 9d005b6f-dfd5-506f-9a42-030a44de2c5a
+    fra: 7e534b01-66a3-532d-ad0c-ed0f434fdab7
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+status: valid
+id: d57ff8a5-cc93-576b-861f-5ba7314c541a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The means of introducing a sample into the column.
+  examples: []
+  id: r112-2.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Injection device for the instrument
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d005b6f-dfd5-506f-9a42-030a44de2c5a
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Moyen par lequel un echantillon est introduit dans la colonne.
+  examples: []
+  id: r112-2.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 112:1994
+        version: '1994'
+    locality:
+      type: clause
+      reference_from: '2.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif d'injection
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-112
+    source: OIML R 112:1994
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 7e534b01-66a3-532d-ad0c-ed0f434fdab7
+

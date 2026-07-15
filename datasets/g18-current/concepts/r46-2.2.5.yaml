@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r46-2.2.5
+  localized_concepts:
+    eng: e03ecc9d-9f9c-51c6-ab8b-c5f7d79f1986
+    fra: 9e80bcf9-6bfb-5fb5-b1c6-c5b2374c16c8
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.5
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 46:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: 2.2.5
+    type: authoritative
+status: valid
+id: 5687b434-eb9f-5465-9e9d-27a4833ad56e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: highest value of current at which the meter is specified by the manufacturer
+      to meet the accuracy requirements
+  examples: []
+  id: r46-2.2.5-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum current (Imax)
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: e03ecc9d-9f9c-51c6-ab8b-c5f7d79f1986
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: valeur la plus haute du courant spécifiée par le fabricant pour laquelle
+      le compteur répond aux exigences d'exactitudes
+  examples: []
+  id: r46-2.2.5-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 46-1-2:2012
+        version: '2012'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: 2.2.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant maximal ($I_{max}$)
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-46-1-2
+    source: OIML R 46-1-2:2012
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9e80bcf9-6bfb-5fb5-b1c6-c5b2374c16c8
+

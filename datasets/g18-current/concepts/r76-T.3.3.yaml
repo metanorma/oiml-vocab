@@ -2,6 +2,7 @@
 data:
   identifier: r76-T.3.3
   localized_concepts:
+    eng: c11d5b00-522b-5b48-bf25-95b4360e58e9
     fra: 4710e2a3-ef82-51ff-a571-60166bbcb82d
   domains:
   - concept_id: section-terms
@@ -16,6 +17,14 @@ data:
       type: clause
       reference_from: T.3.3
     type: authoritative
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
 status: valid
 id: c47340bc-d654-57c3-8ad9-7226ac836758
 schema_version: '3'
@@ -25,17 +34,16 @@ data:
   - date: '2026-07-13T00:00:00+00:00'
     type: accepted
   definition:
-  - content: Le rapport de réduction d'un dispositif transmetteur de charge est égal
-      à $ R = F_{\mathrm{M}} / F_{\mathrm{L}} $ où $F_{\mathrm{M}}$ est la force agissant
-      sur le dispositif mesureur de charge, et $F_{\mathrm{L}}$ est la force agissant
-      sur le récepteur de charge.
+  - content: The reduction ratio of a load transmitting device is R = FM / FL where
+      FM = force acting on the load measuring device, FL = force acting on the load
+      receptor.
   examples: []
-  id: r76-T.3.3-fra
+  id: r76-T.3.3-eng
   notes: []
   sources:
   - origin:
       ref:
-        source: OIML R 76-1:2006
+        source: OIML R 76:2006
         version: '2006'
     locality:
       type: clause
@@ -44,15 +52,45 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: rapport de réduction, R
-  - type: symbol
+    designation: Reduction ratio, R
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-76
+    source: OIML R 76:2006
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c11d5b00-522b-5b48-bf25-95b4360e58e9
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le rapport de réduction d'un dispositif transmetteur de charge est égal
+      à R = FM / FL où FM = force agissant sur le dispositif mesureur de charge, FL
+      = force agissant sur le récepteur de charge.
+  examples: []
+  id: r76-T.3.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 76:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: T.3.3
+    type: authoritative
+  terms:
+  - type: expression
     normative_status: preferred
-    designation: R
+    designation: Rapport de réduction, R
   language_code: fra
   entry_status: valid
   domains:
-  - concept_id: r-76-1
-    source: OIML R 76-1:2006
+  - concept_id: r-76
+    source: OIML R 76:2006
     ref_type: section
 date_accepted: '2026-07-13T00:00:00+00:00'
 id: 4710e2a3-ef82-51ff-a571-60166bbcb82d

@@ -1,0 +1,92 @@
+---
+data:
+  identifier: r61-3.4.9
+  localized_concepts:
+    eng: 37a16a70-bb46-58ee-99e4-e9d86e2c6be2
+    deu: d952e0d2-fb60-5fa2-b1eb-334fcfc36cef
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.9
+    type: authoritative
+status: valid
+id: 61e57eee-d341-5f3a-b724-a088a691b088
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: rated value of the mass of the fill below which the weighing results
+      may be subject to errors exceeding the required limitations specified in this
+      Recommendation
+  examples: []
+  id: r61-3.4.9-eng
+  notes:
+  - content: For AGFIs which accomplish the fill by more than one weighing cycle Minfill
+      is larger than the minimum capacity, Min.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated minimum fill, Minfill
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 37a16a70-bb46-58ee-99e4-e9d86e2c6be2
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: kleinstes Sollgewicht einer Füllung, unterhalb dessen die in dieser Empfehlung
+      festgelegten Fehlergrenzen der Wägeergebnisse überschritten werden können
+  examples: []
+  id: r61-3.4.9-deu
+  notes:
+  - content: Bei einer SWA, die eine Füllung in mehreren Wägezyklen erzeugt, ist die
+      kleinste Abgabemenge, Minfill, größer als die Mindestlast, Min.
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.4.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: kleinste Abgabemenge (Minfill)
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: d952e0d2-fb60-5fa2-b1eb-334fcfc36cef
+

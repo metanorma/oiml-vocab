@@ -1,0 +1,89 @@
+---
+data:
+  identifier: r40-2.3
+  localized_concepts:
+    eng: da2686ea-c6ad-5342-88f3-9152ae208f26
+    fra: c3d917a3-92cd-527f-9bf4-2dcf1bdfc075
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:40:1981
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 40:1981
+        version: '1981'
+    locality:
+      type: clause
+      reference_from: '2.3'
+    type: authoritative
+status: valid
+id: a9f57bc1-40d5-52da-989d-161a72f58512
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Is the time required for the free descent of the water meniscus, from
+      the highest scale mark to the point at which the meniscus appears to stop at
+      the tip.
+  examples: []
+  id: r40-2.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 40:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Delivery time
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-40
+    source: OIML R 40:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: da2686ea-c6ad-5342-88f3-9152ae208f26
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: C'est le temps nécessaire à une descente libre du ménisque d'eau, depuis
+      le plus haut trait repère jusqu'au point où le ménisque semble s'immobiliser
+      dans la pointe d'écoulement.
+  examples: []
+  id: r40-2.3-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 40:1981
+        version: '1981'
+    type: authoritative
+    locality:
+      type: clause
+      reference_from: '2.3'
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temps d'écoulement
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-40
+    source: OIML R 40:1981
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c3d917a3-92cd-527f-9bf4-2dcf1bdfc075
+

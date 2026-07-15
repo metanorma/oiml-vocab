@@ -1,0 +1,87 @@
+---
+data:
+  identifier: r61-3.3.1.3
+  localized_concepts:
+    eng: f97f3d83-83fd-5b3d-850d-93452ed3da10
+    deu: 775b9532-5fa0-5674-9446-38be1f9c518c
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:61:2017
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.3
+    type: authoritative
+status: valid
+id: 43a6a21a-dff1-5375-9f65-9fab0d4850c1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: device that controls the operation of the feeding process and that may
+      incorporate software functions
+  examples: []
+  id: r61-3.3.1.3-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: control device
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: f97f3d83-83fd-5b3d-850d-93452ed3da10
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Einrichtung zur Steuerung des Ablaufs der Zuführung, die Software-Funktionen
+      einbeziehen kann
+  examples: []
+  id: r61-3.3.1.3-deu
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 61-1:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: 3.3.1.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Steuerungseinrichtung
+  language_code: deu
+  entry_status: valid
+  domains:
+  - concept_id: r-61-1
+    source: OIML R 61-1:2017
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 775b9532-5fa0-5674-9446-38be1f9c518c
+

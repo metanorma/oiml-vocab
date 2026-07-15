@@ -1,0 +1,91 @@
+---
+data:
+  identifier: r89-5.3.1
+  localized_concepts:
+    eng: 962b7460-00d2-5b46-a4cf-64dab7e50a68
+    fra: c5a6ef02-58be-5032-89f4-248691286260
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:89:1990
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.1
+    type: authoritative
+status: valid
+id: 616aea16-7e53-51ec-ada1-b25a70893bdd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: The relative voltage-measurement error is the difference between the
+      voltage recorded by an electroencephalograph and the voltage applied to its
+      input (whose reference value is taken as a conventional true value), divided
+      by the input voltage.
+  examples: []
+  id: r89-5.3.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative voltage-measurement error
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 962b7460-00d2-5b46-a4cf-64dab7e50a68
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: L'erreur relative de mesure de la tension est la différence entre la
+      tension mesurée par l'électroencéphalographe et la tension appliquée à son entrée
+      (dont la valeur de référence est prise comme valeur conventionnellement vraie),
+      divisée par la tension d'entrée.
+  examples: []
+  id: r89-5.3.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 89:1990
+        version: '1990'
+    locality:
+      type: clause
+      reference_from: 5.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur relative de mesure de la tension
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-89
+    source: OIML R 89:1990
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: c5a6ef02-58be-5032-89f4-248691286260
+

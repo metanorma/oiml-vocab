@@ -1,0 +1,95 @@
+---
+data:
+  identifier: r106-0.6.1
+  localized_concepts:
+    eng: 4935fdb7-3b14-5263-b229-821508e8c24e
+    fra: 9d618d68-c616-53ad-9100-5f8e0f515993
+  domains:
+  - concept_id: section-terms
+    source: urn:oiml:pub:r:106:2011
+    ref_type: section
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.6.1
+    type: authoritative
+  - origin:
+      ref:
+        source: OIML R 106:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.6.1
+    type: authoritative
+status: valid
+id: bcf4e280-5ba7-57b2-b965-ecc8443101e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: test with standard weights (or test loads) remaining stationary on the
+      load receptor to determine an error
+  examples: []
+  id: r106-0.6.1-eng
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.6.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: static test
+  language_code: eng
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 4935fdb7-3b14-5263-b229-821508e8c24e
+---
+data:
+  dates:
+  - date: '2026-07-13T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: essai avec des poids etalons (ou charges d essai) restant stationnaires
+      sur le recepteur de charge pour determiner une erreur
+  examples: []
+  id: r106-0.6.1-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML R 106-1:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: 0.6.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: essai statique
+  language_code: fra
+  entry_status: valid
+  domains:
+  - concept_id: r-106-1
+    source: OIML R 106-1:2011
+    ref_type: section
+date_accepted: '2026-07-13T00:00:00+00:00'
+id: 9d618d68-c616-53ad-9100-5f8e0f515993
+
