@@ -1,0 +1,71 @@
+---
+data:
+  identifier: r136-1-2004-33
+  localized_concepts:
+    deu: 147ac534-527a-5433-a4ec-0b0beb47413b
+    eng: bd47c1bd-f6e7-5370-8042-2e20c6f9249a
+  domains:
+  - concept_id: r-136
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources: []
+status: valid
+id: ae7f3629-37a7-5be0-afe1-8ec1ef9e64c3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:35Z'
+    type: accepted
+  definition:
+  - content: |-
+      Abweichung des mittleren Wertes einer Reihe von aufeinanderfolgenden Flächenmessungen, die auf einer Schablone durchgeführt werden, vom wahren Wert der Schablonenfläche, was mathematisch wie folgt ausgedruckt wird:
+
+      $$
+      x _ {\mathrm {e}} = \left[ x - V _ {\mathrm {t r u e}} \right] (\mathrm {t r u e} = \mathrm {w a h r e r W e r t})
+      $$
+
+      Dabei gilt:
+
+      $V_{\mathrm{true}}$ ist der wahre Wert der Lederfläche, und
+
+      $ \overline{x} $ ist das Mittel der Messungen, d. h. $ \frac{\sum_{i=1}^{n} I_{\mathrm{i}}}{n} $
+
+      Dabei gilt:
+
+      I ist die Ledermessanzeige; und
+
+      n die Anzahl der Messungen.
+  examples: []
+  id: r136-1-2004-33-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mittlerer Flächenfehler $ \left( x_{\mathrm{e}} \right) $
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 147ac534-527a-5433-a4ec-0b0beb47413b
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: Closeness of the agreement between the results of successive area measurements
+      carried out under the same conditions of measurement.
+  examples: []
+  id: r136-1-2004-33-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability error (R)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bd47c1bd-f6e7-5370-8042-2e20c6f9249a
+

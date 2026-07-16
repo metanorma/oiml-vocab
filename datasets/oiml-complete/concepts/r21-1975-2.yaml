@@ -1,0 +1,42 @@
+---
+data:
+  identifier: r21-1975-2
+  localized_concepts:
+    fra: 5a11cd38-00eb-5aa2-822c-508be67daf97
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:1975
+    ref_type: section
+  sources: []
+status: valid
+id: a512d7b2-4860-583e-8dc2-5b622153be4a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: |-
+      Le coefficient caractéristique d'un véhicule est une grandeur indiquant l'espèce et le nombre des signaux destinés à la commande du taximètre et apparaissant à la pièce correspondante prévue sur le véhicule pour 1 kilomètre de la distance parcourue.
+
+      Ce coefficient w est exprimé :
+
+      a) en « tours par kilomètre parcouru » (tr/km) ou
+
+      b) en « impulsions par kilomètre parcouru » (imp/km), suivant que l'information relative à la distance parcourue par le véhicule apparaît sous la forme d'un nombre de tours de la pièce commandant le taximètre ou sous la forme de signaux électriques.
+
+      Ce coefficient varie en fonction de plusieurs facteurs, notamment l'usure et la pression des pneumatiques, la charge du véhicule, les conditions de son déplacement ; il doit être déterminé dans les conditions normales d'essai du véhicule.
+  examples: []
+  id: r21-1975-2-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: coefficient caractéristique w du véhicule
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5a11cd38-00eb-5aa2-822c-508be67daf97
+

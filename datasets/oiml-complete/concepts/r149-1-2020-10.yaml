@@ -1,0 +1,45 @@
+---
+data:
+  identifier: r149-1-2020-10
+  localized_concepts:
+    eng: 3f161800-9eff-5e07-b37a-f6aa751fe9be
+  domains:
+  - concept_id: r-149
+    source: urn:oiml:pub:r:149-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 8ded8616-edd7-5303-9b4c-a3d91f7db2e6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: method that estimates systolic, diastolic and mean arterial pressures
+      during the slow inflation or deflation of an occluding cuff at the brachial
+      artery
+  examples: []
+  id: r149-1-2020-10-eng
+  notes:
+  - content: During the inflation and deflation of the cuff, small pressure changes
+      (oscillations) occur in the cuff as a result of the arterial blood pressure
+      pulses. These oscillations are detected and stored together with the corresponding
+      cuff pressure values in the measurement system. With these stored values the
+      systolic, diastolic and mean arterial blood pressure values can be mathematically
+      derived using an appropriate algorithm.
+  sources:
+  - origin:
+      ref: OIML R 149-1:2020 (E)
+      clause: '2.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: oscillometric method
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3f161800-9eff-5e07-b37a-f6aa751fe9be
+

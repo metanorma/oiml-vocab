@@ -1,0 +1,66 @@
+---
+data:
+  identifier: r6-1989-18
+  localized_concepts:
+    eng: 5a1bee52-4853-5c00-b04c-bf16594afdbe
+    fra: bb2b405e-7c6f-5421-bded-5b1f592df22a
+  domains:
+  - concept_id: r-6
+    source: urn:oiml:pub:r:6:1989
+    ref_type: section
+  sources: []
+status: valid
+id: b1403548-6f8e-5d43-9594-a5ef0611c709
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: A fault greater than 0.5 of the maximum permissible error on initial
+      verification.
+  examples: []
+  id: r6-1989-18-eng
+  notes:
+  - content: 'The following faults are considered not to be significant, even if they
+      exceed the significant fault: (a) faults arising from simultaneous and mutually
+      independent causes in the gas meter itself or in its checking facilities; (b)
+      transitory faults being momentary variations in the indication, which cannot
+      be interpreted, memorised or transmitted as a measurement result.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5a1bee52-4853-5c00-b04c-bf16594afdbe
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Défaut supérieur à 0,5 fois l'erreur maximale tolérée en vérification
+      primitive.
+  examples: []
+  id: r6-1989-18-fra
+  notes:
+  - content: 'Les défauts suivants ne sont pas considérés comme significatifs, même
+      s''ils dépassent le défaut significatif : (a) défauts provenant de causes simultanées
+      et mutuellement indépendantes dans le compteur de gaz lui-même ou dans son système
+      de contrôle; (b) défauts transitoires constitués de variations momentanées de
+      l''indication, mais qui ne peuvent être interprétées, mises en mémoire ou transmises
+      comme des résultats de mesure.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bb2b405e-7c6f-5421-bded-5b1f592df22a
+

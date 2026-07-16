@@ -2,84 +2,32 @@
 data:
   identifier: r53-1982-6
   localized_concepts:
-    eng: 4d94438e-5e5f-5583-aeb3-e39c0d42628a
-    fra: f8f76f07-a861-5923-9e62-700ef2643fe3
+    fra: 6839cfd9-86d8-5dbd-b7fb-627beef37d15
   domains:
   - concept_id: r-53
-    source: OIML R 53:1982
+    source: urn:oiml:pub:r:53:1982
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '6'
-    type: authoritative
+  sources: []
 status: valid
-id: 4b2147a2-c128-5437-b4ca-617410d116bb
+id: b68d4782-7cfc-5937-b160-783e2c0c31c8
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Relation between the displacement of the reference point and pressure.
-  examples: []
-  id: r53-1982-e-6-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '6'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Elastic characteristic
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 4d94438e-5e5f-5583-aeb3-e39c0d42628a
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Dépendance entre le déplacement du point de référence et la pression.
   examples: []
-  id: r53-1982-f-6-fra
+  id: r53-1982-6-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '6'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Caractéristique élastique
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: f8f76f07-a861-5923-9e62-700ef2643fe3
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6839cfd9-86d8-5dbd-b7fb-627beef37d15
 

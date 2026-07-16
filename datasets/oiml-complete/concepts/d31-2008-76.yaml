@@ -1,0 +1,40 @@
+---
+data:
+  identifier: d31-2008-76
+  localized_concepts:
+    spa: a50df9d7-b5b9-5bf5-a79a-be462b25c081
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 878e228a-5a0e-572b-92be-2f6fd593efdb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      (1) (I) En el ejemplo 5.2.1.2.a/.c la aplicación legalmente no relevante controla el inicio de los procedimientos legalmente relevantes de la biblioteca. Omitir la llamada a estos procedimientos inhibiría la función legalmente relevante del sistema. Por lo tanto, para cumplir el requisito 5.2.1.2.d se han establecido las siguientes consideraciones para el sistema de ejemplo: los sensores digitales envían los datos de medida en un formato cifrado. La clave para descifrarlos está oculta en la biblioteca. Únicamente los procedimientos de la biblioteca conocen la clave y son capaces de leer, descifrar y visualizar valores de medida. Si el programador de la aplicación desea leer y procesar estos valores, debe utilizar los procedimientos legalmente relevantes de la biblioteca que llevan a cabo todas las funciones legalmente relevantes requeridas cuando son llamados. La biblioteca contiene procedimientos que exportan los valores de medida descifrados, permitiendo al programador de la aplicación utilizarlos para sus propias necesidades después de que el procesamiento legalmente relevante haya finalizado.
+
+      (2) (I)/(II) El software de un contador de energía eléctrica electrónico lee los valores de medida sin procesar de un conversor analógico digital (ADC). Para calcular correctamente los valores de medida, el retraso entre el suceso «datos disponibles» del ADC al finalizar el almacenamiento en la
+
+      memoria intermedia de los valores de medida es crucial. Una rutina de interrupción iniciada por la señal de «datos disponibles》lee los valores sin procesar. El instrumento puede comunicarse en paralelo a través de una interfaz con otros dispositivos electrónicos mediante otra rutina de interrupción (comunicación legalmente no relevante). El resultado de interpretar el requisito del apartado 5.2.1.2 en una configuración de este tipo, conlleva que la prioridad de la rutina de interrupción para el procesamiento de valores de medida sea mayor que la de la rutina de comunicación.
+
+      Los ejemplos del apartado 5.2.1.2.a al 5.2.1.2.c y del apartado 5.2.1.2.d (1) son aceptables como solución técnica únicamente para el nivel de severidad normal (I). Si es necesario aumentar la protección contra el fraude o la conformidad (véase el apartado 8), la separación del software por sí sola no es suficiente. Se necesitan métodos complementarios o el software en su totalidad debe considerarse bajo control legal.
+  examples: []
+  id: d31-2008-76-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'Ejemplos:'
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: a50df9d7-b5b9-5bf5-a79a-be462b25c081
+

@@ -1,0 +1,63 @@
+---
+data:
+  identifier: r116-1995-11
+  localized_concepts:
+    eng: 9661d926-ed6b-5d22-9fad-337e27b12ac9
+    fra: 6d6c4fe4-7db5-5579-9607-63e9beacfd88
+  domains:
+  - concept_id: r-116
+    source: urn:oiml:pub:r:116:1995
+    ref_type: section
+  sources: []
+status: valid
+id: 496db4b9-eef7-50c0-945c-c443e2b7adf5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: The concentration of an element that provides an output signal equivalent
+      to three times the standard deviation of the mean of the output signal of a
+      blank solution. It is the minimum quantity measured before it can be concluded
+      that an element has been detected.
+  examples: []
+  id: r116-1995-11-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9661d926-ed6b-5d22-9fad-337e27b12ac9
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Concentration d'un élément qui permet d'obtenir un signal de sortie équivalent
+      à trois fois l'écart-type de la moyenne du signal de sortie pour une solution
+      blanche. C'est la quantité minimale mesurée avant de pouvoir conclure qu'un
+      élément a été détecté.
+  examples: []
+  id: r116-1995-11-fra
+  notes:
+  - content: Ce terme, dans la présente Recommandation, se rapporte à la détermination
+      d'un élément dans une solution de référence sans éléments interférents. On établit
+      le bruit de fond en mesurant le signal de sortie de plusieurs parties aliquotes
+      de la solution blanche.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de détection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6d6c4fe4-7db5-5579-9607-63e9beacfd88
+

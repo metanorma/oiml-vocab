@@ -1,0 +1,48 @@
+---
+data:
+  identifier: r76-2006-52
+  localized_concepts:
+    fra: b71044b8-4ebb-5000-9c21-0ca07d3bf52e
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 5987e761-b908-5d55-9c30-a0e7deebcd41
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      All metrologically relevant features and functions have to be tested at least once in an EUT as far as applicable and as many as possible in the same EUT.
+
+      For example, it is not acceptable to test the temperature effect on no-load indication on one EUT and the combined effect (see Table 7) on a different one. Variations in metrologically relevant features and functions such as different:
+
+      - housings;
+
+      - load receptors;
+
+      - temperature and humidity ranges;
+
+      - instrument functions;
+
+      - indications; etc.
+
+      may require additional partial testing of those factors which are influenced by that feature. These additional tests should preferably be carried out on the same EUT, but if this is not possible, tests on one or more additional EUTs may be performed under the responsibility of the testing authority.
+  examples: []
+  id: r76-2006-52-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Other features to be considered
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b71044b8-4ebb-5000-9c21-0ca07d3bf52e
+

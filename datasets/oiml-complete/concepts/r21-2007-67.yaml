@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-67
+  localized_concepts:
+    eng: bee08afe-f123-5b7b-8d50-b6225672febc
+    pol: ec6895a4-2cd7-5316-aad2-6d4a5fb9084d
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: aa9ebfa4-29ea-5333-bafd-e37bf627075b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Influence quantity having a value within the specified rated operating
+      conditions of the EUT.
+  examples: []
+  id: r21-2007-67-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bee08afe-f123-5b7b-8d50-b6225672febc
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Warunki użytkowania (np. warunki odniesienia obązujace w normie IEC)
+      okreśające zakres wartości czynników wpływających, dla których body (wskazania)
+      EUT muszmiścić się w granicach najwkszych błędów dopuszczalnych.
+  examples: []
+  id: r21-2007-67-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Warunki uytkowania znamionowe [VIM:1993, 5.5 [1]]
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ec6895a4-2cd7-5316-aad2-6d4a5fb9084d
+

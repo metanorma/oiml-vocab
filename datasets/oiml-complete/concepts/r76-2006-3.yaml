@@ -1,0 +1,54 @@
+---
+data:
+  identifier: r76-2006-3
+  localized_concepts:
+    fra: cbe3d969-2f31-5724-9641-68107e0a71d2
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 1304cfd3-4c5f-5392-a3a8-2fe48b0f956c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      The verification scale interval, number of verification scale intervals and the minimum capacity, in relation to the accuracy class of an instrument, are given in Table 3.
+
+      <div align="center">
+
+      Table 3
+
+      </div>
+
+      <table border="1"><tr><td rowspan="2">Accuracy class</td><td rowspan="2">Verification scale interval,e</td><td colspan="2">Number of verification scale intervals,n=Max/e</td><td rowspan="2">Minimum capacity,Min(Lower limit)</td></tr><tr><td>minimum</td><td>maximum</td></tr><tr><td>Special(I)</td><td>0.001g≤e*</td><td>50000**</td><td>-</td><td>100e</td></tr><tr><td>High(II)</td><td>0.001g≤e≤0.05g0.1g≤e</td><td>1005000</td><td>100000100000</td><td>20e50e</td></tr><tr><td>Medium(III)</td><td>0.1g≤e≤2g5g≤e</td><td>100500</td><td>10000100000</td><td>20e20e</td></tr><tr><td>Ordinary(III)</td><td>5g≤e</td><td>100</td><td>1000</td><td>10e</td></tr></table>
+
+      * It is not normally feasible to test and verify an instrument to $ e<1 $ mg, due to the uncertainty of the test loads.
+
+      ** See exception in 3.4.4.
+
+      The minimum capacity is reduced to 5 e for grading instruments, i.e. instruments that determine a transport tariff or toll (e.g. postal scales and instruments weighing waste material).
+
+      On multiple range instruments the verification scale intervals are $ e_{1}, e_{2}, \dots , e_{\mathrm{r}} $ with $ e_{1}<e_{2}<\dots <e_{\mathrm{r}}. $ Similar subscripts are also used with the terms Min, n and Max.
+
+      On multiple range instruments, each range is treated as if it were an instrument with one range.
+
+      For special applications that are clearly marked on the instrument, an instrument may have weighing ranges in classes I and II, or in classes II and III. The instrument as a whole shall then comply with the more severe requirements of 3.9 applicable to either of the two classes.
+  examples: []
+  id: r76-2006-3-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Classification of instruments
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cbe3d969-2f31-5724-9641-68107e0a71d2
+

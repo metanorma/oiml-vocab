@@ -1,0 +1,73 @@
+---
+data:
+  identifier: d11-2026-19
+  localized_concepts:
+    eng: c8e0de47-73d2-57e7-8f51-c21e1277a71b
+    fra: ad1882ad-9ecb-5eef-bbf1-80a000185de9
+  domains:
+  - concept_id: d-11
+    source: urn:oiml:pub:d:11:2026
+    ref_type: section
+  sources: []
+status: valid
+id: eccd6834-ad46-533f-8dc0-257689c995fd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+  examples:
+  - content: The temperature of a measuring instrument is an influence quantity, but
+      the temperature of the measured object (used as a reference for determining
+      the fault or the error) is not. This influence of the environment on this measured
+      object may need to be taken into consideration as a contributor in the definition
+      of the measurand.
+  id: d11-2026-19-eng
+  notes:
+  - content: An influence quantity is not related to the measurand but is a quantity
+      that affects the result of the measurement as indicated by the equipment under
+      test (EUT).
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c8e0de47-73d2-57e7-8f51-c21e1277a71b
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: grandeur qui, dans un mesurage direct, n'affecte pas la grandeur qui
+      est réellement mesurée, mais affecte la relation entre l'indication et le résultat
+      de mesure
+  examples:
+  - content: La température d'un instrument de mesure est une grandeur d'influence,
+      mais la température de l'objet mesuré (utilisée comme une référence pour déterminer
+      le défaut ou l'erreur) ne l'est pas. Il peut être nécessaire de prendre en considération
+      cette influence de l'environnement sur cet objet mesuré comme un facteur dans
+      la définition du mesurande.
+  id: d11-2026-19-fra
+  notes:
+  - content: Une grandeur d'influence n'est pas reliée au mesurande mais, c'est une
+      grandeur qui affecte le résultat de mesurage comme indiqué par l'équipement
+      sous test (ESE).
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ad1882ad-9ecb-5eef-bbf1-80a000185de9
+

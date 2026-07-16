@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r117-1-2007-30
+  localized_concepts:
+    eng: da55f593-5df6-54d1-89a1-4ae1a0458b71
+    fra: b3badc1c-2cff-51dc-86fb-1e2cb60c38b7
+  domains:
+  - concept_id: r-117
+    source: urn:oiml:pub:r:117-1:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 98becc21-ecdf-5f6b-9a18-45a7af62a970
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Influence quantity having a value outside the specified rated operating
+      conditions of the measuring system.
+  - content: If the rated operating conditions are not specified for an influence
+      quantity, it is a disturbance.
+  examples: []
+  id: r117-1-2007-30-eng
+  notes:
+  - content: For electronic measuring systems only.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: da55f593-5df6-54d1-89a1-4ae1a0458b71
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Grandeur d'influence dont la valeur se situe en dehors des conditions
+      assignées de fonctionnement spécifiées pour l'ensemble de mesurage.
+  - content: Une grandeur d'influence est une perturbation si les conditions assignées
+      de fonctionnement ne sont pas fixées pour cette grandeur d'influence.
+  examples: []
+  id: r117-1-2007-30-fra
+  notes:
+  - content: Pour les ensembles de mesurage électroniques seulement.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Perturbation
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b3badc1c-2cff-51dc-86fb-1e2cb60c38b7
+

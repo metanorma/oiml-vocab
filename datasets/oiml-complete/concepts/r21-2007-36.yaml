@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-36
+  localized_concepts:
+    eng: 81f8acfc-08ca-59fa-bb03-2b91fc293568
+    pol: 411f9f93-f7a9-5f39-a311-96b653c0a4c1
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 68bf4f3a-b475-5151-be62-fad5bba615e2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Signal supplied by the distance measurement transducer to the taximeter,
+      in proportion to the distance traveled.
+  examples: []
+  id: r21-2007-36-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.10
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distance measuring signal
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 81f8acfc-08ca-59fa-bb03-2b91fc293568
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Teoretyczna liczba impulsów z sygnału pomiaru diugb czasu, ktor można
+      obliczyć na podstawie danych taryfowych i stalej taksometrku, która powinna
+      prowadzi do okrślonej zmiany we wskazaniu opłaty za przejazd.
+  examples: []
+  id: r21-2007-36-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Liczba referencyjna imputsw
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 411f9f93-f7a9-5f39-a311-96b653c0a4c1
+

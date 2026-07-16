@@ -1,0 +1,84 @@
+---
+data:
+  identifier: d31-2008-10
+  localized_concepts:
+    eng: 177df653-d27f-50d2-b6cf-7a2a0209edfe
+    fra: f02133aa-26f1-5d53-a519-b28f145cd896
+    spa: ad042de4-b876-51c4-b93e-eab656a34f25
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: c0a82d6f-5ce1-599e-a708-478b151646cf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: data set containing the public key belonging to a measuring instrument
+      or a person plus a unique identification of the subject. The data set is signed
+      by a trustworthy institution with an electronic signature
+  examples: []
+  id: d31-2008-10-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cryptographic certificate
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 177df653-d27f-50d2-b6cf-7a2a0209edfe
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Jeu de données contenant la clef publique appartenant à un instrument
+      de mesure ou personne complétée par un identificateur unique du sujet tel que
+      le numéro de série de l'instrument de mesure ou le nom ou Numéro d'Identification
+      Personnel (PIN) de la personne.
+  examples: []
+  id: d31-2008-10-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Certificat cryptographique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f02133aa-26f1-5d53-a519-b28f145cd896
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Conjunto de datos que contienen la clave pública de un instrumento de
+      medida o de una persona más una identificación única del sujeto; p. ej. el número
+      de serie del instrumento de medida, o el nombre o el número de identificación
+      personal (PIN) de la persona. Una institución confiable con firma electrónica
+      es la firmante del conjunto de datos. La asignación de una clave a un sujeto
+      puede verificarse utilizando la clave pública de la institución confiable y
+      descifrando la firma del certificado.
+  examples: []
+  id: d31-2008-10-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Certificado criptográfico
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ad042de4-b876-51c4-b93e-eab656a34f25
+

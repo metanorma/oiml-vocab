@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r21-2007-15
+  localized_concepts:
+    eng: 54fc7198-90d9-5fd0-ad83-a8b16c143ee1
+    pol: 618287a2-f9b8-56ce-8270-506c899df278
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: a8c44fe1-0272-5d6c-8b1e-4dcfe4d074dc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter that depends on the individual taximeter.
+      Such parameters comprise adjustment and configuration parameters.
+  examples: []
+  id: r21-2007-15-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.8.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: device-specific parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 54fc7198-90d9-5fd0-ad83-a8b16c143ee1
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Parametr majcy znaczenie z prawnego punktu widzenia, o wartożej od konkretnego
+      taksometru. Do parametrów tych zalicza sięparametry adjustacyjne i parametry
+      konfiguracyjne je adiustowa lub wybierać tylko w trybie serwisowym taksometru
+      i mogby clasyfikowane jako te,które powinny by zabezpieczone oraz te,do których
+      ma uzyská dostęp (parametry nastawne).
+  examples: []
+  id: r21-2007-15-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Parametr charakterystyczny udzenia
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 618287a2-f9b8-56ce-8270-506c899df278
+

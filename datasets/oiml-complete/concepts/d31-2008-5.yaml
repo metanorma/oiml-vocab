@@ -1,0 +1,94 @@
+---
+data:
+  identifier: d31-2008-5
+  localized_concepts:
+    eng: c2c78830-1a9b-50f0-a5e4-4870a7d1869d
+    fra: 4b7f5741-dfdc-58b1-8d6c-d171174edd57
+    spa: e9ed45d3-64b0-5754-aa39-aed7f80e9ce4
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 14a62451-028e-51ec-a1f3-2f843d928986
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: facility that is incorporated in a measuring instrument and which enables
+      significant faults to be detected and acted upon
+  examples: []
+  id: d31-2008-5-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.18
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c2c78830-1a9b-50f0-a5e4-4870a7d1869d
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Système intégré à un instrument de mesure permettant de détecter et de
+      mettre en évidence les défauts significatifs.
+  examples: []
+  id: d31-2008-5-fra
+  notes:
+  - content: '"Mettre en évidence" fait référence à toute réponse appropriée de l''instrument
+      de mesure (signal lumineux, signal sonore, protection du processus de mesurage,
+      etc.).'
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.18'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Système de contrôle
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4b7f5741-dfdc-58b1-8d6c-d171174edd57
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      Herramienta incorporada a un instrumento de medida que permite detectar fallos importantes y manifestarlos.
+
+      Nota: El término «manifestar» hace referencia a toda respuesta adecuada del instrumento de medida (señal luminosa, señal acústica, detener el proceso de medida, etc.).
+  examples: []
+  id: d31-2008-5-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositivo de control [OIML D 11:2004, 3.18]
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e9ed45d3-64b0-5754-aa39-aed7f80e9ce4
+

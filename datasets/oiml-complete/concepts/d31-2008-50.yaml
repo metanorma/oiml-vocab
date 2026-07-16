@@ -1,0 +1,90 @@
+---
+data:
+  identifier: d31-2008-50
+  localized_concepts:
+    eng: 8db29ef2-5563-5ff0-8ca6-dc96f4d51652
+    fra: 943dd9e5-3586-567b-9eab-9cb1c01c01d1
+    spa: ea521766-0e7e-5607-ba45-689908139f13
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 37208086-94c6-58a1-a780-dca6c3e85241
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: series of operations intended to verify the compliance of the equipment
+      under test (EUT) with the specified requirements
+  examples: []
+  id: d31-2008-50-eng
+  notes: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.20
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8db29ef2-5563-5ff0-8ca6-dc96f4d51652
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Série d'opérations destinée à vérifier que l'équipement soumis à l'essai
+      (EUT) est conforme aux exigences spécifiées.
+  examples: []
+  id: d31-2008-50-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.20'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Essai
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 943dd9e5-3586-567b-9eab-9cb1c01c01d1
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Valor de tiempo único que se incrementa de forma monótona; p. ej. en
+      segundos, o una cadena de fecha y hora que indica cuándo se produjo un suceso
+      o un fallo concreto. Estos datos se presentan en un formato coherente que permite
+      comparar con facilidad dos registros distintos y su seguimiento a lo largo de
+      tiempo.
+  examples: []
+  id: d31-2008-50-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Registro de fecha y hora
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ea521766-0e7e-5607-ba45-689908139f13
+

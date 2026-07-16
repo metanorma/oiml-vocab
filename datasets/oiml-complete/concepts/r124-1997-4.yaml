@@ -2,87 +2,34 @@
 data:
   identifier: r124-1997-4
   localized_concepts:
-    eng: fc079df0-0888-5a61-bf61-2147823bf112
-    fra: 6543bf42-bbe0-5f84-bd99-e70e18886d4b
+    fra: e623605e-ecb0-5ece-8ca5-96363236c3e2
   domains:
   - concept_id: r-124
-    source: OIML R 124:1997
+    source: urn:oiml:pub:r:124:1997
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 124:1997
-        version: '1997'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '4'
+  sources: []
 status: valid
-id: 6d7bc700-7b8b-54ba-bed2-677cb9a0ec92
+id: cd642453-51de-52ce-bfc4-8cc9a5c58ccd
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
-  - content: Grandeur d'influence dont la valeur se situe dans les conditions assignées
-      de fonctionnement de l'instrument de mesure spécifiées dans la Recommandation
-      Internationale appropriée
+  - content: Conditions d'utilisation, donnant l'étendue des valeurs des grandeurs
+      d'influence pour lesquelles les caractéristiques métrologiques sont supposées
+      rester à l'intérieur des erreurs maximales tolérées spécifiées.
   examples: []
-  id: r124-1997-f-4-fra
-  notes:
-  sources:
-  - origin:
-      ref:
-        source: OIML R 124:1997
-        version: '1997'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '4'
+  id: r124-1997-4-fra
+  notes: []
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: Facteur d'influence
+    designation: Conditions assignées de fonctionnement
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-124
-    source: OIML R 124:1997
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 6543bf42-bbe0-5f84-bd99-e70e18886d4b
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: An influence quantity having a value within the rated operating conditions
-      of the measuring instrument specified in the appropriate International Recommendation
-  examples: []
-  id: r124-1997-e-4-eng
-  notes:
-  sources:
-  - origin:
-      ref:
-        source: OIML R 124:1997
-        version: '1997'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '4'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: influence factor
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-124
-    source: OIML R 124:1997
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: fc079df0-0888-5a61-bf61-2147823bf112
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e623605e-ecb0-5ece-8ca5-96363236c3e2
 

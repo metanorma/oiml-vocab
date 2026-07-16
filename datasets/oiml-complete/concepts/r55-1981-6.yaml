@@ -1,0 +1,39 @@
+---
+data:
+  identifier: r55-1981-6
+  localized_concepts:
+    fra: 22239e76-0bcf-57d6-88c2-1c84a0694d35
+  domains:
+  - concept_id: r-55
+    source: urn:oiml:pub:r:55:1981
+    ref_type: section
+  sources: []
+status: valid
+id: 3f5a599d-abc6-5c9a-a195-a9f3f383a358
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Grandeur caractéristique indiquant l'espèce (tours de l'arbre d'entraînement
+      ou impulsions) et la fréquence des signaux à laquelle le compteur de vitesse
+      doit indiquer la vitesse de 60 km/h.
+  examples: []
+  id: r55-1981-6-fra
+  notes:
+  - content: La constante du compteur de vitesse est exprimée en tours par minute,
+      tr/min, ou en impulsions par minute, imp/min.
+  - content: La constante du compteur de vitesse est numériquement égale à la constante
+      k du compteur de distance lorsque l'entraînement est commun aux deux instruments.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Constante du compteur de vitesse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 22239e76-0bcf-57d6-88c2-1c84a0694d35
+

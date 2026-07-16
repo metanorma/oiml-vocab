@@ -1,0 +1,82 @@
+---
+data:
+  identifier: r76-2006-6
+  localized_concepts:
+    fra: 0634c461-60ee-568a-ba87-943ecdab246e
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 521a15c2-67be-5d93-a8b7-fa7935a255b3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      With the exception of the last partial weighing range, the requirements in Table 4 shall be complied with, according to the accuracy class of the instrument.
+
+      <div align="center">
+
+      Table 4
+
+      </div>
+
+      <table border="1"><tr><td>Class</td><td>Ⅰ</td><td>Ⅱ</td><td>Ⅲ</td><td>Ⅳ</td></tr><tr><td>$\mathrm{Max}_{i}/e_{i+1}$</td><td>≥50000</td><td>≥5000</td><td>≥500</td><td>≥50</td></tr></table>
+
+      Example for a multi-interval instrument:
+
+      Maximum capacity, Max = 2/5/15 kg, class III
+
+      Verification scale interval, $ e=1/2/10\mathrm{g} $
+
+      This instrument has one Max and one weighing range from Min = 20 g to Max = 15 kg. The partial weighing ranges are:
+
+      $$
+      \mathrm {M i n} = 2 0 \mathrm {g}, \mathrm {M a x} _ {1} = 2 \mathrm {k g}, e _ {1} = 1 \mathrm {g}, n _ {1} = 2 0 0 0
+      $$
+
+      $$
+      \mathrm {M i n} _ {2} = 2 \mathrm {k g}, \mathrm {M a x} _ {2} = 5 \mathrm {k g}, e _ {2} = 2 \mathrm {g}, n _ {2} = 2 5 0 0
+      $$
+
+      $$
+      \mathrm {M i n} _ {3} = 5 \mathrm {k g}, \mathrm {M a x} _ {3} = \mathrm {M a x} = 1 5 \mathrm {k g}, e _ {3} = 1 0 \mathrm {g}, n _ {3} = 1 5 0 0
+      $$
+
+      The maximum permissible errors on initial verification (mpe) (see 3.5.1) are:
+
+      $$
+      \begin{array}{l} \mathrm {f o r} m = 0 \mathrm {g} \mathrm {t o} 5 0 0 \mathrm {g} \quad \mathrm {m p e} = \pm 0. 5 e _ {1} = \pm 0. 5 \mathrm {g} \\ \mathrm {f o r} m > 5 0 0 \mathrm {g} \mathrm {t o} 2 0 0 0 \mathrm {g} \quad \mathrm {m p e} = \pm 1 e _ {1} = \pm 1 \mathrm {g} \\ \end{array}
+      $$
+
+      $$
+      \mathrm {f o r} m > 2 0 0 0 \mathrm {g} \mathrm {t o} 4 0 0 0 \mathrm {g} \quad \mathrm {m p e} = \pm 1 e _ {2} \quad = \pm 2 \mathrm {g}
+      $$
+
+      $$
+      \mathrm {f o r} m > 4 0 0 0 \mathrm {g} \mathrm {t o} 5 0 0 0 \mathrm {g} \quad \mathrm {m p e} = \pm 1. 5 e _ {2} \quad = \pm 3 \mathrm {g}
+      $$
+
+      $$
+      \mathrm {f o r} m > 5 0 0 0 \mathrm {g} \mathrm {t o} 1 5 0 0 0 \mathrm {g} \quad \mathrm {m p e} = \pm 1 e _ {3} \quad = \pm 1 0 \mathrm {g}
+      $$
+
+      Whenever the variation of the indication due to certain influence factors is limited to a fraction or multiple of e, this means, in a multi-interval instrument, that e is to be taken according to the load applied; particularly at or near zero, load $ e=e_{1}. $
+  examples: []
+  id: r76-2006-6-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maximum capacity of partial weighing ranges
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 0634c461-60ee-568a-ba87-943ecdab246e
+

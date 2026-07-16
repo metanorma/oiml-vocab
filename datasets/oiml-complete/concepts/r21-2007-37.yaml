@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-37
+  localized_concepts:
+    eng: 6d5b0694-ea56-5a00-889c-262f214e56bd
+    pol: 95b8f1ab-98e8-5474-9b28-bea10cfb90d1
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 11d556e3-5ef8-514e-9802-ccb6a0e049b6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Signal supplied by a clock incorporated in the taximeter, in proportion
+      to the duration of the journey.
+  examples: []
+  id: r21-2007-37-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.11
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: time measuring signal
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6d5b0694-ea56-5a00-889c-262f214e56bd
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Zestaw wartosci taryfowych (w tym czas poqtkowy / droga poqtkowa) przedstawiących
+      harmonogram oplat lub stawek, które obowiązywały w taksometrze w okłonej pozycji
+      taryfowej.
+  examples: []
+  id: r21-2007-37-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Taryfa
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 95b8f1ab-98e8-5474-9b28-bea10cfb90d1
+

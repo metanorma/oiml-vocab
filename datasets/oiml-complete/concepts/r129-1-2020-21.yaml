@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r129-1-2020-21
+  localized_concepts:
+    deu: fa4d3852-2ff0-5842-83c4-8bc54a8f8541
+    eng: 99c78720-0714-5292-8e3e-75a6421e79af
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: ed9a475e-c547-54d3-804b-68ea8ab07878
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: berechneter Wert, der sich aus der Anwendung eines Umrechnungsfaktors
+      auf das Maßvolumen (siehe 2.2.4) bzw. die gemessenen Abmessungen (siehe 2.2.3)
+      des Objekts ergibt
+  examples: []
+  id: r129-1-2020-21-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Volumengewicht (Dim Wt oder DW)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: fa4d3852-2ff0-5842-83c4-8bc54a8f8541
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: value of the smallest measured dimension for each axis
+  examples: []
+  id: r129-1-2020-21-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum dimension (Min)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 99c78720-0714-5292-8e3e-75a6421e79af
+

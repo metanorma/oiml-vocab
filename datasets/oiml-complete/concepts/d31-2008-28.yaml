@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d31-2008-28
+  localized_concepts:
+    eng: ea51b9c3-d685-5eb6-a03e-e6287716c43f
+    fra: c4386c1b-4801-5f3b-a8ac-a985d6a8327a
+    spa: edd07ec0-7587-5772-959f-84cfccee575f
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: cd21ae2c-0f68-5462-bc68-fc9c99ab6ac9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: error of a measuring instrument, determined under reference conditions
+  examples: []
+  id: d31-2008-28-eng
+  notes: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.7
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ea51b9c3-d685-5eb6-a03e-e6287716c43f
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Erreur d'un instrument de mesure, déterminée dans les conditions de référence.
+  examples: []
+  id: d31-2008-28-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.7'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c4386c1b-4801-5f3b-a8ac-a985d6a8327a
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      Error de un instrumento de medida determinado en las condiciones de referencia.
+
+      Software/hardware/datos, o parte de los mismos, de un instrumento de medida que interfiere en las propiedades reguladas por la metrología legal; p. ej. la adecuación de la medida o del correcto funcionamiento del instrumento de medida.
+  examples: []
+  id: d31-2008-28-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Legalmente relevante
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: edd07ec0-7587-5772-959f-84cfccee575f
+

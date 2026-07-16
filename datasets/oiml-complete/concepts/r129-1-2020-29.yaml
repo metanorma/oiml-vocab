@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r129-1-2020-29
+  localized_concepts:
+    deu: 3c9d9e81-76a5-5d3f-9080-67c308a87617
+    eng: f647013a-8a05-5f66-b302-d4d15739f430
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 00f5f48c-6920-5bbf-92aa-fc2b0caf5e17
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: |-
+      Differenz zwischen der Abweichung der Anzeige und der Eigenabweichung eines Messgeräts [VIML 5.12]
+
+      Hinweis 1: Ein Fehler ist hauptsächlich das Ergebnis einer unerwünschten Änderung von Daten, die in einem elektronischen Messgerät enthalten sind oder durch ein solches Messgerät geleitet werden.
+
+      Hinweis 2: Aus der Definition folgt, dass ein „Fehler“ ein numerischer Wert ist, der entweder in einer Maßeinheit oder als Relativwert, z. B. als Prozentsatz, ausgedrückt wird.
+  examples: []
+  id: r129-1-2020-29-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3c9d9e81-76a5-5d3f-9080-67c308a87617
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: extreme value (positive and negative) of the error of indication permitted
+      by specifications, Recommendations, regulations, etc.
+  examples: []
+  id: r129-1-2020-29-eng
+  notes:
+  - content: The absolute value of the mpe is the same value without sign.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error (mpe)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f647013a-8a05-5f66-b302-d4d15739f430
+

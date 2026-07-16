@@ -1,0 +1,47 @@
+---
+data:
+  identifier: r46-2012-50
+  localized_concepts:
+    fra: 6c0e1f61-0a26-5440-8534-28dbde87e2d2
+  domains:
+  - concept_id: r-46
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.9
+status: valid
+id: 76630074-c65b-5b87-9c78-b8745cc12bb1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument
+      de mesure.
+  examples: []
+  id: r46-2012-50-fra
+  notes:
+  - content: Un défaut est principalement le résultat d'une modification non désirée
+      de données contenues ou traversant un instrument de mesure.
+  - content: D'après la définition, il s'ensuit qu'un « défaut » est une valeur numérique
+      qui est exprimée soit en une unité de mesure soit en tant que valeur relative,
+      par exemple sous forme de pourcentage.
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.9
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6c0e1f61-0a26-5440-8534-28dbde87e2d2
+

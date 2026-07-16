@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r123-1997-6
+  localized_concepts:
+    eng: 3ec3167a-6d6b-57ea-afcf-5a8a0b204f0e
+    fra: bf4c15df-ea2e-51d3-9131-43f565057745
+  domains:
+  - concept_id: r-123
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources: []
+status: valid
+id: 804febfd-d9ed-55ac-a910-1619bddf849a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: A parameter used as a measure of the ability of a detector to distinguish
+      between two adjacent energy peaks arising from elements in a sample.
+  examples: []
+  id: r123-1997-6-eng
+  notes:
+  - content: For this Recommendation, it is expressed as the full width at half maximum
+      height of the manganese K-alpha line (5.9 keV) in units of energy or in percent
+      as related to the energy of the peak.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Energy resolution
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3ec3167a-6d6b-57ea-afcf-5a8a0b204f0e
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Paramètre utilisé pour évaluer la capacité d'un détecteur à distinguer
+      deux pics adjacents d'énergie produits à partir d'éléments d'un échantillon.
+  examples: []
+  id: r123-1997-6-fra
+  notes:
+  - content: Dans cette Recommandation, elle est exprimée comme la largeur totale
+      à la moitié de la hauteur maximale du niveau K-alpha du manganèse (5,9 keV)
+      en unités d'énergie ou en pourcentage par rapport à l'énergie du pic.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Résolution de l'énergie
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bf4c15df-ea2e-51d3-9131-43f565057745
+

@@ -1,0 +1,55 @@
+---
+data:
+  identifier: r129-1-2020-13
+  localized_concepts:
+    deu: d630c88b-310e-50f6-817f-700e85f2bb74
+    eng: 5dd17449-f805-5435-bb37-8ea358d0891a
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 468b84b2-9880-58f2-9915-047a645646b1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: von einem Messgerät oder Messsystem gelieferter Größenwert [VIM 4.1]
+  examples: []
+  id: r129-1-2020-13-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anzeige
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d630c88b-310e-50f6-817f-700e85f2bb74
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: minimum speed at which the instrument will measure correctly
+  examples: []
+  id: r129-1-2020-13-eng
+  notes:
+  - content: Only applicable to instruments where measurements are affected by means
+      of relative movement between the object and the instrument.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: minimum measuring speed
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5dd17449-f805-5435-bb37-8ea358d0891a
+

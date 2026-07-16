@@ -1,0 +1,36 @@
+---
+data:
+  identifier: r60-1-2021-39
+  localized_concepts:
+    eng: 47398ea8-6db6-5b97-a220-c0e5aa2f00bf
+  domains:
+  - concept_id: r-60
+    source: urn:oiml:pub:r:60-1:2021
+    ref_type: section
+  sources: []
+status: valid
+id: 3c2c4154-b683-58d4-863c-19d71d69e9eb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: value of a dimensionless fraction expressed as a decimal (for example,
+      0.7) representing that portion of an error observed in the (weighing) instrument
+      which is attributed to the load cell alone
+  examples: []
+  id: r60-1-2021-39-eng
+  notes:
+  - content: This value is used in determining the MPE (see 3.7.10).
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: apportioning factor (pLC)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 47398ea8-6db6-5b97-a220-c0e5aa2f00bf
+

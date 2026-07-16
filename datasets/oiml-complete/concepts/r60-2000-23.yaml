@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r60-2000-23
+  localized_concepts:
+    eng: 33b2bfa9-51d4-5b0b-ad9e-1bce50dc780b
+    fra: 853a7f6f-ad4a-5d24-8365-686530116970
+  domains:
+  - concept_id: r-60
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources: []
+status: valid
+id: b4912f05-e25b-5c62-b7aa-a5a6fa01dccb
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Ratio of the maximum capacity, Emax, to two times the minimum dead load
+      output return, DR. This ratio is used to describe multi-interval instruments.
+  examples: []
+  id: r60-2000-23-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Relative DR or Z
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 33b2bfa9-51d4-5b0b-ad9e-1bce50dc780b
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Quotient de la portée maximale par deux fois le retour du signal de sortie
+      à la charge morte minimale. Ce quotient est utilisé pour caractériser les instruments
+      à échelons multiples.
+  examples: []
+  id: r60-2000-23-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: DR relatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 853a7f6f-ad4a-5d24-8365-686530116970
+

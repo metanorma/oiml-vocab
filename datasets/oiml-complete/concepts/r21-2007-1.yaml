@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r21-2007-1
+  localized_concepts:
+    eng: 8d7344f6-5afc-563b-804b-f8d2a92da831
+    pol: 41e7270b-b84e-5554-b95d-1f0060e8fe2c
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 728a734a-2bb6-5ed4-b7f6-e25dfc71fcc1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Instrument intended to measure duration and distance on the basis of
+      a signal delivered by a distance measurement transducer, and to calculate and
+      indicate the fare to be paid on the basis of the measured distance and/or duration.
+  examples: []
+  id: r21-2007-1-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: taximeter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8d7344f6-5afc-563b-804b-f8d2a92da831
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Przyrząd przeznaczony do pomiaru czasu i drogi na podstawignalu dostarczanego
+      przez przetwornik pomiaru drogi, oraz do obliczania i wskazywania zernej oplaty
+      za przejazd na podstawie zmierzonej idrog i/lub czasu.
+  examples: []
+  id: r21-2007-1-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Taksometr
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 41e7270b-b84e-5554-b95d-1f0060e8fe2c
+

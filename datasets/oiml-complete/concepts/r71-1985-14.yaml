@@ -2,90 +2,35 @@
 data:
   identifier: r71-1985-14
   localized_concepts:
-    eng: f9e5b450-22b2-5584-9b29-41bacd6e931b
-    fra: 0f1dd525-4695-5160-81ee-93663531b083
+    fra: 989a4910-a940-5e1a-b77b-d264ba846bd1
   domains:
   - concept_id: r-71
-    source: OIML R 71:1985
+    source: urn:oiml:pub:r:71:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '14'
+  sources: []
 status: valid
-id: 6cd60dfa-c8b6-503f-82ed-77b6430e4a03
+id: 1b28d163-92e4-5b02-a470-f333aea380b5
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Plus petit volume dont le mesurage est autorisé pour la livraison ou
       la réception des quantités de liquide contenu, en tout point de la zone de barémage.
+  examples: []
+  id: r71-1985-14-fra
+  notes:
   - content: La hauteur minimale mesurable d'un réservoir est la variation de niveau
       qui correspond au volume minimal mesurable.
-  examples: []
-  id: r71-1985-f-14-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '14'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: volume minimal mesurable
+    designation: Volume minimal mesurable
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 0f1dd525-4695-5160-81ee-93663531b083
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The smallest volume the measurement of which is authorized, for delivery
-      or reception of the liquid, at any point of the graduated zone.
-  - content: The smallest measurable height of a tank is the change in the level which
-      corresponds to the smallest measurable volume.
-  examples: []
-  id: r71-1985-e-14-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '14'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: smallest measurable volume
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: f9e5b450-22b2-5584-9b29-41bacd6e931b
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 989a4910-a940-5e1a-b77b-d264ba846bd1
 

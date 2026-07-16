@@ -1,0 +1,88 @@
+---
+data:
+  identifier: d31-2008-49
+  localized_concepts:
+    eng: '096ddb08-f2b0-51f7-a305-ba21890e37e7'
+    fra: bcd979d0-ff4e-530b-b82b-2e0eb2ba3fc4
+    spa: 944b2a25-3b6a-5170-bb15-d217e6b5d8fa
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 28f9ccf7-8489-50f7-b246-047de9f833ce
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: part of an electronic device employing electronic components and having
+      a recognizable function of its own
+  examples:
+  - content: amplifiers, comparators, power converters
+  id: d31-2008-49-eng
+  notes: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.3
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sub-assembly
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: '096ddb08-f2b0-51f7-a305-ba21890e37e7'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Partie de dispositif électronique, utilisant des composants électroniques
+      et ayant par elle-même une fonction qui lui est reconnue.
+  examples: []
+  id: d31-2008-49-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.3'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sous-ensemble
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bcd979d0-ff4e-530b-b82b-2e0eb2ba3fc4
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Serie de operaciones con el objeto de verificar si el equipo sometido
+      a ensayo (EUT) cumple con los requisitos específicos.
+  examples: []
+  id: d31-2008-49-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ensayo [OIML D 11:2004, 3.20]
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 944b2a25-3b6a-5170-bb15-d217e6b5d8fa
+

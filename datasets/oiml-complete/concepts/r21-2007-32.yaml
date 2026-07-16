@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-32
+  localized_concepts:
+    eng: e4858b68-4061-5c0a-b350-d295770705ee
+    pol: ff16f340-0bde-560a-b32c-fc41d4f0d293
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: d7a359af-b177-56b9-8d78-9afc090e68c4
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Period during which the taxi can be used for the initial hire fee, considering
+      time-counting only.
+  examples: []
+  id: r21-2007-32-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: initial time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e4858b68-4061-5c0a-b350-d295770705ee
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Liczenie drogi to metoda obliczeniowa, w której za przejazd wzrasta proporcjonalnie
+      do przejebytu.
+  examples: []
+  id: r21-2007-32-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Liczenie drogi
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ff16f340-0bde-560a-b32c-fc41d4f0d293
+

@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r112-1994-14
+  localized_concepts:
+    eng: e4cb8da5-0bef-5e70-a916-38cbb06df110
+    fra: bfd5cd3f-5cf8-5f2d-b865-3bbcbdb6b0ec
+  domains:
+  - concept_id: r-112
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources: []
+status: valid
+id: 33ea2ffc-3054-5ab2-8f81-82940c73f114
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: The elapsed time between injection of a sample and the appearance of
+      the maximum output peak of the component of interest.
+  examples: []
+  id: r112-1994-14-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: retention time for a measurement
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e4cb8da5-0bef-5e70-a916-38cbb06df110
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Temps passé depuis l'injection de l'échantillon et l'apparition du pic
+      maximal du signal d'émission pour le composant examiné.
+  examples: []
+  id: r112-1994-14-fra
+  notes:
+  - Le facteur de capacité k' est apparenté à ce terme et est défini comme suit: k'
+      = (t_r - t_m) / t_m, où t_m est le temps nécessaire pour que la phase mobile
+      passe du point d'injection à celui de détection.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temps de rétention pour un mesurage
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bfd5cd3f-5cf8-5f2d-b865-3bbcbdb6b0ec
+

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-24
+  localized_concepts:
+    eng: 672f2a24-a4e0-53d2-ac2d-9d7040032e57
+    pol: dc5195bf-2bd0-5317-840d-1bf7203ab34c
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 1c52e3a8-aa20-51eb-9d8e-c5b0adec6e58
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Additional monetary amount for an extra service, entered on manual command,
+      suitably identified indicated and displayed separately from the fare in "Hired"
+      (occupied) and in "Stopped" (To Pay) operating positions.
+  examples: []
+  id: r21-2007-24-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: supplementary charges
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 672f2a24-a4e0-53d2-ac2d-9d7040032e57
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Najmniejsza kwota piełna, o jak opłata za przejazd może zosta zwiekszona
+      w równych krokach w pozycji roboczej „Zaeta” zgodnie z przepisami krajowymi.
+  examples: []
+  id: r21-2007-24-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Krok przyrostu opaty za przejazd
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: dc5195bf-2bd0-5317-840d-1bf7203ab34c
+

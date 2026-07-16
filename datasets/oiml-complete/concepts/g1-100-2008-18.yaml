@@ -1,0 +1,40 @@
+---
+data:
+  identifier: g1-100-2008-18
+  localized_concepts:
+    fra: cc4527ed-ad0b-56eb-b913-ea4cd613bbc9
+  domains:
+  - concept_id: g-1
+    source: urn:oiml:pub:g:1-100:2008
+    ref_type: section
+  sources: []
+status: valid
+id: ba0369bc-96db-53c5-8a26-1eeaedad9815
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: paramètre, associé au résultat d'un mesurage, qui caractérise la dispersion
+      des valeurs qui pourraient raisonnablement être attribuées au mesurande
+  examples: []
+  id: g1-100-2008-18-fra
+  notes:
+  - content: Le paramètre peut être, par exemple, un écart-type (ou un multiple de
+      celui-ci) ou la demi-largeur d'un intervalle de niveau de confiance déterminé.
+  - content: L'incertitude de mesure comprend, en général, plusieurs composantes.
+  - content: Il est entendu que le résultat du mesurage est la meilleure estimation
+      de la valeur du mesurande, et que toutes les composantes de l'incertitude, y
+      compris celles qui proviennent d'effets systématiques, contribuent à la dispersion.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitude (de mesure)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cc4527ed-ad0b-56eb-b913-ea4cd613bbc9
+

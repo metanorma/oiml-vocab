@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-34
+  localized_concepts:
+    eng: 95c7fe4e-ab9d-5212-930e-e7a5e1a49be9
+    pol: f0f1ac41-968d-544e-9f6a-2acedc756912
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: a11f1e64-1477-58c7-9061-3bc203809455
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Calculation method in which the fare increases in proportion to the distance
+      traveled.
+  examples: []
+  id: r21-2007-34-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distance-counting
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 95c7fe4e-ab9d-5212-930e-e7a5e1a49be9
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Sygnał dostarczany przez przetwornik pomiaru dogiaksometru, proporcjonalnie
+      do przebytej drogi.
+  examples: []
+  id: r21-2007-34-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sygna pomiaru drogi
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f0f1ac41-968d-544e-9f6a-2acedc756912
+

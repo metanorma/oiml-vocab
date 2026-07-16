@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r21-2007-16
+  localized_concepts:
+    eng: 5a6c7303-07ad-534e-b7e6-c2b66a30de49
+    pol: bc5f47f5-8f13-5355-8d3d-dc137bc93a08
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 4eeaf6aa-fffb-5e06-af0d-e8734fe4245f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Sequence of readable characters of software, and that is inextricably
+      linked to the software (e.g. version number, checksum).
+  examples: []
+  id: r21-2007-16-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.8.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software identification
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5a6c7303-07ad-534e-b7e6-c2b66a30de49
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: |-
+      Dostępny do odczytu qiŁ znaków (np. numer wersji, suma kontrolna) pozwany nierozerwalnie z konkretnym programem.
+
+      Zabezpieczenie oprogramowania przydz pomiarowego poprzez blokaż implementowa przetowo lub programowo,która musi zosta susuneta,uszkodzona lub zlamana w celu uzyskaniaesto zmiany programu.
+  examples: []
+  id: r21-2007-16-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Zabezpieczenie programu
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bc5f47f5-8f13-5355-8d3d-dc137bc93a08
+

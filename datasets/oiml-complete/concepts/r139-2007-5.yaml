@@ -1,0 +1,65 @@
+---
+data:
+  identifier: r139-2007-5
+  localized_concepts:
+    eng: 5360df12-5e87-5ff7-b92e-097f19f77da6
+    fra: c20e9b4f-72e0-5bf8-a32d-c3e78224a0c6
+  domains:
+  - concept_id: r-139
+    source: urn:oiml:pub:r:139:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 14ddfbd7-c20b-5d82-a2b0-0d34c1ad5684
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Optional part of the meter that receives the digital output signals from
+      the metering calculator and, possibly, from associated measuring instruments,
+      which processes them into data for the indicating device.
+  examples: []
+  id: r139-2007-5-eng
+  notes:
+  - content: The metering calculator and the operational calculator may be two separate
+      elements or form a single unit. Except in the case of a particular need to dissociate
+      the two kinds of calculators, the association of both functions is called the
+      calculator in this Recommendation.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Operational calculator
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5360df12-5e87-5ff7-b92e-097f19f77da6
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Partie opérationnelle du compteur qui reçoit les signaux de sortie du
+      calculateur de comptage, et éventuellement des instruments de mesurage associés,
+      qui les transforme en données destinées au dispositif indicateur.
+  examples: []
+  id: r139-2007-5-fra
+  notes:
+  - content: Le calculateur de comptage et le calculateur opérationnel peuvent être
+      constitués de deux éléments séparés ou constituer une seule unité. Sauf nécessité
+      particulière de dissocier ces deux sortes de calculateurs, l'association des
+      deux fonctions est appelée "le calculateur" dans la présente Recommandation.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Calculateur opérationnel
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c20e9b4f-72e0-5bf8-a32d-c3e78224a0c6
+

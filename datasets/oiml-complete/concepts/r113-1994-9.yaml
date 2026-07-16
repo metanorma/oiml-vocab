@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r113-1994-9
+  localized_concepts:
+    eng: 594d2793-b14d-59fb-b8f3-c30f53ad1b13
+    fra: 62164edd-24c1-5355-9899-5c2f1fa091d4
+  domains:
+  - concept_id: r-113
+    source: urn:oiml:pub:r:113:1994
+    ref_type: section
+  sources: []
+status: valid
+id: f4c80a71-3212-5a34-9d67-91fd5df5f814
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: The smallest quantity of a sample component which yields a detector output
+      signal that is three times greater than the short-term noise.
+  examples: []
+  id: r113-1994-9-eng
+  notes:
+  - content: This term is also referred to as "minimum detectability" or "minimum
+      detectable limit (MDL)" in references and manufacturer's literature.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 594d2793-b14d-59fb-b8f3-c30f53ad1b13
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Plus petite quantité d'un composant de l'échantillon qui fournit un signal
+      de sortie du détecteur supérieur à trois fois le bruit à court terme.
+  examples: []
+  id: r113-1994-9-fra
+  notes:
+  - content: Ce terme est parfois désigné sous le nom de «détection minimale (MDL)»
+      dans les références ou dans la documentation des fabricants. La limite de détection
+      est parfois définie comme le signal de sortie égal à un autre multiple (par
+      exemple, deux ou dix) du niveau de bruit et peut varier selon que le chromatographe
+      est utilisé pour une analyse quantitative ou qualitative.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de détection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 62164edd-24c1-5355-9899-5c2f1fa091d4
+

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-35
+  localized_concepts:
+    eng: 8ba1d3dc-ba1b-566d-881d-436742adfa6f
+    pol: 9f27bb7a-34e2-51f7-8d20-d6e805616f10
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 34fcdc39-0c54-54ac-bfe7-c96b671c192a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Calculation method in which two components of the fare increase concurrently,
+      one in proportion to the duration of the journey and the other in proportion
+      to the distance traveled.
+  examples: []
+  id: r21-2007-35-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.9
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: time-distance counting
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8ba1d3dc-ba1b-566d-881d-436742adfa6f
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Sygnał dostarczany przez zegar wbudowany w taksoporcjonalnie do czasu
+      przejazdu.
+  examples: []
+  id: r21-2007-35-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sygna pomiaru czasu
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9f27bb7a-34e2-51f7-8d20-d6e805616f10
+

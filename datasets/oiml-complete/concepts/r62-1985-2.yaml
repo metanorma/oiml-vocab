@@ -2,86 +2,33 @@
 data:
   identifier: r62-1985-2
   localized_concepts:
-    eng: 9dd5939d-cb64-56b2-982d-4c1ce3558714
-    fra: d642d991-05b4-5e2f-9e40-14381ca6532b
+    fra: 3b15a175-76f7-5676-a4b4-2152eb0a5d2f
   domains:
   - concept_id: r-62
-    source: OIML R 62:1985
+    source: urn:oiml:pub:r:62:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2'
+  sources: []
 status: valid
-id: 4cfe6413-588e-55ae-b136-c328a9badb66
+id: 27778c95-47ca-5827-8461-d2191ad8adb4
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: A sensing device attached along its entire length to a surface and whose
-      resistance changes will vary as the surface is deformed.
-  examples: []
-  id: r62-1985-e-2-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: strain gauge, resistive, bonded
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 9dd5939d-cb64-56b2-982d-4c1ce3558714
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Capteur fixé sur toute sa longueur à une surface et dont la résistance
       varie avec la déformation de la surface.
   examples: []
-  id: r62-1985-f-2-fra
+  id: r62-1985-2-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: extensomètre à résistance collé
+    designation: Extensomètre à résistance collé
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: d642d991-05b4-5e2f-9e40-14381ca6532b
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3b15a175-76f7-5676-a4b4-2152eb0a5d2f
 

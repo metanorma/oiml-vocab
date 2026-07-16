@@ -1,0 +1,100 @@
+---
+data:
+  identifier: r76-2006-53
+  localized_concepts:
+    fra: 823447c6-dac9-5164-863c-1c6b4ffd569a
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: fdbfbf73-3b21-5cce-b2c5-cc37c6e1f089
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      The EUTs must cover:
+
+      - highest number of verification scale intervals, $ n_{\mathrm{max}} $;
+
+      - lowest verification scale interval, $ e_{\mathrm{min}} $;
+
+      - lowest input signal, $ \mu\mathrm{V} / e $ (when using analog strain gauge load cells);
+
+      - all accuracy classes;
+
+      - all temperature ranges;
+
+      - single range, multiple range or multi-interval instrument;
+
+      - maximum size of load receptor, if significant;
+
+      - metrologically relevant features (see 3.10.4.5);
+
+      - maximum number of instrument functions;
+
+      - maximum number of indications;
+
+      - maximum number of peripheral devices connected;
+
+      - maximum number of implemented digital devices;
+
+      - maximum number of analog and digital interfaces;
+
+      - several load receptors, if connectable to the indicator; and
+
+      - different types of power supply (mains and/or batteries).
+
+      Acceptable solution for the selection of EUTs of a family:
+
+      <div align="center">
+
+      Table 8- Selection of EUTs for a type of a non-automatic weighing instrument with two families
+
+      </div>
+
+      <table border="1"><tr><td></td><td>Variant</td><td>Max</td><td>e</td><td>d</td><td>n</td><td>EUT</td></tr><tr><td rowspan="3">Family1Accuracy classIITemperature range:10℃/30℃</td><td>1.1</td><td>200g</td><td>0.01g</td><td>0.001g</td><td>20000</td><td></td></tr><tr><td>1.2</td><td>400g</td><td>0.01g</td><td>0.001g</td><td>40000</td><td>X</td></tr><tr><td>1.3</td><td>2000g</td><td>0.05g</td><td>0.05g</td><td>40000</td><td></td></tr></table>
+
+      <table border="1"><tr><td rowspan="5">Family2Accuracy class IIITemperature range:-10℃/40℃</td><td>2.1</td><td>1.5kg</td><td>0.5g</td><td>0.5g</td><td>3000</td><td>X</td></tr><tr><td>2.2</td><td>3kg</td><td>1g</td><td>1g</td><td>3000</td><td></td></tr><tr><td>2.3</td><td>5kg</td><td>2g</td><td>2g</td><td>2500</td><td></td></tr><tr><td>2.4</td><td>15kg</td><td>5g</td><td>5g</td><td>3000</td><td>X</td></tr><tr><td>2.5</td><td>60kg</td><td>20g</td><td>20g</td><td>3000</td><td></td></tr></table>
+  examples: []
+  id: r76-2006-53-fra
+  notes:
+  - content: |-
+      This example covers only the various capacities and metrological characteristics of the EUTs according to 3.10.4.2 to 3.10.4.4. The other metrologically relevant features according to 3.10.4.5 must in practice be taken into account, too, and may result in one or more additional EUTs.
+
+      Remarks on the selection:
+
+      - Variants 1.2, 2.1 and 2.4 are selected as EUTs (marked in last column of Table 8).
+
+      - Variant 1.1 needs not be tested, because it has the same e and d as variant 1.2. Only the value of Max is reduced to 200 g (see 3.10.4.3).
+
+      - Variant 1.2 has the best metrological characteristics of family 1 and shall be tested completely according to 3.10.4.2.
+
+      - Variant 1.3 needs not be tested, because Max is not more than 5 times that for variant 1.2 (see 3.10.4.3).
+
+      - Variant 2.1 has the best metrological characteristics of family 2, the smallest e and the greatest n. Therefore variant 2.1 shall be tested (see 3.10.4.4). It is sufficient to perform additionally only the applicable tests for class III. It is not necessary to repeat those tests which are the same for class II and class III and which have already been performed on variant 1.2.
+
+      - Variants 2.2 and 2.3 need not be tested, because their values of Max are in between the tested variants 2.1 and 2.4 (see 3.10.4.3) and their metrological characteristics are less than or the same as for variants 2.1 and 2.4.
+
+      - Variant 2.4 shall be tested, because the ratio between variant 2.5 and 2.1 is greater than 10 (see 3.10.4.3). For variant 2.4, it is sufficient to perform additionally some important tests such as weighing test, temperature, eccentricity, discrimination, repeatability, etc. It is normally not necessary to repeat other tests (e.g. tilting, power supply, humidity, span stability, endurance, disturbance tests) which have already been performed on variants 1.2 and 2.1.
+
+      - Variant 2.5 needs not be tested, because Max is not more than 5 times that for variant 2.4 (see 3.10.4.3).
+
+      Table 9 - Summary of the metrological characteristics presented in the OIML Certificate
+
+      <table border="1"><tr><td></td><td>Family1</td><td>Family2</td></tr><tr><td>Accuracy class</td><td>II</td><td>III</td></tr><tr><td>Max</td><td>1g...2000g</td><td>50g...60kg</td></tr><tr><td>e</td><td>0.01g...0.2g</td><td>0.5g...100g</td></tr><tr><td>d</td><td>0.001g...0.2g</td><td>0.5g...100g</td></tr><tr><td>n</td><td>≤40000</td><td>≤3000</td></tr><tr><td>Tare balancing range</td><td>100% of Max</td><td>100% of Max</td></tr><tr><td>Preset tare range</td><td>100% of Max</td><td>100% of Max</td></tr><tr><td>Temperature range</td><td>10℃/30℃</td><td>-10℃/40℃</td></tr></table>
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Summary of relevant metrological characteristics
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 823447c6-dac9-5164-863c-1c6b4ffd569a
+

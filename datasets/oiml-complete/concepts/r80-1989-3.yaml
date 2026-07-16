@@ -2,84 +2,32 @@
 data:
   identifier: r80-1989-3
   localized_concepts:
-    eng: c8cbd1d0-3bc3-5371-b4af-8300e630cf53
-    fra: 2db2a7a2-8bdf-5302-a904-b7641b7d52f7
+    fra: 57ac7c59-d292-5019-a46d-8ae0085c91f1
   domains:
   - concept_id: r-80
-    source: OIML R 80:1989
+    source: urn:oiml:pub:r:80:1989
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 80:1989
-        version: '1989'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3'
+  sources: []
 status: valid
-id: b2d5828a-7a45-56c8-a55a-7631c5b0f46c
+id: 70a3646f-f86e-5bde-8678-a91f2facc49a
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Différence entre la contenance totale et la capacité nominale.
   examples: []
-  id: r80-1989-f-3-fra
+  id: r80-1989-3-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 80:1989
-        version: '1989'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Volume d'expansion
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-80
-    source: OIML R 80:1989
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 2db2a7a2-8bdf-5302-a904-b7641b7d52f7
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The difference between total contents and nominal capacity.
-  examples: []
-  id: r80-1989-e-3-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 80:1989
-        version: '1989'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Expansion volume
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-80
-    source: OIML R 80:1989
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: c8cbd1d0-3bc3-5371-b4af-8300e630cf53
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 57ac7c59-d292-5019-a46d-8ae0085c91f1
 

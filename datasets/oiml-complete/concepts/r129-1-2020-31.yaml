@@ -1,0 +1,64 @@
+---
+data:
+  identifier: r129-1-2020-31
+  localized_concepts:
+    deu: 60151fcc-6cc4-5a94-a31d-ef224ded0a3c
+    eng: 0f527240-e0b6-5f51-9808-a65dbc789504
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 6ec9f30b-29ce-5e05-a23a-5448650bce25
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: |-
+      Fehler, der den anwendbaren Fehlergrenzwert übersteigt [VIML 5.14]
+
+      Hinweis: Die folgenden Fehler werden als nicht signifikant betrachtet, auch dann nicht, wenn sie den oben definierten Wert überschreiten:
+
+      (a) Fehler, die durch gleichzeitig und voneinander unabhängig auftretende Ursachen im Messgerät entstehen;
+
+      (b) Fehler, die jede Messung unmöglich machen;
+
+      (c) auf momentane Abweichungen zurückzuführende vorübergehende Fehler, die nicht als Messergebnis gedeutet, gespeichert oder übermittelt werden können;
+
+      (d) Fehler, durch die beim Messergebnis Schwankungen auftreten, die so gravierend sind, dass sie von allen am Messergebnis Interessierten wahrgenommen werden.
+  examples: []
+  id: r129-1-2020-31-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Signifikanter Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 60151fcc-6cc4-5a94-a31d-ef224ded0a3c
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: value delimiting non-significant faults
+  examples: []
+  id: r129-1-2020-31-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 0f527240-e0b6-5f51-9808-a65dbc789504
+

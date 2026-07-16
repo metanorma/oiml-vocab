@@ -1,0 +1,65 @@
+---
+data:
+  identifier: r137-1-2-2012-16
+  localized_concepts:
+    eng: 2b1ae7f7-8818-52de-9baa-f02ba6a37e9e
+    fra: 9c866f69-fdb1-5b22-8edd-37857edc2786
+  domains:
+  - concept_id: r-137
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources: []
+status: valid
+id: 7c4b98a1-f426-5e87-83f0-d57ec01b594e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: 'the weighted mean error (WME) within the scope of this Recommendation
+      is defined as:'
+  - content: WME = (sum_{i=1}^{n} k_i E_i) / (sum_{i=1}^{n} k_i)  with  k_i = Q_i
+      / Q_max  for Q_i <= 0.7 Q_max
+  - content: k_i = 1.4 - Q_i / Q_max  for 0.7 Q_max < Q_i <= Q_max
+  - content: 'where: k_i = weighting factor at the flow rate Q_i; E_i = the error
+      at the flow rate Q_i.'
+  examples: []
+  id: r137-1-2-2012-16-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: weighted mean error (WME)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2b1ae7f7-8818-52de-9baa-f02ba6a37e9e
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: 'l''erreur moyenne pondérée (EMP), dans le cadre du champ d''application
+      de cette Recommandation, est définie ainsi :'
+  - content: EMP = (sum_{i=1}^{n} k_i E_i) / (sum_{i=1}^{n} k_i)  avec  k_i = Q_i
+      / Q_max  pour Q_i <= 0.7 Q_max
+  - content: k_i = 1.4 - Q_i / Q_max  pour 0.7 Q_max < Q_i <= Q_max
+  - content: 'où : k_i = le facteur de pondération au débit Q_i ; E_i = l''erreur
+      au débit Q_i.'
+  examples: []
+  id: r137-1-2-2012-16-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur moyenne pondérée (EMP)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9c866f69-fdb1-5b22-8edd-37857edc2786
+

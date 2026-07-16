@@ -2,84 +2,32 @@
 data:
   identifier: r53-1982-2
   localized_concepts:
-    eng: 26e89a86-d147-5c91-a0c6-c0318b8facdd
-    fra: c3d0827c-4953-5fb4-b002-42e5a6a3dfb4
+    fra: eb6a5388-3ce5-552e-b158-98ba90a78fc4
   domains:
   - concept_id: r-53
-    source: OIML R 53:1982
+    source: urn:oiml:pub:r:53:1982
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '2'
-    type: authoritative
+  sources: []
 status: valid
-id: 82bd8f7c-c864-5f8e-94cb-e465a5a0f899
+id: 5fa62a35-1e30-5884-b549-cc2e25d74d4a
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Pression maximale fixée pour l'élément récepteur élastique considéré.
   examples: []
-  id: r53-1982-f-2-fra
+  id: r53-1982-2-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '2'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Pression nominale
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: c3d0827c-4953-5fb4-b002-42e5a6a3dfb4
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Maximum pressure specified for the given elastic sensing element.
-  examples: []
-  id: r53-1982-e-2-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '2'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Nominal pressure
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 26e89a86-d147-5c91-a0c6-c0318b8facdd
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: eb6a5388-3ce5-552e-b158-98ba90a78fc4
 

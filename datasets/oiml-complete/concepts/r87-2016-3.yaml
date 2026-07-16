@@ -1,0 +1,65 @@
+---
+data:
+  identifier: r87-2016-3
+  localized_concepts:
+    eng: ca64256d-a010-5a02-b8e3-83f5747777c7
+    fra: 7f5dd59a-12d8-558e-839b-e79b33ec4328
+  domains:
+  - concept_id: r-87
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources: []
+status: valid
+id: 8724803c-69d4-57c0-8f28-c32b320c7262
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: sum of individual prepackage errors considering their arithmetic signs
+      divided by the number of prepackages in the inspection lot or sample
+  examples: []
+  id: r87-2016-3-eng
+  notes:
+  - content: The average error for all prepackages in a sample with sample size n
+      is designated by the symbol $ e_{\mathrm{ave}}. $
+  - content: The average error for all prepackages in an inspection lot with N prepackages
+      is designated by the symbol $ E_{\mathrm{ave}}. $
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: average error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ca64256d-a010-5a02-b8e3-83f5747777c7
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: somme des erreurs de préemballage individuel en tenant compte de leur
+      signe arithmétique, divisée par le nombre de préemballages dans le lot d'inspection
+      ou l'échantillon
+  examples: []
+  id: r87-2016-3-fra
+  notes:
+  - content: L'erreur moyenne pour tous les préemballages dans un échantillon avec
+      n comme taille d'échantillon est désignée par le symbole $ e_{\mathrm{ave}}.
+      $
+  - content: L'erreur moyenne pour tous les préemballages dans un lot d'inspection
+      avec N préemballages est désignée par le symbole $ E_{\mathrm{ave}} $
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur moyenne
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7f5dd59a-12d8-558e-839b-e79b33ec4328
+

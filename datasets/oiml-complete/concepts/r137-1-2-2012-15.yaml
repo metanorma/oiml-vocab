@@ -1,0 +1,65 @@
+---
+data:
+  identifier: r137-1-2-2012-15
+  localized_concepts:
+    eng: de49c30b-713b-5882-8cab-3a1eed2fab83
+    fra: d2f27e61-a9ee-568b-92e5-a5ac721d2e65
+  domains:
+  - concept_id: r-137
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources: []
+status: valid
+id: 4b8aeecf-9a79-573d-a057-b70e86d65af8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: measured quantity value minus a reference quantity value
+  examples: []
+  id: r137-1-2-2012-15-eng
+  notes:
+  - content: The presented VIM definition of (measurement) error is often interpreted
+      as the definition for an absolute error. However, when expressing a parameter
+      as a percentage or in dB this definition could also be applied to a relative
+      error. Since in all cases in this document the errors are expressed in relative
+      values it was decided that a separate definition for a relative error is not
+      needed.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: de49c30b-713b-5882-8cab-3a1eed2fab83
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: différence entre la valeur mesurée d'une grandeur et une valeur de référence
+  examples: []
+  id: r137-1-2-2012-15-fra
+  notes:
+  - content: La présente définition du VIM d'erreur (de mesure) est souvent interprétée
+      comme étant la définition d'une erreur absolue. Cependant, cette définition
+      pourrait également être appliquée à une erreur relative lors de l'expression
+      d'un paramètre en pourcentage ou en dB. Puisque dans tous les cas, dans ce document,
+      les erreurs sont exprimées en valeurs relatives, il a été décidé qu'une définition
+      séparée d'erreur n'était pas nécessaire.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d2f27e61-a9ee-568b-92e5-a5ac721d2e65
+

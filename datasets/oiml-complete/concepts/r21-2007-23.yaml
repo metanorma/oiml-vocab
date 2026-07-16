@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-23
+  localized_concepts:
+    eng: 9953c603-12fd-5344-826e-313f088f3099
+    pol: 8e8069ac-8a9b-5bf3-ab7f-b658075036bf
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: d0ebc2d0-f46d-57c5-9309-c4e51ca8b645
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Monetary amount calculated, indicated and displayed as a fare by the
+      taximeter, due for a taxi journey based on a fixed initial fee (excluding any
+      supplementary charges) and/or the length and/or the duration of the journey.
+  examples: []
+  id: r21-2007-23-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fare
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9953c603-12fd-5344-826e-313f088f3099
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Pierwszy przyrost opłaty za przejazd po aktywadjisbmetru.
+  examples: []
+  id: r21-2007-23-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Opłata pocątkowa
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8e8069ac-8a9b-5bf3-ab7f-b658075036bf
+

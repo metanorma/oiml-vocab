@@ -1,0 +1,79 @@
+---
+data:
+  identifier: d31-2008-51
+  localized_concepts:
+    eng: a7b8e48b-09a3-5bd1-9e7e-37f985e96a27
+    fra: 4e11fd0a-ddd8-53b5-81b8-c07debca2d53
+    spa: 5a51c143-3788-5fb0-9586-fca800c56004
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 4788087a-0634-5c39-849c-fb0ea3abe612
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: unique monotonically increasing time value, e.g. in seconds or a date
+      and time string denoting the date and/or time at which a certain event or fault
+      occurred
+  examples: []
+  id: d31-2008-51-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: time stamp
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: a7b8e48b-09a3-5bd1-9e7e-37f985e96a27
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur de temps unique croissante monotone, par exemple en seconde ou
+      une chaîne date et heure indiquant la date et/ou l'heure à laquelle un évènement
+      particulier ou une faute s'est produit.
+  examples: []
+  id: d31-2008-51-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Horodatage
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4e11fd0a-ddd8-53b5-81b8-c07debca2d53
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Transmisión de datos de medida a través de redes de comunicación u otros
+      medios a un dispositivo electrónico remoto, donde estos se siguen procesando
+      y/o utilizando con fines regulados legalmente.
+  examples: []
+  id: d31-2008-51-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transmisión de datos de medida
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5a51c143-3788-5fb0-9586-fca800c56004
+

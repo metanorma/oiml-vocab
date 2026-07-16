@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r49-2-2004-1
+  localized_concepts:
+    eng: d43dc45e-77c8-5618-959d-d1f5d0f7d880
+    fra: 07cbf531-a2b0-5704-9553-817ed00de576
+  domains:
+  - concept_id: r-49
+    source: urn:oiml:pub:r:49-2:2004
+    ref_type: section
+  sources: []
+status: valid
+id: 255d0b5a-273e-5ac8-b5b7-b75d3f958b62
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Mean flowrate during a test, calculated from the indications of a calibrated
+      reference device. The quotient of the actual volume passing through the water
+      meter divided by the time for that volume to pass through the water meter.
+  examples: []
+  id: r49-2-2004-1-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 49-2:2004 (E)
+      clause: '2.1'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: test flowrate
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d43dc45e-77c8-5618-959d-d1f5d0f7d880
+---
+data:
+  dates:
+  - date: '2026-07-15T15:09:53Z'
+    type: accepted
+  definition:
+  - content: Débit moyen pendant un essai, calculé à partir des indications d'un dispositif
+      de référence étalonné. Quotient du volume réel passant dans le compteur d'eau
+      divisé par le temps nécessaire au passage de ce volume dans le compteur d'eau.
+  examples: []
+  id: r49-2-2004-1-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Débit d'essai
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 07cbf531-a2b0-5704-9553-817ed00de576
+

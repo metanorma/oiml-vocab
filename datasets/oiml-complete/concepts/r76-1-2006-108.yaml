@@ -1,0 +1,76 @@
+---
+data:
+  identifier: r76-1-2006-108
+  localized_concepts:
+    eng: 9ebec551-856f-505c-bea1-a5265483d539
+    fra: 1002ea82-faf7-5512-8d95-0b520953979d
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 11dcbf82-6fcd-5f44-bf12-acdba7ee5c71
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Fault greater than e.
+  - content: 'The following are not considered to be significant faults, even when
+      they exceed e:'
+  - content: "- faults arising from simultaneous and mutually independent causes in
+      the instrument;"
+  - content: "- faults implying the impossibility to perform any measurement;"
+  - content: "- faults being so serious that they are bound to be noticed by all those
+      interested in the result of measurement; or"
+  - content: "- transitory faults, being momentary variations in the indication which
+      cannot be interpreted, memorized or transmitted as a measuring result."
+  examples: []
+  id: r76-1-2006-108-eng
+  notes:
+  - content: For a multi-interval instrument, the value of e is that appropriate to
+      the partial weighing range.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9ebec551-856f-505c-bea1-a5265483d539
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Defaut supérieur à e.
+  - content: 'Les défauts suivants ne sont pas considérés comme significatifs, même
+      s''ils dépassent e :'
+  - content: "- défauts provenant de causes simultanées et mutuellement indépendantes
+      dans l'instrument;"
+  - content: "- défauts rendant impossible l'accomplissement de toute mesure;"
+  - content: "- défauts si importants qu'ils ne peuvent manquer d'être remarqués par
+      tous ceux qui sont intéressés au résultat du mesurage; ou"
+  - content: "- défauts transitoires constitués de variations momentanées de l'indication
+      mais qui ne peuvent être interprétées, mises en mémoire ou transmises comme
+      des résultats de mesure."
+  examples: []
+  id: r76-1-2006-108-fra
+  notes:
+  - content: Pour les instruments à échelons multiples, la valeur de e est celle qui
+      correspond à l'étendue de pesage partielle.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1002ea82-faf7-5512-8d95-0b520953979d
+

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r35-2-2011-10
+  localized_concepts:
+    deu: 1ea482b7-4efb-5939-9c78-6954059fd408
+    eng: 62db8fdb-71b8-593d-adf5-1e88b2584dd2
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-2:2011
+    ref_type: section
+  sources: []
+status: valid
+id: ee5ed7af-2679-52f6-919b-530d12e9b581
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: |-
+      Unter Referenzbetriebsbedingungen ermittelte Abweichung eines Maßes.
+
+      Anmerkung: Ein Fehler ist hauptsächlich das Ergebnis einer unerwünschten Änderung von Daten, die in einem elektronischen Maß enthalten sind oder durch dieses hindurchfließen.
+  examples: []
+  id: r35-2-2011-10-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Eigenabweichung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1ea482b7-4efb-5939-9c78-6954059fd408
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: error of a measure determined under reference conditions
+  examples: []
+  id: r35-2-2011-10-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-2:2011 (E)
+      clause: '2.10'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 62db8fdb-71b8-593d-adf5-1e88b2584dd2
+

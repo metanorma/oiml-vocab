@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-2008-74
+  localized_concepts:
+    spa: 68e5ff89-df88-5307-a208-099ef55166ec
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 34c53dc4-6703-550e-8a8c-8f3a2e565337
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      Los TC y los SC de la OIML pueden especificar en la Recomendación pertinente el software/ el hardware/ los datos o la parte de los mismos legalmente relevantes.
+
+      Las regulaciones nacionales pueden prescribir que un software/ hardware/ unos datos específicos, o parte de los mismos, sea legalmente relevantes.
+
+      5. 2.1.2.a Todos los módulos software (programas, subrutinas, objetos, etc.) que realizan funciones legalmente relevantes, o que contienen dominios de datos legalmente relevantes, constituyen la parte legalmente relevante del software de un instrumento de medida (dispositivo electrónico o subconjunto). El requisito de conformidad se aplica a esta parte (véase el apartado 5.2.5) y debe identificarse, como se describe en el apartado 5.1.1.
+
+      Si no es posible ni necesario separar el software, este se considera legalmente relevante como un todo.
+
+      Ejemplo:
+
+      (I) Un sistema de medida contiene varios sensores digitales conectados a un ordenador personal que visualiza los valores de medida. El software legalmente relevante del ordenador personal se separa de las partes legalmente no relevantes, compilando todos los procedimientos que desarrollan funciones legalmente relevantes en una biblioteca de enlaces dinámicos. Una o más aplicaciones legalmente no relevantes pueden solicitar procedimientos de programa en esta biblioteca. Estos procedimientos reciben los datos de medida de los sensores digitales, calculan el resultado de la medición y lo visualizan en una ventana del software. Cuando las funciones legalmente relevantes han finalizado, se devuelve el control a la aplicación legalmente no relevante.
+
+      5. 2.1.2.b Si la parte legalmente relevante del software se comunica con otras partes del mismo, se debe definir una interfaz software. Toda la comunicación se debe desarrollar exclusivamente a través de esta interfaz. La parte legalmente relevante del software y la interfaz deben estar claramente documentadas. Todas las funciones y los dominios de datos legalmente relevantes del software se deben describir con el objeto de permitir a una autoridad de aprobación de modelo decidir si la separación del software es correcta.
+
+      La interfaz contiene un código de programa y dominios de datos dedicados. Los comandos definidos y codificados, así como los datos, se intercambian entre las partes del software a través del dominio de datos dedicado: una parte del software los almacena y otra los lee. El código del programa de escritura y de lectura forma parte de la interfaz software. El dominio de datos que constituye la interfaz software se debe definir y documentar claramente, incluidos el código que exporta de la parte legalmente relevante hacia el dominio de datos de la interfaz y el que importa de la interfaz a la parte legalmente relevante. No se debe poder eludir la interfaz software declarada.
+
+      El fabricante tiene la responsabilidad de respetar estas restricciones. No existen medios técnicos (como el precintado) para impedir que un programa eluda la interfaz ni la programación de comandos ocultos. El fabricante debe proporcionar instrucciones relativas a estos requisitos a los programadores de la parte legalmente relevante y de la no relevante del software.
+
+      5. 2.1.2.c Debe asignarse cada comando de forma inequívoca a todas las funciones iniciadas o modificaciones de datos en la parte legalmente relevante del software. Los comandos comunicados a través de la interfaz software se deben declarar y documentar. Únicamente se pueden activar a través de la interfaz software los comandos documentados. El fabricante debe declarar que la documentación de comandos es completa.
+  examples: []
+  id: d31-2008-74-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 5.2.1.2. Separación de partes del software
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 68e5ff89-df88-5307-a208-099ef55166ec
+

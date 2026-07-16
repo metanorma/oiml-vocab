@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-39
+  localized_concepts:
+    eng: 2f555667-c365-5c02-9b65-89694fbbc8ba
+    pol: 67161a2f-4c4a-5495-80db-854c8cc5a95a
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 5e95160d-44be-5eb4-8df8-9ed7ac593466
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Set of tariff values (including initial time / initial distance) that
+      represents a schedule of charges or rates which will be operative in the taximeter
+      in a specified tariff position.
+  examples: []
+  id: r21-2007-39-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.13
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tariff
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2f555667-c365-5c02-9b65-89694fbbc8ba
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Wartość taryfy wyrażona jako kwota pienina za dany dystans.
+  examples: []
+  id: r21-2007-39-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wartość taryfy drogowej
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 67161a2f-4c4a-5495-80db-854c8cc5a95a
+

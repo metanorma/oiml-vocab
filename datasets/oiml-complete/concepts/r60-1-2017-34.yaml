@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r60-1-2017-34
+  localized_concepts:
+    eng: 84c3e28e-70ee-5bdc-9ecf-f101203fd3a8
+    fra: 5beaeead-9b04-5ad0-b522-3f3d9636071e
+  domains:
+  - concept_id: r-60
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources: []
+status: valid
+id: 01b4092b-c216-5b1b-a70c-eaee237b6e6c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: ratio of the maximum measuring range, to two times the minimum dead load
+      output return, DR
+  examples: []
+  id: r60-1-2017-34-eng
+  notes:
+  - content: This ratio is used to describe multi-interval instruments.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: relative minimum dead load output return (Z)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 84c3e28e-70ee-5bdc-9ecf-f101203fd3a8
+---
+data:
+  dates:
+  - date: '2026-07-15T15:09:53Z'
+    type: accepted
+  definition:
+  - content: quotient de l'étendue de mesure maximale, par deux fois le retour du
+      signal de sortie à la charge morte minimale, DR
+  examples: []
+  id: r60-1-2017-34-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: retour du signal de sortie à la charge morte minimale relatif (Z)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5beaeead-9b04-5ad0-b522-3f3d9636071e
+

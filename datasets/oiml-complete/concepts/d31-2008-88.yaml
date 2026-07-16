@@ -1,0 +1,46 @@
+---
+data:
+  identifier: d31-2008-88
+  localized_concepts:
+    spa: 1f516afb-2a8f-5e25-b771-47799db5427e
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: c693af0e-66a9-5562-abd0-135dfd81c421
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      5. 2.4.1 El fabricante identificará el entorno adecuado de hardware y software. Éste establecerá los recursos mínimos y la configuración adecuada (p. ej. procesador, RAM, HDD, comunicación específica, versión de sistema operativo, etc.) necesarios para el correcto funcionamiento y se describirán en el certificado de aprobación de modelo.
+
+      5. 2.4.2 Se deben incluir medios técnicos en el software legalmente relevante para evitar la operación si no se cumplen los requisitos mínimos de configuración. El sistema se utilizará únicamente en el entorno especificado por el fabricante para asegurar su buen funcionamiento.
+
+      Por ejemplo, si para el correcto funcionamiento del sistema se especifica un entorno invariante, se aplicarán métodos para mantener fijo el entorno operativo. En concreto, lo anterior se aplica a un ordenador universal que lleva a cabo funciones legalmente relevantes.
+
+      Se considerará fijar el hardware, el sistema operativo o la configuración del sistema de un ordenador universal, o incluso excluir el uso de un ordenador universal listo para usar en los siguientes casos:
+
+      - si se requiere un grado de conformidad alto (véase el apartado 5.2.5.d);
+
+      - si se requiere un software fijo (p. ej. el apartado 5.2.6.3.b en el caso de actualización de software rastreada);
+
+      - si se deben implementar algoritmos criptográficos o claves (véase el apartado 5.2.3).
+  examples: []
+  id: d31-2008-88-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Compatibilidad de los sistemas operativos y del hardware, portabilidad
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1f516afb-2a8f-5e25-b771-47799db5427e
+

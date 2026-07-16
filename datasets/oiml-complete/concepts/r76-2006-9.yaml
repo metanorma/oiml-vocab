@@ -1,0 +1,64 @@
+---
+data:
+  identifier: r76-2006-9
+  localized_concepts:
+    fra: d0322ab8-8e88-5785-b506-aa54b1f0678b
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 6650d1e2-b1e2-5983-b9cf-b7c7802e4fa0
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      The verification scale interval, e, is determined by the expression:
+
+      $$
+      d < e \leq 1 0 d (\mathrm {s e e T a b l e s 5 a a n d 5 b})
+      $$
+
+      $$
+      e = 1 0 ^ {k} \mathrm {k g}
+      $$
+
+      k being a positive or negative whole number, or zero.
+
+      For a self- or semi-self-indicating instrument, see 4.2.2.1.
+
+      <div align="center">
+
+      Table 5a - Example values of e, calculated following this rule
+
+      </div>
+
+      <table border="1"><tr><td>d=</td><td>0.1g</td><td>0.2g</td><td>0.5g</td></tr><tr><td>e=</td><td>1g</td><td>1g</td><td>1g</td></tr><tr><td>e=</td><td>10d</td><td>5d</td><td>2d</td></tr></table>
+
+      This requirement does not apply to an instrument of class I with d<1 mg, where e=1 mg, as shown in the following Table.
+
+      <div align="center">
+
+      Table 5b - Example values of e where d < 1 mg
+
+      </div>
+
+      <table border="1"><tr><td>d=</td><td>0.01mg</td><td>0.02mg</td><td>0.05mg</td><td>&lt;0.01mg</td></tr><tr><td>e=</td><td>1mg</td><td>1mg</td><td>1mg</td><td>1mg</td></tr><tr><td>e=</td><td>100d</td><td>50d</td><td>20d</td><td>&gt;100d</td></tr></table>
+  examples: []
+  id: r76-2006-9-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Verification scale interval
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d0322ab8-8e88-5785-b506-aa54b1f0678b
+

@@ -1,0 +1,42 @@
+---
+data:
+  identifier: r76-2006-4
+  localized_concepts:
+    fra: bfb3ad13-e1d4-5164-8a82-3a3635117886
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: aa5f560a-ae77-51e6-a86c-1571b1fb1cb2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      Each partial range (index i=1,2,...) is defined by:
+
+      - its verification scale interval, $ e_{i}, e_{i+1} > e_{i} $;
+
+      - its maximum capacity, $ \mathrm{M a x}_{i} $ ; and
+
+      - its minimum capacity, $ \mathrm{M i n}_{i}=\mathrm{M a x}_{i-1} $ (for $ i=1 $ , the minimum capacity is $ \mathrm{M i n}_{1}=\mathrm{M i n} $ ).
+
+      The number of verification scale intervals, $ n_{i} $ , for each partial range is equal to $ \operatorname{M a x}_{i} / e_{i}. $
+  examples: []
+  id: r76-2006-4-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Partial weighing range
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bfb3ad13-e1d4-5164-8a82-3a3635117886
+

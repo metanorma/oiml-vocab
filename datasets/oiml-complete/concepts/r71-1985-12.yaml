@@ -2,88 +2,37 @@
 data:
   identifier: r71-1985-12
   localized_concepts:
-    eng: 64dd079b-c0c9-5ea3-91a4-082bc0ee2818
-    fra: 1973d207-9357-5673-a610-84d5d8048a5e
+    fra: bd138e49-15df-5658-8da1-d52d2cf7a34e
   domains:
   - concept_id: r-71
-    source: OIML R 71:1985
+    source: urn:oiml:pub:r:71:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '12'
+  sources: []
 status: valid
-id: 19185706-628a-5f7a-86db-c3ecc1ceaa9a
+id: 4ecfbf8d-93b0-5110-bce9-ad66e0c8e9ab
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The expression in the form of a table, of the mathematical function V(h)
-      which represents the relation between the height h (independent variable) and
-      the volume V (dependent variable).
-  examples: []
-  id: r71-1985-e-12-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '12'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: calibration table
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 64dd079b-c0c9-5ea3-91a4-082bc0ee2818
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Expression, sous forme de tableau, de la fonction mathématique V(h) qui
       représente la relation entre la hauteur h (variable indépendante) et le volume
       V (variable dépendante).
   examples: []
-  id: r71-1985-f-12-fra
+  id: r71-1985-12-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '12'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: table de jaugeage (barème)
+    designation: Table de jaugeage
+  - type: expression
+    normative_status: admitted
+    designation: Barème
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 1973d207-9357-5673-a610-84d5d8048a5e
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bd138e49-15df-5658-8da1-d52d2cf7a34e
 

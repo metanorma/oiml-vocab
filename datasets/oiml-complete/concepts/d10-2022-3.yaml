@@ -1,0 +1,45 @@
+---
+data:
+  identifier: d10-2022-3
+  localized_concepts:
+    eng: 81e1a65d-1493-55ce-be3a-a5eee3a9bf66
+  domains:
+  - concept_id: d-10
+    source: urn:oiml:pub:d:10:2022
+    ref_type: section
+  sources: []
+status: valid
+id: 72b69a4e-6ecb-560a-b2c4-cc6ba83e4aba
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication
+  examples: []
+  id: d10-2022-3-eng
+  notes:
+  - content: A calibration may be expressed by a statement, calibration function,
+      calibration diagram, calibration curve, or calibration table. In some cases,
+      it may consist of an additive or multiplicative correction of the indication
+      with associated measurement uncertainty.
+  - content: Calibration should not be confused with adjustment of a measuring system,
+      often mistakenly called "self-calibration", nor with verification of calibration.
+  - content: Often, the first step alone in the above definition is perceived as being
+      calibration.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: calibration
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 81e1a65d-1493-55ce-be3a-a5eee3a9bf66
+

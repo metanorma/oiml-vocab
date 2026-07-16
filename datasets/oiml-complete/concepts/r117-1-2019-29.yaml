@@ -1,0 +1,38 @@
+---
+data:
+  identifier: r117-1-2019-29
+  localized_concepts:
+    eng: e244c6ce-16d0-54ec-b261-c9851a230529
+  domains:
+  - concept_id: r-117
+    source: urn:oiml:pub:r:117-1:2019
+    ref_type: section
+  sources: []
+status: valid
+id: c59514e7-15a9-5c93-a41e-493db2da24f6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: Influence quantity having a value outside the specified rated operating
+      conditions of the measuring system (for electronic measuring systems only).
+  examples: []
+  id: r117-1-2019-29-eng
+  notes:
+  - content: If the rated operating conditions are not specified for an influence
+      quantity, it is a disturbance.
+  - content: A systematic influence by design or by installation (e.g. systematic
+      air inlet) cannot be considered as a disturbance.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: disturbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e244c6ce-16d0-54ec-b261-c9851a230529
+

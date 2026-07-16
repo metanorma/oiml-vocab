@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d31-2008-17
+  localized_concepts:
+    eng: ed505f44-2e91-5d6c-a0af-debb4af98aed
+    fra: 22bc23cd-a4ff-5cb7-8cf0-dea21de6b0d0
+    spa: d7b32a10-38c7-598c-9eb1-4df81ece8706
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: e113ab3c-5561-5f6e-82df-e85b29362660
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: indication of a measuring instrument minus a true value of the corresponding
+      input quantity
+  examples: []
+  id: d31-2008-17-eng
+  notes: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.5
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: error (of indication)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ed505f44-2e91-5d6c-a0af-debb4af98aed
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Indication de l'instrument de mesure moins la valeur vraie de la grandeur
+      d'entrée correspondante.
+  examples: []
+  id: d31-2008-17-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.5'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur (d'indication)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 22bc23cd-a4ff-5cb7-8cf0-dea21de6b0d0
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Indicación de un instrumento de medida menos un valor verdadero de la
+      magnitud de entrada correspondiente.
+  examples: []
+  id: d31-2008-17-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error (de indicacion) [VIM:1994, 5.20; OIML D 11:2004, 3.5]
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d7b32a10-38c7-598c-9eb1-4df81ece8706
+

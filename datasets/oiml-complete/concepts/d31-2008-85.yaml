@@ -1,0 +1,40 @@
+---
+data:
+  identifier: d31-2008-85
+  localized_concepts:
+    spa: 344c50ee-170f-52c9-bf16-a9ade530f8eb
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: bbaf8cd2-03f7-5fcf-b074-4025f944ec06
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      Si los servicios de red dejan de ser accesibles, los datos de medida no se perderán. El proceso de medición debería detenerse para evitar la pérdida de datos de medida.
+
+      Nota: Debería considerarse distinguir entre las mediciones estáticas y las dinámicas.
+
+      Ejemplo:
+
+      (I)/(II) El dispositivo emisor espera a que el receptor confirme la recepcion correcta del conjunto de datos. El dispositivo emisor conserva el conjunto de datos en una memoria intermedia (buffer) hasta que se recibe la confirmacion. La memoria intermedia puede tener capacidad para más de un conjunto de datos organizados como una cola $ \mathrm{F I F O}^{5)}。 $
+  examples: []
+  id: d31-2008-85-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Interrupción de la transmisión
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 344c50ee-170f-52c9-bf16-a9ade530f8eb
+

@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r129-1-2020-32
+  localized_concepts:
+    deu: 3453bfd1-7355-56a3-be8f-24b6164c09cd
+    eng: b0ae140c-10de-5f39-bc12-a9ce8eb0c2f5
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 1894ca21-d8f7-5d88-8b87-4eb10e75a971
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: Größe, die sich bei einer direkten Messung nicht auf die Größe auswirkt,
+      die gerade gemessen wird, aber die Beziehung zwischen der Anzeige und dem Messergebnis
+      beeinflusst [VIM 2.52]
+  examples: []
+  id: r129-1-2020-32-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Einflussgröße
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3453bfd1-7355-56a3-be8f-24b6164c09cd
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: fault exceeding the applicable fault limit value
+  examples: []
+  id: r129-1-2020-32-eng
+  notes:
+  - content: Faults arising from simultaneous and mutually independent causes in the
+      measuring instrument itself; faults implying the impossibility to perform any
+      measurement; transitory faults being momentary variations in the indication,
+      which cannot be interpreted, memorised or transmitted as a measurement result;
+      and faults giving rise to variations in the measurement result so serious that
+      they are bound to be noticed by all those interested in the result of the measurement
+      are not considered significant.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b0ae140c-10de-5f39-bc12-a9ce8eb0c2f5
+

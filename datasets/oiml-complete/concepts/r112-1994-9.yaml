@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r112-1994-9
+  localized_concepts:
+    eng: 5c02cb78-da96-51e0-a218-81366af8ff14
+    fra: 58185dfc-376d-588b-9be5-b4a68f60517e
+  domains:
+  - concept_id: r-112
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources: []
+status: valid
+id: ddd14bb3-5dd4-52c3-aff6-c9e25f858a70
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: The concentration of the sample component of interest that gives a detector
+      output signal equal to three times the short-term noise.
+  examples: []
+  id: r112-1994-9-eng
+  notes:
+  - content: This term is also referred to as "minimum detectability" in some references
+      and manufacturer's literature.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detection limit for the instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5c02cb78-da96-51e0-a218-81366af8ff14
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Concentration d'un composant de l'échantillon examiné provoquant un signal
+      de sortie du détecteur égal à trois fois le niveau du bruit à court terme.
+  examples: []
+  id: r112-1994-9-fra
+  notes:
+  - ? On trouve aussi le terme «détection minimale» dans quelques unes des références
+      et dans les prospectus des constructeurs. On définit parfois la limite de détection
+      comme un signal de sortie égal à d'autres multiples (par exemple
+    : deux ou dix) du bruit.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de détection de l'instrument
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 58185dfc-376d-588b-9be5-b4a68f60517e
+

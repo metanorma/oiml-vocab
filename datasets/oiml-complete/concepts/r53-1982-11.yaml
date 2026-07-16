@@ -2,86 +2,33 @@
 data:
   identifier: r53-1982-11
   localized_concepts:
-    eng: aac41929-459d-5f38-90c0-8f491797b393
-    fra: dcea8e8a-59e8-58f8-985f-dbc09ade85b6
+    fra: f2722a9d-0c0d-508b-99cc-85d879702a87
   domains:
   - concept_id: r-53
-    source: OIML R 53:1982
+    source: urn:oiml:pub:r:53:1982
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '11'
-    type: authoritative
+  sources: []
 status: valid
-id: 9b9725c4-040c-58db-92fe-2d0368939df9
+id: b4268d77-e217-584c-b308-040c7d2b2f52
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Difference between the forward elastic characteristic and the conventional
-      linear characteristic.
-  examples: []
-  id: r53-1982-e-11-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '11'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Non-linearity of elastic characteristic
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: aac41929-459d-5f38-90c0-8f491797b393
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Écart entre la caractéristique élastique en marche avant et la caractéristique
       conventionnelle linéaire.
   examples: []
-  id: r53-1982-f-11-fra
+  id: r53-1982-11-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '11'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Non-linéarité de la caractéristique élastique
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: dcea8e8a-59e8-58f8-985f-dbc09ade85b6
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f2722a9d-0c0d-508b-99cc-85d879702a87
 

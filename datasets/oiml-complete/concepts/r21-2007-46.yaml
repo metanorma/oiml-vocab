@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-46
+  localized_concepts:
+    eng: 2e34a05f-9f51-51d4-8fa9-4b0fb3661633
+    pol: d1d566c5-a300-573b-9258-171f1592c145
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: e44a325d-6ce1-581d-898f-f5180978e8ff
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Operating position in which the taximeter is not calculating a fare and
+      no paying customer is making a taxi journey.
+  examples: []
+  id: r21-2007-46-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: '"For Hire" (Free) operating position'
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2e34a05f-9f51-51d4-8fa9-4b0fb3661633
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Pozycja robocza, w której taksometr wskazuje optatprzejazd na koniec
+      płatnego przejazdu.
+  examples: []
+  id: r21-2007-46-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pozycja robocza „Zatrzymana” (do zaplaty)
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d1d566c5-a300-573b-9258-171f1592c145
+

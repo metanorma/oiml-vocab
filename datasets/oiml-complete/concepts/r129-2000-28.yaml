@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r129-2000-28
+  localized_concepts:
+    eng: b91ed93f-3997-530f-8556-dbfe968820ea
+    fra: 4fbfef35-40d5-5c02-abc8-a5a33972e2f6
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129:2000
+    ref_type: section
+  sources: []
+status: valid
+id: 117ed1bc-34e9-51e7-b709-0aa16b50b8f9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: A fault greater than one scale interval (d).
+  examples: []
+  id: r129-2000-28-eng
+  notes:
+  - content: Faults arising from simultaneous and mutually independent causes in the
+      measuring instrument itself; faults implying the impossibility to perform any
+      measurement; transitory faults being momentary variations in the indication,
+      which cannot be interpreted, memorized or transmitted as a measurement result;
+      and faults giving rise to variations in the measurement result so serious that
+      they are bound to be noticed by all those interested in the result of the measurement
+      are not considered significant.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b91ed93f-3997-530f-8556-dbfe968820ea
+---
+data:
+  dates:
+  - date: '2026-07-15T15:09:43Z'
+    type: accepted
+  definition:
+  - content: Défaut supérieur à un échelon (d).
+  examples: []
+  id: r129-2000-28-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4fbfef35-40d5-5c02-abc8-a5a33972e2f6
+

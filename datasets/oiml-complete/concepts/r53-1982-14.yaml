@@ -2,85 +2,33 @@
 data:
   identifier: r53-1982-14
   localized_concepts:
-    eng: d226b440-6b04-50df-af18-5a51f503ce1c
-    fra: e1fc6584-08ed-5183-a89e-44bf144ab119
+    fra: 1c6f45fe-cae1-52a7-a73a-4b5a58b10bd3
   domains:
   - concept_id: r-53
-    source: OIML R 53:1982
+    source: urn:oiml:pub:r:53:1982
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '14'
-    type: authoritative
+  sources: []
 status: valid
-id: d65f6d26-20af-5359-9402-315d3804606d
+id: 1bb4195e-fcbf-5b15-bbcf-b4513952fb08
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Position of the reference point at a pressure equal to the nominal pressure.
-  examples: []
-  id: r53-1982-e-14-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '14'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Final position
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: d226b440-6b04-50df-af18-5a51f503ce1c
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Position du point de référence pour une pression égale à la pression
       nominale.
   examples: []
-  id: r53-1982-f-14-fra
+  id: r53-1982-14-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '14'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Position finale
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: e1fc6584-08ed-5183-a89e-44bf144ab119
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1c6f45fe-cae1-52a7-a73a-4b5a58b10bd3
 

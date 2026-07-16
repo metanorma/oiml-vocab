@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-9
+  localized_concepts:
+    eng: 75b1fdf6-93b9-5ef4-8a22-a8590634b9e3
+    pol: 800e8624-0fea-5ecd-a29a-7bdb0cb41cc6
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: cd7c0bec-6566-57a1-93f8-4e80c9c629fd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Device installed in a taxi that converts the distance to be measured
+      into pulses or digital data which are passed to the taximeter.
+  examples: []
+  id: r21-2007-9-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: distance measurement transducer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 75b1fdf6-93b9-5ef4-8a22-a8590634b9e3
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Urządzenie zainstalowane w taksówce,które konwertuję drogę na impulsy
+      lub dane cyfrowe przekazywane do taksometru.
+  examples: []
+  id: r21-2007-9-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Przetwornik pomiaru drogi
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 800e8624-0fea-5ecd-a29a-7bdb0cb41cc6
+

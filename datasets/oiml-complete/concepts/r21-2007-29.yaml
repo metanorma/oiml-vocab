@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-29
+  localized_concepts:
+    eng: 129b398f-9860-5760-b645-62a1a72a0d19
+    pol: f44714e5-ca20-5c5b-bdf7-39c1c8937caa
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 1e656ca9-06a2-5f70-9287-426b4a323e6d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Fare calculation based on the combined application of time tariff and
+      distance tariff over the whole journey.
+  examples: []
+  id: r21-2007-29-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: normal calculation method, D (double application of tariff)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 129b398f-9860-5760-b645-62a1a72a0d19
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Droga,która mze zosta przebyta zgodnie z tarydla opłaty pocątkowej, uwzględniajc
+      jedynie liczenie drogi.
+  examples: []
+  id: r21-2007-29-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Droga pocątkowa
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f44714e5-ca20-5c5b-bdf7-39c1c8937caa
+

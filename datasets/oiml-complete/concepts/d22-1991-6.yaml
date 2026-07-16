@@ -1,0 +1,64 @@
+---
+data:
+  identifier: d22-1991-6
+  localized_concepts:
+    eng: 3c6b288d-9a10-5b00-aa5b-2e18e23d2440
+    fra: d788eeb8-149c-516e-8556-248336328b22
+  domains:
+  - concept_id: d-22
+    source: urn:oiml:pub:d:22:1991
+    ref_type: section
+  sources: []
+status: valid
+id: 6839ca68-1124-5a54-a92c-4bcbd3046d73
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: the concentration of a substance that will yield a mean output signal
+      equal to three times the mean short term noise level, as determined on a statistical
+      basis
+  examples: []
+  id: d22-1991-6-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3c6b288d-9a10-5b00-aa5b-2e18e23d2440
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Concentration d'une substance produisant un signal de sortie moyen égal
+      à trois fois le bruit de fond moyen, déterminé sur une base statistique.
+  examples: []
+  id: d22-1991-6-fra
+  notes:
+  - content: La limite de détection est parfois définie comme un signal de sortie
+      égal à un autre multiple (deux ou dix) du bruit. Le bruit de fond est le signal
+      de sortie aléatoire d'un instrument analysant un air filtré blanc ou propre.
+  - content: 'Dans le présent Document, la concentration d''un polluant contenu dans
+      l''air, en phase gazeuse ou vapeur, s''exprime le plus souvent en titre volumique
+      du polluant dans l''air: parties par million (ppm) [v/v (10^-6)]. Les conditions
+      de température et de pression doivent être spécifiées pour les conversions en
+      masse par unité de volume (généralement mg/m^3).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de détection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d788eeb8-149c-516e-8556-248336328b22
+

@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r21-2007-64
+  localized_concepts:
+    eng: 40d8db06-d7d8-51da-a991-662e7e413f51
+    pol: 2df2327b-28d8-52f4-adcd-7f0b2b34b637
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: f02c8ee1-7cf6-5929-9757-49c15422cd9f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Fault, the magnitude of which is greater than the maximum permissible
+      error of the taximeter.
+  examples: []
+  id: r21-2007-64-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.4.5.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 40d8db06-d7d8-51da-a991-662e7e413f51
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Wielkość,która nie jest mierzona, ale wpływa na wynik pami
+  examples: []
+  id: r21-2007-64-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wielkość wpływajaca [VIM:1993, 2.7 [1]]
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2df2327b-28d8-52f4-adcd-7f0b2b34b637
+

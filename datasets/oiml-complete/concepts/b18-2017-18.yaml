@@ -1,0 +1,74 @@
+---
+data:
+  identifier: b18-2017-18
+  localized_concepts:
+    eng: c4256bf5-a087-52b9-9e57-ca29d276cf9a
+    fra: 73a6c084-d99c-56e1-9fb7-a04de12f713b
+  domains:
+  - concept_id: b-18
+    source: urn:oiml:pub:b:18:2017
+    ref_type: section
+  sources: []
+status: valid
+id: ef379e21-05c3-5f31-89c2-9ce41027a410
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Test Laboratory of a manufacturer that is designated by an OIML Issuing
+      Authority, and registered in the Declaration, that performs specific tests under
+      controlled supervision (see clause 7 of PD-04 [6]) or as a third-party laboratory
+      of an OIML Issuing Authority
+  examples: []
+  id: b18-2017-18-eng
+  notes:
+  - content: An MTL may conduct tests for the parent company and/or for other companies.
+      The requirements for controlled supervision apply if tests are performed for
+      the parent company. Otherwise the MTL is considered as a third-party Test Laboratory,
+      in which case the requirements for third-party laboratories must be satisfied.
+  - content: In the event that test data is obtained from an MTL this must be clearly
+      indicated on the OIML type evaluation report (see 5.5.4 of PD-05 [7] and acceptance
+      of that report is on a voluntary basis (see 4.9 of PD-06 [8].
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Manufacturer's Test Laboratory (MTL)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c4256bf5-a087-52b9-9e57-ca29d276cf9a
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Laboratoire d'Essai d'un fabricant, désigné par une Autorité de Délivrance
+      OIML et enregistré dans la Déclaration, réalisant des essais spécifiques sous
+      surveillance contrôlée (voir clause 7 de PD-04 [6]) ou en tant que laboratoire
+      d'une tierce partie d'une Autorité de Délivrance OIML
+  examples: []
+  id: b18-2017-18-fra
+  notes:
+  - content: Un LEF peut réaliser des essais pour sa société mère et/ou d'autres sociétés.
+      Les exigences portant sur la surveillance contrôlée s'appliquent si les essais
+      sont réalisés pour la société mère. Sinon, le LEF est considéré comme un Laboratoire
+      d'Essai d'une tierce partie; dans ce cas, les exigences applicables aux laboratoires
+      d'une tierce partie doivent être satisfaites.
+  - content: Si les résultats d'essais proviennent d'un LEF, cela doit être clairement
+      indiqué dans le rapport d'évaluation de type OIML (voir 5.5.4 de PD-05 [7] et
+      l'acceptation de ce rapport est volontaire (voir 4.9 de PD-06 [8].
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Laboratoire d'Essai du Fabricant (LEF)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 73a6c084-d99c-56e1-9fb7-a04de12f713b
+

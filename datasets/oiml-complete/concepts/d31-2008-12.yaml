@@ -1,0 +1,79 @@
+---
+data:
+  identifier: d31-2008-12
+  localized_concepts:
+    eng: 3e9c043c-1117-5b0d-a485-c0b65356f9d2
+    fra: ede77a47-b651-5fd3-8617-70d36401eda6
+    spa: ea06efcc-8a4e-57c0-9867-451b0eb8a56e
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: fdeab52e-2d46-53d2-a74c-da32b94d259c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: location in memory that each program needs for processing data. Depending
+      on the kind of programming language used, this location is defined by hardware
+      addresses or by symbolic names (variable names)
+  examples: []
+  id: d31-2008-12-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: data domain
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3e9c043c-1117-5b0d-a485-c0b65356f9d2
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Emplacement en mémoire dont chaque programme a besoin pour traiter les
+      données.
+  examples: []
+  id: d31-2008-12-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Domaine de données
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ede77a47-b651-5fd3-8617-70d36401eda6
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      Ubicación en la memoria que todo programa necesita para procesar datos. En función del tipo de lenguaje de programación utilizado, la ubicación se define mediante direcciones de hardware o nombres simbólicos (nombres de variables). El tamaño del domino direccional más pequeño suele ser un byte, pero prácticamente no está limitado: varía de 1 bit (p. ej. el flag de un registro) a estructuras de datos arbitrarias que pueden ser tan grandes como las necesidades del programador.
+
+      Los dominios de datos pueden pertenecer a un único «módulo software» o a varios. En el caso de lenguajes de alto nivel (como JAVA, C/C++, etc.) es fácil impedir el acceso al dominio de datos de un módulo de software desde otros módulos software a través del lenguaje.
+  examples: []
+  id: d31-2008-12-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dominio de datos
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: ea06efcc-8a4e-57c0-9867-451b0eb8a56e
+

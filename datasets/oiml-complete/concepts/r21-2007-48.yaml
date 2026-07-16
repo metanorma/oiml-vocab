@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-48
+  localized_concepts:
+    eng: 884d97b4-8fd7-57be-8097-042f32940de1
+    pol: 797a34be-fab6-5cee-ae79-53ba28ff9e62
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: e1e53108-287b-5705-ad23-4cec707c255b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Operating position in which the taximeter is indicating a fare at the
+      end of a fare-paying journey.
+  examples: []
+  id: r21-2007-48-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.3.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: '"Stopped" (To Pay) operating position'
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 884d97b4-8fd7-57be-8097-042f32940de1
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Zdolność taksometru do dostarczania wyników, którzgodne z innymi wynikami
+      uzyskanymi w tych samych warunkach użytkowania przy pomiarze.
+  examples: []
+  id: r21-2007-48-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Powtarzalnę [VIM:1993, 3.6 [1]]
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 797a34be-fab6-5cee-ae79-53ba28ff9e62
+

@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r147-2016-6
+  localized_concepts:
+    eng: a3c5309b-df60-59aa-8a7b-e3cf84305d6a
+    fra: 7b1be0d4-bdfc-5e4b-a58e-743151042472
+  domains:
+  - concept_id: r-147
+    source: urn:oiml:pub:r:147:2016
+    ref_type: section
+  sources: []
+status: valid
+id: e70de531-8e0b-5c1e-bf46-df0d78e10f1d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: expanded uncertainty at a specified confidence level (p=0.95 or p=0.99)
+      declared in the technical documentation, at which the BBR is considered fit
+      for its intended use. The standard uncertainty u_pBB = U_pBB/k(p) is calculated
+      from either k(p=0.95)=2 or k(p=0.99)=3
+  examples: []
+  id: r147-2016-6-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: permissible uncertainty, U_pBB
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: a3c5309b-df60-59aa-8a7b-e3cf84305d6a
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: incertitude élargie à un niveau de confiance spécifié (p=0,95 ou p=0,99)
+      déclaré dans la documentation technique, avec laquelle le corps noir est considéré
+      être approprié à l'application prévue. Le calcul de l'incertitude type u_pBB
+      = U_pBB/k(p) se base soit sur k(p=0,95)=2 soit sur k(p=0,99)=3
+  examples: []
+  id: r147-2016-6-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: incertitude tolérée, U_pBB
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7b1be0d4-bdfc-5e4b-a58e-743151042472
+

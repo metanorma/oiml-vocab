@@ -2,86 +2,33 @@
 data:
   identifier: r62-1985-1
   localized_concepts:
-    eng: 1f0e196c-ec7d-5031-a8aa-21b197d93900
-    fra: 5f1b5aeb-737c-5758-8159-d3ecb785548d
+    fra: 5552e347-4a11-59d0-adbd-6d21d0f08c8f
   domains:
   - concept_id: r-62
-    source: OIML R 62:1985
+    source: urn:oiml:pub:r:62:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '1'
+  sources: []
 status: valid
-id: 86a0d318-b883-5ed6-8c95-58a472f465d5
+id: 9ebdc409-9d26-5da5-b1b0-50b48947af7d
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Elongation unitaire provoquée dans une structure soit par un champ de
       contraintes (déformation mécanique), soit par une variation de température (dilatation).
   examples: []
-  id: r62-1985-f-1-fra
+  id: r62-1985-1-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '1'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: déformation linéaire
+    designation: Déformation linéaire
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 5f1b5aeb-737c-5758-8159-d3ecb785548d
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The unit elongation induced in a specimen either by a stress field (mechanical
-      strain) or by a temperature change (thermal expansion).
-  examples: []
-  id: r62-1985-e-1-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '1'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: strain, linear
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 1f0e196c-ec7d-5031-a8aa-21b197d93900
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5552e347-4a11-59d0-adbd-6d21d0f08c8f
 

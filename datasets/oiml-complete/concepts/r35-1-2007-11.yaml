@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r35-1-2007-11
+  localized_concepts:
+    deu: 389940a9-728b-502b-b499-d1a37cc2d504
+    eng: 13da43f3-3b87-5db6-9194-61f97243a409
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-1:2007
+    ref_type: section
+  sources: []
+status: valid
+id: b1e888c3-d646-5df6-9c66-2ebc0eef7ddc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: Teil des Maßes, der das Messergebnis entweder ständig oder auf Abfrage
+      anzeigt. Eine Anzeigeeinrichtung, die elektronisch arbeitet, muss aus einem
+      Sensor, einem Aufnehmer, einem Rechenwerk und einer Anzeige bestehen.
+  examples: []
+  id: r35-1-2007-11-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anzeigeeinrichtung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 389940a9-728b-502b-b499-d1a37cc2d504
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying results.
+  examples: []
+  id: r35-1-2007-11-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-1:2007 (E)
+      clause: 2.2.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 13da43f3-3b87-5db6-9194-61f97243a409
+

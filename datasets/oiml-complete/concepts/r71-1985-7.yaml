@@ -2,86 +2,33 @@
 data:
   identifier: r71-1985-7
   localized_concepts:
-    eng: f5f6e722-a3d4-5f0a-a5f7-691cb911f31e
-    fra: d3d02226-b5c0-5e94-9c9e-1804a3874bdf
+    fra: 88e8b27d-7593-540e-ace8-a3d08e6ce4af
   domains:
   - concept_id: r-71
-    source: OIML R 71:1985
+    source: urn:oiml:pub:r:71:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '7'
+  sources: []
 status: valid
-id: 5fdcedcf-b514-5485-acb1-ba6ea17e62ec
+id: 42d66a51-946b-5483-94b8-45834db6bb14
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Point situé sur la verticale de mesurage, par rapport auquel sont mesurées
       les distances de creux.
   examples: []
-  id: r71-1985-f-7-fra
+  id: r71-1985-7-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '7'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: point de référence supérieur
+    designation: Point de référence supérieur
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: d3d02226-b5c0-5e94-9c9e-1804a3874bdf
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The point located on the vertical measurement axis, with reference to
-      which the ullage is measured.
-  examples: []
-  id: r71-1985-e-7-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '7'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: upper reference point
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: f5f6e722-a3d4-5f0a-a5f7-691cb911f31e
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 88e8b27d-7593-540e-ace8-a3d08e6ce4af
 

@@ -1,0 +1,67 @@
+---
+data:
+  identifier: d31-2008-80
+  localized_concepts:
+    spa: 9d8a0dfd-64e6-5941-ad39-a7a28dae97b6
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 5b5df2d0-a9bd-54ba-8d8c-9a74be80ce3b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      Ejemplo:
+
+      (I)/(II) Un conjunto de datos puede contener las siguientes entradas:
+
+      - valor de medida con su unidad incluida;
+
+      - registro de fecha y hora de la medición (véase el apartado 5.2.3.7);
+
+      - localización de la medición o identificación del instrumento de medida utilizado en la medición;
+
+      - identificación inequívoca de la medición, p. ej. números consecutivos que permiten asignar los valores impresos en una factura.
+
+      5. 2.3.2 Los datos se protegerán mediante medios software para garantizar su autenticidad, integridad y, si procede, la exactitud de la información relativa al momento de la medición.
+
+      El software que visualiza o que posteriormente procesa los valores de medida y los datos complementarios comprobará el momento de la medición, la autenticidad y la integridad de los datos después de haberlos leído a partir de un almacenamiento inseguro o después de haberlos recibido por un canal de transmisión inseguro. Si se detecta una irregularidad, los datos se deben descartar o marcar como inservibles.
+
+      Los módulos de software que preparan los datos para almacenarlos o enviarlos, o que los verifican después de haberlos leído o recibido, pertenecen a la parte legalmente relevante del software.
+
+      Nota: Es recomendable exigir un nivel de severidad mayor cuando se trata de una red abierta.
+
+      Ejemplo:
+
+      (I) El programa del dispositivo emisor calcula la suma de comprobación del conjunto de datos (un algoritmo como BCC, CRC16, CRC32, etc.) y la añade al conjunto de datos. Para este cálculo utiliza un valor inicial se creto en lugar del valor dado en la norma. Este valor inicial se utiliza como clave y se almacena como una constante en el código del programa. El programa receptor o lector también ha almacenado este valor inicial en su código del programa. Antes de utilizar el conjunto de datos, el programa receptor calcula la suma de comprobación y la compara con aquella almacenada en el conjunto de datos. Si ambos valores coinciden, el conjunto de datos no ha sido falsificado. De otro modo, el programa asume la falsificación y descarta el conjunto de datos.
+
+      5.2.3.3 Para obtener un nivel de protección alto es necesario aplicar métodos
+
+      criptográficos. Las claves confidenciales utilizadas para este fin se guardarán en
+
+      secreto y protegidas en los instrumentos de medida, dispositivos electrónicos o
+
+      subconjuntos correspondientes. Deberán proporcionarse métodos de forma que
+
+      estas claves sólo se puedan leer o escribir rompiendo un precinto.
+  examples: []
+  id: d31-2008-80-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: El valor de medida almacenado o transmitido irá acompañado de toda
+      la información pertinente necesaria para su uso legalmente relevante en el futuro.
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9d8a0dfd-64e6-5941-ad39-a7a28dae97b6
+

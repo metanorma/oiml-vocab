@@ -1,0 +1,69 @@
+---
+data:
+  identifier: r112-1994-8
+  localized_concepts:
+    eng: d4e7bd3f-78a3-5224-8f9e-232e26566cb5
+    fra: 11d50fe3-6482-53bd-9ad8-2ea7ed8f6728
+  domains:
+  - concept_id: r-112
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources: []
+status: valid
+id: 1e01dcb4-b8c5-5d34-be18-f47f8265ec1d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: A measure of variation in the detector signal.
+  examples: []
+  id: r112-1994-8-eng
+  notes:
+  - content: Short-term noise includes all observable random variations of the detector
+      signal having a frequency of the order of 10^-2 Hz to 10^-1 Hz and should be
+      measured peak to peak.
+  - content: Long-term noise includes all observable random variations of the detector
+      signal with frequencies between 0.1 Hz and 1.0 Hz.
+  - content: Drift is the average slope of the baseline signal measured over a minimum
+      period of one-half hour.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: noise
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d4e7bd3f-78a3-5224-8f9e-232e26566cb5
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - Mesure d'une variation dans le signal du détecteur; il peut être divisé en trois composantes: bruit
+      à court terme (variations aléatoires perceptibles du signal du détecteur, dans
+      des fréquences de l'ordre de 10⁻² Hz à 10⁻¹ Hz), bruit à long terme (variations
+      aléatoires perceptibles dans des fréquences de l'ordre de 0,1 Hz à 1,0 Hz) et
+      dérive (gradient moyen du signal de base mesuré sur une période d'au moins une
+      demi-heure).
+  examples: []
+  id: r112-1994-8-fra
+  notes:
+  - content: Bien que le bruit à long terme puisse se produire à tout moment pendant
+      une analyse, il arrive qu'on le confonde avec un éluant tardif. Les pics d'élution
+      précédents sont habituellement plus nets et moins facilement confondus avec
+      le bruit à long terme.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bruit
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 11d50fe3-6482-53bd-9ad8-2ea7ed8f6728
+

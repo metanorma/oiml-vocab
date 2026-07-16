@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r21-2007-7
+  localized_concepts:
+    eng: cb7b455f-359b-5783-ae20-02b70c59fc91
+    pol: 84e2fb14-f288-5820-81b7-c3803c85de31
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 74912aa3-50b9-58e6-9445-0c9412903c20
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Device incorporated into the taximeter that tracks the current time and
+      date.
+  examples: []
+  id: r21-2007-7-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: real-time clock
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cb7b455f-359b-5783-ae20-02b70c59fc91
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Urządzenie wbudowane w taksometr,któredzi aktualną datę i godzinę.
+  examples: []
+  id: r21-2007-7-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Zegar czasu rzeczywistego
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 84e2fb14-f288-5820-81b7-c3803c85de31
+

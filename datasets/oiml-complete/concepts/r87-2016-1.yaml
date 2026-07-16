@@ -1,0 +1,99 @@
+---
+data:
+  identifier: r87-2016-1
+  localized_concepts:
+    eng: 8b3b1e67-56c2-55f9-9395-897faf1028a3
+    fra: cfca3f99-de1a-5e00-81fb-a260fe800bfb
+    spa: f1dc5a83-a411-5608-8088-6aa069959d0c
+  domains:
+  - concept_id: r-87
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources: []
+status: valid
+id: a9f1afae-7532-53b2-a782-0e2b8f7ae3be
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: amount of product that a prepackage contains as determined by measurement
+  examples: []
+  id: r87-2016-1-eng
+  notes:
+  - content: The actual quantity in a prepackage "i" is designated by the symbol $
+      Q_{\mathrm{i}} $ or $ q_{\mathrm{i}}. $
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: actual quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8b3b1e67-56c2-55f9-9395-897faf1028a3
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: quantité de produit qu'un préemballage contient, telle que déterminée
+      par les mesurages
+  examples: []
+  id: r87-2016-1-fra
+  notes:
+  - content: La quantité effective dans un préemballage « i » est désignée par le
+      symbole $ Q_{\mathrm{i}} $ ou $ q_{\mathrm{i}} $.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: quantité effective
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cfca3f99-de1a-5e00-81fb-a260fe800bfb
+---
+data:
+  dates:
+  - date: '2026-07-15T11:15:17Z'
+    type: accepted
+  definition:
+  - content: |-
+      2. 1.1
+
+      cantidad real
+
+      Cantidad de producto que contiene un preempacado, y que se determina por medición.
+
+      Nota: La cantidad real en un preempacado "i" se designa mediante el símbolo $ Q_{i} $ o $ q_{i}. $
+
+      2. 1.2
+
+      error
+
+      2. 1.2.1
+
+      error promedio
+
+      Suma de los errores individuales de los preempacados teniendo en cuenta su signo aritmético, dividida por el número de preempacados en la muestra o lote de inspección.
+
+      Nota 1: El error promedio para todos los preempacados en una muestra con tamaño de muestra n se designa mediante el símbolo $e_{\mathrm{ave}}$.
+
+      Nota 2: El error promedio para todos los preempacados de un lote de inspección con N preempacados se designa mediante el símbolo $ E_{\mathrm{ave}} $
+  examples: []
+  id: r87-2016-1-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Definiciones
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f1dc5a83-a411-5608-8088-6aa069959d0c
+

@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r35-1-2007-13
+  localized_concepts:
+    deu: 3dd0f019-27b2-5edc-970b-2dc1effabd6f
+    eng: 3409a0eb-52f4-5792-9685-7b76b562caa1
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-1:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 1f4a749f-7947-554c-aa4e-8c5e35ee3b24
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: Größe, die zwar nicht der Gegenstand der Messung ist, die jedoch die
+      Werte der Messgröße oder die Anzeige des Gerätes beeinflusst.
+  examples: []
+  id: r35-1-2007-13-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Einflussgröße
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3dd0f019-27b2-5edc-970b-2dc1effabd6f
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Influence quantity having a value within the specified rated operating
+      conditions of the instrument.
+  examples: []
+  id: r35-1-2007-13-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-1:2007 (E)
+      clause: 2.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3409a0eb-52f4-5792-9685-7b76b562caa1
+

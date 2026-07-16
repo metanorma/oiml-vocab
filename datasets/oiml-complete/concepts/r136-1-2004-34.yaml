@@ -1,0 +1,73 @@
+---
+data:
+  identifier: r136-1-2004-34
+  localized_concepts:
+    deu: a52471dd-ad29-550a-b713-8ae9345e782f
+    eng: c035db76-91dc-5e63-b0e9-3f87d43d98a8
+  domains:
+  - concept_id: r-136
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources: []
+status: valid
+id: 4b4a493c-67ef-5e0b-a567-30953bb9fb01
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:35Z'
+    type: accepted
+  definition:
+  - content: |-
+      Maß der Übereinstimmung zwischen den Ergebnissen der Differenz zwischen den größten $ \left( A_{\mathrm{m a x}} \right) $ und den kleinsten $ \left( A_{\mathrm{m i n}} \right) $ aufeinanderfolgenden Flächenmessungen, die unter denselben Messbedingungen durchgeführt werden.
+
+      $$
+      R = A _ {\max } - A _ {\min }
+      $$
+
+      Anmerkung: Die Wiederholbarkeitsbedingungen umfassen:
+
+      - dasselbe Messverfahren;
+
+      - denselben Beobachter;
+
+      - dasselbe Messgerät, das unter denselben Bedingungen verwendet wird;
+
+      - denselben Ort; und
+
+      - Wiederholung innerhalb einer kurzen Zeitspanne
+
+      Die Wiederholpräzision kann quantitativ durch Streuungskennwerte der Ergebnisse ausgedrückt werden. [VIM 3.6]
+  examples: []
+  id: r136-1-2004-34-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wiederholbarkeit (R)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: a52471dd-ad29-550a-b713-8ae9345e782f
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: Closeness of the agreement between the results of successive leather
+      area measurements carried out under changed conditions of measurement.
+  examples: []
+  id: r136-1-2004-34-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reproducibility error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c035db76-91dc-5e63-b0e9-3f87d43d98a8
+

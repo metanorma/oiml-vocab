@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r129-1-2020-12
+  localized_concepts:
+    deu: cb7afe0c-0963-5a05-b11b-050b420fb95c
+    eng: 155f1659-c1a9-541d-9251-512cceef8b78
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 9770ccce-1549-5178-9d45-6afc79d25a8d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: |-
+      maximale Geschwindigkeit, bei der das Gerät korrekte Messungen durchführt
+
+      Hinweis: Gilt nur für Geräte, bei denen Messungen durch eine Relativbewegung zwischen Objekt und Gerät beeinträchtigt werden.
+  examples: []
+  id: r129-1-2020-12-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Maximale Messgeschwindigkeit ($ V_{\mathrm{max}} $)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cb7afe0c-0963-5a05-b11b-050b420fb95c
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: maximum speed at which the instrument will measure correctly
+  examples: []
+  id: r129-1-2020-12-eng
+  notes:
+  - content: Only applicable to instruments where measurements are affected by means
+      of relative movement between the object and the instrument.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum measuring speed
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 155f1659-c1a9-541d-9251-512cceef8b78
+

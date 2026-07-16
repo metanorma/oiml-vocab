@@ -1,0 +1,76 @@
+---
+data:
+  identifier: r21-2007-25
+  localized_concepts:
+    eng: 900efc5f-34d3-56da-bdcc-3603fccf60b3
+    pol: c1d1d7bb-6386-57d6-afcf-87c098cc3df1
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: cb09d34b-5c3c-5b19-8dd4-a047697f97c3
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: First increment of fare indication upon activation of the taximeter.
+  examples: []
+  id: r21-2007-25-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: initial hire fee (or initial charge)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 900efc5f-34d3-56da-bdcc-3603fccf60b3
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: |-
+      Prędkość taksówki (km/h), przy której metody liczenia cząsrogi obsługuj taksometr w tej samej wysoko. Wartość prędkości jest okrślana poprzez podzielenie warto taryfy czasowej przez warto obowiązujcej taryfy drogowej.
+
+      Prędkość graniczną oblicza się jako:
+
+      Taryfa czasowa [kwota/h]
+
+      Taryfa drogowa [kwota/km]
+
+      Na przykład:
+
+      Taryfa czasowa: 60,00$/h
+
+      Taryfa drogowa: 3,00$/km
+
+      Prédkość graniczna [km/h]:
+
+      $$
+      \frac {6 0 , 0 0 \$/ h}{3 , 0 0 \$/ k m} = 2 0 \mathrm {k m} / \mathrm {h}
+      $$
+  examples: []
+  id: r21-2007-25-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Prедkość graniczna
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c1d1d7bb-6386-57d6-afcf-87c098cc3df1
+

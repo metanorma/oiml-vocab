@@ -1,0 +1,36 @@
+---
+data:
+  identifier: g9-1987-81
+  localized_concepts:
+    '1987': cdafe1b4-c206-5ecd-ab56-c0ed2a989b3f
+  domains:
+  - concept_id: g-9
+    source: urn:oiml:pub:g:9:1987
+    ref_type: section
+  sources: []
+status: valid
+id: 90348d3f-92d1-5b24-9e47-d9eb4f0a41a5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-12T14:28:40Z'
+    type: accepted
+  definition:
+  - content: |-
+      Chapter 11.3.3.1, Propane Compressibility Table, 1974
+
+      This Fortran IV subroutine is applicable to liquid phase propane in the following ranges: relative density, 0.500 to 0.510; temperature, -20 to $ 1 2 0^{\circ} \mathrm{F} $ ; saturation pressure to 1500 psia. The subroutine computes the following two values: average compressibility per psi (this factor would be applied in the same manner as compressibilities in Chapters 11.2.1 and 11.2.2) and the ratio of volume at flowing temperature and pressure to volume at flowing temperature and saturation pressure.
+  examples: []
+  id: g9-1987-81-1987
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 852-25654
+  language_code: '1987'
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cdafe1b4-c206-5ecd-ab56-c0ed2a989b3f
+

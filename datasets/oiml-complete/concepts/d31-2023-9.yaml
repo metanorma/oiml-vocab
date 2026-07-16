@@ -1,0 +1,36 @@
+---
+data:
+  identifier: d31-2023-9
+  localized_concepts:
+    eng: 3702299c-cde3-5aa4-84ca-33243b42432b
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2023
+    ref_type: section
+  sources: []
+status: valid
+id: 7276199f-52ac-5241-9926-52133f210462
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Dataset containing the public key belonging to a measuring instrument
+      or a person plus a unique identification of the subject, e.g. serial number
+      of the measuring instrument or name or Personal Identification Number (PIN)
+      of the person, plus a date of expiry, plus a trusted party signature.
+  examples: []
+  id: d31-2023-9-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cryptographic certificate
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3702299c-cde3-5aa4-84ca-33243b42432b
+
