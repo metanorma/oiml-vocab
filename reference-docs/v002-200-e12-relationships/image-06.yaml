@@ -15,8 +15,8 @@ source_pdf:      reference-docs/v002-200-e12-relationships.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-07T12:08:56Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
@@ -49,62 +49,55 @@ relationships:
   # (a) Associative — arrowed line, bidirectional.
   #     Compact form: [a, b].
   associative:
-  - members: ['1.19', '2.11']
-    runs: [1, 2]
-  - members: ['1.19', '2.12']
-    runs: [1, 2]
-  - members: ['2.9', '1.19']
-    runs: [1, 2]
-  - members: ['1.19', '5.18']
-    runs: [1, 2]
   - members: ['2.28', '2.10']
     runs: [1, 2]
+    status: confirmed
   - members: ['2.32', '2.10']
     runs: [1, 2]
+    status: confirmed
   - members: ['2.3', '2.11']
     runs: [1, 2]
-  - members: ['2.36', '2.11']
-    runs: [1, 2]
+    status: confirmed
   - members: ['2.26', '2.33']
     runs: [1, 2]
+    status: confirmed
   - members: ['2.26', ext_evaluation_of_measurement_uncertainty_component]
     runs: [1, 2]
+    status: confirmed
   - members: ['2.3', '2.27']
     runs: [1, 2]
-  - members: [ext_evaluation_of_measurement_uncertainty_component, '2.29']
-    runs: [1, 2]
+    status: confirmed
   - members: ['2.35', '2.31']
     runs: [1, 2]
+    status: confirmed
   - members: ['2.31', '2.48']
     runs: [1, 2]
+    status: confirmed
   - members: ['2.35', '2.38']
     runs: [1, 2]
+    status: confirmed
   - members: ['2.36', '2.37']
     runs: [1, 2]
+    status: confirmed
   - members: ['2.48', '2.49']
     runs: [1, 2]
-  - members: ['2.9', '2.10']
+    status: confirmed
+  - members: ['2.37', '2.11']
+    runs: [2]
+    status: confirmed
+  - members: ['5.18', '2.26']
     runs: [1]
-  - members: ['2.49', '2.11']
-    runs: [2]
-  - members: ['2.32', '2.26']
-    runs: [2]
-  - members: ['2.34', '2.26']
-    runs: [2]
-  - members: ['2.9', '2.26']
+    status: confirmed
+  - members: ['2.30', '2.32']
     runs: [1]
-  - members: [ext_evaluation_of_measurement_uncertainty_component, '2.28']
-    runs: [1]
-  - members: ['2.30', '2.35']
-    runs: [1]
-  - members: ['2.34', '2.32']
-    runs: [2]
-  - members: ['2.35', '2.32']
-    runs: [2]
+    status: confirmed
   - members: ['2.35', '2.36']
     runs: [2]
+    status: confirmed
   - members: ['2.36', '2.38']
     runs: [1]
+  - members: ['2.31', '2.38']
+    status: confirmed
 
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
@@ -115,14 +108,25 @@ relationships:
   - broader: '2.30'
     narrower: ['2.31', ...]
     runs: [1, 2]
+  - broader: '1.19'
+    narrower: ['2.10', '5.18', '2.11', '2.12']
+  - broader: ext_evaluation_of_measurement_uncertainty_component
+    narrower: ['2.28', '2.29']
 
   # (c) Partitive — bracket rake: comprehensive → parts.
-  partitive: []
+  partitive: 
+  - comprehensive: '2.9'
+    parts: ['2.10', '2.26']
+  - comprehensive: '2.26'
+    parts: ['2.31', '2.27']
 
   # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
   #     INDEPENDENT HYPEREDGE — see schema.
   partitive_plural:
   - comprehensive: '2.26'
-    parts: ['2.27', '4.24', ...]
+    parts: ['4.24']
     markers: [dashed]
     runs: [1, 2]
+  - comprehensive: '2.36'
+    parts: ['2.11']
+    markers: [double]

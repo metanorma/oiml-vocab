@@ -15,8 +15,8 @@ source_pdf:      reference-docs/v002-200-e12-relationships.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-07T12:03:25Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
@@ -25,14 +25,11 @@ nodes:
   ext_reference: reference
   '1.1': quantity
   '1.19': quantity value
-  '1.1_2': quantity
   '2.1': measurement
   '2.10': measured quantity value
   '2.2': metrology
   '2.26': measurement uncertainty
   '2.3': measurand
-  '2.3_measurand': measurand
-  '2.3_proc': primary reference measurement procedure
   '2.4': measurement principle
   '2.46': metrological comparability of measurement results
   '2.47': metrological compatibility of measurement results
@@ -40,6 +37,7 @@ nodes:
   '2.5': measurement method
   '2.6': measurement procedure
   '2.7': reference measurement procedure
+  '2.8': primary reference measurement procedure
   '2.9': measurement result
 
 relationships:
@@ -70,81 +68,45 @@ relationships:
     runs: [1, 2]
   - members: ['2.48', '1.1']
     runs: [2]
-  - members: ['2.48', '1.1_2']
-    runs: [1]
   - members: ['2.48', '2.1']
     runs: [1]
   - members: ['2.9', '2.1']
     runs: [1]
-  - members: ['2.9', '2.10']
-    runs: [1]
-  - members: ['2.9', '2.26']
-    runs: [1]
   - members: ['2.47', '2.3']
     runs: [1]
-  - members: ['2.3', '2.48']
-    runs: [2]
-  - members: ['2.3', '2.7']
-    runs: [2]
-  - members: ['2.3', ext_quantity_being_measured]
-    runs: [1]
-  - members: ['2.47', '2.3_measurand']
-    runs: [2]
-  - members: ['2.3_measurand', ext_quantity_being_measured]
+  - members: ['2.3', '2.9']
     runs: [2]
   - members: ['2.6', '2.4']
     runs: [1]
-  - members: ['2.47', '2.46']
-    runs: [2]
   - members: ['2.9', '2.46']
     runs: [1]
-  - members: ['2.7', '2.48']
-    runs: [2]
   - members: ['2.6', '2.5']
     runs: [1]
-  - members: ['2.7', '2.6']
-    runs: [2]
   - members: ['2.6', '2.9']
     runs: [2]
 
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
   hierarchical:
-  - broader: '2.4'
-    narrower: ['2.5']
-    runs: [1, 2]
-  - broader: '2.5'
-    narrower: ['2.6']
-    runs: [1, 2]
   - broader: '2.6'
-    narrower: ['2.7']
+    narrower: ['2.7', ...]
     runs: [1]
   - broader: '2.7'
-    narrower: ['2.3_proc']
+    narrower: ['2.8', ...]
     runs: [1]
+  - broader: '1.1'
+    narrower: ['2.3', ext_quantity_being_measured, ...]
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive:
-  - comprehensive: '2.6'
-    parts: ['2.7', ...]
+  - comprehensive: '2.9'
+    parts: ['1.9', ext_other_information, '2.10', '2.26']
     runs: [1, 2]
-  - comprehensive: '1.1'
-    parts: ['2.3_measurand', ...]
-    runs: [2]
-  - comprehensive: '2.3'
-    parts: ['1.1_2', ext_quantity_being_measured, ...]
-    runs: [1]
-  - comprehensive: '2.7'
-    parts: ['2.3', ...]
-    runs: [2]
-  - comprehensive: '2.7'
-    parts: ['2.3_proc', ...]
-    runs: [1]
 
   # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
   #     INDEPENDENT HYPEREDGE — see schema.
   partitive_plural:
   - comprehensive: '2.9'
-    parts: ['1.19', ext_other_information, '2.10']
+    parts: ['1.19']
     markers: [dashed]
     runs: [1, 2]

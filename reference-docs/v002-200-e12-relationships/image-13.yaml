@@ -15,8 +15,8 @@ source_pdf:      reference-docs/v002-200-e12-relationships.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-07T12:19:03Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
@@ -24,12 +24,12 @@ nodes:
   ext_precision_control_material: precision control material
   ext_reference_material_certificate: reference material certificate
   ext_trueness_control_material: trueness control material
-  '1.1': quantity (see Fig. A.1
-  '1.19': Quantity value (see Fig. A.1
+  '1.1': quantity (see Fig. A.1)
+  '1.19': Quantity value (see Fig. A.1)
   '2.26': measurement uncertainty
-  '2.39': calibration (see Fig. A.7
+  '2.39': calibration (see Fig. A.7)
   '2.41': metrological traceability
-  '2.8': primary reference measurement procedure (see Fig. A.3
+  '2.8': primary reference measurement procedure (see Fig. A.3)
   '3.2': measuring system
   '3.6': material measure
   '5.1': measurement standard
@@ -57,8 +57,6 @@ relationships:
   associative:
   - members: ['1.19', '1.1']
     runs: [1, 2]
-  - members: ['5.18', '1.19']
-    runs: [1, 2]
   - members: ['5.12', '2.39']
     runs: [1, 2]
   - members: ['2.8', '5.4']
@@ -67,34 +65,14 @@ relationships:
     runs: [1, 2]
   - members: [ext_reference_material_certificate, '5.14']
     runs: [1, 2]
-  - members: ['1.1', '2.26']
-    runs: [2]
-  - members: ['1.1', '3.2']
-    runs: [2]
-  - members: ['1.1', '3.6']
-    runs: [2]
   - members: ['1.1', '5.1']
-    runs: [2]
-  - members: ['1.1', ext_trueness_control_material]
-    runs: [2]
-  - members: ['2.26', '1.19']
-    runs: [1]
-  - members: ['5.17', '2.26']
-    runs: [2]
-  - members: ['2.39', ext_control_material]
     runs: [2]
   - members: ['5.1', '2.41']
     runs: [2]
   - members: ['5.1', '5.11']
     runs: [1]
-  - members: ['5.1', '5.12']
-    runs: [2]
-  - members: ['5.13', ext_precision_control_material]
-    runs: [2]
-  - members: ['5.13', ext_trueness_control_material]
-    runs: [2]
-  - members: ['5.4', '5.5']
-    runs: [1]
+  - members: ['5.1', '2.26']
+  - members: ['5.18', '2.26']
 
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
@@ -102,30 +80,26 @@ relationships:
   - broader: '5.16'
     narrower: ['5.18', '5.17', ...]
     runs: [1, 2]
-  - broader: '1.1'
-    narrower: ['5.1', '5.13', '3.2', '3.6']
+  - broader: '5.1'
+    narrower: ['5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', ...]
     runs: [1]
   - broader: '5.1'
-    narrower: ['2.41']
-    runs: [1]
-  - broader: '5.4'
-    narrower: ['5.5']
+    narrower: ['5.12', ext_trueness_control_material]
     runs: [2]
+  - broader: '5.1'
+    narrower: ['5.13', '3.2', '3.6']
+  - broader: '5.13'
+    narrower: ['5.14', ...]
+  - broader: '5.13'
+    narrower: [ext_control_material, ...]
   - broader: ext_control_material
     narrower: [ext_trueness_control_material, ext_precision_control_material]
     runs: [2]
+  - broader: '1.19'
+    narrower: ['5.18', ...]
 
   # (c) Partitive — bracket rake: comprehensive → parts.
-  partitive:
-  - comprehensive: '5.13'
-    parts: ['5.14', ...]
-    runs: [1, 2]
-  - comprehensive: '5.1'
-    parts: ['5.11', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', ...]
-    runs: [2]
-  - comprehensive: '5.1'
-    parts: ['5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', ...]
-    runs: [1]
+  partitive: []
 
   # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
   #     INDEPENDENT HYPEREDGE — see schema.
