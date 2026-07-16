@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r21-2007-54
+  localized_concepts:
+    eng: fed757f8-b6ce-583a-aaa9-e45146b15eea
+    pol: f933d6cd-6fee-552d-a4ea-78f52f68fb54
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: f77896a4-36fc-5c3a-b9a5-ecf8c34af060
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Mode for updating or confirming the taximeter parameters to be held in
+      the memory storage.
+  examples: []
+  id: r21-2007-54-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.8
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: service mode
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: fed757f8-b6ce-583a-aaa9-e45146b15eea
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: |-
+      Wskazanie, w którym wycie lub wyswietlenie wyników pomiarów jest zdigitalizowane.
+
+      Uwaga: Termin „zdigitalizowane” odnosi się do formy prezentacji wyjcia lub wyswietlenia, a nie do zasady dzialania przyrządu.
+  examples: []
+  id: r21-2007-54-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wskazanie cyfrowe [VIM:1993, 4.11 [1]]
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f933d6cd-6fee-552d-a4ea-78f52f68fb54
+

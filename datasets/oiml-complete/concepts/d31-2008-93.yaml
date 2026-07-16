@@ -1,0 +1,64 @@
+---
+data:
+  identifier: d31-2008-93
+  localized_concepts:
+    spa: fec1f6c4-33ed-5685-b4a4-02c4ad9c0d72
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 7fe3b2fd-b748-5dfe-a72e-bead61d7b8a6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      (II) La comprobación de autenticidad se lleva a cabo con métodos criptográficos, como un sistema de clave pública. El propietario del certificado de aprobación de modelo (por lo general el fabricante del instrumento de medida) genera una firma electrónica del software a actualizar utilizando la «clave secreta» en las instalaciones. La «clave pública» se almacena en la parte del software fijo del instrumento de medida. La firma se comprueba utilizando la «clave pública» cuando el software se carga en el instrumento de medida. Si la firma del software cargado es correcta, se instala y activa; si no supera la comprobación, el software fijo la descarta y utiliza la versión anterior del software o cambia a un modo inoperante.
+
+      5. 2.6.3.d Se deben utilizar medios técnicos para asegurar la integridad del software cargado, es decir, que no ha sido modificado de forma inadmisible antes de la carga. Esta operación puede llevarse a cabo añadiendo una suma de comprobación o un código hash del software cargado y comprobándolo durante el procedimiento de carga. Si el software cargado no supera este ensayo, el instrumento lo descartará y utilizará la versión anterior del software o cambiará a un modo inoperante. En este modo, se inhiben las funciones de medición. Únicamente será posible reanudar el procedimiento de descarga, sin omitir ningún paso del diagrama de flujo de la Actualización rastreada.
+
+      5. 2.6.3.e Se deben utilizar medios técnicos adecuados, por ejemplo un registro de actividades, con el fin de garantizar que la trazabilidad en el instrumento de las Actualizaciones rastreadas del software legalmente relevante es adecuada para verificaciones periódicas, vigilancia o inspección.
+
+      El registro de actividades incluirá como mínimo la siguiente información: proceso de actualización aprobado/rechazado, identificación del software de la versión instalada, identificación del software de la version previamente instalada, registro de fecha y hora del suceso, identificación de la parte que realiza la descarga. Para cada intento de actualización se genera una entrada, independientemente del resultado.
+
+      El dispositivo de almacenamiento utilizado para la Actualización rastreada tendrá capacidad suficiente para garantizar la trazabilidad de las Actualizaciones rastreadas del software legalmente relevante entre al menos dos verificaciones sucesivas in situ/ inspección. Tras alcanzar el límite de almacenamiento para el
+
+      registro de actividades, se garantizará con medios técnicos la imposibilidad de realizar descargas posteriores sin romper un precinto.
+
+      Nota: Este requisito permite a las autoridades de vigilancia, responsables de la supervisión metrológica de los instrumentos controlados legalmente, hacer un seguimiento de las Actualizaciones rastreadas del software legalmente relevante durante un período de tiempo adecuado (en función de la legislación nacional).
+
+      5. 2.6.3.f En función de las necesidades y de la legislación nacional, puede ser necesario que el usuario o propietario del instrumento de medida dé su consentimiento para realizar la descarga. El instrumento de medida debe disponer de un dispositivo electrónico / subconjunto que permita al usuario o al propietario expresar su consentimiento, p. ej. un botón a pulsar antes de iniciar la descarga. Se debe poder habilitar y deshabilitar este dispositivo electrónico / subconjunto, p. ej. mediante un interrupter que se pueda precintar o mediante un parámetro. Si el dispositivo electrónico / subconjunto está habilitado, serán el usuario o el propietario quienes inicien las descargas. Si está deshabilitado no es necesario que el usuario o el propietario lleven a cabo ninguna acción para realizar la descarga.
+
+      5. 2.6.3.g Si los requisitos del apartado 5.2.6.3.a al apartado 5.2.6.3.f no pueden cumplirse, sigue siendo posible actualizar la parte legalmente no relevante del software. En tal caso, deben cumplirse los siguientes requisitos:
+
+      - existe una separación definida entre el software legalmente relevante y el no relevante de acuerdo con el apartado 5.2.1;
+
+      - la parte legalmente relevante del software no se puede actualizar sin romper un precinto;
+
+      - en el certificado de aprobación de modelo consta que la actualización de la parte legalmente no relevante es posible.
+
+      ![](page=7,bbox=[292, 300, 1663, 2284])
+
+      <div align="center">
+
+      Figura 1 Procedimiento de actualización del software
+
+      </div>
+  examples: []
+  id: d31-2008-93-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'Ejemplo:'
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: fec1f6c4-33ed-5685-b4a4-02c4ad9c0d72
+

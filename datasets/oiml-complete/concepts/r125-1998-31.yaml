@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r125-1998-31
+  localized_concepts:
+    eng: bb166eda-8277-5b2d-80a0-df6bc3749e87
+    fra: 1efa9d2c-7929-5037-9688-ecae11db5bf0
+  domains:
+  - concept_id: r-125
+    source: urn:oiml:pub:r:125:1998
+    ref_type: section
+  sources: []
+status: valid
+id: 72118b92-0c84-5dea-9e37-873506f73721
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: A fault greater than the absolute value of the maximum permissible error
+      for the minimum quantity.
+  examples: []
+  id: r125-1998-31-eng
+  notes:
+  - content: Faults arising from simultaneous and mutually independent causes in the
+      measuring instrument itself or in its checking facilities; faults implying the
+      impossibility to perform any measurement; transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorized or transmitted
+      as a measurement result; and faults giving rise to variations in the measurement
+      result which are so serious that they are bound to be noticed by all those interested
+      in the measurement result are not considered significant.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bb166eda-8277-5b2d-80a0-df6bc3749e87
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Défaut supérieur à la valeur absolue de l'erreur maximale tolérée pour
+      la quantité minimale.
+  examples: []
+  id: r125-1998-31-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1efa9d2c-7929-5037-9688-ecae11db5bf0
+

@@ -1,0 +1,38 @@
+---
+data:
+  identifier: r76-2006-37
+  localized_concepts:
+    fra: 121699c9-9f82-51ae-8607-9f0c330db833
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 23ca379c-3ce8-5710-82f8-3ce6e5695105
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      The deviation on returning to zero as soon as the indication has stabilized, after the removal of any load which has remained on the instrument for half an hour, shall not exceed 0.5 e.
+
+      For a multi-interval instrument, the deviation shall not exceed 0.5 $ e_{1} $ .
+
+      On a multiple range instrument, the deviation on returning to zero from $ \mathrm{M a x}_{i} $ shall not exceed 0.5 $ e_{i} $ Furthermore, after returning to zero from any load greater than $ \mathrm{M a x}_{1} $ and immediately after switching to the lowest weighing range, the indication near zero shall not vary by more than $ e_{1} $ during the following 5 minutes.
+  examples: []
+  id: r76-2006-37-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Zero return
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 121699c9-9f82-51ae-8607-9f0c330db833
+

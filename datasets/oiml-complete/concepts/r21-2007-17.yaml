@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-17
+  localized_concepts:
+    eng: e48652b4-845d-5e49-a7c9-860658c1b525
+    pol: c0594df9-124c-521e-a6a7-93674167cb3a
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 9192491e-9380-5955-93da-3de19d864b61
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Securing of measuring instrument software by a hardware or software implemented
+      seal which has to be removed, damaged or broken to obtain access to change software.
+  examples: []
+  id: r21-2007-17-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.8.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software protection
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e48652b4-845d-5e49-a7c9-860658c1b525
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Rozdzielenie oprogramowania w przydziale pomiarowym na część majca znaczenie
+      z prawnego punktu widzenia i część niemajca znaczenia z prawnego punktu widzenia.
+      Komunikacja tymi częściami odbywa się przez interfejs.
+  examples: []
+  id: r21-2007-17-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rozdzielenie oprogramowania
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c0594df9-124c-521e-a6a7-93674167cb3a
+

@@ -1,0 +1,56 @@
+---
+data:
+  identifier: r112-1994-12
+  localized_concepts:
+    eng: 46127ee9-9cf2-560c-9a20-fea37ec4ab93
+    fra: 975f6d27-0c5f-5b52-8120-5d97e699a59e
+  domains:
+  - concept_id: r-112
+    source: urn:oiml:pub:r:112:1994
+    ref_type: section
+  sources: []
+status: valid
+id: 0c72b1cc-e657-5d28-b105-1b15f37e11c5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: The output signal per unit concentration of the sample component in the
+      mobile phase.
+  examples: []
+  id: r112-1994-12-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: sensitivity of a detector
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 46127ee9-9cf2-560c-9a20-fea37ec4ab93
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Signal de sortie par unité de concentration du composant de l'échantillon
+      dans la phase mobile.
+  examples: []
+  id: r112-1994-12-fra
+  notes:
+  - content: Un détecteur électrochimique du type coulombien n'obéit pas à cette équation.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilité du détecteur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 975f6d27-0c5f-5b52-8120-5d97e699a59e
+

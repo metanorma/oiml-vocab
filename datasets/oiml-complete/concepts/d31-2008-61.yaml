@@ -1,0 +1,40 @@
+---
+data:
+  identifier: d31-2008-61
+  localized_concepts:
+    spa: 2c37d10e-94fc-52d4-849d-f0c64f8deccf
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: d3f603a1-158b-59d8-918a-32e1c17e91d1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      (I) El software contiene una cadena de texto o un número que identifica de manera inequivoca la versión instalada. Esta cadena se transmite al dispositivo indicador al pulsar un botón cuando se enciende el instrumento o de manera cíclica, controlado por un temporizador.
+
+      Un número de versión puede seguir la estructura A.Y.Z. En el caso de un controlador de caudal, la letra A representará la versión del software central que cuenta impulsos, la letra Y representará la version de la función de conversión (ninguna, a 15 $ ^{\circ} \mathrm{C} $ , a 20 $ ^{\circ} \mathrm{C} $ ) y la letra Z representará el idioma de la interfaz de usuario.
+
+      (II) El software calcula una suma de comprobación del código ejecutable y presenta el resultado como la identificación en lugar o además de la cadena de (I). El algoritmo de la suma de comprobación será un algoritmo normalizado, p. ej. el algoritmo CRC16 es una solución aceptable para este cálculo.
+
+      La solución (II) es adecuada si se requiere un mayor nivel de conformidad (véanse los apartados 5.2.5 (d) y 8).
+  examples: []
+  id: d31-2008-61-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'Ejemplo:'
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2c37d10e-94fc-52d4-849d-f0c64f8deccf
+

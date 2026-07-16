@@ -1,0 +1,64 @@
+---
+data:
+  identifier: r35-1-2007-5
+  localized_concepts:
+    deu: b591a20f-6d30-5b45-91ce-a616c26fa252
+    eng: '0901dd8a-d084-5e2c-9f4e-c800136e757b'
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-1:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 961cec6a-b6d2-5506-a8a7-090342d4a97f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: |-
+      Der in Längeneinheiten ausgedrückte Wert ...
+
+      - (bei analoger Anzeige:)
+
+      ... der Differenz zwischen den Werten, die zwei aufeinanderfolgenden Skalenmarken entsprechen; oder
+  examples: []
+  id: r35-1-2007-5-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Skalenteilungswert
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b591a20f-6d30-5b45-91ce-a616c26fa252
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Value expressed in units of length of the difference between the values
+      corresponding to two consecutive scale marks, for analog indication, or the
+      difference between two consecutive indicated values, for digital indication.
+  examples: []
+  id: r35-1-2007-5-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-1:2007 (E)
+      clause: 2.1.5
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: scale interval
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: '0901dd8a-d084-5e2c-9f4e-c800136e757b'
+

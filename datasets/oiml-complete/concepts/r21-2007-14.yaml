@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r21-2007-14
+  localized_concepts:
+    eng: 6c485999-83ad-5182-a79b-0fbafec415a5
+    pol: 4dc4d546-60de-5680-9a84-9c58298da2c3
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: '038068d3-7937-5caf-b75e-851432246349'
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the type of taximeter
+      only.
+  examples: []
+  id: r21-2007-14-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.8.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: type-specific parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6c485999-83ad-5182-a79b-0fbafec415a5
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Parametr majcy znaczenie z prawnego punktu widzenia, któregłowną zaley
+      jedynie od typu taksometru. Jest on ustalany przy zatwierdzeniu typu taksometrykladami
+      parametrów charakterystycznych typu s identyfikator oprogramowania oraz parametry
+      wykstywane do obliczania i zaoklania oplaty za przejazd.
+  examples: []
+  id: r21-2007-14-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Parametr charakterystyczny typu
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4dc4d546-60de-5680-9a84-9c58298da2c3
+

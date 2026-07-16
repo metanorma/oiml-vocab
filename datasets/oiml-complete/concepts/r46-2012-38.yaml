@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r46-2012-38
+  localized_concepts:
+    fra: e86fa883-9f54-5935-98d6-61ed66be800f
+  domains:
+  - concept_id: r-46
+    source: urn:oiml:pub:r:46:2012
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012, 4.26
+status: valid
+id: 8f6c4c25-db8f-52e5-adf9-f2593edb0c94
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Valeur extrême de l'erreur de mesure, par rapport à une valeur de référence
+      connue, qui est tolérée par les spécifications ou règlements pour un mesurage,
+      un instrument de mesure ou un système de mesure donné.
+  examples: []
+  id: r46-2012-38-fra
+  notes:
+  - content: Les termes « erreurs maximales tolérées » ou « limites d'erreur » sont
+      généralement utilisés lorsqu'il y a deux valeurs extrêmes.
+  - content: Il convient de ne pas utiliser le terme « tolérance » pour désigner l'erreur
+      maximale tolérée.
+  - content: Dans la présente Recommandation, l'erreur maximale tolérée est une combinaison
+      de l'erreur maximale tolérée de base et le décalage d'erreur maximal toléré
+      tel que décrit en Annexe B.
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML V 2-200:2012, 4.26
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur maximale tolérée (emt)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e86fa883-9f54-5935-98d6-61ed66be800f
+

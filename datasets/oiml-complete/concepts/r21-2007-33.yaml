@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r21-2007-33
+  localized_concepts:
+    eng: 731f5746-65eb-5492-8dc0-0538712be1e4
+    pol: c75ca692-fd21-501b-9e8b-fba22d21046d
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 49a3d6ea-9e55-5c44-9cec-6c13b30d331c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Calculation method in which the fare increases in proportion to the duration
+      of the journey.
+  examples: []
+  id: r21-2007-33-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: time-counting
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 731f5746-65eb-5492-8dc0-0538712be1e4
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: |-
+      Liczenie czasu i drogi to metoda obliczeniowa, wróć dwa składniki opłaty za przejazd równoczenie,
+
+      jeden proporcjonalnie do czasu przejazdu, a drugi proporcjonalnie do przebytej drogi.
+  examples: []
+  id: r21-2007-33-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Liczenie czasu i drogi
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c75ca692-fd21-501b-9e8b-fba22d21046d
+

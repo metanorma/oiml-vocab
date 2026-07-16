@@ -2,88 +2,32 @@
 data:
   identifier: r124-1997-6
   localized_concepts:
-    eng: 9904bd41-6c55-5c1f-933e-6c03cfcf9034
-    fra: ddc16d28-3393-5845-b917-4782efcb07da
+    fra: f845abd8-7f25-58cc-b1d9-8ec1214c173d
   domains:
   - concept_id: r-124
-    source: OIML R 124:1997
+    source: urn:oiml:pub:r:124:1997
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 124:1997
-        version: '1997'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '6'
+  sources: []
 status: valid
-id: 528c8a94-f2da-5477-82f5-66b837db8236
+id: 6b1d0804-1902-5ca3-af53-44de662d5a5f
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
-  - content: Conditions of use, giving the range of values of influence quantities
-      for which the metrological characteristics are intended to be within the specified
-      maximum permissible errors
+  - content: Erreur d'un instrument utilisé dans les conditions de référence.
   examples: []
-  id: r124-1997-e-6-eng
-  notes:
-  sources:
-  - origin:
-      ref:
-        source: OIML R 124:1997
-        version: '1997'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '6'
+  id: r124-1997-6-fra
+  notes: []
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: rated operating conditions
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-124
-    source: OIML R 124:1997
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 9904bd41-6c55-5c1f-933e-6c03cfcf9034
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Conditions d'utilisation, donnant l'étendue des valeurs des grandeurs
-      d'influence pour lesquelles les caractéristiques métrologiques sont supposées
-      rester à l'intérieur des erreurs maximales tolérées spécifiées
-  examples: []
-  id: r124-1997-f-6-fra
-  notes:
-  sources:
-  - origin:
-      ref:
-        source: OIML R 124:1997
-        version: '1997'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '6'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Conditions assignées de fonctionnement
+    designation: Erreur intrinsèque
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-124
-    source: OIML R 124:1997
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: ddc16d28-3393-5845-b917-4782efcb07da
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f845abd8-7f25-58cc-b1d9-8ec1214c173d
 

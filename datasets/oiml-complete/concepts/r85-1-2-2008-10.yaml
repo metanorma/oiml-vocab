@@ -1,0 +1,64 @@
+---
+data:
+  identifier: r85-1-2-2008-10
+  localized_concepts:
+    eng: 59b53dd0-e1db-5a89-ac11-4ff129c8d3f1
+    fra: 7e7098bf-061c-5d13-9d9c-3b35d68d24cc
+  domains:
+  - concept_id: r-85
+    source: urn:oiml:pub:r:85-1-2:2008
+    ref_type: section
+  sources: []
+status: valid
+id: b9a62a04-b4f7-5932-bdd0-9d272791f15e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Facility incorporated in an electronic automatic level gauge that enables
+      incorrect functioning of a specific device of the ALG and/or disturbed communication
+      between specific devices of the ALG to be detected and acted upon.
+  examples: []
+  id: r85-1-2-2008-10-eng
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the ALG (luminous signal,
+      acoustic signal, prevention of the measurement process, etc.).'
+  sources:
+  - origin:
+      ref: OIML R 85-1&2:2008
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Checking facility
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 59b53dd0-e1db-5a89-ac11-4ff129c8d3f1
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: système intégré à un JA électronique permettant de détecter et de mettre
+      en évidence les défauts significatifs, le fonctionnement incorrect d'un dispositif
+      spécifique du JA, ou la communication perturbée entre deux dispositifs spécifiques
+      du JA
+  examples: []
+  id: r85-1-2-2008-10-fra
+  notes:
+  - content: "« Mettre en évidence » fait référence à toute réponse appropriée du
+      JA (signal lumineux, signal sonore, protection du processus de mesurage, etc.)."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: système de contrôle
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7e7098bf-061c-5d13-9d9c-3b35d68d24cc
+

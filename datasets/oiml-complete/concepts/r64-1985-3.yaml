@@ -2,87 +2,34 @@
 data:
   identifier: r64-1985-3
   localized_concepts:
-    eng: 5ca3d860-5118-510b-a3df-c02481876110
-    fra: b3065421-d29d-58f2-a28b-5297aeb36a89
+    fra: 47a4fe5e-c04f-5ead-b4c1-45ab6754a6f5
   domains:
   - concept_id: r-64
-    source: OIML R 64:1985
+    source: urn:oiml:pub:r:64:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 64:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3'
+  sources: []
 status: valid
-id: b22a9605-5f2e-5a55-924f-705b89cecc3d
+id: 0d09c2e8-856d-5281-a505-6fe766cb6f33
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
-  - content: Echantillon d'un matériau qui est soumis à une force ou à une déformation
+  - content: Échantillon d'un matériau qui est soumis à une force ou à une déformation
       dans une machine d'essai, afin de déterminer une ou plusieurs propriétés mécaniques
       de ce matériau.
   examples: []
-  id: r64-1985-f-3-fra
+  id: r64-1985-3-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 64:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: éprouvette d'essai
+    designation: Éprouvette d'essai
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-64
-    source: OIML R 64:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: b3065421-d29d-58f2-a28b-5297aeb36a89
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: A sample of material which is subject to force or deformation in a testing
-      machine to determine one or more mechanical properties of the material.
-  examples: []
-  id: r64-1985-e-3-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 64:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '3'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: test specimen
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-64
-    source: OIML R 64:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 5ca3d860-5118-510b-a3df-c02481876110
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 47a4fe5e-c04f-5ead-b4c1-45ab6754a6f5
 

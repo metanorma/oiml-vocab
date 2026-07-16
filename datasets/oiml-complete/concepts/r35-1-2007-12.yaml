@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r35-1-2007-12
+  localized_concepts:
+    deu: 5ac2e4cd-f36a-536f-87f9-c7b5e02fbbf3
+    eng: b7bbaee4-0a93-50b8-adc0-79f081b6c482
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-1:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 56c66a67-58c3-52ea-a5fd-90a3238b47b2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: Einrichtung zur Durchführung einer bestimmten Funktion, die direkt an
+      der Ermittlung, Übertragung oder Anzeige der Messergebnisse beteiligt ist.
+  examples: []
+  id: r35-1-2007-12-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hilfseinrichtung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5ac2e4cd-f36a-536f-87f9-c7b5e02fbbf3
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Quantity that is not the subject of the measurement but which influences
+      the values of the measurand or the indication of the instrument.
+  examples: []
+  id: r35-1-2007-12-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-1:2007 (E)
+      clause: 2.3.1
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b7bbaee4-0a93-50b8-adc0-79f081b6c482
+

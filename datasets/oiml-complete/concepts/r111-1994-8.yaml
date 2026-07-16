@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r111-1994-8
+  localized_concepts:
+    eng: bd229ebe-44a8-596e-8ba9-dae206d43fd9
+    fra: c838d0e9-e6ba-5136-b4d6-b3059a642217
+  domains:
+  - concept_id: r-111
+    source: urn:oiml:pub:r:111:1994
+    ref_type: section
+  sources: []
+status: valid
+id: 7820227a-b9a0-5895-ac77-f56b8ccf4bfe
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: The expanded uncertainty U is obtained by multiplying the combined standard
+      uncertainty by the coverage factor k.
+  - content: U = k · u_c
+  examples: []
+  id: r111-1994-8-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Expanded uncertainty
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bd229ebe-44a8-596e-8ba9-dae206d43fd9
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: L'incertitude globale, U, est obtenue en multipliant l'incertitude-type
+      combinée par le facteur de couverture k.
+  - content: U = k · u_c
+  examples: []
+  id: r111-1994-8-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Incertitude globale
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c838d0e9-e6ba-5136-b4d6-b3059a642217
+

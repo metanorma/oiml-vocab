@@ -1,0 +1,47 @@
+---
+data:
+  identifier: d31-2008-81
+  localized_concepts:
+    spa: e850b83b-1f18-5298-8ebb-3c0cab0f3d63
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: ebafaa44-7716-558d-bddb-1e6d8ffde519
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: "(II) El programa de almacenamiento o envío genera una «firma electrónica»,
+      primero calculando el valor hash $ ^{3)} $ y posteriormente cifrando el valor
+      hash con la clave secreta de un sistema público de claves $ ^{4)} $ . El resultado
+      es la firma que se añade al conjunto de datos almacenados o transmitidos. El
+      receptor también calcula el valor hash del conjunto de datos y descifra la firma
+      añadida al conjunto de datos con la clave pública. Se compara el valor hash
+      calculado con el descifrado. Si coinciden, el conjunto de datos no ha sido falsificado
+      (la integridad queda demostrada). Para demostrar el origen del conjunto de datos
+      el receptor debe saber si la clave pública pertenece al emisor, es decir, al
+      dispositivo emisor. Por lo tanto, la clave pública se visualiza en el dispositivo
+      indicador del instrumento de medida y se puede registrar una vez, por ejemplo
+      junto con el número de serie del dispositivo cuando esté verificado legalmente
+      en campo. Si el receptor está seguro de que utilizó la clave pública correcta
+      para decodificar la firma, la autenticidad del conjunto de datos también queda
+      demostrada."
+  examples: []
+  id: d31-2008-81-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'Ejemplo:'
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e850b83b-1f18-5298-8ebb-3c0cab0f3d63
+

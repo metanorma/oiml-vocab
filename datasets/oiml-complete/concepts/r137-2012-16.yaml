@@ -1,0 +1,35 @@
+---
+data:
+  identifier: r137-2012-16
+  localized_concepts:
+    fra: 1b66a070-942c-50f2-86f5-c567af2cdc45
+  domains:
+  - concept_id: r-137
+    source: urn:oiml:pub:r:137:2012
+    ref_type: section
+  sources: []
+status: valid
+id: 61bb4558-29bf-5d2f-b2e6-5ace71860e0b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Erreur moyenne pondérée telle que définie par la formule EMP = Σ(kᵢ·Eᵢ)/Σkᵢ,
+      avec kᵢ = Qᵢ/Q_max pour Qᵢ ≤ 0,7·Q_max et kᵢ = 1,4 − Qᵢ/Q_max pour 0,7·Q_max
+      < Qᵢ ≤ Q_max.
+  examples: []
+  id: r137-2012-16-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur moyenne pondérée (EMP)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1b66a070-942c-50f2-86f5-c567af2cdc45
+

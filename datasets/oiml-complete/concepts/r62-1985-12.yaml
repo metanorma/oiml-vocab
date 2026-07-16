@@ -2,62 +2,19 @@
 data:
   identifier: r62-1985-12
   localized_concepts:
-    eng: 55d8718b-e576-5b89-9023-38c447297926
-    fra: 2e6bac1a-4e0f-5b61-8fd5-2c3a6352b5a9
+    fra: bf9a0af2-4090-53e0-b86f-da31ff551d62
   domains:
   - concept_id: r-62
-    source: OIML R 62:1985
+    source: urn:oiml:pub:r:62:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '12'
+  sources: []
 status: valid
-id: 7e03e392-7cd6-5216-8270-ca6a381d66fe
+id: 193e429b-7eb2-531e-b780-66dd196c7545
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The ratio, expressed as a percentage, of the unit change of resistance
-      of a strain gauge mounted perpendicular to a uniaxial strain field (transverse
-      gauge) to the unit resistance change of a similar gauge mounted parallel to
-      the same strain field (longitudinal gauge).
-  examples: []
-  id: r62-1985-e-12-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '12'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: transverse sensitivity
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 55d8718b-e576-5b89-9023-38c447297926
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Rapport exprimé en pour cent de la variation unitaire de résistance de
@@ -65,27 +22,15 @@ data:
       (jauge transversale) à la variation unitaire de résistance d'un extensomètre
       similaire monté parallèlement au même champ de déformation (jauge longitudinale).
   examples: []
-  id: r62-1985-f-12-fra
+  id: r62-1985-12-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '12'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: sensibilité transversale
+    designation: Sensibilité transversale
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 2e6bac1a-4e0f-5b61-8fd5-2c3a6352b5a9
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bf9a0af2-4090-53e0-b86f-da31ff551d62
 

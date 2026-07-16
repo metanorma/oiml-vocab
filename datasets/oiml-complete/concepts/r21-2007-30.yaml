@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-30
+  localized_concepts:
+    eng: 3733c726-6d46-508f-b96d-5d148f3cf417
+    pol: e1ad31ff-ccfb-53a4-b049-27c4758c1043
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 7fa1060a-9f48-56c1-bd56-346db4484589
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Constant expressed in pulses per kilometre which represents the number
+      of pulses the taximeter must receive in order to correctly indicate a distance
+      traveled of one kilometre.
+  examples: []
+  id: r21-2007-30-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: taximeter constant, k
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3733c726-6d46-508f-b96d-5d148f3cf417
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Okres, w którym taksówka mie być uzyta za opłąt początkowa, uwzględniajac
+      jedynie liczenie czasu.
+  examples: []
+  id: r21-2007-30-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Czas początkowy
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e1ad31ff-ccfb-53a4-b049-27c4758c1043
+

@@ -1,0 +1,65 @@
+---
+data:
+  identifier: r136-1-2004-31
+  localized_concepts:
+    deu: 00b41deb-b71d-54e6-bfde-77c36250be6d
+    eng: 3a3bbd8c-ed65-5d79-af88-c5fd79719cbb
+  domains:
+  - concept_id: r-136
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources: []
+status: valid
+id: 111430b8-9b51-5655-a110-851d21ed4126
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:35Z'
+    type: accepted
+  definition:
+  - content: |-
+      Fehler größer als 1 d.
+
+      Die folgenden Fehler werden als unbedeutend angesehen:
+
+      - Fehler, die durch gleichzeitig und voneinander unabhängig auftretende Ursachen im Gerät oder seinem Kontrollmessgerät entstehen;
+
+      - Fehler, die jegliche Messung unmöglich machen;
+
+      - auf kurzzeitige Abweichungen der Anzeigwerte zurückzuführende vorübergehende Fehler, die nicht als Messergebnis gedeutet, gespeichert oder übermittelt werden können;
+
+      - Fehler, die so schwerwiegend sind, dass sie von den an der Messung interessierten Personen unweigerlich bemerkt werden.
+  examples: []
+  id: r136-1-2004-31-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bedeutender Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 00b41deb-b71d-54e6-bfde-77c36250be6d
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: Difference between a digital measuring result (indicated or printed)
+      and the value of that measuring result with an analogue indication.
+  examples: []
+  id: r136-1-2004-31-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rounding error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3a3bbd8c-ed65-5d79-af88-c5fd79719cbb
+

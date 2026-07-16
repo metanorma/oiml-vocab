@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-18
+  localized_concepts:
+    eng: 26adeddd-08c6-533a-9592-56dfd77f9e0b
+    pol: aca615cf-e93b-56da-acc4-a1ef27a1e0d7
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: ff47fd15-4521-520b-a85a-baf28d9015b9
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Software in measuring devices can be divided into a legally relevant
+      part and a legally irrelevant part. These parts communicate via an interface.
+  examples: []
+  id: r21-2007-18-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.8.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software separation
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 26adeddd-08c6-533a-9592-56dfd77f9e0b
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Przechowywanie danych w przydzzie lub wzewntrznym urządzeniu pamcji trwalej
+      slużycym do przechowania danych pomiarowych po zakozeniu pomiaru i naspnie do
+      udostępniania ich w celach majych znaczenie z prawnego punktu widzenia.
+  examples: []
+  id: r21-2007-18-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Urządzenie pamięci trwajej
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: aca615cf-e93b-56da-acc4-a1ef27a1e0d7
+

@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r21-2007-61
+  localized_concepts:
+    eng: cc4228a2-b5a1-5901-828f-ed7ba6ad925a
+    pol: 85c6642e-0b37-527a-9dda-11e11b3a935f
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 65041117-02d9-5b9b-9180-4be02a952534
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Intrinsic error of an instrument as determined prior to performance tests.
+  examples: []
+  id: r21-2007-61-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.4.5.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: initial intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cc4228a2-b5a1-5901-828f-ed7ba6ad925a
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: |-
+      Róznica pomidzy błędem wskazania a élem wlasnym taksometru.
+
+      Uwaga: Zasadniczo lid dodatkowy jest naspstwem niepdzadnej zmiany danych zawartych lub przeplywających przez elektroniczny przyd pomiarowy. W niniejszym Zaleceniu, lid dodatkowy" jest wartością liczbowa.
+  examples: []
+  id: r21-2007-61-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Błąd dodatkowy
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 85c6642e-0b37-527a-9dda-11e11b3a935f
+

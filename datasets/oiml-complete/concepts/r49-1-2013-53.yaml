@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r49-1-2013-53
+  localized_concepts:
+    eng: 4f1cad99-ee4f-5f21-9852-5768cd6a19f3
+    fra: 84120194-09ba-5a71-b15b-598f2545a7d8
+  domains:
+  - concept_id: r-49
+    source: urn:oiml:pub:r:49-1:2013
+    ref_type: section
+  sources: []
+status: valid
+id: e7f96ade-0805-5c1c-bcd1-47ecb5d46e56
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+  examples:
+  - content: The ambient temperature of the meter is an influence quantity, whereas
+      the temperature of the water passing through the meter affects the measurand.
+  id: r49-1-2013-53-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4f1cad99-ee4f-5f21-9852-5768cd6a19f3
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: grandeur qui, lors d'un mesurage direct, n'affecte pas la grandeur réellement
+      mesurée, mais affecte la relation entre l'indication et le résultat du mesurage
+  examples:
+  - content: La température ambiante du compteur est une grandeur d'influence, alors
+      que la température de l'eau traversant le compteur affecte le mesurande.
+  id: r49-1-2013-53-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 84120194-09ba-5a71-b15b-598f2545a7d8
+

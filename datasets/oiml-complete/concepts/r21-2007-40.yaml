@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r21-2007-40
+  localized_concepts:
+    eng: 1842cc3e-99ee-52d1-8758-10702abb26d0
+    pol: 39502454-7757-5f83-bfea-005ccc4a4524
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 6b632479-3383-5713-b39c-5f78448ca591
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Values from which the taximeter calculates the fare.
+  examples: []
+  id: r21-2007-40-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.14
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: tariff values
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1842cc3e-99ee-52d1-8758-10702abb26d0
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Wartość taryfy wyrażona jako kwota pienną za dany okres czasu.
+  examples: []
+  id: r21-2007-40-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wartość taryfy czasowej
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 39502454-7757-5f83-bfea-005ccc4a4524
+

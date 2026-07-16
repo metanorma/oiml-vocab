@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r21-2007-52
+  localized_concepts:
+    eng: 259c6c16-a9c5-5e0c-89a0-19b6dce143a0
+    pol: 7055702c-b3c5-5078-8a47-931d4c061112
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 55514bbb-38e8-5561-b642-5cf4287790ff
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Continuous data file containing an information record or event-counter
+      of the changes to the values of device-specific parameters, of software updates
+      or other activities or events that are legally relevant and which may influence
+      the metrological characteristics.
+  examples: []
+  id: r21-2007-52-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.6
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: audit trail
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 259c6c16-a9c5-5e0c-89a0-19b6dce143a0
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Tryb służycy do aktualizacji lub zatwierdzenia parametrówstaketru, które
+      mają być przechowywane w państi.
+  examples: []
+  id: r21-2007-52-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tryb serwisowy
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7055702c-b3c5-5078-8a47-931d4c061112
+

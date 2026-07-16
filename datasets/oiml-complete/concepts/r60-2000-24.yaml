@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r60-2000-24
+  localized_concepts:
+    eng: 5d03eaaf-2615-58a9-bdb6-7b4c791a090a
+    fra: 7b35196a-6078-56c2-8cf8-81d138211011
+  domains:
+  - concept_id: r-60
+    source: urn:oiml:pub:r:60:2000
+    ref_type: section
+  sources: []
+status: valid
+id: b9550a83-b5f9-575d-add9-7124c7571185
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Ratio of the maximum capacity, Emax to the minimum load cell verification
+      interval, vmin. This ratio describes the resolution of the load cell independent
+      from the load cell capacity.
+  examples: []
+  id: r60-2000-24-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Relative vmin or Y
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5d03eaaf-2615-58a9-bdb6-7b4c791a090a
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Quotient de la portée maximale par l'échelon de vérification minimal
+      de la cellule de pesée. Ce quotient caractérise la résolution de la cellule
+      de pesée indépendamment de la portée de la cellule de pesée.
+  examples: []
+  id: r60-2000-24-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: v_min relatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7b35196a-6078-56c2-8cf8-81d138211011
+

@@ -2,86 +2,33 @@
 data:
   identifier: r71-1985-8
   localized_concepts:
-    eng: f4622240-1e4e-5faf-ade8-6946db8061bf
-    fra: a3eb5f42-5e9e-530a-844d-cac0d58be1e8
+    fra: 2e8d5142-dbc4-534e-9bb0-b058bec844c5
   domains:
   - concept_id: r-71
-    source: OIML R 71:1985
+    source: urn:oiml:pub:r:71:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '8'
+  sources: []
 status: valid
-id: f5139787-906b-51c7-bc6e-824a5dc3bf39
+id: 364e2b7e-c30b-5f4a-b5a6-7310089b2569
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The distance between the free surface of the liquid and the upper reference
-      point, measured along the vertical measurement axis.
-  examples: []
-  id: r71-1985-e-8-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '8'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: ullage
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: f4622240-1e4e-5faf-ade8-6946db8061bf
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Distance mesurée sur la verticale de mesurage, depuis le niveau de la
       surface libre du liquide jusqu'au point de référence supérieur.
   examples: []
-  id: r71-1985-f-8-fra
+  id: r71-1985-8-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '8'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: distance de creux
+    designation: Distance de creux
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: a3eb5f42-5e9e-530a-844d-cac0d58be1e8
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2e8d5142-dbc4-534e-9bb0-b058bec844c5
 

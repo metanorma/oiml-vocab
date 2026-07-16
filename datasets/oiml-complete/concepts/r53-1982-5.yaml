@@ -2,86 +2,33 @@
 data:
   identifier: r53-1982-5
   localized_concepts:
-    eng: cb4ecd47-9ce3-5312-b9ef-bd9490a95894
-    fra: 83573cab-f1d3-5a3f-9532-9c825566ee74
+    fra: c32ddf3d-072b-5643-83df-16de62abd163
   domains:
   - concept_id: r-53
-    source: OIML R 53:1982
+    source: urn:oiml:pub:r:53:1982
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '5'
-    type: authoritative
+  sources: []
 status: valid
-id: e18a3100-4d2e-5aa1-970a-b734912b5597
+id: 44cbfcc8-5fd3-5b43-a6b2-a7b25c12d805
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Valeur du déplacement du point de référence sous l'influence de la pression
       nominale.
   examples: []
-  id: r53-1982-f-5-fra
+  id: r53-1982-5-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '5'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Déplacement nominal
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 83573cab-f1d3-5a3f-9532-9c825566ee74
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Value of the displacement of the reference point, due to the effect of
-      nominal pressure.
-  examples: []
-  id: r53-1982-e-5-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '5'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Nominal displacement
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: cb4ecd47-9ce3-5312-b9ef-bd9490a95894
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c32ddf3d-072b-5643-83df-16de62abd163
 

@@ -1,0 +1,65 @@
+---
+data:
+  identifier: r113-1994-8
+  localized_concepts:
+    eng: 9747e187-aa3c-5fc1-9599-177d853bfecc
+    fra: 3120a00c-06fc-54db-ab75-88df4941b2db
+  domains:
+  - concept_id: r-113
+    source: urn:oiml:pub:r:113:1994
+    ref_type: section
+  sources: []
+status: valid
+id: cc98bd47-8228-5d99-90a6-a79e24acb907
+schema_version: '3'
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: A measure of the variation in the detector's output signal when a sample
+      component is not being detected.
+  examples: []
+  id: r113-1994-8-eng
+  notes:
+  - content: Short-term noise includes all observable random variations of the signal
+      from the detector or other components having a frequency of about one or more
+      cycles per minute.
+  - content: Drift is the average slope of the baseline signal measured over an extended
+      time period, for example, one-half hour.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: noise
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9747e187-aa3c-5fc1-9599-177d853bfecc
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - ? Mesure d'une variation du signal de sortie du détecteur alors qu'on ne procède
+      à la détection d'aucun composant d'échantillon. Il peut être classifié selon
+      deux composantes
+    : bruit à court terme (variations aléatoires observables du signal en provenance
+      du détecteur ou d'autres éléments dont la fréquence est de l'ordre de un ou
+      plusieurs cycles par minute) et dérive (pente moyenne du signal de base mesurée
+      sur une durée prolongée, par exemple 1/2 heure).
+  examples: []
+  id: r113-1994-8-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bruit
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3120a00c-06fc-54db-ab75-88df4941b2db
+

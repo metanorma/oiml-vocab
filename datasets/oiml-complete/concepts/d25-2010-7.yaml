@@ -1,0 +1,67 @@
+---
+data:
+  identifier: d25-2010-7
+  localized_concepts:
+    eng: 345a36b8-553e-54d9-bef3-3694375ec4c6
+    fra: 95aa239c-3df5-5073-ab08-ace65e600120
+  domains:
+  - concept_id: d-25
+    source: urn:oiml:pub:d:25:2010
+    ref_type: section
+  sources: []
+status: valid
+id: 2609a2a5-e3e6-5700-be64-2e4a937b5e72
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: The Strouhal number is a dimensionless parameter that is relevant to
+      the separated flow past the bluff body(ies). It relates the measured vortex
+      shedding frequency to the fluid velocity and the bluff body characteristic dimension.
+      In practice the K-factor, which is not dimensionless, replaces the Strouhal
+      number as the significant parameter.
+  - content: 'The Strouhal number, St, relates the frequency of generated vortices,
+      f, the bluff body characteristic dimension, b, and the average fluid velocity,
+      U. It is given by: St = f × (b/U), or f = St × (U/b).'
+  examples: []
+  id: d25-2010-7-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Strouhal number
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 345a36b8-553e-54d9-bef3-3694375ec4c6
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Le nombre de Strouhal est un paramètre sans dimension relatif à l'écoulement
+      divisé au-delà du (des) corps perturbateur(s). Il relie la fréquence de détachement
+      des tourbillons mesurée à la vitesse du fluide et aux caractéristiques dimensionnelles
+      du corps perturbateur. En pratique, le facteur K, qui n'est pas sans dimension,
+      remplace le nombre de Strouhal en tant que paramètre significatif.
+  - content: 'Le nombre de Strouhal, St, relie la fréquence f des tourbillons engendrés,
+      la dimension caractéristique b du corps perturbateur, et la vitesse moyenne
+      U du fluide. Il est donné par: St = f × (b/U), ou f = St × (U/b).'
+  examples: []
+  id: d25-2010-7-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: nombre de Strouhal
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 95aa239c-3df5-5073-ab08-ace65e600120
+

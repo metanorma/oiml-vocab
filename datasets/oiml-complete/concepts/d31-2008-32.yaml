@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d31-2008-32
+  localized_concepts:
+    eng: 90ad244b-9393-50ab-9ab2-7483c45cc9a3
+    fra: 87f9ae02-0d4e-522d-aedd-d8f1481f50bd
+    spa: 79eef2da-fbb9-5bce-8d9e-350f102b16f1
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 544d4b46-8d66-555c-98a2-9cf8e26c23d5
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: extreme value of an error permitted by specifications, regulations, etc.
+      for a given measuring instrument
+  examples: []
+  id: d31-2008-32-eng
+  notes: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.6
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: maximum permissible error (of a measuring instrument)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 90ad244b-9393-50ab-9ab2-7483c45cc9a3
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Valeur extrême d'une erreur tolérée par les spécifications, règlements,
+      etc., pour un instrument de mesure donné.
+  examples: []
+  id: d31-2008-32-fra
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.6'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur maximale tolérée (d'un instrument de mesure)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 87f9ae02-0d4e-522d-aedd-d8f1481f50bd
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Dispositivo destinado a utilizarse para hacer mediciones, solo o asociado
+      a uno o varios dispositivos anexos.
+  examples: []
+  id: d31-2008-32-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrumento de medida [VIM:1994, 4.1]
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 79eef2da-fbb9-5bce-8d9e-350f102b16f1
+

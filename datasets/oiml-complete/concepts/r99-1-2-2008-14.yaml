@@ -1,0 +1,39 @@
+---
+data:
+  identifier: r99-1-2-2008-14
+  localized_concepts:
+    eng: 1f951f19-9057-5764-9c91-47b202436d02
+  domains:
+  - concept_id: r-99
+    source: urn:oiml:pub:r:99-1-2:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 832e73ca-c43f-5f3a-b142-299b45a367a8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: duration between the instant when an input quantity value of a measuring
+      instrument or measuring system is subjected to an abrupt change between two
+      specified constant quantity values and the instant when a corresponding indication
+      settles within specified limits around its final steady value
+  examples: []
+  id: r99-1-2-2008-14-eng
+  notes:
+  - content: Referred to as "response time" in this Recommendation.
+  sources:
+  - origin:
+      ref: OIML R 99-1&2:2008
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: step response time
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1f951f19-9057-5764-9c91-47b202436d02
+

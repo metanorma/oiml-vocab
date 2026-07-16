@@ -1,0 +1,52 @@
+---
+data:
+  identifier: d31-2008-60
+  localized_concepts:
+    spa: 8dc24736-d89d-56b6-90aa-1f349770bb7d
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 11a7051c-77d8-57db-9727-29bd8d3dc25d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      El software legalmente relevante de un instrumento de medida/ dispositivo electrónico/ subconjunto se debe identificar claramente con el número de versión del software u otro método. La identificación puede constar de más de una parte, pero al menos una debe estar orientada a fines legales.
+
+      La identificación debe estar vinculada de forma indefectible al propio software y se debe presentar o imprimir mediante un comando, o visualizarse durante su funcionamiento o en la puesta en marcha de un instrumento de medida que pueda encenderse y apagarse de nuevo. Si un subconjunto/ dispositivo electrónico no tiene pantalla ni impresora, la identificación debe transmitirse a través de una interfaz de comunicación para su visualización/impresión en otro dispositivo electrónico/subconjunto.
+
+      Como excepción, la identificación impresa del software en el instrumento/dispositivo electrónico debe considerarse una solución aceptable si se cumplen las siguientes condiciones:
+
+      (1) La interfaz de usuario no tiene capacidad de control para activar la indicación de la identificación del software en el dispositivo indicador, o este no permite técnicamente mostrar la identificación del software (dispositivo indicador analógico o contador electromecánico).
+
+      (2) El instrumento/dispositivo electrónico no posee una interfaz para comunicar la identificación del software.
+
+      (3) Después de la fabricación del dispositivo electrónico/instrumento no es posible modificar el software, o únicamente lo es si se modifican también el hardware o un componente del mismo.
+
+      El fabricante del hardware o del componente del hardware en cuestión tiene la responsabilidad de garantizar que la identificación del software se haya marcado correctamente en el instrumento/dispositivo electrónico correspondiente.
+
+      La identificación del software y los métodos de identificación se deben establecer en el certificado de aprobación de modelo.
+
+      La correspondiente Recomendación OIML debe permitir o desestimar esta excepción.
+
+      Nota: Todo instrumento de medida en servicio debe ser conforme con el modelo aprobado. La identificación del software permite al personal inspector y a los usuarios del instrumento de medida verificar dicha conformidad.
+  examples: []
+  id: d31-2008-60-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Identificación del software
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8dc24736-d89d-56b6-90aa-1f349770bb7d
+

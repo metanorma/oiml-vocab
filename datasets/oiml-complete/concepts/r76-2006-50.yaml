@@ -1,0 +1,46 @@
+---
+data:
+  identifier: r76-2006-50
+  localized_concepts:
+    fra: 1b6633ad-0a3f-55e7-bc77-7997929d4920
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 11af3368-b736-5a6a-a8ed-193d58679e32
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      Variants other than the EUTs can be accepted without testing, if one of the following bulleted provisions is fulfilled (for comparable metrological characteristics):
+
+      - Their capacities, Max, fall between two tested capacities. The ratio between the tested capacities shall not exceed 10; or
+
+      - All of the following conditions a), b), and c) are fulfilled:
+
+      b) $ e \geq e_{\mathrm{test}} $
+
+      $$
+      \mathrm {c)} \operatorname {M a x} \leq 5 \times \operatorname {M a x} _ {\mathrm {t e s t}} \times \left(n _ {\mathrm {t e s t}} / n\right)
+      $$
+  examples: []
+  id: r76-2006-50-fra
+  notes:
+  - content: "$ \\mathrm{M a x}_{\\mathrm{t e s t}}, n_{\\mathrm{t e s t}}, $ and
+      $ e_{\\mathrm{t e s t}} $ are the characteristics of the EUT."
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Variants acceptable without testing
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1b6633ad-0a3f-55e7-bc77-7997929d4920
+

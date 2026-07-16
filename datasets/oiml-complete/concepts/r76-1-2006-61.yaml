@@ -1,0 +1,68 @@
+---
+data:
+  identifier: r76-1-2006-61
+  localized_concepts:
+    eng: c74d327d-f6ca-5acf-9a9e-a3dd013f0220
+    fra: 23ffd3cc-1114-59d0-a645-44fccf121440
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76-1:2006
+    ref_type: section
+  sources: []
+status: valid
+id: b8188845-429e-5db0-83e3-8ae46d5d26af
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Legally relevant parameter with a value that depends on the individual
+      instrument. Device-specific parameters comprise calibration parameters (e.g.
+      span adjustment or other adjustments or corrections) and configuration parameters
+      (e.g. maximum capacity, minimum capacity, units of measurement, etc.).
+  - content: They are adjustable or selectable only in a special operational mode
+      of the instrument. Device-specific parameters may be classified as those that
+      should be secured (unalterable) and those that may be accessed (settable parameters)
+      by an authorized person.
+  examples: []
+  id: r76-1-2006-61-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: device-specific parameter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c74d327d-f6ca-5acf-9a9e-a3dd013f0220
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Paramètre d'application légale avec une valeur qui dépend de l'instrument
+      individuellement. Les paramètres spécifiques au dispositif comprennent les paramètres
+      d'etalonnage (par exemple, le réglage de la pente ou d'autres réglages ou corrections)
+      et les paramètres de configuration (par exemple, la portée maximale, la portée
+      minimale, les unités de mesure, etc.). Ils sont réglables ou sélectables seulement
+      par un mode d'opération spéciale de l'instrument. Les paramètres spécifiques
+      du dispositif peuvent être classés comme ceux qui doivent être sécurisés (inaltérables)
+      et ceux qui peuvent être accessibles (paramètres sélectables) par une personne
+      autorisée.
+  examples: []
+  id: r76-1-2006-61-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: paramètre spécifique au dispositif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 23ffd3cc-1114-59d0-a645-44fccf121440
+

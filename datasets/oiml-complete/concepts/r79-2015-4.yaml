@@ -1,0 +1,71 @@
+---
+data:
+  identifier: r79-2015-4
+  localized_concepts:
+    eng: 745896e3-10ad-5363-b554-f0b5ade2358a
+    spa: 077c612c-a78c-58ec-a807-c1c12b67306c
+  domains:
+  - concept_id: r-79
+    source: urn:oiml:pub:r:79:2015
+    ref_type: section
+  sources: []
+status: valid
+id: 3756d709-7cd1-5462-b9a8-ac1af0cace1e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Quantity of the identified product in the prepackage exclusive of packing
+      material.
+  examples: []
+  id: r79-2015-4-eng
+  notes:
+  - content: "'Packing material' includes wrappers and any other material packed with
+      such product."
+  - content: This term relates to specifications on a prepackage and does not account
+      for the actual quantity in an individual prepackage. For prepackages with constant
+      nominal quantity, the procedures for determining whether an inspection lot meets
+      regulatory requirements are provided in OIML R 87.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Net quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 745896e3-10ad-5363-b554-f0b5ade2358a
+---
+data:
+  dates:
+  - date: '2026-07-15T11:15:15Z'
+    type: accepted
+  definition:
+  - content: |-
+      a) se debe expresar en términos de la mayor unidad entera de masa, volumen, longitud, área o de combinación de estas unidades en el sistema decimal, de acuerdo con el Anexo A.
+
+      Nota: La longitud incluye todas las mediciones lineales tales como ancho, altura, espesor y diámetro.
+
+      b) No debe tener más de tres cifras significativas, independientemente de dónde vaya colocado el indicador decimal, siempre que la declaración cumpla
+
+      con la Tabla A.2 y a menos que se apliquen los requisitos de 5.4 c), por ejemplo, 5,55 kg y no 5,555 kg,
+
+      c) cuando se indique por medio de una etiqueta impresa por un instrumento de medición, no se aplica la regla de 5.4 b) y la declaración de cantidad puede ser inferior a un número entero, por ejemplo, 0,988 kg,
+
+      d) cuando se trata de elementos que se pueden contar, se debe expresar en números enteros.
+  examples: []
+  id: r79-2015-4-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'La cantidad nominal:'
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 077c612c-a78c-58ec-a807-c1c12b67306c
+

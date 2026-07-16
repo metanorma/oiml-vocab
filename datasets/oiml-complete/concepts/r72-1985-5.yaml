@@ -2,91 +2,38 @@
 data:
   identifier: r72-1985-5
   localized_concepts:
-    eng: 70b52cbf-c1bf-5380-8f27-1318442e32c0
-    fra: 60f6f680-b9b3-5156-9290-adb28321f625
+    fra: '06953421-2855-5a97-a87e-e69910736ead'
   domains:
   - concept_id: r-72
-    source: OIML R 72:1985
+    source: urn:oiml:pub:r:72:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '5'
+  sources: []
 status: valid
-id: 2fbb3366-1cb1-5206-bb90-a8d519d0f783
+id: fd4aad38-998a-5116-9767-ed20dc46ad1f
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The flowrate value which is defined as half the value of the maximum
-      flowrate.
-  - content: At the nominal flowrate the hot water meter should be able to function
-      in normal use, that is under continuous and intermittent conditions, without
-      exceeding the maximum permissible errors.
-  examples: []
-  id: r72-1985-e-5-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '5'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: nominal flowrate (Q_n)
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 70b52cbf-c1bf-5380-8f27-1318442e32c0
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Valeur du débit définie comme la moitié du débit maximal.
-  - content: Au débit nominal, le compteur d'eau chaude doit pouvoir fonctionner en
-      usage normal, c'est-à-dire de manière continue et intermittente, sans que les
-      erreurs maximales tolérées soient dépassées.
   examples: []
-  id: r72-1985-f-5-fra
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '5'
+  id: r72-1985-5-fra
+  notes:
+  - content: Au débit nominal Q_n, le compteur d'eau chaude doit pouvoir fonctionner
+      en usage normal, c'est-à-dire de manière continue et intermittente, sans que
+      les erreurs maximales tolérées soient dépassées.
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: débit nominal (Q_n)
+    designation: Débit nominal
+  - type: symbol
+    normative_status: preferred
+    designation: Q_n
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 60f6f680-b9b3-5156-9290-adb28321f625
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: '06953421-2855-5a97-a87e-e69910736ead'
 

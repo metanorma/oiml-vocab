@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r35-1-2007-15
+  localized_concepts:
+    deu: 0ca550db-44b2-5742-b4f4-6bc2ac99f5a7
+    eng: e1fbb55f-3620-5e30-be09-db0221add125
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-1:2007
+    ref_type: section
+  sources: []
+status: valid
+id: ea92c51f-e92d-560b-ab29-f58bcefc6e15
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: Einflussgröße, deren Wert zwar innerhalb der in dieser Empfehlung angegebenen
+      Grenzen liegt, aber außerhalb der für das Gerät angegebenen Nennbetriebsbedingungen.
+  examples: []
+  id: r35-1-2007-15-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Störeinfluss
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 0ca550db-44b2-5742-b4f4-6bc2ac99f5a7
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended to lie within the specified
+      maximum permissible errors.
+  examples: []
+  id: r35-1-2007-15-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-1:2007 (E)
+      clause: 2.3.4
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rated operating conditions
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e1fbb55f-3620-5e30-be09-db0221add125
+

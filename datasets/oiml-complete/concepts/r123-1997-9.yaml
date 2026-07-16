@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r123-1997-9
+  localized_concepts:
+    eng: 79b7c800-f701-553e-b78c-adf1311946ce
+    fra: 267f2c48-9005-5c28-97fd-5b789a3fc6d0
+  domains:
+  - concept_id: r-123
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources: []
+status: valid
+id: 34fc5101-98e1-504d-a68f-e795d047f93e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Signal produced in the detector resulting from the detection of X-rays
+      other than X-rays from the analyzed element and from any noise produced elsewhere
+      in the XRF spectrometer.
+  examples: []
+  id: r123-1997-9-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Background
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 79b7c800-f701-553e-b78c-adf1311946ce
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Signal produit dans le détecteur résultant de la détection de rayons
+      X autres que ceux émis depuis l'élément analysé et de tout parasite produit
+      ailleurs dans le spectromètre XRF.
+  examples: []
+  id: r123-1997-9-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fond de rayonnement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 267f2c48-9005-5c28-97fd-5b789a3fc6d0
+

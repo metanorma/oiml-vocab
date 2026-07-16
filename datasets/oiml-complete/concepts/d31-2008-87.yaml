@@ -1,0 +1,43 @@
+---
+data:
+  identifier: d31-2008-87
+  localized_concepts:
+    spa: b31c5ee0-f092-595e-949c-415923e0dead
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: bd1f21b2-6863-52ad-a1b2-75501f7a7cf1
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: "(II) La fiabilidad del dispositivo del reloj controlado por cuarzo del
+      instrumento de medida se aumenta mediante redundancia: el reloj del microcontrolador,
+      derivado de otro cristal de cuarzo, incrementa un temporizador. Cuando el valor
+      del temporizador alcanza un valor preprogramado, p. ej. 1 segundo, se activa
+      un flag específico del microcontrolador y una rutina de interrupción del programa
+      incrementa un segundo contador. Al final de, por ejemplo un día, el software
+      lee el dispositivo del reloj controlado por cuarzo y calcula la diferencia en
+      los segundos contados por el software. Si la diferencia se encuentra dentro
+      de los límites predefinidos, el contador de software se reestablece y el procedimiento
+      se repite. Pero si la diferencia excede los límites, el software reacciona de
+      forma adecuada ante el error."
+  examples: []
+  id: d31-2008-87-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'Ejemplo:'
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b31c5ee0-f092-595e-949c-415923e0dead
+

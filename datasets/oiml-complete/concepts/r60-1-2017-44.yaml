@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r60-1-2017-44
+  localized_concepts:
+    eng: 6490cddb-146c-50fb-a999-9e682626ffa4
+    fra: 395c6aa4-2a7d-5f43-b765-c619c4741acf
+  domains:
+  - concept_id: r-60
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources: []
+status: valid
+id: a994c3ca-59f0-525c-b436-c57760abfd0d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: difference in load cell output readings for the same applied force between
+      the reading obtained by increasing the load from minimum load (Dmin), and the
+      reading obtained by decreasing the load from maximum load (Dmax)
+  examples: []
+  id: r60-1-2017-44-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hysteresis error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6490cddb-146c-50fb-a999-9e682626ffa4
+---
+data:
+  dates:
+  - date: '2026-07-15T15:09:53Z'
+    type: accepted
+  definition:
+  - content: différence entre les indications du signal de sortie d'une cellule de
+      pesée pour une même force appliquée, une indication étant obtenue en augmentant
+      la charge et l'autre en diminuant la charge
+  examples: []
+  id: r60-1-2017-44-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur d'hystérésis
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 395c6aa4-2a7d-5f43-b765-c619c4741acf
+

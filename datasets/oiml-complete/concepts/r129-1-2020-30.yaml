@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r129-1-2020-30
+  localized_concepts:
+    deu: bfc4dc03-1e45-53e1-a2e3-df58226d3636
+    eng: 5263caad-9fd7-5d2f-a145-a7bad9d49f0a
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: d4671bee-0ccb-5230-9332-4e21e68735cf
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: Wert zur Abgrenzung nicht signifikanter Fehler [VIML 5.13]
+  examples: []
+  id: r129-1-2020-30-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehlergrenzwert
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bfc4dc03-1e45-53e1-a2e3-df58226d3636
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: difference between the error of indication and the intrinsic error of
+      a measuring instrument
+  examples: []
+  id: r129-1-2020-30-eng
+  notes:
+  - content: Principally a fault is the result of an undesired change of data contained
+      in, or flowing through, an electronic measuring instrument.
+  - content: From the definition, it follows that a "fault" is a numerical value which
+      is expressed either in a unit of measurement or as a relative value, for instance
+      as a percentage.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5263caad-9fd7-5d2f-a145-a7bad9d49f0a
+

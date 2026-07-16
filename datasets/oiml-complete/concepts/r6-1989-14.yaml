@@ -1,0 +1,63 @@
+---
+data:
+  identifier: r6-1989-14
+  localized_concepts:
+    eng: c84252fa-976b-5c34-91dc-897f3ffa1da0
+    fra: f555bf57-4595-5a3e-8178-5d923e629548
+  domains:
+  - concept_id: r-6
+    source: urn:oiml:pub:r:6:1989
+    ref_type: section
+  sources: []
+status: valid
+id: 12c85d1b-121b-5a49-84dc-ea271a532046
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: The indication of a gas meter minus the (conventional) true value of
+      the measurand.
+  examples: []
+  id: r6-1989-14-eng
+  notes:
+  - content: 'Errors (E) are expressed in relative values by the ratio (expressed
+      as a percentage) of the difference between the indicated value (V_i) and the
+      conventional true value (V_c) of the volume of the test medium which has passed
+      through the gas meter, to this latter value: E(%) = 100 × (V_i − V_c) / V_c'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error (of indication)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c84252fa-976b-5c34-91dc-897f3ffa1da0
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Indication d'un compteur de gaz moins valeur (conventionnellement) vraie
+      de la grandeur mesurée.
+  examples: []
+  id: r6-1989-14-fra
+  notes:
+  - content: 'Les erreurs (E) sont exprimées en valeur relative par le rapport (exprimé
+      en pour-cent) de la différence entre le volume indiqué (V_i) et la valeur conventionnellement
+      vraie (V_c) du volume du fluide d''essai qui a traversé le compteur de gaz,
+      à cette dernière valeur : E(%) = 100 × (V_i − V_c) / V_c'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Erreur (d'indication)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f555bf57-4595-5a3e-8178-5d923e629548
+

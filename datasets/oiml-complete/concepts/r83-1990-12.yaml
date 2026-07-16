@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r83-1990-12
+  localized_concepts:
+    eng: 9ac8efe9-d0bb-5782-aec7-658094705651
+    fra: 25256157-0ce0-50bb-9122-122b7065e310
+  domains:
+  - concept_id: r-83
+    source: urn:oiml:pub:r:83:1990
+    ref_type: section
+  sources: []
+status: valid
+id: bb2dc087-6d88-5f98-8e1e-7907c0711262
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: The ratio R = m / Δm, where m is the mass of a component and Δm is the
+      difference in mass of two peaks or the width of the peak at one-half its height.
+  examples: []
+  id: r83-1990-12-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Resolution of a mass spectrometer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9ac8efe9-d0bb-5782-aec7-658094705651
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - rapport R = m/Δm interprété selon l'une des deux définitions suivantes: m est
+      la masse correspondant au premier pic d'un doublet, et Δm la différence de masse
+      correspondant au deux pics, le doublet devant être séparé par un creux dont
+      la valeur ne doit pas dépasser 10 % de la valeur du pic le plus haut; ou m est
+      la masse d'un constituant correspondant au pic et Δm la largeur du pic à mi-hauteur
+  examples: []
+  id: r83-1990-12-fra
+  notes:
+  - content: Résolution unité signifie en général R = 2|m| où |m| est la valeur numérique
+      lorsque m est exprimé en unités de masse atomique unifiées.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: résolution d'un spectromètre de masse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 25256157-0ce0-50bb-9122-122b7065e310
+

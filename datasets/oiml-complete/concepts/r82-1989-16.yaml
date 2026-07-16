@@ -1,0 +1,73 @@
+---
+data:
+  identifier: r82-1989-16
+  localized_concepts:
+    eng: 03ee487f-b404-506d-b5c7-7d97b6e66999
+    fra: 94710aa6-4911-55d1-90eb-7bc3049d83cc
+  domains:
+  - concept_id: r-82
+    source: urn:oiml:pub:r:82:1989
+    ref_type: section
+  sources: []
+status: valid
+id: ef76574c-5d2c-53f9-bcbd-81ef186a57cd
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: 'The output signal per unit mass of the sample component of interest
+      in the carrier gas; it is expressed in either one of the two following ways:'
+  - content: With a concentration-dependent detector, it is expressed in A·mL/g, or
+      V·mL/g, and by the equation S = (P × F)/M, where P is the integrated peak area,
+      F is the carrier gas flow rate, and M is the mass of the sample in the carrier
+      gas.
+  - content: With a mass-flow-rate-dependent detector, it is expressed in A·s/g, or
+      V·s/g, and by the equation S = P/M, where the symbols have the same definitions
+      as in point 3.14.1.
+  examples: []
+  id: r82-1989-16-eng
+  notes:
+  - content: Figure 1 illustrates graphically the concepts of detection limit and
+      linear range for a given range of sensitivity.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensitivity of the gas chromatograph
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 03ee487f-b404-506d-b5c7-7d97b6e66999
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: 'Signal de sortie pour une masse des composants intéressants de l''échantillon
+      dans le gaz porteur égale à l''unité ; elle s''exprime selon l''une des deux
+      manières suivantes :'
+  - content: Pour un détecteur sensible à la concentration, elle s'exprime en A·mL/g
+      ou en V·mL/g par l'équation S = (P × F)/M, où P est la surface du pic, F est
+      le débit du gaz porteur, et M est la masse de l'échantillon dans le gaz porteur.
+  - content: Pour un détecteur sensible au débit massique, elle s'exprime en A·s/g
+      ou V·s/g par l'équation S = P/M, où les symboles ont la même définition qu'au
+      point 3.14.1.
+  examples: []
+  id: r82-1989-16-fra
+  notes:
+  - content: La Figure 1 illustre graphiquement le concept de limite de détection
+      et d'étendue linéaire pour une certaine étendue de la sensibilité.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensibilité d'un chromatographe
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 94710aa6-4911-55d1-90eb-7bc3049d83cc
+

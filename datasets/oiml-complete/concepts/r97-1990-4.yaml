@@ -1,0 +1,44 @@
+---
+data:
+  identifier: r97-1990-4
+  localized_concepts:
+    fra: 33e1b1bd-5f60-5851-94d2-0c1eecd0955f
+  domains:
+  - concept_id: r-97
+    source: urn:oiml:pub:r:97:1990
+    ref_type: section
+  sources: []
+status: valid
+id: 7452a65c-4f22-59d9-82e3-abd9433245e2
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: |-
+      4. 1. Trois classes de précision s'appliquent aussi bien aux baromètres à mercure qu'aux baromètres à élément récepteur élastique. Les erreurs maximales tolérées sur les résultats de mesure obtenus en vérification pour chaque classe de précision des instruments sont données dans le Tableau ci-après.
+
+      <table border="1"><tr><td>Classe de l'instrument</td><td>Erreur maximale tolérée sur les résultats de mesure en vérification après application des corrections nécessaires pour la température et l'accélération de la pesanteur</td></tr><tr><td>0,02</td><td>±0,02kPa(±0,2hPa)</td></tr><tr><td>0,05</td><td>±0,05kPa(±0,5hPa)</td></tr><tr><td>0,1</td><td>±0,10kPa(±1,0hPa)</td></tr></table>
+
+      L'erreur maximale tolérée en service est égale à l'erreur maximale tolérée en vérification.
+
+      4. 2. Les procédures détaillées pour déterminer les ordres de grandeur des diverses composantes des erreurs contribuant à l'erreur totale du baromètre sont décrites dans l'Annexe A de la présente Recommandation.
+
+      4. 3. Les valeurs de toutes les constantes, telles que les coefficients de dilatation thermique, utilisées dans le calcul de la pression et dans la détermination des corrections doivent être données dans le manuel d'utilisation avec une exactitude telle que la somme algébrique des erreurs découlant de leur utilisation soit inférieure à 10 % de l'erreur maximale tolérée de l'instrument.
+
+      Il est supposé que la valeur de l'accélération de la pesanteur au lieu d'utilisation de l'instrument est connue assez exactement pour que sa contribution à l'erreur totale soit négligeable.
+  examples: []
+  id: r97-1990-4-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 4. Exigences métrologiques
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 33e1b1bd-5f60-5851-94d2-0c1eecd0955f
+

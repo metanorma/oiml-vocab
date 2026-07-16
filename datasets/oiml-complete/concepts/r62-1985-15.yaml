@@ -2,91 +2,33 @@
 data:
   identifier: r62-1985-15
   localized_concepts:
-    eng: 6eae0bfb-e36a-5f7d-8da0-6b63c67deaf2
-    fra: 93a52f1f-6207-5b52-bef5-b88c6b974233
+    fra: 32e44aec-9167-5b49-99ca-d4237eb3f845
   domains:
   - concept_id: r-62
-    source: OIML R 62:1985
+    source: urn:oiml:pub:r:62:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '15'
+  sources: []
 status: valid
-id: '099a5b27-ecd7-58b5-a284-f7eaef88f930'
+id: 344a154a-37f2-58ae-a98d-da3a1477a6ac
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Rapport de la variation unitaire du facteur de jauge à la variation de
       température.
   examples: []
-  id: r62-1985-f-15-fra
-  notes:
-  - content: Exprimé comme (K_T1 - K_T0) / K_T0 * 1 / (T1 - T0), où T1 est la température
-      d'essai, T0 est la température de référence, K_T1 est le facteur de jauge à
-      la température d'essai, K_T0 est le facteur de jauge à la température de référence.
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '15'
+  id: r62-1985-15-fra
+  notes: []
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: coefficient de température du facteur de jauge
+    designation: Coefficient de température du facteur de jauge
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 93a52f1f-6207-5b52-bef5-b88c6b974233
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The ratio of the unit variation of gauge factor to the temperature variation.
-  examples: []
-  id: r62-1985-e-15-eng
-  notes:
-  - content: Expressed as (K_T1 - K_T0) / K_T0 * 1 / (T1 - T0), where T1 is the test
-      temperature, T0 is the reference temperature, K_T1 is the gauge factor at test
-      temperature, K_T0 is the gauge factor at reference temperature.
-  sources:
-  - origin:
-      ref:
-        source: OIML R 62:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '15'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: temperature coefficient of gauge factor
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-62
-    source: OIML R 62:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 6eae0bfb-e36a-5f7d-8da0-6b63c67deaf2
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 32e44aec-9167-5b49-99ca-d4237eb3f845
 

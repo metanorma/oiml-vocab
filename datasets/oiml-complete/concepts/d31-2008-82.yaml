@@ -1,0 +1,40 @@
+---
+data:
+  identifier: d31-2008-82
+  localized_concepts:
+    spa: 6d3d2007-f5ab-5b49-893d-e27814a02cb9
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 506d0f7a-b4d2-569d-9243-6ae03a79a316
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      5. 2.3.4.a Si, en función de la aplicación, es necesario almacenar datos, los datos de medida deben almacenarse de forma automática al concluir la medición, es decir, cuando se haya generado el valor final utilizado con fines legales.
+
+      El dispositivo de almacenamiento debe tener permanencia suficiente como para garantizar que los datos no son corrompidos en condiciones normales de almacenamiento. La capacidad de almacenamiento debe ser suficiente para cada aplicación particular.
+
+      Cuando el valor final utilizado con fines legales resulta de un cálculo, todos los datos necesarios para dicho cálculo se deben almacenar de forma automática con el valor final.
+
+      Nota: Los valores de medida acumulativos como, por ejemplo, la energía eléctrica o el volumen de gas se deben actualizar constantemente. Como siempre se utiliza el mismo dominio de datos (variable del programa), el requisito relativo a la capacidad de almacenamiento no se aplica en mediciones acumulativas.
+  examples: []
+  id: d31-2008-82-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Almacenamiento automático
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6d3d2007-f5ab-5b49-893d-e27814a02cb9
+

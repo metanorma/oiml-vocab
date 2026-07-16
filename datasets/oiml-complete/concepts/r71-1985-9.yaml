@@ -2,86 +2,36 @@
 data:
   identifier: r71-1985-9
   localized_concepts:
-    eng: 056ed282-cd8d-561e-8387-a347296930f7
-    fra: 94129c22-9eeb-5fba-aa6e-7c6074877088
+    fra: 95b81327-e7ee-5322-a708-45e7d109060d
   domains:
   - concept_id: r-71
-    source: OIML R 71:1985
+    source: urn:oiml:pub:r:71:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '9'
+  sources: []
 status: valid
-id: e32aec7a-6ded-5009-a620-3ca0417c3f29
+id: bedb2d29-f211-526a-87f7-4631b8487b98
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The distance between the dipping datum point and the upper reference
-      point, measured along the vertical measurement axis, under reference conditions.
-  examples: []
-  id: r71-1985-e-9-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '9'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: reference height (H)
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 056ed282-cd8d-561e-8387-a347296930f7
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Distance entre le point de référence inférieur et le point de référence
       supérieur, mesurée sur la verticale de mesurage dans les conditions de référence.
   examples: []
-  id: r71-1985-f-9-fra
+  id: r71-1985-9-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '9'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: hauteur totale témoin (H)
+    designation: Hauteur totale témoin
+  - type: symbol
+    normative_status: preferred
+    designation: H
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 94129c22-9eeb-5fba-aa6e-7c6074877088
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 95b81327-e7ee-5322-a708-45e7d109060d
 

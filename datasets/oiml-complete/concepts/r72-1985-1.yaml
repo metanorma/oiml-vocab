@@ -2,86 +2,36 @@
 data:
   identifier: r72-1985-1
   localized_concepts:
-    eng: eb63bdae-dbf8-55a0-ad0c-2e27e3ccddb4
-    fra: fce3d8a4-5862-52a7-bd50-cf7f771e1698
+    fra: 207762ee-d946-5e3b-8bfc-6f6736ce9036
   domains:
   - concept_id: r-72
-    source: OIML R 72:1985
+    source: urn:oiml:pub:r:72:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '1'
+  sources: []
 status: valid
-id: 8d47d20b-cef2-5162-934a-3a82f97ce6ee
+id: a85c0285-3594-506a-9c74-5154dd8ea24a
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Volume d'eau chaude ayant traversé le compteur d'eau chaude, divisé par
       le temps de passage du volume d'eau à travers le compteur d'eau chaude.
   examples: []
-  id: r72-1985-f-1-fra
+  id: r72-1985-1-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '1'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: débit (Q)
+    designation: Débit
+  - type: symbol
+    normative_status: preferred
+    designation: Q
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: fce3d8a4-5862-52a7-bd50-cf7f771e1698
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The volume of hot water passing through the hot water meter divided by
-      the time taken for the volume of water to pass through the hot water meter.
-  examples: []
-  id: r72-1985-e-1-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '1'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: flowrate (Q)
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: eb63bdae-dbf8-55a0-ad0c-2e27e3ccddb4
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 207762ee-d946-5e3b-8bfc-6f6736ce9036
 

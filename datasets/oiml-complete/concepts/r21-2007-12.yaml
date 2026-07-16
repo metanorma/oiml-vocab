@@ -1,0 +1,68 @@
+---
+data:
+  identifier: r21-2007-12
+  localized_concepts:
+    eng: 1418cd39-105e-53b8-bd38-1b24e189b788
+    pol: 3807e42e-de65-5c80-a755-2e0f3405125d
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 11c32252-233e-5286-aee9-bd8492ced17a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Interface which only allows the introduction of data into the data processing
+      device of the taximeter, which cannot display data that are not clearly defined
+      and which could be taken as being a measurement result, falsify displayed, processed
+      or stored measurement results or primary indications, or adjust the instrument
+      or change any adjustment factor.
+  examples: []
+  id: r21-2007-12-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.7
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: protective interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1418cd39-105e-53b8-bd38-1b24e189b788
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: |-
+      Interfejs,który umóliwia jedynie wprowadzenie danych do ażenia do przetwarzania danych taksometru,który nie ma móliwości:
+
+      - wyświetlac danych, kóre nie są jasno zdefiniowane, akte môna by uznąza wynik pomiaru;
+
+      - fałszowa wyświetlanych, przetwarzanych lub przechowywanych wymi pomiać lub wskazá pierwotnych;
+
+      - adiustowa przyrządu lub zmienią jakiegokolwiek czynnika adiustacji.
+  examples: []
+  id: r21-2007-12-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Interfejs ochronny
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3807e42e-de65-5c80-a755-2e0f3405125d
+

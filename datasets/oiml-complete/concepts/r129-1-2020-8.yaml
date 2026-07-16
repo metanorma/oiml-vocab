@@ -1,0 +1,80 @@
+---
+data:
+  identifier: r129-1-2020-8
+  localized_concepts:
+    deu: 1f4d2f15-ce5c-5f43-a7db-851aad232dcb
+    eng: 39af93d9-84e8-5d84-9579-d0ce32d17fae
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 4ce44283-40df-5754-936a-e8cf2caec54d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: |-
+      Einrichtung zur Durchführung einer bestimmten Funktion, die direkt an der Ermittlung, Übertragung oder Anzeige der Messergebnisse beteiligt ist [VIML 5.06]
+
+      Hinweis 1: Eine Hilfseinrichtung kann in Abhängigkeit von ihrer Funktion im Messsystem gesetzlichen messtechnischen Kontrollen oder nationalen Vorschriften unterliegen.
+
+      Hinweis 2: Wesentliche Hilfseinrichtungen sind:
+
+      Nullstelleinrichtung;
+
+      - Wiederholanzeigeeinrichtung;
+
+      - Druckeinrichtung;
+
+      - Speichereinrichtung;
+
+      - Preisanzeigeeinrichtung;
+
+      - Summenanzeigeeinrichtung;
+
+      - Voreinstelleinrichtung;
+
+      - Selbstbedienungseinrichtung.
+  examples: []
+  id: r129-1-2020-8-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hilfseinrichtung
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1f4d2f15-ce5c-5f43-a7db-851aad232dcb
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: device intended to perform a particular function, directly involved in
+      elaborating, transmitting or displaying measurement results
+  examples: []
+  id: r129-1-2020-8-eng
+  notes:
+  - content: An ancillary device may or may not be subject to legal metrological control
+      according to its function in the measuring system or to national regulations.
+  - content: 'Main ancillary devices are: zero-setting device; repeating indicating
+      device; printing device; memory device; price indicating device; totalising
+      indicating device; pre-setting device; self-service device.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: ancillary device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 39af93d9-84e8-5d84-9579-d0ce32d17fae
+

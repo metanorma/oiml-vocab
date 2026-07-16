@@ -1,0 +1,79 @@
+---
+data:
+  identifier: d31-2008-25
+  localized_concepts:
+    eng: 77fef5b0-2e87-54e0-afb8-dc0ce046b194
+    fra: aeeb9694-9ed7-5cc8-be9a-d6109f9e3f41
+    spa: 4e2fe549-7031-5650-a578-0c6f1bb12c2d
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 77c95848-fd03-5338-8982-513690aa140d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: "(mathematical) function which maps values from a large (possibly very
+      large) domain into a smaller range"
+  examples: []
+  id: d31-2008-25-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: hash function
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 77fef5b0-2e87-54e0-afb8-dc0ce046b194
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Fonction (mathématique) qui lie les valeurs d'un grand domaine (potentiellement
+      très grand) à une plus petite étendue.
+  examples: []
+  id: d31-2008-25-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fonction de hachage
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: aeeb9694-9ed7-5cc8-be9a-d6109f9e3f41
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Función (matemática) que proyecto los valores de un dominio amplio (probablemente
+      muy amplio) en un rango menor. Una función hash correcta es aquella en la que
+      los resultados de aplicar la función en un conjunto (amplio) de valores del
+      dominio se distribuyen uniformemente (y aparentemente de forma aleatoria) sobre
+      el rango.
+  examples: []
+  id: d31-2008-25-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Funcion hash [ISO/IEC 9594-8:2001][4]
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4e2fe549-7031-5650-a578-0c6f1bb12c2d
+

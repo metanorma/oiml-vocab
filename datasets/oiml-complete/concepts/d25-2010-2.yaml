@@ -1,0 +1,87 @@
+---
+data:
+  identifier: d25-2010-2
+  localized_concepts:
+    eng: 999b8ddb-aedc-518a-aaa3-a34a47ce8a46
+    fra: d5248732-8547-56ac-9e91-e19b8a5d146b
+  domains:
+  - concept_id: d-25
+    source: urn:oiml:pub:d:25:2010
+    ref_type: section
+  sources: []
+status: valid
+id: f6578269-87db-5a13-8fa8-60ff7a30fe36
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: The K-factor, in pulses per unit volume, is the ratio of the meter output
+      (in number of pulses) to the corresponding total volume of fluid passing through
+      the meter during the measuring period.
+  - content: The variations in the K-factor may be presented as a function of either
+      the pipe Reynolds number or of the flowrate under a specific set of thermodynamic
+      conditions (see Figure 3).
+  - content: 'The mean K-factor is commonly used and defined by: K_mean = (K_max +
+      K_min) / 2 where K_max is the maximum K-factor over a designated linear range,
+      and K_min is the minimum K-factor over the same linear range.'
+  - content: The K-factor may change in line with pressure and thermal effects on
+      the body of the meter (see 4.5).
+  - content: The manufacturer of the meter should be consulted on the difference,
+      if any, of the K-factor between liquid and gas, and between pipe schedules of
+      the adjacent pipe.
+  examples: []
+  id: d25-2010-2-eng
+  notes:
+  - content: The K-factor is the function of the Reynolds number. In this Document
+      all the characteristics are given in relation to the Reynolds number. However,
+      in legal metrology the characteristics are normally given in relation to the
+      flowrate, which can be obtained from the Reynolds number.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: K-factor
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 999b8ddb-aedc-518a-aaa3-a34a47ce8a46
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Le facteur K, en impulsions par unité de volume, est le rapport du nombre
+      d'impulsions émises par le compteur au volume total correspondant de fluide
+      ayant traversé le compteur pendant la période de mesure.
+  - content: Les variations du facteur K peuvent être représentées en fonction soit
+      du nombre de Reynolds de la canalisation, soit du débit pour un ensemble spécifié
+      de conditions thermodynamiques (voir Figure 3).
+  - content: 'Le facteur K moyen est généralement utilisé et est défini par: K_moyen
+      = (K_max + K_min) / 2 où K_max est le facteur K maximum pour une étendue linéaire
+      spécifiée, et K_min est le facteur K minimum pour la même étendue linéaire.'
+  - content: Le facteur K peut changer selon les effets de la pression et de la température
+      sur le corps du compteur (voir 4.5).
+  - content: Il convient de consulter le fabricant du compteur en ce qui concerne
+      une éventuelle différence du facteur K entre les liquides et les gaz, et pour
+      différents agencements des canalisations adjacentes.
+  examples: []
+  id: d25-2010-2-fra
+  notes:
+  - content: Le facteur K est fonction du nombre de Reynolds. Dans le présent Document,
+      toutes les caractéristiques sont données par rapport au nombre de Reynolds.
+      Cependant, en métrologie légale, les caractéristiques sont normalement données
+      en fonction du débit, lequel peut être obtenu à partir du nombre de Reynolds.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur K
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d5248732-8547-56ac-9e91-e19b8a5d146b
+

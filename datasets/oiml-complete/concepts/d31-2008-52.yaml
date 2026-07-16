@@ -1,0 +1,80 @@
+---
+data:
+  identifier: d31-2008-52
+  localized_concepts:
+    eng: f0365c31-4631-5c18-af18-a86cf448bceb
+    fra: fadc4f9a-9376-5fdd-bd22-0c780cf72f9c
+    spa: 26e3e502-ba7a-58f1-94e6-8eaa7240e08b
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 34b5fa8c-7846-5509-ae10-1eaac0cc4fa8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: transmission of measurement data via communication networks or other
+      means to a distant electronic device where they are further processed and/or
+      used for legally regulated purposes
+  examples: []
+  id: d31-2008-52-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transmission of measurement data
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f0365c31-4631-5c18-af18-a86cf448bceb
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Transmission des données de mesure via des réseaux de communication,
+      ou d'autres moyens, à un dispositif électronique distant où elles sont ensuite
+      traitées et/ou utilisées à des fins réglementairement pertinentes.
+  examples: []
+  id: d31-2008-52-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transmission des données de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: fadc4f9a-9376-5fdd-bd22-0c780cf72f9c
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      «Parámetro legalmente relevante» cuyo valor depende únicamente del modelo de instrumento. Los parámetros específicos del modelo forman parte del software legalmente relevante.
+
+      Ejemplo: En un sistema de medida de líquidos distintos del agua, el rango de viscosidad cinemática de una turbina es un parámetro específico de modelo fijado en la aprobación de modelo de la turbina. Todas las turbinas fabricadas del mismo modelo poseen el mismo rango de viscosidad.
+  examples: []
+  id: d31-2008-52-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Parámetro específico del modelo
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 26e3e502-ba7a-58f1-94e6-8eaa7240e08b
+

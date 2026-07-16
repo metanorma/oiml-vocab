@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r21-2007-8
+  localized_concepts:
+    eng: 811bb1cd-83ba-55c1-9ffe-1b33e30f6816
+    pol: bfcab16e-dc0a-5044-8dfc-5f4f5f35eade
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 6a29b135-2753-5cd7-9df5-0ba270eec052
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Non-resettable counter device that increments each time device-specific
+      parameters are changed.
+  examples: []
+  id: r21-2007-8-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.2.3
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: event-counter
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 811bb1cd-83ba-55c1-9ffe-1b33e30f6816
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Nieresetowalne urządenie licznikowe,które realizuje przyrost zadym razem,gdy
+      zmieniane parametry charakterystyczne urządnia (2.2.8.3). Numer referencyjny
+      licznika w morcie legalizacji pierwotnej lub ponownej jest ustalony i zabezpieczony
+      za pomocą powiednich rodków sprzȘtowych lub programowych.
+  examples: []
+  id: r21-2007-8-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Licznik zdarze
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bfcab16e-dc0a-5044-8dfc-5f4f5f35eade
+

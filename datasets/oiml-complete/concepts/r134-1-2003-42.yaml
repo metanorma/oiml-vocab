@@ -1,0 +1,70 @@
+---
+data:
+  identifier: r134-1-2003-42
+  localized_concepts:
+    eng: 9eda32dd-820a-5c51-a4fc-3fb287ca1a73
+    fra: 3e693bd2-0933-533d-9fa2-012d33a509a6
+  domains:
+  - concept_id: r-134
+    source: urn:oiml:pub:r:134-1:2003
+    ref_type: section
+  sources: []
+status: valid
+id: 927d4413-b834-56d3-9ce5-1eba1d19242c
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Fault greater than 1 d.
+  - content: 'The following are not considered to be significant faults:'
+  - content: faults that result from simultaneous and mutually independent causes
+      in the instrument or in its checking facility;
+  - content: faults that make it impossible to perform any measurement;
+  - content: transitory faults that are momentary variations in the indications which
+      cannot be interpreted, memorized or transmitted as a measurement result; and
+  - content: faults that are so serious that they will inevitably be noticed by those
+      interested in the measurement.
+  examples: []
+  id: r134-1-2003-42-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 9eda32dd-820a-5c51-a4fc-3fb287ca1a73
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Défaut supérieur à 1 d.
+  - content: 'Les défauts suivants ne sont pas considérés comme significatifs :'
+  - content: les défauts provenant de causes simultanées et mutuellement indépendantes
+      dans l'instrument ou dans son dispositif de contrôle ;
+  - content: les défauts rendant impossible l'exécution de tout mesurage ;
+  - content: les défauts transitoires consistant en des variations momentanées dans
+      les indications et ne pouvant pas être interprétées, mémorisées ou transmises
+      comme un résultat de mesurage ; et
+  - content: les défauts si importants qu'ils ne peuvent manquer d'être remarqués
+      par les personnes intéressées au mesurage.
+  examples: []
+  id: r134-1-2003-42-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3e693bd2-0933-533d-9fa2-012d33a509a6
+

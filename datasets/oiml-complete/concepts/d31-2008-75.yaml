@@ -1,0 +1,38 @@
+---
+data:
+  identifier: d31-2008-75
+  localized_concepts:
+    spa: 55ac084f-64d6-53ac-a5ef-906feabed70b
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: d91790f3-65be-5fe8-a704-508b3720513e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      (I) En el ejemplo descrito en el apartado 5.2.1.2.a la interfaz software se desarrollo a través de parámetros y valores de retorno de los procedimientos de la biblioteca. No se devuelven punteros a dominios de datos dentro de la biblioteca. La definición de la interfaz se fija en la biblioteca compilada, legalmente relevante sin que ninguna aplicación pueda modificarla. No es imposible eludir la interfaz software y acceder a los dominios de datos de la biblioteca directamente, pero esto no es una buena práctica de programación, es más bien complicado y podría considerarse piratería informática.
+
+      5. 2.1.2.d Si un software legalmente relevante se ha separado de uno no relevante, el primero debe tener prioridad en la utilización de los recursos. Las funciones de medicion (desarrolladas por la parte legalmente relevante) no se deben ver retrasada ni bloqueada por otros procesos.
+
+      El fabricante tiene la responsabilidad de respetar estas restricciones. Se deben proporcionar medios técnicos para evitar que un programa legalmente no relevante altere las funciones legalmente relevantes. El fabricante debe proporcionar instrucciones relacionadas con estos requisitos a los programadores de la parte legalmente relevante del software y de la parte legalmente no relevante.
+  examples: []
+  id: d31-2008-75-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 'Ejemplo:'
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 55ac084f-64d6-53ac-a5ef-906feabed70b
+

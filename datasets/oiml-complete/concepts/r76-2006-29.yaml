@@ -1,0 +1,50 @@
+---
+data:
+  identifier: r76-2006-29
+  localized_concepts:
+    fra: e5cb7eea-73f4-56d7-bf85-c2fe49ccebcf
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: cd0ccec8-0086-5901-918c-2a65347ea82e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: |-
+      For an instrument of class II, III or IIII liable to be tilted, the influence of tilting shall be determined under the effect of a lengthwise tilting and a transverse tilting equal to the limiting value of tilting as defined in a) to d) below.
+
+      The absolute value of the difference between the indication of the instrument in its reference position (not tilted) and the indication in the tilted position (= limiting value of tilting in any direction) shall not exceed:
+
+      - at no load, two verification scale intervals (the instrument having first been adjusted to zero at no load in its reference position) except instruments of class II; and
+
+      - at self indication capacity and at maximum capacity, the maximum permissible error (the instrument having been adjusted to zero at no load both in the reference and in the tilted position).
+
+      a) If the instrument is fitted with a leveling device and a level indicator, the limiting value of tilting shall be defined by a marking (e.g. a ring) on the level indicator which shows that the maximum permissible tilt has been exceeded when the bubble is displaced from a central position and the edge touches the marking. The limiting value of the level indicator shall be obvious, so that tilting is easily noticed. The level indicator shall be fixed firmly on the instrument in a place clearly visible to the user and representative for the tilt sensitive part.
+  examples: []
+  id: r76-2006-29-fra
+  notes:
+  - content: |-
+      If, in exceptional circumstances, technical reasons forbid the level indicator to be fixed in a visible place this can be accepted only if the level indicator is easily accessible to the user without tools (e.g. below the removable load receptor), and if there is a legible notice provided on the instrument in a clearly visible place that points the user to the level indicator.
+
+      b) If the instrument is fitted with an automatic tilt sensor the limiting value of tilting is defined by the manufacturer. The tilt sensor shall release a display switch-off or other appropriate alarm signal (e.g. lamp, error signal) and shall inhibit the printout and data transmission if the limiting value of tilting has been exceeded (see also 4.18). The automatic tilt sensor may also compensate the effect of tilting.
+
+      c) If neither a) nor b) applies, the limiting value of tilting is 50/1000 in any direction.
+
+      d) Mobile instruments intended to be used outside in open locations (e.g. on roads) shall either be fitted with an automatic tilt sensor or a Cardanic (gimbal type) suspension of the tilt sensitive part(s). In case of an automatic tilt sensor, b) applies, whereas in the case of a Cardanic suspension, c) applies, but the manufacturer may define a limiting value of tilting larger than 50/1000 (see also 4.18).
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instruments liable to be tilted
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e5cb7eea-73f4-56d7-bf85-c2fe49ccebcf
+

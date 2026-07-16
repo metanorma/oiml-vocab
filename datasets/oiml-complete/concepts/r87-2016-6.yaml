@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r87-2016-6
+  localized_concepts:
+    eng: f9ba7d87-4c95-5ba3-88cc-92ab9aed6c7c
+    fra: 145f4b35-2ffd-5e2b-bf2c-82633528bead
+  domains:
+  - concept_id: r-87
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources: []
+status: valid
+id: 86392eee-a931-51b7-ad3a-730912570912
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: deficiency that is greater than twice the applicable tolerable deficiency
+      (2T) for the given nominal quantity
+  - content: 'T2 error: $ Q_{\mathrm{i}} < (Q_{\mathrm{nom}} - 2T) $ where $ Q_{\mathrm{nom}}
+      $ is the nominal quantity'
+  examples: []
+  id: r87-2016-6-eng
+  notes:
+  - content: See Annex G for an example of the application of errors.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: T2 error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f9ba7d87-4c95-5ba3-88cc-92ab9aed6c7c
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: manquant supérieur à deux fois le manquant toléré applicable (2T) pour
+      la quantité nominale donnée
+  - content: 'erreur T2: $ Q_{\mathrm{i}} < (Q_{\mathrm{nom}} - 2T) $ avec $ Q_{\mathrm{nom}}
+      $ comme quantité nominale'
+  examples: []
+  id: r87-2016-6-fra
+  notes:
+  - content: Voir annexe G pour un exemple d'application des erreurs.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur T2
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 145f4b35-2ffd-5e2b-bf2c-82633528bead
+

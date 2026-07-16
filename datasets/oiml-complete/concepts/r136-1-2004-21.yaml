@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r136-1-2004-21
+  localized_concepts:
+    deu: 74f053b8-9a06-55f5-bdc9-eae0db56fea1
+    eng: 30545959-2af7-5309-bb15-d5d5246464f9
+  domains:
+  - concept_id: r-136
+    source: urn:oiml:pub:r:136-1:2004
+    ref_type: section
+  sources: []
+status: valid
+id: 236188c0-63f1-5789-9641-8c45095d0bdc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:35Z'
+    type: accepted
+  definition:
+  - content: |-
+      In Flächeneinheiten ausgedruckter Wert der Differenz
+
+      - bei analoger Anzeige: zwischen Werten, die zwei aufeinanderfolgenden Skalenmarken entsprechen, oder
+
+      - bei digitaler Anzeige: zwischen zwei aufeinanderfolgenden angezeigten Werten.
+  examples: []
+  id: r136-1-2004-21-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Skalenteilungswert (d)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 74f053b8-9a06-55f5-bdc9-eae0db56fea1
+---
+data:
+  dates:
+  - date: 2026-07-16
+    type: accepted
+  definition:
+  - content: Smallest value that can be measured below which the indicated result
+      may be subject to excessive relative error.
+  examples: []
+  id: r136-1-2004-21-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Minimum area
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 30545959-2af7-5309-bb15-d5d5246464f9
+

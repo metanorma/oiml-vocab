@@ -2,87 +2,37 @@
 data:
   identifier: r72-1985-10
   localized_concepts:
-    eng: b9930e6d-a82b-5cba-89ae-9160a60a1953
-    fra: c71121b3-9577-5094-bb41-c0f141e99340
+    fra: 511c4ecb-a340-5597-aba4-cc1dad675efd
   domains:
   - concept_id: r-72
-    source: OIML R 72:1985
+    source: urn:oiml:pub:r:72:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '10'
+  sources: []
 status: valid
-id: 57f14282-86e8-583b-9b7a-aae5c0e9e8c8
+id: 3469600b-8451-5ead-9a9b-7000a813844c
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The maximum applied gauge pressure (i.e. above atmospheric pressure)
-      for which the hot water meter is designed for continuous operation.
-  examples: []
-  id: r72-1985-e-10-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '10'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: maximum working pressure (P_max)
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: b9930e6d-a82b-5cba-89ae-9160a60a1953
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Valeur maximale de la pression (au-dessus de la pression atmosphérique)
       pour laquelle le compteur d'eau chaude est conçu pour fonctionner de manière
       continue.
   examples: []
-  id: r72-1985-f-10-fra
+  id: r72-1985-10-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '10'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: pression maximale de service (P_max)
+    designation: Pression maximale de service
+  - type: symbol
+    normative_status: preferred
+    designation: P_max
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: c71121b3-9577-5094-bb41-c0f141e99340
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 511c4ecb-a340-5597-aba4-cc1dad675efd
 

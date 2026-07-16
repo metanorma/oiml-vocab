@@ -202,8 +202,17 @@ class DatasetValidator
     collect_from = lambda do |data|
       next unless data.is_a?(Hash)
       (data["sources"] || []).each do |s|
-        src = s.dig("origin", "ref", "source")
-        sources << src if src
+        next unless s.is_a?(Hash)
+        origin = s["origin"]
+        src = if origin.is_a?(Hash)
+          ref = origin["ref"]
+          ref.is_a?(Hash) ? ref["source"] : ref
+        elsif origin.is_a?(String)
+          origin
+        elsif s["ref"].is_a?(String)
+          s["ref"]
+        end
+        sources << src if src && src.is_a?(String)
       end
     end
     collect_from.call(managed.is_a?(Hash) ? managed["data"] : nil)

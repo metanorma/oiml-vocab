@@ -1,0 +1,73 @@
+---
+data:
+  identifier: d25-1996-4
+  localized_concepts:
+    eng: e8ac7e1c-76c2-5940-b14b-4112c6cb5e27
+    fra: 7d262c18-8315-54a4-bd00-17ab847e1411
+  domains:
+  - concept_id: d-25
+    source: urn:oiml:pub:d:25:1996
+    ref_type: section
+  sources: []
+status: valid
+id: e1d57528-e393-5358-b72f-bbc8a0e2a3ee
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: 'When a complete meter is tested as one unit the following formula applies
+      for the complete meter: E_meter = (I − V) / V × 100%.'
+  - content: 'When the test is divided into separate transducer and calculator/indicator
+      tests, the following formulae apply: for the transducer K_tran = N/V; for the
+      calculator/indicator K_calc = N/I; for the meter E_meter = (K_tran / K_calc
+      − 1) × 100%.'
+  - content: 'Where: I is the meter indication in volume units, V is the volumetric
+      measurement reading (volume passed through the transducer), N is the number
+      of factored pulses transmitted by the transducer, K_tran is the transducer calibration
+      constant, K_calc is the calculator/indicator calibration constant, and E_meter
+      is the meter error.'
+  examples: []
+  id: d25-1996-4-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: meter accuracy
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e8ac7e1c-76c2-5940-b14b-4112c6cb5e27
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: 'Lorsqu''un compteur complet est essayé en tant qu''unité, la formule
+      ci-après s''applique pour le compteur complet: E_compt = (I − V) / V × 100%.'
+  - content: 'Lorsque l''essai comprend des essais séparés du transducteur et du calculateur/indicateur,
+      les formules suivantes s''appliquent: pour le transducteur K_tran = N/V; pour
+      le calculateur/indicateur K_calc = N/I; pour le compteur E_compt = (K_tran /
+      K_calc − 1) × 100%.'
+  - content: 'Où: I est l''indication du compteur exprimée en volume, V est la lecture
+      de la mesure volumétrique (volume ayant traversé le transducteur), N est le
+      nombre d''impulsions factorisées transmises par le transducteur, K_tran est
+      la constante d''étalonnage du transducteur, K_calc est la constante d''étalonnage
+      du calculateur/indicateur, et E_compt est l''erreur du compteur.'
+  examples: []
+  id: d25-1996-4-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: exactitude du compteur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7d262c18-8315-54a4-bd00-17ab847e1411
+

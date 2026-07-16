@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-38
+  localized_concepts:
+    eng: 7f1abfd2-3892-59b8-9974-b2e357ebb4a7
+    pol: 416e17f3-13a2-51b0-b1d8-94b12514cce6
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: b1faacf4-892e-5793-bd4e-0747b51f3173
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Theoretical number of pulses from a distance and/or time measuring signal,
+      which can be calculated using the tariff data and the taximeter constant, k,
+      which should lead to a certain change in the fare indication.
+  examples: []
+  id: r21-2007-38-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.12
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: reference number of pulses
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7f1abfd2-3892-59b8-9974-b2e357ebb4a7
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Wartości, na podstawiektórych taksometr oblicza opłat przejazd.
+  examples: []
+  id: r21-2007-38-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wartosci taryfowe
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 416e17f3-13a2-51b0-b1d8-94b12514cce6
+

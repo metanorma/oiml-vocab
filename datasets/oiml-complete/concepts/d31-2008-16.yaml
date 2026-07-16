@@ -1,0 +1,96 @@
+---
+data:
+  identifier: d31-2008-16
+  localized_concepts:
+    eng: '097686f7-7307-5def-a3b0-a6babcd8ed23'
+    fra: 942f54ee-cb86-5306-a82c-883395aeae14
+    spa: 7a199cbd-ad8f-567b-a083-bdff8809a857
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 7d6db3eb-02ef-540b-a5de-8e98dcbdc8cc
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: device employing sub-assemblies and performing a specific function. An
+      electronic device is usually manufactured as a separate unit and is capable
+      of being tested independently
+  examples: []
+  id: d31-2008-16-eng
+  notes: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 11:2004, 3.2
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: electronic device
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: '097686f7-7307-5def-a3b0-a6babcd8ed23'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Dispositif qui utilise des sous-ensembles électroniques et qui accomplit
+      une fonction spécifique. Les dispositifs électroniques sont habituellement fabriqués
+      en tant qu'unités séparées et sont susceptibles d'être testés séparément.
+  examples: []
+  id: d31-2008-16-fra
+  notes:
+  - content: Un dispositif électronique peut être un instrument de mesure complet
+      (par exemple une balance, un compteur électrique) ou une partie d'instrument
+      de mesure (par exemple une imprimante, un indicateur).
+  sources:
+  - origin:
+      ref:
+        source: OIML D 11:2004
+    locality:
+      type: clause
+      reference_from: '3.2'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositif électronique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 942f54ee-cb86-5306-a82c-883395aeae14
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      Dispositivo que utiliza subconjuntos y desempeña una función específica. Un dispositivo electrónico suele fabricarse como una unidad separada y se puede someter a ensayo de forma independiente.
+
+      Nota: Puede constituir un instrumento de medida completo (p. ej. una balanza o un contador de electricidad) o ser una parte del mismo (p. ej. una impresora o un puntero).
+
+      Puede constituir un módulo según el sentido con el que se utiliza en la OIML B 3 Sistema de certificado OIML para instrumentos de medida [2].
+  examples: []
+  id: d31-2008-16-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dispositivo electrónico [OIML D 11:2004, 3.2]
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7a199cbd-ad8f-567b-a083-bdff8809a857
+

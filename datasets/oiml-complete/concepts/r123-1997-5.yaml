@@ -1,0 +1,63 @@
+---
+data:
+  identifier: r123-1997-5
+  localized_concepts:
+    eng: d647f540-190d-537f-a811-784ad76103d0
+    fra: 77f5ef15-a686-5abe-8ede-44fd4365c01e
+  domains:
+  - concept_id: r-123
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources: []
+status: valid
+id: cecd1341-5bdc-5a57-956e-8c00981ba146
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Closeness of agreement between the results of successive measurements
+      of the same sample using the same instrument, under the same defined conditions
+      of use, and within a relatively short period of time.
+  examples: []
+  id: r123-1997-5-eng
+  notes:
+  - content: 'The same defined conditions would include the following: method of measurement,
+      the measuring instrument, the operator, the location and the ambient environmental
+      conditions.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d647f540-190d-537f-a811-784ad76103d0
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Étroitesse de l'accord entre les résultats des mesurages successifs du
+      même échantillon par le même instrument, dans des conditions d'utilisation définies
+      identiques et dans un intervalle de temps relativement court.
+  examples: []
+  id: r123-1997-5-fra
+  notes:
+  - Les conditions définies identiques devraient inclure: la méthode de mesurage,
+      l'instrument de mesure, l'opérateur, le lieu et les conditions environnementales
+      ambiantes.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fidélité
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 77f5ef15-a686-5abe-8ede-44fd4365c01e
+

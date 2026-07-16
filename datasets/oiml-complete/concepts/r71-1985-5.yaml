@@ -2,88 +2,37 @@
 data:
   identifier: r71-1985-5
   localized_concepts:
-    eng: b11c7bce-b1e2-5cef-a5f0-62f4680f567d
-    fra: 67cbe909-c79d-594d-baf1-79f38e3ab063
+    fra: d85f588d-6375-53e8-bade-253b714a6199
   domains:
   - concept_id: r-71
-    source: OIML R 71:1985
+    source: urn:oiml:pub:r:71:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '5'
+  sources: []
 status: valid
-id: 66321c2e-ab08-5113-869a-3d1ba6fbb9d3
+id: 62596ee8-766a-561a-bc5c-98affbea0d14
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The vertical line which passes through the middle of the still well (guide
-      pipe), if provided, belonging to the gauge hatch concerned, and corresponding
-      to the position intended for automatic or manual level gauges.
-  examples: []
-  id: r71-1985-e-5-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '5'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: vertical measurement axis
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: b11c7bce-b1e2-5cef-a5f0-62f4680f567d
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Ligne verticale qui passe par le milieu du puits de tranquillisation
       (tube de guidage), si celui-ci existe, relatif à l'orifice de mesurage concerné
       et correspondant à la position prévue pour le mesurage manuel ou automatique.
   examples: []
-  id: r71-1985-f-5-fra
+  id: r71-1985-5-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 71:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '5'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: verticale de mesurage (verticale de pige)
+    designation: Verticale de mesurage
+  - type: expression
+    normative_status: admitted
+    designation: Verticale de pige
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-71
-    source: OIML R 71:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 67cbe909-c79d-594d-baf1-79f38e3ab063
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d85f588d-6375-53e8-bade-253b714a6199
 

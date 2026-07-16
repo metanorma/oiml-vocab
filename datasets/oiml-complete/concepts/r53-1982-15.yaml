@@ -2,88 +2,34 @@
 data:
   identifier: r53-1982-15
   localized_concepts:
-    eng: 127d70af-088f-5494-bcb7-c90ea56180a8
-    fra: d2705bea-b8d9-5f6b-87d8-f3ab42ace10b
+    fra: 0bd6e082-3780-5b20-ac7c-1262a11af78c
   domains:
   - concept_id: r-53
-    source: OIML R 53:1982
+    source: urn:oiml:pub:r:53:1982
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '15'
-    type: authoritative
+  sources: []
 status: valid
-id: 538293de-a209-5bf7-8c94-3b48f729eaed
+id: 5c143afa-53a3-5a61-8ca8-e36bd1f7d850
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Displacement of the initial position after the elastic sensing element
-      has been submitted to nominal pressure, to overload pressure, or to another
-      pressure over a certain period of time.
-  examples: []
-  id: r53-1982-e-15-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '15'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Change of initial position
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 127d70af-088f-5494-bcb7-c90ea56180a8
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Déplacement de la position initiale après que l'élément récepteur élastique
       ait été soumis pendant un certain temps à la pression nominale, à la pression
       de surcharge ou à une autre pression.
   examples: []
-  id: r53-1982-f-15-fra
+  id: r53-1982-15-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '15'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Changement de position initiale
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: d2705bea-b8d9-5f6b-87d8-f3ab42ace10b
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 0bd6e082-3780-5b20-ac7c-1262a11af78c
 

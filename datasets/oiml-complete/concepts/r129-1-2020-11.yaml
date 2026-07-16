@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r129-1-2020-11
+  localized_concepts:
+    deu: 8a489762-db0d-5984-af40-4863da5b5637
+    eng: b1baab86-c577-54fe-b91f-9b856d7fd6bc
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: 4276aaed-49f7-5760-8c00-58a7c424a8db
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: Gerät, das über nur einen Messbereich pro Achse verfügt, welcher in mehrere
+      Teilbereiche unterteilt ist. Jeder dieser Teilbereiche kann unterschiedliche
+      Skalenteilungswerte haben. Der Messbereich wird in Abhängigkeit von der zu messenden
+      Abmessung automatisch bestimmt.
+  examples: []
+  id: r129-1-2020-11-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mehrbereichsmessgerät (Messgerät mit mehreren Auflösungen)
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8a489762-db0d-5984-af40-4863da5b5637
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: measuring instrument having one dimensional measuring range for each
+      axis which is divided into partial measuring ranges each with different scale
+      intervals, with the measuring range determined automatically according to the
+      dimension being measured
+  examples: []
+  id: r129-1-2020-11-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: multi-interval instrument
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b1baab86-c577-54fe-b91f-9b856d7fd6bc
+

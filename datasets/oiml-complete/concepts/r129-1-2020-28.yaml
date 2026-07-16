@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r129-1-2020-28
+  localized_concepts:
+    deu: 843e3589-36a3-5e9e-a8f1-754c742c5dda
+    eng: bf13f83a-c983-51a4-8ecb-4c27ba414dcc
+  domains:
+  - concept_id: r-129
+    source: urn:oiml:pub:r:129-1:2020
+    ref_type: section
+  sources: []
+status: valid
+id: b1dd543a-7ceb-548c-8010-86886c9a8150
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:30Z'
+    type: accepted
+  definition:
+  - content: |-
+      der in Spezifikationen, Empfehlungen, Vorschriften usw. zugelassene Extremwert (positiv und negativ) der Abweichung der Anzeige [angepasst von VIM 4.26]
+
+      Hinweis: Der Absolutwert der Fehlergrenze ist der gleiche Wert ohne Vorzeichen.
+  examples: []
+  id: r129-1-2020-28-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fehlergrenze
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 843e3589-36a3-5e9e-a8f1-754c742c5dda
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: intrinsic error of a measuring instrument as determined prior to performance
+      tests
+  examples: []
+  id: r129-1-2020-28-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: initial intrinsic error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bf13f83a-c983-51a4-8ecb-4c27ba414dcc
+

@@ -1,0 +1,63 @@
+---
+data:
+  identifier: r123-1997-2
+  localized_concepts:
+    eng: 4564a544-3a7c-54e0-9901-5031c220e141
+    fra: 23ae7bd5-f500-55e9-b6b4-c0e0db2312a5
+  domains:
+  - concept_id: r-123
+    source: urn:oiml:pub:r:123:1997
+    ref_type: section
+  sources: []
+status: valid
+id: fb403761-087f-5d15-94be-2af9d79be3c7
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Concentration of an element which provides an output signal equivalent
+      to three times the standard deviation of the background. It is the minimum quantity
+      of an element that can be detected.
+  examples: []
+  id: r123-1997-2-eng
+  notes:
+  - content: For this Recommendation, it may be derived from the statistical variation
+      in the background using the equation D = 3(B/t)^(1/2)/S.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4564a544-3a7c-54e0-9901-5031c220e141
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Concentration d'un élément fournissant un signal de sortie équivalent
+      à trois fois l'écart type du fond de rayonnement. Il s'agit de la quantité minimale
+      détectable d'un élément.
+  examples: []
+  id: r123-1997-2-fra
+  notes:
+  - content: Lorsqu'appliquée dans une méthode de mesurage ou pour une analyse, la
+      limite de quantification de l'instrument constitue un paramètre important. Elle
+      est définie comme étant une valeur égale à 10 fois l'écart type du fond de rayonnement
+      et devrait aussi inclure les variations associées à l'échantillonnage et à l'analyse.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Limite de détection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 23ae7bd5-f500-55e9-b6b4-c0e0db2312a5
+

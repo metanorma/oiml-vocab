@@ -1,0 +1,69 @@
+---
+data:
+  identifier: r35-2-2011-16
+  localized_concepts:
+    deu: cf4854be-ba3e-5ed3-b7a5-846c5fa612aa
+    eng: 2436b908-c179-50ab-ad48-dd3fb4bb0e0e
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-2:2011
+    ref_type: section
+  sources: []
+status: valid
+id: 87aca10f-7421-52fb-8c2e-f6b2ad5b9069
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: |-
+      Fehler, dessen Größenordnung höher ist als ein Fünftel der Größenordnung der Fehlergrenze für die gemessene Länge.
+
+      Die folgenden Fehler werden als nicht significant betrachtet, auch wenn sie den oben festgelegten Wert überschreiten:
+
+      a) Fehler, die durch gleichzeitig und voneinander unabhängig auftretende Ursachen im elektronischen Gerät entstehen;
+
+      b) Fehler, die jede Messung unmöglich machen;
+
+      c) auf momentane Abweichungen zurückzuführende vorübergehende Fehler, die nicht als Messergebnis gedeutet, gespeichert oder übermittelt werden können;
+
+      d) Fehler, bei denen beim Messergebnis Schwankungen auftreten, die so gravierend sind, dass sie von allen am Messergebnis Interessierten wahrgenommen werden.
+  examples: []
+  id: r35-2-2011-16-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Signifikanter Fehler
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: cf4854be-ba3e-5ed3-b7a5-846c5fa612aa
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: fault, the magnitude of which is greater than one-fifth of the magnitude
+      of the maximum permitted error for the length measured
+  examples: []
+  id: r35-2-2011-16-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-2:2011 (E)
+      clause: '2.16'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2436b908-c179-50ab-ad48-dd3fb4bb0e0e
+

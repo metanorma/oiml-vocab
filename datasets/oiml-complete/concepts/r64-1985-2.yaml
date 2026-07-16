@@ -2,86 +2,33 @@
 data:
   identifier: r64-1985-2
   localized_concepts:
-    eng: 28ee354b-214d-5e9e-8783-7cb5a8c3e561
-    fra: 97bd73c5-660e-568d-9f8f-015aababedc1
+    fra: 8ce6fff9-c487-5b87-b80d-08ac69420e75
   domains:
   - concept_id: r-64
-    source: OIML R 64:1985
+    source: urn:oiml:pub:r:64:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 64:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2'
+  sources: []
 status: valid
-id: e1e0b09a-54a5-5875-a7c1-3fa66d400260
+id: 5a3a0a33-c5f8-5c15-b6e7-22a25ca6c597
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
-  - content: Propriété d'un matériau relative à son comportement elastique ou non-élastique,
+  - content: Propriété d'un matériau relative à son comportement élastique ou non-élastique,
       lorsqu'on lui applique une force ou qu'on lui fait subir une déformation.
   examples: []
-  id: r64-1985-f-2-fra
+  id: r64-1985-2-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 64:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: propriété mécanique
+    designation: Propriété mécanique
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-64
-    source: OIML R 64:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 97bd73c5-660e-568d-9f8f-015aababedc1
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: A property of a material associated with elastic and inelastic behavior
-      when force or deformation is applied.
-  examples: []
-  id: r64-1985-e-2-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 64:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '2'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: mechanical property
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-64
-    source: OIML R 64:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 28ee354b-214d-5e9e-8783-7cb5a8c3e561
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8ce6fff9-c487-5b87-b80d-08ac69420e75
 

@@ -1,0 +1,64 @@
+---
+data:
+  identifier: r87-2016-4
+  localized_concepts:
+    eng: f3b04ad8-e071-5877-94f9-65c5c3929a9a
+    fra: 2de8de83-5af4-51e9-affe-3267fa73085e
+  domains:
+  - concept_id: r-87
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources: []
+status: valid
+id: a889c2c9-6e78-54d9-a910-1e15793fcf81
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: difference between the actual quantity of product in a prepackage and
+      the nominal quantity of that prepackage
+  examples: []
+  id: r87-2016-4-eng
+  notes:
+  - content: The individual prepackage error for a prepackage "i" is designated by
+      the symbol $ E_{\mathrm{i}} $ or $ e_{\mathrm{i}} $ and can be calculated by
+      $ E_{\mathrm{i}}=Q_{\mathrm{i}}-Q_{\mathrm{nom}} $ or by $ e_{\mathrm{i}}=q_{\mathrm{i}}-Q_{\mathrm{nom}}
+      $ where $ Q_{\mathrm{nom}} $ is the nominal quantity.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: individual prepackage error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f3b04ad8-e071-5877-94f9-65c5c3929a9a
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: différence entre la quantité effective de produit dans un préemballage
+      et la quantité nominale de ce préemballage
+  examples: []
+  id: r87-2016-4-fra
+  notes:
+  - content: 'L''erreur de préemballage individuel pour un préemballage « i » est
+      désignée par le symbole $ E_{\mathrm{i}} $ ou $ e_{\mathrm{i}} $ et peut être
+      calculée comme suit : $ E_{\mathrm{i}}=Q_{\mathrm{i}}-Q_{\mathrm{nom}} $ ou
+      $ e_{\mathrm{i}}=q_{\mathrm{i}}-Q_{\mathrm{nom}} $ avec $ Q_{\mathrm{nom}} $
+      comme quantité nominale.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur de préemballage individuel
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2de8de83-5af4-51e9-affe-3267fa73085e
+

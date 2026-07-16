@@ -1,0 +1,73 @@
+---
+data:
+  identifier: r83-1990-10
+  localized_concepts:
+    eng: 6e031114-7d5d-5b7e-b23f-2616c4ed7073
+    fra: d28a1862-e0de-57e8-81bd-4d8e0c2b09b7
+  domains:
+  - concept_id: r-83
+    source: urn:oiml:pub:r:83:1990
+    ref_type: section
+  sources: []
+status: valid
+id: 7c12a920-deca-598b-8a63-2ed40daee90d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: 'The minimum amount of a specific compound which, when injected into
+      the gas chromatograph can produce a signal-to-noise ratio of at least 10 for
+      a characteristic molecular ion of that compound subject to the following conditions:
+      in the full scan mode, a scan time over the appropriate mass range shall be
+      specified; in the selected ion monitoring (SIM) mode, the principal ion characterizing
+      the compound shall be measured. The mode of ionization (electron impact or chemical
+      ionization) shall be considered.'
+  examples: []
+  id: r83-1990-10-eng
+  notes:
+  - content: Methyl stearate is often used as the test compound.
+  - content: The term "sensitivity" is frequently used to have the same meaning as
+      this term within the community of mass spectrometer manufacturers and users.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detection limit of a gas chromatograph/mass spectrometer system
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6e031114-7d5d-5b7e-b23f-2616c4ed7073
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - ? quantité minimale d'un composé donné qui, injecté dans le chromatographe, permet
+      d'obtenir un rapport signal/bruit d'au moins 10 pour un ion moléculaire caractéristique
+      de ce composé dans les conditions suivantes
+    : en mode de balayage complet, un temps de balayage de l'étendue appropriée des
+      masses doit être spécifié (par exemple une seconde); en mode de contrôle d'un
+      ion spécifique, il faut mesurer l'ion principal du composé. Il faut également
+      tenir compte du mode d'ionisation (impact d'électrons ou ionisation chimique).
+  examples: []
+  id: r83-1990-10-fra
+  notes:
+  - content: Le méthyl stéarate est souvent utilisé comme composé d'essai.
+  - content: Les constructeurs et utilisateurs de spectromètres de masse emploient
+      souvent le terme « sensibilité » dans le même sens que « limite de détection
+      ».
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limite de détection d'un ensemble chromatographe en phase gazeuse/spectromètre
+      de masse
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d28a1862-e0de-57e8-81bd-4d8e0c2b09b7
+

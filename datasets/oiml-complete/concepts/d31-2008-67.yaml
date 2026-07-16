@@ -1,0 +1,38 @@
+---
+data:
+  identifier: d31-2008-67
+  localized_concepts:
+    spa: f59c0a8e-8244-5ff9-a015-82e69d933c1b
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: f4c6fab4-b499-56b3-9286-d952738a5a7b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: |-
+      La Recomendación OIML pertinente puede requerir funciones de detección de ciertos fallos del instrumento (citadas en la OIML D 11:2004 (5.1.2 (b) y 5.3)). En este caso, se requerirá al fabricante del instrumento diseñar herramientas de comprobación en las partes del software o del hardware, o bien aportar medios a través de los cuales partes del software del instrumento puedan respaldar el funcionamiento de las partes del hardware.
+
+      Si el software actúa en una detección de fallos, debe reaccionar de forma adecuada. La Recomendación OIML pertinente puede determinar que en caso de detectar un fallo, se desactive el instrumento/dispositivo electrónico o se genere una alarma/registro en un registro de errores.
+
+      La documentación presentada para la aprobación de modelo incluirá una lista de fallos detectables mediante el software y su reacción esperada y además, si fuera necesario para facilitar la comprensión, una descripción del algoritmo detector.
+  examples: []
+  id: d31-2008-67-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detección de fallos
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f59c0a8e-8244-5ff9-a015-82e69d933c1b
+

@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r60-1-2017-39
+  localized_concepts:
+    eng: 84e2eedd-b617-529e-a88d-9de284b74aea
+    fra: d3c49090-d2b8-5180-8d01-7c0b83caac8a
+  domains:
+  - concept_id: r-60
+    source: urn:oiml:pub:r:60-1:2017
+    ref_type: section
+  sources: []
+status: valid
+id: e53c49f3-81c6-5675-a80c-03dcf6909651
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: value of a dimensionless fraction expressed as a decimal (for example,
+      0.7) representing that portion of an error observed in the (weighing) instrument
+      which is attributed to the load cell alone
+  examples: []
+  id: r60-1-2017-39-eng
+  notes:
+  - content: This value is used in determining the MPE (see 3.7.10).
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: apportioning factor (pLC)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 84e2eedd-b617-529e-a88d-9de284b74aea
+---
+data:
+  dates:
+  - date: '2026-07-15T15:09:53Z'
+    type: accepted
+  definition:
+  - content: valeur d'une fraction sans dimension exprimée comme une décimale, représentant
+      la répartition d'une erreur observée dans l'instrument de pesage attribuée à
+      la cellule de pesée seule
+  examples: []
+  id: r60-1-2017-39-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur de répartition (pLC)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d3c49090-d2b8-5180-8d01-7c0b83caac8a
+

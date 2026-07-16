@@ -1,0 +1,44 @@
+---
+data:
+  identifier: r76-2006-19
+  localized_concepts:
+    fra: f6428495-21b0-5e22-9904-b18d1adfd645
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76:2006
+    ref_type: section
+  sources: []
+status: valid
+id: 807ef840-3525-5e61-981b-b394667c9cde
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:31:04Z'
+    type: accepted
+  definition:
+  - content: The indications for different positions of a load shall meet the maximum
+      permissible errors, when the instrument is tested according to 3.6.2.1-3.6.2.4.
+  examples: []
+  id: r76-2006-19-fra
+  notes:
+  - content: |-
+      If an instrument is designed in such a way that loads may be applied in different manners, it may be appropriate to apply more than one of the following tests.
+
+      3. 6.2.1 Unless otherwise specified hereafter, a load corresponding to 1/3 of the sum of the maximum capacity and the corresponding maximum additive tare effect shall be applied.
+
+      3. 6.2.2 On an instrument with a load receptor having n points of support, with n>4, the fraction $ 1 / ( n-1 ) $ of the sum of the maximum capacity and the maximum additive tare effect shall be applied to each point of support.
+
+      3. 6.2.3 On an instrument with a load receptor subject to minimal off-centre loading (e.g. tank, hopper, etc.) a test load corresponding to 1/10 of the sum of the maximum capacity and the maximum additive tare effect shall be applied to each point of support.
+
+      3. 6.2.4 On an instrument used for weighing rolling loads (e.g. vehicle scale, rail suspension instrument) a test load corresponding to the usual rolling load, the heaviest and the most concentrated one which may be weighed, but not exceeding 0.8 times the sum of the maximum capacity and the maximum additive tare effect, shall be applied at different points on the load receptor.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Eccentric loading
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f6428495-21b0-5e22-9904-b18d1adfd645
+

@@ -2,86 +2,33 @@
 data:
   identifier: r53-1982-7
   localized_concepts:
-    eng: 57898b95-26d6-55d9-a9d8-da8888560090
-    fra: 87282c10-ecac-58df-9885-66275906423a
+    fra: 1231bc3d-ebe6-587c-b1a9-7480a53016f2
   domains:
   - concept_id: r-53
-    source: OIML R 53:1982
+    source: urn:oiml:pub:r:53:1982
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '7'
-    type: authoritative
+  sources: []
 status: valid
-id: 03d116e9-7c98-5f36-94a3-498b8aea91ec
+id: e9249f5a-ba81-59f3-a964-d68526c0544e
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: Relation between the displacement of the reference point and pressure,
-      when the pressure increases.
-  examples: []
-  id: r53-1982-e-7-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '7'
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Forward elastic characteristic
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 57898b95-26d6-55d9-a9d8-da8888560090
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-15T00:00:00Z'
     type: accepted
   definition:
   - content: Dépendance entre le déplacement du point de référence et la pression,
       quand celle-ci augmente.
   examples: []
-  id: r53-1982-f-7-fra
+  id: r53-1982-7-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 53:1982
-        version: '1982'
-    locality:
-      type: clause
-      reference_from: '7'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
     designation: Caractéristique élastique en marche avant
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-53
-    source: OIML R 53:1982
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: 87282c10-ecac-58df-9885-66275906423a
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1231bc3d-ebe6-587c-b1a9-7480a53016f2
 

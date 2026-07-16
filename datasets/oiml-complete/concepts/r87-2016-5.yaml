@@ -1,0 +1,63 @@
+---
+data:
+  identifier: r87-2016-5
+  localized_concepts:
+    eng: bb565dc1-5627-5c2c-aefe-209b8e342e35
+    fra: 62e8092e-5ba3-5a7b-a5ea-54f16988251a
+  domains:
+  - concept_id: r-87
+    source: urn:oiml:pub:r:87:2016
+    ref_type: section
+  sources: []
+status: valid
+id: cf1af244-c16e-5a30-b8ef-d771cefb5361
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: deficiency that is greater than the applicable tolerable deficiency (T)
+      (see 2.1.17) but not greater than twice the applicable tolerable deficiency
+      (2T) for the given nominal quantity
+  - content: 'T1 error: $ (Q_{\mathrm{nom}} - 2T) \leq Q_{\mathrm{i}} < (Q_{\mathrm{nom}}
+      - T) $ where $ Q_{\mathrm{nom}} $ is the nominal quantity'
+  examples: []
+  id: r87-2016-5-eng
+  notes:
+  - content: See Annex G for an example of the application of errors.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: T1 error
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bb565dc1-5627-5c2c-aefe-209b8e342e35
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: manquant supérieur au manquant toléré applicable (T) (voir 2.1.17), mais
+      pas supérieure à deux fois le manquant toléré applicable (2T) pour la quantité
+      nominale donnée
+  - content: 'erreur T1: $ (Q_{\mathrm{nom}}-2 T)\leq Q_{\mathrm{i}}<( Q_{\mathrm{nom}}-T)
+      $ avec $ Q_{\mathrm{nom}} $ comme quantité nominale'
+  examples: []
+  id: r87-2016-5-fra
+  notes:
+  - content: Voir annexe G pour un exemple d'application des erreurs.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur T1
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 62e8092e-5ba3-5a7b-a5ea-54f16988251a
+

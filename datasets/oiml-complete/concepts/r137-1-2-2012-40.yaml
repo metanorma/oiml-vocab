@@ -1,0 +1,61 @@
+---
+data:
+  identifier: r137-1-2-2012-40
+  localized_concepts:
+    eng: e4884a1a-909f-5558-9e0f-db4a0bdffede
+    fra: c1cbb071-16a1-5415-a3e3-2a7a10e0e13d
+  domains:
+  - concept_id: r-137
+    source: urn:oiml:pub:r:137-1-2:2012
+    ref_type: section
+  sources: []
+status: valid
+id: cccf9422-ed71-573c-87a3-74887b107637
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: median temperature for gas meters with built-in conversion devices, used
+      as a reference for the determination of the applicable operating temperature
+      range
+  examples: []
+  id: r137-1-2-2012-40-eng
+  notes:
+  - content: The difference between t_sp and the gas temperature has an influence
+      on the value of the MPE
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: specified temperature, t_sp
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e4884a1a-909f-5558-9e0f-db4a0bdffede
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: température médiane pour les compteurs de gaz avec dispositifs de conversion
+      intégrés, utilisée comme référence pour la détermination de l'étendue de température
+      de fonctionnement applicable
+  examples: []
+  id: r137-1-2-2012-40-fra
+  notes:
+  - content: La différence entre t_sp et la température du gaz a une influence sur
+      la valeur de l'EMT.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: température spécifiée, t_sp
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c1cbb071-16a1-5415-a3e3-2a7a10e0e13d
+

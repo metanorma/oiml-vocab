@@ -1,0 +1,57 @@
+---
+data:
+  identifier: r100-1-2013-7
+  localized_concepts:
+    eng: e53373f8-2a15-5225-95f9-eb6129258943
+    fra: 777a8805-e0d9-5435-afdd-194d77f37c1d
+  domains:
+  - concept_id: r-100
+    source: urn:oiml:pub:r:100-1:2013
+    ref_type: section
+  sources: []
+status: valid
+id: ea7c39dd-6712-564f-97c6-e5775e1b94d6
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Figure of merit which is calculated as three times the observed standard
+      deviation of the baseline noise, established by measuring the output signal
+      from a blank test solution free of interferents.
+  examples: []
+  id: r100-1-2013-7-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: instrument detection limit (IDL)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: e53373f8-2a15-5225-95f9-eb6129258943
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: facteur de mérite qui est égal à trois fois l'écart type du bruit de
+      fond observé, établi en mesurant le signal de sortie d'une solution d'essai
+      à blanc exempte de substance interférente
+  examples: []
+  id: r100-1-2013-7-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limite de détection de l'instrument (LDI)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 777a8805-e0d9-5435-afdd-194d77f37c1d
+

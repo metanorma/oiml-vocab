@@ -1,0 +1,42 @@
+---
+data:
+  identifier: r91-1-2025-55
+  localized_concepts:
+    eng: f2999747-1283-5dd7-ac5c-c9f7c3f7712f
+  domains:
+  - concept_id: r-91
+    source: urn:oiml:pub:r:91-1:2025
+    ref_type: section
+  sources: []
+status: valid
+id: 1a5c5228-18ba-5f42-810f-c65c6ffde144
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+  examples: []
+  id: r91-1-2025-55-eng
+  notes:
+  - content: 'For speed meters the following quantities are examples of influence
+      quantities: ambient temperature, measurement angle, acceleration of measured
+      vehicle, distance and speed of other vehicles on the same or neighbouring lanes.'
+  sources:
+  - origin:
+      ref: OIML V 1
+  - origin:
+      ref: OIML R 91-1:2025
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: influence quantity
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f2999747-1283-5dd7-ac5c-c9f7c3f7712f
+

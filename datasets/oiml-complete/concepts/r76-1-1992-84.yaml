@@ -1,0 +1,62 @@
+---
+data:
+  identifier: r76-1-1992-84
+  localized_concepts:
+    eng: 94880795-3c63-5db9-9a72-5f46dafc5813
+    fra: fb9a15cc-3109-591d-981e-537476954ea4
+  domains:
+  - concept_id: r-76
+    source: urn:oiml:pub:r:76-1:1992
+    ref_type: section
+  sources: []
+status: valid
+id: 3642a5c0-ff6d-54bb-ab94-aa6ecb4c6675
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: A fault greater than e.
+  examples: []
+  id: r76-1-1992-84-eng
+  notes:
+  - content: For a multi-interval instrument, the value of e is that appropriate to
+      the partial weighing range.
+  - content: 'The following are not considered to be significant faults, even when
+      they exceed e: faults arising from simultaneous and mutually independent causes
+      in the instrument; faults implying the impossibility to perform any measurement;
+      faults being so serious that they are bound to be noticed by all those interested
+      in the result of measurement; transitory faults being momentary variations in
+      the indication which cannot be interpreted, memorized or transmitted as a measuring
+      result.'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 94880795-3c63-5db9-9a72-5f46dafc5813
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Défaut supérieur à e.
+  examples: []
+  id: r76-1-1992-84-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: fb9a15cc-3109-591d-981e-537476954ea4
+

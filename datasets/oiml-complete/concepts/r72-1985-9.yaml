@@ -2,86 +2,36 @@
 data:
   identifier: r72-1985-9
   localized_concepts:
-    eng: fe1820e7-0515-5335-bac1-71740539bbb8
-    fra: '048a396f-5f01-5c2d-b33d-185ae9920e9a'
+    fra: 39680cab-3271-5d8c-a733-a4a28fa499be
   domains:
   - concept_id: r-72
-    source: OIML R 72:1985
+    source: urn:oiml:pub:r:72:1985
     ref_type: section
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '9'
+  sources: []
 status: valid
-id: 80afca22-43c2-5ecc-a1ac-c3181d60cef1
+id: 9c3782fd-5812-5639-be0e-b7f6d1fa30eb
 schema_version: '3'
 ---
 data:
   dates:
-  - date: '2026-07-13T00:00:00+00:00'
-    type: accepted
-  definition:
-  - content: The temperature of the hot water in the pipeline immediately upstream
-      of the hot water meter.
-  examples: []
-  id: r72-1985-e-9-eng
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '9'
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: working temperature (T)
-  language_code: eng
-  entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: fe1820e7-0515-5335-bac1-71740539bbb8
----
-data:
-  dates:
-  - date: '2026-07-13T00:00:00+00:00'
+  - date: '2026-07-16T00:00:00Z'
     type: accepted
   definition:
   - content: Température de l'eau chaude dans la conduite immédiatement en amont du
       compteur d'eau chaude.
   examples: []
-  id: r72-1985-f-9-fra
+  id: r72-1985-9-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML R 72:1985
-        version: '1985'
-    type: authoritative
-    locality:
-      type: clause
-      reference_from: '9'
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: température de service (T)
+    designation: Température de service
+  - type: symbol
+    normative_status: preferred
+    designation: T
   language_code: fra
   entry_status: valid
-  domains:
-  - concept_id: r-72
-    source: OIML R 72:1985
-    ref_type: section
-date_accepted: '2026-07-13T00:00:00+00:00'
-id: '048a396f-5f01-5c2d-b33d-185ae9920e9a'
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 39680cab-3271-5d8c-a733-a4a28fa499be
 

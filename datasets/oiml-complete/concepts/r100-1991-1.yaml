@@ -1,0 +1,58 @@
+---
+data:
+  identifier: r100-1991-1
+  localized_concepts:
+    eng: 3f7d37a8-f751-5164-8e34-ef67cb5a9d55
+    fra: 16a7cb67-b99a-5798-9b06-a0d40c79c8d2
+  domains:
+  - concept_id: r-100
+    source: urn:oiml:pub:r:100:1991
+    ref_type: section
+  sources: []
+status: valid
+id: d4f4a91f-d8ea-58a4-ac5a-149c5330180a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: A value equal to the logarithm of the ratio of the incident light to
+      the transmitted light and is dependent on the path length and the concentration
+      of the absorbing substance.
+  examples: []
+  id: r100-1991-1-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Absorbance
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 3f7d37a8-f751-5164-8e34-ef67cb5a9d55
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: logarithme du rapport entre lumière incidente et lumière transmise; elle
+      est fonction du parcours optique et de la concentration de la substance absorbante
+  examples: []
+  id: r100-1991-1-fra
+  notes:
+  - content: Le principe de mesure de l'absorbance par l'instrument est la loi de
+      Beer-Lambert.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: absorbance
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 16a7cb67-b99a-5798-9b06-a0d40c79c8d2
+

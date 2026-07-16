@@ -1,0 +1,73 @@
+---
+data:
+  identifier: r106-1-2011-91
+  localized_concepts:
+    eng: eaedc348-322c-524c-b595-3a9e481410df
+    fra: bdd2ddf7-d215-5bb5-8028-701f9e9bcc7d
+  domains:
+  - concept_id: r-106
+    source: urn:oiml:pub:r:106-1:2011
+    ref_type: section
+  sources: []
+status: valid
+id: ffd659bb-d79f-5502-a8e3-ca8fbdcb702d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: fault greater than 1 d
+  examples: []
+  id: r106-1-2011-91-eng
+  notes:
+  - content: 'The relevant Recommendation may specify that the following faults are
+      not significant, even when they exceed the value defined in 0.4.4.6:'
+  - content: faults that result from simultaneous and mutually independent causes
+      in the instrument or in its checking facility;
+  - content: faults that make it impossible to perform any measurement;
+  - content: transitory faults that are momentary variations in the indications which
+      cannot be interpreted, memorized or transmitted as a measurement result;
+  - content: faults that are so serious that they will inevitably be noticed by those
+      interested in the measurement.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: significant fault
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: eaedc348-322c-524c-b595-3a9e481410df
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: défaut supérieur à 1 d
+  examples: []
+  id: r106-1-2011-91-fra
+  notes:
+  - content: 'La Recommandation applicable peut spécifier que les défauts suivants
+      ne sont pas significatifs, même s''ils dépassent la valeur définie dans 0.4.4.6
+      :'
+  - content: défauts provenant de causes simultanées et mutuellement indépendantes
+      dans l'instrument ou son équipement de contrôle ;
+  - content: défauts rendant impossible l'accomplissement de toute mesure ;
+  - content: défauts transitoires provenant de variations momentanées de l'indication,
+      qui ne peuvent pas être interprétées, mémorisées ou transmises comme résultat
+      de mesure ;
+  - content: défauts suffisamment importants pour ne pas manquer d'être remarqués
+      par ceux qui sont intéressés par le mesurage.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut significatif
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bdd2ddf7-d215-5bb5-8028-701f9e9bcc7d
+

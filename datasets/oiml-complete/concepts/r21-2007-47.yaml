@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-47
+  localized_concepts:
+    eng: b2c5f8ca-c65e-5967-9bab-2b217805307b
+    pol: 2a64164a-e085-5de3-8c8c-bf73ff91561e
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 9c5112ca-a163-5a33-8ade-e056f6f5ed0b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Operating position in which the taximeter is indicating and calculating
+      a fare which is based on a possible initial hire fee and a tariff for the time
+      of the journey and/or distance traveled.
+  examples: []
+  id: r21-2007-47-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.3.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: '"Hired" (Occupied) operating position'
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b2c5f8ca-c65e-5967-9bab-2b217805307b
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Pozycja robocza, w której mierzone i wskazywańkowita droga i czas przejazdu.
+  examples: []
+  id: r21-2007-47-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pozycja robocza „Pomiar“
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2a64164a-e085-5de3-8c8c-bf73ff91561e
+

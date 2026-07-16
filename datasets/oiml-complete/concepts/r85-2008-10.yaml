@@ -1,0 +1,46 @@
+---
+data:
+  identifier: r85-2008-10
+  localized_concepts:
+    fra: bc4add71-67fe-5b6d-949e-b7dc06f14d19
+  domains:
+  - concept_id: r-85
+    source: urn:oiml:pub:r:85:2008
+    ref_type: section
+  sources: []
+status: valid
+id: 467c2d1e-6b3c-5bb2-8d31-2a0aa69a9142
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T12:32:46Z'
+    type: accepted
+  definition:
+  - content: |-
+      Additional device (ancillary device) repeating the indication of the indicating device.
+
+      - significant faults; and/or
+
+      Facility incorporated in an electronic automatic level gauge that enables:
+
+      - incorrect functioning of a specific device of the ALG; and/or
+
+      - disturbed communication between specific devices of the ALG
+
+      to be detected and acted upon.
+  examples: []
+  id: r85-2008-10-fra
+  notes:
+  - content: '"Acted upon" refers to any adequate response by the ALG (luminous signal,
+      acoustic signal, prevention of the measurement process, etc.).'
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Checking facility
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: bc4add71-67fe-5b6d-949e-b7dc06f14d19
+

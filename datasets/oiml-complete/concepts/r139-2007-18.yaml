@@ -1,0 +1,77 @@
+---
+data:
+  identifier: r139-2007-18
+  localized_concepts:
+    eng: 19875246-0690-5cc5-be6f-557c288e846f
+    fra: f1b69ad5-4736-51f4-b768-109012275319
+  domains:
+  - concept_id: r-139
+    source: urn:oiml:pub:r:139:2007
+    ref_type: section
+  sources: []
+status: valid
+id: 0ff83b56-503c-5acd-856f-73ecda1fbef8
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Operating mode of a self-service arrangement in which the supplier is
+      present and controls the authorization for the delivery.
+  examples: []
+  id: r139-2007-18-eng
+  notes:
+  - content: In attended service mode, the settlement of the transaction takes place
+      before the customer leaves the site of the delivery.
+  - content: A transaction is settled when the parties interested in the transaction
+      have made their agreement known (explicitly or implicitly) as regards the amount
+      of the transaction. This may be a payment, signing a credit card voucher, signing
+      a delivery order, etc.
+  - content: 'The parties interested in a transaction may be the parties themselves
+      or their representatives (for example: an employee in a filling station, or
+      the driver of a truck).'
+  - content: In attended service mode the measurement operation ends at the moment
+      settlement of the transaction takes place.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Attended service mode
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 19875246-0690-5cc5-be6f-557c288e846f
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Mode de fonctionnement d'une installation en libre-service dans lequel
+      le fournisseur est présent et délivre l'autorisation de livraison.
+  examples: []
+  id: r139-2007-18-fra
+  notes:
+  - content: Dans le mode de service surveillé, la conclusion de la transaction intervient
+      avant que le client ne quitte le site où la livraison a eu lieu.
+  - content: Une transaction est conclue lorsque les parties intéressées à cette transaction
+      ont fait connaître leur accord (explicite ou implicite) sur le montant de celle-ci.
+      Il peut s'agir du paiement, de la signature d'un bordereau de carte de crédit,
+      de la signature d'un bon de livraison, etc.
+  - content: 'Les parties intéressées à une transaction peuvent être les parties elles-mêmes
+      ou leurs représentants (exemple: pompiste dans une station-service, chauffeur
+      d''un camion).'
+  - content: Dans le mode de service surveillé, l'opération de mesurage se termine
+      au moment où la conclusion de la transaction intervient.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mode de service surveillé
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f1b69ad5-4736-51f4-b768-109012275319
+

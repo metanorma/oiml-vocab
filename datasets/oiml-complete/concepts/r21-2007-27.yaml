@@ -1,0 +1,59 @@
+---
+data:
+  identifier: r21-2007-27
+  localized_concepts:
+    eng: 22f4d56b-f791-5fb5-b544-eedd5aebb305
+    pol: c1e23b6f-fed2-56d5-a3cf-7ee8907cfae2
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:2007
+    ref_type: section
+  sources: []
+status: valid
+id: d98a5709-30c8-505b-a6dc-8892d2033e5f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Speed of the taxi (km/h) at which the time-counting and distance-counting
+      methods operate the taximeter at the same rate.
+  examples: []
+  id: r21-2007-27-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 21:2007 (E)
+      clause: 2.3.1.2
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: cross-over speed
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 22f4d56b-f791-5fb5-b544-eedd5aebb305
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:45Z'
+    type: accepted
+  definition:
+  - content: Obliczanie opłaty za przejazd w oparciużne zastosowanie taryfy czasowej
+      i taryfy drogowej trasie przejazdu.
+  examples: []
+  id: r21-2007-27-pol
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: System podwjny naliczania opaty D
+  language_code: pol
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: c1e23b6f-fed2-56d5-a3cf-7ee8907cfae2
+

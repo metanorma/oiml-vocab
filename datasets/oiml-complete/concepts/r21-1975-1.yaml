@@ -1,0 +1,42 @@
+---
+data:
+  identifier: r21-1975-1
+  localized_concepts:
+    fra: f7ba12c4-face-538c-84bf-575e7194faf9
+  domains:
+  - concept_id: r-21
+    source: urn:oiml:pub:r:21:1975
+    ref_type: section
+  sources: []
+status: valid
+id: 935fa413-e37a-5b56-b7a7-b49a4cc7e90f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: |-
+      La constante k d'un taximètre est une grandeur caractéristique indiquant l'espèce et le nombre des signaux que l'instrument doit recevoir pour indiquer correctement une distance parcourue de 1 km.
+
+      Cette constante k est exprimée :
+
+      a) en « tours par kilomètre indiqué » (tr/km), si l'information relative à la distance parcourue par le véhicule est introduite dans le taximètre sous la forme d'un nombre de tours de son axe de commande (axe moteur à l'entrée de l'instrument) ;
+
+      b) en « impulsions par kilomètre indiqué » (imp/km), si cette information est introduite sous la forme de signaux électriques.
+
+      Selon la construction de l'instrument, la constante k peut être invariable ou réglable par degrés successifs.
+  examples: []
+  id: r21-1975-1-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: constante k du taximètre
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: f7ba12c4-face-538c-84bf-575e7194faf9
+

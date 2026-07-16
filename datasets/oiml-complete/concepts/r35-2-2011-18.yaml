@@ -1,0 +1,60 @@
+---
+data:
+  identifier: r35-2-2011-18
+  localized_concepts:
+    deu: 5ae102b6-d871-52fb-acc3-7e514e58415c
+    eng: 117d82b3-baf3-5670-a1af-2167fc108c9f
+  domains:
+  - concept_id: r-35
+    source: urn:oiml:pub:r:35-2:2011
+    ref_type: section
+  sources: []
+status: valid
+id: 4e7ba79d-2f1f-5080-92e0-87065320642e
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:49Z'
+    type: accepted
+  definition:
+  - content: Temperatur, die erreicht ist, wenn die Temperatur aller Teile des Prüfobjeks
+      innerhalb eines Temperaturbereichs von höchstens 2 $ ^{\circ} \mathrm{C} $ voneinander
+      abweicht.
+  examples: []
+  id: r35-2-2011-18-deu
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temperaturstabilität
+  language_code: deu
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5ae102b6-d871-52fb-acc3-7e514e58415c
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: temperature reached when all parts of the equipment under test are within
+      2 °C of each other
+  examples: []
+  id: r35-2-2011-18-eng
+  notes: []
+  sources:
+  - origin:
+      ref: OIML R 35-2:2011 (E)
+      clause: '2.18'
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temperature stability
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 117d82b3-baf3-5670-a1af-2167fc108c9f
+

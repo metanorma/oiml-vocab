@@ -1,0 +1,63 @@
+---
+data:
+  identifier: r100-1991-7
+  localized_concepts:
+    eng: b6a1d359-572a-563a-8e90-092acf1c1fcf
+    fra: 870aeb6e-f374-5446-8f19-db859b72a2c2
+  domains:
+  - concept_id: r-100
+    source: urn:oiml:pub:r:100:1991
+    ref_type: section
+  sources: []
+status: valid
+id: 9fe97182-6881-5de3-bd9a-57e6e00e3582
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: The concentration of an element that provides a signal equivalent to
+      three times the standard deviation of the baseline noise as determined on a
+      statistical basis. It is the minimum quantity measured before it can be concluded
+      that an element has been detected.
+  examples: []
+  id: r100-1991-7-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Detection limit
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b6a1d359-572a-563a-8e90-092acf1c1fcf
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: concentration d'un élément qui donne un signal égal à trois fois l'écart-type
+      du bruit de fond, tel qu'il a été déterminé sur une base statistique. C'est
+      la quantité minimale mesurée pour que l'on puisse conclure qu'un élément a effectivement
+      été détecté
+  examples: []
+  id: r100-1991-7-fra
+  notes:
+  - content: Dans la présente Recommandation, ce terme est relatif à la détermination
+      d'un élément dans une solution de référence sans interférents (perturbations).
+      On établit le bruit de fond en mesurant le signal de sortie pour plusieurs portions
+      d'une solution d'essai à blanc.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: limite de détection
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 870aeb6e-f374-5446-8f19-db859b72a2c2
+

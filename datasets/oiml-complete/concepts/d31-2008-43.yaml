@@ -1,0 +1,78 @@
+---
+data:
+  identifier: d31-2008-43
+  localized_concepts:
+    eng: 5e030f72-289c-520f-8956-9356ac6a859c
+    fra: 77b54333-4540-59ef-a330-0c36ac5dc811
+    spa: 03252db8-f5cb-5b00-8cf4-f54899b42779
+  domains:
+  - concept_id: d-31
+    source: urn:oiml:pub:d:31:2008
+    ref_type: section
+  sources: []
+status: valid
+id: b064f48c-2d81-5be2-841e-f6223cfaf28d
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: consists of program code and a dedicated data domain; it receives, filters,
+      or transmits data between software modules (not necessarily legally relevant)
+  examples: []
+  id: d31-2008-43-eng
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: software interface
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 5e030f72-289c-520f-8956-9356ac6a859c
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Code programme et domaine de données dédiés qui reçoivent, filtrent,
+      ou transmettent les données entre les modules logiciels.
+  examples: []
+  id: d31-2008-43-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Interface logicielle
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 77b54333-4540-59ef-a330-0c36ac5dc811
+---
+data:
+  dates:
+  - date: '2026-07-15T11:14:13Z'
+    type: accepted
+  definition:
+  - content: Entidad lógica como un programa, una subrutina, una biblioteca o un objeto,
+      incluyendo sus «dominios de datos», que puede estar relacionada con otras entidades.
+      El software de los instrumentos de medida, los dispositivos electrónicos o los
+      subconjuntos constan de uno o más módulos de software.
+  examples: []
+  id: d31-2008-43-spa
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Módulo de software [definición similar a la IEC 61508-4:1998, 3.3.7][6]
+  language_code: spa
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 03252db8-f5cb-5b00-8cf4-f54899b42779
+
