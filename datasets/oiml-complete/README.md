@@ -1,93 +1,98 @@
-# OIML G 18 dynamic datasets
+# OIML Complete Vocabulary (`datasets/oiml-complete/`)
 
-This directory holds two derived glossarist v3 datasets built from the
-OIML publication corpus. Both are regenerated from the source OCR
-manually (no automated extraction) — see
-[`TODO.consolidate/01-g18-complete-extraction-spec.md`](../../TODO.consolidate/01-g18-complete-extraction-spec.md)
-for the contract every extracting agent follows.
+Comprehensive terminology index derived from all OIML publications. Every
+terminology entry from every OIML publication — with full provenance back to
+the source publication.
 
-## Datasets
+## What's in here
 
-### `datasets/g18-complete/`
+- **~5,900 concepts** across **~300 publications**
+- **~2,300 bilingual** (eng+fra) concept files; the rest are monolingual
+- **5 languages**: eng, fra, spa, deu, pol
+- **120 sections** organized by publication family (e.g., `b-3` for OIML B 3,
+  `r-49` for OIML R 49)
+- Glossarist v3 multi-document YAML format
 
-The **comprehensive** terminology index: every terminology entry that
-appears inside every OIML publication, observed via the OCR pipeline at
-[`publications/reference-docs/ocr-output/`](../../../publications/reference-docs/ocr-output/).
-One concept YAML file per `(publication, term_number)` pair. Many
-designations repeat across publications with different definitions,
-notes, or scope — every appearance is its own concept.
+## How it's built
 
-- **Status**: derived/observational.
-- **Concept identity**: `(publication_directory, term_number)`. Two
-  language editions of the same source PDF are SEPARATE concepts (per
-  spec §8.12) — duplicated terminology is the data, not a bug.
-- **Size**: ~11,000 concepts across ~370 publications; 5 languages
-  (eng, fra, spa, deu, pol).
-- **Build**: extract agents read each OCR end-to-end and write YAML by
-  hand. Re-extraction is idempotent (deterministic UUIDs).
+The dataset is **rebuilt from the sibling publications repo** at
+`/Users/mulgogi/src/oimlsmart/publications/`. That repo contains a glossarist
+dataset per publication under `sources/<slug>/glossarist/`, each with its own
+`register.yaml`, `concepts/*.yaml`, and `bibliography.yaml`.
 
-### `datasets/g18-current/`
-
-The **tip-filtered** view of `g18-complete`: one concept per
-`(family, term_number)`, where `family = (kind, base_number)` and only
-the newest edition ("tip") per family is kept. All language editions at
-tip collapse into a single multi-language concept.
-
-- **Status**: derived/observational.
-- **Concept identity**: `(family, term_number)`. Multiple language
-  editions at the tip year are merged into ONE concept file with
-  multi-language `localized_concepts`.
-- **Size**: ~3,000 unique tip concepts.
-- **Build**: derived mechanically from `g18-complete` by
-  `scripts/g18_current_vs_g18.rb --build`. No manual work.
-
-## Generating `g18-current` from `g18-complete`
-
-Pre-reqs: `g18-complete` is up-to-date and validates.
+### Build script
 
 ```sh
-cd /Users/mulgogi/src/oimlsmart/vocab
-
-# 1. Re-aggregate g18-complete's register + bibliography from on-disk concepts
-ruby scripts/aggregate_g18_complete_register.rb
-
-# 2. Re-gen UUIDs in g18-complete (deterministic; idempotent)
-ruby scripts/g18_complete_fix_uuids.rb
-ruby scripts/g18_complete_check_uuids.rb   # verifies all UUIDs match
-
-# 3. Build g18-current (correlates languages, filters to tip editions)
-ruby scripts/g18_current_vs_g18.rb --build
-
-# 4. Validate both datasets
-ruby scripts/validate_datasets.rb --datasets g18-complete,g18-current
+ruby scripts/build_oiml_complete_from_publications.rb
 ```
 
-The build is fully deterministic — re-running on the same `g18-complete`
-produces byte-identical `g18-current` output (UUID v5 with a fixed
-namespace + name input).
+The script:
+1. **Scans** all `sources/*/glossarist/concepts/*.yaml` in the publications repo
+2. **Groups** concept files by `(base_publication_slug, identifier)` — e.g.,
+   `b3-2011-e/0003-001` and `b3-2011-f/0003-001` group together because they
+   share base slug `b3-2011` and identifier `0003-001`
+3. **Merges** multilingual concepts — each group with 2+ languages produces one
+   bilingual (or multilingual) concept file with `localized_concepts` for each
+   language
+4. **Converts** v2 format → v3 (definition arrays, source shapes)
+5. **Filters** sources to OIML-prefixed refs only (non-OIML cross-references
+   like ISO/IEC, ASME are dropped from `sources[]`)
+6. **Sets** `domains.concept_id` to the publication family (e.g., `b-3`)
+7. **Computes** deterministic UUIDs (v5 with fixed namespace)
+8. **Writes** to `datasets/oiml-complete/concepts/<pub-slug>-<seq>.yaml`
+9. **Builds** `register.yaml` (sections, languages, metadata) and
+   `bibliography.yaml` (all cited OIML publications)
 
-## Cross-reference report
+### Multilingual correlation
 
-The `g18_current_vs_g18.rb` script also writes per-category reports at
-[`reference-docs/g18-current-vs-g18/`](../../reference-docs/g18-current-vs-g18/)
-that compare the tip concepts to `datasets/g18-202X/` (the draft new
-edition of OIML G 18):
+The publications repo **already solved** multilingual correlation by using
+**consistent identifiers** across language editions. Both the English
+(`b3-2011-e`) and French (`b3-2011-f`) directories of OIML B 3:2011 use the
+same identifier `0003-001` for the same concept ("measuring instrument" /
+"instrument de mesure"). The build script simply merges files that share the
+same `(base_slug, identifier)` key.
 
-- `01-at-tip.txt` — G 18:202X entries citing current tip editions ✓
-- `02-below-tip-has-clause.txt` — G 18 stale, term still exists at tip
-- `03-below-tip-no-clause.txt` — G 18 stale, term removed/renamed
-- `04-no-family-citation-missing.txt` — G 18 entries with no/invalid citation
-- `05-no-family-pub-in-corpus.txt` — G 18 cites a pub whose family is in OCR corpus but has no extracted concepts
-- `06-no-family-pub-missing-from-corpus.txt` — G 18 cites pubs we don't have OCR for
-- `06b-no-family-withdrawn.txt` — G 18 entries to **REMOVE** (citing withdrawn pubs)
-- `07-tip-editions-missing-from-g18.txt` — tip concepts G 18 should add
-- `08-summary.txt` — top-line numbers + publications needing OCR acquisition
+### v2 → v3 format conversion
 
-## Source data
+The publications repo uses mixed v2/v3 glossarist format:
+- `definition: ["text"]` (v2 string array) → `definition: [{content: "text"}]` (v3)
+- `sources: [{ref: "VIM 3.1"}]` (v2 flat) → filtered (non-OIML cross-ref)
+- The localized concept metadata (`language_code`, `entry_status`) is split
+  across two YAML documents in the source; the build script merges them into
+  one localized doc
 
-OCR output is at
-[/Users/mulgogi/src/oimlsmart/publications/reference-docs/ocr-output/](file:///Users/mulgogi/src/oimlsmart/publications/reference-docs/ocr-output/).
-The corpus covers ~817 OIML publications. Publications whose terminology
-sections were not extracted (brochures, governance docs, test report
-formats, citation-only sections) are documented in agent reports per
-round.
+### Post-build steps
+
+After the build script runs, fix the bibliography for any source refs not yet
+listed, then validate:
+
+```sh
+ruby scripts/validate_datasets.rb --datasets oiml-complete
+```
+
+## File naming convention
+
+Each concept file: `<pub-slug>-<seq>.yaml`
+
+| Source file | Base slug | Identifier | Seq | Output file |
+|---|---|---|---|---|
+| `b3-2011-e/0003-001.yaml` | `b3-2011` | `0003-001` | `1` | `b3-2011-1.yaml` |
+| `d11-2013-e/0011-001.yaml` | `d11-2013` | `0011-001` | `1` | `d11-2013-1.yaml` |
+| `r49-1-2013-eng/0049-001.yaml` | `r49-1-2013` | `0049-001` | `1` | `r49-1-2013-1.yaml` |
+
+The language suffix is stripped from the publication slug for merged files.
+
+## UUIDs
+
+All UUIDs are deterministic (v5 with namespace `6b1d8e3a-8f9c-4c2b-bf5e-1a4d2c7b9e05`):
+- Outer concept: `oiml-complete|<pub-slug>|<seq>`
+- Localized concept: `oiml-complete|<pub-slug>|<seq>|<lang>`
+
+## Concept browser wiring
+
+In `site-config.yml`:
+```yaml
+- id: oiml-complete
+  local_path: datasets/oiml-complete
+  color: { light: '#166534', dark: '#22C55E' }
+```
