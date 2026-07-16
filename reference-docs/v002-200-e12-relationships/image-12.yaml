@@ -15,16 +15,15 @@ source_pdf:      reference-docs/v002-200-e12-relationships.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-07T12:17:27Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
   ext_device: device
   ext_metrological_property_of_a_measuring_instrument_or_measuring_system: metrological property of a measuring instrument or measuring system, see Fig. A.10
-  ext_metrological_property_of_a_measuring_instrument_or_measuring_system_see_fig_a_10: metrological property of a measuring instrument or measuring system, see Fig. A.10
   ext_operating_condition: operating condition
-  '2.39': calibration (see Fig. A.7
+  '2.39': calibration (see Fig. A.7)
   '3.1': measuring instrument
   '3.2': measuring system
   '4.10': limiting operating condition
@@ -42,12 +41,8 @@ relationships:
     runs: [1, 2]
   - members: ['3.1', ext_metrological_property_of_a_measuring_instrument_or_measuring_system]
     runs: [2]
-  - members: ['3.1', ext_metrological_property_of_a_measuring_instrument_or_measuring_system_see_fig_a_10]
-    runs: [1]
   - members: ['3.2', ext_metrological_property_of_a_measuring_instrument_or_measuring_system]
     runs: [2]
-  - members: ['3.2', ext_metrological_property_of_a_measuring_instrument_or_measuring_system_see_fig_a_10]
-    runs: [1]
 
   # (b) Hierarchical — straight line: broader → narrower.
   #     Trailing `...` in narrower = unlisted others on diagram.
@@ -58,9 +53,6 @@ relationships:
   - broader: ext_metrological_property_of_a_measuring_instrument_or_measuring_system
     narrower: [ext_operating_condition, ...]
     runs: [2]
-  - broader: ext_metrological_property_of_a_measuring_instrument_or_measuring_system_see_fig_a_10
-    narrower: [ext_operating_condition, ...]
-    runs: [1]
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive: []

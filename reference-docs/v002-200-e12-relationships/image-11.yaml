@@ -15,13 +15,12 @@ source_pdf:      reference-docs/v002-200-e12-relationships.pdf
 extracted_by:    glm-5v-turbo
 extracted_at:    "2026-07-07T12:16:39Z"
 extraction_runs: 2   # 2 succeeded
-editor_status:   draft   # draft | in_review | reviewed | confirmed
-reviewers:       []
+editor_status:   reviewed   # draft | in_review | reviewed | confirmed
+reviewers:       ['MF']
 
 # Nodes (id → designation). 'ext_' prefix = external (in parens on diagram).
 nodes:
   ext_metrological_property_of_a_measuring_instrument_or_measuring_system: metrological property of a measuring instrument or measuring system
-  ext_operating_condition: operating condition
   ext_operating_condition_see_fig_a11: operating condition, see Fig. A.11
   '1.19': quantity value
   '2.16': measurement error
@@ -58,11 +57,7 @@ relationships:
   # (a) Associative — arrowed line, bidirectional.
   #     Compact form: [a, b].
   associative:
-  - members: ['4.25', '3.1']
-    runs: [1, 2]
   - members: ['3.1', ext_metrological_property_of_a_measuring_instrument_or_measuring_system]
-    runs: [1, 2]
-  - members: ['4.25', '3.2']
     runs: [1, 2]
   - members: ['3.2', ext_metrological_property_of_a_measuring_instrument_or_measuring_system]
     runs: [1, 2]
@@ -73,28 +68,29 @@ relationships:
   #     Trailing `...` in narrower = unlisted others on diagram.
   hierarchical:
   - broader: '2.16'
-    narrower: ['4.27', '4.28', ...]
+    narrower: ['4.27', '4.26', ...]
     runs: [1, 2]
   - broader: '2.26'
     narrower: ['4.29', ...]
     runs: [1, 2]
   - broader: '4.1'
-    narrower: ['4.2', '4.3', ...]
+    narrower: ['4.2', ...]
     runs: [1, 2]
   - broader: '4.3'
-    narrower: ['1.19', '4.6', ...]
+    narrower: ['4.4', ...]
     runs: [1]
   - broader: ext_metrological_property_of_a_measuring_instrument_or_measuring_system
-    narrower: ['4.1', '4.18', '4.19', '4.20', '4.21', '4.22', '4.23', '4.24', '4.26', '4.27', '4.12', '4.13', '4.14', '4.15', '4.16', '4.17', '4.7', ext_operating_condition]
+    narrower: ['4.1', '4.3', '4.6', '4.7', ext_operating_condition_see_fig_a11, '4.12', '4.13', '4.14', '4.15', '4.16', '4.17', '4.28', '4.27', '4.26', '4.24', '4.23', '4.22', '4.21', '4.20', '4.19', '4.18']
     runs: [2]
-  - broader: ext_metrological_property_of_a_measuring_instrument_or_measuring_system
-    narrower: ['4.1', '4.18', '4.19', '4.20', '4.21', '4.22', '4.23', '4.24', '4.26', '4.7', '4.12', '4.13', '4.14', '4.15', '4.16', '4.17']
-    runs: [1]
+  - broader: '1.19'
+    narrower: ['4.1', ...]
+  - broader: '4.27'
+    narrower: ['4.28', ...]
 
   # (c) Partitive — bracket rake: comprehensive → parts.
   partitive:
   - comprehensive: '2.26'
-    parts: ['4.24', '4.26']
+    parts: ['4.24']
     runs: [1, 2]
 
   # (d) Partitive-plural — bracket rake with [double] and/or [dashed] markers.
@@ -104,3 +100,9 @@ relationships:
     parts: ['1.19', '4.4', '4.6', ...]
     markers: [double]
     runs: [2]
+  - comprehensive: '4.25'
+    parts: ['3.1']
+    markers: [double]
+  - comprehensive: '4.3'
+    parts: ['3.2']
+    markers: [double]
