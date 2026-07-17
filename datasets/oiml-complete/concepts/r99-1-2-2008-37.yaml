@@ -7,7 +7,15 @@ data:
   - concept_id: r-99
     source: urn:oiml:pub:r:99-1-2:2008
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 99-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '37'
 status: valid
 id: 8d00fdc6-7720-5a77-8deb-1583364e881d
 schema_version: '3'
@@ -24,6 +32,7 @@ data:
   sources:
   - origin:
       ref: OIML R 99-1&2:2008
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred

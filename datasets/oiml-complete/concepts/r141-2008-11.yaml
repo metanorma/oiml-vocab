@@ -7,7 +7,15 @@ data:
   - concept_id: r-141
     source: urn:oiml:pub:r:141:2008
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 141:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '11'
 status: valid
 id: 8adac89e-594a-58a1-84ac-57d8dcede19f
 schema_version: '3'

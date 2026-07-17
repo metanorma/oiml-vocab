@@ -7,7 +7,15 @@ data:
   - concept_id: r-108
     source: urn:oiml:pub:r:108:1993
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 108:1993
+        version: '1993'
+    locality:
+      type: clause
+      reference_from: '2'
 status: valid
 id: cea72ea4-6e74-5c29-8398-4ac05e1852a9
 schema_version: '3'

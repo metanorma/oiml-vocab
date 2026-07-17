@@ -8,7 +8,15 @@ data:
   - concept_id: d-32
     source: urn:oiml:pub:d:32:2018
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 32:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: '2'
 status: valid
 id: 1f4b8620-626f-5680-84cb-a0c745b6672f
 schema_version: '3'

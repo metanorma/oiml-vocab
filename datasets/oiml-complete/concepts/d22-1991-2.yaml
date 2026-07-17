@@ -8,7 +8,15 @@ data:
   - concept_id: d-22
     source: urn:oiml:pub:d:22:1991
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 22:1991
+        version: '1991'
+    locality:
+      type: clause
+      reference_from: '2'
 status: valid
 id: '08768301-e4a4-5b79-82e5-e76807f3045f'
 schema_version: '3'

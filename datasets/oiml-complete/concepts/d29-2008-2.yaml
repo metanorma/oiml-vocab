@@ -7,7 +7,15 @@ data:
   - concept_id: d-29
     source: urn:oiml:pub:d:29:2008
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 29:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '2'
 status: valid
 id: 15c19158-a8f1-566a-8a44-ea727d382d21
 schema_version: '3'

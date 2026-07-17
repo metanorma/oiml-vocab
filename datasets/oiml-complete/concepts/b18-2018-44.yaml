@@ -8,7 +8,15 @@ data:
   - concept_id: b-18
     source: urn:oiml:pub:b:18:2018
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML B 18:2018
+        version: '2018'
+    locality:
+      type: clause
+      reference_from: '44'
 status: valid
 id: 369f257c-a004-5a62-b775-c933ce41dea0
 schema_version: '3'

@@ -7,7 +7,15 @@ data:
   - concept_id: r-116
     source: urn:oiml:pub:r:116:2006
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 116:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '7'
 status: valid
 id: d93fd162-6aca-59fc-a304-0e6dec80b1ae
 schema_version: '3'

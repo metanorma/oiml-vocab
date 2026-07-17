@@ -8,7 +8,15 @@ data:
   - concept_id: r-136
     source: urn:oiml:pub:r:136-1:2004
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 136-1:2004
+        version: '2004'
+    locality:
+      type: clause
+      reference_from: '41'
 status: valid
 id: d9b56a19-49b6-589c-94ea-4e0f35172355
 schema_version: '3'

@@ -9,7 +9,15 @@ data:
   - concept_id: r-126
     source: urn:oiml:pub:r:126:2012
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 126:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '8'
 status: valid
 id: ceb5a7db-6f8b-569b-bf2c-d0889a690aaa
 schema_version: '3'

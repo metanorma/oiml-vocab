@@ -7,7 +7,15 @@ data:
   - concept_id: r-65
     source: urn:oiml:pub:r:65:2006
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 65:2006
+        version: '2006'
+    locality:
+      type: clause
+      reference_from: '5'
 status: valid
 id: f6061897-be1e-5933-b5c8-d4a7b04a7037
 schema_version: '3'

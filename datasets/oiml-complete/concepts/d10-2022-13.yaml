@@ -7,7 +7,15 @@ data:
   - concept_id: d-10
     source: urn:oiml:pub:d:10:2022
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML D 10:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '13'
 status: valid
 id: 6ba1dc65-45e0-5e0b-a792-d320da3ba299
 schema_version: '3'
