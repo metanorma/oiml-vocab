@@ -7,7 +7,15 @@ data:
   - concept_id: g-22
     source: urn:oiml:pub:g:22:2022
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML G 22:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '14'
 status: valid
 id: e350102e-6246-5eb9-8f19-c955dd4d8010
 schema_version: '3'

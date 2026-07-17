@@ -8,7 +8,15 @@ data:
   - concept_id: b-3
     source: urn:oiml:pub:b:3:2011
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML B 3:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '8'
 status: valid
 id: d7f49d66-8dfb-52c7-970d-7addd74cfee4
 schema_version: '3'

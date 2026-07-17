@@ -7,7 +7,15 @@ data:
   - concept_id: r-117
     source: urn:oiml:pub:r:117-1:2019
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 117-1:2019
+        version: '2019'
+    locality:
+      type: clause
+      reference_from: '10'
 status: valid
 id: 0d676719-150b-5222-97fb-e50d6edb806d
 schema_version: '3'

@@ -8,7 +8,15 @@ data:
   - concept_id: r-49
     source: urn:oiml:pub:r:49-1:2003
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 49-1:2003
+        version: '2003'
+    locality:
+      type: clause
+      reference_from: '11'
 status: valid
 id: 704485a8-3361-5692-ac33-899ad8edbe8f
 schema_version: '3'

@@ -9,7 +9,15 @@ data:
   - concept_id: r-87
     source: urn:oiml:pub:r:87:2016
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 87:2016
+        version: '2016'
+    locality:
+      type: clause
+      reference_from: '2'
 status: valid
 id: 20dce1c7-080c-5364-ac31-9dda7436055d
 schema_version: '3'

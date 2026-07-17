@@ -8,7 +8,15 @@ data:
   - concept_id: r-116
     source: urn:oiml:pub:r:116:1995
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 116:1995
+        version: '1995'
+    locality:
+      type: clause
+      reference_from: '13'
 status: valid
 id: 6a2a7f3d-6e10-54ca-bb68-0f776774b23d
 schema_version: '3'

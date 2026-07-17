@@ -7,7 +7,15 @@ data:
   - concept_id: r-45
     source: urn:oiml:pub:r:45:1980
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 45:1980
+        version: '1980'
+    locality:
+      type: clause
+      reference_from: '4'
 status: valid
 id: 21679362-37a3-596e-8a11-8c27dea34b47
 schema_version: '3'

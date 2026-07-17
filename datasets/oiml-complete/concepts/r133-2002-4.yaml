@@ -7,7 +7,15 @@ data:
   - concept_id: r-133
     source: urn:oiml:pub:r:133:2002
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 133:2002
+        version: '2002'
+    locality:
+      type: clause
+      reference_from: '4'
 status: valid
 id: 6adf6599-e95b-5ab8-a2f8-50f91f9fc231
 schema_version: '3'

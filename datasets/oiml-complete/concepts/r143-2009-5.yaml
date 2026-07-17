@@ -7,7 +7,15 @@ data:
   - concept_id: r-143
     source: urn:oiml:pub:r:143:2009
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 143:2009
+        version: '2009'
+    locality:
+      type: clause
+      reference_from: '5'
 status: valid
 id: d6816d51-0d48-509d-88e5-3930ff30bd3f
 schema_version: '3'

@@ -7,7 +7,15 @@ data:
   - concept_id: r-148
     source: urn:oiml:pub:r:148-1:2020
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 148-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: '4'
 status: valid
 id: 8be290ac-ce5c-58a3-b419-3c8ac2af5a48
 schema_version: '3'

@@ -8,7 +8,15 @@ data:
   - concept_id: r-129
     source: urn:oiml:pub:r:129-1:2020
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 129-1:2020
+        version: '2020'
+    locality:
+      type: clause
+      reference_from: '16'
 status: valid
 id: 8d307452-cc60-5e57-9a4e-ca67d217167c
 schema_version: '3'

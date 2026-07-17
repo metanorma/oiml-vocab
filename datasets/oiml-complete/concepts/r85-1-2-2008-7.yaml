@@ -8,7 +8,15 @@ data:
   - concept_id: r-85
     source: urn:oiml:pub:r:85-1-2:2008
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 85-1-2:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '7'
 status: valid
 id: ac45f251-9173-5183-a45a-ee0c3a5bba65
 schema_version: '3'
@@ -28,6 +36,7 @@ data:
   sources:
   - origin:
       ref: OIML R 85-1&2:2008
+    type: authoritative
   terms:
   - type: expression
     normative_status: preferred

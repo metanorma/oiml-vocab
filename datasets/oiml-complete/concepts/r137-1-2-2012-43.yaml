@@ -8,7 +8,15 @@ data:
   - concept_id: r-137
     source: urn:oiml:pub:r:137-1-2:2012
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 137-1-2:2012
+        version: '2012'
+    locality:
+      type: clause
+      reference_from: '43'
 status: valid
 id: 836b368b-1ab7-5246-9efb-f761d45a0e52
 schema_version: '3'

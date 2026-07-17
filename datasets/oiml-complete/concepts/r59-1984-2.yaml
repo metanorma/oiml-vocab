@@ -7,7 +7,15 @@ data:
   - concept_id: r-59
     source: urn:oiml:pub:r:59:1984
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 59:1984
+        version: '1984'
+    locality:
+      type: clause
+      reference_from: '2'
 status: valid
 id: 11b45f42-329b-5595-b966-cac205c03ff0
 schema_version: '3'

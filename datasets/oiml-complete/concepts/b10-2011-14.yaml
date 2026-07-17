@@ -7,7 +7,15 @@ data:
   - concept_id: b-10
     source: urn:oiml:pub:b:10:2011
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML B 10:2011
+        version: '2011'
+    locality:
+      type: clause
+      reference_from: '14'
 status: valid
 id: 9e2e47c7-9729-5254-9f5e-ac4c8a3b7987
 schema_version: '3'

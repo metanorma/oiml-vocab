@@ -7,7 +7,15 @@ data:
   - concept_id: b-18
     source: urn:oiml:pub:b:18:2022
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML B 18:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '5'
 status: valid
 id: '048a027d-f450-54f2-b485-f729d2270afd'
 schema_version: '3'

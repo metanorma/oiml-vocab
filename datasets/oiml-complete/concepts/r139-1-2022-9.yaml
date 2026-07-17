@@ -7,7 +7,15 @@ data:
   - concept_id: r-139
     source: urn:oiml:pub:r:139-1:2022
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 139-1:2022
+        version: '2022'
+    locality:
+      type: clause
+      reference_from: '9'
 status: valid
 id: 9ce8e9e6-ace2-5cb8-9a0e-0b242ae7b548
 schema_version: '3'

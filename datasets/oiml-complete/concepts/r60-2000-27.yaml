@@ -8,7 +8,15 @@ data:
   - concept_id: r-60
     source: urn:oiml:pub:r:60:2000
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 60:2000
+        version: '2000'
+    locality:
+      type: clause
+      reference_from: '27'
 status: valid
 id: 7798446e-8e0e-510e-8375-55003d5878fd
 schema_version: '3'

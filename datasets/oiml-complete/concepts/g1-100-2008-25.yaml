@@ -7,7 +7,15 @@ data:
   - concept_id: g-1
     source: urn:oiml:pub:g:1-100:2008
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML G 1-100:2008
+        version: '2008'
+    locality:
+      type: clause
+      reference_from: '25'
 status: valid
 id: '086c9734-570b-5da8-a0b0-b81548c01e89'
 schema_version: '3'

@@ -7,7 +7,15 @@ data:
   - concept_id: g-19
     source: urn:oiml:pub:g:19:2017
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML G 19:2017
+        version: '2017'
+    locality:
+      type: clause
+      reference_from: '31'
 status: valid
 id: 469a47ee-111c-5a38-8ea7-03c28f2a42b2
 schema_version: '3'

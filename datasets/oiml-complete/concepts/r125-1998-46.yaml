@@ -8,7 +8,15 @@ data:
   - concept_id: r-125
     source: urn:oiml:pub:r:125:1998
     ref_type: section
-  sources: []
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 125:1998
+        version: '1998'
+    locality:
+      type: clause
+      reference_from: '46'
 status: valid
 id: e73c7ebc-0aff-5a57-a3f1-f5d2fded1156
 schema_version: '3'
