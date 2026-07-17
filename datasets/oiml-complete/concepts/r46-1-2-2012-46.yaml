@@ -3,6 +3,7 @@ data:
   identifier: r46-1-2-2012-46
   localized_concepts:
     eng: 7c6e70f6-1ac6-59f8-8688-6cad11d502e3
+    fra: 95e85ab1-c815-5ea7-8239-9c9a8f2a3c6d
   domains:
   - concept_id: r-46
     source: urn:oiml:pub:r:46:1:2012
@@ -35,4 +36,27 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 7c6e70f6-1ac6-59f8-8688-6cad11d502e3
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: condition de fonctionnement qui doit être satisfaite pendant un mesurage
+      pour qu'un instrument de mesure ou un système de mesure fonctionne conformément
+      à sa conception
+  examples: []
+  id: r46-1-2-2012-46-fra
+  notes:
+  - content: Les conditions assignées de fonctionnement spécifient généralement des
+      intervalles de valeurs pour la grandeur mesurée et pour les grandeurs d'influence.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: condition assignée de fonctionnement
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 95e85ab1-c815-5ea7-8239-9c9a8f2a3c6d
 

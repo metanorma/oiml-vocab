@@ -3,6 +3,7 @@ data:
   identifier: r49-1-2000-2
   localized_concepts:
     eng: c2bae1a5-4abf-5911-a687-6a0016371782
+    fra: 99132c98-bd95-566d-8fa4-f7100b1a15f9
   domains:
   - concept_id: r-49
     source: urn:oiml:pub:r:49:1:2000
@@ -35,4 +36,26 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: c2bae1a5-4abf-5911-a687-6a0016371782
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: partie du compteur transformant le débit ou le volume d'eau à mesurer
+      en signaux qui sont transmis au calculateur
+  examples: []
+  id: r49-1-2000-2-fra
+  notes:
+  - content: Pour les besoins de la présente Recommandation, le transducteur de mesure
+      inclut le capteur de débit ou le capteur de volume.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: transducteur de mesure
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 99132c98-bd95-566d-8fa4-f7100b1a15f9
 

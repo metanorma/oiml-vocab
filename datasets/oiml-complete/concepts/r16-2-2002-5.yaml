@@ -3,6 +3,7 @@ data:
   identifier: r16-2-2002-5
   localized_concepts:
     eng: adc59243-2843-560a-948e-d53eb1501a71
+    fra: 409f1350-d3b9-5207-b88e-190ccc9848d1
   domains:
   - concept_id: r-16
     source: urn:oiml:pub:r:16:2:2002
@@ -35,4 +36,26 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: adc59243-2843-560a-948e-d53eb1501a71
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: valeur de l'intégrale d'un cycle de la courbe de pression sanguine divisée
+      par la durée d'une période d'un battement de cœur
+  examples: []
+  id: r16-2-2002-5-fra
+  notes:
+  - content: En raison d'effets hydrostatiques, il convient de mesurer cette valeur
+      avec le brassard au niveau du cœur.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pression artérielle moyenne (valeur)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 409f1350-d3b9-5207-b88e-190ccc9848d1
 

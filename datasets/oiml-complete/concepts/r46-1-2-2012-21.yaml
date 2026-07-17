@@ -3,6 +3,7 @@ data:
   identifier: r46-1-2-2012-21
   localized_concepts:
     eng: 985f2a3a-b095-5ac1-ae13-e34f754aa881
+    fra: 2b8a381d-55df-523a-85dd-839fd17aa386
   domains:
   - concept_id: r-46
     source: urn:oiml:pub:r:46:1:2012
@@ -34,4 +35,25 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 985f2a3a-b095-5ac1-ae13-e34f754aa881
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: valeur du courant électrique circulant à travers le compteur
+  examples: []
+  id: r46-1-2-2012-21-fra
+  notes:
+  - content: Le terme « courant » dans la présente Recommandation correspond aux valeurs
+      r.m.s. (racine carrée de la moyenne des carrés) sauf indication contraire.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: courant (I)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 2b8a381d-55df-523a-85dd-839fd17aa386
 

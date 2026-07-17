@@ -4,6 +4,7 @@ data:
   localized_concepts:
     deu: e8775d79-cf10-57ba-a810-7bdab071eabe
     eng: 4f50aa05-6db2-5054-86bb-7bdad55777de
+    fra: 4df88100-8129-5ae9-abaa-b41222375328
   domains:
   - concept_id: r-35
     source: urn:oiml:pub::35:2011
@@ -54,4 +55,23 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 4f50aa05-6db2-5054-86bb-7bdad55777de
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: valeur de la grandeur mesurée moins la valeur de référence de la grandeur
+  examples: []
+  id: r35-2-2011-5-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur (de l'instrument)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 4df88100-8129-5ae9-abaa-b41222375328
 
