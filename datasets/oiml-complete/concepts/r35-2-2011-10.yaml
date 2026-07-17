@@ -4,6 +4,7 @@ data:
   localized_concepts:
     deu: 1ea482b7-4efb-5939-9c78-6954059fd408
     eng: 62db8fdb-71b8-593d-adf5-1e88b2584dd2
+    fra: 13206467-d86b-5c7c-93c9-5275766f760e
   domains:
   - concept_id: r-35
     source: urn:oiml:pub::35:2011
@@ -57,4 +58,25 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 62db8fdb-71b8-593d-adf5-1e88b2584dd2
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: erreur d'une mesure déterminée dans les conditions de référence
+  examples: []
+  id: r35-2-2011-10-fra
+  notes:
+  - content: Un défaut est principalement le résultat d'un changement non désiré des
+      données contenues ou transitant dans une mesure électronique.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: erreur intrinsèque
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 13206467-d86b-5c7c-93c9-5275766f760e
 

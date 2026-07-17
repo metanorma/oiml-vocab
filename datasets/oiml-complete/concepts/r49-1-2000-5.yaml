@@ -3,6 +3,7 @@ data:
   identifier: r49-1-2000-5
   localized_concepts:
     eng: 28ad993c-1fbf-50de-b912-9a60eebdcf87
+    fra: 7d3648cd-42ab-5705-8bfd-65e43b90ed3e
   domains:
   - concept_id: r-49
     source: urn:oiml:pub:r:49:1:2000
@@ -35,4 +36,26 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 28ad993c-1fbf-50de-b912-9a60eebdcf87
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: partie du compteur qui affiche les résultats de mesure soit en continu
+      soit sur demande
+  examples: []
+  id: r49-1-2000-5-fra
+  notes:
+  - content: Un dispositif imprimeur fournissant une indication à la fin du mesurage
+      n'est pas un dispositif indicateur.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dispositif indicateur
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7d3648cd-42ab-5705-8bfd-65e43b90ed3e
 

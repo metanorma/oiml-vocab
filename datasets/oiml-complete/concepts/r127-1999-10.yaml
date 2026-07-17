@@ -3,6 +3,7 @@ data:
   identifier: r127-1999-10
   localized_concepts:
     eng: c24cc89d-4434-5980-ba14-50adeabf6035
+    fra: 6d5211be-7a66-541f-a496-078f1f08ea9c
   domains:
   - concept_id: r-127
     source: urn:oiml:pub:r:127:1999
@@ -35,4 +36,24 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: c24cc89d-4434-5980-ba14-50adeabf6035
+---
+data:
+  dates:
+  - date: '2026-07-15T15:08:11Z'
+    type: accepted
+  definition:
+  - content: Représentation graphique de la relation entre la réponse du dosimètre
+      et la dose absorbée pour un système de dosimétrie donné.
+  examples: []
+  id: r127-1999-10-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Courbe d'étalonnage
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6d5211be-7a66-541f-a496-078f1f08ea9c
 

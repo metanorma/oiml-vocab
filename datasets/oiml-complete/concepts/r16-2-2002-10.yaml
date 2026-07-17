@@ -1,0 +1,63 @@
+---
+data:
+  identifier: r16-2-2002-10
+  localized_concepts:
+    eng: 96367240-9394-5de4-bdb1-5e4440d1c707
+    fra: d25535cd-57a8-50af-bf46-54ad17dd908c
+  domains:
+  - concept_id: r-16
+    source: urn:oiml:pub:r:16:2:2002
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 16-2:2002 (E)
+status: valid
+id: 502d89b2-8723-5e59-b9ed-d0a89c56bc5b
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-16T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Maximum value of the arterial blood pressure as a result of the contraction
+      of the systemic ventricle.
+  examples: []
+  id: r16-2-2002-10-eng
+  notes:
+  - content: Because of hydrostatic effects, this value should be measured with the
+      cuff at the heart level.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: systolic blood pressure (value)
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 96367240-9394-5de4-bdb1-5e4440d1c707
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: valeur maximale de la pression artérielle, résultant de la contraction
+      du ventricule gauche
+  examples: []
+  id: r16-2-2002-10-fra
+  notes:
+  - content: En raison d'effets hydrostatiques, il convient de mesurer cette valeur
+      avec le brassard au niveau du cœur.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: pression sanguine systolique (valeur)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: d25535cd-57a8-50af-bf46-54ad17dd908c
+

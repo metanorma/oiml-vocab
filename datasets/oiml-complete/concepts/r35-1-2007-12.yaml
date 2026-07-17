@@ -4,6 +4,7 @@ data:
   localized_concepts:
     deu: 5ac2e4cd-f36a-536f-87f9-c7b5e02fbbf3
     eng: b7bbaee4-0a93-50b8-adc0-79f081b6c482
+    fra: 8ef14fac-32dc-596a-a9aa-776852c2d0ec
   domains:
   - concept_id: r-35
     source: urn:oiml:pub::35:2007
@@ -56,4 +57,24 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: b7bbaee4-0a93-50b8-adc0-79f081b6c482
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: grandeur qui ne fait pas l'objet du mesurage mais qui influe sur la valeur
+      du mesurande ou sur les indications de l'instrument
+  examples: []
+  id: r35-1-2007-12-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: grandeur d'influence
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 8ef14fac-32dc-596a-a9aa-776852c2d0ec
 

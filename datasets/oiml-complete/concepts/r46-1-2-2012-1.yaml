@@ -3,6 +3,7 @@ data:
   identifier: r46-1-2-2012-1
   localized_concepts:
     eng: e188ceb1-892b-5893-91f0-3a7cbd0f7e47
+    fra: b783488c-a602-5e0a-87ad-57d1fbf90d56
   domains:
   - concept_id: r-46
     source: urn:oiml:pub:r:46:1:2012
@@ -35,4 +36,27 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: e188ceb1-892b-5893-91f0-3a7cbd0f7e47
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: instrument destiné à mesurer l'énergie électrique en continu par intégration
+      de la puissance en fonction du temps et à stocker le résultat
+  examples: []
+  id: r46-1-2-2012-1-fra
+  notes:
+  - content: Il est admis que « en continu » peut également couvrir les compteurs
+      avec un taux d'échantillonnage suffisamment élevé pour satisfaire aux exigences
+      de la présente Recommandation.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compteur électrique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b783488c-a602-5e0a-87ad-57d1fbf90d56
 

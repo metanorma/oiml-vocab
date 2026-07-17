@@ -3,6 +3,7 @@ data:
   identifier: r131-2001-14
   localized_concepts:
     eng: 69785e95-dd6e-56c7-b823-7bcd06006e7f
+    fra: 606cabba-c315-5ef2-a1ca-ab285d72b7eb
   domains:
   - concept_id: r-131
     source: urn:oiml:pub:r:131:2001
@@ -35,4 +36,24 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 69785e95-dd6e-56c7-b823-7bcd06006e7f
+---
+data:
+  dates:
+  - date: '2026-07-15T15:08:11Z'
+    type: accepted
+  definition:
+  - content: Ensemble des valeurs de dose absorbée pour lequel il est prévu que l'erreur
+      du système dosimétrique ne dépasse pas les limites spécifiées.
+  examples: []
+  id: r131-2001-14-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Domaine de fonctionnement en dose absorbée
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 606cabba-c315-5ef2-a1ca-ab285d72b7eb
 

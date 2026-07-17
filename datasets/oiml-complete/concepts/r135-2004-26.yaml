@@ -1,0 +1,44 @@
+---
+data:
+  identifier: r135-2004-26
+  localized_concepts:
+    eng: 956863c4-f876-59cf-8b73-b4d16debc31e
+  domains:
+  - concept_id: r-135
+    source: urn:oiml:pub:r:135:2004
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 135:2004 (E)
+status: valid
+id: e79fae6e-bead-5a01-89f8-c799f51be20f
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: Mean of the wavelength of two adjacent emission or absorption lines,
+      the signals of which are practically still separated by the spectrophotometer,
+      divided by the absolute wavelength difference of the two lines.
+  examples: []
+  id: r135-2004-26-eng
+  notes:
+  - content: Two equally strong emission lines are considered as resolved, if the
+      signal in the region between the two maxima of the lines is reduced to at least
+      80 % of the line's maxima. Two equally strong absorption lines are considered
+      as resolved, if the extinction between the two maxima is reduced to at least
+      90 % of the line's maxima.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Resolution of a spectrophotometer; resolving power of a spectrophotometer
+  language_code: eng
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 956863c4-f876-59cf-8b73-b4d16debc31e
+

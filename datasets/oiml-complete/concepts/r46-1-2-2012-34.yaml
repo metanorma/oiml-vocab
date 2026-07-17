@@ -3,6 +3,7 @@ data:
   identifier: r46-1-2-2012-34
   localized_concepts:
     eng: 5af588bc-7b64-5c5c-bc40-0c7fbaa93f09
+    fra: 41ec79a9-c638-534b-afe1-cf067fb4e29a
   domains:
   - concept_id: r-46
     source: urn:oiml:pub:r:46:1:2012
@@ -34,4 +35,26 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 5af588bc-7b64-5c5c-bc40-0c7fbaa93f09
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: rapport de la puissance active sur la puissance apparente
+  examples: []
+  id: r46-1-2-2012-34-fra
+  notes:
+  - content: Dans des conditions sinusoïdales et soit en phase, soit en triphasé symétrique,
+      le facteur de puissance = cosinus de la différence de phase entre la tension
+      U et le courant I.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: facteur de puissance (FP)
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 41ec79a9-c638-534b-afe1-cf067fb4e29a
 

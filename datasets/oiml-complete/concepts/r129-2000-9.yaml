@@ -3,6 +3,7 @@ data:
   identifier: r129-2000-9
   localized_concepts:
     eng: 20021305-b415-5078-ac60-ea2daa958fd8
+    fra: 7ee98cd9-c30a-5975-bb6f-67b475d9b4cc
   domains:
   - concept_id: r-129
     source: urn:oiml:pub:r:129:2000
@@ -37,4 +38,26 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 20021305-b415-5078-ac60-ea2daa958fd8
+---
+data:
+  dates:
+  - date: '2026-07-15T15:09:43Z'
+    type: accepted
+  definition:
+  - content: Instruments ayant une étendue de mesure dimensionnelle pour chaque axe,
+      divisée en étendues de mesure partielles chacune avec des échelons différents,
+      l'étendue de mesure étant déterminée automatiquement en fonction de la dimension
+      mesurée.
+  examples: []
+  id: r129-2000-9-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instrument multi-échelons
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 7ee98cd9-c30a-5975-bb6f-67b475d9b4cc
 

@@ -3,6 +3,7 @@ data:
   identifier: r144-1-2013-5
   localized_concepts:
     eng: 2bfe98fd-c700-5a3f-8b0c-c13b6c6d9dc5
+    fra: 6500d76f-bff6-56bf-8aa8-a0f62a33eaf8
   domains:
   - concept_id: r-144
     source: urn:oiml:pub:r:144-1:2013
@@ -36,4 +37,25 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 2bfe98fd-c700-5a3f-8b0c-c13b6c6d9dc5
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: signal de mesure fonctionnellement lié au mesurande (fraction volumique
+      du composant à mesurer), qui entre dans l'entrée d'un instrument de mesure,
+      d'une voie de mesure ou d'un composant de conversion séparé
+  examples: []
+  id: r144-1-2013-5-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: signal de mesure d'entrée
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 6500d76f-bff6-56bf-8aa8-a0f62a33eaf8
 

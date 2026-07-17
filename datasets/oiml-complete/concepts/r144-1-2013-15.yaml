@@ -3,6 +3,7 @@ data:
   identifier: r144-1-2013-15
   localized_concepts:
     eng: e9fc05b0-5195-50eb-82fa-e8a2a5542750
+    fra: '098befb1-efa2-51db-86f7-82eb7b3eef07'
   domains:
   - concept_id: r-144
     source: urn:oiml:pub:r:144-1:2013
@@ -36,4 +37,28 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: e9fc05b0-5195-50eb-82fa-e8a2a5542750
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: période de temps requise par le système d'analyse depuis la mise sous
+      tension de l'instrument jusqu'à ce qu'il atteigne le mode de fonctionnement
+      auquel il fonctionne dans les erreurs maximales tolérées
+  examples: []
+  id: r144-1-2013-15-fra
+  notes:
+  - content: Pour un analyseur de gaz cela correspond au temps entre le moment où
+      il est mis sous tension et le moment où le résultat de mesure d'une fraction
+      volumique, un CGM étant installé à l'entrée, est dans les limites autorisées.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: temps de chauffe
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: '098befb1-efa2-51db-86f7-82eb7b3eef07'
 

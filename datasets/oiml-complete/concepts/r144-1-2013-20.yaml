@@ -3,6 +3,7 @@ data:
   identifier: r144-1-2013-20
   localized_concepts:
     eng: 3c8b7871-7879-5d04-86b3-788e11c2d6da
+    fra: 1b871cce-8cb0-5968-b984-f98ab66e39c7
   domains:
   - concept_id: r-144
     source: urn:oiml:pub:r:144-1:2013
@@ -35,4 +36,27 @@ data:
   entry_status: valid
 date_accepted: '2026-07-16T00:00:00+00:00'
 id: 3c8b7871-7879-5d04-86b3-788e11c2d6da
+---
+data:
+  dates:
+  - date: '2026-07-15T00:00:00Z'
+    type: accepted
+  definition:
+  - content: différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument
+      de mesure
+  examples: []
+  id: r144-1-2013-20-fra
+  notes:
+  - content: Les erreurs aléatoires présentant des variations dans l'indication, mais
+      qui ne peuvent pas être interprétées, enregistrées ou transmises comme résultats
+      de mesure sont considérés comme des défauts non significatifs.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: défaut
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 1b871cce-8cb0-5968-b984-f98ab66e39c7
 
