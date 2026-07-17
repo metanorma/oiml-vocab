@@ -6,17 +6,13 @@ data:
     eng: b7bbaee4-0a93-50b8-adc0-79f081b6c482
   domains:
   - concept_id: r-35
-    source: urn:oiml:pub:r:35-1:2007
+    source: urn:oiml:pub::35:2007
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 35-1:2007
-        version: '2007'
-    locality:
-      type: clause
-      reference_from: '12'
+        source: OIML R 35-1:2007 (D)
 status: valid
 id: 56c66a67-58c3-52ea-a5fd-90a3238b47b2
 schema_version: '3'
@@ -51,11 +47,7 @@ data:
   examples: []
   id: r35-1-2007-12-eng
   notes: []
-  sources:
-  - origin:
-      ref: OIML R 35-1:2007 (E)
-      clause: 2.3.1
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

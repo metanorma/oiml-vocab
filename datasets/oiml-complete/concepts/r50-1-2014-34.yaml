@@ -5,17 +5,13 @@ data:
     eng: a131fb1a-fb03-5eef-80e0-0a9467623a84
   domains:
   - concept_id: r-50
-    source: urn:oiml:pub:r:50-1:2014
+    source: urn:oiml:pub:r:50:2014
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 50-1:2014
-        version: '2014'
-    locality:
-      type: clause
-      reference_from: '34'
+        source: OIML R 50-1:2014 (E)
 status: valid
 id: 27daf7fb-1e3f-595a-a67b-59b8b2fbd466
 schema_version: '3'
@@ -35,11 +31,7 @@ data:
   - content: Load cells equipped with electronics including amplifier, analogue-to-digital
       converter (ADC), and data processing device (optionally) are called digital
       load cells (see Figure 1).
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML R60
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -5,17 +5,13 @@ data:
     eng: dd0af898-eacc-57d0-a607-4d7f8b806956
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '46'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: c439f1ac-598e-580b-911a-8e028eb32f45
 schema_version: '3'
@@ -32,10 +28,7 @@ data:
   notes:
   - content: The change can be manifold, e.g. a single step, multiple steps, or a
       gradual sliding.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

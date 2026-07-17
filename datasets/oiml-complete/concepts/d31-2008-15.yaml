@@ -13,11 +13,7 @@ data:
   - type: authoritative
     origin:
       ref:
-        source: OIML D 31:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '15'
+        source: OIML D 31:2008 (E)
 status: valid
 id: e12e2695-f287-549d-b255-889a4ee96947
 schema_version: '3'
@@ -32,11 +28,7 @@ data:
   examples: []
   id: d31-2008-15-eng
   notes: []
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML D 11:2004, 3.1
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
@@ -59,14 +51,7 @@ data:
   - content: Pour les besoins de ce Document, les équipements complémentaires, dans
       la mesure où ils sont soumis au contrôle de la métrologie légale, sont considérés
       comme faisant partie de l'instrument de mesure.
-  sources:
-  - origin:
-      ref:
-        source: OIML D 11:2004
-    locality:
-      type: clause
-      reference_from: '3.1'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -1,0 +1,41 @@
+---
+data:
+  identifier: r6-1970-5
+  localized_concepts:
+    fra: b88d202e-7f4d-5b55-a621-92ab3641be46
+  domains:
+  - concept_id: r-6
+    source: urn:oiml:pub:r:6:1970
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 6:1970 (F)
+status: valid
+id: 79d0758b-86c1-5af5-b626-e7dcb4ba406a
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-17T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: La constante d'une commande de sortie est la valeur du volume représenté
+      par un tour complet de l'axe de cette commande ; cette valeur est déterminée
+      par calcul en multipliant la valeur du volume représenté par un tour complet
+      de l'élément contrôleur par le rapport de transmission du dispositif indicateur
+      à cet axe.
+  examples: []
+  id: r6-1970-5-fra
+  notes: []
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Constante des commandes de sortie
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: b88d202e-7f4d-5b55-a621-92ab3641be46
+

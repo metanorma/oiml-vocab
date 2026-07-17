@@ -13,11 +13,7 @@ data:
   - type: authoritative
     origin:
       ref:
-        source: OIML D 31:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '5'
+        source: OIML D 31:2008 (E)
 status: valid
 id: 14a62451-028e-51ec-a1f3-2f843d928986
 schema_version: '3'
@@ -34,11 +30,7 @@ data:
   notes:
   - content: '"Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML D 11:2004, 3.18
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
@@ -61,14 +53,7 @@ data:
   - content: '"Mettre en évidence" fait référence à toute réponse appropriée de l''instrument
       de mesure (signal lumineux, signal sonore, protection du processus de mesurage,
       etc.).'
-  sources:
-  - origin:
-      ref:
-        source: OIML D 11:2004
-    locality:
-      type: clause
-      reference_from: '3.18'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

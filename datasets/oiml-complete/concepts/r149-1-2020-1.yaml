@@ -5,17 +5,13 @@ data:
     eng: 432c00ae-19b9-5fb6-8938-b4b638318ff4
   domains:
   - concept_id: r-149
-    source: urn:oiml:pub:r:149-1:2020
+    source: urn:oiml:pub:r:149:2020
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 149-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: '1'
+        source: OIML R 149-1:2020 (E)
 status: valid
 id: b0d51c53-8536-5dc6-9258-90fe773b23e9
 schema_version: '3'
@@ -32,11 +28,7 @@ data:
   examples: []
   id: r149-1-2020-1-eng
   notes: []
-  sources:
-  - origin:
-      ref: OIML R 149-1:2020 (E)
-      clause: '2.1'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

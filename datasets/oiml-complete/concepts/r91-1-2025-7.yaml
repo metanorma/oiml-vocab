@@ -5,17 +5,13 @@ data:
     eng: 99ef7b62-c59f-5480-aa22-f143ac4d6c94
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '7'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: 21df13a4-2cff-54a6-9a90-e71b2be509bb
 schema_version: '3'
@@ -32,10 +28,7 @@ data:
   notes:
   - content: To record and analyse signals from field experiments or to insert recorded
       or artificial data, e.g. to support metrological control.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

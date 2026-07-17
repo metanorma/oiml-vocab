@@ -13,11 +13,7 @@ data:
   - type: authoritative
     origin:
       ref:
-        source: OIML D 31:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '16'
+        source: OIML D 31:2008 (E)
 status: valid
 id: 7d6db3eb-02ef-540b-a5de-8e98dcbdc8cc
 schema_version: '3'
@@ -33,11 +29,7 @@ data:
   examples: []
   id: d31-2008-16-eng
   notes: []
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML D 11:2004, 3.2
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
@@ -61,14 +53,7 @@ data:
   - content: Un dispositif électronique peut être un instrument de mesure complet
       (par exemple une balance, un compteur électrique) ou une partie d'instrument
       de mesure (par exemple une imprimante, un indicateur).
-  sources:
-  - origin:
-      ref:
-        source: OIML D 11:2004
-    locality:
-      type: clause
-      reference_from: '3.2'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

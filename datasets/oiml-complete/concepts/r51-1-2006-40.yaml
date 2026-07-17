@@ -5,17 +5,13 @@ data:
     eng: d489a4c7-0b8c-5610-8561-583d1bb0449d
   domains:
   - concept_id: r-51
-    source: urn:oiml:pub:r:51-1:2006
+    source: urn:oiml:pub:r:51:2006
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 51-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: '40'
+        source: OIML R 51-1:2006 (E)
 status: valid
 id: 47ef934e-6530-52a4-8a44-03ab90d10154
 schema_version: '3'
@@ -31,11 +27,7 @@ data:
   - content: A/D converter, display
   id: r51-1-2006-40-eng
   notes: []
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML D11
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

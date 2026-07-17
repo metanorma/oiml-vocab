@@ -5,17 +5,13 @@ data:
     eng: ef0e09dc-e384-5d10-a914-8c958a3686fa
   domains:
   - concept_id: r-51
-    source: urn:oiml:pub:r:51-1:2006
+    source: urn:oiml:pub:r:51:2006
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 51-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: '39'
+        source: OIML R 51-1:2006 (E)
 status: valid
 id: 15099e9d-1147-5443-833b-07382c2289f7
 schema_version: '3'
@@ -35,11 +31,7 @@ data:
       (e.g. an instrument for direct sales to the public), a module (e.g. indicator,
       analog data processing device, weighing module) or a peripheral device (e.g.
       printer, secondary display).
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML D11
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

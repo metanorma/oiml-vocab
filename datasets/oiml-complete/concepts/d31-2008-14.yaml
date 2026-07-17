@@ -13,11 +13,7 @@ data:
   - type: authoritative
     origin:
       ref:
-        source: OIML D 31:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '14'
+        source: OIML D 31:2008 (E)
 status: valid
 id: 840c25f1-c948-5365-a195-ba731f7978f9
 schema_version: '3'
@@ -32,11 +28,7 @@ data:
   examples: []
   id: d31-2008-14-eng
   notes: []
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML D 11:2004, 3.17
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
@@ -56,14 +48,7 @@ data:
   examples: []
   id: d31-2008-14-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML D 11:2004
-    locality:
-      type: clause
-      reference_from: '3.17'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -32,12 +32,11 @@ language_order:
 derived: true
 derived_from: cross-publication terminology extraction across all OIML publications
 description:
-  eng: Every terminology entry defined inside every OIML publication — Recommendations,
-    Documents, Guides, and Basic Publications — consolidated into a single browsable
-    vocabulary with full provenance back to the source document.
-  fra: Chaque entrée terminologique définie dans chaque publication OIML — Recommandations,
-    Documents, Guides et Publications fondamentales — consolidée dans un vocabulaire
-    navigable unique avec provenance complète vers le document source.
+  eng: Comprehensive terminology index derived from all OIML publications — every
+    terminology entry from every OIML publication, with full provenance. ~7,000 concepts
+    across ~300+ publications.
+  fra: Index terminologique exhaustif dérivé des publications OIML — chaque entrée
+    terminologique de chaque publication OIML est enregistrée, avec provenance complète.
 ordering: systematic
 sections:
 - id: b-10
@@ -133,6 +132,9 @@ sections:
 - id: g-9
   names:
     eng: OIML G 9
+- id: r-10
+  names:
+    eng: OIML R 10
 - id: r-100
   names:
     eng: OIML R 100-1
@@ -150,7 +152,10 @@ sections:
     eng: OIML R 108
 - id: r-109
   names:
-    eng: OIML R 109
+    eng: OIML OIML
+- id: r-11
+  names:
+    eng: OIML R 11
 - id: r-110
   names:
     eng: OIML R 110
@@ -159,10 +164,10 @@ sections:
     eng: OIML R 111-1
 - id: r-112
   names:
-    eng: OIML R 112
+    eng: OIML OIML
 - id: r-113
   names:
-    eng: OIML R 113
+    eng: OIML OIML
 - id: r-114
   names:
     eng: OIML R 114
@@ -171,13 +176,16 @@ sections:
     eng: OIML R 115
 - id: r-116
   names:
-    eng: OIML R 116
+    eng: OIML OIML
 - id: r-117
   names:
     eng: OIML R 117-1
 - id: r-119
   names:
     eng: OIML R 119
+- id: r-12
+  names:
+    eng: OIML R 12
 - id: r-120
   names:
     eng: OIML R 120
@@ -228,7 +236,7 @@ sections:
     eng: OIML R 138
 - id: r-139
   names:
-    eng: OIML R 139-1
+    eng: OIML R 139
 - id: r-140
   names:
     eng: OIML R 140
@@ -243,19 +251,19 @@ sections:
     eng: OIML R 143
 - id: r-144
   names:
-    eng: OIML R 144-1
+    eng: OIML R 144
 - id: r-145
   names:
-    eng: OIML R 145-1
+    eng: OIML R 145
 - id: r-146
   names:
-    eng: OIML R 146-1
+    eng: OIML R 146
 - id: r-147
   names:
     eng: OIML R 147
 - id: r-148
   names:
-    eng: OIML R 148-1
+    eng: OIML R 148
 - id: r-149
   names:
     eng: OIML R 149-1
@@ -274,6 +282,9 @@ sections:
 - id: r-24
   names:
     eng: OIML R 24
+- id: r-3
+  names:
+    eng: OIML R 3
 - id: r-30
   names:
     eng: OIML R 30
@@ -286,6 +297,9 @@ sections:
 - id: r-35
   names:
     eng: OIML R 35-1
+- id: r-4
+  names:
+    eng: OIML R 4
 - id: r-40
   names:
     eng: OIML R 40
@@ -300,13 +314,16 @@ sections:
     eng: OIML R 45
 - id: r-46
   names:
-    eng: OIML R 46-1-2
+    eng: OIML R 46-1/-2
 - id: r-48
   names:
     eng: OIML R 48
 - id: r-49
   names:
     eng: OIML R 49-1
+- id: r-5
+  names:
+    eng: OIML R 5
 - id: r-50
   names:
     eng: OIML R 50-1
@@ -358,6 +375,9 @@ sections:
 - id: r-79
   names:
     eng: OIML R 79
+- id: r-8
+  names:
+    eng: OIML R 8
 - id: r-80
   names:
     eng: OIML R 80-1
@@ -375,13 +395,16 @@ sections:
     eng: OIML R 84
 - id: r-85
   names:
-    eng: OIML R 85-1-2
+    eng: OIML R 85-1&2
 - id: r-86
   names:
     eng: OIML R 86
 - id: r-87
   names:
     eng: OIML R 87
+- id: r-9
+  names:
+    eng: OIML R 9
 - id: r-91
   names:
     eng: OIML R 91-1
@@ -399,5 +422,5 @@ sections:
     eng: OIML R 98
 - id: r-99
   names:
-    eng: OIML R 99-1-2
-concept_count: 5869
+    eng: OIML R 99-1&2
+concept_count: 5930

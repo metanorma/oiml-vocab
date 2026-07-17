@@ -5,17 +5,13 @@ data:
     eng: 1666024f-f2d3-5f57-921e-e743b2dd23a7
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '57'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: 79ec6598-a0e1-53ca-a392-8b39c559edff
 schema_version: '3'
@@ -33,13 +29,7 @@ data:
   notes:
   - content: An influence quantity is a disturbance if the rated operating conditions
       for that influence quantity are not specified.
-  sources:
-  - origin:
-      ref: OIML V 1
-    type: authoritative
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

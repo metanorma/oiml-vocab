@@ -5,13 +5,13 @@ data:
     fra: d513a352-2804-5b35-abb2-a22fc5ca743d
   domains:
   - concept_id: r-60
-    source: urn:oiml:pub:r:60-4:2017
+    source: urn:oiml:pub:r:60:2017
     ref_type: section
   sources:
-  - origin:
-      ref: OIML D 11
-      clause: '3.23'
-    type: authoritative
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 60-4:2017 (F)
 status: valid
 id: c25857c6-9ec9-5362-9ba4-789e160a603f
 schema_version: '3'
@@ -26,11 +26,7 @@ data:
   examples: []
   id: r60-4-2017-14-fra
   notes: []
-  sources:
-  - origin:
-      ref: OIML D 11
-      clause: '3.23'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

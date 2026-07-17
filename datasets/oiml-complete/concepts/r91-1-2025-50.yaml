@@ -5,17 +5,13 @@ data:
     eng: 285d6055-701e-5e5d-a0ed-34c00f3cdb10
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '50'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: f7bf2705-b2cd-5f51-a2b4-c8628577caee
 schema_version: '3'
@@ -33,13 +29,7 @@ data:
   notes:
   - content: The unit of the error of indication and of the MPE can be either absolute
       (e.g. km/h) or relative (e.g. %).
-  sources:
-  - origin:
-      ref: OIML V 1
-    type: authoritative
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

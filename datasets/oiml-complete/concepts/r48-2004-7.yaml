@@ -11,11 +11,7 @@ data:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 48:2004
-        version: '2004'
-    locality:
-      type: clause
-      reference_from: '7'
+        source: OIML R 48:2004 (E)
 status: valid
 id: a35b035a-1db4-5665-a047-ccf99c8fe3ee
 schema_version: '3'
@@ -31,11 +27,7 @@ data:
   examples: []
   id: r48-2004-7-eng
   notes: []
-  sources:
-  - origin:
-      ref: OIML R 48:2004 (E)
-      clause: '2.7'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -5,17 +5,13 @@ data:
     eng: 45e6d742-ef67-5440-a146-5d1718c77c9a
   domains:
   - concept_id: r-99
-    source: urn:oiml:pub:r:99-1-2:2008
+    source: urn:oiml:pub:r:99:2008
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 99-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '21'
+        source: OIML R 99-1&2:2008 (E)
 status: valid
 id: 81542138-ac90-50a2-9f6c-a56fa71ba0bb
 schema_version: '3'
@@ -38,13 +34,7 @@ data:
       measurement result; and (d) Faults giving rise to variations in the measurement
       results that are so large as to be noticed by all those interested in the measurement
       result.'
-  sources:
-  - origin:
-      ref: OIML D 11:2004
-    type: authoritative
-  - origin:
-      ref: OIML R 99-1&2:2008
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

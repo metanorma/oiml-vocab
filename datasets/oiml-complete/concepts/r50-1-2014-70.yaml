@@ -5,17 +5,13 @@ data:
     eng: ac0384b5-92af-5f51-ad45-5e192600dc95
   domains:
   - concept_id: r-50
-    source: urn:oiml:pub:r:50-1:2014
+    source: urn:oiml:pub:r:50:2014
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 50-1:2014
-        version: '2014'
-    locality:
-      type: clause
-      reference_from: '70'
+        source: OIML R 50-1:2014 (E)
 status: valid
 id: a5cd85c4-9640-5565-8e6b-d2bce8994ecd
 schema_version: '3'
@@ -37,11 +33,7 @@ data:
   - content: The concept of family primarily aims at reducing the test effort at type
       examination. It does not preclude the possibility of listing more than one family
       in one certificate.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML B3
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

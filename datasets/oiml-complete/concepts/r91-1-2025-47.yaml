@@ -5,17 +5,13 @@ data:
     eng: 879d6692-1d1f-5fe3-b134-512246433b9b
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '47'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: c5728be0-de60-58e0-8a70-b20887501455
 schema_version: '3'
@@ -30,10 +26,7 @@ data:
   examples: []
   id: r91-1-2025-47-eng
   notes: []
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

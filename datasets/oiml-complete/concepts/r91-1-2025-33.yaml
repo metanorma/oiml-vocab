@@ -5,17 +5,13 @@ data:
     eng: 3382f7de-34f4-5640-9abd-4fe2ae6c70d1
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '33'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: 9275e128-2fd6-5661-859e-656b95db9c03
 schema_version: '3'
@@ -36,10 +32,7 @@ data:
   - content: Hash algorithms are used for software identification, authentication
       of measurements, protection of settings etc.
   - content: Typical hash algorithms are SHA-2 (256-bit hash) or stronger.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

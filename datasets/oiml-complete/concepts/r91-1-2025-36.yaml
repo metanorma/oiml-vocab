@@ -5,17 +5,13 @@ data:
     eng: fa702d35-ed54-5822-a284-3b6450f00924
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '36'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: daa6379b-0953-5761-a8fb-2ec023232789
 schema_version: '3'
@@ -32,10 +28,7 @@ data:
   notes:
   - content: In other documents, the azimuth angle of speed meter is sometimes called
       the horizontal alignment angle.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred
