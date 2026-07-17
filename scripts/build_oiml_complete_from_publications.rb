@@ -44,10 +44,10 @@ end
 
 def lang_of_slug(slug)
   LANG_SUFFIXES.each do |s|
-    next if s.length <= 1 && slug =~ /-#{s}$/
     return canonical_lang(s) if slug.end_with?("-#{s}")
   end
-  canonical_lang(slug.split("-").last)
+  # No language suffix detected — default to eng
+  "eng"
 end
 
 def canonical_lang(code)
@@ -257,7 +257,7 @@ groups.each do |key, files|
 
   # Write multi-doc YAML
   parts = out_docs.map { |d| YAML.dump(d).sub(/\A---\n/, "") }
-  File.write(out_concepts + "#{out_name}.yaml", "---\n" + parts.join("---\n") + "\n")
+  File.write(out_concepts + "#{out_name.sub(/\.yaml$/, '')}.yaml", "---\n" + parts.join("---\n") + "\n")
   processed += 1
 end
 
