@@ -1,20 +1,9 @@
 # OIML Vocabularies of Metrology
 
 This site hosts interactive, browsable editions of the International
-Vocabularies of Metrology published by OIML and JCGM, plus a complete
-cross-publication terminology index.
-
-## OIML Complete Vocabulary
-
-The **OIML Complete Vocabulary** consolidates every terminology entry defined
-inside every OIML publication — Recommendations (R), Documents (D), Guides (G),
-Basic Publications (B), and Expert Reports (E) — into a single browsable
-dataset. Each concept carries full provenance back to its source publication.
-
-This is a derived dataset: it is observational, not authoritative. Many terms
-appear in multiple publications with different definitions — each appearance is
-preserved as its own concept so readers can see both the variation and the
-consensus.
+Vocabularies of Metrology published by OIML and JCGM, plus the OIML Complete
+Vocabulary — a cross-publication terminology index derived from every OIML
+publication.
 
 ## VIML — International Vocabulary of Legal Metrology
 
