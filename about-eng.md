@@ -1,7 +1,20 @@
 # OIML Vocabularies of Metrology
 
-This site hosts interactive, browsable editions of the two International
-Vocabularies of Metrology published by OIML and JCGM.
+This site hosts interactive, browsable editions of the International
+Vocabularies of Metrology published by OIML and JCGM, plus a complete
+cross-publication terminology index.
+
+## OIML Complete Vocabulary
+
+The **OIML Complete Vocabulary** consolidates every terminology entry defined
+inside every OIML publication — Recommendations (R), Documents (D), Guides (G),
+Basic Publications (B), and Expert Reports (E) — into a single browsable
+dataset. Each concept carries full provenance back to its source publication.
+
+This is a derived dataset: it is observational, not authoritative. Many terms
+appear in multiple publications with different definitions — each appearance is
+preserved as its own concept so readers can see both the variation and the
+consensus.
 
 ## VIML — International Vocabulary of Legal Metrology
 
@@ -40,9 +53,10 @@ The VIM3 PDF is available for free download from the
 
 This online browser provides:
 
-- interactive browsing and full-text search across both vocabularies
+- interactive browsing and full-text search across all datasets
 - bilingual presentation (English and French)
-- hyperlinked cross-references between VIML and VIM where concepts are shared
+- hyperlinked cross-references between vocabularies
+- per-publication provenance for every term in the Complete Vocabulary
 - both alphabetical and analytical indexes
 
 ## About OIML
