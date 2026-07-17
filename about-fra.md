@@ -1,21 +1,9 @@
 # Vocabulaires internationaux de métrologie de l'OIML
 
 Ce site propose des éditions interactives et navigables des Vocabulaires
-internationaux de métrologie publiés par l'OIML et le JCGM, ainsi qu'un
-index terminologique transversal complet.
-
-## Vocabulaire complet de l'OIML
-
-Le **Vocabulaire complet de l'OIML** consolide chaque entrée terminologique
-définie dans chaque publication OIML — Recommandations (R), Documents (D),
-Guides (G), Publications fondamentales (B) et Rapports d'experts (E) — en un
-seul jeu de données navigable. Chaque concept conserve la provenance complète
-vers sa publication source.
-
-Il s'agit d'un jeu de données dérivé : il est observationnel, non autoritaire.
-De nombreux termes apparaissent dans plusieurs publications avec des définitions
-différentes — chaque occurrence est conservée comme un concept distinct afin
-que les lecteurs puissent voir à la fois la variation et le consensus.
+internationaux de métrologie publiés par l'OIML et le JCGM, ainsi que le
+Vocabulaire complet de l'OIML — un index terminologique transversal dérivé de
+toutes les publications OIML.
 
 ## VIML — Vocabulaire international de métrologie légale
 
