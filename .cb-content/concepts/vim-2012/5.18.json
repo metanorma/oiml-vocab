@@ -1,0 +1,71 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "5.18",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/5.18",
+  "status": "valid",
+  "designations": {
+    "eng": "reference quantity value",
+    "fra": "valeur de référence"
+  },
+  "eng": "reference quantity value",
+  "groups": [
+    "5"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "reference quantity value",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "reference value",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.19,quantity value}} used as a basis for comparison with values of {{1.1,quantities}} of the same {{1.2,kind}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A reference quantity value can be a {{2.11,true quantity value}} of a {{2.3,measurand}}, in which case it is unknown, or a {{2.12,conventional quantity value}}, in which case it is known."
+        },
+        {
+          "content": "A reference quantity value with associated {{2.26,measurement uncertainty}} is usually provided with reference to\n\n. material, e.g. a {{5.14,certified reference material}},\n. a device, e.g. a stabilized laser,\n. a {{2.7,reference measurement procedure}},\n. a comparison of {{5.1,measurement standards}}."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeur de référence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.19,valeur d'une grandeur}} servant de base de comparaison pour les valeurs de {{1.1,grandeurs}} de même {{1.2,nature}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "La valeur de référence peut être une {{2.11,valeur vraie}} d'un {{2.3,mesurande}}, et est alors inconnue, ou une {{2.12,valeur conventionnelle}}, et est alors connue."
+        },
+        {
+          "content": "Une valeur de référence associée à son {{2.26,incertitude de mesure}} se rapporte généralement à\n\n. un matériau, par exemple un {{5.14,matériau de référence certifié}},\n. un dispositif, par exemple un laser stabilisé,\n. une {{2.7,procédure de mesure de référence}},\n. une comparaison d'{{5.1,étalons}}."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

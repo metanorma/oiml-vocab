@@ -1,0 +1,73 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "1.23",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/1.23",
+  "status": "valid",
+  "designations": {
+    "eng": "unit equation",
+    "fra": "équation aux unités"
+  },
+  "eng": "unit equation",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "unit equation",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "mathematical relation between *base units*, *coherent derived units* or other *measurement units*"
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "For the *quantities* in example a) of item 1.22, stem:[[Q_1\\] = [Q_2\\] [Q_3\\]] where stem:[[Q_1\\]], stem:[[Q_2\\]], and stem:[[Q_3\\]] denote the measurement units of stem:[Q_1], stem:[Q_2], and stem:[Q_3], respectively, provided that these measurement units are in a {{1.14,coherent system of units}}."
+        },
+        {
+          "content": "stem:[\"unitsml(J)\" := \"unitsml(kg m^2/s^2)\"], where stem:[\"unitsml(J)\"], stem:[\"unitsml(kg)\"], stem:[\"unitsml(m)\"], and stem:[\"unitsml(s)\"] are the symbols for the joule, kilogram, metre, and second, respectively. (The symbol := denotes \"is by definition equal to\" as given in the ISO 80000 and IEC 80000 series)."
+        },
+        {
+          "content": "stem:[1 \"unitsml(km/h)\" = (1/3.6) \"unitsml(m/s)\"]."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "équation aux unités",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "relation d'égalité entre des *unités de base*, des *unités dérivées cohérentes* ou d'autres *unités de mesure*"
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "Pour les *grandeurs* données dans l'exemple a) de 1.22, stem:[[Q_1\\] = [Q_2\\] [Q_3\\]] où stem:[[Q_1\\]], stem:[[Q_2\\]] et stem:[[Q_3\\]] représentent respectivement les unités de stem:[Q_1], stem:[Q_2] et stem:[Q_3], pourvu que ces unités soient dans un {{1.14,système cohérent d'unités}}."
+        },
+        {
+          "content": "stem:[\"unitsml(J)\" := \"unitsml(kg m^2/s^2)\"], où stem:[\"unitsml(J)\"], stem:[\"unitsml(kg)\"], stem:[\"unitsml(m)\"] et stem:[\"unitsml(s)\"] sont respectivement les symboles du joule, du kilogramme, du mètre et de la seconde. (Le symbole := signifie « est par définition égal à », comme indiqué dans les séries ISO 80000 et CEI 80000)."
+        },
+        {
+          "content": "stem:[1 \"unitsml(km/h)\" = (1/3,6) \"unitsml(m/s)\"]."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r91-1-2025-33",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r91-1-2025-33",
+  "status": "valid",
+  "designations": {
+    "eng": "hash algorithm"
+  },
+  "eng": "hash algorithm",
+  "groups": [
+    "r-91"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "hash algorithm",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "function that converts a data string into a numeric string output of fixed length"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Hash algorithms are designed to be collision-resistant, meaning that there is a very low probability that the same string would be created for different data."
+        },
+        {
+          "content": "Hash algorithms are used for software identification, authentication of measurements, protection of settings etc."
+        },
+        {
+          "content": "Typical hash algorithms are SHA-2 (256-bit hash) or stronger."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng"
+  ]
+}

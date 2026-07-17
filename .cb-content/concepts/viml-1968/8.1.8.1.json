@@ -1,0 +1,45 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.1.8.1",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.1.8.1",
+  "status": "valid",
+  "designations": {
+    "fra": "Erreurs limites d'un seul mesurage d'une série"
+  },
+  "eng": "Erreurs limites d'un seul mesurage d'une série",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreurs limites d'un seul mesurage d'une série",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Erreurs extrêmes (en plus et en moins) dont la probabilité de ne pas être dépassées par l'erreur sur un mesurage quelconque d'une série a une valeur P telle que l'on peut estimer que la différence 1 — P est négligeable."
+        }
+      ],
+      "notes": [
+        {
+          "content": "On calcule en général les erreurs limites d'un seul mesurage comme le produit de l'écart moyen quadratique d'un seul mesurage d'une série par un nombre stem:[t] (entier ou fractionnaire); on a alors : stem:[e_1 = +ts] et stem:[e_2 = -ts] où stem:[s] est défini selon 8.1.7.1 et le nombre stem:[t] est fixé en fonction de la probabilité stem:[P] de ne pas dépasser les valeurs stem:[e_1] ou stem:[e_2]. Dans le cas de la loi de la distribution normale des erreurs et pour un suffisamment grand nombre de mesurages, on pose souvent stem:[t = 3], ce qui correspond à la probabilité stem:[P = 99.73%] de ne pas dépasser dans la série de mesurages les valeurs stem:[e_1 = 3s] et stem:[e_2 = -3s]; pour stem:[P = 95%], on a stem:[t = 1.96] et pour stem:[P = 99%], on a stem:[t = 2.58] ..."
+        },
+        {
+          "content": "La définition ci-dessus des erreurs limites suppose que l'on a corrigé le résultat des erreurs systématiques ; ces erreurs limites contiendront cependant encore les « résidus » de ces erreurs systématiques."
+        },
+        {
+          "content": "La probabilité P correspond au terme statistique « niveau de confiance », et les erreurs limites au terme limites de confiance »."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

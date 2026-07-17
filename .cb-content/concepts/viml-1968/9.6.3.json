@@ -1,0 +1,39 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "9.6.3",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/9.6.3",
+  "status": "valid",
+  "designations": {
+    "fra": "Erreur de fidélité"
+  },
+  "eng": "Erreur de fidélité",
+  "groups": [
+    "9"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreur de fidélité",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Un des indices de dispersion des indications d'un instrument de mesurage\n: erreur moyenne quadratique, erreur probable, erreur moyenne, etc...\nOn adopte souvent l'écart moyen quadratique (8.2.4), qui est appelé alors\n« erreur moyenne quadratique de fidélité », pour une série d'indications\nconsécutives dans des conditions déterminées d'emploi de l'instrument.\n"
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "Dans l'exemple du point 9.5.1, les différences entre les résultats\nstem:[v_{i}] obtenus et leurs valeurs moyennes stem:[v_{i}] sont :\nstem:[-0.07; +0.04; +0.28; -0.16; -0.03; +0.09; +0.02; -0.034; +0.01; +0.16 mu \"A\"]\nl'errent moyenne quadratique de fidélité d'un des résultats du mesurage est :\nstem:[s = sqrt (0.07^{2} + 0.04^{2} + dots + 0.16^{2})/(10 - 1) = 0.17 mu \"A\"]\n"
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.47",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.47",
+  "status": "valid",
+  "designations": {
+    "eng": "metrological compatibility of measurement results",
+    "fra": "compatibilité de mesure"
+  },
+  "eng": "metrological compatibility of measurement results",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "metrological compatibility of measurement results",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "metrological compatibility",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "property of a set of *measurement results* for a specified {{2.3,measurand}}, such that the absolute value of the difference of any pair of *measured quantity values* from two different measurement results is smaller than some chosen multiple of the {{2.30,standard measurement uncertainty}} of that difference"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Metrological compatibility of measurement results replaces the traditional concept of 'staying within the error', as it represents the criterion for deciding whether two measurement results refer to the same measurand or not. If in a set of *measurements* of a measurand, thought to be constant, a measurement result is not compatible with the others, either the measurement was not correct (e.g. its measurement uncertainty was assessed as being too small) or the measured quantity changed between measurements."
+        },
+        {
+          "content": "Correlation between the measurements influences metrological compatibility of measurement results. If the measurements are completely uncorrelated, the standard measurement uncertainty of their difference is equal to the root mean square sum of their standard measurement uncertainties, while it is lower for positive covariance or higher for negative covariance."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "compatibilité de mesure",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "compatibilité métrologique",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "propriété d'un ensemble de *résultats de mesure* correspondant à un *mesurande* spécifié, telle que la valeur absolue de la différence des *valeurs mesurées* pour toute paire de résultats de mesure est plus petite qu'un certain multiple choisi de l'{{2.30,incertitude-type}} de cette différence"
+        }
+      ],
+      "notes": [
+        {
+          "content": "La compatibilité de mesure remplace le concept traditionnel « rester dans l'erreur », puisqu'elle exprime selon quel critère décider si deux résultats de mesure se rapportent ou non au même mesurande. Si, dans un ensemble de *mesurages* d'un mesurande que l'on pense rester constant, un résultat de mesure n'est pas compatible avec les autres, soit le mesurage n'est pas correct (par exemple, l'{{2.26,incertitude de mesure}} évaluée est trop petite), soit la {{1.1,grandeur}} mesurée a changé d'un mesurage à l'autre."
+        },
+        {
+          "content": "La corrélation entre les mesurages influence la compatibilité de mesure. Si les mesurages sont entièrement décorrélés, l'incertitude-type de leur différence est égale à la moyenne quadratique de leurs incertitudes-types (racine carrée de la somme des carrés), tandis qu'elle est plus petite pour une covariance positive ou plus grande pour une covariance négative."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

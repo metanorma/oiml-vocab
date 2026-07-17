@@ -1,0 +1,61 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r113-1994-9",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r113-1994-9",
+  "status": "valid",
+  "designations": {
+    "eng": "detection limit",
+    "fra": "Limite de détection"
+  },
+  "eng": "detection limit",
+  "groups": [
+    "r-113"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "detection limit",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "The smallest quantity of a sample component which yields a detector output signal that is three times greater than the short-term noise."
+        }
+      ],
+      "notes": [
+        {
+          "content": "This term is also referred to as \"minimum detectability\" or \"minimum detectable limit (MDL)\" in references and manufacturer's literature."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Limite de détection",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Plus petite quantité d'un composant de l'échantillon qui fournit un signal de sortie du détecteur supérieur à trois fois le bruit à court terme."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Ce terme est parfois désigné sous le nom de «détection minimale (MDL)» dans les références ou dans la documentation des fabricants. La limite de détection est parfois définie comme le signal de sortie égal à un autre multiple (par exemple, deux ou dix) du niveau de bruit et peut varier selon que le chromatographe est utilisé pour une analyse quantitative ou qualitative."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

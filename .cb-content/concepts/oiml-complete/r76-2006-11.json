@@ -1,0 +1,42 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r76-2006-11",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r76-2006-11",
+  "status": "valid",
+  "designations": {
+    "fra": "Minimum number of verification scale intervals"
+  },
+  "eng": "Minimum number of verification scale intervals",
+  "groups": [
+    "r-76"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Minimum number of verification scale intervals",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "For an instrument of class I with $ d<0.1 $ mg, n may be less than 50 000.\n\n3. 5 Maximum permissible errors\n\n3. 5.1 Values of maximum permissible errors on initial verification\n\nThe maximum permissible errors for increasing or decreasing loads are given in Table 6.\n\n<div align=\"center\">\n\nTable 6\n\n</div>\n\n<table border=\"1\"><tr><td rowspan=\"2\">Maximum permissible errors on initial verification</td><td colspan=\"4\">For loads,m,expressed in verification scale intervals,e</td></tr><tr><td>ClassⅠ</td><td>ClassⅡ</td><td>ClassⅢ</td><td>ClassⅣ</td></tr><tr><td>$\\pm0.5e$</td><td>$0\\leq m\\leq50000$</td><td>$0\\leq m\\leq5000$</td><td>$0\\leq m\\leq500$</td><td>$0\\leq m\\leq50$</td></tr><tr><td>$\\pm1.0e$</td><td>$50000<m\\leq200000$</td><td>$5000<m\\leq20000$</td><td>$500<m\\leq2000$</td><td>$50<m\\leq200$</td></tr><tr><td>$\\pm1.5e$</td><td>$200000<m$</td><td>$200000<m\\leq100000$</td><td>$20000<m\\leq100000$</td><td>$200<m\\leq10000$</td></tr></table>"
+        }
+      ],
+      "notes": [
+        {
+          "content": "The absolute value of the maximum permissible error is 0.5 e, 1.0 e or 1.5 e, i.e. it is the value of the maximum permissible error without the positive or negative sign."
+        },
+        {
+          "content": "For multi-interval instruments, refer to 3.3 (including the example)."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

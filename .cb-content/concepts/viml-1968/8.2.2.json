@@ -1,0 +1,43 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.2.2",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.2.2",
+  "status": "valid",
+  "designations": {
+    "fra": "Erreur d'un appareil mesureur"
+  },
+  "eng": "Erreur d'un appareil mesureur",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreur d'un appareil mesureur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Différence stem:[v_i - v_c] entre la valeur indiquée par l'appareil mesureur stem:[v_i] et la valeur conventionnellement vraie de la grandeur mesurée stem:[v_c]."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Si aucune confusion n'est à craindre, on peut utiliser l'expression simplifiée « erreur d'un appareil mesureur »."
+        }
+      ],
+      "examples": [
+        {
+          "content": "L'indication d'un ampèremètre est stem:[v_i = 40 \"A\"]; si la valeur conventionnellement vraie de l'intensité du courant mesuré est stem:[v_c = 41 \"A\"]; l'erreur d'indication de l'ampèremètre est stem:[e_i = 40 \"A\" - 41 \"A\" = -1 \"A\"]."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

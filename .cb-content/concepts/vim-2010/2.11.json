@@ -1,0 +1,85 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.11",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.11",
+  "status": "valid",
+  "designations": {
+    "eng": "true quantity value",
+    "fra": "valeur vraie"
+  },
+  "eng": "true quantity value",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "true quantity value",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "true value of a quantity",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "true value",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.19,quantity value}} consistent with the definition of a {{1.1,quantity}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "In the Error Approach to describing {{2.1,measurement}}, a true quantity value is considered unique and, in practice, unknowable. The Uncertainty Approach is to recognize that, owing to the inherently incomplete amount of detail in the definition of a quantity, there is not a single true quantity value but rather a set of true quantity values consistent with the definition. However, this set of values is, in principle and in practice, unknowable. Other approaches dispense altogether with the concept of true quantity value and rely on the concept of {{2.47,metrological compatibility of measurement results}} for assessing their validity."
+        },
+        {
+          "content": "In the special case of a fundamental constant, the quantity is considered to have a single true quantity value."
+        },
+        {
+          "content": "When the {{2.27,definitional uncertainty}} associated with the {{2.3,measurand}} is considered to be negligible compared to the other components of the *measurement uncertainty*, the measurand may be considered to have an \"essentially unique\" true quantity value. This is the approach taken by the GUM and associated documents, where the word \"true\" is considered to be redundant."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeur vraie",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "valeur vraie d'une grandeur",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.19,valeur d'une grandeur}} compatible avec la définition de la {{1.1,grandeur}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Dans l'approche « erreur » de description des *mesurages*, la valeur vraie est considérée comme unique et, en pratique, impossible à connaître. L'approche « incertitude » consiste à reconnaître que, par suite de la quantité intrinsèquement incomplète de détails dans la définition d'une grandeur, il n'y a pas une seule valeur vraie mais plutôt un ensemble de valeurs vraies compatibles avec la définition. Toutefois, cet ensemble de valeurs est, en principe et en pratique, impossible à connaître. D'autres approches évitent complètement le concept de valeur vraie et évaluent la validité des *résultats de mesure* à l'aide du concept de *compatibilité de mesure*."
+        },
+        {
+          "content": "Dans le cas particulier des constantes fondamentales, on considère la grandeur comme ayant une seule valeur vraie."
+        },
+        {
+          "content": "Lorsque l'{{2.27,incertitude définitionnelle}} associée au {{2.3,mesurande}} est considérée comme négligeable par rapport aux autres composantes de l'{{2.26,incertitude de mesure}}, on peut considérer que le mesurande a une valeur vraie par essence unique. C'est l'approche adoptée dans le GUM, où le mot « vraie » est considéré comme redondant."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

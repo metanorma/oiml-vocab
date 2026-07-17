@@ -1,0 +1,81 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "1.17",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/1.17",
+  "status": "valid",
+  "designations": {
+    "eng": "multiple of a unit",
+    "fra": "multiple d'une unité"
+  },
+  "eng": "multiple of a unit",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "multiple of a unit",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.9,measurement unit}} obtained by multiplying a given measurement unit by an integer greater than one"
+        }
+      ],
+      "notes": [
+        {
+          "content": "SI prefixes for decimal multiples of SI {{1.10,base units}} and SI {{1.11,derived units}} are given in Note 5 of 1.16."
+        },
+        {
+          "content": "SI prefixes refer strictly to powers of 10, and should not be used for powers of 2.\nFor example, 1 kilobit should not be used to represent stem:[1024] bits (stem:[2^{10}] bits),\nwhich is 1 kibibit.\n\nPrefixes for binary multiples are:\n\n[cols=\"3\",options=]\n|===\n.2+| Factor +\nFacteur\n2+| Prefix +\nPréfixe\n| Name +\nNom\n| Symbol +\nSymbole\n\n| stem:[(2^{10})^8]\n| yobi +\nyobi\n| stem:[Yi]\n\n| stem:[(2^{10})^7]\n| zebi +\nzebi\n| stem:[Zi]\n\n| stem:[(2^{10})^6]\n| exbi +\nexbi\n| stem:[Ei]\n\n| stem:[(2^{10})^5]\n| pebi +\npebi\n| stem:[Pi]\n\n| stem:[(2^{10})^4]\n| tebi +\ntebi\n| stem:[Ti]\n\n| stem:[(2^{10})^3]\n| gibi +\ngibi\n| stem:[Gi]\n\n| stem:[(2^{10})^2]\n| mebi +\nmebi\n| stem:[Mi]\n\n| stem:[(2^{10})^1]\n| kibi +\nkibi\n| stem:[Ki]\n|===\n\nSource: IEC 80000-13."
+        }
+      ],
+      "examples": [
+        {
+          "content": "The kilometre is a decimal multiple of the metre."
+        },
+        {
+          "content": "The hour is a non-decimal multiple of the second."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "multiple d'une unité",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.9,unité de mesure}} obtenue en multipliant une unité de mesure donnée par un entier supérieur à un"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les préfixes SI pour les multiples décimaux des {{1.10,unités de base}} et des {{1.11,unités dérivées}} du {{1.16,SI}} sont donnés à la Note 5 de 1.16."
+        },
+        {
+          "content": "Les préfixes SI représentent strictement des puissances de 10 et il convient\nde ne pas les utiliser pour des puissances de 2. Par exemple, il convient de\nne pas utiliser 1 kilobit pour représenter stem:[1024] bits (stem:[2^{10}] bits),\nqui est 1 kibibit.\n\nLes préfixes pour les multiples binaires sont:\n\n[cols=\"3\",options=]\n|===\n.2+| Factor +\nFacteur\n2+| Prefix +\nPréfixe\n| Name +\nNom\n| Symbol +\nSymbole\n\n| stem:[(2^{10})^8]\n| yobi +\nyobi\n| stem:[Yi]\n\n| stem:[(2^{10})^7]\n| zebi +\nzebi\n| stem:[Zi]\n\n| stem:[(2^{10})^6]\n| exbi +\nexbi\n| stem:[Ei]\n\n| stem:[(2^{10})^5]\n| pebi +\npebi\n| stem:[Pi]\n\n| stem:[(2^{10})^4]\n| tebi +\ntebi\n| stem:[Ti]\n\n| stem:[(2^{10})^3]\n| gibi +\ngibi\n| stem:[Gi]\n\n| stem:[(2^{10})^2]\n| mebi +\nmebi\n| stem:[Mi]\n\n| stem:[(2^{10})^1]\n| kibi +\nkibi\n| stem:[Ki]\n|===\n\nSource: CEI 80000-13."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Le kilomètre est un multiple décimal du mètre."
+        },
+        {
+          "content": "L'heure est un multiple non décimal de la seconde."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

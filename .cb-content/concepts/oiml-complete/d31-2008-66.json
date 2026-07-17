@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-66",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-66",
+  "status": "valid",
+  "designations": {
+    "spa": "Ejemplo:"
+  },
+  "eng": "Ejemplo:",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Ejemplo:",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "(I)/(II) La carcasa de los dispositivos de memoria está precintada o el dispositivo de memoria está precintado en el PCB.\n\n(II) Si se utiliza un dispositivo regrabable, un interrupter que se puede precintar inhibe la entrada que habilita la escritura. El circuito está diseñado de tal modo que la protección contra escritura no se puede cancelar mediante un cortocircuito de contactos.\n\n(I) Un sistema de medida está formado por dos subconjuntos, uno contiene las principales funciones metrológicas en una carcasa que se puede precintar, y el otro es un ordenador universal con un sistema operativo. Algunas funciones, como la indicación, se encuentran en el\n\nsoftware de este ordenador. Una manipulación relativamente sencilla —especialmente si en la comunicación entre las dos partes del software se utiliza un protocolo estándar—, consistiría en sustituir el software del ordenador universal.\n\nEsta manipulación puede evitarse mediante métodos criptográficos simples; p. ej. el cifrado de la transferencia de datos entre el subconjunto y el ordenador universal. La clave necesaria para descifrar está oculta en el programa legalmente relevante del ordenador universal. Únicamente este programa conoce la clave y puede leer, descifrar y utilizar los valores de medida. No pueden utilizarse otros programas con este objetivo, ya que no son capaces de descifrar los valores de medida (véase también el ejemplo del apartado 5.2.1.2.d).\n\n5. 1.3.2.b La interfaz de usuario únicamente puede activar aquellas funciones claramente documentadas (véase el apartado 6.1), dicha activación se realizará sin facilitar el uso fraudulento. La presentación de la información cumplirá con lo establecido el apartado 5.2.2.\n\nNota: El evaluador es quien decide si todos estos comandos documentados son aceptables.\n\nEjemplo:\n\n(I)/(II) Todas las entradas de la interfaz de usuario se redirigen a un programa que filtra los comandos entrantes, que sólo permite y deja pasar aquellos documentados, descartando el resto. Este programa o módulo de software forma parte del software legalmente relevante.\n\n5. 1.3.2.c Los parámetros que fijan las características legalmente relevantes del instrumento de medida deben estar protegidos contra modificaciones no autorizadas. Si es necesario para llevar a cabo la verificación, los conjuntos de parámetros existentes se deben poder visualizar o imprimir.\n\nNota: Los parámetros específicos del dispositivo únicamente se pueden ajustar o elegir en un modo operativo concreto del instrumento. Se pueden clasificar como aquellos que deberían estar protegidos (inalterables) y aquellos accesibles para una persona autorizada (parámetros configurables), p. ej. el propietario del instrumento o el proveedor del producto.\n\nLos parámetros específicos del modelo tienen valores idénticos para todos los ejemplares de un modelo. Se fijan en la aprobación de modelo del instrumento.\n\n(I)/(II) Para proteger los parámetros específicos del dispositivo, estos se almacenan en una memoria permanente. Un interrupter que se puede precintar inhibe la entrada que habilita la escritura en la memoria.\n\nConsultense los ejemplos del apartado 5.1.3.2.d (1) al (3) en esta sección.\n\n5. 1.3.2.d La protección del software incluye un precintado adecuado a través de medios mecánicos, electrónicos y/o criptográficos, que imposibilita o hace evidente una intervención no autorizada.\n\n<table border=\"1\"><tr><td colspan=\"2\">Ejemplo:</td></tr><tr><td>(1)</td><td>(I) Precintado electrónico. Los parámetros metrológicos de un instrumento se pueden introducir y ajustar a través de un elemento del menú. El software reconoce cada modificación e incrementa un contador de sucesos por cada suceso de este tipo. Se puede visualizar el valor de este contador. El valor inicial del contador se debe registrar. Si el valor visualizado difiere del registrado, el instrumento se encuentra en un estado sin verificar (equivalente a un precinto roto).</td></tr><tr><td>(2)</td><td>(I)/(II) El software de un instrumento de medida está diseñado de tal modo (véase el ejemplo 5.1.3.2.a) que no existe la posibilidad de modificar los parámetros ni la configuración legalmente relevante si no es a través de un menú protegido por un interruptor. Este interruptor está precintado de forma mecánica en posición inactiva, imposibilitando la modificación de los parámetros y de la configuración legalmente relevante.</td></tr><tr><td></td><td>Para modificar los parámetros y la configuración debe activarse el interruptor, con lo que inevitablemente se rompe el precintado.</td></tr><tr><td>(3)</td><td>(II) El software de un instrumento de medida se diseña de tal modo (véase el ejemplo (a)) que sólo el personal autorizado puede acceder a los parámetros y a la configuración legalmente relevante. Si un usuario quiere entrar en el elemento de menú de configuración de parámetros, debe insertar su tarjeta inteligente con un código PIN como parte de un certificado criptográfico. El software del instrumento puede verificar la autenticidad del PIN mediante el certificado, permitiendo la entrada al elemento de menú. El acceso queda grabado en un registro de actividades con la identidad del usuario (o al menos de la tarjeta inteligente utilizada).</td></tr></table>\n\nEl nivel (II) de los ejemplos de soluciones técnicas aceptables es el adecuado si se necesita un nivel de protección alto contra el fraude (véase el apartado 8)."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

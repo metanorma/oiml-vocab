@@ -1,0 +1,61 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "4.31",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/4.31",
+  "status": "valid",
+  "designations": {
+    "eng": "calibration curve",
+    "fra": "courbe d'étalonnage"
+  },
+  "eng": "calibration curve",
+  "groups": [
+    "4"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "calibration curve",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "expression of the relation between {{4.1,indication}} and corresponding *measured quantity value*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A calibration curve expresses a one-to-one relation that does not supply a {{2.9,measurement result}} as it bears no information about the *measurement uncertainty*."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "courbe d'étalonnage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "expression de la relation entre une {{4.1,indication}} et la {{2.10,valeur mesurée}} correspondante"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Une courbe d'étalonnage exprime une relation biunivoque qui ne fournit pas un {{2.9,résultat de mesure}} puisqu'elle ne contient aucune information sur l'{{2.26,incertitude de mesure}}"
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

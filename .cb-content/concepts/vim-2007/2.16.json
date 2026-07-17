@@ -1,0 +1,79 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "2.16",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/2.16",
+  "status": "valid",
+  "designations": {
+    "eng": "measurement error",
+    "fra": "erreur de mesure"
+  },
+  "eng": "measurement error",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measurement error",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "error of measurement",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "error",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "*measured quantity value* minus a *reference quantity value*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "The concept of 'measurement error' can be used both\n\n. when there is a single reference quantity value to refer to, which occurs if a *calibration*\nis made by means of a *measurement standard* with a *measured quantity value* having\na negligible *measurement uncertainty* or if a *conventional quantity value* is\ngiven, in which case the measurement error is known, and\n\n. if a *measurand* is supposed to be represented by a unique *true quantity value* or a set of true\nquantity values of negligible range, in which case the measurement error is\nnot known.\n"
+        },
+        {
+          "content": "Measurement error should not be confused with production error or mistake."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur de mesure",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "erreur",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "différence entre la *valeur mesurée* d'une *grandeur* et une *valeur de référence*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Le concept d'erreur peut être utilisé\n\n. lorsqu'il existe une valeur\nde référence unique à laquelle se rapporter, ce qui a lieu si on effectue un\n*étalonnage* au moyen d'un *étalon* dont la *valeur mesurée* a une *incertitude de\nmesure* négligeable ou si on prend une *valeur conventionnelle*, l'erreur étant\nalors connue ;\n\n. si on suppose le *mesurande* représenté par une *valeur vraie*\nunique ou un ensemble de *valeurs vraies* d'étendue négligeable, l'erreur étant\nalors inconnue.\n"
+        },
+        {
+          "content": "Il convient de ne pas confondre l'erreur de mesure avec une erreur de production ou une erreur humaine."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

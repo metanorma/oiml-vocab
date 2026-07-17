@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-80",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-80",
+  "status": "valid",
+  "designations": {
+    "spa": "El valor de medida almacenado o transmitido irá acompañado de toda la información pertinente necesaria para su uso legalmente relevante en el futuro."
+  },
+  "eng": "El valor de medida almacenado o transmitido irá acompañado de toda la información pertinente necesaria para su uso legalmente relevante en el futuro.",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "El valor de medida almacenado o transmitido irá acompañado de toda la información pertinente necesaria para su uso legalmente relevante en el futuro.",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Ejemplo:\n\n(I)/(II) Un conjunto de datos puede contener las siguientes entradas:\n\n- valor de medida con su unidad incluida;\n\n- registro de fecha y hora de la medición (véase el apartado 5.2.3.7);\n\n- localización de la medición o identificación del instrumento de medida utilizado en la medición;\n\n- identificación inequívoca de la medición, p. ej. números consecutivos que permiten asignar los valores impresos en una factura.\n\n5. 2.3.2 Los datos se protegerán mediante medios software para garantizar su autenticidad, integridad y, si procede, la exactitud de la información relativa al momento de la medición.\n\nEl software que visualiza o que posteriormente procesa los valores de medida y los datos complementarios comprobará el momento de la medición, la autenticidad y la integridad de los datos después de haberlos leído a partir de un almacenamiento inseguro o después de haberlos recibido por un canal de transmisión inseguro. Si se detecta una irregularidad, los datos se deben descartar o marcar como inservibles.\n\nLos módulos de software que preparan los datos para almacenarlos o enviarlos, o que los verifican después de haberlos leído o recibido, pertenecen a la parte legalmente relevante del software.\n\nNota: Es recomendable exigir un nivel de severidad mayor cuando se trata de una red abierta.\n\nEjemplo:\n\n(I) El programa del dispositivo emisor calcula la suma de comprobación del conjunto de datos (un algoritmo como BCC, CRC16, CRC32, etc.) y la añade al conjunto de datos. Para este cálculo utiliza un valor inicial se creto en lugar del valor dado en la norma. Este valor inicial se utiliza como clave y se almacena como una constante en el código del programa. El programa receptor o lector también ha almacenado este valor inicial en su código del programa. Antes de utilizar el conjunto de datos, el programa receptor calcula la suma de comprobación y la compara con aquella almacenada en el conjunto de datos. Si ambos valores coinciden, el conjunto de datos no ha sido falsificado. De otro modo, el programa asume la falsificación y descarta el conjunto de datos.\n\n5.2.3.3 Para obtener un nivel de protección alto es necesario aplicar métodos\n\ncriptográficos. Las claves confidenciales utilizadas para este fin se guardarán en\n\nsecreto y protegidas en los instrumentos de medida, dispositivos electrónicos o\n\nsubconjuntos correspondientes. Deberán proporcionarse métodos de forma que\n\nestas claves sólo se puedan leer o escribir rompiendo un precinto."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

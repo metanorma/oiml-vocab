@@ -1,0 +1,77 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.35",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.35",
+  "status": "valid",
+  "designations": {
+    "eng": "expanded measurement uncertainty",
+    "fra": "incertitude élargie"
+  },
+  "eng": "expanded measurement uncertainty",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "expanded measurement uncertainty",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "expanded uncertainty",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "product of a {{2.31,combined standard measurement uncertainty}} and a factor larger than the number one"
+        }
+      ],
+      "notes": [
+        {
+          "content": "The factor depends upon the type of probability distribution of the *output quantity in a measurement model* and on the selected *coverage probability*."
+        },
+        {
+          "content": "The term \"factor\" in this definition refers to a {{2.38,coverage factor}}."
+        },
+        {
+          "content": "Expanded measurement uncertainty is termed \"overall uncertainty\" in paragraph 5 of Recommendation INC-1 (1980) (see GUM) and simply \"uncertainty\" in IEC documents."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "incertitude élargie",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "produit d'une {{2.31,incertitude-type composée}} et d'un facteur supérieur au nombre un"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Le facteur dépend du type de la loi de probabilité de la *grandeur de sortie dans un modèle de mesure* et de la *probabilité de couverture* choisie."
+        },
+        {
+          "content": "Le facteur qui intervient dans la définition est un {{2.38,facteur d'élargissement}}."
+        },
+        {
+          "content": "L'incertitude élargie est appelée « incertitude globale » au paragraphe 5 de la Recommandation INC 1 (1980) (voir le GUM) et simplement « incertitude » dans les documents de la CEI."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

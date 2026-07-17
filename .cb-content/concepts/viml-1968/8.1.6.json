@@ -1,0 +1,39 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.1.6",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.1.6",
+  "status": "valid",
+  "designations": {
+    "fra": "Erreur relative"
+  },
+  "eng": "Erreur relative",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreur relative",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Quotient de l'erreur absolue par la valeur de comparaison utilisée pour le calcul de cette erreur absolue. Cette valeur de comparaison peut être la valeur vraie, la valeur conventionnellement vraie, ou la moyenne arithmétique d'une série de mesurages."
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "On a déterminé la valeur conventionnellement vraie d'une longueur stem:[l = 15.20 \"mm\"] et on a trouvé comme résultat du mesurage stem:[l = 15.07 \"mm\"] et l'erreur absolue véritable stem:[e = (15.07 - 15.20) \"mm\" = -0.13 \"mm\"]. L'erreur relative est : stem:[epsilon = e/l = -(0.13)/(15.20) = -0.0086 = -0.86%]."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

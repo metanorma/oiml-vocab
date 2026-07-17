@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-92",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-92",
+  "status": "valid",
+  "designations": {
+    "spa": "Actualización rastreada"
+  },
+  "eng": "Actualización rastreada",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Actualización rastreada",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "El software se implementa en el instrumento según los requisitos de la Actualización rastreada (véanse los apartados del 5.2.6.3.a al 5.2.6.3.g), si cumple con la Recomendación OIML pertinente. La Actualización rastreada es aquel proceso de modificación del software de un instrumento o dispositivo verificado, después del cual no es necesario que una persona responsable realice la verificación periódica in situ. El software a actualizar se puede cargar localmente, es decir, directamente en el instrumento de medida o remotamente a través de una red. La actualización del software queda registrada en un registro de actividades (véase el apartado 3.1.2). El proceso de Actualización rastreada comprende diversas etapas: carga, comprobación de integridad, comprobación del origen (autenticación), instalación, registro y activación.\n\n5. 2.6.3.a La Actualización rastreada del software será automática. Al finalizar el proceso de actualización el entorno de protección del software estará al mismo nivel que el requerido en la aprobación de modelo.\n\n5. 2.6.3.b El instrumento de medida de destino (dispositivo electrónico, subconjunto) tendrá un software legalmente relevante fijo que no se puede\n\nactualizar e incluirá cada una de las funciones de comprobación necesarias para cumplir todos los requisitos de la Actualización rastreada.\n\n5. 2.6.3.c Se deben utilizar medios técnicos para garantizar la autenticidad del software cargado, es decir, que este proviene del propietario del certificado de aprobación de modelo. Si el software cargado no supera el control de autenticidad, el instrumento lo descartará y utilizará la versión anterior del software o cambiará a un modo inoperante."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

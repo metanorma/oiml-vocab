@@ -1,0 +1,111 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.44",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.44",
+  "status": "valid",
+  "designations": {
+    "eng": "verification",
+    "fra": "vérification"
+  },
+  "eng": "verification",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "verification",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "provision of objective evidence that a given item fulfils specified requirements"
+        }
+      ],
+      "notes": [
+        {
+          "content": "When applicable, {{2.26,measurement uncertainty}} should be taken into consideration."
+        },
+        {
+          "content": "The item may be, e.g., a process, {{2.6,measurement procedure}}, material, compound, or {{3.2,measuring system}}."
+        },
+        {
+          "content": "The specified requirements may be, e.g., that a manufacturer's specifications are met."
+        },
+        {
+          "content": "Verification in legal metrology, as defined in the VIML[1], and in conformity assessment in general, pertains to the examination and marking and/or issuing of a verification certificate for a measuring system."
+        },
+        {
+          "content": "Verification should not be confused with {{2.39,calibration}}. Not any verification is a {{2.45,validation}}."
+        },
+        {
+          "content": "In chemistry, verification of identity of entity involved, or of activity, requires a description of the structure or properties of that entity or activity."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Confirmation that a given {{5.13,reference material}} as claimed is homogeneous for the {{1.19,quantity value}} and {{2.6,measurement procedure}} concerned, down to a measurement portion having a mass of stem:[10 \"unitsml(mg)\"]."
+        },
+        {
+          "content": "Confirmation that performance properties or legal requirements of a {{3.2,measuring system}} are achieved."
+        },
+        {
+          "content": "Confirmation that a {{2.34,target measurement uncertainty}} can be met."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "vérification",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "fourniture de preuves tangibles qu'une entité donnée satisfait à des exigences spécifiées"
+        }
+      ],
+      "notes": [
+        {
+          "content": "S'il y a lieu, il convient de prendre en compte l'{{2.26,incertitude de mesure}}."
+        },
+        {
+          "content": "L'entité peut être, par exemple, un processus, une {{2.6,procédure de mesure}}, un matériau, un composé ou un {{3.2,système de mesure}}."
+        },
+        {
+          "content": "Les exigences spécifiées peuvent être, par exemple, les spécifications d'un fabricant."
+        },
+        {
+          "content": "La vérification en métrologie légale, comme définie dans le VIML[1], et plus généralement en évaluation de la conformité, comporte l'examen et le marquage et/ou la délivrance d'un certificat de vérification pour un système de mesure."
+        },
+        {
+          "content": "Il convient de ne pas confondre la vérification avec l'{{2.39,étalonnage}}. Toute vérification n'est pas une {{2.45,validation}}."
+        },
+        {
+          "content": "En chimie, la vérification de l'identité d'une entité, ou celle d'une activité, nécessite une description de la structure ou des propriétés de cette entité ou activité."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Confirmation qu'un {{5.13,matériau de référence}} donné est bien, comme déclaré, homogène pour la {{1.19,valeur}} et la {{2.6,procédure de mesure}} concernées jusqu'à des prises de mesure de masse stem:[10 \"unitsml(mg)\"]."
+        },
+        {
+          "content": "Confirmation que des propriétés relatives aux performances ou des exigences légales sont satisfaites par un {{3.2,système de mesure}}."
+        },
+        {
+          "content": "Confirmation qu'une {{2.34,incertitude cible}} peut être atteinte."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

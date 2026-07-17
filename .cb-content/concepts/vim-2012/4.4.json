@@ -1,0 +1,79 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "4.4",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/4.4",
+  "status": "valid",
+  "designations": {
+    "eng": "nominal indication interval",
+    "fra": "intervalle nominal des indications"
+  },
+  "eng": "nominal indication interval",
+  "groups": [
+    "4"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "nominal indication interval",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "nominal interval",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "set of {{1.19,quantity values}}, bounded by rounded or approximate extreme {{4.1,indications}}, obtainable with a particular setting of the controls of a {{3.1,measuring instrument}} or {{3.2,measuring system}} and used to designate that setting"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A nominal indication interval is usually stated as its smallest and greatest *quantity values*, for example \"stem:[100 \"unitsml(V)\"] to stem:[200 \"unitsml(V)\"]\"."
+        },
+        {
+          "content": "In some fields, the term is \"nominal range\"."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "intervalle nominal des indications",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "intervalle nominal",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "calibre",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "ensemble des {{1.19,valeurs}} comprises entre deux {{4.1,indications}} extrêmes arrondies ou approximatives, que l'on obtient pour une position particulière des commandes d'un {{3.1,instrument de mesure}} ou d'un {{3.2,système de mesure}} et qui sert à désigner cette position"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un intervalle nominal des indications est généralement exprimé en donnant la plus petite et la plus grande valeur, par exemple «stem:[100 \"unitsml(V)\"] à stem:[200 \"unitsml(V)\"]»."
+        },
+        {
+          "content": "Dans certains domaines, le terme anglais est «nominal range»."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

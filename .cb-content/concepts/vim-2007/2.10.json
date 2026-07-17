@@ -1,0 +1,87 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "2.10",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/2.10",
+  "status": "valid",
+  "designations": {
+    "eng": "measured quantity value",
+    "fra": "valeur mesurée"
+  },
+  "eng": "measured quantity value",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measured quantity value",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "measured value of a quantity",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "measured value",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "*quantity value* representing a *measurement result*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "For a *measurement* involving replicate *indications*, each indication can be used to provide a corresponding measured quantity value. This set of individual measured quantity values can be used to calculate a resulting measured quantity value, such as an average or median, usually with a decreased associated *measurement uncertainty*."
+        },
+        {
+          "content": "When the range of the *true quantity values* believed to represent the *measurand* is small compared with the measurement uncertainty, a measured quantity value can be considered to be an estimate of an essentially unique true quantity value and is often an average or median of individual measured quantity values obtained through replicate measurements."
+        },
+        {
+          "content": "In the case where the range of the true quantity values believed to represent the measurand is not small compared with the measurement uncertainty, a measured value is often an estimate of an average or median of the set of true quantity values."
+        },
+        {
+          "content": "In the GUM, the terms \"result of measurement\" and \"estimate of the value of the measurand\" or just \"estimate of the measurand\" are used for 'measured quantity value'."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeur mesurée",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "*valeur d'une grandeur* représentant un *résultat de mesure*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Pour un *mesurage* impliquant des *indications* répétées, chacune peut être utilisée pour fournir une *valeur mesurée* correspondante. Cet ensemble de *valeurs mesurées* individuelles peut ensuite être utilisé pour calculer une *valeur mesurée résultante*, telle qu'une moyenne ou une médiane, en général avec une *incertitude de mesure* associée qui décroît."
+        },
+        {
+          "content": "Lorsque l'étendue des *valeurs vraies* considérées comme représentant le *mesurande* est petite par rapport à l'incertitude de mesure, on peut considérer une valeur mesurée comme une estimation d'une valeur vraie par essence unique, souvent sous la forme d'une moyenne ou d'une médiane de valeurs mesurées individuelles obtenues par des mesurages répétés."
+        },
+        {
+          "content": "Lorsque l'étendue des valeurs vraies considérées comme représentant le mesurande n'est pas petite par rapport à l'incertitude de mesure, une valeur mesurée est souvent une estimation d'une moyenne ou d'une médiane de l'ensemble des valeurs vraies."
+        },
+        {
+          "content": "Dans le GUM, les termes « résultat de mesure » et « estimation de la valeur du mesurande », ou simplement « estimation du mesurande », sont utilisés au sens de « valeur mesurée »."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

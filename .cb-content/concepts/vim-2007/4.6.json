@@ -1,0 +1,91 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "4.6",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/4.6",
+  "status": "valid",
+  "designations": {
+    "eng": "nominal quantity value",
+    "fra": "valeur nominale"
+  },
+  "eng": "nominal quantity value",
+  "groups": [
+    "4"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "nominal quantity value",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "nominal value",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "rounded or approximate *value* of a characterizing *quantity* of a *measuring instrument* or *measuring system* that provides guidance for its appropriate use"
+        }
+      ],
+      "notes": [
+        {
+          "content": "\"Nominal quantity value\" and \"nominal value\" are not to be confused with \"nominal property value\", see 1.29, Note 2."
+        }
+      ],
+      "examples": [
+        {
+          "content": "stem:[100 \"unitsml(Ohm)\"] as the nominal quantity value marked on a standard resistor."
+        },
+        {
+          "content": "stem:[1000 \"unitsml(ml)\"] as the nominal quantity value marked on a single-mark volumetric flask."
+        },
+        {
+          "content": "stem:[0.1 \"unitsml(mol/l)\"] as the nominal quantity value for amount-of-substance concentration of a solution of hydrogen chloride, HCl."
+        },
+        {
+          "content": "stem:[-20 \"unitsml(degC)\"] as a maximum Celsius temperature for storage"
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeur nominale",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "*valeur* arrondie ou approximative d'une *grandeur* caractéristique d'un *instrument de mesure* ou d'un *système de mesure*, qui sert de guide pour son utilisation appropriée"
+        }
+      ],
+      "notes": [
+        {
+          "content": "En anglais, il convient de ne pas confondre les termes « nominal quantity value » et « nominal value » avec la valeur d'une propriété qualitative (en anglais « nominal property value »)."
+        }
+      ],
+      "examples": [
+        {
+          "content": "La valeur stem:[100 \"unitsml(Ohm)\"] marquée sur une résistance étalon."
+        },
+        {
+          "content": "La valeur stem:[1000 \"unitsml(ml)\"] marquée sur une fiole jaugée à un trait."
+        },
+        {
+          "content": "La valeur stem:[0.1 \"unitsml(mol/l)\"] de la concentration en quantité de matière d'une solution d'acide chlorhydrique, HCl."
+        },
+        {
+          "content": "La valeur stem:[-20 \"unitsml(degC)\"] d'une température Celsius maximale de stockage"
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

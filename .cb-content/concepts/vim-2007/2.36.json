@@ -1,0 +1,73 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "2.36",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/2.36",
+  "status": "valid",
+  "designations": {
+    "eng": "coverage interval",
+    "fra": "intervalle élargi"
+  },
+  "eng": "coverage interval",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "coverage interval",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "interval containing the set of *true quantity values* of a *measurand* with a stated probability, based on the information available"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A coverage interval does not need to be centered on the chosen *measured quantity value*. See Evaluation of measurement data - Supplement 1 to the GUM[3]."
+        },
+        {
+          "content": "A coverage interval should not be termed \"confidence interval\" to avoid confusion with the statistical concept (See GUM, 6.2.2)."
+        },
+        {
+          "content": "A coverage interval can be derived from an *expanded measurement uncertainty* (See GUM, 2.3.5)."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "intervalle élargi",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "intervalle contenant l'ensemble des *valeurs vraies* d'un *mesurande* avec une probabilité déterminée, fondés sur l'information disponible"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un intervalle élargi n'est pas nécessairement centré sur la *valeur mesurée* choisie. Voir Évaluation des données de mesure, Supplément 1 au GUM[3]."
+        },
+        {
+          "content": "Il convient de ne pas appeler « intervalle de confiance » un intervalle élargi pour éviter des confusions avec le concept statistique (voir le GUM, 6.2.2)."
+        },
+        {
+          "content": "Un intervalle élargi peut se déduire d'une *incertitude élargie* (voir le GUM, 2.3.5)."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

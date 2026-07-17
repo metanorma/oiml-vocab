@@ -1,0 +1,75 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-11",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-11",
+  "status": "valid",
+  "designations": {
+    "eng": "cryptographic means",
+    "fra": "Moyens cryptographiques",
+    "spa": "Métodos criptográficos"
+  },
+  "eng": "cryptographic means",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "cryptographic means",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "encryption of data by the sender and decryption by the receiver with the purpose of hiding information from unauthorized persons; electronic signing of data with the purpose of enabling the receiver or user of the data to verify the origin of the data, i.e. to prove their authenticity"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Moyens cryptographiques",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Cryptage des données par l'émetteur (le programme de stockage ou de transmission) et décryptage par le récepteur (programme de lecture) avec pour objectif la dissimulation des informations aux personnes non autorisées."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Pour signer électroniquement, un système de clef publique est en général utilisé, i.e. l'algorithme nécessite une paire de clés dont une doit être maintenue secrète, l'autre pouvant être publique."
+        }
+      ],
+      "examples": []
+    },
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Métodos criptográficos",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Procesos en los que el remitente cifra datos (programa de almacenamiento o de transmisión) y el receptor los descifra (programa lector) con el objetivo de ocultar información a personas no autorizadas.\n\nFirma electrónica de los datos con el objeto de permitir al receptor o usuario de los mismos verificar su origen; es decir, comprobar su autenticidad.\n\nNota: Por lo general, se utiliza para firmar electrónicamente un sistema de clave pública. El algoritmo necesita un par de claves de las que sólo una debe mantenerse en secreto, el resto pueden ser públicas.\n\nEl remitente (el programa de envío o de almacenamiento) genera un código hash (véase el apartado 3.1.25) de los datos y lo cifra con su\n\n«clave secreta», el resultado es la firma. El receptor (el programa receptor o lector) la descifra con la «clave pública» del remitente y compara el resultado con el código hash real de los datos. Si coinciden, los datos se autentican.\n\nEl receptor puede requerir un certificado criptográfico al remitente (véase el apartado 3.1.10) para confirmar la autenticidad de la clave pública."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra",
+    "spa"
+  ]
+}

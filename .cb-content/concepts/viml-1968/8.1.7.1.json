@@ -1,0 +1,39 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.1.7.1",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.1.7.1",
+  "status": "valid",
+  "designations": {
+    "fra": "Écart moyen quadratique d'un seul mesurage dans une série de mesurages"
+  },
+  "eng": "Écart moyen quadratique d'un seul mesurage dans une série de mesurages",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Écart moyen quadratique d'un seul mesurage dans une série de mesurages",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Indice caractérisant la dispersion des résultats obtenus dans une série de n mesurages de la même valeur d'une grandeur mesurée, donné par la formule : stem:[s = sqrt((sum_(i=1)^n (x_i - bar(x))^2)/(n - 1))] stem:[x] étant le stem:[i^{\"ème\"}] résultat de mesurage stem:[(i = 1, 2, 3, ..., n)] et stem:[bar(x)] la moyenne arithmétique des stem:[n] résultats considérés."
+        }
+      ],
+      "notes": [
+        {
+          "content": "La valeur s calculée d'après cette définition est en fait une estimation de l'écart moyen quadratique apparent car, d'une part on calcule s d'après des données expérimentales et d'autre part les différences stem:[(x_i - bar(x))] représentent les erreurs absolues apparentes."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

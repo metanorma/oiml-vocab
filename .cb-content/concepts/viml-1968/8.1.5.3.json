@@ -1,0 +1,43 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.1.5.3",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.1.5.3",
+  "status": "valid",
+  "designations": {
+    "fra": "Erreur absolue apparente"
+  },
+  "eng": "Erreur absolue apparente",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreur absolue apparente",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Différence algébrique entre un des résultats d'une série de mesurages et la moyenne arithmétique de l'ensemble des résultats de cette série."
+        }
+      ],
+      "notes": [
+        {
+          "content": "En abrégé, on appelle simplement cette erreur « erreur apparente »."
+        }
+      ],
+      "examples": [
+        {
+          "content": "si les résultats de 5 mesurages d'un même diamètre exécutés à l'aide d'un même pied à coulisse, par le même observateur, à la même température ambiante etc... (et ayant des poids égaux) sont les suivants : stem:[d_1 = 15.6 \"mm\"]; stem:[d_2 = 15.8 \"mm\"]; stem:[d_3 = 15.8 \"mm\"]; stem:[d_4 = 15.6 \"mm\"]; stem:[d_5 = 15.7 \"mm\"]; la moyenne arithmétique de ces résultats est égale à stem:[bar(d) = (1)/(5)(15.6 + ... + 15.7) \"mm\" = 15.7 \"mm\"]. stem:[v_1 = d_1 - bar(d) = 15.6 \"mm\" - 15.7 \"mm\" = -0.1 \"mm\"] et stem:[v_2 = d_2 - bar(d) = 15.8 \"mm\" - 15.7 \"mm\" = +0.1 \"mm\"] etc."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

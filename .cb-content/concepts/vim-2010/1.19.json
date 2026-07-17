@@ -1,0 +1,153 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "1.19",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/1.19",
+  "status": "valid",
+  "designations": {
+    "eng": "quantity value",
+    "fra": "valeur d'une grandeur"
+  },
+  "eng": "quantity value",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "quantity value",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "value of a quantity",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "value",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "number and référence together expressing magnitude of a {{1.1,quantity}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "According to the type of reference, a quantity value is either\n\n* a product of a number and a *measurement unit* (see a), b), c), d), e), h) and i)); the\nmeasurement unit one is generally not indicated for *quantities of dimension one* (see f), and h)),\nor\n* a number and a reference to a *measurement procedure* (see g)), or\n* a number and a *reference material* (see j).\n"
+        },
+        {
+          "content": "The number can be complex (see e))."
+        },
+        {
+          "content": "A quantity value can be presented in more than one way (see examples a), b), and h))."
+        },
+        {
+          "content": "In the case of vector or tensor quantities, each component has a quantity value."
+        }
+      ],
+      "examples": [
+        {
+          "content": "length of a given rod stem:[5.34 \"unitsml(m)\"] or stem:[534 \"unitsml(cm)\"]"
+        },
+        {
+          "content": "mass of a given body stem:[0.152 \"unitsml(kg)\"] or stem:[152 \"unitsml(g)\"]"
+        },
+        {
+          "content": "curvature of a given arc stem:[112 \"unitsml(m^-1)\"]"
+        },
+        {
+          "content": "Celsius temperature of a given sample stem:[-5 \"unitsml(degC)\"]"
+        },
+        {
+          "content": "electric impedance of a given circuit element at a given frequency, where stem:[j] is the imaginary unit stem:[(7 + 3j) \"unitsml(Ohm)\"]"
+        },
+        {
+          "content": "refractive index of a given sample of glass stem:[1.32]"
+        },
+        {
+          "content": "Rockwell C hardness of a given sample (stem:[150 \"unitsml(kg)\"] load) 43.5HRC(stem:[150 \"unitsml(kg)\"])"
+        },
+        {
+          "content": "mass fraction of cadmium in a given sample of copper stem:[3 \"unitsml(ug/kg)\"] or stem:[3 xx 10^{-9}]"
+        },
+        {
+          "content": "molality of Pb^2+^ in a given sample of water stem:[1.76 \"unitsml(umol/kg)\"]"
+        },
+        {
+          "content": "arbitrary amount-of-substance concentration of lutropin in a given sample of plasma (WHO International Standard 80/552) 5.0 (International Unit/l)"
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeur d'une grandeur",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "valeur",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "ensemble d'un nombre et d'une référence constituant l'expression quantitative d'une {{1.1,grandeur}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Selon le type de référence, la valeur d'une grandeur est\n\n* soit le produit d'un nombre et d'une *unité de mesure* (voir les exemples a, b, c, d, e, h et\ni) ; l'unité un est généralement omise pour les *grandeurs sans dimension* (voir f et h) ;\n* soit un nombre et la référence à une *procédure de mesure* (voir g) ;\n* soit un nombre et un *matériau de référence* (voir j).\n"
+        },
+        {
+          "content": "Le nombre peut être complexe (voir l'exemple e)."
+        },
+        {
+          "content": "La valeur d'une grandeur peut être représentée de plus d'une façon (voir a, b et h)."
+        },
+        {
+          "content": "Dans le cas de grandeurs vectorielles ou tensorielles, chaque composante à une valeur."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Longueur d'une tige donnée stem:[5.34 \"unitsml(m)\"] où stem:[534 \"unitsml(cm)\"]"
+        },
+        {
+          "content": "Masse d'un corps donné stem:[0,152 \"unitsml(kg)\"] où stem:[152 \"unitsml(g)\"]"
+        },
+        {
+          "content": "Courbure d'un arc donné stem:[112 \"unitsml(m^-1)\"]"
+        },
+        {
+          "content": "Température Celsius d'un spécimen donné stem:[-5 \"unitsml(degC)\"]"
+        },
+        {
+          "content": "Impédance électrique d'un élément de circuit donné à une fréquence donnée, où stem:[j] est l'unité imaginaire stem:[(7 + 3j) \"unitsml(Ohm)\"]"
+        },
+        {
+          "content": "Indice de réfraction d'un spécimen donné de verre stem:[1.32]"
+        },
+        {
+          "content": "Dureté C de Rockwell d'un spécimen donné (charge de stem:[150 \"unitsml(kg)\"]) stem:[43,5\"HRC\"(150 \"unitsml(kg)\")]"
+        },
+        {
+          "content": "Fraction massique de cadmium dans un spécimen donné de cuivre stem:[3 \"unitsml(ug/kg)\"] où stem:[3 xx 10^{-9}]"
+        },
+        {
+          "content": "Molalité de Pb^2+^ dans un spécimen donné d'eau stem:[1.76 \"unitsml(umol/kg)\"]"
+        },
+        {
+          "content": "Concentration arbitraire en quantité de matière de lutropine dans un spécimen donné de plasma (étalon international 80/552 de l'OMS) stem:[5,0] UI/l"
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "1.1",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/1.1",
+  "status": "valid",
+  "designations": {
+    "eng": "quantity",
+    "fra": "grandeur"
+  },
+  "eng": "quantity",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "quantity",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "property of a phenomenon, body, or substance, where the property has a magnitude that can be expressed as a number and a reference"
+        }
+      ],
+      "notes": [
+        {
+          "content": "The generic concept 'quantity' can be divided into several levels of\nspecific concepts, as shown in the following table. The left hand side of the\ntable shows specific concepts under 'quantity'. These are generic concepts for\nthe individual quantities in the right hand.\n\n[cols=\"3\", options=\"noheader,unnumbered\"]\n|===\n.2+| length, stem:[l] +\nlongueur, stem:[l]\n| radius, stem:[r] +\nrayon, stem:[r]\n| radius of circle stem:[A], stem:[r_A] or stem:[r(A)] +\nrayon du cercle stem:[A], stem:[r_A] ou stem:[r(A)]\n| wavelength, stem:[lambda] +\nlongueur d'onde, stem:[lambda]\n| wavelength of the sodium stem:[D] radiation, stem:[Lambda_D] or stem:[Lambda(D; N_a)] +\nlongueur d'onde de la radiation stem:[D] du sodium, stem:[lambda_D] ou stem:[lambda(D; N_a)]\n\n.2+| energy, stem:[E] +\nénergie, stem:[E]\n| kinetic energy, stem:[T] +\nénergie cinétique, stem:[T]\n| kinetic energy of particle stem:[i] in a given system, stem:[T_i] +\nénergie cinétique de la particule stem:[i] dans un système donné, stem:[T_i]\n| heat, stem:[Q] +\nchaleur, stem:[Q]\n| heat of vaporization of sample stem:[i] of water, stem:[Q_i] +\nchaleur de vaporisation du spécimen stem:[i] d'eau, stem:[Q_i]\n\n2+| electric charge, stem:[Q] +\ncharge électrique, stem:[Q]\n| electric charge of the proton, stem:[e] +\ncharge électrique du proton, stem:[e]\n\n2+| electric resistance, stem:[R] +\nrésistance électrique, stem:[R]\n| electric resistance of resistor stem:[i] in a given circuit, stem:[R_i] +\nrésistance électrique de la résistance stem:[i] dans un circuit donné, stem:[R_i]\n\n2+| amount-of-substance concentration of entity stem:[B], stem:[c_B] +\nconcentration en quantité de matière du constituant stem:[B], stem:[c_B]\n| amount-of-substance concentration of ethanol in wine sample stem:[i], stem:[c_i](C~2~H~5~OH) +\nconcentration en quantité de matière d'éthanol dans le spécimen stem:[i] de vin, stem:[c_i](C~2~H~5~OH)\n\n2+| number concentration of entity stem:[B], stem:[C_B] +\nnombre volumique du constituant stem:[B], stem:[C_B]\n| number concentration of erythrocytes in blood sample stem:[i], stem:[C(\"Erys\"; _i)] +\nnombre volumique d'érythrocytes dans le spécimen stem:[i] de sang, stem:[C(\"Erc\"; \"Sg\"_i)]\n\n2+| Rockwell C hardness, HRC +\ndureté C de Rockwell, HRC\n| Rockwell C hardness of steel sample stem:[i], stem:[\"HRC\"_i] +\ndureté C de Rockwell du spécimen stem:[i] d'acier, stem:[\"HRC\"_i]\n|===\n"
+        },
+        {
+          "content": "A reference can be a {{1.9,measurement unit}}, a {{2.6,measurement procedure}}, a {{5.13,reference material}}, or a combination of such."
+        },
+        {
+          "content": "Symbols for quantities are given in the ISO 80000 and IEC 80000 series Quantities and units. The symbols for quantities are written in italics. A given symbol can indicate different quantities."
+        },
+        {
+          "content": "The preferred IUPAC-IFCC format for designations of quantities in laboratory medicine is \"System—Component; kind-of-quantity\"."
+        },
+        {
+          "content": "A quantity as defined here is a scalar. However, a vector or a tensor, the components of which are quantities, is also considered to be a quantity."
+        },
+        {
+          "content": "The concept 'quantity' may be generically divided into, e.g. 'physical quantity', 'chemical quantity', and 'biological quantity', or {{1.4,base quantity}} and {{1.5,derived quantity}}."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "grandeur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "propriété d'un phénomène, d'un corps ou d'une substance, que l'on peut exprimer quantitativement sous forme d'un nombre et d'une référence"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Le concept générique de grandeur peut être subdivisé en plusieurs niveaux\nde concepts spécifiques, comme indiqué dans le tableau suivant. La moitié gauche\ndu tableau présente des concepts spécifiques du concept de grandeur. Ce sont\ndes concepts génériques pour les grandeurs individuelles de la moitié droite.\n\n[cols=\"3\", options=\"noheader,unnumbered\"]\n|===\n.2+| length, stem:[l] +\nlongueur, stem:[l]\n| radius, stem:[r] +\nrayon, stem:[r]\n| radius of circle stem:[A], stem:[r_A] or stem:[r(A)] +\nrayon du cercle stem:[A], stem:[r_A] ou stem:[r(A)]\n| wavelength, stem:[lambda] +\nlongueur d'onde, stem:[lambda]\n| wavelength of the sodium stem:[D] radiation, stem:[Lambda_D] or stem:[Lambda(D; N_a)] +\nlongueur d'onde de la radiation stem:[D] du sodium, stem:[lambda_D] ou stem:[lambda(D; N_a)]\n\n.2+| energy, stem:[E] +\nénergie, stem:[E]\n| kinetic energy, stem:[T] +\nénergie cinétique, stem:[T]\n| kinetic energy of particle stem:[i] in a given system, stem:[T_i] +\nénergie cinétique de la particule stem:[i] dans un système donné, stem:[T_i]\n| heat, stem:[Q] +\nchaleur, stem:[Q]\n| heat of vaporization of sample stem:[i] of water, stem:[Q_i] +\nchaleur de vaporisation du spécimen stem:[i] d'eau, stem:[Q_i]\n\n2+| electric charge, stem:[Q] +\ncharge électrique, stem:[Q]\n| electric charge of the proton, stem:[e] +\ncharge électrique du proton, stem:[e]\n\n2+| electric resistance, stem:[R] +\nrésistance électrique, stem:[R]\n| electric resistance of resistor stem:[i] in a given circuit, stem:[R_i] +\nrésistance électrique de la résistance stem:[i] dans un circuit donné, stem:[R_i]\n\n2+| amount-of-substance concentration of entity stem:[B], stem:[c_B] +\nconcentration en quantité de matière du constituant stem:[B], stem:[c_B]\n| amount-of-substance concentration of ethanol in wine sample stem:[i], stem:[c_i](C~2~H~5~OH) +\nconcentration en quantité de matière d'éthanol dans le spécimen stem:[i] de vin, stem:[c_i](C~2~H~5~OH)\n\n2+| number concentration of entity stem:[B], stem:[C_B] +\nnombre volumique du constituant stem:[B], stem:[C_B]\n| number concentration of erythrocytes in blood sample stem:[i], stem:[C(\"Erys\"; _i)] +\nnombre volumique d'érythrocytes dans le spécimen stem:[i] de sang, stem:[C(\"Erc\"; \"Sg\"_i)]\n\n2+| Rockwell C hardness, HRC +\ndureté C de Rockwell, HRC\n| Rockwell C hardness of steel sample stem:[i], stem:[\"HRC\"_i] +\ndureté C de Rockwell du spécimen stem:[i] d'acier, stem:[\"HRC\"_i]\n|===\n"
+        },
+        {
+          "content": "La référence peut être une {{1.9,unité de mesure}}, une {{2.6,procédure de mesure}}, un {{5.13,matériau de référence}}, ou une de leurs combinaisons."
+        },
+        {
+          "content": "Les séries ISO 80000 et CEI 80000 Grandeurs et unités donnent des symboles de grandeurs. Les symboles de grandeurs sont écrits en italique. Un symbole donné peut noter des grandeurs différentes."
+        },
+        {
+          "content": "Le format préféré par l'UICPA-IFCC pour la désignation des grandeurs dans les laboratoires de biologie médicale est «Système—Constituant; nature-de-grandeur»"
+        },
+        {
+          "content": "Une grandeur telle que définie ici est une grandeur scalaire. Cependant, un vecteur ou un tenseur dont les composantes sont des grandeurs est aussi considéré comme une grandeur."
+        },
+        {
+          "content": "Le concept de grandeur peut être subdivisé génériquement, par exemple «grandeur physique», «grandeur chimique» et «grandeur biologique», ou {{1.4,grandeur de base}} et {{1.5,grandeur dérivée}}."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

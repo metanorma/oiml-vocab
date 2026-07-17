@@ -1,0 +1,43 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "5.4.2",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/5.4.2",
+  "status": "valid",
+  "designations": {
+    "fra": "Résultat corrigé d'un mesurage"
+  },
+  "eng": "Résultat corrigé d'un mesurage",
+  "groups": [
+    "5"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Résultat corrigé d'un mesurage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Résultat d'un mesurage obtenu après avoir apporté au résultat brut du mesurage les corrections nécessaires pour tenir compte des erreurs systématiques de mesurage. Ce résultat est généralement accompagné de l'indication de l'incertitude de mesurage."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Lors d'une série de mesurages, le résultat corrigé du mesurage est la moyenne arlthmétique des résultats bruts des mesurages particuliers à laquelle ont été apportées les corrections nécessaires et de laquelle on a déterminé l'incertitude."
+        }
+      ],
+      "examples": [
+        {
+          "content": "On a mesuré une seule fois, à l'aide d'un pied à coulisse, le diamètre\nd'un cylindre et on a obtenu l'indication 14,7 mm (résultat brut), au moyen\nd'un étalon, on a constaté préalablement que la correction à apporter aux résultats\ndonnés par le pied à coulisse pour cette indication est égale à stem:[-0.2 \"mm\"];\nde plus on a trouvé que l'incertitude d'un seul mesurage (8.1.8.3) est\négale à stem:[pm 0.35 \"mm\"] (avec une probabilité de stem:[99.7%]), le résultat\ncorrigé d'un seul mesurage est done : stem:[d = (14.7 - 0.2 pm 0.35) \"mm\" = (14.5 pm 0.35) \"mm\"] Pour la série des 10 mesurages\nde l'exemple 2, point 5.4.1, le résultat corrigé de la série des mesurages\nsera donc : stem:[d = (14.77 - 0.2 pm (0.35/(sqrt(10))) \"mm\")] approx\nstem:[(14.57 pm 0.12) \"mm\"]\n"
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

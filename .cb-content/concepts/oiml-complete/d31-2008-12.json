@@ -1,0 +1,71 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-12",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-12",
+  "status": "valid",
+  "designations": {
+    "eng": "data domain",
+    "fra": "Domaine de données",
+    "spa": "Dominio de datos"
+  },
+  "eng": "data domain",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "data domain",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "location in memory that each program needs for processing data. Depending on the kind of programming language used, this location is defined by hardware addresses or by symbolic names (variable names)"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Domaine de données",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Emplacement en mémoire dont chaque programme a besoin pour traiter les données."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Dominio de datos",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Ubicación en la memoria que todo programa necesita para procesar datos. En función del tipo de lenguaje de programación utilizado, la ubicación se define mediante direcciones de hardware o nombres simbólicos (nombres de variables). El tamaño del domino direccional más pequeño suele ser un byte, pero prácticamente no está limitado: varía de 1 bit (p. ej. el flag de un registro) a estructuras de datos arbitrarias que pueden ser tan grandes como las necesidades del programador.\n\nLos dominios de datos pueden pertenecer a un único «módulo software» o a varios. En el caso de lenguajes de alto nivel (como JAVA, C/C++, etc.) es fácil impedir el acceso al dominio de datos de un módulo de software desde otros módulos software a través del lenguaje."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra",
+    "spa"
+  ]
+}

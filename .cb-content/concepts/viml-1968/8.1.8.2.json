@@ -1,0 +1,42 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.1.8.2",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.1.8.2",
+  "status": "valid",
+  "designations": {
+    "fra": "Erreurs limites de la moyenne arithmétique d'une série de mesurages"
+  },
+  "eng": "Erreurs limites de la moyenne arithmétique d'une série de mesurages",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreurs limites de la moyenne arithmétique d'une série de mesurages",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Erreurs extrêmes (en plus et en moins) dont la probabilité de ne pas être dépassées par l'erreur sur la moyenne arithmétique d'une série de mesurages a une valeur P telle que l'on peut estimer que la différence 1 - P est négligeable."
+        }
+      ],
+      "notes": [
+        {
+          "content": "On calcul en général les erreurs limites de la moyenne arithmétique d'une série de mesurages de la même façon que celles relatives à un seul mesurage mais en utilisant l'écart moyen quadratique stem:[s_r]."
+        },
+        {
+          "content": "Pour un petit nombre de mesurages, on se sert des valeurs t calculées selon la distribution de Student."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

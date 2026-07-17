@@ -1,0 +1,61 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r6-1989-18",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r6-1989-18",
+  "status": "valid",
+  "designations": {
+    "eng": "Significant fault",
+    "fra": "Défaut significatif"
+  },
+  "eng": "Significant fault",
+  "groups": [
+    "r-6"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "Significant fault",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "A fault greater than 0.5 of the maximum permissible error on initial verification."
+        }
+      ],
+      "notes": [
+        {
+          "content": "The following faults are considered not to be significant, even if they exceed the significant fault: (a) faults arising from simultaneous and mutually independent causes in the gas meter itself or in its checking facilities; (b) transitory faults being momentary variations in the indication, which cannot be interpreted, memorised or transmitted as a measurement result."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Défaut significatif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Défaut supérieur à 0,5 fois l'erreur maximale tolérée en vérification primitive."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les défauts suivants ne sont pas considérés comme significatifs, même s'ils dépassent le défaut significatif : (a) défauts provenant de causes simultanées et mutuellement indépendantes dans le compteur de gaz lui-même ou dans son système de contrôle; (b) défauts transitoires constitués de variations momentanées de l'indication, mais qui ne peuvent être interprétées, mises en mémoire ou transmises comme des résultats de mesure."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

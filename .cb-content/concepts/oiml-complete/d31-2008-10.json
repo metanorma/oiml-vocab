@@ -1,0 +1,71 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-10",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-10",
+  "status": "valid",
+  "designations": {
+    "eng": "cryptographic certificate",
+    "fra": "Certificat cryptographique",
+    "spa": "Certificado criptográfico"
+  },
+  "eng": "cryptographic certificate",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "cryptographic certificate",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "data set containing the public key belonging to a measuring instrument or a person plus a unique identification of the subject. The data set is signed by a trustworthy institution with an electronic signature"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Certificat cryptographique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Jeu de données contenant la clef publique appartenant à un instrument de mesure ou personne complétée par un identificateur unique du sujet tel que le numéro de série de l'instrument de mesure ou le nom ou Numéro d'Identification Personnel (PIN) de la personne."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Certificado criptográfico",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Conjunto de datos que contienen la clave pública de un instrumento de medida o de una persona más una identificación única del sujeto; p. ej. el número de serie del instrumento de medida, o el nombre o el número de identificación personal (PIN) de la persona. Una institución confiable con firma electrónica es la firmante del conjunto de datos. La asignación de una clave a un sujeto puede verificarse utilizando la clave pública de la institución confiable y descifrando la firma del certificado."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra",
+    "spa"
+  ]
+}

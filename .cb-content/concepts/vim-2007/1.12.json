@@ -1,0 +1,86 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "1.12",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/1.12",
+  "status": "valid",
+  "designations": {
+    "eng": "coherent derived unit",
+    "fra": "unité dérivée cohérente"
+  },
+  "eng": "coherent derived unit",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "coherent derived unit",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "*derived unit* that, for a given *system of quantities* and for a chosen set of *base units*, is a product of powers of base units with no other proportionality factor than one"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A power of a base unit is the base unit raised to an exponent."
+        },
+        {
+          "content": "Coherence can be determined only with respect to a particular system of quantities and a given set of base units."
+        },
+        {
+          "content": "A derived unit can be coherent with respect to one system of quantities but not to another."
+        },
+        {
+          "content": "The coherent derived unit for every derived quantity of dimension one in a given system of units is the number one, symbol 1. Name and symbol of the measurement unit one are generally not indicated."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "unité dérivée cohérente",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "*unité dérivée* qui, pour un *système de grandeurs* donné et pour un ensemble choisi d'*unités de base*, est un produit de puissances des unités de base sans autre facteur de proportionnalité que le nombre un"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Une puissance d'une unité de base est l'unité munie d'un exposant."
+        },
+        {
+          "content": "La cohérence ne peut être déterminée que par rapport à un système de grandeurs particulier et un ensemble donné d'unités de base."
+        },
+        {
+          "content": "Une unité dérivée peut être cohérente par rapport à un système de grandeurs, mais non par rapport à un autre."
+        },
+        {
+          "content": "Dans tout système d'unités, l'unité dérivée cohérente de toute *grandeur dérivée sans dimension* est le nombre un, de symbole 1. Le nom et le symbole de l'*unité de mesure* un sont généralement omis."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Si le mètre, la seconde et la mole sont des unités de base, le mètre par seconde est l'unité dérivée cohérente de vitesse lorsque la vitesse est définie par l'équation aux grandeurs stem:[v = \"d\"r//\"d\"t], et la mole par mètre cube est l'unité dérivée cohérente de concentration en quantité de matière lorsque la concentration en quantité de matière est définie par l'*équation aux grandeurs* stem:[c = n//V]. Le kilomètre par heure et le nœud, donnés comme exemples d'unités dérivées en 1.11, ne sont pas des unités dérivées cohérentes dans un tel système."
+        },
+        {
+          "content": "Le centimètre par seconde est l'unité dérivée cohérente de vitesse dans le système d'unités CGS mais n'est pas une unité dérivée cohérente dans le *SI*."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.1",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.1",
+  "status": "valid",
+  "designations": {
+    "eng": "measurement",
+    "fra": "mesurage"
+  },
+  "eng": "measurement",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measurement",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "process of experimentally obtaining one or more *quantity values* that can reasonably be attributed to a quantity"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Measurement does not apply to *nominal properties*."
+        },
+        {
+          "content": "Measurement implies comparison of quantities or counting of entities."
+        },
+        {
+          "content": "Measurement presupposes a description of the quantity commensurate with the intended use of a {{2.9,measurement result}}, a {{2.6,measurement procedure}}, and a calibrated {{3.2,measuring system}} operating according to the specified measurement procedure, including the measurement conditions."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "mesurage",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "mesure",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "processus consistant à obtenir expérimentalement une ou plusieurs *valeurs* que l'on peut raisonnablement attribuer à une {{1.1,grandeur}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les mesurages ne s'appliquent pas aux *propriétés qualitatives*."
+        },
+        {
+          "content": "Un mesurage implique la comparaison de grandeurs ou le comptage d'entités."
+        },
+        {
+          "content": "Un mesurage suppose une description de la grandeur compatible avec l'usage prévu d'un {{2.9,résultat de mesure}}, une {{2.6,procédure de mesure}} et un *système de mesure* étalonné fonctionnant selon la procédure de mesure spécifiée, incluant les conditions de mesure."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

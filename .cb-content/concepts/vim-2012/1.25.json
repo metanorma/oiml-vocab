@@ -1,0 +1,71 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "1.25",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/1.25",
+  "status": "valid",
+  "designations": {
+    "eng": "numerical value equation",
+    "fra": "équation aux valeurs numériques"
+  },
+  "eng": "numerical value equation",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "numerical value equation",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "numerical quantity value equation",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "mathematical relation between {{1.20,numerical quantity values}}, based on a given {{1.22,quantity equation}} and specified {{1.9,measurement units}}"
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "For the {{1.1,quantities}} in Example 1 in item 1.22, stem:[{Q_1} = zeta {Q_2} {Q_3}] where stem:[{Q_1}], stem:[{Q_2}], and stem:[{Q_3}] denote the numerical values of stem:[Q_1], stem:[Q_2], and stem:[Q_3], respectively, provided that they are expressed in either {{1.10,base units}} or {{1.12,coherent derived units}} or both."
+        },
+        {
+          "content": "In the quantity equation for kinetic energy of a particle, stem:[T = (1//2) mv^2], if stem:[m = 2 \"unitsml(kg)\"] and stem:[v = 3 \"unitsml(m/s)\"], then stem:[T = (1//2) xx 2 xx 3^2] is a numerical value equation giving the numerical value 9 of stem:[T] in joules."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "équation aux valeurs numériques",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "relation d'égalité entre des {{1.20,valeurs numériques}}, fondée sur une {{1.22,équation aux grandeurs}} donnée et des {{1.9,unités de mesure}} spécifiées"
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "Pour les {{1.1,grandeurs}} données dans l'Exemple 1 de 1.22, stem:[{Q_1} = zeta{Q_2} {Q_3}], où stem:[{Q_1}], stem:[{Q_2}] et stem:[{Q_3}] représentent respectivement les valeurs numériques de stem:[Q_1], stem:[Q_2] et stem:[Q_3] lorsqu'elles sont exprimées en {{1.10,unités de base}} ou en {{1.12,unités dérivées cohérentes}} ou les deux."
+        },
+        {
+          "content": "Pour l'équation de l'énergie cinétique d'une particule, stem:[T= (1//2) mv^2], si stem:[m= 2 \"unitsml(kg)\"] et stem:[v= 3 \"unitsml(m/s)\"], alors stem:[T = (1//2) xx 2 xx 3^2] est une équation aux valeurs numériques donnant la valeur numérique 9 pour stem:[T] en joules."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

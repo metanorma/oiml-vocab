@@ -1,0 +1,65 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d25-2010-4",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d25-2010-4",
+  "status": "valid",
+  "designations": {
+    "eng": "meter accuracy",
+    "fra": "exactitude du compteur"
+  },
+  "eng": "meter accuracy",
+  "groups": [
+    "d-25"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "meter accuracy",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "When a complete meter is tested as one unit the following formula applies for the complete meter: E_meter = (I − V) / V × 100%."
+        },
+        {
+          "content": "When the test is divided into separate transducer and calculator/indicator tests, the following formulae apply: for the transducer K_tran = N/V; for the calculator/indicator K_calc = N/I; for the meter E_meter = (K_tran / K_calc − 1) × 100%."
+        },
+        {
+          "content": "Where: I is the meter indication in volume units, V is the volumetric measurement reading (volume passed through the transducer), N is the number of factored pulses transmitted by the transducer, K_tran is the transducer calibration constant, K_calc is the calculator/indicator calibration constant, and E_meter is the meter error."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "exactitude du compteur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Lorsqu'un compteur complet est essayé en tant qu'unité, la formule ci-après s'applique pour le compteur complet: E_compt = (I − V) / V × 100%."
+        },
+        {
+          "content": "Lorsque l'essai comprend des essais séparés du transducteur et du calculateur/indicateur, les formules suivantes s'appliquent: pour le transducteur K_tran = N/V; pour le calculateur/indicateur K_calc = N/I; pour le compteur E_compt = (K_tran / K_calc − 1) × 100%."
+        },
+        {
+          "content": "Où: I est l'indication du compteur exprimée en volume, V est la lecture de la mesure volumétrique (volume ayant traversé le transducteur), N est le nombre d'impulsions factorisées transmises par le transducteur, K_tran est la constante d'étalonnage du transducteur, K_calc est la constante d'étalonnage du calculateur/indicateur, et E_compt est l'erreur du compteur."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

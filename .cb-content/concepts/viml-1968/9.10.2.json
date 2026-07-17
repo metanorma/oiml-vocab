@@ -1,0 +1,43 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "9.10.2",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/9.10.2",
+  "status": "valid",
+  "designations": {
+    "fra": "Erreurs limites de précision"
+  },
+  "eng": "Erreurs limites de précision",
+  "groups": [
+    "9"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreurs limites de précision",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Les erreurs limites de précision sont un ensemble de deux valeurs obtenues : l'une, en ajoutant à l'erreur de justesse la valeur absolue de l'erreur limite de fidélité, l'autre, en retranchant de l'erreur de justesse la valeur absolue de l'erreur limite de fidélité."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Pour les besoins de la métrologie légale, on définit les erreurs limites de précision d'un instrument de mesurage, pour une valeur donnée de la grandeur à mesurer, comme étant les différences algébriques entre les valeurs limites, supérieure stem:[v_(i_max)] ou inférieure stem:[v_(i_min)], des indications que donne l'instrument dans les conditions usuelles d'emploi, toutes erreurs comprises, et la valeur conventionnellement vraie stem:[v_c] de la grandeur mesurée. Pratiquement, ces valeurs limites sont déterminées comme il a été indiqué en 9.6.4."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Dans l'exemple relatif aux points 9.5.1 et 9.6.4, les erreurs limites de précision ayant une probabilité 99.73 % de ne pas être dépassées sont égales à stem:[(0.08 pm 0.51) mu\"A\"], c'est-à-dire stem:[0.59 mu\"A\"] et stem:[-0.43 mu\"A\"]."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

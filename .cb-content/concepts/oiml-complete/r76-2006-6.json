@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r76-2006-6",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r76-2006-6",
+  "status": "valid",
+  "designations": {
+    "fra": "Maximum capacity of partial weighing ranges"
+  },
+  "eng": "Maximum capacity of partial weighing ranges",
+  "groups": [
+    "r-76"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Maximum capacity of partial weighing ranges",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "With the exception of the last partial weighing range, the requirements in Table 4 shall be complied with, according to the accuracy class of the instrument.\n\n<div align=\"center\">\n\nTable 4\n\n</div>\n\n<table border=\"1\"><tr><td>Class</td><td>Ⅰ</td><td>Ⅱ</td><td>Ⅲ</td><td>Ⅳ</td></tr><tr><td>$\\mathrm{Max}_{i}/e_{i+1}$</td><td>≥50000</td><td>≥5000</td><td>≥500</td><td>≥50</td></tr></table>\n\nExample for a multi-interval instrument:\n\nMaximum capacity, Max = 2/5/15 kg, class III\n\nVerification scale interval, $ e=1/2/10\\mathrm{g} $\n\nThis instrument has one Max and one weighing range from Min = 20 g to Max = 15 kg. The partial weighing ranges are:\n\n$$\n\\mathrm {M i n} = 2 0 \\mathrm {g}, \\mathrm {M a x} _ {1} = 2 \\mathrm {k g}, e _ {1} = 1 \\mathrm {g}, n _ {1} = 2 0 0 0\n$$\n\n$$\n\\mathrm {M i n} _ {2} = 2 \\mathrm {k g}, \\mathrm {M a x} _ {2} = 5 \\mathrm {k g}, e _ {2} = 2 \\mathrm {g}, n _ {2} = 2 5 0 0\n$$\n\n$$\n\\mathrm {M i n} _ {3} = 5 \\mathrm {k g}, \\mathrm {M a x} _ {3} = \\mathrm {M a x} = 1 5 \\mathrm {k g}, e _ {3} = 1 0 \\mathrm {g}, n _ {3} = 1 5 0 0\n$$\n\nThe maximum permissible errors on initial verification (mpe) (see 3.5.1) are:\n\n$$\n\\begin{array}{l} \\mathrm {f o r} m = 0 \\mathrm {g} \\mathrm {t o} 5 0 0 \\mathrm {g} \\quad \\mathrm {m p e} = \\pm 0. 5 e _ {1} = \\pm 0. 5 \\mathrm {g} \\\\ \\mathrm {f o r} m > 5 0 0 \\mathrm {g} \\mathrm {t o} 2 0 0 0 \\mathrm {g} \\quad \\mathrm {m p e} = \\pm 1 e _ {1} = \\pm 1 \\mathrm {g} \\\\ \\end{array}\n$$\n\n$$\n\\mathrm {f o r} m > 2 0 0 0 \\mathrm {g} \\mathrm {t o} 4 0 0 0 \\mathrm {g} \\quad \\mathrm {m p e} = \\pm 1 e _ {2} \\quad = \\pm 2 \\mathrm {g}\n$$\n\n$$\n\\mathrm {f o r} m > 4 0 0 0 \\mathrm {g} \\mathrm {t o} 5 0 0 0 \\mathrm {g} \\quad \\mathrm {m p e} = \\pm 1. 5 e _ {2} \\quad = \\pm 3 \\mathrm {g}\n$$\n\n$$\n\\mathrm {f o r} m > 5 0 0 0 \\mathrm {g} \\mathrm {t o} 1 5 0 0 0 \\mathrm {g} \\quad \\mathrm {m p e} = \\pm 1 e _ {3} \\quad = \\pm 1 0 \\mathrm {g}\n$$\n\nWhenever the variation of the indication due to certain influence factors is limited to a fraction or multiple of e, this means, in a multi-interval instrument, that e is to be taken according to the load applied; particularly at or near zero, load $ e=e_{1}. $"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

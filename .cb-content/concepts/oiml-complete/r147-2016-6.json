@@ -1,0 +1,53 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r147-2016-6",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r147-2016-6",
+  "status": "valid",
+  "designations": {
+    "eng": "permissible uncertainty, U_pBB",
+    "fra": "incertitude tolérée, U_pBB"
+  },
+  "eng": "permissible uncertainty, U_pBB",
+  "groups": [
+    "r-147"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "permissible uncertainty, U_pBB",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "expanded uncertainty at a specified confidence level (p=0.95 or p=0.99) declared in the technical documentation, at which the BBR is considered fit for its intended use. The standard uncertainty u_pBB = U_pBB/k(p) is calculated from either k(p=0.95)=2 or k(p=0.99)=3"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "incertitude tolérée, U_pBB",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "incertitude élargie à un niveau de confiance spécifié (p=0,95 ou p=0,99) déclaré dans la documentation technique, avec laquelle le corps noir est considéré être approprié à l'application prévue. Le calcul de l'incertitude type u_pBB = U_pBB/k(p) se base soit sur k(p=0,95)=2 soit sur k(p=0,99)=3"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

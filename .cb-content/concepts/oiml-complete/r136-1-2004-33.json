@@ -1,0 +1,53 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r136-1-2004-33",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r136-1-2004-33",
+  "status": "valid",
+  "designations": {
+    "eng": "Repeatability error (R)",
+    "deu": "Mittlerer Flächenfehler $ \\left( x_{\\mathrm{e}} \\right) $"
+  },
+  "eng": "Repeatability error (R)",
+  "groups": [
+    "r-136"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "Repeatability error (R)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Closeness of the agreement between the results of successive area measurements carried out under the same conditions of measurement."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "deu": {
+      "languageCode": "deu",
+      "terms": [
+        {
+          "designation": "Mittlerer Flächenfehler $ \\left( x_{\\mathrm{e}} \\right) $",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Abweichung des mittleren Wertes einer Reihe von aufeinanderfolgenden Flächenmessungen, die auf einer Schablone durchgeführt werden, vom wahren Wert der Schablonenfläche, was mathematisch wie folgt ausgedruckt wird:\n\n$$\nx _ {\\mathrm {e}} = \\left[ x - V _ {\\mathrm {t r u e}} \\right] (\\mathrm {t r u e} = \\mathrm {w a h r e r W e r t})\n$$\n\nDabei gilt:\n\n$V_{\\mathrm{true}}$ ist der wahre Wert der Lederfläche, und\n\n$ \\overline{x} $ ist das Mittel der Messungen, d. h. $ \\frac{\\sum_{i=1}^{n} I_{\\mathrm{i}}}{n} $\n\nDabei gilt:\n\nI ist die Ledermessanzeige; und\n\nn die Anzahl der Messungen."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "deu"
+  ]
+}

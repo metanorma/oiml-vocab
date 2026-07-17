@@ -1,0 +1,45 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.2.4",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.2.4",
+  "status": "valid",
+  "designations": {
+    "fra": "Écart moyen quadratique d'une seule indication dans une série d'indications"
+  },
+  "eng": "Écart moyen quadratique d'une seule indication dans une série d'indications",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Écart moyen quadratique d'une seule indication dans une série d'indications",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Indice caractérisant la dispersion des indications (9.6.1) d'un instrument de mesurage obtenues dans une série de stem:[n] mesurages de la même valeur d'une grandeur mesurée, et donné par la formule : stem:[s = sqrt((sum_(i=1)^n (x_i - bar(x))^2)/(n - 1))] stem:[x_i] étant la stem:[i^{\"ème\"}] indication de l'instrument stem:[(i = 1, 2, 3, ..., n)] et stem:[bar(x)] la moyenne arithmétique des stem:[n] indications considérées."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Selon les conditions dans lesquelles on effectue les mesurages, s peut représenter une mesure des différentes propriétés de l'instrument (fidélité, stabilité...)"
+        },
+        {
+          "content": "La valeur calculée d'après cette définition est en fait une estimation de l'écart moyen quadratique apparent car d'une part on calcule stem:[s] d'après des données expérimentales et d'autre part les différences stem:[(x_i - bar(x))] représentent des erreurs absolues apparentes."
+        },
+        {
+          "content": "La notion envisagée se rapporte aussi bien aux appareils mesureurs qu'aux mesures matérielisées graduées. Il est à remarquer qu'en ce qui concerne les mesures matérialisées qui ne reproduisent qu'une seule valeur (ou plusieurs valeurs séparées) d'une grandeur, il n'est théoriquement pas tout à fait correct de parler de dispersion de leurs « indications » étant donné qu'elles représentent des valeurs constantes. Cependant, dans ce cas, on peut s'intéresser à la dispersion de la valeur reproduite de la grandeur, dispersion que l'on peut connaître par des comparaisons avec un étalon."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

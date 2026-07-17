@@ -1,0 +1,53 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r129-1-2020-31",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-1-2020-31",
+  "status": "valid",
+  "designations": {
+    "eng": "fault limit",
+    "deu": "Signifikanter Fehler"
+  },
+  "eng": "fault limit",
+  "groups": [
+    "r-129"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "fault limit",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "value delimiting non-significant faults"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "deu": {
+      "languageCode": "deu",
+      "terms": [
+        {
+          "designation": "Signifikanter Fehler",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Fehler, der den anwendbaren Fehlergrenzwert übersteigt [VIML 5.14]\n\nHinweis: Die folgenden Fehler werden als nicht signifikant betrachtet, auch dann nicht, wenn sie den oben definierten Wert überschreiten:\n\n(a) Fehler, die durch gleichzeitig und voneinander unabhängig auftretende Ursachen im Messgerät entstehen;\n\n(b) Fehler, die jede Messung unmöglich machen;\n\n(c) auf momentane Abweichungen zurückzuführende vorübergehende Fehler, die nicht als Messergebnis gedeutet, gespeichert oder übermittelt werden können;\n\n(d) Fehler, durch die beim Messergebnis Schwankungen auftreten, die so gravierend sind, dass sie von allen am Messergebnis Interessierten wahrgenommen werden."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "deu"
+  ]
+}

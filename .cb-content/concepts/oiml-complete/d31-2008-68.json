@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-68",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-68",
+  "status": "valid",
+  "designations": {
+    "spa": "Ejemplo:"
+  },
+  "eng": "Ejemplo:",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Ejemplo:",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "(I)/(II) En cadauesta en marcha, el programa legalmente relevante calcula una suma de comprobación del código del programa y de los parámetros legalmente relevantes. El valor nominal de estas sumas de comprobación se ha calculado con anterioridad y se ha almacenado en el instrumento. Si los valores calculados y almacenados no coinciden, el programa detiene la ejecución.\n\nSi la medición no puede interrumpirse, la suma de comprobación se calcula de forma cíclica y controlada mediante un temporizador software. En caso de detectar un fallo, el software visualiza un mensaje de error o enciende el indicador de fallos y registra la fecha del mismo en un registro de errores (si existe).\n\nEl CRC16 constituye un algoritmo de suma de comprobación aceptable."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

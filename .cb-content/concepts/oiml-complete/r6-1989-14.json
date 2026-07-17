@@ -1,0 +1,61 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r6-1989-14",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r6-1989-14",
+  "status": "valid",
+  "designations": {
+    "eng": "Error (of indication)",
+    "fra": "Erreur (d'indication)"
+  },
+  "eng": "Error (of indication)",
+  "groups": [
+    "r-6"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "Error (of indication)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "The indication of a gas meter minus the (conventional) true value of the measurand."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Errors (E) are expressed in relative values by the ratio (expressed as a percentage) of the difference between the indicated value (V_i) and the conventional true value (V_c) of the volume of the test medium which has passed through the gas meter, to this latter value: E(%) = 100 × (V_i − V_c) / V_c"
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreur (d'indication)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Indication d'un compteur de gaz moins valeur (conventionnellement) vraie de la grandeur mesurée."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les erreurs (E) sont exprimées en valeur relative par le rapport (exprimé en pour-cent) de la différence entre le volume indiqué (V_i) et la valeur conventionnellement vraie (V_c) du volume du fluide d'essai qui a traversé le compteur de gaz, à cette dernière valeur : E(%) = 100 × (V_i − V_c) / V_c"
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

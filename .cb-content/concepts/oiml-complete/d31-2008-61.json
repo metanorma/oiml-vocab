@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-61",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-61",
+  "status": "valid",
+  "designations": {
+    "spa": "Ejemplo:"
+  },
+  "eng": "Ejemplo:",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Ejemplo:",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "(I) El software contiene una cadena de texto o un número que identifica de manera inequivoca la versión instalada. Esta cadena se transmite al dispositivo indicador al pulsar un botón cuando se enciende el instrumento o de manera cíclica, controlado por un temporizador.\n\nUn número de versión puede seguir la estructura A.Y.Z. En el caso de un controlador de caudal, la letra A representará la versión del software central que cuenta impulsos, la letra Y representará la version de la función de conversión (ninguna, a 15 $ ^{\\circ} \\mathrm{C} $ , a 20 $ ^{\\circ} \\mathrm{C} $ ) y la letra Z representará el idioma de la interfaz de usuario.\n\n(II) El software calcula una suma de comprobación del código ejecutable y presenta el resultado como la identificación en lugar o además de la cadena de (I). El algoritmo de la suma de comprobación será un algoritmo normalizado, p. ej. el algoritmo CRC16 es una solución aceptable para este cálculo.\n\nLa solución (II) es adecuada si se requiere un mayor nivel de conformidad (véanse los apartados 5.2.5 (d) y 8)."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

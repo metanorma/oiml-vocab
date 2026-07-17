@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r76-2006-42",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r76-2006-42",
+  "status": "valid",
+  "designations": {
+    "fra": "Apportioning of errors"
+  },
+  "eng": "Apportioning of errors",
+  "groups": [
+    "r-76"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Apportioning of errors",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "The error limits applicable to a module, $ M_{i} $ , which is examined separately are equal to a fraction $ p_{i} $ of the maximum permissible errors or the allowed variations of the indication of the complete instrument as specified in 3.5. The fractions for any module have to be taken for at least the same accuracy class and at least the same number of verification scale intervals, as for the complete instrument incorporating the module.\n\nThe fractions $ p_{i} $ shall satisfy the following equation:\n\n$$\np _ {1} ^ {2} + p _ {2} ^ {2} + p _ {3} ^ {2} + \\dots \\leq 1\n$$\n\nThe fraction $ p_{i} $ shall be chosen by the manufacturer of the module and shall be verified by an appropriate test, taking into account the following conditions:\n\n- For purely digital devices $ p_{i} $ may be equal to 0.\n\n- For weighing modules $ p_{i} $ may be equal to 1.\n\n- For all other modules (including digital load cells) the fraction shall not exceed 0.8 and shall not be less than 0.3, when more than one module contributes to the effect in question.\n\nAcceptable solution (see explanation in the introductory note to clause 4):\n\nFor mechanical structures such as weighbridges, load transmitting devices and mechanical or electrical connecting elements evidently designed and manufactured according to sound engineering practice, an overall fraction $ p_{i}=0.5 $ may be applied without any test, e.g. when levers are made of the same material and when the chain of levers has two planes of symmetry (longitudinal and transversal), or when the stability characteristics of electrical connecting elements are appropriate for the signals transmitted, such as load cell output, impedance, etc.\n\nFor instruments incorporating the typical modules (see T.2.2) the fractions $ p_{i} $ may have the values given in Table 7. Table 7 takes into account that the modules are affected in a different manner depending on the different performance criteria.\n\n<div align=\"center\">\n\nTable 7\n\n</div>\n\n<table border=\"1\"><tr><td>Performance criteria</td><td>Load cell</td><td>Electronic indicator</td><td>Connecting elements, etc.</td></tr><tr><td>Combined effect*</td><td>0.7</td><td>0.5</td><td>0.5</td></tr><tr><td>Temperature effect on no load indication</td><td>0.7</td><td>0.5</td><td>0.5</td></tr><tr><td>Power supply variation</td><td>-</td><td>1</td><td>-</td></tr><tr><td>Effect of creep</td><td>1</td><td>-</td><td>-</td></tr><tr><td>Damp heat</td><td>0.7**</td><td>0.5</td><td>0.5</td></tr><tr><td>Span stability</td><td>-</td><td>1</td><td>-</td></tr></table>\n\n* Combined effects: non-linearity, hysteresis, temperature effect on span, repeatability, etc. After the warm-up time specified by the manufacturer, the combined effect error fractions apply to modules.\n\n** According to OIML R 60 valid for SH tested load cells $ ( p_{\\mathrm{LC}}=0.7). $\n\nThe sign \" - \" means \" not applicable\"."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}
