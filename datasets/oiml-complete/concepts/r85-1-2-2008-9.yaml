@@ -6,17 +6,13 @@ data:
     fra: 57f9646c-3f0d-5f61-8c64-93420a58aa2f
   domains:
   - concept_id: r-85
-    source: urn:oiml:pub:r:85-1-2:2008
+    source: urn:oiml:pub:r:85:2008
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '9'
+        source: OIML R 85-1&2:2008 (E)
 status: valid
 id: 00b9fe78-2ad2-5633-bfea-4091accc83ab
 schema_version: '3'
@@ -31,10 +27,7 @@ data:
   examples: []
   id: r85-1-2-2008-9-eng
   notes: []
-  sources:
-  - origin:
-      ref: OIML R 85-1&2:2008
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

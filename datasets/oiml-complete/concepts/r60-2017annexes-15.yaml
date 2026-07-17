@@ -8,10 +8,10 @@ data:
     source: urn:oiml:pub:r:60:2017
     ref_type: section
   sources:
-  - origin:
-      ref: OIML D 11
-      clause: '3.25'
-    type: authoritative
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 60:2017 Annexes (F)
 status: valid
 id: 91165e8b-d741-5072-abfc-411178cf5d33
 schema_version: '3'
@@ -27,11 +27,7 @@ data:
   examples: []
   id: r60-2017annexes-15-fra
   notes: []
-  sources:
-  - origin:
-      ref: OIML D 11
-      clause: '3.25'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

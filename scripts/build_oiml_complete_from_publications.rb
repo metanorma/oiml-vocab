@@ -14,7 +14,7 @@ require "fileutils"
 require "pathname"
 require "set"
 
-PUB_REPO = Pathname.new("/Users/mulgogi/src/oimlsmart/publications")
+PUB_REPO = Pathname.new("/Users/mulgogi/src/oimlsmart/publications-private")
 OUT_DIR = Pathname.new(__dir__) + ".." + "datasets" + "oiml-complete"
 NS_UUID = "6b1d8e3a-8f9c-4c2b-bf5e-1a4d2c7b9e05"
 
@@ -207,11 +207,19 @@ groups.each do |key, files|
   by_lang.each_key { |lang| loc_map[lang] = uuid_for("oiml-complete", base_slug, seq, lang) }
   outer_uuid = uuid_for("oiml-complete", base_slug, seq)
 
-  # Section
-  sec = section_of(base_slug)
-  sections_map[sec] ||= pub_ref_of(base_slug).sub(/:.*/, "").sub("OIML ", "")
+  # Read register.yaml for the correct pub ref/urn (not parsed from slug)
   pub_ref = pub_ref_of(base_slug)
   pub_urn = pub_urn_of(base_slug)
+  begin
+    reg = YAML.load_file(PUB_REPO + "sources" + files.first[:slug] + "glossarist" + "register.yaml")
+    pub_ref = reg["ref"].to_s if reg["ref"]
+    pub_urn = reg["urn"].to_s if reg["urn"]
+  rescue
+  end
+
+  # Section
+  sec = section_of(base_slug)
+  sections_map[sec] ||= pub_ref.sub(/:.*/, "").sub("OIML ", "").sub(/\s*\(.\)\s*/, "")
 
   # Build outer doc (v3)
   pdata = primary[:outer]["data"]
@@ -220,7 +228,10 @@ groups.each do |key, files|
       "identifier" => "#{base_slug}-#{seq}",
       "localized_concepts" => loc_map,
       "domains" => [{ "concept_id" => sec, "source" => pub_urn, "ref_type" => "section" }],
-      "sources" => v3_sources(pdata["sources"], pub_ref),
+      "sources" => [{
+        "type" => "authoritative",
+        "origin" => { "ref" => { "source" => pub_ref } },
+      }],
     },
     "status" => "valid",
     "id" => outer_uuid,
@@ -243,7 +254,7 @@ groups.each do |key, files|
         "examples" => v3_text_array(ldata["examples"]),
         "id" => "#{base_slug}-#{seq}-#{lang}",
         "notes" => v3_text_array(ldata["notes"]),
-        "sources" => v3_sources(ldata["sources"], pub_ref),
+        "sources" => [],
         "terms" => ldata["terms"] || [],
         "language_code" => lang,
         "entry_status" => "valid",

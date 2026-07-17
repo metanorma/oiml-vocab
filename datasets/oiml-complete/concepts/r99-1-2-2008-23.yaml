@@ -5,17 +5,13 @@ data:
     eng: e2097e92-0a26-576e-8a2f-e8496174bf61
   domains:
   - concept_id: r-99
-    source: urn:oiml:pub:r:99-1-2:2008
+    source: urn:oiml:pub:r:99:2008
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 99-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '23'
+        source: OIML R 99-1&2:2008 (E)
 status: valid
 id: c54755b6-d623-5321-b7d9-cae23abc421b
 schema_version: '3'
@@ -31,10 +27,7 @@ data:
   id: r99-1-2-2008-23-eng
   notes:
   - content: A coverage factor is usually symbolized by the letter k.
-  sources:
-  - origin:
-      ref: OIML R 99-1&2:2008
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

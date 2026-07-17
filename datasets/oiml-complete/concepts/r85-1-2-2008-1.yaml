@@ -6,17 +6,13 @@ data:
     fra: edcd2019-094d-56d9-b2a6-4705a62333c1
   domains:
   - concept_id: r-85
-    source: urn:oiml:pub:r:85-1-2:2008
+    source: urn:oiml:pub:r:85:2008
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '1'
+        source: OIML R 85-1&2:2008 (E)
 status: valid
 id: b1394e61-aba4-58a1-9f22-c6ece996e1b7
 schema_version: '3'
@@ -33,10 +29,7 @@ data:
   notes:
   - content: An automatic level gauge includes at least a liquid level sensor, a transducer,
       and an indicating device.
-  sources:
-  - origin:
-      ref: OIML R 85-1&2:2008
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -5,17 +5,13 @@ data:
     eng: 3f161800-9eff-5e07-b37a-f6aa751fe9be
   domains:
   - concept_id: r-149
-    source: urn:oiml:pub:r:149-1:2020
+    source: urn:oiml:pub:r:149:2020
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 149-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: '10'
+        source: OIML R 149-1:2020 (E)
 status: valid
 id: 8ded8616-edd7-5303-9b4c-a3d91f7db2e6
 schema_version: '3'
@@ -37,11 +33,7 @@ data:
       cuff pressure values in the measurement system. With these stored values the
       systolic, diastolic and mean arterial blood pressure values can be mathematically
       derived using an appropriate algorithm.
-  sources:
-  - origin:
-      ref: OIML R 149-1:2020 (E)
-      clause: '2.10'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

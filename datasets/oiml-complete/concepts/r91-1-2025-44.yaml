@@ -5,17 +5,13 @@ data:
     eng: 5c1b01bc-0fef-56e0-903b-de1ba02edf8b
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '44'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: 075d5123-8b28-5115-a9c9-2bebca2a8b39
 schema_version: '3'
@@ -37,10 +33,7 @@ data:
       error is also referred to as across-the-road speed meter, for simplicity.
   - content: Typical examples are most Doppler-radar based speed meters, 2D and 3D
       laser scanners and image-based speed meters.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

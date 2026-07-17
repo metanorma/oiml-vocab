@@ -5,17 +5,13 @@ data:
     eng: be8e9e7f-b6b0-57e3-bc39-83d71150e27b
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '25'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: ec8f64a5-e327-59a1-bb9b-85d72338e4e1
 schema_version: '3'
@@ -31,10 +27,7 @@ data:
   id: r91-1-2025-25-eng
   notes:
   - content: Average speed meters are also referred to as section speed meters.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

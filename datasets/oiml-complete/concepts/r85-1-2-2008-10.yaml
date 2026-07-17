@@ -6,17 +6,13 @@ data:
     fra: 7e7098bf-061c-5d13-9d9c-3b35d68d24cc
   domains:
   - concept_id: r-85
-    source: urn:oiml:pub:r:85-1-2:2008
+    source: urn:oiml:pub:r:85:2008
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '10'
+        source: OIML R 85-1&2:2008 (E)
 status: valid
 id: b9a62a04-b4f7-5932-bdd0-9d272791f15e
 schema_version: '3'
@@ -34,10 +30,7 @@ data:
   notes:
   - content: '"Acted upon" refers to any adequate response by the ALG (luminous signal,
       acoustic signal, prevention of the measurement process, etc.).'
-  sources:
-  - origin:
-      ref: OIML R 85-1&2:2008
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

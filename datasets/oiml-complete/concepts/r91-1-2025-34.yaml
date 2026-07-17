@@ -5,17 +5,13 @@ data:
     eng: d6d13c9a-00d9-57fa-860b-0f62d46c5698
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '34'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: a7193996-6bd0-5bb5-9df2-f51eb50617c1
 schema_version: '3'
@@ -34,10 +30,7 @@ data:
       of the beam.
   - content: For a speed meter with a scanning beam, the centre line is in the centre
       of the scanning region.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

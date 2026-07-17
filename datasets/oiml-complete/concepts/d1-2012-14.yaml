@@ -11,11 +11,7 @@ data:
   - type: authoritative
     origin:
       ref:
-        source: OIML D 1:2012
-        version: '2012'
-    locality:
-      type: clause
-      reference_from: '14'
+        source: OIML D 1:2012 (F)
 status: valid
 id: 8b0d46cd-c87d-577f-90d7-b530375f6d55
 schema_version: '3'
@@ -34,14 +30,7 @@ data:
   examples: []
   id: d1-2012-14-fra
   notes: []
-  sources:
-  - origin:
-      ref:
-        source: OIML D 16
-    locality:
-      type: clause
-      reference_from: '2.23'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

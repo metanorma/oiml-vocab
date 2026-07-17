@@ -5,17 +5,13 @@ data:
     eng: 33e3899b-9881-5bc3-a88c-0c03775828e1
   domains:
   - concept_id: r-60
-    source: urn:oiml:pub:r:60-1:2021
+    source: urn:oiml:pub:r:60:2021
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 60-1:2021
-        version: '2021'
-    locality:
-      type: clause
-      reference_from: '41'
+        source: OIML R 60-1:2021 (E)
 status: valid
 id: 4d6c3b8f-d2f8-5fee-bb33-02e4d5c2ac23
 schema_version: '3'
@@ -31,11 +27,7 @@ data:
   examples: []
   id: r60-1-2021-41-eng
   notes: []
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML G1-100
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

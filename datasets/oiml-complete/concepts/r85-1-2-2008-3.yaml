@@ -6,17 +6,13 @@ data:
     fra: c11fc872-c585-50b9-94b5-bf80e188ca5b
   domains:
   - concept_id: r-85
-    source: urn:oiml:pub:r:85-1-2:2008
+    source: urn:oiml:pub:r:85:2008
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 85-1-2:2008
-        version: '2008'
-    locality:
-      type: clause
-      reference_from: '3'
+        source: OIML R 85-1&2:2008 (E)
 status: valid
 id: 49b11687-35a5-5e89-96f0-024dfce18c45
 schema_version: '3'
@@ -35,10 +31,7 @@ data:
       memory device.'
   - content: For the purpose of this Recommendation ancillary equipment, in so far
       as it is subject to metrological control, is considered to be part of the ALG.
-  sources:
-  - origin:
-      ref: OIML R 85-1&2:2008
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

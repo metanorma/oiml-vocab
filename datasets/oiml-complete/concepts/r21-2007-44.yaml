@@ -12,11 +12,7 @@ data:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 21:2007
-        version: '2007'
-    locality:
-      type: clause
-      reference_from: '44'
+        source: OIML R 21:2007 (E)
 status: valid
 id: c23c58fc-17bc-50ec-aaaf-44a3a886ed97
 schema_version: '3'
@@ -31,11 +27,7 @@ data:
   examples: []
   id: r21-2007-44-eng
   notes: []
-  sources:
-  - origin:
-      ref: OIML R 21:2007 (E)
-      clause: 2.3.2
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

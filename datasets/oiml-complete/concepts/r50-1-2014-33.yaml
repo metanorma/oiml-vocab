@@ -5,17 +5,13 @@ data:
     eng: f3a47f4e-6aad-5265-9be6-08bb058aadd1
   domains:
   - concept_id: r-50
-    source: urn:oiml:pub:r:50-1:2014
+    source: urn:oiml:pub:r:50:2014
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 50-1:2014
-        version: '2014'
-    locality:
-      type: clause
-      reference_from: '33'
+        source: OIML R 50-1:2014 (E)
 status: valid
 id: 417b01e0-8e68-51c7-a444-f35d0e08be05
 schema_version: '3'
@@ -35,11 +31,7 @@ data:
       error limits.
   - content: Modules may be examined separately (subject to agreement with the metrological
       authority (see 6.1.6).
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: OIML B3
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

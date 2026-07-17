@@ -5,17 +5,13 @@ data:
     eng: ed48ace0-b914-5fa0-a980-18767ee65ce7
   domains:
   - concept_id: r-149
-    source: urn:oiml:pub:r:149-1:2020
+    source: urn:oiml:pub:r:149:2020
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 149-1:2020
-        version: '2020'
-    locality:
-      type: clause
-      reference_from: '8'
+        source: OIML R 149-1:2020 (E)
 status: valid
 id: a8ee83a4-70ad-5606-9fa6-2686d4f74578
 schema_version: '3'
@@ -33,11 +29,7 @@ data:
   id: r149-1-2020-8-eng
   notes:
   - content: Hereafter referred to as "sphygmomanometer" in this Recommendation.
-  sources:
-  - origin:
-      ref: OIML R 149-1:2020 (E)
-      clause: '2.8'
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

@@ -5,17 +5,13 @@ data:
     eng: cf41ecbe-85a4-50fd-8697-fdb884084d6c
   domains:
   - concept_id: r-49
-    source: urn:oiml:pub:r:49-1:2006
+    source: urn:oiml:pub:r:49:1:2006
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 49-1:2006
-        version: '2006'
-    locality:
-      type: clause
-      reference_from: '23'
+        source: OIML R 49-1:2006 (E)
 status: valid
 id: 9e78c465-f29b-5029-93d8-e48bb34dd9d2
 schema_version: '3'
@@ -30,11 +26,7 @@ data:
   examples: []
   id: r49-1-2006-23-eng
   notes: []
-  sources:
-  - origin:
-      ref: OIML D 11 T.16 (adapted)
-      clause: 2.2.11
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

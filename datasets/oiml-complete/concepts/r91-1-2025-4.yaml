@@ -5,17 +5,13 @@ data:
     eng: 17560bf2-2e23-59e0-b137-28127771d72a
   domains:
   - concept_id: r-91
-    source: urn:oiml:pub:r:91-1:2025
+    source: urn:oiml:pub:r:91:2025
     ref_type: section
   sources:
   - type: authoritative
     origin:
       ref:
-        source: OIML R 91-1:2025
-        version: '2025'
-    locality:
-      type: clause
-      reference_from: '4'
+        source: OIML R 91-1:2025 (E)
 status: valid
 id: f4aef07d-cdf2-5838-88ad-668a3d097cab
 schema_version: '3'
@@ -31,10 +27,7 @@ data:
   id: r91-1-2025-4-eng
   notes:
   - content: The enforcement mode is the preferred mode for metrological control.
-  sources:
-  - origin:
-      ref: OIML R 91-1:2025
-    type: authoritative
+  sources: []
   terms:
   - type: expression
     normative_status: preferred

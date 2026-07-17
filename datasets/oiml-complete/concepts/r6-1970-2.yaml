@@ -1,0 +1,44 @@
+---
+data:
+  identifier: r6-1970-2
+  localized_concepts:
+    fra: 94efdec2-4e5a-5807-beb5-8a4cfb00ff01
+  domains:
+  - concept_id: r-6
+    source: urn:oiml:pub:r:6:1970
+    ref_type: section
+  sources:
+  - type: authoritative
+    origin:
+      ref:
+        source: OIML R 6:1970 (F)
+status: valid
+id: 06a223d5-e650-532a-b629-55df793c1747
+schema_version: '3'
+---
+data:
+  dates:
+  - date: '2026-07-17T00:00:00+00:00'
+    type: accepted
+  definition:
+  - content: Le volume cyclique V d'un compteur volumétrique est égal au volume de
+      gaz correspondant au cycle de fonctionnement du compteur, c'est-à-dire à l'ensemble
+      des mouvements des organes mobiles du compteur à la fin desquels tous ces organes,
+      sauf le dispositif indicateur et les transmissions intermédiaires, reprennent
+      la même position qu'à l'instant initial.
+  examples: []
+  id: r6-1970-2-fra
+  notes:
+  - content: Il est déterminé par calcul en multipliant la valeur du volume représenté
+      par un tour complet de l'élément contrôleur par le rapport de transmission du
+      dispositif mesureur au dispositif indicateur.
+  sources: []
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Volume cyclique d'un compteur volumétrique
+  language_code: fra
+  entry_status: valid
+date_accepted: '2026-07-16T00:00:00+00:00'
+id: 94efdec2-4e5a-5807-beb5-8a4cfb00ff01
+
