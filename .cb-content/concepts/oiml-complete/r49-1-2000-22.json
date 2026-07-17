@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-22",
   "status": "valid",
   "designations": {
-    "eng": "significant fault"
+    "eng": "significant fault",
+    "fra": "défaut significatif"
   },
   "eng": "significant fault",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut significatif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "défaut dont la valeur est supérieure à la moitié de l'erreur maximale tolérée dans la « zone supérieure »"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

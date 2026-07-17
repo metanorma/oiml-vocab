@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "distance-counting",
+    "fra": "comptage en base distance",
     "pol": "Sygna pomiaru drogi"
   },
   "eng": "distance-counting",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "comptage en base distance",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "méthode de calcul pour laquelle le prix augmente proportionnellement à la distance parcourue"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

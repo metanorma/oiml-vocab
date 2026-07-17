@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r131-2001-10",
   "status": "valid",
   "designations": {
-    "eng": "Response function"
+    "eng": "Response function",
+    "fra": "Fonction de réponse"
   },
   "eng": "Response function",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Fonction de réponse",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Représentation mathématique de la relation entre la réponse du dosimètre et la dose absorbée pour un système dosimétrique donné."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

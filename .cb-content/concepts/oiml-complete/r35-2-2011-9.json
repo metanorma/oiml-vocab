@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "influence quantity",
-    "deu": "Einflussgröße"
+    "deu": "Einflussgröße",
+    "fra": "grandeur d'influence"
   },
   "eng": "influence quantity",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "grandeur d'influence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "grandeur qui ne fait pas l'objet du mesurage mais qui influe sur la valeur du mesurande ou sur l'indication de la mesure"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

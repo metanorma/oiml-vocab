@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-19",
   "status": "valid",
   "designations": {
-    "eng": "ancillary device"
+    "eng": "ancillary device",
+    "fra": "dispositif complémentaire"
   },
   "eng": "ancillary device",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "dispositif complémentaire",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "dispositif destiné à accomplir une fonction particulière directement impliquée dans l'élaboration, la transmission ou l'affichage de résultats de mesurage"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un dispositif complémentaire ne fait pas partie des fonctions métrologiques de base d'un compteur."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

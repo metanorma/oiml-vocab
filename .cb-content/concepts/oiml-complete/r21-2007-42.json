@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "time tariff value",
+    "fra": "valeur tarifaire horaire",
     "pol": "Rozporadzenie taryfowe"
   },
   "eng": "time tariff value",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeur tarifaire horaire",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur tarifaire exprimée sous la forme d'une somme d'argent pour une période de temps donnée"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

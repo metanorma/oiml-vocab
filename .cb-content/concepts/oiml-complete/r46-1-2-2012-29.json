@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-29",
   "status": "valid",
   "designations": {
-    "eng": "nominal frequency (f_nom)"
+    "eng": "nominal frequency (f_nom)",
+    "fra": "fréquence de référence"
   },
   "eng": "nominal frequency (f_nom)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "fréquence de référence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "fréquence de la tension (et du courant) spécifiés par le fabricant pour un fonctionnement normal du compteur"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

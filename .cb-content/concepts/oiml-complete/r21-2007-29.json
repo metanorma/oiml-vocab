@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "normal calculation method, D (double application of tariff)",
+    "fra": "méthode de calcul normale, D (double application du tarif)",
     "pol": "Droga pocątkowa"
   },
   "eng": "normal calculation method, D (double application of tariff)",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "méthode de calcul normale, D (double application du tarif)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "calcul du prix de la course basé sur l'application combinée des tarifs base temps et tarif base distance pour l'ensemble du trajet"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

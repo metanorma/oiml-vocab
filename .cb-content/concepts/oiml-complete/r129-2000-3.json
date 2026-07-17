@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-3",
   "status": "valid",
   "designations": {
-    "eng": "Measuring device"
+    "eng": "Measuring device",
+    "fra": "Dispositif de mesure"
   },
   "eng": "Measuring device",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Dispositif de mesure",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Dispositif qui mesure les dimensions d'un objet et fournit un signal au processeur à partir duquel les grandeurs associées sont calculées."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

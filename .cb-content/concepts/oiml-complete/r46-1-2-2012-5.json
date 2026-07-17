@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-5",
   "status": "valid",
   "designations": {
-    "eng": "direct connected meter"
+    "eng": "direct connected meter",
+    "fra": "compteur à branchement direct"
   },
   "eng": "direct connected meter",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "compteur à branchement direct",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "compteur destiné à être connecté directement au(x) circuit(s) à mesurer, sans utilisation de dispositif(s) externe(s) comme un ou plusieurs transformateurs de mesure"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

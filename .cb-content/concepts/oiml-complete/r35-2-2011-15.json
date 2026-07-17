@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "scale interval",
-    "deu": "Skalenteilungswert"
+    "deu": "Skalenteilungswert",
+    "fra": "échelon"
   },
   "eng": "scale interval",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "échelon",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "distance effective entre les axes de deux repères d'échelle adjacents sur le ruban"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

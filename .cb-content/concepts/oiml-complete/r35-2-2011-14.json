@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "reference conditions",
-    "deu": "Referenzbetriebsbedingungen"
+    "deu": "Referenzbetriebsbedingungen",
+    "fra": "conditions de référence"
   },
   "eng": "reference conditions",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "conditions de référence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "ensemble des valeurs spécifiées des facteurs d'influence, fixé pour permettre des comparaisons valables entre les résultats de mesure"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

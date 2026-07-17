@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r133-2002-8",
   "status": "valid",
   "designations": {
-    "eng": "Measuring (working) temperature range"
+    "eng": "Measuring (working) temperature range",
+    "fra": "Étendue de mesure de la température (étendue de travail)"
   },
   "eng": "Measuring (working) temperature range",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Étendue de mesure de la température (étendue de travail)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Ensemble de valeurs de température pour lesquelles l'erreur du thermomètre est supposée se tenir dans des limites spécifiées."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

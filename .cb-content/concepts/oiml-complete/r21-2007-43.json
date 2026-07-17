@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "tariff position",
+    "fra": "position tarifaire",
     "pol": "Pozycja robocza"
   },
   "eng": "tariff position",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "position tarifaire",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "position dans laquelle le taximètre peut être ajusté dans la position de fonctionnement « occupé »"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

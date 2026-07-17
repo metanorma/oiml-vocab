@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r127-1999-5",
   "status": "valid",
   "designations": {
-    "eng": "Net absorbance"
+    "eng": "Net absorbance",
+    "fra": "Absorbance nette"
   },
   "eng": "Net absorbance",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Absorbance nette",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Variation de l'absorbance optique mesurée pour la (les) longueur(s) d'onde d'analyse déterminées comme la différence absolue entre l'absorbance de pré-irradiation, A₀, et l'absorbance de post-irradiation, A."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

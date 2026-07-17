@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "scale interval",
-    "deu": "Skalenteilungswert"
+    "deu": "Skalenteilungswert",
+    "fra": "échelon"
   },
   "eng": "scale interval",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "échelon",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur exprimée en unité de longueur de la différence entre les valeurs correspondant à deux repères consécutifs d'indication de même nature, ou de la différence entre deux valeurs consécutives indiquées dans le cas d'un affichage numérique"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

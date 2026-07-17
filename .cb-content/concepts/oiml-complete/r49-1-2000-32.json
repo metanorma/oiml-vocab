@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-32",
   "status": "valid",
   "designations": {
-    "eng": "minimum flowrate"
+    "eng": "minimum flowrate",
+    "fra": "débit minimal"
   },
   "eng": "minimum flowrate",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "débit minimal",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "débit le plus faible pour lequel le compteur d'eau doit fonctionner dans les limites de l'erreur maximale tolérée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "fare increment step",
+    "fra": "chute tarifaire",
     "pol": "System pojedynczy naliczaniajy S"
   },
   "eng": "fare increment step",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "chute tarifaire",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "plus petite somme d'argent avec laquelle le tarif peut être incrémenté en pas égaux en position « occupé » en accord avec les réglementations nationales"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

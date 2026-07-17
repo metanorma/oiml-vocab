@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-13",
   "status": "valid",
   "designations": {
-    "eng": "actual volume"
+    "eng": "actual volume",
+    "fra": "volume réel"
   },
   "eng": "actual volume",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "volume réel",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "volume d'eau total passant par le compteur d'eau, indépendamment du temps nécessaire. Il s'agit du mesurande."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

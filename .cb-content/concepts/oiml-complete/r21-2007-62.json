@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "maximum permissible error, MPE",
+    "fra": "erreur maximale tolérée, EMT",
     "pol": "Błąd dodatkowy znaczny"
   },
   "eng": "maximum permissible error, MPE",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur maximale tolérée, EMT",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur extrême d'une erreur permise par des spécifications, réglementations, etc., pour un instrument donné"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

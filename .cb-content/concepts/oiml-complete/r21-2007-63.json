@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "fault",
+    "fra": "défaut",
     "pol": "Warunki prób"
   },
   "eng": "fault",
@@ -29,6 +30,26 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "différence entre l'erreur d'indication et l'erreur intrinsèque d'un taximètre"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Principalement, un défaut est le résultat d'un changement indésirable de données contenues dans ou traversant l'appareil de mesure. Dans cette Recommandation, un « défaut » est une valeur numérique."
+        }
+      ],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +69,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

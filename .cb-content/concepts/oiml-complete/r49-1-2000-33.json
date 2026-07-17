@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-33",
   "status": "valid",
   "designations": {
-    "eng": "maximum admissible temperature"
+    "eng": "maximum admissible temperature",
+    "fra": "température maximale admissible"
   },
   "eng": "maximum admissible temperature",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "température maximale admissible",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "température maximale de l'eau qu'un compteur d'eau peut supporter en permanence, dans ses conditions assignées de fonctionnement, sans détérioration de sa performance métrologique"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

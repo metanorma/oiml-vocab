@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-3",
   "status": "valid",
   "designations": {
-    "eng": "prepayment meter"
+    "eng": "prepayment meter",
+    "fra": "compteur à prépaiement"
   },
   "eng": "prepayment meter",
   "groups": [
@@ -27,9 +28,33 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "compteur à prépaiement",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "compteur électrique destiné à permettre la fourniture d'énergie électrique selon une quantité prédéterminée"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un tel compteur mesure l'énergie en continu, stocke et affiche l'énergie mesurée."
+        },
+        {
+          "content": "Les autorités nationales peuvent spécifier des exigences relatives aux compteurs à prépaiement."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

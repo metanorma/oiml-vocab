@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r131-2001-5",
   "status": "valid",
   "designations": {
-    "eng": "Specific absorbance"
+    "eng": "Specific absorbance",
+    "fra": "Absorbance spécifique"
   },
   "eng": "Specific absorbance",
   "groups": [
@@ -31,9 +32,30 @@
         }
       ],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Absorbance spécifique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Absorbance optique, Aλ, à la longueur d'onde, λ, divisée par l'épaisseur du dosimètre, t."
+        }
+      ],
+      "notes": [
+        {
+          "content": "L'épaisseur, t, est une mesure de la longueur du chemin optique."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

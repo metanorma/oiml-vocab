@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-47",
   "status": "valid",
   "designations": {
-    "eng": "reference condition"
+    "eng": "reference condition",
+    "fra": "condition de référence"
   },
   "eng": "reference condition",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "condition de référence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "condition de fonctionnement prescrite pour évaluer les performances d'un instrument de mesure ou d'un système de mesure ou pour comparer des résultats de mesure"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les conditions de fonctionnement de référence spécifient des intervalles de valeurs du mesurande et des grandeurs d'influence."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

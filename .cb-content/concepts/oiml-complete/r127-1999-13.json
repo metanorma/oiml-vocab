@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r127-1999-13",
   "status": "valid",
   "designations": {
-    "eng": "Repeatability"
+    "eng": "Repeatability",
+    "fra": "Répétabilité"
   },
   "eng": "Repeatability",
   "groups": [
@@ -31,9 +32,30 @@
         }
       ],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Répétabilité",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Étroitesse de l'accord entre les résultats de mesurages successifs du même échantillon effectués dans les mêmes conditions et dans un laps de temps relativement court."
+        }
+      ],
+      "notes": [
+        {
+          "content": "On entend par « les mêmes conditions » les mêmes méthode de mesure, instrument de mesure, opérateur, lieu et conditions environnementales."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

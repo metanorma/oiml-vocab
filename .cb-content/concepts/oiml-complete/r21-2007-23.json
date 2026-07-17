@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "fare",
+    "fra": "prix",
     "pol": "Opłata pocątkowa"
   },
   "eng": "fare",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "prix",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "somme d'argent calculée, indiquée et affichée par le taximètre en tant que prix dû pour une course de taxi, basée sur un forfait initial et/ou la longueur et/ou la durée de la course"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r131-2001-3",
   "status": "valid",
   "designations": {
-    "eng": "Dosimeter batch"
+    "eng": "Dosimeter batch",
+    "fra": "Lot de dosimètres"
   },
   "eng": "Dosimeter batch",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Lot de dosimètres",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Quantité de dosimètres fabriquée à partir d'une masse spécifique de matériau ayant une composition uniforme, issue d'une seule série de production dans des conditions contrôlées et constantes, et à laquelle est attribué un code d'identification unique."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

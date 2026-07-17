@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "tariff values",
+    "fra": "valeurs tarifaires",
     "pol": "Wartość taryfy czasowej"
   },
   "eng": "tariff values",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeurs tarifaires",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeurs à partir desquelles le taximètre calcule le prix"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

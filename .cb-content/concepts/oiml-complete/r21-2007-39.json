@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "tariff",
+    "fra": "tarif",
     "pol": "Wartość taryfy drogowej"
   },
   "eng": "tariff",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "tarif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "ensemble des valeurs tarifaires (y compris le temps initial / distance initiale) qui représente le barème des redevances ou des taux qui sera opérationnel dans le taximètre pour une position tarifaire donnée"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

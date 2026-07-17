@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "performance test",
-    "deu": "Funktionsprüfung"
+    "deu": "Funktionsprüfung",
+    "fra": "essai de performance"
   },
   "eng": "performance test",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "essai de performance",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "essai dont l'objectif est de vérifier si l'équipement soumis à l'essai est capable d'accomplir les fonctions qui lui sont assignées"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

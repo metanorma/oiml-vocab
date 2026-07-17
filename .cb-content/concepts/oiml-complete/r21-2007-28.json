@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "normal calculation method, S (single application of tariff)",
+    "fra": "méthode de calcul normale, S (application unique du tarif)",
     "pol": "Ståa taksometrik"
   },
   "eng": "normal calculation method, S (single application of tariff)",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "méthode de calcul normale, S (application unique du tarif)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "application du tarif en base temps au-dessous de la vitesse de changement d'entraînement et application du tarif en base distance au-dessus de cette vitesse"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

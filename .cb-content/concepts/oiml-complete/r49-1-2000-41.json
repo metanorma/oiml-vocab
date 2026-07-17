@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-41",
   "status": "valid",
   "designations": {
-    "eng": "rated operating conditions"
+    "eng": "rated operating conditions",
+    "fra": "conditions assignées de fonctionnement"
   },
   "eng": "rated operating conditions",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "conditions assignées de fonctionnement",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "conditions d'utilisation fixant l'étendue des valeurs des facteurs d'influence, pour laquelle les erreurs (d'indication) du compteur d'eau doivent rester dans les limites des erreurs maximales tolérées"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

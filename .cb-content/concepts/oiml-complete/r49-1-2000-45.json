@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-45",
   "status": "valid",
   "designations": {
-    "eng": "endurance test"
+    "eng": "endurance test",
+    "fra": "essai d'endurance"
   },
   "eng": "endurance test",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "essai d'endurance",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "essai permettant de vérifier si le compteur d'eau est capable de maintenir ses caractéristiques de performance pendant un certain temps d'utilisation"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

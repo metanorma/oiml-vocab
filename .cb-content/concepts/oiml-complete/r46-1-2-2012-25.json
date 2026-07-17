@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-25",
   "status": "valid",
   "designations": {
-    "eng": "maximum current (I_max)"
+    "eng": "maximum current (I_max)",
+    "fra": "courant maximal"
   },
   "eng": "maximum current (I_max)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "courant maximal",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur la plus haute du courant spécifiée par le fabricant pour laquelle le compteur répond aux exigences d'exactitudes"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "taxi identification number",
+    "fra": "numéro d'identification du taxi",
     "pol": "Urządzenie drukuje (drukarka)"
   },
   "eng": "taxi identification number",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "numéro d'identification du taxi",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "numéros et/ou lettres identifiant le taxi ou le numéro d'enregistrement national spécifié pour le taxi"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

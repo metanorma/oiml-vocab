@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r131-2001-8",
   "status": "valid",
   "designations": {
-    "eng": "Calibration facility"
+    "eng": "Calibration facility",
+    "fra": "Installation d'étalonnage"
   },
   "eng": "Calibration facility",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Installation d'étalonnage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Combinaison d'une source de photons ou d'électrons et des appareils associés fournissant une valeur de dose absorbée ou de taux de dose absorbée, uniforme et reproductible, en des points précis d'un matériau spécifique. La dose absorbée doit être raccordable aux étalons nationaux ou internationaux."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

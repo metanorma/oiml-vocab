@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-18",
   "status": "valid",
   "designations": {
-    "eng": "Conversion factor (F)"
+    "eng": "Conversion factor (F)",
+    "fra": "Facteur de conversion (F)"
   },
   "eng": "Conversion factor (F)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Facteur de conversion (F)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Facteur appliqué au volume ou aux dimensions d'un objet afin de déterminer son poids dimensionnel."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-46",
   "status": "valid",
   "designations": {
-    "eng": "electronic device"
+    "eng": "electronic device",
+    "fra": "dispositif électronique"
   },
   "eng": "electronic device",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "dispositif électronique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "dispositif employant des sous-ensembles électroniques et accomplissant une fonction spécifique"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un dispositif électronique peut consister en un compteur complet ou en une partie de compteur."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

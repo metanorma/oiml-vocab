@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r16-1-2002-4",
   "status": "valid",
   "designations": {
-    "eng": "diastolic blood pressure (value)"
+    "eng": "diastolic blood pressure (value)",
+    "fra": "pression sanguine diastolique (valeur)"
   },
   "eng": "diastolic blood pressure (value)",
   "groups": [
@@ -31,9 +32,30 @@
         }
       ],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "pression sanguine diastolique (valeur)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur minimale de la pression artérielle résultant de la relaxation du ventricule gauche"
+        }
+      ],
+      "notes": [
+        {
+          "content": "En raison d'effets hydrostatiques, il convient de mesurer cette valeur avec le brassard au niveau du cœur."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

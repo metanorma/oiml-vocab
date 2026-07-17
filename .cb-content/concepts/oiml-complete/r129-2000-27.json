@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-27",
   "status": "valid",
   "designations": {
-    "eng": "Fault"
+    "eng": "Fault",
+    "fra": "Défaut"
   },
   "eng": "Fault",
   "groups": [
@@ -31,9 +32,26 @@
         }
       ],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Défaut",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument de mesure."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

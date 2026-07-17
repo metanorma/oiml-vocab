@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "principal scale marks",
-    "deu": "Hauptskalenmarken"
+    "deu": "Hauptskalenmarken",
+    "fra": "repères principaux"
   },
   "eng": "principal scale marks",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "repères principaux",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "les deux repères dont la distance représente la longueur nominale de la mesure"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

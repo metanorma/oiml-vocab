@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-30",
   "status": "valid",
   "designations": {
-    "eng": "overload flowrate"
+    "eng": "overload flowrate",
+    "fra": "débit de surcharge"
   },
   "eng": "overload flowrate",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "débit de surcharge",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "débit le plus élevé pour lequel un compteur d'eau doit fonctionner, durant une brève période de temps, dans les limites de son erreur maximale tolérée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

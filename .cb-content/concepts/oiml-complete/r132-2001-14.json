@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r132-2001-14",
   "status": "valid",
   "designations": {
-    "eng": "Absorbed dose working range"
+    "eng": "Absorbed dose working range",
+    "fra": "Domaine de fonctionnement en dose absorbée"
   },
   "eng": "Absorbed dose working range",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Domaine de fonctionnement en dose absorbée",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Ensemble des valeurs de dose absorbée pour lequel il est prévu que l'erreur du système dosimétrique ne dépasse pas les limites spécifiées."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

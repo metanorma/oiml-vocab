@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "line measure",
-    "deu": "Endmaß"
+    "deu": "Endmaß",
+    "fra": "mesure à traits"
   },
   "eng": "line measure",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "mesure à traits",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "mesure de longueur dont les repères principaux sont constitués par deux traits, trous ou marques"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-22",
   "status": "valid",
   "designations": {
-    "eng": "starting current (I_st)"
+    "eng": "starting current (I_st)",
+    "fra": "courant de démarrage"
   },
   "eng": "starting current (I_st)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "courant de démarrage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur la plus basse du courant spécifiée par le fabricant pour laquelle le compteur doit enregistrer l'énergie électrique à un facteur de puissance d'unité et, pour les compteurs polyphasés, avec charges équilibrées"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

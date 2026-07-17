@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-8",
   "status": "valid",
   "designations": {
-    "eng": "static meter"
+    "eng": "static meter",
+    "fra": "compteur statique"
   },
   "eng": "static meter",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "compteur statique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "compteur dans lequel le courant et la tension appliqués à un élément électronique de mesure produisent une sortie proportionnelle à l'énergie"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

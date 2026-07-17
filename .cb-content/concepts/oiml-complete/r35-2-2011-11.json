@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "performance",
-    "deu": "Leistungsfähigkeit"
+    "deu": "Leistungsfähigkeit",
+    "fra": "performance"
   },
   "eng": "performance",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "performance",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "aptitude de la mesure à accomplir les fonctions qui lui sont assignées"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

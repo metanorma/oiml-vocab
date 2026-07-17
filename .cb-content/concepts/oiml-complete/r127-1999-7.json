@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r127-1999-7",
   "status": "valid",
   "designations": {
-    "eng": "Absorbed dose"
+    "eng": "Absorbed dose",
+    "fra": "Dose absorbée"
   },
   "eng": "Absorbed dose",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Dose absorbée",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Quotient dē par dm, où dē est l'énergie moyenne différentielle transmise par rayonnement ionisant à une quantité de matière de masse égale à dm. L'unité de dose absorbée est le gray (Gy), où 1 Gy = 1 J/kg."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

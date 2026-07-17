@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-21",
   "status": "valid",
   "designations": {
-    "eng": "current (I)"
+    "eng": "current (I)",
+    "fra": "courant (I)"
   },
   "eng": "current (I)",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "courant (I)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur du courant électrique circulant à travers le compteur"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Le terme « courant » dans la présente Recommandation correspond aux valeurs r.m.s. (racine carrée de la moyenne des carrés) sauf indication contraire."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

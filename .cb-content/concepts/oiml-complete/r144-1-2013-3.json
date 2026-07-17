@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r144-1-2013-3",
   "status": "valid",
   "designations": {
-    "eng": "sample line"
+    "eng": "sample line",
+    "fra": "ligne de prélèvement"
   },
   "eng": "sample line",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "ligne de prélèvement",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "ligne pourvue pour prélever un échantillon représentatif de gaz à analyser et pour l'amener à l'analyseur"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Une ligne de prélèvement peut intégrer des dispositifs tels que des filtres primaires et fins, des dispositifs de séchage ou des séparateurs, s'il est nécessaire à la préparation de l'échantillon pour l'analyse."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

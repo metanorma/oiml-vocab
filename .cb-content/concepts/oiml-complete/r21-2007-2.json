@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "taxi",
+    "fra": "taxi",
     "pol": "Taksówka"
   },
   "eng": "taxi",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "taxi",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "véhicule, généralement une voiture conduite par un chauffeur, qui transporte les passagers pour un trajet moyennant un tarif"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

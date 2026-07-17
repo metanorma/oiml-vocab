@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r144-1-2013-15",
   "status": "valid",
   "designations": {
-    "eng": "warm-up time"
+    "eng": "warm-up time",
+    "fra": "temps de chauffe"
   },
   "eng": "warm-up time",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "temps de chauffe",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "période de temps requise par le système d'analyse depuis la mise sous tension de l'instrument jusqu'à ce qu'il atteigne le mode de fonctionnement auquel il fonctionne dans les erreurs maximales tolérées"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Pour un analyseur de gaz cela correspond au temps entre le moment où il est mis sous tension et le moment où le résultat de mesure d'une fraction volumique, un CGM étant installé à l'entrée, est dans les limites autorisées."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

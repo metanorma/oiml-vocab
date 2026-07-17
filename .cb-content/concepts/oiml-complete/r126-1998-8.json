@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r126-1998-8",
   "status": "valid",
   "designations": {
-    "eng": "Measuring mode"
+    "eng": "Measuring mode",
+    "fra": "Position « mesure »"
   },
   "eng": "Measuring mode",
   "groups": [
@@ -31,9 +32,30 @@
         }
       ],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Position « mesure »",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Mode, clairement mis en évidence, pour lequel l'éthylomètre peut effectuer des mesurages à la cadence normalement prévue en service et pour lequel les exigences de performance de la présente Recommandation doivent être satisfaites."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les positions « mesure » et « veille » (3.7) sont des modes du fonctionnement normal (3.6)."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

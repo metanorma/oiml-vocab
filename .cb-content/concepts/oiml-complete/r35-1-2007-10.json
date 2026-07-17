@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "indicating device",
-    "deu": "Zusatzeinrichtungen"
+    "deu": "Zusatzeinrichtungen",
+    "fra": "dispositif indicateur"
   },
   "eng": "indicating device",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "dispositif indicateur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "partie de la mesure qui affiche le résultat de la mesure en continu ou sur demande ; un dispositif indicateur électronique comprend un capteur, un transducteur, un calculateur et un indicateur"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }
