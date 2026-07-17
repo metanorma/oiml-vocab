@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-35",
   "status": "valid",
   "designations": {
-    "eng": "active power"
+    "eng": "active power",
+    "fra": "puissance active"
   },
   "eng": "active power",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "puissance active",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "taux auquel l'énergie est transportée ; dans un système électrique, la puissance active est mesurée comme étant la moyenne temporelle de la puissance instantanée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

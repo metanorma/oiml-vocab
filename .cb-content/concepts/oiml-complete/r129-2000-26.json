@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-26",
   "status": "valid",
   "designations": {
-    "eng": "Maximum permissible errors (mpe)"
+    "eng": "Maximum permissible errors (mpe)",
+    "fra": "Erreurs maximales tolérées (emt)"
   },
   "eng": "Maximum permissible errors (mpe)",
   "groups": [
@@ -31,9 +32,26 @@
         }
       ],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Erreurs maximales tolérées (emt)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Valeurs extrêmes (positive et négative) de l'erreur d'indication admises sur spécifications, Recommandations, réglementations, etc."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

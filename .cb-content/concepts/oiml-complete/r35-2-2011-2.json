@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "disturbance",
-    "deu": "Störeinfluss"
+    "deu": "Störeinfluss",
+    "fra": "perturbation"
   },
   "eng": "disturbance",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "perturbation",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "grandeur d'influence dont la valeur se situe dans les limites spécifiées, mais en dehors des conditions assignées de fonctionnement spécifiées"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

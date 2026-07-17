@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "nominal length",
-    "deu": "Nennlange"
+    "deu": "Nennlange",
+    "fra": "longueur nominale"
   },
   "eng": "nominal length",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "longueur nominale",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "longueur par laquelle la mesure est désignée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

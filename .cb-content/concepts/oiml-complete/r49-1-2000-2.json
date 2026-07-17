@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-2",
   "status": "valid",
   "designations": {
-    "eng": "measurement transducer"
+    "eng": "measurement transducer",
+    "fra": "transducteur de mesure"
   },
   "eng": "measurement transducer",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "transducteur de mesure",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "partie du compteur transformant le débit ou le volume d'eau à mesurer en signaux qui sont transmis au calculateur"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Pour les besoins de la présente Recommandation, le transducteur de mesure inclut le capteur de débit ou le capteur de volume."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

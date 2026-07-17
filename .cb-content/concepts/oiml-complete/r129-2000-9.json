@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-9",
   "status": "valid",
   "designations": {
-    "eng": "Multi-interval instrument"
+    "eng": "Multi-interval instrument",
+    "fra": "Instrument multi-échelons"
   },
   "eng": "Multi-interval instrument",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Instrument multi-échelons",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Instruments ayant une étendue de mesure dimensionnelle pour chaque axe, divisée en étendues de mesure partielles chacune avec des échelons différents, l'étendue de mesure étant déterminée automatiquement en fonction de la dimension mesurée."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

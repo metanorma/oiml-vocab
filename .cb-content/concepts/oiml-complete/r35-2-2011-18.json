@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "temperature stability",
-    "deu": "Temperaturstabilität"
+    "deu": "Temperaturstabilität",
+    "fra": "stabilité de la température"
   },
   "eng": "temperature stability",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "stabilité de la température",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "température atteinte lorsque toutes les parties de l'équipement soumis à l'essai sont à 2 °C les unes par rapport aux autres"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

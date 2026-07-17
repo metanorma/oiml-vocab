@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-50",
   "status": "valid",
   "designations": {
-    "eng": "fault"
+    "eng": "fault",
+    "fra": "défaut"
   },
   "eng": "fault",
   "groups": [
@@ -27,9 +28,33 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument de mesure"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un défaut est principalement le résultat d'une modification non désirée de données contenues ou traversant un instrument de mesure."
+        },
+        {
+          "content": "D'après la définition, il s'ensuit qu'un « défaut » est une valeur numérique qui est exprimée soit en une unité de mesure soit en tant que valeur relative."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

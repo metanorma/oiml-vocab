@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "indicating device",
-    "deu": "Anzeigeeinrichtung"
+    "deu": "Anzeigeeinrichtung",
+    "fra": "dispositif indicateur"
   },
   "eng": "indicating device",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "dispositif indicateur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "partie de la mesure qui indique ou affiche le résultat de la mesure"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

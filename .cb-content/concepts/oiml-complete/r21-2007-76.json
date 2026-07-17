@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r21-2007-76",
   "status": "valid",
   "designations": {
-    "eng": "function control test"
+    "eng": "function control test",
+    "fra": "essai de contrôle de fonctionnement"
   },
   "eng": "function control test",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "essai de contrôle de fonctionnement",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "essai réalisé durant et/ou après chaque essai de facteur d'influence ou de perturbation afin de vérifier l'exactitude en temps et distance du taximètre"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

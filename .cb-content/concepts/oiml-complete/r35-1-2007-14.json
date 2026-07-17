@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "disturbance",
-    "deu": "Einflussfaktor"
+    "deu": "Einflussfaktor",
+    "fra": "perturbation"
   },
   "eng": "disturbance",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "perturbation",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "grandeur d'influence dont la valeur se situe dans les limites spécifiées dans cette Recommandation, mais en dehors des conditions assignées de fonctionnement spécifiées pour l'instrument"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

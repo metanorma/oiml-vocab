@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-10",
   "status": "valid",
   "designations": {
-    "eng": "current circuit"
+    "eng": "current circuit",
+    "fra": "circuit de courant"
   },
   "eng": "current circuit",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "circuit de courant",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "liaisons intérieures du compteur et partie de l'élément de mesure, parcourues par le courant du circuit auquel le compteur est raccordé"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

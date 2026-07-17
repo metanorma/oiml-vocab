@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-16",
   "status": "valid",
   "designations": {
-    "eng": "Minimum dimension (min)"
+    "eng": "Minimum dimension (min)",
+    "fra": "Dimension minimale (min)"
   },
   "eng": "Minimum dimension (min)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Dimension minimale (min)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "La valeur de la dimension pour chaque axe en dessous de laquelle le résultat de mesure peut être sujet à une erreur relative excessive."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

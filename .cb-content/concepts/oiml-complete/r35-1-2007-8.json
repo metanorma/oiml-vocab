@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "composite measure",
-    "deu": "Strichmaß"
+    "deu": "Strichmaß",
+    "fra": "mesure de longueur mixte"
   },
   "eng": "composite measure",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "mesure de longueur mixte",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "mesure de longueur dont l'un des repères principaux est une surface ou une arête terminale de la mesure et l'autre un trait, un trou ou une marque"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

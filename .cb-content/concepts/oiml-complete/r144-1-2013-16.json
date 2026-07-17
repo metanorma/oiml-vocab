@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r144-1-2013-16",
   "status": "valid",
   "designations": {
-    "eng": "response time"
+    "eng": "response time",
+    "fra": "temps de réponse"
   },
   "eng": "response time",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "temps de réponse",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "intervalle de temps entre le moment d'un changement de concentration par paliers du composant en cours de mesure (CO, NO, NO2 ou NOx) et le moment où le signal atteint 90 % de sa valeur stabilisée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-28",
   "status": "valid",
   "designations": {
-    "eng": "flowrate"
+    "eng": "flowrate",
+    "fra": "débit, Q"
   },
   "eng": "flowrate",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "débit, Q",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "quotient du volume réel d'eau passant par le compteur d'eau, et du temps écoulé pour le passage de ce volume à travers le compteur d'eau"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

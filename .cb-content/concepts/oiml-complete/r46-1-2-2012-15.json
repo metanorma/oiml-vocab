@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-15",
   "status": "valid",
   "designations": {
-    "eng": "register multiplier"
+    "eng": "register multiplier",
+    "fra": "registre multiplicateur"
   },
   "eng": "register multiplier",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "registre multiplicateur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "constante avec laquelle la lecture du registre doit être multipliée pour obtenir la valeur de l'énergie mesurée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

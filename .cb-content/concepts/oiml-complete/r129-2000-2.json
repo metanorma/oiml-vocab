@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-2",
   "status": "valid",
   "designations": {
-    "eng": "Device"
+    "eng": "Device",
+    "fra": "Dispositif"
   },
   "eng": "Device",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Dispositif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Partie d'un instrument habituellement fabriquée comme unité séparée et pouvant être essayée indépendamment."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

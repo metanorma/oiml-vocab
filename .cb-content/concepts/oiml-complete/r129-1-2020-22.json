@@ -4,14 +4,31 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-1-2020-22",
   "status": "valid",
   "designations": {
+    "eng": "dimensional weight (Dim Wt or DW)",
     "deu": "Umrechnungsfaktor (F)"
   },
-  "eng": "Umrechnungsfaktor (F)",
+  "eng": "dimensional weight (Dim Wt or DW)",
   "groups": [
     "r-129"
   ],
   "tags": [],
   "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "dimensional weight (Dim Wt or DW)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "calculated value obtained by applying a conversion factor to the object's dimensional volume or measured dimensions"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "deu": {
       "languageCode": "deu",
       "terms": [
@@ -30,6 +47,7 @@
     }
   },
   "languages": [
+    "eng",
     "deu"
   ]
 }

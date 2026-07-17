@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "reference number of pulses",
+    "fra": "nombre d'impulsions de référence",
     "pol": "Wartosci taryfowe"
   },
   "eng": "reference number of pulses",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "nombre d'impulsions de référence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "nombre théorique d'impulsions provenant d'un signal de mesure de distance et/ou de temps, qui peut être calculé en utilisant les données du tarif et la constante du taximètre, k"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-14",
   "status": "valid",
   "designations": {
-    "eng": "primary rated register"
+    "eng": "primary rated register",
+    "fra": "registre primaire assigné"
   },
   "eng": "primary rated register",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "registre primaire assigné",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "registre dont le ou les facteur(s) d'échelle dus au(x) transformateur(s) de mesure utilisé(s) est considéré de telle sorte que l'énergie mesurée sur le côté primaire du ou des transformateur(s) de mesure est indiquée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

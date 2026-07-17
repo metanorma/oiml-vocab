@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r126-1998-9",
   "status": "valid",
   "designations": {
-    "eng": "Device for adjustment to a standard"
+    "eng": "Device for adjustment to a standard",
+    "fra": "Dispositif d'ajustage par comparaison à un étalon"
   },
   "eng": "Device for adjustment to a standard",
   "groups": [
@@ -31,9 +32,30 @@
         }
       ],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Dispositif d'ajustage par comparaison à un étalon",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Dispositif permettant d'ajuster l'éthylomètre en utilisant comme étalon un mélange de gaz ayant une humidité relative d'au moins 90 % et une température de 34 °C ± 1 °C. Le mélange d'air et d'éthanol traverse le système analyseur de gaz dans sa totalité, en partant de l'embout, dans le sens de passage normal de l'air expiré."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un ajustage au moyen d'un gaz sec est possible à condition que la différence d'effet par rapport à un gaz humide soit connue ou puisse être automatiquement corrigée."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

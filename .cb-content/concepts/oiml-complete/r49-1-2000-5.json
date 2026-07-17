@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-5",
   "status": "valid",
   "designations": {
-    "eng": "indicating device"
+    "eng": "indicating device",
+    "fra": "dispositif indicateur"
   },
   "eng": "indicating device",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "dispositif indicateur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "partie du compteur qui affiche les résultats de mesure soit en continu soit sur demande"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un dispositif imprimeur fournissant une indication à la fin du mesurage n'est pas un dispositif indicateur."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

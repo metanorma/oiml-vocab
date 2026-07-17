@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r131-2001-9",
   "status": "valid",
   "designations": {
-    "eng": "Calibration curve"
+    "eng": "Calibration curve",
+    "fra": "Courbe d'étalonnage"
   },
   "eng": "Calibration curve",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Courbe d'étalonnage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Représentation graphique de la relation entre la réponse du dosimètre et la dose absorbée pour un système dosimétrique donné."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r16-2-2002-5",
   "status": "valid",
   "designations": {
-    "eng": "mean arterial blood pressure (value)"
+    "eng": "mean arterial blood pressure (value)",
+    "fra": "pression artérielle moyenne (valeur)"
   },
   "eng": "mean arterial blood pressure (value)",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "pression artérielle moyenne (valeur)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur de l'intégrale d'un cycle de la courbe de pression sanguine divisée par la durée d'une période d'un battement de cœur"
+        }
+      ],
+      "notes": [
+        {
+          "content": "En raison d'effets hydrostatiques, il convient de mesurer cette valeur avec le brassard au niveau du cœur."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

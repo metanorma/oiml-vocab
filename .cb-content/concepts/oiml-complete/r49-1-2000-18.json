@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-18",
   "status": "valid",
   "designations": {
-    "eng": "maximum permissible error (mpe)"
+    "eng": "maximum permissible error (mpe)",
+    "fra": "erreur maximale tolérée (emt)"
   },
   "eng": "maximum permissible error (mpe)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur maximale tolérée (emt)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeurs extrêmes de l'erreur relative (d'indication) d'un compteur d'eau permises par la présente Recommandation"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

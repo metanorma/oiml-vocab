@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-31",
   "status": "valid",
   "designations": {
-    "eng": "transitional flowrate"
+    "eng": "transitional flowrate",
+    "fra": "débit de transition"
   },
   "eng": "transitional flowrate",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "débit de transition",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "débit qui se produit entre le débit permanent et le débit minimal, divisant l'étendue de débit en deux zones, la « zone supérieure » et la « zone inférieure », chacune étant caractérisée par sa propre erreur maximale tolérée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

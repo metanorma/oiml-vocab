@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "software identification",
+    "fra": "identification du logiciel",
     "pol": "Zabezpieczenie programu"
   },
   "eng": "software identification",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "identification du logiciel",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "séquence de caractères lisibles du logiciel qui sont inextricablement liés au logiciel (par exemple numéro de version, somme de contrôle)"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

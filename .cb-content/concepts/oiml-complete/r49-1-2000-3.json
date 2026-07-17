@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-3",
   "status": "valid",
   "designations": {
-    "eng": "flow sensor or volume sensor"
+    "eng": "flow sensor or volume sensor",
+    "fra": "capteur de débit ou capteur de volume"
   },
   "eng": "flow sensor or volume sensor",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "capteur de débit ou capteur de volume",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "partie du compteur d'eau captant le débit ou le volume d'eau passant à travers le compteur"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

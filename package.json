@@ -3,7 +3,7 @@
   "description": "VIML — International Vocabulary of Legal Metrology — deployment config for @glossarist/concept-browser",
   "scripts": {
     "generate": "concept-browser generate",
-    "build": "concept-browser build",
+    "build": "concept-browser build && node scripts/copy-build-output.mjs",
     "dev": "npm run generate && BASE_PATH=/vocab/ vite --config node_modules/@glossarist/concept-browser/vite.config.ts",
     "preview": "BASE_PATH=/vocab/ vite preview --config node_modules/@glossarist/concept-browser/vite.config.ts"
   },

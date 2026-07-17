@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-4",
   "status": "valid",
   "designations": {
-    "eng": "Processor"
+    "eng": "Processor",
+    "fra": "Processeur"
   },
   "eng": "Processor",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Processeur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Dispositif qui contient toutes les informations nécessaires et reçoit tous les signaux nécessaires du dispositif de mesure lui permettant de calculer le volume ou d'autres grandeurs associées."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

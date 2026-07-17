@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-38",
   "status": "valid",
   "designations": {
-    "eng": "influence quantity"
+    "eng": "influence quantity",
+    "fra": "grandeur d'influence"
   },
   "eng": "influence quantity",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "grandeur d'influence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "grandeur qui n'est pas le mesurande mais qui influe sur la valeur du mesurage"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-39",
   "status": "valid",
   "designations": {
-    "eng": "base maximum permissible error"
+    "eng": "base maximum permissible error",
+    "fra": "erreur maximale tolérée de base EMT"
   },
   "eng": "base maximum permissible error",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur maximale tolérée de base EMT",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur extrême de l'erreur d'indication d'un compteur, permise par la présente Recommandation, lorsque le courant et le facteur de puissance varient dans les intervalles donnés par les conditions assignées de fonctionnement"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

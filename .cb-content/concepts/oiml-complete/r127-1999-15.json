@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r127-1999-15",
   "status": "valid",
   "designations": {
-    "eng": "Absorbed-dose working range"
+    "eng": "Absorbed-dose working range",
+    "fra": "Étendue de mesure de dose absorbée"
   },
   "eng": "Absorbed-dose working range",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Étendue de mesure de dose absorbée",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Intervalle de valeurs de dose absorbée pour lequel l'erreur du système de dosimétrie est censée rester dans les limites spécifiées."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

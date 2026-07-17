@@ -5,6 +5,7 @@
   "status": "valid",
   "designations": {
     "eng": "taximeter constant, k",
+    "fra": "constante du taximètre, k",
     "pol": "Czas początkowy"
   },
   "eng": "taximeter constant, k",
@@ -29,6 +30,22 @@
       "notes": [],
       "examples": []
     },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "constante du taximètre, k",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "constante exprimée en impulsions par kilomètres représentant le nombre d'impulsions que le taximètre doit recevoir afin d'indiquer correctement la distance parcourue d'un kilomètre"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
     "pol": {
       "languageCode": "pol",
       "terms": [
@@ -48,6 +65,7 @@
   },
   "languages": [
     "eng",
+    "fra",
     "pol"
   ]
 }

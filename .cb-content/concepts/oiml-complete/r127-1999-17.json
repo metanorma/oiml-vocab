@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r127-1999-17",
   "status": "valid",
   "designations": {
-    "eng": "Manufacturer"
+    "eng": "Manufacturer",
+    "fra": "Fabricant"
   },
   "eng": "Manufacturer",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Fabricant",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Fabricant du dosimètre à film radiochromique soumis à essai, sauf spécification différente."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

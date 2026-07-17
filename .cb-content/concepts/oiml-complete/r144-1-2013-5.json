@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r144-1-2013-5",
   "status": "valid",
   "designations": {
-    "eng": "input measurement signal"
+    "eng": "input measurement signal",
+    "fra": "signal de mesure d'entrée"
   },
   "eng": "input measurement signal",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "signal de mesure d'entrée",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "signal de mesure fonctionnellement lié au mesurande (fraction volumique du composant à mesurer), qui entre dans l'entrée d'un instrument de mesure, d'une voie de mesure ou d'un composant de conversion séparé"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

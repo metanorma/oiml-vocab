@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "intrinsic error",
-    "deu": "Eigenabweichung"
+    "deu": "Eigenabweichung",
+    "fra": "erreur intrinsèque"
   },
   "eng": "intrinsic error",
   "groups": [
@@ -44,10 +45,31 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur intrinsèque",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "erreur d'une mesure déterminée dans les conditions de référence"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un défaut est principalement le résultat d'un changement non désiré des données contenues ou transitant dans une mesure électronique."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-32",
   "status": "valid",
   "designations": {
-    "eng": "harmonic number"
+    "eng": "harmonic number",
+    "fra": "rang d'un harmonique"
   },
   "eng": "harmonic number",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "rang d'un harmonique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "nombre entier utilisé pour identifier un harmonique"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Le rang d'un harmonique est le rapport de la fréquence d'un harmonique sur la fréquence fondamentale du signal."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

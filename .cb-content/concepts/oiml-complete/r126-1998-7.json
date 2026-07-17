@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r126-1998-7",
   "status": "valid",
   "designations": {
-    "eng": "Stand-by mode"
+    "eng": "Stand-by mode",
+    "fra": "Position « veille »"
   },
   "eng": "Stand-by mode",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Position « veille »",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Mode de l'éthylomètre pour lequel seuls certains circuits sont sous tension afin d'économiser l'énergie et/ou de prolonger la durée de vie d'un composant, tout en permettant d'atteindre le mode « mesure » plus rapidement qu'à partir de l'état de hors tension générale."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

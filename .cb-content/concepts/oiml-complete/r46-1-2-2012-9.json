@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-9",
   "status": "valid",
   "designations": {
-    "eng": "measuring element"
+    "eng": "measuring element",
+    "fra": "élément de mesure"
   },
   "eng": "measuring element",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "élément de mesure",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "partie du compteur qui transforme le courant et la tension en un signal proportionnel à la puissance et/ou à l'énergie"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un élément de mesure peut être basé sur un principe électromagnétique, électrique ou électronique."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

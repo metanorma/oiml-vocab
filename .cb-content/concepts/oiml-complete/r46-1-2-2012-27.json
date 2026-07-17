@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-27",
   "status": "valid",
   "designations": {
-    "eng": "nominal voltage (U_nom)"
+    "eng": "nominal voltage (U_nom)",
+    "fra": "tension de référence"
   },
   "eng": "nominal voltage (U_nom)",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "tension de référence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "tension spécifiée par le fabricant pour un fonctionnement normal du compteur"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les compteurs conçus pour fonctionner dans une plage de tensions peuvent avoir plusieurs valeurs de tension de référence."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

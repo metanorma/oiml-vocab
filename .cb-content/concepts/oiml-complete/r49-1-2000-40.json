@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-40",
   "status": "valid",
   "designations": {
-    "eng": "disturbance"
+    "eng": "disturbance",
+    "fra": "perturbation"
   },
   "eng": "disturbance",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "perturbation",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "grandeur d'influence dont une valeur se situe dans les limites spécifiées par la présente Recommandation mais en dehors des conditions assignées de fonctionnement spécifiées du compteur d'eau"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Une grandeur d'influence est une perturbation si pour cette grandeur d'influence, les conditions assignées de fonctionnement ne sont pas spécifiées."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

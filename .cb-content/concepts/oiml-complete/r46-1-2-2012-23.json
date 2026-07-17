@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-23",
   "status": "valid",
   "designations": {
-    "eng": "minimum current (I_min)"
+    "eng": "minimum current (I_min)",
+    "fra": "courant minimal"
   },
   "eng": "minimum current (I_min)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "courant minimal",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur la plus basse du courant spécifiée par le fabricant pour laquelle le compteur répond aux exigences d'exactitudes"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

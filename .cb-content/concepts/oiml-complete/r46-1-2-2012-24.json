@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-24",
   "status": "valid",
   "designations": {
-    "eng": "transitional current (I_tr)"
+    "eng": "transitional current (I_tr)",
+    "fra": "courant de transition"
   },
   "eng": "transitional current (I_tr)",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "courant de transition",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur du courant spécifiée par le fabricant à, et au-dessus de laquelle le compteur respecte la plus petite erreur maximale tolérée correspondant à la classe d'exactitude du compteur"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

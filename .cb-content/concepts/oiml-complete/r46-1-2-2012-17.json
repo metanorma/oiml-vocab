@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-17",
   "status": "valid",
   "designations": {
-    "eng": "test output"
+    "eng": "test output",
+    "fra": "dispositif de sortie d'essai"
   },
   "eng": "test output",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "dispositif de sortie d'essai",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "dispositif qui peut être utilisé pour tester le compteur, fournissant des impulsions ou les moyens pour fournir des impulsions correspondant à l'énergie mesurée par le compteur"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

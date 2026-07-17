@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "significant fault",
-    "deu": "Signifikanter Fehler"
+    "deu": "Signifikanter Fehler",
+    "fra": "défaut significatif"
   },
   "eng": "significant fault",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut significatif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "défaut dont l'amplitude est supérieure au cinquième de l'amplitude de l'erreur maximale tolérée pour la longueur mesurée"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

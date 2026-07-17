@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r49-1-2000-1",
   "status": "valid",
   "designations": {
-    "eng": "water meter"
+    "eng": "water meter",
+    "fra": "compteur d'eau"
   },
   "eng": "water meter",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "compteur d'eau",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "instrument destiné à mesurer de façon continue, à mémoriser et afficher le volume d'eau passant par le transducteur de mesure dans les conditions de mesurage"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un compteur d'eau inclut au moins un transducteur de mesure, un calculateur (comprenant des dispositifs d'ajustage ou de correction si présents) et un dispositif indicateur."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

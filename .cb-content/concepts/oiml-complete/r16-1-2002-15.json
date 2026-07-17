@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r16-1-2002-15",
   "status": "valid",
   "designations": {
-    "eng": "tamper proofing"
+    "eng": "tamper proofing",
+    "fra": "protection contre les manipulations"
   },
   "eng": "tamper proofing",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "protection contre les manipulations",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "moyen empêchant l'utilisateur d'avoir facilement accès au mécanisme de mesure de l'instrument"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

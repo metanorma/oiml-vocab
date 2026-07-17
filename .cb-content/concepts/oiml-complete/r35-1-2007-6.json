@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "end measure",
-    "deu": "(bei digitaler Anzeige:)"
+    "deu": "(bei digitaler Anzeige:)",
+    "fra": "mesure de longueur à bouts"
   },
   "eng": "end measure",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "mesure de longueur à bouts",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "mesure de longueur dont les repères principaux sont constitués par les deux surfaces ou arêtes terminales de la mesure"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

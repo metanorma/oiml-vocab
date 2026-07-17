@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-36",
   "status": "valid",
   "designations": {
-    "eng": "active energy"
+    "eng": "active energy",
+    "fra": "énergie active"
   },
   "eng": "active energy",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "énergie active",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "puissance active intégrée dans le temps"
+        }
+      ],
+      "notes": [
+        {
+          "content": "L'énergie active est généralement exprimée en kWh ou MWh."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

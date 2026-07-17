@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "test",
-    "deu": "Prüfung"
+    "deu": "Prüfung",
+    "fra": "essai"
   },
   "eng": "test",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "essai",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "série d'opérations dont l'objectif est de vérifier la conformité de l'équipement soumis à l'essai avec certaines exigences"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

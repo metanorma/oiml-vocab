@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-30",
   "status": "valid",
   "designations": {
-    "eng": "harmonic"
+    "eng": "harmonic",
+    "fra": "harmonique"
   },
   "eng": "harmonic",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "harmonique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "partie d'un signal qui a une fréquence qui est un multiple entier de la fréquence fondamentale du signal"
+        }
+      ],
+      "notes": [
+        {
+          "content": "La fréquence fondamentale est généralement la fréquence nominale."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

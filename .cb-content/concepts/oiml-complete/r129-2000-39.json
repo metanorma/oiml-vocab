@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r129-2000-39",
   "status": "valid",
   "designations": {
-    "eng": "Test object"
+    "eng": "Test object",
+    "fra": "Objet d'essai"
   },
   "eng": "Test object",
   "groups": [
@@ -27,9 +28,26 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Objet d'essai",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Objet dont les dimensions sont vérifiées par des étalons de référence appropriés et prévues pour vérifier la conformité de l'EST à certaines exigences métrologiques."
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

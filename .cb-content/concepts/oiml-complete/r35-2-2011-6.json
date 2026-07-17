@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "fault",
-    "deu": "Fehler"
+    "deu": "Fehler",
+    "fra": "défaut"
   },
   "eng": "fault",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "différence entre l'erreur d'indication et l'erreur intrinsèque d'une mesure"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

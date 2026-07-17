@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "error (of measurement)",
-    "deu": "(Mess)abweichung"
+    "deu": "(Mess)abweichung",
+    "fra": "erreur (de l'instrument)"
   },
   "eng": "error (of measurement)",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur (de l'instrument)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur de la grandeur mesurée moins la valeur de référence de la grandeur"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r144-1-2013-20",
   "status": "valid",
   "designations": {
-    "eng": "fault"
+    "eng": "fault",
+    "fra": "défaut"
   },
   "eng": "fault",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "différence entre l'erreur d'indication et l'erreur intrinsèque d'un instrument de mesure"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les erreurs aléatoires présentant des variations dans l'indication, mais qui ne peuvent pas être interprétées, enregistrées ou transmises comme résultats de mesure sont considérés comme des défauts non significatifs."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }

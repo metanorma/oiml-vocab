@@ -5,7 +5,8 @@
   "status": "valid",
   "designations": {
     "eng": "equipment under test (EUT)",
-    "deu": "Prüfobjekt (EUT)"
+    "deu": "Prüfobjekt (EUT)",
+    "fra": "équipement soumis à l'essai (ESE)"
   },
   "eng": "equipment under test (EUT)",
   "groups": [
@@ -44,10 +45,27 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "équipement soumis à l'essai (ESE)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "mesure matérialisée de longueur ; également dénommée « mesure »"
+        }
+      ],
+      "notes": [],
+      "examples": []
     }
   },
   "languages": [
     "eng",
-    "deu"
+    "deu",
+    "fra"
   ]
 }

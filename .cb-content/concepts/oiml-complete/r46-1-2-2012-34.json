@@ -4,7 +4,8 @@
   "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r46-1-2-2012-34",
   "status": "valid",
   "designations": {
-    "eng": "power factor (PF)"
+    "eng": "power factor (PF)",
+    "fra": "facteur de puissance (FP)"
   },
   "eng": "power factor (PF)",
   "groups": [
@@ -27,9 +28,30 @@
       ],
       "notes": [],
       "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "facteur de puissance (FP)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "rapport de la puissance active sur la puissance apparente"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Dans des conditions sinusoïdales et soit en phase, soit en triphasé symétrique, le facteur de puissance = cosinus de la différence de phase entre la tension U et le courant I."
+        }
+      ],
+      "examples": []
     }
   },
   "languages": [
-    "eng"
+    "eng",
+    "fra"
   ]
 }
