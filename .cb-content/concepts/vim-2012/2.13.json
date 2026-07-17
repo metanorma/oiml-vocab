@@ -1,0 +1,85 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "2.13",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/2.13",
+  "status": "valid",
+  "designations": {
+    "eng": "measurement accuracy",
+    "fra": "exactitude de mesure"
+  },
+  "eng": "measurement accuracy",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measurement accuracy",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "accuracy of measurement",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "accuracy",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "closeness of agreement between a {{2.10,measured quantity value}} and a {{2.11,true quantity value}} of a {{2.3,measurand}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "The concept 'measurement accuracy' is not a {{1.1,quantity}} and is not given a {{1.20,numerical quantity value}}. A {{2.1,measurement}} is said to be more accurate when it offers a smaller {{2.16,measurement error}}."
+        },
+        {
+          "content": "The term \"measurement accuracy\" should not be used for {{2.14,measurement trueness}} and the term \"measurement precision\" should not be used for 'measurement accuracy', which, however, is related to both these concepts."
+        },
+        {
+          "content": "'Measurement accuracy' is sometimes understood as closeness of agreement between measured quantity values that are being attributed to the measurand."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "exactitude de mesure",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "exactitude",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "étroitesse de l'accord entre une {{2.10,valeur mesurée}} et une {{2.11,valeur vraie}} d'un {{2.3,mesurande}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "L'exactitude de mesure n'est pas une {{1.1,grandeur}} et ne s'exprime pas numériquement. Un {{2.1,mesurage}} est quelquefois dit plus exact s'il fournit une plus petite {{2.16,erreur de mesure}}."
+        },
+        {
+          "content": "Il convient de ne pas utiliser le terme «exactitude de mesure» pour la {{2.14,justesse de mesure}} et le terme «fidélité de mesure» pour l'exactitude de mesure. Celle-ci est toutefois liée aux concepts de justesse et de fidélité."
+        },
+        {
+          "content": "L'exactitude de mesure est quelquefois interprétée comme l'étroitesse de l'accord entre les valeurs mesurées qui sont attribuées au mesurande."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

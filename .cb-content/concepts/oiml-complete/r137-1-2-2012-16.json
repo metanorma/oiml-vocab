@@ -1,0 +1,71 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r137-1-2-2012-16",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r137-1-2-2012-16",
+  "status": "valid",
+  "designations": {
+    "eng": "weighted mean error (WME)",
+    "fra": "erreur moyenne pondérée (EMP)"
+  },
+  "eng": "weighted mean error (WME)",
+  "groups": [
+    "r-137"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "weighted mean error (WME)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "the weighted mean error (WME) within the scope of this Recommendation is defined as:"
+        },
+        {
+          "content": "WME = (sum_{i=1}^{n} k_i E_i) / (sum_{i=1}^{n} k_i)  with  k_i = Q_i / Q_max  for Q_i <= 0.7 Q_max"
+        },
+        {
+          "content": "k_i = 1.4 - Q_i / Q_max  for 0.7 Q_max < Q_i <= Q_max"
+        },
+        {
+          "content": "where: k_i = weighting factor at the flow rate Q_i; E_i = the error at the flow rate Q_i."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur moyenne pondérée (EMP)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "l'erreur moyenne pondérée (EMP), dans le cadre du champ d'application de cette Recommandation, est définie ainsi :"
+        },
+        {
+          "content": "EMP = (sum_{i=1}^{n} k_i E_i) / (sum_{i=1}^{n} k_i)  avec  k_i = Q_i / Q_max  pour Q_i <= 0.7 Q_max"
+        },
+        {
+          "content": "k_i = 1.4 - Q_i / Q_max  pour 0.7 Q_max < Q_i <= Q_max"
+        },
+        {
+          "content": "où : k_i = le facteur de pondération au débit Q_i ; E_i = l'erreur au débit Q_i."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

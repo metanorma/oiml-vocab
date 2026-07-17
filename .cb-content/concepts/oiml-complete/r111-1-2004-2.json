@@ -1,0 +1,77 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r111-1-2004-2",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r111-1-2004-2",
+  "status": "valid",
+  "designations": {
+    "eng": "balance",
+    "fra": "Balance"
+  },
+  "eng": "balance",
+  "groups": [
+    "r-111"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "balance",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Instrument indicating the apparent mass which is sensitive to the following forces:"
+        },
+        {
+          "content": "F_g = m × g   (Gravity)"
+        },
+        {
+          "content": "F_b = V × ρ_a × g = (m/ρ) ρ_a × g   (Buoyancy equal to the weight of the displaced air)"
+        },
+        {
+          "content": "F_z = μ_0 ∭_V (M + χH) (∂H/∂z) dV   (Vertical component of the magnetic interaction between the weight and the balance and/or the environment)."
+        },
+        {
+          "content": "If the magnetic effects are negligible, for example the permanent magnetization (M) of the weight and the magnetic susceptibility (χ) are sufficiently small and the balance is calibrated with reference weights of well-known value, the balance may be used to indicate the conventional mass, m_c, of a body under conventionally chosen conditions."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Balance",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Instrument indiquant la masse apparente qui est sensible aux forces suivantes :"
+        },
+        {
+          "content": "F_g = m × g   (Gravité)"
+        },
+        {
+          "content": "F_b = V × ρ_a × g = (m/ρ) ρ_a × g   (Poussée de l'air égale au poids de l'air déplacé)"
+        },
+        {
+          "content": "F_z = μ_0 ∭_V (M + χH) (∂H/∂z) dV   (Composante verticale de l'interaction magnétique entre le poids et la balance et/ou l'environnement)."
+        },
+        {
+          "content": "Si les effets magnétiques sont négligeables, par exemple la magnétisation permanente (M) du poids et la susceptibilité magnétique (χ) sont suffisamment petites et que la balance est étalonnée avec des poids de référence dont la valeur est bien connue, la balance peut être utilisée pour indiquer la masse conventionnelle, m_c, d'un corps sous des conditions choisies de manière conventionnelle."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

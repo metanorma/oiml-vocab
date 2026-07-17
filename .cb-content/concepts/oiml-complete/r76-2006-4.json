@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r76-2006-4",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r76-2006-4",
+  "status": "valid",
+  "designations": {
+    "fra": "Partial weighing range"
+  },
+  "eng": "Partial weighing range",
+  "groups": [
+    "r-76"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Partial weighing range",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Each partial range (index i=1,2,...) is defined by:\n\n- its verification scale interval, $ e_{i}, e_{i+1} > e_{i} $;\n\n- its maximum capacity, $ \\mathrm{M a x}_{i} $ ; and\n\n- its minimum capacity, $ \\mathrm{M i n}_{i}=\\mathrm{M a x}_{i-1} $ (for $ i=1 $ , the minimum capacity is $ \\mathrm{M i n}_{1}=\\mathrm{M i n} $ ).\n\nThe number of verification scale intervals, $ n_{i} $ , for each partial range is equal to $ \\operatorname{M a x}_{i} / e_{i}. $"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

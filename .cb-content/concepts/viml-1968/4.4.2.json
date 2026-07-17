@@ -1,0 +1,39 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "4.4.2",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/4.4.2",
+  "status": "valid",
+  "designations": {
+    "fra": "Équation entre unités de mesure"
+  },
+  "eng": "Équation entre unités de mesure",
+  "groups": [
+    "4"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Équation entre unités de mesure",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Équation dans laquelle les symboles littéraux représentent des unités de mesure. Cette équation a pour objet : soit de définir les unités de mesure des grandeurs dérivées, dans un certain système d'unités de mesure, à partir des unités des grandeurs de base ou des unités d'autres grandeurs dérivées de ce système, soit d'établir la relation entre l'unité de mesure d'une grandeur et ses multiples ou sous-multiples, soit de donner l'équivalence entre les unités de mesure d'une même grandeur dans des systèmes différents d'unités."
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "stem:[1 \"cm\" = 0.01 \"m\"]; stem:[1 \"m\"^2 = 1 \"m\" * 1 \"m\"]; stem:[1 \"W\" = 1 \"V\" * 1 \"A\"]; stem:[1 \"m\"//\"s\" = (1 \"m\")/(1 \"s\")]; stem:[1 \"kp\" = 1 \"kg\" * 9.80665 \"m\"//\"s\"^2 = 9.80665 \"N\"]. Généralement : l'équation entre unités de mesure de l'unité stem:[{x_{n+1}}] exprimée par les unités stem:[{x_1}{x_2}...{x_n}] est la suivante : stem:[{x_{n+1}} = \"K\" {x_1}^{alpha_1} {x_2}^{alpha_2} ... {x_n}^{alpha_n}] où stem:[alpha_1, alpha_2 ... alpha_n] et stem:[K] sont des valeurs numériques."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

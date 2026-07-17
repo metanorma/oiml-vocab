@@ -1,0 +1,61 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.31",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.31",
+  "status": "valid",
+  "designations": {
+    "eng": "combined standard measurement uncertainty",
+    "fra": "incertitude-type composée"
+  },
+  "eng": "combined standard measurement uncertainty",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "combined standard measurement uncertainty",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{2.30,standard measurement uncertainty}} that is obtained using the individual *standard measurement uncertainties* associated with the *input quantities in a measurement model*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "In case of correlations of input quantities in a measurement model, covariances must also be taken into account when calculating the combined standard measurement uncertainty; see also GUM, 2.3.4."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "incertitude-type composée",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{2.30,incertitude-type}} obtenue en utilisant les incertitudes-types individuelles associées aux *grandeurs d'entrée dans un modèle de mesure*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Lorsqu'il existe des corrélations entre les grandeurs d'entrée dans un modèle de mesure, il faut aussi prendre en compte des covariances dans le calcul de l'incertitude-type composée; voir aussi le GUM, 2.3.4."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

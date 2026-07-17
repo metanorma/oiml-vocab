@@ -1,0 +1,117 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "1.7",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/1.7",
+  "status": "valid",
+  "designations": {
+    "eng": "quantity dimension",
+    "fra": "dimension"
+  },
+  "eng": "quantity dimension",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "quantity dimension",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "dimension of a quantity",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "dimension",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "expression of the dependence of a {{1.1,quantity}} on the {{1.4,base quantities}} of a {{1.3,system of quantities}} as a product of powers of factors corresponding to the base quantities, omitting any numerical factor"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A power of a factor is the factor raised to an exponent. Each factor is the dimension of a base quantity."
+        },
+        {
+          "content": "The conventional symbolic representation of the dimension of a base quantity is a single upper case letter in roman (upright) sans-serif type. The conventional symbolic representation of the dimension of a {{1.5,derived quantity}} is the product of powers of the dimensions of the *base quantities* according to the definition of the derived quantity. The dimension of a quantity Qis denoted by stem:[dim Q]."
+        },
+        {
+          "content": "In deriving the dimension of a quantity, no account is taken of its scalar, vector, or tensor character."
+        },
+        {
+          "content": "In a given system of quantities,\n\n- quantities of the same {{1.2,kind}} have the same quantity dimension,\n- quantities of different quantity dimensions are always of different kinds, and\n- quantities having the same quantity dimension are not necessarily of the same kind."
+        },
+        {
+          "content": "Symbols representing the dimensions of the *base quantities* in the ISQ are:\n\n[cols=\"2\", options=\"header,unnumbered\"]\n|===\n| Base quantity +\nGrandeur de base\n| Symbol for dimension +\nSymbole de la dimension\n\n| length +\nlongueur\n| stem:[L]\n\n| mass +\nmasse\n| stem:[M]\n\n| time +\ntemps\n| stem:[T]\n\n| electric current +\ncourant électrique\n| stem:[I]\n\n| thermodynamic temperature +\ntempérature thermodynamique\n| stem:[Theta]\n\n| amount of substance +\nquantité de matière\n| stem:[N]\n\n| luminous intensity +\nintensité lumineuse\n| stem:[J]\n|===\n\nThus, the dimension of a quantity stem:[Q] is denoted by\nstem:[dim Q = L^{alpha} M^{beta} T^{gamma} I^{delta} Theta^{epsilon} N^{zeta} J^{eta}]\nwhere the exponents, named dimensional exponents, are positive, negative, or zero."
+        }
+      ],
+      "examples": [
+        {
+          "content": "In the {{1.6,ISQ}}, the quantity dimension of force is denoted by stem:[dim F = \"LMT\"^{-2}]."
+        },
+        {
+          "content": "In the same system of quantities, stem:[dim rho_B = \"ML\"^-3] is the quantity dimension of mass concentration of component stem:[B], and stem:[\"ML\"^-3] is also the quantity dimension of mass density, stem:[rho] (volumic mass)."
+        },
+        {
+          "content": "The period stem:[T] of a pendulum of length stem:[l] at a place with the local acceleration\nof free fall stem:[g] is\n\n[stem%unnumbered]\n++++\nT = 2 pi sqrt(l/g) quad \"or\" quad T = C(g) sqrt(l)\n++++\n\nwhere stem:[C(g) = L^{-1//2} \"unitsml(T)\"]\n\nHence stem:[dim C(g) = L^{-1//2} \"unitsml(T)\"]."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "dimension",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "dimension d'une grandeur",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "expression de la dépendance d'une {{1.1,grandeur}} par rapport aux {{1.4,grandeurs de base}} d'un {{1.3,système de grandeurs}} sous la forme d'un produit de puissances de facteurs correspondant aux grandeurs de base, en omettant tout facteur numérique"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Une puissance d'un facteur est le facteur muni d'un exposant. Chaque facteur exprime la dimension d'une grandeur de base."
+        },
+        {
+          "content": "Par convention, la représentation symbolique de la dimension d'une grandeur de base est une lettre majuscule unique en caractère romain (droit) sans empattement. Par convention, la représentation symbolique de la dimension d'une {{1.5,grandeur dérivée}} est le produit de puissances des dimensions des *grandeurs de base* conformément à la définition de la grandeur dérivée. La dimension de la grandeur stem:[Q] est notée stem:[dim Q]."
+        },
+        {
+          "content": "Pour établir la dimension d'une grandeur, on ne tient pas compte du caractère scalaire, vectoriel ou tensoriel."
+        },
+        {
+          "content": "Dans un système de grandeurs donné,\n- les grandeurs de même {{1.2,nature}} ont la même dimension,\n- des grandeurs de dimensions différentes sont toujours de nature différente,\n- des grandeurs ayant la même dimension ne sont pas nécessairement de même nature.\n"
+        },
+        {
+          "content": "Dans l'ISQ, les symboles correspondant aux dimensions des *grandeurs de base* sont:\n\n[cols=\"2\", options=\"header,unnumbered\"]\n|===\n| Base quantity +\nGrandeur de base\n| Symbol for dimension +\nSymbole de la dimension\n\n| length +\nlongueur\n| stem:[L]\n\n| mass +\nmasse\n| stem:[M]\n\n| time +\ntemps\n| stem:[T]\n\n| electric current +\ncourant électrique\n| stem:[I]\n\n| thermodynamic temperature +\ntempérature thermodynamique\n| stem:[Theta]\n\n| amount of substance +\nquantité de matière\n| stem:[N]\n\n| luminous intensity +\nintensité lumineuse\n| stem:[J]\n|===\n\nLa dimension d'une grandeur stem:[Q] est donc notée\nstem:[dim Q = L^{alpha} M^{beta} T^{gamma} I^{delta} Theta^{epsilon} N^{zeta} J^{eta}]\noù les exposants, appelés exposants dimensionnels, sont positifs, négatifs ou nuls.\n"
+        }
+      ],
+      "examples": [
+        {
+          "content": "Dans l'{{1.6,ISQ}}, la dimension de la force est notée stem:[dim F= LMT^-2]."
+        },
+        {
+          "content": "Dans le même système de grandeurs, stem:[dim rho_B = ML^-3] est la dimension de la concentration en masse du constituant stem:[B], et stem:[ML^-3] est aussi la dimension de la masse volumique stem:[rho]."
+        },
+        {
+          "content": "La période stem:[T] d'un pendule de longueur stem:[l] en un endroit où l'accélération\nlocale de la pesanteur vaut stem:[g] est\n\n[stem%unnumbered]\n++++\nT = 2pi sqrt(l/g) quad \"ou\" quad T = C(g) sqrt(l)\n++++\n\nPar conséquent, stem:[dim C(g) = L^{-1//2} \"unitsml(T)\"].\n"
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

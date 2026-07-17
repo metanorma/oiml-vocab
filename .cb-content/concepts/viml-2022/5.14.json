@@ -1,0 +1,61 @@
+{
+  "registerId": "viml-2022",
+  "conceptId": "5.14",
+  "uri": "https://oimlsmart.github.io/vocab/viml-2022/concept/5.14",
+  "status": "valid",
+  "designations": {
+    "eng": "significant fault",
+    "fra": "défaut significatif"
+  },
+  "eng": "significant fault",
+  "groups": [
+    "5"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "significant fault",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{5.12,fault}} exceeding the applicable {{5.13,fault limit}} value"
+        }
+      ],
+      "notes": [
+        {
+          "content": "For particular types of {{0.10,measuring instruments}} some {{5.12,faults}} exceeding the {{5.13,fault limit}} may not be considered a significant fault; the applicable Recommendation shall state when such exception applies. For example, the occurrence of one or some of the following faults may be acceptable:\n— faults arising from simultaneous and mutually independent causes originating in a measuring instrument or in its {{5.07,checking facilities}};\n— faults implying the impossibility to perform any measurement;\n— transitory faults being momentary variations in the {{0.03,indication}}, which cannot be interpreted, memorized or transmitted as a measurement result;\n— faults giving rise to variations in the measurement result that are serious enough to be noticed by all those interested in the measurement result; the applicable Recommendation may specify the nature of these variations."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut significatif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{5.12,défaut}} plus grand que le {{5.13,défaut limite}} applicable"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Pour des types d'{{0.10,instruments de mesure}} donnés, des {{5.12,défauts}} plus grands que le {{5.13,défaut limite}} peuvent ne pas être considérés comme significatifs ; la Recommandation applicable doit indiquer lorsque de telles exceptions s'appliquent. Par exemple, l'apparition d'un ou plusieurs des défauts suivants peut être acceptable :\n— défauts provenant de causes simultanées et mutuellement indépendantes (par exemple champs électromagnétiques et décharges) dans un instrument ou dans ses {{5.07,systèmes de contrôle}} ;\n— défauts rendant impossible l'accomplissement de toute mesure ;\n— défauts transitoires provenant de variations momentanées de l'{{0.03,indication}}, qui ne peuvent être interprétées, mises en mémoire ou transmises comme un résultat de mesure ;\n— défauts provoquant des variations du résultat de mesurage suffisamment importantes pour être identifiées par tous ceux intéressés par le résultat du mesurage ; la Recommandation applicable peut spécifier la nature de ces variations."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

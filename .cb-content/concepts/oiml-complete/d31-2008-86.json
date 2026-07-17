@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-86",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-86",
+  "status": "valid",
+  "designations": {
+    "spa": "Registro de fecha y hora"
+  },
+  "eng": "Registro de fecha y hora",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Registro de fecha y hora",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "El registro de fecha y hora se leerá del reloj del dispositivo. En función del tipo de instrumento, o del área de aplicación, ajustar el reloj puede ser legalmente relevante y se deben utilizar métodos de protección adecuados según el nivel de severidad aplicable (véase el apartado 5.1.3.2.c).\n\nEl reloj interno de un instrumento de medida autónomo tiende a tener una gran incertidumbre, ya que no existen medios para sincronizarlo con el reloj global. No obstante, si para un campo de aplicación específico se necesita información relativa al tiempo de medición, la fiabilidad del reloj interno del instrumento de medida se debe aumentar con medios específicos."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

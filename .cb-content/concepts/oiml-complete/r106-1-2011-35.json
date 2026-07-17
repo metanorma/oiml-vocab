@@ -1,0 +1,65 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r106-1-2011-35",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r106-1-2011-35",
+  "status": "valid",
+  "designations": {
+    "eng": "device-specific parameter",
+    "fra": "paramètre spécifique au dispositif"
+  },
+  "eng": "device-specific parameter",
+  "groups": [
+    "r-106"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "device-specific parameter",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "legally relevant parameter with a value that depends on the individual instrument"
+        },
+        {
+          "content": "such parameters comprise calibration parameters (e.g. span adjustments or corrections) and configuration parameters (e.g. maximum capacity, minimum capacity, units of measurement, etc)"
+        },
+        {
+          "content": "they are adjustable or selectable only in a special operational mode of the instrument and may be classified as those that should be secured (unalterable) and those that may be accessed (settable parameters) by an authorized person"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "paramètre spécifique au dispositif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "paramètre à caractère légal dont la valeur dépend de l'instrument pris individuellement"
+        },
+        {
+          "content": "de tels paramètres comprennent des paramètres d'étalonnage (par ex. réglages de pente ou corrections) et des paramètres de configuration (par ex. portée maximale, portée minimale, unités de mesure, etc.)"
+        },
+        {
+          "content": "ils ne peuvent être ajustés ou sélectionnés que dans un mode de fonctionnement spécial de l'instrument et peuvent être classés soit comme paramètres qui devraient être sécurisés (non modifiables), soit comme paramètres accessibles (paramètres configurables) par une personne autorisée"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

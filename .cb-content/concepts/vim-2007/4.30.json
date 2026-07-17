@@ -1,0 +1,73 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "4.30",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/4.30",
+  "status": "valid",
+  "designations": {
+    "eng": "calibration diagram",
+    "fra": "diagramme d'étalonnage"
+  },
+  "eng": "calibration diagram",
+  "groups": [
+    "4"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "calibration diagram",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "graphical expression of the relation between *indication* and corresponding *measurement result*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A calibration diagram is the strip of the plane defined by the axis of the indication and the axis of the measurement result, that represents the relation between an indication and a set of *measured quantity values*. A one-to-many relation is given, and the width of the strip for a given indication provides the *instrumental measurement uncertainty*."
+        },
+        {
+          "content": "Alternative expressions of the relation include a *calibration curve* and associated *measurement uncertainty*, a calibration table, or a set of functions."
+        },
+        {
+          "content": "This concept pertains to a *calibration* when the instrumental measurement uncertainty is large in comparison with the measurement uncertainties associated with the *quantity values* of *measurement standards*."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "diagramme d'étalonnage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "expression graphique de la relation entre une *indication* et le *résultat de mesure* correspondant"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Un diagramme d'étalonnage est la bande du plan défini par l'axe des indications et l'axe des résultats de mesure, qui représente la relation entre une indication et un ensemble de *valeurs mesurées*. Il correspond à une relation multivoque ; la largeur de la bande pour une indication donnée fournit l'*incertitude instrumentale*."
+        },
+        {
+          "content": "D'autres expressions de la relation consistent en une *courbe d'étalonnage* avec les *incertitudes de mesure* associées, en une table d'étalonnage ou en un ensemble de fonctions."
+        },
+        {
+          "content": "Le concept est relatif à un *étalonnage* quand l'incertitude instrumentale est grande par rapport aux incertitudes de mesure associées aux valeurs des *étalons*."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

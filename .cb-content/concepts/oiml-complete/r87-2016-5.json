@@ -1,0 +1,67 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r87-2016-5",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r87-2016-5",
+  "status": "valid",
+  "designations": {
+    "eng": "T1 error",
+    "fra": "erreur T1"
+  },
+  "eng": "T1 error",
+  "groups": [
+    "r-87"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "T1 error",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "deficiency that is greater than the applicable tolerable deficiency (T) (see 2.1.17) but not greater than twice the applicable tolerable deficiency (2T) for the given nominal quantity"
+        },
+        {
+          "content": "T1 error: $ (Q_{\\mathrm{nom}} - 2T) \\leq Q_{\\mathrm{i}} < (Q_{\\mathrm{nom}} - T) $ where $ Q_{\\mathrm{nom}} $ is the nominal quantity"
+        }
+      ],
+      "notes": [
+        {
+          "content": "See Annex G for an example of the application of errors."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur T1",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "manquant supérieur au manquant toléré applicable (T) (voir 2.1.17), mais pas supérieure à deux fois le manquant toléré applicable (2T) pour la quantité nominale donnée"
+        },
+        {
+          "content": "erreur T1: $ (Q_{\\mathrm{nom}}-2 T)\\leq Q_{\\mathrm{i}}<( Q_{\\mathrm{nom}}-T) $ avec $ Q_{\\mathrm{nom}} $ comme quantité nominale"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Voir annexe G pour un exemple d'application des erreurs."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

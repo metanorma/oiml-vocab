@@ -1,0 +1,73 @@
+{
+  "registerId": "vim-1993",
+  "conceptId": "3.8",
+  "uri": "https://oimlsmart.github.io/vocab/vim-1993/concept/3.8",
+  "status": "valid",
+  "designations": {
+    "eng": "experimental standard deviation",
+    "fra": "écart-type expérimental"
+  },
+  "eng": "experimental standard deviation",
+  "groups": [
+    "3"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "experimental standard deviation",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "for a series of stem:[n] measurements of the same measurand, the\nquantity stem:[s] characterizing the dispersion of the results and given by the formula:\n\n[stem%unnumbered]\n++++\ns = sqrt{frac{sum_{i=1}^n (x_i - bar x)^2}{n-1}}\n++++\n\nstem:[x_i] being the result of the ith measurement and stem:[bar x] being the arithmetic\nmean of the stem:[n] results considered\n"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Considering the series of stem:[n] values as a sample of a distribution, stem:[bar x] is an unbiased estimate of the mean stem:[mu], and stem:[s^2] is an unbiased estimate of the variance stem:[sigma^2] of that distribution."
+        },
+        {
+          "content": "The expression stem:[s//sqrt{n}] is an estimate of the standard deviation of the distribution of stem:[bar x] and is called the *experimental standard deviation of the mean*."
+        },
+        {
+          "content": "\"Experimental standard deviation of the mean\" is sometimes incorrectly called *standard error of the mean*."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "écart-type expérimental",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "pour une série de stem:[n] mesurages du même mesurande, grandeur stem:[s]\ncaractérisant la dispersion des résultats, donnée par la formule:\n\n[stem%unnumbered]\n++++\ns = sqrt{frac{sum_{i=1}^n (x_i - bar x)^2}{n-1}}\n++++\n\nstem:[x_i] étant le résultat du i^ème^ mesurage et stem:[bar x] la moyenne arithmétique\ndes stem:[n] résultats considérés\n"
+        }
+      ],
+      "notes": [
+        {
+          "content": "En considérant la série de stem:[n] valeurs comme échantillon d'une distribution, stem:[bar x] est un estimateur sans biais de la moyenne stem:[mu], et stem:[s^2] est un estimateur sans biais de la variance stem:[sigma^2] de cette distribution."
+        },
+        {
+          "content": "L'expression stem:[s//sqrt{n}] est une estimation de l'écart-type de la distribution de stem:[bar x] et est appelée *écart-type expérimental de la moyenne*."
+        },
+        {
+          "content": "L'écart-type expérimental de la moyenne est parfois appelé, à tort, *erreur de la moyenne*."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

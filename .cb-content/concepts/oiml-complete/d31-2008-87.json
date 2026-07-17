@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-87",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-87",
+  "status": "valid",
+  "designations": {
+    "spa": "Ejemplo:"
+  },
+  "eng": "Ejemplo:",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Ejemplo:",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "(II) La fiabilidad del dispositivo del reloj controlado por cuarzo del instrumento de medida se aumenta mediante redundancia: el reloj del microcontrolador, derivado de otro cristal de cuarzo, incrementa un temporizador. Cuando el valor del temporizador alcanza un valor preprogramado, p. ej. 1 segundo, se activa un flag específico del microcontrolador y una rutina de interrupción del programa incrementa un segundo contador. Al final de, por ejemplo un día, el software lee el dispositivo del reloj controlado por cuarzo y calcula la diferencia en los segundos contados por el software. Si la diferencia se encuentra dentro de los límites predefinidos, el contador de software se reestablece y el procedimiento se repite. Pero si la diferencia excede los límites, el software reacciona de forma adecuada ante el error."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

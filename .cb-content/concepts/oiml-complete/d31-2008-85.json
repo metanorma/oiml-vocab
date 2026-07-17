@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-85",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-85",
+  "status": "valid",
+  "designations": {
+    "spa": "Interrupción de la transmisión"
+  },
+  "eng": "Interrupción de la transmisión",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Interrupción de la transmisión",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Si los servicios de red dejan de ser accesibles, los datos de medida no se perderán. El proceso de medición debería detenerse para evitar la pérdida de datos de medida.\n\nNota: Debería considerarse distinguir entre las mediciones estáticas y las dinámicas.\n\nEjemplo:\n\n(I)/(II) El dispositivo emisor espera a que el receptor confirme la recepcion correcta del conjunto de datos. El dispositivo emisor conserva el conjunto de datos en una memoria intermedia (buffer) hasta que se recibe la confirmacion. La memoria intermedia puede tener capacidad para más de un conjunto de datos organizados como una cola $ \\mathrm{F I F O}^{5)}。 $"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

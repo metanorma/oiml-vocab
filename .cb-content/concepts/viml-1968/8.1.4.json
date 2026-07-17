@@ -1,0 +1,39 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.1.4",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.1.4",
+  "status": "valid",
+  "designations": {
+    "fra": "Loi de composition des erreurs"
+  },
+  "eng": "Loi de composition des erreurs",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Loi de composition des erreurs",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Loi reliant l'erreur commise sur le résultat d'un mesurage indirect d'une grandeur aux erreurs commises lors des mesurages directs des grandeurs composantes."
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "Si la grandeur stem:[Y] mesurée indirectement est liée avec les grandeurs composantes indépendantes stem:[X_1, X_2, ..., X_m] (mesurées directement) par l'équation : stem:[Y = F(X_1, X_2, ..., X_m)] a) l'erreur systématique stem:[Delta Y] de mesurage indirect de la grandeur stem:[Y] s'exprime (en général approximativement seulement) par la loi suivante de composition des erreurs : stem:[Delta Y = (partial F)/(partial X_1) Delta X_1 + (partial F)/(partial X_2) Delta X_2 + ... + (partial F)/(partial X_m) Delta X_m] où stem:[Delta X_1, Delta X_2, ..., Delta X_m] représentent les erreurs systématiques de mesurage direct des grandeurs stem:[X_1, X_2, ..., X_m]. b) L'écart moyen quadratique de mesurage indirect de la grandeur stem:[Y] s'exprime (en général approximativement seulement) par la loi suivante de composition des écarts moyens quadratiques : stem:[s_Y = sqrt(((partial F)/(partial X_1))^2 s_1^2 + ((partial F)/(partial X_2))^2 s_2^2 + ... + ((partial F)/(partial X_m))^2 s_m^2)] où stem:[s_1, s_2, ..., s_m] représentent les écarts moyens quadratiques de mesurage direct des grandeurs stem:[X_1, X_2, ..., X_m]. Les données partielles dans les formules ci-dessus doivent être calculées pour un point déterminé."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

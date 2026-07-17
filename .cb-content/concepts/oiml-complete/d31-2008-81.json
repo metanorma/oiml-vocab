@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-81",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-81",
+  "status": "valid",
+  "designations": {
+    "spa": "Ejemplo:"
+  },
+  "eng": "Ejemplo:",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Ejemplo:",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "(II) El programa de almacenamiento o envío genera una «firma electrónica», primero calculando el valor hash $ ^{3)} $ y posteriormente cifrando el valor hash con la clave secreta de un sistema público de claves $ ^{4)} $ . El resultado es la firma que se añade al conjunto de datos almacenados o transmitidos. El receptor también calcula el valor hash del conjunto de datos y descifra la firma añadida al conjunto de datos con la clave pública. Se compara el valor hash calculado con el descifrado. Si coinciden, el conjunto de datos no ha sido falsificado (la integridad queda demostrada). Para demostrar el origen del conjunto de datos el receptor debe saber si la clave pública pertenece al emisor, es decir, al dispositivo emisor. Por lo tanto, la clave pública se visualiza en el dispositivo indicador del instrumento de medida y se puede registrar una vez, por ejemplo junto con el número de serie del dispositivo cuando esté verificado legalmente en campo. Si el receptor está seguro de que utilizó la clave pública correcta para decodificar la firma, la autenticidad del conjunto de datos también queda demostrada."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

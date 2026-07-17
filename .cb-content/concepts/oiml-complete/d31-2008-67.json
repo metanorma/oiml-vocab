@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-67",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-67",
+  "status": "valid",
+  "designations": {
+    "spa": "Detección de fallos"
+  },
+  "eng": "Detección de fallos",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Detección de fallos",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "La Recomendación OIML pertinente puede requerir funciones de detección de ciertos fallos del instrumento (citadas en la OIML D 11:2004 (5.1.2 (b) y 5.3)). En este caso, se requerirá al fabricante del instrumento diseñar herramientas de comprobación en las partes del software o del hardware, o bien aportar medios a través de los cuales partes del software del instrumento puedan respaldar el funcionamiento de las partes del hardware.\n\nSi el software actúa en una detección de fallos, debe reaccionar de forma adecuada. La Recomendación OIML pertinente puede determinar que en caso de detectar un fallo, se desactive el instrumento/dispositivo electrónico o se genere una alarma/registro en un registro de errores.\n\nLa documentación presentada para la aprobación de modelo incluirá una lista de fallos detectables mediante el software y su reacción esperada y además, si fuera necesario para facilitar la comprensión, una descripción del algoritmo detector."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

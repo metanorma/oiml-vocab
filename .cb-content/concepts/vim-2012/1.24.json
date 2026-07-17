@@ -1,0 +1,69 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "1.24",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/1.24",
+  "status": "valid",
+  "designations": {
+    "eng": "conversion factor between units",
+    "fra": "facteur de conversion entre unités"
+  },
+  "eng": "conversion factor between units",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "conversion factor between units",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "ratio of two {{1.9,measurement units}} for {{1.1,quantities}} of the same {{1.2,kind}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "The *measurement units* may belong to different {{1.13,systems of units}}."
+        }
+      ],
+      "examples": [
+        {
+          "content": "stem:[\"unitsml(km/m)\" = 1000] and thus stem:[1 \"unitsml(km)\" = 1000 \"unitsml(m)\"]."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "facteur de conversion entre unités",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "rapport de deux {{1.9,unités de mesure}} correspondant à des {{1.1,grandeurs}} de même {{1.2,nature}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Les *unités de mesure* peuvent appartenir à des {{1.13,systèmes d'unités}} différents."
+        }
+      ],
+      "examples": [
+        {
+          "content": "stem:[\"unitsml(km/m)\" = 1000] et par conséquent stem:[1 \"unitsml(km)\" = 1000 \"unitsml(m)\"]."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

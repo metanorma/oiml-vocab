@@ -1,0 +1,83 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "2.50",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/2.50",
+  "status": "valid",
+  "designations": {
+    "eng": "input quantity in a measurement model",
+    "fra": "grandeur d'entrée dans un modèle de mesure"
+  },
+  "eng": "input quantity in a measurement model",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "input quantity in a measurement model",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "input quantity",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.1,quantity}} that must be measured, or a quantity, the {{1.19,value}} of which can be otherwise obtained, in order to calculate a {{2.10,measured quantity value}} of a {{2.3,measurand}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "An input quantity in a measurement model is often an output quantity of a {{3.2,measuring system}}."
+        },
+        {
+          "content": "{{4.1,Indications}}, {{2.53,corrections}} and {{2.52,influence quantities}} can be input quantities in a measurement model."
+        }
+      ],
+      "examples": [
+        {
+          "content": "When the length of a steel rod at a specified temperature is the measurand, the actual temperature, the length at that actual temperature, and the linear thermal expansion coefficient of the rod are input quantities in a measurement model."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "grandeur d'entrée dans un modèle de mesure",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "grandeur d'entrée",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "{{1.1,grandeur}} qui doit être mesurée, ou grandeur dont la {{1.19,valeur}} peut être obtenue autrement, pour calculer une {{2.10,valeur mesurée}} d'un {{2.3,mesurande}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Une grandeur d'entrée dans un modèle *de mesure* est souvent une grandeur de sortie d'un {{3.2,système de mesure}}."
+        },
+        {
+          "content": "Les {{4.1,indications}}, les {{2.53,corrections}} et les {{2.52,grandeurs d'influence}} sont des grandeurs d'entrée dans un modèle *de mesure*."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Lorsque le mesurande est la longueur d'une tige d'acier à une température spécifiée, la température réelle, la longueur à la température réelle et le coefficient de dilatation thermique linéique de la tige sont des grandeurs d'entrée dans un modèle de mesure."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

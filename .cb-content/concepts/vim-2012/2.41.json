@@ -1,0 +1,103 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "2.41",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/2.41",
+  "status": "valid",
+  "designations": {
+    "eng": "metrological traceability",
+    "fra": "traçabilité métrologique"
+  },
+  "eng": "metrological traceability",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "metrological traceability",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "property of a {{2.9,measurement result}} whereby the result can be related to a reference through a documented unbroken chain of {{2.39,calibrations}}, each contributing to the {{2.26,measurement uncertainty}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "For this definition, a 'reference' can be a definition of a {{1.9,measurement unit}} through its practical realization, or a {{2.6,measurement procedure}} including the measurement unit for a non-{{1.26,ordinal quantity}}, or a {{5.1,measurement standard}}."
+        },
+        {
+          "content": "Metrological traceability requires an established {{2.40,calibration hierarchy}}."
+        },
+        {
+          "content": "Specification of the reference must include the time at which this reference was used in establishing the calibration hierarchy, along with any other relevant metrological information about the reference, such as when the first calibration in the calibration hierarchy was performed."
+        },
+        {
+          "content": "For {{2.1,measurements}} with more than one {{2.50,input quantity in the measurement model}}, each of the input {{1.19,quantity values}} should itself be metrologically traceable and the calibration hierarchy involved may form a branched structure or a network. The effort involved in establishing metrological traceability for each input quantity value should be commensurate with its relative contribution to the measurement result."
+        },
+        {
+          "content": "Metrological traceability of a measurement result does not ensure that the measurement uncertainty is adequate for a given purpose or that there is an absence of mistakes."
+        },
+        {
+          "content": "A comparison between two measurement standards may be viewed as a calibration if the comparison is used to check and, if necessary, correct the quantity value and measurement uncertainty attributed to one of the measurement standards."
+        },
+        {
+          "content": "The ILAC considers the elements for confirming metrological traceability to be an unbroken {{2.42,metrological traceability chain}} to an {{5.2,international measurement standard}} or a {{5.3,national measurement standard}}, a documented measurement uncertainty, a documented measurement procedure, accredited technical competence, metrological traceability to the {{1.16,SI}}, and calibration intervals (see ILAC P-10:2002)."
+        },
+        {
+          "content": "The abbreviated term \"traceability\" is sometimes used to mean 'metrological traceability' as well as other concepts, such as 'sample traceability' or 'document traceability' or 'instrument traceability' or 'material traceability', where the history (\"trace\") of an item is meant. Therefore, the full term of \"metrological traceability\" is preferred if there is any risk of confusion."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "traçabilité métrologique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "propriété d'un {{2.9,résultat de mesure}} selon laquelle ce résultat peut être relié à une référence par l'intermédiaire d'une chaîne ininterrompue et documentée d'{{2.39,étalonnages}} dont chacun contribue à l'{{2.26,incertitude de mesure}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "La référence mentionnée dans la définition peut être une définition d'une {{1.9,unité de mesure}} sous la forme de sa réalisation pratique, une {{2.6,procédure de mesure}}, qui indique l'unité de mesure dans la cas d'une grandeur autre qu'une {{1.26,grandeur ordinale}}, ou un {{5.1,étalon}}."
+        },
+        {
+          "content": "La traçabilité métrologique nécessite l'existence d'une {{2.40,hiérarchie d'étalonnage}}."
+        },
+        {
+          "content": "La spécification de la référence doit comprendre la date où cette référence a été utilisée dans l'établissement d'une hiérarchie d'étalonnage, ainsi que d'autres informations métrologiques pertinentes concernant la référence, telles que la date où a été effectué le premier étalonnage de la hiérarchie."
+        },
+        {
+          "content": "Pour des {{2.1,mesurages}} comportant plus d'une seule {{2.50,grandeur d'entrée dans le modèle de mesure}}, chaque {{1.19,valeur}} d'entrée devrait être elle-même métrologiquement traçable et la hiérarchie d'étalonnage peut prendre la forme d'une structure ramifiée ou d'un réseau. Il convient que l'effort consacré à établir la traçabilité métrologique de chaque valeur d'entrée soit proportionné à sa contribution relative au résultat de mesure."
+        },
+        {
+          "content": "La traçabilité métrologique d'un résultat de mesure n'assure pas l'adéquation de l'incertitude de mesure à un but donné ou l'absence d'erreurs humaines."
+        },
+        {
+          "content": "Une comparaison entre deux étalons peut être considérée comme un étalonnage si elle sert à vérifier et, si nécessaire, à corriger la valeur et l'incertitude attribuées à l'un des étalons."
+        },
+        {
+          "content": "L'ILAC considère que les éléments nécessaires pour confirmer la traçabilité métrologique sont une {{2.42,chaîne de traçabilité métrologique}} ininterrompue à un {{5.2,étalon international}} ou un {{5.3,étalon national}}, une incertitude de mesure documentée, une procédure de mesure documentée, une compétence technique reconnue, la traçabilité métrologique au {{1.16,SI}} et des intervalles entre *étalonnages* (voir ILAC P-10:2002)."
+        },
+        {
+          "content": "Le terme abrégé «traçabilité» est quelquefois employé pour désigner la traçabilité métrologique, ainsi que d'autres concepts tels que la traçabilité d'un spécimen, d'un document, d'un instrument ou d'un matériau, où intervient l'historique (la trace) d'une entité. Il est donc préférable d'utiliser le terme complet «traçabilité métrologique » s'il y a risque de confusion."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

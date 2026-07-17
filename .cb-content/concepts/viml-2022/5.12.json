@@ -1,0 +1,67 @@
+{
+  "registerId": "viml-2022",
+  "conceptId": "5.12",
+  "uri": "https://oimlsmart.github.io/vocab/viml-2022/concept/5.12",
+  "status": "valid",
+  "designations": {
+    "eng": "fault",
+    "fra": "défaut"
+  },
+  "eng": "fault",
+  "groups": [
+    "5"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "fault",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "difference between the {{0.04,error of indication}} and the {{0.06,intrinsic error}} of a measuring instrument"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Principally, a fault is the result of an undesired change of data contained in or flowing through an electronic {{0.10,measuring instrument}}."
+        },
+        {
+          "content": "From the definition it follows that a \"fault\" is a numerical value which is expressed either in a unit of measurement or as a relative value, for instance as a percentage."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "différence entre l'{{0.04,erreur d'indication}} et l'{{0.06,erreur intrinsèque}} d'un instrument de mesure"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Principalement, une faute est le résultat d'une modification non désirée des données contenues dans ou transitant par un {{0.10,instrument de mesure}} électronique."
+        },
+        {
+          "content": "Il découle de la définition qu'une « faute » est une valeur numérique exprimée, soit en unité de mesure, soit en valeur relative, par exemple sous forme d'un pourcentage."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

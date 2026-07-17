@@ -1,0 +1,48 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "9.2",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/9.2",
+  "status": "valid",
+  "designations": {
+    "fra": "Étendue de mesurage"
+  },
+  "eng": "Étendue de mesurage",
+  "groups": [
+    "9"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Étendue de mesurage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Étendue des valeurs de la grandeur à mesurer pour lesquelles les indications d'un instrument de mesurage, obtenues dans les conditions usuelles d'emploi en un seul mesurage, ne doivent pas être entachées d'une erreur supérieure à l'erreur maximale tolérée."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Dans certains cas, les valeurs absolues des erreurs maximales tolérées peuvent être respectées dans l'étendue de la portée minimale, mais alors les erreurs relatives risquent de devenir trop importantes pour permettre l'utilisation pratique de l'instrument (cas des environs du zéro)."
+        },
+        {
+          "content": "Certains instruments de mesurage peuvent avoir plusieurs étendues de mesurage."
+        },
+        {
+          "content": "L'étendue de mesurage peut être couverte par l'étendue de l'échelle (7.4.2.1) ou bien elle peut n'en constituer qu'une partie seulement. Aux instruments de la première catégorie appartiennent entre autres : les thermomètres médicaux, les aréométres, etc... Comme exemple des Instruments de la deuxième catégorie, on peut citer les manomètres à tube Bourdon avec lesquels on ne doit pas mesurer des pressions, d'une part, au-dessous d'une certaine valeur car l'erreur des indications serait alors excessive, d'autre part, au-dessus d'une certaine valeur par suite d'une résistance et d'une durabillité Insuffisantes (les conditions usuelles d'emploi et des raisons de sécurité n'autorisent d'ailleurs pas l'utilisation de ces manomètres dans cette dernière zone, quoique les erreurs puissent éventuellement y rester dans les limites tolérées)."
+        },
+        {
+          "content": "Pour les compteurs, au lleu de l'étendue de mesurage de la grandeur mesurée (p. ex. pour les compteur d'eau : le volume), on applique l'étendue des charges (par ex. pour les compteurs d'eau : le débit)."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "9.4",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/9.4",
+  "status": "valid",
+  "designations": {
+    "fra": "Sensibilité d'un instrument de mesurage"
+  },
+  "eng": "Sensibilité d'un instrument de mesurage",
+  "groups": [
+    "9"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Sensibilité d'un instrument de mesurage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "La sensibilité d'un instrument de mesurage, pour une valeur donnée de la grandeur mesurée, s'exprime par le quotient de l'accroissement de la variable observée par l'accroissement correspondant de la grandeur mesurée : stem:[k = (d l)/(d G)]"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Dans les instruments les plus courants, où l'accroissement de la variable observée se traduit par le déplacement relatif d'un index et d'une échelle, la sensibilité s'exprime conventionnellement par le quotient de ce déplacement stem:[dl] le long de la base de l'échelle par l'accroissement stem:[dG] de la grandeur mesurée qui l'a provoqué. Cette valeur peut être constante ou variable le long de l'échelle."
+        },
+        {
+          "content": "En pratique, on peut prendre comme valeur de la sensibilité des instruments de mesurage à échelle le quotient de la longueur de l'échelon par la valeur de celui-ci."
+        },
+        {
+          "content": "Dans le cas où le numérateur et le dénominateur sont des grandeurs de la même espèce, la sensibilité s'appelle rapport de transmission."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r123-1997-2",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r123-1997-2",
+  "status": "valid",
+  "designations": {
+    "eng": "Detection limit",
+    "fra": "Limite de détection"
+  },
+  "eng": "Detection limit",
+  "groups": [
+    "r-123"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "Detection limit",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Concentration of an element which provides an output signal equivalent to three times the standard deviation of the background. It is the minimum quantity of an element that can be detected."
+        }
+      ],
+      "notes": [
+        {
+          "content": "For this Recommendation, it may be derived from the statistical variation in the background using the equation D = 3(B/t)^(1/2)/S."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Limite de détection",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Concentration d'un élément fournissant un signal de sortie équivalent à trois fois l'écart type du fond de rayonnement. Il s'agit de la quantité minimale détectable d'un élément."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Lorsqu'appliquée dans une méthode de mesurage ou pour une analyse, la limite de quantification de l'instrument constitue un paramètre important. Elle est définie comme étant une valeur égale à 10 fois l'écart type du fond de rayonnement et devrait aussi inclure les variations associées à l'échantillonnage et à l'analyse."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d25-2010-3",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d25-2010-3",
+  "status": "valid",
+  "designations": {
+    "eng": "linearity",
+    "fra": "linéarité"
+  },
+  "eng": "linearity",
+  "groups": [
+    "d-25"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "linearity",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Linearity, L, refers to the constancy of the K-factor over a specific range, either defined by the pipe Reynolds number or by the flowrate (see Figure 3)."
+        },
+        {
+          "content": "This linear range is usually specified by a band defined by maximum and minimum K-factors, within which the K-factor is assumed to be equal to K_mean."
+        },
+        {
+          "content": "In equation form, linearity is defined as: L = ± (K_max − K_min) / (2 × K_mean) × 100%."
+        },
+        {
+          "content": "The upper and lower limits of this range can be specified by the manufacturer either as a maximum and minimum Reynolds number range or as a flowrate range of a specified fluid and other meter design limitations such as fluid velocity profile, viscosity, density, pressure, temperature or installation effects (see clause 5)."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "linéarité",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "La linéarité, L, se rapporte à la constance du facteur K sur une étendue spécifique, définie soit par le nombre de Reynolds de la canalisation, soit par le débit (voir Figure 3)."
+        },
+        {
+          "content": "Cette étendue linéaire est en général spécifiée par une bande définie par les facteurs K maximum et minimum, à l'intérieur de laquelle le facteur K est supposé être égal à K_moyen."
+        },
+        {
+          "content": "Sous forme d'équation, la linéarité est définie par: L = ± (K_max − K_min) / (2 × K_moyen) × 100%."
+        },
+        {
+          "content": "Les limites supérieure et inférieure de cette étendue peuvent être spécifiées par le fabricant soit par les nombres de Reynolds maximum et minimum, soit par une étendue de débits pour un fluide spécifié et autres limitations liées à la conception du compteur, telles que les effets du profil de vitesses du fluide, de la viscosité, de la masse volumique, de la pression, de la température, et de l'installation (voir article 5)."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

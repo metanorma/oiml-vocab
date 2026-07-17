@@ -1,0 +1,53 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r21-2007-25",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r21-2007-25",
+  "status": "valid",
+  "designations": {
+    "eng": "initial hire fee (or initial charge)",
+    "pol": "Prедkość graniczna"
+  },
+  "eng": "initial hire fee (or initial charge)",
+  "groups": [
+    "r-21"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "initial hire fee (or initial charge)",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "First increment of fare indication upon activation of the taximeter."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    },
+    "pol": {
+      "languageCode": "pol",
+      "terms": [
+        {
+          "designation": "Prедkość graniczna",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Prędkość taksówki (km/h), przy której metody liczenia cząsrogi obsługuj taksometr w tej samej wysoko. Wartość prędkości jest okrślana poprzez podzielenie warto taryfy czasowej przez warto obowiązujcej taryfy drogowej.\n\nPrędkość graniczną oblicza się jako:\n\nTaryfa czasowa [kwota/h]\n\nTaryfa drogowa [kwota/km]\n\nNa przykład:\n\nTaryfa czasowa: 60,00$/h\n\nTaryfa drogowa: 3,00$/km\n\nPrédkość graniczna [km/h]:\n\n$$\n\\frac {6 0 , 0 0 \\$/ h}{3 , 0 0 \\$/ k m} = 2 0 \\mathrm {k m} / \\mathrm {h}\n$$"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "pol"
+  ]
+}

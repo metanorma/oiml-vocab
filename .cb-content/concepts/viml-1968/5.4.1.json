@@ -1,0 +1,46 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "5.4.1",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/5.4.1",
+  "status": "valid",
+  "designations": {
+    "fra": "Résultat brut d'un mesurage"
+  },
+  "eng": "Résultat brut d'un mesurage",
+  "groups": [
+    "5"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Résultat brut d'un mesurage",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Résultat d'un mesurage avant corrections (8.1.1.1) et avant la détermination de l'incertitude de mesurage (8.1.8.3 ou 8.1.8.4)."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Lors d'une série de mesurages d'une même grandeur, le résultat brut du mesurage est la moyenne arithmétique des résultats bruts des mesurages particuliers."
+        }
+      ],
+      "examples": [
+        {
+          "content": "On a mesuré à l'aide d'un pied à coulisse le diamètre d'un cylindre ; l'indication lue sur l'instrument : 14,7 mm représente le résultat brut du mesurage."
+        },
+        {
+          "content": "Si dans une série de 10 mesurages du même cylindre on a obtenu en mm les valeurs : 14,9 ; 14,6 ; 14,8 ; 14,6 ; 14,9 ; 14,7 ; 14,7 ; 14,8 ; 14,9 ; 14,8, le résultat brut de cette série de mesurages sera : $$ d = \\frac {1 4 , 9 + 1 4 , 6 + \\dots + 1 4 , 8}{1 0} = 1 4, 7 7 \\mathrm {m m} \\approx 1 4, 8 \\mathrm {m m} $$"
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

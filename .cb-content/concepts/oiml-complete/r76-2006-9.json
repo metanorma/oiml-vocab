@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r76-2006-9",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r76-2006-9",
+  "status": "valid",
+  "designations": {
+    "fra": "Verification scale interval"
+  },
+  "eng": "Verification scale interval",
+  "groups": [
+    "r-76"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Verification scale interval",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "The verification scale interval, e, is determined by the expression:\n\n$$\nd < e \\leq 1 0 d (\\mathrm {s e e T a b l e s 5 a a n d 5 b})\n$$\n\n$$\ne = 1 0 ^ {k} \\mathrm {k g}\n$$\n\nk being a positive or negative whole number, or zero.\n\nFor a self- or semi-self-indicating instrument, see 4.2.2.1.\n\n<div align=\"center\">\n\nTable 5a - Example values of e, calculated following this rule\n\n</div>\n\n<table border=\"1\"><tr><td>d=</td><td>0.1g</td><td>0.2g</td><td>0.5g</td></tr><tr><td>e=</td><td>1g</td><td>1g</td><td>1g</td></tr><tr><td>e=</td><td>10d</td><td>5d</td><td>2d</td></tr></table>\n\nThis requirement does not apply to an instrument of class I with d<1 mg, where e=1 mg, as shown in the following Table.\n\n<div align=\"center\">\n\nTable 5b - Example values of e where d < 1 mg\n\n</div>\n\n<table border=\"1\"><tr><td>d=</td><td>0.01mg</td><td>0.02mg</td><td>0.05mg</td><td>&lt;0.01mg</td></tr><tr><td>e=</td><td>1mg</td><td>1mg</td><td>1mg</td><td>1mg</td></tr><tr><td>e=</td><td>100d</td><td>50d</td><td>20d</td><td>&gt;100d</td></tr></table>"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

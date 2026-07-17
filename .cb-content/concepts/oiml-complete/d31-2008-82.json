@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-82",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-82",
+  "status": "valid",
+  "designations": {
+    "spa": "Almacenamiento automático"
+  },
+  "eng": "Almacenamiento automático",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Almacenamiento automático",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "5. 2.3.4.a Si, en función de la aplicación, es necesario almacenar datos, los datos de medida deben almacenarse de forma automática al concluir la medición, es decir, cuando se haya generado el valor final utilizado con fines legales.\n\nEl dispositivo de almacenamiento debe tener permanencia suficiente como para garantizar que los datos no son corrompidos en condiciones normales de almacenamiento. La capacidad de almacenamiento debe ser suficiente para cada aplicación particular.\n\nCuando el valor final utilizado con fines legales resulta de un cálculo, todos los datos necesarios para dicho cálculo se deben almacenar de forma automática con el valor final.\n\nNota: Los valores de medida acumulativos como, por ejemplo, la energía eléctrica o el volumen de gas se deben actualizar constantemente. Como siempre se utiliza el mismo dominio de datos (variable del programa), el requisito relativo a la capacidad de almacenamiento no se aplica en mediciones acumulativas."
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

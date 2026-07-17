@@ -1,0 +1,43 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "8.1.5.2",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/8.1.5.2",
+  "status": "valid",
+  "designations": {
+    "fra": "Valeur absolue de l'erreur"
+  },
+  "eng": "Valeur absolue de l'erreur",
+  "groups": [
+    "8"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Valeur absolue de l'erreur",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Valeur de l'erreur, abstraction faite de son signe."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Il faut faire une distinction entre le terme « erreur absolue » et le terme « valeur absolue de l'erreur »; dans ce dernier cas, le qualificatif « absolue » se rapporte seulement au signe."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Si l'erreur maximale tolérée d'un instrument de mesurage est égale à stem:[pm 0.2 \"mm\"], la valeur absolue de cette erreur est stem:[|pm 0.2| \"mm\" = 0.2 \"mm\"]. Dans l'exemple cité ci-dessus la valeur absolue de l'erreur est aussi stem:[|pm 0.2| \"mm\" = 0.2 \"mm\"]."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

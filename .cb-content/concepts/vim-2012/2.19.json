@@ -1,0 +1,81 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "2.19",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/2.19",
+  "status": "valid",
+  "designations": {
+    "eng": "random measurement error",
+    "fra": "erreur aléatoire"
+  },
+  "eng": "random measurement error",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "random measurement error",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "random error of measurement",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "random error",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "component of {{2.16,measurement error}} that in replicate {{2.1,measurements}} varies in an unpredictable manner"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A {{5.18,reference quantity value}} for a random measurement error is the average that would ensue from an infinite number of replicate measurements of the same {{2.3,measurand}}."
+        },
+        {
+          "content": "Random measurement errors of a set of replicate measurements form a distribution that can be summarized by its expectation, which is generally assumed to be zero, and its variance."
+        },
+        {
+          "content": "Random measurement error equals measurement error minus {{2.17,systematic measurement error}}."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur aléatoire",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "composante de l'{{2.16,erreur de mesure}} qui, dans des {{2.1,mesurages}} répétés, varie de façon imprévisible"
+        }
+      ],
+      "notes": [
+        {
+          "content": "La {{5.18,valeur de référence}} pour une erreur aléatoire est la moyenne qui résulterait d'un nombre infini de *mesurages* répétés du même {{2.3,mesurande}}."
+        },
+        {
+          "content": "Les erreurs aléatoires d'un ensemble de *mesurages* répétés forment une distribution qui peut être résumée par son espérance mathématique, généralement supposée nulle, et par sa variance."
+        },
+        {
+          "content": "L'erreur aléatoire est égale à la différence entre l'erreur de mesure et l'{{2.17,erreur systématique}}."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "1.20",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/1.20",
+  "status": "valid",
+  "designations": {
+    "eng": "numerical quantity value",
+    "fra": "valeur numérique"
+  },
+  "eng": "numerical quantity value",
+  "groups": [
+    "1"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "numerical quantity value",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "numerical value of a quantity",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "numerical value",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "number in the expression of a {{1.19,quantity value}}, other than any number serving as the reference"
+        }
+      ],
+      "notes": [
+        {
+          "content": "For {{1.8,quantities of dimension one}}, the reference is a {{1.9,measurement unit}} which is a number and this is not considered as a part of the numerical quantity value."
+        },
+        {
+          "content": "For {{1.1,quantities}} that have a measurement unit (i.e. those other than {{1.26,ordinal quantities}}), the numerical value stem:[{Q}] of a quantity stem:[Q] is frequently denoted stem:[{Q} = Q//[Q\\]], where stem:[[Q\\]] denotes the measurement unit."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "valeur numérique",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "valeur numérique d'une grandeur",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "nombre dans l'expression de la {{1.19,valeur d'une grandeur}}, autre qu'un nombre utilisé comme référence"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Pour les {{1.8,grandeurs sans dimension}}, la référence est une {{1.9,unité de mesure}} qui est un nombre, et ce nombre n'est pas considéré comme faisant partie de la valeur numérique"
+        },
+        {
+          "content": "Pour les {{1.1,grandeurs}} qui ont une unité de mesure (c'est-à-dire autres que les {{1.26,grandeurs ordinales}}), la valeur numérique stem:[{Q}] d'une grandeur stem:[Q] est fréquemment notée stem:[{Q} = Q//[Q\\]], où stem:[[Q\\]] est le symbole de l'unité de mesure"
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "4.5",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/4.5",
+  "status": "valid",
+  "designations": {
+    "eng": "range of a nominal indication interval",
+    "fra": "étendue de mesure"
+  },
+  "eng": "range of a nominal indication interval",
+  "groups": [
+    "4"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "range of a nominal indication interval",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "absolute value of the difference between the extreme *quantity values* of a *nominal indication interval*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Range of a nominal indication interval is sometimes termed \"span of a nominal interval\"."
+        }
+      ],
+      "examples": [
+        {
+          "content": "For a nominal indication interval of stem:[-10 \"unitsml(V)\"] to stem:[+10 \"unitsml(V)\"], the range of the nominal indication interval is stem:[20 \"unitsml(V)\"]"
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "étendue de mesure",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "étendue nominale",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "valeur absolue de la différence entre les valeurs extrêmes d'un *intervalle nominal des indications*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "En anglais, l'étendue de mesure est quelquefois dénommée « span of a nominal interval ». En français, le terme « intervalle de mesure » est parfois improprement employé."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Pour un intervalle nominal des indications de stem:[-10 \"unitsml(V)\"] à stem:[+10 \"unitsml(V)\"], l'étendue de mesure est stem:[20 \"unitsml(V)\"]"
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r75-1-2002-24",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r75-1-2002-24",
+  "status": "valid",
+  "designations": {
+    "eng": "significant fault",
+    "fra": "défaut significatif"
+  },
+  "eng": "significant fault",
+  "groups": [
+    "r-75"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "significant fault",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Fault greater than the absolute value of the MPE which is not a transitory fault."
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "If the MPE is ± 2 %, then the significant fault is a fault larger than 2 %."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "défaut significatif",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Défaut supérieur à la valeur absolue de l'EMT et qui n'est pas temporaire."
+        }
+      ],
+      "notes": [],
+      "examples": [
+        {
+          "content": "Si l'EMT est de ± 2 %, le défaut significatif est alors un défaut supérieur à 2 %."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.26",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.26",
+  "status": "valid",
+  "designations": {
+    "eng": "measurement uncertainty",
+    "fra": "incertitude de mesure"
+  },
+  "eng": "measurement uncertainty",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measurement uncertainty",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "uncertainty of measurement",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "uncertainty",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "non-negative parameter characterizing the dispersion of the *quantity values* being attributed to a *measurand*, based on the information used"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Measurement uncertainty includes components arising from systematic effects, such as components associated with *corrections* and the assigned quantity values of *measurement standards*, as well as the {{2.27,definitional uncertainty}}. Sometimes estimated systematic effects are not corrected for but, instead, associated measurement uncertainty components are incorporated."
+        },
+        {
+          "content": "The parameter may be, for example, a standard deviation called *standard measurement uncertainty* (or a specified multiple of it), or the half-width of an interval, having a stated {{2.37,coverage probability}}."
+        },
+        {
+          "content": "Measurement uncertainty comprises, in general, many components. Some of these may be evaluated by {{2.28,Type A evaluation of measurement uncertainty}} from the statistical distribution of the quantity values from series of *measurements* and can be characterized by standard deviations. The other components, which may be evaluated by {{2.29,Type B evaluation of measurement uncertainty}}, can also be characterized by standard deviations, evaluated from probability density functions based on experience or other information."
+        },
+        {
+          "content": "In general, for a given set of information, it is understood that the measurement uncertainty is associated with a stated quantity value attributed to the measurand. A modification of this value results in a modification of the associated uncertainty."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "incertitude de mesure",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "incertitude",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "paramètre non négatif qui caractérise la dispersion des *valeurs* attribuées à un {{2.3,mesurande}}, à partir des informations utilisées"
+        }
+      ],
+      "notes": [
+        {
+          "content": "L'incertitude de mesure comprend des composantes provenant d'effets systématiques, telles que les composantes associées aux *corrections* et aux *valeurs assignées* des *étalons*, ainsi que l'{{2.27,incertitude définitionnelle}}. Parfois, on ne corrige pas des effets systématiques estimés, mais on insère plutôt des composantes associées de l'incertitude."
+        },
+        {
+          "content": "Le paramètre peut être, par exemple, un écart-type appelé {{2.30,incertitude-type}} (ou un de ses multiples) ou la demi-étendue d'un intervalle ayant une *probabilité de couverture* déterminée."
+        },
+        {
+          "content": "L'incertitude de mesure comprend en général de nombreuses composantes. Certaines peuvent être évaluées par une {{2.28,évaluation de type A de l'incertitude}} à partir de la distribution statistique des valeurs provenant de séries de *mesurages* et peuvent être caractérisées par des écarts-types. Les autres composantes, qui peuvent être évaluées par une {{2.29,évaluation de type B de l'incertitude}}, peuvent aussi être caractérisées par des écarts-types, évalués à partir de fonctions de densité de probabilité fondées sur l'expérience ou d'autres informations."
+        },
+        {
+          "content": "En général, pour des informations données, on sous-entend que l'incertitude de mesure est associée à une valeur déterminée attribuée au mesurande. Une modification de cette valeur entraîne une modification de l'incertitude associée."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

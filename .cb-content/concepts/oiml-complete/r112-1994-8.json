@@ -1,0 +1,63 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r112-1994-8",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r112-1994-8",
+  "status": "valid",
+  "designations": {
+    "eng": "noise",
+    "fra": "Bruit"
+  },
+  "eng": "noise",
+  "groups": [
+    "r-112"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "noise",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "A measure of variation in the detector signal."
+        }
+      ],
+      "notes": [
+        {
+          "content": "Short-term noise includes all observable random variations of the detector signal having a frequency of the order of 10^-2 Hz to 10^-1 Hz and should be measured peak to peak."
+        },
+        {
+          "content": "Long-term noise includes all observable random variations of the detector signal with frequencies between 0.1 Hz and 1.0 Hz."
+        },
+        {
+          "content": "Drift is the average slope of the baseline signal measured over a minimum period of one-half hour."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Bruit",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [],
+      "notes": [
+        {
+          "content": "Bien que le bruit à long terme puisse se produire à tout moment pendant une analyse, il arrive qu'on le confonde avec un éluant tardif. Les pics d'élution précédents sont habituellement plus nets et moins facilement confondus avec le bruit à long terme."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

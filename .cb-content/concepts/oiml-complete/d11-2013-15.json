@@ -1,0 +1,69 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d11-2013-15",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d11-2013-15",
+  "status": "valid",
+  "designations": {
+    "eng": "influence quantity",
+    "fra": "grandeur d'influence"
+  },
+  "eng": "influence quantity",
+  "groups": [
+    "d-11"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "influence quantity",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "quantity that, in a direct measurement, does not affect the quantity that is actually measured, but affects the relation between the indication and the measurement result"
+        }
+      ],
+      "notes": [
+        {
+          "content": "An influence quantity is not related to the measurand but is a quantity that affects the result of the measurement as indicated by the equipment under test (EUT)."
+        }
+      ],
+      "examples": [
+        {
+          "content": "The temperature of a measuring instrument is an influence quantity, but the temperature of the measured object (used as a reference for determining the fault or the error) is not. This influence of the environment on this measured object may need to be taken into consideration as a contributor in the definition of the measurand."
+        }
+      ]
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "grandeur d'influence",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "grandeur qui, dans un mesurage direct, n'affecte pas la grandeur qui est réellement mesurée, mais affecte la relation entre l'indication et le résultat de mesure"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Une grandeur d'influence n'est pas reliée au mesurande mais, c'est une grandeur qui affecte le résultat de mesurage comme indiqué par l'équipement sous test (ESE)."
+        }
+      ],
+      "examples": [
+        {
+          "content": "La température d'un instrument de mesure est une grandeur d'influence, mais la température de l'objet mesuré (utilisée comme une référence pour déterminer le défaut ou l'erreur) ne l'est pas. Il peut être nécessaire de prendre en considération cette influence de l'environnement sur cet objet mesuré comme un facteur dans la définition du mesurande."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

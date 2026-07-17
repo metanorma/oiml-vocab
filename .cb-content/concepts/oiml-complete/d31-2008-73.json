@@ -1,0 +1,35 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "d31-2008-73",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/d31-2008-73",
+  "status": "valid",
+  "designations": {
+    "spa": "Separación de dispositivos electrónicos y subconjuntos"
+  },
+  "eng": "Separación de dispositivos electrónicos y subconjuntos",
+  "groups": [
+    "d-31"
+  ],
+  "tags": [],
+  "localizations": {
+    "spa": {
+      "languageCode": "spa",
+      "terms": [
+        {
+          "designation": "Separación de dispositivos electrónicos y subconjuntos",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "5. 2.1.1.a Los subconjuntos o dispositivos electrónicos de un sistema de medida que llevan a cabo funciones legalmente relevantes se deben identificar, definir claramente y documentar. Éstos constituyen la parte legalmente relevante del sistema de medida.\n\nNota: El evaluador establece si esta parte está completa y si las demás partes del sistema de medida se pueden excluir en posteriores evaluaciones.\n\nEjemplo:\n\n(1) (I)/(II) Un contador de energía eléctrica dispone de una interfaz óptica para conectar un dispositivo electrónico que lea valores de medida. El contador almacena todas las magnitudes relevantes y conserva los valores disponibles que se pueden leer durante una duración suficiente. En este sistema, el único dispositivo legalmente relevante es el contador de energía eléctrica. Pueden existir otros dispositivos legalmente no relevantes conectados a la interfaz del instrumento siempre que se cumpla el requisito 5.2.1.1.b. La protección en la transmisión de datos no es necesaria (véase el apartado 5.2.3).\n\n(2) (I)/(II) Un sistema de medida está constituido por los siguientes subconjuntos:\n\n- un sensor digital que calcula el peso o el volumen;\n\n- un ordenador universal que calcula el precio;\n\n- una impresora que imprime el valor de medida y el precio a pagar.\n\nTodos los subconjuntos están conectados por una red de área local. En este caso el sensor digital, el ordenador universal y la impresora constituyen subconjuntos legalmente relevantes y se conectan de forma optional a un sistema de ventas legalmente no relevante. Los subconjuntos legalmente relevantes deben cumplir con el requisito 5.2.1.1.b y —debido a la transmisión a través de la red— también con los requisitos incluidos en el apartado 5.2.3. No existen requisitos sobre el sistema de gestión de ventas.\n\n5. 2.1.1.b Durante el ensayo de modelo, se debe demostrar que los comandos recibidos a través de la interfaz no pueden influir de forma inadmisible en los datos y las funciones relevantes de los subconjuntos y dispositivos electrónicos.\n\nEllo implica la existencia de una asignación inequívoca de cada comando para toda función iniciada, o modificación de datos, en el subconjunto o dispositivo electrónico.\n\nNota: Consúltese el apartado 5.2.3 si los subconjuntos o dispositivos electrónicos «legalmente relevantes» interactuan con otros subconjuntos o dispositivos electrónicos «legalmente relevantes».\n\n<table border=\"1\"><tr><td colspan=\"2\">Ejemplo:</td></tr><tr><td>(1)</td><td>(I)/(II) El software del contador de energía eléctrica (véase el ejemplo(1) del apartado 5.2.1.1.a anterior) puede recibir comandos para seleccionar las magnitudes requeridas. Combina el valor de medida con información adicional —p.ej. registro de fecha y hora, unidad—y remite estos datos al dispositivo solicitante. El software únicamente acepta comandos para seleccionar magnitudes permitidas y válidas, descarta cualquier otro comando remitiendo únicamente un mensaje de error. Pueden existir métodos de protección para el contenido del conjunto de datos pero no es un requisito, pues el conjunto de datos transmitido no está sujeto al control legal.</td></tr><tr><td>(2)</td><td>(I)/(II) En el interior de la carcasa que se puede precintar existe un interrupter que define el modo operativo del contador de energía eléctrica: una posición del interrupter indica el modo verificado y la otra el modo sin verificar(existen métodos de protección distintos al precinto mecánico;véanse los ejemplos de los apartados 5.1.3.2.a/.d).Al interpretar los comandos recibidos el software comprueba la posición del interrupter:en el modo sin verificar,el conjunto de comandos que el software acepta es más amplio en comparación con el modo descrito más arriba;p.ej.se puede ajustar el factor de calibración mediante un comando descartado en el modo verificado.</td></tr></table>"
+        }
+      ],
+      "notes": [],
+      "examples": []
+    }
+  },
+  "languages": [
+    "spa"
+  ]
+}

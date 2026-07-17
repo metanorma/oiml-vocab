@@ -1,0 +1,67 @@
+{
+  "registerId": "vim-2007",
+  "conceptId": "2.49",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2007/concept/2.49",
+  "status": "valid",
+  "designations": {
+    "eng": "measurement function",
+    "fra": "fonction de mesure"
+  },
+  "eng": "measurement function",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measurement function",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "function of *quantities*, the value of which, when calculated using known *quantity values* for the *input quantities in a measurement model*, is a *measured quantity value* of the *output quantity in the measurement model*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "If a *measurement model* stem:[h(Y, X_1, ..., X_n) = 0] can explicitly be written as stem:[Y = f (X_1, ..., X_n)], where stem:[Y] is the output quantity in the measurement model, the function stem:[f] is the measurement function. More generally, stem:[f] may symbolize an algorithm, yielding for input quantity values stem:[x_1, ..., x_n] a corresponding unique output quantity value stem:[y = f (x_1, ..., x_n)]."
+        },
+        {
+          "content": "A measurement function is also used to calculate the *measurement uncertainty* associated with the measured quantity value of stem:[Y]."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "fonction de mesure",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "fonction de *grandeurs*, dont la valeur, lorsqu'elle est calculée en utilisant des *valeurs* connues pour les *grandeurs d'entrée dans le modèle de mesure*, est une *valeur mesurée* de la *grandeur de sortie dans le modèle de mesure*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Si un *modèle de mesure* stem:[h(Y, X_1, ..., X_n) = 0] peut être écrit explicitement sous la forme stem:[Y = f (X_1, ..., X_n)], où stem:[Y] est la grandeur de sortie dans le modèle de mesure, la fonction stem:[f] est la fonction de mesure. Plus généralement, stem:[f] peut symboliser un algorithme qui fournit, pour les valeurs d'entrée stem:[x_1, ..., x_n], une valeur de sortie unique correspondante stem:[y = f (x_1, ..., x_n)]."
+        },
+        {
+          "content": "On utilise aussi une fonction de mesure pour calculer l'*incertitude de mesure* associée à la valeur mesurée de stem:[Y]."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

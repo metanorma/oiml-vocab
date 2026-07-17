@@ -1,0 +1,85 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "2.14",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/2.14",
+  "status": "valid",
+  "designations": {
+    "eng": "measurement trueness",
+    "fra": "justesse de mesure"
+  },
+  "eng": "measurement trueness",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measurement trueness",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "trueness of measurement",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "trueness",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "closeness of agreement between the average of an infinite number of replicate *measured quantity values* and a {{5.18,reference quantity value}}"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Measurement trueness is not a {{1.1,quantity}} and thus cannot be expressed numerically, but measures for closeness of agreement are given in ISO 5725."
+        },
+        {
+          "content": "Measurement trueness is inversely related to *systematic measurement error*, but is not related to *random measurement error*."
+        },
+        {
+          "content": "\"Measurement accuracy\" should not be used for 'measurement trueness'."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "justesse de mesure",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "justesse",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "étroitesse de l'accord entre la moyenne d'un nombre infini de *valeurs mesurées* répétées et une *valeur de référence*"
+        }
+      ],
+      "notes": [
+        {
+          "content": "La justesse de mesure n'est pas une {{1.1,grandeur}} et ne peut donc pas s'exprimer numériquement, mais l'ISO 5725 donne des caractéristiques pour l'étroitesse de l'accord."
+        },
+        {
+          "content": "La justesse de mesure varie en sens inverse de l'{{2.17,erreur systématique}} mais n'est pas liée à l'{{2.19,erreur aléatoire}}."
+        },
+        {
+          "content": "Il convient de ne pas utiliser « exactitude de mesure » pour la justesse de mesure."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

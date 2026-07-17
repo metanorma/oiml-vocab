@@ -1,0 +1,39 @@
+{
+  "registerId": "oiml-complete",
+  "conceptId": "r76-2006-34",
+  "uri": "https://oimlsmart.github.io/vocab/oiml-complete/concept/r76-2006-34",
+  "status": "valid",
+  "designations": {
+    "fra": "Power supply"
+  },
+  "eng": "Power supply",
+  "groups": [
+    "r-76"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Power supply",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "An instrument shall comply with the metrological requirements, if the voltage of the power supply differs from the nominal voltage, $ U_{\\mathrm{nom}} $ , or from the voltage range, $ U_{\\mathrm{min}} $ $ U_{\\mathrm{max}} $ , of the instrument, at:\n\n- Public mains power (AC):\n\nlower limit=0.85 $ U_{\\mathrm{nom}} $ or 0.85 $ U_{\\mathrm{min}} $\n\n$$\n\\text {u p p e r l i m i t} = 1. 1 0 U _ {\\mathrm {n o m}} \\text {o r} 1. 1 0 U _ {\\max }\n$$\n\n- External or plug-in power supply device (AC or DC), including rechargeable battery power supply if (re)charge of batteries during the operation of the instrument is possible:\n\nlower limit=minimum operating voltage\n\n$$\n\\text {u p p e r l i m i t} = 1. 2 0 U _ {\\mathrm {n o m}} \\text {o r} 1. 2 0 U _ {\\max }\n$$\n\n- Non-rechargeable battery power supply (DC), including rechargeable battery power supply if (re)charge of batteries during the operation of the instrument is not possible:\n\nlower limit=minimum operating voltage\n\n$$\n\\mathrm {u p p e r l i m i t} = U _ {\\mathrm {n o m}} \\mathrm {o r} U _ {\\mathrm {m a x}}\n$$\n\n- 12 V or 24 V road vehicle battery power supply:\n\nlower limit = minimum operating voltage\n\n$$\n\\mathrm {u p p e r l i m i t} = 1 6 \\mathrm {V} (1 2 \\mathrm {V b a t t e r y}) \\mathrm {o r} 3 2 \\mathrm {V} (2 4 \\mathrm {V b a t t e r y})\n$$"
+        }
+      ],
+      "notes": [
+        {
+          "content": "The minimum operating voltage is defined as the lowest possible operating voltage before the instrument is automatically switched off.\n\nBattery-powered electronic instruments and instruments with an external or plug-in power supply device (AC or DC) shall either continue to function correctly or not indicate any weight values if the voltage is below the manufacturer's specified value, the latter being larger or equal to the minimum operating voltage."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

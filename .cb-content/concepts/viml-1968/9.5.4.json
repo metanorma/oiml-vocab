@@ -1,0 +1,43 @@
+{
+  "registerId": "viml-1968",
+  "conceptId": "9.5.4",
+  "uri": "https://oimlsmart.github.io/vocab/viml-1968/concept/9.5.4",
+  "status": "valid",
+  "designations": {
+    "fra": "Facteur de correction de justesse"
+  },
+  "eng": "Facteur de correction de justesse",
+  "groups": [
+    "9"
+  ],
+  "tags": [],
+  "localizations": {
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "Facteur de correction de justesse",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Facteur par lequel on doit multiplier l'indication de l'instrument de mesurage pour la corriger de l'erreur de justesse."
+        }
+      ],
+      "notes": [
+        {
+          "content": "En général, le facteur de correction a une valeur variable le long de l'étendue de mesure. Toutefois, dans certains cas, il peut avoir une valeur constante par exemple : lorsque la correction est nécessité par un changement de la densité du liquide d'un manomètre à liquide ; dans le cas des compteurs lorsque la valeur de la charge est constante ou peu variable."
+        }
+      ],
+      "examples": [
+        {
+          "content": "Si l'indication d'un compteur d'énergie électrique, fonctionnant à intensité constante ou peu variable, est 52,3 kWh et si le facteur de correction est 1,01 : la valeur conventionnellement vrale de l'énergie déblitée dans le circuit mesuré est 52,3.1,01 = 52,8 kWh."
+        }
+      ]
+    }
+  },
+  "languages": [
+    "fra"
+  ]
+}

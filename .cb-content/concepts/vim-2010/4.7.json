@@ -1,0 +1,71 @@
+{
+  "registerId": "vim-2010",
+  "conceptId": "4.7",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2010/concept/4.7",
+  "status": "valid",
+  "designations": {
+    "eng": "measuring interval",
+    "fra": "intervalle de mesure"
+  },
+  "eng": "measuring interval",
+  "groups": [
+    "4"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "measuring interval",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "working interval",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "set of *values* of *quantities* of the same {{1.2,kind}} that can be measured by a given {{3.1,measuring instrument}} or {{3.2,measuring system}} with specified *instrumental measurement uncertainty*, under defined conditions"
+        }
+      ],
+      "notes": [
+        {
+          "content": "In some fields the term is \"measuring range\" or \"measurement range\"."
+        },
+        {
+          "content": "The lower limit of a measuring interval should not be confused with {{4.18,detection limit}}."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "intervalle de mesure",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "ensemble des *valeurs* de *grandeurs* d'une même {{1.2,nature}}, qu'un *instrument de mesure* ou un *système de mesure* donné peut mesurer avec une *incertitude instrumentale* spécifiée, dans des conditions déterminées"
+        }
+      ],
+      "notes": [
+        {
+          "content": "Dans certains domaines, le terme anglais est « measuring range » ou « measurement range ». En français, le terme « {{4.5,étendue de mesure}} » est parfois improprement employé."
+        },
+        {
+          "content": "Il convient de ne pas confondre la limite inférieure d'un intervalle de mesure avec la {{4.18,limite de détection}}."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

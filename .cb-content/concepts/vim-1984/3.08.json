@@ -1,0 +1,73 @@
+{
+  "registerId": "vim-1984",
+  "conceptId": "3.08",
+  "uri": "https://oimlsmart.github.io/vocab/vim-1984/concept/3.08",
+  "status": "valid",
+  "designations": {
+    "eng": "experimental standard deviation",
+    "fra": "écart-type expérimental"
+  },
+  "eng": "experimental standard deviation",
+  "groups": [
+    "3"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "experimental standard deviation",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "For a series of n measurements of the same measurand, the parameter s\ncharacterizing the dispersion of the results and given by the formula:\n\ns = sqrt((sum_(i=1)^n (x_i - bar x)^2)/(n - 1))\n\nx_i being the result of the ith measurement and bar x being the arithmetic\nmean of the n results considered."
+        }
+      ],
+      "notes": [
+        {
+          "content": "The experimental standard deviation should not be confused with the\npopulation standard deviation sigma of a population of size N and of mean\nm, given by the formula:\n\nsigma = sqrt((sum_(i=1)^N (x_i - m)^2)/N)"
+        },
+        {
+          "content": "Considering the series of n measurements as a sample of a population, s is an estimate of the population standard deviation."
+        },
+        {
+          "content": "The expression s/sqrt(n) provides an estimate of the standard deviation of the arithmetic mean bar x with respect to the mean m of the overall population. The expression s/sqrt(n) is called the experimental standard deviation of the mean."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "écart-type expérimental",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "Pour une série de n mesurages du même mesurande, paramètre s caractérisant\nla dispersion des résultats, donné par la formule:\n\ns = sqrt((sum_(i=1)^n (x_i - bar x)^2)/(n - 1))\n\nx_i étant le résultat du ième mesurage et bar x la moyenne arithmétique des\nn résultats considérés."
+        }
+      ],
+      "notes": [
+        {
+          "content": "L'écart-type expérimental ne doit pas être confondu avec l'écart-type sigma\nd'une population d'effectif N et de moyenne m, donné par la formule:\n\nsigma = sqrt((sum_(i=1)^N (x_i - m)^2)/N)"
+        },
+        {
+          "content": "En considérant la série de n mesurages comme échantillon d'une population, s est une estimation de l'écart-type de la population."
+        },
+        {
+          "content": "L'expression s/sqrt(n) fournit une estimation de l'écart-type de la moyenne arithmétique bar x par rapport à la moyenne m de la population globale. L'expression s/sqrt(n) est appelée écart-type expérimental de la moyenne."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}

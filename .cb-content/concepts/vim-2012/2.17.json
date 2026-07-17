@@ -1,0 +1,81 @@
+{
+  "registerId": "vim-2012",
+  "conceptId": "2.17",
+  "uri": "https://oimlsmart.github.io/vocab/vim-2012/concept/2.17",
+  "status": "valid",
+  "designations": {
+    "eng": "systematic measurement error",
+    "fra": "erreur systématique"
+  },
+  "eng": "systematic measurement error",
+  "groups": [
+    "2"
+  ],
+  "tags": [],
+  "localizations": {
+    "eng": {
+      "languageCode": "eng",
+      "terms": [
+        {
+          "designation": "systematic measurement error",
+          "normativeStatus": "preferred"
+        },
+        {
+          "designation": "systematic error of measurement",
+          "normativeStatus": "admitted"
+        },
+        {
+          "designation": "systematic error",
+          "normativeStatus": "admitted"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "component of {{2.16,measurement error}} that in replicate {{2.1,measurements}} remains constant or varies in a predictable manner"
+        }
+      ],
+      "notes": [
+        {
+          "content": "A {{5.18,reference quantity value}} for a systematic measurement error is a {{2.11,true quantity value}}, or a {{2.10,measured quantity value}} of a {{5.1,measurement standard}} of negligible {{2.26,measurement uncertainty}}, or a {{2.12,conventional quantity value}}."
+        },
+        {
+          "content": "Systematic measurement error, and its causes, can be known or unknown. A {{2.53,correction}} can be applied to compensate for a known systematic measurement error."
+        },
+        {
+          "content": "Systematic measurement error equals measurement error minus {{2.19,random measurement error}}."
+        }
+      ],
+      "examples": []
+    },
+    "fra": {
+      "languageCode": "fra",
+      "terms": [
+        {
+          "designation": "erreur systématique",
+          "normativeStatus": "preferred"
+        }
+      ],
+      "definitions": [
+        {
+          "content": "composante de l'{{2.16,erreur de mesure}} qui, dans des {{2.1,mesurages}} répétés, demeure constante ou varie de façon prévisible"
+        }
+      ],
+      "notes": [
+        {
+          "content": "La {{5.18,valeur de référence}} pour une erreur systématique est une {{2.11,valeur vraie}}, une {{2.10,valeur mesurée}} d'un {{5.1,étalon}} dont l'{{2.26,incertitude de mesure}} est négligeable, ou une {{2.12,valeur conventionnelle}}."
+        },
+        {
+          "content": "L'erreur systématique et ses causes peuvent être connues ou inconnues. On peut appliquer une {{2.53,correction}} pour compenser une erreur systématique connue."
+        },
+        {
+          "content": "L'erreur systématique est égale à la différence entre l'erreur de mesure et l'{{2.19,erreur aléatoire}}."
+        }
+      ],
+      "examples": []
+    }
+  },
+  "languages": [
+    "eng",
+    "fra"
+  ]
+}
