@@ -10,7 +10,19 @@ data:
 status: valid
 id: f1f4049e-21c3-4db3-af81-e730067afffd
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '1.1'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '1.28'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '2.6'
 ---
 data:
   dates:

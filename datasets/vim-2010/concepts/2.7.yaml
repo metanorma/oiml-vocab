@@ -10,7 +10,15 @@ data:
 status: valid
 id: e852804b-d407-4f43-b01b-8c632e732e0d
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '2.6'
+- type: broader_generic
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '2.8'
 ---
 data:
   dates:

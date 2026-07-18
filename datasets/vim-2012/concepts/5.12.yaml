@@ -11,7 +11,23 @@ data:
 status: valid
 id: 54603038-099e-46b4-98aa-456bccbb9260
 schema_version: '3'
-related: []
+related:
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.39'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.42'
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
 ---
 data:
   dates:

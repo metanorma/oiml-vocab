@@ -11,7 +11,19 @@ data:
 status: valid
 id: cba974dd-6c2d-4ac4-8edc-7dea3ede5f26
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.19'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.10'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.18'
 ---
 data:
   dates:

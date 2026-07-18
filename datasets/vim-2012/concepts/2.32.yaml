@@ -11,7 +11,19 @@ data:
 status: valid
 id: e31af1a8-301d-4db2-89f6-02704dc97ab1
 schema_version: '3'
-related: []
+related:
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.10'
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.26'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.30'
 ---
 data:
   dates:

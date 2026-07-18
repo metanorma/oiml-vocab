@@ -11,7 +11,19 @@ data:
 status: valid
 id: e91810ed-30f2-4369-8fba-58d87129cdf1
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '4.3'
+- type: narrower_partitive
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '4.3'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '4.5'
 ---
 data:
   dates:

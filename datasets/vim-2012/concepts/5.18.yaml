@@ -11,7 +11,31 @@ data:
 status: valid
 id: 2cb8abf7-7a23-4329-a7da-35e840f63d05
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.19'
+- type: narrower_partitive
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.10'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.14'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.18'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.26'
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.16'
 ---
 data:
   dates:

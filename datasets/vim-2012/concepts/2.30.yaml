@@ -11,7 +11,19 @@ data:
 status: valid
 id: 71626698-9062-49d2-bf99-4766ef21daca
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.26'
+- type: broader_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.31'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.32'
 ---
 data:
   dates:

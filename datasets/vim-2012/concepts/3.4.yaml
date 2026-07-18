@@ -11,7 +11,15 @@ data:
 status: valid
 id: e02b1de0-2365-4589-8739-278cdbf7d87e
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '3.3'
+- type: broader_partitive
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '3.5'
 ---
 data:
   dates:
