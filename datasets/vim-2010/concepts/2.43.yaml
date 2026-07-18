@@ -10,7 +10,19 @@ data:
 status: valid
 id: 609b2384-5c22-4098-ac59-cc54c6379730
 schema_version: '3'
-related: []
+related:
+- type: broader_generic
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '2.41'
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '2.41'
+- type: narrower_partitive
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '2.41'
 ---
 data:
   dates:

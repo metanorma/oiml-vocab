@@ -11,7 +11,15 @@ data:
 status: valid
 id: 994c0f66-f616-462e-9499-2d39f1e192f8
 schema_version: '3'
-related: []
+related:
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.15'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.22'
 ---
 data:
   dates:

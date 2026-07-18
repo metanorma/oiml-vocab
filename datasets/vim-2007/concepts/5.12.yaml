@@ -10,7 +10,31 @@ data:
 status: valid
 id: eab86503-c956-41d1-9342-efe486e6aac2
 schema_version: '3'
-related: []
+related:
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '1.19'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '2.26'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '2.39'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '2.42'
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '5.1'
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '5.1'
 ---
 data:
   dates:

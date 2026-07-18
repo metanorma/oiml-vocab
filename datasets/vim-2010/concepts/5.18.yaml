@@ -10,7 +10,15 @@ data:
 status: valid
 id: fb653215-3c3d-434d-aa25-fa4a732b29e3
 schema_version: '3'
-related: []
+related:
+- type: related_concept
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '2.27'
+- type: narrower_generic
+  ref:
+    source: urn:oiml:pub:v:2:2010
+    id: '5.16'
 ---
 data:
   dates:
