@@ -11,14 +11,6 @@ status: valid
 id: b7e5a86c-130f-42ba-aa97-c052aaee33eb
 schema_version: '3'
 related:
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2010
-    id: '2.39'
-- type: narrower_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2010
-    id: '2.39'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2010
@@ -27,22 +19,32 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2010
     id: '2.42'
-- type: broader_partitive
+- type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2010
     id: '3.1'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2010
-    id: '3.1'
-- type: broader_partitive
+    id: '3.2'
+- type: has_part
   ref:
     source: urn:oiml:pub:v:2:2010
-    id: '3.2'
-- type: related_concept
-  ref:
+    id: '2.39'
+partitive_relations:
+- comprehensive:
     source: urn:oiml:pub:v:2:2010
-    id: '3.2'
+    id: '2.40'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2010
+      id: '3.1'
+  - ref:
+      source: urn:oiml:pub:v:2:2010
+      id: '3.2'
+  plurality:
+    is_shared: true
+    is_uncertain: true
 ---
 data:
   dates:

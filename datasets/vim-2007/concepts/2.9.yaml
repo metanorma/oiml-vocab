@@ -15,22 +15,10 @@ related:
   ref:
     source: urn:oiml:pub:v:2:1993
     id: '3.1'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2007
-    id: '1.19'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2007
     id: '2.1'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2007
-    id: '2.10'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2007
-    id: '2.26'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2007
@@ -71,6 +59,31 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2007
     id: '4.30'
+- type: has_part
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '1.19'
+partitive_relations:
+- comprehensive:
+    source: urn:oiml:pub:v:2:2007
+    id: '2.9'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '2.10'
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '2.26'
+- comprehensive:
+    source: urn:oiml:pub:v:2:2007
+    id: '2.9'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '1.19'
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '2.26'
 ---
 data:
   dates:

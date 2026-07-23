@@ -16,26 +16,10 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2007
     id: '2.9'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2012
-    id: '1.19'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2012
-    id: '1.9'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '2.1'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2012
-    id: '2.10'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2012
-    id: '2.26'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2012
@@ -84,6 +68,42 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '4.30'
+- type: has_part
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.19'
+- type: has_part
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.26'
+- type: has_part
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.10'
+partitive_relations:
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.9'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.9'
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.10'
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.26'
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.9'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.26'
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.10'
 ---
 data:
   dates:
