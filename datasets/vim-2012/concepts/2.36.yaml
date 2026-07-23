@@ -12,10 +12,6 @@ status: valid
 id: 379270a8-c0d1-45e5-8dd2-0efe05c01d99
 schema_version: '3'
 related:
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2012
-    id: '2.11'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2012
@@ -28,6 +24,10 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '2.38'
+- type: has_part
+  ref:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.11'
 ---
 data:
   dates:

@@ -11,14 +11,14 @@ status: valid
 id: ff115a2a-2fb9-4e42-a2ad-8b12a7911671
 schema_version: '3'
 related:
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2007
-    id: '2.11'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2007
     id: '2.37'
+- type: has_part
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '2.11'
 ---
 data:
   dates:

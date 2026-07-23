@@ -15,14 +15,6 @@ related:
   ref:
     source: urn:oiml:pub:v:2:1993
     id: '1.9'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2007
-    id: '1.10'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2007
-    id: '1.11'
 - type: broader_generic
   ref:
     source: urn:oiml:pub:v:2:2007
@@ -31,14 +23,26 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2007
     id: '1.16'
-- type: broader_partitive
-  ref:
+partitive_relations:
+- comprehensive:
     source: urn:oiml:pub:v:2:2007
-    id: '1.17'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2007
-    id: '1.18'
+    id: '1.13'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '1.17'
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '1.18'
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '1.10'
+  - ref:
+      source: urn:oiml:pub:v:2:2007
+      id: '1.11'
+  plurality:
+    is_shared: true
+    is_uncertain: false
 ---
 data:
   dates:

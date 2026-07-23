@@ -15,22 +15,27 @@ related:
   ref:
     source: urn:oiml:pub:v:2:1993
     id: '1.2'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2010
-    id: '1.22'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2010
-    id: '1.4'
-- type: broader_partitive
-  ref:
-    source: urn:oiml:pub:v:2:2010
-    id: '1.5'
 - type: related_concept
   ref:
     source: urn:oiml:pub:v:2:2010
     id: '1.7'
+partitive_relations:
+- comprehensive:
+    source: urn:oiml:pub:v:2:2010
+    id: '1.3'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2010
+      id: '1.22'
+  - ref:
+      source: urn:oiml:pub:v:2:2010
+      id: '1.4'
+  - ref:
+      source: urn:oiml:pub:v:2:2010
+      id: '1.5'
+  plurality:
+    is_shared: true
+    is_uncertain: true
 ---
 data:
   dates:
