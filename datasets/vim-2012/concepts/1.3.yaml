@@ -32,15 +32,15 @@ partitive_relations:
   - ref:
       source: urn:oiml:pub:v:2:2012
       id: '1.22'
+    multiplicity: compulsory_at_least_one
   - ref:
       source: urn:oiml:pub:v:2:2012
       id: '1.4'
+    multiplicity: compulsory_multiple
   - ref:
       source: urn:oiml:pub:v:2:2012
       id: '1.5'
-  plurality:
-    is_shared: true
-    is_uncertain: true
+    multiplicity: compulsory_at_least_one
 ---
 data:
   dates:
