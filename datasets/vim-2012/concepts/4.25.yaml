@@ -20,6 +20,21 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '3.1'
+partitive_relations:
+# Group 1 — an accuracy class covers measuring instruments and measuring systems.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '4.25'
+  partitives:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '3.1'
+    multiplicity: compulsory_multiple
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '3.2'
+    multiplicity: compulsory_multiple
+  completeness: partial
 ---
 data:
   dates:

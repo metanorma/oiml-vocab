@@ -64,6 +64,40 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '1.20'
+generic_relations:
+# Group 1 — kinds of quantity value (true, measured, conventional).
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.19'
+  criterion:
+    eng: by epistemic status of the value
+    fra: selon le statut épistémique de la valeur
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.11'
+    delimiting_characteristic:
+      eng: true quantity value
+      fra: valeur vraie d'une grandeur
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.10'
+    delimiting_characteristic:
+      eng: measured quantity value
+      fra: valeur mesurée d'une grandeur
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.12'
+    delimiting_characteristic:
+      eng: conventional quantity value
+      fra: valeur conventionnelle d'une grandeur
+    presence: required
+    count: at_least_one
+  completeness: partial
 ---
 data:
   dates:
