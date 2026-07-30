@@ -40,6 +40,45 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '1.24'
+generic_relations:
+# Group 2 — measurement units organized by magnitude relationship to a
+# reference unit (multiples, submultiples, coherent derived units).
+# Group 1 from the source (off-system vs in-system) is omitted because
+# the "in-system measurement unit" coordinate concept has no assigned
+# identifier in V 2-200:2012; encoding a single-member hyperedge would
+# violate ISO 704's ≥2-member requirement.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.9'
+  criterion:
+    eng: by magnitude relationship to a reference measurement unit
+    fra: selon la relation de grandeur par rapport à une unité de mesure de référence
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.17'
+    delimiting_characteristic:
+      eng: multiple of a unit
+      fra: multiple d'une unité
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.18'
+    delimiting_characteristic:
+      eng: submultiple of a unit
+      fra: sous-multiple d'une unité
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.12'
+    delimiting_characteristic:
+      eng: coherent derived unit
+      fra: unité dérivée cohérente
+    presence: required
+    count: at_least_one
+  completeness: partial
 ---
 data:
   dates:

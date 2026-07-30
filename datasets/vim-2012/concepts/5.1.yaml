@@ -100,6 +100,114 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '5.9'
+generic_relations:
+# Group 1 — measurement standards that are objects/materials.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
+  criterion:
+    eng: standards realized as a material object or system
+    fra: étalons réalisés en tant qu'objet matériel ou système
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.13'
+    delimiting_characteristic:
+      eng: reference material
+      fra: matériau de référence
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '3.2'
+    delimiting_characteristic:
+      eng: measuring system
+      fra: système de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '3.6'
+    delimiting_characteristic:
+      eng: material measure
+      fra: mesure matérialisée
+    presence: required
+    count: at_least_one
+  completeness: partial
+# Group 3 — standards by geographic scope (international, national).
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
+  criterion:
+    eng: by geographic/regulatory scope of recognition
+    fra: selon la portée géographique ou réglementaire de reconnaissance
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.2'
+    delimiting_characteristic:
+      eng: international measurement standard
+      fra: étalon de mesure international
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.3'
+    delimiting_characteristic:
+      eng: national measurement standard
+      fra: étalon de mesure national
+    presence: required
+    count: at_least_one
+  completeness: partial
+# Group 6 — standards by role in the calibration hierarchy.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
+  criterion:
+    eng: by role in the calibration hierarchy
+    fra: selon le rôle dans la hiérarchie d'étalonnage
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.6'
+    delimiting_characteristic:
+      eng: reference measurement standard
+      fra: étalon de référence
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.7'
+    delimiting_characteristic:
+      eng: working measurement standard
+      fra: étalon de travail
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.8'
+    delimiting_characteristic:
+      eng: travelling measurement standard
+      fra: étalon voyageur
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.9'
+    delimiting_characteristic:
+      eng: transfer measurement device
+      fra: dispositif de transfert de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.10'
+    delimiting_characteristic:
+      eng: intrinsic measurement standard
+      fra: étalon intrinsèque
+    presence: required
+    count: at_least_one
+  completeness: partial
 ---
 data:
   dates:
