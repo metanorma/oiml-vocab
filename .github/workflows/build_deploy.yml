@@ -43,6 +43,15 @@ jobs:
       - name: Install dependencies
         run: npm install --omit=dev
 
+      - name: Checkout the shell package (the chrome SSOT)
+        uses: actions/checkout@v4
+        with:
+          repository: oimlsmart/site-shell
+          path: vendor/site-shell
+
+      - name: Install the chrome fixture's dependencies
+        run: npm run chrome:setup
+
       - name: Build site
         run: npm run build
         env:
