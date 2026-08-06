@@ -7,7 +7,7 @@
     "dev": "npm run generate && BASE_PATH=/vocab/ vite --config node_modules/@glossarist/concept-browser/vite.config.ts",
     "preview": "BASE_PATH=/vocab/ vite preview --config node_modules/@glossarist/concept-browser/vite.config.ts",
     "chrome:setup": "npm --prefix vendor/site-shell/test/fixture ci",
-    "chrome": "npm --prefix vendor/site-shell/test/fixture run build && node vendor/site-shell/scripts/export-chrome.mjs && node scripts/apply-chrome.mjs"
+    "chrome": "npm --prefix vendor/site-shell/test/fixture run build && node vendor/site-shell/scripts/export-chrome.mjs && node vendor/site-shell/scripts/apply-chrome.mjs . dist /vocab"
   },
   "dependencies": {
     "@glossarist/concept-browser": "^0.7.104",
