@@ -1,0 +1,183 @@
+---
+data:
+  identifier: ext-precision-condition
+  localized_concepts:
+    eng: aaaaaaaa-0000-5000-8000-000000000001
+    fra: aaaaaaaa-0000-5000-8000-000000000002
+  domains:
+  - concept_id: section-2
+    source: urn:oiml:pub:v:2:2012
+    ref_type: section
+status: external
+id: aaaaaaaa-0000-5000-8000-000000000003
+schema_version: '3'
+generic_relations:
+# Group 1 — condition elements that contribute to precision. The
+# comprehensive and several members are parenthetical (external)
+# concepts in V 2-200:2012; they are encoded inline per ISO 704:2022
+# §5.5.4.3.1.
+- comprehensive:
+    text: precision condition of measurement
+    external: true
+  criterion:
+    eng: by condition element
+    fra: selon l'élément de condition
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.6'
+    delimiting_characteristic:
+      eng: measurement procedure
+      fra: procédure de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      text: operator
+      external: true
+    delimiting_characteristic:
+      eng: operator
+      fra: opérateur
+    presence: optional
+    count: any
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '3.1'
+    delimiting_characteristic:
+      eng: measuring instrument
+      fra: instrument de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '3.2'
+    delimiting_characteristic:
+      eng: measuring system
+      fra: système de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.12'
+    delimiting_characteristic:
+      eng: calibrator
+      fra: étalon de travail de calibration
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.39'
+    delimiting_characteristic:
+      eng: calibration
+      fra: étalonnage
+    presence: required
+    count: at_least_one
+  - ref:
+      text: operating condition
+      external: true
+    delimiting_characteristic:
+      eng: operating condition
+      fra: condition de fonctionnement
+    presence: optional
+    count: any
+  - ref:
+      text: location
+      external: true
+    delimiting_characteristic:
+      eng: location
+      fra: lieu
+    presence: optional
+    count: any
+  - ref:
+      text: replicate measurement
+      external: true
+    delimiting_characteristic:
+      eng: replicate measurement
+      fra: mesurage répété
+    presence: optional
+    count: any
+  - ref:
+      text: duration
+      external: true
+    delimiting_characteristic:
+      eng: duration
+      fra: durée
+    presence: optional
+    count: any
+  - ref:
+      ellipsis: true
+  completeness: partial
+# Group 2 — condition types by precision level.
+- comprehensive:
+    text: precision condition of measurement
+    external: true
+  criterion:
+    eng: by precision type
+    fra: selon le type de fidélité
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.20'
+    delimiting_characteristic:
+      eng: repeatability condition of measurement
+      fra: condition de répétabilité de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.22'
+    delimiting_characteristic:
+      eng: intermediate precision condition of measurement
+      fra: condition de fidélité intermédiaire de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '2.24'
+    delimiting_characteristic:
+      eng: reproducibility condition of measurement
+      fra: condition de reproductibilité de mesure
+    presence: required
+    count: at_least_one
+  completeness: complete
+---
+data:
+  dates:
+  - date: '2026-08-11T00:00:00+00:00'
+    type: accepted
+  definition: []
+  id: ext-precision-condition-eng
+  language_code: eng
+  notes:
+  - content: |-
+      External concept (ISO 704:2022 §5.5.4.3.1). V 2-200:2012 uses this
+      as a parenthetical label for the set of conditions that determine
+      measurement precision. It is referenced from concepts 2.20, 2.22,
+      and 2.24 (repeatability, intermediate precision, reproducibility
+      conditions of measurement).
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: precision condition of measurement
+  entry_status: valid
+date_accepted: '2026-08-11T00:00:00+00:00'
+id: aaaaaaaa-0000-5000-8000-000000000001
+---
+data:
+  dates:
+  - date: '2026-08-11T00:00:00+00:00'
+    type: accepted
+  definition: []
+  id: ext-precision-condition-fra
+  language_code: fra
+  notes:
+  - content: |-
+      Concept externe (ISO 704:2022 §5.5.4.3.1). Le V 2-200:2012
+      l'utilise comme étiquette parenthétique pour l'ensemble des
+      conditions qui déterminent la fidélité de mesure.
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: condition de mesure relative à la fidélité
+  entry_status: valid
+date_accepted: '2026-08-11T00:00:00+00:00'
+id: aaaaaaaa-0000-5000-8000-000000000002

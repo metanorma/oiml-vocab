@@ -41,12 +41,36 @@ related:
     source: urn:oiml:pub:v:2:2012
     id: '1.24'
 generic_relations:
+# Group 1 — measurement units by system membership: off-system units
+# vs units that belong to a system. The "in-system measurement unit"
+# coordinate concept has no assigned identifier in V 2-200:2012 — it
+# is encoded inline as an external concept per ISO 704:2022 §5.5.4.3.1.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.9'
+  criterion:
+    eng: by system membership
+    fra: selon l'appartenance au système
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.15'
+    delimiting_characteristic:
+      eng: off-system measurement unit
+      fra: unité hors système
+    presence: required
+    count: at_least_one
+  - ref:
+      text: in-system measurement unit
+      external: true
+    delimiting_characteristic:
+      eng: in-system measurement unit
+      fra: unité faisant partie du système
+    presence: required
+    count: at_least_one
+  completeness: complete
 # Group 2 — measurement units organized by magnitude relationship to a
 # reference unit (multiples, submultiples, coherent derived units).
-# Group 1 from the source (off-system vs in-system) is omitted because
-# the "in-system measurement unit" coordinate concept has no assigned
-# identifier in V 2-200:2012; encoding a single-member hyperedge would
-# violate ISO 704's ≥2-member requirement.
 - comprehensive:
     source: urn:oiml:pub:v:2:2012
     id: '1.9'

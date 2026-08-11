@@ -97,6 +97,8 @@ generic_relations:
       fra: valeur conventionnelle d'une grandeur
     presence: required
     count: at_least_one
+  - ref:
+      ellipsis: true
   completeness: partial
 ---
 data:

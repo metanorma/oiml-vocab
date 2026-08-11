@@ -133,7 +133,33 @@ generic_relations:
       fra: mesure matérialisée
     presence: required
     count: at_least_one
-  completeness: partial
+  completeness: complete
+# Group 2 — standards by calibration role. The trueness control material
+# is a parenthetical (external) concept in V 2-200:2012.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
+  criterion:
+    eng: by calibration role
+    fra: selon la fonction d'étalonnage
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.12'
+    delimiting_characteristic:
+      eng: calibrator
+      fra: étalon de travail de calibration
+    presence: required
+    count: at_least_one
+  - ref:
+      text: trueness control material
+      external: true
+    delimiting_characteristic:
+      eng: trueness control material
+      fra: matériau de contrôle de la justesse
+    presence: optional
+    count: any
+  completeness: complete
 # Group 3 — standards by geographic scope (international, national).
 - comprehensive:
     source: urn:oiml:pub:v:2:2012
@@ -158,6 +184,46 @@ generic_relations:
       fra: étalon de mesure national
     presence: required
     count: at_least_one
+  - ref:
+      ellipsis: true
+  completeness: partial
+# Group 4 — standards by metrological hierarchy (primary level).
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
+  criterion:
+    eng: by metrological hierarchy
+    fra: selon la hiérarchie métrologique
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.4'
+    delimiting_characteristic:
+      eng: primary measurement standard
+      fra: étalon primaire
+    presence: required
+    count: at_least_one
+  - ref:
+      ellipsis: true
+  completeness: partial
+# Group 5 — standards by derivation chain (secondary level).
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.1'
+  criterion:
+    eng: by derivation chain
+    fra: selon la chaîne de dérivation
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.5'
+    delimiting_characteristic:
+      eng: secondary measurement standard
+      fra: étalon secondaire
+    presence: required
+    count: at_least_one
+  - ref:
+      ellipsis: true
   completeness: partial
 # Group 6 — standards by role in the calibration hierarchy.
 - comprehensive:
