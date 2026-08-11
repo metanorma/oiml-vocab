@@ -44,6 +44,53 @@ partitive_relations:
   plurality:
     is_shared: true
     is_uncertain: true
+generic_relations:
+# Group 1 — systems of units by coherence. The ellipsis indicates
+# further coherent systems exist beyond the SI-coherent one.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.13'
+  criterion:
+    eng: by coherence
+    fra: selon la cohérence
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.14'
+    delimiting_characteristic:
+      eng: coherent system of units
+      fra: système cohérent d'unités
+    presence: required
+    count: at_least_one
+  - ref:
+      ellipsis: true
+  completeness: partial
+# Group 2 — systems of units by recognition. The CGS system is a
+# parenthetical (external) concept in V 2-200:2012.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.13'
+  criterion:
+    eng: by recognition
+    fra: selon la reconnaissance
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.16'
+    delimiting_characteristic:
+      eng: International System of Units
+      fra: Système international d'unités
+    presence: required
+    count: at_least_one
+  - ref:
+      text: CGS system of units
+      external: true
+    delimiting_characteristic:
+      eng: CGS system of units
+      fra: système d'unités CGS
+    presence: optional
+    count: any
+  completeness: complete
 ---
 data:
   dates:

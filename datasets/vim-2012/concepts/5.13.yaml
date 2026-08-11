@@ -28,6 +28,46 @@ related:
   ref:
     source: urn:oiml:pub:v:2:2012
     id: '5.15'
+generic_relations:
+# Group 1 — reference materials by certification status.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.13'
+  criterion:
+    eng: by certification
+    fra: selon la certification
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '5.14'
+    delimiting_characteristic:
+      eng: certified reference material
+      fra: matériau de référence certifié
+    presence: required
+    count: at_least_one
+  - ref:
+      ellipsis: true
+  completeness: partial
+# Group 2 — reference materials by control purpose. The precision
+# control material is a parenthetical (external) concept in V 2-200:2012.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '5.13'
+  criterion:
+    eng: by control purpose
+    fra: selon la fonction de contrôle
+  members:
+  - ref:
+      text: precision control material
+      external: true
+    delimiting_characteristic:
+      eng: precision control material
+      fra: matériau de contrôle de la fidélité
+    presence: optional
+    count: any
+  - ref:
+      ellipsis: true
+  completeness: partial
 ---
 data:
   dates:

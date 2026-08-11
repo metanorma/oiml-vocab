@@ -41,6 +41,27 @@ partitive_relations:
       source: urn:oiml:pub:v:2:2012
       id: '1.5'
     multiplicity: compulsory_at_least_one
+generic_relations:
+# Group 1 — named systems of quantities. The ellipsis indicates further
+# systems exist beyond ISQ.
+- comprehensive:
+    source: urn:oiml:pub:v:2:2012
+    id: '1.3'
+  criterion:
+    eng: by scope
+    fra: selon la portée
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.6'
+    delimiting_characteristic:
+      eng: International System of Quantities
+      fra: Système international de grandeurs
+    presence: required
+    count: at_least_one
+  - ref:
+      ellipsis: true
+  completeness: partial
 ---
 data:
   dates:

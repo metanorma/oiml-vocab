@@ -1,0 +1,117 @@
+---
+data:
+  identifier: ext-quantity-expressed-by-unit
+  localized_concepts:
+    eng: bbbbbbbb-0000-5000-8000-000000000001
+    fra: bbbbbbbb-0000-5000-8000-000000000002
+  domains:
+  - concept_id: section-1
+    source: urn:oiml:pub:v:2:2012
+    ref_type: section
+status: external
+id: bbbbbbbb-0000-5000-8000-000000000003
+schema_version: '3'
+generic_relations:
+# Group 1 — quantities of dimension one (dimensionless quantities).
+- comprehensive:
+    text: quantity expressed by a measurement unit
+    external: true
+  criterion:
+    eng: by dimension
+    fra: selon la dimension
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.8'
+    delimiting_characteristic:
+      eng: quantity of dimension one
+      fra: grandeur sans dimension
+    presence: required
+    count: at_least_one
+  - ref:
+      ellipsis: true
+  completeness: partial
+# Group 2 — quantities by unit relationship.
+- comprehensive:
+    text: quantity expressed by a measurement unit
+    external: true
+  criterion:
+    eng: by unit relationship
+    fra: selon la relation d'unité
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.9'
+    delimiting_characteristic:
+      eng: measurement unit
+      fra: unité de mesure
+    presence: required
+    count: at_least_one
+  - ref:
+      ellipsis: true
+  completeness: partial
+# Group 3 — quantities by type (base vs derived).
+- comprehensive:
+    text: quantity expressed by a measurement unit
+    external: true
+  criterion:
+    eng: by quantity type
+    fra: selon le type de grandeur
+  members:
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.5'
+    delimiting_characteristic:
+      eng: derived quantity
+      fra: grandeur dérivée
+    presence: required
+    count: at_least_one
+  - ref:
+      source: urn:oiml:pub:v:2:2012
+      id: '1.4'
+    delimiting_characteristic:
+      eng: base quantity
+      fra: grandeur de base
+    presence: required
+    count: at_least_one
+  completeness: complete
+---
+data:
+  dates:
+  - date: '2026-08-11T00:00:00+00:00'
+    type: accepted
+  definition: []
+  id: ext-quantity-expressed-by-unit-eng
+  language_code: eng
+  notes:
+  - content: |-
+      External concept (ISO 704:2022 §5.5.4.3.1). V 2-200:2012 uses this
+      parenthetical label for any quantity that can be expressed as a
+      number times a measurement unit.
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: quantity expressed by a measurement unit
+  entry_status: valid
+date_accepted: '2026-08-11T00:00:00+00:00'
+id: bbbbbbbb-0000-5000-8000-000000000001
+---
+data:
+  dates:
+  - date: '2026-08-11T00:00:00+00:00'
+    type: accepted
+  definition: []
+  id: ext-quantity-expressed-by-unit-fra
+  language_code: fra
+  notes:
+  - content: |-
+      Concept externe (ISO 704:2022 §5.5.4.3.1). Le V 2-200:2012
+      utilise cette étiquette parenthétique pour toute grandeur
+      exprimable par un nombre multiplié par une unité de mesure.
+  terms:
+  - type: expression
+    normative_status: admitted
+    designation: grandeur exprimée par une unité de mesure
+  entry_status: valid
+date_accepted: '2026-08-11T00:00:00+00:00'
+id: bbbbbbbb-0000-5000-8000-000000000002
