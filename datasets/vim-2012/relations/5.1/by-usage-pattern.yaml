@@ -1,0 +1,33 @@
+---
+$id: 5.1/by-usage-pattern
+type: generic_relation
+status: valid
+comprehensive:
+  source: urn:oiml:pub:v:2:2012
+  id: '5.1'
+members:
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '5.6' }
+    characteristic:
+      eng: reference measurement standard
+      fra: étalon de référence
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '5.7' }
+    characteristic:
+      eng: working measurement standard
+      fra: étalon de travail
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '5.8' }
+    characteristic:
+      eng: travelling measurement standard
+      fra: étalon voyageur
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '5.9' }
+    characteristic:
+      eng: transfer measurement device
+      fra: dispositif de transfert
+completeness: complete
+criterion:
+  eng: by usage pattern
+  fra: par mode d'utilisation
+sources:
+  - type: authoritative
+    origin:
+      ref: { source: OIML, id: 'V 2-200:2012' }
+      locality: { type: section, reference_from: '5.1' }

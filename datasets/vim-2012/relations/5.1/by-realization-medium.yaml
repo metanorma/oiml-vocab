@@ -1,0 +1,32 @@
+---
+$id: 5.1/by-realization-medium
+type: generic_relation
+status: valid
+comprehensive:
+  source: urn:oiml:pub:v:2:2012
+  id: '5.1'
+members:
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '5.13' }
+    characteristic:
+      eng: reference material
+      fra: matériau de référence
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '3.2' }
+    characteristic:
+      eng: measuring system
+      fra: système de mesure
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '3.6' }
+    characteristic:
+      eng: material measure
+      fra: mesure matérialisée
+completeness: complete
+criterion:
+  eng: by realization medium
+  fra: par milieu de réalisation
+sources:
+  - type: authoritative
+    origin:
+      ref: { source: OIML, id: 'V 2-200:2012' }
+      locality: { type: section, reference_from: '5.1' }
+notes:
+  eng: A measurement standard may be realized through any of these media.
+  fra: Un étalon peut être réalisé par l'un quelconque de ces milieux.

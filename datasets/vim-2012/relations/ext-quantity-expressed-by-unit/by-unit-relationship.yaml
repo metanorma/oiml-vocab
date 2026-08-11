@@ -1,0 +1,23 @@
+---
+$id: ext-quantity-expressed-by-unit/by-unit-relationship
+type: generic_relation
+status: valid
+comprehensive:
+  text: quantity expressed by a measurement unit
+  external: true
+members:
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '1.9' }
+    characteristic:
+      eng: measurement unit
+      fra: unité de mesure
+  - ref:
+      ellipsis: true
+completeness: partial
+criterion:
+  eng: by unit relationship
+  fra: par relation d'unité
+sources:
+  - type: authoritative
+    origin:
+      ref: { source: OIML, id: 'V 2-200:2012' }
+      locality: { type: section, reference_from: '1' }

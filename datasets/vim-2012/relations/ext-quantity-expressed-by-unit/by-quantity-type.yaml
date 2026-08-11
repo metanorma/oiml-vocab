@@ -1,0 +1,25 @@
+---
+$id: ext-quantity-expressed-by-unit/by-quantity-type
+type: generic_relation
+status: valid
+comprehensive:
+  text: quantity expressed by a measurement unit
+  external: true
+members:
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '1.5' }
+    characteristic:
+      eng: derived quantity
+      fra: grandeur dérivée
+  - ref: { source: urn:oiml:pub:v:2:2012, id: '1.4' }
+    characteristic:
+      eng: base quantity
+      fra: grandeur de base
+completeness: complete
+criterion:
+  eng: by quantity type
+  fra: par type de grandeur
+sources:
+  - type: authoritative
+    origin:
+      ref: { source: OIML, id: 'V 2-200:2012' }
+      locality: { type: section, reference_from: '1' }
