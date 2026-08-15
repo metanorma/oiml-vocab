@@ -10,7 +10,7 @@
     "chrome": "npm --prefix vendor/site-shell/test/fixture run build && node vendor/site-shell/scripts/export-chrome.mjs && node vendor/site-shell/scripts/apply-chrome.mjs . dist /vocab"
   },
   "dependencies": {
-    "@glossarist/concept-browser": "^0.7.132",
+    "@glossarist/concept-browser": "^0.7.134",
     "glossarist": "^0.4.57"
   }
 }
