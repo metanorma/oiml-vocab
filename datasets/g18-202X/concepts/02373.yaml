@@ -23,7 +23,16 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'primary external source of electrical power for the instrument, including all sub-assemblies. (Examples: public power network (AC or DC), generator, external battery or other DC supply systems) [adapted from OIML D 11:2004, 3.21]'
+  - content: 'primary external source of electrical power for the instrument, including all sub-assemblies.'
+  examples:
+  - content: 'public power network (AC or DC), generator, external battery or other DC supply systems).'
+    sources:
+    - type: authoritative
+      status: adapted
+      origin:
+        ref:
+          source: 'OIML D 11:2004'
+          id: '3.21'
   id: 02373-eng
   language_code: eng
   sources: []

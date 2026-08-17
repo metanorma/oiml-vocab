@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'the ability of a measuring instrument to provide closely similar indications for repeated applications of the same measurand under the same conditions of measurement [VIM:1993, 5.27]'
+  - content: 'the ability of a measuring instrument to provide closely similar indications for repeated applications of the same measurand under the same conditions of measurement'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.27'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.27'
   id: 01028-eng
   language_code: eng
   sources: []

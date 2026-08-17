@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'test intended to verify whether the equipment under test (EUT) is able to accomplish its intended functions [VIML:2013.5.21]'
+  - content: 'test intended to verify whether the equipment under test (EUT) is able to accomplish its intended functions'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.21'
   id: 03363-eng
   language_code: eng
   sources: []

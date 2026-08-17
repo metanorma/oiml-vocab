@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'interface that enables information to be interchanged between the operator and the measuring instrument or its hardware or software components, e.g. switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window on a screen including the software that generates it [VIML:2013, 6.08]'
+  - content: 'interface that enables information to be interchanged between the operator and the measuring instrument or its hardware or software components, e.g. switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window on a screen including the software that generates it'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '6.08'
   id: 03612-eng
   language_code: eng
   sources: []

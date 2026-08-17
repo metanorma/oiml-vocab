@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'extreme value of an error permitted by specifications, regulations, etc. for a given instrument [VIML:2013 0.05]'
+  - content: 'extreme value of an error permitted by specifications, regulations, etc. for a given instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '0.05'
   id: 03236-eng
   language_code: eng
   sources: []

@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'difference between the highest and lowest results of successive measurements of the same load carried out under the same (or reasonably constant) conditions of measurement [VIM 3.6]'
+  - content: 'difference between the highest and lowest results of successive measurements of the same load carried out under the same (or reasonably constant) conditions of measurement'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '3.6'
   id: 02615-eng
   language_code: eng
   notes:

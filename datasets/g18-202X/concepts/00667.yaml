@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'conditions of use, giving the ranges of the measurand and of the  influence quantities for which the metrological characteristics are intended to lie within the maximum permissible errors specified in this Recommendation [VIM:1993, 5.5]'
+  - content: 'conditions of use, giving the ranges of the measurand and of the  influence quantities for which the metrological characteristics are intended to lie within the maximum permissible errors specified in this Recommendation'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.5'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.5'
   id: 00667-eng
   language_code: eng
   sources: []

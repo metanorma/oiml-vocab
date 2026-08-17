@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'difference between the intrinsic error after a period of use and the initial intrinsic error of a measuring instrument [VIML:2013, 5.16]'
+  - content: 'difference between the intrinsic error after a period of use and the initial intrinsic error of a measuring instrument'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.16'
   id: 03017-eng
   language_code: eng
   sources: []

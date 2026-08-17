@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'quantity value used as a basis for comparison with values of quantities of the same kind [VIM:2007, 5.18]'
+  - content: 'quantity value used as a basis for comparison with values of quantities of the same kind'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '5.18'
   id: 02350-eng
   language_code: eng
   sources: []

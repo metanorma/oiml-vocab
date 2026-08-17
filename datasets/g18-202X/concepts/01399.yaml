@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'conditions of use for which specified metrological characteristics of an instrument are intended to lie within given limits [VIM: 1993, 5.5]'
+  - content: 'conditions of use for which specified metrological characteristics of an instrument are intended to lie within given limits'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.5'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.5'
   id: 01399-eng
   language_code: eng
   notes:

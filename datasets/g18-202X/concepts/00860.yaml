@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'error of a measuring instrument, determined under reference conditions [VIM:1993, 5.24].'
+  - content: 'error of a measuring instrument, determined under reference conditions .'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.24'
   id: 00860-eng
   language_code: eng
   sources: []

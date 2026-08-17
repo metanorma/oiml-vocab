@@ -23,14 +23,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'extreme value of an error permitted by specifications or regulations between the indication of a weighing instrument and the corresponding true value, as determined by reference standard masses or standard weights, with the instrument being at zero and no load, in the reference position [Adapted from VIM 5.21]'
+  - content: 'extreme value of an error permitted by specifications or regulations between the indication of a weighing instrument and the corresponding true value, as determined by reference standard masses or standard weights, with the instrument being at zero and no load, in the reference position'
+    sources:
+    - type: authoritative
+      status: adapted
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.21'
   id: 02610-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'maximum permissible error, mpe'
+    designation: maximum permissible error
+  - type: abbreviation
+    normative_status: preferred
+    designation: MPE
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'
