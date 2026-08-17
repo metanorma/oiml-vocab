@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'the result of a measurement minus the (conventional) true value of the measurand [VIM:1993, 3.10]'
+  - content: 'the result of a measurement minus the (conventional) true value of the measurand'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '3.10'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '3.10'
   id: 01638-eng
   language_code: eng
   sources: []

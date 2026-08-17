@@ -214,6 +214,22 @@ class DatasetValidator
         end
         sources << src if src && src.is_a?(String)
       end
+      # Sources may also be attached to individual definition / example /
+      # note entries (glossarist v3 per-item provenance).
+      %w[definition examples notes].each do |key|
+        (data[key] || []).each do |entry|
+          next unless entry.is_a?(Hash)
+          entry_src = entry["sources"]
+          next unless entry_src.is_a?(Array)
+          entry_src.each do |s|
+            next unless s.is_a?(Hash)
+            origin = s["origin"]
+            ref = origin.is_a?(Hash) ? origin["ref"] : nil
+            src = ref.is_a?(Hash) ? ref["source"] : ref
+            sources << src if src && src.is_a?(String)
+          end
+        end
+      end
     end
     collect_from.call(managed.is_a?(Hash) ? managed["data"] : nil)
     localized.each { |loc| collect_from.call(loc.is_a?(Hash) ? loc["data"] : nil) }

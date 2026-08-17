@@ -23,7 +23,13 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'difference between the largest and the smallest results of the several successive measurements of the same quantity carried out under the same repeatability condition 1 1 OIMLV 2-200:2012'
+  - content: 'difference between the largest and the smallest results of the several successive measurements of the same quantity carried out under the same repeatability condition'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2012'
   id: 03456-eng
   language_code: eng
   sources: []

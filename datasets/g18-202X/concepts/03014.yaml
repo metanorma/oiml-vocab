@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'ability of an instrument to maintain its performance characteristics over a period of use [VIML:2013, 5.15]'
+  - content: 'ability of an instrument to maintain its performance characteristics over a period of use'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '5.15'
   id: 03014-eng
   language_code: eng
   sources: []

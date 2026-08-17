@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'quantity that is not the measurand but that affects the result of the measurement [VIM:1993, 2.7]'
+  - content: 'quantity that is not the measurand but that affects the result of the measurement'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '2.7'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '2.7'
   id: 00856-eng
   language_code: eng
   sources: []

@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'set of specified values of influence factors fixed to ensure valid intercomparison of the results of measurements [VIM:1993, 5.7]'
+  - content: 'set of specified values of influence factors fixed to ensure valid intercomparison of the results of measurements'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.7'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '5.7'
   id: 01919-eng
   language_code: eng
   sources: []

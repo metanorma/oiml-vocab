@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'value attributed to a particular quantity (e.g. area of leather) and accepted, by convention, as having an uncertainty appropriate for a given purpose [VIM:1993, 1.20]'
+  - content: 'value attributed to a particular quantity (e.g. area of leather) and accepted, by convention, as having an uncertainty appropriate for a given purpose'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '1.20'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '1.20'
   id: 01888-eng
   language_code: eng
   sources: []

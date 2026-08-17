@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'sequence of readable characters (e.g. version number, checksum) that is inextricably linked to the software or software module under consideration. It can be checked on an instrument whilst in use [VIML:2013, 6.01]'
+  - content: 'sequence of readable characters (e.g. version number, checksum) that is inextricably linked to the software or software module under consideration. It can be checked on an instrument whilst in use'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '6.01'
   id: 03519-eng
   language_code: eng
   sources: []

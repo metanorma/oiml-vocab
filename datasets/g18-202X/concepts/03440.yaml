@@ -23,14 +23,24 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'measurement standard designated for the calibration of other measurement standards for quantities of given kind in a given organization or at given location [VIM3, 5.6]'
+  - content: 'measurement standard designated for the calibration of other measurement standards for quantities of given kind in a given organization or at given location'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '5.6'
   id: 03440-eng
   language_code: eng
   sources: []
   terms:
   - type: expression
     normative_status: preferred
-    designation: 'reference measurement standard reference standard'
+    designation: reference measurement standard
+  - type: expression
+    normative_status: admitted
+    designation: reference standard
 language_code: eng
 entry_status: valid
 date_accepted: '2026-01-01T00:00:00+00:00'

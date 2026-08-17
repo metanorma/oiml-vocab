@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'attribute of any devoice, intrumnet, function or software that may influence the measurement result or any other primary indication [VIML:2013, 4.03]'
+  - content: 'attribute of any devoice, intrumnet, function or software that may influence the measurement result or any other primary indication'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 1:2013'
+          id: '4.03'
   id: 03298-eng
   language_code: eng
   sources: []

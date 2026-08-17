@@ -23,7 +23,21 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device intended to be used to make measurements, alone or in  conjunction with supplementary device(s) [VIM:1993, 4.1]'
+  - content: 'device intended to be used to make measurements, alone or in  conjunction with supplementary device(s)'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '4.1'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2:1993'
+          id: '4.1'
   id: 01881-eng
   language_code: eng
   sources: []

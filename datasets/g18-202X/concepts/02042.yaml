@@ -23,7 +23,14 @@ data:
   - date: '2026-01-01T00:00:00+00:00'
     type: accepted
   definition:
-  - content: 'device that provides an output quantity having a determined relationship to the input quantity [VIM:2007, 3.7]'
+  - content: 'device that provides an output quantity having a determined relationship to the input quantity'
+    sources:
+    - type: authoritative
+      status: identical
+      origin:
+        ref:
+          source: 'OIML V 2-200:2007'
+          id: '3.7'
   id: 02042-eng
   language_code: eng
   sources: []
